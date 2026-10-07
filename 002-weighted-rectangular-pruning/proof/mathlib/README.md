@@ -6,6 +6,10 @@ The exact threshold is `min x (min y (x + y - z))`. The file proves both feasibi
 
 It further proves **for every real `K ≥ 0`** the existence of two strictly positive coordinate-weight systems whose summed pair costs fail both the cover bound with coefficient K and the pruning bound with coefficient K. The final theorem `no_uniform_constant_positive_systems` includes the actual coordinate systems and summed-cost construction, and quantifies over every cover and every conflict-free pruning. It uses a positive real witness `ε = (4 * (K + 1))⁻¹`; the written proof in `../../boundary.md` additionally chooses rational coordinate weights using an integer larger than K.
 
+`RationalObstruction.lean` now formalizes that strengthening: for every real K it constructs an actual positive `q : ℚ`, using an integer `n > K` and `q = 1/(4n)`, and proves failure for all covers and all feasible prunings of the two actual systems with coordinates q and one. The proof compiled successfully and uses only the same standard three axioms.
+
+`ExactObstructionRatios.lean` proves both critical coefficients, including equality, for every real `ε > 0` and arbitrary real K. Cover feasibility is exactly `(1+ε)^2/(4ε) ≤ K`; pruning feasibility is exactly `(1+ε^2)/(2ε) ≤ K`. Their difference is `(1-ε)^2/(4ε)`, so the cover coefficient never exceeds the pruning coefficient. The final statement uses the actual two-system product-cost construction. All six audits report only the standard three axioms.
+
 The source compiled successfully with Lean 4.34.1 and pinned Mathlib, and every printed axiom audit lists only `propext`, `Classical.choice` and `Quot.sound`. No `sorry`, added axioms or `native_decide` are used. This is a full formal proof of the single-conflict classifications and unbounded obstruction, rather than a numerical test. The general rectangular rank/pruning theorem remains outside this file.
 
 ## Replay
@@ -13,8 +17,12 @@ The source compiled successfully with Lean 4.34.1 and pinned Mathlib, and every 
 From this directory:
 
 ```sh
-lake exe cache get Mathlib/Basic/Real/Basic.lean Mathlib/Tactic/Linarith.lean Mathlib/Tactic/NormNum.lean Mathlib/Tactic/Ring.lean
-lake env lean SingleConflictReal.lean
+lake exe cache get Mathlib/Basic/Real/Basic.lean Mathlib/Tactic/Linarith.lean Mathlib/Tactic/NormNum.lean Mathlib/Tactic/Ring.lean Mathlib/Tactic/FieldSimp.lean Mathlib/Algebra/Order/Archimedean/Real/Basic.lean
+lake env lean -o SingleConflictReal.olean SingleConflictReal.lean
+LEAN_PATH=. lake env lean RationalObstruction.lean
+LEAN_PATH=. lake env lean ExactObstructionRatios.lean
 ```
+
+In PowerShell, set `$env:LEAN_PATH = (Get-Location).Path` before the last two commands and omit the `LEAN_PATH=.` prefix. Restore the previous value afterward. The local imported module must first be built from source; its `.olean` output is ignored by Git.
 
 The project pins Mathlib and transitive dependencies in `lake-manifest.json` and pins Lean in `lean-toolchain`. The independent Std natural-cost proof remains at `../SingleConflict.lean`. Provenance of the rectangular argument and the separate weighted extension is identified in `../../paper.md`.

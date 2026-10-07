@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source_sha256": {
+    "RationalObstruction.lean": "3fed7be374a753e5a5a97b57d36b9a2080a4569526c838edad4b3955e541222c",
+    "ExactObstructionRatios.lean": "7ad15b535eaf598450c5a144a678111b218fe988f88ba201be91dc5514699235"
+  },
+  "all_listed_sources_compiled_successfully": true,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "rational_witness_for_every_real_nonnegative_coefficient": true,
+  "exact_ratios_for_every_positive_real_parameter": true,
+  "general_rectangular_theorem_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
