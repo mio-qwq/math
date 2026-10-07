@@ -15,6 +15,8 @@ All six printed axiom audits report only `propext`, `Classical.choice` and `Quot
 
 This completes the **scalar** semantic bridge. It does not yet decode the eight-bit packed vectors, identify the finite multiplication table with a formal algebra instance, construct a Hochschild complex, or establish arbitrary-field Ext or the complete ARC realization. The eight Std certificates keep their original, separately documented scope. Associativity of the scalar polynomial operation also does not by itself prove associativity of the twenty-dimensional table.
 
+The additional [BytePacking bridge](BytePacking.README.md) now supplies generic eight-bit coordinate extraction, coordinatewise XOR addition, and the exact interpretation of a single packed coefficient under its explicit `<256` bound. It does not yet interpret all table sums or construct an algebra instance; those are subsequent layers.
+
 ## Replay
 
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:

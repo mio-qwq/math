@@ -20,6 +20,7 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 | [003/proof/CochainBoundary.lean](003-arc-one-parameter/proof/CochainBoundary.lean) | Constant and linear boundary coefficients on all 324 radical input pairs | Fixed exact polynomial certificates; no arbitrary-field or full ARC realization |
 | [003/proof/CochainClosure.lean](003-arc-one-parameter/proof/CochainClosure.lean) | All 104,976 radical four-word closure identities, assembled into a universally quantified theorem from 18 kernel-checked cases | Explicit packed bit-polynomial differential; the formal Hochschild complex and arbitrary-field interpretation remain separate |
 | [003/proof/mathlib/BitPolynomial.lean](003-arc-one-parameter/proof/mathlib/BitPolynomial.lean) | An injective decoder into `Polynomial (ZMod 2)` sends XOR to addition and the frozen `pMul` to multiplication for every natural-number input; scalar associativity and commutativity follow | Scalar semantics only; packed vectors, the finite algebra instance and the complete homological realization still require bridges |
+| [003/proof/mathlib/BytePacking.lean](003-arc-one-parameter/proof/mathlib/BytePacking.lean) | Eight-bit extraction commutes with XOR for all natural-number codes; packing a coefficient below 256 occupies exactly one coordinate, decoded as a genuine F₂ polynomial | Generic coordinate layer; full table sums, the algebra instance and Hochschild/Ext realization remain separate |
 
 Replay from the repository root:
 

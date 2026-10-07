@@ -1,0 +1,36 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "BytePacking.lean",
+  "source_sha256": "5165250babccc3c8d1b188c7f9cebafac70fce89d394e928bb51cebe7be4e072",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "axiom_audits": {
+    "byte_xor": [
+      "propext",
+      "Quot.sound"
+    ],
+    "byte_pack": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "decodeVec_xor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "decodeVec_pack": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "scope": "arbitrary natural-number byte extraction and coordinatewise F2 polynomial decoding; a single packed coefficient is interpreted with an explicit coefficient<256 bound",
+  "defines_finite_dimensional_algebra": false,
+  "constructs_hochschild_complex": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
