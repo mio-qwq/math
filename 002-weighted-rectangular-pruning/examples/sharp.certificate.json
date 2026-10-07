@@ -1,0 +1,126 @@
+{
+  "H": [
+    [
+      0,
+      0
+    ]
+  ],
+  "Z": [
+    [
+      0,
+      0
+    ]
+  ],
+  "cover": [
+    "R:0:0",
+    "ZL:0:0"
+  ],
+  "flow": [
+    {
+      "capacity": 1,
+      "flow": 1,
+      "u": "_source",
+      "v": "R:0:0"
+    },
+    {
+      "capacity": 1,
+      "flow": 1,
+      "u": "_source",
+      "v": "ZL:0:0"
+    },
+    {
+      "capacity": 1,
+      "flow": 1,
+      "u": "C:0:0",
+      "v": "_sink"
+    },
+    {
+      "capacity": 1,
+      "flow": 1,
+      "u": "ZR:0:0",
+      "v": "_sink"
+    },
+    {
+      "capacity": 5,
+      "flow": 0,
+      "u": "R:0:0",
+      "v": "C:0:0"
+    },
+    {
+      "capacity": 5,
+      "flow": 1,
+      "u": "R:0:0",
+      "v": "ZR:0:0"
+    },
+    {
+      "capacity": 5,
+      "flow": 1,
+      "u": "ZL:0:0",
+      "v": "C:0:0"
+    }
+  ],
+  "instance": {
+    "C": [
+      [
+        0,
+        0
+      ]
+    ],
+    "E": [
+      [
+        0,
+        0
+      ]
+    ],
+    "F": [
+      [
+        0,
+        0
+      ]
+    ],
+    "R": [
+      [
+        0,
+        0
+      ]
+    ],
+    "sizes": {
+      "I": 1,
+      "J": 1,
+      "P": 1,
+      "S": 1
+    },
+    "weights": {
+      "a": [
+        "1"
+      ],
+      "b": [
+        "1"
+      ],
+      "c": [
+        "1"
+      ],
+      "d": [
+        "1"
+      ]
+    }
+  },
+  "retained_C": [
+    [
+      0,
+      0
+    ]
+  ],
+  "retained_R": [],
+  "scale": 1,
+  "schema": 1,
+  "totals": {
+    "H_mass": "1",
+    "Z_mass": "1",
+    "cover_cost": "2",
+    "deletion_cost": "1",
+    "flow_value": "2",
+    "uncovered_mass": "0"
+  },
+  "uncovered_Z": []
+}
