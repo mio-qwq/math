@@ -1,0 +1,24 @@
+{
+  "source": "FiniteFreeBarDegreeFour.lean",
+  "source_sha256": "e0037a9d2f8f8930968c74914acfcb5e208975b5152153cf0988ddbee2966d2a",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "scan_algebra",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 6,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual A-linear five-face degree-four boundary; full scalar Hom basis formula; fixed f-character Hom precomposes to zero on all of P4",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "full_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

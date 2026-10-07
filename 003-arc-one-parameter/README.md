@@ -37,6 +37,14 @@ scalar-valued bilinear boundary and includes both endpoint actions.
 This quotient result is separate from an Ext comparison or a projective
 module resolution.
 
+The actual character module, degreewise projective left terms and full
+Hom/cochain equivalences are now constructed. The displayed degree-three
+module map is [closed for the actual degree-four boundary](proof/mathlib/FiniteFreeBarDegreeFour.README.md)
+and [not a degree-two module-map boundary](proof/mathlib/FiniteFreeBarNonboundary.README.md)
+when q³ is nonzero. The augmentation presentation is exact at degree zero;
+the remaining chain-composition and higher-exactness proofs are required
+before this yields an Ext interpretation.
+
 Python 3.9 or later, standard library only:
 
 ```console

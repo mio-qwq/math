@@ -64,8 +64,18 @@ now give [actual Hom/cochain equivalences in degrees two and three](FiniteFreeBa
 including a genuine A-linear lift of the fixed f-character cochain with
 its q³ pairing. The [actual augmentation presentation](FiniteFreeBarAugmentation.README.md)
 is surjective and exact at degree zero with an explicit kernel lift.
-Higher chain differentials, their cochain compatibility and full exactness
-remain open.
+Full exactness in higher degrees remains open.
+
+The actual [degree-two](FiniteFreeBarDegreeTwo.README.md),
+[degree-three](FiniteFreeBarDegreeThree.README.md) and
+[degree-four](FiniteFreeBarDegreeFour.README.md) boundaries now retain the
+full A-linear left action and character endpoints. The degree-three
+Hom precomposition agrees with the full scalar cochain differential.
+The fixed lifted module map is
+[closed and not a boundary](FiniteFreeBarNonboundary.README.md) when q³
+is nonzero. Only the degree-one/degree-two adjacent chain composition
+has been proved zero so far. Higher chain-composition laws, higher
+exactness and an Ext comparison remain open.
 
 ## Replay
 

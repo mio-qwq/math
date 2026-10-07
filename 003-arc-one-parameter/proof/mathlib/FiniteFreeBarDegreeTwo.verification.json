@@ -1,0 +1,24 @@
+{
+  "source": "FiniteFreeBarDegreeTwo.lean",
+  "source_sha256": "0b87a3c2971d5e0f91b41a03c3c9a8bd35930d02cce2e00af9dab7647e08a4e7",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 9,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual A-linear three-face degree-two boundary; boundary1 composed with boundary2 is zero on the whole free module; arbitrary Hom precomposition has the full scalar basis face formula",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "full_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
