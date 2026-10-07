@@ -77,7 +77,7 @@ try {
         $taskCompiled++
     }
     Write-Output "PASS: $taskCompiled source modules compiled, $taskReused Std artifacts explicitly reused."
-    Write-Output "Targets: $($Targets -join ', '). No Ext comparison or complete ARC realization is claimed."
+    Write-Output "Targets: $($Targets -join ', '). Only the stated propositions in the compiled sources are checked; the complete ARC realization is not claimed."
 } finally {
     $env:LEAN_PATH = $previousLeanPath
     Pop-Location

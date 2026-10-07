@@ -1,0 +1,25 @@
+{
+  "source": "FiniteFreeBarExtThree.lean",
+  "source_sha256": "abd2b1bb60dd1f946239be4f639244939a41143870fdcc56a5ab1cde0ffe89f9",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 7,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "The fixed actual f-character cocycle gives a specified actual Mathlib Ext cubed self-extension class, nonzero when q cubed is nonzero, with the full arbitrary A-linear map boundary criterion",
+  "categorical_projective_resolution_constructed": true,
+  "fixed_class_actual_ext_interpretation_formalized": true,
+  "full_hom_quotient_ext_equivalence_formalized": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

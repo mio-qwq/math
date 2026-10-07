@@ -91,9 +91,15 @@ now defines a [recursive A-linear differential family](FiniteFreeBarRecursive.RE
 The [full contraction identities](FiniteFreeBarRecursiveContraction.README.md)
 prove its [chain laws and exactness in every degree](FiniteFreeBarRecursiveExact.README.md),
 including exactness at the character augmentation. Every recursive term
-is the actual finite free/projective left module. The low-degree equality
-with the installed boundaries, a Mathlib categorical projective-resolution
-object and the Ext comparison are still required.
+is the actual finite free/projective left module. The
+[whole-map low-degree equality](FiniteFreeBarRecursiveLowDegrees.README.md)
+and [actual Mathlib projective resolution](FiniteFreeBarProjectiveResolution.README.md)
+now retain exactly these terms, differentials and augmentation. They
+interpret the fixed f-character cocycle as a
+[nonzero element of actual Ext cubed](FiniteFreeBarExtThree.README.md)
+when q cubed is nonzero. The zero criterion covers every actual A-linear
+degree-two map. The stable profile, remaining Ext vanishing and complete
+ARC realization remain separate obligations.
 
 ## Replay
 

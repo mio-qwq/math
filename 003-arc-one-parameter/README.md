@@ -34,8 +34,8 @@ and [independent scalar boundary obstruction](proof/mathlib/TwentyDimCharacterCl
 also give a nonzero degree-three class in the full f-character cochain
 quotient when q³ is nonzero. The scalar proof excludes every actual
 scalar-valued bilinear boundary and includes both endpoint actions.
-This quotient result is separate from an Ext comparison or a projective
-module resolution.
+The fixed class now has an actual module Ext interpretation through the
+specified projective resolution described below.
 
 The actual character module, degreewise projective left terms and full
 Hom/cochain equivalences are now constructed. The displayed degree-three
@@ -46,9 +46,13 @@ the map defines a [nonzero class in the actual module-Hom quotient](proof/mathli
 The installed presentation is exact at P0, P1 and P2. An actual recursive
 finite free family now has
 [all-degree chain laws and exactness](proof/mathlib/FiniteFreeBarRecursiveExact.README.md).
-Its equality with the installed low-degree boundaries, the Mathlib
-projective-resolution object and the comparison are still required
-before the fixed Hom class yields an Ext interpretation.
+Its [whole-map low-degree comparison](proof/mathlib/FiniteFreeBarRecursiveLowDegrees.README.md)
+and [actual Mathlib projective resolution](proof/mathlib/FiniteFreeBarProjectiveResolution.README.md)
+now give a [nonzero actual Ext cubed class](proof/mathlib/FiniteFreeBarExtThree.README.md)
+for the actual f-character module whenever q cubed is nonzero. This
+proves the stated character-module Ext nonvanishing using every actual
+A-linear degree-two map. The stable two-cone profile, converted module
+and remaining homological realization required for complete ARC remain open.
 
 Python 3.9 or later, standard library only:
 

@@ -1,0 +1,25 @@
+{
+  "source": "FiniteFreeBarRecursiveLowDegrees.lean",
+  "source_sha256": "b6f65935d41bf2d837329d7013ac589f69331d6cbe537d931b570867f1442594",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "scan_algebra",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 7,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Whole actual A-linear recursive maps in indices one, two and three equal the installed boundary2, boundary3 and boundary4; actual R-linear insertion equals the first and second contractions",
+  "categorical_projective_resolution_constructed": false,
+  "fixed_class_actual_ext_interpretation_formalized": false,
+  "full_hom_quotient_ext_equivalence_formalized": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
