@@ -3,6 +3,7 @@
 For every odd integer `m >= 3`, we prove that a complex matrix of order `2m` whose entrywise powers `1,...,m-1` are all complex Hadamard becomes an `m`th-root matrix after dephasing. In fact, its row differences give a generalized Hadamard matrix over the cyclic group of order `m`, with multiplicity two. This is an exact characterization, not a numerical observation.
 
 - [Full theorem, definitions, and proof](paper.md)
+- [Necessary pattern classification for all half-orders, including even ones](general-patterns.md)
 - [Exact finite example checker](code/check_examples.py)
 - [Lean certificate for the integer obstructions](proof/Parity.lean)
 

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-08",
+  "command": "python code/stress.py",
+  "status": "PASS",
+  "counts": {
+    "all_one_element_relations_and_weights_0_1_2": 1296,
+    "all_two_element_relations_unit_weights": 65536,
+    "fixed_seed_rational_and_empty_domain_inputs": 300,
+    "mutated_certificates_rejected": 8
+  },
+  "scope": "Finite exact tests and certificate validation. The general theorem is proved in paper.md."
+}

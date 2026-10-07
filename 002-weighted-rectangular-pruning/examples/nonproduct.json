@@ -1,0 +1,17 @@
+{
+  "format": "nonproduct-single-rectangle-v1",
+  "coordinate_weight_systems": [
+    {"a": "1/10", "b": "1", "c": "1", "d": "1/10"},
+    {"a": "1", "b": "1/10", "c": "1/10", "d": "1"}
+  ],
+  "claimed_pair_costs": {"R": "101/100", "C": "101/100", "H": "1/5", "Z": "1/5"},
+  "flow": {
+    "source->r": "101/100",
+    "source->zl": "1/5",
+    "r->c": "81/100",
+    "r->zr": "1/5",
+    "zl->c": "1/5",
+    "c->sink": "101/100",
+    "zr->sink": "1/5"
+  }
+}

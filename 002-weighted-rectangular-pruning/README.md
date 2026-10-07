@@ -6,6 +6,8 @@ Read [paper.md](paper.md) for the complete proof, definitions, zero-weight cases
 
 The proof does not assume the upstream second-neighborhood theorem. There is no Lean formalization of this result in this directory.
 
+[boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict. Its separate exact checker enumerates all covers and feasible prunings and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
+
 ## Reproduce
 
 Python 3.10 or later; standard library only. From this directory:
@@ -18,6 +20,7 @@ python code/check_certificate.py examples/rational.certificate.json
 python code/solve.py examples/zero.json examples/zero.certificate.json
 python code/check_certificate.py examples/zero.certificate.json
 python code/stress.py
+python code/check_nonproduct.py examples/nonproduct.json
 ```
 
 The checker independently rebuilds all conflicts, cross-corners, and network arcs. It verifies exact capacity/conservation constraints, equality of flow value and cover cost, the cover bound, and the pruning bound. A supplied flow and equal-cost cover certify the minimum cover, with no need to trust the search program. These finite checks support reproducibility; the mathematical theorem is proved in `paper.md`.
