@@ -23,7 +23,9 @@ Further compiled layers are [actual table-basis associativity](TableBasisSemanti
 
 The [concrete finite contraction bridge](FiniteTableContraction.README.md) and [all-vector theorem](TwentyDimAssociativity.README.md) close that premise for the actual twenty-label table. Its defined multiplication is associative on all polynomial vectors, and on all vectors after specialization in any commutative characteristic-two ring.
 
-The [concrete unit](TwentyDimUnit.README.md) and [trace pairing](TracePairSemantics.README.md) now establish the two-sided identity, exact trace formula, symmetry and left/right nondegeneracy on all those vectors. The [general bilinear laws](FiniteBilinearLaws.README.md) supply distributivity and scalar compatibility. A library algebra instance and the complete homological realization remain subsequent layers.
+The [concrete unit](TwentyDimUnit.README.md) and [trace pairing](TracePairSemantics.README.md) establish the two-sided identity, exact trace formula, symmetry and left/right nondegeneracy on all those vectors. The [general bilinear laws](FiniteBilinearLaws.README.md) supply distributivity and scalar compatibility, while [trace invariance](TraceInvariance.README.md) adds linearity and cyclic triple products.
+
+The [actual algebra](TwentyDimAlgebra.README.md) now packages the proved multiplication as a genuine unital `Ring` and `Algebra R`, with a 20-element basis and dimension 20 over every characteristic-two field. The Hochschild/Ext construction and complete ARC realization remain open.
 
 ## Replay
 

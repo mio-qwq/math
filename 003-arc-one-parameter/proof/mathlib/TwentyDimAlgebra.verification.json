@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TwentyDimAlgebra.lean",
+  "source_sha256": "a2039dd97217eb6908734650bdde6c6a74b7d5edc0fbc4d965441bf1fb23e8ad",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 8,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual unital Ring and R-Algebra for any commutative characteristic-two ring and parameter, finite free module with twenty-element basis, field dimension twenty",
+  "mathlib_algebra_instance_installed_in_this_source": true,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

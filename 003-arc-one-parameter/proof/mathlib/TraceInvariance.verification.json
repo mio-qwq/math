@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TraceInvariance.lean",
+  "source_sha256": "cd7ea6e07c56c754ef45e22a7e4c28ea06775ea0d56d3dfb61bed8145e57a5d2",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 8,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual trace linearity, invariant pairing and cyclic triple products over polynomials and all commutative characteristic-two specializations",
+  "mathlib_algebra_instance_installed_in_this_source": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
