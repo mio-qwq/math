@@ -1,0 +1,23 @@
+{
+  "source": "TwentyDimHochschildClass.lean",
+  "source_sha256": "d90dccab15d23dce411e6cb9867bb54c55f8172686876b7272008617c470f2e4",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_algebra",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 7,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "A fully closed actual algebra cochain has a nonzero class in the full degree-three Hochschild cochain quotient when q^3 is nonzero; nontrivial quotient and nonzero-parameter corollary under NoZeroDivisors",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

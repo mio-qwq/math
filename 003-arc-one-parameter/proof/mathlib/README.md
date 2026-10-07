@@ -35,7 +35,9 @@ The [four-linear extension](FiniteHochschild.README.md) and [actual vector cocha
 
 The [actual-algebra cochain](TwentyDimCochainAlgebra.README.md) is now a genuine trilinear map, with its span closure and failure to be any actual bilinear coboundary proved. The [coordinate augmentation](TwentyDimAugmentation.README.md) identifies the eighteen-label span with the kernel of a surjective ring map to R × R and proves its ambient multiplication closure.
 
-[Characteristic two of the actual algebra](TwentyDimCharacteristic.README.md), [linear cochain differentials](HochschildCochainMaps.README.md), and the [cycles-modulo-boundaries construction](LowDegreeCohomology.README.md) now support an explicit [degree-three Hochschild cochain quotient](HochschildDegreeThree.README.md). The fixed cochain's closure on inputs containing the two idempotents remains the next step before claiming its nonzero class in this quotient.
+[Characteristic two of the actual algebra](TwentyDimCharacteristic.README.md), [linear cochain differentials](HochschildCochainMaps.README.md), and the [cycles-modulo-boundaries construction](LowDegreeCohomology.README.md) support an explicit [degree-three Hochschild cochain quotient](HochschildDegreeThree.README.md). [Full-input closure](CochainIdempotentClosure.README.md) now includes both idempotents and all twenty-coordinate vectors. The [actual cochain class](TwentyDimHochschildClass.README.md) is nonzero in this full quotient whenever q³ is nonzero; over a field or a ring without zero divisors, q nonzero suffices. This does not identify a separate Ext construction or prove the complete ARC realization.
+
+[Character-valued differentials](CharacterHochschildMaps.README.md) also provide the full degree-three complex relation for every actual R-algebra character. Applications to a particular character and the homological comparison are subsequent steps.
 
 ## Replay
 

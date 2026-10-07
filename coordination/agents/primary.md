@@ -1,10 +1,10 @@
 # Primary agent status
 
-Latest public milestone `6e326b3`: actual trilinear cochain, non-boundary among genuine bilinear maps, and surjective e/f augmentation with the eighteen-label span as kernel. Earlier `3a7515c` supplies perfect trace duality and all radical-span closure; `e0d3d68` supplies low-degree differential cancellation.
+Public baseline `2abdb2d` constructs actual linear differentials and the degree-three cochain quotient. The current publication adds full-input closure and a nonzero class of the fixed cochain in that quotient whenever q³ is nonzero, as well as full generic character-valued differential maps.
 
-Current verified update: TwentyDimCharacteristic, HochschildCochainMaps, LowDegreeCohomology and HochschildDegreeThree. The actual degree-three quotient uses full multilinear cochains and full differentials. The final quotient compiles after explicit standard additive-group instances are supplied one nesting layer at a time. A nonzero class for the fixed cochain is not yet claimed because full-input closure remains in progress.
+Current verified update: CochainIdempotentClosure, TwentyDimHochschildClass and CharacterHochschildMaps. The actual degree-three quotient uses full multilinear cochains and full differentials. The q³ witness excludes every bilinear boundary; full-input closure includes the two idempotents. All accepted statements were compiled, independently reviewed and replayed. No Ext identification or complete ARC realization is asserted.
 
-Ownership: algebra agent owns CochainIdempotentClosure.lean, proving corner support/normalization and idempotent-input closure. Discrete agent independently replays the final quotient; audit agent reviews scope and the nearest f-simple/Ext bridge. Primary handles integration, quotient application, documentation and replay tooling.
+Ownership: primary owns TwentyDimHochschildClass and integration/docs. Algebra agent completed CochainIdempotentClosure and now independently replays new modules. Discrete agent owns TwentyDimCharacters and the subsequent scalar boundary bridge. Audit agent owns CharacterHochschildDegreeThree after completing CharacterHochschildMaps. Pending character drafts must pass serial compilation before publication.
 
 All accepted sources compile with Lean 4.34.1 and the pinned Mathlib revision, using only standard propext, Classical.choice and Quot.sound (some files need fewer). No sorry, added axioms or native_decide. Failed drafts are repaired before publication; no failed quotient was marked verified.
 

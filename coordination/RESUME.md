@@ -4,6 +4,8 @@ Snapshot: 2026-10-08, Asia/Shanghai. Always verify the live Git and filesystem s
 
 ## Published and independently checked
 
+- The current verified update constructs a nonzero class of the actual cochain in the full degree-three Hochschild cochain quotient whenever q³ is nonzero, after proving closure on all twenty-dimensional inputs. It also supplies generic character-valued degree-two/three differentials.
+- `2abdb2d`: actual characteristic-two instance, full linear Hochschild differentials, and the actual degree-three cycles-modulo-boundaries quotient.
 - `6e326b3`: actual trilinear cochain and non-boundary statement on the installed algebra, plus surjective augmentation and kernel/span identification.
 - `3a7515c`: perfect trace duality; actual polynomial/specialized cochain identities; all-vector closure on the eighteen-label span; full vector-valued boundary obstruction with nonzero q³; algebra replay script passed.
 - `e0d3d68`: actual low-degree differential composite is zero, with bilinear-to-trilinear packaging.
@@ -20,16 +22,18 @@ All source paths below are under `003-arc-one-parameter/proof/mathlib/`.
 
 | Owner | File/task | State at checkpoint |
 | --- | --- | --- |
-| Primary | `HochschildDegreeThree.lean`, documentation and integration | Final quotient compiled successfully after supplying standard nested additive-group instances; application to the fixed cochain awaits all-input closure |
-| Algebra agent | `CochainIdempotentClosure.lean` | Extending closure to basis inputs containing e/f, preferably through corner compatibility rather than another full enumeration |
-| Audit agent | Independent review | Characteristic, actual cochain maps and generic quotient scope reviewed; assessing the f-simple/Ext bridge |
-| Discrete agent | Independent quotient replay | `HochschildCochainMaps.lean` completed and checked; replaying the final `HochschildDegreeThree.lean` |
+| Primary | `TwentyDimHochschildClass.lean`, documentation and integration | Actual full-input closure and nonzero quotient class compiled; publishing the independently reviewed milestone |
+| Algebra agent | Independent replay | Full-input closure completed; reviewing and replaying character maps and the actual nonzero class |
+| Audit agent | `CharacterHochschildDegreeThree.lean` | Generic character cochain quotient draft awaiting serial compilation; full character maps completed |
+| Discrete agent | `TwentyDimCharacters.lean`, then scalar boundary bridge | Actual e/f R-algebra characters and projected scalar cochain draft awaiting serial compilation |
 
 Completed and independently recompiled in the current update: `TwentyDimFrobenius.lean` (perfect trace duality), `CochainBasisSemantics.lean` (actual polynomial five-term radical-basis closure), `CochainSpecialization.lean`, `CochainCycleSemantics.lean` (universal internal scalar boundary obstruction), `FiniteTrilinear.lean`, `FiniteHochschild.lean`, `TwentyDimCochain.lean` (all radical-span vectors), and `CochainFullBoundary.lean` (arbitrary full vector-valued boundaries).
 
 Subagents resumed after repeated usage/network interruptions. Their work remains on disk. Inspect each agent's current state and source before resuming; do not assume a request alone completed its task. Their first full task briefing included the user's original research prompt.
 
-The current update adds `TwentyDimCharacteristic.lean`, `HochschildCochainMaps.lean`, `LowDegreeCohomology.lean`, and `HochschildDegreeThree.lean`, all compiled with standard axiom audits. The quotient uses the full multilinear cochain modules and full four/five-face differentials. No nonzero class for the fixed cochain is claimed until `CochainIdempotentClosure.lean` proves its differential vanishes on all inputs.
+`CochainIdempotentClosure.lean` and `TwentyDimHochschildClass.lean` now close that gap: the fixed cochain is closed on all inputs, and its class is nonzero in the full multilinear degree-three quotient when q³ is nonzero. In a ring without zero divisors, q nonzero suffices. `CharacterHochschildMaps.lean` supplies the corresponding full character-valued differential maps. Character-specific scalar non-boundary, its quotient application, the Ext comparison and all-degree assertions are subsequent work. Drafts awaiting compilation must not be described as verified.
+
+Compile large Lean files one at a time on this Windows host. Simultaneous heavy elaboration previously caused transient pagefile/import failures; sequential retries passed. Do not change system settings or repeat large frozen certificates to diagnose those transient errors.
 
 ## Recovery sequence
 

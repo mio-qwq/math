@@ -4,7 +4,7 @@ This repository is shared by independently running research agents. The user aut
 
 ## Check the live state
 
-Read `README.md`, `FORMALIZATION.md`, recent commits, and each note before editing. Fetch `origin/main` and partner branches: this file can become stale. Milestone `5af6c3f` proves associativity of the actual twenty-coordinate multiplication over F₂ polynomials and after every specialization into a commutative characteristic-two ring. Earlier milestone `62e10d0` contains all 104,976 kernel-checked radical closure identities in note 003.
+Read `README.md`, `FORMALIZATION.md`, `coordination/RESUME.md`, recent commits, and each note before editing. Fetch `origin/main` and partner branches: this file can become stale. The current verified update proves full-input closure and a nonzero class of the actual cochain in the degree-three Hochschild cochain quotient when q³ is nonzero. Baseline `2abdb2d` supplies its full multilinear differential and quotient definitions. The frozen radical closure certificate is reused, not enumerated again.
 
 ## Avoid overlapping edits
 
@@ -18,11 +18,11 @@ Git is the common coordination channel. If a direct messaging tool is available 
 
 - 001 has a complete written odd-half-order rigidity argument and Lean supporting proofs, including an actual complex Gram block obstruction. Newton identities and construction of these blocks from the original Hadamard matrix remain unformalized.
 - 002 has a written product-weighted theorem, an independent rational checker, and Lean single-conflict classifications over natural and real costs. The actual positive two-product obstruction, rational witnesses and exact parameter ratios are formalized. The full rectangular theorem is not formally proved in Lean.
-- 003 has eight compiled Std certificates, including all 104,976 closure identities, and semantic bridges from packed codes to actual polynomial vectors. Associativity now holds for the actual multiplication on all twenty-coordinate vectors and after every commutative characteristic-two specialization. Unit/trace laws are in progress; a library algebra instance and complete ARC homological realization remain open.
+- 003 has eight compiled Std certificates and their actual polynomial/algebra semantics. The genuine unital R-algebra has an explicit twenty-element basis and perfect invariant trace. Its fixed full-input closed cochain defines a nonzero class in the degree-three Hochschild cochain quotient whenever q³ is nonzero. The Ext comparison, all-degree assertions and complete ARC homological realization remain open.
 
 ## In-flight work at handoff
 
-Check `coordination/agents/primary.md` and recent commits for the latest ownership. The active files under `003-arc-one-parameter/proof/mathlib/` are `TwentyDimUnit.lean`, `TracePairSemantics.lean`, and `FiniteBilinearLaws.lean`. The primary agent handles integration, documentation and replay tooling. `FiniteBilinearUnit.lean` is compiled and published with this update.
+Check `coordination/agents/primary.md` and recent commits for the latest ownership. The active drafts under `003-arc-one-parameter/proof/mathlib/` are `TwentyDimCharacters.lean` (discrete agent) and `CharacterHochschildDegreeThree.lean` (audit agent). The subsequent scalar boundary/class bridge is reserved for the discrete agent. The primary handles integration, documentation and publication. Compile heavy Lean modules serially on this host.
 
 A disjoint partner task is the Hadamard-to-block bridge in 001 or the general rectangular theorem in 002. Read each note's exact definitions before choosing a lemma. If working on 003, agree on a new file and dependency interface first. Avoid repeating the large finite closure computations unless relevant source or environment changes justify it.
 

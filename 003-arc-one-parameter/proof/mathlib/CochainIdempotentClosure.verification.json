@@ -1,0 +1,23 @@
+{
+  "source": "CochainIdempotentClosure.lean",
+  "source_sha256": "fd928e9fbc17aa2fe0d8085b1bf45aef66d9d01b8bbcee6a6dbc3033a2668ad8",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "scan_algebra",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 11,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Full twenty-coordinate five-face closure over every commutative characteristic-two ring and every parameter; corner support/idempotent normalization plus the frozen radical certificate and four-linearity",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

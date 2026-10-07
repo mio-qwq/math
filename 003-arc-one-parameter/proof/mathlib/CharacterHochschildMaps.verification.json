@@ -1,0 +1,22 @@
+{
+  "source": "CharacterHochschildMaps.lean",
+  "source_sha256": "3a2e3f0b1e8d7e9719e47f8e88002b086454e68ca81ebeeb55cd1ec401a04995",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_algebra",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 6,
+  "axioms_union": [
+    "propext",
+    "Quot.sound"
+  ],
+  "scope": "Full character-valued multilinear cochain differentials for any R-algebra character; zero composite in characteristic two of the coefficient ring",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
