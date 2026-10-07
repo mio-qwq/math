@@ -1,0 +1,25 @@
+{
+  "source": "TwentyDimDualScaleModule.lean",
+  "source_sha256": "a4b3a107308dd7c758040717e285bf7013cc22daf55bda81f0d2438ec4e65d5f",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "dual_scale_resume",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 12,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Inverse dual restriction defines an actual additive R-linear equivalence of the category of left modules, with actual action and morphism formulas, finite limit/colimit preservation and the actual identity-on-elements f-character endpoint isomorphism",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "parameter_nonzero_required": false,
+  "canonical_ext_action_computed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

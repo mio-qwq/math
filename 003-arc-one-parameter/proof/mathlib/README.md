@@ -120,6 +120,16 @@ Full closure and exclusion of every scalar bilinear boundary are retained.
 This cochain calculation does not yet identify the canonical functor
 action on the actual Ext class or prove the full Ext profile.
 
+[Full coefficient semilinear scaling](FiniteFreeBarDualScaleSemilinear.README.md)
+commutes with every actual recursive differential and the augmentation.
+Together with the [actual inverse-restriction module equivalence](TwentyDimDualScaleModule.README.md),
+it gives an [all-degree comparison of the specified resolution](FiniteFreeBarDualScaleComparison.README.md)
+with its actual functor image, as a genuine chain map and quasi-isomorphism.
+The [canonical transported Ext map](TwentyDimDualScaleExtTransport.README.md)
+is an R-linear self-equivalence in every degree. Its particular value on
+the fixed Ext cubed class remains uncomputed until the generic
+exact-functor/extMk naturality bridge is proved.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,

@@ -67,8 +67,19 @@ The fixed scalar f-cochain has a
 [full five-term coordinate formula](proof/mathlib/TwentyDimFCharacterSparse.README.md)
 and its [inverse-input pullback has inverse-unit eigenvalue](proof/mathlib/TwentyDimDualScaleCochain.README.md).
 These whole-cochain identities preserve full closure and nonboundary.
-Identifying the canonical module-functor action on actual Ext still
-requires the specified resolution/functor comparison.
+Identifying this eigenvalue with the canonical module-functor action on
+the actual Ext class still needs the generic naturality bridge below.
+
+The [full semilinear scaling](proof/mathlib/FiniteFreeBarDualScaleSemilinear.README.md)
+commutes with every specified recursive differential. Its inverse instance
+gives the [actual all-degree chain comparison](proof/mathlib/FiniteFreeBarDualScaleComparison.README.md)
+into the inverse-restricted specified resolution, including its
+augmentation and quasi-isomorphism. The
+[actual inverse-restriction module equivalence](proof/mathlib/TwentyDimDualScaleModule.README.md)
+also defines [canonical R-linear self-Ext transport in every degree](proof/mathlib/TwentyDimDualScaleExtTransport.README.md).
+Computing this canonical transport on the fixed Ext cubed class still
+requires a generic exact-functor/extMk naturality theorem. The cochain
+eigenvalue alone does not close that remaining bridge.
 
 Python 3.9 or later, standard library only:
 

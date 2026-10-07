@@ -1,0 +1,27 @@
+{
+  "source": "FiniteFreeBarDualScaleSemilinear.lean",
+  "source_sha256": "456550c5d50781551649f9cf57c13bd5f8113bb16453c29b50f941c97df580e0",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "dual_scale_resume",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 10,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "The forward complete-word and full-coefficient scaling is an actual R-linear A-semilinear map in every degree, commutes with full coefficient insertion and every specified recursive boundary and fixes the actual f-character augmentation",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "parameter_nonzero_required": false,
+  "all_natural_degrees": true,
+  "full_algebra_coefficients_retained": true,
+  "canonical_ext_action_computed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

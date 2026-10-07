@@ -1,0 +1,29 @@
+{
+  "source": "FiniteFreeBarDualScaleComparison.lean",
+  "source_sha256": "22670dca82532099463b9ca3b498d8d42fd8279ed656c6e2a24d725255897df5",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "dual_scale_resume",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 10,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "The full inverse semilinear scaling becomes A-linear into inverse-restricted terms and gives an all-degree chain map to the actual functor image of the specified projective resolution, with the actual augmentation square and ProjectiveResolution.Hom; this chain map is a quasi-isomorphism",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "parameter_nonzero_required": false,
+  "all_natural_degrees": true,
+  "specified_resolution_retained": true,
+  "full_algebra_coefficients_retained": true,
+  "quasi_isomorphism_proved": true,
+  "canonical_ext_action_computed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
