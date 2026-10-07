@@ -33,7 +33,7 @@ try {
         $imports = foreach ($module in $semanticModules) {
             foreach ($line in Get-Content (Join-Path $packageDirectory "$module.lean")) {
                 if ($line -match '^import (Mathlib\.[A-Za-z0-9_.]+)$') {
-                    $Matches[1].Replace('.', '/') + '.lean'
+                    $Matches[1]
                 }
             }
         }

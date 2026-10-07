@@ -4,7 +4,8 @@ Snapshot: 2026-10-08, Asia/Shanghai. Always verify the live Git and filesystem s
 
 ## Published and independently checked
 
-- The current verified update constructs actual e/f R-algebra characters and a nonzero full scalar f-character degree-three cochain class whenever q³ is nonzero, independently excluding every scalar bilinear boundary.
+- The current verified update proves that any ordered word of at least six actual augmentation-kernel elements vanishes over every commutative characteristic-two ring and at every parameter, by positive-degree filtration.
+- `51682ab`: actual e/f R-algebra characters and a nonzero full scalar f-character degree-three cochain class whenever q³ is nonzero, independently excluding every scalar bilinear boundary; dependency-ordered replay script.
 - `0428ad3`: full twenty-dimensional input closure, nonzero actual algebra-valued degree-three Hochschild cochain class when q³ is nonzero, and generic character-valued differentials.
 - `2abdb2d`: actual characteristic-two instance, full linear Hochschild differentials, and the actual degree-three cycles-modulo-boundaries quotient.
 - `6e326b3`: actual trilinear cochain and non-boundary statement on the installed algebra, plus surjective augmentation and kernel/span identification.
@@ -23,8 +24,8 @@ All source paths below are under `003-arc-one-parameter/proof/mathlib/`.
 
 | Owner | File/task | State at checkpoint |
 | --- | --- | --- |
-| Primary | Documentation, verification records and `verify-cohomology.ps1` | Publishing reviewed character-class results; script runtime replay checks the generic character quotient, full dependency plan also inspected |
-| Algebra agent | `TwentyDimNilpotence.lean` | Positive degree filtration draft for the augmentation kernel, giving sixfold products zero; awaiting serial compilation |
+| Primary | Documentation, verification records and replay scripts | Publishing reviewed sixfold kernel vanishing; correcting cache requests to use module names inside the Lake dependency package |
+| Algebra agent | Independent module review | Positive degree filtration and sixfold kernel vanishing completed and independently replayed; reviewing new character/free modules |
 | Audit agent | `CharacterModule.lean`, then `CharacterModuleSimple.lean` | Actual character module and field simple-module bridge in progress; the character quotient and characters replay completed |
 | Discrete agent | `FiniteFreeBarModules.lean` | Degreewise free/projective candidate bar modules in progress, after completing the scalar nonboundary/class proof |
 
@@ -32,7 +33,7 @@ Completed and independently recompiled in the current update: `TwentyDimFrobeniu
 
 Subagents resumed after repeated usage/network interruptions. Their work remains on disk. Inspect each agent's current state and source before resuming; do not assume a request alone completed its task. Their first full task briefing included the user's original research prompt.
 
-`CochainIdempotentClosure.lean` and `TwentyDimHochschildClass.lean` establish the actual algebra-valued class. `TwentyDimCharacters.lean`, `CharacterHochschildDegreeThree.lean`, and `TwentyDimCharacterClass.lean` now establish the projected class in the full scalar character quotient, using all multilinear cochains and both endpoint faces. Its nonboundary proof handles arbitrary scalar bilinear maps independently. Both conclusions require q³ nonzero; in a ring without zero divisors, q nonzero suffices. The Ext comparison and all-degree assertions remain open. New module/nilpotence drafts awaiting compilation must not be described as verified.
+`CochainIdempotentClosure.lean` and `TwentyDimHochschildClass.lean` establish the actual algebra-valued class. `TwentyDimCharacters.lean`, `CharacterHochschildDegreeThree.lean`, and `TwentyDimCharacterClass.lean` establish the projected class in the full scalar character quotient, using all multilinear cochains and both endpoint faces. Its nonboundary proof handles arbitrary scalar bilinear maps independently. Both conclusions require q³ nonzero; in a ring without zero divisors, q nonzero suffices. `TwentyDimNilpotence.lean` now proves arbitrary kernel words of length at least six vanish; this is not a Jacobson-radical identification or a sharp bound. The Ext comparison and all-degree assertions remain open. New module drafts awaiting compilation must not be described as verified.
 
 Compile large Lean files one at a time on this Windows host. Simultaneous heavy elaboration previously caused transient pagefile/import failures; sequential retries passed. Do not change system settings or repeat large frozen certificates to diagnose those transient errors.
 

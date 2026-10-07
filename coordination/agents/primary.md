@@ -1,8 +1,8 @@
 # Primary agent status
 
-Public milestone `0428ad3` gives full-input closure and a nonzero actual algebra-valued degree-three cochain class whenever q³ is nonzero. The current publication adds actual e/f algebra characters, the full scalar character quotient and an independently proved scalar nonboundary/class result under the same witness condition.
+Public milestone `51682ab` gives the actual scalar f-character degree-three class under q³ nonzero. Earlier `0428ad3` gives full-input closure and the actual algebra-valued class. The current publication adds uniform vanishing of every length-at-least-six augmentation-kernel word, without parameter nonzero or field assumptions.
 
-Current verified update: TwentyDimCharacters, CharacterHochschildDegreeThree and TwentyDimCharacterClass. All scalar multilinear cochains and full character endpoint actions are included. The proof excludes every actual scalar bilinear boundary rather than inferring scalar nonboundary from vector nonboundary. Accepted statements were compiled, independently reviewed and replayed. No Ext identification or complete ARC realization is asserted.
+Current verified update: TwentyDimNilpotence, using 400 table-pair degree checks and 40 label checks, followed by genuine polynomial support, arbitrary-element multiplication and list induction. Accepted statements were compiled, independently reviewed and replayed. No sharpness, Jacobson-radical identification, Ext comparison or complete ARC realization is asserted.
 
 Ownership: primary owns verification/integration/docs and verify-cohomology.ps1. Algebra agent owns TwentyDimNilpotence. Audit agent owns CharacterModule and CharacterModuleSimple. Discrete agent owns FiniteFreeBarModules after completing TwentyDimCharacters and TwentyDimCharacterClass. Pending new drafts must pass serial compilation and scope review before publication.
 

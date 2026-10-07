@@ -10,5 +10,9 @@
   "semantic_module_count": 14,
   "last_semantic_module": "TwentyDimAlgebra",
   "large_closure_blocks_recompiled": false,
-  "later_semantic_modules_verified_individually": true
+  "later_semantic_modules_verified_individually": true,
+  "script_hash_scope": "Historical fourteen-module run; the current script changes only cache argument resolution",
+  "current_script_sha256": "5150127b9e7f4faa6acb0de8e2e71c8acd2a7f6f9482f9e155048fe66d4820b3",
+  "current_script_full_replay_executed_in_this_run": false,
+  "module_name_cache_resolution_exit_code": 0
 }

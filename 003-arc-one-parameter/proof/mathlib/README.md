@@ -39,6 +39,12 @@ The [actual-algebra cochain](TwentyDimCochainAlgebra.README.md) is now a genuine
 
 [Character-valued differentials](CharacterHochschildMaps.README.md) provide the full degree-three complex relation for every actual R-algebra character. The [actual e/f characters](TwentyDimCharacters.README.md), [full character quotient](CharacterHochschildDegreeThree.README.md), and [scalar boundary obstruction](TwentyDimCharacterClass.README.md) now give a nonzero f-character degree-three class whenever q³ is nonzero. All scalar-valued bilinear boundaries are excluded independently; no vector-to-scalar nonboundary inference is used. The homological comparison remains open.
 
+The [positive-degree filtration](TwentyDimNilpotence.README.md) also proves
+that every ordered word of at least six augmentation-kernel elements
+vanishes, at every parameter over every commutative characteristic-two
+ring. This is a uniform upper bound, without a sharpness or Jacobson
+radical identification claim.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,
@@ -70,7 +76,7 @@ The path above is relative to the repository root. The script compiles the three
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:
 
 ```sh
-lake exe cache get Mathlib/Algebra/Polynomial/Coeff.lean Mathlib/Data/ZMod/Basic.lean Mathlib/Tactic/Ring.lean
+lake exe cache get Mathlib.Algebra.Polynomial.Coeff Mathlib.Data.ZMod.Basic Mathlib.Tactic.Ring
 lean -o ../FiniteCore.olean ../FiniteCore.lean
 LEAN_PATH=.. lake env lean BitPolynomial.lean
 ```

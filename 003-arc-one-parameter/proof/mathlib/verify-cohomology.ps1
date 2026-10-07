@@ -30,7 +30,7 @@ function Add-LocalModule([string]$Module) {
             foreach ($taskImport in ($Matches[1] -split '\s+')) {
                 if ($taskImport -eq '--') { break }
                 if ($taskImport -like 'Mathlib.*') {
-                    [void]$taskMathlibImports.Add($taskImport.Replace('.', '/') + '.lean')
+                    [void]$taskMathlibImports.Add($taskImport)
                 } elseif ($taskImport -ne 'Std') {
                     Add-LocalModule $taskImport
                 }

@@ -1,6 +1,6 @@
 {
   "source": "verify-cohomology.ps1",
-  "source_sha256": "a5b06b56e07061ca4b2a0eb14cba02ecb495a9ac8be0c411c1931a7f0b51d0cc",
+  "source_sha256": "b5636eec5a615fd979d244dd90b4bc912e019c2f2b0323ee2adfcfcb6922f160",
   "runtime_target": "CharacterHochschildDegreeThree",
   "runtime_exit_code": 0,
   "compiled_modules": [
@@ -15,5 +15,7 @@
   "default_full_dependency_replay_executed_in_this_run": false,
   "lean_version": "4.34.1",
   "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
-  "scope": "Runtime replay tested on the four-module generic character quotient chain; default full dependency plan also inspected. Newly published concrete sources separately compiled and independently replayed."
+  "scope": "Runtime replay with module-name cache retrieval passed on the four-module generic character quotient chain; the default full dependency plan was also inspected. Concrete sources were separately compiled and independently replayed.",
+  "fetch_cache_branch_executed": true,
+  "cache_get_exit_code": 0
 }
