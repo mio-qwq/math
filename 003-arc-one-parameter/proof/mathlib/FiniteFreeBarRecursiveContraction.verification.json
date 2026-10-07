@@ -1,0 +1,26 @@
+{
+  "source": "FiniteFreeBarRecursiveContraction.lean",
+  "source_sha256": "698e55a132070c4da1adc6827d13dae33fc0dfb5cbad5506af933f3658fae32e",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 9,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Generic all-degree full-coefficient successor/insertion identity and true R-linear augmentation section; actual recursive contraction identities in every degree",
+  "all_degree_chain_laws_proved": false,
+  "all_degree_exactness_proved": false,
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "categorical_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

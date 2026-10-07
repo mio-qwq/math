@@ -1,0 +1,26 @@
+{
+  "source": "FiniteFreeBarInsertion.lean",
+  "source_sha256": "4eec4828466b607108758cd27cb706fa5f4939cd724f00e9fe8a65870b6652b1",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_algebra",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 9,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "All-degree genuine R-linear full coefficient insertion, complete finite word/coordinate expansion and zero-degree coordinate-lift identity",
+  "all_degree_chain_laws_proved": false,
+  "all_degree_exactness_proved": false,
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "categorical_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

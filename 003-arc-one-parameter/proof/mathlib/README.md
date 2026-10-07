@@ -84,8 +84,16 @@ when q³ is nonzero. The explicit R-linear contraction also proves
 [exactness at P1](FiniteFreeBarExactOne.README.md), including an actual
 preimage for every closed vector. The next contraction proves
 [exactness at P2](FiniteFreeBarExactTwo.README.md), retaining the full
-A-valued coefficients. Exactness at P3 and higher degrees,
-a full projective resolution and an Ext comparison remain open.
+A-valued coefficients.
+
+The [all-degree coefficient insertion](FiniteFreeBarInsertion.README.md)
+now defines a [recursive A-linear differential family](FiniteFreeBarRecursive.README.md).
+The [full contraction identities](FiniteFreeBarRecursiveContraction.README.md)
+prove its [chain laws and exactness in every degree](FiniteFreeBarRecursiveExact.README.md),
+including exactness at the character augmentation. Every recursive term
+is the actual finite free/projective left module. The low-degree equality
+with the installed boundaries, a Mathlib categorical projective-resolution
+object and the Ext comparison are still required.
 
 ## Replay
 

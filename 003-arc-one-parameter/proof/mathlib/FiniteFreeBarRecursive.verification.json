@@ -1,0 +1,26 @@
+{
+  "source": "FiniteFreeBarRecursive.lean",
+  "source_sha256": "a6521f5da73666e591f6a3059b8d75a13e08adbc39cc42a2f41800089112f8d6",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_algebra",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 8,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual structurally recursive A-linear maps D(n):P(n+1) to Pn in all degrees, with full basis and arbitrary-vector A-coefficient formulas",
+  "all_degree_chain_laws_proved": false,
+  "all_degree_exactness_proved": false,
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "categorical_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
