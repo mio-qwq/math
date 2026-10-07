@@ -35,6 +35,8 @@ The [four-linear extension](FiniteHochschild.README.md) and [actual vector cocha
 
 The [actual-algebra cochain](TwentyDimCochainAlgebra.README.md) is now a genuine trilinear map, with its span closure and failure to be any actual bilinear coboundary proved. The [coordinate augmentation](TwentyDimAugmentation.README.md) identifies the eighteen-label span with the kernel of a surjective ring map to R × R and proves its ambient multiplication closure.
 
+[Characteristic two of the actual algebra](TwentyDimCharacteristic.README.md), [linear cochain differentials](HochschildCochainMaps.README.md), and the [cycles-modulo-boundaries construction](LowDegreeCohomology.README.md) now support an explicit [degree-three Hochschild cochain quotient](HochschildDegreeThree.README.md). The fixed cochain's closure on inputs containing the two idempotents remains the next step before claiming its nonzero class in this quotient.
+
 ## Replay
 
 The generic [unit extension](FiniteBilinearUnit.README.md) now proves that left and right basis contractions suffice for a unit on all vectors, over every commutative semiring.

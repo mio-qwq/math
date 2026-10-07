@@ -1,0 +1,20 @@
+{
+  "source": "HochschildDegreeThree.lean",
+  "source_sha256": "10a9017c76bc10bbefbbb21480dfe3abb1af6dc607d451116b91955b84cefda5",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 3,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Degree-three Hochschild cochain quotient from full multilinear maps; fixed cochain class not yet constructed",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

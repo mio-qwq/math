@@ -1,0 +1,20 @@
+{
+  "source": "LowDegreeCohomology.lean",
+  "source_sha256": "e97e1e5b1c57f86956d8ec1bc321a1aad8fc2676f8ebc4581c2cefc3d7b4ab46",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 3,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Generic actual cycles modulo boundaries quotient and exact zero-class criterion",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

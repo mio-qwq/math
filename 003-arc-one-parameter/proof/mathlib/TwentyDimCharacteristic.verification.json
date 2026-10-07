@@ -1,0 +1,20 @@
+{
+  "source": "TwentyDimCharacteristic.lean",
+  "source_sha256": "5bab3eec2ffb5c8e5c477f5e17469f07d44a4fada461f0a8533bbd663a9e4f6b",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 4,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual table algebra characteristic exactly two and full low-degree boundary composite",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

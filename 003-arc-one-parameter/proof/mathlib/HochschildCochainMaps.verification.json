@@ -1,0 +1,19 @@
+{
+  "source": "HochschildCochainMaps.lean",
+  "source_sha256": "6aa4c3760a04084ad48d94520d87055ad60a6cc2386f802ee38fad79bfc15585",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 5,
+  "axioms_union": [
+    "propext",
+    "Quot.sound"
+  ],
+  "scope": "Full multilinear cochain modules and actual linear maps d2,d3 with zero composite in characteristic two",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
