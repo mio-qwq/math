@@ -1,0 +1,27 @@
+# Mathematical research notes and verification artifacts
+
+This repository records explicit mathematical statements, complete proofs where available, and reproducible exact checks. The status of each result is stated separately from its computational or formal verification status. No claim of historical priority is made.
+
+## Results
+
+| Note | Mathematical scope | Verification scope |
+| --- | --- | --- |
+| [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of the integer obstructions; the complex-matrix theorem is not fully formalized |
+
+## Reproduction
+
+Each note has its own README and fixed inputs. Python checkers use exact arithmetic and the standard library. Lean is pinned by `lean-toolchain` to `leanprover/lean4:v4.34.1`; note 001 imports only Lean's bundled `Std` library.
+
+For example, from the repository root:
+
+```sh
+lean 001-odd-half-order-hadamard/proof/Parity.lean
+```
+
+## Provenance and limitations
+
+The starting point is [OpenAI's public mathematical collection](https://github.com/openai/math), snapshot `adc7f1241b42e322a6451854ab7e4b4c146bf78a`. Each note identifies the exact source and distinguishes the prior statement from the extension or checking work recorded here. Reading a source, running finite examples, and checking a portion in Lean do not amount to verification of all its surrounding claims.
+
+Literature review and external mathematical review remain open. Correctness and precise disclosure of verification scope take precedence over claims of novelty.
+
+Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
