@@ -110,6 +110,16 @@ module is consequently an injective object, and
 for every source module. The full self-Ext profile and converted ARC
 objects still require their own proofs.
 
+For every unit H, [dual-summand scaling](TwentyDimDualScale.README.md)
+is now an actual algebra automorphism with its inverse and fixed
+characters proved over every commutative characteristic-two ring.
+The fixed f-character cochain has an
+[explicit whole-input five-term formula](TwentyDimFCharacterSparse.README.md),
+and [inverse-input pullback scales it by H inverse](TwentyDimDualScaleCochain.README.md).
+Full closure and exclusion of every scalar bilinear boundary are retained.
+This cochain calculation does not yet identify the canonical functor
+action on the actual Ext class or prove the full Ext profile.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,

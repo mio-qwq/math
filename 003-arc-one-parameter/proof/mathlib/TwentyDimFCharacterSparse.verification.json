@@ -1,0 +1,30 @@
+{
+  "source": "TwentyDimFCharacterSparse.lean",
+  "source_sha256": "52fa2d4b553b19ea85d1451a753566494ffb306d03ac72474c4c429a8478fe36",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "f_sparse_resume",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "dual_scale_resume",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 4,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "The fixed actual scalar f-character trilinear cochain equals its displayed five-term coordinate polynomial on all actual algebra inputs over every characteristic-two commutative coefficient ring",
+  "finite_auxiliary_certificate": "Nat/List filtering of output8 for all 8000 Fin20 basis triples, checked by Lean kernel decide",
+  "finite_certificate_axioms": [
+    "propext"
+  ],
+  "full_input_semantic_bridge": "Generic list filtering preserves polynomial sumTerms, followed by ring-homomorphic specialization and full trilinear contraction",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "parameter_nonzero_required": false,
+  "canonical_ext_action_computed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

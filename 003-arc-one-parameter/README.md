@@ -61,6 +61,15 @@ parameter, including zero. Consequently
 for every source module. This coefficient-module vanishing is separate
 from the self-Ext profile and converted objects in the conditional ARC application.
 
+The [actual unit dual-scaling automorphism](proof/mathlib/TwentyDimDualScale.README.md)
+fixes the e/f characters over every commutative characteristic-two ring.
+The fixed scalar f-cochain has a
+[full five-term coordinate formula](proof/mathlib/TwentyDimFCharacterSparse.README.md)
+and its [inverse-input pullback has inverse-unit eigenvalue](proof/mathlib/TwentyDimDualScaleCochain.README.md).
+These whole-cochain identities preserve full closure and nonboundary.
+Identifying the canonical module-functor action on actual Ext still
+requires the specified resolution/functor comparison.
+
 Python 3.9 or later, standard library only:
 
 ```console
