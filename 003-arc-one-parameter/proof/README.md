@@ -39,3 +39,45 @@ The data source is OpenAI family 199 at commit
 `adc7f1241b42e322a6451854ab7e4b4c146bf78a`. The Lean table was transcribed
 from the fixed `../data/arc-core.json`; its corresponding source hashes
 are recorded there.
+
+## Verified second stage: `FiniteCoreT.lean`
+
+`FiniteCoreT.lean` proves the packed associativity identities on all **8000
+twenty-letter basis triples**, both left-path and right-path coefficient
+bounds `<256`, all output-label bounds, both actions of `e+f`, and the
+complete **400-entry trace pairing**. The pairing equals one precisely
+when the second letter is the star-dual of the first. It also proves that
+the explicit fast table matches the specified dual-ideal recurrence on
+all 400 input pairs, and supplies the missing right-path coefficient bound
+for the first ten-letter table.
+
+Compile the imported certificate first. From the repository root, a
+PowerShell invocation is:
+
+```powershell
+$env:LEAN_PATH = (Resolve-Path '003-arc-one-parameter/proof').Path
+lean -o 003-arc-one-parameter/proof/FiniteCore.olean 003-arc-one-parameter/proof/FiniteCore.lean
+lean 003-arc-one-parameter/proof/FiniteCoreT.lean
+```
+
+The `.olean` build output is ignored by Git. This second stage has the
+same explicit bit-polynomial scope and the same limits as the first.
+
+## Verified third stage: `CochainData.lean`
+
+This file contains the complete 179-entry cochain definition and verifies
+its entry count and correspondence to the source rows. It checks output
+labels and coefficient bounds on all 8000 possible basis triples, bounds
+all algebra coefficients, and verifies that multiplying two coefficients
+smaller than 16 fits in an eight-bit block. It also proves the concrete
+cycle's internal differential is zero and its pairing is exactly `q^3 f`.
+These are **finite certificate identities**, not a formal Ext or
+cohomology statement.
+
+Its imports require compiled `FiniteCore.olean` and `FiniteCoreT.olean`
+in the proof directory. With `LEAN_PATH` set as above:
+
+```console
+lean -o 003-arc-one-parameter/proof/FiniteCoreT.olean 003-arc-one-parameter/proof/FiniteCoreT.lean
+lean 003-arc-one-parameter/proof/CochainData.lean
+```
