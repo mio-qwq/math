@@ -81,3 +81,24 @@ in the proof directory. With `LEAN_PATH` set as above:
 lean -o 003-arc-one-parameter/proof/FiniteCoreT.olean 003-arc-one-parameter/proof/FiniteCoreT.lean
 lean 003-arc-one-parameter/proof/CochainData.lean
 ```
+
+## Verified fourth stage: `CochainBoundary.lean`
+
+For all 324 radical input pairs, the kernel checks **both** the constant
+coefficient and linear coefficient in `H` of the twisted boundary
+identity. The definitions include every radical basis index in the sum;
+there is no specialization of `q` or `H`. The theorems assert the exact
+bit-polynomial coefficient identities, with the same limits on field and
+homological interpretation.
+
+Compile `CochainData.olean` first, then run
+`lean 003-arc-one-parameter/proof/CochainBoundary.lean` with the same
+`LEAN_PATH`.
+
+## Source-data cross-check
+
+`python 003-arc-one-parameter/proof/check_transcription.py` independently
+compares the Lean corner tables, every nonunit `C` product, all 179 cochain
+match clauses, and the `pEntries` list against the pinned JSON input. This
+cross-check passed. It checks provenance and transcription; it does not
+replace the kernel proofs or supply an arbitrary-field interpretation.

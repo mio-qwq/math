@@ -21,6 +21,8 @@ application:
 The note does not claim mathematical priority or a newly established
 unconditional counterexample to Auslander--Reiten.
 
+[Lean kernel certificates](proof/README.md) now cover the explicit algebra tables, trace pairing, cycle and boundary data. The formalization scope and remaining semantic bridges are stated there separately from the Python certificate.
+
 ## Reproduce the exact certificate
 
 Python 3.9 or later, standard library only:
