@@ -1,0 +1,20 @@
+{
+  "source": "TwentyDimAugmentation.lean",
+  "source_sha256": "9406b0292f7f72ec1cc78b121948d6cbb25157f3278d86c22f6315276b33af8a",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 12,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual coordinate RingHoms, surjection to R x R, kernel exactly the eighteen-label span, and ambient left/right multiplication closure",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

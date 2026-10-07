@@ -33,6 +33,8 @@ The [four-linear extension](FiniteHochschild.README.md) and [actual vector cocha
 
 [Low-degree differential composition](HochschildLowDegrees.README.md) now proves the full degree-three formula annihilates the full degree-two formula on every associative characteristic-two ring, with actual bilinear-to-trilinear packaging.
 
+The [actual-algebra cochain](TwentyDimCochainAlgebra.README.md) is now a genuine trilinear map, with its span closure and failure to be any actual bilinear coboundary proved. The [coordinate augmentation](TwentyDimAugmentation.README.md) identifies the eighteen-label span with the kernel of a surjective ring map to R × R and proves its ambient multiplication closure.
+
 ## Replay
 
 The generic [unit extension](FiniteBilinearUnit.README.md) now proves that left and right basis contractions suffice for a unit on all vectors, over every commutative semiring.

@@ -1,0 +1,20 @@
+{
+  "source": "TwentyDimCochainAlgebra.lean",
+  "source_sha256": "5c30b8b13cb344c9e10272ed59e3ba40d764c635fae1cc8f5e5fdd22d8367e8a",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 8,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual trilinear cochain on the installed algebra, closure on radical-span elements, and exclusion of every genuine bilinear coboundary when q^3 is nonzero",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
