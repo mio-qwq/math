@@ -8,12 +8,15 @@ This formalizes the trace-integrality step used by the analytical Hadamard argum
 
 The file compiled successfully with Lean 4.34.1 and Mathlib commit `d13f23b723b8a846827a245b89c10fc7d3f11612`. Its axiom audit lists only the standard `propext`, `Classical.choice`, and `Quot.sound`, without `sorryAx` or a compiler-trust axiom.
 
+`BlockRanks.lean` proves the exact rank statement for every positive block size under the same Gram equations: `2 * A.rank = m` and `2 * B.rank = m`. Only `A` needs unit squared moduli; the total Gram trace supplies the trace of `BBᴴ`. Both determinants are then zero. An intermediate theorem replaces the unit-modulus assumption by the single explicit Gram trace equation. No rank identity is assumed: the proof constructs the projection and relates its range to the actual matrix rank. This file compiled successfully and its five axiom audits list only the same standard three axioms.
+
 From this directory:
 
 ```sh
-lake exe cache get Mathlib/LinearAlgebra/Trace.lean Mathlib/LinearAlgebra/Matrix/ConjTranspose.lean Mathlib/Basic/Complex/Basic.lean
+lake exe cache get Mathlib/LinearAlgebra/Trace.lean Mathlib/LinearAlgebra/Matrix/ConjTranspose.lean Mathlib/LinearAlgebra/Matrix/Rank.lean Mathlib/Basic/Complex/Basic.lean
 lake env lean ProjectionTrace.lean
 lake env lean BlockObstruction.lean
+lake env lean BlockRanks.lean
 ```
 
-The package pins Mathlib, the Lean toolchain and transitive dependencies in `lake-manifest.json`. Both source files compiled successfully and use only the standard three axioms listed above. They use the library's established projection/trace theorem and record our application to the Hadamard block obstruction; no priority claim is made about standard library facts.
+The package pins Mathlib, the Lean toolchain and transitive dependencies in `lake-manifest.json`. All three source files compiled successfully and use only the standard three axioms listed above. They use the library's established projection/trace theorem and record our application to the Hadamard block obstruction and exact ranks; no priority claim is made about standard library facts.

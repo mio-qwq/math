@@ -8,6 +8,7 @@ For every odd integer `m >= 3`, we prove that a complex matrix of order `2m` who
 - [Lean certificate for the integer obstructions](proof/Parity.lean)
 - [Kernel-checked exponent certificates and phase invariants](proof/Examples.lean)
 - [Formal four-phase collapse and odd support obstruction](proof/Support.lean)
+- [Actual complex block obstruction, exact half-ranks and singularity in pinned Mathlib](proof/mathlib/README.md)
 
 The proof extends the order-six support argument in OpenAI's *Exact Fourier certificates for complex Hadamard matrices of order six*, at pinned upstream commit [`adc7f1241b42e322a6451854ab7e4b4c146bf78a`](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a). The general odd-half-order theorem, the projection argument, and the cyclic-group characterization are proved here. We make no claim of historical priority.
 
