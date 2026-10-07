@@ -79,6 +79,8 @@ def fourier_exponents(size):
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError("Run this checker without -O: its checks must remain enabled.")
     # These literal polynomials independently fix the arithmetic convention.
     assert cyclotomic(3) == [1, 1, 1]
     assert cyclotomic(4) == [1, 0, 1]
