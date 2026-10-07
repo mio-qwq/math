@@ -73,9 +73,11 @@ full A-linear left action and character endpoints. The degree-three
 Hom precomposition agrees with the full scalar cochain differential.
 The fixed lifted module map is
 [closed and not a boundary](FiniteFreeBarNonboundary.README.md) when q³
-is nonzero. Only the degree-one/degree-two adjacent chain composition
-has been proved zero so far. Higher chain-composition laws, higher
-exactness and an Ext comparison remain open.
+is nonzero. The degree-one/degree-two adjacent chain composition is zero.
+The [full bilinear pair lift](FiniteFreeBarPairLift.README.md) now proves
+the degree-two/degree-three composition is zero in the entire A-valued
+free module as well. The degree-three/four chain law, higher exactness
+and an Ext comparison remain open.
 
 ## Replay
 

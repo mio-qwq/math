@@ -1,0 +1,24 @@
+{
+  "source": "FiniteFreeBarPairLift.lean",
+  "source_sha256": "d91339ee0541465dc34de7eb009837805c8428d79eba96be2d9b55f6f9bfe701",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 10,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual full R-bilinear pair lift with coordinate formula and boundary2 three-face semantics on arbitrary elements; actual A-linear boundary2 composed with boundary3 is zero on the whole free term, retaining every A coefficient",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "full_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
