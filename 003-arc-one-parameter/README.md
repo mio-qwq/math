@@ -23,7 +23,7 @@ unconditional counterexample to Auslander--Reiten.
 
 [Lean kernel certificates](proof/README.md) now cover the explicit algebra tables, trace pairing, cycle, boundary data and all 104976 radical four-word closure identities. The formalization scope and remaining semantic bridges are stated there separately from the Python certificate. The final universally quantified closure theorem depends only on standard `propext`; no certificate uses `sorry`, added axioms or `native_decide`.
 
-The additional [Mathlib semantic layers](proof/mathlib/README.md) now connect the scalar codes, byte packing and sparse products to genuine polynomial vectors. The actual twenty-coordinate multiplication is associative on **all** vectors, including every specialization in an arbitrary commutative characteristic-two ring. The unit/trace laws, a library algebra instance and the homological realization remain separate; these results do not establish the complete ARC counterexample.
+The additional [Mathlib semantic layers](proof/mathlib/README.md) connect the scalar codes, byte packing and sparse products to genuine polynomial vectors. The actual twenty-coordinate multiplication is associative and has the two-sided unit e+f on **all** vectors, including every specialization in an arbitrary commutative characteristic-two ring. Its trace pairing has an exact dual-coordinate formula and is symmetric and left/right nondegenerate. A library algebra instance and the homological realization remain separate; these results do not establish the complete ARC counterexample.
 
 ## Reproduce the exact certificate
 

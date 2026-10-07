@@ -21,7 +21,9 @@ The additional [BytePacking bridge](BytePacking.README.md) now supplies generic 
 
 Further compiled layers are [actual table-basis associativity](TableBasisSemantics.README.md), [specialization in any commutative characteristic-two ring](ScalarEvaluation.README.md), and [generic all-vector associativity from finite structure constants](FiniteBilinear.README.md). The last theorem requires its explicit contraction premise; connecting the concrete table and installing an algebra instance remain subsequent work.
 
-The [concrete finite contraction bridge](FiniteTableContraction.README.md) and [all-vector theorem](TwentyDimAssociativity.README.md) now close that premise for the actual twenty-label table. Its defined multiplication is associative on all polynomial vectors, and on all vectors after specialization in any commutative characteristic-two ring. Unit/trace laws, a library algebra instance and the complete homological realization remain subsequent layers.
+The [concrete finite contraction bridge](FiniteTableContraction.README.md) and [all-vector theorem](TwentyDimAssociativity.README.md) close that premise for the actual twenty-label table. Its defined multiplication is associative on all polynomial vectors, and on all vectors after specialization in any commutative characteristic-two ring.
+
+The [concrete unit](TwentyDimUnit.README.md) and [trace pairing](TracePairSemantics.README.md) now establish the two-sided identity, exact trace formula, symmetry and left/right nondegeneracy on all those vectors. The [general bilinear laws](FiniteBilinearLaws.README.md) supply distributivity and scalar compatibility. A library algebra instance and the complete homological realization remain subsequent layers.
 
 ## Replay
 

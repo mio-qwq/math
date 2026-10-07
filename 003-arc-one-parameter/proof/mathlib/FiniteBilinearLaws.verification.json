@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "FiniteBilinearLaws.lean",
+  "source_sha256": "fea06a69c1f717cdca3bbe2bd041d6aa2cae609b1ad88346fd17f827fc04260b",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 9,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Distributivity, zero laws, scalar compatibility and fixed-vector linear maps over every commutative semiring and finite coordinate type",
+  "mathlib_algebra_instance_installed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

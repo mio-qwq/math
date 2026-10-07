@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TracePairSemantics.lean",
+  "source_sha256": "8c2e60c180510c5f98ecef45ee6a3e12b481cadf0767c18289628689c96772f6",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 12,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual trace formula, symmetry and left/right nondegeneracy on all polynomial vectors and every commutative characteristic-two specialization",
+  "mathlib_algebra_instance_installed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

@@ -1,0 +1,33 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TwentyDimUnit.lean",
+  "source_sha256": "11a68b78f74968e7dad9aec4191f6fcd2f0eb74df9fb6b16a1fd149ebcb37500",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_theorems": [
+    "polynomial_left_basis_unit",
+    "polynomial_right_basis_unit",
+    "polynomial_left_unit",
+    "polynomial_right_unit",
+    "specialized_unit_coordinates",
+    "specialized_structure_left_unit",
+    "specialized_structure_right_unit",
+    "specialized_left_unit",
+    "specialized_right_unit"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "the actual e+f vector is a two-sided identity for every twenty-coordinate polynomial vector and every vector in every commutative characteristic-two specialization; transported from frozen packed unit actions using coefficient bounds",
+  "uses_new_finite_enumeration": false,
+  "defines_algebra_instance": false,
+  "formalizes_trace_pairing": false,
+  "constructs_hochschild_complex": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
