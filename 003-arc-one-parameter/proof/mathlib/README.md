@@ -19,6 +19,8 @@ The additional [BytePacking bridge](BytePacking.README.md) now supplies generic 
 
 [TermSemantics](TermSemantics.README.md) supplies the next generic layer: arbitrary sparse-list sums, scaled sums and left/right triple products become actual polynomial vectors, with the necessary bounds on every composed coefficient. A formal finite algebra instance and the complete homological construction remain separate.
 
+Further compiled layers are [actual table-basis associativity](TableBasisSemantics.README.md), [specialization in any commutative characteristic-two ring](ScalarEvaluation.README.md), and [generic all-vector associativity from finite structure constants](FiniteBilinear.README.md). The last theorem requires its explicit contraction premise; connecting the concrete table and installing an algebra instance remain subsequent work.
+
 ## Replay
 
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:

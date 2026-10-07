@@ -1,0 +1,27 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TableBasisSemantics.lean",
+  "source_sha256": "542ebcb8cc8ba0cf08cabbf37edb09e8850f51cc8a1b416773a114448fb1c2d8",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_theorems": [
+    "basis_associativity_of_packed",
+    "c_basis_polynomial_associativity",
+    "t_basis_polynomial_associativity"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "genuine Nat->Polynomial(ZMod2) vector equality for every ten-label and twenty-label basis triple, transporting frozen packed identities using both independent composed coefficient bounds",
+  "uses_new_finite_enumeration": false,
+  "all_vector_associativity_proved": false,
+  "defines_finite_dimensional_algebra": false,
+  "constructs_hochschild_complex": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

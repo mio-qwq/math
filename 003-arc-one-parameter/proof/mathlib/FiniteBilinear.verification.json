@@ -1,0 +1,25 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "FiniteBilinear.lean",
+  "source_sha256": "7fe40d30d861c370e96190860951b9b09f76962cf947506ab56f132d20c0c3eb",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_theorems": [
+    "mul_associative"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "for any commutative semiring and finite index type, finite basis contraction identities imply associativity of the defined double-sum bilinear multiplication on every vector",
+  "table_contraction_bridge_proved": false,
+  "constructs_twenty_dimensional_algebra_instance": false,
+  "constructs_hochschild_complex": false,
+  "proves_complete_arc": false,
+  "uses_new_finite_enumeration": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
