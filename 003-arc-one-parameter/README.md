@@ -27,6 +27,8 @@ The additional [Mathlib semantic layers](proof/mathlib/README.md) connect the sc
 
 ## Reproduce the exact certificate
 
+Further formalized structure includes [perfect trace duality on the actual algebra](proof/mathlib/TwentyDimFrobenius.README.md), the actual [five-face cochain identity on arbitrary radical-span vectors](proof/mathlib/TwentyDimCochain.README.md) under every characteristic-two specialization, and a universal [full vector-valued boundary obstruction](proof/mathlib/CochainFullBoundary.README.md). The nonzero witness is q³, so the obstruction requires q³ to remain nonzero. These are precise intermediate results; the complete complex and Ext interpretation remain open.
+
 Python 3.9 or later, standard library only:
 
 ```console

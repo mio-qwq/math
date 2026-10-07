@@ -27,9 +27,21 @@ The [concrete unit](TwentyDimUnit.README.md) and [trace pairing](TracePairSemant
 
 The [actual algebra](TwentyDimAlgebra.README.md) now packages the proved multiplication as a genuine unital `Ring` and `Algebra R`, with a 20-element basis and dimension 20 over every characteristic-two field. The Hochschild/Ext construction and complete ARC realization remain open.
 
+[Perfect trace duality](TwentyDimFrobenius.README.md) now gives an explicit linear equivalence from the actual algebra to its full R-linear dual. The [cochain basis bridge](CochainBasisSemantics.README.md) and [specialization](CochainSpecialization.README.md) turn the five-term radical-basis certificate into genuine polynomial and ring identities. The [cycle obstruction](CochainCycleSemantics.README.md) excludes every internal scalar coboundary when the q³ witness is nonzero. [Generic trilinear evaluation](FiniteTrilinear.README.md) provides the next interface for arbitrary-vector extension. These cochain statements do not yet construct a complete Hochschild or Ext complex.
+
+The [four-linear extension](FiniteHochschild.README.md) and [actual vector cochain](TwentyDimCochain.README.md) prove the five-face identity on arbitrary vectors in the eighteen-label span. The [full-boundary obstruction](CochainFullBoundary.README.md) also accounts for both outer multiplication faces and excludes every vector-valued basis boundary when q³ is nonzero. The remaining gap is the correspondence with a complete complex and its cohomology objects, not merely checking the displayed scalar or vector identities.
+
 ## Replay
 
 The generic [unit extension](FiniteBilinearUnit.README.md) now proves that left and right basis contractions suffice for a unit on all vectors, over every commutative semiring.
+
+For the complete published semantic chain through the algebra and dimension theorem, use the dependency-ordered PowerShell script from any directory:
+
+```powershell
+& '003-arc-one-parameter/proof/mathlib/verify-semantics.ps1' -FetchCache
+```
+
+The path above is relative to the repository root. The script compiles the three required Std modules and all fourteen semantic modules, stops on the first failed command, and restores the caller's location and `LEAN_PATH`. Dependencies must be installed in this pinned Lake package; `-FetchCache` obtains the Mathlib imports. Omit that switch when they are already cached. `-UseExistingStd` explicitly reuses the three existing Std artifacts and reports that their sources were not rechecked in that run. The much larger radical closure certificate remains available through `../verify.ps1` and is not part of this algebra replay.
 
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:
 

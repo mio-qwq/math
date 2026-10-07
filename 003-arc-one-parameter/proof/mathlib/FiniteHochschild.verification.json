@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "FiniteHochschild.lean",
+  "source_sha256": "93ca50f5f0400e1994047ca06ecd0b727a0e81612f8ad580881aa39f6ad34fcb",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 4,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Generic unsigned five-face expression, four-linearity and basis-to-span vanishing extension",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

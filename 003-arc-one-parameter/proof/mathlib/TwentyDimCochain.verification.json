@@ -1,0 +1,20 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TwentyDimCochain.lean",
+  "source_sha256": "ad45e0ccf17deed4ccd1aef2b2a37718ec8aa6d4e60b0a0ee6f602e393d18ceb",
+  "compilation_exit_code": 0,
+  "root_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 12,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual five-face cochain vector identity for all four inputs in the eighteen-label span, after every commutative characteristic-two specialization",
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

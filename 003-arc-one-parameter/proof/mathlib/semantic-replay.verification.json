@@ -1,0 +1,14 @@
+{
+  "script": "verify-semantics.ps1",
+  "script_sha256": "ceebba97814aa6cd3b7793f0fecd8d12f56698b95fb2fcf466e9017313f5e005",
+  "exit_code": 0,
+  "std_modules_recompiled": [
+    "FiniteCore",
+    "FiniteCoreT",
+    "CochainData"
+  ],
+  "semantic_module_count": 14,
+  "last_semantic_module": "TwentyDimAlgebra",
+  "large_closure_blocks_recompiled": false,
+  "later_semantic_modules_verified_individually": true
+}

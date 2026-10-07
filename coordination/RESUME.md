@@ -17,12 +17,14 @@ All source paths below are under `003-arc-one-parameter/proof/mathlib/`.
 
 | Owner | File/task | State at checkpoint |
 | --- | --- | --- |
-| Primary | `verify-semantics.ps1`, documentation and integration | Dependency-ordered full replay is running; do not report the whole script as passed until its final result is observed |
-| Algebra agent | `TwentyDimFrobenius.lean` | Actual algebra trace functional and bilinear pairing compiled; explicit dual-equivalence extension in progress |
-| Audit agent | `CochainCycleSemantics.lean` | Actual scalar cycle pairing and universal internal-coboundary obstruction in progress |
-| Discrete agent | `CochainBasisSemantics.lean` | Actual five-term polynomial contraction closure on radical quadruples; resumed after a usage interruption |
+| Primary | `verify-semantics.ps1`, documentation and integration | Full replay passed: 3 Std prerequisites and 14 semantic modules through the actual algebra. New subsequent modules are checked individually |
+| Algebra agent | `HochschildLowDegrees.lean` | Generic low-degree full differential composite and bilinear-to-trilinear packaging in progress |
+| Audit agent | `CochainFullBoundary.lean` | Completed and independently replayed; published with this checkpoint |
+| Discrete agent | `TwentyDimAugmentation.lean` | Coordinate projections and augmentation kernel structure in progress; no Jacobson-radical claim |
 
-Subagents hit a usage limit and were restarted after the user's restart. Their work remains on disk. Inspect each agent's current state and source before resuming; do not assume a request alone completed its task. Their first full task briefing included the user's original research prompt.
+Completed and independently recompiled in the current update: `TwentyDimFrobenius.lean` (perfect trace duality), `CochainBasisSemantics.lean` (actual polynomial five-term radical-basis closure), `CochainSpecialization.lean`, `CochainCycleSemantics.lean` (universal internal scalar boundary obstruction), `FiniteTrilinear.lean`, `FiniteHochschild.lean`, `TwentyDimCochain.lean` (all radical-span vectors), and `CochainFullBoundary.lean` (arbitrary full vector-valued boundaries).
+
+Subagents resumed successfully after the user's restart. Their work remains on disk. Inspect each agent's current state and source before resuming; do not assume a request alone completed its task. Their first full task briefing included the user's original research prompt.
 
 ## Recovery sequence
 

@@ -5,9 +5,9 @@ The near-term priority is to close meaningful gaps between the verified finite A
 | Stage | Intended result | Required evidence | Status |
 | --- | --- | --- | --- |
 | Algebra semantics | Actual unital characteristic-two algebra with 20-element basis and field dimension 20 | Prescribed multiplication and unit, all ring/algebra laws, Lean compilation and axiom audit | Published `aed7ae5` |
-| Trace structure | Linear trace and symmetric invariant nondegenerate bilinear form on the actual algebra; explicit duality if feasible | Transport coordinate laws to the actual wrapper type; verify any dual inverse | In progress |
-| Polynomial cochain closure | Genuine five-term contraction identity for all radical basis quadruples | Decode the existing closure certificate with every coefficient/output bound justified | In progress |
-| Cycle obstruction | Actual q³ pairing, annihilation of every internal scalar coboundary, and a nonzero-parameter obstruction over suitable domains | Universal arbitrary-cochain statement; use a no-zero-divisor hypothesis for nonvanishing | In progress |
+| Trace structure | Linear trace and symmetric invariant perfect pairing on the actual algebra | Explicit mutually inverse linear maps to the full R-linear dual | Proved and independently recompiled |
+| Polynomial cochain closure | Genuine five-term contraction identity for all radical basis quadruples, including every characteristic-two specialization | Decode the existing closure certificate with every coefficient/output bound justified | Proved and independently recompiled; arbitrary radical-vector extension in progress |
+| Cycle obstruction | Actual q³ pairing, annihilation of every internal scalar coboundary, and a nonzero-parameter obstruction over suitable domains | Universal arbitrary-cochain statement; use a no-zero-divisor hypothesis for nonvanishing | Internal scalar obstruction proved; extension to full vector-valued boundaries in progress |
 | Cochain complex correspondence | Connect the coordinate formulas to an explicitly defined complex and the appropriate simple module | Corner balancing, radical closure, endpoint actions, differential identities and cohomology interpretation | Open |
 | Homological realization | Required resolutions, stable profile, chain-level lifts and specialization control | Full proofs, including all-degree assertions and denominator conditions | Open; complete ARC not established |
 
