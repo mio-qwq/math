@@ -31,6 +31,8 @@ The [actual algebra](TwentyDimAlgebra.README.md) now packages the proved multipl
 
 The [four-linear extension](FiniteHochschild.README.md) and [actual vector cochain](TwentyDimCochain.README.md) prove the five-face identity on arbitrary vectors in the eighteen-label span. The [full-boundary obstruction](CochainFullBoundary.README.md) also accounts for both outer multiplication faces and excludes every vector-valued basis boundary when q³ is nonzero. The remaining gap is the correspondence with a complete complex and its cohomology objects, not merely checking the displayed scalar or vector identities.
 
+[Low-degree differential composition](HochschildLowDegrees.README.md) now proves the full degree-three formula annihilates the full degree-two formula on every associative characteristic-two ring, with actual bilinear-to-trilinear packaging.
+
 ## Replay
 
 The generic [unit extension](FiniteBilinearUnit.README.md) now proves that left and right basis contractions suffice for a unit on all vectors, over every commutative semiring.

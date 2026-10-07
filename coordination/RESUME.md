@@ -4,6 +4,7 @@ Snapshot: 2026-10-08, Asia/Shanghai. Always verify the live Git and filesystem s
 
 ## Published and independently checked
 
+- `3a7515c`: perfect trace duality; actual polynomial/specialized cochain identities; all-vector closure on the eighteen-label span; full vector-valued boundary obstruction with nonzero q³; algebra replay script passed.
 - `aed7ae5`: actual unital `Ring` and `Algebra R`, explicit 20-element basis, finite/free module instances and field dimension 20; invariant trace and cyclic triple products.
 - `77698ad`: concrete two-sided unit, symmetric left/right nondegenerate trace, and generic bilinear laws.
 - `5af6c3f`: actual all-vector multiplication associativity over F₂ polynomials and every commutative characteristic-two specialization.
@@ -17,10 +18,10 @@ All source paths below are under `003-arc-one-parameter/proof/mathlib/`.
 
 | Owner | File/task | State at checkpoint |
 | --- | --- | --- |
-| Primary | `verify-semantics.ps1`, documentation and integration | Full replay passed: 3 Std prerequisites and 14 semantic modules through the actual algebra. New subsequent modules are checked individually |
-| Algebra agent | `HochschildLowDegrees.lean` | Generic low-degree full differential composite and bilinear-to-trilinear packaging in progress |
-| Audit agent | `CochainFullBoundary.lean` | Completed and independently replayed; published with this checkpoint |
-| Discrete agent | `TwentyDimAugmentation.lean` | Coordinate projections and augmentation kernel structure in progress; no Jacobson-radical claim |
+| Primary | `TwentyDimCochainAlgebra.lean`, documentation and integration | Packaging the actual cochain as nested linear maps on the installed algebra and transferring closure/boundary statements |
+| Algebra agent | `HochschildLowDegrees.lean` | Interrupted by usage limit; primary resumed compilation successfully and published with this checkpoint |
+| Audit agent | `TwentyDimAugmentation.lean` | Took over coordinate projections and kernel structure after the discrete agent's interruption |
+| Discrete agent | No active file ownership | Network-permission interruption occurred before augmentation source creation; audit agent took over |
 
 Completed and independently recompiled in the current update: `TwentyDimFrobenius.lean` (perfect trace duality), `CochainBasisSemantics.lean` (actual polynomial five-term radical-basis closure), `CochainSpecialization.lean`, `CochainCycleSemantics.lean` (universal internal scalar boundary obstruction), `FiniteTrilinear.lean`, `FiniteHochschild.lean`, `TwentyDimCochain.lean` (all radical-span vectors), and `CochainFullBoundary.lean` (arbitrary full vector-valued boundaries).
 

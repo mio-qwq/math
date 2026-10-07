@@ -1,0 +1,19 @@
+{
+  "source": "HochschildLowDegrees.lean",
+  "source_sha256": "75c2a1678fd4423fb996e89acde8b2f11aff8aadc9e76392f04f2e66db6f83b4",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 3,
+  "axioms_union": [
+    "propext",
+    "Quot.sound"
+  ],
+  "scope": "Actual characteristic-two ring full differential composition D3(D2 G)=0, and actual bilinear-to-trilinear packaging",
+  "full_complex_constructed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
