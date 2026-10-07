@@ -12,6 +12,8 @@ This repository records explicit mathematical statements, complete proofs where 
 
 ## Reproduction
 
+See [FORMALIZATION.md](FORMALIZATION.md) for the exact Lean statements, commands, and remaining boundaries.
+
 Each note has its own README and fixed inputs. Python checkers use exact arithmetic and the standard library. Lean is pinned by `lean-toolchain` to `leanprover/lean4:v4.34.1`; note 001 imports only Lean's bundled `Std` library.
 
 For example, from the repository root:

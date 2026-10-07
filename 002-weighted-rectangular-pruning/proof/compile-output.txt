@@ -1,0 +1,12 @@
+Verified on 2026-10-08.
+Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+
+Working directory: C:\Users\Administrator\Desktop\math\research
+Command: & 'C:\Users\Administrator\.elan\bin\lean.exe' '002-weighted-rectangular-pruning\proof\SingleConflict.lean'
+Exit code: 0
+
+'RectangularPruning.SingleConflict.cover_iff' depends on axioms: [propext, Quot.sound]
+'RectangularPruning.SingleConflict.pruning_iff' depends on axioms: [propext, Quot.sound]
+'RectangularPruning.SingleConflict.cover_iff_pruning' depends on axioms: [propext, Quot.sound]
+'RectangularPruning.SingleConflict.nonproduct_no_cover' depends on axioms: [propext, Quot.sound]
+'RectangularPruning.SingleConflict.nonproduct_no_pruning' depends on axioms: [propext, Quot.sound]

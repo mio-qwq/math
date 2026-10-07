@@ -6,6 +6,7 @@ For every odd integer `m >= 3`, we prove that a complex matrix of order `2m` who
 - [Necessary pattern classification for all half-orders, including even ones](general-patterns.md)
 - [Exact finite example checker](code/check_examples.py)
 - [Lean certificate for the integer obstructions](proof/Parity.lean)
+- [Kernel-checked exponent certificates and phase invariants](proof/Examples.lean)
 
 The proof extends the order-six support argument in OpenAI's *Exact Fourier certificates for complex Hadamard matrices of order six*, at pinned upstream commit [`adc7f1241b42e322a6451854ab7e4b4c146bf78a`](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a). The general odd-half-order theorem, the projection argument, and the cyclic-group characterization are proved here. We make no claim of historical priority.
 
