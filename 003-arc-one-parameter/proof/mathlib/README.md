@@ -45,6 +45,12 @@ vanishes, at every parameter over every commutative characteristic-two
 ring. This is a uniform upper bound, without a sharpness or Jacobson
 radical identification claim.
 
+A [fivefold actual witness](TwentyDimNilpotenceSharp.README.md) has product
+q(1+q)E, with every factor in the augmentation kernel. When q(1+q) is
+nonzero, no uniform threshold at most five holds, so the word-length
+vanishing threshold is exactly six. Special parameter thresholds and
+Jacobson-radical identification remain separate.
+
 The [actual character module](CharacterModule.README.md) retains compatible
 R and A actions and is [simple when R is a field](CharacterModuleSimple.README.md).
 The [degreewise free candidate terms](FiniteFreeBarModules.README.md) are

@@ -22,7 +22,7 @@ Git is the common coordination channel. If a direct messaging tool is available 
 
 ## In-flight work at handoff
 
-Check `coordination/agents/primary.md` and recent commits for the latest ownership. The active drafts under `003-arc-one-parameter/proof/mathlib/` are `TwentyDimNilpotenceSharp.lean` (algebra agent), `FiniteFreeBarAugmentation.lean` (audit agent), and `CochainWordEquiv.lean` (discrete agent). Actual character modules, degreewise projective terms and their full Hom parameterization have been proved. The primary handles integration, documentation and publication. Compile heavy Lean modules serially on this host.
+Check `coordination/agents/primary.md` and recent commits for the latest ownership. The active drafts under `003-arc-one-parameter/proof/mathlib/` are `FiniteFreeBarDegreeFour.lean` (algebra agent), `FiniteFreeBarDegreeTwo.lean` (audit agent), `FiniteFreeBarDegreeThree.lean` (discrete agent), and `FiniteFreeBarNonboundary.lean` (primary). Actual character modules, degreewise projective terms, full degree-two/three Hom/cochain equivalences and a right-end exact augmentation presentation have been proved. The primary handles integration, documentation and publication. Compile heavy Lean modules serially on this host.
 
 A disjoint partner task is the Hadamard-to-block bridge in 001 or the general rectangular theorem in 002. Read each note's exact definitions before choosing a lemma. If working on 003, agree on a new file and dependency interface first. Avoid repeating the large finite closure computations unless relevant source or environment changes justify it.
 

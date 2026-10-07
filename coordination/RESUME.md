@@ -4,7 +4,8 @@ Snapshot: 2026-10-08, Asia/Shanghai. Always verify the live Git and filesystem s
 
 ## Published and independently checked
 
-- The current verified update proves full scalar cochain/word and actual A-linear Hom/cochain equivalences in degrees two and three, and the actual character augmentation is surjective with kernel equal to the degree-one boundary image.
+- The current verified update proves a fivefold augmentation-kernel word with product q(1+q)E. Under q(1+q) nonzero, the already proved sixfold vanishing threshold is sharp.
+- `a86c923`: full scalar cochain/word and actual A-linear Hom/cochain equivalences in degrees two and three, plus a surjective character augmentation with kernel equal to the degree-one boundary image.
 - `d53119d`: actual character modules, field simplicity, degreewise finite free/projective candidate terms and their full A-linear Hom/word-value equivalence.
 - `55e9ad2`: every augmentation-kernel word of length at least six vanishes at every parameter; module-name cache retrieval fixed and tested.
 - `51682ab`: actual e/f R-algebra characters and a nonzero full scalar f-character degree-three cochain class whenever q³ is nonzero, independently excluding every scalar bilinear boundary; dependency-ordered replay script.
@@ -26,10 +27,10 @@ All source paths below are under `003-arc-one-parameter/proof/mathlib/`.
 
 | Owner | File/task | State at checkpoint |
 | --- | --- | --- |
-| Primary | `FiniteFreeBarCochains.lean`, documentation and verification records | Actual full Hom/cochain equivalences and q³ module-map pairing compiled; independent replay/publication in progress |
-| Algebra agent | `TwentyDimNilpotenceSharp.lean` | Fivefold witness draft complete, awaiting serial compilation |
-| Audit agent | `FiniteFreeBarAugmentation.lean` | Actual augmentation and first-step kernel/image correspondence compiled; awaiting independent replay |
-| Discrete agent | Independent replay | CochainWordEquiv completed; independently replaying augmentation and Hom/cochain integration |
+| Primary | `FiniteFreeBarNonboundary.lean`, documentation and verification records | Sharpness verified and publishing; actual module-Hom nonboundary integration awaits degree-three boundary compilation |
+| Algebra agent | `FiniteFreeBarDegreeFour.lean` | Sharpness completed; preparing actual degree-four five-face boundary and closure of the lifted f module map |
+| Audit agent | `FiniteFreeBarDegreeTwo.lean` | Actual three-face degree-two boundary and adjacent zero composition draft; serial compilation in progress |
+| Discrete agent | `FiniteFreeBarDegreeThree.lean` | Actual four-face degree-three boundary and full Hom/cochain compatibility draft; awaiting serial compilation |
 
 Completed and independently recompiled in the current update: `TwentyDimFrobenius.lean` (perfect trace duality), `CochainBasisSemantics.lean` (actual polynomial five-term radical-basis closure), `CochainSpecialization.lean`, `CochainCycleSemantics.lean` (universal internal scalar boundary obstruction), `FiniteTrilinear.lean`, `FiniteHochschild.lean`, `TwentyDimCochain.lean` (all radical-span vectors), and `CochainFullBoundary.lean` (arbitrary full vector-valued boundaries).
 
@@ -37,7 +38,7 @@ Subagents resumed after repeated usage/network interruptions. Their work remains
 
 `CochainIdempotentClosure.lean` and `TwentyDimHochschildClass.lean` establish the actual algebra-valued class. `TwentyDimCharacters.lean`, `CharacterHochschildDegreeThree.lean`, and `TwentyDimCharacterClass.lean` establish the projected class in the full scalar character quotient, using all multilinear cochains and both endpoint faces. Its nonboundary proof handles arbitrary scalar bilinear maps independently. Both conclusions require q³ nonzero; in a ring without zero divisors, q nonzero suffices. `TwentyDimNilpotence.lean` now proves arbitrary kernel words of length at least six vanish; this is not a Jacobson-radical identification or a sharp bound. The Ext comparison and all-degree assertions remain open. New module drafts awaiting compilation must not be described as verified.
 
-`CharacterModule.lean` and `CharacterModuleSimple.lean` construct real module instances and prove actual field simplicity. `FiniteFreeBarModules.lean` and `FiniteFreeBarHom.lean` give actual projective candidate terms and their full Hom parameterization. `CochainWordEquiv.lean` and `FiniteFreeBarCochains.lean` now connect all degree-two/three Hom maps to full scalar multilinear cochains, preserving the fixed q³ pairing. `FiniteFreeBarAugmentation.lean` constructs a true right-end projective presentation exact at degree zero. Higher chain differentials, degree-one and higher exactness and differential compatibility remain unproved. The sharpness witness is still a draft. Mathlib caches for SimpleModule.Basic and ModuleCat.Projective are available; use module names with `lake exe cache get` inside this dependency package.
+`CharacterModule.lean` and `CharacterModuleSimple.lean` construct real module instances and prove actual field simplicity. `FiniteFreeBarModules.lean` and `FiniteFreeBarHom.lean` give actual projective candidate terms and their full Hom parameterization. `CochainWordEquiv.lean` and `FiniteFreeBarCochains.lean` connect all degree-two/three Hom maps to full scalar multilinear cochains, preserving the fixed q³ pairing. `FiniteFreeBarAugmentation.lean` constructs a true right-end projective presentation exact at degree zero. `TwentyDimNilpotenceSharp.lean` establishes the exact uniform word threshold six when q(1+q) is nonzero. Higher chain differentials, degree-one and higher exactness and differential compatibility remain unproved; their sources are drafts awaiting serial compilation. Mathlib caches for SimpleModule.Basic and ModuleCat.Projective are available; use module names with `lake exe cache get` inside this dependency package.
 
 Compile large Lean files one at a time on this Windows host. Simultaneous heavy elaboration previously caused transient pagefile/import failures; sequential retries passed. Do not change system settings or repeat large frozen certificates to diagnose those transient errors.
 
