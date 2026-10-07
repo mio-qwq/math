@@ -45,6 +45,14 @@ vanishes, at every parameter over every commutative characteristic-two
 ring. This is a uniform upper bound, without a sharpness or Jacobson
 radical identification claim.
 
+The [actual character module](CharacterModule.README.md) retains compatible
+R and A actions and is [simple when R is a field](CharacterModuleSimple.README.md).
+The [degreewise free candidate terms](FiniteFreeBarModules.README.md) are
+projective as actual left modules and in `ModuleCat`. Their
+[full Hom/word-value equivalence](FiniteFreeBarHom.README.md) uses the actual
+character action on coefficients. No bar differential, exactness or Ext
+comparison follows merely from these degreewise constructions.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,

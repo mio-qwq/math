@@ -4,7 +4,8 @@ Snapshot: 2026-10-08, Asia/Shanghai. Always verify the live Git and filesystem s
 
 ## Published and independently checked
 
-- The current verified update proves that any ordered word of at least six actual augmentation-kernel elements vanishes over every commutative characteristic-two ring and at every parameter, by positive-degree filtration.
+- The current verified update constructs actual character modules, proves their simplicity over fields, constructs degreewise finite free/projective candidate bar terms, and proves their full A-linear Hom/word-value equivalence.
+- `55e9ad2`: every augmentation-kernel word of length at least six vanishes at every parameter; module-name cache retrieval fixed and tested.
 - `51682ab`: actual e/f R-algebra characters and a nonzero full scalar f-character degree-three cochain class whenever q³ is nonzero, independently excluding every scalar bilinear boundary; dependency-ordered replay script.
 - `0428ad3`: full twenty-dimensional input closure, nonzero actual algebra-valued degree-three Hochschild cochain class when q³ is nonzero, and generic character-valued differentials.
 - `2abdb2d`: actual characteristic-two instance, full linear Hochschild differentials, and the actual degree-three cycles-modulo-boundaries quotient.
@@ -24,16 +25,18 @@ All source paths below are under `003-arc-one-parameter/proof/mathlib/`.
 
 | Owner | File/task | State at checkpoint |
 | --- | --- | --- |
-| Primary | Documentation, verification records and replay scripts | Publishing reviewed sixfold kernel vanishing; correcting cache requests to use module names inside the Lake dependency package |
-| Algebra agent | Independent module review | Positive degree filtration and sixfold kernel vanishing completed and independently replayed; reviewing new character/free modules |
-| Audit agent | `CharacterModule.lean`, then `CharacterModuleSimple.lean` | Actual character module and field simple-module bridge in progress; the character quotient and characters replay completed |
-| Discrete agent | `FiniteFreeBarModules.lean` | Degreewise free/projective candidate bar modules in progress, after completing the scalar nonboundary/class proof |
+| Primary | `FiniteFreeBarHom.lean`, documentation and verification records | Full actual A-linear Hom/word-value equivalence compiled and independently reviewed; publishing the module milestone |
+| Algebra agent | `TwentyDimNilpotenceSharp.lean` | Independent module replays completed; preparing a small fivefold nonzero witness under an explicit parameter condition |
+| Audit agent | `FiniteFreeBarAugmentation.lean` | Actual character module and field simplicity completed; preparing augmentation and first-step kernel/image correspondence |
+| Discrete agent | `CochainWordEquiv.lean` | Degreewise free/projective terms completed; preparing full scalar multilinear cochain/word-coefficient equivalences |
 
 Completed and independently recompiled in the current update: `TwentyDimFrobenius.lean` (perfect trace duality), `CochainBasisSemantics.lean` (actual polynomial five-term radical-basis closure), `CochainSpecialization.lean`, `CochainCycleSemantics.lean` (universal internal scalar boundary obstruction), `FiniteTrilinear.lean`, `FiniteHochschild.lean`, `TwentyDimCochain.lean` (all radical-span vectors), and `CochainFullBoundary.lean` (arbitrary full vector-valued boundaries).
 
 Subagents resumed after repeated usage/network interruptions. Their work remains on disk. Inspect each agent's current state and source before resuming; do not assume a request alone completed its task. Their first full task briefing included the user's original research prompt.
 
 `CochainIdempotentClosure.lean` and `TwentyDimHochschildClass.lean` establish the actual algebra-valued class. `TwentyDimCharacters.lean`, `CharacterHochschildDegreeThree.lean`, and `TwentyDimCharacterClass.lean` establish the projected class in the full scalar character quotient, using all multilinear cochains and both endpoint faces. Its nonboundary proof handles arbitrary scalar bilinear maps independently. Both conclusions require q³ nonzero; in a ring without zero divisors, q nonzero suffices. `TwentyDimNilpotence.lean` now proves arbitrary kernel words of length at least six vanish; this is not a Jacobson-radical identification or a sharp bound. The Ext comparison and all-degree assertions remain open. New module drafts awaiting compilation must not be described as verified.
+
+`CharacterModule.lean` and `CharacterModuleSimple.lean` construct real module instances and prove actual field simplicity. `FiniteFreeBarModules.lean` and `FiniteFreeBarHom.lean` give actual projective candidate terms and their full Hom parameterization. They still have no chain differential or exactness. A proposed augmentation presentation, multilinear-cochain equivalence and sharpness witness remain drafts until checked. Mathlib caches for SimpleModule.Basic and ModuleCat.Projective are now available; use module names with `lake exe cache get` inside this dependency package.
 
 Compile large Lean files one at a time on this Windows host. Simultaneous heavy elaboration previously caused transient pagefile/import failures; sequential retries passed. Do not change system settings or repeat large frozen certificates to diagnose those transient errors.
 

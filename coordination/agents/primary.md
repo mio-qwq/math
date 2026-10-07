@@ -1,10 +1,10 @@
 # Primary agent status
 
-Public milestone `51682ab` gives the actual scalar f-character degree-three class under q³ nonzero. Earlier `0428ad3` gives full-input closure and the actual algebra-valued class. The current publication adds uniform vanishing of every length-at-least-six augmentation-kernel word, without parameter nonzero or field assumptions.
+Public milestone `55e9ad2` gives uniform sixfold augmentation-kernel word vanishing. Earlier `51682ab` and `0428ad3` give the scalar character and algebra-valued nonzero degree-three classes. The current publication adds actual character modules, field simplicity, degreewise projective candidate bar terms and their full A-linear Hom/word-value equivalence.
 
-Current verified update: TwentyDimNilpotence, using 400 table-pair degree checks and 40 label checks, followed by genuine polynomial support, arbitrary-element multiplication and list induction. Accepted statements were compiled, independently reviewed and replayed. No sharpness, Jacobson-radical identification, Ext comparison or complete ARC realization is asserted.
+Current verified update: CharacterModule, CharacterModuleSimple, FiniteFreeBarModules and FiniteFreeBarHom. True A-linear maps on the entire free term are parameterized by arbitrary scalar word values, and the inverse uses the actual character action. Accepted statements were compiled, independently reviewed and replayed. No full chain differential, exactness, Ext comparison or complete ARC realization is asserted.
 
-Ownership: primary owns verification/integration/docs and verify-cohomology.ps1. Algebra agent owns TwentyDimNilpotence. Audit agent owns CharacterModule and CharacterModuleSimple. Discrete agent owns FiniteFreeBarModules after completing TwentyDimCharacters and TwentyDimCharacterClass. Pending new drafts must pass serial compilation and scope review before publication.
+Ownership: primary owns FiniteFreeBarHom and verification/integration/docs. Algebra agent owns TwentyDimNilpotenceSharp. Audit agent owns FiniteFreeBarAugmentation. Discrete agent owns CochainWordEquiv. Pending new drafts must pass serial compilation and scope review before publication.
 
 All accepted sources compile with Lean 4.34.1 and the pinned Mathlib revision, using only standard propext, Classical.choice and Quot.sound (some files need fewer). No sorry, added axioms or native_decide. Failed drafts are repaired before publication; no failed quotient was marked verified.
 

@@ -1,0 +1,23 @@
+{
+  "source": "CharacterModule.lean",
+  "source_sha256": "367429d35cfb7dc9d5ffddc5aed9192ee2b1bde75f9b9544cbf047cef2ea9eb8",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_algebra",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 7,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual left A-module for any R-algebra character, compatible R-action, value R-linear equivalence and bijective character-semilinear map, with no characteristic or field hypothesis",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
