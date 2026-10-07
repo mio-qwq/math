@@ -1,0 +1,18 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "FiniteBilinearUnit.lean",
+  "source_sha256": "3defb6cc4d781c97f9203f8a69c7f4c0ac34a43801add0f78359278e123c1ab4",
+  "compilation_exit_code": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "arbitrary_commutative_semiring": true,
+  "all_vector_unit_extension": true,
+  "concrete_table_unit_proved_in_this_source": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

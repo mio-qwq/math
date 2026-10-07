@@ -4,7 +4,7 @@ This repository is shared by independently running research agents. The user aut
 
 ## Check the live state
 
-Read `README.md`, `FORMALIZATION.md`, recent commits, and each note before editing. Fetch `origin/main` and partner branches: this file can become stale. The published handoff baseline is `62e10d033ea2cf7d83906a37c069118791799628`, containing all 104,976 kernel-checked radical closure identities in note 003.
+Read `README.md`, `FORMALIZATION.md`, recent commits, and each note before editing. Fetch `origin/main` and partner branches: this file can become stale. Milestone `5af6c3f` proves associativity of the actual twenty-coordinate multiplication over F₂ polynomials and after every specialization into a commutative characteristic-two ring. Earlier milestone `62e10d0` contains all 104,976 kernel-checked radical closure identities in note 003.
 
 ## Avoid overlapping edits
 
@@ -17,19 +17,14 @@ Git is the common coordination channel. If a direct messaging tool is available 
 ## Current mathematical boundaries
 
 - 001 has a complete written odd-half-order rigidity argument and Lean supporting proofs, including an actual complex Gram block obstruction. Newton identities and construction of these blocks from the original Hadamard matrix remain unformalized.
-- 002 has a written product-weighted theorem, an independent rational checker, and a Std Lean single-conflict classification. The full rectangular theorem is not formally proved in Lean.
-- 003 has eight compiled Std certificates, including all 104,976 closure identities. These formally concern explicit packed bit-polynomial computations. The arbitrary-field algebra interpretation and complete ARC homological realization remain outside the certificate.
+- 002 has a written product-weighted theorem, an independent rational checker, and Lean single-conflict classifications over natural and real costs. The actual positive two-product obstruction, rational witnesses and exact parameter ratios are formalized. The full rectangular theorem is not formally proved in Lean.
+- 003 has eight compiled Std certificates, including all 104,976 closure identities, and semantic bridges from packed codes to actual polynomial vectors. Associativity now holds for the actual multiplication on all twenty-coordinate vectors and after every commutative characteristic-two specialization. Unit/trace laws are in progress; a library algebra instance and complete ARC homological realization remain open.
 
 ## In-flight work at handoff
 
-The primary agent is reviewing the following independent files; check the current commit history before assuming they are still in flight:
+Check `coordination/agents/primary.md` and recent commits for the latest ownership. The active files under `003-arc-one-parameter/proof/mathlib/` are `TwentyDimUnit.lean`, `TracePairSemantics.lean`, and `FiniteBilinearLaws.lean`. The primary agent handles integration, documentation and replay tooling. `FiniteBilinearUnit.lean` is compiled and published with this update.
 
-- `001-odd-half-order-hadamard/proof/mathlib/BlockRanks.lean`: compiled exact actual complex block ranks, now published with this coordination record.
-- `002-weighted-rectangular-pruning/proof/mathlib/SingleConflictReal.lean`: real-cost single-conflict classification and unbounded positive-product obstruction, compiled before publication.
-- `002-weighted-rectangular-pruning/boundary.md`: complete written unbounded obstruction with rational witnesses for sums of two positive product systems.
-- `003-arc-one-parameter/proof/mathlib/BitPolynomial.lean`: the scalar bridge to `Polynomial (ZMod 2)` is now compiled; injectivity and multiplication soundness hold for every natural-number input. Packed-vector semantics remain open.
-
-The scalar bridge or a subsequent packing interpretation is a useful partner task after explicitly checking ownership. Avoid repeating the large finite closure computations unless relevant source or environment changes justify it.
+A disjoint partner task is the Hadamard-to-block bridge in 001 or the general rectangular theorem in 002. Read each note's exact definitions before choosing a lemma. If working on 003, agree on a new file and dependency interface first. Avoid repeating the large finite closure computations unless relevant source or environment changes justify it.
 
 ## Verification and provenance
 

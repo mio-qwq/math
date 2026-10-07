@@ -25,6 +25,8 @@ The [concrete finite contraction bridge](FiniteTableContraction.README.md) and [
 
 ## Replay
 
+The generic [unit extension](FiniteBilinearUnit.README.md) now proves that left and right basis contractions suffice for a unit on all vectors, over every commutative semiring.
+
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:
 
 ```sh
