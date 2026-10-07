@@ -1,0 +1,31 @@
+{
+  "lean_version": "4.34.1",
+  "imports": "Std only",
+  "method": "kernel-checked ordinary decide; logical combination for the final all-word theorem",
+  "source_sha256": {
+    "FiniteCore.lean": "a923076080a8ea60bd219ce53b79b04098d69aab539a76568e898fb9f04c7731",
+    "FiniteCoreT.lean": "80850fb0ad3d08016ef7f8eb731ba93d0d891cdccaee509947e6b3103bfa38d7",
+    "CochainData.lean": "1df05683b55a1d490a7a41b58ae5b4ff137e43c98de1e7af8cd6480219bb905c",
+    "CochainBoundary.lean": "06c7f7267fbd0ca109155a23b9484372fee44da73a9edee7a31a10b09602efd1",
+    "CochainClosure0.lean": "1f3ebccba2989fa037a43a8ab01efb18f26e1bf5c173a03667a9f2ced9836538",
+    "CochainClosure1.lean": "e92513d4030b9ddd4376d6699e76255d5aa03aa22683e688d1da0cfeb4e8b3cc",
+    "CochainClosure2.lean": "06e904c608108d24998c34c4d7a57ea75fe927684b94e2fadae94f88c0b28db2",
+    "CochainClosure.lean": "b4e635e80ad8e69575d5409ecf8ffee9894501ecf2e8a31d0e81c22760d7f886"
+  },
+  "all_listed_sources_compiled_successfully": true,
+  "largest_theorem": "ARCFiniteCore.hochschild_closure_all",
+  "largest_theorem_axioms": [
+    "propext"
+  ],
+  "ten_letter_associativity_triples": 1000,
+  "twenty_letter_associativity_triples": 8000,
+  "Hochschild_radical_four_words": 104976,
+  "twisted_boundary_pairs_per_coefficient": 324,
+  "cochain_nonzero_entries": 179,
+  "scope": "explicit packed exact bit-polynomial identities only",
+  "arbitrary_field_algebra_semantic_bridge_formalized": false,
+  "complete_ARC_theorem_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

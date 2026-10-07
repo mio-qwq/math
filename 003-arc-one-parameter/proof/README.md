@@ -102,3 +102,49 @@ compares the Lean corner tables, every nonunit `C` product, all 179 cochain
 match clauses, and the `pEntries` list against the pinned JSON input. This
 cross-check passed. It checks provenance and transcription; it does not
 replace the kernel proofs or supply an arbitrary-field interpretation.
+
+## Verified final stage: all 104976 Hochschild four-words
+
+`CochainClosure0.lean`, `CochainClosure1.lean`, and
+`CochainClosure2.lean` contain six first-index cases each. Every case checks
+all `18^3` possibilities for the other three radical letters. **All three
+files compiled successfully**, including all 18 case theorems. No
+noncomposable words were filtered out. The final imported file
+`CochainClosure.lean` proves the single full statement
+
+```lean
+theorem hochschild_closure_all :
+    ∀ a b c d : Fin 18,
+      hochschildClosure (radicalIndex a) (radicalIndex b)
+        (radicalIndex c) (radicalIndex d) = 0
+```
+
+Its `#print axioms` output is exactly `[propext]`; it has no `sorryAx` or
+compiler-trust dependency. Its coefficients are the exact explicit
+bit-polynomial representation. The formal theorem does **not** construct
+a Hochschild complex over an abstract field or identify this computation
+with a formal arbitrary-field Ext statement. That semantic bridge and
+the complete ARC homological realization remain outside this certificate.
+
+## Replay the entire Lean certificate
+
+From the repository root, with Lean 4.34.1 selected:
+
+```powershell
+& '003-arc-one-parameter/proof/verify.ps1'
+```
+
+If `lean` is not on `PATH`, supply the installed executable:
+
+```powershell
+& '003-arc-one-parameter/proof/verify.ps1' -LeanExecutable 'C:/Users/Administrator/.elan/bin/lean.exe'
+```
+
+The script builds each imported `.olean` from its public source and fails
+on any nonzero Lean exit status. It temporarily sets `LEAN_PATH` to this
+directory and restores the previous value afterward. It uses only Std,
+no Mathlib download or binary proof shortcut. The three closure blocks
+are independent after their prerequisite files have been compiled and
+can also be replayed in three parallel processes before compiling the
+final importing file. The largest blocks take materially longer than
+the small table checks.

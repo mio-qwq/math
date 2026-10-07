@@ -14,6 +14,7 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 | [003/proof/FiniteCoreT.lean](003-arc-one-parameter/proof/FiniteCoreT.lean) | All 8,000 twenty-dimensional basis triples, both coefficient bounds, the dual recurrences, unit actions and all 400 trace pairings | Same fixed bit-polynomial scope; not the complete ARC realization |
 | [003/proof/CochainData.lean](003-arc-one-parameter/proof/CochainData.lean) | The 179-entry cochain, coefficient bounds, the concrete internal bar differential and its nonzero encoded pairing | Does not yet turn the encoded data into formal Ext or cohomology objects |
 | [003/proof/CochainBoundary.lean](003-arc-one-parameter/proof/CochainBoundary.lean) | Constant and linear boundary coefficients on all 324 radical input pairs | Fixed exact polynomial certificates; no arbitrary-field or full ARC realization |
+| [003/proof/CochainClosure.lean](003-arc-one-parameter/proof/CochainClosure.lean) | All 104,976 radical four-word closure identities, assembled into a universally quantified theorem from 18 kernel-checked cases | Explicit packed bit-polynomial differential; the formal Hochschild complex and arbitrary-field interpretation remain separate |
 
 Replay from the repository root:
 
@@ -32,5 +33,13 @@ $env:LEAN_PATH = (Resolve-Path '003-arc-one-parameter/proof').Path
 lean -o 003-arc-one-parameter/proof/FiniteCore.olean 003-arc-one-parameter/proof/FiniteCore.lean
 lean 003-arc-one-parameter/proof/FiniteCoreT.lean
 ```
+
+To replay all eight files of the 003 certificate, including every closure case, use its dependency-ordered script:
+
+```powershell
+& '003-arc-one-parameter/proof/verify.ps1'
+```
+
+The largest closure blocks take longer than the small table checks. See the [003 proof README](003-arc-one-parameter/proof/README.md) for coverage, provenance cross-checks and exact limits, and the [001 Mathlib README](001-odd-half-order-hadamard/proof/mathlib/README.md) for the separately pinned matrix package.
 
 The proofs certify the propositions stated in these files. A formal proof of a supporting certificate is a formalization contribution, but it is not a formal proof of every theorem in the surrounding papers. Mathematical provenance and the specific formalization work are identified separately in the notes. No claim of first formalization or historical priority is made.

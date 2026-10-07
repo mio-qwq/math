@@ -21,7 +21,7 @@ application:
 The note does not claim mathematical priority or a newly established
 unconditional counterexample to Auslander--Reiten.
 
-[Lean kernel certificates](proof/README.md) now cover the explicit algebra tables, trace pairing, cycle and boundary data. The formalization scope and remaining semantic bridges are stated there separately from the Python certificate.
+[Lean kernel certificates](proof/README.md) now cover the explicit algebra tables, trace pairing, cycle, boundary data and all 104976 radical four-word closure identities. The formalization scope and remaining semantic bridges are stated there separately from the Python certificate. The final universally quantified closure theorem depends only on standard `propext`; no certificate uses `sorry`, added axioms or `native_decide`.
 
 ## Reproduce the exact certificate
 
