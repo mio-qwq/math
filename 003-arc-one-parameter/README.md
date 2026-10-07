@@ -54,6 +54,13 @@ proves the stated character-module Ext nonvanishing using every actual
 A-linear degree-two map. The stable two-cone profile, converted module
 and remaining homological realization required for complete ARC remain open.
 
+Over every characteristic-two field, the actual table algebra is also
+[self-injective](proof/mathlib/TwentyDimSelfInjective.README.md) for every
+parameter, including zero. Consequently
+[all positive actual Ext groups into its left regular module vanish](proof/mathlib/TwentyDimExtIntoAlgebra.README.md)
+for every source module. This coefficient-module vanishing is separate
+from the self-Ext profile and converted objects in the conditional ARC application.
+
 Python 3.9 or later, standard library only:
 
 ```console

@@ -1,0 +1,27 @@
+{
+  "source": "TwentyDimExtIntoAlgebra.lean",
+  "source_sha256": "bf24c88867274ff11ffc76eb4f927dacf303427e388bf0054fe1e0c43fbda534",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 6,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "For every actual source module and every positive degree, actual Mathlib Ext into the actual left regular table algebra is zero, for arbitrary parameter over every characteristic-two field",
+  "coefficient_ring_requirement": "Field of characteristic two",
+  "parameter_nonzero_required": false,
+  "source_module_finite_dimensional_required": false,
+  "self_injectivity_proved": true,
+  "all_positive_actual_ext_into_regular_algebra_vanishing_proved": true,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

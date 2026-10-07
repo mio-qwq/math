@@ -1,0 +1,27 @@
+{
+  "source": "TwentyDimSelfInjective.lean",
+  "source_sha256": "747a23bfb4df9b957a8a08e56089a358dadc4925b4dfa536a822fa3af2dd9c76",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "scan_algebra",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 7,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "The actual table algebra is injective as a left module over itself over every characteristic-two field and arbitrary parameter, by a constructed A-linear extension across arbitrary injective module maps",
+  "coefficient_ring_requirement": "Field of characteristic two",
+  "parameter_nonzero_required": false,
+  "source_module_finite_dimensional_required": false,
+  "self_injectivity_proved": true,
+  "all_positive_actual_ext_into_regular_algebra_vanishing_proved": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

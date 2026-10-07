@@ -25,7 +25,7 @@ The [concrete finite contraction bridge](FiniteTableContraction.README.md) and [
 
 The [concrete unit](TwentyDimUnit.README.md) and [trace pairing](TracePairSemantics.README.md) establish the two-sided identity, exact trace formula, symmetry and left/right nondegeneracy on all those vectors. The [general bilinear laws](FiniteBilinearLaws.README.md) supply distributivity and scalar compatibility, while [trace invariance](TraceInvariance.README.md) adds linearity and cyclic triple products.
 
-The [actual algebra](TwentyDimAlgebra.README.md) now packages the proved multiplication as a genuine unital `Ring` and `Algebra R`, with a 20-element basis and dimension 20 over every characteristic-two field. The Hochschild/Ext construction and complete ARC realization remain open.
+The [actual algebra](TwentyDimAlgebra.README.md) now packages the proved multiplication as a genuine unital `Ring` and `Algebra R`, with a 20-element basis and dimension 20 over every characteristic-two field. These algebra interfaces support the cochain and actual module Ext layers below; the complete ARC realization remains open.
 
 [Perfect trace duality](TwentyDimFrobenius.README.md) now gives an explicit linear equivalence from the actual algebra to its full R-linear dual. The [cochain basis bridge](CochainBasisSemantics.README.md) and [specialization](CochainSpecialization.README.md) turn the five-term radical-basis certificate into genuine polynomial and ring identities. The [cycle obstruction](CochainCycleSemantics.README.md) excludes every internal scalar coboundary when the q³ witness is nonzero. [Generic trilinear evaluation](FiniteTrilinear.README.md) provides the next interface for arbitrary-vector extension. These cochain statements do not yet construct a complete Hochschild or Ext complex.
 
@@ -100,6 +100,15 @@ interpret the fixed f-character cocycle as a
 when q cubed is nonzero. The zero criterion covers every actual A-linear
 degree-two map. The stable profile, remaining Ext vanishing and complete
 ARC realization remain separate obligations.
+
+The actual table algebra is now proved
+[self-injective over every characteristic-two field](TwentyDimSelfInjective.README.md),
+for any q including zero, by an explicit extension of arbitrary A-linear
+maps using its perfect symmetrizing trace. Its actual left regular
+module is consequently an injective object, and
+[every positive actual Ext group into it vanishes](TwentyDimExtIntoAlgebra.README.md)
+for every source module. The full self-Ext profile and converted ARC
+objects still require their own proofs.
 
 ## Replay
 
