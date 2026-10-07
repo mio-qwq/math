@@ -2,7 +2,7 @@
 
 Published baselines: `62e10d0` (all radical closure identities) and `0773149` (actual complex block ranks and singularity). Check subsequent commits for the current head.
 
-Current ownership: integration and documentation across the existing notes. Milestones are `4ad4515` (real obstruction and scalar semantics), `0673376` (rational witnesses and exact ratios), `1b97284` (byte packing), and `fb8b28a` (actual complex support and sparse vector products). The table-basis, scalar-specialization and generic finite-bilinear layers are compiled and published with this update. The current independent file in progress is `003/proof/mathlib/FiniteTableContraction.lean` (path abbreviated by note number). Do not concurrently edit it; check later commits for completed status.
+Current ownership: integration and documentation across the existing notes. Milestones include `c68b0c9` (basis, scalar-specialization and generic bilinear layers). The concrete `FiniteTableContraction.lean` and `TwentyDimAssociativity.lean` are compiled and published with this update, proving associativity of the actual multiplication on all twenty-coordinate vectors and after every commutative characteristic-two specialization. Current independent files in progress are `FiniteBilinearUnit.lean`, `TwentyDimUnit.lean` and `TracePairSemantics.lean` under the 003 Mathlib package. Do not concurrently edit them; check later commits for completed status.
 
 Actual checks: Lean 4.34.1 compilation in the separately pinned Lake packages; axiom audits use only `propext`, `Classical.choice`, and `Quot.sound`. The 003 scalar source imports the unchanged, previously compiled Std `FiniteCore`. Its six main audits contain no `sorryAx`.
 

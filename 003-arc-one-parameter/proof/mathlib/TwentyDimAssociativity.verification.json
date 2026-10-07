@@ -1,0 +1,21 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TwentyDimAssociativity.lean",
+  "source_sha256": "6be5caca9058cecea2879ff4192ea7c40c1ae8dd5201ade30b4702e5a75fee8b",
+  "compilation_exit_code": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "concrete_table_contraction_proved": true,
+  "all_vector_associativity": true,
+  "arbitrary_commutative_characteristic_two_specialization": true,
+  "unit_and_trace_laws_in_this_source": false,
+  "mathlib_algebra_instance_installed": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

@@ -21,6 +21,8 @@ The additional [BytePacking bridge](BytePacking.README.md) now supplies generic 
 
 Further compiled layers are [actual table-basis associativity](TableBasisSemantics.README.md), [specialization in any commutative characteristic-two ring](ScalarEvaluation.README.md), and [generic all-vector associativity from finite structure constants](FiniteBilinear.README.md). The last theorem requires its explicit contraction premise; connecting the concrete table and installing an algebra instance remain subsequent work.
 
+The [concrete finite contraction bridge](FiniteTableContraction.README.md) and [all-vector theorem](TwentyDimAssociativity.README.md) now close that premise for the actual twenty-label table. Its defined multiplication is associative on all polynomial vectors, and on all vectors after specialization in any commutative characteristic-two ring. Unit/trace laws, a library algebra instance and the complete homological realization remain subsequent layers.
+
 ## Replay
 
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:

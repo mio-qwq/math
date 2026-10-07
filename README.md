@@ -8,7 +8,7 @@ This repository records explicit mathematical statements, complete proofs where 
 | --- | --- | --- |
 | [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of support and actual complex block obstructions; the full rigidity theorem is not yet formalized |
 | [002 — Product-weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted cover/pruning theorems with sharp constant; no finite uniform coefficient works for sums of two positive product systems | Independent rational checker, 67,132 exact instances, and Lean proofs of real-cost single-conflict criteria and the unbounded obstruction |
-| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities and an abstract spectrum theorem under explicit hypotheses; the one-variable ARC application remains conditional | Lean covers all 8,000 basis triples and 104,976 radical four-words, with a universal genuine scalar polynomial bridge; packed algebra and the complete ARC realization remain unformalized |
+| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities and an abstract spectrum theorem under explicit hypotheses; the one-variable ARC application remains conditional | Lean certifies the finite data and proves all-vector associativity of the actual twenty-coordinate multiplication over F₂[X] and all characteristic-two specializations; unit/trace and the complete homological realization remain separate |
 
 ## Reproduction
 
