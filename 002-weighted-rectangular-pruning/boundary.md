@@ -45,6 +45,43 @@ If exactly one member survives, it covers the corner. If both are deleted, the c
 
 Each of the two component systems individually satisfies the product-weighted theorem. In the first system, the cover \(\{r,z_L\}\) costs \(11/100\), below its bound \(1/5\). In the second, \(\{c,z_R\}\) has the same cost and bound. Different cheap covers are needed for the two systems; summing their pair costs need not preserve the existence of a sufficiently cheap common cover. The weighted-cover statement is therefore not closed under this convexification.
 
+## No uniform constant for two positive product systems
+
+The obstruction is unbounded; replacing the coefficient one by a larger fixed coefficient cannot repair the extension to sums of two product systems.
+
+**Theorem.** For every finite real \(K\geq0\), there is a single-conflict instance whose costs are the sum of two strictly positive product systems such that every vertex cover costs more than \(K(w_H+w_Z)\), and every conflict-free pruning has deletion cost greater than \(K(w_H+w(U))\). All coordinate weights may be chosen rational.
+
+**Proof.** For \(0<\varepsilon<1\), take the two coordinate systems
+\[
+ (a,b,c,d)=(\varepsilon,1,1,\varepsilon),
+ \qquad (a,b,c,d)=(1,\varepsilon,\varepsilon,1).
+\]
+Their summed pair costs are
+\[
+ x=w_R=y=w_C=1+\varepsilon^2,
+ \qquad h=w_H=z=w_Z=2\varepsilon.
+\]
+The same three inclusion-minimal covers have costs \(2(1+\varepsilon^2)\), \(1+\varepsilon^2+2\varepsilon\), and \(1+\varepsilon^2+2\varepsilon\). Since
+\[
+ 2(1+\varepsilon^2)-(1+\varepsilon^2+2\varepsilon)
+   =(1-\varepsilon)^2\geq0,
+\]
+the minimum cover cost is exactly \((1+\varepsilon)^2\). Thus the least coefficient permitting a cover is
+\[
+ K_{\rm cover}(\varepsilon)=\frac{(1+\varepsilon)^2}{4\varepsilon}.
+\]
+Deleting one original costs \(1+\varepsilon^2\), with bound \(K h=2K\varepsilon\); deleting both costs \(2(1+\varepsilon^2)\), with bound \(K(h+z)=4K\varepsilon\). Consequently all three feasible prunings have the same threshold, and the least pruning coefficient is exactly
+\[
+ K_{\rm prune}(\varepsilon)=\frac{1+\varepsilon^2}{2\varepsilon}.
+\]
+For a given \(K\geq0\), choose a positive integer \(n>K\), and put \(\varepsilon=1/(4n)\). These coordinate weights are strictly positive and rational, with \(\varepsilon<1\). Now
+\[
+ K(h+z)=4K\varepsilon=K/n<1<(1+\varepsilon)^2.
+\]
+Also \(2K\varepsilon=K/(2n)<1/2<1+\varepsilon^2\), so deleting one original fails; doubling this strict inequality shows that deleting both fails as well. This proves both assertions for every finite \(K\). \(\square\)
+
+The argument applies to pair costs summed across systems. Multiplying every pair cost by the same positive number changes neither ratio, so averaging the two systems gives the same obstruction. It does not change the product-weighted theorem proved in [paper.md](paper.md).
+
 ## The exact single-conflict criterion
 
 For any four nonnegative pair costs \(x=w_R\), \(y=w_C\), \(h=w_H\), and \(z=w_Z\), the single-conflict pruning conclusion holds if and only if

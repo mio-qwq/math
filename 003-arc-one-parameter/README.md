@@ -23,6 +23,8 @@ unconditional counterexample to Auslander--Reiten.
 
 [Lean kernel certificates](proof/README.md) now cover the explicit algebra tables, trace pairing, cycle, boundary data and all 104976 radical four-word closure identities. The formalization scope and remaining semantic bridges are stated there separately from the Python certificate. The final universally quantified closure theorem depends only on standard `propext`; no certificate uses `sorry`, added axioms or `native_decide`.
 
+The additional [Mathlib scalar bridge](proof/mathlib/README.md) now interprets the scalar bit codes injectively as actual `Polynomial (ZMod 2)` values and proves multiplication soundness for every natural-number input. Packed-vector, algebra-instance and homological bridges still remain; the scalar theorem does not establish the complete ARC realization.
+
 ## Reproduce the exact certificate
 
 Python 3.9 or later, standard library only:

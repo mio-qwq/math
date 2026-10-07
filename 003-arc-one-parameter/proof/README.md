@@ -148,3 +148,7 @@ are independent after their prerequisite files have been compiled and
 can also be replayed in three parallel processes before compiling the
 final importing file. The largest blocks take materially longer than
 the small table checks.
+
+## Additional scalar semantics in pinned Mathlib
+
+The separate [Mathlib scalar package](mathlib/README.md) now proves an injective interpretation of the natural-number bit codes as actual polynomials over `ZMod 2`, and proves that the frozen `pMul` corresponds to polynomial multiplication for every input. It adds a genuine scalar semantic bridge. The eight Std files above continue to state their exact packed-computation certificates; the packed-vector interpretation and the formal algebra/Hochschild/Ext constructions remain separate work.

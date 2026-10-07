@@ -4,9 +4,9 @@ For two arbitrary finite relations, this note proves a product-weighted bound fo
 
 Read [paper.md](paper.md) for the complete proof, definitions, zero-weight cases, sharpness examples, and provenance. The rank method comes from the [upstream pruning argument](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-proof-of-Seymours-second-neighborhood-conjecture-September-23-2026/build/source/02-pruning.tex), independently proved in this note. The product-weighted lifting and exact certificate workflow are the extensions documented here. Literature priority has not been established.
 
-The proof does not assume the upstream second-neighborhood theorem. There is no Lean formalization of this result in this directory.
+The proof does not assume the upstream second-neighborhood theorem. [Lean proofs](proof/README.md) certify the complete single-conflict criteria, including a [Mathlib real-cost version and unbounded obstruction](proof/mathlib/README.md); the general rectangular theorem remains unformalized.
 
-[boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict. Its separate exact checker enumerates all covers and feasible prunings and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
+[boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce
 

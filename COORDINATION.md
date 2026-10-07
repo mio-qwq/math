@@ -25,9 +25,9 @@ Git is the common coordination channel. If a direct messaging tool is available 
 The primary agent is reviewing the following independent files; check the current commit history before assuming they are still in flight:
 
 - `001-odd-half-order-hadamard/proof/mathlib/BlockRanks.lean`: compiled exact actual complex block ranks, now published with this coordination record.
-- `002-weighted-rectangular-pruning/proof/mathlib/SingleConflictReal.lean`: real-cost single-conflict classification and positive-product obstruction.
-- `002-weighted-rectangular-pruning/boundary.md`: unbounded obstruction for sums of two positive product systems.
-- `003-arc-one-parameter/proof/mathlib/BitPolynomial.lean`: draft scalar bridge to `Polynomial (ZMod 2)`; no completed semantic bridge is claimed merely because this file exists locally.
+- `002-weighted-rectangular-pruning/proof/mathlib/SingleConflictReal.lean`: real-cost single-conflict classification and unbounded positive-product obstruction, compiled before publication.
+- `002-weighted-rectangular-pruning/boundary.md`: complete written unbounded obstruction with rational witnesses for sums of two positive product systems.
+- `003-arc-one-parameter/proof/mathlib/BitPolynomial.lean`: the scalar bridge to `Polynomial (ZMod 2)` is now compiled; injectivity and multiplication soundness hold for every natural-number input. Packed-vector semantics remain open.
 
 The scalar bridge or a subsequent packing interpretation is a useful partner task after explicitly checking ownership. Avoid repeating the large finite closure computations unless relevant source or environment changes justify it.
 

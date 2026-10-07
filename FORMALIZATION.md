@@ -1,6 +1,6 @@
 # Formalization status
 
-The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; the isolated `001/proof/mathlib` package pins Mathlib as well. All statements below have been compiled locally, and their axiom lists are printed by their source files. None uses `sorry`, an added axiom, or `native_decide`.
+The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; the isolated `proof/mathlib` packages pin Mathlib as well. All statements below have been compiled locally, and their axiom lists are printed by their source files. None uses `sorry`, an added axiom, or `native_decide`.
 
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
@@ -11,11 +11,13 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 | [001/proof/mathlib/BlockObstruction.lean](001-odd-half-order-hadamard/proof/mathlib/BlockObstruction.lean) | Actual complex Gram blocks with unit squared moduli and the stated orthogonality equations cannot have odd size; the projection and trace are constructed in Lean | Newton identities and the construction of the blocks from the original matrix remain to be formalized |
 | [001/proof/mathlib/BlockRanks.lean](001-odd-half-order-hadamard/proof/mathlib/BlockRanks.lean) | The actual Gram equations force `2 * A.rank = m` and `2 * B.rank = m` for every positive size; both determinants vanish | Only A needs unit squared moduli; the original Hadamard-to-block construction remains separate |
 | [002/proof/SingleConflict.lean](002-weighted-rectangular-pruning/proof/SingleConflict.lean) | For every four natural-number costs, cover and pruning feasibility have the stated exact criterion; the scaled nonproduct example fails both | The full arbitrary rectangular rank argument and arbitrary real weights are not formalized |
+| [002/proof/mathlib/SingleConflictReal.lean](002-weighted-rectangular-pruning/proof/mathlib/SingleConflictReal.lean) | Exact real-cost cover/pruning thresholds and attained minimum; for every finite real K, two actual positive product systems defeat both bounds with coefficient K | Complete single-conflict obstruction; the general rectangular theorem remains unformalized. The rational-witness strengthening is supplied by the written proof |
 | [003/proof/FiniteCore.lean](003-arc-one-parameter/proof/FiniteCore.lean) | All 1,000 basis triples of the explicit ten-dimensional table have equal encoded products, with output and coefficient bounds and two radical products | Fixed bit-polynomial table identities; the interpretation as a field algebra and the complete ARC realization are not formalized |
 | [003/proof/FiniteCoreT.lean](003-arc-one-parameter/proof/FiniteCoreT.lean) | All 8,000 twenty-dimensional basis triples, both coefficient bounds, the dual recurrences, unit actions and all 400 trace pairings | Same fixed bit-polynomial scope; not the complete ARC realization |
 | [003/proof/CochainData.lean](003-arc-one-parameter/proof/CochainData.lean) | The 179-entry cochain, coefficient bounds, the concrete internal bar differential and its nonzero encoded pairing | Does not yet turn the encoded data into formal Ext or cohomology objects |
 | [003/proof/CochainBoundary.lean](003-arc-one-parameter/proof/CochainBoundary.lean) | Constant and linear boundary coefficients on all 324 radical input pairs | Fixed exact polynomial certificates; no arbitrary-field or full ARC realization |
 | [003/proof/CochainClosure.lean](003-arc-one-parameter/proof/CochainClosure.lean) | All 104,976 radical four-word closure identities, assembled into a universally quantified theorem from 18 kernel-checked cases | Explicit packed bit-polynomial differential; the formal Hochschild complex and arbitrary-field interpretation remain separate |
+| [003/proof/mathlib/BitPolynomial.lean](003-arc-one-parameter/proof/mathlib/BitPolynomial.lean) | An injective decoder into `Polynomial (ZMod 2)` sends XOR to addition and the frozen `pMul` to multiplication for every natural-number input; scalar associativity and commutativity follow | Scalar semantics only; packed vectors, the finite algebra instance and the complete homological realization still require bridges |
 
 Replay from the repository root:
 
