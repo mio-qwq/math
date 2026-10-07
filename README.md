@@ -8,6 +8,7 @@ This repository records explicit mathematical statements, complete proofs where 
 | --- | --- | --- |
 | [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of the integer obstructions; the complex-matrix theorem is not fully formalized |
 | [002 — Product-weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Cover and pruning theorems for arbitrary nonnegative real coordinate weights; sharp constant and a complete written proof | Rational min-cut construction and an independent exact flow/cover certificate checker |
+| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities and an abstract spectrum theorem under explicit hypotheses; the one-variable ARC application remains conditional | Exact checks over `F_2[q]`; neither the complete ARC theorem nor its one-variable realization is independently verified |
 
 ## Reproduction
 

@@ -1,0 +1,52 @@
+# Exact ARC core certificate and a conditional one-parameter note
+
+This directory contains two verified components and one explicitly conditional
+application:
+
+1. An exact polynomial certificate for the finite algebra and 179-entry
+   Hochschild cochain in OpenAI family 199. The checker verifies associativity,
+   the symmetric form, every radical four-word, the twisted boundary identity,
+   and the explicit nonzero cycle pairing. These are identities over
+   `F_2[q]`, not numerical specializations.
+2. A proved abstract extension-spectrum theorem. Under the stable-profile and
+   twist-action hypotheses stated in [paper.md](paper.md), the converted
+   module's positive self-Ext groups have an exact multiplicative-order
+   classification, including a rational generating function.
+3. A **conditional application** to the upstream ARC construction: replacing
+   its independent parameters by `q=t, H_1=1, H_2=t` would give a construction
+   over `F_2(t)`. This application still depends on the upstream infinite
+   homological realization; the finite checker does **not** verify that
+   realization or prove the complete ARC counterexample.
+
+The note does not claim mathematical priority or a newly established
+unconditional counterexample to Auslander--Reiten.
+
+## Reproduce the exact certificate
+
+Python 3.9 or later, standard library only:
+
+```console
+python checker/verify.py
+python checker/verify.py --output results/verification.json
+```
+
+Expected coverage: `8000` basis triples, `104976` radical four-words,
+`15250` composable four-words, `324` radical input pairs, `179` nonzero
+cochain entries; cycle pairing `q^3 f`.
+
+The [saved result](results/verification.json) states the verification scope and
+records SHA-256 of the [fixed input](data/arc-core.json). Both flags concerning
+verification of the complete ARC realization are deliberately `false`.
+
+## Files and provenance
+
+- [paper.md](paper.md): definitions, proof of the abstract spectrum formula,
+  proof interpretation of the finite certificate, conditional specialization,
+  and remaining verification gap.
+- [checker/verify.py](checker/verify.py): new standalone exact checker.
+- [data/arc-core.json](data/arc-core.json): finite data transcribed from
+  OpenAI's algebra and cochain tables, with source hashes.
+- [ATTRIBUTION.md](ATTRIBUTION.md): exact upstream version and license.
+
+Upstream source is pinned to commit
+`adc7f1241b42e322a6451854ab7e4b4c146bf78a`.

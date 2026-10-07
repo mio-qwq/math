@@ -1,0 +1,15 @@
+{
+  "status": "verified exact polynomial identities",
+  "scope": "finite algebra, cocycle, twisted boundary and cycle only",
+  "coefficient_ring": "F_2[q], with indeterminate H in the boundary identity",
+  "data_sha256": "7beebc71004a5ba99ac94b09535bedc7faca141ceb1048e6e9a1b3bd5af7cea6",
+  "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "associativity_basis_triples": 8000,
+  "Hochschild_radical_four_words": 104976,
+  "composable_radical_four_words": 15250,
+  "boundary_radical_pairs": 324,
+  "cochain_entries": 179,
+  "nonzero_cycle_pairing": "q^3 f",
+  "complete_ARC_theorem_verified": false,
+  "one_parameter_ARC_realization_independently_verified": false
+}
