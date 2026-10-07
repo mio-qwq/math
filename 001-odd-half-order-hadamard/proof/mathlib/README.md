@@ -10,13 +10,19 @@ The file compiled successfully with Lean 4.34.1 and Mathlib commit `d13f23b723b8
 
 `BlockRanks.lean` proves the exact rank statement for every positive block size under the same Gram equations: `2 * A.rank = m` and `2 * B.rank = m`. Only `A` needs unit squared moduli; the total Gram trace supplies the trace of `BBᴴ`. Both determinants are then zero. An intermediate theorem replaces the unit-modulus assumption by the single explicit Gram trace equation. No rank identity is assumed: the proof constructs the projection and relates its range to the actual matrix rank. This file compiled successfully and its five axiom audits list only the same standard three axioms.
 
+`ComplexSupport.lean` connects the abstract `../Support.lean` cancellation argument to actual nonzero complex values. Under the explicit at-most-two-values hypothesis, both nonconstant phases equal `-1`; the actual value `1` has multiplicity `2*t`, excluding an odd required multiplicity. It also handles the row-ratio form with an inverse phase. See [the exact scope and replay instructions](ComplexSupport.md); deriving these hypotheses from the original Hadamard matrix remains separate.
+
 From this directory:
 
 ```sh
-lake exe cache get Mathlib/LinearAlgebra/Trace.lean Mathlib/LinearAlgebra/Matrix/ConjTranspose.lean Mathlib/LinearAlgebra/Matrix/Rank.lean Mathlib/Basic/Complex/Basic.lean
+lake exe cache get Mathlib/LinearAlgebra/Trace.lean Mathlib/LinearAlgebra/Matrix/ConjTranspose.lean Mathlib/LinearAlgebra/Matrix/Rank.lean Mathlib/Basic/Complex/Basic.lean Mathlib/Algebra/Ring/Commute.lean
 lake env lean ProjectionTrace.lean
 lake env lean BlockObstruction.lean
 lake env lean BlockRanks.lean
+lean -o ../Support.olean ../Support.lean
+LEAN_PATH=.. lake env lean ComplexSupport.lean
 ```
 
-The package pins Mathlib, the Lean toolchain and transitive dependencies in `lake-manifest.json`. All three source files compiled successfully and use only the standard three axioms listed above. They use the library's established projection/trace theorem and record our application to the Hadamard block obstruction and exact ranks; no priority claim is made about standard library facts.
+For PowerShell, set `$env:LEAN_PATH = (Resolve-Path '..').Path` before the final command and omit its `LEAN_PATH=..` prefix, restoring the previous value afterward.
+
+The package pins Mathlib, the Lean toolchain and transitive dependencies in `lake-manifest.json`. All four source files compiled successfully and use only the standard three axioms listed above. They use the library's established field, projection and trace theorems and record our application to the Hadamard phase and block obstructions; no priority claim is made about standard library facts.

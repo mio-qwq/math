@@ -1,0 +1,28 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "TermSemantics.lean",
+  "source_sha256": "8c3706c6e3e155d6f435ca17faaec6ae8b227f94653d2e235c35757ca120223c",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_theorems": [
+    "decode_encode",
+    "decode_scaleEncode",
+    "decode_leftProduct",
+    "decode_rightProduct"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "arbitrary sparse-list XOR folds, scaled folds, and nested left/right product encodings interpreted as sums in Nat->Polynomial(ZMod2), under explicit bounds on every actually packed coefficient",
+  "allows_repeated_labels": true,
+  "uses_new_finite_enumeration": false,
+  "defines_finite_dimensional_algebra": false,
+  "constructs_hochschild_complex": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

@@ -17,6 +17,8 @@ This completes the **scalar** semantic bridge. It does not yet decode the eight-
 
 The additional [BytePacking bridge](BytePacking.README.md) now supplies generic eight-bit coordinate extraction, coordinatewise XOR addition, and the exact interpretation of a single packed coefficient under its explicit `<256` bound. It does not yet interpret all table sums or construct an algebra instance; those are subsequent layers.
 
+[TermSemantics](TermSemantics.README.md) supplies the next generic layer: arbitrary sparse-list sums, scaled sums and left/right triple products become actual polynomial vectors, with the necessary bounds on every composed coefficient. A formal finite algebra instance and the complete homological construction remain separate.
+
 ## Replay
 
 From this directory, obtain the selectively cached Mathlib modules and compile the imported Std source:
