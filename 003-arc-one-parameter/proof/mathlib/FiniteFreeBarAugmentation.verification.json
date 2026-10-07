@@ -1,0 +1,24 @@
+{
+  "source": "FiniteFreeBarAugmentation.lean",
+  "source_sha256": "68f2f14ab3816f8ca63e75dc5aa927fe43e4d0ec8c0d6b95ac18b87cecb3a9a5",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "audit_repository",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "scan_discrete",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 10,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual A-linear surjective character augmentation and degree-one boundary form a projective presentation exact at degree zero, via explicit coordinate lift and kernel/image equality",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "full_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

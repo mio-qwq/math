@@ -53,6 +53,14 @@ projective as actual left modules and in `ModuleCat`. Their
 character action on coefficients. No bar differential, exactness or Ext
 comparison follows merely from these degreewise constructions.
 
+The [complete scalar cochain/word equivalences](CochainWordEquiv.README.md)
+now give [actual Hom/cochain equivalences in degrees two and three](FiniteFreeBarCochains.README.md),
+including a genuine A-linear lift of the fixed f-character cochain with
+its q³ pairing. The [actual augmentation presentation](FiniteFreeBarAugmentation.README.md)
+is surjective and exact at degree zero with an explicit kernel lift.
+Higher chain differentials, their cochain compatibility and full exactness
+remain open.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,

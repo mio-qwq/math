@@ -1,8 +1,8 @@
 # Primary agent status
 
-Public milestone `55e9ad2` gives uniform sixfold augmentation-kernel word vanishing. Earlier `51682ab` and `0428ad3` give the scalar character and algebra-valued nonzero degree-three classes. The current publication adds actual character modules, field simplicity, degreewise projective candidate bar terms and their full A-linear Hom/word-value equivalence.
+Public milestone `d53119d` supplies actual character modules, field simplicity, degreewise projective terms and full Hom coordinates. Earlier `55e9ad2`, `51682ab` and `0428ad3` prove sixfold kernel vanishing and scalar/algebra-valued nonzero degree-three classes. The current publication adds full degree-two/three Hom/cochain equivalences and an actual augmentation presentation exact at degree zero.
 
-Current verified update: CharacterModule, CharacterModuleSimple, FiniteFreeBarModules and FiniteFreeBarHom. True A-linear maps on the entire free term are parameterized by arbitrary scalar word values, and the inverse uses the actual character action. Accepted statements were compiled, independently reviewed and replayed. No full chain differential, exactness, Ext comparison or complete ARC realization is asserted.
+Current verified update: CochainWordEquiv, FiniteFreeBarCochains and FiniteFreeBarAugmentation. True A-linear degree-two/three Hom maps correspond to all scalar bilinear/trilinear cochains, including the genuine lift with q³ pairing. The augmentation is surjective and its kernel equals the degree-one boundary image. Accepted statements were compiled, independently reviewed and replayed. No higher differential, higher exactness, Ext comparison or complete ARC realization is asserted.
 
 Ownership: primary owns FiniteFreeBarHom and verification/integration/docs. Algebra agent owns TwentyDimNilpotenceSharp. Audit agent owns FiniteFreeBarAugmentation. Discrete agent owns CochainWordEquiv. Pending new drafts must pass serial compilation and scope review before publication.
 
