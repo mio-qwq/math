@@ -1,0 +1,24 @@
+{
+  "source": "FiniteFreeBarExactTwo.lean",
+  "source_sha256": "88517b5d36fd9df52895cfd7145b53c0dd7079b743e7048781098314cc8da8eb",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "scan_algebra",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "audit_repository",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 9,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Explicit genuine R-linear degree-two contraction and full A-coefficient identity; for every actual character and parameter, kernel boundary2 equals range boundary3",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "full_projective_resolution_constructed": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

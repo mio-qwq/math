@@ -76,8 +76,16 @@ The fixed lifted module map is
 is nonzero. The degree-one/degree-two adjacent chain composition is zero.
 The [full bilinear pair lift](FiniteFreeBarPairLift.README.md) now proves
 the degree-two/degree-three composition is zero in the entire A-valued
-free module as well. The degree-three/four chain law, higher exactness
-and an Ext comparison remain open.
+free module as well. The [full trilinear lift](FiniteFreeBarTripleLift.README.md)
+now gives the [degree-three/four chain law](FiniteFreeBarComposition34.README.md).
+Thus the actual Hom maps define an
+[actual degree-three cycles/boundaries quotient with a nonzero class](FiniteFreeBarHomologyThree.README.md)
+when q³ is nonzero. The explicit R-linear contraction also proves
+[exactness at P1](FiniteFreeBarExactOne.README.md), including an actual
+preimage for every closed vector. The next contraction proves
+[exactness at P2](FiniteFreeBarExactTwo.README.md), retaining the full
+A-valued coefficients. Exactness at P3 and higher degrees,
+a full projective resolution and an Ext comparison remain open.
 
 ## Replay
 

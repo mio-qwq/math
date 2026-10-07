@@ -41,8 +41,10 @@ The actual character module, degreewise projective left terms and full
 Hom/cochain equivalences are now constructed. The displayed degree-three
 module map is [closed for the actual degree-four boundary](proof/mathlib/FiniteFreeBarDegreeFour.README.md)
 and [not a degree-two module-map boundary](proof/mathlib/FiniteFreeBarNonboundary.README.md)
-when q³ is nonzero. The augmentation presentation is exact at degree zero;
-the remaining chain-composition and higher-exactness proofs are required
+when q³ is nonzero. All adjacent chain laws through P4 are proved, and
+the map defines a [nonzero class in the actual module-Hom quotient](proof/mathlib/FiniteFreeBarHomologyThree.README.md).
+The presentation is exact at P0, P1 and P2. Exactness at P3 and above,
+an all-degree projective resolution and the comparison are still required
 before this yields an Ext interpretation.
 
 Python 3.9 or later, standard library only:
