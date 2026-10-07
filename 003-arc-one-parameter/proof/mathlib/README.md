@@ -37,9 +37,25 @@ The [actual-algebra cochain](TwentyDimCochainAlgebra.README.md) is now a genuine
 
 [Characteristic two of the actual algebra](TwentyDimCharacteristic.README.md), [linear cochain differentials](HochschildCochainMaps.README.md), and the [cycles-modulo-boundaries construction](LowDegreeCohomology.README.md) support an explicit [degree-three Hochschild cochain quotient](HochschildDegreeThree.README.md). [Full-input closure](CochainIdempotentClosure.README.md) now includes both idempotents and all twenty-coordinate vectors. The [actual cochain class](TwentyDimHochschildClass.README.md) is nonzero in this full quotient whenever q³ is nonzero; over a field or a ring without zero divisors, q nonzero suffices. This does not identify a separate Ext construction or prove the complete ARC realization.
 
-[Character-valued differentials](CharacterHochschildMaps.README.md) also provide the full degree-three complex relation for every actual R-algebra character. Applications to a particular character and the homological comparison are subsequent steps.
+[Character-valued differentials](CharacterHochschildMaps.README.md) provide the full degree-three complex relation for every actual R-algebra character. The [actual e/f characters](TwentyDimCharacters.README.md), [full character quotient](CharacterHochschildDegreeThree.README.md), and [scalar boundary obstruction](TwentyDimCharacterClass.README.md) now give a nonzero f-character degree-three class whenever q³ is nonzero. All scalar-valued bilinear boundaries are excluded independently; no vector-to-scalar nonboundary inference is used. The homological comparison remains open.
 
 ## Replay
+
+To replay the full dependency chain for the nonzero actual cochain class,
+including the Std closure sources on a fresh checkout, use:
+
+```powershell
+& '003-arc-one-parameter/proof/mathlib/verify-cohomology.ps1' -FetchCache
+```
+
+`-PlanOnly` displays the dependency order without compiling. The default
+target is `TwentyDimHochschildClass`. Use `-Targets TwentyDimCharacterClass`
+for the full scalar-character result. `-Targets` selects local modules
+with their imported source dependencies. `-UseExistingStd` explicitly
+reuses existing Std artifacts, including the large closure blocks, and
+reports that their sources are not rechecked. Sources in the Mathlib
+package are compiled one at a time; failures stop the script. Location and
+`LEAN_PATH` are restored. A plan check is not itself a compilation result.
 
 The generic [unit extension](FiniteBilinearUnit.README.md) now proves that left and right basis contractions suffice for a unit on all vectors, over every commutative semiring.
 

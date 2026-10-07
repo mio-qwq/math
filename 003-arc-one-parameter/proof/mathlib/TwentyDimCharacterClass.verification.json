@@ -1,0 +1,23 @@
+{
+  "source": "TwentyDimCharacterClass.lean",
+  "source_sha256": "0eb768c7da6f83c532507e987ab9611d16a1ccce8042d4c4ec22915141657958",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "scan_discrete",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 10,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "The actual projected cochain excludes every scalar bilinear character boundary and has a nonzero full f-character degree-three class when q^3 is nonzero; domain nonzero-parameter corollary and nontrivial quotient",
+  "complete_arc_formalized": false,
+  "ext_comparison_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

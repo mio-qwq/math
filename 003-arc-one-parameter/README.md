@@ -29,6 +29,14 @@ The additional [Mathlib semantic layers](proof/mathlib/README.md) connect the sc
 
 Further formalized structure includes [perfect trace duality on the actual algebra](proof/mathlib/TwentyDimFrobenius.README.md), [full-input cochain closure](proof/mathlib/CochainIdempotentClosure.README.md), and a [nonzero degree-three Hochschild cochain class](proof/mathlib/TwentyDimHochschildClass.README.md) in the actual cycles-modulo-boundaries quotient. The nonzero witness is q³, so this conclusion requires q³ to remain nonzero; over characteristic-two fields, q nonzero suffices. Both endpoint faces and all multilinear cochains are included. A comparison with Ext and the complete homological realization remain open.
 
+The [actual algebra characters](proof/mathlib/TwentyDimCharacters.README.md)
+and [independent scalar boundary obstruction](proof/mathlib/TwentyDimCharacterClass.README.md)
+also give a nonzero degree-three class in the full f-character cochain
+quotient when q³ is nonzero. The scalar proof excludes every actual
+scalar-valued bilinear boundary and includes both endpoint actions.
+This quotient result is separate from an Ext comparison or a projective
+module resolution.
+
 Python 3.9 or later, standard library only:
 
 ```console
