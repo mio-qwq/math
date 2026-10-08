@@ -101,3 +101,10 @@ six-column/adjoint character formulas and conditional cubic implications
 have a separate six-audit Lean interface; the full Gram-to-cancellation
 argument remains written mathematics. General companion circulantization
 and the general coupling conjecture remain open.
+
+The [zero-mode obstruction](zero-mode-obstruction.md) now has six additional
+Lean audits: unit triples summing to zero have the required cyclic
+phase form, and actual cube-root Fourier bounds exclude every zero mode.
+These bounds are explicit premises; deriving them from the actual Hadamard
+Gram matrix is the next formal bridge. No block invertibility or full
+Gram-to-cancellation theorem is certified by this new source.

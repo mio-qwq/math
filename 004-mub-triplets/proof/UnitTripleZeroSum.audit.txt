@@ -1,0 +1,12 @@
+'MUBTriplets.UnitTripleZeroSum.unit_zero_sum_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.UnitTripleZeroSum.unit_zero_sum_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.UnitTripleZeroSum.zero_mode_forces_large_other_mode' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.UnitTripleZeroSum.zero_mode_excluded_of_other_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.UnitTripleZeroSum.normSq_of_cube_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.UnitTripleZeroSum.root_mode_nonzero_of_all_root_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
