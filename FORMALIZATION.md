@@ -4,6 +4,7 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [004/proof/SpectralMatchingSupport.lean](004-mub-triplets/proof/SpectralMatchingSupport.lean) | For actual complex six-by-six matrices, anticommutation with diag(-5,-3,-1,1,3,5) is equivalent to entries vanishing off the reverse-index matching | No unitarity is assumed or proved; complete monomial phase, spectral/companion conjugation and MUB existence remain separate |
 | [004/proof/SpectralMomentWeights.lean](004-mub-triplets/proof/SpectralMomentWeights.lean) | For arbitrary real weights at -5,-3,-1,1,3,5, six power-moment equations are equivalent to all weights being 1/6 | Exact finite interpolation only; no matrix spectral theorem, complete-companion equivalence or general MUB coupling is formalized by this source |
 | [002/proof/mathlib/CyclicSixCosts.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixCosts.lean) | Twelve cyclic local real-cost inequalities imply the aggregate product inequality and a three-choice budget alternative, with zero original costs included | Arithmetic core on the three simultaneous-translation orbits; the actual graph connection is proved in the next file |
 | [002/proof/mathlib/CyclicSixGraph.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixGraph.lean) | Every actual conflict is equivalent to the orbit premises; actual covers and survivor prunings satisfy the bound on the full cyclic graph; unit costs prove cover coefficient one sharp | Full original families and invariant tables; partial families, exact nine-expression optimum and arbitrary asymmetric costs remain outside these Lean files |
@@ -315,6 +316,13 @@ is another written matrix result. It proves an exact shared-pairing test,
 a sufficient condition requiring the product to be diagonal in the fixed
 basis with simple spectrum, and a genuine triplet with a
 failing fixed companion and a working alternative. Its matrices and
-support argument have no Lean implementation or new compiler receipt.
+complete unitary monomial argument remain written.
 The earlier three interpolation audits are not verification of this
 criterion, and the example is not a general MUB counterexample.
+
+The separate `SpectralMatchingSupport.lean` now formalizes the actual
+matrix anticommutator entry formula and its exact reverse-support
+equivalence at the prescribed six simple nodes. Its three source audits
+and independent replay are recorded separately. It does not construct
+the conjugation from an actual companion, prove unitary monomial phases,
+or formalize the counterexample's Hadamard and unbiasedness equations.

@@ -1,0 +1,62 @@
+{
+  "source": "SpectralMatchingSupport.lean",
+  "source_sha256": "289a397478f63b234a1856964f1c86e12a6c845008bc41bd41c96d06dc6aab0d",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "printed_audit_count": 3,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.SpectralMatching.spectralNode_add_eq_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.SpectralMatching.anticommutator_entry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.SpectralMatching.spectral_anticommutation_iff_reverse_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false,
+  "author_run": {
+    "start_utc": "2026-10-08T10:47:13.0051506+00:00",
+    "end_utc": "2026-10-08T10:47:33.2916479+00:00",
+    "exit_code": 0
+  },
+  "independent_run": {
+    "start_utc": "2026-10-08T10:48:50.9743570+00:00",
+    "end_utc": "2026-10-08T10:49:11.3665451+00:00",
+    "exit_code": 0,
+    "wrote_output_object": false
+  },
+  "compilation_location": "Both actual runs used a byte-identical workspace copy; its SHA256 was checked against this published source.",
+  "audit_output_sha256": "95296805b5171554548b7fdde1f2a36b41012cd876da52d16c83ea6c4f801d5e",
+  "statement": "For actual complex six-by-six matrices B, diag(-5,-3,-1,1,3,5)*B+B*diag(-5,-3,-1,1,3,5)=0 iff B has zero entries off j=Fin.rev i.",
+  "boundaries": {
+    "unitarity_assumed_or_proved": false,
+    "complete_monomial_phase_criterion_formalized": false,
+    "actual_companion_conjugation_bridge_formalized": false,
+    "triplet_counterexample_matrices_formalized": false,
+    "general_cubic_coupling_proved": false
+  },
+  "provenance": "Standard entrywise expansion of diagonal matrix multiplication; no originality claim."
+}

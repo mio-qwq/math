@@ -178,6 +178,13 @@ triplet demonstrates that failure with defect four, but an alternative
 companion of the same H succeeds. Thus this result does not close the
 existential companion-selection question or disprove the cubic target.
 
+The [matrix-support Lean source](004-mub-triplets/proof/SpectralMatchingSupport.lean)
+now proves actual anticommutation with the fixed diagonal spectrum iff
+off-matching entries vanish. This is a real matrix-multiplication
+interface, with three separate audited declarations; it does not prove
+unitary monomial phases, the complete companion conjugation bridge or
+the full fixed-companion criterion.
+
 The broader candidate problems C7, K5 and SIC are specified with
 current primary-source bounds and remaining gaps in
 [OPEN_PROBLEM_CANDIDATES.md](OPEN_PROBLEM_CANDIDATES.md).

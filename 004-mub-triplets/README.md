@@ -21,6 +21,11 @@ It does not announce a solution of the maximum-number problem.
 - [SpectralMomentWeights.lean](proof/SpectralMomentWeights.lean) formalizes
   the exact six-weight reconstruction, with three axiom audits. The matrix
   spectral theorem and the companion/anticommutation bridges remain written.
+- [SpectralMatchingSupport.lean](proof/SpectralMatchingSupport.lean)
+  proves that actual complex matrix anticommutation with the fixed diagonal
+  spectrum is equivalent to support on the opposite-node matching. It has
+  three separate audits; unitary monomial phases and the companion
+  conjugation bridges are outside that proof.
 
 The methods use standard spectral interpolation, MUB observables and
 Fourier diagonalization. Originality of the reformulation is not established.
@@ -36,6 +41,7 @@ repository root, after obtaining that package's pinned dependencies:
 ```sh
 cd 002-weighted-rectangular-pruning/proof/mathlib
 lake env lean ../../../004-mub-triplets/proof/SpectralMomentWeights.lean
+lake env lean ../../../004-mub-triplets/proof/SpectralMatchingSupport.lean
 ```
 
 The source-specific [verification record](proof/SpectralMomentWeights.verification.json)
@@ -44,3 +50,10 @@ record the two compiler runs against the same source hash. The proof source
 uses neither `sorry`, `native_decide` nor a new axiom. The supporting proof is a
 finite linear-system theorem over arbitrary real weights, not a numerical
 search or a formal proof of the full MUB conjecture.
+
+The matrix-support source has its own
+[verification record](proof/SpectralMatchingSupport.verification.json)
+and [actual audit output](proof/SpectralMatchingSupport.audit.txt).
+Its premise uses ordinary matrix multiplication, rather than assuming
+the desired entrywise support. It supplies an additional fixed-spectrum
+interface without asserting unitarity or Hermitian companion existence.
