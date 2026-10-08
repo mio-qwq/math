@@ -13,8 +13,17 @@ now constructs the actual projective Ce/Cf corners, whole multiplication
 maps, all-degree kernel/image equalities and an augmentation
 quasi-isomorphism. It proves every positive actual lower-character
 self-Ext vanishes under the stated nonzero power factors, without
-requiring q itself nonzero. The regular-target Ext calculation, derived
-triangle and the full twenty-dimensional profile remain open.
+requiring q itself nonzero. The
+[actual regular-target Hom complex](LowerAlgebraRegularHom.README.md)
+has now been compared with
+[genuine Mathlib Ext](LowerAlgebraRegularExt.README.md): with q nonzero,
+the only nonzero regular-target degree is two, and its specified class
+gives a K-linear equivalence from K. The
+[actual right-character action](LowerAlgebraRegularRightAction.README.md)
+also follows from whole regular-module postcomposition and an explicit
+boundary. These are formalizations of the existing lower-algebra
+calculation; see [the prior-work comparison](../../ATTRIBUTION.md).
+The derived triangle and full twenty-dimensional profile remain open.
 
 `BitPolynomial.lean` connects the exact scalar operations imported from the frozen `../FiniteCore.lean` to `Polynomial (ZMod 2)` for **every natural-number code**, rather than a bounded test range.
 

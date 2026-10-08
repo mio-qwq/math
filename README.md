@@ -75,5 +75,13 @@ constructs actual projective corner terms, all-degree exactness and an
 augmentation quasi-isomorphism. Over characteristic-two fields with every
 1+q^m nonzero for positive m, every positive actual self-Ext of the lower
 f-character vanishes. This does not require q itself to be nonzero.
-The regular-target Ext calculation, derived triangle and full
+The subsequent
+[actual regular-target Ext calculation](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularExt.README.md)
+and [right-character action](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularRightAction.README.md)
+now give the complete lower regular-target profile when also q is
+nonzero: only degree two survives, with an actual K-linear equivalence
+from K and the right f-character action. The
+[provenance table](003-arc-one-parameter/ATTRIBUTION.md)
+identifies the prior OpenAI and Tang mathematical conclusions separately
+from these actual Lean implementations. The derived triangle and full
 twenty-dimensional self-Ext profile remain open.

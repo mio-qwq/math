@@ -15,8 +15,18 @@ degree, right multiplication by u and ell_n, and the actual character
 augmentation. Its all-degree exactness, projectivity and augmentation
 quasi-isomorphism give vanishing of every positive actual self-Ext of
 this lower f-character over characteristic-two fields with every
-1+q^m nonzero for positive m. The regular-target Ext calculation,
-derived triangle and full twenty-dimensional self-Ext profile remain open.
+1+q^m nonzero for positive m. The subsequent
+[actual regular-target Ext calculation](proof/mathlib/LowerAlgebraRegularExt.README.md)
+now proves Ext_C(s,C) vanishes outside degree two, where it has a
+specified K-linear parametrization and dimension one, additionally
+assuming q nonzero. The
+[genuine right action](proof/mathlib/LowerAlgebraRegularRightAction.README.md)
+is the lower f-character action on every actual degree-two class.
+These lower-algebra mathematical conclusions already appear in the
+OpenAI manuscript and Tang's October 2026 discussion draft; see
+[the precise provenance comparison](ATTRIBUTION.md). The implementation
+here supplies actual Lean objects and proofs. The derived triangle and
+full twenty-dimensional self-Ext profile remain open.
 
 This directory contains two verified components and one explicitly conditional
 application:

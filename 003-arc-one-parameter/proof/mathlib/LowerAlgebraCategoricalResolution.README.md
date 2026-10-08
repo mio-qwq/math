@@ -33,7 +33,7 @@ previously published nonzero actual Yoneda square is retained; this
 source does not prove all higher powers nonzero or complete ARC.
 
 The mathematical resolution follows the C-corner calculation in the
-pinned upstream preprint, Section 4; see [ATTRIBUTION.md](../../ATTRIBUTION.md).
+pinned upstream preprint, Section 5, Lemma `res:base`; see [ATTRIBUTION.md](../../ATTRIBUTION.md).
 These files implement it over the actual installed algebra.
 
 With the pinned package and its dependencies installed, compile in order:
