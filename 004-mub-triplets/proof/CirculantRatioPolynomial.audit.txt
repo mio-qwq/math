@@ -1,0 +1,7 @@
+'MUBTriplets.CirculantRatioPolynomial.ratio_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.CirculantRatioPolynomial.ratio_multiset_eq_of_corr_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantRatioPolynomial.opposite_ratio_multisets_of_actual_flat_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

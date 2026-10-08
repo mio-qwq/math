@@ -114,5 +114,9 @@ full Gram-to-product-cancellation theorem remain written mathematics.
 The [opposite block power proof](mode-power-matching.md) derives matching
 Fourier powers of a/e and b/c from the same actual Gram equation, with
 three further independently replayed Lean audits. Flatness, block inverses
-and a second Gram equation are unnecessary. Autocorrelation/ratio multiset
-retrieval, including repeated roots, remains the next formal step.
+and a second Gram equation are unnecessary. The subsequent
+[correlation and ratio-multiset proof](ratio-multiset-retrieval.md) derives
+actual opposite correlations and actual flat-Gram ratio multisets, preserving
+all repeated values, with six further independently replayed Lean audits.
+Reconstruction of the six actual cyclic-shift/adjoint alternatives and the
+full Gram-to-product-cancellation proof remain the next formal steps.

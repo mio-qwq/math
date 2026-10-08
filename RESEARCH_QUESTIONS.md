@@ -158,8 +158,11 @@ audits close this supporting gap without assuming a mode bound or inverse.
 Three additional [opposite-power audits](004-mub-triplets/mode-power-matching.md)
 now derive the actual a/e and b/c equal-power premise from the same Gram
 equation, without flatness, block inverses or a second Gram assumption.
-Autocorrelation reconstruction, ratio multisets with multiplicity, the six
-phase-retrieval alternatives and the real-rank proof remain the next formal steps. These are classical supporting ingredients,
+Six further [correlation/multiset audits](004-mub-triplets/ratio-multiset-retrieval.md)
+now derive actual opposite cyclic correlations and actual flat-Gram ratio
+multisets, with all root multiplicities preserved. The six actual cyclic-shift/
+adjoint reconstructions and the real-rank proof remain the next formal steps.
+These are classical supporting ingredients,
 not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general
 MUB conjecture. Historical originality is not established.

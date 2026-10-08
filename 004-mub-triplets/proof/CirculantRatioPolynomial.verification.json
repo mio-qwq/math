@@ -1,0 +1,120 @@
+{
+  "source_sha256": "689c8d682562650bddc05a2b0be0bc5be2e40baba9dbbe9d5a6fa8e696d9035c",
+  "source_after_sha256": "689c8d682562650bddc05a2b0be0bc5be2e40baba9dbbe9d5a6fa8e696d9035c",
+  "start_utc": "2026-10-08T13:44:48.1511705+00:00",
+  "end_utc": "2026-10-08T13:45:05.3954502+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 3,
+  "expected_audits": 3,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CirculantRatioPolynomial.ratio_factorization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantRatioPolynomial.ratio_multiset_eq_of_corr_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantRatioPolynomial.opposite_ratio_multisets_of_actual_flat_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "CirculantRatioPolynomial.lean",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "audit": "CirculantRatioPolynomial.audit.txt",
+  "audit_sha256": "7fbb78dfa229f4abba39c6308ee9904f35b3ed6a698a2cb15dcaee8b7fb3c3e7",
+  "actual_gram_to_opposite_cyclic_correlations_formalized": true,
+  "actual_flat_gram_to_opposite_ratio_multisets_formalized": true,
+  "repeated_ratio_occurrences_preserved": true,
+  "simple_root_assumption": false,
+  "opposite_correlation_assumed_as_input": false,
+  "opposite_ratio_multiset_assumed_as_input": false,
+  "actual_six_shift_adjoint_alternatives_formalized": false,
+  "hadamard_gram_to_product_cancellation_formalized": false,
+  "general_mub_conjecture_resolved": false,
+  "historical_mathematical_originality_established": false,
+  "scope": "Actual unit triple cyclic-ratio cubic; identical correlations imply identical ratio multisets including repeats; actual flat six-by-six column Gram derives both opposite ratio multisets",
+  "independent_replay": {
+    "source_sha256": "689c8d682562650bddc05a2b0be0bc5be2e40baba9dbbe9d5a6fa8e696d9035c",
+    "source_after_sha256": "689c8d682562650bddc05a2b0be0bc5be2e40baba9dbbe9d5a6fa8e696d9035c",
+    "start_utc": "2026-10-08T13:46:39.0935296+00:00",
+    "end_utc": "2026-10-08T13:46:56.7788166+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 3,
+    "expected_audits": 3,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CirculantRatioPolynomial.ratio_factorization",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantRatioPolynomial.ratio_multiset_eq_of_corr_eq",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantRatioPolynomial.opposite_ratio_multisets_of_actual_flat_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "7fbb78dfa229f4abba39c6308ee9904f35b3ed6a698a2cb15dcaee8b7fb3c3e7"
+  },
+  "independent_mathematical_source_review": "PASS: raw root weights/correlation direction, actual Gram composition, unit denominators, actual cubic factors and full root multiplicities independently checked",
+  "project_import_sources": [
+    {
+      "source": "CirculantAutocorrelation.lean",
+      "source_sha256": "578c6eb609ab9f54f1fc6c934e9994359cae9c452e4cb4aaad3b7c2bfd7a0cc7"
+    },
+    {
+      "source": "CubeRootGramMatching.lean",
+      "source_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72"
+    },
+    {
+      "source": "CubeRootGramModes.lean",
+      "source_sha256": "86f5c587cc0437823a07f243f8f5acd8e8d5bf043b62ac937f36ec930278dced"
+    },
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09"
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f"
+    }
+  ]
+}

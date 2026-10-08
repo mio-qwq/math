@@ -31,7 +31,10 @@ The subsequent [zero-mode interface](zero-mode-obstruction.md) and
 [actual Gram/inverse bridge](gram-block-invertibility.md) now formalize
 the Section 2 obstruction: actual Gram equations give all mode bounds,
 flatness excludes zero modes, and four actual block inverses are constructed.
-The phase-retrieval and real-rank arguments remain written mathematics.
+The subsequent [correlation and ratio-multiset proof](ratio-multiset-retrieval.md)
+now formalizes the three-power correlation recovery and opposite ratio
+multiset equality, including repeated roots. Actual cyclic-shift/adjoint
+reconstruction and the real-rank arguments remain written mathematics.
 
 Four-circulant companion construction and its general context are classical
 Zauner theory; see [Szollosi, arXiv:0811.3930v2, Section 4](https://arxiv.org/pdf/0811.3930v2)
@@ -297,8 +300,9 @@ zero-mode obstruction from supplied mode bounds, with its own six audits.
 The [connected Gram and inverse modules](gram-block-invertibility.md)
 discharge those bounds from actual matrix multiplication and construct all
 four block inverses, with five plus three further audits. The full
-Gram-to-product-cancellation theorem still awaits phase retrieval and the
-real-rank arguments.
+Gram-to-product-cancellation theorem still awaits actual cyclic-shift/adjoint
+reconstruction and the real-rank arguments. The correlation and ratio
+multiset steps are now formalized separately, including repeated values.
 
 From the existing pinned `002-weighted-rectangular-pruning/proof/mathlib`
 package, after obtaining the cache for its imports:

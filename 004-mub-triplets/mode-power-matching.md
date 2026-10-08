@@ -49,7 +49,8 @@ With the resulting import directory on LEAN_PATH, replay this final file:
 lake env lean ../../../004-mub-triplets/proof/CubeRootGramMatching.lean
 ```
 
-The next formal gap is reconstructing the actual cyclic autocorrelation
-from equal mode powers, then proving equal ratio multisets with multiplicity
-and reconstructing the six cyclic-shift/adjoint alternatives. No assumption
-that the ratios are distinct is justified or used here.
+The subsequent [correlation/multiset proof](ratio-multiset-retrieval.md)
+now recovers actual correlations and actual unit ratio multisets with their
+full multiplicities. Reconstructing the six actual cyclic-shift/adjoint
+alternatives remains the next formal gap. No distinct-ratio assumption
+is justified or used here.
