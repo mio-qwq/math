@@ -16,8 +16,9 @@ image and kernel, together with the split multiplication formula.
 
 The proofs reuse the established multiplication-support law and include
 all vectors. No new table enumeration is performed. Identification of the
-kernel with the lower algebra's dual bimodule, the full self-Ext profile
-and the complete ARC realization are separate obligations.
+kernel with the lower algebra's dual bimodule is supplied subsequently
+by [the explicit dual extension construction](TwentyDimTrivialExtension.README.md).
+The full self-Ext profile and complete ARC realization remain separate.
 
 Author compilation and an independent replay of the frozen source passed
 with zero warnings. Its 23 printed audits use only subsets of the standard

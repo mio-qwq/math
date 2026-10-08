@@ -4,7 +4,12 @@
 construct the actual lower projection, upper square-zero two-sided ideal
 and complementary R-module splitting, reusing the established table
 support law. Identification with the dual bimodule and the full
-homological profile remain separate.
+homological profile are separate in that source. The
+[explicit dual extension construction](TwentyDimTrivialExtension.README.md)
+now supplies the actual kernel/dual equivalence, both lower multiplication
+actions, and the whole algebra's split coordinates, unit and multiplication.
+Lower minimal resolutions, derived triangles and the full profile remain
+open.
 
 `BitPolynomial.lean` connects the exact scalar operations imported from the frozen `../FiniteCore.lean` to `Polynomial (ZMod 2)` for **every natural-number code**, rather than a bounded test range.
 

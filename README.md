@@ -55,4 +55,9 @@ also constructs every scalar dual-scaling endomorphism, including the zero
 projection onto the lower subalgebra. Its actual two-sided kernel has
 square-zero multiplication, and the algebra splits as the corresponding
 R-modules. The dual-bimodule identification and full homological profile
-remain separate.
+are separate in that source. The subsequent
+[explicit dual extension construction](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)
+identifies the actual kernel with the lower algebra's dual, intertwines
+both lower multiplication actions, and gives the full algebra's explicit
+split coordinates, unit and multiplication formula. The lower minimal
+resolutions, derived triangle and full homological profile remain open.

@@ -4,8 +4,12 @@ The [scalar endomorphism construction](proof/mathlib/TwentyDimDualScaleEndomorph
 now includes every scalar, with zero giving an actual lower-subalgebra
 projection. Its actual two-sided upper kernel is square-zero, and a genuine
 R-linear image/kernel splitting is constructed. This structural result
-does not yet identify the kernel with the dual bimodule or settle the
-remaining all-degree self-Ext profile.
+is extended by an [explicit dual construction](proof/mathlib/TwentyDimTrivialExtension.README.md):
+the actual kernel is R-linearly equivalent to the lower algebra's dual
+with both lower multiplication actions intertwined. The whole algebra's
+split coordinates have an explicit inverse, unit and complete mixed
+multiplication formula. Lower minimal resolutions, the derived triangle
+and the remaining all-degree self-Ext profile are still open.
 
 This directory contains two verified components and one explicitly conditional
 application:
