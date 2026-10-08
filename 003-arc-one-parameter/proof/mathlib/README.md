@@ -180,8 +180,12 @@ augmentation identities, and a closed degree-six cup Hom. The
 has pairing q^4 and kills every preceding character Hom boundary. Its
 specified actual Ext^6 class is therefore nonzero when q^4 is nonzero.
 The full A-valued resolution boundary is retained before character
-evaluation. Whole shifted assembly and the Yoneda-square identification
-remain separate obligations, as do all higher-power profiles and ARC.
+evaluation. The [whole shifted suffix construction](FiniteFreeBarCupShift.README.md)
+now proves both complete cocycle equalities required for actual Yoneda
+comparison. The [nonzero square](TwentyDimYonedaSquare.README.md) is the
+specified sixth Ext class and the defined second power, nonzero under
+the fourth-power hypothesis. Powers at least three, dimensions of Ext
+groups, all-degree profiles and ARC remain open.
 
 ## Replay
 

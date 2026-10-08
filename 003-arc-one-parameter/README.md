@@ -102,8 +102,9 @@ proves that canonical transport preserves composition in every pair of
 degrees and fixes the degree-zero identity. The recursively defined
 m-fold power of the fixed Ext cubed class lies in actual Ext^(3*m) and
 has weight (H inverse)^m, as do its scalar multiples with the appropriate
-scalar factor. Powers with m at least two are not asserted to be nonzero;
-the calculation does not supply an all-degree self-Ext profile.
+scalar factor. The second power is proved nonzero below when q^4 is
+nonzero; powers with m at least three and the all-degree self-Ext profile
+remain separate.
 
 The [actual f-character object is neither projective nor injective](proof/mathlib/TwentyDimCharacterHomologicalObstruction.README.md)
 when q cubed is nonzero, using its nonzero actual third self-Ext class.
@@ -134,9 +135,12 @@ degree-six cup Hom is closed on all of P7. A
 evaluates this Hom to q^4 and excludes every preceding A-linear Hom
 boundary. Consequently its actual Ext^6 class is nonzero when q^4 is
 nonzero, in particular when q is nonzero over a field or a ring without
-zero divisors. Identification of this class with the Yoneda square still
-requires the whole shifted lift comparison; no all-power nonvanishing or
-complete ARC realization follows from these statements.
+zero divisors. The [constructed whole shifted lift](proof/mathlib/FiniteFreeBarCupShift.README.md)
+now proves the actual Yoneda product identity, and the
+[nonzero square theorem](proof/mathlib/TwentyDimYonedaSquare.README.md)
+identifies the class with the square of fExtThree and with its defined
+second power. No all-power nonvanishing or complete ARC realization
+follows from this result.
 
 Python 3.9 or later, standard library only:
 
