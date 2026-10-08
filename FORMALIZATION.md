@@ -149,3 +149,10 @@ cases are included. Twelve rational fixtures, seven damaged-certificate
 rejections and an independent bounded deletion-subset replay validate the
 concrete certificates. These do not replace the parameter-wide proofs or
 establish a general arbitrary-cost theorem in Lean.
+
+The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
+has a complete analytical proof for the fixed labelled, dephased solution
+space. Circle intersections, actual smooth nonroot neighborhoods, root
+branches and tangent lines are proved directly from the exhaustive phase
+classification. This is not a Lean topology theorem or an identification
+of the linearized Hadamard defect.

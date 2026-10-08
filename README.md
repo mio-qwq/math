@@ -52,8 +52,11 @@ costs remain open.
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution
 from a compatible rectangle of a cyclic root seed and one unit phase.
-The full classification has a written proof; its actual polynomial
-product obstruction is independently checked in Lean.
+Its [labelled dephased solution space](001-odd-half-order-hadamard/phase-geometry.md)
+is a finite graph with smooth nonroot arcs and explicit root branch counts.
+Both the classification and this geometric consequence have complete
+written proofs; their complete Lean bridges remain separate.
+The actual polynomial product obstruction is independently checked in Lean.
 
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
 

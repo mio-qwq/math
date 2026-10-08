@@ -4,6 +4,7 @@ For every odd integer `m >= 3`, we prove that a complex matrix of order `2m` who
 
 - [Full theorem, definitions, and proof](paper.md)
 - [Exact root/block classification and exhaustive phase-circle construction for all half-orders](general-patterns.md)
+- [Finite graph of labelled dephased solutions, actual local branches and tangent lines](phase-geometry.md)
 - [Exact finite example checker](code/check_examples.py)
 - [Lean certificate for the integer obstructions](proof/Parity.lean)
 - [Kernel-checked exponent certificates and phase invariants](proof/Examples.lean)
@@ -38,3 +39,10 @@ circles; odd half-orders have no such circles. This is an exhaustive
 construction under the full power hypotheses, without asserting seed
 existence at new even orders. Its matrix proof is written; the new Lean
 file verifies the actual polynomial product obstruction supporting it.
+
+The labelled, dephased solution space is homeomorphic to a finite graph:
+distinct phase circles meet only at root matrices, each circle contributes
+m arcs, and nonroot points have smooth one-dimensional neighborhoods.
+Root vertices have twice as many branches as compatible rectangles.
+This is a complete written geometric consequence of the classification;
+it does not identify the kernel of the linearized Hadamard equations.

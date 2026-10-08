@@ -193,6 +193,10 @@ Its square has the lower-right 2x2 block equal to alpha^2, with all other entrie
 
 For even m>2, the remaining realization question is which root seeds admit compatible balanced rectangles. No existence claim at every such m is made. This does not establish order-eight S-Hadamard nonexistence: that problem requires only powers 1,2, while the present m=4 hypotheses also require power 3.
 
+The [geometric consequence](phase-geometry.md) identifies the fixed,
+labelled dephased solution space as a finite graph, with intersections
+only at roots, smooth nonroot arcs and explicit root branch counts.
+
 ## 7. Attribution and comparison boundary
 
 Lemma C applies the classical cyclic-even complete-mapping obstruction. Two rows enumerating mu_{2m} whose quotient also enumerates it would yield permutations with a permutation difference map on an even cyclic group. The product of all group elements is the nontrivial involution, contradicting the product identity. See Hall and Paige, *Complete mappings of finite groups*, Pacific J. Math. 5 (1955), 541-549 ([original publisher PDF](https://msp.org/pjm/1955/5-4/pjm-v5-n4-p07-s.pdf)). The elementary abelian product argument is also stated in Eberhard, Manners and Mrazovic, *An asymptotic for the Hall-Paige conjecture* ([original preprint](https://arxiv.org/abs/2003.01798)). No deep converse is used here.
