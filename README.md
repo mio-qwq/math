@@ -28,6 +28,15 @@ The starting point is [OpenAI's public mathematical collection](https://github.c
 
 Literature review and external mathematical review remain open. Correctness and precise disclosure of verification scope take precedence over claims of novelty.
 
+For 003, a [conditional resonant multiplication theorem](003-arc-one-parameter/resonant-yoneda-algebra.md)
+now goes beyond the dimension spectrum: the positive Yoneda algebra,
+with only its scalar degree-zero identity adjoined, is a Veronese
+algebra plus its shifted positive ideal with square-zero multiplication.
+The proof retains explicit polynomial and bimodule action hypotheses.
+It is written mathematics with independent proof reviews; the concrete
+ARC realization, complete degree-zero ring and full Tate algebra are
+separate.
+
 For 003, the constructed all-degree suffix lift now gives a closed actual
 degree-six cup Hom. An explicit six-letter witness proves that its
 specified Ext^6 class is nonzero when q^4 is nonzero, including every

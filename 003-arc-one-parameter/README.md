@@ -187,9 +187,24 @@ verification of the complete ARC realization are deliberately `false`.
 
 ## Files and provenance
 
+The [resonant Yoneda-algebra note](resonant-yoneda-algebra.md) determines
+the positive multiplication under explicit polynomial and branch
+bimodule action hypotheses. For finite twist-ratio order d, adjoining
+only the actual scalar degree-zero identity gives
+`R + epsilon R_+`, where R is the dth Veronese of k[x,y], |x|=|y|=3,
+|epsilon|=1 and epsilon squared is zero. The epsilon summand has no
+constant term, so it introduces no Ext^1 class. The proof uses an actual
+square-zero DG ideal, unique graded lifts and both branch actions;
+dimensions alone do not determine this algebra. This is a written
+conditional theorem with independent proof reviews, not a new Lean
+verification of the concrete ARC realization or the whole Tate algebra.
+
 - [paper.md](paper.md): definitions, proof of the abstract spectrum formula,
   proof interpretation of the finite certificate, conditional specialization,
   and remaining verification gap.
+- [resonant-yoneda-algebra.md](resonant-yoneda-algebra.md): the complete
+  positive multiplication proof, its additional hypotheses and exact
+  degree-zero/realization boundaries.
 - [checker/verify.py](checker/verify.py): new standalone exact checker.
 - [data/arc-core.json](data/arc-core.json): finite data transcribed from
   OpenAI's algebra and cochain tables, with source hashes.

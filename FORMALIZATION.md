@@ -162,3 +162,11 @@ space. Circle intersections, actual smooth nonroot neighborhoods, root
 branches and tangent lines are proved directly from the exhaustive phase
 classification. This is not a Lean topology theorem or an identification
 of the linearized Hadamard defect.
+
+The [003 resonant positive Yoneda algebra](003-arc-one-parameter/resonant-yoneda-algebra.md)
+is a written theorem under explicit multiplicative homological
+hypotheses, not a Lean theorem. Two independent full proof readings
+check the DG square-zero ideal, unique graded lifts and branch action
+normalization. These reviews are not machine proofs or journal peer
+review, and do not construct the missing concrete ARC objects or the
+full Tate algebra.

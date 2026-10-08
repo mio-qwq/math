@@ -355,6 +355,14 @@ infinite-order element exactly when it is not algebraic over `F_2`.
 This describes the parameter mechanism only; it says nothing about
 possible counterexamples over algebraic fields from other constructions.
 
+The [separate multiplication theorem](resonant-yoneda-algebra.md)
+adds explicit polynomial-algebra and two-sided branch action hypotheses.
+It identifies the positive Yoneda algebra at a finite twist resonance
+with `R_+ + epsilon R_+`, for the corresponding Veronese R and
+epsilon squared zero. It includes only scalar degree-zero endomorphisms
+when adjoining a unit. The dimension hypotheses of Theorem 3 alone do
+not imply this stronger conclusion.
+
 **Remaining gap.** The finite checker proves neither the uniform
 infinite resolution nor the stable two-cone profile or the chain-level
 lift to a finite side-projective bimodule. Those are substantive
