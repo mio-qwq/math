@@ -134,6 +134,10 @@ arbitrary left coefficients. The
 [generic scalar and zero-extension interfaces](ExtMkExactFunctor.README.md)
 are also proved. Identifying this represented class with the canonical
 functor image still requires the exact-functor/extMk naturality bridge.
+The [specified resolution, mapped cocycle and exact localized roof
+interfaces](ExtMkMapExactFunctor.README.md) establish the complete
+augmentation square and the whole single-target cocycle comparison
+needed for that remaining identification.
 
 ## Replay
 

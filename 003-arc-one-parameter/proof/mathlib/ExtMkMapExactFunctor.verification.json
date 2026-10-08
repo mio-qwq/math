@@ -1,0 +1,27 @@
+{
+  "source": "ExtMkMapExactFunctor.lean",
+  "source_sha256": "37bdad759486c0b21586562f258b96d854348f9ba79f2522b19c3ba0749e913a",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "dual_scale_resume",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 9,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual additive-functor image of full Hom-complex and single-target cocycles; mapped specified projective-resolution cochain comparison with every supported-degree component and full augmentation square; exact extMk expression as the localized roof of its actual augmentation inverse and actual cocycle",
+  "mapped_specified_resolution_retained": true,
+  "full_augmentation_square_proved": true,
+  "whole_single_target_cocycle_mapping_proved": true,
+  "exact_localized_roof_proved": true,
+  "canonical_ext_map_extMk_naturality_proved": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

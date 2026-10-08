@@ -85,7 +85,10 @@ The represented class is nonzero whenever q cubed is nonzero.
 complexes](proof/mathlib/ExtMkExactFunctor.README.md) supply general interfaces.
 Identifying the represented class with canonical functor transport still
 requires a generic exact-functor/extMk naturality theorem; that remaining
-equality is not asserted by these results.
+equality is not asserted by these results. The
+[specified-resolution and actual cocycle mapping interfaces](proof/mathlib/ExtMkMapExactFunctor.README.md)
+now retain the complete augmentation square and exact localized extMk
+roof, including every supported degree.
 
 Python 3.9 or later, standard library only:
 
