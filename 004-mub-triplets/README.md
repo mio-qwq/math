@@ -123,5 +123,7 @@ all repeated values, with six further independently replayed Lean audits.
 The [actual reconstruction proof](phase-retrieval-alternatives.md) now
 completes both opposite-block cyclic-shift/adjoint alternatives from the same
 actual flat Gram hypotheses, with three further independent Lean audits.
-Branch combination, the real-rank cases and full Gram-to-product cancellation
-remain the next formal steps.
+The [connected adjoint-branch proof](adjoint-branch-cancellation.md) now
+proves actual product cancellation given either genuine adjoint alternative,
+with one further independent audit. The both-preserving case and its
+real-rank argument remain before full Gram-to-product cancellation.

@@ -1,6 +1,6 @@
 {
   "document": "direct-circulant-character.md",
-  "document_sha256": "3f7216f25fa5992571583937e477c660becf3ce98097d6c1dce5bb35eb1ee674",
+  "document_sha256": "5ff1ddf213ad3f3df9d7101b4935229544e04500ddb9a899f3e70512234ebd8c",
   "independent_mathematical_review": "PASS: independently recalculated all four retrieval branches, multiplicity, Fourier signs, zero-mode exclusion, block monomial covariance, real-rank cases",
   "written_theorem": "Every displayed four-circulant raw Hadamard6 has pa pe+pb pc=0 and both first/cubic characters zero at the fixed partitions",
   "mathematical_must_fix_found": 0,
@@ -16,5 +16,8 @@
   "actual_six_shift_adjoint_reconstruction_formalized": true,
   "actual_flat_gram_to_both_opposite_circulant_alternatives_formalized": true,
   "branch_combination_formalized": false,
-  "real_rank_argument_formalized": false
+  "real_rank_argument_formalized": false,
+  "product_cancellation_given_either_actual_adjoint_alternative_formalized": true,
+  "both_preserving_case_formalized": false,
+  "unconditional_product_cancellation_formalized": false
 }

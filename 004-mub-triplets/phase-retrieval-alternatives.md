@@ -17,7 +17,9 @@ additional premises to the final Gram theorem.
 
 This completes the reconstruction in
 [Section 3 of the written proof](direct-circulant-character.md#3-the-six-phase-retrieval-alternatives-with-multiplicity).
-The later combination of the two branches, real-rank cases and full
+The subsequent [adjoint-branch proof](adjoint-branch-cancellation.md)
+now closes every case with a genuine adjoint alternative as an extra premise.
+The both-preserving case, real-rank argument and unconditional
 Gram-to-product-cancellation theorem remain to be formalized. The general
 complete-companion symmetry and six-dimensional MUB conjectures remain
 outside this result. Historical mathematical originality is not established.

@@ -163,8 +163,11 @@ now derive actual opposite cyclic correlations and actual flat-Gram ratio
 multisets, with all root multiplicities preserved. Three further
 [actual reconstruction audits](004-mub-triplets/phase-retrieval-alternatives.md)
 now derive both opposite-block cyclic-shift/adjoint alternatives, including
-repeated ratios. Combining those branches and the real-rank proof remain
-the next formal steps toward full product cancellation.
+repeated ratios. One further
+[connected adjoint-branch audit](004-mub-triplets/adjoint-branch-cancellation.md)
+now proves product cancellation with either genuine adjoint alternative as
+an explicit extra premise. The both-preserving case and real-rank proof
+remain before unconditional cancellation.
 These are classical supporting ingredients,
 not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general

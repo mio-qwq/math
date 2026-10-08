@@ -35,8 +35,10 @@ The subsequent [correlation and ratio-multiset proof](ratio-multiset-retrieval.m
 now formalizes the three-power correlation recovery and opposite ratio
 multiset equality, including repeated roots. The subsequent
 [actual phase retrieval](phase-retrieval-alternatives.md) now formalizes
-both opposite-block cyclic-shift/adjoint alternatives. Branch combination
-and the real-rank arguments remain written mathematics.
+both opposite-block cyclic-shift/adjoint alternatives. The subsequent
+[actual adjoint-branch proof](adjoint-branch-cancellation.md) also proves
+product cancellation given either genuine adjoint alternative. The
+both-preserving case and its real-rank arguments remain written mathematics.
 
 Four-circulant companion construction and its general context are classical
 Zauner theory; see [Szollosi, arXiv:0811.3930v2, Section 4](https://arxiv.org/pdf/0811.3930v2)
@@ -302,8 +304,9 @@ zero-mode obstruction from supplied mode bounds, with its own six audits.
 The [connected Gram and inverse modules](gram-block-invertibility.md)
 discharge those bounds from actual matrix multiplication and construct all
 four block inverses, with five plus three further audits. The full
-Gram-to-product-cancellation theorem still awaits branch combination and
-the real-rank arguments. The correlation, ratio-multiset and actual
+Gram-to-product-cancellation theorem still awaits the both-preserving case
+and its real-rank arguments. Every case with a genuine adjoint alternative
+is now closed in the separate actual adjoint-branch source. The correlation, ratio-multiset and actual
 cyclic-shift/adjoint reconstruction steps are now formalized separately,
 including repeated values.
 
