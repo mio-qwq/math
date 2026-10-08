@@ -309,3 +309,12 @@ Mathlib package; its three printed audits use only `propext`,
 record and audit output report those runs. They do not machine-verify
 the matrix bridges or prove existence of the additional witness for
 every actual MUB triplet.
+
+The subsequent [004 fixed-companion criterion](004-mub-triplets/fixed-companion-witness.md)
+is another written matrix result. It proves an exact shared-pairing test,
+a sufficient condition requiring the product to be diagonal in the fixed
+basis with simple spectrum, and a genuine triplet with a
+failing fixed companion and a working alternative. Its matrices and
+support argument have no Lean implementation or new compiler receipt.
+The earlier three interpolation audits are not verification of this
+criterion, and the example is not a general MUB counterexample.

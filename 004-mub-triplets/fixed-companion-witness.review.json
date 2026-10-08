@@ -1,0 +1,31 @@
+{
+  "source": "fixed-companion-witness.md",
+  "source_sha256": "ea7a118ee41381bb29ceb7ebe00af334cca65748f2bede74bf6f183b4baa5d90",
+  "source_lines": 145,
+  "status": "PASS",
+  "verification_method": "complete written proof, author integration reading and separate-agent full-source mathematical reconstruction",
+  "mathematical_must_fix_remaining": 0,
+  "author_integration_review": {
+    "full_source_read": true,
+    "source_sha256": "ea7a118ee41381bb29ceb7ebe00af334cca65748f2bede74bf6f183b4baa5d90",
+    "status": "PASS"
+  },
+  "independent_review": {
+    "full_source_read": true,
+    "source_sha256": "ea7a118ee41381bb29ceb7ebe00af334cca65748f2bede74bf6f183b4baa5d90",
+    "status": "PASS",
+    "actual_example_checked": "Full Hadamard orthogonality, all 36 unbiased entries, B/C/product normalization, exact defect four and alternative companion recovery."
+  },
+  "results": [
+    "Fixed companion witness iff a shared fixed-point-free monomial matching",
+    "Exact fourth-entry-moment and off-diagonal-defect test",
+    "A product diagonal in the fixed basis with simple spectrum is sufficient",
+    "An actual MUB triplet refutes the every-fixed-companion strengthening"
+  ],
+  "lean_formalized": false,
+  "new_lean_compilations": 0,
+  "general_coupling_proved": false,
+  "all_companions_of_example_H_excluded": false,
+  "historical_originality_certified": false,
+  "external_peer_review": false
+}

@@ -30,6 +30,7 @@ specific comparison establishes otherwise.
 | R004.3 | Literal source statement: Corollary 4.7 without an orthogonality assumption | Refuted as written by the exact example below. Adding orthogonality supplies the intended usable statement; the correction does not refute the source's main conjectures |
 | R004.4 | Proposed exact interface for the cubic target: a complete companion as a fixed-spectrum Hermitian observable | [Proved in writing](004-mub-triplets/spectral-companion.md), with a conditional double-anticommutation branch proving both cubic zeros from either first zero. Three supporting Lean declarations reconstruct the six spectral weights. General witness symmetry and general coupling remain unproved |
 | R004.5 | Public Conjecture 3: Szollosi's two-circulant family cannot occur in a quadruplet | The journal corrects an earlier wrong proof; a September 2026 unrefereed candidate directly overlaps it. [Review](004-mub-triplets/LITERATURE.md) flags that claim without independently accepting it |
+| R004.6 | Proposed stronger route: every fixed complete companion permits the extra simple-spectrum anticommutation witness | Refuted by an [exact actual MUB triplet](004-mub-triplets/fixed-companion-witness.md). The same H has another companion that permits it; this is not a counterexample to general cubic coupling or to existential choice over all companions |
 | C7 | Public problem: determine the Shannon capacity of the seven-cycle; source-stated two-sided heterogeneous construction question | [Candidate review](OPEN_PROBLEM_CANDIDATES.md) cites Tandon's August 2026 theorem and remaining extension. No new bound or construction proved here |
 | K5 | Public problem: determine the five-dimensional kissing number | The 2026 Cohn–Rajagopal source records 40<=tau_5<=44. The continuous 41-point Gram feasibility problem is a candidate, not a finite-grid test or an exclusion proved here |
 | SIC | Public problem: SIC existence, with the remaining Galois/Hermitian compatibility in a specific ghost construction | September 2026 sources prove twisted convolution and algebraicity but explicitly leave the needed automorphism unknown. [Candidate review](OPEN_PROBLEM_CANDIDATES.md) records that narrower gap without reproposing the already proved steps |
@@ -167,6 +168,15 @@ it proves both cubic zeros. The anticommutation condition has not been
 shown to follow from arbitrary complete companionship. The supporting
 Lean proof treats only six scalar spectral weights; the full matrix
 criterion and conditional branch remain written mathematics.
+
+The [fixed-companion matching theorem](004-mub-triplets/fixed-companion-witness.md)
+now completely decides the additional symmetry for a specified third
+basis. The two coordinate involutions must be monomial with the same
+three paired columns. Their product being diagonal with simple spectrum
+is sufficient; repeated spectrum can conceal dense mixing. A complete
+triplet demonstrates that failure with defect four, but an alternative
+companion of the same H succeeds. Thus this result does not close the
+existential companion-selection question or disprove the cubic target.
 
 The broader candidate problems C7, K5 and SIC are specified with
 current primary-source bounds and remaining gaps in

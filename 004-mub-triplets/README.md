@@ -13,6 +13,11 @@ It does not announce a solution of the maximum-number problem.
   witness gives four circulant blocks; one first-character zero then forces
   both cubic-character zeros. Existence of that additional witness in
   general is unproved.
+- [Fixed-companion witness criterion](fixed-companion-witness.md) decides
+  that additional condition by a shared monomial pairing. An exact genuine
+  triplet has a fixed companion for which the condition fails, while an
+  alternative companion works. Diagonal reflection product alone is
+  insufficient at repeated eigenvalues.
 - [SpectralMomentWeights.lean](proof/SpectralMomentWeights.lean) formalizes
   the exact six-weight reconstruction, with three axiom audits. The matrix
   spectral theorem and the companion/anticommutation bridges remain written.
