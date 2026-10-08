@@ -1,0 +1,31 @@
+{
+  "source": "TwentyDimDualScaleYoneda.lean",
+  "source_sha256": "2cd6ddd2360cc88c62642ea1788a768da51805242947ccc4bd093ec7d0b59b93",
+  "printed_audit_count": 10,
+  "scope": "Arbitrary actual module endpoint-isomorphism transport and canonical dualScale transport preserve all graded Yoneda compositions and the degree-zero identity; actual m-fold fExtThree powers in degree 3*m and their scalar multiples have inverse-unit-to-the-m weight",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "scalar_identity_requires_nonzero_parameter": false,
+  "actual_graded_yoneda_powers_defined": true,
+  "all_degree_yoneda_composition_preserved": true,
+  "degree_zero_identity_preserved": true,
+  "first_power_identified_with_fixed_ext_three": true,
+  "higher_power_nonvanishing_proved": false,
+  "parameter_group_law_coherence_proved": false,
+  "all_degree_self_ext_profile_proved": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "canonical_replay_review",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

@@ -97,6 +97,14 @@ when q cubed is nonzero. This computes the fixed class and its scalar
 multiples; it does not prove a dimension, all-degree self-Ext profile,
 tensor-square realization or complete ARC.
 
+The [actual graded Yoneda compatibility](proof/mathlib/TwentyDimDualScaleYoneda.README.md)
+proves that canonical transport preserves composition in every pair of
+degrees and fixes the degree-zero identity. The recursively defined
+m-fold power of the fixed Ext cubed class lies in actual Ext^(3*m) and
+has weight (H inverse)^m, as do its scalar multiples with the appropriate
+scalar factor. Powers with m at least two are not asserted to be nonzero;
+the calculation does not supply an all-degree self-Ext profile.
+
 Python 3.9 or later, standard library only:
 
 ```console

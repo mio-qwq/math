@@ -145,6 +145,13 @@ and its scalar multiples, with nonzero image when q cubed is nonzero.
 No dimension or full self-Ext profile, tensor-square realization or
 complete ARC is asserted.
 
+The [actual graded Yoneda transport theorem](TwentyDimDualScaleYoneda.README.md)
+preserves every composition and the degree-zero identity. Actual m-fold
+powers of fExtThree have degree 3*m and canonical weight (H inverse)^m,
+including all their scalar multiples. The endpoint argument retains
+arbitrary actual module isomorphisms. No higher-power nonvanishing or
+dimension statement is asserted.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,
