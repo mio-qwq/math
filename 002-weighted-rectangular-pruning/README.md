@@ -109,6 +109,20 @@ The [question register](../RESEARCH_QUESTIONS.md) records the
 unrestricted-relation and first induced-cycle problems separately
 from the literature comparison.
 
+The [cyclic six-cycle theorem](cyclic-six-costs.md) now handles a
+specified case outside that structural class: both relations are
+induced six-cycles and independent nonnegative costs are invariant
+under simultaneous cyclic translation. Twelve local inequalities
+imply an aggregate product bound and three actual covers give the
+sharp coefficient one. An exact nine-expression formula determines
+the weighted augmented optimum in this class, without requiring
+the local inequalities. A positive infinite family lies outside
+common coordinate-product domination, for which an exact criterion
+is proved. Invariant partial families are included in the bound;
+general asymmetric costs and arbitrary partial patterns remain
+unresolved. This is written mathematics, without a Lean or new
+executable-certificate claim.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce

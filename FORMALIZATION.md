@@ -276,3 +276,13 @@ using actual height-two lifts and associativity. It gives stable
 degree-zero dual numbers, a uniform finite-order Tate family, and
 the infinite-order k plus omega corollary. No new Lean compilation
 or axiom audit is asserted for these written results.
+
+The [002 invariant six-cycle theorem](002-weighted-rectangular-pruning/cyclic-six-costs.md)
+is a separate written result for two induced six-cycles with
+simultaneously translation-invariant independent costs. It proves
+the local-cost bound, its actual pruning consequence, the exact
+nine-expression augmented optimum and a precise coordinate-product
+domination criterion, with invariant partial families included in
+the bound. These statements are not Lean-formalized. No compile,
+axiom audit, executable checker or unrestricted-cost result is
+attributed to this source.

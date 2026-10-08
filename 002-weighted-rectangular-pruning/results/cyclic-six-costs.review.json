@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "verification_method": "complete written proof and independent agent readings",
+  "source_sha256": {
+    "cyclic-six-costs.md": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf"
+  },
+  "mathematical_scope": "Sharp augmented cover and actual pruning for simultaneous-translation-invariant independent nonnegative costs on two induced six-cycles; exact nine-expression optimum for full invariant inputs without local inequalities; positive invariant common coordinate-product domination iff criterion and a non-dominated infinite family.",
+  "coefficient_one_proved_sharp": true,
+  "zero_costs_included_directly": true,
+  "invariant_partial_families_bound_proved": true,
+  "initially_conflict_free_originals_retained": true,
+  "actual_uncovered_corners_used": true,
+  "full_invariant_exact_weighted_optimum_proved": true,
+  "number_of_symbolic_optimum_candidates": 9,
+  "positive_invariant_coordinate_product_domination_iff_proved": true,
+  "positive_non_dominated_infinite_family_proved": true,
+  "naive_statewise_lift_deficit_proved": true,
+  "statewise_deficit_is_general_counterexample": false,
+  "general_asymmetric_costs_proved": false,
+  "arbitrary_partial_patterns_proved": false,
+  "longer_cycle_theorem_claimed": false,
+  "general_theorem_lean_formalized": false,
+  "lean_compile_claimed": false,
+  "new_machine_certificate_claimed": false,
+  "numerical_search_used_as_proof": false,
+  "historical_novelty_established": false,
+  "independent_reviews": [
+    {
+      "reviewer": "independent agent 1",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf",
+      "final_source_read_pre_sha256": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf",
+      "final_source_read_post_sha256": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf",
+      "mathematical_source_lines_read": 308,
+      "mathematical_source_numbered_sections_read": 7,
+      "required_mathematical_repairs_on_final_source": 0,
+      "private_antecedent_derivation_originator": true,
+      "review_focus": "Entire final root-authored public exposition separately read, including new positive domination sufficiency; twelve local indices, all zero cases, actual three covers and U, sharp matching, exact orbit averaging and left/right thresholds, all nine cycle-cover fees, actual invariant partial padding and retention, symbolic M-family, precise statewise deficit and unresolved scope."
+    },
+    {
+      "reviewer": "independent agent 2",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf",
+      "final_source_read_pre_sha256": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf",
+      "final_source_read_post_sha256": "72c865b4185cd6ca8dbfe83a84c96b1b5191c25a42394ba2640d6d33a47e09cf",
+      "mathematical_source_lines_read": 308,
+      "mathematical_source_numbered_sections_read": 7,
+      "required_mathematical_repairs_on_final_source": 0,
+      "independent_private_derivation_completed": true,
+      "review_focus": "Entire frozen public source independently reconstructed, including newly added domination iff; every orbit representative, AM-GM aggregate and scalar zero boundary, actual completed-cover identity, orbit threshold integrality argument, minimal six-cycle cover classification and nine expressions, invariant actual partial graph/U/initial retention, exact positive non-domination example and statewise gap. Changed public documentation passages additionally locally reviewed, without asserting fresh whole-index coverage."
+    }
+  ],
+  "review_limitations": "Two actual complete agent readings of the frozen public exposition, with mathematical reconstruction and unchanged source hashes; one reader originated a private antecedent and the other independently derived the symmetric theorem. These are not external blind peer review, Lean compilation, axiom audits, executable-certificate replay or worldwide originality clearance. Private antecedent proofs did not replace final public-source readings."
+}
