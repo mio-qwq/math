@@ -111,6 +111,14 @@ This retains arbitrary commutative characteristic-two coefficient rings;
 q nonzero suffices without zero divisors. Infinite homological dimension
 and nonprojectivity of the final converted ARC object remain separate.
 
+The [all-degree actual word lift](proof/mathlib/FiniteFreeBarWordLift.README.md)
+preserves every tensor coordinate and supplies a general nonboundary
+test for arbitrary character Hom maps. With zero adjacent products and
+zero endpoint character values, every possible preceding Hom kills the
+boundary of the lifted word. Its first A-coefficient is retained before
+evaluation. This alone gives no cup-product closure or higher Yoneda
+nonvanishing.
+
 Python 3.9 or later, standard library only:
 
 ```console

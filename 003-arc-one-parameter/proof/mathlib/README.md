@@ -159,6 +159,14 @@ rings. This concerns the character module; the earlier field-only
 self-injectivity theorem concerns the regular module. Infinite homological
 dimension and the final converted ARC object are not established here.
 
+The [complete actual word lift](FiniteFreeBarWordLift.README.md) identifies
+all tensor coordinates in every degree and proves a general nonboundary
+test against every preceding character Hom. Zero adjacent products and
+zero endpoint character values kill the boundary only after character
+evaluation; the first actual A-coefficient remains in the resolution.
+Specific cup closure and true positive-degree Yoneda comparison require
+additional proofs.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,

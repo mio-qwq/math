@@ -1,0 +1,31 @@
+{
+  "source": "FiniteFreeBarWordLift.lean",
+  "source_sha256": "f41108b11e068c044b7f8200414c09e7a3e36756f1b010a64bb451c2e0f90900",
+  "printed_audit_count": 11,
+  "scope": "Actual all-degree recursive word lift with full coordinate product, finite expansion, first-letter R-linearity and basis consistency; arbitrary character-Hom evaluation, zero-neighbor boundary formula retaining the first A coefficient, and a full preceding-Hom nonboundary test",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "arbitrary_character_allowed": true,
+  "all_degree_word_lift_proved": true,
+  "all_actual_preceding_homs_quantified": true,
+  "coefficient_insertion_asserted_a_linear": false,
+  "lifted_word_asserted_resolution_cycle": false,
+  "specific_cup_product_closure_proved": false,
+  "actual_yoneda_product_identification_proved": false,
+  "higher_power_nonvanishing_proved": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "word_lift_draft",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}
