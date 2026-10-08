@@ -71,6 +71,13 @@ then
 \]
 The product assumption applies to all four kinds of pair costs. We assert no version with independently assigned, arbitrary costs on individual pair vertices.
 
+A separate [compatible pair-cost theorem](compatible-pair-costs.md)
+allows nonnegative independent pair costs under a local multiplicative
+constraint when one relation is a disjoint union of complete bipartite
+blocks. Its finite-threshold proof and tight nonproduct example concern
+that additional structural hypothesis; the theorems above retain their
+arbitrary-relation product-cost scope.
+
 ## 2. A support-rank fact
 
 **Lemma 3.** Let \(D:\mathbb Q^T\to\mathbb Q^Q\) have maximum rank among matrices with entries allowed only on a prescribed subset \(B\subseteq Q\times T\). For \(x\in\ker D\), \(y\in\ker D^{\mathsf T}\), and \((q,t)\in B\), one has \(x_t y_q=0\).

@@ -35,4 +35,10 @@ nonzero q over a characteristic-two field. Identification with the
 Yoneda square is a separate remaining obligation; the complete self-Ext
 profile and ARC realization are still open.
 
+For 002, a [compatible pair-cost theorem](002-weighted-rectangular-pruning/compatible-pair-costs.md)
+now gives a finite-threshold cover and pruning construction beyond
+product costs when either relation is a disjoint union of complete
+bipartite blocks. Its general proof is written analytically; the exact
+certificate implementation has separate checks and is not a Lean proof.
+
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.

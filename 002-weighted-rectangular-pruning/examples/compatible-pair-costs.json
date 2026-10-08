@@ -1,0 +1,1097 @@
+{
+  "cases": [
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "2",
+          "Z_mass": "5",
+          "cover_cost": "7",
+          "deletion_cost": "3",
+          "uncovered_mass": "1"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0
+            ],
+            "block_right": [
+              0
+            ],
+            "candidate_count": 2,
+            "cover_cost": "7",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "C:0:0",
+          "C:1:0",
+          "R:1:0",
+          "ZR:0:0"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "1"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "H": [
+              [
+                "1"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "R": [
+              [
+                "4"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "Z": [
+              [
+                "4"
+              ],
+              [
+                "1"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 2,
+            "J": 1,
+            "P": 2,
+            "S": 1
+          }
+        },
+        "retained_C": [],
+        "retained_R": [
+          [
+            0,
+            0
+          ]
+        ],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "name": "tight_nonproduct"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "0",
+          "Z_mass": "0",
+          "cover_cost": "0",
+          "deletion_cost": "0",
+          "uncovered_mass": "0"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0
+            ],
+            "block_right": [
+              0
+            ],
+            "candidate_count": 1,
+            "cover_cost": "0",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "C:0:0",
+          "ZR:0:0"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "0"
+              ]
+            ],
+            "H": [
+              [
+                "0"
+              ]
+            ],
+            "R": [
+              [
+                "1"
+              ]
+            ],
+            "Z": [
+              [
+                "0"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 1,
+            "J": 1,
+            "P": 1,
+            "S": 1
+          }
+        },
+        "retained_C": [],
+        "retained_R": [
+          [
+            0,
+            0
+          ]
+        ],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": []
+      },
+      "name": "zero_h_positive_R"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "0",
+          "Z_mass": "0",
+          "cover_cost": "0",
+          "deletion_cost": "0",
+          "uncovered_mass": "0"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0
+            ],
+            "block_right": [
+              0
+            ],
+            "candidate_count": 1,
+            "cover_cost": "0",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "R:0:0",
+          "ZL:0:0"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "1"
+              ]
+            ],
+            "H": [
+              [
+                "0"
+              ]
+            ],
+            "R": [
+              [
+                "0"
+              ]
+            ],
+            "Z": [
+              [
+                "0"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 1,
+            "J": 1,
+            "P": 1,
+            "S": 1
+          }
+        },
+        "retained_C": [
+          [
+            0,
+            0
+          ]
+        ],
+        "retained_R": [],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": []
+      },
+      "name": "zero_R_positive_C"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "3",
+          "Z_mass": "5",
+          "cover_cost": "7",
+          "deletion_cost": "2",
+          "uncovered_mass": "1"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0,
+              1
+            ],
+            "block_right": [
+              0,
+              1
+            ],
+            "candidate_count": 2,
+            "cover_cost": "7",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "C:0:0",
+          "R:1:1",
+          "ZR:0:0",
+          "ZR:0:1"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            "H": [
+              [
+                "2",
+                "0"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            "R": [
+              [
+                "8",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "Z": [
+              [
+                "4",
+                "1"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 2,
+            "J": 2,
+            "P": 2,
+            "S": 2
+          }
+        },
+        "retained_C": [],
+        "retained_R": [
+          [
+            0,
+            0
+          ]
+        ],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "name": "extra_corner_copy"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "2",
+          "Z_mass": "2",
+          "cover_cost": "4",
+          "deletion_cost": "4",
+          "uncovered_mass": "2"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0,
+              1
+            ],
+            "block_right": [
+              0,
+              1
+            ],
+            "candidate_count": 1,
+            "cover_cost": "4",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "C:0:0",
+          "C:0:1",
+          "R:0:0",
+          "R:0:1"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "8",
+                "9"
+              ]
+            ],
+            "H": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            "R": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "5",
+                "7"
+              ]
+            ],
+            "Z": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 2,
+            "J": 2,
+            "P": 2,
+            "S": 2
+          }
+        },
+        "retained_C": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "retained_R": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "name": "isolated_originals"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "4",
+          "Z_mass": "4",
+          "cover_cost": "8",
+          "deletion_cost": "8",
+          "uncovered_mass": "4"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0
+            ],
+            "block_right": [
+              0
+            ],
+            "candidate_count": 1,
+            "cover_cost": "4",
+            "threshold": "1"
+          },
+          {
+            "block_left": [
+              1
+            ],
+            "block_right": [
+              1
+            ],
+            "candidate_count": 1,
+            "cover_cost": "4",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "C:0:0",
+          "C:0:1",
+          "C:1:0",
+          "C:1:1",
+          "R:0:0",
+          "R:0:1",
+          "R:1:0",
+          "R:1:1"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "H": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "R": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "Z": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 2,
+            "J": 2,
+            "P": 2,
+            "S": 2
+          }
+        },
+        "retained_C": [],
+        "retained_R": [],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "E",
+        "uncovered": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "name": "symmetric_E_blocks"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "4",
+          "Z_mass": "4",
+          "cover_cost": "8",
+          "deletion_cost": "8",
+          "uncovered_mass": "4"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0
+            ],
+            "block_right": [
+              0
+            ],
+            "candidate_count": 1,
+            "cover_cost": "4",
+            "threshold": "1"
+          },
+          {
+            "block_left": [
+              1
+            ],
+            "block_right": [
+              1
+            ],
+            "candidate_count": 1,
+            "cover_cost": "4",
+            "threshold": "1"
+          }
+        ],
+        "cover": [
+          "C:0:0",
+          "C:0:1",
+          "C:1:0",
+          "C:1:1",
+          "R:0:0",
+          "R:0:1",
+          "R:1:0",
+          "R:1:1"
+        ],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "E": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "R": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "costs": {
+            "C": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "H": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "R": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "Z": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 2,
+            "J": 2,
+            "P": 2,
+            "S": 2
+          }
+        },
+        "retained_C": [],
+        "retained_R": [],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "name": "two_F_blocks"
+    },
+    {
+      "certificate": {
+        "claims": {
+          "H_mass": "0",
+          "Z_mass": "0",
+          "cover_cost": "0",
+          "deletion_cost": "0",
+          "uncovered_mass": "0"
+        },
+        "construction_trace": [
+          {
+            "block_left": [
+              0
+            ],
+            "block_right": [
+              0,
+              1
+            ],
+            "candidate_count": 1,
+            "cover_cost": "0",
+            "threshold": "1"
+          }
+        ],
+        "cover": [],
+        "instance": {
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "E": [],
+          "F": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "R": [],
+          "costs": {
+            "C": [
+              [
+                "3"
+              ],
+              [
+                "2"
+              ]
+            ],
+            "H": [],
+            "R": [],
+            "Z": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          "format": "compatible-pair-costs-v1",
+          "sizes": {
+            "I": 2,
+            "J": 2,
+            "P": 0,
+            "S": 1
+          }
+        },
+        "retained_C": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "retained_R": [],
+        "schema": "compatible-pair-costs-certificate-v1",
+        "structured_relation": "F",
+        "uncovered": []
+      },
+      "name": "empty_P_domain"
+    }
+  ],
+  "format": "compatible-pair-costs-example-suite-v1"
+}

@@ -129,3 +129,9 @@ To replay all eight files of the 003 certificate, including every closure case, 
 The largest closure blocks take longer than the small table checks. See the [003 proof README](003-arc-one-parameter/proof/README.md) for coverage, provenance cross-checks and exact limits, and the [001 Mathlib README](001-odd-half-order-hadamard/proof/mathlib/README.md) for the separately pinned matrix package.
 
 The proofs certify the propositions stated in these files. A formal proof of a supporting certificate is a formalization contribution, but it is not a formal proof of every theorem in the surrounding papers. Mathematical provenance and the specific formalization work are identified separately in the notes. No claim of first formalization or historical priority is made.
+
+The additional [002 compatible pair-cost theorem](002-weighted-rectangular-pruning/compatible-pair-costs.md)
+has a complete written finite-threshold proof for a disjoint-biclique
+relation and arbitrary locally compatible nonnegative pair costs. Its
+Python certificates verify concrete cover/pruning feasibility and bounds;
+the general theorem is not yet formalized in Lean.

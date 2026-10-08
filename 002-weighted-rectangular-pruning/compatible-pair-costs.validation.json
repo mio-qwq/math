@@ -1,0 +1,65 @@
+{
+  "bounded_generated_cases": 400,
+  "date": "2026-10-08",
+  "generated_cases_by_orientation": {
+    "E": 200,
+    "F": 200
+  },
+  "generated_cases_with_conflicts": 308,
+  "mutated_certificates_rejected": 10,
+  "python_version": "3.12.10",
+  "scope": "Fresh bounded exact Fraction checks, no general enumeration. General theorem has a written proof, not a Lean formalization. Certificate checking proves feasibility and the stated bounds, not optimality.",
+  "seed": 20261008,
+  "source_sha256": {
+    "check_compatible_pair_costs.py": "c11197678e0d1bb1ed1c955f78f6766626a950da7705efa67b8d63fdba5566bf",
+    "compatible_pair_costs.py": "5d263e5cdd5664a9289280f756dd57058f9ced9e094584d4092175e66c1e34b7",
+    "check_compatible_rectangular.py": "f19789ccc68d5cb5c7164a385b4d11c752435981561b644354d1de168902a539"
+  },
+  "status": "PASS",
+  "unsupported_structure_rejected": 1,
+  "written_examples_checked": 8,
+  "zero_Z_corners_checked": 63,
+  "commands_run": [
+    {
+      "command": "python -B code/check_compatible_pair_costs.py --self-test examples/compatible-pair-costs.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B code/check_compatible_pair_costs.py examples/compatible-pair-costs.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B -O code/check_compatible_pair_costs.py examples/compatible-pair-costs.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B code/compatible_pair_costs.py examples/compatible-pair-costs.json",
+      "exit_code": 0,
+      "stdout_check": "All 8 recomputed certificates parsed and passed independently through check(), in memory."
+    }
+  ],
+  "artifact_sha256": {
+    "compatible-pair-costs.md": "cfda2b6c2f06793125530a632599a3d31669490934e942c70075a6bf630fa407",
+    "examples/compatible-pair-costs.json": "2f2bb09e8dd929c90ef7154532465188875fe30a24907eac32092d7f86871bac"
+  },
+  "general_theorem_lean_formalized": false,
+  "independent_primary_replay": {
+    "written_examples_normal_exit_code": 0,
+    "written_examples_optimized_exit_code": 0,
+    "extra_rectangular_cases": 80,
+    "base_dimensions": [
+      3,
+      4,
+      3,
+      4
+    ],
+    "actual_orientation_counts": {
+      "E": 39,
+      "F": 41
+    },
+    "command": "python -B code/check_compatible_rectangular.py",
+    "exit_code": 0,
+    "seed": 202610080923,
+    "general_theorem_proof": false
+  }
+}

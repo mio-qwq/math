@@ -6,6 +6,16 @@ Read [paper.md](paper.md) for the complete proof, definitions, zero-weight cases
 
 The proof does not assume the upstream second-neighborhood theorem. [Lean proofs](proof/README.md) certify the complete single-conflict criteria, including a [Mathlib real-cost version and unbounded obstruction](proof/mathlib/README.md); the general rectangular theorem remains unformalized.
 
+The [compatible pair-cost construction](compatible-pair-costs.md) proves
+a separate general theorem for arbitrary nonnegative pair costs when
+either relation is a disjoint union of complete bipartite blocks. Each
+conflict need only satisfy the local inequality xy <= hz. A finite
+threshold algorithm supplies the cover and pruning bounds, including
+zero costs. A tight example has no common dominating product system.
+This extension has a complete written proof and an independent exact
+certificate checker; it is not Lean-formalized, and sufficiency of the
+local condition for arbitrary pairs of relations remains open.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce
@@ -21,6 +31,8 @@ python code/solve.py examples/zero.json examples/zero.certificate.json
 python code/check_certificate.py examples/zero.certificate.json
 python code/stress.py
 python code/check_nonproduct.py examples/nonproduct.json
+python -B code/check_compatible_pair_costs.py examples/compatible-pair-costs.json
+python -B code/check_compatible_rectangular.py
 ```
 
 The checker independently rebuilds all conflicts, cross-corners, and network arcs. It verifies exact capacity/conservation constraints, equality of flow value and cover cost, the cover bound, and the pruning bound. A supplied flow and equal-cost cover certify the minimum cover, with no need to trust the search program. These finite checks support reproducibility; the mathematical theorem is proved in `paper.md`.
