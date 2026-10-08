@@ -8,6 +8,12 @@ homological profile are separate in that source. The
 [explicit dual extension construction](TwentyDimTrivialExtension.README.md)
 now supplies the actual kernel/dual equivalence, both lower multiplication
 actions, and the whole algebra's split coordinates, unit and multiplication.
+The [bundled core-dual comparison and actual radical bridges](../../structural-bridge-replay.md)
+now give a genuine R-algebra equivalence and the whole Jacobson preimage
+formula; the explicit eighteen-coordinate radical retains its semisimple
+coefficient hypothesis. Their eight source modules have 77 separately
+observed independent replay audits. Full homological conclusions remain
+separate from this structural identification.
 [The specified lower-algebra resolution](LowerAlgebraCategoricalResolution.README.md)
 now constructs the actual projective Ce/Cf corners, whole multiplication
 maps, all-degree kernel/image equalities and an augmentation

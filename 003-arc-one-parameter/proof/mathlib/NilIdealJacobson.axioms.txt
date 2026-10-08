@@ -1,0 +1,4 @@
+'ARCNilIdealJacobson.nilIdeal_le_jacobson' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCNilIdealJacobson.radical_comap_of_ker_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCNilIdealJacobson.radical_comap_of_nil_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCNilIdealJacobson.radical_eq_ker_of_nil_ker' depends on axioms: [propext, Classical.choice, Quot.sound]

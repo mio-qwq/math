@@ -1,0 +1,13 @@
+'ARCTwentyDimDualCorrespondence.sumTerms_sparseCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.sumTerms_sparseCoefficients_below' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ARCTwentyDimDualCorrespondence.lower_lower_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.lower_lower_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.lower_upper_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.lower_upper_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.upper_lower_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.upper_lower_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.upper_upper_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.upper_upper_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ARCTwentyDimDualCorrespondence.specialized_block_equations' depends on axioms: [propext, Classical.choice, Quot.sound]

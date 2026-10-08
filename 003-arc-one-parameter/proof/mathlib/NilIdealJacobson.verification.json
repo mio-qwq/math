@@ -1,0 +1,24 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "b28c5f0deab32ae0b720fc255aa2cdd646f65633",
+  "source": "NilIdealJacobson.lean",
+  "source_sha256": "fd595097d4e80f6e0fae3dba4e082b5e94e5a0be0489b7fbc6925bb3ded3960a",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": 4,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "scope": "complete nil left-ideal containment and whole radical preimage/equal-kernel formulas for arbitrary ring surjections",
+  "uses_new_finite_enumeration": false,
+  "identifies_eighteen_coordinate_radical": false,
+  "constructs_ext_comparison": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

@@ -1,0 +1,24 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "53e567b110e3e08d043b652e25a589a52a9bd3f5",
+  "source": "TwentyDimDualCorrespondence.lean",
+  "source_sha256": "f2aa621e675e57fa379e35ee075e62f438aa7f500d326518581b118dbb5fb37a",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": 11,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "all eight polynomial structure-constant blocks of the frozen dual recurrence and every commutative characteristic-two specialization; arbitrary-code sparse zero-filter semantics",
+  "uses_new_finite_enumeration": false,
+  "constructs_comparison_isomorphism": false,
+  "constructs_ext_comparison": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

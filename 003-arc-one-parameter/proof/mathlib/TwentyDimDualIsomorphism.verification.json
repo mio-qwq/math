@@ -1,0 +1,24 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "1d95df5cce8b322457ea65bcfbb3624412ff6832",
+  "source": "TwentyDimDualIsomorphism.lean",
+  "source_sha256": "287ffd5c1ad24080595dfb72eda05e24ee7458134f3dc444f09362158bd225e9",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": 17,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "scope": "actual R-algebra isomorphism from the twenty-coordinate table to the ten-coordinate core dual extension; preserves the actual trace and bilinear trace form at every characteristic-two parameter",
+  "uses_new_finite_enumeration": false,
+  "constructs_comparison_isomorphism": true,
+  "constructs_ext_comparison": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

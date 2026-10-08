@@ -1,0 +1,24 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "53e567b110e3e08d043b652e25a589a52a9bd3f5",
+  "source": "TwentyDimCoreAlgebra.lean",
+  "source_sha256": "a2592e9d3cc06663044aadb4066acc94b729d063858dbc17a85252db7a70548d",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": 9,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "actual ten-coordinate core Ring/Algebra with prescribed constants, unit, basis and rank ten; genuine dual-action extension, rank twenty and nondegenerate trace",
+  "uses_new_finite_enumeration": false,
+  "constructs_comparison_isomorphism": false,
+  "constructs_ext_comparison": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

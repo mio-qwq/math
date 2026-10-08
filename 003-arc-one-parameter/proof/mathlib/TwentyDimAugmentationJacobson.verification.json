@@ -1,0 +1,34 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "5e1cfcdffe359305740dd09a2a360f6aab869174",
+  "source": "TwentyDimAugmentationJacobson.lean",
+  "source_sha256": "428eea4ec3ff92376464576b6478086eecf6b7d32d25f4d28ac227ad733ac00c",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": 8,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "scope": "whole table radical preimage for arbitrary coefficients and exact eighteen-coordinate kernel/span and six-word vanishing for semisimple coefficients",
+  "published_dependency_replay": {
+    "commit": "da1223456bf0cb97abcb076f281fd49911a9598a",
+    "unchanged_sources": 11,
+    "printed_audits": 77,
+    "compilation_exit_code": 0,
+    "warnings": 0,
+    "replayed_existing_frozen_closure": true
+  },
+  "uses_new_finite_enumeration": false,
+  "coordinate_radical_identification_requires_semisimple_coefficients": true,
+  "covers_parameter_zero": true,
+  "classifies_all_simple_modules": false,
+  "constructs_ext_comparison": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

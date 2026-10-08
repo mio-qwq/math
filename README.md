@@ -175,7 +175,14 @@ are separate in that source. The subsequent
 [explicit dual extension construction](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)
 identifies the actual kernel with the lower algebra's dual, intertwines
 both lower multiplication actions, and gives the full algebra's explicit
-split coordinates, unit and multiplication formula. The subsequent
+split coordinates, unit and multiplication formula. The
+[bundled core-dual isomorphism and Jacobson bridges](003-arc-one-parameter/structural-bridge-replay.md)
+now package an actual R-algebra equivalence and identify the true table
+radical as the augmentation preimage of J(R×R). For semisimple R it is
+exactly the eighteen-coordinate augmentation kernel, at every parameter.
+Eight selected source modules passed fresh independent compilation and
+77 standard-axiom audits; these structural results do not supply the
+derived triangle or complete ARC. The subsequent
 [specified lower-algebra resolution](003-arc-one-parameter/proof/mathlib/LowerAlgebraCategoricalResolution.README.md)
 constructs actual projective corner terms, all-degree exactness and an
 augmentation quasi-isomorphism. Over characteristic-two fields with every

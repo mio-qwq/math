@@ -1,0 +1,25 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "8e83a53d30a7d5fdff68314cf0ec6ef487b1327b",
+  "source": "SquareZeroJacobson.lean",
+  "source_sha256": "3374960699d200144cf025fa587af18da1cc0c563183b2a1e59462579c599d0c",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": 3,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "scope": "full square-zero ideal containment in the noncommutative ring radical and whole radical preimage equality for a surjection with full square-zero kernel",
+  "uses_new_finite_enumeration": false,
+  "uses_noncommutative_ring_radical": true,
+  "identifies_eighteen_coordinate_radical": false,
+  "constructs_ext_comparison": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

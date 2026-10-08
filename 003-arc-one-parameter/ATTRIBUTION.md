@@ -54,6 +54,19 @@ and records the infinite-order corollary. The ordinary endomorphism
 ring, full Lean construction and global novelty remain separate
 questions.
 
+## Actual structural interfaces
+
+The [selected structural bridges](structural-bridge-replay.md) construct
+the actual core-dual algebra equivalence and identify the true ring
+Jacobson radical. OpenAI's `03-algebra.tex`, Lemma `alg:T`, already
+defines the trivial extension and states the field radical span, its
+sixth-power vanishing and quotient by that radical. The new Lean bridges
+implement the whole algebra equivalence and general-coefficient radical
+preimage formula; the explicit kernel formula keeps the semisimple
+coefficient assumption. They are attributed formalization contributions
+with the stated scope, not discoveries of the underlying field structure
+or a new proof of the complete ARC construction.
+
 ## Lower-algebra formalization and prior mathematical results
 
 The compiled OpenAI manuscript places the lower-algebra calculation in

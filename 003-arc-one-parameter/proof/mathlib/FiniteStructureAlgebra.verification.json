@@ -1,0 +1,43 @@
+{
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "manifest_sha256": "7b850c55dca4594dbddd3e7f1030cc9c705c0f98d910f964df573e7116901b66",
+  "base_commit": "f54f9f67ffdd237183277f6e39dc766baefabcd9",
+  "source": "FiniteStructureAlgebra.lean",
+  "source_sha256": "fade907317453ef25b8e5a8dc6feef7df999f0dee9796c8a36bb7b972f956390",
+  "compilation_exit_code": 0,
+  "warnings": 0,
+  "audited_declarations": [
+    "product_basis",
+    "product_eq_mul",
+    "product_assoc_iff",
+    "product_unit_left",
+    "product_unit_right",
+    "carrier_mul",
+    "carrier_algebraMap",
+    "carrierSemiring",
+    "carrierAlgebra",
+    "carrierRing",
+    "carrier_basis_mul",
+    "carrier_finrank"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "actual Semiring/Ring/Algebra instances, coordinate basis, finite free module and exact finrank; reuses published FiniteBilinear and FiniteBilinearUnit contractions",
+  "instantiates_arc_tables": false,
+  "uses_new_finite_enumeration": false,
+  "constructs_hochschild_complex": false,
+  "proves_complete_arc": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false,
+  "integration_base_commit": "77698addfd4831feaec82a52b07f01fba2a41311",
+  "integration_changes_imported_sources": false,
+  "revalidation_base_commit": "2abdb2d1516bfaf61a28f312d5eab66c3dc098a2",
+  "revalidation_compilation_exit_code": 0,
+  "revalidation_warnings": 0,
+  "revalidation_axiom_output_matches": true
+}

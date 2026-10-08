@@ -41,7 +41,13 @@ is extended by an [explicit dual construction](proof/mathlib/TwentyDimTrivialExt
 the actual kernel is R-linearly equivalent to the lower algebra's dual
 with both lower multiplication actions intertwined. The whole algebra's
 split coordinates have an explicit inverse, unit and complete mixed
-multiplication formula. A
+multiplication formula. The [bundled structural comparison and radical
+identification](structural-bridge-replay.md) now provide an actual
+R-algebra equivalence to the genuine core dual extension and the entire
+Jacobson radical preimage formula over all such coefficient rings.
+For semisimple coefficients, the radical is exactly the augmentation
+kernel, at every parameter. Eight selected contributed modules passed
+fresh independent compilation and 77 standard-axiom audits. A
 [specified lower-algebra projective resolution](proof/mathlib/LowerAlgebraCategoricalResolution.README.md)
 now retains the actual Cf term in degree zero, Ce in every positive
 degree, right multiplication by u and ell_n, and the actual character

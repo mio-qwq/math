@@ -126,6 +126,20 @@ For prior conclusions and the characteristic assumptions see
 No claim that the general Auslander–Reiten conjecture remains
 globally unresolved is made by this implementation boundary.
 
+## R003.4: actual structural interfaces
+
+The [selected structural replay](003-arc-one-parameter/structural-bridge-replay.md)
+now closes the bundled core-dual algebra equivalence and actual Jacobson
+radical identification. Every commutative characteristic-two coefficient
+ring receives the radical preimage formula; the eighteen-coordinate
+kernel description retains semisimple coefficients. Eight actual source
+replays and 77 fresh standard-axiom audits support this implementation.
+The underlying trivial extension and field radical statement are prior
+OpenAI mathematics. These are verified formalization interfaces with
+the stated coefficient scope, not a public conjecture resolution.
+The derived triangle, full twenty-dimensional self-Ext and complete ARC
+remain open implementation tasks; literature-wide originality is not asserted.
+
 ## R004.1–R004.2: source-stated MUB questions
 
 The fixed source is Matolcsi, Matszangosz, Varga and Weiner,

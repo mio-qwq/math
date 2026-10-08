@@ -1,0 +1,809 @@
+{
+  "scope": "Selected actual dual-extension isomorphism and actual Jacobson radical bridges",
+  "source_snapshot_commit": "e805eefcf3931f6ce2fd834a62f450169e21977b",
+  "integration_base_commit": "1e791164b6307a47890bd8b7b1841563d1322b9f",
+  "selected_sources": 8,
+  "fresh_audits": 77,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "replay_package_manifest_sha256": "1b85cf58f31f8666cdef2e82532e02a17a00ef58722db185d572c93b3981c7a7",
+  "independent_mathematical_source_review": "PASS: no must-fix found in these eight source proofs",
+  "previously_verified_local_prerequisite_objects_reused": true,
+  "full_contributed_development_independently_replayed": false,
+  "full_arc_formalized": false,
+  "full_twenty_dimensional_self_ext_profile_formalized": false,
+  "historical_mathematical_priority_established": false,
+  "records": [
+    {
+      "source": "SquareZeroJacobson.lean",
+      "source_sha256": "3374960699d200144cf025fa587af18da1cc0c563183b2a1e59462579c599d0c",
+      "source_after_sha256": "3374960699d200144cf025fa587af18da1cc0c563183b2a1e59462579c599d0c",
+      "start_utc": "2026-10-08T11:40:15.5424859+00:00",
+      "end_utc": "2026-10-08T11:40:31.4157826+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 3,
+      "expected_audits": 3,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCSquareZeroJacobson.squareZero_le_jacobson",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCSquareZeroJacobson.jacobson_eq_of_le",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCSquareZeroJacobson.radical_comap",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "audit": "SquareZeroJacobson.independent-axioms.txt",
+      "audit_sha256": "1861c81ecb3f2f5c68926103be7c7704de254bd774e84fcf70327f70b638e9a3",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "SquareZeroJacobson.verification.json",
+      "original_audit": "SquareZeroJacobson.axioms.txt",
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+    },
+    {
+      "source": "NilIdealJacobson.lean",
+      "source_sha256": "fd595097d4e80f6e0fae3dba4e082b5e94e5a0be0489b7fbc6925bb3ded3960a",
+      "source_after_sha256": "fd595097d4e80f6e0fae3dba4e082b5e94e5a0be0489b7fbc6925bb3ded3960a",
+      "start_utc": "2026-10-08T11:40:31.5158344+00:00",
+      "end_utc": "2026-10-08T11:40:46.3828287+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 4,
+      "expected_audits": 4,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCNilIdealJacobson.nilIdeal_le_jacobson",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCNilIdealJacobson.radical_comap_of_ker_le",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCNilIdealJacobson.radical_comap_of_nil_ker",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCNilIdealJacobson.radical_eq_ker_of_nil_ker",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "audit": "NilIdealJacobson.independent-axioms.txt",
+      "audit_sha256": "ebcf7cd847b4111eb2fdeb3f9137c48f6780f9591dd6d26a43cd1ccbd167fa17",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "NilIdealJacobson.verification.json",
+      "original_audit": "NilIdealJacobson.axioms.txt",
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+    },
+    {
+      "source": "TwentyDimAugmentationJacobson.lean",
+      "source_sha256": "428eea4ec3ff92376464576b6478086eecf6b7d32d25f4d28ac227ad733ac00c",
+      "source_after_sha256": "428eea4ec3ff92376464576b6478086eecf6b7d32d25f4d28ac227ad733ac00c",
+      "start_utc": "2026-10-08T11:47:49.9693245+00:00",
+      "end_utc": "2026-10-08T11:48:06.4840216+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 8,
+      "expected_audits": 8,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.mem_augmentationIdeal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.augmentationIdeal_element_nilpotent",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.augmentationIdeal_le_jacobson",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.jacobson_eq_augmentation_comap",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.jacobson_eq_augmentationIdeal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.mem_jacobson_iff",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.mem_jacobson_iff_radicalSum",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimAugmentationJacobson.jacobson_word_zero",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "pass": true,
+      "audit": "TwentyDimAugmentationJacobson.independent-axioms.txt",
+      "audit_sha256": "a15b44131b6d90b713e783bf0c48650f16fb6d84639886831d11ea3e7d7a9d4c",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "TwentyDimAugmentationJacobson.verification.json",
+      "original_audit": "TwentyDimAugmentationJacobson.axioms.txt"
+    },
+    {
+      "source": "DualTrivialExtension.lean",
+      "source_sha256": "95f8d0b540850853a8243a41cc0c741d4d128f399b6ec05705b65ed9b4b2665d",
+      "source_after_sha256": "95f8d0b540850853a8243a41cc0c741d4d128f399b6ec05705b65ed9b4b2665d",
+      "start_utc": "2026-10-08T11:48:38.4527999+00:00",
+      "end_utc": "2026-10-08T11:48:55.6538397+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 13,
+      "expected_audits": 13,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCDualTrivialExtension.extensionMul_assoc",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.extensionMul_one_left",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.extensionMul_one_right",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.trace_mul",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.trace_symmetric",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.trace_nondegenerate",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.trace_nondegenerate_of_free",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.carrierRing",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.carrierAlgebra",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.tracePairing_symmetric",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.tracePairing_nondegenerate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.carrier_finrank",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCDualTrivialExtension.tracePairing_basis",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "pass": true,
+      "audit": "DualTrivialExtension.independent-axioms.txt",
+      "audit_sha256": "202877696422151b16d92cbdcd9e3a548dc2050117151d9a69ad91285b7c7ae0",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "DualTrivialExtension.verification.json",
+      "original_audit": "DualTrivialExtension.axioms.txt"
+    },
+    {
+      "source": "FiniteStructureAlgebra.lean",
+      "source_sha256": "fade907317453ef25b8e5a8dc6feef7df999f0dee9796c8a36bb7b972f956390",
+      "source_after_sha256": "fade907317453ef25b8e5a8dc6feef7df999f0dee9796c8a36bb7b972f956390",
+      "start_utc": "2026-10-08T11:48:55.8089498+00:00",
+      "end_utc": "2026-10-08T11:49:11.9218645+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 12,
+      "expected_audits": 12,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCFiniteStructure.product_basis",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.product_eq_mul",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.product_assoc_iff",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.product_unit_left",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.product_unit_right",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrier_mul",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrier_algebraMap",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrierSemiring",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrierAlgebra",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrierRing",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrier_basis_mul",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCFiniteStructure.carrier_finrank",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "pass": true,
+      "audit": "FiniteStructureAlgebra.independent-axioms.txt",
+      "audit_sha256": "f243af8d2ab1268d9bebd74f2b0249baa52eebb39d265142e9cdacb6946ff5da",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "FiniteStructureAlgebra.verification.json",
+      "original_audit": "FiniteStructureAlgebra.axioms.txt"
+    },
+    {
+      "source": "TwentyDimDualCorrespondence.lean",
+      "source_sha256": "f2aa621e675e57fa379e35ee075e62f438aa7f500d326518581b118dbb5fb37a",
+      "source_after_sha256": "f2aa621e675e57fa379e35ee075e62f438aa7f500d326518581b118dbb5fb37a",
+      "start_utc": "2026-10-08T11:49:11.9440859+00:00",
+      "end_utc": "2026-10-08T11:49:26.7668484+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 11,
+      "expected_audits": 11,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.sumTerms_sparseCoefficients",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.sumTerms_sparseCoefficients_below",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.lower_lower_lower",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.lower_lower_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.lower_upper_lower",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.lower_upper_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.upper_lower_lower",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.upper_lower_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.upper_upper_lower",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.upper_upper_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualCorrespondence.specialized_block_equations",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "pass": true,
+      "audit": "TwentyDimDualCorrespondence.independent-axioms.txt",
+      "audit_sha256": "19d17028b3b8bef28f3723c902dde76ea5f51a44dbe935f527ed1586ea9caec1",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "TwentyDimDualCorrespondence.verification.json",
+      "original_audit": "TwentyDimDualCorrespondence.axioms.txt"
+    },
+    {
+      "source": "TwentyDimCoreAlgebra.lean",
+      "source_sha256": "a2592e9d3cc06663044aadb4066acc94b729d063858dbc17a85252db7a70548d",
+      "source_after_sha256": "a2592e9d3cc06663044aadb4066acc94b729d063858dbc17a85252db7a70548d",
+      "start_utc": "2026-10-08T11:49:26.7760334+00:00",
+      "end_utc": "2026-10-08T11:49:42.5617560+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 9,
+      "expected_audits": 9,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_structure_associative",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_structure_left_unit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_structure_right_unit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.coreLaws",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_basis_mul",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_mul",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_finrank",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_extension_finrank",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimCoreAlgebra.core_extension_trace_nondegenerate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "pass": true,
+      "audit": "TwentyDimCoreAlgebra.independent-axioms.txt",
+      "audit_sha256": "42165fce540a9ad7458a64dbc95edbcec8599376d1ce428b60a5d95860928948",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "TwentyDimCoreAlgebra.verification.json",
+      "original_audit": "TwentyDimCoreAlgebra.axioms.txt"
+    },
+    {
+      "source": "TwentyDimDualIsomorphism.lean",
+      "source_sha256": "287ffd5c1ad24080595dfb72eda05e24ee7458134f3dc444f09362158bd225e9",
+      "source_after_sha256": "287ffd5c1ad24080595dfb72eda05e24ee7458134f3dc444f09362158bd225e9",
+      "start_utc": "2026-10-08T11:49:42.5664614+00:00",
+      "end_utc": "2026-10-08T11:49:59.3571235+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "printed_audits": 17,
+      "expected_audits": 17,
+      "declaration_axioms": [
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.sum_split",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compareLinear",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compare_lower",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compare_dual",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.dual_evaluate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.table_product_lower",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.table_product_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.core_basis_mul_left",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.core_basis_mul_right",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.dual_core_basis_mul_left",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.dual_core_basis_mul_right",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compare_mul",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compare_one",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compareAlgebra",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.core_unit_coordinates",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compare_trace",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ARCTwentyDimDualIsomorphism.compare_tracePairing",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "lean_version": "4.34.1",
+      "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "pass": true,
+      "audit": "TwentyDimDualIsomorphism.independent-axioms.txt",
+      "audit_sha256": "a50157a033ef78a90c4ab0e75c6414b2bce9d9f3a299b7a340ad86ccfae4adb3",
+      "evidence_kind": "observed_independent_compiler_replay",
+      "original_record": "TwentyDimDualIsomorphism.verification.json",
+      "original_audit": "TwentyDimDualIsomorphism.axioms.txt"
+    }
+  ]
+}
