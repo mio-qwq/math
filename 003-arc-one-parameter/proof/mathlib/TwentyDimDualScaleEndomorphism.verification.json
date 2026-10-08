@@ -1,0 +1,20 @@
+{
+  "source": "TwentyDimDualScaleEndomorphism.lean",
+  "source_sha256": "5199f8e8078cd581ca97fe7ef3994d2a07f78e2c58586c34dcbfd16381fb3cae",
+  "printed_audit_count": 23,
+  "scope": "Actual arbitrary-scalar algebra endomorphisms, monoid composition, zero idempotent projection, lower image subalgebra and upper two-sided square-zero ideal with coordinate membership criteria, complementary R-submodules and actual linear splitting",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two; no invertibility or nonvanishing hypothesis",
+  "kernel_dual_bimodule_identification_proved": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "canonical_replay_review",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": ["propext", "Classical.choice", "Quot.sound"],
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

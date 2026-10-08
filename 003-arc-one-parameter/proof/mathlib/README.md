@@ -1,5 +1,11 @@
 # Genuine scalar polynomial semantics
 
+[Arbitrary-scalar dual endomorphisms](TwentyDimDualScaleEndomorphism.README.md)
+construct the actual lower projection, upper square-zero two-sided ideal
+and complementary R-module splitting, reusing the established table
+support law. Identification with the dual bimodule and the full
+homological profile remain separate.
+
 `BitPolynomial.lean` connects the exact scalar operations imported from the frozen `../FiniteCore.lean` to `Polynomial (ZMod 2)` for **every natural-number code**, rather than a bounded test range.
 
 The decoder assigns bit `i` to the coefficient of `X^i`. Lean proves:

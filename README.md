@@ -49,3 +49,10 @@ The full classification has a written proof; its actual polynomial
 product obstruction is independently checked in Lean.
 
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
+
+The [actual square-zero splitting](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)
+also constructs every scalar dual-scaling endomorphism, including the zero
+projection onto the lower subalgebra. Its actual two-sided kernel has
+square-zero multiplication, and the algebra splits as the corresponding
+R-modules. The dual-bimodule identification and full homological profile
+remain separate.

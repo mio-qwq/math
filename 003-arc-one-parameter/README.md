@@ -1,5 +1,12 @@
 # Exact ARC core certificate and a conditional one-parameter note
 
+The [scalar endomorphism construction](proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)
+now includes every scalar, with zero giving an actual lower-subalgebra
+projection. Its actual two-sided upper kernel is square-zero, and a genuine
+R-linear image/kernel splitting is constructed. This structural result
+does not yet identify the kernel with the dual bimodule or settle the
+remaining all-degree self-Ext profile.
+
 This directory contains two verified components and one explicitly conditional
 application:
 

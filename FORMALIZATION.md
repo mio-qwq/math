@@ -4,6 +4,7 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [003/proof/mathlib/TwentyDimDualScaleEndomorphism.lean](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.lean) | Actual arbitrary-scalar algebra endomorphisms with multiplicative composition; the zero idempotent projection has a lower image subalgebra and upper two-sided square-zero kernel, with coordinate criteria and an actual complementary R-module splitting | No dual-bimodule identification, full self-Ext profile or complete ARC realization in this source |
 | [001/proof/Parity.lean](001-odd-half-order-hadamard/proof/Parity.lean) | Oddness, support multiplicity and cleared projection-trace equations are incompatible | Does not construct the complex projection or prove its trace formula |
 | [001/proof/Examples.lean](001-odd-half-order-hadamard/proof/Examples.lean) | Cubic six-by-six row/column difference counts, their squares, Fourier-four opposite-root counts and fourth-root phase invariants | Exponent certificates; no formal bridge to complex matrices or the general rigidity theorem |
 | [001/proof/Support.lean](001-odd-half-order-hadamard/proof/Support.lean) | Four-phase collapse and the odd support-count obstruction for every phase system satisfying the explicit cancellation laws | The complex-ratio and Newton-identity hypotheses are not yet connected to this abstract statement |
