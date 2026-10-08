@@ -5,6 +5,7 @@ For every odd integer `m >= 3`, we prove that a complex matrix of order `2m` who
 - [Full theorem, definitions, and proof](paper.md)
 - [Exact root/block classification and exhaustive phase-circle construction for all half-orders](general-patterns.md)
 - [Finite graph of labelled dephased solutions, actual local branches and tangent lines](phase-geometry.md)
+- [Finite graph modulo standard matrix equivalence, reflection endpoints and branch-orbit valencies](equivalence-quotient.md)
 - [Exact finite example checker](code/check_examples.py)
 - [Lean certificate for the integer obstructions](proof/Parity.lean)
 - [Kernel-checked exponent certificates and phase invariants](proof/Examples.lean)
@@ -46,3 +47,13 @@ m arcs, and nonroot points have smooth one-dimensional neighborhoods.
 Root vertices have twice as many branches as compatible rectangles.
 This is a complete written geometric consequence of the classification;
 it does not identify the kernel of the linearized Hadamard equations.
+
+The standard-equivalence quotient is also a finite graph. Permuting and
+dephasing forces each circle-stabilizing action to be
+alpha -> zeta*alpha or zeta/alpha, with zeta an mth root. Subdivision
+at reflection fixed points gives the quotient graph. A nonroot orbit
+is an endpoint exactly when an effective reflection fixes it; its
+phase must satisfy alpha^m=-1. Root valency is the number of stabilizer
+orbits on the actual local half-branches. This is a complete written
+structural consequence, without a new even-order existence claim or
+a completed historical-novelty audit.

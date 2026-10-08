@@ -6,7 +6,7 @@ This repository records explicit mathematical statements, complete proofs where 
 
 | Note | Mathematical scope | Verification scope |
 | --- | --- | --- |
-| [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of support and actual complex block obstructions; the full rigidity theorem is not yet formalized |
+| [001 — Power Hadamard rigidity and classification](001-odd-half-order-hadamard/README.md) | Odd-half-order rigidity, exhaustive all-half-order phase classification, and finite graph models before and after standard matrix equivalence | Complete written proofs, exact examples and Lean support/block obstructions; the full matrix classification and quotient topology are not yet formalized |
 | [002 — Weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted bounds and independent local-cost bounds for block relations or all binary coordinate systems, with sharp constant; no finite uniform coefficient works for sums of two positive product systems | Complete written proofs for the pair-cost extensions; independent rational checkers and Lean proofs of single-conflict criteria and the unbounded obstruction. The binary-coordinate theorem is not yet Lean-formalized |
 | [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction with its full Tate algebra for every twist-ratio order, including the equal-twist seam; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
 
@@ -89,6 +89,14 @@ is a finite graph with smooth nonroot arcs and explicit root branch counts.
 Both the classification and this geometric consequence have complete
 written proofs; their complete Lean bridges remain separate.
 The actual polynomial product obstruction is independently checked in Lean.
+
+The [standard-equivalence quotient](001-odd-half-order-hadamard/equivalence-quotient.md)
+now determines the corresponding moduli graph. The actual dephased
+permutation formula forces a finite dihedral action on each circle;
+reflection fixed points locate possible new endpoints, and root
+valencies are stabilizer orbits of half-branches. This written proof
+closes the quotient-geometry gap while preserving the separate
+even-order realization and original-literature comparison questions.
 
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
 

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "verification_method": "complete written proof and independent agent readings",
+  "source_sha256": {
+    "equivalence-quotient.md": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d"
+  },
+  "scope": "Finite graph of the standard row/column phase and permutation equivalence quotient, exact circle stabilizer action, effective reflection endpoints and root branch-orbit valencies",
+  "standard_equivalence_moduli_graph_proved_in_written_math": true,
+  "transposition_added_to_equivalence": false,
+  "complex_conjugation_added_to_equivalence": false,
+  "nonroot_endpoint_requires_phase_power_minus_one": true,
+  "phase_power_minus_one_alone_claimed_sufficient": false,
+  "new_even_order_seed_existence_proved": false,
+  "general_theorem_lean_formalized": false,
+  "lean_compile_claimed": false,
+  "new_machine_certificate_claimed": false,
+  "historical_novelty_established": false,
+  "power_hadamard_original_full_text_comparison_complete": false,
+  "independent_reviews": [
+    {
+      "reviewer": "independent agent 1",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d",
+      "final_source_read_pre_sha256": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d",
+      "final_source_read_post_sha256": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d",
+      "required_mathematical_repairs_on_final_source": 0,
+      "review_focus": "Actual complete source and all antecedents, dephased right action and phase-orbit topology, double-centering sign, actual compatible seed, circle dihedral action, invariant reflection subdivision, no edge inversions, local orbit neighborhoods and root half-branch actions"
+    },
+    {
+      "reviewer": "independent agent 2",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d",
+      "final_source_read_pre_sha256": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d",
+      "final_source_read_post_sha256": "9c8cf27c48d7621151b3d4aa1d9447d0754be9a4a4773c80c1abddb631c6268d",
+      "required_mathematical_repairs_on_final_source": 0,
+      "review_focus": "Full public source and actual classification/labelled-graph sources, exact rectangle transformation, same-circle root shift, stabilizer kernel allowance, graph quotient and Hausdorff argument, nonroot valency criterion, necessary phase condition and actual root branch orbits"
+    }
+  ],
+  "review_limitations": "Written mathematical reviews by independent agents, not Lean compilation, a machine certificate, external peer review or global originality validation. The original 2008 Power Hadamard article was not obtained; that comparison remains open."
+}

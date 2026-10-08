@@ -174,6 +174,15 @@ branches and tangent lines are proved directly from the exhaustive phase
 classification. This is not a Lean topology theorem or an identification
 of the linearized Hadamard defect.
 
+The [001 standard-equivalence quotient](001-odd-half-order-hadamard/equivalence-quotient.md)
+is a separate complete written theorem. Its explicit dephasing action
+gives the finite moduli graph, effective reflection endpoints and
+root stabilizer-orbit valencies. It uses the written exhaustive matrix
+classification and labelled graph. Neither those antecedents nor
+the quotient topology are fully formalized in Lean. No new compilation,
+axiom audit, seed-existence theorem or historical-priority claim is
+attributed to this mathematical source.
+
 The [003 resonant positive Yoneda algebra](003-arc-one-parameter/resonant-yoneda-algebra.md)
 is a written theorem under explicit multiplicative homological
 hypotheses, not a Lean theorem. Two independent full proof readings
