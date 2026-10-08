@@ -152,6 +152,13 @@ including all their scalar multiples. The endpoint argument retains
 arbitrary actual module isomorphisms. No higher-power nonvanishing or
 dimension statement is asserted.
 
+The [actual third-Ext obstruction](TwentyDimCharacterHomologicalObstruction.README.md)
+makes the specified f-character module neither projective nor injective
+when q cubed is nonzero, over arbitrary commutative characteristic-two
+rings. This concerns the character module; the earlier field-only
+self-injectivity theorem concerns the regular module. Infinite homological
+dimension and the final converted ARC object are not established here.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,

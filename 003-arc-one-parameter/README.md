@@ -105,6 +105,12 @@ has weight (H inverse)^m, as do its scalar multiples with the appropriate
 scalar factor. Powers with m at least two are not asserted to be nonzero;
 the calculation does not supply an all-degree self-Ext profile.
 
+The [actual f-character object is neither projective nor injective](proof/mathlib/TwentyDimCharacterHomologicalObstruction.README.md)
+when q cubed is nonzero, using its nonzero actual third self-Ext class.
+This retains arbitrary commutative characteristic-two coefficient rings;
+q nonzero suffices without zero divisors. Infinite homological dimension
+and nonprojectivity of the final converted ARC object remain separate.
+
 Python 3.9 or later, standard library only:
 
 ```console
