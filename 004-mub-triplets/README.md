@@ -125,5 +125,9 @@ completes both opposite-block cyclic-shift/adjoint alternatives from the same
 actual flat Gram hypotheses, with three further independent Lean audits.
 The [connected adjoint-branch proof](adjoint-branch-cancellation.md) now
 proves actual product cancellation given either genuine adjoint alternative,
-with one further independent audit. The both-preserving case and its
-real-rank argument remain before full Gram-to-product cancellation.
+with one further independent audit. The
+[actual real-mode product-square theorem](real-mode-product-squares.md) now
+formalizes both real-rank cases and their actual flat-triple spectral
+identities, with four further independently replayed audits. Phase/shift
+normalization of the both-preserving case remains before unconditional
+Gram-to-product cancellation.

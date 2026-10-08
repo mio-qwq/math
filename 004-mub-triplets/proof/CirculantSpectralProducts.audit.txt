@@ -1,0 +1,6 @@
+'MUBTriplets.CirculantSpectralProducts.phaseProduct_from_three_modes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantSpectralProducts.flat_three_mode_neighbor_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'MUBTriplets.CirculantRealRank.product_squares_of_real_spectral_ratios' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantRealRank.phaseProduct_squares_of_actual_flat_real_modes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

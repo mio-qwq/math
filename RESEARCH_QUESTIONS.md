@@ -166,8 +166,11 @@ now derive both opposite-block cyclic-shift/adjoint alternatives, including
 repeated ratios. One further
 [connected adjoint-branch audit](004-mub-triplets/adjoint-branch-cancellation.md)
 now proves product cancellation with either genuine adjoint alternative as
-an explicit extra premise. The both-preserving case and real-rank proof
-remain before unconditional cancellation.
+an explicit extra premise. Four further
+[actual spectral/real-rank audits](004-mub-triplets/real-mode-product-squares.md)
+now prove the equal product squares of two actual flat triples with nonzero
+real-ratio modes. The phase/shift normalization supplying those hypotheses
+for the both-preserving branch remains before unconditional cancellation.
 These are classical supporting ingredients,
 not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general

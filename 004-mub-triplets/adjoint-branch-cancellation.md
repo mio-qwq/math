@@ -13,9 +13,10 @@ unit alpha/beta, an actual cyclic permutation matrix and conjugate
 transpose *. It is an explicit additional hypothesis. This closes all
 three cases containing an adjoint when combined with
 [the previous actual retrieval theorem](phase-retrieval-alternatives.md).
-That theorem also permits a both-preserving case; its real-rank argument
-remains unformalized, so this source does not prove unconditional product
-cancellation from flat Gram alone. General companion symmetry and general
+That theorem also permits a both-preserving case. Its
+[actual real-mode product-square ingredient](real-mode-product-squares.md)
+is now formalized separately, but the required branch normalization remains.
+This source therefore does not prove unconditional cancellation from flat Gram alone. General companion symmetry and general
 MUB coupling remain outside the result; historical originality is not established.
 
 For E=alpha P_l A*, the actual off-diagonal block of column Gram is
@@ -69,5 +70,5 @@ lake env lean "$taskMubSources/CirculantAdjointBranch.lean"
 ```
 
 The remaining target is the both-preserving case: normalize its phases
-and shifts, prove the required real-rank lemma for the two flat triples,
-and then join it to this endpoint for unconditional product cancellation.
+and shifts, supply the hypotheses of the proved actual real-mode lemma,
+and join it to this endpoint for unconditional product cancellation.

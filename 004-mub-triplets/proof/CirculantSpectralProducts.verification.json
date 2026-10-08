@@ -1,0 +1,102 @@
+{
+  "source_sha256": "9cd9be9a978ab89948eca3c8169f8666e40f83dcde437d0cee80a2e503a8b993",
+  "source_after_sha256": "9cd9be9a978ab89948eca3c8169f8666e40f83dcde437d0cee80a2e503a8b993",
+  "start_utc": "2026-10-08T14:50:09.4143768+00:00",
+  "end_utc": "2026-10-08T14:50:26.6088323+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 2,
+  "expected_audits": 2,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CirculantSpectralProducts.phaseProduct_from_three_modes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantSpectralProducts.flat_three_mode_neighbor_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "CirculantSpectralProducts.lean",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "audit": "CirculantSpectralProducts.audit.txt",
+  "audit_sha256": "e37241d334b6efe50819c9a3eb64b185672e59c9a89c7a81cf54366e5668e092",
+  "scope": "Actual raw three-point Fourier cubic recovers 27 times the actual first-column product; actual entry flatness yields the spectral neighbor sum zero",
+  "actual_mode_cubic_product_and_flat_neighbor_identities_formalized": true,
+  "actual_flat_pair_real_mode_product_squares_formalized": false,
+  "nonzero_modes_and_real_cross_are_explicit_rank_hypotheses": false,
+  "spectral_product_identities_assumed_at_actual_pair_endpoint": false,
+  "preserving_four_block_normalization_formalized": false,
+  "hadamard_gram_to_unconditional_product_cancellation_formalized": false,
+  "general_mub_conjecture_resolved": false,
+  "historical_mathematical_originality_established": false,
+  "independent_replay": {
+    "source_sha256": "9cd9be9a978ab89948eca3c8169f8666e40f83dcde437d0cee80a2e503a8b993",
+    "source_after_sha256": "9cd9be9a978ab89948eca3c8169f8666e40f83dcde437d0cee80a2e503a8b993",
+    "start_utc": "2026-10-08T14:57:22.9894095+00:00",
+    "end_utc": "2026-10-08T14:57:40.8011588+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 2,
+    "expected_audits": 2,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CirculantSpectralProducts.phaseProduct_from_three_modes",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantSpectralProducts.flat_three_mode_neighbor_sum",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "e37241d334b6efe50819c9a3eb64b185672e59c9a89c7a81cf54366e5668e092"
+  },
+  "independent_mathematical_source_review": "PASS: actual cubic scale 27 and minus-three term; spectral neighbor weights 1,omega squared,omega and flat cancellation; primitive-root and arbitrary/flat-triple scopes",
+  "project_import_sources": [
+    {
+      "source": "CirculantAutocorrelation.lean",
+      "source_sha256": "578c6eb609ab9f54f1fc6c934e9994359cae9c452e4cb4aaad3b7c2bfd7a0cc7"
+    },
+    {
+      "source": "CubeRootGramMatching.lean",
+      "source_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72"
+    },
+    {
+      "source": "CubeRootGramModes.lean",
+      "source_sha256": "86f5c587cc0437823a07f243f8f5acd8e8d5bf043b62ac937f36ec930278dced"
+    },
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09"
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f"
+    }
+  ]
+}
