@@ -78,6 +78,20 @@ The theorem includes all zero costs and partial families. It does
 not settle two transposed five-vertex paths, all forests or the
 unrestricted problem, and is not a Lean proof.
 
+The subsequent [forest theorem](forest-pendant-star-costs.md) closes
+the path-orientation and forest gaps of that earlier note. Either
+relation can now be any finite bipartite forest, or its complete
+expansion, with the other arbitrary. A pendant-star lemma pools
+new auxiliary-left costs and H budgets into a partial old-pivot
+problem, proves every residual local inequality directly at zeros,
+and preserves actual shared-corner coverage. Rooting each tree on
+its left side constructs it through finitely many such extensions.
+All partial families and path orientations are included; the sharp
+constant-one bound has a finite rational construction. This remains
+a written theorem without a new Lean or executable-checker result.
+Unrestricted cyclic relations, equality cases and global novelty
+remain separate research questions.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce

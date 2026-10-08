@@ -115,6 +115,16 @@ controls actual shared and missing corner profits. This is a written
 structural theorem; the opposite path orientation, general forests
 and a full Lean implementation remain outside its proved scope.
 
+The later [bipartite-forest theorem](002-weighted-rectangular-pruning/forest-pendant-star-costs.md)
+settles those path and forest cases in written mathematics.
+One relation may be any finite bipartite forest or complete forest
+expansion, and the other arbitrary. A pendant-star preservation
+lemma transfers auxiliary-left costs and H charges to a compatible
+partial pivot problem; a rooted construction builds every tree.
+Zero costs, partial originals, actual uncovered gains and the
+sharp coefficient one are included. The complete Lean proof,
+general cyclic relations and historical novelty remain open here.
+
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution
 from a compatible rectangle of a cyclic root seed and one unit phase.

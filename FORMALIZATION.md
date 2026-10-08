@@ -204,6 +204,17 @@ receipt is attributed to this mathematical note; independently read
 source hashes are recorded separately. All forests and the two
 transposed five-vertex-path case are not proved.
 
+The subsequent [002 forest theorem](002-weighted-rectangular-pruning/forest-pendant-star-costs.md)
+does prove those forest and path-orientation cases as written
+mathematics. Its pendant-star extension uses only proved-positive
+divisions, a genuinely partial residual family, exact shared-corner
+coverage and an auxiliary H budget counted once. A rooted-tree
+construction and exact group expansion give any forest relation
+against an arbitrary other relation, with zero costs and partial
+families. Its complete-source independent readings are recorded
+separately. No Lean compilation, axiom audit, executable certificate
+or general optimum result is claimed for this theorem.
+
 The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
 has a complete analytical proof for the fixed labelled, dephased solution
 space. Circle intersections, actual smooth nonroot neighborhoods, root
