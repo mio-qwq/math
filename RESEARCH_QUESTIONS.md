@@ -31,7 +31,8 @@ specific comparison establishes otherwise.
 | R004.4 | Proposed exact interface for the cubic target: a complete companion as a fixed-spectrum Hermitian observable | [Proved in writing](004-mub-triplets/spectral-companion.md), with a conditional double-anticommutation branch proving both cubic zeros from either first zero. Three supporting Lean declarations reconstruct the six spectral weights. General witness symmetry and general coupling remain unproved |
 | R004.5 | Public Conjecture 3: Szollosi's two-circulant family cannot occur in a quadruplet | The journal corrects an earlier wrong proof; a September 2026 unrefereed candidate directly overlaps it. [Review](004-mub-triplets/LITERATURE.md) flags that claim without independently accepting it |
 | R004.6 | Proposed stronger route: every fixed complete companion permits the extra simple-spectrum anticommutation witness | Refuted by an [exact actual MUB triplet](004-mub-triplets/fixed-companion-witness.md). The same H has another companion that permits it; this is not a counterexample to general cubic coupling or to existential choice over all companions |
-| C7 | Public problem: determine the Shannon capacity of the seven-cycle; source-stated two-sided heterogeneous construction question | [Candidate review](OPEN_PROBLEM_CANDIDATES.md) cites Tandon's August 2026 theorem and remaining extension. No new bound or construction proved here |
+| R004.7 | Proposed exact scope question for the extra anticommutation route | [Proved in writing](004-mub-triplets/four-circulant-route.md): witness existence iff fixed-partition four-circulantization iff a sixteen-pair phase test. The companion construction is classical Zauner theory, not a new MUB construction. General symmetry existence remains unproved |
+| C7 | Public problem: determine the Shannon capacity of the seven-cycle; source-stated two-sided heterogeneous construction question | [Candidate review](OPEN_PROBLEM_CANDIDATES.md) cites Tandon's August 2026 theorem and remaining extension. A small neutral-core branch is sharp at eight words but its pure self-product roots decrease; no new capacity bound or general two-sided construction |
 | K5 | Public problem: determine the five-dimensional kissing number | The 2026 Cohn–Rajagopal source records 40<=tau_5<=44. The continuous 41-point Gram feasibility problem is a candidate, not a finite-grid test or an exclusion proved here |
 | SIC | Public problem: SIC existence, with the remaining Galois/Hermitian compatibility in a specific ghost construction | September 2026 sources prove twisted convolution and algebraicity but explicitly leave the needed automorphism unknown. [Candidate review](OPEN_PROBLEM_CANDIDATES.md) records that narrower gap without reproposing the already proved steps |
 
@@ -184,6 +185,19 @@ off-matching entries vanish. This is a real matrix-multiplication
 interface, with three separate audited declarations; it does not prove
 unitary monomial phases, the complete companion conjugation bridge or
 the full fixed-companion criterion.
+
+The [unitary phase Lean theorem](004-mub-triplets/proof/SpectralMatchingUnitary.lean)
+now derives unit norms from actual Gram multiplication and describes the
+entire fixed-pairing Hermitian unitary family, with a complete converse.
+It has three additional independent audits; the companion conjugation and
+shared-pairing selection remain separate gaps.
+
+The [exact symmetry route](004-mub-triplets/four-circulant-route.md) closes
+the converse of the earlier written branch at the fixed partitions.
+Its classical construction covers all zero modes. The sixteen-pair phase
+test identifies precisely the known four-circulant symmetry requirement;
+it does not establish that requirement for every eligible H or close
+the general cubic/adjoint target.
 
 The broader candidate problems C7, K5 and SIC are specified with
 current primary-source bounds and remaining gaps in

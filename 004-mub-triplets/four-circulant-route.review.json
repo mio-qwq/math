@@ -1,0 +1,31 @@
+{
+  "source": "four-circulant-route.md",
+  "source_sha256": "66f0564b760fe37ba6fe7b4542fd6ef0211dff0c35c88b9b49a526b6126769c4",
+  "source_lines": 158,
+  "status": "PASS",
+  "verification_method": "Complete written proof and independent complete mathematical reconstruction against separate Fourier-mode derivation and primary literature",
+  "mathematical_must_fix_remaining": 0,
+  "author_integration_review": {
+    "full_source_read": true,
+    "source_sha256": "66f0564b760fe37ba6fe7b4542fd6ef0211dff0c35c88b9b49a526b6126769c4",
+    "status": "PASS"
+  },
+  "independent_review": {
+    "full_source_read": true,
+    "source_sha256": "66f0564b760fe37ba6fe7b4542fd6ef0211dff0c35c88b9b49a526b6126769c4",
+    "status": "PASS",
+    "scope": "Zero modes, exact complete K/L, raw Fourier normalization, double anticommutation, full diagonal moments, fixed-partition transport and 16 pairs of 25 cross-ratio tests",
+    "review_location": "A byte-identical workspace manuscript; published copy hash checked separately."
+  },
+  "results": [
+    "Classical four-circulant construction gives a complete companion and prescribed double-anticommutation spectral witness",
+    "Existence of that extra witness iff four-circulantization respecting the displayed partitions",
+    "Equivalent exact phase-rank-one test over sixteen pairs of partition three-cycles"
+  ],
+  "primary_attribution": "Zauner construction as recalled in Szollosi arXiv:0811.3930v2 Section4; not a new MUB construction",
+  "lean_formalized": false,
+  "general_cubic_coupling_proved": false,
+  "first_character_zero_proved_for_arbitrary_displayed_four_circulant": false,
+  "historical_originality_certified": false,
+  "external_peer_review": false
+}

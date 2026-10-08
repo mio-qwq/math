@@ -68,6 +68,17 @@ being represented as an untouched problem.
 
 ## Chosen structural target
 
+The extra double-anticommutation route has a classical scope. The primary
+[Szollosi paper, arXiv:0811.3930v2, Section 4](https://arxiv.org/pdf/0811.3930v2)
+explicitly recalls Zauner's two-by-two unitary phase lemma and characterizes
+four-circulant unitary matrices by two flat Fourier-phase factors. Its
+Proposition 4.2 already supplies the complete companion construction;
+the 2026 triplet paper recalls it in (4.3)-(4.5).
+[The fixed-partition equivalence](four-circulant-route.md) makes the relation
+to the prescribed spectral witness and a sixteen-pair phase test explicit.
+This identifies a known symmetry class, not a new general MUB construction.
+General companionship has not been proved to imply that symmetry.
+
 The principal target recorded here is the remaining source-stated identity
 
     complete companion of H  =>  g_H(3alpha) g_H*(3alpha) = 0,

@@ -1,0 +1,5 @@
+'MUBTriplets.SpectralMatching.partner_normSq_of_actual_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.SpectralMatching.hermitian_partner_phases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.SpectralMatching.unitary_hermitian_anticommutation_iff_phase_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

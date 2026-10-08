@@ -18,6 +18,11 @@ It does not announce a solution of the maximum-number problem.
   triplet has a fixed companion for which the condition fails, while an
   alternative companion works. Diagonal reflection product alone is
   insufficient at repeated eigenvalues.
+- [Exact scope of the symmetry route](four-circulant-route.md) proves that
+  existence of a suitably chosen double-anticommutation companion witness
+  is equivalent to four-circulantization preserving the displayed triples.
+  Sixteen pairs of three-cycles give an exact phase test. The converse
+  companion construction is classical Zauner theory, including zero modes.
 - [SpectralMomentWeights.lean](proof/SpectralMomentWeights.lean) formalizes
   the exact six-weight reconstruction, with three axiom audits. The matrix
   spectral theorem and the companion/anticommutation bridges remain written.
@@ -26,6 +31,11 @@ It does not announce a solution of the maximum-number problem.
   spectrum is equivalent to support on the opposite-node matching. It has
   three separate audits; unitary monomial phases and the companion
   conjugation bridges are outside that proof.
+- [SpectralMatchingUnitary.lean](proof/SpectralMatchingUnitary.lean) completes
+  the fixed-node unitary Hermitian phase classification using actual Gram
+  products. The forward direction derives unit-modulus partner entries;
+  the converse constructs both unitary equations, Hermitian symmetry and
+  the anticommutator. Three new audits have a separate independent replay.
 
 The methods use standard spectral interpolation, MUB observables and
 Fourier diagonalization. Originality of the reformulation is not established.
@@ -44,6 +54,23 @@ lake env lean ../../../004-mub-triplets/proof/SpectralMomentWeights.lean
 lake env lean ../../../004-mub-triplets/proof/SpectralMatchingSupport.lean
 ```
 
+For the import-based phase theorem, from that same Mathlib directory:
+
+```sh
+P="../../../004-mub-triplets/proof"
+lake env lean --root "$P" -o "$P/SpectralMatchingSupport.olean" "$P/SpectralMatchingSupport.lean"
+LEAN_PATH="$(cd "$P" && pwd):${LEAN_PATH:-}" lake env lean "$P/SpectralMatchingUnitary.lean"
+```
+
+On PowerShell use the host path-list separator and an absolute import directory:
+
+```powershell
+$proofDir = (Resolve-Path '../../../004-mub-triplets/proof').Path
+lake env lean --root $proofDir -o (Join-Path $proofDir 'SpectralMatchingSupport.olean') (Join-Path $proofDir 'SpectralMatchingSupport.lean')
+$env:LEAN_PATH = $proofDir + [IO.Path]::PathSeparator + $env:LEAN_PATH
+lake env lean (Join-Path $proofDir 'SpectralMatchingUnitary.lean')
+```
+
 The source-specific [verification record](proof/SpectralMomentWeights.verification.json)
 and [actual independent audit output](proof/SpectralMomentWeights.audit.txt)
 record the two compiler runs against the same source hash. The proof source
@@ -57,3 +84,11 @@ and [actual audit output](proof/SpectralMatchingSupport.audit.txt).
 Its premise uses ordinary matrix multiplication, rather than assuming
 the desired entrywise support. It supplies an additional fixed-spectrum
 interface without asserting unitarity or Hermitian companion existence.
+
+The new phase classification has its own
+[verification record](proof/SpectralMatchingUnitary.verification.json)
+and [actual independent audit output](proof/SpectralMatchingUnitary.audit.txt).
+It concerns an actual matrix B with the fixed reverse matching, not shared
+matchings for two coordinate involutions or existence of a complete companion.
+The four-circulant converse and phase test remain written matrix proofs with
+a [separate full-source review](four-circulant-route.review.json).

@@ -2,8 +2,9 @@
 
 Source review: 8 October 2026. The questions below are explicitly left
 unresolved in the cited primary works. This is a bounded literature
-review, not certification that no subsequent proof exists. No new bound,
-construction or solution is claimed in this document.
+review, not certification that no subsequent proof exists. No new global
+bound or solution is claimed in this document; small investigated branches
+are distinguished from the public open targets.
 
 The MUB structural target already has a separate
 [source review](004-mub-triplets/LITERATURE.md) and
@@ -43,6 +44,41 @@ product-block independence condition would not settle this extension.
 A new general construction, rigorous obstruction or improved lower
 bound would be substantive; a numerical failure to find a larger code
 would not be an upper bound.
+
+### Investigated branch: a pure neutral auxiliary set
+
+For the product of the paper's one-dimensional toy gadgets, the propagated
+transversals are PH={(0,3),(3,6)} and PV={(6,3),(3,0)}. A vertex is neutral
+when it belongs to neither closed neighborhood. Its exact neutral region is
+
+    ({0,1,5,6} x {0,1,5,6}) union ({2,3,4} x {2,3,4}).
+
+Each factor set is covered by two cliques: {5,6},{0,1}, and {2,3},{4},
+respectively. Their product cliques cover the region with eight cliques.
+The eight-word independent set
+
+    {(2,2),(2,4),(4,2),(4,4),(0,1),(6,5),(1,6),(5,0)}
+
+attains the bound. It is the main code minus its two selected private-pair
+centres. That neutral-core choice is an elementary consequence of the
+private-pair definition, not a new general construction. Its profile is
+(a,t,s,o,h,v)=(10,2,8,8,0,0). The specified fixed-anchor one-sided families
+instead have o<=6: each of their three contributions has the independent
+number-two bound of a three- or four-vertex induced path. Other anchors
+and general two-sided profiles are not excluded by this comparison.
+
+This neutral-core family closes under ordinary Gao self-products, with
+b=a-t=s=o, h=v=0 and b'=b^2, t'=2bt, a'=a^2-t^2. Thus for t>0 each
+self-product strictly decreases the code's dimension root. Starting from
+the displayed two-dimensional gadget, after k self-products the root is
+
+    sqrt(8) (1+2^(k-2))^(1/2^(k+1)),
+
+which tends to sqrt(8)<3. This rules out root improvement from continuing
+that pure-neutral self-product route. It does not exclude mixed auxiliary
+sets, asymmetric partners or use within another recursion. The finite
+gadget and clique checks were independently checked with exact modular
+arithmetic; this branch has no Lean proof or certified originality claim.
 
 ## K5: five-dimensional kissing number
 

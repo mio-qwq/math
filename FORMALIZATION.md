@@ -4,6 +4,7 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [004/proof/SpectralMatchingUnitary.lean](004-mub-triplets/proof/SpectralMatchingUnitary.lean) | Actual complex Hermitian unitary matrices anticommuting with diag(-5,-3,-1,1,3,5) are exactly diagonal unit phases times the reverse permutation, with conjugate opposite phases; actual Gram multiplication forces those unit norms | Fixed pairing only; no complete companion, companion conjugation, shared matching for two involutions or general MUB coupling |
 | [004/proof/SpectralMatchingSupport.lean](004-mub-triplets/proof/SpectralMatchingSupport.lean) | For actual complex six-by-six matrices, anticommutation with diag(-5,-3,-1,1,3,5) is equivalent to entries vanishing off the reverse-index matching | No unitarity is assumed or proved; complete monomial phase, spectral/companion conjugation and MUB existence remain separate |
 | [004/proof/SpectralMomentWeights.lean](004-mub-triplets/proof/SpectralMomentWeights.lean) | For arbitrary real weights at -5,-3,-1,1,3,5, six power-moment equations are equivalent to all weights being 1/6 | Exact finite interpolation only; no matrix spectral theorem, complete-companion equivalence or general MUB coupling is formalized by this source |
 | [002/proof/mathlib/CyclicSixCosts.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixCosts.lean) | Twelve cyclic local real-cost inequalities imply the aggregate product inequality and a three-choice budget alternative, with zero original costs included | Arithmetic core on the three simultaneous-translation orbits; the actual graph connection is proved in the next file |
@@ -326,3 +327,18 @@ equivalence at the prescribed six simple nodes. Its three source audits
 and independent replay are recorded separately. It does not construct
 the conjugation from an actual companion, prove unitary monomial phases,
 or formalize the counterexample's Hadamard and unbiasedness equations.
+
+The subsequent `SpectralMatchingUnitary.lean` supplies that unitary phase
+bridge at the fixed pairing. It uses actual Gram products to derive the
+partner norm squares and proves the full converse with both matrix unitary
+equations. Three separately audited declarations and an independent replay
+are recorded for this source. Its imported Support object was built from
+the unchanged verified source; reproduction commands include that import.
+It still does not conjugate actual companions into the two involutions or
+prove that they have a shared matching.
+
+The [four-circulant route](004-mub-triplets/four-circulant-route.md) is a
+written equivalence and finite phase test, with an independent full-source
+review. Its complete companion construction is classical Zauner theory.
+Neither its matrix construction nor the sixteen-pair cross-ratio test is
+formalized by the three supporting Lean sources.
