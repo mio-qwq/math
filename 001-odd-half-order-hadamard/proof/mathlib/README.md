@@ -26,3 +26,12 @@ LEAN_PATH=.. lake env lean ComplexSupport.lean
 For PowerShell, set `$env:LEAN_PATH = (Resolve-Path '..').Path` before the final command and omit its `LEAN_PATH=..` prefix, restoring the previous value afterward.
 
 The package pins Mathlib, the Lean toolchain and transitive dependencies in `lake-manifest.json`. All four source files compiled successfully and use only the standard three axioms listed above. They use the library's established field, projection and trace theorems and record our application to the Hadamard phase and block obstructions; no priority claim is made about standard library facts.
+
+The additional [RowProductObstruction](RowProductObstruction.README.md)
+derives the actual coordinate product from a two-polygon linear-factor
+polynomial and proves two rows and their conjugate ratio cannot all have
+polynomial (X^m-1)(X^m+1). It passed compilation and independent replay
+with four standard-axiom audits and zero warnings. The Newton and
+Hadamard-to-polynomial bridge, full matrix classification, and exhaustive
+phase-circle construction remain analytical proofs rather than complete
+Lean formalizations.

@@ -1,0 +1,22 @@
+{
+  "source": "RowProductObstruction.lean",
+  "source_sha256": "cf8bc0c07295c77384eff7a8a025e046d6891a41f48e82b4f614cd5c4e0845ce",
+  "printed_audit_count": 4,
+  "scope": "Actual complex linear-factor root polynomial evaluation, two-polygon coordinate product refinement, conjugate row-product identity, and impossibility of three specified two-polygon row/ratio polynomials",
+  "actual_polynomial_product_refinement_proved": true,
+  "row_products_assumed_instead_of_derived": false,
+  "hadamard_to_polygon_bridge_proved": false,
+  "complete_matrix_classification_lean_formalized": false,
+  "phase_circle_construction_lean_formalized": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "hadamard_constructive",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": ["propext", "Classical.choice", "Quot.sound"],
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

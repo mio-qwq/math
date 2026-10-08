@@ -3,12 +3,13 @@
 For every odd integer `m >= 3`, we prove that a complex matrix of order `2m` whose entrywise powers `1,...,m-1` are all complex Hadamard becomes an `m`th-root matrix after dephasing. In fact, its row differences give a generalized Hadamard matrix over the cyclic group of order `m`, with multiplicity two. This is an exact characterization, not a numerical observation.
 
 - [Full theorem, definitions, and proof](paper.md)
-- [Necessary pattern classification for all half-orders, including even ones](general-patterns.md)
+- [Exact root/block classification and exhaustive phase-circle construction for all half-orders](general-patterns.md)
 - [Exact finite example checker](code/check_examples.py)
 - [Lean certificate for the integer obstructions](proof/Parity.lean)
 - [Kernel-checked exponent certificates and phase invariants](proof/Examples.lean)
 - [Formal four-phase collapse and odd support obstruction](proof/Support.lean)
 - [Actual complex block obstruction, exact half-ranks and singularity in pinned Mathlib](proof/mathlib/README.md)
+- [Actual two-polygon polynomial products and row-ratio obstruction in Lean](proof/mathlib/RowProductObstruction.README.md)
 
 The proof extends the order-six support argument in OpenAI's *Exact Fourier certificates for complex Hadamard matrices of order six*, at pinned upstream commit [`adc7f1241b42e322a6451854ab7e4b4c146bf78a`](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a). The general odd-half-order theorem, the projection argument, and the cyclic-group characterization are proved here. We make no claim of historical priority.
 
@@ -27,3 +28,13 @@ lean proof/Parity.lean
 ```
 
 The exponent range `1,...,m-1` is sufficient. No minimality claim about that range is made. The order-four example shows that oddness cannot simply be removed from the theorem as stated.
+
+For every m>=2, the stronger analytical classification eliminates the
+binary quotient branch of the earlier necessary trichotomy. Each
+nonroot solution is obtained by multiplying a compatible balanced
+rectangle of a cyclic GH(m,2) root seed by one unit phase. For fixed m,
+the dephased solutions form a finite union of root points and these phase
+circles; odd half-orders have no such circles. This is an exhaustive
+construction under the full power hypotheses, without asserting seed
+existence at new even orders. Its matrix proof is written; the new Lean
+file verifies the actual polynomial product obstruction supporting it.

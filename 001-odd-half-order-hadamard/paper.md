@@ -96,7 +96,7 @@ Assume condition 1 of Theorem 1 and dephase to `K`. For every two distinct rows 
 
 Set `L=K^{∘m}`. Since the initial row and column of `K` are ones, so are those of `L`. By applying Lemma 2 to a noninitial row and the initial row, each row of `L` is either all ones or consists of exactly `m` ones and `m` copies of one value `x != 1`. In the latter case call the `m` positions occupied by `x` its **support**. A support never contains column zero. The same alternative holds for columns, with supports excluding row zero.
 
-**Lemma 3.** If `m` is odd, any two nonconstant rows of `L` have the same support. The same holds for nonconstant columns.
+**Lemma 3.** For every `m>=2`, any two nonconstant rows of `L` have the same support. The same holds for nonconstant columns.
 
 **Proof.** Let two nonconstant rows have supports `S,U` and non-one values `x,y`. Suppose `S != U`, and let `t=|S intersect U|`. Both supports have size `m` and lie in the `2m-1` noninitial column positions, so
 
@@ -117,7 +117,11 @@ The first multiplicity is `2m-|S union U|=t`. Every listed multiplicity is posit
 
 Because `x != 1` and `y^{-1} != 1`, the values `1,x,y^{-1}` can occupy at most two classes only if `y^{-1}=x`. The fourth value is then `x^2`; it must be `1` or `x`. Since `x` is nonzero and is not one, `x^2=x` is impossible, leaving `x^2=1`. Hence `x=y=-1`.
 
-There are now exactly two values, `1` and `-1`, with multiplicities `2t` and `2(m-t)`. Lemma 2 requires each multiplicity to be `m`. This is impossible because `m` is odd. The supposition `S != U` was false. Applying the identical reasoning to column ratios proves the column statement. QED.
+There are now exactly two values, `1` and `-1`, with multiplicities `2t` and `2(m-t)`. Lemma 2 requires each multiplicity to be `m`. To obtain a contradiction even when `m` is even, retain the product of the original ratio entries. In formula (4) that product is the constant term `ab`, since the polynomial has even degree `2m`.
+
+Each of the two original rows of `K`, compared with its initial all-ones row, has `m`th-power values `1,-1`. Thus its root polynomial is `(z^m-1)(z^m+1)`, and its entry product is `-1`. Their mutual ratio has the same two `m`th-power values, so its entry product must also be `-1`. But the product of that ratio is the product of the first row divided by the product of the second, which is `(-1)/(-1)=1`. This contradiction rules out `S != U` without a parity assumption. Transposition proves the column statement. QED.
+
+The product step is the elementary obstruction to a complete mapping of an even cyclic group; see the precise attribution and the all-half-order phase-circle classification in [general-patterns.md](general-patterns.md). Oddness is still needed in Section 4 to exclude the surviving single-support block.
 
 ## 4. The block alternative
 

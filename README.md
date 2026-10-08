@@ -42,4 +42,10 @@ product costs when either relation is a disjoint union of complete
 bipartite blocks. Its general proof is written analytically; the exact
 certificate implementation has separate checks and is not a Lean proof.
 
+For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
+now eliminates the binary pattern and constructs every nonroot solution
+from a compatible rectangle of a cyclic root seed and one unit phase.
+The full classification has a written proof; its actual polynomial
+product obstruction is independently checked in Lean.
+
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
