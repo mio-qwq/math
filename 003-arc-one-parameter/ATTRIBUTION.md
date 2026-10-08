@@ -27,6 +27,17 @@ the twist ratio has finite order. The one-variable application remains
 conditional on the upstream realization and all-degree profile assertions.
 No first-proof, novelty, or priority claim is made.
 
+The separate [finite realization note](finite-resonant-realization.md)
+uses the actual finite two-cone target and arbitrary-twist lift from
+`05-cones.tex` and `06-lift.tex`, then retains finite ratio resonance in
+the fiber of `07-branches.tex`. Both branch actions are proved by the
+actual natural transformations. This is a written construction applying
+the positive multiplication theorem, not a new invention of the cone,
+finite fiber, Veronese ring or square-zero matrix multiplication, and
+not a complete Lean realization. Tang's Proposition 5.4 supplies a
+different common target; that target is not silently identified with
+the one fixed in this construction.
+
 ## Lower-algebra formalization and prior mathematical results
 
 The compiled OpenAI manuscript places the lower-algebra calculation in

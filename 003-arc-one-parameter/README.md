@@ -1,4 +1,16 @@
-# Exact ARC core certificate and a conditional one-parameter note
+# ARC core certificate and a finite resonant Yoneda construction
+
+The [finite realization note](finite-resonant-realization.md) constructs
+actual finite triangular modules realizing the previously conditional
+positive multiplication theorem over characteristic-two fields with an
+infinite-order base parameter. It fixes one OpenAI two-cone target,
+reconstructs its maps for arbitrary nonzero twists, and proves both
+branch actions on all positive classes. Finite twist-ratio order d gives
+the Veronese positive algebra plus epsilon times its positive ideal;
+the epsilon ideal squares to zero and has no constant term. This is a
+complete written construction proof, not a complete Lean formalization.
+For finite d the module has nonzero self-Ext and is not an ARC
+counterexample. Prior field-extension conclusions remain attributed.
 
 The [scalar endomorphism construction](proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)
 now includes every scalar, with zero giving an actual lower-subalgebra
@@ -205,6 +217,9 @@ verification of the concrete ARC realization or the whole Tate algebra.
 - [resonant-yoneda-algebra.md](resonant-yoneda-algebra.md): the complete
   positive multiplication proof, its additional hypotheses and exact
   degree-zero/realization boundaries.
+- [finite-resonant-realization.md](finite-resonant-realization.md): finite
+  objects satisfying those hypotheses, actual two-sided branch actions,
+  and the F_4(t) order-three example, with separate written/Lean scope.
 - [checker/verify.py](checker/verify.py): new standalone exact checker.
 - [data/arc-core.json](data/arc-core.json): finite data transcribed from
   OpenAI's algebra and cochain tables, with source hashes.

@@ -170,3 +170,12 @@ check the DG square-zero ideal, unique graded lifts and branch action
 normalization. These reviews are not machine proofs or journal peer
 review, and do not construct the missing concrete ARC objects or the
 full Tate algebra.
+
+The [003 finite resonant realization](003-arc-one-parameter/finite-resonant-realization.md)
+supplies a written proof of the finite target, actual side-projective
+kernel, finite triangular module and both positive branch actions over
+the stated field. It thereby realizes the preceding conditional
+multiplication theorem in written mathematics. These finite objects,
+their complete cone and the full comparison are still absent from the
+Lean formalization. The earlier compile and axiom receipts are not
+being reused as a machine verification of this new construction.

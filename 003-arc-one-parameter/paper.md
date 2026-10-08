@@ -3,9 +3,14 @@
 ## Status and notation
 
 The finite polynomial identities in Section 1 and the abstract theorem in
-Section 2 are established here. Section 3 is a **conditional application** to
-OpenAI family 199; it is not an independently verified unconditional ARC
-counterexample. Source data and methods are attributed in `ATTRIBUTION.md`.
+Section 2 are established here. Section 3 records the original
+**conditional application** to OpenAI family 199. A separate
+[finite construction proof](finite-resonant-realization.md) now reconstructs
+the finite objects over characteristic-two fields with an infinite-order
+base parameter and realizes the resonant positive multiplication theorem.
+That reconstruction is written mathematics, not a complete Lean ARC
+certificate or a new field-extension priority claim. Source data and
+methods are attributed in `ATTRIBUTION.md`.
 
 All fields below have characteristic two. Modules are finite dimensional and
 are left modules. For a symmetric finite-dimensional algebra `A`, write
@@ -371,9 +376,11 @@ the one-variable field; mere specialization of arbitrary rational
 matrices from the original three-variable field does not justify it,
 because their denominators could vanish. One must reconstruct the
 choices over the smaller field, or furnish uniform formulas for those
-choices and check all their denominators. The source's construction
-suggests reconstruction is possible, but this note does not mark that
-remaining task as completed.
+choices and check all their denominators. The separate
+[finite realization note](finite-resonant-realization.md) supplies this
+written reconstruction using universal identities and actual finite
+choices, and proves the two multiplicative actions. The finite checker
+and current Lean sources still do not verify that whole construction.
 
 ## Reproducibility and references
 

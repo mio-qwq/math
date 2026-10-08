@@ -8,7 +8,7 @@ This repository records explicit mathematical statements, complete proofs where 
 | --- | --- | --- |
 | [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of support and actual complex block obstructions; the full rigidity theorem is not yet formalized |
 | [002 — Product-weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted cover/pruning theorems with sharp constant; no finite uniform coefficient works for sums of two positive product systems | Independent rational checker, 67,132 exact instances, and Lean proofs of real-cost single-conflict criteria and the unbounded obstruction |
-| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities and an abstract spectrum theorem under explicit hypotheses; the one-variable ARC application remains conditional | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open |
+| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction realizing the positive resonant Yoneda algebra; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
 
 ## Reproduction
 
@@ -33,9 +33,15 @@ now goes beyond the dimension spectrum: the positive Yoneda algebra,
 with only its scalar degree-zero identity adjoined, is a Veronese
 algebra plus its shifted positive ideal with square-zero multiplication.
 The proof retains explicit polynomial and bimodule action hypotheses.
-It is written mathematics with independent proof reviews; the concrete
-ARC realization, complete degree-zero ring and full Tate algebra are
-separate.
+It is written mathematics with independent proof reviews. A separate
+[finite construction proof](003-arc-one-parameter/finite-resonant-realization.md)
+now establishes those multiplicative hypotheses over characteristic-two
+fields with an infinite-order base parameter, using a fixed finite
+target, actual side-projective kernel and both natural branch actions.
+For example, F_4(t) supplies ratio order three and first self-extensions
+in degrees nine and ten. This reconstruction is written mathematics;
+the full construction in Lean, complete degree-zero ring and full Tate
+algebra remain separate.
 
 For 003, the constructed all-degree suffix lift now gives a closed actual
 degree-six cup Hom. An explicit six-letter witness proves that its
@@ -43,7 +49,7 @@ specified Ext^6 class is nonzero when q^4 is nonzero, including every
 nonzero q over a characteristic-two field. The constructed whole shifted
 comparison now identifies it with the actual Yoneda square of the fixed
 third Ext class and its defined second power. Powers at least three,
-the complete self-Ext profile and ARC realization are still open.
+the complete self-Ext profile and ARC realization are still open in Lean.
 
 For 002, a [compatible pair-cost theorem](002-weighted-rectangular-pruning/compatible-pair-costs.md)
 now gives a finite-threshold cover and pruning construction beyond
