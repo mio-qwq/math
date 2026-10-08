@@ -7,12 +7,17 @@ This repository records explicit mathematical statements, complete proofs where 
 | Note | Mathematical scope | Verification scope |
 | --- | --- | --- |
 | [001 — Power Hadamard rigidity and classification](001-odd-half-order-hadamard/README.md) | Odd-half-order rigidity, exhaustive all-half-order phase classification, and finite graph models before and after standard matrix equivalence | Complete written proofs, exact examples and Lean support/block obstructions; the full matrix classification and quotient topology are not yet formalized |
-| [002 — Weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted bounds and independent local-cost bounds when one relation has complete-block or expanded-four-path components, with the other relation arbitrary and sharp constant; no finite uniform coefficient works for sums of two positive product systems | Complete written proofs for the pair-cost extensions; independent rational checkers and Lean proofs of single-conflict criteria and the unbounded obstruction. The structural pair-cost theorem is not yet Lean-formalized |
+| [002 — Weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted bounds for arbitrary relations, and sharp independent local-cost bounds when either relation is chordal bipartite, with the other arbitrary; no finite uniform coefficient works for sums of two positive product systems | Complete written proofs for the pair-cost extensions; independent rational checkers and Lean proofs of single-conflict criteria and the unbounded obstruction. The structural pair-cost theorem is not yet Lean-formalized |
 | [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction with its full Tate algebra for every twist-ratio order, including the equal-twist seam; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
 
 ## Reproduction
 
 See [FORMALIZATION.md](FORMALIZATION.md) for the exact Lean statements, commands, and remaining boundaries.
+
+The [research questions and results register](RESEARCH_QUESTIONS.md)
+distinguishes prior theorems, source-stated conjectures, proposed
+extensions, proved or refuted statements, and remaining formalization
+gaps. Literature status and proof status are recorded separately.
 
 Each note has its own README and fixed inputs. Python checkers use exact arithmetic and the standard library. Lean is pinned by `lean-toolchain` to `leanprover/lean4:v4.34.1`. Most certificates use its bundled `Std` library; each additional `proof/mathlib` package pins Mathlib and its dependencies.
 
@@ -124,6 +129,17 @@ partial pivot problem; a rooted construction builds every tree.
 Zero costs, partial originals, actual uncovered gains and the
 sharp coefficient one are included. The complete Lean proof,
 general cyclic relations and historical novelty remain open here.
+
+The subsequent [chordal-bipartite theorem](002-weighted-rectangular-pruning/chordal-bipartite-costs.md)
+extends the same sharp bounds to either relation having no induced
+cycle of length at least six. The other relation is arbitrary;
+four-cycles, partial families and zero costs are included.
+A multiple-pivot preservation lemma uses nested old neighborhoods
+only on the attached pivots. The classical beta-leaf elimination
+theorem is cited from a primary proof, with an explicit incidence
+translation. This is a written construction with independent
+source readings, separate from the full Lean and unrestricted
+relation problems.
 
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution

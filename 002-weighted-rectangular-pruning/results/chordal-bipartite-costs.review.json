@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "verification_method": "complete written proof and independent agent readings",
+  "source_sha256": {
+    "chordal-bipartite-costs.md": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea"
+  },
+  "mathematical_scope": "Sharp augmented cover and actual pruning bounds for arbitrary independent nonnegative local costs xy<=hz whenever either coordinate relation is chordal bipartite, with the other arbitrary; all partial original families, initial retention and complete expansions included.",
+  "nested_old_pivot_preservation_proved": true,
+  "other_relation_arbitrary": true,
+  "zero_costs_included_directly": true,
+  "actual_partial_residual_corner_sets_used": true,
+  "actual_uncovered_corner_comparison_proved": true,
+  "coefficient_one_proved_sharp": true,
+  "deterministic_finite_rational_construction_proved": true,
+  "classical_structural_dependency": {
+    "author": "Johann Brault-Baron",
+    "title": "Hypergraph Acyclicity Revisited",
+    "version": "arXiv:1403.7076v1",
+    "url": "https://arxiv.org/pdf/1403.7076v1",
+    "pdf_sha256": "c12c3a272dd6d010fb5d5be5955381275222eee25384e944603449bba60f37e4",
+    "exact_pointers": [
+      "Characterization 2, p. 8",
+      "Definition 4, p. 10",
+      "Theorem 7, pp. 14-15",
+      "Characterization 9, pp. 16-17"
+    ],
+    "graph_to_hypergraph_induced_cycle_translation_proved_in_source": true,
+    "duplicate_empty_and_isolated_neighborhoods_handled": true,
+    "classical_elimination_claimed_as_new": false,
+    "all_32_pages_claimed_read": false
+  },
+  "general_theorem_lean_formalized": false,
+  "lean_compile_claimed": false,
+  "new_machine_certificate_claimed": false,
+  "new_cost_search_used_as_general_proof": false,
+  "general_optimal_cover_claimed": false,
+  "unrestricted_coordinate_relations_proved": false,
+  "historical_novelty_established": false,
+  "independent_reviews": [
+    {
+      "reviewer": "independent agent 1",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+      "final_source_read_pre_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+      "final_source_read_post_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+      "mathematical_source_lines_read": 513,
+      "mathematical_source_numbered_sections_read": 10,
+      "required_mathematical_repairs_on_final_source": 0,
+      "cited_primary_definitions_and_theorems_actually_read": true,
+      "primary_read_scope": "Definitions 1,2,4; Characterization 2; beta branch of Lemma 1; Theorem 7 and Characterization 9, including their displayed proofs. Not all upstream dependencies were independently reread.",
+      "review_focus": "Every nested-pivot local inequality, special last suffix budget, beta-zero division boundary, old-neighborhood prefix normalization, physical empty-auxiliary zero-profit case, actual shared and missing U comparison, budget counted once, initial isolation, induced partial restriction, primary incidence bridge, expansions, transpose and sharpness."
+    },
+    {
+      "reviewer": "independent agent 2",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+      "final_source_read_pre_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+      "final_source_read_post_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+      "mathematical_source_lines_read": 513,
+      "mathematical_source_numbered_sections_read": 10,
+      "required_mathematical_repairs_on_final_source": 0,
+      "cited_primary_definitions_and_theorems_actually_read": true,
+      "primary_read_scope": "Actual complete relevant definitions and beta-leaf proof chain in fixed v1 pp. 4-21, including Theorems 6 and 7; core Theorem 7 additionally visually read. No whole-32-page receipt asserted.",
+      "review_focus": "All frozen public sections reconstructed independently, with exact high thresholds, clipped suffix costs and final auxiliary allowance, every old-neighbor condition at zero costs, genuinely partial residual witnesses, actual prefix lift, favorable missing profits, retained isolated originals, group aggregation and explicit E/F exchange. Primary structural proof and duplicate/isolated incidence translation checked."
+    }
+  ],
+  "review_limitations": "Two actual full-source agent readings of frozen bytes and primary theorem checks, not Lean compilation, axiom audit, executable-certificate replay, external blind peer review, proof of all cited-paper claims or worldwide originality clearance. Earlier privately authored proofs were retained separately and do not replace final public-source readings."
+}

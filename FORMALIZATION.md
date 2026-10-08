@@ -215,6 +215,19 @@ families. Its complete-source independent readings are recorded
 separately. No Lean compilation, axiom audit, executable certificate
 or general optimum result is claimed for this theorem.
 
+The subsequent [002 chordal-bipartite theorem](002-weighted-rectangular-pruning/chordal-bipartite-costs.md)
+is a complete written extension when either relation is chordal
+bipartite and the other arbitrary. Its nested-old-pivot lemma
+checks the actual partial residual, every suffix inequality,
+old-neighborhood prefix normalization, zero-profit physical
+coverage boundaries and non-repeated H budgets. A primary
+beta-leaf theorem supplies the classical elimination direction;
+the graph-to-hypergraph translation is proved explicitly.
+Complete-source mathematical readings are recorded separately.
+No general Lean proof, new compilation, axiom audit,
+executable certificate or optimal-cover claim is attributed
+to this mathematical note.
+
 The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
 has a complete analytical proof for the fixed labelled, dephased solution
 space. Circle intersections, actual smooth nonroot neighborhoods, root

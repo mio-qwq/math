@@ -92,6 +92,23 @@ a written theorem without a new Lean or executable-checker result.
 Unrestricted cyclic relations, equality cases and global novelty
 remain separate research questions.
 
+The [chordal-bipartite theorem](chordal-bipartite-costs.md) now treats
+cycles as well: either relation may have no induced cycle of length
+at least six, while the other remains arbitrary. A new right
+coordinate may attach to several old left coordinates whose old
+neighborhoods are nested; other old neighborhoods need no ordering.
+Suffix virtual costs and budgets preserve every local inequality,
+and a prefix normalization gives an actual survivor lift even
+at zero costs. A primary beta-acyclic hypergraph elimination proof
+supplies the classical ordering, through an explicit incidence
+translation that handles duplicate and isolated neighborhoods.
+Four-cycles, partial inputs, complete expansions and the sharp
+constant one are included. This is a complete written construction,
+with no new Lean compilation or executable-checker claim.
+The [question register](../RESEARCH_QUESTIONS.md) records the
+unrestricted-relation and first induced-cycle problems separately
+from the literature comparison.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce
