@@ -160,8 +160,11 @@ now derive the actual a/e and b/c equal-power premise from the same Gram
 equation, without flatness, block inverses or a second Gram assumption.
 Six further [correlation/multiset audits](004-mub-triplets/ratio-multiset-retrieval.md)
 now derive actual opposite cyclic correlations and actual flat-Gram ratio
-multisets, with all root multiplicities preserved. The six actual cyclic-shift/
-adjoint reconstructions and the real-rank proof remain the next formal steps.
+multisets, with all root multiplicities preserved. Three further
+[actual reconstruction audits](004-mub-triplets/phase-retrieval-alternatives.md)
+now derive both opposite-block cyclic-shift/adjoint alternatives, including
+repeated ratios. Combining those branches and the real-rank proof remain
+the next formal steps toward full product cancellation.
 These are classical supporting ingredients,
 not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general

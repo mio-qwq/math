@@ -13,14 +13,16 @@ This closes the previous explicit mode-bound premise in
 the block invertibility used in Section 2 of
 [the complete written branch proof](direct-circulant-character.md).
 It is a connected formal proof of classical Fourier/Gram ingredients;
-historical originality is not established. Phase retrieval, its repeated-root
-classification, real-rank cases and full block-product cancellation remain
-unformalized. The general complete-companion symmetry/coupling question is open.
+historical originality is not established. The subsequent
+[actual phase-retrieval proof](phase-retrieval-alternatives.md) completes
+cyclic-shift/adjoint reconstruction with repeated ratios. Branch combination,
+real-rank cases and full block-product cancellation remain unformalized.
+The general complete-companion symmetry/coupling question is open.
 
 The subsequent [opposite-power source](mode-power-matching.md) also derives
 matching powers of a/e and b/c from the single column Gram equation.
-That separate three-audit module supplies a premise for future phase retrieval;
-the classification itself remains unformalized.
+That separate three-audit module feeds the subsequent correlation,
+ratio-multiset and actual phase-retrieval proofs.
 
 The [Gram source](proof/CubeRootGramModes.lean) defines the actual raw amplitude
 

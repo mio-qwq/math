@@ -15,8 +15,9 @@ The actual ratio multiset has three occurrences ratio(v,0), ratio(v,1),
 ratio(v,2). It is a Multiset, so equal values retain their multiplicities.
 This closes the correlation and multiset part of
 [the written phase-retrieval proof, Section 3](direct-circulant-character.md#3-the-six-phase-retrieval-alternatives-with-multiplicity).
-Reconstructing the actual six cyclic-shift/adjoint alternatives, the real-rank
-argument and the final product cancellation remain unformalized.
+The subsequent [actual reconstruction](phase-retrieval-alternatives.md)
+now formalizes both cyclic-shift/adjoint alternatives. Combining the branches,
+the real-rank argument and the final product cancellation remain unformalized.
 No general MUB solution or historical mathematical originality is established.
 
 The [autocorrelation source](proof/CirculantAutocorrelation.lean) first proves,
@@ -70,7 +71,8 @@ lake env lean --root=$taskMubSources -o "$taskMubBuild/CirculantAutocorrelation.
 lake env lean "$taskMubSources/CirculantRatioPolynomial.lean"
 ```
 
-The next step is an occurrence-preserving three-term matching argument and
-actual unit-phase reconstruction, with the adjoint ratio index l-i-1.
+The subsequent [phase-retrieval source](proof/CirculantPhaseRetrieval.lean)
+now proves occurrence-preserving three-term matching and actual unit-phase
+reconstruction, with the adjoint ratio index l-i-1.
 Repeated ratios may make some of the six possible alternatives coincide;
 the current theorem does not assert six distinct solutions.

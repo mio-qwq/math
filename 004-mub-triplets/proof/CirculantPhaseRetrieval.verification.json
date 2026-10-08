@@ -1,0 +1,123 @@
+{
+  "source_sha256": "a3f0cad83009ba47bcd74131e5dd473b5cb46100d85e154d9ae27887a526455b",
+  "source_after_sha256": "a3f0cad83009ba47bcd74131e5dd473b5cb46100d85e154d9ae27887a526455b",
+  "start_utc": "2026-10-08T14:25:11.0112332+00:00",
+  "end_utc": "2026-10-08T14:25:29.4618665+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 3,
+  "expected_audits": 3,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CirculantPhaseRetrieval.phase_retrieval_of_ratio_multiset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantPhaseRetrieval.circulant_phase_retrieval_of_ratio_multiset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantPhaseRetrieval.opposite_circulant_alternatives_of_actual_flat_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "CirculantPhaseRetrieval.lean",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "audit": "CirculantPhaseRetrieval.audit.txt",
+  "audit_sha256": "12b90bc7cb7e20328ac7b144a15275f96e812adf265a6b2f08ca808ec0800ecf",
+  "scope": "Actual length-three unit phase reconstruction from occurrence multisets, actual cyclic-shift/adjoint matrix alternatives, and both opposite pairs derived from actual flat six-by-six column Gram; repeated ratios allowed",
+  "actual_six_shift_adjoint_reconstruction_formalized": true,
+  "actual_flat_gram_to_both_opposite_circulant_alternatives_formalized": true,
+  "repeated_ratio_occurrences_preserved": true,
+  "simple_root_assumption": false,
+  "opposite_ratio_multiset_assumed_as_input_to_gram_endpoint": false,
+  "hadamard_gram_to_product_cancellation_formalized": false,
+  "real_rank_argument_formalized": false,
+  "general_mub_conjecture_resolved": false,
+  "historical_mathematical_originality_established": false,
+  "independent_replay": {
+    "source_sha256": "a3f0cad83009ba47bcd74131e5dd473b5cb46100d85e154d9ae27887a526455b",
+    "source_after_sha256": "a3f0cad83009ba47bcd74131e5dd473b5cb46100d85e154d9ae27887a526455b",
+    "start_utc": "2026-10-08T14:29:11.7655343+00:00",
+    "end_utc": "2026-10-08T14:29:29.9346658+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 3,
+    "expected_audits": 3,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CirculantPhaseRetrieval.phase_retrieval_of_ratio_multiset",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantPhaseRetrieval.circulant_phase_retrieval_of_ratio_multiset",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantPhaseRetrieval.opposite_circulant_alternatives_of_actual_flat_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "12b90bc7cb7e20328ac7b144a15275f96e812adf265a6b2f08ca808ec0800ecf"
+  },
+  "independent_mathematical_source_review": "PASS: generic three-occurrence matching with repetitions, unit denominators, common phase, reflection offset, actual permutation matrix/adjoint formulas and the two actual flat-Gram endpoints independently checked",
+  "project_import_sources": [
+    {
+      "source": "CirculantRatioPolynomial.lean",
+      "source_sha256": "689c8d682562650bddc05a2b0be0bc5be2e40baba9dbbe9d5a6fa8e696d9035c"
+    },
+    {
+      "source": "CirculantAutocorrelation.lean",
+      "source_sha256": "578c6eb609ab9f54f1fc6c934e9994359cae9c452e4cb4aaad3b7c2bfd7a0cc7"
+    },
+    {
+      "source": "CubeRootGramMatching.lean",
+      "source_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72"
+    },
+    {
+      "source": "CubeRootGramModes.lean",
+      "source_sha256": "86f5c587cc0437823a07f243f8f5acd8e8d5bf043b62ac937f36ec930278dced"
+    },
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09"
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f"
+    }
+  ]
+}

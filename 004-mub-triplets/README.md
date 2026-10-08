@@ -108,8 +108,10 @@ now discharges its mode-bound premise: actual matrix Gram equations give
 all four bounds and actual flatness excludes all zero modes. Three more
 audited statements factor the actual block determinants and construct four
 actual inverse matrices with all eight multiplication equations. No extra
-mode bounds, nonzero modes or inverses are assumed. Phase retrieval and the
-full Gram-to-product-cancellation theorem remain written mathematics.
+mode bounds, nonzero modes or inverses are assumed. The subsequent
+[actual phase retrieval](phase-retrieval-alternatives.md) also formalizes
+the cyclic-shift/adjoint reconstruction, including repeated ratios. The full
+Gram-to-product-cancellation theorem remains written mathematics.
 
 The [opposite block power proof](mode-power-matching.md) derives matching
 Fourier powers of a/e and b/c from the same actual Gram equation, with
@@ -118,5 +120,8 @@ and a second Gram equation are unnecessary. The subsequent
 [correlation and ratio-multiset proof](ratio-multiset-retrieval.md) derives
 actual opposite correlations and actual flat-Gram ratio multisets, preserving
 all repeated values, with six further independently replayed Lean audits.
-Reconstruction of the six actual cyclic-shift/adjoint alternatives and the
-full Gram-to-product-cancellation proof remain the next formal steps.
+The [actual reconstruction proof](phase-retrieval-alternatives.md) now
+completes both opposite-block cyclic-shift/adjoint alternatives from the same
+actual flat Gram hypotheses, with three further independent Lean audits.
+Branch combination, the real-rank cases and full Gram-to-product cancellation
+remain the next formal steps.

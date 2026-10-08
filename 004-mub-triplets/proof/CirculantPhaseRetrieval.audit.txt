@@ -1,0 +1,9 @@
+'MUBTriplets.CirculantPhaseRetrieval.phase_retrieval_of_ratio_multiset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantPhaseRetrieval.circulant_phase_retrieval_of_ratio_multiset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantPhaseRetrieval.opposite_circulant_alternatives_of_actual_flat_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

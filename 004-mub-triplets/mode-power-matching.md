@@ -51,6 +51,8 @@ lake env lean ../../../004-mub-triplets/proof/CubeRootGramMatching.lean
 
 The subsequent [correlation/multiset proof](ratio-multiset-retrieval.md)
 now recovers actual correlations and actual unit ratio multisets with their
-full multiplicities. Reconstructing the six actual cyclic-shift/adjoint
-alternatives remains the next formal gap. No distinct-ratio assumption
-is justified or used here.
+full multiplicities. The subsequent
+[actual reconstruction](phase-retrieval-alternatives.md) now gives both
+opposite-block cyclic-shift/adjoint alternatives. Combining those branches
+and the real-rank proof remain gaps before full product cancellation.
+No distinct-ratio assumption is used.
