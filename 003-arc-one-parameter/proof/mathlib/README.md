@@ -126,9 +126,14 @@ Together with the [actual inverse-restriction module equivalence](TwentyDimDualS
 it gives an [all-degree comparison of the specified resolution](FiniteFreeBarDualScaleComparison.README.md)
 with its actual functor image, as a genuine chain map and quasi-isomorphism.
 The [canonical transported Ext map](TwentyDimDualScaleExtTransport.README.md)
-is an R-linear self-equivalence in every degree. Its particular value on
-the fixed Ext cubed class remains uncomputed until the generic
-exact-functor/extMk naturality bridge is proved.
+is an R-linear self-equivalence in every degree. The
+[actual class represented by the mapped specified cocycle](FiniteFreeBarDualScaleCocycle.README.md)
+has inverse-unit weight after its two endpoints are transported, and is
+nonzero when q cubed is nonzero. The full module morphism equality retains
+arbitrary left coefficients. The
+[generic scalar and zero-extension interfaces](ExtMkExactFunctor.README.md)
+are also proved. Identifying this represented class with the canonical
+functor image still requires the exact-functor/extMk naturality bridge.
 
 ## Replay
 

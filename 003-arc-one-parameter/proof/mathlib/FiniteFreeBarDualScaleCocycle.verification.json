@@ -1,0 +1,32 @@
+{
+  "source": "FiniteFreeBarDualScaleCocycle.lean",
+  "source_sha256": "547bed997d2d93350e80b50b575b40ee377930464bc42557fbc55144e14c2dce",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "dual_scale_resume",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "printed_audit_count": 6,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Whole actual degree-three module cocycle equality under the full inverse-twist comparison; the genuine class represented on the mapped specified resolution has inverse-unit weight after actual source and target endpoints are transported, and is nonzero when q cubed is nonzero",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "scalar_identity_requires_nonzero_parameter": false,
+  "nonzero_class_hypothesis": "q ^ 3 != 0",
+  "specified_resolution_retained": true,
+  "full_algebra_coefficients_retained": true,
+  "whole_actual_module_morphism_equality_proved": true,
+  "actual_mapped_resolution_ext_class_constructed": true,
+  "actual_represented_ext_class_endpoint_weight_proved": true,
+  "represented_class_identified_with_canonical_functor_map": false,
+  "canonical_fixed_class_eigenvalue_proved": false,
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

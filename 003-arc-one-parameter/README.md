@@ -77,9 +77,15 @@ into the inverse-restricted specified resolution, including its
 augmentation and quasi-isomorphism. The
 [actual inverse-restriction module equivalence](proof/mathlib/TwentyDimDualScaleModule.README.md)
 also defines [canonical R-linear self-Ext transport in every degree](proof/mathlib/TwentyDimDualScaleExtTransport.README.md).
-Computing this canonical transport on the fixed Ext cubed class still
-requires a generic exact-functor/extMk naturality theorem. The cochain
-eigenvalue alone does not close that remaining bridge.
+The [whole mapped module cocycle and its actual represented Ext cubed
+class](proof/mathlib/FiniteFreeBarDualScaleCocycle.README.md) now have
+inverse-unit weight after the two character endpoints are transported.
+The represented class is nonzero whenever q cubed is nonzero.
+[Scalar compatibility and the natural comparison for zero-extended
+complexes](proof/mathlib/ExtMkExactFunctor.README.md) supply general interfaces.
+Identifying the represented class with canonical functor transport still
+requires a generic exact-functor/extMk naturality theorem; that remaining
+equality is not asserted by these results.
 
 Python 3.9 or later, standard library only:
 
