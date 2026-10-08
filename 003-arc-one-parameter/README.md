@@ -22,8 +22,16 @@ M and the epsilon ideal square to zero, and the exceptional degree-minus-one
 omega annihilates every non-scalar homogeneous summand. Tate degree zero
 is the stable scalar ring k. The proof checks both negative branch
 actions and excludes hidden products at the exceptional seam; it
-remains written mathematics, with the d=1 secondary products and
-the complete Lean realization open.
+remains written mathematics, with the complete Lean realization open.
+The [order-one seam proof](order-one-tate-algebra.md) subsequently
+constructs consistent bottom negative lifts by actual associativity,
+and proves the previously ambiguous secondary products vanish.
+It gives the same model with M=directsum_(m>=0) D S_m in degrees
+-3m-1. The stable degree-zero ring then has an additional square-zero
+class and is the dual numbers. Together these notes cover all finite
+ratio orders; for infinite order the full Tate algebra is k plus
+the square-zero omega line. The entire ordinary endomorphism ring
+remains a separate question.
 
 The [scalar endomorphism construction](proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)
 now includes every scalar, with zero giving an actual lower-subalgebra
@@ -236,6 +244,9 @@ verification of the concrete ARC realization or the whole Tate algebra.
 - [finite-resonant-tate-algebra.md](finite-resonant-tate-algebra.md): the
   full integer-graded Tate algebra of that same finite module for d>1,
   including both mixed actions, the omega seam and local cohomology model.
+- [order-one-tate-algebra.md](order-one-tate-algebra.md): the actual
+  equal-twist seam, its degree-zero dual numbers, the uniform finite-order
+  formula and infinite-ratio Tate corollary.
 - [checker/verify.py](checker/verify.py): new standalone exact checker.
 - [data/arc-core.json](data/arc-core.json): finite data transcribed from
   OpenAI's algebra and cochain tables, with source hashes.

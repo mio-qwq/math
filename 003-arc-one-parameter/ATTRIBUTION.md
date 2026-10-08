@@ -46,9 +46,13 @@ The note computes the full resonant triangular algebra for d>1,
 including its exceptional off-diagonal degree-minus-one class,
 both normalized mixed actions and stable degree zero. Classical
 negative Tate square-zero extension and Veronese/local cohomology
-methods are separately cited there. The ordinary endomorphism ring,
-d=1 secondary products, full Lean construction and global novelty
-remain separate questions.
+methods are separately cited there. The [order-one calculation](order-one-tate-algebra.md)
+then adds explicit height-two negative lifts, their two-sided
+consistency and the exceptional zero products via actual
+associativity and the DG ideal. It closes the finite-order family
+and records the infinite-order corollary. The ordinary endomorphism
+ring, full Lean construction and global novelty remain separate
+questions.
 
 ## Lower-algebra formalization and prior mathematical results
 

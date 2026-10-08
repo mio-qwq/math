@@ -391,7 +391,14 @@ is (R plus M) plus epsilon(R_+ plus M) plus k omega, with omega
 of degree minus one, square-zero negative and cross ideals, and
 the explicitly proved two-sided mixed actions. Degree zero here
 means stable endomorphisms k, not the whole ordinary ring.
-The order-one seam and full Lean formalization remain open.
+The subsequent [order-one seam proof](order-one-tate-algebra.md)
+closes the equal-twist case by constructing the bottom negative
+class from unique lower lifts and checking both actions with
+associativity. It computes the stable degree-zero dual numbers
+and completes the uniform finite-order formula; infinite ratio
+has just k and the degree-minus-one square-zero omega line.
+The entire ordinary endomorphism ring and full Lean formalization
+remain open.
 
 ## Reproducibility and references
 

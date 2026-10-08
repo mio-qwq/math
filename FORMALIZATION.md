@@ -188,5 +188,10 @@ k, and the exceptional degree-minus-one off-diagonal class.
 Its independent agent readings are recorded separately from Lean
 compilation. No Lean source constructs this complete Tate algebra;
 the actual cone and comparison remain unformalized. The entire
-ordinary endomorphism ring and the d=1 secondary products are
-outside the written theorem as well.
+ordinary endomorphism ring is outside the written theorem as well.
+The later [order-one seam proof](003-arc-one-parameter/order-one-tate-algebra.md)
+closes the equal-twist secondary products in written mathematics
+using actual height-two lifts and associativity. It gives stable
+degree-zero dual numbers, a uniform finite-order Tate family, and
+the infinite-order k plus omega corollary. No new Lean compilation
+or axiom audit is asserted for these written results.
