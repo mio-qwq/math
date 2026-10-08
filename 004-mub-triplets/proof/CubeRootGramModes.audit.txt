@@ -1,0 +1,13 @@
+'MUBTriplets.CubeRootGramModes.mode_norm_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.CubeRootGramModes.left_mode_energy_of_actual_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CubeRootGramModes.right_mode_energy_of_actual_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CubeRootGramModes.four_mode_bounds_of_actual_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CubeRootGramModes.four_nonzero_modes_of_actual_flat_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

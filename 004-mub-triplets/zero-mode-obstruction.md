@@ -38,10 +38,11 @@ the exact source, author compilation and separate reviewer replay.
 The standard phase geometry is a supporting ingredient, with no historical
 originality claim. It is not a solution of the general MUB conjecture.
 
-The next missing bridge is from the actual six-by-six block matrix Gram
-equations to these three-point mode bounds. That bridge, block invertibility,
-phase retrieval and the final Gram-to-product-cancellation theorem are not
-formalized by this file. The complete branch theorem remains a written proof.
+The subsequent [actual Gram and block-inverse proof](gram-block-invertibility.md)
+now derives these bounds from the six-by-six matrix equations and constructs
+all four block inverses. This unit-triple file itself remains the conditional
+scalar interface. Phase retrieval and the final Gram-to-product-cancellation
+theorem remain written mathematics.
 
 From the existing fixed `002-weighted-rectangular-pruning/proof/mathlib` package:
 

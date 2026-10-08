@@ -102,9 +102,11 @@ have a separate six-audit Lean interface; the full Gram-to-cancellation
 argument remains written mathematics. General companion circulantization
 and the general coupling conjecture remain open.
 
-The [zero-mode obstruction](zero-mode-obstruction.md) now has six additional
-Lean audits: unit triples summing to zero have the required cyclic
-phase form, and actual cube-root Fourier bounds exclude every zero mode.
-These bounds are explicit premises; deriving them from the actual Hadamard
-Gram matrix is the next formal bridge. No block invertibility or full
-Gram-to-cancellation theorem is certified by this new source.
+The [scalar zero-mode obstruction](zero-mode-obstruction.md) has six Lean
+audits. The subsequent [actual Gram and inverse proof](gram-block-invertibility.md)
+now discharges its mode-bound premise: actual matrix Gram equations give
+all four bounds and actual flatness excludes all zero modes. Three more
+audited statements factor the actual block determinants and construct four
+actual inverse matrices with all eight multiplication equations. No extra
+mode bounds, nonzero modes or inverses are assumed. Phase retrieval and the
+full Gram-to-product-cancellation theorem remain written mathematics.

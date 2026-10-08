@@ -149,11 +149,15 @@ characters follow. All phase-retrieval cases, repeated ratios and zero
 Fourier modes are covered by the written proof. Six Lean audits support
 the actual matrix and adjoint character formulas and cubic consequences
 given cancellation; the Gram-to-cancellation proof is not yet formalized.
-Six further [zero-mode audits](004-mub-triplets/zero-mode-obstruction.md)
-derive the unit-triple cyclic phase form and rule out every zero cube-root
-Fourier amplitude from supplied bounds. The next formal bridge is to derive
-those bounds from actual matrix Gram equations. This is a standard supporting
-ingredient, not a new independently solved public conjecture.
+The [scalar zero-mode interface](004-mub-triplets/zero-mode-obstruction.md)
+now connects to [actual Gram bounds and block inverses](004-mub-triplets/gram-block-invertibility.md).
+Actual six-by-six Gram multiplication derives all four mode bounds; actual
+flatness excludes every zero mode, and actual determinant factorization
+constructs four block inverses with eight equations. Five plus three new
+audits close this supporting gap without assuming a mode bound or inverse.
+Phase retrieval, its repeated-root classification and the real-rank proof
+remain the next formal steps. These are classical supporting ingredients,
+not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general
 MUB conjecture. Historical originality is not established.
 

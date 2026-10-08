@@ -27,10 +27,11 @@ actual six-column character formulas, the first-character cancellation
 criterion and both cubic implications **given** the phase-product
 cancellation. It does not yet prove the Hadamard Gram equations imply
 that cancellation; the full argument of Sections 2–7 is not yet formalized.
-A subsequent [zero-mode Lean proof](zero-mode-obstruction.md) proves the
-unit-triple classification and excludes zero Fourier amplitudes given
-the mode bounds. Deriving those bounds from actual Gram equations remains
-a separate missing bridge.
+The subsequent [zero-mode interface](zero-mode-obstruction.md) and
+[actual Gram/inverse bridge](gram-block-invertibility.md) now formalize
+the Section 2 obstruction: actual Gram equations give all mode bounds,
+flatness excludes zero modes, and four actual block inverses are constructed.
+The phase-retrieval and real-rank arguments remain written mathematics.
 
 Four-circulant companion construction and its general context are classical
 Zauner theory; see [Szollosi, arXiv:0811.3930v2, Section 4](https://arxiv.org/pdf/0811.3930v2)
@@ -292,8 +293,12 @@ The actual compiler record and standard-axiom audit are provided with the
 source. This interface is distinct from a full Lean proof of the Fourier
 phase-retrieval and real-rank argument above. The separate
 [unit-triple source](proof/UnitTripleZeroSum.lean) now proves the algebraic
-zero-mode obstruction from supplied mode bounds, with its own six audits;
-it does not yet obtain those bounds from actual matrix Gram multiplication.
+zero-mode obstruction from supplied mode bounds, with its own six audits.
+The [connected Gram and inverse modules](gram-block-invertibility.md)
+discharge those bounds from actual matrix multiplication and construct all
+four block inverses, with five plus three further audits. The full
+Gram-to-product-cancellation theorem still awaits phase retrieval and the
+real-rank arguments.
 
 From the existing pinned `002-weighted-rectangular-pruning/proof/mathlib`
 package, after obtaining the cache for its imports:

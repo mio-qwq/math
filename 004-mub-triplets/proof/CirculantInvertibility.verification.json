@@ -1,0 +1,109 @@
+{
+  "source_sha256": "53eae71ceee508cb49ade7fe5bcf7c465b8c7310dcaec570cafb667717255185",
+  "source_after_sha256": "53eae71ceee508cb49ade7fe5bcf7c465b8c7310dcaec570cafb667717255185",
+  "start_utc": "2026-10-08T13:08:21.7317367+00:00",
+  "end_utc": "2026-10-08T13:08:39.8956187+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 3,
+  "expected_audits": 3,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CirculantInvertibility.circulant_det_factorization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantInvertibility.four_block_determinants_nonzero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantInvertibility.four_block_inverses_of_actual_flat_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "CirculantInvertibility.lean",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "audit": "CirculantInvertibility.audit.txt",
+  "audit_sha256": "2ca5b6a62242e93f524ad5ca5e3edfd5fe163c2a4a77eca6b51fb6097d4a0c1d",
+  "scope": "Actual three-by-three circulant determinant factorization; flat actual four-circulant Gram implies four nonzero determinants and four two-sided matrix inverses",
+  "hadamard_gram_to_mode_bounds_formalized": true,
+  "all_four_nonzero_modes_formalized": true,
+  "mode_bounds_assumed_as_inputs": false,
+  "hadamard_gram_to_product_cancellation_formalized": false,
+  "general_mub_conjecture_resolved": false,
+  "historical_mathematical_originality_established": false,
+  "actual_four_two_sided_block_inverses_formalized": true,
+  "independent_replay": {
+    "source_sha256": "53eae71ceee508cb49ade7fe5bcf7c465b8c7310dcaec570cafb667717255185",
+    "source_after_sha256": "53eae71ceee508cb49ade7fe5bcf7c465b8c7310dcaec570cafb667717255185",
+    "start_utc": "2026-10-08T13:18:50.9012252+00:00",
+    "end_utc": "2026-10-08T13:19:08.6742974+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 3,
+    "expected_audits": 3,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CirculantInvertibility.circulant_det_factorization",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantInvertibility.four_block_determinants_nonzero",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantInvertibility.four_block_inverses_of_actual_flat_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "2ca5b6a62242e93f524ad5ca5e3edfd5fe163c2a4a77eca6b51fb6097d4a0c1d"
+  },
+  "independent_mathematical_source_review": "PASS: actual matrix hypotheses, Gram entry directions, derived bounds/nonzero modes and determinant/inverse closure checked",
+  "project_import_sources": [
+    {
+      "source": "CubeRootGramModes.lean",
+      "source_sha256": "86f5c587cc0437823a07f243f8f5acd8e8d5bf043b62ac937f36ec930278dced"
+    },
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09"
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f"
+    }
+  ]
+}

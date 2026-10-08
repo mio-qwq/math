@@ -1,0 +1,9 @@
+'MUBTriplets.CirculantInvertibility.circulant_det_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantInvertibility.four_block_determinants_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantInvertibility.four_block_inverses_of_actual_flat_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
