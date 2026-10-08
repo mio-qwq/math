@@ -92,6 +92,16 @@ through exact whole-group aggregation and partial-family restriction.
 This written theorem remains separate from the general arbitrary
 relation problem and its Lean formalization.
 
+The subsequent [nested-component theorem](002-weighted-rectangular-pruning/nested-relation-costs.md)
+extends the independent local-cost construction to any finite number
+of nested neighborhood layers in every component of one relation,
+with the other arbitrary. Its suffix induction preserves residual
+local inequalities and lifts pooled zero-cost decisions to actual
+conflict-free survivors. Complete expansions, components and partial
+families are included. This sharp written theorem has a finite rational
+construction; unrestricted relations, its full Lean implementation
+and the original-literature comparison remain separate questions.
+
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution
 from a compatible rectangle of a cyclic root seed and one unit phase.

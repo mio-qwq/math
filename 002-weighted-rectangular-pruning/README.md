@@ -50,6 +50,18 @@ paths, and disjoint components and zero padding cover arbitrary partial
 families. This is a written structural theorem with a finite rational
 construction; it does not supply a general optimum or a Lean proof.
 
+The [nested-component theorem](nested-relation-costs.md) removes the
+two-layer restriction. Every nonisolated component of either relation
+may have arbitrarily many totally nested neighborhood levels, while
+the other relation remains arbitrary. A suffix induction pools the
+last-corner profit into higher original costs and the last-C charge
+into residual H budgets, preserving every local inequality. Its
+actual survivor lift includes zero pooled costs and partial families.
+The sharp constant-one result has a complete written proof and a
+finite rational construction. The case of two relations with
+incomparable neighborhoods, the full Lean proof and historical
+novelty remain open.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce

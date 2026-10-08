@@ -178,6 +178,18 @@ costs directly; it does not assert optimality in this larger domain.
 No new Lean compilation, axiom audit or executable certificate
 replay is claimed for this general structural theorem.
 
+The subsequent [002 nested-component induction](002-weighted-rectangular-pruning/nested-relation-costs.md)
+is another written theorem. It handles arbitrarily many nested
+neighborhood layers in components of either relation, an arbitrary
+other relation, independent nonnegative costs and partial families.
+Suffix pooling preserves each residual inequality; explicit actual
+survivor branches handle zero profits and zero pooled costs.
+This new general induction is not represented by a Lean source,
+compiler receipt, axiom audit or executable certificate checker.
+Its independent complete-source mathematical readings are recorded
+separately, and no general optimality or historical-priority claim
+is attached.
+
 The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
 has a complete analytical proof for the fixed labelled, dephased solution
 space. Circle intersections, actual smooth nonroot neighborhoods, root
