@@ -201,4 +201,23 @@ only at roots, smooth nonroot arcs and explicit root branch counts.
 
 Lemma C applies the classical cyclic-even complete-mapping obstruction. Two rows enumerating mu_{2m} whose quotient also enumerates it would yield permutations with a permutation difference map on an even cyclic group. The product of all group elements is the nontrivial involution, contradicting the product identity. See Hall and Paige, *Complete mappings of finite groups*, Pacific J. Math. 5 (1955), 541-549 ([original publisher PDF](https://msp.org/pjm/1955/5-4/pjm-v5-n4-p07-s.pdf)). The elementary abelian product argument is also stated in Eberhard, Manners and Mrazovic, *An asymptotic for the Hall-Paige conjecture* ([original preprint](https://arxiv.org/abs/2003.01798)). No deep converse is used here.
 
-The source attribution in Section 7 of [paper.md](paper.md) continues to apply. A full comparison with Craigen and Woodford's *Power Hadamard matrices* and existing complex Hadamard block deformation results remains pending. We assert the proved dichotomy and exhaustive construction under this precise power range, without a historical first-proof or priority claim.
+The source attribution in Section 7 of [paper.md](paper.md) continues to apply.
+Hadamard switching and affine phase deformations are established methods:
+see W. P. Orrick, [*Switching operations for Hadamard matrices*,
+arXiv math/0507515v4](https://arxiv.org/pdf/math/0507515v4),
+Proposition 3.2 and Section 3.3 (pp. 5–6), and F. Szollosi,
+[*Parametrizing Complex Hadamard Matrices*, arXiv math/0610297v3](https://arxiv.org/pdf/math/0610297v3),
+Lemma 3.4 and Theorem 3.5 (pp. 5–6). These describe preservation or
+parametrization of ordinary Hadamardness. The preservation mechanism
+and the order-four family above are not claimed as new.
+
+The exact statement requiring comparison is exhaustion under every
+prescribed power `1,...,m-1`. Szollosi's two-column construction uses
+columns that are everywhere equal or opposite. For m>2, a cyclic
+GH(m,2) seed has every mth-root column ratio twice, including ratios
+other than ±1, so that displayed hypothesis does not apply directly.
+This checks one specific construction, not every possible equivalent
+prior result. A full original-text comparison with Craigen and
+Woodford's *Power Hadamard matrices* remains pending. We assert the
+proved dichotomy and exhaustive construction under the precise power
+range, without a historical first-proof or priority claim.

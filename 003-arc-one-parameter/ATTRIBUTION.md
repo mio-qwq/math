@@ -54,14 +54,10 @@ whereas the resolution and its positive self-Ext vanishing do not.
 
 Qiyue Tang, [*A note on counterexamples to homological conjectures*,
 Hexagon 2610.00143v1](https://hexagonmath.org/pdf/2610.00143v1),
-7 October 2026, Proposition 3.2 (p. 5), also gives the lower resolution
-and both Hom cohomology calculations. Its signed algebra uses
-`1-q^m` in arbitrary characteristic; in characteristic two its displayed
-lower multiplication specializes to the one used here. Theorem 1.1
-and Corollary 1.2 state a much broader counterexample construction over
-fields containing an element of infinite multiplicative order, using a
-twisted dual construction. Our current characteristic-two Lean work
-does not verify that full theorem or claim priority for its base-field
-extension. The original PDF labels the manuscript a public discussion
-draft. Neither public availability nor the comparisons above substitute
-for an independent audit of its surrounding counterexample proof.
+7 October 2026, Proposition 3.2 (p. 5), also gives these lower calculations.
+Its signed lower algebra specializes to ours in characteristic two.
+Theorem 1.1 and Corollary 1.2 state a broader counterexample construction
+over fields containing an infinite-order element, using a twisted dual.
+Our Lean work does not verify that full theorem or claim priority for
+its field extension. The PDF labels the manuscript a public discussion
+draft; the comparison here is not a proof audit of its full theorem.

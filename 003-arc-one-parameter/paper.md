@@ -308,6 +308,12 @@ two are odd: an element of even order `2r` would satisfy
 
 ## 3. Conditional one-variable application to OpenAI family 199
 
+Related prior work: Qiyue Tang's [Hexagon 2610.00143v1](https://hexagonmath.org/pdf/2610.00143v1),
+Theorem 1.1 and Corollary 1.2, include the one-variable field extension
+discussed below. It is not presented here as a new base-field
+counterexample. Our application retains its explicit unverified
+realization hypotheses; see [ATTRIBUTION.md](ATTRIBUTION.md).
+
 The upstream manuscript chooses `k=F_2(q,H_1,H_2)` with three algebraically
 independent variables. Its finite cochain identities need no such
 independence, as Proposition 1 verifies. Its starting resolution uses

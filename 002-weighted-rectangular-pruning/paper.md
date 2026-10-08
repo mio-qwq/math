@@ -12,6 +12,20 @@ The unweighted rank argument is adapted from the pruning lemma in OpenAI, *A pro
 
 The rectangular unweighted formulation is already a corollary of that lemma by using four disjoint coordinate types. We do not claim it separately as an original discovery. Our extension is the product-weighted cover bound, its pruning consequence, and an exact certificate workflow. To make the note independently checkable, we prove the requisite unweighted statement here rather than assume the upstream lemma or its asserted second-neighborhood theorem. Priority and equivalence with other literature have not been established. The computational examples verify instances; the proof below establishes the general theorem.
 
+Weighted second-neighborhood statements and replication reductions are
+classical background, rather than new methods introduced here. In
+[Tyler Seacrest, *The Arc-Weighted Version of the Second Neighborhood
+Conjecture*, arXiv:1212.1883v1](https://arxiv.org/pdf/1212.1883),
+Section 2 treats vertex weights using linear-programming duality;
+Section 3, Proposition 2, gives an integer-copy reduction for arc weights.
+Its second-neighborhood weight sums, over target vertices, nonnegative
+maxima of arc-weight differences. Our four-table costs and the later constraint
+`x_pj*y_is ≤ h_ps*z_ij` use different definitions. No reduction proving
+that those earlier statements imply our pair-cost bounds is supplied
+here; this bounded comparison is not an exhaustive novelty audit.
+In particular the min-cut construction and the fact of passing from
+integer copies to real weights are not claimed as new techniques.
+
 ## 1. Definitions and statements
 
 Let \(P,I,S,J\) be finite sets, possibly empty. Fix relations
