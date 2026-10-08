@@ -51,8 +51,7 @@ The package pins Lean 4.34.1 and Mathlib commit
 `d13f23b723b8a846827a245b89c10fc7d3f11612`; imported local sources require
 their ignored `.olean` files in dependency order.
 
-The construction does not yet calculate the image of the fixed actual
-degree-three class. That calculation requires the exact-functor/extMk
-bridge and the specified full resolution comparison. The inverse-input
-cochain eigenvalue alone does not supply that Ext equality, whole-space
-weights, cohomology dimensions, or the complete ARC realization.
+The [canonical image of the fixed actual degree-three class](TwentyDimDualScaleExtEigenvalue.README.md)
+is calculated separately using the general exact-functor/extMk theorem
+and the full specified resolution comparison. Whole-space weights,
+cohomology dimensions and the complete ARC realization remain open.

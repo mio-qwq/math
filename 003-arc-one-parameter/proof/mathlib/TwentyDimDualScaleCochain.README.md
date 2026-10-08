@@ -25,5 +25,6 @@ audits are in the verification JSON. Dependency-ordered replay is:
 
 These are actual cochain identities and full boundary statements. The
 action of the inverse-restriction module-category functor on the actual
-Ext class still needs an explicit resolution/functor comparison. No
-whole-space Ext action, all-degree profile or complete ARC is asserted.
+Ext class is identified separately by the [full resolution/functor
+comparison and canonical calculation](TwentyDimDualScaleExtEigenvalue.README.md).
+No whole-space Ext scalar action, all-degree profile or complete ARC is asserted.

@@ -25,11 +25,10 @@ actual `ProjectiveResolution.Hom`. Since both augmentations are
 quasi-isomorphisms and the endpoint is an isomorphism, the complete
 comparison is a quasi-isomorphism by the two-out-of-three theorem.
 
-The generic identification of `Ext.mapExactFunctor` with the class
-represented by `extMk` on the mapped resolution is a separate proof
-obligation. This comparison alone does not compute the canonical action
-on the fixed Ext cubed class or prove any all-degree self-Ext profile or
-complete ARC statement.
+The [general exact-functor/extMk identification](ExtMkCanonicalFunctor.README.md)
+is proved separately. Together with this full comparison it supports the
+[canonical action on the fixed Ext cubed class](TwentyDimDualScaleExtEigenvalue.README.md).
+The all-degree self-Ext profile and complete ARC remain open.
 
 Actual compilation, axiom audits, independent replay and the exact source
 hash are recorded in the companion verification JSON. Dependency-ordered

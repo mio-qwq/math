@@ -67,8 +67,8 @@ The fixed scalar f-cochain has a
 [full five-term coordinate formula](proof/mathlib/TwentyDimFCharacterSparse.README.md)
 and its [inverse-input pullback has inverse-unit eigenvalue](proof/mathlib/TwentyDimDualScaleCochain.README.md).
 These whole-cochain identities preserve full closure and nonboundary.
-Identifying this eigenvalue with the canonical module-functor action on
-the actual Ext class still needs the generic naturality bridge below.
+The general naturality theorem below now identifies this eigenvalue with
+the canonical module-functor action on the fixed actual Ext class.
 
 The [full semilinear scaling](proof/mathlib/FiniteFreeBarDualScaleSemilinear.README.md)
 commutes with every specified recursive differential. Its inverse instance
@@ -83,12 +83,19 @@ inverse-unit weight after the two character endpoints are transported.
 The represented class is nonzero whenever q cubed is nonzero.
 [Scalar compatibility and the natural comparison for zero-extended
 complexes](proof/mathlib/ExtMkExactFunctor.README.md) supply general interfaces.
-Identifying the represented class with canonical functor transport still
-requires a generic exact-functor/extMk naturality theorem; that remaining
-equality is not asserted by these results. The
+The
 [specified-resolution and actual cocycle mapping interfaces](proof/mathlib/ExtMkMapExactFunctor.README.md)
 now retain the complete augmentation square and exact localized extMk
 roof, including every supported degree.
+
+The [general canonical exact-functor/extMk naturality theorem](proof/mathlib/ExtMkCanonicalFunctor.README.md)
+closes that identification for every degree, given resolution and closed
+cocycle. Therefore the [actual canonical action on the fixed Ext cubed
+class](proof/mathlib/TwentyDimDualScaleExtEigenvalue.README.md) has inverse-unit
+weight, as does every scalar multiple of that class. Its image is nonzero
+when q cubed is nonzero. This computes the fixed class and its scalar
+multiples; it does not prove a dimension, all-degree self-Ext profile,
+tensor-square realization or complete ARC.
 
 Python 3.9 or later, standard library only:
 

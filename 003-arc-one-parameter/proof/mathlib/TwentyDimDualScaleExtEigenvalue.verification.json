@@ -1,0 +1,30 @@
+{
+  "source": "TwentyDimDualScaleExtEigenvalue.lean",
+  "source_sha256": "f1d97a481c52b09d9a3eb196dd0259c91f4504a587491caf1305c2f60567a0be",
+  "printed_audit_count": 4,
+  "scope": "The actual represented mapped-resolution class is identified with its canonical exact-functor image; canonical dualScaleExtTransportMap on the fixed fExtThree and all its scalar multiples equals inverse-unit scaling, with nonzero image when q cubed is nonzero",
+  "coefficient_ring_requirement": "Commutative ring of characteristic two",
+  "scalar_identity_requires_nonzero_parameter": false,
+  "nonzero_class_hypothesis": "q ^ 3 != 0",
+  "specified_resolution_retained": true,
+  "represented_class_identified_with_canonical_functor_map": true,
+  "canonical_fixed_class_eigenvalue_proved": true,
+  "whole_ext_space_scalar_action_proved": false,
+  "all_degree_self_ext_profile_proved": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "canonical_replay_review",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

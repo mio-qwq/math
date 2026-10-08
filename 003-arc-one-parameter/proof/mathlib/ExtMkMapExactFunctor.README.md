@@ -19,10 +19,10 @@ P.extMk(f) by its exact localized roof: the inverse of P's actual
 augmentation, followed by the shifted morphism of the actual
 single-target cocycle. The input resolution and cocycle are retained.
 
-These are intermediate naturality interfaces. The final equality between
-canonical Ext.mapExactFunctor(P.extMk(f)) and Q.extMk(F.map(f)) is not yet
-proved here, and this file does not calculate a canonical Ext eigenvalue
-or a complete ARC realization.
+These intermediate interfaces support the [canonical
+Ext.mapExactFunctor/extMk equality](ExtMkCanonicalFunctor.README.md),
+proved in its own source. The [fixed canonical Ext cubed weight](TwentyDimDualScaleExtEigenvalue.README.md)
+is a separate application. No complete ARC realization is asserted.
 
 Actual compilation, independent source replay, printed axiom audits and
 the exact source hash are recorded in the companion verification JSON.

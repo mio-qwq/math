@@ -117,8 +117,8 @@ The fixed f-character cochain has an
 [explicit whole-input five-term formula](TwentyDimFCharacterSparse.README.md),
 and [inverse-input pullback scales it by H inverse](TwentyDimDualScaleCochain.README.md).
 Full closure and exclusion of every scalar bilinear boundary are retained.
-This cochain calculation does not yet identify the canonical functor
-action on the actual Ext class or prove the full Ext profile.
+The generic naturality theorem below identifies the canonical action on
+the fixed actual Ext class; the full Ext profile remains separate.
 
 [Full coefficient semilinear scaling](FiniteFreeBarDualScaleSemilinear.README.md)
 commutes with every actual recursive differential and the augmentation.
@@ -132,12 +132,18 @@ has inverse-unit weight after its two endpoints are transported, and is
 nonzero when q cubed is nonzero. The full module morphism equality retains
 arbitrary left coefficients. The
 [generic scalar and zero-extension interfaces](ExtMkExactFunctor.README.md)
-are also proved. Identifying this represented class with the canonical
-functor image still requires the exact-functor/extMk naturality bridge.
+are also proved.
 The [specified resolution, mapped cocycle and exact localized roof
 interfaces](ExtMkMapExactFunctor.README.md) establish the complete
 augmentation square and the whole single-target cocycle comparison
-needed for that remaining identification.
+needed for the canonical identification.
+The [general exact-functor/extMk theorem](ExtMkCanonicalFunctor.README.md)
+now proves this identification for every degree and every given
+resolution/cocycle. It yields the [canonical inverse-unit weight of the
+fixed actual Ext cubed class](TwentyDimDualScaleExtEigenvalue.README.md)
+and its scalar multiples, with nonzero image when q cubed is nonzero.
+No dimension or full self-Ext profile, tensor-square realization or
+complete ARC is asserted.
 
 ## Replay
 

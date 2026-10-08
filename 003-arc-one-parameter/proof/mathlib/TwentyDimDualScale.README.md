@@ -27,5 +27,6 @@ independent replay and printed axiom audits. Dependency-ordered replay:
 ```
 
 This source constructs the actual algebra automorphism. The fixed
-cochain's pullback formula is a separate source; the induced action of a
-module-category functor on actual Ext is a further comparison obligation.
+cochain's pullback formula, the module-category comparison and the
+[canonical action on its fixed actual Ext cubed class](TwentyDimDualScaleExtEigenvalue.README.md)
+are proved in separate sources.

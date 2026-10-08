@@ -30,11 +30,12 @@ Ext.mk0(eta.inv) ; Q.extMk(F_H.map(fCocycle)) ; Ext.mk0(eta.hom)
 Consequently this represented class is nonzero whenever q cubed is
 nonzero. No field or no-zero-divisors hypothesis is required.
 
-The represented mapped-resolution class has not yet been identified with
-canonical Ext.mapExactFunctor(F_H)(fExtThree). That final generic
-exact-functor/extMk naturality bridge is still open. These theorems do not
-assert the canonical fixed-class eigenvalue, a dimension or full self-Ext
-profile, the tensor-square construction or complete ARC.
+The [general exact-functor/extMk theorem](ExtMkCanonicalFunctor.README.md)
+separately identifies this represented class with canonical functor
+transport. The [canonical fixed-class calculation](TwentyDimDualScaleExtEigenvalue.README.md)
+uses that theorem and this file's complete comparison. A dimension or
+full self-Ext profile, the tensor-square construction and complete ARC
+remain open.
 
 Actual compilation, independent source replay, printed axiom audits and
 the exact source hash are recorded in the companion verification JSON.

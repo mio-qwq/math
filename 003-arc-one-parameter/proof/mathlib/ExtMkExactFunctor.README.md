@@ -23,9 +23,9 @@ isomorphism. Within support its components are the two actual degree
 identifications, with the first mapped by F. Differential commutation
 and naturality are proved for the full complexes.
 
-These interfaces do not yet prove that canonical `Ext.mapExactFunctor`
-maps `P.extMk(f)` to `extMk(F.map f)` on the mapped specified resolution.
-That naturality theorem remains a separate obligation.
+These interfaces support the [general canonical exact-functor/extMk
+naturality theorem](ExtMkCanonicalFunctor.README.md), proved in its own
+source with the full resolution, cocycle and endpoint comparisons.
 
 Actual compilation, independent source replay, printed axiom audits and
 the exact source hash are recorded in the companion verification JSON.
