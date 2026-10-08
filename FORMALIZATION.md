@@ -167,6 +167,17 @@ full-source mathematical readings are recorded separately; no new Lean
 compilation or axiom audit is claimed for this theorem. The existing
 single-conflict Lean files do not formalize the whole binary result.
 
+The [002 block and four-path expansion theorem](002-weighted-rectangular-pruning/binary-one-side-costs.md)
+is a further complete written structural result: either coordinate
+relation may be a union of complete bipartite blocks and complete
+four-path expansions, with the other any finite relation and with
+arbitrary partial original families. Its nonnegative proof uses a
+finite high-row coupling, actual corner profits, a residual block
+and exact whole-group aggregation. The construction includes zero
+costs directly; it does not assert optimality in this larger domain.
+No new Lean compilation, axiom audit or executable certificate
+replay is claimed for this general structural theorem.
+
 The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
 has a complete analytical proof for the fixed labelled, dephased solution
 space. Circle intersections, actual smooth nonroot neighborhoods, root

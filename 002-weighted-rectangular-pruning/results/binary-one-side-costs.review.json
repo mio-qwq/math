@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "verification_method": "complete written proof and independent agent readings",
+  "source_sha256": {
+    "binary-one-side-costs.md": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc"
+  },
+  "scope": "Sharp independent nonnegative local pair-cost bounds when either coordinate relation has complete-bipartite-block or complete-four-path-expansion components and the other relation is arbitrary; all partial original families are included",
+  "arbitrary_other_coordinate_relation_allowed": true,
+  "complete_four_path_expansions_and_disjoint_components_proved": true,
+  "one_binary_coordinate_relation_suffices": true,
+  "arbitrary_partial_original_families_allowed": true,
+  "zero_costs_proved_directly": true,
+  "division_only_after_denominator_proved_positive": true,
+  "actual_uncovered_corner_budget_used": true,
+  "whole_group_coverage_and_uncovered_sets_synchronized": true,
+  "initially_conflict_free_originals_retained": true,
+  "deterministic_finite_rational_construction_proved": true,
+  "general_optimal_cover_claimed": false,
+  "coefficient_one_proved_sharp": true,
+  "unrestricted_coordinate_relations_proved": false,
+  "general_theorem_lean_formalized": false,
+  "lean_compile_claimed": false,
+  "new_machine_certificate_claimed": false,
+  "new_cost_search_used_as_general_proof": false,
+  "historical_novelty_established": false,
+  "independent_reviews": [
+    {
+      "reviewer": "independent agent 1",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc",
+      "final_source_read_pre_sha256": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc",
+      "final_source_read_post_sha256": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc",
+      "required_mathematical_repairs_on_final_source": 0,
+      "block_antecedent_full_source_read": true,
+      "block_antecedent_sha256": "cfda2b6c2f06793125530a632599a3d31669490934e942c70075a6bf630fa407",
+      "review_focus": "All actual source sections and antecedent: high-row coupling and true corner profits, negative adjusted columns, residual corner identity, valid zero-cost divisions, padding before restriction, initial isolation, whole-group expansion and component budgets, asymmetric transposition, finite construction and sharpness"
+    },
+    {
+      "reviewer": "independent agent 2",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc",
+      "final_source_read_pre_sha256": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc",
+      "final_source_read_post_sha256": "8375f7fd96f9e63988409c1e9759a9c6601f8100037274089356c3854fc7e3cc",
+      "required_mathematical_repairs_on_final_source": 0,
+      "block_antecedent_full_source_read": true,
+      "block_antecedent_sha256": "cfda2b6c2f06793125530a632599a3d31669490934e942c70075a6bf630fa407",
+      "review_focus": "Complete source and block proof reconstructed, finite threshold endpoint weights including zero ratios, actual high and residual U, all nonnegative cases, partial-family actual graph restriction and retention, exact complete-rectangle factorization, synchronized expanded corner coverage and disjoint component accounting"
+    }
+  ],
+  "review_limitations": "Actual mathematical readings by agents, not Lean compilation, axiom audit, executable certificate replay, journal peer review or global novelty evidence. The previously planned twelve-input search was not run and is not evidence for this theorem. No completion is attributed to an agent's interrupted additional public-review assignment."
+}

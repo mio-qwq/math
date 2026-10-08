@@ -38,6 +38,18 @@ The coefficient one is sharp. This is a complete written theorem,
 not a Lean proof; the arbitrary-relation problem on larger coordinate
 sets remains open.
 
+The [block and four-path expansion theorem](binary-one-side-costs.md)
+now allows the other relation to be any finite relation: it suffices
+that each nonisolated component of one relation is a complete
+bipartite block or a complete four-path expansion. In particular,
+one relation with at most two coordinates on each side suffices,
+without any size bound on the other. A coupled high-row deletion and
+an effective-cost residual block prove the bound directly for all
+nonnegative costs. Complete-rectangle aggregation lifts it to expanded
+paths, and disjoint components and zero padding cover arbitrary partial
+families. This is a written structural theorem with a finite rational
+construction; it does not supply a general optimum or a Lean proof.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce
