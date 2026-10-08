@@ -164,6 +164,13 @@ valencies are stabilizer orbits of half-branches. This written proof
 closes the quotient-geometry gap while preserving the separate
 even-order realization and original-literature comparison questions.
 
+For 004, [the direct four-circulant character theorem](004-mub-triplets/direct-circulant-character.md)
+now closes the extra first-character premise inside the displayed symmetry
+branch: both first and cubic characters vanish at its fixed partitions.
+The complete branch proof is written mathematics; six audited Lean statements
+give actual matrix character/adjoint formulas and conditional cubic consequences.
+The general companion-selection and cubic-coupling questions remain separate.
+
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
 
 The [actual square-zero splitting](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)

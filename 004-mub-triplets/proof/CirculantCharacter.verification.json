@@ -1,0 +1,140 @@
+{
+  "source": "CirculantCharacter.lean",
+  "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09",
+  "source_after_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09",
+  "start_utc": "2026-10-08T12:20:03.5647006+00:00",
+  "end_utc": "2026-10-08T12:20:18.3181423+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 6,
+  "expected_audits": 6,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CirculantCharacter.balanced_character_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantCharacter.adjoint_balanced_character_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantCharacter.first_character_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantCharacter.cubic_character_zero_of_product_cancel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantCharacter.adjoint_cubic_character_zero_of_product_cancel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CirculantCharacter.both_cubic_characters_zero_of_product_cancel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "scope": "Actual four-circulant matrix balanced character and adjoint formulas; first iff cancellation; both cubic characters zero given phase-product cancellation",
+  "hadamard_gram_implies_product_cancellation_formalized": false,
+  "general_companion_circulantization_proved": false,
+  "general_cubic_coupling_proved": false,
+  "historical_originality_established": false,
+  "audit": "CirculantCharacter.audit.txt",
+  "audit_sha256": "354c918d4de651456e6b1ad79f24dbc4117090160a50494c3da8b7bf5db0311c",
+  "independent_replay": {
+    "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09",
+    "source_after_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09",
+    "start_utc": "2026-10-08T12:26:14.5959395+00:00",
+    "end_utc": "2026-10-08T12:26:28.8730148+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 6,
+    "expected_audits": 6,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CirculantCharacter.balanced_character_formula",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantCharacter.adjoint_balanced_character_formula",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantCharacter.first_character_zero_iff",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantCharacter.cubic_character_zero_of_product_cancel",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantCharacter.adjoint_cubic_character_zero_of_product_cancel",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CirculantCharacter.both_cubic_characters_zero_of_product_cancel",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "354c918d4de651456e6b1ad79f24dbc4117090160a50494c3da8b7bf5db0311c"
+  },
+  "independent_mathematical_source_review": "PASS: actual whole-matrix character formulas and conditional cancellation scope checked"
+}

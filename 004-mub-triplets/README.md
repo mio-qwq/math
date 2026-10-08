@@ -92,3 +92,12 @@ It concerns an actual matrix B with the fixed reverse matching, not shared
 matchings for two coordinate involutions or existence of a complete companion.
 The four-circulant converse and phase test remain written matrix proofs with
 a [separate full-source review](four-circulant-route.review.json).
+
+The [direct four-circulant character proof](direct-circulant-character.md)
+now removes the extra first-character premise in the known symmetry
+branch. All four phase-retrieval cases give the exact block product
+cancellation, hence both first and cubic characters vanish. The actual
+six-column/adjoint character formulas and conditional cubic implications
+have a separate six-audit Lean interface; the full Gram-to-cancellation
+argument remains written mathematics. General companion circulantization
+and the general coupling conjecture remain open.

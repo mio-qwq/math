@@ -140,6 +140,18 @@ the stated coefficient scope, not a public conjecture resolution.
 The derived triangle, full twenty-dimensional self-Ext and complete ARC
 remain open implementation tasks; literature-wide originality is not asserted.
 
+## R004.8: direct first character in the displayed symmetry branch
+
+The [direct four-circulant theorem](004-mub-triplets/direct-circulant-character.md)
+proves pa pe+pb pc=0 for every displayed four-circulant raw Hadamard6,
+without a genericity assumption. Both fixed-partition first and cubic
+characters follow. All phase-retrieval cases, repeated ratios and zero
+Fourier modes are covered by the written proof. Six Lean audits support
+the actual matrix and adjoint character formulas and cubic consequences
+given cancellation; the Gram-to-cancellation proof is not yet formalized.
+This closes a project-local branch gap, not the source-stated general
+MUB conjecture. Historical originality is not established.
+
 ## R004.1–R004.2: source-stated MUB questions
 
 The fixed source is Matolcsi, Matszangosz, Varga and Weiner,

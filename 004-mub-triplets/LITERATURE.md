@@ -78,6 +78,10 @@ the 2026 triplet paper recalls it in (4.3)-(4.5).
 to the prescribed spectral witness and a sixteen-pair phase test explicit.
 This identifies a known symmetry class, not a new general MUB construction.
 General companionship has not been proved to imply that symmetry.
+The subsequent [direct character proof](direct-circulant-character.md)
+closes the first-character premise within the displayed four-circulant
+branch by exact matrix algebra; its historical originality is not established.
+It does not turn the classical branch into a classification of all triplets.
 
 The principal target recorded here is the remaining source-stated identity
 

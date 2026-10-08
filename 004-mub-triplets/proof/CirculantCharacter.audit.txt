@@ -1,0 +1,14 @@
+'MUBTriplets.CirculantCharacter.balanced_character_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.CirculantCharacter.adjoint_balanced_character_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantCharacter.first_character_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.CirculantCharacter.cubic_character_zero_of_product_cancel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantCharacter.adjoint_cubic_character_zero_of_product_cancel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantCharacter.both_cubic_characters_zero_of_product_cancel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

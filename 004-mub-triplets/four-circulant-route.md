@@ -143,10 +143,13 @@ For four circulant blocks C(a),C(b),C(c),C(e), write pa,pb,pc,pe for products
 of their first-column phases. The first balanced character vanishes iff
 pa pe+pb pc=0; either first-character zero then forces both cubic zeros.
 In the canonical array [A B;B* -A*], this identity is immediate, with the
-two terms -1 and 1. No direct proof for an arbitrary displayed four-block
-presentation is supplied here. Unrestricted matrix equivalence alone cannot
-transfer a fixed-partition statement. The extra first-character assumption
-in the earlier conditional result is therefore retained.
+two terms -1 and 1. A subsequent [direct matrix proof](direct-circulant-character.md)
+now proves the same identity for every displayed four-circulant raw Hadamard6,
+covering all phase-retrieval branches and zero-mode degeneracies. It removes
+the extra first-character assumption inside this symmetry branch, yielding
+both first and cubic zeros at the fixed partitions. The complete written
+phase-retrieval/rank proof remains distinct from its supporting Lean
+character-formula interface and from general companion circulantization.
 
 The complete-companion construction and its Fourier phase factorization
 are prior results: [Szollosi, arXiv:0811.3930v2, Section 4](https://arxiv.org/pdf/0811.3930v2),
