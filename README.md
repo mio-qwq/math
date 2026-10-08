@@ -28,4 +28,11 @@ The starting point is [OpenAI's public mathematical collection](https://github.c
 
 Literature review and external mathematical review remain open. Correctness and precise disclosure of verification scope take precedence over claims of novelty.
 
+For 003, the constructed all-degree suffix lift now gives a closed actual
+degree-six cup Hom. An explicit six-letter witness proves that its
+specified Ext^6 class is nonzero when q^4 is nonzero, including every
+nonzero q over a characteristic-two field. Identification with the
+Yoneda square is a separate remaining obligation; the complete self-Ext
+profile and ARC realization are still open.
+
 Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.

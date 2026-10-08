@@ -126,6 +126,18 @@ the actual middle augmentation inverse and preserves the given Ext
 universe. Constructing a particular cup-product lift and satisfying those
 hypotheses remain separate from this generic theorem.
 
+The [constructed all-degree cup lift](proof/mathlib/FiniteFreeBarCupLift.README.md)
+now gives actual A-linear maps P(n+3) -> P(n) satisfying every recursive
+chain identity and the augmentation identity for the fixed cocycle. Its
+degree-six cup Hom is closed on all of P7. A
+[six-letter witness](proof/mathlib/TwentyDimCupSquareWitness.README.md)
+evaluates this Hom to q^4 and excludes every preceding A-linear Hom
+boundary. Consequently its actual Ext^6 class is nonzero when q^4 is
+nonzero, in particular when q is nonzero over a field or a ring without
+zero divisors. Identification of this class with the Yoneda square still
+requires the whole shifted lift comparison; no all-power nonvanishing or
+complete ARC realization follows from these statements.
+
 Python 3.9 or later, standard library only:
 
 ```console

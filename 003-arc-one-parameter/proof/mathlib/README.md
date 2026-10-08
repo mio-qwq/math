@@ -173,6 +173,16 @@ resolution lift and its two complete cocycle equalities. Its localized
 roof cancellation retains the actual augmentations and original Ext
 universe. It does not supply a specific bar cup lift or nonzero square.
 
+The [actual all-degree suffix construction](FiniteFreeBarCupLift.README.md)
+supplies A-linear maps P(n+3) -> P(n), their complete recursive chain and
+augmentation identities, and a closed degree-six cup Hom. The
+[explicit six-letter witness](TwentyDimCupSquareWitness.README.md)
+has pairing q^4 and kills every preceding character Hom boundary. Its
+specified actual Ext^6 class is therefore nonzero when q^4 is nonzero.
+The full A-valued resolution boundary is retained before character
+evaluation. Whole shifted assembly and the Yoneda-square identification
+remain separate obligations, as do all higher-power profiles and ARC.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,
