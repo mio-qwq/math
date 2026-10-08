@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "verification_method": "complete written proof and independent agent readings",
+  "source_sha256": {
+    "finite-resonant-tate-algebra.md": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de"
+  },
+  "scope": "Full integer-graded Tate algebra of the same actual finite resonant triangular module, in characteristic two with infinite-order base q and finite twist-ratio order d greater than one",
+  "finite_triangular_realization_proved_in_written_math": true,
+  "full_tate_algebra_computed_in_written_math": true,
+  "both_negative_contraction_actions_proved": true,
+  "all_mixed_products_and_exceptional_seam_proved": true,
+  "stable_degree_zero_endomorphism_ring_computed": true,
+  "entire_ordinary_degree_zero_endomorphism_ring_computed": false,
+  "order_one_ratio_case_computed": false,
+  "general_theorem_lean_formalized": false,
+  "lean_compile_claimed": false,
+  "complete_arc_realization_formalized": false,
+  "finite_ratio_case_is_arc_counterexample": false,
+  "historical_novelty_established": false,
+  "uses_only_dimension_matching": false,
+  "initial_mathematical_error_and_repair": "The initial draft falsely wrote H^-4=0. Before publication it was corrected to W^-4=0 and H^-3=0, explicitly retaining the nonzero preceding (H^-4)^2. Both reviewers then fully read the corrected final source.",
+  "independent_reviews": [
+    {
+      "reviewer": "independent agent 1",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "initial_source_sha256": "5ba7b42d908c1602595d181da9e8f04a4a217ccfec7acd24983d0faf993cc598",
+      "final_source_sha256": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de",
+      "final_source_read_pre_sha256": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de",
+      "final_source_read_post_sha256": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de",
+      "final_change_reviewed": "Three actual complete source readings: initial draft, corrected seam, and final derived-tensor/shift clarification. The initial false H^-4 statement was found and repaired before acceptance.",
+      "required_mathematical_repairs_on_final_source": 0,
+      "review_focus": "Actual same target and module, all integer shift centrality, negative twist and branches, unique sections, both normalized mixed actions, strict DG ideal, unsupported hidden products and Cech model"
+    },
+    {
+      "reviewer": "independent agent 2",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "initial_source_sha256": "4244b1c2c1688d0785a4f3a5a5879e19f189cc25f66c18e10f4f60539d8f71c3",
+      "final_source_sha256": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de",
+      "final_source_read_pre_sha256": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de",
+      "final_source_read_post_sha256": "45549ba38552efc03118e7ec386b153941cb0105d616a2164786e95c365611de",
+      "final_change_reviewed": "The corrected source and final source were each read completely. No full reading of the earlier erroneous source is claimed.",
+      "required_mathematical_repairs_on_final_source": 0,
+      "review_focus": "Primary negative weight and duality inputs, same OpenAI target, complete cone comparison, both branch actions and normalizations, degree-allowed omega products, stable versus ordinary degree zero, sources and order-one exclusion"
+    }
+  ],
+  "review_limitations": "These are complete written mathematical reviews by independent agents with checked primary dependencies, not Lean proofs, machine certificates or journal peer review. No global originality or result at order-one ratio is established."
+}

@@ -382,6 +382,17 @@ written reconstruction using universal identities and actual finite
 choices, and proves the two multiplicative actions. The finite checker
 and current Lean sources still do not verify that whole construction.
 
+For this same finite module, the
+[full Tate algebra note](finite-resonant-tate-algebra.md) subsequently
+determines every integer degree and every product when the ratio has
+finite order d>1. Its negative diagonal part is the contraction
+module M=directsum_(j>=1) D S_(jd-2), of degrees 5-3jd. The algebra
+is (R plus M) plus epsilon(R_+ plus M) plus k omega, with omega
+of degree minus one, square-zero negative and cross ideals, and
+the explicitly proved two-sided mixed actions. Degree zero here
+means stable endomorphisms k, not the whole ordinary ring.
+The order-one seam and full Lean formalization remain open.
+
 ## Reproducibility and references
 
 The exact data, source commit and source-file SHA-256 hashes are in

@@ -179,3 +179,14 @@ multiplication theorem in written mathematics. These finite objects,
 their complete cone and the full comparison are still absent from the
 Lean formalization. The earlier compile and axiom receipts are not
 being reused as a machine verification of this new construction.
+
+The [003 full resonant Tate algebra](003-arc-one-parameter/finite-resonant-tate-algebra.md)
+is a subsequent written calculation for the same actual finite module,
+at finite ratio order d>1. It includes every integer degree, both
+negative contraction actions, all mixed products, stable degree zero
+k, and the exceptional degree-minus-one off-diagonal class.
+Its independent agent readings are recorded separately from Lean
+compilation. No Lean source constructs this complete Tate algebra;
+the actual cone and comparison remain unformalized. The entire
+ordinary endomorphism ring and the d=1 secondary products are
+outside the written theorem as well.

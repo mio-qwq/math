@@ -38,6 +38,18 @@ not a complete Lean realization. Tang's Proposition 5.4 supplies a
 different common target; that target is not silently identified with
 the one fixed in this construction.
 
+The subsequent [full Tate calculation](finite-resonant-tate-algebra.md)
+uses that same finite module and target. The ambient negative
+duality/contraction and the weight h^(m+2) are prior inputs from the
+OpenAI cone calculation and Tang's Proposition 4.2/Lemma 4.3.
+The note computes the full resonant triangular algebra for d>1,
+including its exceptional off-diagonal degree-minus-one class,
+both normalized mixed actions and stable degree zero. Classical
+negative Tate square-zero extension and Veronese/local cohomology
+methods are separately cited there. The ordinary endomorphism ring,
+d=1 secondary products, full Lean construction and global novelty
+remain separate questions.
+
 ## Lower-algebra formalization and prior mathematical results
 
 The compiled OpenAI manuscript places the lower-algebra calculation in

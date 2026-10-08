@@ -1,4 +1,4 @@
-# ARC core certificate and a finite resonant Yoneda construction
+# ARC core certificate and finite resonant Yoneda and Tate algebras
 
 The [finite realization note](finite-resonant-realization.md) constructs
 actual finite triangular modules realizing the previously conditional
@@ -11,6 +11,19 @@ the epsilon ideal squares to zero and has no constant term. This is a
 complete written construction proof, not a complete Lean formalization.
 For finite d the module has nonzero self-Ext and is not an ARC
 counterexample. Prior field-extension conclusions remain attributed.
+
+The [full Tate algebra calculation](finite-resonant-tate-algebra.md)
+now determines every integer degree and every product for this same
+finite module when the twist ratio has order d>1 (necessarily odd).
+Its negative diagonal part is the dual polynomial contraction module
+M, with the usual Veronese local cohomology description. The complete
+algebra is (R plus M) plus epsilon(R_+ plus M) plus k omega:
+M and the epsilon ideal square to zero, and the exceptional degree-minus-one
+omega annihilates every non-scalar homogeneous summand. Tate degree zero
+is the stable scalar ring k. The proof checks both negative branch
+actions and excludes hidden products at the exceptional seam; it
+remains written mathematics, with the d=1 secondary products and
+the complete Lean realization open.
 
 The [scalar endomorphism construction](proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)
 now includes every scalar, with zero giving an actual lower-subalgebra
@@ -220,6 +233,9 @@ verification of the concrete ARC realization or the whole Tate algebra.
 - [finite-resonant-realization.md](finite-resonant-realization.md): finite
   objects satisfying those hypotheses, actual two-sided branch actions,
   and the F_4(t) order-three example, with separate written/Lean scope.
+- [finite-resonant-tate-algebra.md](finite-resonant-tate-algebra.md): the
+  full integer-graded Tate algebra of that same finite module for d>1,
+  including both mixed actions, the omega seam and local cohomology model.
 - [checker/verify.py](checker/verify.py): new standalone exact checker.
 - [data/arc-core.json](data/arc-core.json): finite data transcribed from
   OpenAI's algebra and cochain tables, with source hashes.

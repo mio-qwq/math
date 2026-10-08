@@ -8,7 +8,7 @@ This repository records explicit mathematical statements, complete proofs where 
 | --- | --- | --- |
 | [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of support and actual complex block obstructions; the full rigidity theorem is not yet formalized |
 | [002 — Product-weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted cover/pruning theorems with sharp constant; no finite uniform coefficient works for sums of two positive product systems | Independent rational checker, 67,132 exact instances, and Lean proofs of real-cost single-conflict criteria and the unbounded obstruction |
-| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction realizing the positive resonant Yoneda algebra; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
+| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction with its positive resonant Yoneda algebra and full Tate algebra at ratio order d>1; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
 
 ## Reproduction
 
@@ -40,8 +40,12 @@ fields with an infinite-order base parameter, using a fixed finite
 target, actual side-projective kernel and both natural branch actions.
 For example, F_4(t) supplies ratio order three and first self-extensions
 in degrees nine and ten. This reconstruction is written mathematics;
-the full construction in Lean, complete degree-zero ring and full Tate
-algebra remain separate.
+the full construction in Lean and the entire ordinary degree-zero ring
+remain separate. The [full Tate calculation](003-arc-one-parameter/finite-resonant-tate-algebra.md)
+now treats the same actual module for ratio order d>1. It determines
+the negative contraction module, all mixed products, stable degree
+zero and the exceptional degree-minus-one square-zero class.
+The order-one secondary products remain open.
 
 For 003, the constructed all-degree suffix lift now gives a closed actual
 degree-six cup Hom. An explicit six-letter witness proves that its
