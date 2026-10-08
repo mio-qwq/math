@@ -7,7 +7,7 @@ This repository records explicit mathematical statements, complete proofs where 
 | Note | Mathematical scope | Verification scope |
 | --- | --- | --- |
 | [001 — Odd half-order Hadamard rigidity](001-odd-half-order-hadamard/README.md) | General theorem for every odd half-order; complete written proof | Exact examples and Lean proofs of support and actual complex block obstructions; the full rigidity theorem is not yet formalized |
-| [002 — Product-weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted cover/pruning theorems with sharp constant; no finite uniform coefficient works for sums of two positive product systems | Independent rational checker, 67,132 exact instances, and Lean proofs of real-cost single-conflict criteria and the unbounded obstruction |
+| [002 — Weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted bounds and independent local-cost bounds for block relations or all binary coordinate systems, with sharp constant; no finite uniform coefficient works for sums of two positive product systems | Complete written proofs for the pair-cost extensions; independent rational checkers and Lean proofs of single-conflict criteria and the unbounded obstruction. The binary-coordinate theorem is not yet Lean-formalized |
 | [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction with its full Tate algebra for every twist-ratio order, including the equal-twist seam; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
 
 ## Reproduction
@@ -70,8 +70,16 @@ Two [reflexive local-cost families](002-weighted-rectangular-pruning/reflexive-c
 also have explicit cover and pruning constructions when both relations
 may be nonblock. They treat proportional complete-grid costs and a
 nonproportional exchange family on two paths. Their parameter-wide proofs
-are written, with separate exact fixture checks; arbitrary independent
-costs remain open.
+are written, with separate exact fixture checks.
+
+The [binary-coordinate theorem](002-weighted-rectangular-pruning/double-path-independent-costs.md)
+now removes every restriction on the independent cost tables for two
+four-vertex paths, apart from the nine local inequalities. Its fifteen
+candidate deletions compute the exact augmented optimum. Together with
+the block theorem and zero-cost padding, it settles all relations and
+partial original families on coordinate sets of size at most two.
+The proof is analytic and includes zero costs; arbitrary larger
+coordinate systems and the full Lean proof remain open.
 
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution

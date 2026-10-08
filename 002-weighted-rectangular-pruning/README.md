@@ -23,7 +23,20 @@ and a nonproportional exchange family on two four-vertex paths. Three
 explicit covers suffice for the first family; a weighted local witness
 proves that deleting all originals suffices for the second. These written
 proofs include zero costs and the actual uncovered sets. They do not
-settle arbitrary independent original costs.
+by themselves settle arbitrary independent original costs.
+
+The [binary-coordinate local-cost theorem](double-path-independent-costs.md)
+now treats arbitrary independent nonnegative original and corner costs
+on two four-vertex paths, assuming only the nine local inequalities.
+An exact three-branch formula gives the augmented optimum through at
+most fifteen actual deletions. Two coupled scalar deficits prove the
+middle parameter region; four finite threshold choices prove the outer
+regions. Zero costs are included. Padding partial original families
+with zero costs and using the existing block theorem extends this to
+every pair of relations when each coordinate set has size at most two.
+The coefficient one is sharp. This is a complete written theorem,
+not a Lean proof; the arbitrary-relation problem on larger coordinate
+sets remains open.
 
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 

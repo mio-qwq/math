@@ -156,6 +156,17 @@ rejections and an independent bounded deletion-subset replay validate the
 concrete certificates. These do not replace the parameter-wide proofs or
 establish a general arbitrary-cost theorem in Lean.
 
+The [002 binary-coordinate local-cost theorem](002-weighted-rectangular-pruning/double-path-independent-costs.md)
+has a complete written proof for arbitrary independent nonnegative costs
+on two four-vertex paths, and for every relation and partial original
+family when all four coordinate sets have size at most two. Its exact
+three-branch formula gives an optimal augmented cover through fifteen
+candidate deletions. The proof uses a scalar deficit argument, a finite
+threshold coupling and continuous extension to zero costs. Independent
+full-source mathematical readings are recorded separately; no new Lean
+compilation or axiom audit is claimed for this theorem. The existing
+single-conflict Lean files do not formalize the whole binary result.
+
 The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
 has a complete analytical proof for the fixed labelled, dephased solution
 space. Circle intersections, actual smooth nonroot neighborhoods, root

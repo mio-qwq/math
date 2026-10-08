@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "verification_method": "complete written proof and independent agent readings",
+  "source_sha256": {
+    "double-path-independent-costs.md": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41"
+  },
+  "scope": "Arbitrary independent nonnegative local costs on two four-vertex paths, the exact full-grid augmented cover optimum, and every relation and partial original family on four coordinate sets of size at most two",
+  "all_binary_coordinate_relations_proved_in_written_math": true,
+  "arbitrary_partial_original_families_in_binary_domain": true,
+  "zero_costs_included": true,
+  "initially_conflict_free_originals_retained": true,
+  "actual_uncovered_corner_set_used": true,
+  "full_double_path_optimum_given_by_fifteen_candidates": true,
+  "partial_family_optimality_from_padding_claimed": false,
+  "coefficient_one_proved_sharp": true,
+  "arbitrary_larger_coordinate_relations_proved": false,
+  "general_theorem_lean_formalized": false,
+  "lean_compile_claimed": false,
+  "new_machine_certificate_claimed": false,
+  "cost_search_used_as_general_proof": false,
+  "historical_novelty_established": false,
+  "independent_reviews": [
+    {
+      "reviewer": "independent agent 1",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+      "final_source_read_pre_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+      "final_source_read_post_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+      "required_mathematical_repairs_on_final_source": 0,
+      "review_focus": "Every section independently reconstructed: full augmented graph, exact three-branch optimum, negative modified costs, coupled deficits, finite outer-region probabilities and actual U, explicit transposition, feasible zero-cost limits, binary padding and isolated-original retention, sharpness and bounded literature comparison"
+    },
+    {
+      "reviewer": "independent agent 2",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "final_source_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+      "final_source_read_pre_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+      "final_source_read_post_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+      "required_mathematical_repairs_on_final_source": 0,
+      "review_focus": "Complete frozen public source, fifteen actual candidate deletions including leaf profits, all positive regions and endpoints, zero-cost continuity, exact nonblock classification on binary coordinates, zero padding with actual H/Z, induced cover restriction and actual pruning budget"
+    }
+  ],
+  "additional_contributing_proof_review": {
+    "status": "PASS",
+    "full_mathematical_source_read": true,
+    "final_source_read_pre_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+    "final_source_read_post_sha256": "7fcafa9a603c8223cf29fdc2b65efcd799d1377cb42c2f53a1d8a87e55b41e41",
+    "required_mathematical_repairs_on_final_source": 0,
+    "reviewer_contributed_to_proof_construction": true
+  },
+  "review_limitations": "Complete mathematical readings by agents, not Lean compilation, an axiom audit, a machine certificate or journal peer review. Earlier finite cost experiments are not the parameter-wide proof. The 1978 four-functions original was read; the entire 1979 comparison and global priority remain unchecked."
+}
