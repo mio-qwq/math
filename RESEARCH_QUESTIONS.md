@@ -25,9 +25,14 @@ specific comparison establishes otherwise.
 | R003.1 | Prior lower-algebra resolutions and Ext calculations | Actual Lean implementations are complete within their stated assumptions; [attribution](003-arc-one-parameter/ATTRIBUTION.md) identifies OpenAI and Tang's prior mathematical conclusions. These are formalization contributions |
 | R003.2 | Existing research: full Tate algebra of the actual finite triangular module at every twist-ratio order | Proved in writing: [finite resonant algebra](003-arc-one-parameter/finite-resonant-tate-algebra.md) and [equal-twist seam](003-arc-one-parameter/order-one-tate-algebra.md). Its complete Lean construction is unfinished |
 | R003.3 | Proposed continuation: ordinary endomorphism ring of that same finite module, including maps through projectives | Unresolved here. The proved degree-zero Tate ring is the stable quotient and does not determine the ordinary ring |
-| R004.1 | Public conjecture: classification of six-dimensional MUB triplets, Matolcsi–Matszangosz–Varga–Weiner, Conjecture 1 | Explicitly conjectured in the [fixed v2 source](https://arxiv.org/html/2503.14752v2). Not proved here; its subsequent global resolution status is not certified |
-| R004.2 | Public conjecture: transition-matrix character identities in the same source, Conjecture 2 | Explicitly conjectured in the fixed source. Exact hypotheses below; numerical agreement or absence of four MUBs alone does not prove these identities |
+| R004.1 | Public conjecture: classification of six-dimensional MUB triplets, Matolcsi–Matszangosz–Varga–Weiner, Conjecture 1 | Stated in the [2026 journal source](https://link.springer.com/article/10.1007/s10801-026-01506-x). Not proved here. [Subsequent source review](004-mub-triplets/LITERATURE.md) distinguishes a maximum-three proof claim from actual triplet classification |
+| R004.2 | Public conjecture: transition-matrix character identities in the same source, Conjecture 2 | First-character vanishing has an external OpenAI exact-paper/Lean endpoint; the cubic/adjoint condition is a separate structural target. Neither endpoint nor maximum-three computation has been independently replayed here |
 | R004.3 | Literal source statement: Corollary 4.7 without an orthogonality assumption | Refuted as written by the exact example below. Adding orthogonality supplies the intended usable statement; the correction does not refute the source's main conjectures |
+| R004.4 | Proposed exact interface for the cubic target: a complete companion as a fixed-spectrum Hermitian observable | [Proved in writing](004-mub-triplets/spectral-companion.md), with a conditional double-anticommutation branch proving both cubic zeros from either first zero. Three supporting Lean declarations reconstruct the six spectral weights. General witness symmetry and general coupling remain unproved |
+| R004.5 | Public Conjecture 3: Szollosi's two-circulant family cannot occur in a quadruplet | The journal corrects an earlier wrong proof; a September 2026 unrefereed candidate directly overlaps it. [Review](004-mub-triplets/LITERATURE.md) flags that claim without independently accepting it |
+| C7 | Public problem: determine the Shannon capacity of the seven-cycle; source-stated two-sided heterogeneous construction question | [Candidate review](OPEN_PROBLEM_CANDIDATES.md) cites Tandon's August 2026 theorem and remaining extension. No new bound or construction proved here |
+| K5 | Public problem: determine the five-dimensional kissing number | The 2026 Cohn–Rajagopal source records 40<=tau_5<=44. The continuous 41-point Gram feasibility problem is a candidate, not a finite-grid test or an exclusion proved here |
+| SIC | Public problem: SIC existence, with the remaining Galois/Hermitian compatibility in a specific ghost construction | September 2026 sources prove twisted convolution and algebraicity but explicitly leave the needed automorphism unknown. [Candidate review](OPEN_PROBLEM_CANDIDATES.md) records that narrower gap without reproposing the already proved steps |
 
 ## R001.2: a concrete existence problem
 
@@ -121,11 +126,12 @@ globally unresolved is made by this implementation boundary.
 
 ## R004.1–R004.2: source-stated MUB questions
 
-The primary source is Matolcsi, Matszangosz, Varga and Weiner,
+The fixed source is Matolcsi, Matszangosz, Varga and Weiner,
 [*Triplets of Mutually Unbiased Bases*, arXiv:2503.14752v2](https://arxiv.org/html/2503.14752v2),
 19 July 2025. Conjecture 1 concerns classification up to
 permutational unitary equivalence, rather than just the maximum
-number of bases.
+number of bases. The [journal paper](https://link.springer.com/article/10.1007/s10801-026-01506-x),
+published 4 March 2026, also states these structural conjectures.
 
 For an actual MUB triplet define transition Hadamard matrices
 \(H_1=\sqrt6 X_1^*X_2,\ H_2=\sqrt6 X_2^*X_3,\
@@ -143,12 +149,29 @@ These are character identities on actual triplets. A proof excluding
 four mutually unbiased bases would not automatically classify
 triplets or establish the identities.
 
-The initial tractable question is the exact consequence of
-independent row and column relabelling for the coupled identity.
-A same-label zero-product condition on one fixed matrix must
-not be silently strengthened to all cross-label products.
-Literature resolution and the mathematical reduction are
-separate checks.
+The [current literature review](004-mub-triplets/LITERATURE.md)
+separates OpenAI's computational maximum-three claim from its exact
+Fourier/Lean first-character result and upper bound five. The actual
+solution module exists; a `sorry` in a challenge template is not that
+implementation. These source endpoints were read, without independently
+compiling the external dependency graph or replaying the full exclusion.
+Maximum-number and individual-Hadamard claims alone do not supply the
+cubic/adjoint identity.
+
+The [spectral criterion](004-mub-triplets/spectral-companion.md)
+reconstructs the complete third basis, with all six orthogonal columns,
+from one simple-spectrum Hermitian observable and two sets of diagonal
+moments. With an additional simultaneous anticommutation witness at the
+fixed three-versus-three partitions, and either first-character zero,
+it proves both cubic zeros. The anticommutation condition has not been
+shown to follow from arbitrary complete companionship. The supporting
+Lean proof treats only six scalar spectral weights; the full matrix
+criterion and conditional branch remain written mathematics.
+
+The broader candidate problems C7, K5 and SIC are specified with
+current primary-source bounds and remaining gaps in
+[OPEN_PROBLEM_CANDIDATES.md](OPEN_PROBLEM_CANDIDATES.md).
+None is represented as a solved conjecture or a newly established bound.
 
 ## R004.3: exact missing-hypothesis check
 

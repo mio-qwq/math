@@ -1,0 +1,30 @@
+{
+  "source": "spectral-companion.md",
+  "source_sha256": "a3f37c99e62c9cf12d4aa3050989004a80edd7f96177b1763771853d326af6f4",
+  "status": "PASS",
+  "verification_method": "complete written proof and actual full-source separate-agent readings",
+  "source_lines": 182,
+  "mathematical_must_fix_remaining": 0,
+  "author_integration_review": {
+    "full_source_read": true,
+    "source_sha256": "a3f37c99e62c9cf12d4aa3050989004a80edd7f96177b1763771853d326af6f4",
+    "status": "PASS"
+  },
+  "independent_review": {
+    "full_source_read": true,
+    "source_sha256": "a3f37c99e62c9cf12d4aa3050989004a80edd7f96177b1763771853d326af6f4",
+    "status": "PASS",
+    "contribution": "Strengthened the conditional branch from both first characters zero to either first character zero; final entire source reread."
+  },
+  "standard_inputs": [
+    "finite-dimensional Hermitian spectral theorem",
+    "Vandermonde interpolation",
+    "order-three Hadamard classification with proof supplied",
+    "Fourier diagonalization of circulants"
+  ],
+  "lean_scope": "Only Section 2 fixed six-node weight reconstruction; separate source-specific compiler record.",
+  "complete_matrix_theorems_lean_formalized": false,
+  "general_coupling_proved": false,
+  "double_anticommutation_witness_exists_in_general": false,
+  "historical_originality_certified": false
+}

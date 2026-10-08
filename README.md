@@ -9,6 +9,7 @@ This repository records explicit mathematical statements, complete proofs where 
 | [001 — Power Hadamard rigidity and classification](001-odd-half-order-hadamard/README.md) | Odd-half-order rigidity, exhaustive all-half-order phase classification, and finite graph models before and after standard matrix equivalence | Complete written proofs, exact examples and Lean support/block obstructions; the full matrix classification and quotient topology are not yet formalized |
 | [002 — Weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted bounds for arbitrary relations, sharp independent local-cost bounds when either relation is chordal bipartite, and a simultaneous-translation-invariant theorem with exact weighted optimum on two induced six-cycles; no finite uniform coefficient works for sums of two positive product systems | Lean proves the full invariant six-cycle actual cover/pruning bound and sharp cover coefficient, alongside single-conflict criteria and the unbounded obstruction. The chordal theorem, invariant partial-input extension and exact nine-expression optimum remain written results |
 | [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction with its full Tate algebra for every twist-ratio order, including the equal-twist seam; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
+| [004 — MUB companion compatibility](004-mub-triplets/README.md) | Written equivalence between a complete companion and a fixed-spectrum Hermitian moment witness; an additional double anticommutation condition and either first-character zero imply both cubic-character zeros | Lean proves the supporting six-weight moment reconstruction, with three audited declarations and an independent replay. The matrix bridges, general witness existence and general cubic/adjoint coupling remain outside that formal proof |
 
 ## Reproduction
 
@@ -18,6 +19,11 @@ The [research questions and results register](RESEARCH_QUESTIONS.md)
 distinguishes prior theorems, source-stated conjectures, proposed
 extensions, proved or refuted statements, and remaining formalization
 gaps. Literature status and proof status are recorded separately.
+
+The [public open-problem candidate review](OPEN_PROBLEM_CANDIDATES.md)
+records source-stated targets for seven-cycle Shannon capacity,
+five-dimensional kissing numbers and SIC Galois compatibility.
+These are research questions, not new bounds or solved conjectures.
 
 Each note has its own README and fixed inputs. Python checkers use exact arithmetic and the standard library. Lean is pinned by `lean-toolchain` to `leanprover/lean4:v4.34.1`. Most certificates use its bundled `Std` library; each additional `proof/mathlib` package pins Mathlib and its dependencies.
 

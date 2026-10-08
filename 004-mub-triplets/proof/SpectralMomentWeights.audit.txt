@@ -1,0 +1,3 @@
+'MUBTriplets.SpectralMoments.flat_weights_of_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.SpectralMoments.moments_of_flat_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.SpectralMoments.flat_moments_iff_weights' depends on axioms: [propext, Classical.choice, Quot.sound]

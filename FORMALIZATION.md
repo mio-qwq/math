@@ -4,6 +4,7 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [004/proof/SpectralMomentWeights.lean](004-mub-triplets/proof/SpectralMomentWeights.lean) | For arbitrary real weights at -5,-3,-1,1,3,5, six power-moment equations are equivalent to all weights being 1/6 | Exact finite interpolation only; no matrix spectral theorem, complete-companion equivalence or general MUB coupling is formalized by this source |
 | [002/proof/mathlib/CyclicSixCosts.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixCosts.lean) | Twelve cyclic local real-cost inequalities imply the aggregate product inequality and a three-choice budget alternative, with zero original costs included | Arithmetic core on the three simultaneous-translation orbits; the actual graph connection is proved in the next file |
 | [002/proof/mathlib/CyclicSixGraph.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixGraph.lean) | Every actual conflict is equivalent to the orbit premises; actual covers and survivor prunings satisfy the bound on the full cyclic graph; unit costs prove cover coefficient one sharp | Full original families and invariant tables; partial families, exact nine-expression optimum and arbitrary asymmetric costs remain outside these Lean files |
 | [003/proof/mathlib/LowerAlgebraRegularHom.lean](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularHom.lean) | Actual Hom_C(Ce,C)/Hom_C(Cf,C) evaluation equivalences, complete left-multiplication Hom maps, adjacent kernel/image equalities, and the exceptional v cycle/nonboundary | Right corners are R-submodules, not left C-submodules; field/nonzero assumptions retained where used; actual Ext comparison is in the next source |
@@ -296,3 +297,15 @@ The invariant partial-family extension, nine-expression optimum,
 product-domination criterion and general asymmetric-cost problem
 remain outside these Lean files. The older written-source review
 record is preserved and is not used as compilation evidence.
+
+The [004 spectral companion note](004-mub-triplets/spectral-companion.md)
+contains two complete written matrix proofs, with separate full-source
+mathematical readings recorded in its review JSON. Its Hermitian
+spectral criterion and conditional double-anticommutation branch are
+not Lean theorems. The supporting `SpectralMomentWeights.lean` source
+was actually compiled and independently replayed against the pinned
+Mathlib package; its three printed audits use only `propext`,
+`Classical.choice` and `Quot.sound`. The source-specific verification
+record and audit output report those runs. They do not machine-verify
+the matrix bridges or prove existence of the additional witness for
+every actual MUB triplet.

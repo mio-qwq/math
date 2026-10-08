@@ -1,0 +1,62 @@
+{
+  "source": "SpectralMomentWeights.lean",
+  "source_sha256": "67aa5fd670f13f15ef1e0cf44027cef2551ac7dc98bc3dbd819d86a8a954a213",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_exit_code": 0,
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "printed_audit_count": 3,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.SpectralMoments.flat_weights_of_moments",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.SpectralMoments.moments_of_flat_weights",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.SpectralMoments.flat_moments_iff_weights",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false,
+  "author_run": {
+    "start_utc": "2026-10-08T10:12:57.8907709Z",
+    "end_utc": "2026-10-08T10:13:14.1849319Z",
+    "exit_code": 0
+  },
+  "independent_run": {
+    "start_utc": "2026-10-08T10:16:04.8650590Z",
+    "end_utc": "2026-10-08T10:16:22.7958455Z",
+    "exit_code": 0,
+    "wrote_output_object": false
+  },
+  "compilation_location": "Both runs used a byte-identical workspace copy; equality of its SHA256 with this published source was checked.",
+  "independent_replay_actor": "separate agent, also independently reviewed the finite linear system",
+  "audit_output_sha256": "5ec1c0426b31b65e07caf90ee9361780b267dcf7a57f536cf694c9e9e467728c",
+  "statement": "The six moment equations at -5,-3,-1,1,3,5 are equivalent to every real weight being 1/6.",
+  "boundaries": {
+    "matrix_spectral_theorem_formalized": false,
+    "complete_companion_equivalence_formalized": false,
+    "double_anticommutation_branch_formalized": false,
+    "general_mub_coupling_proved": false
+  },
+  "provenance": "Standard Vandermonde interpolation; no novelty claim."
+}
