@@ -119,6 +119,13 @@ boundary of the lifted word. Its first A-coefficient is retained before
 evaluation. This alone gives no cup-product closure or higher Yoneda
 nonvanishing.
 
+The [generic actual Yoneda constructor comparison](proof/mathlib/ExtMkYonedaLift.README.md)
+identifies products of specified extMk cocycles when a whole shifted
+resolution lift and two full cocycle equalities are supplied. It cancels
+the actual middle augmentation inverse and preserves the given Ext
+universe. Constructing a particular cup-product lift and satisfying those
+hypotheses remain separate from this generic theorem.
+
 Python 3.9 or later, standard library only:
 
 ```console

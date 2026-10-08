@@ -1,0 +1,30 @@
+{
+  "source": "ExtMkYonedaLift.lean",
+  "source_sha256": "b844b96df2deb05453e356422073e372475a92023baaa689e071a13baba54c8f",
+  "printed_audit_count": 3,
+  "scope": "Generic actual Yoneda composition of specified extMk cocycles is identified under a supplied whole shifted resolution lift and two explicit full shifted-cocycle equalities, retaining the given resolutions, actual augmentation inverse and original Ext universe",
+  "category_requirement": "Abelian category with actual Mathlib Ext in the supplied universe",
+  "specified_resolutions_retained": true,
+  "actual_augmentation_inverse_cancelled": true,
+  "original_ext_universe_retained": true,
+  "whole_shifted_lift_required_as_hypothesis": true,
+  "specific_bar_cup_shifted_lift_constructed": false,
+  "fixed_class_square_identified": false,
+  "higher_power_nonvanishing_proved": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "canonical_replay_review",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

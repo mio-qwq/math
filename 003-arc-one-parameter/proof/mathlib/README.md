@@ -167,6 +167,12 @@ evaluation; the first actual A-coefficient remains in the resolution.
 Specific cup closure and true positive-degree Yoneda comparison require
 additional proofs.
 
+The [generic Yoneda lift comparison](ExtMkYonedaLift.README.md) proves
+actual positive-degree extMk composition from a supplied whole shifted
+resolution lift and its two complete cocycle equalities. Its localized
+roof cancellation retains the actual augmentations and original Ext
+universe. It does not supply a specific bar cup lift or nonzero square.
+
 ## Replay
 
 To replay the full dependency chain for the nonzero actual cochain class,
