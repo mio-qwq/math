@@ -102,6 +102,19 @@ families are included. This sharp written theorem has a finite rational
 construction; unrestricted relations, its full Lean implementation
 and the original-literature comparison remain separate questions.
 
+The [right-leaf extension](002-weighted-rectangular-pruning/right-leaf-extension-costs.md)
+preserves this local-cost property when new right coordinates each
+have one left neighbor. It also permits complete group expansions,
+and reaches some relations with incomparable neighborhoods, including
+the five-vertex path oriented with two left and three right coordinates,
+against any other relation. The two-neighborhood corollary even permits
+any relation with at most two distinct left neighborhoods per component:
+only \(|P|\le2\), with I arbitrary, or \(|S|\le2\), with J arbitrary,
+is needed. Its genuinely partial residual problem
+controls actual shared and missing corner profits. This is a written
+structural theorem; the opposite path orientation, general forests
+and a full Lean implementation remain outside its proved scope.
+
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution
 from a compatible rectangle of a cyclic root seed and one unit phase.

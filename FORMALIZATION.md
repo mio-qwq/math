@@ -190,6 +190,20 @@ Its independent complete-source mathematical readings are recorded
 separately, and no general optimality or historical-priority claim
 is attached.
 
+The [002 right-leaf preservation lemma](002-weighted-rectangular-pruning/right-leaf-extension-costs.md)
+proves a subsequent written extension. A relation whose right-leaf
+core has nested components, or a complete expansion of one, satisfies
+the local independent-cost bounds against any other relation.
+The proof uses a truly partial residual original family, every
+reduced local inequality, unchanged coverage on shared corners and
+favorable missing-corner profits. The two-neighborhood-type corollary
+permits \(|P|\le2\) with I arbitrary, or \(|S|\le2\) with J arbitrary,
+against any other relation. Zero costs and partial input
+families are included. No Lean compiler or executable-certificate
+receipt is attributed to this mathematical note; independently read
+source hashes are recorded separately. All forests and the two
+transposed five-vertex-path case are not proved.
+
 The [001 finite-graph geometry](001-odd-half-order-hadamard/phase-geometry.md)
 has a complete analytical proof for the fixed labelled, dephased solution
 space. Circle intersections, actual smooth nonroot neighborhoods, root

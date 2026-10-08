@@ -62,6 +62,22 @@ finite rational construction. The case of two relations with
 incomparable neighborhoods, the full Lean proof and historical
 novelty remain open.
 
+The [right-leaf preservation theorem](right-leaf-extension-costs.md)
+also treats some incomparable neighborhoods. Removing all right
+degree-one coordinates need only leave nested components; arbitrary
+right leaves can be restored, and complete expansions of these
+relations are included. The residual problem has partial R families,
+reduced H costs and exactly matching coverage on its actual surviving
+corners. An oriented five-vertex path with two left and three right
+coordinates therefore works against every arbitrary other relation.
+More generally, at most two distinct left neighborhoods per component
+suffice by splitting right coordinates into the three possible
+group-neighbor types. In particular \(|P|\le2\), with I unbounded,
+or \(|S|\le2\), with J unbounded, suffices; the other relation is arbitrary.
+The theorem includes all zero costs and partial families. It does
+not settle two transposed five-vertex paths, all forests or the
+unrestricted problem, and is not a Lean proof.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce
