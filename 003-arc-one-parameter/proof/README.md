@@ -1,5 +1,12 @@
 # Lean kernel certificates for the fixed finite tables
 
+The separate [Mathlib lower-algebra resolution](mathlib/LowerAlgebraCategoricalResolution.README.md)
+now retains the actual projective Ce/Cf corners and all-degree right
+multiplication maps, proves the augmentation is a quasi-isomorphism,
+and proves every positive actual lower-character self-Ext vanishes.
+It uses the pinned Mathlib package and stated nonzero power factors;
+the Std-only certificates below retain their original finite scope.
+
 The files here use **Lean 4.34.1 and Std only**. The proofs use ordinary
 `decide`, whose proof terms are checked by Lean's kernel. They do not use
 `sorry`, added axioms, `native_decide`, or a compiler-trust axiom.

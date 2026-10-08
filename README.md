@@ -69,5 +69,11 @@ are separate in that source. The subsequent
 [explicit dual extension construction](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)
 identifies the actual kernel with the lower algebra's dual, intertwines
 both lower multiplication actions, and gives the full algebra's explicit
-split coordinates, unit and multiplication formula. The lower minimal
-resolutions, derived triangle and full homological profile remain open.
+split coordinates, unit and multiplication formula. The subsequent
+[specified lower-algebra resolution](003-arc-one-parameter/proof/mathlib/LowerAlgebraCategoricalResolution.README.md)
+constructs actual projective corner terms, all-degree exactness and an
+augmentation quasi-isomorphism. Over characteristic-two fields with every
+1+q^m nonzero for positive m, every positive actual self-Ext of the lower
+f-character vanishes. This does not require q itself to be nonzero.
+The regular-target Ext calculation, derived triangle and full
+twenty-dimensional self-Ext profile remain open.

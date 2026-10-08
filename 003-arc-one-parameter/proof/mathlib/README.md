@@ -8,8 +8,13 @@ homological profile are separate in that source. The
 [explicit dual extension construction](TwentyDimTrivialExtension.README.md)
 now supplies the actual kernel/dual equivalence, both lower multiplication
 actions, and the whole algebra's split coordinates, unit and multiplication.
-Lower minimal resolutions, derived triangles and the full profile remain
-open.
+[The specified lower-algebra resolution](LowerAlgebraCategoricalResolution.README.md)
+now constructs the actual projective Ce/Cf corners, whole multiplication
+maps, all-degree kernel/image equalities and an augmentation
+quasi-isomorphism. It proves every positive actual lower-character
+self-Ext vanishes under the stated nonzero power factors, without
+requiring q itself nonzero. The regular-target Ext calculation, derived
+triangle and the full twenty-dimensional profile remain open.
 
 `BitPolynomial.lean` connects the exact scalar operations imported from the frozen `../FiniteCore.lean` to `Polynomial (ZMod 2)` for **every natural-number code**, rather than a bounded test range.
 

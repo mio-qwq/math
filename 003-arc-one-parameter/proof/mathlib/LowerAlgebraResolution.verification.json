@@ -1,0 +1,25 @@
+{
+  "source": "LowerAlgebraResolution.lean",
+  "source_sha256": "2573030c451c1e77aec2b2f499ff5acf20759bdb17b4ef476b3601cab2aba2cb",
+  "printed_audit_count": 24,
+  "scope": "Actual lower-image algebra left corners, six/four coefficient bases and equivalences, actual C-linear right multiplication by u/ell_n with whole-vector formulas and all-degree kernel-image equalities with explicit preimages",
+  "coefficient_ring_requirement": "Corner and coordinate identities: commutative ring of characteristic two, arbitrary q. Kernel-image equalities: field of characteristic two with precisely the stated adjacent nonzero power factors; q itself need not be nonzero.",
+  "kernel_image_all_degrees_proved": true,
+  "categorical_resolution_in_this_source": false,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "canonical_replay_review",
+  "compilation_exit_code": 0,
+  "independent_replay_actor": "primary",
+  "independent_replay_exit_code": 0,
+  "warnings": 0,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "complete_arc_formalized": false,
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false
+}

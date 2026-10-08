@@ -8,8 +8,15 @@ is extended by an [explicit dual construction](proof/mathlib/TwentyDimTrivialExt
 the actual kernel is R-linearly equivalent to the lower algebra's dual
 with both lower multiplication actions intertwined. The whole algebra's
 split coordinates have an explicit inverse, unit and complete mixed
-multiplication formula. Lower minimal resolutions, the derived triangle
-and the remaining all-degree self-Ext profile are still open.
+multiplication formula. A
+[specified lower-algebra projective resolution](proof/mathlib/LowerAlgebraCategoricalResolution.README.md)
+now retains the actual Cf term in degree zero, Ce in every positive
+degree, right multiplication by u and ell_n, and the actual character
+augmentation. Its all-degree exactness, projectivity and augmentation
+quasi-isomorphism give vanishing of every positive actual self-Ext of
+this lower f-character over characteristic-two fields with every
+1+q^m nonzero for positive m. The regular-target Ext calculation,
+derived triangle and full twenty-dimensional self-Ext profile remain open.
 
 This directory contains two verified components and one explicitly conditional
 application:
