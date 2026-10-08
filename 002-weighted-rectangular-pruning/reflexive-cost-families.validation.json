@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Written complete proofs for proportional nonnegative original costs on a full common grid with arbitrary reflexive relations, and a nonproportional exchange family on two paths; actual covers/pruning, zero values and sharp examples",
+  "general_theorem_lean_formalized": false,
+  "unrestricted_local_cost_sufficiency_proved": false,
+  "source_sha256": {
+    "reflexive-cost-families.md": "f10cd2d9a481b01d7a6e5f140dc7859dded512ce7b3b62c47aeb28dc2f56b4d1",
+    "code/check_reflexive_cost_families.py": "fa5c00ede57037b05068742ed37dc1f1d18992b79c255e44e87269852a8c627c",
+    "code/check_reflexive_independent.py": "7176b4729cf3321db398a92a4354d3cedf87000cc6a60b04b8257343c6028015",
+    "examples/reflexive-cost-families.json": "2f1542046c9cb0bf495d30e546a06825a3e230c6695585796d68161b42cc164d"
+  },
+  "analytical_proof_independently_reviewed": true,
+  "fixtures_checked": 12,
+  "damaged_certificates_rejected": 7,
+  "independent_primary_replay": {
+    "exit_code": 0,
+    "public_constructor_or_checker_imports": 0,
+    "fixtures_checked": 12,
+    "maximum_original_vertices_for_subset_enumeration": 8,
+    "deletion_subsets_inspected": 2069,
+    "general_optimality_asserted": false
+  },
+  "commands_run": [
+    {
+      "command": "python -B code/check_reflexive_cost_families.py examples/reflexive-cost-families.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B -O code/check_reflexive_cost_families.py examples/reflexive-cost-families.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B code/check_reflexive_cost_families.py --self-test",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B code/check_reflexive_independent.py",
+      "exit_code": 0
+    }
+  ],
+  "historical_novelty_checked": false
+}

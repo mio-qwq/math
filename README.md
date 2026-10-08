@@ -42,6 +42,13 @@ product costs when either relation is a disjoint union of complete
 bipartite blocks. Its general proof is written analytically; the exact
 certificate implementation has separate checks and is not a Lean proof.
 
+Two [reflexive local-cost families](002-weighted-rectangular-pruning/reflexive-cost-families.md)
+also have explicit cover and pruning constructions when both relations
+may be nonblock. They treat proportional complete-grid costs and a
+nonproportional exchange family on two paths. Their parameter-wide proofs
+are written, with separate exact fixture checks; arbitrary independent
+costs remain open.
+
 For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
 now eliminates the binary pattern and constructs every nonroot solution
 from a compatible rectangle of a cyclic root seed and one unit phase.

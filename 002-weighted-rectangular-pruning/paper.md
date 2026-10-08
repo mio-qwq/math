@@ -208,3 +208,12 @@ The included examples are a sharp four-vertex instance, a rational rectangular i
 ## 7. Limits and further questions
 
 The theorem removes the requirement that both coordinate moves arise from a common relation, and allows four distinct weight systems, including zero weights. It does not permit arbitrary independently specified costs on pair vertices. We have given equality witnesses, rather than classified all equality cases. A characterization of those cases or a genuinely broader class of compatible nonproduct costs would be a further problem. This note makes no assertion that the underlying second-neighborhood conjecture has been independently formalized here.
+
+Separate subsequent notes establish a [finite-threshold construction for
+compatible pair costs when either relation is a union of complete
+bipartite blocks](compatible-pair-costs.md) and [two complete-grid cost
+families on reflexive relations](reflexive-cost-families.md). The latter
+allows both relations to be nonblock, with proportional original tables
+or a specified nonproportional exchange family. These are additional
+written theorems with their own hypotheses and exact checks; the local
+condition for arbitrary independently specified costs remains open.

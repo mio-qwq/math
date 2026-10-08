@@ -140,3 +140,12 @@ has a complete written finite-threshold proof for a disjoint-biclique
 relation and arbitrary locally compatible nonnegative pair costs. Its
 Python certificates verify concrete cover/pruning feasibility and bounds;
 the general theorem is not yet formalized in Lean.
+
+The [002 reflexive cost-family theorems](002-weighted-rectangular-pruning/reflexive-cost-families.md)
+are also analytical proofs: proportional costs on complete grids for any
+two reflexive relations, and a nonproportional exchange family on two
+four-vertex paths. Actual covers, true uncovered sets and all zero-cost
+cases are included. Twelve rational fixtures, seven damaged-certificate
+rejections and an independent bounded deletion-subset replay validate the
+concrete certificates. These do not replace the parameter-wide proofs or
+establish a general arbitrary-cost theorem in Lean.

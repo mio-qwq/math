@@ -16,6 +16,15 @@ This extension has a complete written proof and an independent exact
 certificate checker; it is not Lean-formalized, and sufficiency of the
 local condition for arbitrary pairs of relations remains open.
 
+[Two reflexive cost families](reflexive-cost-families.md) now supply
+constructions when both relations may be nonblock: arbitrary reflexive
+relations on a common complete grid with proportional original tables,
+and a nonproportional exchange family on two four-vertex paths. Three
+explicit covers suffice for the first family; a weighted local witness
+proves that deleting all originals suffices for the second. These written
+proofs include zero costs and the actual uncovered sets. They do not
+settle arbitrary independent original costs.
+
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 
 ## Reproduce
@@ -33,6 +42,8 @@ python code/stress.py
 python code/check_nonproduct.py examples/nonproduct.json
 python -B code/check_compatible_pair_costs.py examples/compatible-pair-costs.json
 python -B code/check_compatible_rectangular.py
+python -B code/check_reflexive_cost_families.py examples/reflexive-cost-families.json
+python -B code/check_reflexive_independent.py
 ```
 
 The checker independently rebuilds all conflicts, cross-corners, and network arcs. It verifies exact capacity/conservation constraints, equality of flow value and cover cost, the cover bound, and the pruning bound. A supplied flow and equal-cost cover certify the minimum cover, with no need to trust the search program. These finite checks support reproducibility; the mathematical theorem is proved in `paper.md`.
