@@ -1,0 +1,7 @@
+'MUBTriplets.CubeRootGramMatching.cross_mode_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.CubeRootGramMatching.cross_mode_zero_of_actual_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CubeRootGramMatching.opposite_mode_normSq_of_actual_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

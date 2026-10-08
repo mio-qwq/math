@@ -110,3 +110,9 @@ audited statements factor the actual block determinants and construct four
 actual inverse matrices with all eight multiplication equations. No extra
 mode bounds, nonzero modes or inverses are assumed. Phase retrieval and the
 full Gram-to-product-cancellation theorem remain written mathematics.
+
+The [opposite block power proof](mode-power-matching.md) derives matching
+Fourier powers of a/e and b/c from the same actual Gram equation, with
+three further independently replayed Lean audits. Flatness, block inverses
+and a second Gram equation are unnecessary. Autocorrelation/ratio multiset
+retrieval, including repeated roots, remains the next formal step.

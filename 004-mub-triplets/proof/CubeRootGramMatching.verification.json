@@ -1,0 +1,111 @@
+{
+  "source_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72",
+  "source_after_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72",
+  "start_utc": "2026-10-08T13:23:49.9578572+00:00",
+  "end_utc": "2026-10-08T13:24:05.7194982+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 3,
+  "expected_audits": 3,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CubeRootGramMatching.cross_mode_polynomial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CubeRootGramMatching.cross_mode_zero_of_actual_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.CubeRootGramMatching.opposite_mode_normSq_of_actual_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "CubeRootGramMatching.lean",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "audit": "CubeRootGramMatching.audit.txt",
+  "audit_sha256": "c5d59b5b0ebad4f7a5b67a9a0007aac5627103fc0bcda8d881988f58ccc8dd13",
+  "scope": "Actual single six-by-six four-circulant column Gram implies cross-mode orthogonality and opposite block mode norm-square matching at every cube root",
+  "actual_gram_to_opposite_mode_powers_formalized": true,
+  "flatness_assumed": false,
+  "second_gram_equation_assumed": false,
+  "block_inverses_assumed": false,
+  "mode_matching_assumed_as_input": false,
+  "phase_retrieval_classification_formalized": false,
+  "hadamard_gram_to_product_cancellation_formalized": false,
+  "general_mub_conjecture_resolved": false,
+  "historical_mathematical_originality_established": false,
+  "independent_replay": {
+    "source_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72",
+    "source_after_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72",
+    "start_utc": "2026-10-08T13:25:41.0829144+00:00",
+    "end_utc": "2026-10-08T13:25:56.7271247+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 3,
+    "expected_audits": 3,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CubeRootGramMatching.cross_mode_polynomial",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CubeRootGramMatching.cross_mode_zero_of_actual_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.CubeRootGramMatching.opposite_mode_normSq_of_actual_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "c5d59b5b0ebad4f7a5b67a9a0007aac5627103fc0bcda8d881988f58ccc8dd13"
+  },
+  "independent_mathematical_source_review": "PASS: actual cross-Gram entry directions, root polynomial, multiplicative norm equation and opposite-power elimination independently checked",
+  "project_import_sources": [
+    {
+      "source": "CubeRootGramModes.lean",
+      "source_sha256": "86f5c587cc0437823a07f243f8f5acd8e8d5bf043b62ac937f36ec930278dced"
+    },
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09"
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f"
+    }
+  ]
+}

@@ -155,8 +155,11 @@ Actual six-by-six Gram multiplication derives all four mode bounds; actual
 flatness excludes every zero mode, and actual determinant factorization
 constructs four block inverses with eight equations. Five plus three new
 audits close this supporting gap without assuming a mode bound or inverse.
-Phase retrieval, its repeated-root classification and the real-rank proof
-remain the next formal steps. These are classical supporting ingredients,
+Three additional [opposite-power audits](004-mub-triplets/mode-power-matching.md)
+now derive the actual a/e and b/c equal-power premise from the same Gram
+equation, without flatness, block inverses or a second Gram assumption.
+Autocorrelation reconstruction, ratio multisets with multiplicity, the six
+phase-retrieval alternatives and the real-rank proof remain the next formal steps. These are classical supporting ingredients,
 not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general
 MUB conjecture. Historical originality is not established.

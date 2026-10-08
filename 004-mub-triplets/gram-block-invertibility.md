@@ -17,6 +17,11 @@ historical originality is not established. Phase retrieval, its repeated-root
 classification, real-rank cases and full block-product cancellation remain
 unformalized. The general complete-companion symmetry/coupling question is open.
 
+The subsequent [opposite-power source](mode-power-matching.md) also derives
+matching powers of a/e and b/c from the single column Gram equation.
+That separate three-audit module supplies a premise for future phase retrieval;
+the classification itself remains unformalized.
+
 The [Gram source](proof/CubeRootGramModes.lean) defines the actual raw amplitude
 
     mode(a,theta)=a0+a1 theta+a2 theta²,    theta³=1.
