@@ -1,0 +1,14 @@
+'RectangularPruning.CyclicSixGraph.actual_local_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixGraph.gridSum_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixGraph.three_actual_covers' depends on axioms: [propext, Quot.sound]
+'RectangularPruning.CyclicSixGraph.exists_actual_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixGraph.uncovered_none_none' depends on axioms: [propext, Quot.sound]
+'RectangularPruning.CyclicSixGraph.not_uncovered_all_none' depends on axioms: [propext]
+'RectangularPruning.CyclicSixGraph.not_uncovered_none_all' depends on axioms: [propext]
+'RectangularPruning.CyclicSixGraph.every_original_has_conflict' depends on axioms: [propext]
+'RectangularPruning.CyclicSixGraph.exists_actual_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixGraph.unit_cover_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixGraph.unit_cover_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixGraph.no_smaller_cover_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

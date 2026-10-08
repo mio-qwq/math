@@ -4,6 +4,8 @@ The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; 
 
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [002/proof/mathlib/CyclicSixCosts.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixCosts.lean) | Twelve cyclic local real-cost inequalities imply the aggregate product inequality and a three-choice budget alternative, with zero original costs included | Arithmetic core on the three simultaneous-translation orbits; the actual graph connection is proved in the next file |
+| [002/proof/mathlib/CyclicSixGraph.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixGraph.lean) | Every actual conflict is equivalent to the orbit premises; actual covers and survivor prunings satisfy the bound on the full cyclic graph; unit costs prove cover coefficient one sharp | Full original families and invariant tables; partial families, exact nine-expression optimum and arbitrary asymmetric costs remain outside these Lean files |
 | [003/proof/mathlib/LowerAlgebraRegularHom.lean](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularHom.lean) | Actual Hom_C(Ce,C)/Hom_C(Cf,C) evaluation equivalences, complete left-multiplication Hom maps, adjacent kernel/image equalities, and the exceptional v cycle/nonboundary | Right corners are R-submodules, not left C-submodules; field/nonzero assumptions retained where used; actual Ext comparison is in the next source |
 | [003/proof/mathlib/LowerAlgebraRegularExt.lean](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularExt.lean) | Actual nonzero Ext_C²(s,C) class, degree0/1 vanishing, and with q nonzero all other degrees vanish; specified K-linear equivalence K to actual Ext2 and finrank1 | Characteristic-two fields with every 1+q^m nonzero; full profile requires q nonzero, generator nonzero does not. Formalizes an existing OpenAI/Tang lower-algebra calculation, not a new mathematical discovery |
 | [003/proof/mathlib/LowerAlgebraRegularRightAction.lean](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularRightAction.lean) | Whole v*c formula, explicit actual z boundary and genuine Ext postcomposition by regular right multiplication equals the lower f-character scalar action | Generator formula without q-nonzero; all-class formula uses q-nonzero plus the specified power condition. No separate bundled right-module equivalence, tensor-dual comparison or derived triangle |
@@ -278,11 +280,19 @@ the infinite-order k plus omega corollary. No new Lean compilation
 or axiom audit is asserted for these written results.
 
 The [002 invariant six-cycle theorem](002-weighted-rectangular-pruning/cyclic-six-costs.md)
-is a separate written result for two induced six-cycles with
-simultaneously translation-invariant independent costs. It proves
-the local-cost bound, its actual pruning consequence, the exact
-nine-expression augmented optimum and a precise coordinate-product
-domination criterion, with invariant partial families included in
-the bound. These statements are not Lean-formalized. No compile,
-axiom audit, executable checker or unrestricted-cost result is
-attributed to this source.
+is now partially formalized in
+[CyclicSixCosts.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixCosts.lean)
+and [CyclicSixGraph.lean](002-weighted-rectangular-pruning/proof/mathlib/CyclicSixGraph.lean).
+The former proves the twelve-local-to-aggregate inequality and
+three-choice criterion over real costs. The latter proves equivalence
+with every actual conflict, constructs actual covers and prunings
+using actual uncovered corners on the full 36-vertex graph, and
+proves the unit-cost lower bound and sharp cover coefficient.
+The 17 source audits use only subsets of the standard three axioms;
+source-specific verification records give author and independent
+replays. The actual existence results allow signed Z costs while
+X,Y,H remain nonnegative; they use explicit selections directly.
+The invariant partial-family extension, nine-expression optimum,
+product-domination criterion and general asymmetric-cost problem
+remain outside these Lean files. The older written-source review
+record is preserved and is not used as compilation evidence.

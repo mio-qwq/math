@@ -32,3 +32,9 @@ lean 002-weighted-rectangular-pruning/proof/SingleConflict.lean
 **Scope:** this formalizes the one-conflict exact classification and the scaled nonproduct obstruction. It does not formalize the arbitrary rectangular rank argument, weighted cover theorem, or general pruning theorem in `paper.md`.
 
 The additional [pinned Mathlib package](mathlib/README.md) removes the natural-cost restriction: it proves the real-cost threshold, exact attained cover minimum, actual two-positive-product construction, and the absence of any uniform finite repair coefficient. The general rectangular theorem remains separate.
+
+The same package also formalizes the full invariant six-cycle pair:
+twelve local constraints imply actual cover and pruning bounds on
+the 36-vertex graph, with its actual uncovered corners and sharp cover
+coefficient one. See `CyclicSixCosts.lean` and `CyclicSixGraph.lean`.
+The written partial-input and exact-optimum extensions remain separate.

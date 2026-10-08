@@ -1,0 +1,101 @@
+{
+  "source": "CyclicSixGraph.lean",
+  "source_sha256": "ecdcb014255ba803a42ed30ef3e67b42af8be70b0b11396a90f65c9a4c05d145",
+  "printed_audit_count": 12,
+  "scope": "Full actual cyclic graph: all-conflict/orbit equivalence, actual cover and survivor pruning with actual uncovered corners, full-input conflict witnesses and unit-cost sharp cover coefficient.",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compilation_actor": "primary",
+  "compilation_exit_code": 0,
+  "compilation_utc_start": "2026-10-08T09:36:24.0950025Z",
+  "compilation_utc_end": "2026-10-08T09:36:38.6659626Z",
+  "independent_replay_actor": "weighted_path_constructive",
+  "independent_replay_exit_code": 0,
+  "independent_replay_utc_start": "2026-10-08T09:38:17.5618883Z",
+  "independent_replay_utc_end": "2026-10-08T09:38:31.7166017Z",
+  "independent_replay_wrote_output_object": false,
+  "warnings": 0,
+  "errors": 0,
+  "axioms_union": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "declaration_axioms": {
+    "RectangularPruning.CyclicSixGraph.actual_local_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.gridSum_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.three_actual_covers": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.exists_actual_cover": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.uncovered_none_none": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.not_uncovered_all_none": [
+      "propext"
+    ],
+    "RectangularPruning.CyclicSixGraph.not_uncovered_none_all": [
+      "propext"
+    ],
+    "RectangularPruning.CyclicSixGraph.every_original_has_conflict": [
+      "propext"
+    ],
+    "RectangularPruning.CyclicSixGraph.exists_actual_pruning": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.unit_cover_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.unit_cover_sharp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RectangularPruning.CyclicSixGraph.no_smaller_cover_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "audit_output": "CyclicSixGraph.audit.txt",
+  "audit_output_sha256": "fd7357275481a768730fc31baf1e262090b0540164bf33c1c4fda7088438bc1e",
+  "uses_sorry": false,
+  "uses_native_decide": false,
+  "adds_axioms": false,
+  "cost_assumptions": "X and Y pointwise nonnegative; H also pointwise nonnegative for the selection and graph existence theorems. Z may be arbitrary real.",
+  "actual_graph_in_this_source": true,
+  "full_input_invariant_cover_pruning_formalized": true,
+  "cover_coefficient_sharpness_formalized": true,
+  "arbitrary_pruning_sharpness_formalized": false,
+  "invariant_partial_inputs_formalized": false,
+  "exact_nine_expression_optimum_formalized": false,
+  "coordinate_product_domination_criterion_formalized": false,
+  "general_asymmetric_costs_formalized": false,
+  "chordal_bipartite_theorem_formalized": false,
+  "historical_novelty_established": false,
+  "mathematical_provenance": "The preceding cyclic-six-costs.md written theorem in this repository, signed commit 8e1c95ab245c8d88b001f1f692eb3eaea4563051. This commit adds Lean formalization, without a new mathematical-priority claim.",
+  "local_dependency": {
+    "source": "CyclicSixCosts.lean",
+    "source_sha256": "2d9b9030114ba80cd1d2ab74e04f92e59c4c6d8b5f826d70a1f94a9bab4761e5",
+    "author_built_olean_sha256": "75d05a3d688f30e2d35bc1a559aa4d6b087c5a7d205cdca1354b81f527a36850",
+    "independent_dependency_source_recompiled_before_graph": true
+  }
+}

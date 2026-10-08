@@ -1,5 +1,50 @@
 # Real costs and the unbounded two-product obstruction
 
+## Cyclic six-cycle independent costs
+
+`CyclicSixCosts.lean` proves that all twelve cyclic local inequalities
+imply the aggregate product bound for three-entry real cost tables.
+The original tables are independent and may contain zeros. A scalar
+lemma then supplies one of three feasible cost alternatives.
+
+`CyclicSixGraph.lean` connects this to the actual full graph. Its four
+separate Boolean selections represent nine R, nine C and the two
+nine-corner Z copies. `ActualLocal` quantifies over every actual
+conflict and is proved equivalent to the twelve orbit conditions.
+`gridSum` sums all nine coordinates of a family explicitly.
+The file constructs an actual cover and conflict-free surviving
+originals with the bound using their actual `Uncovered` corners.
+Every full-input original has an opposite conflict witness. At unit
+costs, the two diagonal coverage matchings give a lower bound of 18;
+the all-original cover attains it, so no coefficient below one works.
+
+The cover/pruning existence statements need only nonnegative X, Y
+and H; Z may even be real-valued, because their proofs directly use
+three explicit selections. In particular all independent nonnegative
+costs in the full invariant theorem are covered. This stronger signed-Z
+scope does not assert a general minimum-cover completion identity
+for arbitrary signed costs.
+
+The written note's partial-family extension, exact nine-expression
+optimum, product-domination criterion and non-dominated family remain
+outside these two Lean files. General asymmetric costs and the
+chordal-bipartite theorem are also outside their formalized scope.
+The two source-specific `.verification.json` records report actual
+author and independent compiler results and all 17 axiom audits.
+
+From this directory, the additional replay commands are:
+
+```sh
+lake env lean -o CyclicSixCosts.olean CyclicSixCosts.lean
+LEAN_PATH=. lake env lean CyclicSixGraph.lean
+```
+
+In PowerShell, set `$env:LEAN_PATH = (Get-Location).Path` before
+compiling the graph file and restore the previous value afterward.
+The local dependency must be built from the supplied source first.
+
+## Single-conflict classifications
+
 `SingleConflictReal.lean` proves the complete single-conflict criterion over arbitrary **real** costs, including zero and irrational costs. Cover statements require only a nonnegative corner cost; the pruning equivalence is valid without sign assumptions.
 
 The exact threshold is `min x (min y (x + y - z))`. The file proves both feasibility equivalences, equality of cover and pruning criteria, the exact attained cover minimum, and the concrete `101/100,101/100,1/5,1/5` counterexample as the sum of two explicitly positive product systems.

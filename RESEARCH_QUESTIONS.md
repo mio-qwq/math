@@ -19,7 +19,7 @@ specific comparison establishes otherwise.
 | R001.2 | Proposed realization question: which even m>2 admit a cyclic GH(m,2) seed with a compatible balanced rectangle? | Unresolved here. The phase-circle construction is proved conditional on that seed; it is not an existence theorem at every order |
 | R002.1 | Existing research: independent nonnegative costs satisfying xy<=hz only at actual conflicts | Proved in writing when either coordinate relation is [chordal bipartite](002-weighted-rectangular-pruning/chordal-bipartite-costs.md), the other arbitrary. Includes partial families and sharp coefficient one; full Lean remains incomplete |
 | R002.2 | Proposed extension: does the same coefficient-one bound hold for arbitrary pairs of finite relations? | Unresolved here. This is our precise extension question, without a claim that no equivalent theorem exists in the literature |
-| R002.3 | Proposed first obstruction/test: both coordinate relations are induced six-cycles | [Proved for simultaneously translation-invariant independent costs](002-weighted-rectangular-pruning/cyclic-six-costs.md), with exact weighted optimum and a non-product-dominated infinite family. Arbitrary asymmetric costs remain unresolved here; the chordal theorem does not cover this pair |
+| R002.3 | Proposed first obstruction/test: both coordinate relations are induced six-cycles | [Proved for simultaneously translation-invariant independent costs](002-weighted-rectangular-pruning/cyclic-six-costs.md); [Lean](002-weighted-rectangular-pruning/proof/mathlib/README.md) now proves the full-input actual cover/pruning bound and sharp cover coefficient. Exact optimum, invariant partial inputs and the non-dominated infinite family remain written results. Arbitrary asymmetric costs remain unresolved here |
 | R002.4 | Proposed convexification of product costs by adding two positive product systems | Refuted: [the exact single-conflict obstruction](002-weighted-rectangular-pruning/boundary.md) also proves that no finite uniform coefficient repairs this extension. These summed costs need not satisfy R002.1's local condition |
 | R002.5 | Literature question: can the local-conflict theorem be derived from a known four-functions, mincut or correlation inequality? | Under comparison. The universal all-pair premise of Ahlswede–Blinovsky's function-space theorem is stronger than the direct local-conflict substitution; a deeper equivalence remains possible |
 | R003.1 | Prior lower-algebra resolutions and Ext calculations | Actual Lean implementations are complete within their stated assumptions; [attribution](003-arc-one-parameter/ATTRIBUTION.md) identifies OpenAI and Tang's prior mathematical conclusions. These are formalization contributions |
@@ -79,6 +79,11 @@ invariant inputs and an infinite positive family with no common
 coordinate-product domination. Arbitrary partial patterns need not
 preserve the symmetry, and neither they nor general asymmetric
 costs are covered by that theorem.
+
+The full-input bound now has Lean proofs from all actual local
+constraints through actual covers and actual uncovered-corner pruning,
+including the unit-cost cover sharpness witness. The written exact optimum
+and invariant partial-input extension are not formalized by those files.
 
 The current preservation lemma normalizes attached pivots using
 nested old neighborhoods. In a six-cycle the two neighbors of

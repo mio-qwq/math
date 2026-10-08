@@ -120,8 +120,11 @@ the local inequalities. A positive infinite family lies outside
 common coordinate-product domination, for which an exact criterion
 is proved. Invariant partial families are included in the bound;
 general asymmetric costs and arbitrary partial patterns remain
-unresolved. This is written mathematics, without a Lean or new
-executable-certificate claim.
+unresolved. The [Lean construction](proof/mathlib/README.md) now proves
+the full-input invariant cover and actual pruning bounds, including
+zeros and the sharp cover coefficient. Its actual graph is linked to
+all twelve local orbit constraints. The exact optimum, partial inputs
+and domination criterion remain written results.
 
 [boundary.md](boundary.md) proves that the product assumption cannot be convexified: a sum of two strictly positive product systems already violates both conclusions on one conflict, and no uniform finite coefficient can repair either extension. The obstruction has exact cover and pruning ratios, and its rational family has a complete written proof. The separate exact checker enumerates all covers and feasible prunings of the displayed numerical instance and checks a matching flow certificate. The finite stress results actually run for the main theorem are recorded in [validation.json](validation.json).
 

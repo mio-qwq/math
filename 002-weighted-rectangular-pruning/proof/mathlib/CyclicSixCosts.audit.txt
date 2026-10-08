@@ -1,0 +1,5 @@
+'RectangularPruning.CyclicSixCosts.twice_min_le_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixCosts.add_sub_min_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixCosts.local_aggregate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixCosts.scalar_cover_alternative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RectangularPruning.CyclicSixCosts.local_cover_alternative' depends on axioms: [propext, Classical.choice, Quot.sound]
