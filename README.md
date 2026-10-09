@@ -1,218 +1,87 @@
-# Mathematical research notes and verification artifacts
+# 数学研究笔记与验证成果
 
-This repository records explicit mathematical statements, complete proofs where available, and reproducible exact checks. The status of each result is stated separately from its computational or formal verification status. No claim of historical priority is made.
+本仓库记录准确的数学命题、已经完成的完整证明，以及可复现的精确验证。每项成果分别说明数学证明状态和计算、形式化验证状态。历史首创性尚未确立，本仓库不作优先权声明。
 
-## Results
+## 成果概览
 
-| Note | Mathematical scope | Verification scope |
+| 项目 | 数学成果范围 | 验证范围与尚存缺口 |
 | --- | --- | --- |
-| [001 — Power Hadamard rigidity and classification](001-odd-half-order-hadamard/README.md) | Odd-half-order rigidity, exhaustive all-half-order phase classification, and finite graph models before and after standard matrix equivalence | Complete written proofs, exact examples and Lean support/block obstructions; the full matrix classification and quotient topology are not yet formalized |
-| [002 — Weighted rectangular pruning](002-weighted-rectangular-pruning/README.md) | Product-weighted bounds for arbitrary relations, sharp independent local-cost bounds when either relation is chordal bipartite, and a simultaneous-translation-invariant theorem with exact weighted optimum on two induced six-cycles; no finite uniform coefficient works for sums of two positive product systems | Lean proves the full invariant six-cycle actual cover/pruning bound and sharp cover coefficient, alongside single-conflict criteria and the unbounded obstruction. The chordal theorem, invariant partial-input extension and exact nine-expression optimum remain written results |
-| [003 — ARC core certificate and extension spectra](003-arc-one-parameter/README.md) | Finite polynomial identities, an abstract spectrum theorem, and a written finite triangular construction with its full Tate algebra for every twist-ratio order, including the equal-twist seam; the construction is not a complete Lean certificate | Lean constructs the actual algebra, perfect trace, specified all-degree projective resolution and nonzero actual f-character Ext³ when q³ is nonzero, with full inverse-twist chain comparison and canonical Ext transport in every degree. General exact-functor/extMk naturality identifies the mapped-resolution class with its canonical image; the canonical action on the fixed Ext³ class has inverse-unit weight. Transport preserves all graded Yoneda compositions and the identity, and the actual m-fold class in Ext^(3m) has weight H^(-m), with its actual second power now proved nonzero when q^4 is nonzero, while powers at least three remain open in Lean. The actual f-character module is neither projective nor injective when q³ is nonzero. Over characteristic-two fields the algebra is self-injective and every positive Ext(M,A) vanishes. The full self-Ext profile, tensor-square realization and complete ARC remain open in Lean |
-| [004 — MUB companion compatibility](004-mub-triplets/README.md) | Complete companions as fixed-spectrum Hermitian moment witnesses; an exact fixed-companion matching test and obstruction; existence of the extra anticommutation witness iff fixed-partition four-circulantization, with a finite phase test. The companion construction is classical Zauner theory | Lean proves six-weight reconstruction, actual matrix anticommutation versus matching support, the complete fixed-pairing Hermitian unitary phase family, actual circulant matrix/adjoint character formulas, unit-triple zero-mode obstruction, actual Gram-to-mode bounds, four two-sided actual block inverses, opposite block Fourier powers/cyclic correlations and ratio multisets with multiplicity and actual cyclic-shift/adjoint phase reconstruction and product cancellation given either genuine adjoint alternative, the actual flat-triple real-mode product-square theorem, and complete actual flat-Gram product cancellation with both first/cubic characters zero for the displayed four-circulant blocks, with source-specific compiler and axiom records. A further closed Lean construction proves a complete normalized actual MUB triplet with cubic characters 0 and (243-351i)/125 at the same displayed partition; this refutes the stronger both-zero requirement, while its original conjectured product stays zero. General companion conjugation, shared matching selection and general cubic/adjoint coupling remain unformalized |
-| [005 — Directed cycle packing](005-directed-cycle-packing/README.md) | A classical arc-domination feedback-set obstruction and a written seven-point feedback-set corollary for the original four-cycle target; historical novelty unestablished | Lean proves every acyclic deletion set has size greater than the positive minimum out-degree in an oriented arc-dominated digraph. The packing reduction and general Bermond–Thomassen k=4 remain unformalized |
+| [001 — Hadamard 矩阵逐项幂的刚性与分类](001-odd-half-order-hadamard/README.md) | 奇数半阶刚性、所有半阶情形的穷尽相位分类，以及标准矩阵等价前后的有限图模型 | 已有完整书面证明、精确实例和 Lean 支持集／分块障碍证明；完整矩阵分类与商空间拓扑尚未形式化 |
+| [002 — 加权矩形剪枝](002-weighted-rectangular-pruning/README.md) | 任意关系上的乘积权重界；任一关系为弦二部图时独立局部成本的尖锐界；两个诱导六圈上同时平移不变的定理及精确加权最优值；两个正乘积系统之和不存在有限统一系数 | Lean 已证明不变六圈完整输入上的实际覆盖／剪枝界与尖锐覆盖系数，以及单冲突判据和无界障碍。弦二部图定理、不变的部分输入推广、九个表达式给出的精确最优值仍为书面成果 |
+| [003 — ARC 核心证书与扩张谱](003-arc-one-parameter/README.md) | 有限多项式恒等式、抽象谱定理，以及覆盖所有扭曲比阶数（包括等扭曲情形）的有限三角构造及完整 Tate 代数；该构造尚不是完整 Lean 证书 | Lean 已构造实际代数、完美迹、指定的全次数投射分解，并在 q³ 非零时证明实际 f-特征的 Ext³ 非零，包含所有次数的逆扭曲链比较与典范 Ext 传递。正合函子／extMk 的自然性将映射后分解的类与典范像对应；固定 Ext³ 类的典范作用具有逆单位权重。传递保持所有分次 Yoneda 复合和单位；实际 m 次幂位于 Ext^(3m)，权重为 H^(-m)，并已在 q^4 非零时证明二次幂非零，三次及以上幂仍未在 Lean 中解决。q³ 非零时实际 f-特征模既非投射也非内射。在特征二的域上，代数自内射，所有正次数 Ext(M,A) 消失。完整 self-Ext 谱、张量平方实现与完整 ARC 仍未在 Lean 中完成 |
+| [004 — MUB 伴随基相容性](004-mub-triplets/README.md) | 将完整伴随基表述为固定谱 Hermitian 矩阵的矩见证；固定伴随基的精确匹配判据及障碍；额外反对易见证的存在性等价于固定分划下的四循环分块化，并有有限相位判据。伴随基构造属于经典 Zauner 理论 | Lean 已证明六权重重建、实际矩阵反对易与匹配支持的等价、固定配对的完整 Hermitian 酉相位族、实际循环矩阵及其伴随的特征标公式、单位三元组的零模障碍、实际 Gram 到模式的界、四个实际分块的双侧逆、相对分块的 Fourier 幂／循环相关、保留重数的比值多重集、实际循环平移／伴随相位重建，以及在任一真实伴随分支下的乘积消去；另有实际平坦三元组的实模式乘积平方定理，和所示四循环分块的完整实际平坦 Gram 消去及一阶／三阶特征标零值。各源码有单独的编译和公理记录。进一步的封闭 Lean 构造给出完整归一化实际 MUB 三元组，在同一所示分划下三阶特征标为 0 与 (243-351i)/125；它否定更强的“两者均为零”要求，原猜想要求的乘积仍为零。一般伴随基共轭、共同匹配选择及一般三阶／伴随耦合尚未形式化 |
+| [005 — 有向圈打包](005-directed-cycle-packing/README.md) | 经典弧支配反馈集障碍，以及针对原始四圈目标的七点反馈集书面推论；历史新颖性未确立 | Lean 已证明：在弧支配的定向图中，任何删后无圈的顶点集，其大小都严格大于正的最小出度。打包归约与一般 Bermond–Thomassen k=4 猜想尚未形式化 |
 
-## Reproduction
+## 复现与证据
 
-The [seven-core short-cycle substitution note](notes/seven-core-short-cycle-substitution.md)
-determines a sharp minimum-outdegree ratio, `260889/805108`, for a specified
-triangle-free `T9`-free family with seven nonempty clusters and uniform internal
-blow-ups. Its exact optimum rules out this whole family as a source of the
-discussed counterexamples. The graph classification is written mathematics;
-three Lean declarations verify the algebraic bound, positive equality witness
-and strict gaps. Neither general short-cycle conjecture is resolved.
+[七点核心短圈替换笔记](notes/seven-core-short-cycle-substitution.md)确定了一个指定图族的尖锐最小出度比 `260889/805108`：图族无有向三圈、无传递锦标赛 `T9`，七个簇均非空，每个簇内部采用统一吹胀。精确最优值排除了整个图族作为所讨论反例的来源。图的分类为书面证明；三个 Lean 声明验证代数界、正的等号见证和严格间隙。相关的一般短圈猜想均未解决。
 
-See [FORMALIZATION.md](FORMALIZATION.md) for the exact Lean statements, commands, and remaining boundaries.
+准确的 Lean 声明、运行命令和剩余边界见 [FORMALIZATION.md](FORMALIZATION.md)。
 
-The [research questions and results register](RESEARCH_QUESTIONS.md)
-distinguishes prior theorems, source-stated conjectures, proposed
-extensions, proved or refuted statements, and remaining formalization
-gaps. Literature status and proof status are recorded separately.
+[研究问题与成果记录](RESEARCH_QUESTIONS.md)区分已有定理、文献公开提出的猜想、自主提出的推广、已证明或证伪的命题，以及剩余形式化缺口。文献状态与证明状态分别记录。
 
-The [public open-problem candidate review](OPEN_PROBLEM_CANDIDATES.md)
-records source-stated targets for seven-cycle Shannon capacity,
-five-dimensional kissing numbers and SIC Galois compatibility.
-These are research questions, not new bounds or solved conjectures.
+[公开开放问题候选审查](OPEN_PROBLEM_CANDIDATES.md)记录了文献中的七圈 Shannon 容量、五维接吻数和 SIC 的 Galois 相容性目标。这些是研究问题，尚不构成新界或已解决猜想。
 
-Each note has its own README and fixed inputs. Python checkers use exact arithmetic and the standard library. Lean is pinned by `lean-toolchain` to `leanprover/lean4:v4.34.1`. Most certificates use its bundled `Std` library; each additional `proof/mathlib` package pins Mathlib and its dependencies.
+各项目有自己的 README 和固定输入。Python 检查器使用精确运算及标准库。`lean-toolchain` 将 Lean 固定为 `leanprover/lean4:v4.34.1`。多数证书使用其自带 `Std` 库；额外的 `proof/mathlib` 包各自固定 Mathlib 及依赖版本。
 
-For example, from the repository root:
+例如，在仓库根目录运行：
 
 ```sh
 lean 001-odd-half-order-hadamard/proof/Parity.lean
 ```
 
-## Provenance and limitations
+## 来源与局限
 
-The starting point is [OpenAI's public mathematical collection](https://github.com/openai/math), snapshot `adc7f1241b42e322a6451854ab7e4b4c146bf78a`. Each note identifies the exact source and distinguishes the prior statement from the extension or checking work recorded here. Reading a source, running finite examples, and checking a portion in Lean do not amount to verification of all its surrounding claims.
+研究起点为 [OpenAI 公开数学合集](https://github.com/openai/math)，快照 `adc7f1241b42e322a6451854ab7e4b4c146bf78a`。各笔记注明准确来源，区分已有陈述与本仓库记录的推广或验证工作。阅读文献、运行有限实例，以及在 Lean 中验证一部分内容，并不等于验证了其周围的全部结论。
 
-Literature review and external mathematical review remain open. Correctness and precise disclosure of verification scope take precedence over claims of novelty.
+文献查重与外部数学审查仍需继续。正确性和准确披露验证范围优先于新颖性声明。
 
-For 003, a [conditional resonant multiplication theorem](003-arc-one-parameter/resonant-yoneda-algebra.md)
-now goes beyond the dimension spectrum: the positive Yoneda algebra,
-with only its scalar degree-zero identity adjoined, is a Veronese
-algebra plus its shifted positive ideal with square-zero multiplication.
-The proof retains explicit polynomial and bimodule action hypotheses.
-It is written mathematics with independent proof reviews. A separate
-[finite construction proof](003-arc-one-parameter/finite-resonant-realization.md)
-now establishes those multiplicative hypotheses over characteristic-two
-fields with an infinite-order base parameter, using a fixed finite
-target, actual side-projective kernel and both natural branch actions.
-For example, F_4(t) supplies ratio order three and first self-extensions
-in degrees nine and ten. This reconstruction is written mathematics;
-the full construction in Lean and the entire ordinary degree-zero ring
-remain separate. The [full Tate calculation](003-arc-one-parameter/finite-resonant-tate-algebra.md)
-now treats the same actual module for ratio order d>1. It determines
-the negative contraction module, all mixed products, stable degree
-zero and the exceptional degree-minus-one square-zero class.
-The [order-one proof](003-arc-one-parameter/order-one-tate-algebra.md)
-now closes its secondary products using explicit bottom lifts and
-associativity. Stable degree zero is the dual numbers for equal
-twists, and k otherwise. The finite-order formula now covers every
-possible order; infinite ratio gives k plus the square-zero
-degree-minus-one omega line.
+## 003：构造、乘法与同调结构
 
-For 003, the constructed all-degree suffix lift now gives a closed actual
-degree-six cup Hom. An explicit six-letter witness proves that its
-specified Ext^6 class is nonzero when q^4 is nonzero, including every
-nonzero q over a characteristic-two field. The constructed whole shifted
-comparison now identifies it with the actual Yoneda square of the fixed
-third Ext class and its defined second power. Powers at least three,
-the complete self-Ext profile and ARC realization are still open in Lean.
+[条件性共振乘法定理](003-arc-one-parameter/resonant-yoneda-algebra.md)超越了维数谱：仅添入标量零次单位的正次数 Yoneda 代数，是 Veronese 代数与其平移后的正次数理想之和，后者乘法平方为零。证明保留明确的多项式与双模作用假设，属于经过独立证明审查的书面数学。
 
-For 002, a [compatible pair-cost theorem](002-weighted-rectangular-pruning/compatible-pair-costs.md)
-now gives a finite-threshold cover and pruning construction beyond
-product costs when either relation is a disjoint union of complete
-bipartite blocks. Its general proof is written analytically; the exact
-certificate implementation has separate checks and is not a Lean proof.
+[有限构造证明](003-arc-one-parameter/finite-resonant-realization.md)在特征二、具有无限阶基础参数的域上，通过固定有限目标、实际侧投射核和两个自然分支作用，建立上述乘法假设。例如，F_4(t) 给出阶数为三的比值，首次自扩张出现在次数九和十。完整 Lean 构造与整个普通零次环仍是另外的任务。
 
-Two [reflexive local-cost families](002-weighted-rectangular-pruning/reflexive-cost-families.md)
-also have explicit cover and pruning constructions when both relations
-may be nonblock. They treat proportional complete-grid costs and a
-nonproportional exchange family on two paths. Their parameter-wide proofs
-are written, with separate exact fixture checks.
+[完整 Tate 计算](003-arc-one-parameter/finite-resonant-tate-algebra.md)处理同一实际模在比值阶数 d>1 时的情形，确定负次数收缩模、全部混合乘积、稳定零次，以及特殊的次数负一平方零类。[阶数一的证明](003-arc-one-parameter/order-one-tate-algebra.md)利用明确的底部提升与结合律补齐次级乘积。等扭曲时稳定零次为对偶数环，否则为 k。有限阶公式已覆盖所有可能阶数；比值无限阶时得到 k 加上次数负一的平方零 omega 直线。
 
-The [binary-coordinate theorem](002-weighted-rectangular-pruning/double-path-independent-costs.md)
-now removes every restriction on the independent cost tables for two
-four-vertex paths, apart from the nine local inequalities. Its fifteen
-candidate deletions compute the exact augmented optimum. Together with
-the block theorem and zero-cost padding, it settles all relations and
-partial original families on coordinate sets of size at most two.
-The proof is analytic and includes zero costs; arbitrary larger
-coordinate systems and the full Lean proof remain open.
+已构造的全次数后缀提升给出封闭的实际六次 cup Hom。明确的六字母见证在 q^4 非零时证明指定 Ext^6 类非零，包含特征二的域上所有非零 q。完整移位比较将该类与固定三次 Ext 类的实际 Yoneda 平方及其定义的二次幂对应。三次及以上幂、完整 self-Ext 谱与 ARC 实现仍未在 Lean 中完成。
 
-The [expanded-four-path theorem](002-weighted-rectangular-pruning/binary-one-side-costs.md)
-further permits arbitrarily large coordinates: one relation can be
-a union of complete blocks and complete four-path expansions, with
-the other entirely arbitrary. In particular only one coordinate
-relation needs binary sides. The construction controls the actual
-uncovered corners through a high-row threshold coupling and an
-effective-cost residual block, handles zero costs directly, and lifts
-through exact whole-group aggregation and partial-family restriction.
-This written theorem remains separate from the general arbitrary
-relation problem and its Lean formalization.
+[实际平方零分裂](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)构造每个标量对偶缩放自同态，包括到下层子代数的零投影。实际双侧核的乘法平方为零，代数作为相应 R-模分裂。该源码中的对偶双模识别和完整同调谱仍有独立边界。
 
-The subsequent [nested-component theorem](002-weighted-rectangular-pruning/nested-relation-costs.md)
-extends the independent local-cost construction to any finite number
-of nested neighborhood layers in every component of one relation,
-with the other arbitrary. Its suffix induction preserves residual
-local inequalities and lifts pooled zero-cost decisions to actual
-conflict-free survivors. Complete expansions, components and partial
-families are included. This sharp written theorem has a finite rational
-construction; unrestricted relations, its full Lean implementation
-and the original-literature comparison remain separate questions.
+[明确的对偶扩张构造](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)将实际核与下层代数的对偶识别，交织两个下层乘法作用，并给出全代数明确的分裂坐标、单位和乘法公式。
 
-The [right-leaf extension](002-weighted-rectangular-pruning/right-leaf-extension-costs.md)
-preserves this local-cost property when new right coordinates each
-have one left neighbor. It also permits complete group expansions,
-and reaches some relations with incomparable neighborhoods, including
-the five-vertex path oriented with two left and three right coordinates,
-against any other relation. The two-neighborhood corollary even permits
-any relation with at most two distinct left neighborhoods per component:
-only \(|P|\le2\), with I arbitrary, or \(|S|\le2\), with J arbitrary,
-is needed. Its genuinely partial residual problem
-controls actual shared and missing corner profits. This is a written
-structural theorem; the opposite path orientation, general forests
-and a full Lean implementation remain outside its proved scope.
+[封装的核心—对偶同构与 Jacobson 桥接](003-arc-one-parameter/structural-bridge-replay.md)构造实际 R-代数等价，将真实乘法表根基识别为 J(R×R) 的增广原像。R 半单时，它在每个参数下恰为十八坐标增广核。八个指定源码模块通过了新的独立编译和 77 项标准公理审计；这些结构成果尚不提供导出三角或完整 ARC。
 
-The later [bipartite-forest theorem](002-weighted-rectangular-pruning/forest-pendant-star-costs.md)
-settles those path and forest cases in written mathematics.
-One relation may be any finite bipartite forest or complete forest
-expansion, and the other arbitrary. A pendant-star preservation
-lemma transfers auxiliary-left costs and H charges to a compatible
-partial pivot problem; a rooted construction builds every tree.
-Zero costs, partial originals, actual uncovered gains and the
-sharp coefficient one are included. The complete Lean proof,
-general cyclic relations and historical novelty remain open here.
+[指定的下层代数分解](003-arc-one-parameter/proof/mathlib/LowerAlgebraCategoricalResolution.README.md)构造实际投射角项、全次数正合性与增广拟同构。在特征二的域上，若每个正整数 m 都满足 1+q^m 非零，下层 f-特征的所有正次数实际 self-Ext 消失；这不要求 q 本身非零。
 
-The subsequent [chordal-bipartite theorem](002-weighted-rectangular-pruning/chordal-bipartite-costs.md)
-extends the same sharp bounds to either relation having no induced
-cycle of length at least six. The other relation is arbitrary;
-four-cycles, partial families and zero costs are included.
-A multiple-pivot preservation lemma uses nested old neighborhoods
-only on the attached pivots. The classical beta-leaf elimination
-theorem is cited from a primary proof, with an explicit incidence
-translation. This is a written construction with independent
-source readings, separate from the full Lean and unrestricted
-relation problems.
+[实际正则目标 Ext 计算](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularExt.README.md)与[右特征作用](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularRightAction.README.md)进一步在 q 非零时给出完整的下层正则目标谱：仅二次存活，有从 K 出发的实际 K-线性等价及右 f-特征作用。[来源表](003-arc-one-parameter/ATTRIBUTION.md)将 OpenAI 与 Tang 已有的数学结论同这些实际 Lean 实现分别标注。导出三角与完整二十维 self-Ext 谱仍未完成。
 
-For 001, the [exact all-half-order classification](001-odd-half-order-hadamard/general-patterns.md)
-now eliminates the binary pattern and constructs every nonroot solution
-from a compatible rectangle of a cyclic root seed and one unit phase.
-Its [labelled dephased solution space](001-odd-half-order-hadamard/phase-geometry.md)
-is a finite graph with smooth nonroot arcs and explicit root branch counts.
-Both the classification and this geometric consequence have complete
-written proofs; their complete Lean bridges remain separate.
-The actual polynomial product obstruction is independently checked in Lean.
+## 002：独立局部成本的结构性推广
 
-The [standard-equivalence quotient](001-odd-half-order-hadamard/equivalence-quotient.md)
-now determines the corresponding moduli graph. The actual dephased
-permutation formula forces a finite dihedral action on each circle;
-reflection fixed points locate possible new endpoints, and root
-valencies are stabilizer orbits of half-branches. This written proof
-closes the quotient-geometry gap while preserving the separate
-even-order realization and original-literature comparison questions.
+[相容成对成本定理](002-weighted-rectangular-pruning/compatible-pair-costs.md)在任一关系为完全二部块的不交并时，给出超出乘积成本的有限阈值覆盖与剪枝构造。一般证明为书面分析；精确证书实现有独立检查，但不是 Lean 证明。
 
-For 004, [the direct four-circulant character theorem](004-mub-triplets/direct-circulant-character.md)
-now closes the extra first-character premise inside the displayed symmetry
-branch: both first and cubic characters vanish at its fixed partitions.
-The [complete flat-Gram Lean endpoint](004-mub-triplets/flat-gram-cancellation.md)
-proves all four displayed first/cubic equalities without an extra character
-premise. The [asymmetric concrete triplet](004-mub-triplets/fourier-character-asymmetry.md)
-shows why both fixed cubic zeros cannot be required in general.
-The general companion-selection and cubic-coupling questions remain separate.
+[两类自反局部成本](002-weighted-rectangular-pruning/reflexive-cost-families.md)在两种关系均可为非块关系时，给出明确覆盖与剪枝构造，涵盖成比例的完整网格成本及两条路径上的非比例交换族。参数全范围证明为书面成果，固定实例另有精确检查。
 
-Licensed under Apache-2.0; see [LICENSE](LICENSE) and the attribution in each note.
+[二元坐标定理](002-weighted-rectangular-pruning/double-path-independent-costs.md)对两个四顶点路径的独立成本表，除九个局部不等式外不再施加限制。十五个候选删除计算精确增广最优值；结合块定理和零成本填充，解决坐标集大小至多二时的全部关系及部分原始族。分析证明包含零成本；任意更大坐标系统与完整 Lean 证明仍未解决。
 
-The [actual square-zero splitting](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)
-also constructs every scalar dual-scaling endomorphism, including the zero
-projection onto the lower subalgebra. Its actual two-sided kernel has
-square-zero multiplication, and the algebra splits as the corresponding
-R-modules. The dual-bimodule identification and full homological profile
-are separate in that source. The subsequent
-[explicit dual extension construction](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)
-identifies the actual kernel with the lower algebra's dual, intertwines
-both lower multiplication actions, and gives the full algebra's explicit
-split coordinates, unit and multiplication formula. The
-[bundled core-dual isomorphism and Jacobson bridges](003-arc-one-parameter/structural-bridge-replay.md)
-now package an actual R-algebra equivalence and identify the true table
-radical as the augmentation preimage of J(R×R). For semisimple R it is
-exactly the eighteen-coordinate augmentation kernel, at every parameter.
-Eight selected source modules passed fresh independent compilation and
-77 standard-axiom audits; these structural results do not supply the
-derived triangle or complete ARC. The subsequent
-[specified lower-algebra resolution](003-arc-one-parameter/proof/mathlib/LowerAlgebraCategoricalResolution.README.md)
-constructs actual projective corner terms, all-degree exactness and an
-augmentation quasi-isomorphism. Over characteristic-two fields with every
-1+q^m nonzero for positive m, every positive actual self-Ext of the lower
-f-character vanishes. This does not require q itself to be nonzero.
-The subsequent
-[actual regular-target Ext calculation](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularExt.README.md)
-and [right-character action](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularRightAction.README.md)
-now give the complete lower regular-target profile when also q is
-nonzero: only degree two survives, with an actual K-linear equivalence
-from K and the right f-character action. The
-[provenance table](003-arc-one-parameter/ATTRIBUTION.md)
-identifies the prior OpenAI and Tang mathematical conclusions separately
-from these actual Lean implementations. The derived triangle and full
-twenty-dimensional self-Ext profile remain open.
+[吹胀四路径定理](002-weighted-rectangular-pruning/binary-one-side-costs.md)允许任意大坐标：一种关系可以是完全块与完整四路径吹胀的不交并，另一种关系任意。特别地，仅一侧坐标关系需要二元两侧。构造利用高行阈值耦合与有效成本剩余块控制实际未覆盖角，直接处理零成本，并通过精确整组聚合和部分族限制提升。一般任意关系问题及其 Lean 形式化仍是独立任务。
+
+[嵌套分量定理](002-weighted-rectangular-pruning/nested-relation-costs.md)将独立局部成本构造推广到一种关系每个分量中任意有限层数的嵌套邻域，另一种关系任意。后缀归纳保持剩余局部不等式，将汇总后的零成本决策提升为实际无冲突幸存对象，包含完整吹胀、分量和部分族。该尖锐书面定理有有限有理构造；无限制关系、完整 Lean 实现与原始文献比较仍需分别研究。
+
+[右叶扩张](002-weighted-rectangular-pruning/right-leaf-extension-costs.md)在每个新增右坐标仅有一个左邻居时保持此局部成本性质；也允许完整组吹胀，并覆盖部分具有不可比邻域的关系，包括两个左坐标、三个右坐标的五顶点路径，与任意另一种关系配对。双邻域推论甚至允许每个分量至多有两个不同左邻域的任意关系：仅需 \(|P|\le2\) 且 I 任意，或 \(|S|\le2\) 且 J 任意。部分剩余问题控制实际共享与缺失角的收益。该书面结构定理本身不涵盖相反路径定向、一般森林或完整 Lean 实现。
+
+随后，[二部森林定理](002-weighted-rectangular-pruning/forest-pendant-star-costs.md)在书面数学中解决上述路径与森林情形。一种关系可为任意有限二部森林或完整森林吹胀，另一种关系任意。悬挂星保持引理将辅助左成本与 H 费用转移到相容的部分枢轴问题；根构造生成每棵树。包含零成本、部分原始对象、实际未覆盖收益与尖锐系数一。完整 Lean 证明、一般含圈关系和历史新颖性仍未确立。
+
+[弦二部图定理](002-weighted-rectangular-pruning/chordal-bipartite-costs.md)进一步将同一尖锐界推广到任一关系不含长度至少六的诱导圈时，另一种关系仍任意；包含四圈、部分族与零成本。多枢轴保持引理仅在附接枢轴上使用嵌套旧邻域。经典 beta-叶消去定理引用原始证明，并明确翻译关联关系。构造和独立原文阅读已有记录，完整 Lean 与无限制关系问题仍未完成。
+
+## 001：分类与解空间
+
+[所有半阶情形的精确分类](001-odd-half-order-hadamard/general-patterns.md)消去二元模式，从循环根种子的相容矩形及一个单位相位构造每个非根解。[带标号的去相位解空间](001-odd-half-order-hadamard/phase-geometry.md)是有限图，具有光滑非根弧与明确根分支数。分类及几何推论均有完整书面证明；完整 Lean 桥接仍是独立任务。实际多项式乘积障碍已在 Lean 中独立验证。
+
+[标准等价商](001-odd-half-order-hadamard/equivalence-quotient.md)确定相应模空间图。实际去相位置换公式迫使每个圆上有有限二面体群作用；反射不动点定位可能新增的端点，根的价数为半分支的稳定子轨道数。书面证明补齐商空间几何缺口，同时保留偶数阶实现与原始文献比较问题。
+
+## 004：固定对称分支与一般猜想的边界
+
+[直接四循环特征标定理](004-mub-triplets/direct-circulant-character.md)在所示对称分支内消去额外的一阶特征标前提：固定分划下的一阶与三阶特征标均为零。[完整平坦 Gram 的 Lean 结论](004-mub-triplets/flat-gram-cancellation.md)无需额外特征标前提，证明所示四个一阶／三阶等式。[不对称具体三元组](004-mub-triplets/fourier-character-asymmetry.md)说明一般情形不能要求两个固定三阶特征标都为零。一般伴随基选择与三阶耦合问题仍未解决。
+
+本仓库采用 Apache-2.0 许可证，见 [LICENSE](LICENSE) 及各笔记的来源说明。
