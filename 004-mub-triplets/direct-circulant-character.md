@@ -25,8 +25,9 @@ including all four phase-retrieval branches, repeated roots and zero modes.
 The [supporting Lean source](proof/CirculantCharacter.lean) proves the
 actual six-column character formulas, the first-character cancellation
 criterion and both cubic implications **given** the phase-product
-cancellation. It does not yet prove the Hadamard Gram equations imply
-that cancellation; the full argument of Sections 2–7 is not yet formalized.
+cancellation. The [final Lean endpoint](flat-gram-cancellation.md) now
+derives cancellation and all four character equalities from actual flatness
+and the single column Gram equation, closing this displayed-block theorem.
 The subsequent [zero-mode interface](zero-mode-obstruction.md) and
 [actual Gram/inverse bridge](gram-block-invertibility.md) now formalize
 the Section 2 obstruction: actual Gram equations give all mode bounds,
@@ -40,7 +41,8 @@ both opposite-block cyclic-shift/adjoint alternatives. The subsequent
 product cancellation given either genuine adjoint alternative. The
 actual real-rank ingredient is now proved in
 [the real-mode product-square module](real-mode-product-squares.md). The
-phase/shift normalization of the both-preserving case remains written mathematics.
+phase/shift normalization of the both-preserving case and exhaustive branch
+composition are now proved in [the final modules](flat-gram-cancellation.md).
 
 Four-circulant companion construction and its general context are classical
 Zauner theory; see [Szollosi, arXiv:0811.3930v2, Section 4](https://arxiv.org/pdf/0811.3930v2)
@@ -306,9 +308,9 @@ zero-mode obstruction from supplied mode bounds, with its own six audits.
 The [connected Gram and inverse modules](gram-block-invertibility.md)
 discharge those bounds from actual matrix multiplication and construct all
 four block inverses, with five plus three further audits. The full
-Gram-to-product-cancellation theorem still awaits the phase/shift
-normalization of the both-preserving case. The actual flat-triple real-rank
-ingredient is now formalized separately. Every case with a genuine adjoint alternative
+Gram-to-product-cancellation theorem is now proved in
+[the final module](flat-gram-cancellation.md), including the phase/shift
+normalization of the both-preserving case and the actual real-rank ingredient. Every case with a genuine adjoint alternative
 is now closed in the separate actual adjoint-branch source. The correlation, ratio-multiset and actual
 cyclic-shift/adjoint reconstruction steps are now formalized separately,
 including repeated values.

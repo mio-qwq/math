@@ -1,0 +1,3 @@
+'MUBTriplets.CirculantPreservingBranch.product_cancel_of_actual_flat_gram_preserving_alternatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

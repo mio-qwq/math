@@ -98,8 +98,9 @@ now removes the extra first-character premise in the known symmetry
 branch. All four phase-retrieval cases give the exact block product
 cancellation, hence both first and cubic characters vanish. The actual
 six-column/adjoint character formulas and conditional cubic implications
-have a separate six-audit Lean interface; the full Gram-to-cancellation
-argument remains written mathematics. General companion circulantization
+have a separate six-audit Lean interface; the
+[complete flat-Gram endpoint](flat-gram-cancellation.md) now closes the
+actual Gram-to-cancellation proof and all four character equalities. General companion circulantization
 and the general coupling conjecture remain open.
 
 The [scalar zero-mode obstruction](zero-mode-obstruction.md) has six Lean
@@ -111,7 +112,8 @@ actual inverse matrices with all eight multiplication equations. No extra
 mode bounds, nonzero modes or inverses are assumed. The subsequent
 [actual phase retrieval](phase-retrieval-alternatives.md) also formalizes
 the cyclic-shift/adjoint reconstruction, including repeated ratios. The full
-Gram-to-product-cancellation theorem remains written mathematics.
+Gram-to-product-cancellation theorem is now formally composed in
+[the final cancellation module](flat-gram-cancellation.md).
 
 The [opposite block power proof](mode-power-matching.md) derives matching
 Fourier powers of a/e and b/c from the same actual Gram equation, with
@@ -128,6 +130,8 @@ proves actual product cancellation given either genuine adjoint alternative,
 with one further independent audit. The
 [actual real-mode product-square theorem](real-mode-product-squares.md) now
 formalizes both real-rank cases and their actual flat-triple spectral
-identities, with four further independently replayed audits. Phase/shift
-normalization of the both-preserving case remains before unconditional
-Gram-to-product cancellation.
+identities, with four further independently replayed audits. The
+[final three audited endpoints](flat-gram-cancellation.md) now prove the
+phase/shift normalization and compose all genuine alternatives: actual
+flat Gram alone gives product cancellation and both first/cubic characters
+zero for the matrix and its adjoint at the displayed partitions.

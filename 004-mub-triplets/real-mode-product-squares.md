@@ -18,10 +18,10 @@ not extra certificate inputs to the actual-triple endpoint.
 
 This formalizes the real-rank ingredient of
 [the written four-circulant proof](direct-circulant-character.md#6-real-rank-lemma-for-the-symmetric-minus-form).
-Combining it with a general both-preserving four-block retrieval branch
-still requires proving the phase/shift normalization supplies its hypotheses.
-Unconditional flat-Gram product cancellation, general companion symmetry
-and general MUB coupling are not yet formalized by these sources.
+The [final four-block module](flat-gram-cancellation.md) now derives these
+hypotheses from the both-preserving retrieval branch and composes
+unconditional flat-Gram cancellation. This real-mode source retains its
+explicit inputs. General companion symmetry and MUB coupling remain separate.
 Historical mathematical originality is not established.
 
 Write m0,m1,m2 for the modes of a at 1,omega,omega^2, with omega a primitive
@@ -74,6 +74,6 @@ lake env lean "$taskMubSources/CirculantRealRank.lean"
 ```
 
 The [adjoint-containing cases](adjoint-branch-cancellation.md) already have
-a separate actual product-cancellation theorem. The next connected step
-is phase/shift normalization of the both-preserving case, followed by
-composition of all alternatives into the unconditional four-block result.
+a separate actual product-cancellation theorem. The
+[completed four-block result](flat-gram-cancellation.md) now supplies the
+both-preserving normalization and composes all alternatives.

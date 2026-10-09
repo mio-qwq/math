@@ -169,8 +169,11 @@ now proves product cancellation with either genuine adjoint alternative as
 an explicit extra premise. Four further
 [actual spectral/real-rank audits](004-mub-triplets/real-mode-product-squares.md)
 now prove the equal product squares of two actual flat triples with nonzero
-real-ratio modes. The phase/shift normalization supplying those hypotheses
-for the both-preserving branch remains before unconditional cancellation.
+real-ratio modes. The [final three audited endpoints](004-mub-triplets/flat-gram-cancellation.md)
+now supply those hypotheses by actual phase/shift normalization and exhaust
+the retrieval alternatives. Actual flat Gram alone gives product cancellation
+and first/cubic character vanishing for H and its actual adjoint at the
+displayed partitions.
 These are classical supporting ingredients,
 not a new independently solved public conjecture.
 This closes a project-local branch gap, not the source-stated general

@@ -15,8 +15,9 @@ three cases containing an adjoint when combined with
 [the previous actual retrieval theorem](phase-retrieval-alternatives.md).
 That theorem also permits a both-preserving case. Its
 [actual real-mode product-square ingredient](real-mode-product-squares.md)
-is now formalized separately, but the required branch normalization remains.
-This source therefore does not prove unconditional cancellation from flat Gram alone. General companion symmetry and general
+is formalized separately, and the [final module](flat-gram-cancellation.md)
+now proves its normalization and unconditional cancellation. This source
+retains its narrower adjoint-alternative hypothesis. General companion symmetry and general
 MUB coupling remain outside the result; historical originality is not established.
 
 For E=alpha P_l A*, the actual off-diagonal block of column Gram is
@@ -69,6 +70,6 @@ lake env lean --root=$taskMubSources -o "$taskMubBuild/CirculantPhaseRetrieval.o
 lake env lean "$taskMubSources/CirculantAdjointBranch.lean"
 ```
 
-The remaining target is the both-preserving case: normalize its phases
-and shifts, supply the hypotheses of the proved actual real-mode lemma,
-and join it to this endpoint for unconditional product cancellation.
+The [both-preserving normalization and final composition](flat-gram-cancellation.md)
+now supply the actual real-mode hypotheses and join this endpoint to
+prove unconditional product cancellation for the displayed block class.

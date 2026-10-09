@@ -1,10 +1,10 @@
 {
   "document": "direct-circulant-character.md",
-  "document_sha256": "2bcfe31098d9ad4f25511d6de0850731a8a5343e49766a94f5b377cd2d4a179d",
+  "document_sha256": "78d7ac5093cb66e367eb56d54e4b301b258a637598a3c06338f9ac8f06e173e5",
   "independent_mathematical_review": "PASS: independently recalculated all four retrieval branches, multiplicity, Fourier signs, zero-mode exclusion, block monomial covariance, real-rank cases",
   "written_theorem": "Every displayed four-circulant raw Hadamard6 has pa pe+pb pc=0 and both first/cubic characters zero at the fixed partitions",
   "mathematical_must_fix_found": 0,
-  "full_written_theorem_lean_verified": false,
+  "full_written_theorem_lean_verified": true,
   "supporting_actual_matrix_character_interface_compiled": true,
   "general_mub_conjecture_resolved": false,
   "historical_originality_established": false,
@@ -15,11 +15,14 @@
   "actual_flat_gram_to_opposite_ratio_multisets_with_multiplicity_formalized": true,
   "actual_six_shift_adjoint_reconstruction_formalized": true,
   "actual_flat_gram_to_both_opposite_circulant_alternatives_formalized": true,
-  "branch_combination_formalized": false,
+  "branch_combination_formalized": true,
   "real_rank_argument_formalized": true,
   "product_cancellation_given_either_actual_adjoint_alternative_formalized": true,
-  "both_preserving_case_formalized": false,
-  "unconditional_product_cancellation_formalized": false,
+  "both_preserving_case_formalized": true,
+  "unconditional_product_cancellation_formalized": true,
   "actual_flat_pair_real_mode_product_squares_formalized": true,
-  "preserving_four_block_normalization_formalized": false
+  "preserving_four_block_normalization_formalized": true,
+  "both_actual_first_and_cubic_characters_zero_from_flat_gram": true,
+  "final_lean_source": "proof/CirculantCancellation.lean",
+  "final_lean_source_sha256": "84ec1e0db28eb84a7c2fc49d10ed9b72429efefbf1ef1e9be4d17746488384c0"
 }

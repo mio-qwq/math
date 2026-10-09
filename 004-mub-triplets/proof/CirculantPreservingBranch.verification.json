@@ -1,0 +1,102 @@
+{
+  "source_sha256": "09b9002f4057661d7b0cd1c19a614d22c3f9eea4833ce8e231f176d1dbadc457",
+  "source_after_sha256": "09b9002f4057661d7b0cd1c19a614d22c3f9eea4833ce8e231f176d1dbadc457",
+  "start_utc": "2026-10-08T15:31:04.5884519+00:00",
+  "end_utc": "2026-10-08T15:31:29.1108795+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 1,
+  "expected_audits": 1,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.CirculantPreservingBranch.product_cancel_of_actual_flat_gram_preserving_alternatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "CirculantPreservingBranch.lean",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "audit": "CirculantPreservingBranch.audit.txt",
+  "audit_sha256": "e7838a7c02756d05e636733796463a23bbcc6067d5be670738a53c5b3e98d5b2",
+  "scope": "Actual flat four-circulant column Gram and two genuine preserving matrix alternatives imply phase-product cancellation; phase, shift and real-mode normalization are derived internally",
+  "preserving_four_block_normalization_formalized": true,
+  "genuine_preserving_alternatives_are_extra_hypotheses": true,
+  "hadamard_gram_to_unconditional_product_cancellation_formalized": false,
+  "both_actual_first_and_cubic_characters_zero_from_flat_gram": false,
+  "nonzero_modes_or_product_cancellation_assumed": false,
+  "general_complete_companion_circulantization_proved": false,
+  "general_mub_conjecture_resolved": false,
+  "historical_mathematical_originality_established": false,
+  "independent_replay": {
+    "source_sha256": "09b9002f4057661d7b0cd1c19a614d22c3f9eea4833ce8e231f176d1dbadc457",
+    "source_after_sha256": "09b9002f4057661d7b0cd1c19a614d22c3f9eea4833ce8e231f176d1dbadc457",
+    "start_utc": "2026-10-08T15:37:50.7732497+00:00",
+    "end_utc": "2026-10-08T15:38:51.3293981+00:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "audits": 1,
+    "expected_audits": 1,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.CirculantPreservingBranch.product_cancel_of_actual_flat_gram_preserving_alternatives",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "pass": true,
+    "evidence_kind": "observed_separate_reviewer_compiler_replay",
+    "log_sha256": "e7838a7c02756d05e636733796463a23bbcc6067d5be670738a53c5b3e98d5b2"
+  },
+  "independent_mathematical_source_review": "PASS: actual positive Fourier shifts, unit square root and phase signs, real-rank normalization, exact product scaling, exhaustive genuine retrieval alternatives and actual character denominators",
+  "project_import_sources": [
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09"
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f"
+    },
+    {
+      "source": "CubeRootGramModes.lean",
+      "source_sha256": "86f5c587cc0437823a07f243f8f5acd8e8d5bf043b62ac937f36ec930278dced"
+    },
+    {
+      "source": "CubeRootGramMatching.lean",
+      "source_sha256": "e69a828ad65cb65a09603057f4ab40f2e1ae199892d60beaad1d3f6aae1d0c72"
+    },
+    {
+      "source": "CirculantAutocorrelation.lean",
+      "source_sha256": "578c6eb609ab9f54f1fc6c934e9994359cae9c452e4cb4aaad3b7c2bfd7a0cc7"
+    },
+    {
+      "source": "CirculantRatioPolynomial.lean",
+      "source_sha256": "689c8d682562650bddc05a2b0be0bc5be2e40baba9dbbe9d5a6fa8e696d9035c"
+    },
+    {
+      "source": "CirculantPhaseRetrieval.lean",
+      "source_sha256": "a3f0cad83009ba47bcd74131e5dd473b5cb46100d85e154d9ae27887a526455b"
+    },
+    {
+      "source": "CirculantSpectralProducts.lean",
+      "source_sha256": "9cd9be9a978ab89948eca3c8169f8666e40f83dcde437d0cee80a2e503a8b993"
+    },
+    {
+      "source": "CirculantRealRank.lean",
+      "source_sha256": "775792823d0673ffc77b7a8d0319ada13d7671b219bddb8aa54b42e71119d6d5"
+    }
+  ]
+}

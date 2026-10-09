@@ -20,8 +20,9 @@ This completes the reconstruction in
 The subsequent [adjoint-branch proof](adjoint-branch-cancellation.md)
 now closes every case with a genuine adjoint alternative as an extra premise.
 The [actual real-mode lemma](real-mode-product-squares.md) also now proves
-the real-rank ingredient. Normalizing the both-preserving case and the
-unconditional Gram-to-product-cancellation theorem remain to be formalized. The general
+the real-rank ingredient. The [final cancellation module](flat-gram-cancellation.md)
+now normalizes the both-preserving case and composes unconditional
+Gram-to-product cancellation for the displayed block class. The general
 complete-companion symmetry and six-dimensional MUB conjectures remain
 outside this result. Historical mathematical originality is not established.
 

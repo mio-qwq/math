@@ -1,0 +1,6 @@
+'MUBTriplets.CirculantCancellation.product_cancel_of_actual_flat_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.CirculantCancellation.first_and_cubic_characters_zero_of_actual_flat_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
