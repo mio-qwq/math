@@ -1,0 +1,284 @@
+{
+  "environment": {
+    "lean": "4.34.1",
+    "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  },
+  "published_source": "notes/proof/Q6AntipodalCompatibility.lean",
+  "source_sha256": "9bb8fbbef7868da04b0d0b8748bec9f467dae8a0ac69c3a5dee7b47ac1cf9690",
+  "scope": "Every six-element finset of actual six-bit Hamming words of one parity, closed under six-bit complementation and containing no distance-two triangle, has at least four words within distance three of every opposite-parity vertex. The antipodal and triangle-free hypotheses remain explicit; full six-point classification, projection reduction and unconditional twelve-center product exclusion are written mathematics, not formalized by this source.",
+  "reproduction": {
+    "working_directory": "002-weighted-rectangular-pruning/proof/mathlib",
+    "command": "lake env lean ../../../notes/proof/Q6AntipodalCompatibility.lean",
+    "expected_audits": 15
+  },
+  "lean_runs": [
+    {
+      "role": "primary",
+      "command_kind": "separate lake env lean process; source identified by SHA256",
+      "source_sha256": "9bb8fbbef7868da04b0d0b8748bec9f467dae8a0ac69c3a5dee7b47ac1cf9690",
+      "source_after_sha256": "9bb8fbbef7868da04b0d0b8748bec9f467dae8a0ac69c3a5dee7b47ac1cf9690",
+      "start_utc": "2026-10-09T06:03:56.6652064+00:00",
+      "end_utc": "2026-10-09T06:04:37.6947440+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 15,
+      "expected_audits": 15,
+      "declaration_axioms": [
+        {
+          "declaration": "Q6AntipodalCompatibility.pop6_bits",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.distance_bits",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.xor_cancel",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.distance_translate",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipode_involutive",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipode_injective",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.complement_distance_sum",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.opposite_parity_distances",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6AntipodalCompatibility.normalized_one_neighbors",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.distance_one_neighbors",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.sphere_one_card_le_two",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipodal_sphere_five_card_eq_one",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.sphere_five_card_le_two",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.opposite_far_card_le_two",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipodal_trianglefree_opposite_has_four_near",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "axiom_output": "'Q6AntipodalCompatibility.pop6_bits' depends on axioms: [propext]\n'Q6AntipodalCompatibility.distance_bits' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.xor_cancel' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.distance_translate' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.antipode_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.antipode_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.complement_distance_sum' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.opposite_parity_distances' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6AntipodalCompatibility.normalized_one_neighbors' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.distance_one_neighbors' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.sphere_one_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.antipodal_sphere_five_card_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.sphere_five_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.opposite_far_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.antipodal_trianglefree_opposite_has_four_near' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+    },
+    {
+      "role": "independent",
+      "command_kind": "separate lake env lean process; source identified by SHA256",
+      "source_sha256": "9bb8fbbef7868da04b0d0b8748bec9f467dae8a0ac69c3a5dee7b47ac1cf9690",
+      "source_after_sha256": "9bb8fbbef7868da04b0d0b8748bec9f467dae8a0ac69c3a5dee7b47ac1cf9690",
+      "start_utc": "2026-10-09T06:05:20.9107029+00:00",
+      "end_utc": "2026-10-09T06:06:01.5435582+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 15,
+      "expected_audits": 15,
+      "declaration_axioms": [
+        {
+          "declaration": "Q6AntipodalCompatibility.pop6_bits",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.distance_bits",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.xor_cancel",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.distance_translate",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipode_involutive",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipode_injective",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.complement_distance_sum",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.opposite_parity_distances",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6AntipodalCompatibility.normalized_one_neighbors",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.distance_one_neighbors",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.sphere_one_card_le_two",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipodal_sphere_five_card_eq_one",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.sphere_five_card_le_two",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.opposite_far_card_le_two",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6AntipodalCompatibility.antipodal_trianglefree_opposite_has_four_near",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "axiom_output": "'Q6AntipodalCompatibility.pop6_bits' depends on axioms: [propext]\n'Q6AntipodalCompatibility.distance_bits' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.xor_cancel' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.distance_translate' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.antipode_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.antipode_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.complement_distance_sum' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.opposite_parity_distances' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6AntipodalCompatibility.normalized_one_neighbors' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.distance_one_neighbors' depends on axioms: [propext, Quot.sound]\n'Q6AntipodalCompatibility.sphere_one_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.antipodal_sphere_five_card_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.sphere_five_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.opposite_far_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6AntipodalCompatibility.antipodal_trianglefree_opposite_has_four_near' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+    }
+  ],
+  "written_math_review": {
+    "method": "Two independently derived full classification proofs, followed by a complete adversarial cross-review and a separate integration reading.",
+    "classification_scope": "All six-point same-parity full distance-four-pair midpoint covers; all non-Hamiltonian and coordinate-occurrence cases included.",
+    "product_scope": "Excludes every feasible twelve-center set in Q6 strong-product Q6, yielding the necessary window 13 through 21.",
+    "formalized_by_this_source": false,
+    "historical_originality": "unconfirmed",
+    "original_public_conjecture": "not resolved or refuted here"
+  }
+}

@@ -10,8 +10,18 @@ package. The [product note](notes/q6-strong-product-affine-obstruction.md)
 separately proves the nonlinear necessary conditions and affine obstruction
 in writing; those results are not attributed to the factor's compilation.
 
+The [midpoint classification and twelve-center exclusion](notes/q6-six-point-midpoint-classification.md)
+are also written proofs. Their supporting
+[conditional Hamming geometry](notes/proof/Q6AntipodalCompatibility.lean)
+has its own [source-specific receipt](notes/results/q6-antipodal-compatibility-verification.json)
+and fifteen axiom outputs. Run
+`lake env lean ../../../notes/proof/Q6AntipodalCompatibility.lean` from the
+same pinned package. Its antipodal and triangle-free hypotheses are not
+discharged by a formal classification theorem.
+
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [notes/proof/Q6AntipodalCompatibility.lean](notes/proof/Q6AntipodalCompatibility.lean) | Every six-element Finset (BitVec 6) of one parity, closed under actual six-bit complements and containing no distance-two triangle, has at least four words at Hamming distance at most three from every opposite-parity vertex. Proves the actual distance-one triangle and complementary-distance bijection | Fifteen audits; ordinary decide certificates have at most 64² cases. Antipodal closure and triangle-freeness remain explicit hypotheses. No formal six-point classification, projection reduction, unconditional twelve-center exclusion or solution of the original conjecture |
 | [notes/proof/Q6PackingDomination.lean](notes/proof/Q6PackingDomination.lean) | Every S : Set (BitVec 6) with distinct centers at Hamming distance at least four has an actual vertex farther than two from every center; hence S cannot cover all six-bit vertices with closed radius-two balls. Empty and nonlinear sets are included; distance_bits identifies the six coordinate differences | Twelve audits and separate actual author/independent Lean runs, with only standard axioms. The graph shortest-path interpretation, size bound, nonlinear product constraints and complete affine obstruction in Q6 strong-product Q6 are written mathematics only; no solution or counterexample to the original conjecture |
 | [notes/proof/SevenCoreSubstitutionCertificate.lean](notes/proof/SevenCoreSubstitutionCertificate.lean) | Seven explicit real row bounds imply the sharp ratio 260889/805108; a strictly positive rational witness has mass one and attains every row; positive mass gives strict bounds below 21/64 and 1/3 | Three audits and separate actual author/independent Lean runs. The graph-to-row reduction, all-depth T9-free classification and finite integer graph realization are complete written proofs, not Lean graph theorems |
 | [005/proof/FeedbackCoreObstruction.lean](005-directed-cycle-packing/proof/FeedbackCoreObstruction.lean) | Every actual acyclic deletion set in a finite nonempty oriented arc-dominated graph has card greater than r, given at least r>0 distinct out-neighbors at every vertex | Generic classical structural consequence, one endpoint audit. No minimum-counterexample reduction, contraction, three-cycle theorem or four-cycle packing endpoint |

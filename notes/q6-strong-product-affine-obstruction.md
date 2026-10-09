@@ -92,6 +92,12 @@ two neighbors at distance two and at least two neighbors at distance four
 within \(P_\varepsilon\). If \(|C|=12\), both block projections are injective
 and each has exactly six words of each parity.
 
+The subsequent [six-point midpoint classification](q6-six-point-midpoint-classification.md)
+excludes this twelve-center boundary, strengthening the necessary window
+to \(13\le |C|\le21\). Its full classification and product consequence
+are written proofs; the separate Lean geometry retains explicit antipodal
+and triangle-free hypotheses.
+
 **Theorem 3 (affine obstruction).** No affine subspace of \(V\times V\) is
 feasible. More specifically, a four-dimensional linear packing subspace has
 a projection with constant weight parity.
@@ -552,7 +558,8 @@ The checked literature did not supply an exact prior theorem for this
 six-plus-six affine obstruction; that is not evidence of historical priority.
 No historical priority is claimed for the nonlinear projection constraints
 either.
-The outstanding case is an arbitrary nonlinear center set of size between
-12 and 21 satisfying the parity-projection and coupled midpoint conditions
-above. No such set is constructed or excluded here, and no resolution of the
-original conjecture is asserted.
+The subsequent [midpoint classification and coupling proof](q6-six-point-midpoint-classification.md)
+excludes all twelve-center sets. The outstanding case is an arbitrary
+nonlinear center set of size between 13 and 21 satisfying the projection and
+coupled midpoint conditions. No such set is constructed or excluded here,
+and no resolution of the original conjecture is asserted.
