@@ -102,4 +102,8 @@ lean 001-odd-half-order-hadamard/proof/Parity.lean
 
 [直接四循环特征标定理](004-mub-triplets/direct-circulant-character.md)在所示对称分支内消去额外的一阶特征标前提：固定分划下的一阶与三阶特征标均为零。[完整平坦 Gram 的 Lean 结论](004-mub-triplets/flat-gram-cancellation.md)无需额外特征标前提，证明所示四个一阶／三阶等式。[不对称具体三元组](004-mub-triplets/fourier-character-asymmetry.md)说明一般情形不能要求两个固定三阶特征标都为零。一般伴随基选择与三阶耦合问题仍未解决。
 
+## 五维接吻数：固定 37 个 D5 根的连续替换障碍
+
+[连续球冠定理](notes/d5-three-root-cap.md)证明：从 D5 删除三个指定正根 `e1+e2、e1+e3、e2+e3`，固定其余 37 个根后，至多补入三个彼此相容的任意连续球面点；补入三个时只能恢复原删根。实际 Lean 证明从保留根的真实内积约束推到球冠界、四点不可能和三点成员分类，不依赖有限网格或多面体枚举。文献新颖性尚未确定；它不解决无限制五维接吻数，也不涵盖其它删除集合。
+
 本仓库采用 Apache-2.0 许可证，见 [LICENSE](LICENSE) 及各笔记的来源说明。

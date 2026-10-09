@@ -455,3 +455,27 @@ The finite Python check is also portable:
 ~~~sh
 python notes/check_triangle_swap_safety.py
 ~~~
+
+## Continuous D5 three-root replacement obstruction
+
+[K5ThreeRootCap.lean](notes/proof/K5ThreeRootCap.lean) works with arbitrary
+real vectors in five dimensions. Its actual `rootVector` inner-product
+bridge gives all retained D5 root inequalities after deleting the three
+specified positive roots on coordinates 0,1,2. No cap, sign, coordinate
+grid or polytope-completeness premise is assumed at the main endpoints.
+
+`geometric_four_points_impossible` proves that four mutually compatible
+sphere points cannot be added; `geometric_three_completion_members` proves
+each of three compatible points is one of the three removed roots. The
+written note derives the point-set equality using the pair bound to exclude
+repetition. Other deletion sets and the unrestricted five-dimensional
+kissing-number problem are outside this file. Historical novelty is unknown.
+
+The [source receipt](notes/results/d5-three-root-cap.json) records two actual
+elaborations and 12 standard axiom audits per run. The proof is analytic;
+the earlier auxiliary rational polytope enumeration is not a dependency.
+
+~~~sh
+cd 002-weighted-rectangular-pruning/proof/mathlib
+lake env lean ../../../notes/proof/K5ThreeRootCap.lean
+~~~

@@ -1,0 +1,250 @@
+{
+  "recorded_utc": "2026-10-09T13:39:39.802171+00:00",
+  "source": "notes/proof/K5ThreeRootCap.lean",
+  "source_sha256": "d3885947e29e1ccad4e168d0fe90640e5ccf477ef2a8c429d5351c0307919d26",
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "scope": "Arbitrary real vectors compatible with the actual37 retained D5 root inequalities after the specified coherent triangle deletion; continuous cap, three-completion member classification and four-point impossibility.",
+  "runs": [
+    {
+      "role": "primary",
+      "source_sha256": "d3885947e29e1ccad4e168d0fe90640e5ccf477ef2a8c429d5351c0307919d26",
+      "source_after_sha256": "d3885947e29e1ccad4e168d0fe90640e5ccf477ef2a8c429d5351c0307919d26",
+      "start_utc": "2026-10-09T13:31:11.6202402+00:00",
+      "end_utc": "2026-10-09T13:31:37.5881019+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 12,
+      "declaration_axioms": [
+        {
+          "declaration": "K5ThreeRootCap.root_reduced",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.single_missing_pair_rest_zero",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.first_three_nonnegative",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.reduced_cap",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.cap_sum",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.four_continuous_points_impossible",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.dot_rootVector",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.geometric_iff_root",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.cap_boundary",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.three_completion_members",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.geometric_four_points_impossible",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.geometric_three_completion_members",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "log": "notes/results/d5-three-root-cap-primary.log",
+      "log_sha256": "82b1c7e1c4f579ca4f5bf0aa14a6a9bfb1a892c2ae20f07d0bb099a1c2b785be"
+    },
+    {
+      "role": "independent",
+      "source_sha256": "d3885947e29e1ccad4e168d0fe90640e5ccf477ef2a8c429d5351c0307919d26",
+      "source_after_sha256": "d3885947e29e1ccad4e168d0fe90640e5ccf477ef2a8c429d5351c0307919d26",
+      "start_utc": "2026-10-09T13:34:21.1896332+00:00",
+      "end_utc": "2026-10-09T13:34:48.5900258+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 12,
+      "declaration_axioms": [
+        {
+          "declaration": "K5ThreeRootCap.root_reduced",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.single_missing_pair_rest_zero",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.first_three_nonnegative",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.reduced_cap",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.cap_sum",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.four_continuous_points_impossible",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.dot_rootVector",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.geometric_iff_root",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.cap_boundary",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.three_completion_members",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.geometric_four_points_impossible",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "K5ThreeRootCap.geometric_three_completion_members",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "log": "notes/results/d5-three-root-cap-independent.log",
+      "log_sha256": "82b1c7e1c4f579ca4f5bf0aa14a6a9bfb1a892c2ae20f07d0bb099a1c2b785be"
+    }
+  ],
+  "independent_mathematical_review": {
+    "status": "PASS",
+    "review_sha256": "609970606742563bfb4fec31cb000fee77fb9efb2a867e34f5e22232ecda8b10",
+    "method": "Independent analytic derivation, adversarial statement/source review and separate actual fresh Lean elaboration; source and mathematical public-scope review completed."
+  },
+  "historical_novelty": "UNKNOWN; known Dn infinitesimal jamming attributed; bounded primary-source check is not proof of originality.",
+  "formalization_limits": [
+    "The three-point endpoint proves Removed membership separately; distinctness and final unordered-set equality are written corollaries, not separately packaged Lean endpoints.",
+    "Root-set cardinalities40/37 and unit-sphere normalization are coordinate interpretations, not separately stated Lean cardinality/normalization theorems.",
+    "No arbitrary-three-deletion theorem or unrestricted five-dimensional kissing-number bound is claimed by this source.",
+    "No rational-vertex enumeration, finite-grid assumption, native_decide or additional axiom is used."
+  ]
+}
