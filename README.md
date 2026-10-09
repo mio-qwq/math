@@ -36,6 +36,8 @@
 
 [公开开放问题候选审查](OPEN_PROBLEM_CANDIDATES.md)记录了文献中的七圈 Shannon 容量、五维接吻数和 SIC 的 Galois 相容性目标。这些是研究问题，尚不构成新界或已解决猜想。
 
+[C₇ 格点参数族的直接映射障碍](notes/c7-fraction-family-barrier.md)证明一个明确的既有构造族在可直接转移到 C₇ 的全部参数上，证书码率至多为 \(\sqrt{10}\)。全参数算术障碍及精确整数商已通过 Lean 和独立重新编译；这不是 C₇ 的容量上界，也未改进现有下界，历史新颖性未确立。
+
 各项目有自己的 README 和固定输入。Python 检查器使用精确运算及标准库。`lean-toolchain` 将 Lean 固定为 `leanprover/lean4:v4.34.1`。多数证书使用其自带 `Std` 库；额外的 `proof/mathlib` 包各自固定 Mathlib 及依赖版本。
 
 例如，在仓库根目录运行：

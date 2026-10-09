@@ -1,0 +1,310 @@
+{
+  "status": "PASS",
+  "source": "notes/proof/C7FractionFamilyBarrier.lean",
+  "source_sha256": "37f7986e21f07f6f9db6b04bbff1db8fde6f86a18f79c799bad9b3743aa25e79",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "actual_scope": "Arithmetic restriction on the displayed Theorem 1.7 certificate; no C7 capacity bound",
+  "main_endpoint": "C7FractionFamilyBarrier.exact_certificate_squared_bound",
+  "hypotheses": [
+    "n >= 1",
+    "k >= 1",
+    "b >= 1",
+    "r <= b",
+    "2*P <= 7*Q"
+  ],
+  "parameters": "n,k,b,r,s are natural numbers; P,Q,D and a are defined in the source",
+  "conclusion": "(P / D)^2 <= 10^n, with the integer quotient justified by proved divisibility",
+  "runs": [
+    {
+      "role": "primary",
+      "input_kind": "byte-identical isolated source copy",
+      "source_sha256": "37f7986e21f07f6f9db6b04bbff1db8fde6f86a18f79c799bad9b3743aa25e79",
+      "source_after_sha256": "37f7986e21f07f6f9db6b04bbff1db8fde6f86a18f79c799bad9b3743aa25e79",
+      "start_utc": "2026-10-09T10:47:15.5303805+00:00",
+      "end_utc": "2026-10-09T10:47:30.3945429+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 15,
+      "expected_audits": 15,
+      "declaration_axioms": [
+        {
+          "declaration": "C7FractionFamilyBarrier.denominator_dvd_p",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.denominator_dvd_q",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.denominator_pos",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.q_pos",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.ratio_floor",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.parameter_floor",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.high_dimension_base",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.four_base_excluded",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.high_dimension_a",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.high_dimension_size",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.one_dimension_size",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.two_dimension_size",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.all_dimension_squared",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.certificate_squared_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.exact_certificate_squared_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "log": "notes/results/c7-fraction-family-primary.log",
+      "log_sha256": "95dfc6b2d1a660da684c4c45e5624fc1a3044229c4f98c6b0150985d9529c36e"
+    },
+    {
+      "role": "independent",
+      "input_kind": "isolated Git worktree source",
+      "source_sha256": "37f7986e21f07f6f9db6b04bbff1db8fde6f86a18f79c799bad9b3743aa25e79",
+      "source_after_sha256": "37f7986e21f07f6f9db6b04bbff1db8fde6f86a18f79c799bad9b3743aa25e79",
+      "start_utc": "2026-10-09T10:50:52.8567649+00:00",
+      "end_utc": "2026-10-09T10:51:08.5851188+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 15,
+      "expected_audits": 15,
+      "declaration_axioms": [
+        {
+          "declaration": "C7FractionFamilyBarrier.denominator_dvd_p",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.denominator_dvd_q",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.denominator_pos",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.q_pos",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.ratio_floor",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.parameter_floor",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.high_dimension_base",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.four_base_excluded",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.high_dimension_a",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.high_dimension_size",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.one_dimension_size",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.two_dimension_size",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.all_dimension_squared",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.certificate_squared_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "C7FractionFamilyBarrier.exact_certificate_squared_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "log": "notes/results/c7-fraction-family-independent.log",
+      "log_sha256": "95dfc6b2d1a660da684c4c45e5624fc1a3044229c4f98c6b0150985d9529c36e"
+    }
+  ],
+  "independent_reviews": {
+    "separate_mathematical_derivations": 2,
+    "final_source_and_note_reviews": 2,
+    "additional_independent_compiler_and_declaration_review": true,
+    "must_fix_findings": 0,
+    "AI_assisted": true,
+    "human_peer_review": false
+  },
+  "not_formalized_here": [
+    "the source paper's lattice construction",
+    "fraction-graph cohomomorphism theorem",
+    "transfer to C7 graph words",
+    "real-root inequality",
+    "complete equality-parameter classification"
+  ],
+  "historical_novelty": "not established"
+}

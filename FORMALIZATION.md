@@ -390,3 +390,34 @@ written equivalence and finite phase test, with an independent full-source
 review. Its complete companion construction is classical Zauner theory.
 Neither its matrix construction nor the sixteen-pair cross-ratio test is
 formalized by the three supporting Lean sources.
+
+## C7: explicit fraction-family arithmetic barrier
+
+The [mathematical note](notes/c7-fraction-family-barrier.md) restricts
+the displayed certificate of Buys–Polak–Zuiddam Theorem 1.7 in
+arXiv:2506.14654v1 under its direct C7-transfer condition p/q≤7/2.
+[C7FractionFamilyBarrier.lean](notes/proof/C7FractionFamilyBarrier.lean)
+proves denominator divisibility for both displayed numerators, positivity,
+the complete dimension-dependent bounds, and
+exact_certificate_squared_bound: the actual integer quotient p satisfies
+p²≤10ⁿ, with only the original parameter and cross-multiplication hypotheses.
+
+Primary and independent fresh elaboration both passed with Lean 4.34.1
+and the fixed Mathlib commit. All 15 audited declarations use only
+propext, Classical.choice, and Quot.sound; there are no added axioms
+or native decision procedures.
+The [source-specific receipt](notes/results/c7-fraction-family-barrier.json)
+records source hashes, run times and actual diagnostics.
+
+This file does not formalize the source paper's lattice construction,
+fraction-graph cohomomorphisms, the real-root inequality, or the complete
+equality-parameter classification. Those interfaces are written and cited
+in the note. This is neither a new C7 capacity bound nor verification of
+the surrounding paper.
+
+Reproduce with the pinned Mathlib package available:
+
+~~~sh
+cd 002-weighted-rectangular-pruning/proof/mathlib
+lake env lean ../../../notes/proof/C7FractionFamilyBarrier.lean
+~~~

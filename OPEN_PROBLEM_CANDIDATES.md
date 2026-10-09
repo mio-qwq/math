@@ -1,6 +1,7 @@
 # Public open-problem candidates and precise remaining targets
 
-Source review: 8 October 2026. The questions below are explicitly left
+Source review: 8 October 2026; C7 rechecked on 9 October 2026.
+The questions below are explicitly left
 unresolved in the cited primary works. This is a bounded literature
 review, not certification that no subsequent proof exists. No new global
 bound or solution is claimed in this document; small investigated branches
@@ -35,6 +36,15 @@ The lower-bound computation and
 [author code](https://github.com/tandonravi/C7-Shannon-Capacity-Heterogeneous-Recursion)
 have not been independently replayed here.
 
+The 9 October source check also compared the authors' default branches:
+BPZ commit aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65 reports
+3.258827985920007…, and Tandon commit
+c753408492dde92a239708986d16c15dbf6c3235 reports the stronger bound above.
+An official arXiv metadata search over 31 August–9 October found no reliable
+new C7 solution in the matching entries. This remains a bounded review:
+non-default branches and issues were not exhaustively checked, and
+unindexed work or older papers with new revisions may be missed.
+
 Remark 3 and Section 5 explicitly leave a genuinely two-sided
 heterogeneous extension: both factors may use unrelated codebooks,
 so automatic cross-block separation is lost. A concrete research
@@ -44,6 +54,27 @@ product-block independence condition would not settle this extension.
 A new general construction, rigorous obstruction or improved lower
 bound would be substantive; a numerical failure to find a larger code
 would not be an upper bound.
+
+BPZ's existing [general separation/substitution framework](https://github.com/spectra-research/shannon-capacity-lean/blob/aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65/ShannonBounds/Layered.lean)
+already accepts arbitrary finite separation systems and different input
+dimensions. New labels or the elementary cross-block separation condition
+alone would therefore repeat an existing interface.
+
+### Proved limited result: an explicit fraction-graph family
+
+The [parameter barrier](notes/c7-fraction-family-barrier.md) considers
+exactly Buys–Polak–Zuiddam Theorem 1.7 in arXiv:2506.14654v1, with
+the direct-transfer condition p/q≤7/2. Every displayed certificate
+satisfies p²≤10ⁿ; dimensions at least three satisfy p≤3ⁿ.
+The full arithmetic bound and integer-quotient definition are Lean-verified.
+This excludes that one direct-transfer parameter family from improving
+C7's lower bound. It does not bound the largest independent set of the
+source graph or of C7, or exclude other lattices or nonlinear repair.
+
+[Polak–Schrijver §3](https://arxiv.org/html/1808.07438v2) already reports
+failure of every three-deletion/four-insertion exchange on its specified
+367-word code. This covers smaller positive exchanges on that same code;
+it is not a global proof that 368 words are impossible.
 
 ### Investigated branch: a pure neutral auxiliary set
 
