@@ -2,8 +2,17 @@
 
 The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; the isolated `proof/mathlib` packages pin Mathlib as well. All statements below have been compiled locally, and their axiom lists are printed by their source files. None uses `sorry`, an added axiom, or `native_decide`.
 
+The [Q6 factor receipt](notes/results/q6-packing-domination-verification.json)
+contains the two actual source-specific runs and all twelve axiom outputs.
+From `002-weighted-rectangular-pruning/proof/mathlib`, run
+`lake env lean ../../../notes/proof/Q6PackingDomination.lean` using the pinned
+package. The [product note](notes/q6-strong-product-affine-obstruction.md)
+separately proves the nonlinear necessary conditions and affine obstruction
+in writing; those results are not attributed to the factor's compilation.
+
 | File | Exact formal statement | Boundary |
 | --- | --- | --- |
+| [notes/proof/Q6PackingDomination.lean](notes/proof/Q6PackingDomination.lean) | Every S : Set (BitVec 6) with distinct centers at Hamming distance at least four has an actual vertex farther than two from every center; hence S cannot cover all six-bit vertices with closed radius-two balls. Empty and nonlinear sets are included; distance_bits identifies the six coordinate differences | Twelve audits and separate actual author/independent Lean runs, with only standard axioms. The graph shortest-path interpretation, size bound, nonlinear product constraints and complete affine obstruction in Q6 strong-product Q6 are written mathematics only; no solution or counterexample to the original conjecture |
 | [notes/proof/SevenCoreSubstitutionCertificate.lean](notes/proof/SevenCoreSubstitutionCertificate.lean) | Seven explicit real row bounds imply the sharp ratio 260889/805108; a strictly positive rational witness has mass one and attains every row; positive mass gives strict bounds below 21/64 and 1/3 | Three audits and separate actual author/independent Lean runs. The graph-to-row reduction, all-depth T9-free classification and finite integer graph realization are complete written proofs, not Lean graph theorems |
 | [005/proof/FeedbackCoreObstruction.lean](005-directed-cycle-packing/proof/FeedbackCoreObstruction.lean) | Every actual acyclic deletion set in a finite nonempty oriented arc-dominated graph has card greater than r, given at least r>0 distinct out-neighbors at every vertex | Generic classical structural consequence, one endpoint audit. No minimum-counterexample reduction, contraction, three-cycle theorem or four-cycle packing endpoint |
 | [004/proof/FourierAsymmetricTriplet.lean](004-mub-triplets/proof/FourierAsymmetricTriplet.lean) | Closed concrete actual normalized identity/H/companion triplet: three column Grams I, all three pairwise norm squares 1/6; raw cubic of H is 0 and of its actual adjoint is (243-351i)/125, norm square 1458/125, at the same displayed partition | No raw Gram/overlap/character premise at this endpoint; classical construction, no historical originality or original conjecture counterexample. Fifteen audits, actual author compile and ROOT empty-directory project rebuild; independent mathematical review is separate |

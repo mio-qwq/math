@@ -1,0 +1,231 @@
+{
+  "environment": {
+    "lean": "4.34.1",
+    "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  },
+  "published_source": "notes/proof/Q6PackingDomination.lean",
+  "source_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+  "scope": "Every subset of the six-bit Hamming space with pairwise distance at least four has a vertex farther than two from every center. No linearity or cardinality hypothesis. Graph shortest-path semantics, the packing cardinality bound and the complete strong-product affine theorem are written mathematics, not formalized by this source.",
+  "reproduction": {
+    "working_directory": "002-weighted-rectangular-pruning/proof/mathlib",
+    "command": "lake env lean ../../../notes/proof/Q6PackingDomination.lean",
+    "expected_audits": 12
+  },
+  "lean_runs": [
+    {
+      "role": "author",
+      "command_kind": "separate lake env lean process; source identified by SHA256",
+      "source_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+      "source_after_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+      "start_utc": "2026-10-09T04:53:21.7363387+00:00",
+      "end_utc": "2026-10-09T04:53:38.4476274+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 12,
+      "expected_audits": 12,
+      "declaration_axioms": [
+        {
+          "declaration": "Q6PackingDomination.pop6_bits",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.distance_bits",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.xor_cancel",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.distance_translate",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.candidate_complete",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.single_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.pair_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.third_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.zero_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.normalized_has_uncovered",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.packing_has_uncovered",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.no_packing_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "complete_output": "'Q6PackingDomination.pop6_bits' depends on axioms: [propext]\n'Q6PackingDomination.distance_bits' depends on axioms: [propext, Quot.sound]\n'Q6PackingDomination.xor_cancel' depends on axioms: [propext, Quot.sound]\n'Q6PackingDomination.distance_translate' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.candidate_complete' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.single_far' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.pair_far' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.third_far' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.zero_far' depends on axioms: [propext, Quot.sound]\n'Q6PackingDomination.normalized_has_uncovered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6PackingDomination.packing_has_uncovered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6PackingDomination.no_packing_cover' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    },
+    {
+      "role": "independent",
+      "command_kind": "separate lake env lean process; source identified by SHA256",
+      "source_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+      "source_after_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+      "start_utc": "2026-10-09T05:16:58.5854269+00:00",
+      "end_utc": "2026-10-09T05:17:16.1626432+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 12,
+      "expected_audits": 12,
+      "declaration_axioms": [
+        {
+          "declaration": "Q6PackingDomination.pop6_bits",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.distance_bits",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.xor_cancel",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.distance_translate",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.candidate_complete",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.single_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.pair_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.third_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private._stdin.0.Q6PackingDomination.zero_far",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.normalized_has_uncovered",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.packing_has_uncovered",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingDomination.no_packing_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "complete_output": "'Q6PackingDomination.pop6_bits' depends on axioms: [propext]\n'Q6PackingDomination.distance_bits' depends on axioms: [propext, Quot.sound]\n'Q6PackingDomination.xor_cancel' depends on axioms: [propext, Quot.sound]\n'Q6PackingDomination.distance_translate' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.candidate_complete' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.single_far' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.pair_far' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.third_far' depends on axioms: [propext, Quot.sound]\n'_private._stdin.0.Q6PackingDomination.zero_far' depends on axioms: [propext, Quot.sound]\n'Q6PackingDomination.normalized_has_uncovered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6PackingDomination.packing_has_uncovered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Q6PackingDomination.no_packing_cover' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    }
+  ],
+  "initial_draft_history": {
+    "status": "failed; not counted as a verified theorem",
+    "cause": "A bit-vector numeral-zero simplification did not elaborate. The correction normalizes the numeral before applying xor_zero; theorem statements are unchanged."
+  },
+  "interpretation": "The closed finite decide certificates are kernel checked. The all-subsets conclusion is a Lean theorem composed from those certificates, not a claim to have enumerated every subset. The accompanying written Plotkin proof is a different proof of the factor obstruction."
+}
