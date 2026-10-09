@@ -1,0 +1,330 @@
+{
+  "source_sha256": "06223af51237cd710e2df71436b8b2fc491f027eed4761bda71f60ffb92fb92d",
+  "source_after_sha256": "06223af51237cd710e2df71436b8b2fc491f027eed4761bda71f60ffb92fb92d",
+  "start_utc": "2026-10-09T01:59:51.6093153+00:00",
+  "end_utc": "2026-10-09T02:00:52.3217481+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 15,
+  "expected_audits": 15,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.phase_unit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.fourier_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_first_and_cubic_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.adjoint_character_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_phase_ratio_sixth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.asymmetricValue_normSq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_flat_gram_character_asymmetry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.companion_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.companion_as_circulants",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.companion_fourier_overlap_normSq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_companion_overlap_normSq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_raw_triplet_character_asymmetry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.concrete_raw_triplet_character_asymmetry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.FourierAsymmetricTriplet.concrete_normalized_triplet_character_asymmetry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "source": "FourierAsymmetricTriplet.lean",
+  "audit": "FourierAsymmetricTriplet.audit.txt",
+  "audit_sha256": "2109fc2dfe09d0d22910f7c7b91b406febfbc899e6b4335d2167aae1e3f00edc",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "operator": "ROOT",
+  "separate_replay": {
+    "source": "FourierAsymmetricTriplet.lean",
+    "source_sha256": "06223af51237cd710e2df71436b8b2fc491f027eed4761bda71f60ffb92fb92d",
+    "source_after_sha256": "06223af51237cd710e2df71436b8b2fc491f027eed4761bda71f60ffb92fb92d",
+    "start_utc": "2026-10-09T10:02:27.359812+08:00",
+    "end_utc": "2026-10-09T10:03:03.4107177+08:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "panics": 0,
+    "audits": 15,
+    "expected_audits": 15,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.phase_unit",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.fourier_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_first_and_cubic_zero",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.adjoint_character_formula",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_phase_ratio_sixth",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.asymmetricValue_normSq",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_flat_gram_character_asymmetry",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.companion_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.companion_as_circulants",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.companion_fourier_overlap_normSq",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_companion_overlap_normSq",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.actual_raw_triplet_character_asymmetry",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.concrete_raw_triplet_character_asymmetry",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.FourierAsymmetricTriplet.concrete_normalized_triplet_character_asymmetry",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "olean_sha256": "7b662c6da73de0e3ae548c451cbfd0807d8c9e286c69e797e64e097b6f4abdbd",
+    "operator": "ROOT",
+    "evidence_kind": "observed_separate_process_replay_with_all_project_dependencies_rebuilt_in_empty_directory",
+    "pass": true,
+    "log": "FourierAsymmetricTriplet.replay.txt",
+    "log_sha256": "2109fc2dfe09d0d22910f7c7b91b406febfbc899e6b4335d2167aae1e3f00edc"
+  },
+  "replay_all_project_dependencies_rebuilt": true,
+  "replay_dependencies": [
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09",
+      "olean_sha256": "86bd50dd42485db8ef8119fe2a7dc48157f20d54ff1d17cdc891b989d0e10b53",
+      "pass": true
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f",
+      "olean_sha256": "f6e3d1869e07bdc03493e33063eefa58352bfafcea15854cc4a6a8911387e5b2",
+      "pass": true
+    },
+    {
+      "source": "PrimitiveCubicRoot.lean",
+      "source_sha256": "c783f3c7539d737193485229e1fa57995d657450599076b9184612dbc412bee4",
+      "olean_sha256": "495a21e38f8d948e4f1e0ba741bddca34bf5fbd663bff6c974511f0c911e8e93",
+      "pass": true
+    },
+    {
+      "source": "NormalizedRawMUBBridge.lean",
+      "source_sha256": "e714efcaf6ea17bcf4392c6f8911b1ce476ae1ad9fd03794436a8c839a7a982d",
+      "olean_sha256": "d929f7fbd2eefc378591eebe54b1a09ab5e5c74836eb9b4218b4e4a3d152b216",
+      "pass": true
+    },
+    {
+      "source": "FourierAsymmetricTriplet.lean",
+      "source_sha256": "06223af51237cd710e2df71436b8b2fc491f027eed4761bda71f60ffb92fb92d",
+      "olean_sha256": "7b662c6da73de0e3ae548c451cbfd0807d8c9e286c69e797e64e097b6f4abdbd",
+      "pass": true
+    }
+  ],
+  "historical_mathematical_originality_established": false,
+  "general_mub_conjecture_resolved": false,
+  "scope": "Closed concrete actual identity/H/sqrt(6)/Hc/sqrt(6) matrix triplet with complete Grams and all 36 mutual overlaps; same displayed cubic of H is zero and of its actual adjoint is (243-351i)/125 with norm square 1458/125. No supplied Gram, companion, overlap or character premise at the concrete endpoint.",
+  "concrete_normalized_triplet_formalized": true,
+  "actual_companion_all_six_columns_formalized": true,
+  "raw_gram_or_overlap_assumed_at_concrete_endpoint": false,
+  "both_cubics_zero_at_every_fixed_partition_refuted": true,
+  "original_cubic_product_conjecture_refuted": false,
+  "mathlib_orthonormal_basis_objects_constructed": false,
+  "fixed_partition_witness_nonexistence_lean_formalized": false,
+  "independent_final_lean_reviewer_replay": false,
+  "independent_mathematical_review": "Complete written and exact rational-field check of the actual matrix construction, both Gram directions, all 36 overlaps and the specified asymmetric cubic. Final Lean source audit and isolated compiler replay are by ROOT."
+}

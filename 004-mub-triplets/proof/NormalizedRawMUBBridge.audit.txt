@@ -1,0 +1,4 @@
+'MUBTriplets.NormalizedRawMUBBridge.normalize_column_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.NormalizedRawMUBBridge.actual_normalized_triplet_of_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

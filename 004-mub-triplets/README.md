@@ -40,8 +40,14 @@ It does not announce a solution of the maximum-number problem.
 The methods use standard spectral interpolation, MUB observables and
 Fourier diagonalization. Originality of the reformulation is not established.
 Known theorems and conditional reductions are kept separate from the public
-coupling target. The current concrete missing step is to control compatible
-spectral witnesses without assuming the two anticommutation equations.
+coupling target. The [complete asymmetric-cubic example](fourier-character-asymmetry.md) now
+has an actual normalized matrix-triplet Lean proof. At the same prescribed
+partition its two cubic characters are 0 and (243-351i)/125. Thus a route
+requiring both fixed cubic zeros for every actual triplet is false. The
+fixed-partition witness consequence remains written; other partitions and
+the original cubic-product conjecture are not excluded. The current
+missing step is to control general complete-companion compatibility well
+enough to force the published cubic/adjoint condition.
 
 ## Reproduce the supporting Lean proof
 

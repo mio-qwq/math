@@ -1,0 +1,46 @@
+{
+  "source": "fourier-character-asymmetry.md",
+  "source_sha256": "7a5ec6501a647e0f6898e78061a1ce7a85468d51353e9cd53ec9c484ddf5113c",
+  "status": "actual_math_and_kernel_checks_passed_with_scope_limits",
+  "independent_mathematical_checks": {
+    "all_actual_entries": true,
+    "both_raw_gram_directions": true,
+    "all_36_actual_mutual_overlaps": true,
+    "three_normalized_matrix_grams_and_pairwise_norms": true,
+    "same_displayed_partition_cubic_values": [
+      "0",
+      "(243-351i)/125"
+    ],
+    "nonzero_cubic_norm_square": "1458/125",
+    "method": "separate reviewer, exact Fraction arithmetic in Q(i,sqrt(2),sqrt(3),sqrt(5)); no floating point or supplied Gram/overlap certificates"
+  },
+  "final_source_audit": {
+    "operator": "ROOT",
+    "actual_final_sources_read_completely": true,
+    "raw_companion_gram_or_overlap_assumed_at_concrete_endpoint": false,
+    "added_axioms_or_admitted_proofs": false
+  },
+  "separate_compiler_replay": {
+    "operator": "ROOT",
+    "empty_project_object_directory": true,
+    "all_five_project_sources_rebuilt": true,
+    "shared_pinned_mathlib_cache": true,
+    "second_independent_lean_reviewer": false
+  },
+  "primary_source_comparison": [
+    {
+      "url": "https://arxiv.org/html/2503.14752v2",
+      "scope": "Conjecture 2 and equations (4.7)-(4.9); cubic product is allowed to have one nonzero factor."
+    },
+    {
+      "url": "https://arxiv.org/pdf/0811.3930v2",
+      "scope": "Section 4, Proposition 4.2 and Theorem 4.3; Fourier companion construction is classical Zauner/Szollosi theory."
+    }
+  ],
+  "limits": [
+    "No original Conjecture 2 counterexample or full six-dimensional MUB conjecture solution.",
+    "No historical originality established for the chosen numerical phases.",
+    "No Lean proof of the fixed-partition witness equivalence or nonexistence.",
+    "No exclusion of other partitions or all complete companions in general."
+  ]
+}

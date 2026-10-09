@@ -1,0 +1,113 @@
+{
+  "source_sha256": "e714efcaf6ea17bcf4392c6f8911b1ce476ae1ad9fd03794436a8c839a7a982d",
+  "source_after_sha256": "e714efcaf6ea17bcf4392c6f8911b1ce476ae1ad9fd03794436a8c839a7a982d",
+  "start_utc": "2026-10-09T00:47:22.6445742+00:00",
+  "end_utc": "2026-10-09T00:47:38.1516880+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "audits": 2,
+  "expected_audits": 2,
+  "declaration_axioms": [
+    {
+      "declaration": "MUBTriplets.NormalizedRawMUBBridge.normalize_column_gram",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MUBTriplets.NormalizedRawMUBBridge.actual_normalized_triplet_of_raw",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "panics": 0,
+  "source": "NormalizedRawMUBBridge.lean",
+  "audit": "NormalizedRawMUBBridge.audit.txt",
+  "audit_sha256": "445d7902c44e478d7aa80e06d76941d167b44d101ac3a7ac2e3e4c4d17a636d0",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "evidence_kind": "observed_actual_source_compilation",
+  "operator": "ROOT",
+  "separate_replay": {
+    "source": "NormalizedRawMUBBridge.lean",
+    "source_sha256": "e714efcaf6ea17bcf4392c6f8911b1ce476ae1ad9fd03794436a8c839a7a982d",
+    "source_after_sha256": "e714efcaf6ea17bcf4392c6f8911b1ce476ae1ad9fd03794436a8c839a7a982d",
+    "start_utc": "2026-10-09T10:02:09.9588861+08:00",
+    "end_utc": "2026-10-09T10:02:27.3524689+08:00",
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0,
+    "panics": 0,
+    "audits": 2,
+    "expected_audits": 2,
+    "declaration_axioms": [
+      {
+        "declaration": "MUBTriplets.NormalizedRawMUBBridge.normalize_column_gram",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "MUBTriplets.NormalizedRawMUBBridge.actual_normalized_triplet_of_raw",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "nonstandard_axioms": [],
+    "olean_sha256": "d929f7fbd2eefc378591eebe54b1a09ab5e5c74836eb9b4218b4e4a3d152b216",
+    "operator": "ROOT",
+    "evidence_kind": "observed_separate_process_replay_with_all_project_dependencies_rebuilt_in_empty_directory",
+    "pass": true,
+    "log": "NormalizedRawMUBBridge.replay.txt",
+    "log_sha256": "445d7902c44e478d7aa80e06d76941d167b44d101ac3a7ac2e3e4c4d17a636d0"
+  },
+  "replay_all_project_dependencies_rebuilt": true,
+  "replay_dependencies": [
+    {
+      "source": "CirculantCharacter.lean",
+      "source_sha256": "4a1404d9145ae20f2b857ddeeec0ff3f185ef733046769adb89ba484028afa09",
+      "olean_sha256": "86bd50dd42485db8ef8119fe2a7dc48157f20d54ff1d17cdc891b989d0e10b53",
+      "pass": true
+    },
+    {
+      "source": "UnitTripleZeroSum.lean",
+      "source_sha256": "287b07a1c259505892fda9fd014433e23be0d4ff9c5410c1727c1db198f33a1f",
+      "olean_sha256": "f6e3d1869e07bdc03493e33063eefa58352bfafcea15854cc4a6a8911387e5b2",
+      "pass": true
+    },
+    {
+      "source": "PrimitiveCubicRoot.lean",
+      "source_sha256": "c783f3c7539d737193485229e1fa57995d657450599076b9184612dbc412bee4",
+      "olean_sha256": "495a21e38f8d948e4f1e0ba741bddca34bf5fbd663bff6c974511f0c911e8e93",
+      "pass": true
+    },
+    {
+      "source": "NormalizedRawMUBBridge.lean",
+      "source_sha256": "e714efcaf6ea17bcf4392c6f8911b1ce476ae1ad9fd03794436a8c839a7a982d",
+      "olean_sha256": "d929f7fbd2eefc378591eebe54b1a09ab5e5c74836eb9b4218b4e4a3d152b216",
+      "pass": true
+    },
+    {
+      "source": "FourierAsymmetricTriplet.lean",
+      "source_sha256": "06223af51237cd710e2df71436b8b2fc491f027eed4761bda71f60ffb92fb92d",
+      "olean_sha256": "7b662c6da73de0e3ae548c451cbfd0807d8c9e286c69e797e64e097b6f4abdbd",
+      "pass": true
+    }
+  ],
+  "historical_mathematical_originality_established": false,
+  "general_mub_conjecture_resolved": false,
+  "scope": "Actual flat raw H/R with their actual column Grams 6I and actual H*R entry norm squares 6 give three normalized matrix column Grams I and all three pairwise transition norm squares 1/6; generic raw hypotheses remain here."
+}

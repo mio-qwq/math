@@ -1,0 +1,35 @@
+'MUBTriplets.FourierAsymmetricTriplet.phase_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.fourier_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.actual_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.actual_first_and_cubic_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.adjoint_character_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.actual_phase_ratio_sixth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.asymmetricValue_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.actual_flat_gram_character_asymmetry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.companion_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.companion_as_circulants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.companion_fourier_overlap_normSq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.actual_companion_overlap_normSq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.actual_raw_triplet_character_asymmetry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.concrete_raw_triplet_character_asymmetry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MUBTriplets.FourierAsymmetricTriplet.concrete_normalized_triplet_character_asymmetry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
