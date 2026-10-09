@@ -1,0 +1,88 @@
+{
+  "source": "005-directed-cycle-packing/proof/FeedbackCoreObstruction.lean",
+  "source_sha256": "b1ebadb9a2821365524c5278edb79ef31e18930969faeda3b3647a891177d8e6",
+  "lean": "leanprover/lean4:v4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "endpoint_scope": "Every actual acyclic deletion set S in a finite nonempty oriented arc-dominated digraph with at least r>0 distinct out-neighbors at each vertex has card greater than r.",
+  "compiled_source_bytes_identical_to_published_source": true,
+  "runs": [
+    {
+      "operator": "author",
+      "start_utc": "2026-10-09T02:42:59.4234391+00:00",
+      "end_utc": "2026-10-09T02:43:13.9857540+00:00",
+      "source_sha256": "b1ebadb9a2821365524c5278edb79ef31e18930969faeda3b3647a891177d8e6",
+      "source_after_sha256": "b1ebadb9a2821365524c5278edb79ef31e18930969faeda3b3647a891177d8e6",
+      "exit_code": 0,
+      "errors": 0,
+      "warnings": 0,
+      "panics": 0,
+      "audits": 1,
+      "declaration_axioms": [
+        {
+          "declaration": "DirectedCycleResearch.feedback_set_card_gt_min_outdegree",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "complete_output": "'DirectedCycleResearch.feedback_set_card_gt_min_outdegree' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "retained_run_record_sha256": "9641e45ff88db3dd8dd3a7c8cac8da92bc875527924c4182d143a280cc0cf5c0",
+      "retained_output_sha256": "d4827d84524bfcc818cb3997340b1606681b2eda90a6534be03f5953f56ca7e0"
+    },
+    {
+      "operator": "independent_reviewer",
+      "start_utc": "2026-10-09T02:45:02.4515275+00:00",
+      "end_utc": "2026-10-09T02:45:17.5284740+00:00",
+      "source_sha256": "b1ebadb9a2821365524c5278edb79ef31e18930969faeda3b3647a891177d8e6",
+      "source_after_sha256": "b1ebadb9a2821365524c5278edb79ef31e18930969faeda3b3647a891177d8e6",
+      "exit_code": 0,
+      "errors": 0,
+      "warnings": 0,
+      "panics": 0,
+      "audits": 1,
+      "declaration_axioms": [
+        {
+          "declaration": "DirectedCycleResearch.feedback_set_card_gt_min_outdegree",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "complete_output": "'DirectedCycleResearch.feedback_set_card_gt_min_outdegree' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "retained_run_record_sha256": "b19d3cf4bf44d31fde402a5b4e9b74d913a9f384435ff6d68c0748380348b177",
+      "retained_output_sha256": "d4827d84524bfcc818cb3997340b1606681b2eda90a6534be03f5953f56ca7e0"
+    }
+  ],
+  "mathematical_reviews": [
+    {
+      "scope": "written_corollary_review",
+      "retained_review_sha256": "8b324b281f90c979ef68d83f1b68530af82bd66fc7ede9bc3b5c982cd1ac6506",
+      "mathematical_status": "PASS",
+      "historical_novelty": "not established"
+    },
+    {
+      "scope": "final_lean_interface_review",
+      "retained_review_sha256": "6811d99ca58421d5fdbc9ed9bc1decaf3ebc83798a573122d95cb6e2f805fef7",
+      "mathematical_status": "PASS",
+      "historical_novelty": "not established"
+    }
+  ],
+  "not_formalized": [
+    "restricted minimal counterexample",
+    "directed contraction and packing lift",
+    "feedback-set preservation under contraction",
+    "known three-cycle theorem",
+    "seven-point feedback-set four-cycle packing corollary",
+    "general Bermond-Thomassen k=4"
+  ],
+  "original_conjecture_counterexample": false,
+  "historical_priority_claim": false
+}
