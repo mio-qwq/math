@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "verification_method": "complete written proof and independent agent readings",
   "source_sha256": {
-    "chordal-bipartite-costs.md": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea"
+    "chordal-bipartite-costs.md": "60ac9622179c7b85910b993b7f48eab96f5d67bcd272a466a0433212021b5003"
   },
   "mathematical_scope": "Sharp augmented cover and actual pruning bounds for arbitrary independent nonnegative local costs xy<=hz whenever either coordinate relation is chordal bipartite, with the other arbitrary; all partial original families, initial retention and complete expansions included.",
   "nested_old_pivot_preservation_proved": true,
@@ -67,5 +67,31 @@
       "review_focus": "All frozen public sections reconstructed independently, with exact high thresholds, clipped suffix costs and final auxiliary allowance, every old-neighbor condition at zero costs, genuinely partial residual witnesses, actual prefix lift, favorable missing profits, retained isolated originals, group aggregation and explicit E/F exchange. Primary structural proof and duplicate/isolated incidence translation checked."
     }
   ],
-  "review_limitations": "Two actual full-source agent readings of frozen bytes and primary theorem checks, not Lean compilation, axiom audit, executable-certificate replay, external blind peer review, proof of all cited-paper claims or worldwide originality clearance. Earlier privately authored proofs were retained separately and do not replace final public-source readings."
+  "review_limitations": "Two actual full-source agent readings of the prior frozen proof, plus a full 596-line reading of this clarified revision with original primary-map definitions checked. These are written independent reviews, not Lean compilation, axiom audit, executable-certificate replay, external blind peer review, proof of all cited-paper claims or worldwide originality clearance. Each earlier receipt retains the source hash actually read.",
+  "clarification_revision": {
+    "date": "2026-10-09",
+    "prior_source_sha256": "2948fd612fda83b511a7d81f365d8c6056cb218d3635c157de47f92edc315bea",
+    "current_source_sha256": "60ac9622179c7b85910b993b7f48eab96f5d67bcd272a466a0433212021b5003",
+    "scope": "Same theorem and assumptions; finite threshold at most expectation, explicit actual padding and actual uncovered set, complete pointwise adjusted-fee decomposition; exact two-matching example excludes the natural unchanged total-product deduction",
+    "written_independent_original_proof_review": "PASS: actual residual conditions, all zero-cost division boundaries, both lift cases, actual uncovered-set inclusion and initial retention; no blocking mathematical errors",
+    "natural_total_product_inequality_not_implied_by_local_conditions": true,
+    "natural_total_product_counterexample_is_cover_counterexample": false,
+    "other_general_map_encodings_excluded": false,
+    "lean_compile_claimed": false,
+    "historical_novelty_established": false,
+    "final_public_review": {
+      "reviewer": "independent clarification reviewer",
+      "status": "PASS",
+      "full_mathematical_source_read": true,
+      "source_read_pre_sha256": "60ac9622179c7b85910b993b7f48eab96f5d67bcd272a466a0433212021b5003",
+      "source_read_post_sha256": "60ac9622179c7b85910b993b7f48eab96f5d67bcd272a466a0433212021b5003",
+      "mathematical_source_lines_read": 596,
+      "mathematical_source_bytes": 25002,
+      "required_mathematical_repairs": 0,
+      "review_focus": "Complete current proof and original independent receipt; exact pointwise adjusted-fee chain, finite support at-most-expectation choice, all padded-new actual corners, actual cover restriction and actual U, initial retention, exact diagonal-matching example and narrow unchanged-total-product limitation.",
+      "primary_read_scope": "1979 original Section 1 compatibility and weighted-expansiveness definitions, Theorems 1 and 6; bibliographic metadata checked against the original article and primary university record. Not a full rereading of all 23 pages.",
+      "lean_compile_claimed": false,
+      "historical_novelty_established": false
+    }
+  }
 }

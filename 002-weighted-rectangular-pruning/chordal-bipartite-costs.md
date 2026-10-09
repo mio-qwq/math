@@ -340,9 +340,33 @@ new-C neighbors. Removing extra pivots creates no conflict.
 
 ## 7. Whole budget, partial families and initial retention
 
-Combine (13), the two exact good-column fee identities,
-the favorable old-U comparison, the nonpositive fees (8),
-the low new-C costs and the high-row expectation:
+Let \(D_0^{\rm virt}\) be the normalized residual pruning's
+deletion cost, using b at the good-column pivots, and let
+\(U_0'\) be its actual uncovered residual corners. Set
+\[
+\Phi_0=D_0^{\rm virt}-\sum_{U_0'}z
+       \le\sum_{H_0'}h',\qquad
+\Phi(T)=D_{\rm del}(T)-\sum_{U(T)}z,
+\]
+where U(T) is the extended instance's actual uncovered set.
+The good-column adjusted fees equal their virtual prefix
+fees, and every residual uncovered corner remains actually
+uncovered. Hence, for each threshold state,
+\[
+\begin{aligned}
+\Phi(T)\le\Phi_0
+ &+\sum_{j\in N}(S_0(j)-L_j)\\
+ &+\sum_{j\in J_H}
+       \bigl(A_j+S_0(j)-w_j\mathbf1_{\{T\le\mu_j\}}\bigr)\\
+ &+\sum_{s\in S_L}D_s
+   +\sum_{s\in S_H}D_s\mathbf1_{\{T\le\rho_s\}}.
+\end{aligned}
+\]
+The N terms are negative by (8). Each J_H term has
+nonpositive expectation, and each high new-C term has
+expectation q_s. The residual choices and good-column
+lifts are fixed across threshold states. Taking expectations
+and applying (13) therefore gives
 \[
 \begin{aligned}
 \mathbb E[D_{\rm del}-\sum_{\text{actual U}}z]
@@ -355,8 +379,10 @@ the low new-C costs and the high-row expectation:
 \]
 Every pivot and auxiliary H corner in the active full input
 is actual and counted exactly once in q; all other H corners
-belong to \(H_{\rm other}\). Choose one finite threshold
-state attaining this average and use (4) for its cover.
+belong to \(H_{\rm other}\). Since the threshold distribution
+has finite support, one state has adjusted deletion fee at
+most its expectation, hence at most \(\sum_H h\) by (18).
+Choose that state and use (4) to obtain its actual cover.
 
 F-isolated originals were retained initially. An ordinary old
 original initially isolated in the extended graph remains
@@ -368,21 +394,35 @@ Residual-isolated old C is also safe: omitted pivots were
 fixed deleted, and normalization only adds pivots whose old
 conflicts are dominated by an already surviving pivot.
 
-For partial inputs, zero-pad missing full originals and new
-corners while preserving every actual cost. A padded conflict
-with two actual originals keeps its actual inequality; any
-other padded original product is zero. The H+Z budget
-is unchanged.
-Construct the padded cover and restrict it to the actual
-originals and actual Z tags. This is an induced-subgraph
-restriction, preserves every actual edge, and cannot increase cost.
-Remove isolated selected vertices.
+For partial inputs, enlarge R and C to the full families and
+give every added original cost zero. Rebuild the padded
+instance's actual corner sets \(\widehat H,\widehat Z\).
+Keep h and z at the original actual corners H and Z, and
+give every corner in \(\widehat H\setminus H\) or
+\(\widehat Z\setminus Z\) cost zero. Thus zero padding applies
+to all corners made actual by padding, not just those involving
+the newly attached coordinate \(i_*\). A padded conflict with
+two original input members has its H and Z witnesses in the
+original instance, so its local inequality is unchanged.
+Every other padded conflict has original-cost product zero
+and nonnegative corner-cost product. The padded H+Z budget
+therefore equals the original actual H+Z budget.
 
-An initially conflict-free actual original cannot cover actual Z:
-the opposite original witnessing that corner would conflict
-with it. It is an isolated augmented vertex and remains a survivor.
-The cheapest actual completion then gives (3) for the actual U,
-without relying on padded survivors for coverage.
+Construct a padded cover and restrict it to the original
+input members and the two tags of each original actual Z
+corner. The original augmented graph is the induced subgraph
+on these vertices, so this restriction covers every actual
+edge and cannot increase its nonnegative cost. Remove any
+selected vertices that are isolated in this actual graph.
+An initially conflict-free original cannot cover an actual Z
+corner: that corner's opposite original witness would conflict
+with it. It is therefore isolated and remains a survivor.
+
+Let U be the actual Z corners uncovered by the survivors
+of this restricted cover. Their cheapest actual completion
+costs no more than the restricted cover. Formula (4) now
+gives (3) with this actual U. Padded survivors are not used
+as witnesses for actual coverage.
 This proves the full preservation lemma.
 
 All suffix operations and comparisons are rational on rational
@@ -511,3 +551,46 @@ or implemented as an executable certificate checker.
 No new Lean compilation, axiom audit, exhaustive cost
 search, unrestricted pruning theorem or upstream
 second-neighborhood conclusion is claimed.
+
+**Remark (local conditions do not force the natural total-product bound).**
+The local condition (1) does not imply
+\((\sum_R x)(\sum_C y)\le(\sum_H h)(\sum_Z z)\), even when
+both coordinate relations are chordal bipartite. Take four
+disjoint two-element coordinate sets, indexed by 0 and 1,
+let E and F be the diagonal matchings, and let R and C
+contain only the diagonal originals. Their actual H and Z
+also consist of the two diagonal corners. Assign
+\[
+(x_{00},x_{11})=(4,1),\quad
+(y_{00},y_{11})=(1,4),\quad
+(h_{00},h_{11})=(z_{00},z_{11})=(2,2).
+\]
+Each actual conflict satisfies xy=hz=4, whereas the proposed
+total-product inequality reads \(25\le16\). The natural
+cross-corner maps send the nonconflicting original pairs to
+inactive off-diagonal corners; zero padding those corners
+does not supply compatibility for these positive products.
+
+This is not a counterexample to the cover or pruning bound.
+The actual augmented graph is two disjoint four-vertex paths.
+On the first choose C and its opposite Z_R tag; on the second
+choose R and its opposite Z_L tag. Their total cover cost is
+6, below the H+Z budget 8. Deleting the two cost-one originals
+leaves both actual Z corners covered, so U is empty and
+the deletion cost 2 is below the H budget 4.
+
+Ahlswede and Daykin's general-map framework requires
+compatibility on every pair in a finite domain together with
+an appropriate weighted-expansiveness hypothesis; see
+their definitions (1.11)--(1.13), Theorem 1 and Theorem 6 in
+[the original 1979 paper](https://noah.nrw/ubbihs/download/pdf/5106483).
+The example rules out applying its sum-expansion conclusion
+with the unchanged original R/C/H/Z totals. It does not
+rule out a different encoding or a more elaborate deduction
+of the present cover bound, and it establishes no historical
+novelty claim.
+
+R. Ahlswede and D. E. Daykin, *Inequalities for a pair of maps
+S × S → S with S a finite set*, Mathematische Zeitschrift
+165 (1979), 267–289. DOI: 10.1007/BF01437563.
+[Original article](https://noah.nrw/ubbihs/download/pdf/5106483).
