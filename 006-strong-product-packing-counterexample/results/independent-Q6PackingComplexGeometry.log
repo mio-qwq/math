@@ -1,0 +1,17 @@
+'Q6PackingComplexGeometry.hdist_symm' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexGeometry.hdist_self' depends on axioms: [propext, Quot.sound]
+'_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_triangle' depends on axioms: [propext,
+ Quot.sound]
+'Q6PackingComplexGeometry.hdist_triangle' depends on axioms: [propext, Quot.sound]
+'_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_zero' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexGeometry.hdist_zero_eq' depends on axioms: [propext, Quot.sound]
+'_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_next' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexGeometry.nextVertex_spec' depends on axioms: [propext, Quot.sound]
+'_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_single_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Q6PackingComplexGeometry.single_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_pair_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Q6PackingComplexGeometry.pair_cover' depends on axioms: [propext, Classical.choice, Quot.sound]

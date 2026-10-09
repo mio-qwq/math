@@ -11,12 +11,14 @@ product center sets.
 The product theorem has a complete written proof below. The accompanying
 [Lean source](proof/Q6PackingDomination.lean) proves the nonexistence of a
 radius-two covering distance-four packing for every subset of the six-bit
-Hamming space. The packing size bound, product theorem and shortest-path
-interpretation in a `SimpleGraph` are not formalized. Actual
+Hamming space. The packing size bound and the Q6xQ6 product obstruction in this note
+are not formalized. Actual one-bit cube paths and standard strong-product
+semantics are now formalized in the separate
+[608-node counterexample](../006-strong-product-packing-counterexample/README.md). Actual
 compilation and axiom-audit results are recorded in the
 [verification receipt](results/q6-packing-domination-verification.json).
 Historical originality of the particular product obstructions in this note has not been
-established. The general strong-product conjecture remains unresolved here.
+established. The general strong-product conjecture is refuted by that separate construction; the nonlinear Q6xQ6 13–21-center question remains unresolved here.
 
 ## 1. Problem, metric and statements
 

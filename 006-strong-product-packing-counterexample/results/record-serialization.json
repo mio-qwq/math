@@ -1,0 +1,20 @@
+{
+  "transformation": "CRLF to LF only; parsed JSON identical. Original cross-reference hashes, actual UTC intervals and results remain unchanged and refer to the original executed records.",
+  "records": [
+    {
+      "source": "006-strong-product-packing-counterexample/results/graph-verification.json",
+      "original_actual_record_sha256": "64746a2c4dd702fa21caccced65c43244cb728dc27894bd0006f33f68834019d",
+      "published_lf_record_sha256": "62035d7ad000ea3cd36e1aca69822d72cc35aa6b1e290153eff39adf6899a447"
+    },
+    {
+      "source": "006-strong-product-packing-counterexample/results/independent-graph-verification.json",
+      "original_actual_record_sha256": "8e461eaaa7508ab8b1d1c57285c10965acd91c7322609f6e20e7c52584e8197c",
+      "published_lf_record_sha256": "251d3a439184a819c680d767dc10036bcd7b518f5046ec18a0d41c5163e066ad"
+    },
+    {
+      "source": "006-strong-product-packing-counterexample/results/independent-certificate-comparison.json",
+      "original_actual_record_sha256": "ae89dd8d8174c8241b214079042672c7dfc4de360c36ef0eaf372e29d78d9377",
+      "published_lf_record_sha256": "1c19a266116938ba3ae17c2478d358211c6532768f2e25e3b2be76e0f9bdc761"
+    }
+  ]
+}

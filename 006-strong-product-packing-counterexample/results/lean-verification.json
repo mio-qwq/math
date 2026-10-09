@@ -1,0 +1,760 @@
+{
+  "status": "PASS",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "primary_runs": [
+    {
+      "source": "006-strong-product-packing-counterexample/proof/Q6PackingComplexGeometry.lean",
+      "source_sha256": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830",
+      "source_after_sha256": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830",
+      "start_utc": "2026-10-09T07:09:56.5153799+00:00",
+      "end_utc": "2026-10-09T07:10:30.0577792+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 12,
+      "expected_audits": 12,
+      "declaration_axioms": [
+        {
+          "declaration": "Q6PackingComplexGeometry.hdist_symm",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexGeometry.hdist_self",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_triangle",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexGeometry.hdist_triangle",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_zero",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexGeometry.hdist_zero_eq",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_next",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexGeometry.nextVertex_spec",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_single_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexGeometry.single_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_pair_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexGeometry.pair_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "object_exists": true,
+      "log_sha256": "7afdd026c86ac02e5810e7f6b9ef2262306c3ead98e7efce3dd9559debe0d2d3",
+      "pass": true
+    },
+    {
+      "source": "006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean",
+      "source_sha256": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b",
+      "source_after_sha256": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b",
+      "start_utc": "2026-10-09T07:19:30.0476523+00:00",
+      "end_utc": "2026-10-09T07:19:51.5258238+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 26,
+      "expected_audits": 26,
+      "declaration_axioms": [
+        {
+          "declaration": "Q6PackingComplexCounterexample.reach_refl",
+          "axioms": []
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.reach_to_walk",
+          "axioms": []
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.walk_to_reach",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.reach_iff_walk",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.strong_adj_standard",
+          "axioms": []
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.strong_step",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.strong_reach",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.G_reach_bound",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.G_reach_of_bound",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.G_reach_iff_hamming",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.factor_no_walk_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.pair_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.node_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.support_separated",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.compatible_symm",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.H_two_step_centers",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.H_short_centers",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.compatible_singleton",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.H_to_singleton_edge",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.canonical_pair",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.reach_two_edges",
+          "axioms": []
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.reach_one_padded",
+          "axioms": []
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.H_same_center_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.product_walk_packing",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.product_walk_cover",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "Q6PackingComplexCounterexample.original_existence_counterexample",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "object_exists": true,
+      "log_sha256": "5e758926052cd75d1eb58b523a723b9b66f5d19d629668a9667f1205d2a49b3b",
+      "pass": true
+    }
+  ],
+  "independent_fresh_source_rebuild": {
+    "checker_sha256": "c6c1e7e84fe9da347f85e1fa105dc132a47820aab52e3e4b6df59d19d07c38d8",
+    "fresh_project_artifacts": true,
+    "serial_compilation": true,
+    "lean_version": "4.34.1",
+    "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "runs": [
+      {
+        "source": "notes/proof/Q6PackingDomination.lean",
+        "source_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+        "source_after_sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+        "start_utc": "2026-10-09T07:23:20.934341+00:00",
+        "end_utc": "2026-10-09T07:23:38.679804+00:00",
+        "exit_code": 0,
+        "expected_audits": 12,
+        "audits": 12,
+        "declaration_axioms": [
+          {
+            "declaration": "Q6PackingDomination.pop6_bits",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "declaration": "Q6PackingDomination.distance_bits",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingDomination.xor_cancel",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingDomination.distance_translate",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingDomination.0.Q6PackingDomination.candidate_complete",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingDomination.0.Q6PackingDomination.single_far",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingDomination.0.Q6PackingDomination.pair_far",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingDomination.0.Q6PackingDomination.third_far",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingDomination.0.Q6PackingDomination.zero_far",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingDomination.normalized_has_uncovered",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingDomination.packing_has_uncovered",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingDomination.no_packing_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        ],
+        "nonstandard_axioms": [],
+        "warnings": 0,
+        "errors": 0,
+        "panics": 0,
+        "object_exists": true,
+        "log_sha256": "6bcb9fe572ddf13718f9cf1ab92f91f7b75a4cd2c81b66fd726931402942a7c7",
+        "pass": true
+      },
+      {
+        "source": "006-strong-product-packing-counterexample/proof/Q6PackingComplexGeometry.lean",
+        "source_sha256": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830",
+        "source_after_sha256": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830",
+        "start_utc": "2026-10-09T07:23:38.684092+00:00",
+        "end_utc": "2026-10-09T07:24:12.365548+00:00",
+        "exit_code": 0,
+        "expected_audits": 12,
+        "audits": 12,
+        "declaration_axioms": [
+          {
+            "declaration": "Q6PackingComplexGeometry.hdist_symm",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexGeometry.hdist_self",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_triangle",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexGeometry.hdist_triangle",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_zero",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexGeometry.hdist_zero_eq",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_next",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexGeometry.nextVertex_spec",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_single_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexGeometry.single_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "_private.Q6PackingComplexGeometry.0.Q6PackingComplexGeometry.normalized_pair_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexGeometry.pair_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        ],
+        "nonstandard_axioms": [],
+        "warnings": 0,
+        "errors": 0,
+        "panics": 0,
+        "object_exists": true,
+        "log_sha256": "7afdd026c86ac02e5810e7f6b9ef2262306c3ead98e7efce3dd9559debe0d2d3",
+        "pass": true
+      },
+      {
+        "source": "006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean",
+        "source_sha256": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b",
+        "source_after_sha256": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b",
+        "start_utc": "2026-10-09T07:24:12.367551+00:00",
+        "end_utc": "2026-10-09T07:24:33.993674+00:00",
+        "exit_code": 0,
+        "expected_audits": 26,
+        "audits": 26,
+        "declaration_axioms": [
+          {
+            "declaration": "Q6PackingComplexCounterexample.reach_refl",
+            "axioms": []
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.reach_to_walk",
+            "axioms": []
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.walk_to_reach",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.reach_iff_walk",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.strong_adj_standard",
+            "axioms": []
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.strong_step",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.strong_reach",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.G_reach_bound",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.G_reach_of_bound",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.G_reach_iff_hamming",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.factor_no_walk_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.pair_card",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.node_card",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.support_separated",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.compatible_symm",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.H_two_step_centers",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.H_short_centers",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.compatible_singleton",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.H_to_singleton_edge",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.canonical_pair",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.reach_two_edges",
+            "axioms": []
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.reach_one_padded",
+            "axioms": []
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.H_same_center_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.product_walk_packing",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.product_walk_cover",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "declaration": "Q6PackingComplexCounterexample.original_existence_counterexample",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        ],
+        "nonstandard_axioms": [],
+        "warnings": 0,
+        "errors": 0,
+        "panics": 0,
+        "object_exists": true,
+        "log_sha256": "5e758926052cd75d1eb58b523a723b9b66f5d19d629668a9667f1205d2a49b3b",
+        "pass": true
+      }
+    ],
+    "complete": true,
+    "pass": true
+  },
+  "independent_full_source_and_statement_review": {
+    "status": "PASS",
+    "mustfix": 0,
+    "report_sha256": "6b06551015ff99a5158b4d70b302f81b03c1da2556783bd6b77052df9c5dc00d",
+    "scope": "Every definition and proof, ordinary strong-product edges, standard Mathlib Walk bridge, all 608 node types, all-subsets factor obstruction and same-center product coverage reviewed."
+  },
+  "formal_endpoint": "Q6PackingComplexCounterexample.original_existence_counterexample",
+  "complete_original_existence_counterexample_lean_formalized": true,
+  "numeric_gamma_definition_formalized": false,
+  "numeric_SimpleGraph_dist_definition_used": false,
+  "H_connected_lean_formalized": false,
+  "H_edge_count_lean_formalized": false,
+  "H_node_card_608_lean_formalized": true,
+  "historical_originality_established": false,
+  "interpretation": "A genuine finite SimpleGraph G has no arbitrary packing-covering Set; its ordinary strong product with the genuine finite 608-node H has the explicit centerSet with no Walk of length <=3 between distinct centers and with a Walk of length <=2 from every vertex to the SAME center. For finite graphs this is the existence content of gamma_2^3(G)=infinity and gamma_2^3(G strong H)<infinity. Connectedness and edge count have separate complete written and exact graph checks.",
+  "source_paths_are_repository_content_identifiers": true,
+  "absolute_invocation_paths_omitted": true,
+  "primary_geometry_compiled_published_byte_identical_source": true,
+  "independent_actual_rebuild_review": {
+    "status": "PASS",
+    "mustfix": 0,
+    "report_sha256": "3a2dd9319a5141efe2914c7d8998d6e60b09c665262e4fb5936cc1226d7e39bb"
+  },
+  "original_source_and_subsequent_literature_review": {
+    "exact_statement_status": "PASS",
+    "historical_firstness": "UNKNOWN",
+    "report_sha256": "32174348ed6342eeba091018d9a3d80ffef3edb802dee1d027ce40e382024cf3",
+    "public_summary": "006-strong-product-packing-counterexample/LITERATURE.md"
+  }
+}

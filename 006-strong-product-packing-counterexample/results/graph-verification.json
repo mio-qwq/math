@@ -1,0 +1,31 @@
+{
+  "status": "EXACT_FINITE_GRAPH_REPLAY_PASS",
+  "start_utc": "2026-10-09T07:21:12.454121+00:00",
+  "end_utc": "2026-10-09T07:21:12.654474+00:00",
+  "source_sha256": "07cddcd2d9a8d97b064a960ad6aee6671d869d70becbc68974f8ffb7e05f3bb1",
+  "parameters": {
+    "d": 2,
+    "p": 3
+  },
+  "G_vertices": 64,
+  "G_edges": 192,
+  "G_actual_graph_distances_equal_hamming": true,
+  "H_vertices": 608,
+  "H_edges": 9168,
+  "H_simple_undirected_connected": true,
+  "H_degree_range": [
+    16,
+    83
+  ],
+  "H_center_to_any_max_distance": 4,
+  "product_center_count": 64,
+  "checked_unordered_center_pairs": 2016,
+  "minimum_product_center_distance": 4,
+  "checked_same_center_targets": 38912,
+  "uncovered_targets": 0,
+  "packing_violations": 0,
+  "graph_sha256": "c8746a41f206642d8a50328cc0e924a299f241da6fdf65388cf4c993735f084b",
+  "certificate_sha256": "be0f9c9f593f6cc82f4ef25fbff82df5560985ad176e3e6d47ac962d1b41d7e5",
+  "factor_nonexistence_scope": "existing all-subsets Q6PackingDomination proof; not reproved by this replay",
+  "claim_scope": "Exact actual-graph replay; mathematical proof and Lean verification are recorded separately in README.md"
+}

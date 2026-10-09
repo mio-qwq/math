@@ -1,0 +1,28 @@
+'Q6PackingComplexCounterexample.reach_refl' does not depend on any axioms
+'Q6PackingComplexCounterexample.reach_to_walk' does not depend on any axioms
+'Q6PackingComplexCounterexample.walk_to_reach' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.reach_iff_walk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.strong_adj_standard' does not depend on any axioms
+'Q6PackingComplexCounterexample.strong_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.strong_reach' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.G_reach_bound' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.G_reach_of_bound' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.G_reach_iff_hamming' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.factor_no_walk_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.pair_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.node_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.support_separated' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.compatible_symm' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.H_two_step_centers' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.H_short_centers' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.compatible_singleton' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.H_to_singleton_edge' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.canonical_pair' depends on axioms: [propext, Quot.sound]
+'Q6PackingComplexCounterexample.reach_two_edges' does not depend on any axioms
+'Q6PackingComplexCounterexample.reach_one_padded' does not depend on any axioms
+'Q6PackingComplexCounterexample.H_same_center_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.product_walk_packing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.product_walk_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q6PackingComplexCounterexample.original_existence_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
