@@ -14,6 +14,14 @@ This repository records explicit mathematical statements, complete proofs where 
 
 ## Reproduction
 
+The [seven-core short-cycle substitution note](notes/seven-core-short-cycle-substitution.md)
+determines a sharp minimum-outdegree ratio, `260889/805108`, for a specified
+triangle-free `T9`-free family with seven nonempty clusters and uniform internal
+blow-ups. Its exact optimum rules out this whole family as a source of the
+discussed counterexamples. The graph classification is written mathematics;
+three Lean declarations verify the algebraic bound, positive equality witness
+and strict gaps. Neither general short-cycle conjecture is resolved.
+
 See [FORMALIZATION.md](FORMALIZATION.md) for the exact Lean statements, commands, and remaining boundaries.
 
 The [research questions and results register](RESEARCH_QUESTIONS.md)

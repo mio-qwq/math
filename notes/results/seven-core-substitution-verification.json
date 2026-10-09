@@ -1,0 +1,164 @@
+{
+  "environment": {
+    "lean": "4.34.1",
+    "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  },
+  "published_source": "notes/proof/SevenCoreSubstitutionCertificate.lean",
+  "source_sha256": "bc9bce0e96d635b3f2d9c7f3c4debb7dc0447cdf48f65f022e3b1cc53d96431e",
+  "scope": "Kernel-checked algebraic row bound, rational equality witness and strict gaps; graph classification and realization are independently reviewed written mathematics.",
+  "lean_runs": [
+    {
+      "role": "author",
+      "command_kind": "separate lake env lean process; input identified by source hash",
+      "source_sha256": "bc9bce0e96d635b3f2d9c7f3c4debb7dc0447cdf48f65f022e3b1cc53d96431e",
+      "source_after_sha256": "bc9bce0e96d635b3f2d9c7f3c4debb7dc0447cdf48f65f022e3b1cc53d96431e",
+      "start_utc": "2026-10-09T03:21:25.4839008+00:00",
+      "end_utc": "2026-10-09T03:21:52.7907516+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 3,
+      "expected_audits": 3,
+      "declaration_axioms": [
+        {
+          "declaration": "ShortCycleSubstitution.row_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ShortCycleSubstitution.witness_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ShortCycleSubstitution.strict_thresholds",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "complete_output": "'ShortCycleSubstitution.row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ShortCycleSubstitution.witness_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ShortCycleSubstitution.strict_thresholds' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    },
+    {
+      "role": "independent",
+      "command_kind": "separate lake env lean process; input identified by source hash",
+      "source_sha256": "bc9bce0e96d635b3f2d9c7f3c4debb7dc0447cdf48f65f022e3b1cc53d96431e",
+      "source_after_sha256": "bc9bce0e96d635b3f2d9c7f3c4debb7dc0447cdf48f65f022e3b1cc53d96431e",
+      "start_utc": "2026-10-09T03:22:48.1886002+00:00",
+      "end_utc": "2026-10-09T03:23:08.3493068+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 3,
+      "expected_audits": 3,
+      "declaration_axioms": [
+        {
+          "declaration": "ShortCycleSubstitution.row_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ShortCycleSubstitution.witness_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "ShortCycleSubstitution.strict_thresholds",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "complete_output": "'ShortCycleSubstitution.row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ShortCycleSubstitution.witness_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ShortCycleSubstitution.strict_thresholds' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    }
+  ],
+  "public_exact_checker": {
+    "command": "python notes/code/check_seven_core_substitution.py",
+    "source_sha256": "3932ba4ab2ee06b704280596f110519e3db2200c12be7c15bdf10f3da481f661",
+    "certificate_sha256": "ecbdfe168bed44463e970658c18cfb1b5e25d56d2827b5ad4e166e0d5ddcce63",
+    "start_utc": "2026-10-09T03:34:53.940932+00:00",
+    "end_utc": "2026-10-09T03:34:54.031727+00:00",
+    "exit_code": 0,
+    "complete_output": {
+      "pass": true,
+      "method": "exact Fraction substitutions, no optimization",
+      "primal_rows_checked": 7,
+      "dual_columns_checked": 7,
+      "order": 3220432,
+      "cluster_orders": [
+        446272,
+        475984,
+        428112,
+        496448,
+        440080,
+        448336,
+        485200
+      ],
+      "internal_blow_up_factors": [
+        27892,
+        118996,
+        107028,
+        31028,
+        110020,
+        112084,
+        121300
+      ],
+      "outdegrees": [
+        1043556,
+        1043556,
+        1043556,
+        1043556,
+        1043556,
+        1043556,
+        1043556
+      ],
+      "indegrees": [
+        1072996,
+        1050468,
+        1029284,
+        1059236,
+        1034580,
+        1048612,
+        1009716
+      ],
+      "sharp_ratio": "260889/805108",
+      "graph_classification": "written proof, not asserted by this arithmetic checker"
+    }
+  },
+  "independent_mathematical_checks": {
+    "method": "Independent written graph/projection proof and direct Fraction substitution; did not execute the author Gaussian-elimination program.",
+    "profile_classification": "All seven clusters nonempty; each internal blow-up uniform. T9-free iff depths at most two and depth-two positions separated by at least three.",
+    "primal_and_dual_identities_checked": 14,
+    "common_integer_check_value": 1043556,
+    "numerator_sum_for_each_vector": 201277,
+    "finite_realization": {
+      "order": 3220432,
+      "constant_outdegree": 1043556,
+      "cluster_zero_indegree": 1072996,
+      "out_regular_only": true
+    },
+    "no_general_conjecture_resolution": true
+  }
+}

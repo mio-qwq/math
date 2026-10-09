@@ -1,0 +1,109 @@
+{
+  "scope": "Exact rational optimum for the dominant seven-core substitution profile; complete all-depth graph reduction is the written theorem in the linked note, not a Lean graph theorem.",
+  "method": "Solve two 7x7 systems over fractions; verify all primal and dual equations and strict positivity.",
+  "outer_steps": [
+    1,
+    2
+  ],
+  "deep_clusters": [
+    0,
+    3
+  ],
+  "internal_degree_ratios": [
+    "5/16",
+    "1/4",
+    "1/4",
+    "5/16",
+    "1/4",
+    "1/4",
+    "1/4"
+  ],
+  "matrix": [
+    [
+      "5/16",
+      "1/1",
+      "1/1",
+      "0/1",
+      "0/1",
+      "0/1",
+      "0/1"
+    ],
+    [
+      "0/1",
+      "1/4",
+      "1/1",
+      "1/1",
+      "0/1",
+      "0/1",
+      "0/1"
+    ],
+    [
+      "0/1",
+      "0/1",
+      "1/4",
+      "1/1",
+      "1/1",
+      "0/1",
+      "0/1"
+    ],
+    [
+      "0/1",
+      "0/1",
+      "0/1",
+      "5/16",
+      "1/1",
+      "1/1",
+      "0/1"
+    ],
+    [
+      "0/1",
+      "0/1",
+      "0/1",
+      "0/1",
+      "1/4",
+      "1/1",
+      "1/1"
+    ],
+    [
+      "1/1",
+      "0/1",
+      "0/1",
+      "0/1",
+      "0/1",
+      "1/4",
+      "1/1"
+    ],
+    [
+      "1/1",
+      "1/1",
+      "0/1",
+      "0/1",
+      "0/1",
+      "0/1",
+      "1/4"
+    ]
+  ],
+  "normalized_sizes": [
+    "27892/201277",
+    "29749/201277",
+    "26757/201277",
+    "31028/201277",
+    "27505/201277",
+    "28021/201277",
+    "30325/201277"
+  ],
+  "dual_row_weights": [
+    "31028/201277",
+    "26757/201277",
+    "29749/201277",
+    "27892/201277",
+    "30325/201277",
+    "28021/201277",
+    "27505/201277"
+  ],
+  "sharp_ratio": "260889/805108",
+  "gap_below_Grzesik_k3_threshold": "52593/12881728",
+  "gap_below_CH_triangle_threshold": "22441/2415324",
+  "exact_checks_passed": true,
+  "no_conjecture_resolution_claimed": true
+}
