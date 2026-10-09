@@ -2,6 +2,13 @@
 
 Last mathematical/source review: 9 October 2026.
 
+R006.1 has a self-contained English [research paper](006-strong-product-packing-counterexample/paper/paper.pdf)
+and [LaTeX source](006-strong-product-packing-counterexample/paper/main.tex).
+Its counterexample targets the exact original Conjecture 3.1; historical
+firstness remains unestablished. Human author identity, accountable approval
+and external submission are separate pending matters. The paper's scope
+does not settle the nonlinear Q6 strong-product Q6 problem.
+
 This register separates the origin of a statement from its proof
 status. A theorem written in an outside manuscript is a prior claim;
 it is not automatically a theorem verified here. A conjecture

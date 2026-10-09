@@ -1,0 +1,1086 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs,array,longtable}
+\usepackage{hyperref}
+\hypersetup{hidelinks,pdftitle={A counterexample to packing-domination inheritance in strong products}}
+\allowdisplaybreaks
+\raggedbottom
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\F}{\mathbb F}
+\newcommand{\wt}{\operatorname{wt}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Reach}{\operatorname{Reach}}
+\newcommand{\code}{\mathcal C}
+\newcommand{\pairs}{\mathcal P_4}
+\title{A counterexample to packing-domination\\
+inheritance in strong products}
+\author{Human author information pending confirmation}
+\date{Public research draft --- 9 October 2026}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+The \(d\)-distance \(p\)-packing domination number of a graph is the
+minimum size of a set that dominates within distance \(d\) and separates
+distinct centers by distance at least \(p+1\), with value infinity when no
+such set exists. Bujt\'as, Ir\v si\v c Chenoweth, Klav\v zar and Zhang
+conjectured that nonexistence in one factor is inherited by every strong
+product containing that factor. We construct a finite connected simple
+graph \(H\), with 608 vertices and 9,168 edges, for which
+\[
+ \gamma_2^3(Q_6)=\infty
+ \qquad\text{but}\qquad
+ \gamma_2^3(Q_6\boxtimes H)\le 64.
+\]
+The auxiliary graph uses singleton and distance-four pair supports in
+the binary six-cube. Compatibility of support unions prevents short
+paths between incompatible code labels, while explicit eight-label
+sets provide radius-two coverage at pair vertices. We give a complete
+proof from actual graph adjacency. A Lean formalization checks the
+complete existence-level counterexample on finite simple graphs and
+standard graph walks; two separately implemented exact checkers
+reconstruct and verify the finite graph and its same-center covering
+witness. The numerical minimum is not claimed to be 64, and historical
+priority is not asserted.
+\end{abstract}
+\noindent\textbf{Keywords.} Distance domination; packing; strong graph
+product; hypercube; explicit counterexample; formal verification.
+
+\medskip
+\noindent\textbf{Draft status.} Human author identity and accountable human
+approval remain pending. This document has not been submitted to arXiv
+or a journal and has not undergone human peer review. Substantial AI
+participation is disclosed in Section~\ref{sec:disclosure}.
+
+\section{Introduction}\label{sec:introduction}
+Distance domination and packing impose opposing requirements on a set of
+graph vertices. A dominating set must place centers near all vertices,
+whereas a packing must keep distinct centers apart. Their simultaneous
+feasibility is therefore a structural question, rather than merely an
+optimization problem. Following Bujt\'as, Ir\v si\v c Chenoweth,
+Klav\v zar and Zhang~\cite{bickz-strong}, we write
+\(\gamma_d^p(F)\) for the minimum cardinality of a \(d\)-distance
+dominating \(p\)-packing in a graph \(F\). The value is \(\infty\) when
+there is no feasible set.
+The underlying joint notion was introduced by Beineke and
+Henning~\cite{beineke-henning} using the older
+\((p,d)\)-domination notation; our notation follows the contemporary
+source.
+
+For the strong product \(G\boxtimes H\), the standard distance formula is
+\[
+ \dist_{G\boxtimes H}((g,h),(g',h'))
+   =\max\{\dist_G(g,g'),\dist_H(h,h')\}.
+\]
+One can consequently combine feasible sets from both factors by taking
+their Cartesian product. The converse existence question is less
+immediate: can the second factor supply separation missing in the first
+while still allowing the same product centers to dominate every layer?
+Conjecture~3.1 of~\cite{bickz-strong} proposes the implication
+\begin{equation}\label{eq:original-conjecture}
+ \gamma_d^p(G)=\infty
+ \quad\Longrightarrow\quad
+ \gamma_d^p(G\boxtimes H)=\infty
+ \quad\text{for every graph }H.
+\end{equation}
+The hypothesis concerns only \(G\); it does not require both factors
+to have infinite packing-domination number.
+
+The source proves the conjectured implication for several classes and
+parameter ranges. It identifies \(d<p<2d\) as the remaining nontrivial
+interval. When \(p=2d\), feasible sets are perfect \(d\)-codes: their
+closed radius-\(d\) balls form a partition. Perfect-code inheritance in
+strong products is established in~\cite{perfect}. Our example instead
+uses \(d=2,p=3\), where balls associated with a packing may overlap.
+This is the smallest integral parameter pair in the remaining interval.
+The support construction below uses that overlap directly.
+
+\begin{theorem}\label{thm:main}
+There is a finite nonempty connected simple undirected graph \(H\) with
+608 vertices and 9,168 edges such that
+\begin{equation}\label{eq:main}
+ \gamma_2^3(Q_6)=\infty,
+ \qquad
+ \gamma_2^3(Q_6\boxtimes H)\le 64.
+\end{equation}
+More precisely, \(H\) is the graph of Definition~\ref{def:H}, and
+\(\code=\{(a,A_a):a\in\F_2^6\}\) is a \(2\)-distance dominating
+\(3\)-packing in its strong product with \(Q_6\).
+\end{theorem}
+
+The theorem contradicts~\eqref{eq:original-conjecture} with graphs that
+are finite, simple and connected. The original conjecture does not
+restrict \(H\) to a cycle, to a regular graph, or to a graph isomorphic
+to \(G\). Our auxiliary factor is designed to couple the two
+requirements. Its adjacency is explicit; no desired distance table
+is postulated.
+
+The proof separates into three tasks. First, a classical binary
+distance-sum argument and a small structural calculation show that no
+subset of \(Q_6\) is feasible. Second, compatibility of supports excludes
+all paths of length at most three between code vertices whose labels
+are too close in \(Q_6\). Third, each auxiliary vertex sees, within
+two steps, a set of code labels covering the entire cube within
+distance two. The final step uses one label for both coordinates;
+separate covering witnesses in the two factors would not suffice.
+
+All mathematical arguments needed for the theorem are given here.
+Sections~\ref{sec:formal} and~\ref{sec:computational} describe additional
+kernel and exact-program checks without replacing the proof.
+The distance-sum method is classical Plotkin counting~\cite{plotkin},
+and the product distance formula is standard~\cite{handbook}.
+Compatibility graphs and clique supports are also established general
+tools. We do not claim novelty for these ingredients or assert
+historical firstness for this counterexample.
+
+\section{Definitions and graph distances}\label{sec:preliminaries}
+Throughout the proof, a graph is finite, nonempty, simple and undirected;
+graphs whose distances we use are connected. A walk is allowed to
+repeat vertices. The distance \(\dist_F(u,v)\) is the least length of
+a \(u\)-to-\(v\) walk in \(F\). For \(r\ge0\), let
+\[
+ B_r^F(u)=\{v\in V(F):\dist_F(u,v)\le r\}.
+\]
+We suppress the superscript when the ambient graph is clear.
+
+\begin{definition}\label{def:packing-domination}
+Let \(d,p\) be nonnegative integers. A set \(D\subseteq V(F)\) is a
+\emph{\(d\)-distance dominating set} if
+\[
+ \forall v\in V(F)\ \exists a\in D:\ \dist_F(v,a)\le d.
+\]
+It is a \emph{\(p\)-packing} if
+\[
+ a,b\in D,\ a\ne b\quad\Longrightarrow\quad \dist_F(a,b)\ge p+1.
+\]
+The packing-domination number is
+\[
+ \gamma_d^p(F)=
+ \begin{cases}
+ \min\{|D|:D\text{ has both properties}\},&
+       \text{if a feasible set exists},\\
+ \infty,&\text{otherwise}.
+ \end{cases}
+\]
+\end{definition}
+
+The source~\cite{bickz-strong} states the domination condition only for
+vertices outside \(D\). This is equivalent to the closed-ball formulation
+above, since a center dominates itself at distance zero and \(d\ge0\).
+For a finite graph, existence or nonexistence of a feasible set
+determines whether this minimum is finite or infinite.
+
+\begin{definition}
+The strong product \(G\boxtimes H\) has vertex set \(V(G)\times V(H)\).
+Distinct vertices \((g,h)\) and \((g',h')\) are adjacent exactly when
+each coordinate is either equal or adjacent in its factor:
+\[
+ (g=g'\text{ or }gg'\in E(G))
+ \quad\text{and}\quad
+ (h=h'\text{ or }hh'\in E(H)).
+\]
+\end{definition}
+The distinctness condition excludes loops. Equivalently, a product
+edge moves in the first coordinate, in the second, or in both
+simultaneously.
+
+\begin{lemma}\label{lem:product-distance}
+For connected graphs \(G,H\),
+\[
+ \dist_{G\boxtimes H}((g,h),(g',h'))
+   =\max\{\dist_G(g,g'),\dist_H(h,h')\}.
+\]
+\end{lemma}
+\begin{proof}
+Project a product walk of length \(\ell\) to either factor and remove
+steps during which that coordinate stays fixed. The resulting factor
+walk has length at most \(\ell\), proving the lower bound.
+
+Conversely, take shortest factor paths of lengths \(r,s\).
+Move along both at each step until the shorter path ends, then keep
+its endpoint fixed while completing the other path. Every step is
+an edge of the strong product, and the resulting walk has length
+\(\max(r,s)\).
+\end{proof}
+
+Let \(V=\F_2^6\), with coordinatewise addition. For \(x\in V\), its
+Hamming weight \(\wt(x)\) is the number of nonzero coordinates, and
+\[
+ \delta(x,y)=\wt(x+y)
+\]
+is the Hamming distance. Simultaneous translation and permutation of
+coordinates preserve \(\delta\). We write \(0\) for the zero word,
+\(\mathbf1=(1,1,1,1,1,1)\), and \(\bar a=a+\mathbf1\).
+The graph \(Q_6\) joins exactly the pairs at Hamming distance one.
+
+\begin{lemma}\label{lem:cube-distance}
+The graph \(Q_6\) is connected and
+\(\dist_{Q_6}(x,y)=\delta(x,y)\).
+\end{lemma}
+\begin{proof}
+Each edge flips one coordinate, so any walk from \(x\) to \(y\) must
+flip each differing coordinate at least once. Its length is at least
+\(\delta(x,y)\). Flipping precisely those coordinates gives a path
+of that length.
+\end{proof}
+
+\section{The obstruction in the single cube}\label{sec:factor}
+The following proof applies to arbitrary subsets. No linearity,
+affine-subspace structure, prescribed cardinality or parity restriction
+is imposed.
+
+\begin{lemma}\label{lem:plotkin}
+If distinct words of \(D\subseteq V\) are at Hamming distance at least
+four, then \(|D|\le4\). If \(|D|=3\) or \(4\), every distance between
+distinct members of \(D\) is exactly four.
+\end{lemma}
+\begin{proof}
+For \(m\) binary words \(x_1,\ldots,x_m\), let \(t_j\) be the number
+whose \(j\)-th coordinate is one. Counting pairs that differ in
+each coordinate gives
+\begin{equation}\label{eq:distance-sum}
+ \sum_{1\le i<k\le m}\delta(x_i,x_k)
+    =\sum_{j=1}^6 t_j(m-t_j).
+\end{equation}
+If five words have pairwise distance at least four, the left side is
+at least \(4\binom52=40\). On the right each contribution is at most
+\(2\cdot3=6\), so the sum is at most 36, a contradiction. Every larger
+set contains five words.
+
+For three words the upper bound from~\eqref{eq:distance-sum} is
+\(6\cdot2=12\), exactly the lower bound \(4\binom32\).
+For four words the bounds are both
+\(6\cdot4=24=4\binom42\). Equality of the sum and the pairwise lower
+bounds forces every pair distance to be four.
+\end{proof}
+
+\begin{lemma}\label{lem:zero-pairs}
+Translate a three- or four-word distance-four packing so that it
+contains \(0\). Every other word has weight four, and its two zero
+coordinates form a pair. These zero pairs are mutually disjoint.
+For four centers, the three zero pairs partition the six coordinates.
+\end{lemma}
+\begin{proof}
+The first assertion follows from Lemma~\ref{lem:plotkin}. If \(b,c\)
+have weight four and zero sets \(Z_b,Z_c\) of size two, then
+\[
+ \delta(b,c)=|Z_b\mathbin{\triangle} Z_c|
+           =4-2|Z_b\cap Z_c|.
+\]
+This equals four precisely when the zero sets are disjoint. Three
+disjoint two-element sets exhaust the six coordinates.
+\end{proof}
+
+\begin{lemma}\label{lem:ball-intersections}
+A radius-two ball in \(Q_6\) has 22 vertices. The radius-two balls
+about two distance-four centers intersect in six vertices. For three
+pairwise distance-four centers their three balls have a unique common
+vertex. For four such centers the fourfold intersection is empty.
+\end{lemma}
+\begin{proof}
+The first count is \(1+6+\binom62=22\). For two centers translate one
+to \(0\) and call the other \(b\), with \(\wt(b)=4\). If \(x\) is in
+both balls, then
+\[
+ 4=\delta(0,b)\le\delta(0,x)+\delta(x,b)\le4.
+\]
+Equality forces both distances to be two and \(x\) to be supported
+on two of the four nonzero coordinates of \(b\). Conversely every
+such \(x\) is in the intersection. There are \(\binom42=6\).
+
+For three centers, translate them to \(0,b,c\). Their two disjoint
+zero pairs leave two coordinates \(R\) outside \(Z_b\cup Z_c\).
+A word in all three balls must be a weight-two word supported on
+the intersection of the supports of \(b,c\), which is precisely \(R\).
+Thus the word with support \(R\) is the unique common vertex.
+
+For four centers \(0,b,c,e\), the third zero pair is \(Z_e=R\).
+The word supported on \(R\) differs from \(e\) in all six coordinates,
+so it is not in the fourth ball. The same argument applies after
+choosing any of the centers as the translated zero; every triple
+therefore has exactly one common vertex.
+\end{proof}
+
+\begin{proposition}\label{prop:factor}
+Every Hamming-distance-four packing \(D\subseteq V\) has a vertex
+at distance greater than two from every member of \(D\).
+Consequently \(\gamma_2^3(Q_6)=\infty\).
+\end{proposition}
+\begin{proof}
+Lemma~\ref{lem:plotkin} gives at most four members. With zero, one
+or two centers, the union of their radius-two balls has size at most
+44, less than 64.
+
+For three centers Lemma~\ref{lem:ball-intersections} and
+inclusion--exclusion give
+\[
+ \left|\bigcup_{a\in D}B_2^{Q_6}(a)\right|
+       =3\cdot22-3\cdot6+1=49.
+\]
+For four centers the corresponding count is
+\[
+ \left|\bigcup_{a\in D}B_2^{Q_6}(a)\right|
+       =4\cdot22-6\cdot6+4\cdot1=56.
+\]
+Neither union covers \(V\). Lemma~\ref{lem:cube-distance} identifies
+these Hamming balls with graph balls and proves the obstruction.
+\end{proof}
+
+\begin{remark}\label{rem:holes}
+There is also a direct witness for three or four centers. Complete
+the zero pairs of Lemma~\ref{lem:zero-pairs} to a partition into
+three pairs. A word choosing exactly one coordinate from each pair
+is at distance three from \(0\) and from every weight-four center
+in the packing. The eight such words are all omitted.
+This explains the obstruction without the union counts, though
+the counts specify the total covered size.
+\end{remark}
+
+\section{A graph built from compatible supports}\label{sec:construction}
+Define the set of unordered distance-four label pairs by
+\[
+ \pairs=\{\{a,b\}\subseteq V:\delta(a,b)=4\}.
+\]
+Every pair has two distinct members. Each label has \(\binom64=15\)
+labels at distance four, so
+\begin{equation}\label{eq:pair-count}
+ |\pairs|=\frac{64\cdot15}{2}=480.
+\end{equation}
+
+\begin{definition}\label{def:H}
+The vertices of \(H\) form the disjoint tagged union
+\[
+ \{A_a:a\in V\}
+ \ \sqcup\ \{S_a:a\in V\}
+ \ \sqcup\ \{E_P:P\in\pairs\}.
+\]
+We call \(A_a\) a code vertex. The other vertices are called Steiner
+vertices and have supports
+\[
+ \sigma(S_a)=\{a\},\qquad \sigma(E_P)=P.
+\]
+The edges of \(H\) are precisely these unordered pairs:
+\begin{enumerate}
+\item \(A_aT\), where \(T\) is a Steiner vertex and \(a\in\sigma(T)\);
+\item \(TU\), where \(T,U\) are distinct Steiner vertices and every
+      pair of distinct words in \(\sigma(T)\cup\sigma(U)\)
+      has Hamming distance at least four.
+\end{enumerate}
+There are no code--code edges, no loops and no other edges.
+\end{definition}
+
+The support union in the second clause is a set. A shared word is
+counted once and is never compared with itself. In particular \(S_a\)
+may be adjacent to \(E_{\{a,b\}}\). Tags distinguish code vertices
+from singleton Steiner vertices despite their shared label.
+Adjacency is symmetric and excludes equality, defining an ordinary
+simple undirected graph.
+
+\begin{proposition}\label{prop:H-connected}
+The graph \(H\) has 608 vertices and is connected.
+\end{proposition}
+\begin{proof}
+Equation~\eqref{eq:pair-count} gives \(64+64+480=608\) vertices.
+For a coordinate word \(e_i\), there is a two-step path
+\[
+ S_a-S_{\bar a}-S_{a+e_i},
+\]
+because the consecutive label distances are six and five.
+Thus every single-coordinate flip is realizable between singleton
+vertices. Repeating such paths connects all singleton vertices.
+Each \(A_a\) is adjacent to \(S_a\), and each \(E_{\{a,b\}}\) is
+adjacent to \(A_a,A_b\). Every vertex belongs to the same component.
+\end{proof}
+
+\begin{lemma}\label{lem:short-path}
+If \(a\ne b\) and \(\dist_H(A_a,A_b)\le3\), then \(\delta(a,b)\ge4\).
+\end{lemma}
+\begin{proof}
+A path of length one is impossible because no code--code edge exists.
+A path of length two has the form \(A_a-T-A_b\), with both labels
+in \(\sigma(T)\). A singleton cannot support two distinct labels,
+so \(T=E_{\{a,b\}}\) and \(\delta(a,b)=4\).
+
+A path of length three has the form \(A_a-T-U-A_b\) with both
+internal vertices Steiner: an internal code vertex would create
+a code--code edge at one of the ends. The edge \(TU\) makes distinct
+words in their support union separated by at least four. The union
+contains \(a,b\), giving the conclusion. These cases include
+shared-endpoint supports and exhaust all paths of positive length
+at most three.
+\end{proof}
+
+Define the candidate centers by
+\begin{equation}\label{eq:centers}
+ \code=\{(a,A_a):a\in V\}.
+\end{equation}
+There are exactly 64 distinct product vertices in this set.
+
+\begin{proposition}\label{prop:packing}
+The set \(\code\) is a \(3\)-packing in \(Q_6\boxtimes H\).
+\end{proposition}
+\begin{proof}
+Consider distinct labels \(a,b\). If \(\delta(a,b)\ge4\), the first
+coordinate separates their centers by at least four. Otherwise
+Lemma~\ref{lem:short-path} and connectedness give
+\(\dist_H(A_a,A_b)\ge4\). Lemma~\ref{lem:product-distance}
+proves separation at least four in either case.
+\end{proof}
+
+\section{Explicit covering sets of labels}\label{sec:labels}
+For \(h\in V(H)\), put
+\[
+ L(h)=\{a\in V:\dist_H(h,A_a)\le2\}.
+\]
+Product coverage follows if each \(L(h)\) radius-two covers the cube.
+We first establish the two label facts needed for this claim.
+
+\begin{lemma}\label{lem:single-cover}
+For every \(a\in V\), the set
+\[
+ L_a=\{a\}\cup\{b\in V:\delta(a,b)=4\}
+\]
+radius-two covers \(V\).
+\end{lemma}
+\begin{proof}
+Translate \(a\) to zero. A word of weight zero, one or two is
+covered by zero. A weight-three word extends to a weight-four
+word at distance one. A weight-four word is itself a center.
+A weight-five word contains a weight-four word at distance one,
+and a weight-six word is at distance two from any weight-four
+word. These cases account for every word in \(V\).
+\end{proof}
+
+\begin{lemma}\label{lem:pair-cover}
+For \(a,b\in V\) with \(\delta(a,b)=4\), define
+\[
+ K(a,b)=\{a,b\}\cup
+   \{c\in V:\delta(c,a)\ge4,\ \delta(c,b)\ge4\}.
+\]
+This is an eight-element set, and it radius-two covers \(V\).
+\end{lemma}
+\begin{proof}
+Translate \(a\) to zero and permute coordinates so \(b=(1111,00)\).
+Write \(c=(r,s')\), with four-bit first block \(r\) and two-bit
+second block \(s'\); put \(t=\wt(r)\), \(s=\wt(s')\).
+The two common-far-label inequalities become
+\[
+ t+s\ge4,\qquad 4-t+s\ge4.
+\]
+They imply \(s\ge t\) and \(s\ge4-t\).
+Since \(s\le2\), necessarily \(t=s=2\).
+Conversely these block weights satisfy both inequalities. Hence
+\begin{equation}\label{eq:K-normalized}
+ K(0,b)=\{(0000,00),(1111,00)\}
+       \cup\{(u,11):u\in\F_2^4,\ \wt(u)=2\}.
+\end{equation}
+The six latter words are distinct from the endpoints.
+
+For an arbitrary target \(x=(r,s')\) with block weights \(t,s\),
+the endpoint distances are \(t+s\) and \(4-t+s\).
+Among the six other labels the minimum distance is
+\begin{equation}\label{eq:pair-minimum}
+ \min_{\wt(u)=2}\delta(x,(u,11))=|t-2|+2-s.
+\end{equation}
+The overlap of \(\supp(u)\) with \(\supp(r)\) can be \(\min(t,2)\),
+giving first-block distance
+\(t+2-2\min(t,2)=|t-2|\). Such a two-element support exists for
+every \(0\le t\le4\), and the second-block distance to \(11\) is \(2-s\).
+
+It remains to check
+\begin{equation}\label{eq:three-minimum}
+ \min\{t+s,\ 4-t+s,\ |t-2|+2-s\}\le2.
+\end{equation}
+For \(t=0,4\), use the appropriate endpoint.
+For \(t=1,3\), use an endpoint when \(s\le1\), and the third
+expression when \(s=2\). For \(t=2\), the third expression is
+\(2-s\le2\). Thus every target is covered.
+\end{proof}
+
+The minimum in~\eqref{eq:three-minimum} is displayed below.
+The proof realizes each value, so this table is exact.
+\[
+\begin{array}{c|ccc}
+ t\backslash s&0&1&2\\ \hline
+ 0&0&1&2\\
+ 1&1&2&1\\
+ 2&2&1&0\\
+ 3&1&2&1\\
+ 4&0&1&2
+\end{array}
+\]
+
+\begin{proposition}\label{prop:label-cover}
+For every auxiliary vertex \(h\), the set \(L(h)\) radius-two covers \(V\).
+\end{proposition}
+\begin{proof}
+We treat all three types in Definition~\ref{def:H}.
+For \(h=A_a\), the label \(a\) belongs to \(L(h)\).
+Each \(b\) at distance four from \(a\) also belongs, via
+\[
+ A_a-E_{\{a,b\}}-A_b.
+\]
+Thus \(L_a\subseteq L(A_a)\), and
+Lemma~\ref{lem:single-cover} proves the claim.
+
+For \(h=S_a\), the edge \(S_aA_a\) reaches label \(a\).
+For every \(b\) at distance four from \(a\), the union
+\(\{a,b\}\) is compatible, giving
+\[
+ S_a-S_b-A_b.
+\]
+Consequently \(L_a\subseteq L(S_a)\), and the same lemma applies.
+
+For \(h=E_{\{a,b\}}\), both endpoint code vertices are adjacent to \(h\).
+A common far label \(c\) is distinct from \(a,b\). The support
+union \(\{a,b,c\}\) is separated by at least four, giving
+\[
+ E_{\{a,b\}}-S_c-A_c.
+\]
+Therefore \(K(a,b)\subseteq L(E_{\{a,b\}})\).
+Lemma~\ref{lem:pair-cover} completes the final case.
+\end{proof}
+
+\section{The product witness and the main theorem}\label{sec:main-proof}
+\begin{proposition}\label{prop:domination}
+The set \(\code\) of~\eqref{eq:centers} is a \(2\)-distance
+dominating set in \(Q_6\boxtimes H\).
+\end{proposition}
+\begin{proof}
+Fix an arbitrary product vertex \((x,h)\).
+Proposition~\ref{prop:label-cover} supplies one label \(a\in L(h)\)
+with \(\delta(x,a)\le2\). For that same label,
+\(\dist_H(h,A_a)\le2\). Hence
+\[
+ \dist_{Q_6\boxtimes H}((x,h),(a,A_a))
+    =\max\{\delta(x,a),\dist_H(h,A_a)\}\le2.
+\]
+The center \((a,A_a)\) belongs to \(\code\).
+The argument covers every \(x\) and every type of \(h\),
+thus all \(64\cdot608=38,912\) product vertices.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Proposition~\ref{prop:factor} proves \(\gamma_2^3(Q_6)=\infty\).
+Proposition~\ref{prop:H-connected} proves that \(H\) is connected
+and has 608 vertices. Propositions~\ref{prop:packing} and
+\ref{prop:domination} give the feasible set \(\code\) of size 64.
+Thus the product packing-domination number is finite and at most 64.
+The edge count is proved in Proposition~\ref{prop:edge-count} below.
+\end{proof}
+
+\begin{remark}\label{rem:projection}
+The first-coordinate projection of \(\code\) is the whole cube,
+which is not a distance-four packing. This is compatible with
+product packing because the second coordinate separates every
+incompatible pair of labels. Its radius-two neighborhoods still
+contain enough labels to cover the cube. Projecting a product
+witness to one factor therefore does not preserve packing.
+\end{remark}
+
+\section{Edge count and the close-vertex condition}\label{sec:additional}
+\begin{proposition}\label{prop:edge-count}
+The graph \(H\) has exactly 9,168 edges.
+\end{proposition}
+\begin{proof}
+Partition the edges by vertex type. There are 64 code--singleton
+incidences and \(2\cdot480\) code--pair incidences, giving 1,024.
+For singleton--singleton edges a fixed label has
+\(\binom64+\binom65+\binom66=22\) compatible distinct labels.
+Division by two gives \(64\cdot22/2=704\).
+
+A fixed pair \(\{a,b\}\) is compatible with singleton supports
+at \(a,b\) and at the six common far labels of
+Lemma~\ref{lem:pair-cover}. These are exactly the compatible
+singleton supports, giving \(480\cdot8=3,840\) such edges.
+
+For pair--pair edges sharing an endpoint, translate it to zero.
+The other two labels have weight four, and compatibility means
+their zero pairs are disjoint. There are 15 choices of the first
+zero pair and \(\binom42=6\) disjoint choices of the second.
+Division by two gives 45 edges at each shared endpoint, hence
+\(64\cdot45=2,880\). The shared endpoint is unique.
+
+For disjoint pair supports, their union is a four-word
+distance-four packing. By Lemma~\ref{lem:zero-pairs}, a packing
+containing a specified label is determined by a partition into
+three unordered zero pairs. There are
+\[
+ \frac{6!}{(2!)^3\,3!}=15
+\]
+such partitions. Conversely, each partition gives three
+weight-four words whose zero pairs are its blocks; together
+with zero they form a valid four-word distance-four packing.
+Choosing a specified label in 64 ways counts
+every packing four times, giving \(64\cdot15/4=240\) packings.
+Each has three partitions into two unordered pair supports,
+giving \(240\cdot3=720\) edges. The total is
+\[
+ 1,024+704+3,840+2,880+720=9,168.
+\]
+\end{proof}
+
+Theorem~3.3 of~\cite{bickz-strong} proves the conjectured
+implication when the \emph{other} factor \(H\) has a
+\((d,p)\)-close vertex: a vertex \(h\) such that all distances
+between vertices in \(B_d^H(h)\) are at most \(p\).
+The next observation checks consistency with that result.
+
+\begin{proposition}\label{prop:no-close}
+Every radius-two ball of \(H\) has diameter at least four.
+In particular \(H\) has no \((2,3)\)-close vertex.
+\end{proposition}
+\begin{proof}
+For \(h=A_a\) or \(S_a\), choose two labels in \(L_a\)
+whose translated weight-four supports share three coordinates,
+for example \(\{1,2,3,4\}\) and \(\{1,2,3,5\}\).
+The labels have Hamming distance two and both code vertices
+lie in \(B_2^H(h)\).
+
+For \(h=E_{\{a,b\}}\), normalize as in
+Lemma~\ref{lem:pair-cover}. Choose the labels
+\((u,11),(v,11)\) with first-block supports
+\(\{1,2\},\{1,3\}\). Again their Hamming distance is two
+and both code vertices belong to \(B_2^H(h)\).
+
+Lemma~\ref{lem:short-path} puts their \(H\)-distance at least
+four, while their paths through \(h\) put it at most four.
+Thus each ball contains a pair at distance exactly four.
+\end{proof}
+
+\section{Formal verification}\label{sec:formal}
+The complete existence assertion has been checked in
+Lean~\cite{lean4} using Mathlib~\cite{mathlib}.
+The public sources and source-specific receipts accompany
+this paper~\cite{repository}. The environment is pinned to
+Lean 4.34.1 and Mathlib commit
+\[
+ \texttt{d13f23b723b8a846827a245b89c10fc7d3f11612}.
+\]
+The dependency manifest is supplied in the isolated package
+used by the replay script.
+
+\subsection{Objects and the path bridge}
+Cube vertices have type \texttt{BitVec 6}. Hamming distance
+counts all six differing bits and returns a natural number;
+there is no bit-vector overflow in the distance result.
+The actual \texttt{SimpleGraph} \(G\) has adjacency
+\(\delta(a,b)=1\). Auxiliary vertices form a tagged sum
+of 64 code labels, 64 singleton labels and canonical
+unordered distance-four pairs. Strict numerical ordering
+selects one representative of every unordered pair.
+The source defines the symmetric loopless adjacency of \(H\)
+using support membership and compatibility. It proves its
+product adjacency equivalent to the three ordinary
+strong-product edge cases. No abstract distance table
+is assumed.
+
+For convenient bounded lengths the formalization uses padded
+reachability. Write \(\operatorname{Step}_F(u,v)\) for equality
+or adjacency in \(F\), and define
+\begin{align*}
+ \Reach_F(0,u,v)&\ \Longleftrightarrow\ u=v,\\
+ \Reach_F(n+1,u,v)&\ \Longleftrightarrow\
+   \exists w,\ \operatorname{Step}_F(u,w)\land\Reach_F(n,w,v).
+\end{align*}
+The theorem \texttt{reach\_iff\_walk} proves equivalence with
+existence of a standard Mathlib \(F\)-walk of length at most \(n\).
+Equality steps pad a shorter walk; they do not add graph loops.
+The proof converts padded reachability to a walk and pads a
+shorter walk in the converse direction.
+
+The theorem \texttt{G\_reach\_iff\_hamming} proves
+\[
+ \Reach_G(n,a,b)\ \Longleftrightarrow\ \delta(a,b)\le n
+\]
+for every \(n\). The product bridge \texttt{strong\_reach} proves
+\[
+ \Reach_{G\boxtimes H}(n,(x,h),(a,k))
+ \ \Longleftrightarrow\
+ \Reach_G(n,x,a)\land\Reach_H(n,h,k).
+\]
+The same endpoint \((a,k)\) appears throughout, matching the
+usual strong-product distance formula.
+
+\subsection{The formal endpoint and its interpretation}
+The definition \texttt{WalkPacking F S} states that no standard
+walk of length at most three joins distinct members of \(S\).
+The definition \texttt{WalkCovers2 F S} states that every vertex
+has a standard walk of length at most two to some member of \(S\).
+On connected graphs these are exactly our packing and domination
+properties.
+
+The declaration \texttt{original\_existence\_counterexample}
+has the mathematical content
+\begin{align}
+ &\neg\exists S\subseteq V(G),\
+        \operatorname{WalkPacking}(G,S)
+        \land\operatorname{WalkCovers2}(G,S),
+       \label{eq:formal-factor}\\
+ &\exists S\subseteq V(G)\times V(H),\
+        \operatorname{WalkPacking}(G\boxtimes H,S)
+        \land\operatorname{WalkCovers2}(G\boxtimes H,S).
+       \label{eq:formal-product}
+\end{align}
+The second witness is the defined set \(\code\).
+The first quantifies over every cube-vertex set, not just linear
+codes or finite samples. The endpoint has no unproved geometric
+premise, external-certificate hypothesis or extra center assumption.
+
+On finite graphs, these statements are the existence content
+of infinite and finite packing-domination numbers. A separate
+numerical function \(\gamma_d^p\) is not defined in the Lean
+sources. The written proof gives the explicit cardinality
+\(|\code|=64\), hence the bound in Theorem~\ref{thm:main}.
+No numerical minimization or optimality claim is imported
+into the formal endpoint.
+
+\subsection{Proof structure, audits and remaining boundaries}
+There are three project modules. The existing factor module
+proves a missing-vertex theorem for arbitrary subsets of
+six-bit Hamming space. It normalizes a nonempty set by XOR
+translation, lists the 22 possible nonzero labels at distance
+at least four from zero, and constructs exact missing-vertex
+witnesses. Ordinary \texttt{decide} proves finite certificate
+lemmas, including a \(22^3\) compatibility certificate.
+No power set of 64 vertices is enumerated. This is an
+alternative formal proof of Proposition~\ref{prop:factor},
+rather than a formalization of its inclusion--exclusion text.
+
+The new geometry module proves Hamming metric facts, a one-bit
+distance-reducing step and both label-covering facts. It uses
+XOR normalization and ordinary kernel-checked \texttt{decide}
+on small closed finite statements. The graph module supplies
+actual graphs, bounded-walk bridges, short-center exclusion,
+same-center coverage and the final conjunction.
+
+Primary records contain 12 printed axiom audits for the geometry
+module and 26 for the graph module. A separately run replay
+builds the factor, geometry and graph modules from their actual
+sources in a fresh project object directory, in dependency order.
+It records 12, 12 and 26 audits respectively. All recorded runs
+have exit code zero, no warnings or errors and no nonstandard
+axioms. Audit records inspect declarations; they are not a
+count of newly discovered mathematical theorems.
+
+The final endpoint uses only the standard Lean axioms
+\texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}.
+The sources use no \texttt{sorry}, \texttt{native\_decide}, added
+axiom, solver oracle or Python certificate as a proof.
+Public records retain source hashes, UTC intervals, logs and
+every printed dependency list.
+
+The cardinality 608 of the auxiliary vertex type is a Lean
+theorem. Connectedness of \(H\), its 9,168-edge count and its
+exact diameter are not separate Lean endpoints in this version.
+Connectedness and the edge count have complete written proofs
+above and exact graph-program checks. A numerical
+\texttt{SimpleGraph.dist} definition is not used; ordinary
+shortest paths are represented by standard walks and lengths.
+These boundaries do not weaken the formal existence assertion,
+but they must not be hidden by claiming that every auxiliary
+statistic has been formalized.
+
+\section{Exact computational verification}\label{sec:computational}
+Two separately implemented graph checkers use Python's standard
+library and exact integer and set operations. Neither uses a
+floating-point optimization or solver. The mathematical proof
+of Theorem~\ref{thm:main} does not depend on their output.
+
+\subsection{First construction and witness certificate}
+The first checker represents a cube word as an integer from
+0 to 63 and computes Hamming distance by XOR and population
+count. It constructs cube edges and verifies that breadth-first
+search distances equal Hamming distances for all cube vertices.
+It constructs all 608 tagged auxiliary vertices and every edge
+of Definition~\ref{def:H}.
+
+Breadth-first searches from all 64 code vertices give distances
+to every auxiliary vertex. All \(\binom{64}{2}=2,016\) center
+pairs are tested using the maximum factor distance.
+For each of the 38,912 product targets the program saves one
+label satisfying both distance bounds and rechecks both bounds
+for every saved same-center witness. The public graph and
+certificate files contain the tagged adjacency data and the
+distance/witness arrays.
+
+\subsection{Separate reconstruction and shortest-distance checks}
+The second checker initially reads no graph or certificate from
+the first implementation. It reconstructs the vertices and
+support-union adjacency directly from the definitions, then
+compares adjacency with a separately expressed predicate on
+all \(\binom{608}{2}=184,528\) unordered distinct vertex pairs.
+It checks for missing and spurious edges.
+
+It runs breadth-first search from all 608 vertices, obtaining
+369,664 distances. These also undergo a shortest-distance
+certificate check: for every source \(v\), the recorded function
+\(f_v\) is zero at \(v\), positive elsewhere, differs by at most
+one across every edge, and each non-source vertex \(w\) has a
+neighbor of value \(f_v(w)-1\). The edge bound makes every
+\(v\)-to-\(w\) walk at least \(f_v(w)\) steps long; successive
+descending neighbors construct a walk of exactly that length.
+These conditions certify shortest distances, rather than merely
+the shape of a BFS array. Symmetry is checked too.
+
+The checker independently tests all 2,016 center pairs and
+38,912 same-center targets. It verifies that the sufficient
+label sets of Section~\ref{sec:labels} lie in the actual
+radius-two neighborhoods and cover the cube. Only after passing
+this phase does it read the first checker's artifacts.
+The comparison matches all 608 canonical vertices, 9,168 edges,
+38,912 code-distance entries and all covering witnesses.
+
+The recorded independent run used Python 3.12.14 on 64-bit
+Windows. The scripts require Python 3.10 or later.
+There are no recorded uncovered targets or packing violations,
+and the minimum distance between the specified product centers
+is four. The complete BFS also records diameter four.
+That statistic is supplementary: the proof needs only
+connectedness, short-path exclusion and radius-two coverage.
+
+\subsection{Meaning of separate checks}
+Separate implementations, reconstruction before reading the
+first artifacts and a fresh Lean object directory reduce
+some common checking errors. They do not establish independent
+human peer review, originality or journal acceptance.
+AI agents participated in implementation and review.
+Exact-program outputs are finite evidence, the written
+argument is a complete mathematical proof, and the Lean
+endpoint is a kernel-checked existence assertion.
+These are related but distinct forms of evidence.
+
+\section{Discussion and limits}\label{sec:discussion}
+The obstruction in \(Q_6\) is not inherited by every product
+containing it. The auxiliary graph supplies a separation
+coordinate while retaining the requirement that a single
+center dominate both coordinates. At a pair Steiner vertex,
+the endpoints alone do not cover the cube. The six additional
+labels in~\eqref{eq:K-normalized} fill the missing coverage while
+remaining compatible with the pair support.
+This eight-label calculation enables the global construction.
+
+The theorem refutes the exact universal implication of
+Conjecture~3.1 in~\cite{bickz-strong}. It does not contradict
+perfect-code inheritance at \(p=2d\)~\cite{perfect}: there the
+balls are disjoint and each target has a unique dominating
+center. Our balls may overlap. Nor does it contradict the
+close-vertex theorem; Proposition~\ref{prop:no-close} shows
+that its \(H\)-side hypothesis is absent.
+The complexity, cycle and tree results
+of~\cite{bickz-complexity} concern other assertions.
+
+We do not determine \(\gamma_2^3(Q_6\boxtimes H)\) exactly,
+minimize the number of auxiliary vertices or classify all
+factors repairing the cube's feasibility obstruction.
+The 64 centers are a witness, not an asserted optimum.
+Replacing \(H\) with another copy of \(Q_6\) is a different
+problem: this paper does not decide whether
+\(\gamma_2^3(Q_6\boxtimes Q_6)\) is finite.
+
+The primary preprint and published article were checked on
+9 October 2026; their conjecture statements agree in the
+relevant scope. Targeted identifier, author, older
+\((p,d)\)-domination and support-compatibility searches did
+not locate a verified earlier complete result subsuming this
+construction. Those searches are not exhaustive and do not
+establish firstness. Earlier product bounds such
+as~\cite{fisher} also involve packing and domination.
+A full historical audit remains necessary before asserting
+priority. Correctness of the explicit counterexample and
+historical priority are separate questions.
+
+\section{AI involvement and academic status}\label{sec:disclosure}
+Substantial generative-AI assistance was used in this research.
+The work used OpenAI Codex with a GPT-6-based agent system;
+no more specific model version is asserted here.
+AI systems participated in proposing the support-based graph,
+developing and checking derivations, writing Lean sources,
+implementing exact graph checkers, inspecting statements and
+axiom lists, conducting targeted literature searches, and
+drafting and revising this manuscript. Separate AI-agent
+mathematical reviews and program reconstructions were performed;
+they are not described as independent human reviews.
+The Lean kernel checks and actual program executions are
+recorded separately from AI-generated reasoning.
+
+As of 9 October 2026, human author information and accountable
+human approval remain pending. No AI system is listed as an
+author. Any eventual human signatories must examine and take
+responsibility for all content, including proofs, references,
+verification claims and disclosures.
+This public research draft does not claim completed human
+scholarly supervision or peer review. It has not been submitted
+to arXiv or a journal, has no arXiv identifier of its own, and
+does not claim acceptance or compliance with a particular
+venue's eligibility requirements.
+
+\appendix
+\section{Source correspondence and reproducibility}\label{app:repro}
+The repository~\cite{repository} supplies the following material.
+The factor path is relative to the repository root. Other paths in
+the table are relative to
+\path{006-strong-product-packing-counterexample/}.
+They identify public source files rather than a private machine environment.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.29\textwidth}>{\raggedright\arraybackslash}p{0.65\textwidth}@{}}
+\toprule
+Mathematical content & Public source and verification boundary\\
+\midrule
+\endhead
+Arbitrary-set cube obstruction &
+\path{notes/proof/Q6PackingDomination.lean}.
+The missing-vertex theorem covers every subset of
+\texttt{BitVec 6}.\\[5pt]
+Hamming geometry and label coverage &
+\path{proof/Q6PackingComplexGeometry.lean}.
+The declarations \texttt{single\_cover} and \texttt{pair\_cover}
+give actual translated covering witnesses.\\[5pt]
+Graphs, walks and complete endpoint &
+\path{proof/Q6PackingComplexCounterexample.lean}.
+Its \texttt{original\_existence\_counterexample} is
+the conjunction~\eqref{eq:formal-factor}--\eqref{eq:formal-product}.\\[5pt]
+Compilation and axiom evidence &
+\path{results/lean-verification.json}
+and source-specific logs. The fresh rebuild compiles all three
+project sources.\\[5pt]
+Explicit graph and witness &
+\path{results/graph.json}
+and \path{results/certificate.json}.\\[5pt]
+Exact reconstruction and comparison &
+The scripts \texttt{verify\_graph.py} and
+\texttt{verify\_independent.py} in the topic directory,
+with graph and comparison receipts under \texttt{results/}.\\[5pt]
+Connectedness and 9,168 edges &
+Propositions~\ref{prop:H-connected} and~\ref{prop:edge-count},
+plus exact graph replay; not separate Lean theorems here.\\[5pt]
+Numerical bound and limitations &
+The injective label map gives \(|\code|=64\) in the written proof.
+The Lean endpoint defines no numerical \(\gamma_d^p\) function
+and supplies no optimality theorem.\\
+\bottomrule
+\end{longtable}
+
+For a fresh replay, install the pinned Lean toolchain and
+prepare the dependency package
+\path{002-weighted-rectangular-pruning/proof/mathlib}.
+Its manifest fixes Mathlib and the transitive dependencies.
+Obtain the required dependency artifacts using Lake's cache
+command if they are absent. The replay runs all three
+project sources serially and creates new object files;
+it does not accept old project objects as a substitute
+for source compilation.
+
+Run the following commands from the repository root, with
+new output directories. Relative paths below are examples
+usable on Windows or Unix-like systems.
+\begin{verbatim}
+python 006-strong-product-packing-counterexample/verify_graph.py \
+  q6-primary-new
+python 006-strong-product-packing-counterexample/verify_independent.py \
+  own --out q6-independent-new
+python 006-strong-product-packing-counterexample/verify_independent.py \
+  compare --out q6-independent-new --root q6-primary-new
+python 006-strong-product-packing-counterexample/verify_lean.py \
+  --out q6-lean-new
+\end{verbatim}
+The displayed backslash continuations are Unix-like shell syntax.
+In PowerShell put each command on one line or use that shell's
+continuation syntax. The option \texttt{--lake} accepts an
+explicit Lake executable path.
+
+The receipts retain source and artifact hashes and distinguish
+reconstruction without the first checker's data from subsequent
+comparison. A regenerated result should be assessed against
+the actual source revision and precise checked assertions.
+An old result file or matching timestamp is not a fresh execution.
+
+\begin{thebibliography}{10}
+\raggedright
+\bibitem{beineke-henning}
+L.~W.~Beineke and M.~A.~Henning,
+\emph{Some extremal results on independent distance domination in graphs},
+Ars Combinatoria \textbf{37} (1994), 223--233.
+\url{https://combinatorialpress.com/article/ars/Volume%20037/volume-37-paper-20.pdf}.
+
+\bibitem{bickz-strong}
+C.~Bujt\'as, V.~Ir\v si\v c Chenoweth, S.~Klav\v zar and G.~Zhang,
+\emph{On \(d\)-distance \(p\)-packing domination number in strong products},
+Annals of Combinatorics (2026), published 26 March 2026.
+\href{https://doi.org/10.1007/s00026-026-00814-0}
+{doi:10.1007/s00026-026-00814-0}.
+Original preprint:
+\href{https://arxiv.org/abs/2510.02749v1}{arXiv:2510.02749v1},
+3 October 2025.
+
+\bibitem{bickz-complexity}
+C.~Bujt\'as, V.~Ir\v si\v c Chenoweth, S.~Klav\v zar and G.~Zhang,
+\emph{The \(d\)-distance \(p\)-packing domination number:
+complexity, cycles, and trees},
+Aequationes Mathematicae \textbf{100} (2026), article 25.
+\href{https://doi.org/10.1007/s00010-026-01266-w}
+{doi:10.1007/s00010-026-01266-w}.
+
+\bibitem{perfect}
+G.~Abay-Asmerom, R.~H.~Hammack and D.~T.~Taylor,
+\emph{Perfect \(r\)-codes in strong products of graphs},
+Bulletin of the Institute of Combinatorics and its Applications
+\textbf{55} (2009), 66--72.
+\url{https://richardhammack.github.io/reprints/rperfect_codes_strong_prod.pdf}.
+
+\bibitem{fisher}
+D.~C.~Fisher,
+\emph{Domination, fractional domination, 2-packing, and graph products},
+SIAM Journal on Discrete Mathematics \textbf{7} (1994), no.~3, 493--498.
+\href{https://doi.org/10.1137/S0895480191217806}
+{doi:10.1137/S0895480191217806}.
+
+\bibitem{handbook}
+R.~Hammack, W.~Imrich and S.~Klav\v zar,
+\emph{Handbook of Product Graphs}, second edition,
+CRC Press, Boca Raton, 2011.
+
+\bibitem{plotkin}
+M.~Plotkin,
+\emph{Binary codes with specified minimum distance},
+IRE Transactions on Information Theory \textbf{6} (1960), no.~4, 445--450.
+\href{https://doi.org/10.1109/TIT.1960.1057584}
+{doi:10.1109/TIT.1960.1057584}.
+
+\bibitem{lean4}
+L.~de Moura and S.~Ullrich,
+\emph{The Lean 4 theorem prover and programming language},
+in \emph{Automated Deduction---CADE 28},
+Lecture Notes in Computer Science \textbf{12699},
+Springer, 2021, 625--635.
+\href{https://doi.org/10.1007/978-3-030-79876-5_37}
+{doi:10.1007/978-3-030-79876-5\_37}.
+
+\bibitem{mathlib}
+The mathlib Community,
+\emph{The Lean mathematical library},
+in \emph{Proceedings of the 9th ACM SIGPLAN International
+Conference on Certified Programs and Proofs},
+ACM, 2020, 367--381.
+\href{https://doi.org/10.1145/3372885.3373824}
+{doi:10.1145/3372885.3373824}.
+
+\bibitem{repository}
+Accompanying mathematical sources and verification records,
+\emph{006: strong-product packing counterexample},
+\url{https://github.com/mio-qwq/math/tree/613108f1fa107a88a1049ed5f25e6b9313d576ed/006-strong-product-packing-counterexample}.
+Public source baseline for this draft:
+commit \texttt{613108f} (9 October 2026).
+\end{thebibliography}
+\end{document}

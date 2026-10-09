@@ -1,5 +1,13 @@
 # A counterexample to packing-domination inheritance in strong products
 
+The self-contained English [research paper](paper/paper.pdf),
+[standalone LaTeX source](paper/main.tex) and
+[paper verification and academic-status record](paper/README.md)
+give a conventional theorem-and-proof presentation of this construction.
+Human author information and accountable approval are pending; substantial
+AI involvement is disclosed, and no human peer-review or submission status
+is claimed.
+
 We construct a finite connected simple graph \(H\) with **608 vertices and
 9,168 edges** such that
 

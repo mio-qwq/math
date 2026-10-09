@@ -4,6 +4,16 @@
 
 [006 的明确反例](006-strong-product-packing-counterexample/README.md)否定了强积打包支配的原始公开猜想 3.1：单因子 Q₆ 不存在半径二的三打包支配集，但与所构造的 608 顶点图 H 的强积存在 64 个中心的此类集合。完整存在性结论已在真实 SimpleGraph／Walk 语义下通过 Lean；精确图检查与独立重新编译均通过。数学反例成立与历史首创性是两个问题，后者仍未确立。
 
+## 006 英文研究稿
+
+**A counterexample to packing-domination inheritance in strong products**
+
+[阅读 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [LaTeX 源码](006-strong-product-packing-counterexample/paper/main.tex) · [论文及验证说明](006-strong-product-packing-counterexample/paper/README.md) · [006 完整材料](006-strong-product-packing-counterexample/README.md)
+
+论文给出自包含证明：\(\gamma_2^3(Q_6)=\infty\)，但对明确构造的 608 顶点图 \(H\)，\(\gamma_2^3(Q_6\boxtimes H)\le64\)。完整存在性反例已经实际 Lean 验证；64 不声称最优。
+
+学术状态为**公开研究稿**：人工署名及承担全文责任的人工审核待确认；尚未向 arXiv 或期刊投稿，也未经过人工同行评审。论文披露 AI 在构造、推导、形式化、程序检查及写作中的实质参与，AI 不列为作者。历史首创性未确立。
+
 ## 成果概览
 
 | 项目 | 数学成果范围 | 验证范围与尚存缺口 |

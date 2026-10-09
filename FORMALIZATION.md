@@ -1,5 +1,12 @@
 # Formalization status
 
+The [006 English paper](006-strong-product-packing-counterexample/paper/main.tex)
+contains a theorem-by-theorem correspondence for its complete original-conjecture
+existence counterexample, along with the numerical gamma and auxiliary-statistic
+boundaries. Its [paper verification record](006-strong-product-packing-counterexample/paper/VERIFICATION.md)
+separates the written proof, actual Lean/audit records, exact full-graph replay
+and manuscript checks. The paper adds no uncompiled Lean declaration.
+
 The Lean files are pinned to Lean `4.34.1`. Most use its bundled `Std` library; the isolated `proof/mathlib` packages pin Mathlib as well. All statements below have been compiled locally, and their axiom lists are printed by their source files. None uses `sorry`, an added axiom, or `native_decide`.
 
 The [Q6 factor receipt](notes/results/q6-packing-domination-verification.json)
