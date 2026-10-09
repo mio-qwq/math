@@ -421,3 +421,37 @@ Reproduce with the pinned Mathlib package available:
 cd 002-weighted-rectangular-pruning/proof/mathlib
 lake env lean ../../../notes/proof/C7FractionFamilyBarrier.lean
 ~~~
+
+
+## Finite graph: local triangle-swap safety
+
+[TriangleSwapSafety.lean](notes/proof/TriangleSwapSafety.lean) defines an
+actual seven-vertex SimpleGraph with unordered Sym2 edges. It proves the
+complete triangle list and converts the 64 subsets of that list into bounds
+on arbitrary actual graph packings. The endpoint
+maximum_support_local_swap_counterexample includes maximum packing size,
+maximum vertex support among maximum packings, the literal local hypotheses,
+and failure of global packing after replacement. No candidate-family
+restriction remains in these optimality assertions.
+
+The file uses ordinary kernel-checked decide and no added axioms. Its 19
+audits and primary/independent elaborations are recorded in the
+[source receipt](notes/results/triangle-swap-safety.json). The written
+[note](notes/triangle-swap-safety.md) separates this precise source-condition
+counterexample from Tuza's conjecture and from the complete kernel argument.
+The graph's covering number and the inapplicability of earlier reductions
+are checked by the [exact Python checker](notes/check_triangle_swap_safety.py)
+and independent mathematical reasoning; they are not Lean claims in this file.
+
+Reproduce with the pinned Mathlib package:
+
+~~~sh
+cd 002-weighted-rectangular-pruning/proof/mathlib
+lake env lean ../../../notes/proof/TriangleSwapSafety.lean
+~~~
+
+The finite Python check is also portable:
+
+~~~sh
+python notes/check_triangle_swap_safety.py
+~~~

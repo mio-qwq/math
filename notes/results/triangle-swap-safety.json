@@ -1,0 +1,378 @@
+{
+  "scope": "actual seven-vertex SimpleGraph: literal local swap condition does not imply global triangle packing safety, even at maximum size and maximum support",
+  "not_claimed": [
+    "Tuza counterexample",
+    "entire source kernel argument refuted",
+    "2024 TCS version defect",
+    "historical firstness",
+    "Lean proof of cover number or earlier reduction inapplicability"
+  ],
+  "source": "notes/proof/TriangleSwapSafety.lean",
+  "source_sha256": "999a719c560c93796399d88d7ea7b2c41ca75b274c2d8d8b030b01a92d60f4ed",
+  "lean": "leanprover/lean4:v4.34.1",
+  "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "finite_check": "complete six-triangle list, then exactly64subsets; complete-list theorem bridges to arbitrary actual graph packings",
+  "endpoints": [
+    "TriangleSwapSafety.maximum_support_local_swap_counterexample",
+    "TriangleSwapSafety.local_condition_not_sufficient"
+  ],
+  "proof_method": "ordinary kernel-checked decide, no custom axioms or native_decide",
+  "runs": {
+    "primary": {
+      "start_utc": "2026-10-09T12:38:07.4681150+00:00",
+      "end_utc": "2026-10-09T12:38:41.5735722+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 19,
+      "expected_audits": 19,
+      "declaration_axioms": [
+        {
+          "declaration": "TriangleSwapSafety.no_diagonal_edge",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.graph_edgeSet_eq",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.triangle_edges_in_graph",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.complete_triangle_list",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.old_packing_valid",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.old_packing_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.old_support_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.outside_old",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.finite_packing_bounds",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.packing_card_le_three",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.maximum_packing_support_le_six",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.local_condition_holds",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.local_support_improves",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.retained_triangle_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.shared_actual_edge",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.replacement_not_packing",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.replacement_support_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.maximum_support_local_swap_counterexample",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.local_condition_not_sufficient",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "source_before_sha256": "999a719c560c93796399d88d7ea7b2c41ca75b274c2d8d8b030b01a92d60f4ed",
+      "source_after_sha256": "999a719c560c93796399d88d7ea7b2c41ca75b274c2d8d8b030b01a92d60f4ed",
+      "log": "notes/results/triangle-swap-primary.log",
+      "log_sha256": "4b11337f5c976fb8b2b2d3425dca878d323249a6042b51613edbfaab24c519d6"
+    },
+    "independent": {
+      "start_utc": "2026-10-09T12:40:39.1715137+00:00",
+      "end_utc": "2026-10-09T12:41:13.0261822+00:00",
+      "exit_code": 0,
+      "warnings": 0,
+      "errors": 0,
+      "panics": 0,
+      "audits": 19,
+      "expected_audits": 19,
+      "declaration_axioms": [
+        {
+          "declaration": "TriangleSwapSafety.no_diagonal_edge",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.graph_edgeSet_eq",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.triangle_edges_in_graph",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.complete_triangle_list",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.old_packing_valid",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.old_packing_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.old_support_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.outside_old",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.finite_packing_bounds",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.packing_card_le_three",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.maximum_packing_support_le_six",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.local_condition_holds",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.local_support_improves",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.retained_triangle_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.shared_actual_edge",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.replacement_not_packing",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.replacement_support_card",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.maximum_support_local_swap_counterexample",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TriangleSwapSafety.local_condition_not_sufficient",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "nonstandard_axioms": [],
+      "pass": true,
+      "source_before_sha256": "999a719c560c93796399d88d7ea7b2c41ca75b274c2d8d8b030b01a92d60f4ed",
+      "source_after_sha256": "999a719c560c93796399d88d7ea7b2c41ca75b274c2d8d8b030b01a92d60f4ed",
+      "log": "notes/results/triangle-swap-independent.log",
+      "log_sha256": "4b11337f5c976fb8b2b2d3425dca878d323249a6042b51613edbfaab24c519d6"
+    }
+  },
+  "exact_graph_receipt": "notes/results/triangle-swap-exact.json",
+  "independent_math_review": {
+    "status": "finite mathematical example independently derived and checked; dedicated final Lean-statement review report not completed",
+    "methods": [
+      "odd-degree obstruction to four-triangle edge partition",
+      "unique triangles through z/f bound support",
+      "complete six-triangle list and edge witness ux"
+    ],
+    "correction": "under the source induced-vertex restriction local support increase also increases the global vertex union; only edge compatibility fails",
+    "independent_compilation": "completed actual fresh elaboration separately from the unfinished final written report"
+  },
+  "source_versions": {
+    "arxiv": "2308.16515v1 Rule8 read",
+    "author_upload": "2024-01-23 conference author fulltext read",
+    "journal_2024": "10.1016/j.tcs.2024.114635 existence/abstract checked, rule fulltext not read"
+  }
+}

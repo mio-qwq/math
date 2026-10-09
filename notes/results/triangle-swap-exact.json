@@ -1,0 +1,75 @@
+{
+  "checked_utc": "2026-10-09T12:40:38.184979+00:00",
+  "source_sha256": "2377cfc1251fdd619d5d2c432330553a2529dfab2ab96e6b523f40a1a5849a04",
+  "vertices": [
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "f"
+  ],
+  "edges": [
+    "uv",
+    "uw",
+    "vw",
+    "vx",
+    "vy",
+    "xy",
+    "ux",
+    "uz",
+    "xz",
+    "uf",
+    "xf",
+    "wy"
+  ],
+  "all_triangles": [
+    "uvw",
+    "uvx",
+    "uxz",
+    "uxf",
+    "vwy",
+    "vxy"
+  ],
+  "packing_number": 3,
+  "max_support_at_maximum_packing": 6,
+  "cover_number": 3,
+  "old_packing": [
+    "uvw",
+    "vxy",
+    "uxz"
+  ],
+  "old_pair": [
+    "uvw",
+    "vxy"
+  ],
+  "outside_vertices": "f",
+  "new_pair": [
+    "uxf",
+    "vwy"
+  ],
+  "old_pair_support": 5,
+  "new_pair_support": 6,
+  "new_pair_is_packing": true,
+  "retained_triangle": "uxz",
+  "replacement_is_global_packing": false,
+  "conflicting_edge": "ux",
+  "all_edges_and_vertices_triangular": true,
+  "contains_K4": false,
+  "vertex_triangle_links_connected": {
+    "u": true,
+    "v": true,
+    "w": true,
+    "x": true,
+    "y": true,
+    "z": true,
+    "f": true
+  },
+  "previous_rules_note": "For k=4, rules 1-5 do not terminate/reduce; maximum packing forbids 6/7. Rule8 literal local condition succeeds but global packing fails.",
+  "claim_scope": "finite counterexample to an unqualified local-swap safety implication; NOT a Tuza counterexample or invalidation of all kernel/discharging conclusions",
+  "sources": [
+    "https://arxiv.org/html/2308.16515v1",
+    "https://www.researchgate.net/publication/376376955_A_Discharging_Method_Improved_Kernels_for_Edge_Triangle_Packing_and_Covering"
+  ]
+}
