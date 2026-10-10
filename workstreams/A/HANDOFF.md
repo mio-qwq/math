@@ -152,3 +152,25 @@ The separate worker-owned \`paper/FORMALIZATION_INTERFACES.md\` now specifies al
 The A working paper is \`paper/WORKING_MANUSCRIPT.md\`, source attribution and independent-PASS status explicit; the local PDF pre-review export is \`agent_A_conjecture10_review.pdf\`, four inspected A4 pages. All packet files are additionally available in the portable \`agent_A_conjecture10_corrected_review.zip\` linked by the user-facing artifact; SHA256 \`8b5d6f3a67081fa4c2191ed86dabf6c553595209023f7b980e8d3cd34e59898c\`. The ZIP was genuinely extracted to a separate temporary directory and all four standard-library programs returned zero. These container artifacts are not represented as signed GitHub releases.
 
 This handoff must continue to distinguish **independent mathematical PASS on the original source** from **pending ROOT acceptance of the corrected execution packet**. The worker will not submit/merge or assert Lean/world-priority independently.
+
+
+## New full-graph constructive corollary and exact 25,204-case replay
+
+No change to original mathematical Conjecture 10 freeze \`7168f6df66ba5518cd3420c4668eab5352e4be8c\`; no change to repaired v2 core sources. The new executable supplements those frozen proofs by implementing the published unequal-palette Theorem 5 **as well as** the independently reviewed A uniform-palette regular theorem.
+
+- \`workstreams/A/code/construct_full_graph.py\`, exact Git blob \`b0da98d468428cb81063e31b57f02f9f290d59ab\`
+- \`workstreams/A/code/verify_full_graph.py\`, exact Git blob \`8c712181eda1a6641c3bf8efeab7a2dc5a99ef60\`
+- Existing dependency \`workstreams/A/code/verify_all_regular.py\`, Git blob \`dfd147219f4fb016e945daabfffea9bbe419919d\`
+- Proof + source attribution: \`workstreams/A/paper/FULL_GRAPH_ALGORITHM.md\`, blob \`e57cab14c4b1121b4bf3f7a3fe5813b960ae7a09\`.
+- Source-bound replay: \`workstreams/A/reviews/FULL_GRAPH_EXECUTION_RECEIPT.md\`, blob \`7239a123d6f671826e85633100dc6b6a8d27747c\`.
+
+**Run from cloned repo root:**
+
+    python3 workstreams/A/code/verify_full_graph.py
+    echo '{"n":4,"edges":[[0,1,0],[1,2,1],[2,3,0],[0,3,2]]}' | python3 workstreams/A/code/construct_full_graph.py
+
+All three exact GitHub code blobs were reconstructed in a new temporary directory, confirmed by \`git hash-object\` and executed with Python 3.13.5, no external packages. Actual PASS 25,204 graph/colouring tests = 24,070 generated validated global orders + 1,134 correctly identified K2/bicoloured-even-cycle exceptional-component cases, and five malformed inputs rejected. Literal K4-like example returns four ordered edges, verified true; actual subprocesses exited 0. These test runs are not claimed all pairwise nonisomorphic; the mathematical classification is a direct corollary of the original connected full theorem and the cited Theorem 5.
+
+Conversation artifact \`/mnt/data/agent_A_full_graph_replay.zip\` (8,588 bytes, SHA256 \`3a6a4bb64e86a13f81ca6d6d7ee2f34d95137daf640c168d659f637a1f82c284\`) holds exact code and manifest. The ZIP is not a signed GitHub Release. New software and classification still await independent ROOT source/replay review; do not conflate it with original complete mathematical PASS or the older separately pending v2 execution HOLD.
+
+**Autonomous next phase:** preserve frozen objects; pursue the first genuinely executable Lean finite-graph/labelled-multigraph orientation lemma when a toolchain is present. Independently refresh original paper/version citations, then convert the already published Theorem 5 algorithm into a standalone, explicitly attributed manuscript appendix. No new open-problem reservation or project number needed for these direct proof/algorithm extensions. Do not merge, submit or contact authors without separate authorization.
