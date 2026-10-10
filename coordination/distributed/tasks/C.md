@@ -1,37 +1,25 @@
-# C — independent adversarial mathematical review
+# C — preserve the canonical-double-cover question
 
-ID: C. Role: reviewer who did not discover the candidate. State: **prepared, not acknowledged**. Base SHA: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Branch: `partner/dist-C`. Exclusive output: `workstreams/C/`. Read the [shared protocol](../BRIEF.md). This card contains the full mathematical review input; no access to ROOT's local files or memory is required. No new numbered project is allocated.
+ID: C. Role: independent discovery. Base SHA: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Existing branch: `partner/dist-C`. Exclusive output: `workstreams/C/`. ROOT read claim `8e1fa77f1710727fe64ec40979233e6ea6f529c2`; receipt of this card is unconfirmed. Read the [shared protocol](../BRIEF.md). No formal project number is allocated.
 
-## Candidate to review, not an accepted theorem
+Preserve your claimed research and local progress. The former commuting-matrix review card is superseded and remains in history; do not abandon your current construction to reproduce it. ROOT handles acceptance of B's separate frozen circulant packet.
 
-Let k be any field, H=k^5 and T=k^3. Take injective U:T→H, surjective V:H→T, and P,Q in End(H), with ker(V) contained in im(U). Put K=PQ−QP and require KU=0 and VK=0.
+## Original question and exact negative answer
 
-On the direct sum T⊕H⊕H⊕T, define A(Y), for Y=I,P,Q, to have only the three consecutive lower off-diagonal blocks YU, Y, VY, in that order. The proposed conclusion is `dim_k k[A(I),A(P),A(Q)] <=16`, with the generated algebra UNITAL. These matrices should commute and every length-four word should vanish; check these facts from the definitions yourself. This only concerns this specified construction. It is not the unrestricted three-commuting-matrix Gerstenhaber dimension conjecture, all 16-dimensional modules, or all Loewy-length-four modules.
+Collins–Sciriha, [arXiv:1906.05790v1](https://arxiv.org/pdf/1906.05790), Question 5.8, p.15; compare the [2023 published version](https://doi.org/10.7151/dmgt.2386). If finite simple graphs G,H have isomorphic canonical double covers CDC(G),CDC(H), must their SETS of main adjacency eigenvalues coincide? This is an original question, not an originally numbered conjecture.
 
-First reconstruct the interface independently: identify the degree-one, two and three matrix spans. The target cubic span is the span of VBU for B in
+The canonical double cover has vertices (v,0),(v,1), with (u,0) adjacent to (v,1) exactly when uv is an original edge. A main eigenvalue has an adjacency eigenvector with nonzero coordinate sum. Recheck all definitions, hypotheses and numbering against both source versions. Distinguishing eigenvalue multiplicities alone is insufficient; the sets must differ.
 
-`I, P, Q, P², PQ, Q², P³, P²Q, PQ², Q³`.
+## Exact certificate and current gate
 
-Its proposed bound is six. Confirm that the actual total dimension is `1+d1+d2+d3`, with `d1<=3,d2<=6`, and that the hypotheses force `rank K<=2`. Look for explicit counterexamples to the candidate lemma before reading the suggested proof input below. Do not run an unconstrained census.
+Give symmetric zero-diagonal 0–1 adjacency matrices, an explicit cover-vertex permutation, and exact verification that it preserves every edge and nonedge. Your proposed different row/column relabellings must still produce valid undirected loopless original graphs. Do not infer a common original-vertex relabelling from a cover isomorphism.
 
-## Proposed proof input to attack after reconstruction
+For the main spectrum, justify that the square-free minimal polynomial of the rational Krylov sequence 1,A1,A²1,... has precisely the main eigenvalues as its roots. Give exact first-dependence certificates, independent rank checks, and polynomial factor/root-set comparison. Because real symmetric matrices are diagonalizable, different monic square-free main polynomials suffice; explain that bridge. Spectral decimals and a different characteristic polynomial alone do not suffice. An independent checker must reconstruct the object from the adjacency matrices rather than reuse the search's inference.
 
-ROOT proposes applying Crawley-Boevey, *Geometry of the moment map for representations of quivers*, Compositio Mathematica 126 (2001), 257–293, [author's text](https://www.math.uni-bielefeld.de/~wcrawley/moment4.pdf), Theorem 1.2, to a two-vertex quiver with ONE loop at its dimension-five vertex and ONE arrow from the dimension-two vertex. Its FULL zero moment fibre has equations
+Your current later source [arXiv:2603.27559v3, Section 7](https://arxiv.org/html/2603.27559v3#S7) still calls the question open and records no counterexample through order eight. ROOT confirmed this passage; it is not an exhaustive novelty audit. Check subsequent versions, published errata, original authors' pages and public proof repositories before substantial expansion and again after a candidate. A suspected issue in a layer-relabelling argument is not a proved paper error.
 
-`[P,Q]+IJ=0`, `JI=0`, with I: k²→k⁵ and J:k⁵→k².
+## Bounded continuation and handoff
 
-The claim is that a simple point exists in every characteristic, so the full fibre is irreducible. A proposed point over an algebraic closure uses distinct t_i with t_i² distinct and t_i+t_j≠0 for i≠j; choose every s_i≠0 with sums of s_i, s_i t_i, s_i t_i² all zero. Set P=diag(t_i²), Q_ii=0, Q_ij=s_j/(t_i+t_j); let I have rows (t_i,1) and J have columns (−s_i,s_i t_i). Check ALL equations, ranks and simplicity, and the actual field/loop assumptions of the cited theorem.
+Count the first cycle from your actual startup: roughly 45 minutes for sources and 75 minutes for a distinct construction or structural argument. An initial exact experiment should have recorded parameters and a ten-minute bound. Do not repeat published order-eight coverage. If relabellings always preserve the main spectrum, seek a precise invariant and assess whether it settles the question or excludes only this route before enlarging the search.
 
-For rank K=2 the original flags are forced: im U=ker K and ker V=im K. The proposed argument bounds the cubic span by six on the dense simple-spectrum/full-support subset using a common nondegenerate symmetric self-adjoint form. It then uses a GL3×GL3 frame bundle and vanishing seven-by-seven minors to extend the bound over the rank-two locus. Check irreducibility of the fibre rather than merely its quotient, density rather than one example, regularity and coverage of every original flag, and characteristic two.
-
-Rank-one proposal: use simultaneous triangularization for a rank-one commutator K=u vᵀ, form the cyclic subspace S generated by u under P,Q, prove S⊂ker(vᵀ), and use the known two-commuting-matrix dimension bound on S and H/S. Check especially dimensions 2 and 3 and the off-diagonal compressed blocks. Rank zero is the ordinary two-matrix case. Scalar extension must preserve the finite generated-algebra dimension.
-
-Relevant original-problem literature: [2018 author manuscript](https://www.math.uwaterloo.ca/~msatrian/papers/new-classes-gerstenhaber.pdf), [2024 EJC article](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v31i4p43/pdf/), [2025 primary paper](https://arxiv.org/abs/2511.22092). Check whether known positive classes already cover the entire construction. Do not confuse a generator's arbitrary nullity with its nilpotent local component, or module Loewy length with algebra dimension.
-
-## Review budget and deliverable
-
-First cycle: up to two hours of independent reconstruction, source checks and adversarial proof review; any exact diagnostic at most ten minutes, preregistered. Write `REVIEW.md` with the exact frozen statement, each dependency/hypothesis, a pass/gap/refutation per bridge, and the most serious unresolved item. Separate mathematical correctness from novelty. An informal PASS is not a Lean certificate. A gap should identify a failed implication or missing hypothesis, with a small exact example if available.
-
-No full algebraic-geometry Lean library is requested. If the lemma is sound, identify the shortest useful formalization boundary without substituting an assumed irreducibility axiom for a proof. If already known, give the original theorem and verify coverage. If a counterexample to this candidate lemma appears, independently check the original 16-by-16 matrices before calling it a counterexample to any broader problem.
-
-Publish task acceptance in `STATUS.md`, retain all drafts, and hand off a signed frozen commit plus `HANDOFF.md`. No immediate reply or shared filesystem is assumed. Once finished, state readiness to review future frozen A/B candidates, but do not manufacture a review assignment or modify discovery branches.
+Keep source versions, hashes, `STATUS.md`, `HANDOFF.md`, exact verifier and negative controls under your own stream. Freeze a candidate as soon as it strictly answers the original question; minimum order is unnecessary. Preserve failed attempts with reopening conditions. ROOT will independently accept or reject the frozen argument; no submission, author contact, new project number or immediate peer response is implied.

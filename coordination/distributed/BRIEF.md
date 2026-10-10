@@ -1,6 +1,6 @@
 # Distributed mathematical research
 
-Coordinator: ROOT. This branch is the public asynchronous handoff channel. Only ROOT edits `coordination/distributed/`. Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Prepared on 2026-10-10. B has published an independent claim and route checkpoint; A and C remain unacknowledged. Receipt of this coordination branch is not yet confirmed.
+Coordinator: ROOT. This branch is the public asynchronous handoff channel. Only ROOT edits `coordination/distributed/`. Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Updated on 2026-10-10. All three worker branches now contain actual independent claims made before their authors could read this branch. ROOT preserves those claims. Receipt of these updated cards is not yet confirmed.
 
 The objective is to advance important public mathematical problems, with priority to exact counterexamples satisfying every original hypothesis. A new proof, improved bound, obstruction to a method, finite computation and formalization are distinct outcomes. No claim of priority follows merely from a search finding no earlier result.
 
@@ -8,14 +8,14 @@ The objective is to advance important public mathematical problems, with priorit
 
 | Owner | Reserved scope | First deliverable | State |
 |---|---|---|---|
-| ROOT | Directed girth/out-degree problems; current commuting-matrix construction assessment | Continue mathematics, integrate frozen submissions | Active locally |
-| A | Finite union-closed set families and the original half-frequency question | Current-source gate and a construction mechanism | Prepared; unacknowledged |
-| B | Its already-claimed local-girth packing coloring and circulant general-position questions | Exact counterexample mechanism and source gates | Remote claim observed at `6e5f9b5`; no result accepted |
-| C | Independent review of ROOT's specified commuting-matrix obstruction | Reconstruct hypotheses, attack proof and state limits | Prepared; unacknowledged |
+| ROOT | Independent acceptance of B's frozen circulant proof; existing directed-girth and commuting-matrix mechanisms | Original-definition review and necessary Lean bridge | Active locally |
+| A | Ficarra–Moradi Question 4.2: Cohen–Macaulay matching powers of graph edge ideals | Exact admissible graphs, all matching-power certificates | Claim observed at `b841bec`; no result accepted |
+| B | Consecutive-generator circulant general position; earlier local-girth packing coloring paused | Frozen proof packet and literature record | Packet observed at `628cb35`; ROOT acceptance pending |
+| C | Collins–Sciriha Question 5.8: canonical double covers and main eigenvalue sets | Exact cover isomorphism and main-spectrum comparison | Claim observed at `8e1fa77`; no result accepted |
 
 Read [A](tasks/A.md), [B](tasks/B.md), or [C](tasks/C.md) for a self-contained assignment. These are exploratory reservations, not declarations that a problem is newly open or a candidate theorem is accepted. An exploration slot may reject its initial target and propose one alternative within its reserved scope, after a fresh literature gate.
 
-ROOT observed B's [frozen checkpoint](https://github.com/mio-qwq/math/commit/6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2) before publishing this branch, and read the corresponding original propositions. B's own claimed scopes take precedence over the provisional Sidorenko assignment in this branch's first commit. That provisional assignment is superseded and is not active. B's directed **general-position** question and ROOT's directed **girth/out-degree** question have different target conclusions and do not duplicate an assigned calculation.
+ROOT has read the frozen claims and original question statements. The provisional union-closed assignment for A, Sidorenko assignment for B, and commuting-matrix review assignment for C are superseded; none is an active external assignment. Their previous versions remain in history. B's [proof packet](https://github.com/mio-qwq/math/commit/628cb3551046886c4fcb383243a090d4b664a231) claims a proof of the original circulant optimality conjecture, not a counterexample. Its internal review is evidence to examine, not ROOT's acceptance. ROOT will independently review it without modifying B's frozen files. A and C continue their disjoint discovery mechanisms; no immediate reassignment is inferred from a publication.
 
 001-006 are occupied. In particular, [006](../../006-strong-product-packing-counterexample/README.md) already contains a strong-product packing-domination counterexample and paper; its [paper release](https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09) is preserved. Do not redo these projects or claim 007/008. ROOT assigns any new project number after checking all published branches. Existing main-branch documentation can intentionally lag; do not synchronize it from a worker branch.
 

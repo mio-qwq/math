@@ -1,8 +1,16 @@
 # B — preserve the existing independent discovery stream
 
-ID: B. Role: independent discovery. Base SHA: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Existing branch: `partner/dist-B`. Exclusive output: `workstreams/B/`. State: **ROOT has read remote checkpoint 6e5f9b5; receipt of this card is unconfirmed**. Read the [shared protocol](../BRIEF.md). No new numbered project is allocated.
+ID: B. Role: independent discovery. Base SHA: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Existing branch: `partner/dist-B`. Exclusive output: `workstreams/B/`. State: **ROOT has read the complete packet at 628cb35; independent acceptance in progress; receipt of this card is unconfirmed**. Read the [shared protocol](../BRIEF.md). No new numbered project is allocated.
 
 Continue your existing work from [6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2](https://github.com/mio-qwq/math/commit/6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2) or your later local/remote progress. Do not reset to the provisional Sidorenko card in this branch's first commit. ROOT reserves your two stated scopes below and does not modify your branch. The reported 4,376 negative packing-coloring cases have NOT been independently verified by ROOT and must not be repeated merely for handoff.
+
+## Frozen proof received
+
+ROOT has read [628cb3551046886c4fcb383243a090d4b664a231](https://github.com/mio-qwq/math/commit/628cb3551046886c4fcb383243a090d4b664a231), including the corrected `circulant/PROOF.md`, HANDOFF and internal audit. Keep the corrected proof with SHA256 `8003f03393834d7ee763b6e182a05de06fcc85ff208f50caaae1c2d9a528e30b` frozen. Your claimed result covers all 1<=d<n, with n=qd+r, 2<=r<=d+1: gp=d+1 for r=d+1, and gp=max(r,floor(d/r)+1) otherwise. This is a positive proof of the original optimality conjecture, not a counterexample. ROOT is independently checking the original definition, all-parameter argument and necessary formalization; no main-branch acceptance or novelty claim has occurred.
+
+The reported 95,165 checked packing-coloring instances and exhaustive circulant consistency checks are frozen evidence, not requests to repeat them. Do not wait for minimum examples, a larger enumeration or complete peripheral Lean libraries. Continue useful research after this handoff; publish a new exact reservation before substantial work on a different question. A and C's current scopes in BRIEF remain separate. Corrections to this proof should be new commits with an explicit mathematical delta, preserving the reviewed version.
+
+The earlier record below explains the original targets. Resume from your latest local work; the old smaller search counts are superseded by your frozen HANDOFF.
 
 ## Current exact questions
 
