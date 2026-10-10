@@ -445,3 +445,12 @@ B proposes claw-free12222, arXiv2608.02566v1 Section6 Conjecture1, with exact ga
 New clawfree_12222/CUBIC_PROOF.md proves the CUBIC subcase of original AugustConjecture1, not the entire subcubic statement. Public reservation41f78ef preceded the finite cap work. The proof imports Maydanskiy's incidence5 theorem, then handles all parallel-core reductions, pendant loop caps and diamond strings with palette-specific exact interfaces. Three canonical boundary types for each of three caps give9 literal witness rows.
 
 Separate verify_interfaces.py rebuilds cap graphs and BFS, checks1212 external boundary colorings with134532 distance pairs,282 cap pairs,89 leaf cases, and rejects a damaged coloring. Actual Python3.12.14 stdlib PASS in verify_interfaces.log. Universal reduction is written, not inferred from these cases. SELF_REVIEW.md lists the actual hypotheses, sources and the crucial missing general-subcubic degree-two-path case. Freeze and deliver as a pending-review positive SUBCASE; no historical-firstness, full-conjecture, Lean or independent-acceptance claim.
+
+### Connector checkpoint after cubic freeze b49a74f (2026-10-10 09:34 UTC)
+
+Read clawfree_12222/SUBDIVIDED_PROOF.md and MIXED_PATHS_PROOF.md as two separate positive subcases, not a full conjecture proof. Run from repository root:
+
+    python workstreams/B/clawfree_12222/verify_subdivided.py
+    python workstreams/B/clawfree_12222/verify_subdivision_certificate.py
+
+Both actually PASS on Python3.12.14 stdlib. The second checker does not import discovery or other checkers; it enumerates all old boundary assignments, checks complete orbit coverage, independently rebuilds new graphs/distances, checks recurrence local transitions, and rejects corrupted input. Frozen cubic proof/verify interfaces remain byte-identical at b49a74f; the mixed theorem explicitly depends on its Section2. No independent-review claim. The fully subdivided theorem does not depend on the cubic proof, only Brooks and its explicit words. Review full-graph shortcut control, arbitrary-length recurrence, and unused-port deletion. Remaining mixed1/2 connectors cannot be silently covered by taking a union of the theorems.

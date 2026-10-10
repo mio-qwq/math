@@ -1,0 +1,1 @@
+{"distance_pairs": 323713, "negative_controls": 1, "original_graphs": 399, "path_words": 438, "python": "3.12.14", "scope": "finite construction checks; unbounded theorem uses written induction and Brooks", "status": "PASS"}
