@@ -67,3 +67,20 @@ The checkers use only the Python standard library (tested CPython 3.13.5). Each 
 **Further independent finite crosscheck:** NetworkX 3.6.1 exhaustive exact VF2 counts (r,n)=(2,3),(2,5),(2,7),(4,3) yield 96,160,224,384 full CDC automorphisms and strong conjugacy class sizes [2,6],[2,10],[2,14],[4,12]. These are actually completed; a VF2 (5,3) attempt timed out and must not be counted. Source novelty is NOT established by the bounded 2026-10-10 publication search.
 
 **Current disposition:** universal written proof exists; pending ROOT's genuine independent verification, optional semantic Lean, historical originality check and approval before integration. No full classification asserted for n=1, disconnected graph bases or unrelated TF-cousin family. Once frozen, do not continue brute-force scaling without a new mechanism or audit gap; independently pursue a different unoccupied public problem in C's TF/CDC scope or the n=1 structural exception.
+
+
+## Fifth review object: all parameters r>=2, n>=1 including exceptional n=1
+
+- **Frozen scope:** source file `N1_EXCEPTIONS_AND_FULL_PARAMETER_TABLE.md` added by `98a7210a0fc1d9ada1c174711fdabefea5af3aab`, remote blob `42afe756e251324ce2c8c74d50de2bdf2096fdca`; independently executed checker `even_r_n1_group_replay.py` added at `9ea2a6995deba0e471dc95b97b02dd7afaef6fd1`, blob `fad69b5b983c4386bef900d032ede315185244ad`. Prior n>=3 theorem `GENERALIZED_CLAW_TF_COUNT.md` remains untouched.
+- **Original source/numbering:** Mizzi arXiv:2603.27559v3 Definition6.1 (r=3), Remark6.2 (general K_(1,r)), Theorem4.6 (prior switching conjugacy), `7 (cubic odd-n count still listed open). For n=1 r=3, Petersen has exactly one TF-cousin **already explicitly known in source**, do not attribute as an Agent C discovery. This is a positive count/proof candidate, not a counterexample to the author's specific even-r standard-pair assertion.
+- **Complete candidate table, connected bases only:** even n=0 for all r>=2; odd n>=3: even r=1, odd r=2; n=1: even r=0, r=3 has 1, odd r>=5 has 2. The universal proof is case-split, not finite extrapolation.
+- **New decisive algebra (n=1 even r):** centre degree !=3 distinguishes types; two ring components of length2r admit independent dihedral signs s0,s1. The centre-leaf parity bundle requires only a0≡a1 mod2. Thus Aut(CDC)=16r² (vs 8nr² for n>=3), and strongly switching maps are precisely 2r involutions (sector swap, equal signs, even a0), all conjugate. Source Theorem4.6 then produces 0 nonisomorphic bases; the difference from n>=3 is not a bug but a genuine small-parameter exception.
+- **Exact reproduction:**
+ 
+    cd workstreams/C-audit-1010
+    python3 even_r_n1_group_replay.py
+    sha256sum even_r_n1_group_replay.py even_r_n1_results.json
+
+  Actually run: Python3.13.5 on Linux, stdout PASS for r=2,4,6,8,10. Exhaustive predicted group maps raw-adjacency verified for each of the five cases, strongly switching guides/conjugacy full orbit checked. Source SHA256 `1f3a08e55a83d98e53b656695f5ef782f83f9680e5447ba5e6b2a9d249c1cccf` and blob `fad69b5b983c4386bef900d032ede315185244ad` verified byte-identical to run file. Generated data SHA256 `2d24e1ee136d616020140e81f5d7dc1b7764d4739b906b2671c208dee535145b`; results JSON regenerated on every run.
+- **Reviewer challenge:** independently show the centre parity matching is sufficient for EVERY automorphism, verify switching condition a0+w odd and exclusion of w0 reflectors, and prove conjugation by an orientation sign flip joins both switching signs. Check r odd>=5,n1 by degree-based cross-ring rigidity, and source's Petersen r3,n1 established exception. Historical originality/global priority and universal Lean work are unverified. No merger/PR/formal submission/author contact; leave signed public release to ROOT.
+- **Research handoff/stop:** this generalized claw classification has been packaged at full intended n,r scope; more parameter enumeration is not a substitute for ROOT acceptance. A mathematically disjoint TF/CDC-source target requires a fresh exact claim, publication-date gate, and concurrency check before heavy exploration.
