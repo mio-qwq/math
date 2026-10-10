@@ -1,0 +1,12 @@
+{
+  "source": "Mizzi arXiv:2603.27559v3 Section 7 first TF-cousin clause, candidate is AFFIRMATIVE not counterexample",
+  "n": 10,
+  "T": [1,2,3,0,5,6,7,4,9,8],
+  "G_edges": [[0,4],[0,5],[0,6],[0,8],[1,4],[1,5],[1,7],[1,9],[2,4],[2,6],[2,7],[2,8],[3,5],[3,6],[3,7],[3,9],[4,8],[5,9],[6,8],[7,9]],
+  "H_edges": [[0,4],[0,5],[0,7],[0,9],[1,4],[1,6],[1,7],[1,8],[2,5],[2,6],[2,7],[2,9],[3,4],[3,5],[3,6],[3,8],[4,9],[5,8],[6,9],[7,8]],
+  "G_triangle_incidence_multiset": [2,2,2,2,2,2,2,2,4,4],
+  "H_triangle_incidence_multiset": [1,1,1,1,1,1,1,1,2,2],
+  "expected_odd_k": 3,
+  "two_disjoint_odd_cycles_in_G": [[0,4,8],[3,5,9]],
+  "doubled_cycle_in_H": [3,4,9,0,7,8]
+}
