@@ -77,5 +77,4 @@ def main():
           'and 100000-element test exactly 50000 red')
     print('PASS parallel incidences, invalid partitions and globally unbalanced controls')
 
-
 if __name__=='__main__':main()
