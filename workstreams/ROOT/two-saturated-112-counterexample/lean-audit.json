@@ -1,0 +1,129 @@
+{
+  "source": "TwoSaturated112.lean",
+  "source_sha256": "4cac2792bcd6551d6c32a463a8e47b5ec356639a63e945e1368b67d9e7594424",
+  "source_after_sha256": "4cac2792bcd6551d6c32a463a8e47b5ec356639a63e945e1368b67d9e7594424",
+  "start_utc": "2026-10-10T07:34:11.2658292+00:00",
+  "end_utc": "2026-10-10T07:34:26.5698672+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 14,
+  "expected_audits": 14,
+  "declaration_axioms": [
+    {
+      "declaration": "TwoSaturated112.graph_subcubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.graph_two_saturated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.graph_min_degree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.common_neighbour",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.graph_connected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.edist_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.packing_adj_ne",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.unique_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.triangle_has_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.fiveCycle_adj",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.fiveCycle_avoids",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.odd_five_two_colours",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.no_packing112",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "TwoSaturated112.original_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "toolchain": {
+    "lean": "4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  }
+}
