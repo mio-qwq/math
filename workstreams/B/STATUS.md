@@ -186,3 +186,9 @@ Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. 
 - B reserves arXiv:2608.02566v1 Section6 Problem1, palette(1,1,3,3,4), connected claw-free subcubic graphs except the twelve-vertex truncation of K4. Source gate clawfree_11334/SOURCE_GATE.md; no candidate yet. This is distinct from source's already-disproved fifth-radius5 variant and solved fifth-radius3 theorem.
 - heavy_triangle_112/RELATED_WORK.md records the later paper's existing skeleton/Hall framework and the precise distinction from B's frozen Conjecture6 specialization. No claim that standard structural tools originated here.
 - Latest previous packetab22dda clean archive checked162 manifest files; all replayed checkers PASS. Earlier proof bytes unchanged. No new agents.
+
+## August Problem1 route checkpoint, 2026-10-10 07:46 UTC
+
+- Public reservationbcb3db98 preceded computation.254 admissible core/connector/interface presentations allSAT;6 named-H exclusions. No original counterexample or proof.
+- Exact new restriction: for an independent core class in an unsubdivided triangle truncation, a4-packing transversal exists exactly when each selected core vertex has a private neighbor. A fixed class of K3,3 fails all27 transversal choices. This obstructs a naive3-to4 packing upgrade, not the original problem.
+- Details clawfree_11334/ROUTE_CONSTRAINT.md; separate BFS checker PASS. Pause unchanged sampling; resume needs a new core-class choice or odd-cycle recoloring mechanism. Successful frozen packets unchanged; no active numerical searches remain.

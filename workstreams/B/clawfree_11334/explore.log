@@ -1,0 +1,14 @@
+direct 2 {"direct:SAT": 20}
+direct 4 {"direct:SAT": 34, "excluded_H": 6}
+direct 6 {"direct:SAT": 54, "excluded_H": 6}
+direct 8 {"direct:SAT": 74, "excluded_H": 6}
+direct 10 {"direct:SAT": 94, "excluded_H": 6}
+direct 12 {"direct:SAT": 114, "excluded_H": 6}
+subdivision 2 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 20}
+subdivision 4 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 40}
+subdivision 6 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 60}
+subdivision 8 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 80}
+subdivision 10 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 100}
+subdivision 12 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 120}
+edge_sum 8 {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 120, "edge_sum:SAT": 20}
+{"stats": {"direct:SAT": 114, "excluded_H": 6, "subdivision:SAT": 120, "edge_sum:SAT": 20}, "worst": [3886, {"mode": "direct", "n": 36, "core_order": 12, "edges": [[0, 2], [0, 6], [0, 10], [1, 4], [1, 5], [1, 9], [2, 6], [2, 9], [3, 8], [3, 8], [3, 11], [4, 5], [4, 7], [5, 8], [6, 10], [7, 10], [7, 11], [9, 11]], "lengths": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "state": "SAT"}], "seconds": 0.1693100929260254}
