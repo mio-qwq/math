@@ -1,109 +1,133 @@
-# 数学研究笔记与验证成果
+# 数学研究：证明、反例与 Lean 形式化
 
-本仓库记录准确的数学命题、已经完成的完整证明，以及可复现的精确验证。每项成果分别说明数学证明状态和计算、形式化验证状态。历史首创性尚未确立，本仓库不作优先权声明。
+本仓库研究公开数学问题，收录严格反例、完整证明、结构分类及可复现的计算与形式化材料。研究覆盖图论、组合数学、矩阵结构和同调代数；核心目标是对原始问题给出准确、可独立核验的数学答案。
 
-[006 的明确反例](006-strong-product-packing-counterexample/README.md)否定了强积打包支配的原始公开猜想 3.1：单因子 Q₆ 不存在半径二的三打包支配集，但与所构造的 608 顶点图 H 的强积存在 64 个中心的此类集合。完整存在性结论已在真实 SimpleGraph／Walk 语义下通过 Lean；精确图检查与独立重新编译均通过。数学反例成立与历史首创性是两个问题，后者仍未确立。
+这里分别记录**数学结论、形式化覆盖范围、独立复核和发布状态**。书面证明与 Lean 证明具有不同的验证范围；分支上的成果也不会因作者自行标记通过而自动成为主分支正式成果。本页按 **2026-10-10** 的实际源码、验证记录和远端分支整理，详细假设、文献关系及后续更新以各专题材料为准。
 
-## 006 英文研究稿
+[重点成果](#重点成果) · [完整研究目录](#完整研究目录) · [分布式分支成果](#分布式分支成果) · [证明与复现](#证明与复现) · [在研问题与方法边界](#在研问题与方法边界) · [学术声明](#学术声明)
 
-**A counterexample to packing-domination inheritance in strong products**
+## 重点成果
 
-[阅读 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [LaTeX 源码](006-strong-product-packing-counterexample/paper/main.tex) · [论文及验证说明](006-strong-product-packing-counterexample/paper/README.md) · [006 完整材料](006-strong-product-packing-counterexample/README.md)
+以下成果均已进入主分支，包含完整书面论证、实际 Lean 编译与公理审计，以及未参与发现的研究 Agent 所作独立复核。**树谱定理解决原猜想的全部有限树情形；其余条目在所列原命题范围内给出完整反例或正面解答。** 独立 Agent 复核不是外部人类同行评议，历史原创性也须单独审查。
 
-论文给出自包含证明：\(\gamma_2^3(Q_6)=\infty\)，但对明确构造的 608 顶点图 \(H\)，\(\gamma_2^3(Q_6\boxtimes H)\le64\)。完整存在性反例已经实际 Lean 验证；64 不声称最优。
+| 原始问题 | 数学结论与意义 | Lean 范围与限制 | 完整材料与固定版本 |
+| --- | --- | --- | --- |
+| **强积中的打包支配继承猜想（006）**：Bujtás 等，[Conjecture 3.1](https://arxiv.org/html/2510.02749v1#S3) | **完整反例**。构造有限连通简单图 $H$，使 $\gamma_2^3(Q_6)=\infty$，但 $\gamma_2^3(Q_6\boxtimes H)\le64$；$H$ 有 608 顶点、9,168 边。否定“一因子不存在该集合则任意强积也不存在”的原始全称命题 | 实际 `SimpleGraph`、`Walk` 上的完整存在性反例：单因子所有子集的障碍、辅助图和同一中心的覆盖。$H$ 的边数与连通性另有书面及精确图验证；64 不宣称最优 | [证明与验证](006-strong-product-packing-counterexample/README.md) · [反例 Release](https://github.com/mio-qwq/math/releases/tag/006-strong-product-conjecture-counterexample-2026-10-09) · [论文 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [论文 Release](https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09) |
+| **排列有向图一般位置数的最优性猜想**：[Theorem 3.6 后的猜想](https://arxiv.org/html/2604.15909v1#S3.SS3) | **完整反例**。在原始 $\mathrm{Pe}(6,3)$ 中构造 90 点一般位置集，严格超过猜想值 84；另有覆盖全部原参数 $k\ge3,d\ge2k$ 的三终结字母书面构造 | 固定 90 点反例对原图全部最短有向简单路径成立，18 项声明审计通过。全参数推广为独立复核的书面证明；未证明实际最大值等于 90 | [定理、来源与证书](workstreams/ROOT/permutation-gp-counterexample/THEOREM.md) · [Release](https://github.com/mio-qwq/math/releases/tag/permutation-gp-counterexample-2026-10-10) |
+| **无爪次三次图的 $(1,1,3,3,4)$ 打包着色问题**：Mortada 等，[§6 Problem 1](https://arxiv.org/html/2608.02566v1#S6) | **完整反例**。36 顶点的连通、简单、三正则无爪图不可作目标着色，且不与原文指定的 12 顶点例外图同构；奇数 $k\ge3$ 的 $12k$ 顶点反例族有完整书面证明 | 固定 36 顶点图的度、无爪性、连通性、例外排除和任意着色的不可能性，18 项审计通过。无限族未完整 Lean 化；不声称最小反例 | [构造、证明与复核](workstreams/ROOT/clawfree-11334-counterexample/README.md) · [Release](https://github.com/mio-qwq/math/releases/tag/clawfree-11334-counterexample-2026-10-10) |
+| **2-saturated 次三次图的 $(1,1,2)$ 打包着色猜想**：El Zein–Mortada，[§5 Conjecture 3](https://arxiv.org/html/2603.25113v1#S5) | **完整反例**。将 $K_4$ 中同一顶点的三条关联边各细分一次，得到 7 顶点、9 边的连通 2-saturated 次三次图，仍无目标着色。原猜想未附加局部围长条件 | 实际原图上的饱和条件、连通性和所有三色函数的不可能性，14 项审计通过。原文另一个带额外局部围长条件的定理不受此反例否定 | [证明与复核](workstreams/ROOT/two-saturated-112-counterexample/README.md) · [Release](https://github.com/mio-qwq/math/releases/tag/two-saturated-112-counterexample-2026-10-10) |
+| **典范二重覆盖的主特征值问题**：Collins–Sciriha，[Question 5.8](https://arxiv.org/pdf/1906.05790)（期刊版 Question 16） | **完整正面解答**。任意有限简单图满足 $M(\operatorname{CDC}(G))=M(G)$，因而二重覆盖同构的两图具有相同的主特征值集合 | 任意有限顶点类型、真实邻接作用和非零坐标和的特征向量，7 项审计通过。允许孤立点和零特征值，不要求同构保层；结论仅指主特征值集合，并非整个邻接谱 | [定理、形式化与来源](workstreams/ROOT/cdc-main-eigenvalues/THEOREM.md) · [Release](https://github.com/mio-qwq/math/releases/tag/cdc-main-eigenvalues-lean-2026-10-10) |
+| **有向一般位置谱的区间猜想**：[Conjecture 4.30](https://arxiv.org/html/2604.15909v1#S4.SS2) | **完整有限树情形**。每个有限树在全部边定向下的一般位置数谱都是整数区间，覆盖原文已处理树族以外的所有有限树 | 真实 `SimpleGraph.IsTree`、全部定向、原始最短路径和最大集基数，44 项审计通过。森林推论为书面分量和论证；任意图的原猜想未由此解决 | [定理、证明与复核](workstreams/ROOT/gp-tree-spectrum/README.md) · [Release](https://github.com/mio-qwq/math/releases/tag/tree-gp-spectrum-lean-2026-10-10) |
 
-学术状态为**公开研究稿**：人工署名及承担全文责任的人工审核待确认；尚未向 arXiv 或期刊投稿，也未经过人工同行评审。论文披露 AI 在构造、推导、形式化、程序检查及写作中的实质参与，AI 不列为作者。历史首创性未确立。
+打包着色的元组表示各个**不同颜色**的距离半径，同色点的原图距离必须严格大于该半径；重复的 1 或 3 不是同一种颜色。上述反例均按原命题的全部假设核验，不以辅助路线失效、浮点搜索或局部模型代替原命题反例。
 
-## 成果概览
+006 已有自包含英文研究稿：[PDF](006-strong-product-packing-counterexample/paper/paper.pdf)、[LaTeX 源码](006-strong-product-packing-counterexample/paper/main.tex)及[论文验证与学术状态](006-strong-product-packing-counterexample/paper/README.md)。目前是公开研究稿，人工作者信息及责任确认仍待完成，未宣称正式投稿或同行评审。
 
-| 项目 | 数学成果范围 | 验证范围与尚存缺口 |
+## 完整研究目录
+
+编号 001–006 保留原有项目归属；近期独立选题的成果另放在 `workstreams/ROOT/`，不重新编号或混入早期项目。各入口同时提供证明、文献及形式化记录。
+
+| 项目 | 主要数学成果 | 证明层级与尚未覆盖的范围 |
 | --- | --- | --- |
-| [001 — Hadamard 矩阵逐项幂的刚性与分类](001-odd-half-order-hadamard/README.md) | 奇数半阶刚性、所有半阶情形的穷尽相位分类，以及标准矩阵等价前后的有限图模型 | 已有完整书面证明、精确实例和 Lean 支持集／分块障碍证明；完整矩阵分类与商空间拓扑尚未形式化 |
-| [002 — 加权矩形剪枝](002-weighted-rectangular-pruning/README.md) | 任意关系上的乘积权重界；任一关系为弦二部图时独立局部成本的尖锐界；两个诱导六圈上同时平移不变的定理及精确加权最优值；两个正乘积系统之和不存在有限统一系数 | Lean 已证明不变六圈完整输入上的实际覆盖／剪枝界与尖锐覆盖系数，以及单冲突判据和无界障碍。弦二部图定理、不变的部分输入推广、九个表达式给出的精确最优值仍为书面成果 |
-| [003 — ARC 核心证书与扩张谱](003-arc-one-parameter/README.md) | 有限多项式恒等式、抽象谱定理，以及覆盖所有扭曲比阶数（包括等扭曲情形）的有限三角构造及完整 Tate 代数；该构造尚不是完整 Lean 证书 | Lean 已构造实际代数、完美迹、指定的全次数投射分解，并在 q³ 非零时证明实际 f-特征的 Ext³ 非零，包含所有次数的逆扭曲链比较与典范 Ext 传递。正合函子／extMk 的自然性将映射后分解的类与典范像对应；固定 Ext³ 类的典范作用具有逆单位权重。传递保持所有分次 Yoneda 复合和单位；实际 m 次幂位于 Ext^(3m)，权重为 H^(-m)，并已在 q^4 非零时证明二次幂非零，三次及以上幂仍未在 Lean 中解决。q³ 非零时实际 f-特征模既非投射也非内射。在特征二的域上，代数自内射，所有正次数 Ext(M,A) 消失。完整 self-Ext 谱、张量平方实现与完整 ARC 仍未在 Lean 中完成 |
-| [004 — MUB 伴随基相容性](004-mub-triplets/README.md) | 将完整伴随基表述为固定谱 Hermitian 矩阵的矩见证；固定伴随基的精确匹配判据及障碍；额外反对易见证的存在性等价于固定分划下的四循环分块化，并有有限相位判据。伴随基构造属于经典 Zauner 理论 | Lean 已证明六权重重建、实际矩阵反对易与匹配支持的等价、固定配对的完整 Hermitian 酉相位族、实际循环矩阵及其伴随的特征标公式、单位三元组的零模障碍、实际 Gram 到模式的界、四个实际分块的双侧逆、相对分块的 Fourier 幂／循环相关、保留重数的比值多重集、实际循环平移／伴随相位重建，以及在任一真实伴随分支下的乘积消去；另有实际平坦三元组的实模式乘积平方定理，和所示四循环分块的完整实际平坦 Gram 消去及一阶／三阶特征标零值。各源码有单独的编译和公理记录。进一步的封闭 Lean 构造给出完整归一化实际 MUB 三元组，在同一所示分划下三阶特征标为 0 与 (243-351i)/125；它否定更强的“两者均为零”要求，原猜想要求的乘积仍为零。一般伴随基共轭、共同匹配选择及一般三阶／伴随耦合尚未形式化 |
-| [005 — 有向圈打包](005-directed-cycle-packing/README.md) | 经典弧支配反馈集障碍，以及针对原始四圈目标的七点反馈集书面推论；历史新颖性未确立 | Lean 已证明：在弧支配的定向图中，任何删后无圈的顶点集，其大小都严格大于正的最小出度。打包归约与一般 Bermond–Thomassen k=4 猜想尚未形式化 |
-| [006 — 强积打包支配猜想的反例](006-strong-product-packing-counterexample/README.md) | 对原始公开猜想 3.1 给出明确反例：γ₂³(Q₆)=∞，但 γ₂³(Q₆⊠H)≤64；H 为明确的有限连通 608 顶点、9,168 边图 | Lean 已证明真实有限图与标准 Walk 下的完整存在性反例、标准强积桥接、所有子集的单因子障碍、同中心积图覆盖及 H 的节点数。两个新源码分别有 12／26 项标准公理审计；独立空对象目录重新编译三模块通过。连通性与边数另有完整书面证明及精确全图 BFS；数值 γ 最小值未另行定义，64 不声称最优，历史首创性未确立 |
-| [强积中的六维立方体码障碍](notes/q6-strong-product-affine-obstruction.md) | 排除 Q₆⊠Q₆ 中全部二元仿射中心集；[完整六点中点投影分类](notes/q6-six-point-midpoint-classification.md)进一步排除全部十二中心，一般候选须有 13–21 个中心。使用经典编码及坐标嵌入工具，历史新颖性未确立 | Lean 已对单因子任意中心子集证明打包不能覆盖，并证明六点反极闭合、无距离二三角形时的实际异奇偶邻域界。完整投影分类与 Q₆⊠Q₆ 的乘积排除仍为书面证明，13–21 中心的非线性情形未解决；图路径桥接及另一个因子 H 的原始猜想反例已在 006 中形式化 |
+| [**001：逐项幂 Hadamard 刚性与解空间分类**](001-odd-half-order-hadamard/README.md) | 对 $m\ge2$，在 $2m$ 阶矩阵的逐项幂 $1,\ldots,m-1$ 均为 Hadamard 的假设下，证明奇数半阶根刚性；给出全部此类半阶的根种子与单相位构造的穷尽分类、带标号去相位解空间及标准矩阵等价商的有限图描述 | 完整结构分类与拓扑描述为书面证明；支持集、实际复数分块、多项式及行比乘积障碍有 Lean。不是全部复 Hadamard 矩阵的无条件分类，也不宣称新偶数阶种子存在；与既有 switching 理论的原创性关系仍需审查 |
+| [**002：加权矩形剪枝与独立成对成本**](002-weighted-rectangular-pruning/README.md) | 任意有限关系的乘积权重剪枝界；在局部兼容不等式下，任一关系为弦二部图时独立非负成对成本的尖锐系数一；平移不变六圈的实际覆盖界、精确书面最优值及两正乘积之和的统一常数障碍 | 一般结构推广为完整书面构造，覆盖零成本与部分输入；六圈全输入覆盖、剪枝和尖锐性等有 Lean。任意关系的全部独立成本情形未解决；九式最优值及不变部分输入尚非完整 Lean |
+| [**003：20 维代数、投射分解与 Yoneda／Tate 结构**](003-arc-one-parameter/README.md) | 特征二下的实际代数、核心对偶平凡扩张与根基；指定模块全次数投射分解、实际 $\operatorname{Ext}^3$ 类及 $\operatorname{Ext}^6$ 中 Yoneda 平方；有限共振模块的构造与全整数次数 Tate 乘法；下层代数实际 self-Ext 和 regular-target Ext 计算 | 代数与若干实际同调对象已 Lean 化；次数三类与其平方的非零结论分别保留 $q^3\ne0$ 与 $q^4\ne0$ 等原假设。有限共振及完整 Tate 结构主要为书面证明；高次幂、完整 20 维 self-Ext 谱及完整 ARC 实现未完成。下层既有数学结论按 [来源比较](003-arc-one-parameter/ATTRIBUTION.md)归属 |
+| [**004：六维 MUB 三元组的伴随兼容性**](004-mub-triplets/README.md) | 完整伴随基的谱矩判据、固定配对支持和酉相位分类；四循环分支消去；实际归一化 MUB 三元组在指定分区的两三阶特征标分别为 $0$ 与 $(243-351i)/125$ | 谱权重、实际矩阵支持／酉条件及该三元组已有 Lean。例子否定更强的“两特征标各自为零”路线，未否定原乘积为零猜想；一般伴随选择及六维最大 MUB 数问题未解决 |
+| [**005：有向圈打包的反馈集障碍**](005-directed-cycle-packing/README.md) | 对最小出度为正的弧支配定向图，证明反馈集大小严格超过最小出度；另有七点反馈集对指定打包目标的书面推论 | 指定假设下的全称反馈集障碍有 Lean；从反馈集到一般打包的桥不属于该端点。不是 Bermond–Thomassen $k=4$ 原猜想的完整证明或反例 |
+| [**006：强积打包支配猜想反例与论文**](006-strong-product-packing-counterexample/README.md) | 见上方完整原命题反例；同时提供辅助图、64 中心集合、独立精确重放和英文论文 | 存在性层面的完整 Lean 反例已发布；最优中心数、最小辅助图及完整分类不在本结论中 |
+| [**ROOT：一般位置、打包着色与图谱独立成果**](workstreams/ROOT/) | 上方排列图反例、两项打包着色反例、主特征值正面解答及全树谱定理 | 各专题各自验收并发布；不将多个特殊情形拼成未证明的更广命题 |
+| [**专项笔记与方法边界**](notes/) | $Q_6$ 积图、$C_7$ 码率、指定 $D_5$ 补点、局部三角形交换及七核替换族 | 下方逐项区分图族障碍、有限反例、书面证明和 Lean 实际端点 |
 
-## 复现与证据
+<details>
+<summary>展开：001–004 的主要技术与延伸材料</summary>
 
-[七点核心短圈替换笔记](notes/seven-core-short-cycle-substitution.md)确定了一个指定图族的尖锐最小出度比 `260889/805108`：图族无有向三圈、无传递锦标赛 `T9`，七个簇均非空，每个簇内部采用统一吹胀。精确最优值排除了整个图族作为所讨论反例的来源。图的分类为书面证明；三个 Lean 声明验证代数界、正的等号见证和严格间隙。相关的一般短圈猜想均未解决。
+- **001**：[全半阶根／相位分类](001-odd-half-order-hadamard/general-patterns.md)、[带标号有限解图](001-odd-half-order-hadamard/phase-geometry.md)、[标准矩阵等价商](001-odd-half-order-hadamard/equivalence-quotient.md)。
+- **002**：[兼容成对成本](002-weighted-rectangular-pruning/compatible-pair-costs.md)、[两类反身成本](002-weighted-rectangular-pruning/reflexive-cost-families.md)、[双路径独立成本](002-weighted-rectangular-pruning/double-path-independent-costs.md)、[单侧块／路径展开](002-weighted-rectangular-pruning/binary-one-side-costs.md)、[嵌套关系](002-weighted-rectangular-pruning/nested-relation-costs.md)、[右叶扩张](002-weighted-rectangular-pruning/right-leaf-extension-costs.md)、[森林与悬挂星](002-weighted-rectangular-pruning/forest-pendant-star-costs.md)、[弦二部图](002-weighted-rectangular-pruning/chordal-bipartite-costs.md)、[六圈成本](002-weighted-rectangular-pruning/cyclic-six-costs.md)。这些是逐步覆盖更广结构的定理，不是九个独立解决的公开猜想。
+- **003 的构造与乘法**：[共振 Yoneda 代数](003-arc-one-parameter/resonant-yoneda-algebra.md)、[有限共振实际实现](003-arc-one-parameter/finite-resonant-realization.md)、[有限阶 Tate 代数](003-arc-one-parameter/finite-resonant-tate-algebra.md)、[阶一接口与乘法](003-arc-one-parameter/order-one-tate-algebra.md)。
+- **003 的实际代数与同调**：[标量端同态及分裂](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)、[核心对偶平凡扩张](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)、[结构比较与根基](003-arc-one-parameter/structural-bridge-replay.md)、[下层全次数投射分解](003-arc-one-parameter/proof/mathlib/LowerAlgebraCategoricalResolution.README.md)、[regular-target Ext](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularExt.README.md)、[实际右作用](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularRightAction.README.md)。下层 self-Ext 消失要求所有正整数 $m$ 的 $1+q^m\ne0$；regular-target 一维次数二计算另要求 $q\ne0$。
+- **004**：[循环特征标](004-mub-triplets/direct-circulant-character.md)、[实际平坦 Gram 消去](004-mub-triplets/flat-gram-cancellation.md)、[归一化三元组的不对称特征标](004-mub-triplets/fourier-character-asymmetry.md)。一般条件性桥接与经典 Zauner 构造分别注明来源。
 
-准确的 Lean 声明、运行命令和剩余边界见 [FORMALIZATION.md](FORMALIZATION.md)。
+</details>
 
-[研究问题与成果记录](RESEARCH_QUESTIONS.md)区分已有定理、文献公开提出的猜想、自主提出的推广、已证明或证伪的命题，以及剩余形式化缺口。文献状态与证明状态分别记录。
+## 分布式分支成果
 
-[公开开放问题候选审查](OPEN_PROBLEM_CANDIDATES.md)记录了文献中的七圈 Shannon 容量、五维接吻数和 SIC 的 Galois 相容性目标。这些是研究问题，尚不构成新界或已解决猜想。
+以下内容保留在工作分支，**尚未作为主分支正式成果合入，也没有相应完整 Lean 认证**。链接锁定已审或待审的精确提交，不以移动分支名代替冻结输入。“书面复核通过”表示独立研究 Agent 已重建全称论证；其程序包、论文和形式化可仍有单独待办。作者文件中的旧状态文字不自动代表后续验收状态。
 
-[C₇ 格点参数族的直接映射障碍](notes/c7-fraction-family-barrier.md)证明一个明确的既有构造族在可直接转移到 C₇ 的全部参数上，证书码率至多为 \(\sqrt{10}\)。全参数算术障碍及精确整数商已通过 Lean 和独立重新编译；这不是 C₇ 的容量上界，也未改进现有下界，历史新颖性未确立。
+### 已独立复核的书面成果
 
-[局部三角形交换的安全性审查](notes/triangle-swap-safety.md)给出一个实际七顶点简单图：原打包同时具有最大大小与最大顶点支撑，满足旧版本规则的局部交换条件，交换后却与保留三角形共用一条边。完整有限图声明通过 Lean 和独立检查；它不是 Tuza 猜想的反例，也不否定加入全局兼容条件的规则。
+| 方向与原命题 | 已核验的数学范围 | 材料与归属边界 |
+| --- | --- | --- |
+| **固定正常边着色的顺序区分猜想**：Gorzkowska–Kwaśny，Conjecture 10 | 全部 $d\ge3$ 正常 $d$ 边着色的 $d$ 正则图有构造性全局边序；结合原作者已证的调色板与圈情形，给出原猜想完整正面证明 | [A：全次数证明](https://github.com/mio-qwq/math/blob/7168f6df66ba5518cd3420c4668eab5352e4be8c/workstreams/A/bipartite-sequential/ALL_DEGREES_THEOREM.md)。借用原文 Theorem 5 明确归属；最新通用构造程序包仍待独立执行验收 |
+| **Braun–Bruegge Conjecture 31 的标量陈述** | 二项式有限和的同奇偶参数转移与固定总和极值；另有多参数严格转移推广 | [A：原标量证明](https://github.com/mio-qwq/math/blob/2a289d276c23e17569ea9143f9daa67bf1d044b2/workstreams/A/braun-bruegge-f31/PROOF.md)、[推广](https://github.com/mio-qwq/math/blob/2a289d276c23e17569ea9143f9daa67bf1d044b2/workstreams/A/braun-bruegge-f31/GENERALIZATION.md)。不推出原论文更广的简单图／多面体极值猜想；混奇偶的后续稿另行待审 |
+| **El Zein–Mortada Conjecture 6** | 全部有限简单、$(3,0)$-saturated 次三次图，在每个三度点属于三角形的条件下存在 $(1,1,2)$ 打包着色 | [B：完整证明](https://github.com/mio-qwq/math/blob/d6238ac622243f683d1386aa7ca8dc029171e0c4/workstreams/B/heavy_triangle_112/PROOF.md)。这是正面结论，与主分支反驳的 2-saturated Conjecture 3 不同 |
+| **El Zein–Mortada Conjecture 2** | 全部有限简单、1-saturated、每个三度点属于三角形的次三次图有标准五色打包着色；包括一般连接路径、菱形与链／环结构 | [B：五色证明](https://github.com/mio-qwq/math/blob/b49a74f9ed65133a8c0e12ee998c44c5401e73d8/workstreams/B/triangle_packing/FIVE_PROOF.md)。全称结构论证结合完整有限状态证书，证书已独立重建；已有特殊图族须归属既有文献，历史新颖性未确定 |
+| **Kautz 图一般位置数，Problem 5.2 的词长三情形** | 原始 $\mathrm{Ka}(m,3)$ 对所有 $m\ge3$ 满足 $\operatorname{gp}=\sum_{j=1}^{m-1}j^2=m(m-1)(2m-1)/6$，允许首尾字母相同 | [B：精确全参数证明](https://github.com/mio-qwq/math/blob/44c1ec16781f1c363d0874e4dd2f0d93f640a48e/workstreams/B/kautz_length3/PROOF.md)。ROOT 正在完成原始最短路径语义与全基数定理的 Lean 集成；词长四及一般词长不由此解决 |
+| **Mizzi 修订版第一条 TF-cousin 循环猜想** | 非同构有限图的典范二重覆盖同构时，一图含两条顶点不交的奇长 $C_k$，另一图含 $C_{2k}$；完整覆盖原文默认范围 | [C：图对全称证明](https://github.com/mio-qwq/math/blob/6d479a99483637028f8bf8938746f15d3178cb35/workstreams/C/mizzi_first_clause_full_proof_20261010.md)。循环为普通简单圈，不要求诱导；不依赖有限样例外推 |
+| **Mizzi 修订版第二条非对称不稳定图猜想** | 原文连通范围内，有限非对称不稳定图含互不交的 $C_k$ 与 $C_{2k}$，其中 $k\ge3$ 为奇数；不同轨道长度和固定点均包含 | [C：完整证明](https://github.com/mio-qwq/math/blob/6d479a99483637028f8bf8938746f15d3178cb35/workstreams/C/mizzi_v3_asymmetric_full_proof.md)。一般定理须保留“存在非平凡 TF 对”的假设，不能扩张为任意非连通图的原始 CDC 不稳定性；群论输入含既有 Bychawski 结果 |
+| **固定 TF 对的精确计数与不稳定图数下界** | 双换位固定模式的完整正规形与标号计数；对 $N\ge16$，非同构意义下的连通、非二分、无孪生不稳定图数 $U_N\ge\frac{19}{20}\,2^{\binom N2-2N+3}/N!$ | [C-audit：正规形](https://github.com/mio-qwq/math/blob/519a05b0ed6cfeb3b1ca56238fe2190ea1124fcb/workstreams/C-audit-1010/MINIMAL_TF_SYMMETRY_NORMAL_FORM.md)、[下界](https://github.com/mio-qwq/math/blob/519a05b0ed6cfeb3b1ca56238fe2190ea1124fcb/workstreams/C-audit-1010/UNSTABLE_DENSITY_SHARPENED_LOWER.md)。基于已有构造；固定模式和全局下界不等于原全局计数问题的渐近解答 |
+| **无爪次三次图的 $(1,2,2,2,2)$ 猜想** | 原文全范围的书面正面证明，包括三角形、菱形及任意路径连接 | [B：完整推论证明](https://github.com/mio-qwq/math/blob/15470c9423245b31d2b8949a9d2485eb5577b820/workstreams/B/clawfree_12222/FULL_PROOF.md)。核心使用已有 Yang–Wu 边权着色定理，应视为既有理论的明确推论，不宣称新边着色定理或首次解决 |
 
-各项目有自己的 README 和固定输入。Python 检查器使用精确运算及标准库。`lean-toolchain` 将 Lean 固定为 `leanprover/lean4:v4.34.1`。多数证书使用其自带 `Std` 库；额外的 `proof/mathlib` 包各自固定 Mathlib 及依赖版本。
+原始命题与历史比较在各证明及同目录 `SOURCE_GATE`／相关文献文件中给出。上述书面验收不代替主分支发布所需的最终材料检查；计算样例数量也不等于全称证明。
 
-例如，在仓库根目录运行：
+### 待独立验收的候选与新材料
+
+| 候选 | 当前实际范围与待办 | 冻结入口 |
+| --- | --- | --- |
+| **词长四 Kautz 图的渐近密度** | 候选全称论证声称极限 $\lambda_4=\lim_{m\to\infty}\operatorname{gp}(\mathrm{Ka}(m,4))/m^4$ 存在，且 $26/125\le\lambda_4\le2/7$；后续取整稿进一步给出候选上界 $377/1320$。两稿均待独立数学验收，无完整 Lean，未给精确有限值或精确极限 | [B：密度与极限稿](https://github.com/mio-qwq/math/blob/0599b104ac0fe3f241a7a3ba4dfeae878c28951f/workstreams/B/kautz_length4/DENSITY_LIMIT.md)、[取整修正稿](https://github.com/mio-qwq/math/blob/e73202f7223a510ece8a30d7f2d60c6d2cd3dd5e/workstreams/B/kautz_length4/ROUNDING_REFINEMENT.md) |
+| **顺序区分的通用构造与论文材料** | 全正则数学证明已有独立书面复核；新全图／非连通算法、输入回归、源文件绑定及论文稿的执行与完整性另行待验收，不凭作者运行回执解除审查 | [A：全图算法](https://github.com/mio-qwq/math/blob/2a289d276c23e17569ea9143f9daa67bf1d044b2/workstreams/A/paper/FULL_GRAPH_ALGORITHM.md)、[工作论文](https://github.com/mio-qwq/math/blob/2a289d276c23e17569ea9143f9daa67bf1d044b2/workstreams/A/paper/WORKING_MANUSCRIPT.md) |
+| **广义 claw 图的 TF-cousin 参数分类** | 分支有奇偶参数、低阶例外及群作用计数稿；完整原定义对应关系、独立验收和形式化仍待完成 | [C-audit：全参数表](https://github.com/mio-qwq/math/blob/519a05b0ed6cfeb3b1ca56238fe2190ea1124fcb/workstreams/C-audit-1010/N1_EXCEPTIONS_AND_FULL_PARAMETER_TABLE.md) |
+
+不同问题的“已证”“反例”“候选”分别列出，不因同一 Agent 的其他结果已获验收而继承其状态。其他被冻结但尚未核准的探索材料仍可从 [A 分支](https://github.com/mio-qwq/math/tree/partner/dist-A/workstreams/A)、[B 分支](https://github.com/mio-qwq/math/tree/partner/dist-B/workstreams/B)、[C 分支](https://github.com/mio-qwq/math/tree/partner/dist-C/workstreams/C)与 [C-audit 分支](https://github.com/mio-qwq/math/tree/partner/dist-C-audit-1010/workstreams/C-audit-1010)查阅；这些移动入口是工作记录，不是固定成果引用。
+
+## 证明与复现
+
+每项主要成果从专题入口可到达数学证明、原始文献、Lean 源码、运行日志、公理依赖与独立复核。近期 ROOT 成果的关键证据如下；审计数指实际检查的声明数，不是数学贡献数量。
+
+| 成果 | Lean 源码 | 实际运行与独立复核 |
+| --- | --- | --- |
+| 006 强积反例 | [几何与路径](006-strong-product-packing-counterexample/proof/Q6PackingComplexGeometry.lean)、[原始反例端点](006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean) | [源文件验证记录](006-strong-product-packing-counterexample/results/lean-verification.json)：新增两源 12／26 项审计，独立重建含单因子共 12+12+26 项；精确图验证见专题 |
+| 排列图 90 点反例 | [PermutationGP90.lean](workstreams/ROOT/permutation-gp-counterexample/PermutationGP90.lean) | [编译与 18 项审计](workstreams/ROOT/permutation-gp-counterexample/verification.json)、[独立复核](workstreams/ROOT/permutation-gp-counterexample/INDEPENDENT_REVIEW.md) |
+| 无爪 36 点反例 | [ClawFree11334.lean](workstreams/ROOT/clawfree-11334-counterexample/ClawFree11334.lean) | [编译与 18 项审计](workstreams/ROOT/clawfree-11334-counterexample/lean-audit.json)、[独立复核](workstreams/ROOT/clawfree-11334-counterexample/INDEPENDENT_REVIEW.md) |
+| 2-saturated 7 点反例 | [TwoSaturated112.lean](workstreams/ROOT/two-saturated-112-counterexample/TwoSaturated112.lean) | [编译与 14 项审计](workstreams/ROOT/two-saturated-112-counterexample/lean-audit.json)、[独立复核](workstreams/ROOT/two-saturated-112-counterexample/INDEPENDENT_REVIEW.md) |
+| CDC 主特征值 | [CDCMainEigenvalues.lean](workstreams/ROOT/cdc-main-eigenvalues/CDCMainEigenvalues.lean) | [编译、7 项审计及独立验收](workstreams/ROOT/cdc-main-eigenvalues/verification.json) |
+| 全有限树 GP 谱 | [TreeGPSpectrum.lean](workstreams/ROOT/gp-tree-spectrum/TreeGPSpectrum.lean) | [编译与 44 项审计](workstreams/ROOT/gp-tree-spectrum/lean-audit.json)、[独立复核](workstreams/ROOT/gp-tree-spectrum/INDEPENDENT_REVIEW.md) |
+
+上述成功编译记录均保留实际源码哈希和运行证据，退出码为零，无错误或警告；审计依赖仅为 `propext`、`Classical.choice`、`Quot.sound` 的子集，无 `sorryAx` 或新增公理。Lean 检查的是所写声明，其与原论文定义、量词和对象的对应关系还须通过语义审查。
+
+Mathlib 项目固定使用 **Lean 4.34.1** 与 **Mathlib `d13f23b723b8a846827a245b89c10fc7d3f11612`**。从仓库根目录进入现有固定环境，可重放无需额外本地模块构建的 ROOT 单文件，例如：
 
 ```sh
-lean 001-odd-half-order-hadamard/proof/Parity.lean
+cd 002-weighted-rectangular-pruning/proof/mathlib
+lake env lean ../../../workstreams/ROOT/clawfree-11334-counterexample/ClawFree11334.lean
 ```
 
-## 来源与局限
+多模块项目、006 及使用本地导入的源码，应按各专题说明先构建相应依赖；不要以单文件示例代替这些构建步骤。Python 检查器的调用、依赖、精确证书及损坏输入控制也分别记录在专题中，部分重放会写入新时间戳，复现前应保留原始收据。
 
-研究起点为 [OpenAI 公开数学合集](https://github.com/openai/math)，快照 `adc7f1241b42e322a6451854ab7e4b4c146bf78a`。各笔记注明准确来源，区分已有陈述与本仓库记录的推广或验证工作。阅读文献、运行有限实例，以及在 Lean 中验证一部分内容，并不等于验证了其周围的全部结论。
+更细的既有源码索引见 [FORMALIZATION.md](FORMALIZATION.md)，问题分类见 [RESEARCH_QUESTIONS.md](RESEARCH_QUESTIONS.md)。这些记录各有自己的日期和覆盖范围；近期独立成果的最新端点应直接查上表的源文件记录。
 
-文献查重与外部数学审查仍需继续。正确性和准确披露验证范围优先于新颖性声明。
+重要里程碑另有 [GitHub Releases](https://github.com/mio-qwq/math/releases)，以精确提交、签名标签、源码 ZIP、manifest 和 SHA256SUMS 固定发布材料。上方列出的 Release 已核对为不可变发布。签名、公开时间和文件摘要证明版本与材料的可核查性，**不自动证明数学首创性**。
 
-## 003：构造、乘法与同调结构
+## 在研问题与方法边界
 
-[条件性共振乘法定理](003-arc-one-parameter/resonant-yoneda-algebra.md)超越了维数谱：仅添入标量零次单位的正次数 Yoneda 代数，是 Veronese 代数与其平移后的正次数理想之和，后者乘法平方为零。证明保留明确的多项式与双模作用假设，属于经过独立证明审查的书面数学。
+当前推进 Kautz 精确计数的全称形式化、词长四的新界验收，以及 TF 不稳定图的全局计数机制。一般图的 GP 谱、公开打包着色问题的剩余范围，也须与已有解答逐项区分。选题前及重要结果后继续核对原始版本、勘误、后续论文和公开证明；未充分确认开放状态的目标明确保留不确定性。
 
-[有限构造证明](003-arc-one-parameter/finite-resonant-realization.md)在特征二、具有无限阶基础参数的域上，通过固定有限目标、实际侧投射核和两个自然分支作用，建立上述乘法假设。例如，F_4(t) 给出阶数为三的比值，首次自扩张出现在次数九和十。完整 Lean 构造与整个普通零次环仍是另外的任务。
+早期方向的具体缺口包括 002 任意关系独立成本、003 尚未完成的同调桥与更高乘法、004 一般伴随耦合及六维 MUB、005 一般有向圈打包。这些缺口不是本仓库已经解决的原猜想。成熟成果的论文整理与研究价值审查可以继续，但不以定理或提交数量决定研究投入。
 
-[完整 Tate 计算](003-arc-one-parameter/finite-resonant-tate-algebra.md)处理同一实际模在比值阶数 d>1 时的情形，确定负次数收缩模、全部混合乘积、稳定零次，以及特殊的次数负一平方零类。[阶数一的证明](003-arc-one-parameter/order-one-tate-algebra.md)利用明确的底部提升与结合律补齐次级乘积。等扭曲时稳定零次为对偶数环，否则为 k。有限阶公式已覆盖所有可能阶数；比值无限阶时得到 k 加上次数负一的平方零 omega 直线。
+下列已发布笔记记录了有数学内容的特殊情形、失败机制与构造族界限，避免将局部认识误列为原问题解答：
 
-已构造的全次数后缀提升给出封闭的实际六次 cup Hom。明确的六字母见证在 q^4 非零时证明指定 Ext^6 类非零，包含特征二的域上所有非零 q。完整移位比较将该类与固定三次 Ext 类的实际 Yoneda 平方及其定义的二次幂对应。三次及以上幂、完整 self-Ext 谱与 ARC 实现仍未在 Lean 中完成。
+| 专项成果 | 实际结论 | 边界与材料 |
+| --- | --- | --- |
+| **$Q_6\boxtimes Q_6$ 的中心构造障碍** | 排除全部二元仿射中心集；六点投影完整分类进一步排除十二中心，尚余非线性 13–21 中心范围 | [仿射障碍](notes/q6-strong-product-affine-obstruction.md)、[六点分类](notes/q6-six-point-midpoint-classification.md)。积图排除主要为书面证明；相关单因子／邻域端点有 Lean。006 用不同辅助因子反驳了原一般继承猜想，不等于解决这个固定积图 |
+| **$C_7$ 既有格点参数族的直接映射障碍** | 对该明确构造族的全部可直接映射参数，证书码率至多 $\sqrt{10}$；算术与整数商已有 Lean | [完整笔记](notes/c7-fraction-family-barrier.md)。不是 $C_7$ Shannon 容量上界，也未提高已知下界；图构造／映射桥另有书面范围 |
+| **指定 $D_5$ 三根删除后的连续补点界** | 保留其余 37 根，在任意实坐标候选中至多补三点；达到三点时只能补回原删根 | [连续分类与验证](notes/d5-three-root-cap.md)。Lean 已检查实际约束与分类，仅限所指定三根；不是所有删除模式，更不是五维接吻数的完整解答 |
+| **局部三角形交换规则的有限反例** | 七顶点图满足所述局部打包／支撑条件，交换仍可破坏与保留边的兼容性；实际有限图反例已 Lean 化 | [规则、例子与范围](notes/triangle-swap-safety.md)。针对特定版本的辅助交换规则，不是 Tuza 原猜想反例，也不自动否定整套算法 |
+| **七核短圈替换族的尖锐障碍** | 指定无有向三圈、无 $T_9$ 的正簇吹胀族，最小出度比最大为 $260889/805108<1/3$ | [分类、界与等号构造](notes/seven-core-short-cycle-substitution.md)。整族图论论证为书面；Lean 检查代数界、等号见证及严格间隙，不是一般短圈猜想解答 |
 
-[实际平方零分裂](003-arc-one-parameter/proof/mathlib/TwentyDimDualScaleEndomorphism.README.md)构造每个标量对偶缩放自同态，包括到下层子代数的零投影。实际双侧核的乘法平方为零，代数作为相应 R-模分裂。该源码中的对偶双模识别和完整同调谱仍有独立边界。
+[公开问题候选审查](OPEN_PROBLEM_CANDIDATES.md)还保存七圈容量、五维接吻数及 SIC 等问题的阶段性文献核查。列入候选记录不等于当前仍已确认开放或正在重投入；没有检索到解答也不构成开放性证明。
 
-[明确的对偶扩张构造](003-arc-one-parameter/proof/mathlib/TwentyDimTrivialExtension.README.md)将实际核与下层代数的对偶识别，交织两个下层乘法作用，并给出全代数明确的分裂坐标、单位和乘法公式。
+## 学术声明
 
-[封装的核心—对偶同构与 Jacobson 桥接](003-arc-one-parameter/structural-bridge-replay.md)构造实际 R-代数等价，将真实乘法表根基识别为 J(R×R) 的增广原像。R 半单时，它在每个参数下恰为十八坐标增广核。八个指定源码模块通过了新的独立编译和 77 项标准公理审计；这些结构成果尚不提供导出三角或完整 ARC。
-
-[指定的下层代数分解](003-arc-one-parameter/proof/mathlib/LowerAlgebraCategoricalResolution.README.md)构造实际投射角项、全次数正合性与增广拟同构。在特征二的域上，若每个正整数 m 都满足 1+q^m 非零，下层 f-特征的所有正次数实际 self-Ext 消失；这不要求 q 本身非零。
-
-[实际正则目标 Ext 计算](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularExt.README.md)与[右特征作用](003-arc-one-parameter/proof/mathlib/LowerAlgebraRegularRightAction.README.md)进一步在 q 非零时给出完整的下层正则目标谱：仅二次存活，有从 K 出发的实际 K-线性等价及右 f-特征作用。[来源表](003-arc-one-parameter/ATTRIBUTION.md)将 OpenAI 与 Tang 已有的数学结论同这些实际 Lean 实现分别标注。导出三角与完整二十维 self-Ext 谱仍未完成。
-
-## 002：独立局部成本的结构性推广
-
-[相容成对成本定理](002-weighted-rectangular-pruning/compatible-pair-costs.md)在任一关系为完全二部块的不交并时，给出超出乘积成本的有限阈值覆盖与剪枝构造。一般证明为书面分析；精确证书实现有独立检查，但不是 Lean 证明。
-
-[两类自反局部成本](002-weighted-rectangular-pruning/reflexive-cost-families.md)在两种关系均可为非块关系时，给出明确覆盖与剪枝构造，涵盖成比例的完整网格成本及两条路径上的非比例交换族。参数全范围证明为书面成果，固定实例另有精确检查。
-
-[二元坐标定理](002-weighted-rectangular-pruning/double-path-independent-costs.md)对两个四顶点路径的独立成本表，除九个局部不等式外不再施加限制。十五个候选删除计算精确增广最优值；结合块定理和零成本填充，解决坐标集大小至多二时的全部关系及部分原始族。分析证明包含零成本；任意更大坐标系统与完整 Lean 证明仍未解决。
-
-[吹胀四路径定理](002-weighted-rectangular-pruning/binary-one-side-costs.md)允许任意大坐标：一种关系可以是完全块与完整四路径吹胀的不交并，另一种关系任意。特别地，仅一侧坐标关系需要二元两侧。构造利用高行阈值耦合与有效成本剩余块控制实际未覆盖角，直接处理零成本，并通过精确整组聚合和部分族限制提升。一般任意关系问题及其 Lean 形式化仍是独立任务。
-
-[嵌套分量定理](002-weighted-rectangular-pruning/nested-relation-costs.md)将独立局部成本构造推广到一种关系每个分量中任意有限层数的嵌套邻域，另一种关系任意。后缀归纳保持剩余局部不等式，将汇总后的零成本决策提升为实际无冲突幸存对象，包含完整吹胀、分量和部分族。该尖锐书面定理有有限有理构造；无限制关系、完整 Lean 实现与原始文献比较仍需分别研究。
-
-[右叶扩张](002-weighted-rectangular-pruning/right-leaf-extension-costs.md)在每个新增右坐标仅有一个左邻居时保持此局部成本性质；也允许完整组吹胀，并覆盖部分具有不可比邻域的关系，包括两个左坐标、三个右坐标的五顶点路径，与任意另一种关系配对。双邻域推论甚至允许每个分量至多有两个不同左邻域的任意关系：仅需 \(|P|\le2\) 且 I 任意，或 \(|S|\le2\) 且 J 任意。部分剩余问题控制实际共享与缺失角的收益。该书面结构定理本身不涵盖相反路径定向、一般森林或完整 Lean 实现。
-
-随后，[二部森林定理](002-weighted-rectangular-pruning/forest-pendant-star-costs.md)在书面数学中解决上述路径与森林情形。一种关系可为任意有限二部森林或完整森林吹胀，另一种关系任意。悬挂星保持引理将辅助左成本与 H 费用转移到相容的部分枢轴问题；根构造生成每棵树。包含零成本、部分原始对象、实际未覆盖收益与尖锐系数一。完整 Lean 证明、一般含圈关系和历史新颖性仍未确立。
-
-[弦二部图定理](002-weighted-rectangular-pruning/chordal-bipartite-costs.md)进一步将同一尖锐界推广到任一关系不含长度至少六的诱导圈时，另一种关系仍任意；包含四圈、部分族与零成本。多枢轴保持引理仅在附接枢轴上使用嵌套旧邻域。经典 beta-叶消去定理引用原始证明，并明确翻译关联关系。构造和独立原文阅读已有记录，完整 Lean 与无限制关系问题仍未完成。
-
-## 001：分类与解空间
-
-[所有半阶情形的精确分类](001-odd-half-order-hadamard/general-patterns.md)消去二元模式，从循环根种子的相容矩形及一个单位相位构造每个非根解。[带标号的去相位解空间](001-odd-half-order-hadamard/phase-geometry.md)是有限图，具有光滑非根弧与明确根分支数。分类及几何推论均有完整书面证明；完整 Lean 桥接仍是独立任务。实际多项式乘积障碍已在 Lean 中独立验证。
-
-[标准等价商](001-odd-half-order-hadamard/equivalence-quotient.md)确定相应模空间图。实际去相位置换公式迫使每个圆上有有限二面体群作用；反射不动点定位可能新增的端点，根的价数为半分支的稳定子轨道数。书面证明补齐商空间几何缺口，同时保留偶数阶实现与原始文献比较问题。
-
-## 004：固定对称分支与一般猜想的边界
-
-[直接四循环特征标定理](004-mub-triplets/direct-circulant-character.md)在所示对称分支内消去额外的一阶特征标前提：固定分划下的一阶与三阶特征标均为零。[完整平坦 Gram 的 Lean 结论](004-mub-triplets/flat-gram-cancellation.md)无需额外特征标前提，证明所示四个一阶／三阶等式。[不对称具体三元组](004-mub-triplets/fourier-character-asymmetry.md)说明一般情形不能要求两个固定三阶特征标都为零。一般伴随基选择与三阶耦合问题仍未解决。
-
-## 五维接吻数：固定 37 个 D5 根的连续替换障碍
-
-[连续球冠定理](notes/d5-three-root-cap.md)证明：从 D5 删除三个指定正根 `e1+e2、e1+e3、e2+e3`，固定其余 37 个根后，至多补入三个彼此相容的任意连续球面点；补入三个时只能恢复原删根。实际 Lean 证明从保留根的真实内积约束推到球冠界、四点不可能和三点成员分类，不依赖有限网格或多面体枚举。文献新颖性尚未确定；它不解决无限制五维接吻数，也不涵盖其它删除集合。
-
-本仓库采用 Apache-2.0 许可证，见 [LICENSE](LICENSE) 及各笔记的来源说明。
+- **来源与贡献。** 本项目从原始论文和自己的推导开展研究，也使用公开通用理论。早期部分工作参考 [OpenAI/math](https://github.com/openai/math) 的公开证明，固定上游版本及借用内容见各专题。数学原结论、新证明、新推广及新增形式化分别归属；尤其 003 的 OpenAI／Tang 重合范围见 [ATTRIBUTION.md](003-arc-one-parameter/ATTRIBUTION.md)。
+- **正确性与学术状态。** 精确计算、有限证书、全称书面证明和 Lean 端点不互相替代。没有把数值优化当作严格反例，未把工作分支候选当作正式验收结果，也未宣称本仓库材料已获人类同行评审、期刊接受或历史首次。文献审查仍可能遗漏未索引或隐含的既有结果。
+- **AI 贡献。** AI 系统实际参与选题与文献分析、数学推导、反例构造、程序验证、Lean 形式化、独立研究 Agent 复核及论文写作。独立 Agent 复核的独立性指未参与相应发现与证明草拟，不等于外部人类审稿。不得将 AI Agent 或模型列为论文作者；人工署名与责任由实际贡献者最终确认，正式提交须按目标平台政策如实披露。
+- **使用与引用。** 仓库使用 [Apache-2.0 许可证](LICENSE)；所引外部论文及理论仍按其来源引用。引用本仓库成果时宜同时给出原命题来源、专题材料和精确提交或 Release，并注明书面／形式化范围及历史原创性的不确定性。
