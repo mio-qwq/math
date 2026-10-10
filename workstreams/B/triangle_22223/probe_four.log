@@ -1,0 +1,125 @@
+{
+  "four_color_stats": {
+    "SAT": 43,
+    "UNSAT": 13
+  },
+  "obstructions": [
+    {
+      "lengths": [
+        2,
+        2,
+        3
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        4
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        3
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        4
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        5
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        6
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        7
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        4,
+        4
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        4,
+        5
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        4,
+        6
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        2,
+        4,
+        7
+      ],
+      "original": "SAT",
+      "special_count": 1
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        3
+      ],
+      "original": "SAT",
+      "special_count": 2
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        6
+      ],
+      "original": "SAT",
+      "special_count": 1
+    }
+  ]
+}

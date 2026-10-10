@@ -66,7 +66,16 @@
   "workstreams/B/search/stdout.log",
   "workstreams/B/search/verify-stdout.log",
   "workstreams/B/search/verify_and_leaves.py",
+  "workstreams/B/triangle_22223/RESULT.md",
   "workstreams/B/triangle_22223/SOURCE_GATE.md",
+  "workstreams/B/triangle_22223/explore.log",
+  "workstreams/B/triangle_22223/explore.py",
+  "workstreams/B/triangle_22223/probe_four.log",
+  "workstreams/B/triangle_22223/probe_four.py",
+  "workstreams/B/triangle_22223/probe_gadgets.log",
+  "workstreams/B/triangle_22223/probe_gadgets.py",
+  "workstreams/B/triangle_22223/verify_obstacle.log",
+  "workstreams/B/triangle_22223/verify_obstacle.py",
   "workstreams/B/triangle_packing/FIRST_PROOF.md",
   "workstreams/B/triangle_packing/FIVE_PROOF.md",
   "workstreams/B/triangle_packing/PROOF.md",
@@ -128,5 +137,6 @@
   "workstreams/B/two_saturated_112/search.log",
   "workstreams/B/two_saturated_112/search.py",
   "workstreams/B/two_saturated_112/verify_candidate.log",
-  "workstreams/B/two_saturated_112/verify_candidate.py"
+  "workstreams/B/two_saturated_112/verify_candidate.py",
+  "workstreams/B/two_saturated_12222/SOURCE_GATE.md"
 ]

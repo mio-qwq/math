@@ -321,3 +321,7 @@ Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d7
 ## Active next research
 
 Conjecture5 (2,2,2,2,3) on 2-saturated triangle-local graphs is newly reserved; triangle_22223/SOURCE_GATE.md. No result yet. Conjecture3 counterexample and all earlier proofs remain frozen.
+
+## Subsequent route checkpoint and next target
+
+Conjecture5 is unresolved: see triangle_22223/RESULT.md and run its verify_obstacle.py for the exact failure of the one-exception route. Do not confuse this with the Conjecture3 refutation. B now reserves original Conjecture4 (also2024 Open problem2), palette(1,2,2,2,2), without local-girth restriction; two_saturated_12222/SOURCE_GATE.md. No new result yet.

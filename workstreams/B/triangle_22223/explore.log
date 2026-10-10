@@ -1,0 +1,6 @@
+dipole {"dipole:SAT": 35}
+K4 {"dipole:SAT": 35, "K4:SAT": 35}
+K33 {"dipole:SAT": 35, "K4:SAT": 35, "K33:SAT": 35}
+prism {"dipole:SAT": 35, "K4:SAT": 35, "K33:SAT": 35, "prism:SAT": 35}
+Petersen {"dipole:SAT": 35, "K4:SAT": 35, "K33:SAT": 35, "prism:SAT": 35, "Petersen:SAT": 35}
+{"stats": {"dipole:SAT": 35, "K4:SAT": 35, "K33:SAT": 35, "prism:SAT": 35, "Petersen:SAT": 35}, "seconds": 0.21874022483825684}

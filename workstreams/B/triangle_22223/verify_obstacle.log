@@ -1,0 +1,2 @@
+{"result": "one-exception route impossible; original conjecture satisfied", "one_exception_unsat_nodes": [353, 353, 353, 353, 353, 353, 353, 353, 353, 353, 353, 353], "two_exception_coloring": [4, 0, 1, 1, 4, 3, 2, 0, 3, 2, 2, 0], "minimum_special_vertices": 2}
+PASS positive and negative route controls

@@ -130,3 +130,15 @@ Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d7
 - Previous original Conjecture3 counterexample frozen remotely at fadb2d48073cde97306cf128a2d40f6381232958 and clean archive verifier PASS; independent acceptance pending.
 - B now reserves arXiv:2603.25113v1 Section5 Conjecture5: 2-saturated subcubic, every degree-three vertex in a triangle, palette(2,2,2,2,3). Source/noncollision gate triangle_22223/SOURCE_GATE.md.
 - Phase: reservation before computation; no result. Three-port triangle replacements and variable-length inter-triangle paths, rather than earlier necklace-only class. B works personally, without new agents.
+
+## Conjecture5 route checkpoint, 2026-10-10 07:14 UTC
+
+- 175 three-port triangle networks and108 diamond/leaf boundary presentations allSAT. No original counterexample or proof.
+- New exact obstruction to the inherited one-exception approach: a12-vertex two-triangle graph needs at least two fifth-colored vertices; separate original-distance verifier rejects all12 single-deletion square4-colorings and constructs a valid original coloring with two exceptions. This is only a restricted-route obstacle.
+- Details triangle_22223/RESULT.md. Pause repetitive sampling; restart requires a separated-multiple-exception mechanism or attachable forcing gadget. Earlier original Conjecture3 counterexample remains frozen atfadb2d4, pending independent review.
+
+## New original target after route stop, 2026-10-10 07:14 UTC
+
+- B reserves arXiv:2603.25113v1 Section5 Conjecture4, also Mortada–Togni2024 Open problem2: all2-saturated subcubic graphs, palette(1,2,2,2,2), no local-girth bound.
+- Source/noncollision gate two_saturated_12222/SOURCE_GATE.md. No result yet. Search partial cubic subdivisions; certify via independent-set deletion from the original square, not the square after deletion.
+- Conjecture5 remains unresolved; route paused with a precise restart condition and self-checked restricted obstacle. Previous successful packets remain frozen.
