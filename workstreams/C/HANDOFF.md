@@ -60,3 +60,48 @@ The original search for a counterexample to this question must stop: §2 of `pro
 - **Actual output:** 262144 masks; 261156 nontrivially tested (the other 988 cannot be connected), 257942 connected, 245764 connected nonbipartite, all 245764 contain a C3 and a C6. No exceptions. Five sanity/negative test families passed. C++20 standard library, deterministic, no external solver dependency. This is an **independent direct adjacency/cycle check**, not formal Lean.
 - **Reviewer independent checklist:** validate the TF definition in Mizzi v3; check loop exclusion by invertibility of 2 modulo odd m; check complete bipartite orbit decomposition into matchings; check quotient odd cycle; verify fixed-point/transposition cycle lift is simple and disjoint. Run compiler and executable independently; optionally implement a second brute-force checker of the 12-vertex subfamily. Do not conflate a full theorem for the **restricted family** with a counterexample or general proof for all unstable asymmetric graphs. Seek existing matching-lift results before making any novelty claim.
 - **Stop reason:** this entire search family is structurally incapable of furnishing the desired original counterexample. A later nonuniform/fixed-point direction would require independent literature/collision checking and its own new packet. ROOT acceptance and human peer review are pending; commit publication does not imply notice or approval.
+
+
+## Third frozen result (2026-10-10): complete Mizzi v3 asymmetric-clause proof candidate
+
+**Important handoff classification:** This is a **positive mathematical proof candidate**, NOT an original conjecture counterexample; no standalone claim of firstness, peer review, accepted main integration or Lean formalization. The earlier Q5.8 was separately **accepted/released by ROOT** at main `ec55b0ef93f30349b5a0fbc37183a1d0b74ecb40`. The earlier uniform-orbit obstruction remains frozen; this third theorem genuinely covers fixed points and *unequal* odd orbit lengths.
+
+**Pinned C source commit (pre-status freeze):** `4bc49fe18c725b48cac442fe0ba78ddb8cfafb10`; branch `partner/dist-C`, exclusive namespace `workstreams/C/`. The following files are all readable from that SHA:
+
+- `mizzi_v3_asymmetric_full_proof.md`, **full source-target statement and universal handwritten proof**, SHA256 `3b5ffdf2e287e775377e8dabf9ce33ec2450c4c56667074453c6520b655827e8`, Git blob `bcff841b86fbee4be833c4e338a73bd9111e2958`.
+- `asymmetric_fixedpoint_certificate.json`, **explicit 13-vertex 39-edge graph with an alpha permutation and two disjoint cycles**, SHA256 `1ce6f40888aafe612e5faf2470deec7256ea74ff900553ac6524b5549ee592cd`, Git blob `ac676bf033ac1be69d19157d946f5117f6242bd2`.
+- `check_asymmetric_fixedpoint.py`, **independent raw-adjacency exact checker**, SHA256 `31945345466aaa4207a3341fda35a27ef165c233f2ce7fc075dd4a80a4b09158`, Git blob `046f68c2e3a22b3640e180e51f1c970a273425ea`.
+- `stress_odd_tf_orbits.py`, heterogeneous family finite falsification test, SHA256 `5ccb67f34daf38866625dc2b4b67615e29ed13a64e6103e42becf571858eca8b`, Git blob `8d1c656e9dc40cb802ae354877a9325b8cff30b4`.
+
+**Exact source question:** Mizzi, *Lifting and Folding: A Framework for Unstable Graphs and TF-Cousins*, arXiv:2603.27559v3 (2026-09-10), `7, **second** clause: Every unstable asymmetric graph contains both C_k and C_(2k) for some odd k. First TF-cousin-pair clause remains UNRESOLVED here. Srivastava arXiv:2608.15281v1 is an August counterexample to the **old unrestricted unstable-graph** version, not the revised asymmetric condition. The self-contained mathematical argument specifically uses asymmetry.
+
+**Theorem T (exact):** Any *finite simple undirected asymmetric graph* with a nontrivial TF automorphism contains a simple C_k and a **vertex-disjoint** simple C_(2k) for an odd k>=3. Derivation:
+
+1. On the finite TF group, the factor-swapping group involution has diagonal fixed subgroup exactly Aut(G)=1. The map x->x^-1 tau(x) is bijective, giving tau(x)=x^-1 for every group element. Hence each nontrivial TF pair is (alpha,alpha^-1) and alpha has odd order.
+2. No alpha-orbit has internal edges; fixed singleton vertices have uniform adjacency to every moving orbit. If the quotient on moving orbits were bipartite, applying alpha or alpha^-1 on opposite orbit classes yields an ordinary nontrivial automorphism. **Therefore it contains an odd cycle**.
+3. Along a simple quotient odd cycle of orbit sizes m_j odd>=3, each original edge creates all pairs with x+y == s_j mod gcd(m_j,m_(j+1)) by generalized CRT. With L=lcm(m_j) odd, the cyclic linear system z_j+z_(j+1)=s_j lifts and has a unique solution because k and L odd.
+4. Setting h=1/2 mod L gives three distinct vertices per orbit, labelled z_j and z_j±h. The first label family yields **C_k**, the crossed second/third label families yield a **single C_(2k)** (k odd), and the two cycles are vertex-disjoint.
+
+**Independent reproduction, standard-library Python only**, from the repository checkout:
+
+    cd workstreams/C
+    python3 check_asymmetric_fixedpoint.py
+    python3 stress_odd_tf_orbits.py
+    python3 -m py_compile check_asymmetric_fixedpoint.py stress_odd_tf_orbits.py
+    sha256sum mizzi_v3_asymmetric_full_proof.md asymmetric_fixedpoint_certificate.json check_asymmetric_fixedpoint.py stress_odd_tf_orbits.py
+
+**Actual executed results, Python 3.13.5 Linux (2026-10-10):** the first script printed PASS, n=13, m=39, connected/nonbipartite/vertex-determining/asymmetric; nontrivial TF orbit sizes (1,3,3,3,3); C3=[2,6,9] and disjoint C6=[1,4,8,3,5,7]; 14 complete automorphism-search states, 13 invariant colors. **Four malformed-input controls all rejected:** omitted edge, corrupt alpha, repeated cycle vertex, illegal loop. The second script printed exactly:
+
+    sizes (3, 5, 7) lift_verified 17 bipartite_forces_ordinary_auto 163
+    sizes (1, 3, 3, 5, 7) lift_verified 91 bipartite_forces_ordinary_auto 89
+    sizes (3, 3, 5, 5, 7) lift_verified 140 bipartite_forces_ordinary_auto 40
+    sizes (1, 1, 3, 5, 7, 9) lift_verified 87 bipartite_forces_ordinary_auto 93
+    sizes (1, 3, 9, 3, 5, 5) lift_verified 164 bipartite_forces_ordinary_auto 16
+    sizes (3, 3, 3, 5, 7) lift_verified 159 bipartite_forces_ordinary_auto 21
+    PASS sampled exact heterogeneous orbit checks 1080
+
+These exhaustive-per-*instance* and randomized-across-*instances* tests are **falsification diagnostics**, not the general proof. Only the mathematical argument above addresses every finite graph in the original hypothesis. We have NOT run Lean or independently accepted universal scope.
+
+**ROOT reviewer action:** Review the ten specific potential gaps in the last section of `mizzi_v3_asymmetric_full_proof.md`; independently reproduce the odd-order TF group reduction, the quotient bipartite contradiction (especially edges incident with alpha-fixed points), the unequal-length gcd edge orbit, invertibility of the cyclic equations, and the disjoint 2k lift. Then assess historical originality in Bychawski and other earlier sources. If something fails, issue a *specific failing definition or counterexample*, rather than silently classifying it as a confirmed solution. If accepted, ROOT owns publication/signing/integration; **do not touch the frozen source**. Connector commits on this branch were not signed; signing is not falsely asserted.
+
+**Continuation without waiting:** After this third packet is frozen, C may explore a mathematically distinct mechanism in the CDC/TF space after reviewing new claims and source versions, but should **not** rerun the now-closed uniform-odd family, assign a numbered 007/008, or edit other workers' areas. No direct messaging, PR, merge, forced update, manuscript submission or author outreach has occurred.
