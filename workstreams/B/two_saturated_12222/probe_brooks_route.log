@@ -1,0 +1,2 @@
+{"core": "cube", "vertices": 12, "edges": [[0, 8], [0, 2], [0, 4], [1, 8], [1, 3], [1, 5], [2, 9], [2, 6], [3, 9], [3, 7], [4, 10], [4, 5], [5, 11], [6, 10], [6, 7], [7, 11]], "matching": [[0, 1], [2, 3], [4, 6], [5, 7]], "solver_status": 2, "scope": "restricted max-degree-four route; original coloring not decided"}
+{"K4:0": 3, "K33:0": 6, "cube:0": 1, "cube:2": 1}

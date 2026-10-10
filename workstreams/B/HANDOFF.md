@@ -476,3 +476,11 @@ This is a prior-theorem corollary candidate, not an assertion that our earlier t
 Frozen full12222 review object:15470c9423245b31d2b8949a9d2485eb5577b820. FULL_PROOF.md SHA2563a8e3787fa4b6aeb9f428ee573b92166df09fa652947e8b5f921337ab1c17117; verify_full.py SHA256839cce561c3b11c240efda1acecca35ab597d6b53ff20cae85e3eafc3e100779. Fresh remote archive246hash replay and checker PASS09:50UTC. Later receipt updates do not change these bytes. No ROOT receipt/acceptance claimed.
 
 Kautz4 post-freeze support-route note: SUPPORT_ROUTE_OBSTACLE.md gives an analytical exact12 result on the24 permutations of a fixed4letter support. verify_support_obstacle.py checks the full original108vertex digraph and a damaged13vertex witness. The proposed supportwise6 bound is false; cross-support interactions are required. This is not a new original counterexample. Full12222 frozen15470c9 and other prior results unchanged.
+
+### Exact two-saturated12222 route obstruction; inconclusive Kautz probe
+
+Read two_saturated_12222/BROOKS_ROUTE_OBSTACLE.md, then run:
+
+    python workstreams/B/two_saturated_12222/verify_brooks_obstacle.py
+
+It independently enumerates all4096 vertex subsets and confirms226 independent sets, minimum remaining ORIGINAL-square maximum degree5, while validating an original12222 coloring. Pending independent review. This does not refute the original conjecture. Discovery MILP is not a trusted dependency. See kautz_length4/FIVE_LETTER_STOP.md for the separate20-second inconclusive optimization; do not treat its numerical bound as exact or rerun it as an acceptance requirement. Existing frozen full-proof bytes are unchanged.
