@@ -1,0 +1,11 @@
+# Exact reservation and source gate — 2026-10-10 07:04 UTC
+
+B reserves El Zein–Mortada, arXiv:2603.25113v1 (26 March 2026), Section 5 Conjecture 3: every 2-saturated subcubic graph admits a (1,1,2)-packing coloring. Finite simple undirected graphs; maximum degree at most three; each degree-three vertex has at most two degree-three neighbors. No local-girth hypothesis is imposed. Repeated 1 entries denote distinct independent color classes; the third class has mutual distances strictly greater than two.
+
+Primary statement/definitions: https://arxiv.org/html/2603.25113v1#S5 . Original checked directly again today. The older Mortada–Togni result, Australasian Journal of Combinatorics 90(2) (2024), 155–167, proves the weaker (1,1,2,3) result: https://ajc.maths.uq.edu.au/pdf/90/ajc_v90_p155.pdf . July 2026 El Zein–Mortada paper on (1,1,2,3) for (3,0)-saturation does not resolve this exact claim. Searches for exact saturation/palette, Conjecture 3 and original arXiv identifier found no same-scope resolution. Author laboratory pages were checked in the preceding source gate. This is bounded evidence, not proof of novelty; repeat after an important candidate.
+
+Latest visible coordination d8f2994; A 970e085 matching-power/Ehrhart questions, C 4dced3f canonical-cover paired graphs, ROOT directed general-position spectrum Conjecture 4.30. No visible exact conflict. Public reservation precedes high-cost computation.
+
+A counterexample is an admissible graph with no distance-two-independent odd-cycle transversal: removing the third color must leave a bipartite graph, and conversely any such transversal gives the required coloring. Discovery route: subdivide an edge cover in a cubic core, including perfect matchings, and vary connector parity. Saturation then follows directly. Odd-cycle branch certificates can prove exhaustive failure independently of a coloring search. SAT witnesses must be checked from original graph distances. No candidate/result yet.
+
+Stop condition: after genuinely distinct core/cover/parity attempts without a new obstruction or structural restriction, pause with exact tested scope and redirect; finite search failure does not prove the conjecture. No new agents, Lean claim, root numbering or change to frozen previous packets.

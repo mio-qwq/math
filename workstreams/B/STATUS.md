@@ -107,3 +107,10 @@
 - Phase: final freeze, remote publication and clean archive replay. No need
   to await minimum examples or larger enumeration. Subsequent discovery
   needs a new exact reservation after updated coordination/source checks.
+
+## New exact reservation, 2026-10-10 07:04 UTC
+
+- B personally continues on arXiv:2603.25113v1 Section5 Conjecture3, all 2-saturated subcubic graphs and palette (1,1,2), without any local-girth restriction.
+- Latest completed packet remote64f7633 remains frozen and pending independent acceptance. Clean remote archive passed all122 manifest files and nine checks.
+- Source and noncollision gate: two_saturated_112/SOURCE_GATE.md. Initial phase: reservation, no counterexample or theorem yet. New route: edge-cover subdivisions of cubic cores and exact distance-two-independent odd-cycle-transversal certificates.
+- Next: publish this reservation before computation, implement exact search and a separate verifier. User requested continuation without new subagents; B performs this work personally.

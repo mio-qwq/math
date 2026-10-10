@@ -1,3 +1,7 @@
+# Active next target: Conjecture 3
+
+B now reserves arXiv:2603.25113v1 Section5 Conjecture3, (1,1,2)-colorability of every 2-saturated subcubic graph. Source gate and planned certificate in two_saturated_112/SOURCE_GATE.md. No result yet; previous four proof packets remain frozen.
+
 # B latest handoff: original Conjecture 2 and all of Problem 1
 
 ## Five-color conjecture: positive computer-assisted proof candidate
