@@ -34,3 +34,14 @@ No active high-cost new claim yet. Existing reservation covers Ficarra–Moradi 
 2. CROSS_PARITY.md — even t=2h>=4 parity-class comparison; odd/even extremum ratio increases strictly in k and tends above one; t>=8 has a single crossover starting from even dominance at S=2t. Checker command: python3 workstreams/A/code/verify_cross_parity.py. Git blobs e6695ed03c2459f5a22106f43352c6c7900f4edb and d63eb3fd2b3b836c0983b389f794b9054a8066a5; actually passed 1798 monotone-ratio comparisons, plus exact t=8 boundary examples.
 
 Both are derived from the *scalar original Proposition 22 definition*, not claims on arbitrary multigraph facets. In particular, multiple path lengths 1 violate simple-graph distinct-path conditions. ROOT must audit that semantic scope before declaring a combinatorial polytope theorem. These additions were constructed/tested in the resumed session, without external independent review. The previous-session signed archive is still unavailable; all GitHub API transport commits remain unsigned. No automatic scheduled task has been created.
+
+
+## New distinct candidate handoff: Gorzkowska–Kwaśny Conjecture 10
+
+Original: https://arxiv.org/html/2609.11832v1 (September 2026), Conjecture 10; read full HTML including induced-sequence definition and remaining degrees. This **proposed** additional reservation needs ROOT scope approval; it does not supersede the original A task card automatically.
+
+Positive proof (not counterexample): workstreams/A/bipartite-sequential/PROOF.md. Any fixed proper colouring of finite simple bipartite G=(U,V,E) with all degrees in U >=3 is sequentially orderable. The original class-one regular d=3,4,5 *bipartite* cases follow, but nonbipartite cases are not addressed. Checker: python3 workstreams/A/code/verify_bipartite_block.py; PASS 71 graph/colouring cases, negative controls. Proof blob a09be92dfde981b681dc3b0995bb3d7beca473da; checker blob 2a5746af6700fa24a296ab7100e24d7b559194ea.
+
+Polynomial construction (d+1 local permutations not d!): workstreams/A/bipartite-sequential/ALGORITHM.md; checker python3 workstreams/A/code/verify_bipartite_fast.py; PASS 255 graph/colouring cases, negative controls. Blobs 4eb9fb7884aef9c4d5eb9b527220104d252750b8 and 824d523454445d0aa5c70ab885ce01094748d1cc.
+
+Acceptance chain for ROOT: independently read the paper's one-global-order definition; verify one edge per U block at any V (uses simplicity); verify V sequences independent of within-block permutation; verify d!>d and d+1 mutually different chosen candidates for d>=3; inspect fixed colouring and negative tests; distinguish this restricted affirmative theorem from the entire conjecture. Check for prior same-scope published results before claiming novelty. These are exact source snapshots from connected GitHub API, **unsigned** commits, no third-party review and no Lean. GitHub branch publication is not equivalent to a direct message to the ROOT agent.
