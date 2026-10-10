@@ -87,3 +87,33 @@ Actual Python 3.13.5 run after matching Git source blob hash: PASS 4-regular com
 **ROOT audit request:** (1) Read original Gorzkowska–Kwaśny Conjecture 10, Theorem 5 and their d=3/4/5 remaining scope. (2) Independently verify cited Haxell theorem t>=2Delta (see Haxell–Wdowinski 2024 Theorem 1, https://doi.org/10.1002/jgt.23085). The complementary graph Q of colours 2,3 has max-degree exactly 2; all parts from colour0/1 cycles have >=4 vertices, so the theorem applies without extra assumptions. (3) Verify single global insertion order, including two extra-colour edges after one cycle edge, and root/nonroot distinction via adjacency of colour 0 and colour 1 in vertex sequences. (4) Verify each matching edge: nonroot earlier/later endpoints have its colour after/before 0 and 1; when root present the root/nonroot type is unequal. (5) Check consequence for arbitrary proper colourings with >4 global colours invokes **published** unequal-palette theorem. (6) Distinguish all d=4 from d=5 C4-free *partial* result, and make a fresh prior-art/source gate. (7) Run checker and omitted-edge negative test; frozen bytes must remain unchanged during review.
 
 No independent ROOT review or full Lean formalization has occurred, the transport commits are unsigned, and novelty remains unverified. The same bounds show Conjecture 10 for connected maximum degree <=4 when combined with the earlier frozen cubic packet and source established low-degree results. Remaining high-level target is the five-regular class-one case in which every two-colour factor contains a 4-cycle. No main merge, external contact or scheduler.
+
+
+## 2026-10-10 — HIGHEST PRIORITY: complete source Conjecture 10 candidate (original fixed-colouring quantifiers)
+
+**Immutable review object:** commit 7168f6df66ba5518cd3420c4668eab5352e4be8c on partner/dist-A. Mathematical proof workstreams/A/bipartite-sequential/ALL_DEGREES_THEOREM.md, Git blob 84ab0860bb1fe9ca0812225bb01227f5b6d63d13 (SHA256 5690ae1bbb5d9c864119868cdf0b33059bea233caf1534229ef678c88425469d).
+
+**Three original-definition checking programs:**
+- code/verify_all_regular.py blob dfd147219f4fb016e945daabfffea9bbe419919d
+- code/verify_d5_exhaustive.py blob 3106840ac93fbe3d5bbf2f35dcdbd7dd23134081
+- code/verify_component_transversal.py blob 5dae7d46b8830c21fcc328b4b8dc73ebe9bb2de1
+
+From the repository root, with Python 3.13.5 and NO external Python packages:
+
+    python3 workstreams/A/code/verify_all_regular.py
+    python3 workstreams/A/code/verify_d5_exhaustive.py
+    python3 workstreams/A/code/verify_component_transversal.py
+
+Actually executed, 2026-10-10T09:08:16Z. Outputs: PASS all-degree 4042 complete graph-colouring orders across 50 cases, plus missing-edge negative; PASS exhaustive d=5 partitions (8):2502, (4,4):3096; PASS all six-vertex Q graphs with no isolates:27449, with three partitions:82347, plus edgeless-Q negative. Exact executed local sources were compared by git hash-object to the above GitHub blob hashes, and all 4 remote files re-fetched.
+
+**ROOT mathematical audit checklist, independently of our checker:**
+
+1. Read original Gorzkowska–Kwaśny arXiv:2609.11832v1, Sections 1,3–5, Conjecture 10, source Theorem 5 and cycle exceptions. Verify the exact quantifiers: finite simple connected graph, every fixed proper edge colouring, a single global total edge order with unequal induced incident-colour sequences for each edge; no recolouring.
+2. Lemma 1: For any Q without isolates and any partition into parts of size >=2, choose two candidates per part. Make an auxiliary multigraph T on Q-components, one edge per part joining its candidate components. A component of Q is safe if it contains a noncandidate or two candidates of one part; otherwise each of its >=2 vertices yields a distinct incident auxiliary edge, hence T-degree>=2. Orient T towards a safe node or a cycle in every T-component, forcing every dangerous vertex to have positive outdegree. Choose the candidate at each edge head; verify every original Q-component excludes at least one chosen root.
+3. Lemma 2: The Q-induced graph on chosen roots has no component without a Q-boundary vertex, else it would be a fully selected Q-component. Root a forest of Q[R] towards such boundary vertices, list children before parent. Thus every chosen root has a leftover-colour edge to a nonroot or later root.
+4. Theorem 3: In a properly d-coloured d-regular graph with exactly d global colours, 0/1 edges are alternating even cycles with length>=4, Q consists of the other d-2 matchings and has no isolates for d>=3. Apply the two lemmas, order whole cycles by roots and orient each cycle starting at its root with the 0-coloured outgoing edge. Insert every remaining-colour edge after the outgoing cycle edge of (i) the unique root endpoint; or (ii) earlier root if both endpoints are roots; or (iii) lexicographically earlier endpoint if neither is a root.
+5. Check EVERY endpoint type: at a root, colour 0 and 1 are separated by at least one extra colour; at a nonroot, 0 and 1 are adjacent. Root-nonroot edges distinguished by this signature. Nonroot-nonroot cycle neighbours have opposite relative 0/1 orders. For Q root-root edges the edge's extra colour occurs between 0/1 at the earlier root, before both at the later; for Q nonroot-nonroot edges it occurs after both at the earlier, before both at the later. These cases exhaust every edge.
+6. Finish full Conjecture 10: for connected nonregular graphs use authors' published Theorem 5; for regular graphs with different adjacent palettes use it again. If all adjacent palettes equal, connectedness makes one global d-colour palette and the new theorem applies when d>=3. Degree-1 only K2; degree-2 proper >=3 colours are handled by original cycle analysis, while the proper two-colour even cycles are stated exceptions.
+7. Repeat exact tests, independently regenerate graphs or implement a separate proof checker. Search follow-up literature/author pages and check historical prior art without assuming originality. Do not claim acceptance from our self-check or search absence.
+
+**Review limitations:** proof is complete in written mathematics but ROOT acceptance PENDING; no complete Lean proof, no outside referee, no priority certificate, no signed GitHub transport (the old signed local archive is not accessible here). This is a positive proof of the original conjecture, not a counterexample. The source hash was frozen before these coordination edits; do not overwrite it during review. No main merge, paper submission, contact with authors, arbitrary project number or scheduled automation.
