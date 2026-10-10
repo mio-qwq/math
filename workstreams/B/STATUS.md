@@ -275,3 +275,10 @@ The possible new general1123/Petersen question is NOT reserved: CANDIDATE_GATE_1
 Explicitly read BRIEF and Bcard09ad05d221909dfcfd9ce6a14ecd13a1ac3c4846 after wildcard branch fetch. Earlier generic git fetch updated only configured main; future ownership checks must fetch all branch refs explicitly. ROOT now records real independent reviews in progress for Ka(m,3)44c1ec and Conj6d6238ac, not acceptance yet. A's newer full sequential-order scope remains separate.
 
 B proposes claw-free12222, arXiv2608.02566v1 Section6 Conjecture1, with exact gate in clawfree_12222/SOURCE_GATE.md. Publish before substantial work. Standard simple-core incidence5 cases are already known and excluded as new discoveries. Focus on boundary extension across admissible caps/multiple-edge interfaces; retain original assumptions and reject restricted-rule failures as original counterexamples. Previous frozen results unchanged.
+
+
+## Complete cubic-subcase proof candidate, 09:23 UTC
+
+New clawfree_12222/CUBIC_PROOF.md proves the CUBIC subcase of original AugustConjecture1, not the entire subcubic statement. Public reservation41f78ef preceded the finite cap work. The proof imports Maydanskiy's incidence5 theorem, then handles all parallel-core reductions, pendant loop caps and diamond strings with palette-specific exact interfaces. Three canonical boundary types for each of three caps give9 literal witness rows.
+
+Separate verify_interfaces.py rebuilds cap graphs and BFS, checks1212 external boundary colorings with134532 distance pairs,282 cap pairs,89 leaf cases, and rejects a damaged coloring. Actual Python3.12.14 stdlib PASS in verify_interfaces.log. Universal reduction is written, not inferred from these cases. SELF_REVIEW.md lists the actual hypotheses, sources and the crucial missing general-subcubic degree-two-path case. Freeze and deliver as a pending-review positive SUBCASE; no historical-firstness, full-conjecture, Lean or independent-acceptance claim.

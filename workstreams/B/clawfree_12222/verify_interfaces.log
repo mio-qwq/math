@@ -1,0 +1,1 @@
+{"boundary_colorings": 1212, "cap_distance_pairs": 282, "cap_rows": 9, "expanded_boundary_distance_pairs": 134532, "leaf_precolorings": 89, "negative_controls": 1, "python": "3.12.14", "scope": "finite interfaces only; universal reduction and imported incidence theorem are in CUBIC_PROOF.md", "status": "PASS"}

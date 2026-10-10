@@ -1,0 +1,9 @@
+{"name": "diamond_loop_cap", "pre": [0, 1], "result": "SAT", "nodes": 7}
+{"name": "diamond_loop_cap", "pre": [1, 0], "result": "SAT", "nodes": 7}
+{"name": "diamond_loop_cap", "pre": [1, 2], "result": "SAT", "nodes": 7}
+{"name": "parallel_pendant_cap", "pre": [0, 1], "result": "SAT", "nodes": 6}
+{"name": "parallel_pendant_cap", "pre": [1, 0], "result": "SAT", "nodes": 6}
+{"name": "parallel_pendant_cap", "pre": [1, 2], "result": "SAT", "nodes": 6}
+{"name": "parallel_same_neighbor_cap", "pre": [0, 1], "result": "SAT", "nodes": 9}
+{"name": "parallel_same_neighbor_cap", "pre": [1, 0], "result": "SAT", "nodes": 9}
+{"name": "parallel_same_neighbor_cap", "pre": [1, 2], "result": "SAT", "nodes": 9}
