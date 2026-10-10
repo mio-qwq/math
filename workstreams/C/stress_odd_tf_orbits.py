@@ -4,7 +4,7 @@
 Randomly samples complete TF-invariant edge-orbit subsets from the original
 ordered graph relation.  Explicitly checks: TF symmetry, quotient/bipartition
 obstruction, cyclic plus/minus lifts, and all actual cycle edges.  This is
-not a proof of the universal theorem; see mizzi_v3_asymmetric_full_proof.md.
+not a proof of the universal theorem; see mizzi_v3_asymmetric_theorem.md.
 """
 from collections import deque
 from hashlib import sha256
@@ -140,6 +140,5 @@ def main():
     for a,b,c in results:print('sizes',a,'lift_verified',b,'bipartite_forces_ordinary_auto',c)
     print('PASS sampled exact heterogeneous orbit checks',len(SIZES)*RUNS)
     print('SHA256',sha256(Path(__file__).read_bytes()).hexdigest())
-
 
 if __name__=='__main__':main()
