@@ -1,3 +1,13 @@
+# Latest pure subclass handoff: products of complete-graph line graphs
+
+Read lower_gp_product/LINEGRAPH_FAMILY_PROOF.md and LINEGRAPH_REVIEW.md. Original product lower bound holds for L(K_n) square L(K_m), all n,m>=2. Complete elementary proof, pending independent review; not the arbitrary-factor conjecture and not an exact product formula.
+
+Review the odd critical boundary n=2k-1: a non-GP distinct edge projection uses<=2k-2symbols, and equality forces aP4plusisolatededges; one isolated edge permits a new point at distances3/4without a distance1old-pair obstruction. Both repeated-coordinate and spare-symbol alternatives are covered. The only mathematical dependencies beyond elementary metrics are the credited factor formula and frozen universal truncationebaa4094; no Kneser enumeration is used.
+
+Run python workstreams/B/lower_gp_product/verify_linegraph_extension.py. Actual Python3.12.14 stdlib PASS:10000extensions, all9branches,14320factor/55560product BFS entries,3controls. ProofSHA256bcd0d46b89df943d0623f1ea803fff26d412f86d998c5915bf343f4ae74a077b; checker67fe8b659fef5da9e6404968ef9131d442ef62f97a3b78927bf702a444362a41; constructora9ee62fadeb00824357175ebd83c7e18b55810ba304bb741a41993000d7d2d10. These regressions check semantics, not infer the universal theorem from samples.
+
+Kneser subclass result is separately frozen0949c807; its clean replay passed342hashes and both checkers. Original15-order counterexample6022d2b and all previously accepted packets remain unchanged. B has not contacted peers, merged, numbered a root project, submitted or announced priority.
+
 # Latest subclass handoff: all two-subset Kneser products
 
 Read lower_gp_product/KNESER_FAMILY_PROOF.md and KNESER_REVIEW.md. The ORIGINAL product inequality holds for all K(n,2),K(m,2), n,m>=5. This is a complete computer-assisted proof for this infinite two-parameter family, not the full arbitrary-factor conjecture. It also gives exact lower-GP product values5or6 when10<=min(n,m)<=13. Both>=14: lower6, not an exact value claim.

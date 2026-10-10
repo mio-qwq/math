@@ -1,3 +1,11 @@
+# B further pure subclass theorem — 2026-10-10 11:32UTC
+
+- Original lower-GP product conjecture now proved for ALL L(K_n) square L(K_m),n,m>=2, by an elementary support-counting argument. Distinct from Kneser/disjointness adjacency: these line graphs use intersection. No full arbitrary-factor or exact product-value claim.
+- Stage: complete all-parameter proof and original-adjacency checks, pending independent review. ProofSHA256bcd0d46b89df943d0623f1ea803fff26d412f86d998c5915bf343f4ae74a077b; checker67fe8b659fef5da9e6404968ef9131d442ef62f97a3b78927bf702a444362a41; constructora9ee62fadeb00824357175ebd83c7e18b55810ba304bb741a41993000d7d2d10. All9construction branches exercised,10000GP sets extended,14320factor and55560product BFS entries,3negative controls.
+- Key: hypothetical witness sizek>=4 impliesn,m>=2k-1. Non-GP distinct projection forcesP4; exactlyoneunusedsymbol forcesP4plusk-3isolatededges. Repeated-coordinate and product-distance1 cases are explicitly covered.
+- Previous Kneser theorem frozen0949c807e9ce28b4066509066ee06433a593b4ff; clean archive /tmp/B-kneser-family-replay-LlUgCu passed342hashes and both newcheckers. Universal arbitrary truncation frozenebaa4094 unchanged. All remain pending review; factor formulas are prior results.
+- Next: no repeated search on covered line-graph/Kneser families. Remaining arbitrary-factor conjecture needs a new mechanism or true candidate with factor lowerGP>=5 and product witness>=4. Original order15 counterexample6022d2b preserved separately.
+
 # B new all-parameter subclass theorem — 2026-10-10 11:25UTC
 
 - Original lower-GP Cartesian-product conjecture now proved for ALL K(n,2) square K(m,2), n,m>=5, by a complete computer-assisted finite-support argument. This is a subclass theorem, not the full arbitrary-factor conjecture or a counterexample.
