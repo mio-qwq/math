@@ -26,3 +26,12 @@
 - SOURCE_GATE.md records both actual targets, known even-connector overlap and literature limits.
 - Pending: main-Agent independent review, human responsibility review and historical novelty. No Lean or signed commit claim. Current GitHub API publication is unsigned; controlled signed release remains unmet.
 - Next: deliver the second frozen candidate for acceptance, retain earlier versions, then choose a genuinely distinct question only after a new source gate and public reservation.
+
+## New exact reservation, 2026-10-10 05:21 UTC
+
+- B reserves the permutation-digraph optimality conjecture immediately after Theorem 3.6 of Chandran et al., arXiv:2604.15909v1, Section 3.3: for k >= 3 and d >= 2k, gp(Pe(d,k)) is conjectured equal to 2(d+k-2)_(k-1).
+- This is distinct from the completed circulant conjecture in Section 3.1 and from A/C/ROOT's visible reservations. The current BRIEF was checked again; no conflicting reservation was visible. A new numbered root project is not allocated.
+- Source definitions: vertices are length-k words of distinct letters over an alphabet of d+k symbols; each arc drops the first letter and appends a symbol absent from the entire old word. General position uses directed geodesics.
+- Low-cost derivation suggests a possible three-terminal-symbol improvement over the source's credited two-symbol construction. First exact target is d=6,k=3: a 90-word set against the conjectured value84. This is a candidate, not yet a completed verification or priority claim.
+- Primary version and August2026 survey still state the conjectured optimality. Exact-ID/formula/permutation follow-up searches found no resolution; bounded status remains nonexhaustive. Source gate will be recorded in permutation_gp/.
+- Next: reconstruct all504 graph vertices and actual arcs, run integer BFS and all selected ordered-triple checks, add corrupted-certificate controls, then freeze any valid counterexample promptly. B performs this derivation and verification directly, without new research agents.
