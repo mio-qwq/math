@@ -1,0 +1,3 @@
+{"support": 2, "vertices": 2, "forbidden_triples": 0, "maximum": 2, "witness": [[0, 1, 0, 1], [1, 0, 1, 0]], "nodes": 1, "seconds": 0.0}
+{"support": 3, "vertices": 18, "forbidden_triples": 416, "maximum": 6, "witness": [[0, 1, 0, 2], [0, 2, 0, 1], [1, 0, 1, 2], [1, 2, 1, 0], [2, 0, 2, 1], [2, 1, 2, 0]], "nodes": 10733, "seconds": 0.61}
+{"support": 4, "vertices": 24, "forbidden_triples": 384, "maximum": 12, "witness": [[0, 1, 3, 2], [0, 2, 1, 3], [0, 3, 2, 1], [1, 0, 2, 3], [1, 2, 3, 0], [1, 3, 0, 2], [2, 0, 3, 1], [2, 1, 0, 3], [2, 3, 1, 0], [3, 0, 1, 2], [3, 1, 2, 0], [3, 2, 0, 1]], "nodes": 239910, "seconds": 11.138}

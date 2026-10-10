@@ -1,0 +1,1 @@
+{"bfs_distance_pairs": 11664, "full_vertices": 108, "negative_controls": 1, "odd_witness_size": 12, "python": "3.12.14", "rotation_orbits": 6, "scope": "exact four-letter-support maximum12; no original full gp formula", "selected_ordered_triples": 1320, "status": "PASS", "upper_bound_triples": 24}
