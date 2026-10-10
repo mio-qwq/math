@@ -357,3 +357,9 @@ Remotely verified density theorem freeze0599b104ac0fe3f241a7a3ba4dfeae878c28951f
 ROUNDING_REFINEMENT.md applies the SAME theorem's integer bound at11symbols and subalphabet averaging, slightly sharpeninglambda4<=377/1320<2/7. This is a small refinement, not a separately solved problem. Exact fraction arithmetic run and logged. A new cycle-cut/symmetry MILP still timed out20seconds (witness30/numericalupper~47), giving no certified finite bound; stop that approach.
 
 New-source screening rejected original GP-corona unimodality Problem5.1 after finding a May2026 author-uploaded same-scope counterexample claim; see CANDIDATE_GATE_CORONA.md. Its proof was not independently checked, and no construction was reused or research reservation published. Main/coord/other-agent paths unchanged. No new agents. Continue only with genuinely new arbitrary-set constraints or a separately gated unoccupied original problem; do not enlarge the closed numerical searches.
+
+## New exact reservation, 10:35 UTC
+
+After freezing the Ka4 density result and stopping the unproductive strengthened MILP, B reserves original Tuite–Thomas–Chandran Conjecture4.5, arXiv2106.06827v3 / final AMC25(2025)#P1.09: for EVERY n>=11 a circulant graph of diameter2 and mp-number2 exists. Primary final statement/definitions, current version history, author page, Augustsurvey and later-solution searches were checked. See monophonic_circulants/SOURCE_GATE.md. No visible exact ownership overlap. This asks induced-path coverage, not directed geodesics, TF counts or orientation spectra.
+
+Proposed first mechanism is symmetric interval generators; no mp theorem or numerical evidence yet. A failed candidate cannot refute the existential original. Publish before substantive computation. Ka4 remains B-owned with its frozen partial bounds, no claimed exact answer; independent review can proceed without blocking this new stream. No new agents or root project numbers.
