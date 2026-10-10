@@ -26,3 +26,11 @@ The written proof and finite regression were freshly reconstructed and executed 
 ## Next research / independent handoff
 
 No active high-cost new claim yet. Existing reservation covers Ficarra–Moradi Question 4.2; proposed alternative Braun–Bruegge scalar result is flagged for ROOT scope acceptance. Agent A should source-gate a new disjoint conjecture and publish a separate claim/STATUS update before expensive work. Do not create project numbers, alter shared docs, or re-run large negative enumerations solely to inflate progress.
+
+
+## Two new theorem packets after the initial scalar proof
+
+1. GENERALIZATION.md — strict transfer for any t>=3 same-parity rows, uniqueness of each fixed-parity extremizer. Exact checker command: python3 workstreams/A/code/verify_generalization.py. Git blobs 6ce46c7fe426a8c62b508cc17ca308ce4591e94b and 3dc16deef1bb333e61394035a7e743b0d1e7a1a8; actually passed 2924 transfers, 499 maxima and 51 independent binary-word cases.
+2. CROSS_PARITY.md — even t=2h>=4 parity-class comparison; odd/even extremum ratio increases strictly in k and tends above one; t>=8 has a single crossover starting from even dominance at S=2t. Checker command: python3 workstreams/A/code/verify_cross_parity.py. Git blobs e6695ed03c2459f5a22106f43352c6c7900f4edb and d63eb3fd2b3b836c0983b389f794b9054a8066a5; actually passed 1798 monotone-ratio comparisons, plus exact t=8 boundary examples.
+
+Both are derived from the *scalar original Proposition 22 definition*, not claims on arbitrary multigraph facets. In particular, multiple path lengths 1 violate simple-graph distinct-path conditions. ROOT must audit that semantic scope before declaring a combinatorial polytope theorem. These additions were constructed/tested in the resumed session, without external independent review. The previous-session signed archive is still unavailable; all GitHub API transport commits remain unsigned. No automatic scheduled task has been created.
