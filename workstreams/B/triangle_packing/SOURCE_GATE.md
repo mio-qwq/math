@@ -42,3 +42,16 @@ A negative claim must have a complete exact unsatisfiability check, separate
 from the discovery solver, plus original-hypothesis verification. If tests
 only find colorings, do not infer the universal statement. Derive new
 structure or stop rather than repeating a larger unchanged window.
+
+06:22 UTC author-page refresh: both laboratory publication pages were opened:
+https://kalma-lu.com/authors/15/Maydoun-MORTADA and
+https://kalma-lu.com/authors/11/Ayman-EL-ZEIN . No resolving item was listed.
+Search also located the August 2026 claw-free follow-on arXiv:2608.02566,
+whose stated palettes concern different questions. Author lists may lag.
+
+06:29 UTC post-proof searches: exact "1-saturated" with "2,2,2,2,4",
+the exact arXiv ID with "Problem 1", and local girth / degeneracy / square
+coloring / triangle-necklace combinations located no prior same-scope proof.
+This does not certify novelty. The new result is affirmative for Problem 1's
+THIRD palette only, strengthened to (2,2,2,2,r) for arbitrary positive r.
+The other two palettes and Conjecture 2 remain unresolved by this packet.

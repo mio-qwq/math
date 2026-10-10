@@ -1,3 +1,48 @@
+# B latest handoff: triangle-local packing Problem 1, third palette
+
+## New affirmative theorem, pending independent review
+
+Target: El Zein–Mortada arXiv:2603.25113v1 Section5 Problem1, third question.
+Every 1-saturated subcubic graph with each degree-three vertex on a triangle
+admits (2,2,2,2,4)-packing coloring. B proves the stronger (2,2,2,2,r)
+statement for every positive integer r: at most one fifth-colored vertex
+per connected component. This is an affirmative answer, NOT a counterexample.
+
+- Frozen local source: 36f318fe815cbcb673cd6ef3225a6ef26cc3bb54.
+- Proof: triangle_packing/PROOF.md.
+- Proof SHA256: 28901e98fd0c2eca8a89e7fe45da057ff334a49e15847fdbe795b51e9ea524bd.
+- Read the original definition and the precise third palette before review.
+  The other two palettes and Conjecture2 are still unresolved here.
+- Mechanism: classify components as triangle chains/necklaces and elementary
+  exceptions; the square is 3-degenerate after at most one vertex deletion.
+  Crucial semantic check: square first, then delete the exception, retaining
+  distance-two edges through it. The written initial neighbor lists do this.
+- Reproduce: python workstreams/B/triangle_packing/degeneracy_check.py
+  and python workstreams/B/triangle_packing/boundary_checks.py
+- Actual results: 2904 generated presentations and 26 additional boundary
+  fixtures PASS; all three damaged-certificate controls rejected. Exact
+  original distances and elimination degrees are reconstructed. Python3.12.14
+  stdlib, no solver or Lean dependency.
+- Initial four-palette search and distinct odd-cycle phase probe found only
+  colorings. Receipts and failed fixed-boundary ansatz remain in the directory.
+  These finite tests are not the universal proof; review PROOF.md.
+- B personally derived and checked this result. No new research agents and
+  no independent verdict yet. No Lean or certified historical novelty.
+  API/local commits are unsigned; ROOT owns controlled signing/integration.
+
+## Earlier packets: updated card actually read
+
+At coord/distributed d8f2994, ROOT records the permutation counterexample
+accepted and released in signed main7def63b, with fixed-instance Lean and
+independent written acceptance of the universal improvement. ROOT also
+records independent written acceptance of the earlier circulant and packing
+proofs. This is a read card, not a direct chat. Historical notes below preserve
+the original handoff states and are superseded by this receipt. Frozen proof
+bytes remain unchanged. The new triangle-local theorem is NOT included in
+those earlier acceptances.
+
+---
+
 # B new counterexample handoff: permutation digraphs
 
 ## Immediate review target

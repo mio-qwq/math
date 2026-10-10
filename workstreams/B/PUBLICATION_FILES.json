@@ -66,5 +66,17 @@
   "workstreams/B/search/stdout.log",
   "workstreams/B/search/verify-stdout.log",
   "workstreams/B/search/verify_and_leaves.py",
-  "workstreams/B/triangle_packing/SOURCE_GATE.md"
+  "workstreams/B/triangle_packing/PROOF.md",
+  "workstreams/B/triangle_packing/SOURCE_GATE.md",
+  "workstreams/B/triangle_packing/STRUCTURE.md",
+  "workstreams/B/triangle_packing/boundary_checks.py",
+  "workstreams/B/triangle_packing/boundary_results.json",
+  "workstreams/B/triangle_packing/degeneracy_certificate.json",
+  "workstreams/B/triangle_packing/degeneracy_check.py",
+  "workstreams/B/triangle_packing/degeneracy_results.json",
+  "workstreams/B/triangle_packing/experiment.json",
+  "workstreams/B/triangle_packing/exploration.log",
+  "workstreams/B/triangle_packing/explore.py",
+  "workstreams/B/triangle_packing/phase_probe.json",
+  "workstreams/B/triangle_packing/phase_probe.py"
 ]

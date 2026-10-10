@@ -56,3 +56,12 @@
 - B now reserves arXiv:2603.25113v1 Section5 Problem1 and Conjecture2: 1-saturated subcubic graphs with g3=3, for packing sequences (1,2,3,3), (1,2,2,4), (2,2,2,2,4), and (1,2,3,4,5). This exact class is distinct from the completed 0-saturated g3<=4 result.
 - Gate, verification plan and stop condition: triangle_packing/SOURCE_GATE.md. No result yet. Next: bounded exact triangle-chain/necklace experiment, then certify a witness or derive a substantive transition restriction.
 - Role remains B's personal independent discovery; no new research agents. Preserve every frozen packet and all unknown files. ROOT's new Conjecture4.30 reservation is excluded.
+
+
+## New affirmative proof frozen, 2026-10-10 06:30 UTC
+
+- Exact active result: original Problem1 THIRD palette of arXiv:2603.25113v1, (2,2,2,2,4), proved by a stronger (2,2,2,2,r) construction for arbitrary positive r. Not a counterexample; other requested palettes and Conjecture2 still open here.
+- Frozen local source36f318fe815cbcb673cd6ef3225a6ef26cc3bb54; proofSHA25628901e98fd0c2eca8a89e7fe45da057ff334a49e15847fdbe795b51e9ea524bd.
+- Evidence: full structural and square-degeneracy proof; separate exact distance/elimination verifier; 2904 presentations +26 boundary fixtures PASS;3 negative controls rejected. Initial searches 2904+256 presentations per palette allSAT, no counterexample.
+- Phase: complete B self-review, publishing for independent acceptance. No new agents or Lean. Source and post-candidate novelty searches recorded, no firstness claim.
+- Next: independent acceptance belongs ROOT; B can pursue unresolved first/second palettes or Conjecture2 with a materially new construction, not blind enumeration. Preserve frozen proof and prior accepted packets.
