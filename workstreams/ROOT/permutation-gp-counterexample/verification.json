@@ -1,0 +1,204 @@
+{
+  "actual_compiler_log_sha256": "e36f5c1492cc5e286ae8206208fba568d7a455f3520b0d8dc96244abaa2c337a",
+  "actual_compiler_receipt_sha256": "1d557eb1513ad193c7f5d1ca91d361c9ab45bd2ec2ac53b0a743bf51e06eefeb",
+  "ai_assistance_disclosed": true,
+  "audits": 18,
+  "complete_original_fixed_counterexample_formalized": true,
+  "conjectured_value": 84,
+  "counterexample": true,
+  "declaration_axioms": [
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.selected_card"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.two_fresh"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.walk_length_at_least_three"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.five_walk"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.selected_general_position"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.general_position_iff_no_shortest_through"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.selected_no_shortest_through"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.permutation_counterexample"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.not_conjectured_upper_bound"
+    },
+    {
+      "axioms": [],
+      "declaration": "PermutationGP90.SimplePath.toWalk"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "PermutationGP90.SimplePath.supportNodup"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.walk_to_simple_path"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.selected_path_general_position"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.permutation_path_counterexample"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.SimplePath.split_walk"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.selected_original_general_position"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.permutation_original_counterexample"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "PermutationGP90.not_original_conjectured_upper_bound"
+    }
+  ],
+  "discovery_packet": {
+    "certificate_sha256": "d7989f129d3bacbd54928b518cba64c5607a6e93968e1cef5f819c159d6d44a3",
+    "commit": "e6ff18129aadad59150473c2e5faca16c5435d42",
+    "proof_sha256": "6d4d128f753600bbb43783ca9c7ecf42b2c1e64eb301099fe78d291aa635d8d1",
+    "stream": "B"
+  },
+  "end_utc": "2026-10-10T05:46:54.6485770+00:00",
+  "errors": 0,
+  "exact_maximum_determined": false,
+  "exit_code": 0,
+  "expected_audits": 18,
+  "fixed_parameters": {
+    "alphabet_size": 9,
+    "d": 6,
+    "k": 3
+  },
+  "historical_originality_established": false,
+  "independent_exact_verifier": {
+    "arcs": 3024,
+    "bfs_rows": 504,
+    "geodesic_violations": 0,
+    "negative_controls_rejected": 2,
+    "receipt": "verify_independent.json",
+    "receipt_sha256": "a172e425b7f3caefe90760b6fa73e0f67d7e16d550676991e7f4c75ac22508e3",
+    "script": "verify_independent.py",
+    "script_sha256": "e55ef2ee7d502e44ee96383c44072b48c6ead2914c58c2cd8ff6fd477af716ae",
+    "selected_ordered_distinct_triples": 704880,
+    "selected_ordered_pairs": 8010,
+    "status": "PASS",
+    "vertices": 504
+  },
+  "independent_statement_review": {
+    "human_peer_review_claimed": false,
+    "review_sha256": "211e54ffa05c2742ca3e83f6360f4c3578fd8ef8fc3e52ef2559ceef6f110dbc",
+    "reviewed_source_sha256": "ec05b83390da70ca7c5e46d5eda3d24d282028c5ed6a38c35363399220e05f2a",
+    "scope": "Original graph, selected set and every shortest simple path; actual ROOT3 compiler log and all 18 axiom declarations checked independently.",
+    "second_compilation_claimed": false,
+    "status": "PASS"
+  },
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "minimal_counterexample_determined": false,
+  "nonstandard_axioms": [],
+  "original_path_definition": "Definition 2.1; all shortest directed paths, distinct vertices",
+  "original_statement": "arXiv:2604.15909v1, unnumbered exactness conjecture after Theorem 3.6, Section 3.3",
+  "panics": 0,
+  "paper_authorship_confirmed": false,
+  "pass": true,
+  "source": "PermutationGP90.lean",
+  "source_after_sha256": "ec05b83390da70ca7c5e46d5eda3d24d282028c5ed6a38c35363399220e05f2a",
+  "source_sha256": "ec05b83390da70ca7c5e46d5eda3d24d282028c5ed6a38c35363399220e05f2a",
+  "start_utc": "2026-10-10T05:46:40.1120630+00:00",
+  "status": "PASS",
+  "universal_parameter_family_formalized": false,
+  "universal_parameter_written_review": "PASS",
+  "warnings": 0,
+  "witness_cardinality": 90
+}
