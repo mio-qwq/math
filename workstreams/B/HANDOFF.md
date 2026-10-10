@@ -484,3 +484,17 @@ Read two_saturated_12222/BROOKS_ROUTE_OBSTACLE.md, then run:
     python workstreams/B/two_saturated_12222/verify_brooks_obstacle.py
 
 It independently enumerates all4096 vertex subsets and confirms226 independent sets, minimum remaining ORIGINAL-square maximum degree5, while validating an original12222 coloring. Pending independent review. This does not refute the original conjecture. Discovery MILP is not a trusted dependency. See kautz_length4/FIVE_LETTER_STOP.md for the separate20-second inconclusive optimization; do not treat its numerical bound as exact or rerun it as an acceptance requirement. Existing frozen full-proof bytes are unchanged.
+
+### Receipt of independent mathematical acceptance
+
+Read coordination card abd8e85628b1348f250c5d5c46a5450caae2876d at10:10UTC. Three complete positive packets are now independently accepted as written mathematics: d6238ac Conjecture6,44c1ec Ka(m,3), and b49a74f9 triangle_packing/FIVE_PROOF.md original Conjecture2 (exact hash808ff9c3c60a9b4a8663bb8a4f8c7af4d4aac6374decb3d7b6dd7377d33f1a20). Preserve their frozen contents; earlier pending wording inside frozen files is historical. This does not confer universal Lean or priority certification. The separate15470c9 August12222 full corollary is received and under review only.
+
+### Ka4 universal upper-bound candidate, 10:16 UTC
+
+Review kautz_length4/UPPER_BOUND.md and run:
+
+    python workstreams/B/kautz_length4/verify_upper_bound.py
+
+The original problem remains exact Ka(m,4) for arbitrary m. New conclusion is an explicit all-m>=6 upper bound with leading coefficient1/3, not another template maximum. Check: odd overlaps are impossible for symbol-disjoint ordered pairs; even overlaps give exact scaling by2; a random permutation includes any specified ordered pair of blocks with probability t(t-1)/(m)_4; repeated-letter remainder is exactlym(m-1)(3m-5). The two-letter bound is attributed to sourceTheorem3.4 but proved here without its finite base assumptions. All earlier frozen accepted/candidate bytes unchanged. No independent-review or Lean claim for this new partial theorem.
+
+Separate two_saturated_12222/DEGENERACY_ROUTE_OBSTACLE.md and verify_degeneracy_obstacle.py certify why3-degeneracy after independent deletion is also too strong. The15vertex original graph is colorable; this must not be reported as a fourth original counterexample. Do not repeat the failed routes merely to increase evidence.

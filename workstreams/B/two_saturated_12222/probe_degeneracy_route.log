@@ -1,0 +1,37 @@
+{"core": "K4", "vertices": 6, "matching": [[0, 1], [2, 3]], "best_degeneracy": 3, "independent_sets_tested": 4}
+{"core": "K4", "vertices": 6, "matching": [[0, 2], [1, 3]], "best_degeneracy": 3, "independent_sets_tested": 4}
+{"core": "K4", "vertices": 6, "matching": [[0, 3], [1, 2]], "best_degeneracy": 3, "independent_sets_tested": 4}
+{"core": "K33", "vertices": 9, "matching": [[0, 3], [1, 4], [2, 5]], "best_degeneracy": 3, "independent_sets_tested": 27}
+{"core": "K33", "vertices": 9, "matching": [[0, 3], [1, 5], [2, 4]], "best_degeneracy": 3, "independent_sets_tested": 27}
+{"core": "K33", "vertices": 9, "matching": [[0, 4], [1, 3], [2, 5]], "best_degeneracy": 3, "independent_sets_tested": 27}
+{"core": "K33", "vertices": 9, "matching": [[0, 4], [1, 5], [2, 3]], "best_degeneracy": 3, "independent_sets_tested": 27}
+{"core": "K33", "vertices": 9, "matching": [[0, 5], [1, 3], [2, 4]], "best_degeneracy": 3, "independent_sets_tested": 27}
+{"core": "K33", "vertices": 9, "matching": [[0, 5], [1, 4], [2, 3]], "best_degeneracy": 3, "independent_sets_tested": 27}
+{"core": "cube", "vertices": 12, "matching": [[0, 1], [2, 3], [4, 5], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 24}
+{"core": "cube", "vertices": 12, "matching": [[0, 1], [2, 3], [4, 6], [5, 7]], "best_degeneracy": 3, "independent_sets_tested": 175}
+{"core": "cube", "vertices": 12, "matching": [[0, 1], [2, 6], [3, 7], [4, 5]], "best_degeneracy": 3, "independent_sets_tested": 175}
+{"core": "cube", "vertices": 12, "matching": [[0, 2], [1, 3], [4, 5], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 175}
+{"core": "cube", "vertices": 12, "matching": [[0, 2], [1, 3], [4, 6], [5, 7]], "best_degeneracy": 3, "independent_sets_tested": 24}
+{"core": "cube", "vertices": 12, "matching": [[0, 2], [1, 5], [3, 7], [4, 6]], "best_degeneracy": 3, "independent_sets_tested": 175}
+{"core": "cube", "vertices": 12, "matching": [[0, 4], [1, 3], [2, 6], [5, 7]], "best_degeneracy": 3, "independent_sets_tested": 175}
+{"core": "cube", "vertices": 12, "matching": [[0, 4], [1, 5], [2, 3], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 175}
+{"core": "cube", "vertices": 12, "matching": [[0, 4], [1, 5], [2, 6], [3, 7]], "best_degeneracy": 3, "independent_sets_tested": 24}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 1], [2, 3], [4, 5], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 24}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 1], [2, 6], [3, 7], [4, 5]], "best_degeneracy": 3, "independent_sets_tested": 68}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 4], [1, 2], [3, 7], [5, 6]], "best_degeneracy": 3, "independent_sets_tested": 52}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 4], [1, 5], [2, 3], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 40}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 4], [1, 5], [2, 6], [3, 7]], "best_degeneracy": 3, "independent_sets_tested": 114}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 7], [1, 2], [3, 4], [5, 6]], "best_degeneracy": 3, "independent_sets_tested": 24}
+{"core": "Wagner", "vertices": 12, "matching": [[0, 7], [1, 5], [2, 6], [3, 4]], "best_degeneracy": 3, "independent_sets_tested": 84}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 1], [2, 3], [4, 9], [5, 6], [7, 8]], "best_degeneracy": 3, "independent_sets_tested": 104}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 1], [2, 7], [3, 4], [5, 6], [8, 9]], "best_degeneracy": 3, "independent_sets_tested": 80}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 1], [2, 7], [3, 8], [4, 9], [5, 6]], "best_degeneracy": 3, "independent_sets_tested": 248}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 4], [1, 2], [3, 8], [5, 9], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 136}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 4], [1, 6], [2, 3], [5, 9], [7, 8]], "best_degeneracy": 3, "independent_sets_tested": 104}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 4], [1, 6], [2, 7], [3, 8], [5, 9]], "best_degeneracy": 3, "independent_sets_tested": 232}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 5], [1, 2], [3, 4], [6, 7], [8, 9]], "best_degeneracy": 3, "independent_sets_tested": 80}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 5], [1, 2], [3, 8], [4, 9], [6, 7]], "best_degeneracy": 3, "independent_sets_tested": 356}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 5], [1, 6], [2, 3], [4, 9], [7, 8]], "best_degeneracy": 3, "independent_sets_tested": 232}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 5], [1, 6], [2, 7], [3, 4], [8, 9]], "best_degeneracy": 3, "independent_sets_tested": 232}
+{"core": "pentagonal_prism", "vertices": 15, "matching": [[0, 5], [1, 6], [2, 7], [3, 8], [4, 9]], "best_degeneracy": 3, "independent_sets_tested": 473}
+{"core": "Petersen", "vertices": 15, "matching": [[0, 1], [2, 3], [4, 9], [5, 7], [6, 8]], "best_degeneracy": 4, "independent_sets_tested": 882}
