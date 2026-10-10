@@ -105,3 +105,43 @@ These exhaustive-per-*instance* and randomized-across-*instances* tests are **fa
 **ROOT reviewer action:** Review the ten specific potential gaps in the last section of `mizzi_v3_asymmetric_full_proof.md`; independently reproduce the odd-order TF group reduction, the quotient bipartite contradiction (especially edges incident with alpha-fixed points), the unequal-length gcd edge orbit, invertibility of the cyclic equations, and the disjoint 2k lift. Then assess historical originality in Bychawski and other earlier sources. If something fails, issue a *specific failing definition or counterexample*, rather than silently classifying it as a confirmed solution. If accepted, ROOT owns publication/signing/integration; **do not touch the frozen source**. Connector commits on this branch were not signed; signing is not falsely asserted.
 
 **Continuation without waiting:** After this third packet is frozen, C may explore a mathematically distinct mechanism in the CDC/TF space after reviewing new claims and source versions, but should **not** rerun the now-closed uniform-odd family, assign a numbered 007/008, or edit other workers' areas. No direct messaging, PR, merge, forced update, manuscript submission or author outreach has occurred.
+
+
+## Fourth frozen packet (2026-10-10): shorter proof, cycle multiplicity, two exact independent checkers
+
+This is **not a new public counterexample** or external acceptance. It strengthens and simplifies the existing C Mizzi v3 **second / asymmetric-unstable** proof, while preserving its frozen full source. The source's *first TF-cousin-pair clause* remains outside this packet.
+
+**Frozen pre-handoff SHA:** `70207207631c566f7a3befd20697708409bb2b6a` on `partner/dist-C`. The earlier complete theorem remains frozen at `4bc49fe18c725b48cac442fe0ba78ddb8cfafb10`. Neither is overwritten.
+
+### Mathematical contents
+
+- `mizzi_v3_short_proof.md`: complete short route from the exact original hypotheses. Starting with arbitrary nontrivial TF automorphism (p,q), use the **2011 Lauri–Mizzi–Scapellato Proposition 3.1** to derive (gamma,gamma^-1), gamma=pq^-1 !=id, and **Proposition 3.3** to see gamma must have odd order in an asymmetric graph (even order gives diagonal nontrivial graph automorphism). The nonfixed-orbit quotient is nonbipartite, or plus/minus alpha on its color classes would furnish an ordinary graph automorphism; select a simple odd quotient cycle. The odd cyclic CRT lift yields disjoint C_k and C_(2k). This avoids a nonessential full finite-group proof. **Bychawski 2024 Theorem 6.2** already establishes stronger TF-group/order and orbit-empty facts: no originality claim for that part.
+- `mizzi_cycle_bundle_extension.md`: a separate exact strengthening of the final lift. If the selected odd quotient cycle has orbit sizes m_j>=3, each odd, and M=min m_j, then **one C_k + (M-1)/2 pairwise vertex-disjoint C_(2k)** exist in G. For uniform m_j=M, the cycles span all vertices of those k orbits. Proof selects edge-sum residues, solves the unique modulo-L odd cyclic linear system, and simultaneously uses shifts 0 and ±1,±2,...±(M-1)/2. Independence of all cycles follows because these M shifts remain distinct modulo every m_j.
+
+### Raw exact 29-node conditional illustration
+
+- Literal graph: `cycle_bundle_example.json`, **29 vertices**, **105 edges**, alpha orbit sizes **5,9,15**. Its graph need not be asymmetric and is *not* a full original-source witness.
+- Checker: `verify_mizzi_cycle_bundle.py`, rebuilds adjacency from raw edge list, verifies 29² TF biconditional checks, selected edge orbits, congruences and all three disjoint cycles (C3+C6+C6). **5 negative tests** deliberate corruption rejected.
+- Actual run: `python3 verify_mizzi_cycle_bundle.py` from `workstreams/C` on CPython 3.13.5 Linux → PASS; residues [0,1,2], cyclic solution [23,22,24] mod45, cycles [3,9,23], [4,8,24,2,10,22], [0,7,25,1,11,21].
+- SHA256 JSON `ddca4857552e4121a1946c2769c66f36d743f15c8bd6f4fcfb9ae17b67e3935c`, checker `5e80c864e68a33ac0ff2388aafda6e32d66c01884e88c2f83bc83058b91ee32d`. Git blobs `b7f3209e0c5738ae6692a399c4c22fd8127a7faa` and `fb94d5ac61614c6a14a2062f1fbb2b6afc2372a9` respectively. Published remote bytes match executed local source exactly.
+
+### Raw exact 20-node asymmetric/unstable illustration (STRONGER)
+
+- Literal graph: `asymmetric_order5_bundle_raw.json`, **20 vertices**, **80 edges**, alpha made of four 5-cycles. **Actual original hypotheses**: connected, nonbipartite, vertex-determining, **asymmetric** (ordinary automorphism group trivial), **unstable** (explicit nontrivial TF pair). Witness has three **vertex-disjoint** actual cycles: C3=[0,5,11], C6a=[1,9,12,4,6,10], C6b=[2,8,13,3,7,14].
+- Checker: `check_asymmetric_bundle20.py`, **standard library only, independent of the networkx discovery**. Audits 20² ordered TF conditions, simple graph, connectedness, nonbipartiteness, vertex determination, and every cycle edge/disjointness. Asymmetry proved by **20 distinct isomorphism-invariant colors** after **3 rounds** of color refinement seeded by degree and triangle count; any automorphism preserves all colors and therefore fixes every vertex. This is a complete asymmetry certificate, not a heuristic sampling of automorphisms.
+- Actual run: `python3 check_asymmetric_bundle20.py` (CPython 3.13.5 Linux) → PASS; **five corrupt-input negative tests rejected** (edge removal, broken permutation, cycle overlap, loop, duplicated edge).
+- SHA256 JSON `270861042814e3d94b7b98640b9ae59d5541d88e6c5d0eb2fbf5cf9d0be222e4`, checker `217b43fe53c701944bc849905625c086e7aefdd85c39ade4827754cab3d360e3`. Git blobs `719b3af7268b97dbc27f22c116fc34a2921e520a` and `d9713cbd8a5cbf049d822ce16f2b0704cbec8ff4`. Remote bytes matched executed local files exactly.
+
+### Independent rerun commands
+
+From repo root:
+
+    cd workstreams/C
+    python3 verify_mizzi_cycle_bundle.py
+    python3 check_asymmetric_bundle20.py
+    python3 -m py_compile verify_mizzi_cycle_bundle.py check_asymmetric_bundle20.py
+    sha256sum cycle_bundle_example.json verify_mizzi_cycle_bundle.py asymmetric_order5_bundle_raw.json check_asymmetric_bundle20.py
+
+**What ROOT must still do:** (a) independently reconstruct original v3 second-clause definitions and compare the 2011/2024 prior group lemmas; (b) audit the quotient bipartition contradiction with alpha-fixed vertices and the inverse TF edge action; (c) audit the generalized CRT and odd cyclic equation with unequal sizes; (d) audit the multi-shift disjointness; (e) optionally run fresh independent graph checker/Lean semantic bridge and ascertain **historical novelty**. No independent ROOT acceptance for this Mizzi packet, no Lean compilation of the universal theorem, no human peer review, no paper submission or author contact is claimed. ROOT retains integration authority.
+
+**Continue, not blindly enumerate:** This mechanism now has both universal written proof and asymmetric original-hypotheses witness; larger sizes in the same family are low priority unless a specific gap is found. Any truly new public target needs a **fresh literature source gate + public reservation** without colliding with ROOT/A/B, and may require authorization if outside C's assigned topic. Do not change main, prior frozen SHA or other workers' files, and never force-push.
