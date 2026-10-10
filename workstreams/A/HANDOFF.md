@@ -223,3 +223,29 @@ Both exact GitHub source files were re-extracted from a portable ZIP into a NEW 
 **Lean boundary:** Actual Mathlib source at pinned d13f23... contains \`Finset.all_card_le_biUnion_card_iff_existsInjective'\`, so the Hall proof maps to an existing kernel-verified theorem. \`formal/HallBridge.lean\` is an UNCOMPILED minimal wrapper only. \`formal/HALL_LEAN_PLAN.md\` is a genuine proof-obligation outline, no completed source of the full theorem. No local Lean/Lake/Elan; no paid remote job was run. Do not claim compiled theorem or \`#print axioms\`.
 
 Do not modify main/other streams, merge, submit, contact authors, or set a scheduled recurring task. Future best direction is actual compiler availability plus full Hall-cardinality Lean formalization; do not enlarge unrelated enumerations merely to inflate checks.
+
+
+## New Eulerian balanced partitions packet — quantitative stronger root certificate
+
+Mathematical statement (new, ROOT mathematical review PENDING): For *any* two partitions P,S of one finite set X, allowing singletons, there is a red-blue 2-colouring with count discrepancy ≤1 in each block of BOTH partitions. The classical balanced-orientation proof adjoins a dummy vertex to every odd-degree vertex in the labelled bipartite incidence multigraph, orients each Eulerian tour, removes the dummy edges and converts each P→S oriented edge to red and S→P to blue.
+
+**Original Conjecture 10 connection:** If each block has size≥2, one red choice per P block gives a transversal R with ≥floor(|S_j|/2) **unchosen blue witnesses** per S block. Taking S as Q's connected-component partition proves the original component-avoidance lemma (Q has no isolates). This result does not change the root ordering or single-global-edge-order cases, and is NOT a replacement of the independently accepted original mathematical freeze SHA 7168f6df66ba5518cd3420c4668eab5352e4be8c. Historical novelty is not claimed (Euler orientation is classical).
+
+**Frozen mathematical/procedural sources:**
+- proof/BALANCED_TWO_PARTITIONS.md (published at commit c24af31eb76da0af2e61a67021377542bf00d4a1)
+- proof/BALANCED_SHARPNESS.md (published at commit f793608989c4bdc009e22ebe06117db4868da344)
+- code/balanced_partitions.py, Git blob 3cb72e2517c5004014063de166129a1d07151ee0
+- code/verify_balanced_partitions.py, Git blob 0dcfe750e273ccf96447f988c6d0fdbd3eb9ee1d
+- code/verify_balanced_sharpness.py, Git blob 13a57f50c3c72bc700b15f2edab6ef146cc7027a
+- reviews/BALANCED_PARTITION_REPLAY.md (source-bound receipt, commit af8123dde98f99d02c3ab7cad9521db77a2c5909)
+
+**Run with Python 3.13.5, standard library only, from repo root:**
+
+    python3 workstreams/A/code/verify_balanced_partitions.py
+    python3 workstreams/A/code/verify_balanced_sharpness.py
+
+Actual clean-extraction run against ALL exact three remote Git blob codes passed: 44,169 exhaustive pairs of set partitions n≤6, 2,738 larger seeded pairs n=7..80, 100k element stress, negative controls, and four-element K4 impossibility of extending to three arbitrary partitions (16 assignments). The ZIP at /mnt/data/agent_A_balanced_partitions_20261010.zip is 10,358 bytes, SHA256 9bce2af9f7588e656ddf04d841f568f53f5cf092aae8f78bb26bcb2245456c35. All three source hashes, actual stdout and fresh-extract instructions are documented in BALANCED_PARTITION_REPLAY.md. Files in ZIP are a portable conversation artifact, not a GitHub signed Release.
+
+**External audit route:** 1. Check odd-degree dummy augmentation and evenness of the artificial vertex's degree. 2. Check Euler tour edge orientation on a multigraph with parallel edges and disconnected components. 3. Check removing one dummy edge leaves each original imbalance ≤1. 4. Confirm red edge direction means outedge at P and inedge at S and gives literal original block counts. 5. Confirm the quantitative ≥floor(|S_j|/2) blue witness bound after picking one red element per P. 6. Review the K4 three-partition sharpness and singleton lower bound. 7. Verify exact shipped scripts and source SHA. All original-source assumptions, graph-colour quantifiers and attribution remain unchanged.
+
+**Lean decisions:** Lean/Lake/Elan unavailable in current container; no actual compiler or axioms audit and no Lean theorem claimed. The earlier Hall-based two-partition proof has an explicit match to the pinned Mathlib finite Hall theorem and remains the shortest recommended first formalization; the Eulerian balance theorem is an optional strengthening once finite multigraph Euler tours are available. No extra agent dispatch, paid remote compute, arbitrary project number, submission, author contact, merge or scheduled automation.
