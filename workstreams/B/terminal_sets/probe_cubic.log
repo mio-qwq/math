@@ -1,0 +1,12 @@
+{"order": 12, "accepted": 20, "trials": 224, "stats": {"WITNESS": 20}, "max_nodes": 19, "seconds": 0.016643331000523176}
+{"order": 14, "accepted": 20, "trials": 215, "stats": {"WITNESS": 40}, "max_nodes": 19, "seconds": 0.04027614100050414}
+{"order": 16, "accepted": 20, "trials": 165, "stats": {"WITNESS": 60}, "max_nodes": 19, "seconds": 0.07347700500031351}
+{"order": 18, "accepted": 20, "trials": 183, "stats": {"WITNESS": 80}, "max_nodes": 49, "seconds": 0.12189139000111027}
+{"order": 20, "accepted": 20, "trials": 135, "stats": {"WITNESS": 100}, "max_nodes": 49, "seconds": 0.18078275200241478}
+{"order": 22, "accepted": 20, "trials": 151, "stats": {"WITNESS": 120}, "max_nodes": 49, "seconds": 0.2604386950006301}
+{"order": 24, "accepted": 20, "trials": 151, "stats": {"WITNESS": 140}, "max_nodes": 49, "seconds": 0.35925063800095813}
+{"order": 26, "accepted": 20, "trials": 156, "stats": {"WITNESS": 160}, "max_nodes": 75, "seconds": 0.49957415900280466}
+{"order": 28, "accepted": 20, "trials": 134, "stats": {"WITNESS": 180}, "max_nodes": 163, "seconds": 0.6498762810006156}
+{"order": 30, "accepted": 20, "trials": 159, "stats": {"WITNESS": 200}, "max_nodes": 163, "seconds": 0.8378135839993774}
+{"order": 32, "accepted": 20, "trials": 213, "stats": {"WITNESS": 220}, "max_nodes": 163, "seconds": 1.0606025030028832}
+{"status": "DIAGNOSTIC_COMPLETE", "graphs": 220, "stats": {"WITNESS": 220}, "witness_sizes": {"3": 13, "4": 39, "5": 67, "6": 66, "2": 2, "7": 27, "8": 6}, "seconds": 1.0723017510026693}

@@ -1,0 +1,4 @@
+{"core_order": 4, "stats": {"WITNESS": 20}, "max_nodes": 12, "seconds": 0.006134892999398289}
+{"core_order": 5, "stats": {"WITNESS": 49}, "max_nodes": 39, "seconds": 0.033893381001689704}
+{"core_order": 6, "stats": {"WITNESS": 79}, "max_nodes": 39, "seconds": 0.10618559599970467}
+{"status": "DIAGNOSTIC_COMPLETE", "graphs": 79, "stats": {"WITNESS": 79}, "seconds": 0.11046897499909392}

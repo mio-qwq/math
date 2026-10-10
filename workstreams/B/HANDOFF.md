@@ -1,3 +1,7 @@
+## Terminal diagnostic pause and next reservation, 2026-10-10 11:01UTC
+
+Terminal_sets/ROUTE_STOP.md records three attempted mechanisms, all unsuccessful at resolving the original terminal-set existence conjecture. The299finite positive witnesses have an independent-algorithm self-check, not a reviewer or universal result. Run python workstreams/B/terminal_sets/verify_witnesses.py. The same-paper lower-GP product inequality is separately reserved in lower_gp_product/SOURCE_GATE.md; no candidate yet.
+
 ## Separate detour-route limitation, 2026-10-10 10:53UTC
 
 Read detour_bound/ROUTE_STOP.md. The12vertex graph refutes only the stronger every-longest-path inference, not the original dir<=n-D+1 bound. Exactdir=3,bound3. Replay python workstreams/B/detour_bound/verify_obstruction.py ; actual independent-algorithm self-check PASS,495four-sets rejected,2controls. No external review implied. Three diagnostic mechanisms are paused with concrete restart conditions; do not merge this into the original-counterexample count.

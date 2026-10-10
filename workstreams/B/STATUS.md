@@ -1,3 +1,9 @@
+# B active question — 2026-10-10 11:01UTC
+
+- Reserve lower_gp_product: original preprintConjecture2.10 / final2025Conjecture3, lower-GP Cartesian-product inequality. Source and ownership gates read; no result yet. Initial target: factors with lowerGP>=4 and a maximal product GP triple.
+- Terminal-set search paused after cubic, subdivision and hull-potential mechanisms; original existence conjecture unresolved. Separate Floyd-Warshall checker passes299positive witnesses,3977triples,5042outside checks,1control. These finite positives are not a new theorem. Raw hull-route failure is not independently certified.
+- Exact detour route limitation frozen9a6ab88, original numerical bound unresolved. Original15vertex-order circulant nonexistence frozen6022d2b remains the latest genuine original-conjecture counterexample candidate, pending independent review.
+
 # B active reservation — 2026-10-10 10:54UTC
 
 - Terminal-set existence: Kruft Welton–Khudairi–Tuite preprintConjecture3.3 / final2025Conjecture6. Source gate and exact definitions in terminal_sets/SOURCE_GATE.md. No result yet; first original-distance diagnostic targets nonbipartite cubic graphs with diameter>=4 and order>=12, avoiding known covered families.
