@@ -13,6 +13,6 @@ Checked points:
 
 Actual commands and results are in regression.log and check_matched_family.log. The first regression had zero accepted random leaf attachments (the attempted additions violated the heavy condition); explicit admissible pendant/disconnected fixtures were then added and the whole suite rerun. No coverage is inferred from rejected fixtures.
 
-Earlier odd-cycle discovery was stopped after the full matched-heavy family acquired an all-length proof. Its log retains SAT and UNKNOWN checkpoints; unlogged partially processed cases and planned later modes are not counted as completed. The universal proof supersedes this search mechanism without pretending timed-out computations finished.
+Correction recorded in RUN_COMPLETION.md: a termination request was mistakenly treated as a completed stop. The original process actually ran to exit0, with485 SAT and235 UNKNOWN across720 presentations. Its final log was read after the proof freeze. The universal proof supersedes that search mechanism, but the timed-out computations remain UNKNOWN. Proof and constructor bytes are unchanged.
 
 Pending: independent review, prior-art/human review, and optional full-statement formalization. No signed publication, Lean, minimality or world-first assertion by B. Proof changes after freeze must receive a new version.

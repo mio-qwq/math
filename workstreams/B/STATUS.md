@@ -162,3 +162,7 @@ Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d7
 - Earlier search timeouts are retained as UNKNOWN; proof development replaced the covered search, not a retrospective claim of completed computation. Next: freeze/publish and replay a clean archive. Preserve original Conjecture3 refutationfadb2d4 and all earlier proof bytes.
 
 Conjecture6 frozen local source: 964fd526fcfac35c2397a71c44bfe8401d2560c1. Construct SHA256cf85e84a0fd3822c00cf41feafc67193edb2c729ae0f97a817e8fb9e40560f9e; original verifier SHA256ba24c26908933c628ae5a969153ac49e58398a4e65698b7cdc25e34e31872c32.
+
+## Execution-accounting correction, 2026-10-10 07:35 UTC
+
+The exploration process was not terminated by the earlier stop request; its original session now confirms exit0 with485 SAT/235 UNKNOWN. See heavy_triangle_112/RUN_COMPLETION.md. The frozen full proof d6238ac, constructor, independent verifier and regression bytes are unchanged. A new metadata/log revision preserves this correction explicitly.

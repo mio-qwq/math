@@ -346,3 +346,5 @@ Conjecture4 bounded route is now paused without resolution; see two_saturated_12
 Active next exact scope: original Conjecture6, (3,0)-saturated triangle-local graphs and (1,1,2); see heavy_triangle_112/SOURCE_GATE.md. No result yet.
 
 Conjecture6 frozen local source: 964fd526fcfac35c2397a71c44bfe8401d2560c1. Construct SHA256cf85e84a0fd3822c00cf41feafc67193edb2c729ae0f97a817e8fb9e40560f9e; original verifier SHA256ba24c26908933c628ae5a969153ac49e58398a4e65698b7cdc25e34e31872c32.
+
+Execution accounting correction: heavy_triangle_112/RUN_COMPLETION.md records the confirmed final exploratory-process result. It corrects an earlier stop assumption, without changing frozen proof/constructor/regression bytes atd6238ac.

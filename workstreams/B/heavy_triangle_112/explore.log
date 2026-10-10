@@ -21,3 +21,5 @@ sparseheavy 10 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parit
 sparseheavy 12 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 150}
 sparseheavy 16 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 162, "sparseheavy:UNKNOWN": 18}
 sparseheavy 20 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 171, "sparseheavy:UNKNOWN": 39}
+sparseheavy 30 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 171, "sparseheavy:UNKNOWN": 69}
+FINAL {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 171, "sparseheavy:UNKNOWN": 69}

@@ -1,0 +1,5 @@
+# Discovery-process accounting correction — 2026-10-10 07:35 UTC
+
+The earlier command requesting termination of the exploratory process did not in fact terminate it. B incorrectly treated that request as a completed stop in B_SELF_REVIEW.md. Polling the original execution session now returned exit0 and a final log: short158 SAT/82 UNKNOWN, parity156 SAT/84 UNKNOWN, sparseheavy171 SAT/69 UNKNOWN, totaling485 SAT and235 UNKNOWN across720 presentations. No UNSAT was found.
+
+The mathematical work switched to the structural proof while this obsolete computation continued. The process is now confirmed finished; there is no active search to stop. The final two log lines arrived after the proof freeze, so this is a new metadata/log revision, not a silent change to the frozen object. PROOF.md, construct.py, verify_original.py, regression.py and regression.log are unchanged. The full proof does not depend on the discovery run, and timed-out instances remain UNKNOWN as computations. This correction changes no theorem, hypothesis, regression result or review status.
