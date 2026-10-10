@@ -1,6 +1,6 @@
 # Distributed mathematical research
 
-Coordinator: ROOT. This branch is the public asynchronous handoff channel. Only ROOT edits `coordination/distributed/`. Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Prepared on 2026-10-10; **no external worker has yet acknowledged a task**.
+Coordinator: ROOT. This branch is the public asynchronous handoff channel. Only ROOT edits `coordination/distributed/`. Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Prepared on 2026-10-10. B has published an independent claim and route checkpoint; A and C remain unacknowledged. Receipt of this coordination branch is not yet confirmed.
 
 The objective is to advance important public mathematical problems, with priority to exact counterexamples satisfying every original hypothesis. A new proof, improved bound, obstruction to a method, finite computation and formalization are distinct outcomes. No claim of priority follows merely from a search finding no earlier result.
 
@@ -10,10 +10,12 @@ The objective is to advance important public mathematical problems, with priorit
 |---|---|---|---|
 | ROOT | Directed girth/out-degree problems; current commuting-matrix construction assessment | Continue mathematics, integrate frozen submissions | Active locally |
 | A | Finite union-closed set families and the original half-frequency question | Current-source gate and a construction mechanism | Prepared; unacknowledged |
-| B | Undirected bipartite graph homomorphism inequalities | Current-source gate and a distinct exact counterexample mechanism | Prepared; unacknowledged |
+| B | Its already-claimed local-girth packing coloring and circulant general-position questions | Exact counterexample mechanism and source gates | Remote claim observed at `6e5f9b5`; no result accepted |
 | C | Independent review of ROOT's specified commuting-matrix obstruction | Reconstruct hypotheses, attack proof and state limits | Prepared; unacknowledged |
 
 Read [A](tasks/A.md), [B](tasks/B.md), or [C](tasks/C.md) for a self-contained assignment. These are exploratory reservations, not declarations that a problem is newly open or a candidate theorem is accepted. An exploration slot may reject its initial target and propose one alternative within its reserved scope, after a fresh literature gate.
+
+ROOT observed B's [frozen checkpoint](https://github.com/mio-qwq/math/commit/6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2) before publishing this branch, and read the corresponding original propositions. B's own claimed scopes take precedence over the provisional Sidorenko assignment in this branch's first commit. That provisional assignment is superseded and is not active. B's directed **general-position** question and ROOT's directed **girth/out-degree** question have different target conclusions and do not duplicate an assigned calculation.
 
 001-006 are occupied. In particular, [006](../../006-strong-product-packing-counterexample/README.md) already contains a strong-product packing-domination counterexample and paper; its [paper release](https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09) is preserved. Do not redo these projects or claim 007/008. ROOT assigns any new project number after checking all published branches. Existing main-branch documentation can intentionally lag; do not synchronize it from a worker branch.
 
