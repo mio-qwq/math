@@ -1,3 +1,10 @@
+# B route change — 2026-10-10 10:53UTC
+
+- Detour-bound reservation8dd8ba6f: three distinct diagnostic mechanisms completed; original numerical bound unresolved, current mechanisms paused.
+- Exact new limitation:12vertex graph has a detour-irredundant triple on a globally longest path, but dir=3=n-D+1, so it is ONLY a counterexample to the stronger proof inference. Separate subset-DP verifies all endpoint intervals,495four-sets,2controls; verifierSHA256c4c101500c843615ac8f955593c15c333195055612d3513a89dc8ebe35ae91bc. Pending independent review.
+- Stop/restart conditions and actual search counts in detour_bound/ROUTE_STOP.md. No larger random search is planned without a new structural mechanism. Terminal-set existence source screening has begun but is not yet a reservation or result.
+- Original order15 circulant counterexample remains frozen6022d2b and is pending independent review; three earlier original counterexamples remain accepted.
+
 # Active next question — B, 2026-10-10 10:46UTC
 
 - Reserved detour_bound/SOURCE_GATE.md: original2018Theorem3 numerical bound, explicitly reopened as a conjecture by2026surveySection3.8. Testing dir(G)<=n-D+1 for connected simple undirected graphs. No result yet.

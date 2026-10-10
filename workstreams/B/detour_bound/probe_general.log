@@ -1,0 +1,10 @@
+{"status": "stage_done", "order": 6, "graphs": {"6": 300}, "path_states": 60370, "strong_obstructions": 0, "seconds": 0.04109079600311816}
+{"status": "stage_done", "order": 7, "graphs": {"6": 300, "7": 300}, "path_states": 144332, "strong_obstructions": 0, "seconds": 0.09071925100215594}
+{"status": "stage_done", "order": 8, "graphs": {"6": 300, "7": 300, "8": 300}, "path_states": 257306, "strong_obstructions": 0, "seconds": 0.16189632800160325}
+{"status": "stage_done", "order": 9, "graphs": {"6": 300, "7": 300, "8": 300, "9": 300}, "path_states": 402860, "strong_obstructions": 0, "seconds": 0.2257127760021831}
+{"status": "stage_done", "order": 10, "graphs": {"6": 300, "7": 300, "8": 300, "9": 300, "10": 300}, "path_states": 586412, "strong_obstructions": 0, "seconds": 0.31359159700150485}
+{"status": "stage_done", "order": 11, "graphs": {"6": 300, "7": 300, "8": 300, "9": 300, "10": 300, "11": 300}, "path_states": 811064, "strong_obstructions": 0, "seconds": 0.43949455200345255}
+{"status": "stage_done", "order": 12, "graphs": {"6": 300, "7": 300, "8": 300, "9": 300, "10": 300, "11": 300, "12": 300}, "path_states": 1084220, "strong_obstructions": 1, "seconds": 0.6170896660005383}
+{"status": "stage_done", "order": 13, "graphs": {"6": 300, "7": 300, "8": 300, "9": 300, "10": 300, "11": 300, "12": 300, "13": 300}, "path_states": 1398172, "strong_obstructions": 2, "seconds": 0.8922208510011842}
+{"status": "stage_done", "order": 14, "graphs": {"6": 300, "7": 300, "8": 300, "9": 300, "10": 300, "11": 300, "12": 300, "13": 300, "14": 300}, "path_states": 1762932, "strong_obstructions": 3, "seconds": 1.395492062001722}
+{"status": "NO_CANDIDATE_IN_WINDOW", "graphs": {"6": 300, "7": 300, "8": 300, "9": 300, "10": 300, "11": 300, "12": 300, "13": 300, "14": 300}, "path_states": 1762932, "strong_obstructions": 3, "seconds": 1.395603900000424}

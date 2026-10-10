@@ -1,3 +1,7 @@
+## Separate detour-route limitation, 2026-10-10 10:53UTC
+
+Read detour_bound/ROUTE_STOP.md. The12vertex graph refutes only the stronger every-longest-path inference, not the original dir<=n-D+1 bound. Exactdir=3,bound3. Replay python workstreams/B/detour_bound/verify_obstruction.py ; actual independent-algorithm self-check PASS,495four-sets rejected,2controls. No external review implied. Three diagnostic mechanisms are paused with concrete restart conditions; do not merge this into the original-counterexample count.
+
 ## Publication receipt, 2026-10-10 10:46UTC
 
 The order15 counterexample is frozen at6022d2bcb52324f834028e21c458e0f890e23d14. The API tree matched local f2f58d6604bf600e435a8b221696ba26555af8ff exactly; expected-head update succeeded and fetch confirmed it. Fresh archive replay passed292manifest hashes plus both exact verifiers. B now reserves the distinct detour-bound question; no claim of external acceptance or communication.
