@@ -325,3 +325,7 @@ Conjecture5 (2,2,2,2,3) on 2-saturated triangle-local graphs is newly reserved; 
 ## Subsequent route checkpoint and next target
 
 Conjecture5 is unresolved: see triangle_22223/RESULT.md and run its verify_obstacle.py for the exact failure of the one-exception route. Do not confuse this with the Conjecture3 refutation. B now reserves original Conjecture4 (also2024 Open problem2), palette(1,2,2,2,2), without local-girth restriction; two_saturated_12222/SOURCE_GATE.md. No new result yet.
+
+Conjecture4 bounded route is now paused without resolution; see two_saturated_12222/RESULT.md for1500 SAT presentations and the precise C5 obstruction to the naive construction. No additional original counterexample has been claimed.
+
+Active next exact scope: original Conjecture6, (3,0)-saturated triangle-local graphs and (1,1,2); see heavy_triangle_112/SOURCE_GATE.md. No result yet.

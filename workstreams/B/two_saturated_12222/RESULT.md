@@ -1,0 +1,7 @@
+# Screening checkpoint — original Conjecture4 unresolved
+
+Reservation cb7aa737 precedes computation. 1200 presentations spanning matching subdivisions, star/edge-cover subdivisions, mixed parity and general configuration-model cubic cores were all colorable. A further distinct forced-clique probe used subdivided matchings over disjoint C4, C5 or C7 components:100 presentations per cycle length, all colorable. Search limits were supported; none timed out. Counts are presentations, not nonisomorphic graphs or exhaustive classes.
+
+Structural information: if a perfect matching is subdivided once and all new vertices are assigned the radius-one color, then the original square induced on old vertices is the square of the residual two-factor plus the matching edges. A C5 component of that two-factor induces K5 and prevents using only four remaining colors. Therefore the naive all-subdivision-vertices independent class cannot be universal. The original conjecture can still hold by moving original vertices into that class; all tested C5 assemblies did so. No original counterexample, proof or novelty claim results.
+
+Do not enlarge unchanged random sampling. Resume only with an exact independent-class surgery theorem handling C5 blocks and mixed connector lengths, or a new forcing mechanism. Discovery scripts import the earlier frozen solver and do not constitute independent acceptance. No separate certificate is needed for an asserted general result because none is asserted. All previous successful packets remain frozen.

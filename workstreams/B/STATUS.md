@@ -142,3 +142,13 @@ Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d7
 - B reserves arXiv:2603.25113v1 Section5 Conjecture4, also Mortada–Togni2024 Open problem2: all2-saturated subcubic graphs, palette(1,2,2,2,2), no local-girth bound.
 - Source/noncollision gate two_saturated_12222/SOURCE_GATE.md. No result yet. Search partial cubic subdivisions; certify via independent-set deletion from the original square, not the square after deletion.
 - Conjecture5 remains unresolved; route paused with a precise restart condition and self-checked restricted obstacle. Previous successful packets remain frozen.
+
+## Conjecture4 bounded route stop, 2026-10-10 07:18 UTC
+
+- 1200 partial-subdivision presentations and300 forced-C4/C5/C7 two-factor presentations allSAT; no original result. Exact counts/limitations in two_saturated_12222/RESULT.md.
+- C5 blocks rule out assigning every subdivision vertex to the independent color. A new independent-class surgery or forcing argument is needed; unchanged random sampling is paused. No inference that the conjecture is true.
+
+## Next distinct boundary reservation, 2026-10-10 07:19 UTC
+
+- B reserves original Section5 Conjecture6 of arXiv:2603.25113v1: (3,0)-saturated, every degree-three vertex on a triangle, palette(1,1,2). The additional heavy-vertex interfaces distinguish this from original Conjecture3 and the known 2-saturated triangle theorem.
+- Source gate heavy_triangle_112/SOURCE_GATE.md; no result yet. Matched direct two-port-triangle interfaces create permitted isolated heavy vertices. Prior routes4/5 remain paused with explicit limitations, not silently discarded.

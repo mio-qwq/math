@@ -23,6 +23,7 @@
   "workstreams/B/circulant/search.jsonl",
   "workstreams/B/circulant/search.py",
   "workstreams/B/circulant/verify_lemma.py",
+  "workstreams/B/heavy_triangle_112/SOURCE_GATE.md",
   "workstreams/B/literature/circulant_status_check_2026-10-10.md",
   "workstreams/B/packing_extension/B-direct-definition-receipt.json",
   "workstreams/B/packing_extension/B-self-check.json",
@@ -138,5 +139,10 @@
   "workstreams/B/two_saturated_112/search.py",
   "workstreams/B/two_saturated_112/verify_candidate.log",
   "workstreams/B/two_saturated_112/verify_candidate.py",
-  "workstreams/B/two_saturated_12222/SOURCE_GATE.md"
+  "workstreams/B/two_saturated_12222/RESULT.md",
+  "workstreams/B/two_saturated_12222/SOURCE_GATE.md",
+  "workstreams/B/two_saturated_12222/explore.log",
+  "workstreams/B/two_saturated_12222/explore.py",
+  "workstreams/B/two_saturated_12222/probe_cyclecores.log",
+  "workstreams/B/two_saturated_12222/probe_cyclecores.py"
 ]
