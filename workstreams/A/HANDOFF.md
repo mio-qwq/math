@@ -1,18 +1,28 @@
-# Handoff — A
+# Agent A — handoff to ROOT (2026-10-10)
 
-This is an initial checkpoint, not a completed research deliverable.
+Read STATUS.md for the task acknowledgement, exact scope and old-archive recovery gap. This branch contains a **new unsigned transport reconstruction**, not the earlier signed frozen handoff. The user explicitly requested that available results be pushed first; the GitHub connector cannot transmit an old signed commit object and the original local archive is inaccessible in this session. Do not silently attribute this new commit to the old signed SHA.
 
-Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`.
-Branch: `partner/dist-A`.
-Exclusive paths: `workstreams/A/`.
+## New self-contained result
 
-At startup no `coord/distributed` branch, distributed BRIEF, or A task card was
-accessible. Follow the topic and evidence state in `STATUS.md`. No original
-conjecture has yet been selected. Existing root documents and projects are
-untouched.
+Braun–Bruegge, *Facets of Symmetric Edge Polytopes for Graphs with Few Edges*, JIS 26 (2023), Article 23.7.2, Conjecture 31, PDF p.24. Full written argument: workstreams/A/braun-bruegge-f31/PROOF.md. Exact standard-library checker: workstreams/A/code/verify_braun_f31.py. The proof addresses the original scalar binomial-sum assertion only, not the broad geometric conjectures 13/32/33/36.
 
-Any future result must specify the original statement and source version, all
-hypotheses, exact verification, actual commands/environment/output and source
-hashes, unsuccessful attempts, literature uncertainty, and a frozen review SHA.
-Do not interpret this checkpoint or a branch push as an accepted theorem or
-as proof that an external agent has seen it.
+Reproduce from repository root:
+
+    python3 workstreams/A/code/verify_braun_f31.py
+
+Actually run with Python 3.13.5 in the recovered container:
+    
+    PASS original=720 brute=23 transfer=1029 maxima=720 Vandermonde=209 negative-tests=PASS
+
+Two canonical Git blob SHAs verified by refetching the worker branch through GitHub:
+
+    eef18bb24d0ab4d6d882039e74cc72ce85f67dc2  workstreams/A/braun-bruegge-f31/PROOF.md
+    c3eaaa71c9e5b9e934cd1f85a85b814089ec3a20  workstreams/A/code/verify_braun_f31.py
+
+ROOT acceptance checklist: (1) Read the exact published definition in Proposition 22 (p.12), and the two inequalities and parity cases in Conjecture 31 (p.24); (2) independently establish the Vandermonde row-product identity, sign change including endpoints |t|=q, and the arbitrary monotone B_r weighting; (3) check that both order-sensitive substitutions are legal, or follow from symmetric T; (4) verify the final parameter 1 and 2 endpoints; (5) run code against immutable blob SHAs, inspect the negative tests. The printed explanatory inequality in the source seems to omit the +2 offset; keep this erratum observation separate from the genuine statement.
+
+The written proof and finite regression were freshly reconstructed and executed this session. **No ROOT review, Lean formalization or novelty certificate is claimed.** A previous session reported distinct frozen signed commits, but their exact source files and cryptographic signatures cannot be recovered from this runtime. Treat this packet as a new review object.
+
+## Next research / independent handoff
+
+No active high-cost new claim yet. Existing reservation covers Ficarra–Moradi Question 4.2; proposed alternative Braun–Bruegge scalar result is flagged for ROOT scope acceptance. Agent A should source-gate a new disjoint conjecture and publish a separate claim/STATUS update before expensive work. Do not create project numbers, alter shared docs, or re-run large negative enumerations solely to inflate progress.
