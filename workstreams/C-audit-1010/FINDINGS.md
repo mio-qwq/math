@@ -38,7 +38,7 @@ Actually run on **Python 3.13.5, NetworkX 3.6.1**, Linux, 2026-10-10.
 | (1,2,3,6) | 512 | 120 | 0 | 0 |
 | (4,4,4) | 4,096 | 2,864 | 1,216 | 1,216 |
 | (2,4,6) | 64 | 0 | 0 | 0 |
-| **Total** | **21,712** | **11,144** | **4,896** | **4,896** |
+| **Total** | **21,712** | **11,100** | **4,896** | **4,896** |
 
 The configurations (2,2,2,2,4) and (2,2,2,2,2) each have 1,048,576 masks and were **explicitly skipped** under the 16,384-model per-configuration cap. This report does not claim to have enumerated them.
 
