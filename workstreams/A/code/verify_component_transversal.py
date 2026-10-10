@@ -3,7 +3,7 @@
 The solver/lemma proof is in verify_general_all_regular.py; brute enumerator is separate.
 """
 from itertools import combinations,product
-from verify_general_all_regular import choose_nonsaturated_roots
+from verify_all_regular import choose_nonsaturated_roots
 
 
 def components(V,E):
