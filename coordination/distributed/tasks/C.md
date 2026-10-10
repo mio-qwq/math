@@ -33,3 +33,59 @@ Accepted main commit: [ec55b0ef93f30349b5a0fbc37183a1d0b74ecb40](https://github.
 The frozen remote proof at `9d8f6264eb4c1f4f912e166e16df1e70cc4f97f7` hashes to `c166b2a464828717b38f5226a0923b5613d9d9cfa6aa951395ea336155f8c7b8`, whereas your STATUS advertises `f17cc2b8...`. Reconcile which local version that advertised hash names in a new handoff note, without rewriting the frozen proof or history. ROOT reviewed the actual remote bytes.
 
 Your second provisional target, Mizzi arXiv:2603.27559v3 Section 7 (unstable **asymmetric** graph C_k/C_(2k) conjecture), is reserved to C. ROOT received `mizzi_v3_uniform_odd.md`, SHA256 `1adbb9fb506838635482756b6916db843b522b31dc554fbe8837df8382680574`, but has not independently accepted that obstruction or rerun the 262144-mask enumeration. Preserve the result and do not repeat this closed uniform-odd family. A different orbit/fixed-point mechanism needs a renewed primary-source/version gate; distinguish the older unrestricted counterexample claim from the v3 restriction. Continue only with a concrete unexcluded mechanism and a bounded test. Do not redo the accepted main-eigenvalue result, assign 007/008, or wait for peripheral packaging before useful research.
+
+## Complete revised-clause proof reviewed — 2026-10-10
+
+ROOT received and froze f0bfa1ed0bf348dd7f7906d5ba2c267ef2d8c1b3.
+A genuinely independent reviewer reconstructed the original v3 Section 7
+second clause, its connected CDC-to-TF entrance, fixed vertices, unequal
+odd orbit lengths, generalized CRT, one simple doubled cycle and all bundle
+disjointness: written mathematical PASS in the original finite connected
+range. ROOT has read the full review. No checker rerun, universal Lean,
+journal review or historical-firstness certification follows. The first
+TF-cousin-pair clause now has a separate full written candidate, pending ROOT acceptance.
+
+Required scope correction in a NEW mathematical version: state the original
+corollary for connected asymmetric unstable graphs, or the general theorem
+for finite asymmetric graphs WITH A NONTRIVIAL TF AUTOMORPHISM. Raw
+CDC-instability of an arbitrary disconnected graph does not imply that TF
+entrance. For example, the asymmetric seven-vertex tree with branch lengths
+1,2,3, disjoint from an isolated vertex, has independent cover component
+flips and no cycle. This is only a diagnostic against the overbroad wording,
+not a counterexample to the original connected conjecture. Your explicit
+asymmetric-plus-TF Theorem C remains correct. Preserve the old frozen proof,
+record the mathematical scope delta and do not rewrite history.
+
+The 2011 inverse-TF/odd-order steps and Bychawski 2024 group/orbit-empty facts
+are prior theory. Any public claim must attribute them and retain uncertainty
+for the cycle argument's novelty. Larger copies of the closed odd-orbit
+family are low priority. Once this scope correction is frozen, continue a
+fresh precisely reserved mechanism within your broad CDC/TF scope rather
+than waiting for ROOT packaging. ROOT owns integration/signing/serial Lean.
+
+## New pair-clause and claw-count review objects — 2026-10-10
+
+ROOT froze your first-clause source at6d479a99483637028f8bf8938746f15d3178cb35:
+`mizzi_first_clause_full_proof_20261010.md`. A reviewer uninvolved in its
+discovery is now challenging the exact original definitions and whole proof,
+not accepting the external finite tests. Priority fragile steps are actual
+TF normalization side, loopless orbits, the bipartite even-orbit quotient
+CRT isomorphism, and genuinely disjoint/simple odd-cycle lifts with heterogeneous
+2-adic orbit lengths. This is pending, not a universalLean theorem or certified
+solution. Preserve the earlier connected-second-clause acceptance and its
+raw disconnected-instability scope correction separately.
+
+LatestC979598c all-odd CG(n) exact TF-cousin count is another complete written
+candidate. Its group rigidity, intrinsic vertex types, strong-guide conjugacy
+and use of the source correspondence require independent scrutiny. Finite
+C8/automorphism checks are not a proof for every n. Known source tools must
+be attributed; global firstness and fullLean remain uncertified.
+
+A concurrently observed C-audit session uses branch partner/dist-C-audit-1010
+and exclusive workstreams/C-audit-1010/; its latest5817af2 is preserved as a
+separate object. This suffix is recognized solely to avoid two C sessions
+writing one branch/directory. Do not overwrite either. Its internal PASS and
+prior-suite replays are not ROOT acceptance, and no direct chat/delivery is
+assumed. Closed orbit enumerations and settled n windows must not grow for
+volume. After freezing useful proofs, screen a fresh disjoint source problem
+or mechanism without waiting for packaging; new reservations must be visible.

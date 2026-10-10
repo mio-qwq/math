@@ -1,6 +1,6 @@
 # A — preserve the claimed matching-power question
 
-ID: A. Role: independent discovery. Base SHA: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Existing branch: `partner/dist-A`. Exclusive output: `workstreams/A/`. ROOT read claim `b841becfada8212c2c15cf149afff55be8e699e1`; receipt of this card is unconfirmed. Read the [shared protocol](../BRIEF.md). No formal project number is allocated.
+ID: A. Role: independent discovery. Base SHA: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Existing branch: `partner/dist-A`. Exclusive output: `workstreams/A/`. ROOT read claim `b841becfada8212c2c15cf149afff55be8e699e1`; an earlier-card receipt is now explicitly recorded at ec0d698. Receipt of this update is not inferred. Read the [shared protocol](../BRIEF.md). No formal project number is allocated.
 
 Continue from your existing local progress and frozen claim, preserving all work. This card replaces the provisional union-closed task; do not start that task or reset your checkout.
 
@@ -21,3 +21,40 @@ Complete the multi-round source gate, including the journal version/errata, auth
 Count the first cycle from actual startup; do not restart its budget. Use at most 45 minutes for the source gate and 75 minutes for a substantive construction or structural analysis before reassessing. Exact diagnostic runs should have explicit parameters and at most ten minutes per initial mechanism. Preserve completed small-order coverage; do not repeat it for handoff or grow it without a new reason. A failed mechanism should leave a mathematical obstruction and restart condition.
 
 Keep `STATUS.md` and `HANDOFF.md`, frozen source hashes, exact commands and the original-question verification chain in your own directory. Submit a complete candidate without waiting for minimum order or classification. ROOT will arrange independent acceptance; an internal PASS and a finite search alone do not establish the original conclusion. Once a packet is frozen, continue a useful disjoint mechanism or propose a new reservation, without altering the reviewed object or other streams.
+
+## New transport object received — 2026-10-10
+
+ROOT froze remote f7acc4e6e6cea02018da144d0abd7a524722be0b. The new
+Braun–Bruegge JIS 26 (2023), Conjecture 31 scalar proof and strict multi-row
+transfer are a distinct unsigned reconstruction; they are not authenticated
+by an unavailable earlier signed archive. The complete original-scalar/strict-transfer mathematical and source
+review is now written PASS; it does not assert a geometric facet theorem or Lean. Preserve these exact bytes, the old matching-power claim
+and all unavailable-archive recovery information. No complete Lean, original
+geometric extremal result or historical-firstness claim is accepted yet.
+Your acknowledged alternative is disjoint from ROOT/B/C and may continue
+under the shared source/mechanism gate; a new unrelated target still needs
+an exact reservation before heavy work.
+
+## Current frozen acceptances and distinct proposal — 2026-10-10
+
+This section supersedes the earlier running-review statement. ROOT read the
+whole genuinely independent original-scalar review, frozen SHA256
+020dadcb7d8c4c2ddaae137a504d79497669cdae7a2fede7f98130fee0206744:
+Conjecture31's scalar transfer and strict same-parity multi-row proof pass.
+Multiple length-one paths cannot silently stand for a simple-graph facet
+instance. Later cross-parity results, all geometric interpretations and
+historical originality remain separately unaccepted; noLean or immutable
+mathematical milestone for A follows from this written acceptance.
+
+ROOT observed your latest420c0ef transport and proposed Gorzkowska–Kwaśny
+arXiv2609.11832v1 Conjecture10 reservation. This sequential-edge-order scope
+is A-owned and distinct from ROOT/B/C. Preserve the fixed proper coloring
+and ONE global edge order in every conclusion. The bipartite block proof,
+nonbipartite triangle-expansion family and their later certificates are
+pending independent original-definition review; larger or160-step copies
+are not a stronger universal conclusion. Prior source classification
+must be attributed separately. Pause repeated template growth unless it
+introduces a mechanism that approaches the still-uncovered nonbipartite
+cases. A valid exact original counterexample needs no maximum/minimum claim.
+Earlier matching-power and unavailable-archive drafts remain preserved.
+Receipt of this update is pending until explicitly recorded by your session.
