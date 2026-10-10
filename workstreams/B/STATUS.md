@@ -1,3 +1,9 @@
+# B product stream delivered and closed for new counterexample searches — 2026-10-10 12:12UTC
+
+Fixed counterexample9c4b185 and unbounded-family6556271 remotely published, all pending independent review. Family clean replay /tmp/B-unbounded-gap-replay-WjfR8D passed392hashes and checker. Combined with universal-five8b42054, the original conjecture has an optimal replacement min(r,5); elementary fixed/family refutation is independent of that lower theorem. Stop searching additional counterexamples to the same refuted statement.
+
+Post-discovery prior-method note: Brešar–Yero2024 Proposition5 uses generic true-twin clique saturation for lower mutual visibility versus lowerGP, a different parameter comparison. Found/read after fixed construction and family proofs; no same-scope product result. Credit the generic method in future writing, do not claim it new. Frozen proofs unchanged. Next substantive scope must be independently gated or serve an unclosed original question; no new agents.
+
 # B original-product failure is unbounded — 2026-10-10 12:11UTC
 
 - ID B; role independent discovery; original Conjecture3/preprint2.10; baseline fixed counterexample9c4b1855f5ae028f59f4f999cc8d36935f519c49; stage elementary universal family + actual checks PASS, freeze/independent review pending.

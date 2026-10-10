@@ -1,3 +1,7 @@
+# Attribution follow-up
+
+See lower_gp_product/POST_DISCOVERY_PRIOR_METHOD_NOTE.md: after freezing the fixed counterexample and family, a prior Brešar–Yero2024 use of generic true-twin saturation for a different parameter comparison was located. Cite it in future writing; it is not a located prior product counterexample. Fixed9c4b185/family6556271/universal-five8b42054 remain unchanged and pending review.
+
 # Addendum: original product gap unbounded; sharp replacement available
 
 Fixed original counterexample9c4b1855f5ae028f59f4f999cc8d36935f519c49 is unchanged and should be reviewed first. UNBOUNDED_GAP_PROOF.md then proves an elementary infinite family: minimum factor lowerGP=r for everyr>=6, while product has maximalGP5. Thus the original bound fails by an unbounded amount. This family does not require the earlier computer-assisted lower bound.
