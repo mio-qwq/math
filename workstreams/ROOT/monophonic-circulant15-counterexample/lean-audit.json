@@ -1,0 +1,76 @@
+{
+  "source": "MonophonicCirculant15.lean",
+  "source_sha256": "a558d4bd2d2e880eb56df757f8d5f720c6daf6e86d354c540ee6f9cf6f79edfe",
+  "source_after_sha256": "a558d4bd2d2e880eb56df757f8d5f720c6daf6e86d354c540ee6f9cf6f79edfe",
+  "start_utc": "2026-10-10T12:31:00.2567840+00:00",
+  "end_utc": "2026-10-10T12:31:34.5158996+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 7,
+  "expected_audits": 7,
+  "declaration_axioms": [
+    {
+      "declaration": "MonophonicCirculant15.monophonicPosition_iff_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MonophonicCirculant15.mpNumber_attained",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MonophonicCirculant15.monophonic_of_open_twins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MonophonicCirculant15.finite_classification",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MonophonicCirculant15.cayleyPresentation_isCirculant15",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MonophonicCirculant15.no_cayley15_nat_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MonophonicCirculant15.not_originalConjecture45",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "toolchain": {
+    "lean": "4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  }
+}

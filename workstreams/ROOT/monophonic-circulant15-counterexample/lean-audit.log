@@ -1,0 +1,7 @@
+'MonophonicCirculant15.monophonicPosition_iff_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MonophonicCirculant15.mpNumber_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MonophonicCirculant15.monophonic_of_open_twins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MonophonicCirculant15.finite_classification' depends on axioms: [propext, Quot.sound]
+'MonophonicCirculant15.cayleyPresentation_isCirculant15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MonophonicCirculant15.no_cayley15_nat_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MonophonicCirculant15.not_originalConjecture45' depends on axioms: [propext, Classical.choice, Quot.sound]
