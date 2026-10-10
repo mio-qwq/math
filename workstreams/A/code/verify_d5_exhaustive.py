@@ -1,4 +1,4 @@
-from verify_general_all_regular import make_order, validate
+from verify_all_regular import make_order, validate
 from functools import lru_cache
 
 @lru_cache(None)
