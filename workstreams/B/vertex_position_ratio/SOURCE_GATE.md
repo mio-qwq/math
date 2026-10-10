@@ -21,3 +21,7 @@ Stop: a few distinct crossedge mechanisms must yield growing ratios/new constrai
 ## Important-candidate repeat gate, 2026-10-10 12:21–12:24UTC
 
 Queries: exact vertex position + unbounded + ratio; vertex-position + ratio + proof + bounded; arXiv2209.00359 + Problem4 + unbounded; vp/vp^- + bounded + graphs. No matching later solution found. Original/finalProblem4 and preprintProblem2.4 agree. Generic boundary lemma is finalProposition12/preprint2.12 and is credited. The returned excerpt displayed the old dense seven-level construction only AFTER B's sparse descending-target family had already been derived and BFS-tested; it was not adopted. The existing family only approaches6 and does not establish unboundedness. New claim depends on the all-r potential proof, not exceeding6 at a finite graph. Gate remains bounded; no firstness certification.
+
+## Restricted-family repeat gate, 2026-10-10 12:31UTC
+
+After freezing the general answerd1d8277, a separate binary-tree/subdivided-backbone construction shows unboundedness even in bipartite maximum-degree3graphs. Exact vertex-position ratio + subcubic/bipartite/bounded-degree searches located no same-scope prior result. The construction is an internal extension of the frozen descending-target distance induction. Generic boundary and rootwise path-cover facts are prior; no new-conjecture count or firstness assertion.

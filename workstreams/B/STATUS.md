@@ -1,3 +1,11 @@
+# B stronger original-question answer: bipartite subcubic graphs — 2026-10-10 12:32UTC
+
+- ID B; role independent researcher; original vertex-position ratio Problem4; baselinegeneral-familyd1d82779f60c522dd2fa689d27c7c839d1115012; stage complete elementary proof/separate checks PASS, freeze/independent review pending.
+- Ratio vp/vp^-is unbounded EVEN for connected simple BIPARTITE graphs with maximumdegree3. For k=2^h, exactp_v=2k, p_u>=(k-1)(k-2)/2+k, ratio>=k/4-1/4+1/(2k). Same original question, not another conjecture resolution.
+- Standalone original-adjacency verifier h2..5 PASS, including degree/parity, all2kgeodesic-cover paths, actualroot BFS, position/boundary witnesses,4negative controls. Small direct pair checks included; no full all-pairs claim for large graphs. Pure allhproof supplies universality.
+- Generalfamilyd1d8277 remains unchanged; its clean replay /tmp/B-vertex-ratio-replay-kDRP37 passed404hashes and checker. Remote fetch/same-tree merge confirmed. Earlier productcounter9c4b185/family6556271 unchanged. No new agents or firstness/Lean/independentacceptance claims.
+- Next: freeze stronger result; stop further property strengthening without a material reason, preserve explicitreview targets. Both original-question packets remain independently reviewable.
+
 # B ORIGINAL boundedness question answered negatively — 2026-10-10 12:25UTC
 
 - ID B; role independent researcher; original Thankachy etal.DOI10.7151/dmgt.2491 Problem4/preprint2.4; baselinef94ad1ea21ce1e80bdbbe99ce718e0b9faa989c9; stage complete elementary infinite-family proof + separate checker PASS, freeze/independent review pending.

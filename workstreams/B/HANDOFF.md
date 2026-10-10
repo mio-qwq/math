@@ -1,3 +1,9 @@
+# Vertex-position ratio addendum: unbounded even bipartite and subcubic
+
+Read vertex_position_ratio/SUBCUBIC_PROOF.md and SUBCUBIC_REVIEW.md after or independently alongside generalfamilyd1d8277. Connected simple bipartite graphs of maximumdegree3already have unbounded vp/vp^-; explicit rootcertificates and allparameter potential proof included. This strengthens the same original Problem4answer, not a new problem count. Pending independent review.
+
+Run python workstreams/B/vertex_position_ratio/verify_bipartite_subcubic.py. Actual h2..5 original-adjacency checks PASS, including4negative controls and small direct position-pair checks. Do not call these cubicregular/planar/2connected graphs or infer exactglobalvp/vp^-values. Prior fixedproof hashes unchanged; no new agents, rootnumber or mainchanges.
+
 # New original-question handoff: vertex-position ratio UNBOUNDED
 
 Read vertex_position_ratio/PROOF.md, REVIEW.md and SOURCE_GATE.md. Original Thankachy etal.Problem4/preprint2.4 asks whether vp/vp^-is bounded on connected graphs. The explicit infinitefamilyF_r has p_v=2r andp_u>=r(r+1), proving a NEGATIVE ANSWER. This is not merely a finite ratio>6, and this vp^-is the minimum of rootwise maximum position-set sizes, not minimum-maximalGP. Pending independent review.
