@@ -23,3 +23,7 @@ Searched lower-general-position/Kneser/Cartesian-product combinations and six/fo
 ## Line-graph family extension gate, 2026-10-10 11:29–11:32UTC
 
 Checked exact lower-general-position/line-graphs-of-complete-graphs/Cartesian-product/conjecture queries. No matching all-parameter original product-bound proof was found in returned sources. Di Stefano et al. arXiv2306.09965v1 Theorem5.2 supplies the PRIOR factor values n/2 for even n and(n+3)/2 for odd n. It does not itself state the new product family theorem. The proposed contribution is a pure support-counting proof for L(K_n) square L(K_m), all n,m>=2, including the odd critical one-unused-symbol case. Ordinary maximum-GP and mobile-GP product papers concern different parameters. The original source and author-hosted factor paper were read; the gate remains bounded, and historical novelty is not certified.
+
+## Mixed-family gate, 2026-10-10 11:38 UTC
+
+Searched lower-general-position, Cartesian products, complete line graphs and Kneser graph combinations. No matching mixed-family original product bound was located among returned sources; ordinary maximum/mobile GP results are distinct parameters. Same original Conjecture3/preprint2.10 and prior factor Theorems5.1/5.2 as above. This closes the mixed combination of the two already studied families, not an independently selected new problem. Bounded search does not certify historical novelty.

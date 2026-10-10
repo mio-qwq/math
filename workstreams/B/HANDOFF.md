@@ -1,3 +1,9 @@
+# Mixed-family handoff: union of the two pair-graph families
+
+Read lower_gp_product/MIXED_FAMILY_PROOF.md and MIXED_REVIEW.md. The original product lower bound now holds for any two factors independently chosen from complete-graph line graphs and two-subset Kneser graphs (parameter ranges stated there). Review this as one expanded subclass result, not a full conjecture solution. All recent results remain pending independent review.
+
+Reproduce: python workstreams/B/lower_gp_product/verify_mixed_extension.py. Actual 10000 extensions/all4branches/4controls PASS. Check the critical one-unused-symbol case, the reversed adjacency conventions, and repeated-coordinate fibers in the elementary universal proof. The checker reconstructs original distances; its samples are not the proof of universality. Full hash/run evidence in MIXED_REVIEW.md and SHA256SUMS. Existing pure line-graph95acdcd/Kneser0949c807/truncationebaa4094 and original counterexample6022d2b freezes are unchanged.
+
 # Latest pure subclass handoff: products of complete-graph line graphs
 
 Read lower_gp_product/LINEGRAPH_FAMILY_PROOF.md and LINEGRAPH_REVIEW.md. Original product lower bound holds for L(K_n) square L(K_m), all n,m>=2. Complete elementary proof, pending independent review; not the arbitrary-factor conjecture and not an exact product formula.

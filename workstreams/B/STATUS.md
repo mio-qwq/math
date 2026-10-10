@@ -1,3 +1,11 @@
+# B combined pair-graph subclass result — 2026-10-10 11:42 UTC
+
+- ID B; role independent researcher; baseline 95acdcd925c881809b7dee6c62ab7abf8ac18628; stage proof complete, actual semantic checks PASS, freeze and independent review pending.
+- Original product Conjecture3/preprint2.10 now proved whenever EACH factor is a complete-graph line graph L(K_n), n>=2, or a two-subset Kneser graph K(n,2), n>=5. The mixed case closes this union. This is ONE subclass theorem, not three full conjecture resolutions. Arbitrary factors remain open.
+- Mixed proof SHA256 c1501ce17b0fc94d1d7fd9ea6fab48814117332dbd894eac87a3b02400ea8a68. Actual original-definition checker:10000extensions, all4branches,31923factor/46224product BFS entries,4controls. Python3.12.14 stdlib. No Lean or independent acceptance claim.
+- Pure line-graph freeze95acdcd verified by fetch and same-tree merge; clean archive /tmp/B-linegraph-family-replay-fP6aUH passed348hashes and its checker. Kneser0949c807 and universal truncationebaa4094 unchanged; original order15 counterexample6022d2b separately pending review.
+- Next: freeze/replay mixed packet, then move beyond the closed pair-graph subclass. No repeat sampling merely to grow counts; new arbitrary-factor mechanism required. No new subagents, other-agent edits or main changes.
+
 # B further pure subclass theorem — 2026-10-10 11:32UTC
 
 - Original lower-GP product conjecture now proved for ALL L(K_n) square L(K_m),n,m>=2, by an elementary support-counting argument. Distinct from Kneser/disjointness adjacency: these line graphs use intersection. No full arbitrary-factor or exact product-value claim.
