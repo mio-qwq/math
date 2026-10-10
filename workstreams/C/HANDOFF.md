@@ -185,3 +185,29 @@ From repo root:
 **Review blocker:** ROOT should first attempt to falsify the 'Q_e bipartite -> ordinary graph isomorphism' CRT step and the 'modified edge residue -> every vertex displaced by +/-g_e/2' step (in full heterogeneous even orbit sizes), and check sources for earlier equivalent results. Then decide whether to independently formalize, accept, or identify a precise mathematical gap. If corrected, publish a NEW frozen proof rather than overwriting this one.
 
 **After handoff:** C may screen another unoccupied question without waiting for the reviewer. The exact next-source queue is recorded under C only; no 007/008 numbering, no second agent launch, no collaboration/chat notification claim.
+
+
+## Sixth frozen packet: exact claw-graph TF-cousin count (2026-10-10)
+
+**Claim:** For every odd n >= 3, Mizzi's CG(n) has exactly TWO nonisomorphic TF-cousin graphs. This is an **all-parameter written proof candidate**, pending genuinely independent ROOT review, not a counterexample, certified historical priority, Lean theorem, or peer-reviewed publication. Original public question: Mizzi arXiv:2603.27559v3 Definition 6.1 and Section 7. Source already established *at least two* (CG'(n) plus a triangular fold), and exactly one for n=1. The source's previously proved Theorem 4.6 / Remark 4.7 supply the strongly-switching-guide conjugacy-to-base-graph bijection.
+
+**Frozen source-only commit:** f99dc7251e8e6c786c70410723a8931454c4b8f6 (partner/dist-C, workstreams/C/). Mathematical manuscript: claw_graph_exact_cousin_count.md. Four executable files in the same directory:
+
+- check_claw_universal_structure.py — standard library, SHA256 f3ce1631636a3ae841f16760ec50bd907bd74655280f235ef8a6a5d97c388402; Git blob 6377ad62a1568a55bbcb52a69c1d3ae260decee5
+- claw_graph_gate.py — NetworkX source graph constructor, SHA256 d7554b2ece31dcbd007f4d9f4dad88ed963fc754db351e0ca9a3f81c9c9cd99b; blob a3843725cc6bd9bd4d069480f110a1eada5e5011
+- claw_guides_conjugacy_probe.py — full independent VF2++ graph-automorphism enumeration, SHA256 0b940cc44e9f18a8e20375d485427c991afaabba5ec7f68b733c28b83137e61c; blob 29a13bfd4f18098e275379045c046bce7207e3c5
+- claw_n1_fold_sanity.py — Petersen benchmark, SHA256 c5283f6aee9081c99f412b8e78590a398daacd1622c510827c456d19fe171c8a; blob 45dda181adfaa556e2dd446f1ebeb8f9442addbc
+
+**Universal proof steps:** Explicitly identify CDC(CG(n)) with two synchronized C_(6n) circuits U,V, leaves L_t connected to matched U_t,V_t, and claw centres W_a connected to L_a,L_(a+2n),L_(a+4n). For odd n >= 3 the numbers of simple C8 containing a circuit, leaf, centre vertex are exactly 3,2,0. Thus all automorphisms preserve the intrinsic vertex types and are exactly common dihedral index maps on U and V, optionally swapping them: Aut(CDC(CG(n))) = D_(6n) x C2 of order 24n. Exactly 3n+2 elements are strongly switching involutions. Their three conjugacy classes have sizes 1,3n,1. The previously published conjugacy correspondence gives three nonisomorphic graph bases including CG(n), hence exactly two TF-cousins.
+
+**Actual runs**, CPython 3.13.5 Linux, NetworkX 3.6.1 only for latter programs:
+
+    cd workstreams/C
+    python3 -m py_compile check_claw_universal_structure.py claw_graph_gate.py claw_guides_conjugacy_probe.py claw_n1_fold_sanity.py
+    python3 check_claw_universal_structure.py
+    python3 claw_n1_fold_sanity.py
+    python3 claw_guides_conjugacy_probe.py 1 3 5 7 9
+
+All PASS; three deliberate negative cases rejected. For n=3,5,7,9, the first source-definition-first checker verifies the graph model, C8 incidences and explicit automorphisms. Separate FULL VF2++ enumeration naturally exhausted at n=1,3,5,7,9: complete group sizes 240,72,120,168,216; strong guides 11,11,17,23,29; conjugacy sizes (10,1), (1,9,1), (1,15,1), (1,21,1), (1,27,1). The n=1 source-known exceptional count is reproduced. Remote Git blobs for all scripts were matched to locally executed byte-identical sources.
+
+**Independent review priorities:** Recheck the no-centre-on-C8 argument; the full C8 enumeration; forced *common* dihedral action on both circuits; identification of the canonical bipartition; which dihedral involutions are strongly switching; conjugacy class sizes; and the exact source Theorem 4.6 conditions. Verify originality separately. None of the finite tests substitutes for universal proof. Leave earlier frozen C proof packets unchanged, and ROOT alone integrates accepted work.
