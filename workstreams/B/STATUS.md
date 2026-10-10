@@ -172,3 +172,11 @@ The exploration process was not terminated by the earlier stop request; its orig
 - B reserves printed Conjecture9, arXiv:2603.25113v1: seven radius-two VERTEX colors for claw-free subcubic graphs. A short Brooks-theorem consequence appears available. This is not the strong edge-coloring question.
 - Gate clawfree_square7/SOURCE_GATE.md explicitly flags high folklore/duplication risk; no historical novelty or new original theorem is claimed. Only a short proof and finite exception check are justified, not a large research build.
 - Earlier successful packets remain frozen; Conjectures4/5 remain unresolved. No new agents.
+
+## Printed Conjecture9 classical-corollary note, 2026-10-10 07:40 UTC
+
+- Reservation4c47e481 precedes finite verification. clawfree_square7/PROOF.md derives the printed seven-radius-two vertex bound from classical Brooks plus an elementary K8 exclusion. This is a positive classical-corollary/source-status note, not a counterexample or historical-new-theorem claim.
+- Actual independent exception check:19355 labeled cubic graphs of order8;2520 connected claw-free ones, all diameter3. Another7708 small local-bound cases and controls PASS. Python3.12.14 stdlib. No new agents or Lean; independent review remains pending.
+- Main new deliveries in this continuation remain the original Conjecture3 refutationfadb2d4 and the original Conjecture6 full proofd6238ac. Both proof bytes stay frozen. Conjectures4/5 remain paused and unresolved; no repeated searches are running.
+
+Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. Proof SHA256475dbd6209ccdd85bb635fdf4ef459de2d91c6cbbab8df384957ef39faa18d46; checker SHA2566ac424cf211c475deaa0252740fe0fc535fd8e9cf573a81e06fb0d948600809e.
