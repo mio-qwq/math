@@ -49,3 +49,10 @@
 - Post-discovery primary-source and formula-specific duplicate searches found no prior same-scope resolution; this does not establish historical novelty. See permutation_gp/SOURCE_GATE.md.
 - Blockers: independent acceptance, historical novelty and human review pending; no Lean or signed release. Existing two proof packets remain unchanged.
 - Next: freeze/publish this packet, enable review using HANDOFF.md; do not wait for optimum/minimality or restart superseded searches. No remote acceptance or direct notification inferred.
+
+## Receipt and new reservation, 2026-10-10 06:21 UTC
+
+- Actually read updated B card and BRIEF at d8f2994ec8681e9c07484e65dbfceecaf2f98c1d. Card records ROOT acceptance/release of e6ff181, full Lean for fixed Pe(6,3), written acceptance of universal improvement and both earlier positive proofs. These are reported ROOT checks, not B's own Lean runs. Historical novelty remains unconfirmed.
+- B now reserves arXiv:2603.25113v1 Section5 Problem1 and Conjecture2: 1-saturated subcubic graphs with g3=3, for packing sequences (1,2,3,3), (1,2,2,4), (2,2,2,2,4), and (1,2,3,4,5). This exact class is distinct from the completed 0-saturated g3<=4 result.
+- Gate, verification plan and stop condition: triangle_packing/SOURCE_GATE.md. No result yet. Next: bounded exact triangle-chain/necklace experiment, then certify a witness or derive a substantive transition restriction.
+- Role remains B's personal independent discovery; no new research agents. Preserve every frozen packet and all unknown files. ROOT's new Conjecture4.30 reservation is excluded.

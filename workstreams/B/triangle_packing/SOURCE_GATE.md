@@ -1,0 +1,44 @@
+# Gate and new reservation, 2026-10-10 06:21 UTC
+
+B reserves arXiv:2603.25113v1 Section 5, Problem 1 and Conjecture 2,
+by Ayman El Zein and Maidoun Mortada, submitted 26 March 2026.
+This is a different exact class/question from the accepted 0-saturated
+local-girth-at-most-four packing-4 theorem. No new root project number.
+
+Original: https://arxiv.org/html/2603.25113v1#S5
+Version record: https://arxiv.org/abs/2603.25113
+
+Class: finite simple undirected subcubic graphs, each degree-three vertex
+adjacent to at most one degree-three vertex, and every degree-three vertex
+on a triangle (g3=3, maximum of local girths). No minimum degree or
+connectedness assumption added. Problem 1 asks whether every such graph
+has each of the packing sequences (1,2,3,3), (1,2,2,4), (2,2,2,2,4).
+Conjecture 2 asks whether packing chromatic number is at most five, i.e.
+the sequence (1,2,3,4,5). Equal labels i must have graph distance strictly
+greater than the corresponding sequence entry. Repeated entries still
+denote DIFFERENT colors. A graph failing any asked sequence gives a
+negative answer to that part, not automatically to the other parts.
+
+Sources were read in the original. Search rounds used exact paper ID,
+Conjecture 2, proof/erratum/counterexample, and 1-saturated with the exact
+(1,2,3,3) sequence and both authors. No later same-scope resolution was
+located. Other results on (1,1,3,3) or (1,2,2,2,2) do not settle this task.
+Prior author-page gate for this shared paper is retained in packing_gate/;
+new searches alone do not establish historical novelty. Before final
+claim refresh author pages and later versions again. Current status:
+bounded source gate, not a certified assertion of global openness.
+
+Visible coord/distributed d8f2994 and all branch heads checked. A's matching
+powers, C's asymmetric covers and ROOT's orientation-spectrum Conjecture
+4.30 are distinct. No conflicting claim seen; concurrency remains possible.
+
+Mechanism: each triangle has at most two degree-three vertices. Apart from
+small overlapping-triangle exceptions, contracting the disjoint triangles
+should leave path/cycle components. Search exact triangle necklaces and
+capped chains, with connector length >=2 to preserve 1-saturation. First
+experiment is bounded, aimed at a small UNSAT witness or an explicit
+transition constraint. No blind enlargement of the old 95165-case search.
+A negative claim must have a complete exact unsatisfiability check, separate
+from the discovery solver, plus original-hypothesis verification. If tests
+only find colorings, do not infer the universal statement. Derive new
+structure or stop rather than repeating a larger unchanged window.
