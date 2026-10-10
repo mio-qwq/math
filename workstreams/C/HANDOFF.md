@@ -145,3 +145,43 @@ From repo root:
 **What ROOT must still do:** (a) independently reconstruct original v3 second-clause definitions and compare the 2011/2024 prior group lemmas; (b) audit the quotient bipartition contradiction with alpha-fixed vertices and the inverse TF edge action; (c) audit the generalized CRT and odd cyclic equation with unequal sizes; (d) audit the multi-shift disjointness; (e) optionally run fresh independent graph checker/Lean semantic bridge and ascertain **historical novelty**. No independent ROOT acceptance for this Mizzi packet, no Lean compilation of the universal theorem, no human peer review, no paper submission or author contact is claimed. ROOT retains integration authority.
 
 **Continue, not blindly enumerate:** This mechanism now has both universal written proof and asymmetric original-hypotheses witness; larger sizes in the same family are low priority unless a specific gap is found. Any truly new public target needs a **fresh literature source gate + public reservation** without colliding with ROOT/A/B, and may require authorization if outside C's assigned topic. Do not change main, prior frozen SHA or other workers' files, and never force-push.
+
+
+## Fifth frozen packet: Mizzi v3 FIRST TF-cousin cycle conjecture (2026-10-10)
+
+**C independently claims a COMPLETE UNIVERSAL AFFIRMATIVE WRITTEN PROOF CANDIDATE for the FIRST (TWO-GRAPH) clause**, not a counterexample. This is DISTINCT from C's earlier positive proof candidate for the SECOND asymmetric-unstable SINGLE-graph clause; neither permits a firstness assertion before historical comparison, and **neither has been independently accepted by ROOT in the latest visible coordination branch**. The previously accepted Collins–Sciriha Q5.8 result is not reopened.
+
+**Frozen C source snapshot:** commit `8dcbfc75c6691e23417928c752747448330b960a` on `partner/dist-C`, with only Agent C-owned additions. No other stream or main edit, force push, PR, author contact, or submission. Signed credentials were unavailable; do **not** call this a signed release. Source SHA256, Git blob SHA1:
+
+- `mizzi_v3_first_clause_proof.md` — universal proof; SHA256 `3810d3842b606ee75f62efc52e3d5de35b6e411b44d252b7bcf519ee1e3a5165`; blob `3a17085ced99a3bdec44f077ff4514fb0ffded5a`.
+- `mizzi_cousin_10_vertex.json` — two RAW symmetric loopless graph edge lists and explicit TF normalizing permutation; SHA256 `f8a9b8fe584f7e5a2703617cb86d06569cf25242c0b963bc3c212b6c4aced1c9`; blob `36f2ab214499f49b1b702381fe9701a00931c8b2`.
+- `check_mizzi_tf_cousin.py` — independent standard-library exact checker with five malformed-input negatives; SHA256 `ce3762654c9ca1e40bec5e08ecce4ac49156a2b490182e087ed0651cc7c4da92`; blob `a16b979c986527548d4b94321580cfadf0b65e97`.
+- `tf_pair_probe.py` — deterministic randomized discovery ONLY; SHA256 `3236aeeaa2ac88adb7dd6281dc51253e25c1c783360d8a566163e3ddd161163f`; blob `22781216283ea349131e29cc3b0be0fee2d8e9d3`.
+- `tf_pair_finite_exhaustive.py` — complete enumeration within FIVE distinct fixed permutation templates; SHA256 `d674a7dd76356c12647e57a166f51fc05a43555760d0144626cca86368935f47`; blob `90f7428aaa22302e36719c05005090b92a1b373b`.
+- `adversarial_constructive_replay.py` — independent arithmetic cycle construction cross-test on EVERY accepted labelled pair of those finite templates; SHA256 `9865f3daf2d2d0afad13c7153c692ed7a24be33d06e80eebe48f9f4d1174d488`; blob `a1958f3346a56a39b7c6f091b2e89f7dc61938c9`.
+
+**Original source:** Russell Mizzi, arXiv:2603.27559v3, Section 7 FIRST clause, https://arxiv.org/html/2603.27559v3#S7 (10 September 2026). Two nonisomorphic connected nonbipartite vertex-determining graphs G,H with CDC(G) isomorphic CDC(H) must possess odd k with two vertex-disjoint C_k on ONE graph and C_(2k) on the OTHER. The source's September revision explicitly separates this clause from the earlier disproved unrestricted single-graph formulation. See exact statement/source conditions and subsequent-source gate in the proof.
+
+**Mathematical chain, to audit INDEPENDENTLY:**
+
+1. Because CDC(G), CDC(H) are connected bipartite, any CDC isomorphism may be taken layer-preserving. Relabel H uniformly, yielding symmetric loopless A,B with B[u,v]=A[u,T(v)] for a permutation T, hence invariance A[u,v]=A[T(u),T^{-1}(v)] and diagonal exclusion A[u,T(u)]=0.
+2. Every individual T orbit is independent, *including even orbit lengths*. Between two orbits of sizes m_i,m_j, adjacency depends on the vertex-label **sum modulo gcd(m_i,m_j)** via CRT. Graph H has the same class set, shifted by -1 in that sum.
+3. Form Q_e on T-orbits of EVEN length. If Q_e were bipartite, CRT builds orbit shifts c_i with 2c_i+1=0 mod oddpart(m_i) and c_i=0 or -1 modulo the 2-power part according to Q_e color. These shifts give an **actual ordinary graph isomorphism G -> H**, contradiction. Hence Q_e has a SIMPLE ODD CYCLE of even-size orbits, length k>=3.
+4. Select one edge-residue s_j along each quotient edge, g_j even; for odd k the alternating integer sum D determines whether the odd cyclic equations x_j+x_(j+1)=s_j have closed integer solution (D even) or reflection monodromy with displacement 1 (D odd). H shifts each s_j by -1, flipping D parity. On the EVEN-D side, modify one s_e by g_e where v2(g_e) is MINIMUM; this gives TWO disjoint C_k because their labels differ by +/-g_e/2 in every orbit, which is nonzero modulo every even orbit length. On the ODD-D side, two laps construct a **simple C_(2k)** with labels differing by +/-1 at every orbit. This is the original conjecture's exact conclusion.
+
+**Actually executed exact checks** (Linux / CPython 3.13.5; networkx 3.6.1 only for exploratory census):
+
+    cd workstreams/C
+    python3 check_mizzi_tf_cousin.py
+    python3 -m py_compile check_mizzi_tf_cousin.py tf_pair_probe.py tf_pair_finite_exhaustive.py adversarial_constructive_replay.py
+    python3 tf_pair_probe.py --trials 1200
+    python3 tf_pair_finite_exhaustive.py
+    python3 adversarial_constructive_replay.py
+
+- Raw 10-vertex source-hypothesis instance: connected, nonbipartite, vertex determining, 4-regular with 20 edges in each, NONISOMORPHISM proved by differing triangle incidence multisets, full 20x20 CDC isomorphism tested for all directed vertex pairs, explicit G disjoint triangles [0,4,8] and [3,5,9], H six-cycle [3,4,9,0,7,8]; PASS; **five malformed controls rejected**.
+- Full restricted census: fixed T cycle-size templates (4,4,2): 256 edge models and 16 admissible cousin pairs; (4,2,2,2): 4096 and 0; (4,4,4): 4096 and 1216; (4,4,2,2): 16384 and 3680; (6,3,3): 512 and 0. Total **25,344** model masks and **4,912 labelled admissible TF-cousin instances** (not isomorphism-class count). Both direct cycle enumeration and separate constructive cycle derivation succeeded in all 4,912; **zero candidate counterexamples**. First 15-class pseudorandom probe had 1,022 qualifying samples, overlapping these results. There is **no exhaustive claim over all graphs**.
+- No universal Lean compilation or axiom audit has been performed; finite testing is separate from the written universal proof. No independent human/agent acceptance has occurred.
+
+**Review blocker:** ROOT should first attempt to falsify the 'Q_e bipartite -> ordinary graph isomorphism' CRT step and the 'modified edge residue -> every vertex displaced by +/-g_e/2' step (in full heterogeneous even orbit sizes), and check sources for earlier equivalent results. Then decide whether to independently formalize, accept, or identify a precise mathematical gap. If corrected, publish a NEW frozen proof rather than overwriting this one.
+
+**After handoff:** C may screen another unoccupied question without waiting for the reviewer. The exact next-source queue is recorded under C only; no 007/008 numbering, no second agent launch, no collaboration/chat notification claim.
