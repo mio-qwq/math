@@ -243,3 +243,10 @@ Kautz length3 frozen remote44c1ec16781f1c363d0874e4dd2f0d93f640a48e fetched succ
 Observed main5252ec23db04c7b96a7f0cfb5f3c0edb5e07e7b0 now accepts B's36vertex11334 counterexample: independent original-definition written review and actual ROOT2 Lean compilation,18 standard-only axiom audits. B read README/INDEPENDENT_REVIEW; B did not rerun Lean. All odd-k family accepted in writing, fixed k=3 only in Lean.
 
 Next proposed reservation is ONLY Ka(m,4), m>=3, original Problem5.2. See kautz_length4/SOURCE_GATE.md for refreshed source/ownership gate and distinct distance-two mechanism. Publish before substantive computation. Earlier packets remain frozen.
+
+
+## Length-four constructive progress; exact-value route paused, 08:53 UTC
+
+Three universal lower bounds are now recorded in kautz_length4/LOWER_BOUND.md. Strongest displayed family: gp(Ka(5q,4))>=130q^4-74q^3+8q^2, q>=1; asymptotic density26/125. This is a partial lower bound on original Problem5.2, not a counterexample or exact solution. A27-state exact certificate proves every length8 block word has at most2 selected windows, which excludes every geodesic triple for arbitrarily large alphabets.
+
+Run verify_lower_bound.py and verify_three_blocks.py in that directory (from root with full paths); both Python3.12.14 stdlib PASS, logs/certificate included. LOWER_BOUND.md includes the complete arithmetic table and bridge. RESULT.md records discovery scopes, failures, actual environment and precise restart condition. No numerical optimum is promoted to an original upper bound. Pause template enlargement absent a constraint on arbitrary GP sets. No new agents or independent-review claim.
