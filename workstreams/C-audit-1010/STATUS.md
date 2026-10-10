@@ -11,3 +11,12 @@
 - Negative controls: deliberately remove a CDC edge, admit a forbidden diagonal orbit, corrupt q, and alter cycle conditions; a checker must reject the resulting source assertions. Time cap for initial enumeration: 10 minutes; stop or reduce scope if large.
 - Tool/environment: Python 3.13 standard library, NetworkX if used only for independent graph-isomorphism decision; report actual version and result. No Lean availability in the isolated local runtime, so no Lean compilation or audit claimed.
 - Next: run the independent audit, commit code/results to this exclusive branch, update HANDOFF.md. Afterward, if no contradiction, return concise challenge list to ROOT; do not duplicate completed C discovery searches.
+
+
+## Executed audit checkpoint — 2026-10-10 UTC
+
+- **Published source freeze:** `3758e41231097657b6b8134cdbcdded0a54d3b9e` (independent ordered-pair enumerator at `audit_orbit_from_ordered_pairs.py`); SHA-256 `fd7927ca1f82c05109a69fdac1b07b38386eba82bac26b56d5751fd1af576cb0`. Frozen source remained byte-identical to locally executed file (Git blob `ef3f58e53523fb7342c6089fe6fb085ae9168ec7`).
+- **Actual run:** `python3 audit_orbit_from_ordered_pairs.py --max-models 16384`, Python 3.13.5, NetworkX 3.6.1, Linux. Inspected 21,712 models across 8 complete declared permutation-cycle profiles; 11,100 satisfy both source graph constraints, 4,896 are genuinely nonisomorphic TF-cousin pairs and all 4,896 have the required original-graph simple cycles. Two large 1,048,576-model profiles intentionally skipped (explicitly not part of the sample).
+- **Direct checks:** 2n×2n actual double-cover adjacency bijection; TF normalization on all n² ordered pairs; graph simplicity, connectedness, nonbipartiteness, twin-free; exact VF2 nonisomorphism; actual simple-cycle enumeration and disjointness; 3 corrupted-input negative controls.
+- **Mathematical review:** no specific defect found in C's written universal proof. The finite test *does not establish* the theorem. Important independent ROOT review remains required; 2026 historical originality unresolved. See `FINDINGS.md` and `HANDOFF.md`.
+- **Research decision:** pause further brute-force enlargement of the same closed orbit family; the original proof and its critical parity/CRT steps need independent scope review instead. No contact, merge, PR, force push, manuscript submission, author notification or Lean audit claimed. Connector commits are unsigned.
