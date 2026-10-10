@@ -1,3 +1,12 @@
+# Current checkpoint — B, 2026-10-10 10:31 UTC
+
+- Role: independent researcher; branch partner/dist-B; exclusive workstreams/B/.
+- Three original counterexamples have ROOT acceptance; written positive acceptance now includes circulant, 0-saturated local-girth packing, original Conjectures2and6, and all-m Ka(m,3). Exact frozen references and limitations are below.
+- Current new partial result: Ka(m,4) density limit exists; frozen0599b104 proves [26/125,2/7], with a separate small integrality addendum improving the upper endpoint to377/1320. Pending independent review, not an exact-value solution.
+- Full claw-free12222 prior-theorem corollary15470c9 is received by ROOT and under separate review. No whole universal Lean or historical-priority claim is inherited.
+- Read updated B card abd8e85628b1348f250c5d5c46a5450caae2876d; receipt explicitly recorded. Closed failed searches remain recorded; unknown search/*.jsonl preserved.
+- The chronological entries below retain earlier states as history and are superseded by later exact receipts.
+
 # Distributed researcher B: handoff stage
 
 - ID: B. Role: independent discovery, with separate internal mathematical review.
@@ -340,3 +349,11 @@ The first arbitrary-set upper packet is remotely frozen e04e8ec22cd53e5cfe2a7e33
 A simpler and stronger cross-support mechanism now appears in kautz_length4/DENSITY_LIMIT.md: any seven-distinct-symbol cyclic word has at most2selected length4windows, because every3windows lie on a forward arc of at most4steps that is an ORIGINAL geodesic. Exact averaging yields |S4|<=2(m)_4/7 for allm>=7. Standard subalphabet averaging makes f(m)/(m)_4 nonincreasing, where f(m) optimizes four-distinct-letter words. Repeated-letter words areO(m³), so the ORIGINAL gp(Ka(m,4))/m^4 actually has a limit lambda4. Combining frozen lower construction gives26/125<=lambda4<=2/7. Neither exactlambda nor exactfinitevalues are resolved.
 
 Actual independent-definition verify_density_limit.py/log PASS:70triples,56short-offset pairs,38024BFS entries,45360ordered seven-tuples, exactincidence multiplicities,840subalphabet words,3controls. The full cycle is NOT called isometric; only offsets<=4 are. An eight-window negative control demonstrates why that distinction matters. Prior frozen1/3proof unchanged and superseded only as an upper bound. Standard averaging/cyclic cover techniques are not claimed new; historical novelty uncertain and independent review pending. Next meaningful challenge is a sharper finite distinct-word obstruction or a structural construction matching the limit; no new lower-template numerical batch planned.
+
+## Density freeze receipt, finite integrality, and source-gate stop, 10:31 UTC
+
+Remotely verified density theorem freeze0599b104ac0fe3f241a7a3ba4dfeae878c28951f. DENSITY_LIMIT.md SHA25609447661ccbc4a77ad7df6b0f05db2074f26068a426bc4c530a31f94a1b7a6bf; checker169f2aa9d52f4891bfd8ab14f3fc01c7324a9285280f9ce2dc7d98953def61e5. One API503 during commit creation was recovered; expected-head update, fetch and same-tree merge succeeded. Fresh remote archive /tmp/B-density-replay-U7yi2U passed274hashes and the actual checker. The user received the frozen proof link. No independent acceptance has appeared yet.
+
+ROUNDING_REFINEMENT.md applies the SAME theorem's integer bound at11symbols and subalphabet averaging, slightly sharpeninglambda4<=377/1320<2/7. This is a small refinement, not a separately solved problem. Exact fraction arithmetic run and logged. A new cycle-cut/symmetry MILP still timed out20seconds (witness30/numericalupper~47), giving no certified finite bound; stop that approach.
+
+New-source screening rejected original GP-corona unimodality Problem5.1 after finding a May2026 author-uploaded same-scope counterexample claim; see CANDIDATE_GATE_CORONA.md. Its proof was not independently checked, and no construction was reused or research reservation published. Main/coord/other-agent paths unchanged. No new agents. Continue only with genuinely new arbitrary-set constraints or a separately gated unoccupied original problem; do not enlarge the closed numerical searches.

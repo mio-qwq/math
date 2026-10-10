@@ -1,0 +1,1 @@
+PASS: (11)_4=7920; floor(2*7920/7)=2262; 2262/7920=377/1320; strict gap=1/9240; lower26/125 remains below upper.
