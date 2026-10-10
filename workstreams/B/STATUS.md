@@ -208,3 +208,10 @@ Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. 
 - Earlier frozen proofs unchanged. This new original counterexample is self-checked, pending independent ROOT/human review and historical novelty. Freeze and publish promptly; do not delay for smaller order or more general classification.
 
 Original11334 remote freeze: bf89129f2bf457f7a63292d559f5c279330c9b2c. Actually fetched and replayed from a fresh archive:176 manifest hashes PASS; definition-first counterexample checker PASS. The earlier paused original question is now refuted by the frozen candidate, pending genuine independent acceptance. Original proof/certificate/checker bytes must remain unchanged in later work.
+
+## Stronger quantitative consequence of the accepted permutation counterexample, 08:10 UTC
+
+- Same reserved permutation problem; no new question or counterexample count. Optimized the credited terminal-alphabet construction over ALL terminal sizes t. For N=d+k, maximizing t(N-t)_(k-1) gives t0=ceil((d+1)/k), with exactly one extra tied optimizer t0+1 when k divides d+1.
+- Consequence: for fixed k the constructed GP set has positive asymptotic density (k-1)^(k-1)/k^k in Pe(d,k). Thus the gap from the source's refuted order-d^(k-1) formula grows linearly in relative size, rather than merely the constant-factor three-terminal improvement. This is a stronger lower bound, NOT an exact GP formula.
+- Actual new independent graph replay Pe(9,3):1320vertices11880arcs224selected versusproposed180;49952ordered selected distances all3..5. Exact optimizer checks:13104(k,d)pairs;controlsPASS. No frozen original proof changed, no new agents, no Lean or independent-review claim for this extension.
+- Kautz k=3 was briefly source-screened but NOT claimed/reserved or subjected to costly search; its finite observed pattern is not treated as an explicitly stated universal conjecture. ROOT's spectrum/tree scopes remain untouched.

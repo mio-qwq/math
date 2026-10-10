@@ -1,0 +1,1 @@
+{"arcs": 11880, "distance_histogram": {"3": 24192, "4": 19488, "5": 6272}, "integer_parameter_cases": 13104, "negative_optimizer_controls": 2, "ordered_selected_pairs": 49952, "python": "3.12.14", "selected": 224, "source_proposed_value": 180, "status": "PASS", "strict_gap_gp_check": true, "vertices": 1320}
