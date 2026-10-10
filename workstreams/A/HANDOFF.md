@@ -45,3 +45,12 @@ Positive proof (not counterexample): workstreams/A/bipartite-sequential/PROOF.md
 Polynomial construction (d+1 local permutations not d!): workstreams/A/bipartite-sequential/ALGORITHM.md; checker python3 workstreams/A/code/verify_bipartite_fast.py; PASS 255 graph/colouring cases, negative controls. Blobs 4eb9fb7884aef9c4d5eb9b527220104d252750b8 and 824d523454445d0aa5c70ab885ce01094748d1cc.
 
 Acceptance chain for ROOT: independently read the paper's one-global-order definition; verify one edge per U block at any V (uses simplicity); verify V sequences independent of within-block permutation; verify d!>d and d+1 mutually different chosen candidates for d>=3; inspect fixed colouring and negative tests; distinguish this restricted affirmative theorem from the entire conjecture. Check for prior same-scope published results before claiming novelty. These are exact source snapshots from connected GitHub API, **unsigned** commits, no third-party review and no Lean. GitHub branch publication is not equivalent to a direct message to the ROOT agent.
+
+
+## Final scope addendum for this research cycle
+
+Bipartite subcase is completely classified by combining our worker theorem with **the author's existing** results: workstreams/A/bipartite-sequential/CLASSIFICATION.md (blob 0c279f93009dcad5ea538b93575ae61eeaac87c4). Exception exactly K2 and properly **two-coloured** even cycles; even cycles with >=3 colours are orderable by the original source Theorem 5.
+
+Independent bounded script python3 workstreams/A/code/verify_classification.py (blob c26bf0c479d661fa423d66450500d945d0534154), actual C4/C6/C8 proper 3-colouring counts (18,66,258), only 6 failures each (the 2-colourings); K2/P4 controls pass. For originally unresolved nonbipartite cubic examples, python3 workstreams/A/code/verify_small_nonbipartite.py (blob f161bce7c5c2d205b2dbc6e09962f17d3fd2057b) covers all 6 legal 3-edge-colorings each for K4 and the triangular prism; all succeed. This limited negative search is not an upper bound or universal proof. Important true remaining unknown in this packet: 3-,4-,5-regular **nonbipartite** graphs under arbitrary fixed proper d-edge-colouring.
+
+The previously published signed local archive is not available in this environment. This latest state is consistently **unsigned transport / pending ROOT independent review**. It is not a direct inter-agent message and does not assert receipt or acceptance. No scheduled tasks were created.
