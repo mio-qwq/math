@@ -250,3 +250,12 @@ Next proposed reservation is ONLY Ka(m,4), m>=3, original Problem5.2. See kautz_
 Three universal lower bounds are now recorded in kautz_length4/LOWER_BOUND.md. Strongest displayed family: gp(Ka(5q,4))>=130q^4-74q^3+8q^2, q>=1; asymptotic density26/125. This is a partial lower bound on original Problem5.2, not a counterexample or exact solution. A27-state exact certificate proves every length8 block word has at most2 selected windows, which excludes every geodesic triple for arbitrarily large alphabets.
 
 Run verify_lower_bound.py and verify_three_blocks.py in that directory (from root with full paths); both Python3.12.14 stdlib PASS, logs/certificate included. LOWER_BOUND.md includes the complete arithmetic table and bridge. RESULT.md records discovery scopes, failures, actual environment and precise restart condition. No numerical optimum is promoted to an original upper bound. Pause template enlargement absent a constraint on arbitrary GP sets. No new agents or independent-review claim.
+
+
+## Structural checkpoint and prior-result correction, 09:02 UTC
+
+Length4 Kautz lower bounds remotely frozen0202144d240d871f9165888e76962cd1e44ce36a; fresh archive205hashes and both exact checkers PASS. Exact-value template search remains paused.
+
+Returned to reserved Conjecture5 using a NEW analytical missing-color reduction rather than random enumeration. triangle_22223/SHORT_CONNECTOR_REDUCTION.md proves the exact four-square-color connector CSP and uniform-length2, uniform-length3 (except triple-edge core), and all-length>=7 corollaries for loopless cubic triangle expansions. The length3 result explicitly imports Lai–Montgomery–Poon2003 dynamic coloring. Local exact certificates108cases,24original graph witnesses45252BFS pairs PASS. Full original Conjecture5 remains unresolved; mixed short edges and any fifth-colored triangle/connector remain the actual obstruction. No further homogeneous random sampling justified.
+
+Important duplicate-status closure: clawfree_square7/PRIOR_RESULT_CONFIRMED.md locates Li–Lai2017, whose published general theorem already implies the entire printed Conjecture9 seven-square-color bound. The older B Brooks note is an alternate classical corollary, NOT new research resolution. The2017primary abstract was accessible; full proof re-verification not claimed. NewOct7paper2610.09565 further gives6 for cubic graphs. No effect on the accepted36vertex11334 counterexample.
