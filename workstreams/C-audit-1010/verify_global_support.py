@@ -7,7 +7,7 @@ Finite checks are only falsification diagnostics; full theorem is algebraic.
 """
 from itertools import permutations, combinations
 from math import comb
-from collections import Counter,defaultdict
+from collections import Counter
 from hashlib import sha256
 from pathlib import Path
 import json
@@ -39,7 +39,7 @@ def small_support():
     records=[]
     for s in (2,3,4):
         perms=list(permutations(range(s)))
-        count=0;count_min=0;count_other=0;by_t=Counter();extras=[]
+        count=0;count_min=0;count_other=0;by_t=Counter()
         for a in perms:
             for b in perms:
                 if a==b or len(perm_supp(a)|perm_supp(b))!=s:continue
@@ -51,7 +51,7 @@ def small_support():
                     canonical=(s==4 and len(perm_supp(a))==len(perm_supp(b))==2
                                and perm_supp(a).isdisjoint(perm_supp(b)))
                     if canonical:count_min+=1
-                    else:count_other+=1;extras.append((a,b,bits,t))
+                    else:count_other+=1
         if s<=3:assert count==0
         if s==4:assert count_min==12 and count_other==36 and by_t=={1:36,2:12}
         records.append({'support':s,'TF_pairs_and_internal_masks_not_forcing_twins':count,
@@ -112,5 +112,3 @@ if __name__=='__main__':
     print('PASS fixed-pattern freedom n=5,6,7,8,10,12',out['fixed_minimal_free_bits'])
     print('source SHA256',sha256(Path(__file__).read_bytes()).hexdigest())
     print('result SHA256',sha256(path.read_bytes()).hexdigest())
-
-# End of v1 checker; standalone finite six-vertex overlap regression follows.
