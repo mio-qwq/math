@@ -1,3 +1,15 @@
+# B new arbitrary-order partial theorem — 2026-10-10 11:49UTC
+
+- ID B; original lower-GP product Conjecture3/preprint2.10; baseline3b473b165596630c5cfd9b43d3996b03e3792332; role independent researcher; stage complete proof plus exhaustive certificate, freeze/independent review pending.
+- Proved gp^-(G square H)>=min(5,gp^-G,gp^-H) for ALL finite connected factors with diameter<=2. Therefore original conjecture holds in this class when one factor lowerGP<=5. No arbitrary-diameter or full conjecture claim.
+- Actual127metric models,1629minimal profile sets,3956product GP patterns,522obstructions: ALL local necessary systems infeasible. Separate exhaustive-subset checker agrees with discovery's recursive algorithm;35838BFS entries/3negative controls PASS. This is finite universal reduction, not graph-order sampling. ProofSHA256594c61aae6ab0262a100780d76e73d01e3847857407a59e34cb5670519a879a9.
+- Mixed pair-family theorem frozen3b473b1 already delivered; all earlier frozen bytes preserved. No new subagents or other-agent edits.
+- Next: freeze/replay, then investigate whether a genuinely complete arbitrary-metric signature description can remove diameter restriction. No unsupported extrapolation; no more closed diameter-two enumeration.
+
+# B active: diameter-two four-point signature mechanism — 2026-10-10 11:45 UTC
+
+Mixed family remotely frozen3b473b165596630c5cfd9b43d3996b03e3792332 and same-tree fetch/merge checked; clean replay passed353hashes and mixed checker. Starting FOUR_POINT_ROUTE.md necessary local extension analysis toward universal truncation at5 for diameter-two factors. No result yet. This is outside the closed pair-graph subclasses but on the same original product question. Local feasible signatures would not establish an actual counterexample. No new subagents.
+
 # B combined pair-graph subclass result — 2026-10-10 11:42 UTC
 
 - ID B; role independent researcher; baseline 95acdcd925c881809b7dee6c62ab7abf8ac18628; stage proof complete, actual semantic checks PASS, freeze and independent review pending.

@@ -1,0 +1,7 @@
+# Next mechanism: four-point diameter-two signatures
+
+B, 2026-10-10 11:45 UTC. Scope remains original product Conjecture3, beyond the closed pair-graph families. Baseline mixed freeze3b473b165596630c5cfd9b43d3996b03e3792332; fresh archive /tmp/B-mixed-family-replay-7zoRDd passed353hashes and mixed checker. No independent acceptance.
+
+Hypothesis to test: does the original bound truncated at FIVE hold for arbitrary diameter-two factors? A counterexample must have factor lowerGP>=5 and a maximal product GP four-set. Encode each four-point projection by a partition into equal vertices and a 1/2-distance matrix on its distinct landmarks. Each outside vertex has a 1/2 distance signature. Every inclusion-maximal GP subset of the landmarks (size<=4) must have some outside extension because factor lowerGP>=5. Product triangle equalities give exact incompatibilities between signatures.
+
+First test these necessary local extension constraints, exhaustively rather than sample larger graphs. If infeasible for every four-point projection pair, derive and separately verify a universal restricted theorem. If feasible, save the exact local obstruction and determine which extra factor hypotheses were omitted; it is NOT a graph counterexample. Stop this local relaxation if it yields many unresolved patterns rather than repeatedly enlarging arbitrary searches. No new problem reservation, numbering, subagents or peer contact.

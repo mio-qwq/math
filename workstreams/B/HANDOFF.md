@@ -1,3 +1,9 @@
+# Latest handoff: truncation at five for all diameter-two factors
+
+DIAMETER_TWO_FIVE_PROOF.md and DIAMETER_TWO_FIVE_REVIEW.md in lower_gp_product establish the original lower-GP product conjecture whenever both connected factor diameters<=2 and one factor lowerGP<=5; more generally the bound is min(5,gp^-G,gp^-H). Independent review pending. This expands scope beyond the two previously frozen pair-graph families but does not solve arbitrary factors.
+
+Run python workstreams/B/lower_gp_product/verify_four_signatures.py. Complete finite metric/profile certificate, not sampled graphs:127metric models,3956GP product models,522residual obstructions, plus35838original BFS entries and3controls. Audit necessity of local demands, minimal hitting-set enumeration, duplicate coordinates and actual product-extension inequalities. The proof relies on frozen arbitrary-graph truncationebaa4094 for smaller sets. No Lean or firstness claim. New finite code has no discovery imports.
+
 # Mixed-family handoff: union of the two pair-graph families
 
 Read lower_gp_product/MIXED_FAMILY_PROOF.md and MIXED_REVIEW.md. The original product lower bound now holds for any two factors independently chosen from complete-graph line graphs and two-subset Kneser graphs (parameter ranges stated there). Review this as one expanded subclass result, not a full conjecture solution. All recent results remain pending independent review.

@@ -27,3 +27,7 @@ Checked exact lower-general-position/line-graphs-of-complete-graphs/Cartesian-pr
 ## Mixed-family gate, 2026-10-10 11:38 UTC
 
 Searched lower-general-position, Cartesian products, complete line graphs and Kneser graph combinations. No matching mixed-family original product bound was located among returned sources; ordinary maximum/mobile GP results are distinct parameters. Same original Conjecture3/preprint2.10 and prior factor Theorems5.1/5.2 as above. This closes the mixed combination of the two already studied families, not an independently selected new problem. Bounded search does not certify historical novelty.
+
+## New diameter-two universal partial theorem gate, 2026-10-10 11:47UTC
+
+Read the final original primary PDF https://oro.open.ac.uk/98050/9/98050final.pdf again at printedp117 Conjecture3 and Theorem4. Queries combined exact lower-general-position with diameter two, Cartesian, five, and original title/conjecture. No matching universal truncation-at5 result was located. The known diameter<=3 terminal-set existence theorem concerns a different statement; it is not a prior proof of this lower bound. Source arithmetic definitions match the submitted proof. Historical novelty remains uncertified; same-scope result searches are bounded.
