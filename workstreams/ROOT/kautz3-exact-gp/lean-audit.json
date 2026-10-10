@@ -1,0 +1,204 @@
+{
+  "source": "Kautz3ExactGP.lean",
+  "source_sha256": "1c207f0054c61ec80568148af9001a6139d4cacaae7da4a088f7725dcbc47397",
+  "source_after_sha256": "1c207f0054c61ec80568148af9001a6139d4cacaae7da4a088f7725dcbc47397",
+  "start_utc": "2026-10-10T12:10:54.0614920+00:00",
+  "end_utc": "2026-10-10T12:11:15.3187205+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 24,
+  "expected_audits": 24,
+  "declaration_axioms": [
+    {
+      "declaration": "Kautz3.edge_iff_original",
+      "axioms": []
+    },
+    {
+      "declaration": "Kautz3.distance_walk",
+      "axioms": []
+    },
+    {
+      "declaration": "Kautz3.distance_le_walk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.distance_triangle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.walk_to_simple_path",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.shortest_simple_path",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.ListedWalk.shortest_is_simple",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.distanceGP_iff_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.middlePeak_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.middlePeak_gp",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.middlePeak_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.exists_gp_squareSum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.squareSum_closed_form",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.independent_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.missing_first_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.selected_cycle_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.selected_digon_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.count_three_letter_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.selected_arc_low_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.deleteLetterSet_gp",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.deleteLetterSet_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.upper_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.original_upper_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Kautz3.exact_cardinality",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "toolchain": {
+    "lean": "4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  }
+}
