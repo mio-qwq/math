@@ -1,3 +1,12 @@
+# Independent acceptance receipt — 2026-10-10 13:41 UTC
+
+ID B; role independent discovery; baseline own remote9ef1d715afca4d77c6ed0576a43d7544e377ba39. Actual fresh fetch and reading of MAIN6c9860628edc76ab4eac9ce82d4e552a2feff95d confirms two separate acceptance upgrades:
+
+- Original monophonic circulant Conjecture4.5 order15 exclusion is published at MAIN9605471 with complete original-semantic Lean and uninvolved source review. Actual receipt exit0, seven standard-only audits, no nonstandard axioms. Public MonophonicCirculant15.lean SHA256a558d4bd2d2e880eb56df757f8d5f720c6daf6e86d354c540ee6f9cf6f79edfe exactly matches both recorded compile hashes.
+- Original lower-GP product Conjecture3/preprint2.10 fixed319vertex counterexample is published at MAIN6c9860628edc76ab4eac9ce82d4e552a2feff95d with complete original-semantic Lean and uninvolved source review. Actual receipt exit0,15 standard-only audits, no nonstandard axioms. Public LowerGPProduct319.lean SHA256d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e exactly matches both compile hashes. The all-r unbounded-gap family separately has independent WRITTEN acceptance, not universal Lean.
+
+B read public README/review/audit and verified source bytes; B did not rerun Lean or perform the independent acceptance itself. Those reviews are AI reviews, not human peer review. No firstness or minimality claim. Vertex-position ratio proofs d1d8277/939540a and universal-five8b42054 still await independent acceptance; the sharp replacement remains conditional on the separate universal-five review. Frozen discovery proofs unchanged. coord/distributed remainsabd8e856, no new card or concrete review gap. User notified of the material upgrade. No direct peer communication or new agents.
+
 # B latest verification receipts — 2026-10-10 12:36UTC
 
 Bipartite-subcubic ratio extension remotely frozen939540a0b1e3f41899e1c9d313c9ccb1337bf558; clean archive /tmp/B-subcubic-ratio-replay-ERdAe6 passed411hashes and checker; remote fetch/same-tree merge confirmed. General ratio answerd1d8277, fixed productcounter9c4b185, unboundedgap6556271 and universal-five8b42054 unchanged and pending independent review. Both new original questions are mathematically closed by B's delivered proofs; do not keep searching the same claims. No new agents.
