@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "d": 6,
+  "k": 3,
+  "graph_vertices": 504,
+  "graph_arcs": 3024,
+  "in_degree": 6,
+  "out_degree": 6,
+  "conjectured_value": 84,
+  "verified_gp_lower_bound": 90,
+  "strict_excess": 6,
+  "selected_ordered_pairs": 8010,
+  "selected_distance_distribution": {
+    "3": 2880,
+    "4": 3780,
+    "5": 1350
+  },
+  "selected_ordered_triples_checked": 704880,
+  "claim": "Original optimality conjecture is false; exact gp value is not determined.",
+  "certificate_sha256": "d7989f129d3bacbd54928b518cba64c5607a6e93968e1cef5f819c159d6d44a3",
+  "checker_sha256": "58ce4046c09907f5e4d00506472e96e0eafecff992658ca6e6ee285d4043e31e",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

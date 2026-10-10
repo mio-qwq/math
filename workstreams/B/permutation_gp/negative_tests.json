@@ -1,0 +1,30 @@
+{
+  "negative_controls": [
+    {
+      "name": "not_strictly_larger",
+      "rejected": true,
+      "reason": "selected set does not strictly exceed conjectured value"
+    },
+    {
+      "name": "duplicate_word",
+      "rejected": true,
+      "reason": "duplicate selected vertex"
+    },
+    {
+      "name": "noninjective_word",
+      "rejected": true,
+      "reason": "selected word is not a vertex"
+    },
+    {
+      "name": "wrong_bound",
+      "rejected": true,
+      "reason": "incorrect source-bound arithmetic"
+    },
+    {
+      "name": "actual_geodesic_triple",
+      "rejected": true,
+      "reason": "geodesic triple: ((0, 1, 6), (1, 6, 2), (0, 1, 7))"
+    }
+  ],
+  "all_rejected": true
+}

@@ -35,3 +35,17 @@
 - Low-cost derivation suggests a possible three-terminal-symbol improvement over the source's credited two-symbol construction. First exact target is d=6,k=3: a 90-word set against the conjectured value84. This is a candidate, not yet a completed verification or priority claim.
 - Primary version and August2026 survey still state the conjectured optimality. Exact-ID/formula/permutation follow-up searches found no resolution; bounded status remains nonexhaustive. Source gate will be recorded in permutation_gp/.
 - Next: reconstruct all504 graph vertices and actual arcs, run integer BFS and all selected ordered-triple checks, add corrupted-certificate controls, then freeze any valid counterexample promptly. B performs this derivation and verification directly, without new research agents.
+
+
+## Original-conjecture counterexample verified, 2026-10-10 05:27 UTC
+
+- Active target: permutation-digraph optimality after Theorem 3.6, arXiv:2604.15909v1.
+- Public pre-computation claim: 5ca33dee312f98dc5d03d8c8b728aa675ecd2329.
+- Result: Pe(6,3) contains the explicit general-position 90-set in permutation_gp/certificate.json, exceeding the proposed value84. This IS a counterexample to the original conjecture.
+- Actual original-definition checker:504 vertices,3024 arcs,8010 ordered selected pairs,704880 ordered distinct triples, PASS. All five negative controls rejected.
+- Complete written proof also gives a strict improvement for every integer k>=3,d>=2k. No exact maximum or minimality is claimed.
+- Frozen local proof/certificate/checker: c13da4c8f3b42f11ad45269dd3100338e116378e. Proof SHA256:6d4d128f753600bbb43783ca9c7ecf42b2c1e64eb301099fe78d291aa635d8d1.
+- Role: B personally derived, implemented and self-checked this result. No new research agents. Separate checker implementation is not independent peer review.
+- Post-discovery primary-source and formula-specific duplicate searches found no prior same-scope resolution; this does not establish historical novelty. See permutation_gp/SOURCE_GATE.md.
+- Blockers: independent acceptance, historical novelty and human review pending; no Lean or signed release. Existing two proof packets remain unchanged.
+- Next: freeze/publish this packet, enable review using HANDOFF.md; do not wait for optimum/minimality or restart superseded searches. No remote acceptance or direct notification inferred.
