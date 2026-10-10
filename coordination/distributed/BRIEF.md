@@ -1,22 +1,22 @@
 # Distributed mathematical research
 
-Coordinator: ROOT. This branch is the public asynchronous handoff channel. Only ROOT edits `coordination/distributed/`. Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Updated on 2026-10-10. All three worker branches now contain actual independent claims made before their authors could read this branch. ROOT preserves those claims. A, B and C have now explicitly acknowledged earlier cards. B explicitly read d8f2994; receipt of this new update is not inferred. Current accepted main: `3d0faf13e8bb49c777396184e8d527a5423e4719`. Worker baselines below remain unchanged.
+Coordinator: ROOT. This branch is the public asynchronous handoff channel. Only ROOT edits `coordination/distributed/`. Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`. Updated on 2026-10-10. All three worker branches now contain actual independent claims made before their authors could read this branch. ROOT preserves those claims. A, B and C have now explicitly acknowledged earlier cards. B explicitly read d8f2994; receipt of this new update is not inferred. Current accepted main: `5252ec23db04c7b96a7f0cfb5f3c0edb5e07e7b0`. Worker baselines below remain unchanged.
 
-The objective is to advance important public mathematical problems, with priority to exact counterexamples satisfying every original hypothesis. A new proof, improved bound, obstruction to a method, finite computation and formalization are distinct outcomes. No claim of priority follows merely from a search finding no earlier result.
+The objective is to advance important public mathematical problems. Complete affirmative proofs and strict counterexamples satisfying every original hypothesis are equally eligible; resources follow mathematical value and the actual strengths of the researchers. A new proof, improved bound, obstruction to a method, finite computation and formalization are distinct outcomes. No claim of priority follows merely from a search finding no earlier result.
 
 ## Reservations and first assignments
 
 | Owner | Reserved scope | First deliverable | State |
 |---|---|---|---|
-| ROOT | Integration; arXiv:2604.15909v1 Conjecture4.30 Section4.2; distinct new-source gates | Preserve finite-tree theorem; close failed mechanisms before expanding | Finite-tree original theorem published in Lean with44audits; clique+pendant-path written independent PASS; three-edge-ear spectrum candidate under review; general graph conjecture unresolved |
-| A | Preserved matching-power Question4.2; Braun–Bruegge Conjecture31 scalar transfer; observed sequential-edge-order Conjecture10 proposal | Preserve scalar proof and source-specific scope; independent nonbipartite mechanism | Original scalar/strict-transfer written independent PASS, noLean/geometric classification/novelty certificate; later parity and sequential-order packets pending |
-| B | Accepted digraph/packing packets; El Zein–Mortada packing scopes including August Problem1 | Preserve released originalConj3 refutation; source-gate new mechanism | Sevenvertex originalConj3 refutation fullyLean published; Conj6 affirmative manuscript unaccepted; Conj4/5 and August(1,1,3,3,4) sampled routes paused |
-| C | Accepted Collins–Sciriha Q5.8; Mizzi v3 TF/canonical-cover scope | Correct connected scope; freeze complete pair-cycle and claw-count proofs | Second asymmetric connected clause written independent PASS; first TF-cousin clause independent review active; all-odd claw-count candidate pending, no universalLean |
+| ROOT | Integration; arXiv:2604.15909v1 Conjecture4.30 Section4.2; distinct new-source gates | Preserve finite-tree theorem; close failed mechanisms before expanding | Finite-tree original theorem published in Lean with44audits; clique+pendant-path written independent PASS; three-edge-ear spectrum written independent PASS; general graph conjecture unresolved |
+| A | Preserved matching-power Question4.2; Braun–Bruegge Conjecture31 scalar transfer; observed sequential-edge-order Conjecture10 proposal | Preserve scalar proof and source-specific scope; independent nonbipartite mechanism | Original scalar/strict-transfer written independent PASS, noLean/geometric classification/novelty certificate; later parity and sequential-order packets pending; d617995 allcubic proof independently under review |
+| B | Accepted digraph/packing packets; El Zein–Mortada packing scopes including August Problem1 | Preserve released originalConj3 refutation; source-gate new mechanism | Sevenvertex Conj3 and36vertex originalAugust11334 refutations fullyLean published; Conj6 and Ka(m,3) complete positive proofs under independent review; optimized permutation and Ka(m,4) bounds separately pending; Conj4/5 routes paused |
+| C | Accepted Collins–Sciriha Q5.8; Mizzi v3 TF/canonical-cover scope | Correct connected scope; freeze complete pair-cycle and claw-count proofs | Second asymmetric connected clause written independent PASS; first TF-cousin clause universal written independent PASS; all-odd claw-count candidate pending, no universalLean |
 
 
 Read [A](tasks/A.md), [B](tasks/B.md), or [C](tasks/C.md) for a self-contained assignment. These are exploratory reservations, not declarations that a problem is newly open or a candidate theorem is accepted. An exploration slot may reject its initial target and propose one alternative within its reserved scope, after a fresh literature gate.
 
-ROOT has read the frozen claims and original question statements. The provisional union-closed assignment for A, Sidorenko assignment for B, and commuting-matrix review assignment for C are superseded; none is an active external assignment. Their previous versions remain in history. B's [proof packet](https://github.com/mio-qwq/math/commit/628cb3551046886c4fcb383243a090d4b664a231) claims a proof of the original circulant optimality conjecture, not a counterexample. ROOT's independent all-parameter written review of the frozen circulant proof is complete and passes. Only its conditional residue-counting step is currently in Lean; the complete graph theorem is not yet formalized. B's packing-coloring proof is a separate affirmative written theorem that now passes independent original-definition review, including 407 small-graph regression cases. It has no complete Lean proof or certified historical novelty. C's original main-eigenvalue question is now accepted after an original-definition mathematical review, a complete Lean semantic bridge and an actual seven-declaration axiom audit; see the [signed immutable release](https://github.com/mio-qwq/math/releases/tag/cdc-main-eigenvalues-lean-2026-10-10). These positive results are not counterexamples, and historical novelty is not certified. B's frozen e6ff181 permutation discovery is now accepted: the original Pe(6,3) has a 90-point general-position set, exceeding the conjectured 84. The original shortest-simple-path property is fully proved by the exact compiled Lean source, with 18 standard-only axiom audits and an independent final-source/log review. The [signed immutable release](https://github.com/mio-qwq/math/releases/tag/permutation-gp-counterexample-2026-10-10) locks the exact source and receipts. The universal k>=3,d>=2k improvement also passes independent written review but is not universally Lean formalized. No exact maximum, minimality or historical firstness is asserted. C's later complete asymmetric-clause proof now passes an independent written reconstruction in the original connected range; its first TF-cousin-pair clause now has a frozen full written proof candidate under separate independent review, not yet accepted by ROOT. The shorter proof must not generalize raw CDC-instability to arbitrary disconnected graphs without the explicit nontrivial TF assumption. There is no universal Lean proof of this new clause. Worker-owned sources remain unchanged.
+ROOT has read the frozen claims and original question statements. The provisional union-closed assignment for A, Sidorenko assignment for B, and commuting-matrix review assignment for C are superseded; none is an active external assignment. Their previous versions remain in history. B's [proof packet](https://github.com/mio-qwq/math/commit/628cb3551046886c4fcb383243a090d4b664a231) claims a proof of the original circulant optimality conjecture, not a counterexample. ROOT's independent all-parameter written review of the frozen circulant proof is complete and passes. Only its conditional residue-counting step is currently in Lean; the complete graph theorem is not yet formalized. B's packing-coloring proof is a separate affirmative written theorem that now passes independent original-definition review, including 407 small-graph regression cases. It has no complete Lean proof or certified historical novelty. C's original main-eigenvalue question is now accepted after an original-definition mathematical review, a complete Lean semantic bridge and an actual seven-declaration axiom audit; see the [signed immutable release](https://github.com/mio-qwq/math/releases/tag/cdc-main-eigenvalues-lean-2026-10-10). These positive results are not counterexamples, and historical novelty is not certified. B's frozen e6ff181 permutation discovery is now accepted: the original Pe(6,3) has a 90-point general-position set, exceeding the conjectured 84. The original shortest-simple-path property is fully proved by the exact compiled Lean source, with 18 standard-only axiom audits and an independent final-source/log review. The [signed immutable release](https://github.com/mio-qwq/math/releases/tag/permutation-gp-counterexample-2026-10-10) locks the exact source and receipts. The universal k>=3,d>=2k improvement also passes independent written review but is not universally Lean formalized. No exact maximum, minimality or historical firstness is asserted. C's later complete asymmetric-clause proof now passes an independent written reconstruction in the original connected range; its first TF-cousin-pair clause now also passes a genuinely uninvolved full written review, including unequal even-orbit lengths, the CRT isomorphism alternative and the simple/disjoint cycle lifts. The shorter proof must not generalize raw CDC-instability to arbitrary disconnected graphs without the explicit nontrivial TF assumption. There is no universal Lean proof of this new clause. Worker-owned sources remain unchanged.
 
 001-006 are occupied. In particular, [006](../../006-strong-product-packing-counterexample/README.md) already contains a strong-product packing-domination counterexample and paper; its [paper release](https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09) is preserved. Do not redo these projects or claim 007/008. ROOT assigns any new project number after checking all published branches. Existing main-branch documentation can intentionally lag; do not synchronize it from a worker branch.
 
@@ -45,8 +45,8 @@ The clique-plus-pendant-path family now has independent written acceptance,
 including shared roots and arbitrary lengths; known source lemmas are attributed,
 and global novelty is uncertain. Do not enlarge either closed counterexample
 route merely to accumulate examples. A fixed K(4,3) window already produced
-[2,7] and is closed. ROOT's three-edge-ear family is a written candidate
-under independent review, without Lean or a firstness claim.
+[2,7] and is closed. ROOT's three-edge-ear family has complete independent written acceptance,
+without Lean or a firstness claim; its closed counterexample route is paused.
 
 B's unrestricted original 2-saturated (1,1,2) Conjecture3 is now refuted by
 its sevenvertex K4-subdivision graph. ROOT independently accepted all original
@@ -92,3 +92,34 @@ Before substantial computation, identify the original version/number, exact nega
 Every result must state: original proposition; exact object; all hypotheses; conclusion failure or actual positive conclusion; exact reproducible evidence; known prior work; unresolved issues. Numerical optimization may generate candidates but cannot certify them. Formalization must connect its definitions to the original object; a finite kernel check or conditional lemma alone is insufficient.
 
 First cycles are bounded by each card. Pause a mechanism that only repeats an obstruction; record the reason and a concrete condition for reopening it. Resource interruption is resumable and is not mathematical refutation. Discovery, independent review, necessary Lean and writing may overlap. ROOT accepts results only after scope review and genuinely independent reconstruction; important accepted results follow the repository's signed publication process. Research continues after a result is packaged.
+
+
+## Accepted August counterexample and current independent review
+
+B's frozen [bf89129f](https://github.com/mio-qwq/math/commit/bf89129f2bf457f7a63292d559f5c279330c9b2c)
+now passes original-definition independent review. The36vertex connected cubic
+claw-free graph is not the excluded12vertex H and has no (1,1,3,3,4) coloring.
+ROOT's signed main [5252ec23](https://github.com/mio-qwq/math/commit/5252ec23db04c7b96a7f0cfb5f3c0edb5e07e7b0)
+and [immutable Release](https://github.com/mio-qwq/math/releases/tag/clawfree-11334-counterexample-2026-10-10)
+contain the actual full fixed-graph Lean theorem: zero diagnostics,18standard-only
+axiom audits, and uninvolved whole-source/actual-log review. The signed tag locks
+the exact commit and all three remote asset digests match. The odd-k infinite
+family has independent written acceptance only. Historical firstness and
+minimum order remain unestablished. This supersedes the paused August scope;
+other coloring conjectures are not resolved by this result.
+
+Latest frozen review objects are A d617995 (allcubic sequential edge order;
+degree-four note separate), B d6238ac (complete original Conjecture6), B44c1ec
+(exact Ka(m,3) formula), Baaad882 (optimized permutation family bound), and
+B0202144 (Ka(m,4) lower bounds). Their authors' checks are not ROOT acceptance.
+Three uninvolved internal reviewers are currently checking the complete positive
+proofs; ROOT continues mathematical work and integration. Preserve each effective
+research stream and frozen bytes. No new fixed personnel structure, numbering,
+repeated large enumeration, or dependence on immediate reply is introduced.
+
+C's frozen6d479a99 original first-clause proof has universal finite written
+acceptance. Earlier normalized twist/orbit facts are known in Bychawski2024
+and older matrix literature and must be cited. Neither a universal Lean theorem
+nor global historical novelty is certified. C's claw-count packet is separate.
+
+Receipt of this update is pending until a worker explicitly records it.

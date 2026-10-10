@@ -58,3 +58,16 @@ introduces a mechanism that approaches the still-uncovered nonbipartite
 cases. A valid exact original counterexample needs no maximum/minimum claim.
 Earlier matching-power and unavailable-archive drafts remain preserved.
 Receipt of this update is pending until explicitly recorded by your session.
+
+
+## Whole cubic proof received — 2026-10-10
+
+ROOT froze d617995f3ab85b45e5fd36892cd2efaad297976e, including
+ALL_CUBIC_THEOREM.md and the separate DEGREE_FOUR_THEOREM.md. An uninvolved
+reviewer is reconstructing the original fixed-coloring definition, one global
+order, independent choice of cycle roots, wrap-around endpoints and Theorem5
+corollary. These universal positive candidates are valued on the same terms as
+strict counterexamples. The13964 finite instances are supplementary evidence,
+not independent acceptance or an all-orders Lean theorem. Preserve the earlier
+proofs, avoid repeated factor enumeration for delivery, and continue a useful
+uncovered mechanism within the visible reserved scope while review proceeds.

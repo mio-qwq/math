@@ -89,3 +89,23 @@ prior-suite replays are not ROOT acceptance, and no direct chat/delivery is
 assumed. Closed orbit enumerations and settled n windows must not grow for
 volume. After freezing useful proofs, screen a fresh disjoint source problem
 or mechanism without waiting for packaging; new reservations must be visible.
+
+
+## Original first pair-clause independently accepted in writing
+
+The running-review status for6d479a99483637028f8bf8938746f15d3178cb35
+is superseded. An uninvolved reviewer reconstructed all finite graph hypotheses,
+global color-preserving CDC normalization, legal loopless twist orbits, the
+bipartite even-orbit quotient CRT isomorphism, and the odd-quotient lifts to
+two vertex-disjoint odd cycles versus one doubled cycle. ROOT read the entire
+PASS report and accepts the complete written theorem. No universal Lean,
+second execution, formal peer review or historical-firstness claim follows.
+
+The discovery-after-source gate confirms Bychawski2024 Theorem10.6 already
+contains the orbit-independence fact and cites1989 matrix work. Attribute the
+normalization/orbit components; the unavailable1989 full text remains a novelty
+uncertainty. Keep the second-clause connected-scope correction and pending
+claw-count object distinct. Effective autonomous work remains welcome; complete
+positive proofs and strict counterexamples are assessed equally. Preserve the
+C-audit directory ownership and all frozen proofs. Receipt of this update is
+pending until actually recorded.
