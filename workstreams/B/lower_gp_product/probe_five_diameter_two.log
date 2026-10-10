@@ -1,0 +1,18 @@
+{"stage": "models", "hard_models": 1693, "canonical_first": 57, "max_profiles": 32, "seconds": 0.46398802399926353}
+{"stage": "first_model_done", "index": 1, "counts": {"pairs": 1693, "gp": 0, "known_extend": 0, "infeasible": 0, "feasible": 0}, "seconds": 0.4647034679983335}
+{"stage": "first_model_done", "index": 2, "counts": {"pairs": 3386, "gp": 42, "known_extend": 0, "infeasible": 42, "feasible": 0}, "seconds": 0.4668895210015762}
+{"stage": "first_model_done", "index": 3, "counts": {"pairs": 5079, "gp": 84, "known_extend": 0, "infeasible": 84, "feasible": 0}, "seconds": 0.4684914259996731}
+{"stage": "first_model_done", "index": 4, "counts": {"pairs": 6772, "gp": 170, "known_extend": 0, "infeasible": 170, "feasible": 0}, "seconds": 0.47157354400042095}
+{"stage": "first_model_done", "index": 5, "counts": {"pairs": 8465, "gp": 256, "known_extend": 0, "infeasible": 256, "feasible": 0}, "seconds": 0.4746023020015855}
+{"stage": "first_model_done", "index": 6, "counts": {"pairs": 10158, "gp": 443, "known_extend": 0, "infeasible": 443, "feasible": 0}, "seconds": 0.48383049000040046}
+{"stage": "first_model_done", "index": 7, "counts": {"pairs": 11851, "gp": 571, "known_extend": 0, "infeasible": 571, "feasible": 0}, "seconds": 0.4908847420010716}
+{"stage": "first_model_done", "index": 8, "counts": {"pairs": 13544, "gp": 692, "known_extend": 0, "infeasible": 692, "feasible": 0}, "seconds": 0.4974645430011151}
+{"stage": "first_model_done", "index": 9, "counts": {"pairs": 15237, "gp": 879, "known_extend": 0, "infeasible": 879, "feasible": 0}, "seconds": 0.5058120280009462}
+{"stage": "first_model_done", "index": 10, "counts": {"pairs": 16930, "gp": 1066, "known_extend": 0, "infeasible": 1066, "feasible": 0}, "seconds": 0.514255136000429}
+{"stage": "first_model_done", "index": 11, "counts": {"pairs": 18623, "gp": 1253, "known_extend": 0, "infeasible": 1253, "feasible": 0}, "seconds": 0.5220136460011418}
+{"stage": "first_model_done", "index": 12, "counts": {"pairs": 20316, "gp": 1529, "known_extend": 0, "infeasible": 1529, "feasible": 0}, "seconds": 0.5368587779994414}
+{"stage": "first_model_done", "index": 13, "counts": {"pairs": 22009, "gp": 1695, "known_extend": 0, "infeasible": 1695, "feasible": 0}, "seconds": 0.5475716040018597}
+{"stage": "first_model_done", "index": 14, "counts": {"pairs": 23702, "gp": 1971, "known_extend": 0, "infeasible": 1971, "feasible": 0}, "seconds": 0.5600728770004935}
+{"stage": "first_model_done", "index": 15, "counts": {"pairs": 25395, "gp": 2247, "known_extend": 0, "infeasible": 2247, "feasible": 0}, "seconds": 0.5711845320001885}
+{"stage": "first_model_done", "index": 16, "counts": {"pairs": 26615, "gp": 2266, "known_extend": 0, "infeasible": 2265, "feasible": 1}, "seconds": 0.5725728370016441}
+{"status": "LOCAL_FEASIBLE", "counts": {"pairs": 26615, "gp": 2266, "known_extend": 0, "infeasible": 2265, "feasible": 1}, "nodes": 2443, "first_models": 57, "hard_models": 1693, "seconds": 0.5725970530002087}

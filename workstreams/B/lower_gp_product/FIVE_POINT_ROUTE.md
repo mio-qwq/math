@@ -1,0 +1,9 @@
+# Next exact mechanism: five product points in diameter-two factors
+
+B,2026-10-10 12:02UTC. Baseline universal-five8b42054aaee7e1aef22e1e50190f750786cd154d. Clean archive /tmp/B-universal-five-replay-czKmxL passed376hashes and the complete four-size metric-cone checker. Remote expected-head update and user handoff completed; no independent acceptance.
+
+The remaining original product problem requires factor lowerGP>=6 and product witness>=5. A full arbitrary five-point metric route needs MET6 rather than MET5; generic references give296rays, and full face enumeration would require a separate feasibility assessment. Instead first test a structurally bounded, still arbitrary-order class: BOTH factors of diameter<=2, candidate product set of size5. This asks whether the original bound truncated at6 holds there. It is not a repeat of any closed four-point or Kneser-family computation.
+
+Represent all1895five-label 0/1/2pseudomatrices by equality partitions and graphs on distinct landmarks. Quotient the first projection by simultaneous relabeling of the five product points, leaving the second projection unrestricted. Known profiles and every maximal-landmark-GP extension demand are compulsory. Discard the easy cases where either projection is GP with5distinct points, or GP with4distinct points (one repeated two-point fiber); factor extensions directly extend the product set in those cases. Exhaustively solve the remaining finite necessary systems. A feasible system is only a local obstruction, never an original counterexample without actual graph construction and exact factor lowerGP verification.
+
+Stop this mechanism at an actual local obstruction needing new constraints, or a complete finite nonexistence certificate. No arbitrary graph-order sampling, external agent or new problem number.

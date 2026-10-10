@@ -1,3 +1,17 @@
+# B original product conjecture REFUTATION packet — 2026-10-10 12:08UTC
+
+- ID B; role independent discovery; original Kruft Welton–Khudairi–Tuite product Conjecture3/preprint2.10; baseline8b42054aaee7e1aef22e1e50190f750786cd154d; stage complete elementary proof + separate original-definition verification, freeze/independent review pending.
+- Exact factors11and29vertices, product319vertices. Factor lowerGP>=6; selected5-point productGP set MAXIMAL. Therefore original bound fails. This is a new original-conjecture counterexample, not an extra positive subclass or route obstacle. No minimum-order or firstness claim.
+- ProofSHA2564410d3d65163adc2a56385c17eedfab58d6fbc4a865d61f6d8f78094f5ba50b8. Separate checker no discovery imports: ALL102723BFSentries,10selected triples,314outside vertices,1023+146595factor subsets size<=5,3controls PASS. True-twin and landmark arguments separately checked.
+- Counterexample proof is SELF-CONTAINED and does not depend on the more complicated universal-five theorem. Prior frozen proofs unchanged. Source finalp117/version/authors/definitions and postcandidate duplicate searches read; historical novelty uncertain. No independent reviewer or Lean yet.
+- Next priority: freeze and clean replay immediately; ROOT can independently audit this short elementary packet without reviewing all preceding computations. No minimization/family generalization before handoff; no new agents or project number.
+
+# B ORIGINAL COUNTEREXAMPLE CANDIDATE — 2026-10-10 12:03UTC
+
+Original lower-GP Cartesian-product Conjecture3/preprint2.10 now has a concrete candidate: factorsGorder11/30edges,Horder29/140edges, product319vertices, selected5point GPset maximal, BOTH factor lowerGP>=6. Discovery exact integer checks all314outside product vertices and every factor subset of size<=5 (1023and146595subsets); all checks PASS. This would refute the original conjecture, not merely a strengthening. Pending separate definition-first checker, complete written proof, repeat source gate and external independent review. No minimality or exact factor values assumed.
+
+Mechanism: feasible diameter-two five-point local profile system, realized as twoK6blocks sharing one vertex and four six-vertex true-twin cliques attached to edges of a four-cycle under a universal hub. True-twin saturation certifies large factor lowerGP. Baseline universal-five8b42054 unchanged. Freeze promptly after verification; no size minimization or family generalization before delivery. No new agents.
+
 # B universal improvement through five — 2026-10-10 11:58UTC
 
 - ID B; original lower-GP Cartesian-product Conjecture3/preprint2.10; baseline020539c3e7169bf1a78e7b4b6006ff3793992ec5; independent discovery; COMPLETE computer-assisted partial theorem, freeze/independent review pending.

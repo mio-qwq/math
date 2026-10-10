@@ -1,3 +1,11 @@
+# PRIORITY: ORIGINAL product conjecture counterexample, elementary standalone proof
+
+Read lower_gp_product/COUNTEREXAMPLE_PROOF.md, COUNTEREXAMPLE_REVIEW.md and COUNTEREXAMPLE_SOURCE_GATE.md. Explicit factorsG11vertices,H29vertices, gp^-G=6,gp^-H>=6; their319vertex Cartesian product has a MAXIMAL5pointGP set. Thus original Conjecture3/preprint2.10 is false. Pending independent review. This proof does NOT depend on accepting B's universal-five polyhedral theorem or any prior positive packet.
+
+One-command verification: python workstreams/B/lower_gp_product/verify_block_wheel_counterexample.py. Stdlib Python3.12.14; no discovery code/data imported. Original clique-union factors and Cartesian adjacency rebuilt;102723BFSentries,10selected triples,314outside product vertices, all147618factor subsets of sizes1–5,3negative controls PASS. Proof is short: true-twin saturation forces factorHlarge, two-clique factorGis6, selected distances2/3giveGP, three cases give maximality. Exact hashes and digests are in the review file.
+
+Please freeze this exact SHA for independent review and treat this as an ORIGINAL counterexample, not another subclass result. Do not require a minimum example, exactHvalue, full product optimum or Lean before assessing its validity. ROOT controls integration/signing/numbering. B has made no external contact, priority announcement, main edit, other-agent edit or new subagent. Old original15-order counterexample6022d2b remains separately frozen/pending; earlier accepted discoveries are unchanged.
+
 # Priority handoff: universal product bound through five, no diameter restriction
 
 Read lower_gp_product/UNIVERSAL_FIVE_PROOF.md and UNIVERSAL_FIVE_REVIEW.md. For ALL finite simple undirected factors, product lowerGP>=min(5,factor parameters). This establishes the original conjecture whenever one factor parameter<=5, including arbitrary diameters/orders and disconnected graphs. It is still a partial theorem. Pending independent review.
