@@ -84,7 +84,7 @@ Likewise for \(H\). Let the union of main-eigenvalue sets be \(\{\lambda_1,\dots
 
 ## 4. A third matrix route / independent arithmetic identity
 
-For direct comparison with the source's Theorem 4.2, its TF-isomorphism condition gives \(B=P A Q\) for permutation matrices \(P,Q\). Set \(C=P^{-1}BP=A T\) with \(T=QP\). Both \(A,C\) are symmetric. Hence \(T^{-1}A=AT\), or \(TA=AT^{-1}\). As \(T\mathbf1=T^{-1}\mathbf1=\mathbf1\), induction using this relation shows \(TA^k\mathbf1=A^k\mathbf1\) for every \(k\ge0\). A further induction gives \((AT)^k\mathbf1=A^k\mathbf1\), so \(B^k\mathbf1=P A^k\mathbf1\) for every \(k\). In particular all finite walk matrices agree after a *single* relabelling, and their main-eigenvalue sets agree. This route depends on correctly interpreting the cited TF-isomorphism theorem, but the direct cover proof in `2 is self-contained.
+For direct comparison with the source's Theorem 4.2, its TF-isomorphism condition gives \(B=P A Q\) for permutation matrices \(P,Q\). Set \(C=P^{-1}BP=A T\) with \(T=QP\). Both \(A,C\) are symmetric. Hence \(T^{-1}A=AT\), or \(TA=AT^{-1}\). As \(T\mathbf1=T^{-1}\mathbf1=\mathbf1\), induction using this relation shows \(TA^k\mathbf1=A^k\mathbf1\) for every \(k\ge0\). A further induction gives \((AT)^k\mathbf1=A^k\mathbf1\), so \(B^k\mathbf1=P A^k\mathbf1\) for every \(k\). In particular all finite walk matrices agree after a *single* relabelling, and their main-eigenvalue sets agree. This route depends on correctly interpreting the cited TF-isomorphism theorem, but the direct cover proof in §2 is self-contained.
 
 ## 5. Exact 12-vertex nonisomorphic demonstrator (NOT a counterexample)
 
@@ -95,7 +95,7 @@ Files `certificate-q58.json` and `verify_q58.py` specify two connected nonisomor
 - Both have exactly the same all-ones total walks \(w_0,\ldots,w_6=(12,56,264,1240,5832,27416,128904)\).
 - Three negative tests corrupt a cover edge, corrupt the cover permutation, and corrupt the alleged polynomial; all are required to fail.
 
-This finite exact test is an illustration and check of one example. It is **not** a proof of the universal theorem; `2 is that proof. The checker imports nothing from exploratory code and uses integer arithmetic, not floating-point eigenvalue comparisons.
+This finite exact test is an illustration and check of one example. It is **not** a proof of the universal theorem; §2 is that proof. The checker imports nothing from exploratory code and uses integer arithmetic, not floating-point eigenvalue comparisons.
 
 Actual run from inside `workstreams/C/`:
 
