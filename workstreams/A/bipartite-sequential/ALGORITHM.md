@@ -1,0 +1,11 @@
+# Polynomial algorithm for the bipartite block theorem
+
+**Source context:** Gorzkowska–Kwaśny, arXiv:2609.11832v1, Conjecture 10, https://arxiv.org/html/2609.11832v1. This is a constructive corollary of the bipartite theorem in PROOF.md, under the same original proper-colouring and simple-graph definitions.
+
+Fix a finite simple bipartite graph G=(U,V,E) with a **fixed proper edge-colouring** and degree d(u)>=3 for each u in U. Fix an arbitrary total order of U and concatenate blocks E(u). At each v in V there is at most one incident edge in each block, so the entire ordered colour sequence at v is predetermined and unaffected by the ordering *within* the blocks.
+
+The earlier existence proof compared d! permutations against at most d prohibited neighbour sequences. In fact only **d+1** candidate permutations are necessary. At each left vertex u, enumerate its d distinct incident colours c_0,...,c_{d-1}. Consider the d cyclic rotations of this sequence, plus the sequence obtained by swapping c_0 and c_1 in the original. Since d>=3, the swapped sequence cannot coincide with a cyclic rotation, so these d+1 permutations are pairwise distinct. There are at most d neighbour sequences already fixed on V; select the first of these d+1 permutations that differs from each neighbour sequence. The independent choices at vertices in U produce a single valid total order of E(G).
+
+With hashable sortable colour labels, the straightforward implementation runs in O(sum_{u in U} d(u)^2 + |U| log |U| + |E|) time, including constructing/comparing the d+1 candidate tuples per left block; memory is O(|E|). This is polynomial and avoids factorial search. It never recolours an edge.
+
+**Actual exact regression:** workstreams/A/code/verify_bipartite_fast.py, Python 3.13 standard library, independent original-definition re-evaluation: PASS 255 graph/colouring cases; all independent final-order checks and negative controls passed. Cases cover connected regular bipartite d>=3, different degrees, nonuniform fixed proper palettes, and degree up to 40. Negative controls reject missing edges, improper colouring and duplicate edges. Finite checks are not the infinite theorem; the d+1 counting is the proof. No Lean/external ROOT acceptance/historical priority is claimed, and all new content is worker-owned and unsigned by the connected API.
