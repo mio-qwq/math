@@ -1,0 +1,64 @@
+[
+  {
+    "n": 2,
+    "graph_masks": 2,
+    "perms": 2,
+    "reduced_masks": 1,
+    "expected_TF": "3",
+    "expected_proj": "2",
+    "expected_projection_given_reduced": "2",
+    "support2_pair_count": 4,
+    "support3plus_pair_count": 0,
+    "support_hist": {
+      "2": 4
+    }
+  },
+  {
+    "n": 3,
+    "graph_masks": 8,
+    "perms": 6,
+    "reduced_masks": 4,
+    "expected_TF": "15/2",
+    "expected_proj": "3",
+    "expected_projection_given_reduced": "3",
+    "support2_pair_count": 24,
+    "support3plus_pair_count": 28,
+    "support_hist": {
+      "2": 24,
+      "3": 28
+    }
+  },
+  {
+    "n": 4,
+    "graph_masks": 64,
+    "perms": 24,
+    "reduced_masks": 32,
+    "expected_TF": "141/8",
+    "expected_proj": "39/8",
+    "expected_projection_given_reduced": "21/4",
+    "support2_pair_count": 192,
+    "support3plus_pair_count": 872,
+    "support_hist": {
+      "2": 192,
+      "3": 224,
+      "4": 648
+    }
+  },
+  {
+    "n": 5,
+    "graph_masks": 1024,
+    "perms": 120,
+    "reduced_masks": 588,
+    "expected_TF": "3375/128",
+    "expected_proj": "585/128",
+    "expected_projection_given_reduced": "30/7",
+    "support2_pair_count": 2560,
+    "support3plus_pair_count": 23416,
+    "support_hist": {
+      "2": 2560,
+      "3": 2240,
+      "4": 7800,
+      "5": 13376
+    }
+  }
+]
