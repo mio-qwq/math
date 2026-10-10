@@ -84,3 +84,35 @@ The checkers use only the Python standard library (tested CPython 3.13.5). Each 
   Actually run: Python3.13.5 on Linux, stdout PASS for r=2,4,6,8,10. Exhaustive predicted group maps raw-adjacency verified for each of the five cases, strongly switching guides/conjugacy full orbit checked. Source SHA256 `1f3a08e55a83d98e53b656695f5ef782f83f9680e5447ba5e6b2a9d249c1cccf` and blob `fad69b5b983c4386bef900d032ede315185244ad` verified byte-identical to run file. Generated data SHA256 `2d24e1ee136d616020140e81f5d7dc1b7764d4739b906b2671c208dee535145b`; results JSON regenerated on every run.
 - **Reviewer challenge:** independently show the centre parity matching is sufficient for EVERY automorphism, verify switching condition a0+w odd and exclusion of w0 reflectors, and prove conjugation by an orientation sign flip joins both switching signs. Check r odd>=5,n1 by degree-based cross-ring rigidity, and source's Petersen r3,n1 established exception. Historical originality/global priority and universal Lean work are unverified. No merger/PR/formal submission/author contact; leave signed public release to ROOT.
 - **Research handoff/stop:** this generalized claw classification has been packaged at full intended n,r scope; more parameter enumeration is not a substitute for ROOT acceptance. A mathematically disjoint TF/CDC-source target requires a fresh exact claim, publication-date gate, and concurrency check before heavy exploration.
+
+
+## New public open-problem partial: JGT 2024 Problem 5.3 / sharp 2N-exponent lower bound
+
+**Primary source:** Hujdurović–Mitrović, *Some conditions implying stability of graphs*, *J. Graph Theory* 105 (2024), 98–109, DOI 10.1002/jgt.23018, Problem 5.3. Exact input class: finite simple connected, nonbipartite, twin-free **nontrivially CDC-unstable graphs**. The four-new-vertex graph operation is **published Construction 5.1**; its instability is **published Proposition 5.2**. Agent C did NOT independently invent the gadget, and the result below does NOT solve the source's full approximation question.
+
+**Frozen versions:** first conservative fixed-singleton calculation `UNSTABLE_DENSITY_LOG_BOUND.md`, commit `3b77d6b79b77633e5552b38209d5bf9a88decd07`, remains for historical audit. The stronger written theorem at `UNSTABLE_DENSITY_SHARPENED_LOWER.md`, commit `c366ddf1247496d84afd46ab026c799bd4b4d56f`, is preferred; theorem-note blob `69130dfefdb5058b48e57162744645432d5b966b`. Preserve both, do not silently replace prior freeze.
+
+**Exact strengthened theorem, for all N≥16:**
+
+    U_N >= (19/20) * 2^(binom(N,2) - 2*N + 3) / N!
+
+With classical graph enumeration G_N~2^(binom(N,2))/N!, this yields **only a one-sided** proportion lower bound (19/20-o(1))*2^(-2*N+3) for U_N/G_N. Do not claim a matching upper bound, asymptotic equivalent, or historical firstness. The key improvement over first version is letting both previously fixed attachment sets A,B range independently over **all nonempty subsets**, plus both cross matching bits. Each valid labelled input produces a **distinct labelled** augmented graph on a fixed labelled N-set, so division by N! is a justified lower bound on graph-isomorphism classes, regardless of collisions under graph isomorphisms.
+
+**Mathematical chain:** prove uniform >=19/20 event (X connected/nonbip/twinfree and A,B nonempty) using exact union bounds on all independent Bernoulli edges, evaluate 11137/262144 at m=12, prove all terms monotone for m≥12, invoke published Prop5.2 (or independently verify the four-vertex CDC automorphism), count distinct labelled outputs. See full manuscript for each step. This is a written *existing-method corollary*, not a novel construction; external independent review remains pending.
+
+**Actual commands** from repo root, standard-library Python3.13.5 Linux:
+
+    cd workstreams/C-audit-1010
+    python3 check_unstable_density_bound.py
+    python3 verify_instability_two_free_subsets.py
+    python3 -m py_compile check_unstable_density_bound.py verify_instability_two_free_subsets.py
+
+**Actual executed results:** first script PASS original 16-vertex source graph (72 edges), its unexpected 32-vertex cover automorphism and three negative controls; exact m=12..64 rational test, m12 11009/262144. Second script PASS **450** distinct labelled original-edge K4 extensions (both A,B nonempty, two matching bits); all satisfy original CDC source hypotheses, exact unexpected automorphism; three corrupted inputs rejected; exact m12 corrected bad-event upper bound 11137/262144, finite m12..65 test PASS. Full range rests on human-readable monotonicity proof. No floating-point eigenvalues, optimization solver or imported discovery program is required.
+
+**Byte-matched source hashes:**
+- `check_unstable_density_bound.py`: Git blob `f2b8efc0df77b3e0e82b5a9c54e6e9c17d4fcf3e`, local actually-run SHA256 `08e485f18c698d20b29ce47b5ba7ae52b2ad318f0d266fc20f8fcd842bcd9e8b`.
+- `verify_instability_two_free_subsets.py`: Git blob `daf4a09aa00f6a4eb68af6b4db18af4a84270069`, local actually-run SHA256 `749cde76593e7921baf4264b931827ac379e21754564b2029728f67d50cabad3`.
+
+**Review checklist:** check whether twins probability requires the two tested vertices be nonadjacent (it does); ensure bipartite graph union bound counts all partitions; show disconnected event has a component of ≤m/2; prove monotonicity for all m≥12, not just m≤65; check all labelled input tuples have distinct edge sets; check normalizing by N! for unlabeled; properly attribute classical all-graphs asymptotic and the 2024 graph gadget. Reconstruct explicit unexpected CDC permutation from raw edges in a test graph. Seek genuinely independent prior work before making historical claims.
+
+**Next large goal:** a nontrivial **upper exponential bound** for the number of graphs with unexpected TF symmetries, or a classification of the asymptotically dominant minimal-support TF pairs. That would actually narrow the open Problem5.3 rather than repeat the same lower-bound enumeration. Should such a mechanism fail after distinct attempts, pause it with reasons and move to another disjoint publicly open graph/CDC question. No ROOT acceptance, universal Lean result, unsolicited author contact, forced branch update, PR, merge or submission is claimed.
