@@ -1,3 +1,11 @@
+# B original-product failure is unbounded — 2026-10-10 12:11UTC
+
+- ID B; role independent discovery; original Conjecture3/preprint2.10; baseline fixed counterexample9c4b1855f5ae028f59f4f999cc8d36935f519c49; stage elementary universal family + actual checks PASS, freeze/independent review pending.
+- For EVERY r>=6, factors have minimum lowerGP exactlyr but product has maximalGP5. Original gap is at least r-5, ratio<=5/r. No dependence on the polyhedral theorem for this unbounded refutation.
+- Combining the SEPARATE frozen universal-five8b42054 yields the optimal replacement lower bound min(r,5), attained for every positive integerr (smallrusescompletefactors). This sharpness statement depends on BOTH packets; do not present it as independently accepted.
+- Fixed counterexample remains unchanged, remote9c4b185; clean replay388hashes/definition-first verifier PASS; fetch and same-tree merge confirmed. Family semantic checksr6/7/12/31 and completefactor r1..5 PASS, no all-distance-matrix claim for large products.
+- Next: freeze extension, stop further counterexample search on this now-refuted target. Prior15-order counterexample6022d2b remains separately pending; no new agent or root project number. Future work requires new structural content or a fresh ownership/source gate.
+
 # B original product conjecture REFUTATION packet — 2026-10-10 12:08UTC
 
 - ID B; role independent discovery; original Kruft Welton–Khudairi–Tuite product Conjecture3/preprint2.10; baseline8b42054aaee7e1aef22e1e50190f750786cd154d; stage complete elementary proof + separate original-definition verification, freeze/independent review pending.

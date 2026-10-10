@@ -1,3 +1,9 @@
+# Addendum: original product gap unbounded; sharp replacement available
+
+Fixed original counterexample9c4b1855f5ae028f59f4f999cc8d36935f519c49 is unchanged and should be reviewed first. UNBOUNDED_GAP_PROOF.md then proves an elementary infinite family: minimum factor lowerGP=r for everyr>=6, while product has maximalGP5. Thus the original bound fails by an unbounded amount. This family does not require the earlier computer-assisted lower bound.
+
+If universal-five8b42054 also passes review, the strongest universal lower bound depending only on r=min(factor lowerGPs) is exactly min(r,5), attained for everyr>=1. Keep that dependency explicit. Run python workstreams/B/lower_gp_product/verify_unbounded_gap.py for original-adjacency regression checks and small complete-factor sharpness witnesses. All proofs currently await independent review; no new conjecture count or priority claim.
+
 # PRIORITY: ORIGINAL product conjecture counterexample, elementary standalone proof
 
 Read lower_gp_product/COUNTEREXAMPLE_PROOF.md, COUNTEREXAMPLE_REVIEW.md and COUNTEREXAMPLE_SOURCE_GATE.md. Explicit factorsG11vertices,H29vertices, gp^-G=6,gp^-H>=6; their319vertex Cartesian product has a MAXIMAL5pointGP set. Thus original Conjecture3/preprint2.10 is false. Pending independent review. This proof does NOT depend on accepting B's universal-five polyhedral theorem or any prior positive packet.

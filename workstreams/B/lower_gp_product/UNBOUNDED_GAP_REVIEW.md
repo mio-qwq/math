@@ -1,0 +1,13 @@
+# Unbounded-gap family and optimal replacement: review note
+
+B,2026-10-10 12:11UTC. Fixed original counterexample frozen9c4b1855f5ae028f59f4f999cc8d36935f519c49, independently checkable but external review pending. Clean archive /tmp/B-product-counterexample-replay-M0K9xM passed388hashes and the complete definition-first fixed checker. Remote fetch and same-tree merge confirmed. This extension was derived only AFTER delivering that fixed result and does not change its bytes.
+
+Elementary all-r statement: for every integer r>=6, factors of orders2r-1and4r+5 have minimum factor lowerGP exactlyr and a maximal product GP5set. Thus the original conjecture's failure has unbounded additive gap and ratio<=5/r. This does NOT depend on the earlier computer-assisted theorem. Separate corollary, dependent on universal-five8b42054: product lowerGP exactly5, and the optimal universal bound as a function of the smaller factor parameter r is min(r,5), attained for every r>=1. This is one strengthened original-counterexample result, not another solved conjecture count.
+
+Proof UNBOUNDED_GAP_PROOF.md SHA2564eb8215912faf05d7fae3f277b5d9ad3a74a437219058fb757ee0c9b377ef65b
+Checker verify_unbounded_gap.py SHA2565ecae32fccf89aebd374c4ef2f936c15ca9ab023195f25495694e74cf6b0408b
+Actual command python workstreams/B/lower_gp_product/verify_unbounded_gap.py; Python3.12.14 stdlib; PASS. r6,7,12,31 product orders319,429,1219,7869. Only five selected product BFS rows are used:1595,2145,6095,39345entries; all314,424,1214,7864outside vertices blocked. Factor landmark BFS entries145,165,265,645. No full larger-product distance-matrix claim. Four true-twin classes and six landmark extension requirements checked perinstance. r1..5complete-factor witnesses checked with0,4,45,552,8775smaller GP sets extended. False four-point maximality rejected in each family instance.
+
+Witness digest b2722922c83420f6e7aa56c98b9a4a2de610d65efdbbb30229c6041e90ac71b5. Universal family proof uses no extrapolation: all fixed-proof distances/cases are independent of clone counts. No exact H_rvalue, minimal orders, Lean or independent acceptance claimed. External review should prioritize the elementary fixed packet first, then this family, then the separate metric-cone lower theorem if reviewing sharpness. Known terminal-parameter gaps are a different parameter.
+
+No failed larger family cases or hidden corrections; all tests passed on first run. No new subagents, author contact, main edit or root number. Next: stop searching for more counterexamples to this refuted conjecture and preserve the frozen review objects; only genuinely new structural information or a separately gated unoccupied question warrants further work.
