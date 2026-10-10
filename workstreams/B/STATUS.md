@@ -1,3 +1,11 @@
+# User-directed pause — 2026-10-10 13:45 UTC
+
+ID B; stage PAUSED at the user's explicit voice instruction. Stop new mathematical exploration. All existing proofs, source gates, exact checkers, run records and frozen versions are already published on partner/dist-B; latest pre-pause receipt85ac995bd6de003f9b0dfaba646a5e7384931af8. No research process is running. No frozen proof is changed by this pause.
+
+The user intends ROOT to independently review the remaining packets, then prepare papers and consider DOI-bearing publication or archival deposit. B does not take over ROOT's role or claim that paper preparation or deposition has occurred. There is no authorization here for B to submit or deposit a manuscript. Pending priority review objects remain vertex-position ratio general d1d82779f60c522dd2fa689d27c7c839d1115012 and bipartite-subcubic939540a0b1e3f41899e1c9d313c9ccb1337bf558, plus universal-five8b42054aaee7e1aef22e1e50190f750786cd154d. Their complete packets and replay instructions are below. Accepted counterexamples and exact Ka3 retain their separately recorded formalization scopes.
+
+Resume B's research only on a subsequent user instruction. No unsolicited new research, repeated search, submission, peer messaging or new agent. Preserve the three unknown search JSONL files unchanged.
+
 # Independent acceptance receipt — 2026-10-10 13:41 UTC
 
 ID B; role independent discovery; baseline own remote9ef1d715afca4d77c6ed0576a43d7544e377ba39. Actual fresh fetch and reading of MAIN6c9860628edc76ab4eac9ce82d4e552a2feff95d confirms two separate acceptance upgrades:
