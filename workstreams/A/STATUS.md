@@ -1,54 +1,12 @@
-# Distributed research status — A
+# Distributed research status — A (2026-10-10)
 
-- Agent ID: A; instance: A-20261010-139a38e4091c.
-- Role: independent discovery, with bounded in-session literature helpers.
-- Branch: `partner/dist-A`.
-- Baseline: `42a30d62d084a9dbe64c92666addd6cf28986b16`.
-- Stage: candidate claimed; exact computation has not started.
-- Target: Ficarra–Moradi, arXiv:2410.01666v2, Question 4.2.
-- Checked: 2026-10-10 (UTC/Asia-Shanghai calendar date).
-
-## Startup evidence
-
-The supplied working directory contained no Git repository or user files. A fresh
-independent clone was created at `math-agent-A`. The remote branch API and
-`git ls-remote` both showed only `main`; reading `coord/distributed` returned
-404 (no such ref). No distributed BRIEF or A task card occurs in the frozen
-baseline tree. The root `AGENTS.md`, coordination checkpoints, current research
-register, candidate register, and recent history were read. Stale public
-checkpoints are preserved without alteration.
-
-All writes and commits in this workstream are confined to `workstreams/A/`.
-No identity collision was visible at startup. This observation is not an atomic
-reservation and does not establish that other instances are inactive.
-
-## Topic boundaries
-
-The current repository's 001–006, C7 Shannon capacity, D5 kissing configurations,
-SIC, and local triangle-swap work are treated as already occupied. The user's
-additional exclusion list applies. No new numbered root project is allocated.
-
-## Current evidence and next step
-
-Low-cost primary-source screening identified the target in `CLAIM.md`. The ordinary Brouwer and
-signless-Laplacian Brouwer conjectures have recent complete-proof claims and
-are not adopted as open research targets. Two actual in-session helpers are
-checking other disjoint candidate families; they are not the external
-distributed agents and have not reviewed any mathematical result.
-
-The second branch check exposed `partner/dist-B` at
-`6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2`; its visible packing-coloring and
-directed-circulant general-position claims do not overlap this target.
-No A branch or distributed task card was visible. This is not a concurrency lock.
-
-Next: publish this claim; enumerate small graphs beginning at eight vertices,
-using induced-subgraph matching numbers, purity, and exact link homology.
-Test genuinely different larger structured families if small orders yield no
-candidate. Stop or change route when new constraints cease to appear.
-
-## Publication / review state
-
-Shell push of local initialization commit `2e95ba8` failed because no GitHub
-username/credential was available to Git. Publication through the connected
-GitHub API is pending. No mathematical result, independent review, or Lean
-compilation is claimed.
+- Identity: Agent A, independent worker. Exclusive namespace: workstreams/A/. Branch: partner/dist-A. Base: 42a30d62d084a9dbe64c92666addd6cf28986b16.
+- Task receipt: I have now read coordination/distributed/BRIEF.md and coordination/distributed/tasks/A.md on coord/distributed. The ROOT reservation for Ficarra–Moradi Question 4.2 is acknowledged; an alternate topic beyond that scope is being offered for ROOT scope review, not presumed accepted.
+- Original workstream: Ficarra–Moradi, arXiv:2410.01666v2 Question 4.2. Prior session reported an alpha=2 classification, n=8..10 finite certificates and a flag-surface obstruction. Its local signed handoff and source bytes are unavailable in this resumed runtime. I cannot truthfully re-publish those signed SHAs from memory. Preserve the original claim and request its original archive when available.
+- Independent alternate candidate, *positive theorem rather than counterexample*: Braun–Bruegge, Journal of Integer Sequences 26 (2023), Article 23.7.2, Conjecture 31 (equivalently arXiv:2201.13303v4 Conj. 5.1). It asserts two centered-binomial transfer inequalities and parity-restricted fixed-sum maxima. Full reconstructed written proof: braun-bruegge-f31/PROOF.md; independent exact standard-library regression: code/verify_braun_f31.py. Original paper checked at https://cs.uwaterloo.ca/journals/JIS/VOL26/Braun/braun6.pdf , Proposition 22 (p.12) and Conjecture 31 (p.24).
+- Actual test in this resumed session: Python 3.13.5: python3 workstreams/A/code/verify_braun_f31.py -> PASS original=720 brute=23 transfer=1029 maxima=720 Vandermonde=209 negative-tests=PASS.
+- Remote Git blob SHAs: PROOF.md eef18bb24d0ab4d6d882039e74cc72ce85f67dc2; verify_braun_f31.py c3eaaa71c9e5b9e934cd1f85a85b814089ec3a20. These are immutable source references for independent review.
+- Validation status: finite exact regression passed. Human-readable general proof awaiting independent ROOT review; *no* Lean, external acceptance or historical priority claim. The earlier internal review of a different signed frozen object does not authenticate the new reconstructed object.
+- Transport: user asked to push now. Connected GitHub contents API publishes unsigned commits, not the previous signed frozen git objects. This is visibly labeled a new **unsigned reconstruction** pending ROOT's independent acceptance and credentialed signing; do not merge as an accepted frozen result.
+- Source gate (bounded): checked original JIS, original arXiv, authors' university bibliography, and later Mori–Mori–Ohsugi 2025 join-graph partial result; no same-scope proof found, but unindexed papers/other versions may exist.
+- Stop condition: no continued large-scale enumeration for the earlier matching-power surface family without a novel precise structural mechanism. Next: independently screen a disjoint major open question after checking branches/tasks/exclusions; record claim before expensive work. Do not modify main, ROOT task directory or 001–006.
