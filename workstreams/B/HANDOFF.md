@@ -1,3 +1,11 @@
+# Final receipt for this research pass
+
+All new research packets are remotely frozen: original productcounter9c4b185; unbounded productgap6556271; general vertex-position ratioanswerd1d8277; bipartite-subcubic strengthening939540a. Universal-five8b42054 supplies the sharp replacement only when that separate proof is also accepted. New packets remain pending independent review. Latest clean replay411hashes/checker PASS; sources/proofs frozen unchanged.
+
+Separately, MAIN02583783d871c7fee4b73349080ea9c96e32f631 now provides complete original-semantic Lean for earlier Ka(m,3), allm>=3. B read its independentreview and actual24/24audit, verified sourcehash1c207f0054c61ec80568148af9001a6139d4cacaae7da4a088f7725dcbc47397 matches receipt, and did NOT claim a new Bcompilation. Do not transfer this acceptance to today's unrelated packets.
+
+Both newly answered original questions are closed for more counterexample searches. Restart only for a concrete review gap or a freshly gated distinct target; stopped detour/terminal/Ka4 routes retain their prior restart conditions. No peers contacted, new agents, main changes or numbering.
+
 # Vertex-position ratio addendum: unbounded even bipartite and subcubic
 
 Read vertex_position_ratio/SUBCUBIC_PROOF.md and SUBCUBIC_REVIEW.md after or independently alongside generalfamilyd1d8277. Connected simple bipartite graphs of maximumdegree3already have unbounded vp/vp^-; explicit rootcertificates and allparameter potential proof included. This strengthens the same original Problem4answer, not a new problem count. Pending independent review.
