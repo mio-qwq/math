@@ -1,0 +1,1 @@
+{"status": "PASS", "masks": 128, "necessary_forbidden_patterns": 8, "allowed_sets": 19, "pair_sumset_rows": 10, "survivors": 2, "rejected_corrupt_table": 1}

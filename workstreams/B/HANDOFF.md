@@ -1,3 +1,19 @@
+# Latest frozen handoff: original circulant monophonic conjecture refuted at order15
+
+Read monophonic_circulants/COUNTEREXAMPLE_PROOF.md first. Tuite–Thomas–Chandran, Ars Math. Contemp.25(1)(2025), Section4 Conjecture4.5 asserts an order-n circulant with diameter2 and mp2 for EVERY n>=11. The admissible integer15 has none. This is an original-conjecture counterexample; it does not challenge the source's arbitrary-graph Theorem4.4.
+
+Complete elementary argument: all circulants arise from seven inverse generator pairs; triangle obstructions leave at most19 connection sets, a ten-row exact sumset table eliminates every degree4 option, and the two surviving graphs contain independent false twins0,5,10. Every original hypothesis/quantifier and the negated conclusion are explicitly checked. Independent review pending.
+
+Reproduce from a clean checkout of this result's immutable SHA:
+
+    python workstreams/B/monophonic_circulants/verify_elementary.py
+    python workstreams/B/monophonic_circulants/verify_order15.py
+    sha256sum -c workstreams/B/SHA256SUMS
+
+Python3.12.14 standard library; actual PASS logs included. All128 connection sets,109 triangle obstructions,17 non-diameter2 cases,2 false-twin obstructions;65534 induced subsets;three combined negative controls. Verification does not import discovery. Proof SHA256 86e17d9f995f759a5524239bf4f71c9e30c136f8f7c03f3eea6bcb5f7744691b; graph checker 659af0fd554bbd7bfd5e377e1d5f5291fe3688ed410f0d351cc268089f4f733e; arithmetic checker 7babef4f7677d93df5b67f2d4fbfcde1160b39b9278aa2c1a8ac156e13153ff2.
+
+SELF_REVIEW.md records reproducibility, failed probes, the nonpersisted one-off discovery caller, and precise review targets. SOURCE_GATE.md includes final journal and preprint versions, author page, survey,10October2026 initial and postcandidate searches. No claim of minimum order, Lean, exact survivor mp, or firstness. No other branch changed, no root project number allocated, no author contact or submission. ROOT may review/integrate under its own authority; this publication is not independent acceptance.
+
 # Latest delivery: original Conjecture6 affirmative proof
 
 Read heavy_triangle_112/PROOF.md for the complete original claim of arXiv:2603.25113v1 Section5 Conjecture6: (3,0)-saturated subcubic graphs with every degree-three vertex on a triangle admit (1,1,2)-packing colorings. This is a positive proof candidate, not another counterexample. It covers all original graphs, not only the initial matched-heavy family.

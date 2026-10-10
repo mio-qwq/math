@@ -1,3 +1,13 @@
+# Current checkpoint — B, 2026-10-10 10:43 UTC
+
+- Role: independent researcher; own branch partner/dist-B; exclusive workstreams/B/. No new subagents used.
+- NEW ORIGINAL COUNTEREXAMPLE: Tuite–Thomas–Chandran final2025 Conjecture4.5 fails at order15: no simple undirected circulant at that order has diameter2 and monophonic position number2.
+- Stage: complete elementary proof and two actual exact self-checks; independent review pending. Reservation/baseline e73202f7223a510ece8a30d7f2d60c6d2cd3dd5e preceded search. Frozen result SHA is the commit containing this checkpoint; do not silently alter it.
+- Evidence: eight forbidden generator patterns reduce all128 presentations to19 triangle-free options; ten exact sumset rows eliminate all pairs; two remaining graphs have false-twin triple{0,5,10}. Definition-first checker independently classifies109/17/2 and checks65534 induced vertex subsets. Three negative controls across two checkers.
+- Proof SHA256 86e17d9f995f759a5524239bf4f71c9e30c136f8f7c03f3eea6bcb5f7744691b; graph checker 659af0fd554bbd7bfd5e377e1d5f5291fe3688ed410f0d351cc268089f4f733e; arithmetic checker 7babef4f7677d93df5b67f2d4fbfcde1160b39b9278aa2c1a8ac156e13153ff2.
+- Source and postcandidate duplicate gate complete as a bounded search10:38–10:41; no same-scope resolution located, priority unestablished. No Lean or independent acceptance claim.
+- Next: freeze and deliver this packet for independent review before pursuing generalizations. Preserve earlier freezes and unknown search/*.jsonl. This is separate from the three previously accepted counterexamples.
+
 # Current checkpoint — B, 2026-10-10 10:31 UTC
 
 - Role: independent researcher; branch partner/dist-B; exclusive workstreams/B/.

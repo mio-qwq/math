@@ -1,0 +1,5 @@
+{"n": 11, "steps": [2, 3], "degree": 4, "diameter": 2, "triangles_at_zero": 0, "status": "mp2-finite", "triples": 45, "nodes": 643, "path_edge_histogram": {"3": 15, "2": 18, "5": 4, "4": 8}}
+{"n": 12, "steps": [2, 3], "degree": 4, "diameter": 2, "triangles_at_zero": 0, "status": "mp2-finite", "triples": 55, "nodes": 962, "path_edge_histogram": {"3": 17, "2": 18, "4": 20}}
+{"n": 13, "steps": [2, 3], "degree": 4, "diameter": 2, "triangles_at_zero": 0, "status": "mp2-finite", "triples": 66, "nodes": 1172, "path_edge_histogram": {"3": 18, "2": 18, "5": 11, "4": 19}}
+{"n": 14, "steps": [5, 6, 7, 8, 9], "degree": 5, "diameter": 2, "triangles_at_zero": 0, "status": "mp2-finite", "triples": 78, "nodes": 2068, "path_edge_histogram": {"4": 16, "3": 21, "2": 30, "5": 11}}
+{"n": 15, "steps": [1, 4, 6], "degree": 6, "diameter": 2, "triangles_at_zero": 0, "status": "mp-at-least-3", "obstruction": [0, 2, 5], "nodes": 778}

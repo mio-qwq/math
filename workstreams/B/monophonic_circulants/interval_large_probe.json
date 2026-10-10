@@ -1,0 +1,20 @@
+[
+  {
+    "n": 16,
+    "steps": [
+      3,
+      4,
+      5
+    ],
+    "degree": 6,
+    "diameter": 2,
+    "triangles_at_zero": 0,
+    "status": "mp-at-least-3",
+    "obstruction": [
+      0,
+      1,
+      8
+    ],
+    "nodes": 592
+  }
+]

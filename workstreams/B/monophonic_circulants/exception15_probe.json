@@ -1,0 +1,38 @@
+[
+  {
+    "n": 15,
+    "steps": [
+      1,
+      4,
+      6
+    ],
+    "degree": 6,
+    "diameter": 2,
+    "triangles_at_zero": 0,
+    "status": "mp-at-least-3",
+    "obstruction": [
+      0,
+      2,
+      5
+    ],
+    "nodes": 778
+  },
+  {
+    "n": 15,
+    "steps": [
+      2,
+      3,
+      7
+    ],
+    "degree": 6,
+    "diameter": 2,
+    "triangles_at_zero": 0,
+    "status": "mp-at-least-3",
+    "obstruction": [
+      0,
+      1,
+      5
+    ],
+    "nodes": 284
+  }
+]
