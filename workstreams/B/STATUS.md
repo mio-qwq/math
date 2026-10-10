@@ -74,3 +74,16 @@
 - Actual checks:139 invariant states,1251 closure transitions, long-connector identity,2 negative controls;864 original graph colorings. Normal ansatz failures are preserved and repaired by one exceptional length4 connector.
 - Stage: B self-review complete, publication for independent acceptance. No new research agents, no Lean or firstness claim. New theorem is not covered by ROOT's older acceptance card.
 - Next: investigate first palette and Conjecture2 via a genuinely richer boundary-state mechanism; do not repeat unchanged enumerations. Freeze and deliver these correct positive results promptly.
+
+
+## First palette proof complete; all Problem1 parts handed off, 2026-10-10 06:50 UTC
+
+- FIRST palette(1,2,3,3) has mathematical reduction plus71-matrix invariant;
+  localfreeze5b1efad6376ce7ea526e1cf06bfe3faa8261d15d, proofSHA256013258dfcb0ad45772dd983b5aba0d4c50dfae067a4128106eb84768eb2b46ec.
+- Actual checks:42 boundary states,27 path states,121 initial products,
+  781 closure transitions, proved all-length stabilization,2 negative controls,
+  864 original-distance graph constructions. All PASS. B self-review only.
+- All three questions of Problem1 now have separate positive candidates.
+  Earlier frozen proofs unchanged. No new counterexample, no Lean.
+- Next: Conjecture2 five-color bound via color5-only-at-apices interfaces;
+  this is exploratory, not another claimed theorem. Avoid repeating prior searches.

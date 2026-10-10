@@ -1,0 +1,15 @@
+RELATION 2 entries 146 trace False
+RELATION 3 entries 308 trace True
+RELATION 4 entries 536 trace True
+RELATION 5 entries 682 trace True
+RELATION 6 entries 1060 trace True
+RELATION 7 entries 1426 trace True
+RELATION 8 entries 1544 trace True
+RELATION 9 entries 1582 trace True
+RELATION 10 entries 1600 trace True
+RELATION 11 entries 1600 trace True
+RELATION 12 entries 1600 trace True
+RELATION 13 entries 1600 trace True
+RELATION 14 entries 1600 trace True
+BAD (2,)
+{"states": 42, "relation_semigroup_seen": 78, "capped": false, "bad_representatives": [[2]], "elapsed": 1.075911246999567}

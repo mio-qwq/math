@@ -1,3 +1,34 @@
+# B latest handoff: all three original Problem 1 palettes
+
+The new FIRST-palette theorem completes B's three positive proof candidates
+for El Zein–Mortada arXiv:2603.25113v1 Section5 Problem1. All await independent
+acceptance; this is not a new counterexample or a claim that Conjecture2 is solved.
+
+- FIRST palette(1,2,3,3): triangle_packing/FIRST_PROOF.md.
+  Frozen local5b1efad6376ce7ea526e1cf06bfe3faa8261d15d;
+  proofSHA256013258dfcb0ad45772dd983b5aba0d4c50dfae067a4128106eb84768eb2b46ec.
+  Exact71-matrix invariant;42 graph-interface states;27 path states;
+  121 two-connector seeds and781 closure transitions. Long-gap cutoff
+  proved by T^10=J and JT=J. Two negative controls rejected.
+  python workstreams/B/triangle_packing/verify_first.py
+  python workstreams/B/triangle_packing/construct_first.py
+  Actual original-graph check:864 necklaces PASS.
+- SECOND palette(1,2,2,4): unchanged SECOND_PROOF.md and139-state invariant,
+  frozen remotely at09880f3a07c7e9b26515fb613652b70554edfe1b.
+- THIRD palette(2,2,2,2,4): unchanged PROOF.md, stronger arbitrary final
+  radius theorem, frozen remotely at1ccf7301b297d52a83df269962b1075c3e711df7.
+- Review first-palette semantics as well as matrix closure: each interface
+  includes both outside neighbors, all paths of length<=3 must be covered,
+  long connector relation F T^(L-2) B includes both apex constraints, and
+  the diamond and direct-cap exceptions require their explicit colorings.
+- Conjecture2 remains an active separate investigation. No blind graph
+  enumeration is being repeated; the next mechanism restricts color5 to
+  triangle apices to control long-range interactions. No result yet.
+- All work was performed directly by B, no new research agents. Self-check
+  is not independent acceptance. No Lean, signed release or firstness claim.
+
+---
+
 # B additional handoff: Problem 1 second palette
 
 The THIRD-palette pure written proof is frozen remotely at

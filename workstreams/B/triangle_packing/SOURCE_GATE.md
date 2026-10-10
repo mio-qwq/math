@@ -66,3 +66,10 @@ Allowing one special length4 connector resolves the obstruction, with a
 closed 139-state invariant. Original graph checks are separate. This is
 still B self-review, not independent acceptance. Problem1's first palette
 and Conjecture2 remain unresolved by the two proofs.
+
+06:49 UTC first-palette result: FIRST_PROOF.md supplies a complete reduction
+and71-matrix invariant for (1,2,3,3). Its42-state interface has a proved
+long-connector cutoff from a27-state path automaton, not a guessed cutoff.
+An exact-palette and Problem1 follow-up search located no earlier answer.
+All three parts of Problem1 now have B self-verified positive candidates;
+Conjecture2 is still open in this stream. Independent review is pending.
