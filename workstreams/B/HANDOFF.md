@@ -454,3 +454,11 @@ Read clawfree_12222/SUBDIVIDED_PROOF.md and MIXED_PATHS_PROOF.md as two separate
     python workstreams/B/clawfree_12222/verify_subdivision_certificate.py
 
 Both actually PASS on Python3.12.14 stdlib. The second checker does not import discovery or other checkers; it enumerates all old boundary assignments, checks complete orbit coverage, independently rebuilds new graphs/distances, checks recurrence local transitions, and rejects corrupted input. Frozen cubic proof/verify interfaces remain byte-identical at b49a74f; the mixed theorem explicitly depends on its Section2. No independent-review claim. The fully subdivided theorem does not depend on the cubic proof, only Brooks and its explicit words. Review full-graph shortcut control, arbitrary-length recurrence, and unused-port deletion. Remaining mixed1/2 connectors cannot be silently covered by taking a union of the theorems.
+
+### Mixed1/2 structural theorem (09:40 UTC)
+
+PSEUDOFOREST_PROOF.md is independent of Maydanskiy and the frozen cubic candidate: it uses only explicit orientation, original distances and Brooks. Read the precise loopless-core hypothesis and the optional long-path exclusion of length3. Reproduce with:
+
+    python workstreams/B/clawfree_12222/verify_pseudoforest.py
+
+Actual PASS:588 admissible objects,138753 distance pairs,588 negative controls.60 skipped cases violate the pseudoforest assumption. probe_mixed_short.py is DISCOVERY ONLY and its578 SAT cases do not establish the remaining theorem. Review the exact positive-neighbor counts at root triangles and outgoing-port triangles, and the low-degree vertex argument excluding K5. Frozen proof bytes from b49a74f and790bc81 remain unchanged. All new theorems pending independent review; no communication to other distributed agents is asserted.

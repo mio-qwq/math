@@ -1,0 +1,4 @@
+{"core": "dipole", "stats": {"SAT": 6}}
+{"core": "K4", "stats": {"SAT": 62}}
+{"core": "K33", "stats": {"SAT": 510}}
+{"stats": {"dipole": {"SAT": 6}, "K4": {"SAT": 62}, "K33": {"SAT": 510}}, "scope": "restricted all-length2-interiors-weak rule only"}
