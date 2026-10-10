@@ -73,3 +73,16 @@ long-connector cutoff from a27-state path automaton, not a guessed cutoff.
 An exact-palette and Problem1 follow-up search located no earlier answer.
 All three parts of Problem1 now have B self-verified positive candidates;
 Conjecture2 is still open in this stream. Independent review is pending.
+
+06:56 UTC original Conjecture2 result: FIVE_PROOF.md gives a full semantic
+reduction and a139-matrix,90-state certificate for the ORIGINAL five-color
+claim. This is separate from the second palette's coincidentally139-state
+six-by-six certificate. Color5 is restricted only in the construction,
+not as an extra graph hypothesis. A fresh exact-ID, Conjecture2 and
+triangle-local 1-saturated five-color search found no same-scope prior
+resolution. Authors' lab pages were checked earlier this same run. This
+remains a bounded literature gate, not a firstness certification.
+All three parts of Problem1 and Conjecture2 now have B self-verified
+positive proof candidates; none of these new packets has an independent
+acceptance recorded here. The earlier permutation counterexample remains
+a distinct accepted result. No new counterexample is claimed in this run.

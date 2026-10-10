@@ -1,3 +1,56 @@
+# B latest handoff: original Conjecture 2 and all of Problem 1
+
+## Five-color conjecture: positive computer-assisted proof candidate
+
+El Zein–Mortada arXiv:2603.25113v1 Section5 Conjecture2 is answered
+affirmatively in triangle_packing/FIVE_PROOF.md, with exact finite
+certificate and complete original-graph semantic reduction. This is NOT
+a counterexample. No independent acceptance of this new packet is claimed.
+
+- Frozen local source97ea15477ba9daf59bc9c335c200fca0756b176d.
+- ProofSHA256808ff9c3c60a9b4a8663bb8a4f8c7af4d4aac6374decb3d7b6dd7377d33f1a20.
+- python workstreams/B/triangle_packing/verify_five.py
+- python workstreams/B/triangle_packing/construct_five.py
+- python workstreams/B/triangle_packing/five_boundary_checks.py
+- Actual PASS:90 boundary states,48 path states,139 invariant matrices,
+  225 initial products,2085 closure transitions, exact all-length cutoff;
+  2 corrupted invariant controls rejected;864 original graph constructions
+  and33 boundary fixtures pass,3 corrupted graph/color controls rejected.
+- Key review points: color5 only at apices is a construction restriction,
+  not a graph hypothesis; all radius-four short paths fit the interfaces;
+  only adjacent apices can conflict at radius5; F T^(L-3) B handles
+  overlapping boundaries; stabilization is T^14=T^13, NOT all-ones;
+  direct-cap/diamond/leaf/disconnected cases are included.
+- Certificate compression is reversible base64/zlib with decoded SHA256.
+  Standard-library verifier checks the full finite invariant; no external
+  SAT oracle, numeric tolerance, new axiom or guessed length horizon.
+- B personally wrote and checked everything. Independent mathematical and
+  certificate review, historical novelty and human review remain pending.
+  No Lean or signed release by B. ROOT owns integration/signing.
+
+## Other new results preserved
+
+All three original Problem1 palettes have separate unchanged proof packets:
+FIRST_PROOF.md (1,2,3,3), SECOND_PROOF.md (1,2,2,4), and PROOF.md
+(2,2,2,2,4), the last strengthened to arbitrary fifth radius. Frozen
+remote checkpoints are c0692bc,09880f3,1ccf730 respectively. None of these
+four new positive candidates is covered by ROOT's older acceptance of
+B's circulant, 0-saturated packing4, or permutation counterexample results.
+Historical handoffs below preserve old stages; this section supersedes
+statements that Conjecture2 is still unresolved in B's stream.
+
+## Resume and acceptance
+
+The exact newly reserved scope (Problem1 plus Conjecture2) now has complete
+candidate answers. Do not extend the old brute-force window or silently
+change these proof bytes. Review the fixed remote commit containing this
+handoff and compare proof/checker hashes. If a gap is found, make a new
+version with explicit mathematical delta. Further discovery requires a new
+nonconflicting exact reservation and source gate; no new root number is
+allocated. Read updated task cards at the next research start.
+
+---
+
 # B latest handoff: all three original Problem 1 palettes
 
 The new FIRST-palette theorem completes B's three positive proof candidates

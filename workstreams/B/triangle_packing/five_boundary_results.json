@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "boundary_fixtures": 33,
+  "names": [
+    "cycle3",
+    "path3",
+    "cycle4",
+    "path4",
+    "cycle5",
+    "path5",
+    "cycle6",
+    "path6",
+    "cycle7",
+    "path7",
+    "cycle8",
+    "path8",
+    "cycle9",
+    "path9",
+    "cycle10",
+    "path10",
+    "cycle11",
+    "path11",
+    "cycle12",
+    "path12",
+    "cycle13",
+    "path13",
+    "cycle14",
+    "path14",
+    "cycle15",
+    "path15",
+    "cycle16",
+    "path16",
+    "isolated",
+    "edge",
+    "direct_caps",
+    "leaf_cap_chain",
+    "disjoint"
+  ],
+  "negative_controls": [
+    {
+      "name": "same_color_edge",
+      "rejected": true
+    },
+    {
+      "name": "asymmetric_edge",
+      "rejected": true
+    },
+    {
+      "name": "close_color5",
+      "rejected": true
+    }
+  ]
+}

@@ -87,3 +87,23 @@
   Earlier frozen proofs unchanged. No new counterexample, no Lean.
 - Next: Conjecture2 five-color bound via color5-only-at-apices interfaces;
   this is exploratory, not another claimed theorem. Avoid repeating prior searches.
+
+
+## Original Conjecture2 proof frozen; reserved scope complete, 2026-10-10 06:57 UTC
+
+- Full original five-color claim now has a complete mathematical reduction
+  plus exact finite certificate in triangle_packing/FIVE_PROOF.md.
+  Positive proof, NOT a counterexample. All three Problem1 parts also have
+  separate positive proof candidates. Independent acceptance pending.
+- Frozen local97ea15477ba9daf59bc9c335c200fca0756b176d;
+  proofSHA256808ff9c3c60a9b4a8663bb8a4f8c7af4d4aac6374decb3d7b6dd7377d33f1a20.
+- Actual evidence:90 boundary states,48 path states,139 matrices,225 seeds,
+  2085 closure transitions, exact T^14=T^13 stabilization;2 invariant
+  negative controls;864 original-distance constructions;33 boundary cases
+  and3 rejected graph/color corruptions. AllPASS. No assumed all-ones matrix.
+- Role: B personal research and self-review throughout this run; no new
+  agents, no independent verdict or Lean claim. Literature gate refreshed,
+  no firstness assertion. Earlier accepted/frozen proof bytes unchanged.
+- Phase: final freeze, remote publication and clean archive replay. No need
+  to await minimum examples or larger enumeration. Subsequent discovery
+  needs a new exact reservation after updated coordination/source checks.

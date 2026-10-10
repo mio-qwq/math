@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "invariant_matrices": 139,
+  "initial_two_connector_products": 225,
+  "closure_transitions": 2085,
+  "boundary_states": 90,
+  "path_states": 48,
+  "long_gap_threshold": 16,
+  "negative_controls": [
+    "missing invariant matrix rejected",
+    "zero-trace matrix rejected"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed": 15.793413112000053,
+  "certificate_sha256": "27882d4e867f155012ecb847483bf0d3ddde9129744397946970718a4fcf8ca6",
+  "checker_sha256": "68266f6722b2dd9eb5c6d3c0d0c6f36c1727632c0071e59f31bba487c106a333"
+}
