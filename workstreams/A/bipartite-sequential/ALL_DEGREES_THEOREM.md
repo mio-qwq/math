@@ -64,7 +64,7 @@ Let `G` be a finite **connected** simple graph other than `K_2` or an even cycle
 
 Three executable standard-library checks, all separately constructed from the original definitions:
 
-- `python3 workstreams/A/code/verify_all_regular.py`: constructs orders across d=3,4,5,6,7,9 and complete graphs d=5,7,9; the actual run in Python 3.13.5 passed **4,042** distinct finite randomly seeded instances, spanning **50** parameter cases, plus deliberately omitted-edge negative test.
+- `python3 workstreams/A/code/verify_all_regular.py`: constructs orders across d=3,4,5,6,7,9 and complete graphs d=5,7,9; the actual run in Python 3.13.5 passed **4,042** generated test runs (not deduplicated by graph isomorphism), spanning **50** parameter cases, plus deliberately omitted-edge negative test.
 - `python3 workstreams/A/code/verify_d5_exhaustive.py`: exhausts all ordered triples of disjoint perfect matchings completing the fixed two-colour factors on eight vertices, for factor partitions `(8,)` and `(4,4)`; actual run passed **2,502 + 3,096 = 5,598** fully checked five-colour regular instances.
 - `python3 workstreams/A/code/verify_component_transversal.py`: independently brute-checks the root-avoidance lemma on all labelled simple graphs on 6 vertices with no isolated vertices and a fixed partition into three pairs; verifies the returned root set avoids every original Q-component, and checks the isolated-vertex counterexample to the necessity of the hypothesis. Report actual invocation/results in `STATUS.md`.
 
