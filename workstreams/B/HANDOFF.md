@@ -498,3 +498,11 @@ Review kautz_length4/UPPER_BOUND.md and run:
 The original problem remains exact Ka(m,4) for arbitrary m. New conclusion is an explicit all-m>=6 upper bound with leading coefficient1/3, not another template maximum. Check: odd overlaps are impossible for symbol-disjoint ordered pairs; even overlaps give exact scaling by2; a random permutation includes any specified ordered pair of blocks with probability t(t-1)/(m)_4; repeated-letter remainder is exactlym(m-1)(3m-5). The two-letter bound is attributed to sourceTheorem3.4 but proved here without its finite base assumptions. All earlier frozen accepted/candidate bytes unchanged. No independent-review or Lean claim for this new partial theorem.
 
 Separate two_saturated_12222/DEGENERACY_ROUTE_OBSTACLE.md and verify_degeneracy_obstacle.py certify why3-degeneracy after independent deletion is also too strong. The15vertex original graph is colorable; this must not be reported as a fourth original counterexample. Do not repeat the failed routes merely to increase evidence.
+
+### Stronger primary Ka4 partial theorem: density limit in [26/125,2/7]
+
+Prefer kautz_length4/DENSITY_LIMIT.md for the current upper/asymptotic result. It is a new file/version, not a silent edit of the frozen e04e8ec UPPER_BOUND.md. Reproduce:
+
+    python workstreams/B/kautz_length4/verify_density_limit.py
+
+Review the seven-window geodesic proof (not full-cycle isometry), exact7/(m)_4 incidence probability, and subalphabet extremal monotonicity. The lower endpoint uses the existing frozen0202144 construction and isometric inclusion withq=floor(m/5). The proof establishes existence of the actual normalized density limit, but not its value. Actual38024BFS entries,45360seven-tuples,70triples and3controls PASS; no solver/imported discovery dependency or claimed independent review. Targeted source checks found no later same-scope bound, not a priority guarantee. Earlier accepted positive/counterexample packets remain unchanged.
