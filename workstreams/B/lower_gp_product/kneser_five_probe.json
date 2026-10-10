@@ -1,0 +1,9 @@
+{
+  "candidate": null,
+  "complete": true,
+  "raw_presentations": 4900,
+  "pattern_count": 1718,
+  "pattern_pairs": 1476621,
+  "gp_quintuples": 414176,
+  "factor_gp_sets_extendable": 87505
+}

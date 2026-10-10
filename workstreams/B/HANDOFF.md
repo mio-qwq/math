@@ -1,3 +1,13 @@
+# Latest subclass handoff: all two-subset Kneser products
+
+Read lower_gp_product/KNESER_FAMILY_PROOF.md and KNESER_REVIEW.md. The ORIGINAL product inequality holds for all K(n,2),K(m,2), n,m>=5. This is a complete computer-assisted proof for this infinite two-parameter family, not the full arbitrary-factor conjecture. It also gives exact lower-GP product values5or6 when10<=min(n,m)<=13. Both>=14: lower6, not an exact value claim.
+
+Core: k product vertices use at most2k symbols per coordinate. Kneser restrictions to alphabets>=5 are isometric, so exhaustive4-point checking at10symbols and5-point checking at12symbols transfers to all larger alphabets. Original factor formulas are prior work; the small-parameter regime uses the frozen arbitrary-graph truncated-at4 theorem ebaa4094.
+
+Run python workstreams/B/lower_gp_product/verify_kneser_products.py and python workstreams/B/lower_gp_product/verify_kneser_factor.py. Python3.12.14 stdlib. Independent-definition implementation uses endpoint set partitions and BFS, not discovery's sequential edge generation. All677+25892 canonical GP cases have explicit verified extensions, with all repeated projections and index symmetry covered. Full actual logs and witness-stream digests included. See review notes for a corrected pre-freeze negative-control fixture, not a hidden positive-result change.
+
+Proof SHA2564d43edd38a758a9cabd896d3fa06a094bad578a779def2e54f1365590caf3547; verifier77b5fc2dbeee67f190e9a7e3b426ab496d1912ef89e2bec9b25d9def0b5d0895; Petersen boundary8ce8f5cc8cf288824ab59bf3119820b311b2b0f4fb57d378b9345fc4a958b36a. Independent review and priority remain pending. No Lean, submission, peer contact, root number or other-branch changes. Please audit the frozen source and universal support argument rather than merely rerunning a few products.
+
 # Latest partial-theorem handoff: lower-GP product bound through parameter four
 
 Read lower_gp_product/TRUNCATED_BOUND_PROOF.md. For ALL finite graphs, gp^-(G square H)>=min{4,gp^-(G),gp^-(H)}. Consequently original preprintConjecture2.10/finalConjecture3 holds whenever one factor parameter<=4. This is a genuine all-orders partial result, not the full conjecture. Independent review pending.

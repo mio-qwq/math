@@ -1,0 +1,1 @@
+{"status": "NO_CANDIDATE_IN_FAMILY", "permutations": 720, "minimum_uncovered": 48, "selected": [[[0, 1], [0, 1]], [[0, 2], [0, 2]], [[0, 3], [0, 3]], [[1, 2], [1, 2]], [[1, 3], [1, 3]], [[2, 3], [2, 3]]]}

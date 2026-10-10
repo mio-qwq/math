@@ -1,0 +1,1 @@
+{"status": "PASS", "order": 10, "lower_gp": 4, "maximal_set_counts": {"1": 0, "2": 0, "3": 0, "4": 5}, "witness": [[0, 1], [0, 2], [0, 3], [0, 4]], "negative_controls": 1, "scope": "known Petersen factor value checked, not a new result"}

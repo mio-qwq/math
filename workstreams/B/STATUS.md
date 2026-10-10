@@ -1,3 +1,13 @@
+# B new all-parameter subclass theorem — 2026-10-10 11:25UTC
+
+- Original lower-GP Cartesian-product conjecture now proved for ALL K(n,2) square K(m,2), n,m>=5, by a complete computer-assisted finite-support argument. This is a subclass theorem, not the full arbitrary-factor conjecture or a counterexample.
+- New bounds: for n,m>=10, product lowerGP>=min{floor(n/2),floor(m/2),6}. Exact value floor(min(n,m)/2) when10<=min(n,m)<=13; exact value for both>=14 remains unknown here.
+- Baseline ebaa409418b53983ef1bd52abe34703c5dca6618 (universal truncated-at4 theorem), proof unchanged. Its clean archive /tmp/B-product-four-replay-5K7JrT passed328hashes and the full182208-triple extension checker.
+- Kneser proof SHA256 4d43edd38a758a9cabd896d3fa06a094bad578a779def2e54f1365590caf3547; checker 77b5fc2dbeee67f190e9a7e3b426ab496d1912ef89e2bec9b25d9def0b5d0895; boundary checker 8ce8f5cc8cf288824ab59bf3119820b311b2b0f4fb57d378b9345fc4a958b36a. Actual exact counts: k4 2318type pairs/677extensions; k5 108234pairs/25892extensions; original BFS, full endpoint-partition coverage, symmetry closure,4maincontrols plus1Petersencontrol. No discovery imports or finite-to-universal sample inference.
+- Stage: complete written reduction and actual checker runs, pending independent review. Source factor formulas and matching upper construction are credited as prior; bounded duplicate gate found no matching product result, priority unestablished. No Lean claim.
+- Stop the covered Kneser four/five-point search. Next substantive scope remains arbitrary factors with lowerGP>=5 and a product GP witness>=4, or a genuinely different structural proof; no automatic size escalation.
+- Original monophonic order15 counterexample6022d2b remains frozen and pending separate review. Existing accepted packets unchanged.
+
 # B substantive result — 2026-10-10 11:11UTC
 
 - Original lower-GP Cartesian-product conjecture, preprint2.10/final3: proved the UNIVERSAL PARTIAL bound gp^-(G square H)>=min{4,gp^-(G),gp^-(H)}. This establishes the original inequality whenever either factor's lowerGP<=4. It is not a full conjecture solution or counterexample.
