@@ -116,3 +116,48 @@ With classical graph enumeration G_N~2^(binom(N,2))/N!, this yields **only a one
 **Review checklist:** check whether twins probability requires the two tested vertices be nonadjacent (it does); ensure bipartite graph union bound counts all partitions; show disconnected event has a component of ≤m/2; prove monotonicity for all m≥12, not just m≤65; check all labelled input tuples have distinct edge sets; check normalizing by N! for unlabeled; properly attribute classical all-graphs asymptotic and the 2024 graph gadget. Reconstruct explicit unexpected CDC permutation from raw edges in a test graph. Seek genuinely independent prior work before making historical claims.
 
 **Next large goal:** a nontrivial **upper exponential bound** for the number of graphs with unexpected TF symmetries, or a classification of the asymptotically dominant minimal-support TF pairs. That would actually narrow the open Problem5.3 rather than repeat the same lower-bound enumeration. Should such a mechanism fail after distinct attempts, pause it with reasons and move to another disjoint publicly open graph/CDC question. No ROOT acceptance, universal Lean result, unsolicited author contact, forced branch update, PR, merge or submission is claimed.
+
+
+## Priority ROOT review: global unlabelled asymptotic for Problem 5.3 (NEW, 2026-10-10)
+
+**This is a materially new review object, NOT an automatic consequence of acceptance of another C problem.** Earlier `MINIMAL_TF_SYMMETRY_NORMAL_FORM.md` only counted graphs invariant under **one fixed pair of swaps**. The new result has a complete original-target *global* upper bound over **all non-diagonal TF permutation pairs** and a separately justified **unlabelled** asymptotic equivalence.
+
+**Frozen mathematical source:** `GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md`, commit `eb6d63dea62c4559f7d9deb6cdd5796255d7e150`, Git blob `0a289a5b5b6ff1be928eb3f1cab1a1b4a7a14913`. The strengthened lower bound at `c366ddf1` and the fixed-pattern count at `519a05b0` remain separate, prior frozen objects. The support proof makes additional assertions not previously reviewed; do **not** infer ROOT acceptance.
+
+**Exact original question:** Hujdurović–Mitrović, JGT 105 (2024), DOI 10.1002/jgt.23018, **Problem 5.3** (not a numbered conjecture). U_n counts ordinary **unlabelled** graph isomorphism classes that are finite simple, connected, nonbipartite, twin-free, and have unexpected canonical-double-cover automorphisms. The source published Construction5.1/Proposition5.2 is reused and attributed. The current result is **affirmative asymptotic formula candidate**; no historical novelty audit can establish firstness just from absence of search hits.
+
+**Candidate formulas, n→∞:**
+
+- labelled `L_n ~ 3 binom(n,4) 2^[binom(n−4,2)+2(n−4)+1]`;
+- unlabelled `U_n ~ 2^[binom(n−4,2)+2(n−4)−1]/(n−4)!`;
+- proportion of all unlabelled graphs `U_n/g_n ~ 2(n)_4/4^n`;
+- almost all nontrivially unstable graphs have a **unique** unordered minimal TF support partition into two disjoint 2-vertex swaps; consequently almost all have Aut(G)=C2 and Aut(CDC(G))=the order-eight dihedral D8 (conditional corollary manuscript `GENERIC_COVER_GROUP_COROLLARY.md`).
+
+**Completely reproducible executed checks** (source files are byte-identical to the local Python3.13.5/Linux runs; Git blobs frozen):
+
+    cd workstreams/C-audit-1010
+    python3 verify_global_support.py
+    python3 finite_overlap.py
+    python3 audit_dense_entropy.py
+    python3 -m py_compile verify_global_support.py finite_overlap.py audit_dense_entropy.py
+    sha256sum verify_global_support.py finite_overlap.py audit_dense_entropy.py
+
+1. `verify_global_support.py` SHA256 `3e54a1333407bf84bcbf992033afd84c5cca78dab1c625803f12dfe969b27b9c`, Git blob `d3ac9e26b0cf5af7ee41d533a4bb3dd244718474`. PASS complete s=2/3/4 local TF pair + every induced S graph; 0,0,48 no-forced-twin cases (the 48 decompose 12 minimal/t2, 36 nonminimal/t1); independent DSU n=5,6,7,8,10,12.
+2. `finite_overlap.py` SHA256 `faa4e8c3beaf9a6520965a47fd937c1089c691092c30aedce690841605e0cf1a`, Git blob `292afbf6130314cbe76939e32cddef9cc5fea54f`. PASS 2880 six-vertex marked patterns, 2370 distinct labelled graphs; multiplicity 1:1980, 2:315, 3:60, 6:15; 1035 graph-condition-qualified and 135 multiple. It explicitly disproves any interpretation of **literal** uniqueness at finite n.
+3. `audit_dense_entropy.py` SHA256 `f7ade5599c8b501852f4ab588ec98280ddf63b96bf718161bfeed6a3cc3e0873`, Git blob `86283b36273cba754456cd2690c6574a2e4b2ebe`. PASS 470 original ordered-pair TF constraint systems; every selected edge bit incidence at most 3, greedily constructed disjoint constraints ≤ full DSU entropy deficit. This tests the universal high-support proof lemma without depending on the discovery script's counting formula.
+
+**Mathematical review priority list** (independently reason, do not rely on three self-written PASS scripts):
+
+1. Verify the original connected nonbipartite graph ↔ non-diagonal TF pair equivalence; distinguish **expected** diagonal automorphisms from unexpected cover automorphisms.
+2. Verify the complete s≤3 case split and s=4/t=2 forced-twin exception. Critical failure mode: the nonminimal pair `alpha=(a1a2)(b1b2), beta=(a1a2)` has exactly the same raw free-bit count as the dominant pattern yet is forbidden by **twin-freeness**, NOT entropy alone.
+3. Reconstruct the external-neighbour group orbit Γ=⟨α,β⟩ and lost bit count (s−t)(n−s) for all s.
+4. Audit the high-support greedy matching: #nontrivial sources M−a, source incidence once, target at most twice, at least (M−a)/6 **variable-disjoint equations** independent as Boolean bits; deficit≥n(n−3)/96. This must be a *general proof*, not a finite n program.
+5. Audit the **UNLABELLED** bound by marking S while taking the leftover graph W up to isomorphism. This is the essential step to avoid losing a factor n! in the exceptional-family count. Check g_m∼2^binom(m,2)/m! and unlabelled random asymmetry via Burnside.
+6. Audit two distinct leading four-vertex partitions on the SAME support: their transposition-generated group is transitive on all four special vertices, so they lose ≥3(n−4) external bits even though both are legal at finite n.
+7. Audit almost-everywhere **unique minimal pair** and canonical old graph X; with asymmetric X, unordered {A,B} choices count ~2^(2m−1), and perfect matching orientation does not produce a separate unlabelled graph.
+8. Confirm all displayed powers of two and automorphism factor: typical base Aut(G)=C2, NOT trivial, so dividing labelled L_n by n! alone gives the wrong constant; formula U_n/g_n∼2(n)_4/4^n is specific.
+9. Source/later-paper originality review: a full approximation formula may have appeared elsewhere since 2024; the published construction itself belongs to the authors.
+
+**What is NOT claimed:** ROOT approval, a formal Lean theorem, 2026 historical firstness, arXiv submission, peer-reviewed accepted paper, PR/merge, main-branch integration or other-agent direct notice. C-audit remains isolated at partner/dist-C-audit-1010 / workstreams/C-audit-1010; original C branch and other agents untouched.
+
+**Next decision:** A rigorous independent audit takes precedence over another source problem or large search. If a precise gap is discovered, update via a **new version** without rewriting the frozen source. After completion, useful new research should examine error terms or convergence rates, but not inflate trivial sample counts. If proof fails and cannot be repaired in bounded distinct attempts, retain the failure and switch targets autonomously.
