@@ -1,0 +1,5 @@
+{"core": "dipole", "stats": {"SAT": 40}, "worst_nodes": 46}
+{"core": "K4", "stats": {"SAT": 80}, "worst_nodes": 87}
+{"core": "K33", "stats": {"SAT": 120}, "worst_nodes": 110}
+{"core": "prism", "stats": {"SAT": 160}, "worst_nodes": 121}
+{"core": "Petersen", "stats": {"SAT": 200}, "worst_nodes": 174}
