@@ -317,3 +317,7 @@ does not claim to include those raw logs. No credentials, private prompts,
 other agents' files, or shared dependency changes belong in this package.
 
 Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d76612b8c4777fb9906b3506c7a482e7984ca9a1cbcba62491b32d3eda91ff. Checker SHA256 7fe25d248e7bc772497effa491a1bd87e92cf46d8724d7302fb1ea6d1f9c25b9.
+
+## Active next research
+
+Conjecture5 (2,2,2,2,3) on 2-saturated triangle-local graphs is newly reserved; triangle_22223/SOURCE_GATE.md. No result yet. Conjecture3 counterexample and all earlier proofs remain frozen.

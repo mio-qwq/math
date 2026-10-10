@@ -1,0 +1,11 @@
+# New exact reservation — 2026-10-10 07:10 UTC
+
+B reserves arXiv:2603.25113v1 Section5 Conjecture5: every finite simple undirected 2-saturated subcubic graph with maximum local girth of degree-three vertices equal to three is (2,2,2,2,3)-packing colorable. Distinct entries mean distinct colors; each color class has distances strictly greater than its entry. Each degree-three vertex must lie in a triangle. This last condition is essential: B's seven-vertex Conjecture3 counterexample does not meet it.
+
+Original primary HTML and PDF checked today: https://arxiv.org/html/2603.25113v1#S5 and https://arxiv.org/pdf/2603.25113v1 , printed page27. Authors Ayman El Zein and Maidoun Mortada, 26March2026. The same paper Theorem5 proves the weaker five radius-two colors. Abs page currently lists only v1. Exact identifier/number and palette/saturation follow-up searches found no resolution; author laboratory pages checked07:07. Bounded negative search does not establish novelty.
+
+Coordination d8f2994, A latest9c3dd22, C4dced3f; visible targets remain different. Latest B counterexample delivery fadb2d4 remains frozen. No other stream or public management file is changed. No new agents.
+
+Counterexample verification would require all original graph conditions and exhaustive failure for the exact five-color sequence, followed by an independently executable certificate or elementary proof. Discovery begins with cubic cores replaced by disjoint triangles and each inter-triangle edge replaced by a path of length at least two. This automatically ensures each degree-three vertex lies on a triangle and has at most two degree-three neighbors. Unlike B's earlier 1-saturated necklace class, these triangles have three ports and arbitrary branching. Short connector parity may frustrate the four equal-radius colors and the stronger fifth class. Uniform and mixed lengths, then diamond attachments, are genuinely different mechanisms. A restricted-model proof or search failure is not the original conjecture.
+
+Stop/redirect if those mechanisms produce no new candidate, invariant or structural obstruction. Any solver timeout is UNKNOWN. Publish this reservation before computation; no numerical claim yet.

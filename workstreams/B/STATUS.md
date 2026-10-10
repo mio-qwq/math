@@ -124,3 +124,9 @@
 - Next: freeze and publish proof, certificate, independent checker and reproducible logs promptly. Earlier four positive candidates remain unchanged and pending review. No Lean, signing, author contact, main edits or root project numbering.
 
 Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d76612b8c4777fb9906b3506c7a482e7984ca9a1cbcba62491b32d3eda91ff. Checker SHA256 7fe25d248e7bc772497effa491a1bd87e92cf46d8724d7302fb1ea6d1f9c25b9.
+
+## Next exact reservation, 2026-10-10 07:10 UTC
+
+- Previous original Conjecture3 counterexample frozen remotely at fadb2d48073cde97306cf128a2d40f6381232958 and clean archive verifier PASS; independent acceptance pending.
+- B now reserves arXiv:2603.25113v1 Section5 Conjecture5: 2-saturated subcubic, every degree-three vertex in a triangle, palette(2,2,2,2,3). Source/noncollision gate triangle_22223/SOURCE_GATE.md.
+- Phase: reservation before computation; no result. Three-port triangle replacements and variable-length inter-triangle paths, rather than earlier necklace-only class. B works personally, without new agents.
