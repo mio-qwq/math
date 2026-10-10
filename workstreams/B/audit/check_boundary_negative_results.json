@@ -1,0 +1,376 @@
+{
+  "boundary_cases": 45,
+  "anchored_gp_sets": 67395,
+  "negative_controls": [
+    {
+      "name": "wrong_prediction",
+      "detected": true
+    },
+    {
+      "name": "broken_distance",
+      "detected": true
+    }
+  ],
+  "results": [
+    {
+      "n": 2,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 2,
+      "projection_checks": 2
+    },
+    {
+      "n": 3,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 3,
+      "projection_checks": 3
+    },
+    {
+      "n": 3,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 4,
+      "projection_checks": 4
+    },
+    {
+      "n": 4,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 4,
+      "projection_checks": 4
+    },
+    {
+      "n": 4,
+      "d": 3,
+      "a": 1,
+      "gp": 4,
+      "anchored_gp_sets": 8,
+      "projection_checks": 8
+    },
+    {
+      "n": 5,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 5,
+      "projection_checks": 5
+    },
+    {
+      "n": 5,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 8,
+      "projection_checks": 8
+    },
+    {
+      "n": 5,
+      "d": 4,
+      "a": 1,
+      "gp": 5,
+      "anchored_gp_sets": 16,
+      "projection_checks": 16
+    },
+    {
+      "n": 6,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 6,
+      "projection_checks": 6
+    },
+    {
+      "n": 6,
+      "d": 5,
+      "a": 1,
+      "gp": 6,
+      "anchored_gp_sets": 32,
+      "projection_checks": 32
+    },
+    {
+      "n": 7,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 7,
+      "projection_checks": 7
+    },
+    {
+      "n": 7,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 13,
+      "projection_checks": 13
+    },
+    {
+      "n": 7,
+      "d": 3,
+      "a": 1,
+      "gp": 4,
+      "anchored_gp_sets": 20,
+      "projection_checks": 20
+    },
+    {
+      "n": 7,
+      "d": 6,
+      "a": 1,
+      "gp": 7,
+      "anchored_gp_sets": 64,
+      "projection_checks": 64
+    },
+    {
+      "n": 8,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 8,
+      "projection_checks": 8
+    },
+    {
+      "n": 8,
+      "d": 7,
+      "a": 1,
+      "gp": 8,
+      "anchored_gp_sets": 128,
+      "projection_checks": 128
+    },
+    {
+      "n": 9,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 9,
+      "projection_checks": 9
+    },
+    {
+      "n": 9,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 19,
+      "projection_checks": 19
+    },
+    {
+      "n": 9,
+      "d": 4,
+      "a": 1,
+      "gp": 5,
+      "anchored_gp_sets": 48,
+      "projection_checks": 48
+    },
+    {
+      "n": 9,
+      "d": 8,
+      "a": 1,
+      "gp": 9,
+      "anchored_gp_sets": 256,
+      "projection_checks": 256
+    },
+    {
+      "n": 10,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 10,
+      "projection_checks": 10
+    },
+    {
+      "n": 10,
+      "d": 3,
+      "a": 1,
+      "gp": 4,
+      "anchored_gp_sets": 38,
+      "projection_checks": 38
+    },
+    {
+      "n": 10,
+      "d": 9,
+      "a": 1,
+      "gp": 10,
+      "anchored_gp_sets": 512,
+      "projection_checks": 512
+    },
+    {
+      "n": 11,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 11,
+      "projection_checks": 11
+    },
+    {
+      "n": 11,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 26,
+      "projection_checks": 26
+    },
+    {
+      "n": 11,
+      "d": 5,
+      "a": 1,
+      "gp": 6,
+      "anchored_gp_sets": 112,
+      "projection_checks": 112
+    },
+    {
+      "n": 11,
+      "d": 10,
+      "a": 1,
+      "gp": 11,
+      "anchored_gp_sets": 1024,
+      "projection_checks": 1024
+    },
+    {
+      "n": 12,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 12,
+      "projection_checks": 12
+    },
+    {
+      "n": 12,
+      "d": 11,
+      "a": 1,
+      "gp": 12,
+      "anchored_gp_sets": 2048,
+      "projection_checks": 2048
+    },
+    {
+      "n": 13,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 13,
+      "projection_checks": 13
+    },
+    {
+      "n": 13,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 34,
+      "projection_checks": 34
+    },
+    {
+      "n": 13,
+      "d": 3,
+      "a": 1,
+      "gp": 4,
+      "anchored_gp_sets": 63,
+      "projection_checks": 63
+    },
+    {
+      "n": 13,
+      "d": 4,
+      "a": 1,
+      "gp": 5,
+      "anchored_gp_sets": 104,
+      "projection_checks": 104
+    },
+    {
+      "n": 13,
+      "d": 6,
+      "a": 1,
+      "gp": 7,
+      "anchored_gp_sets": 256,
+      "projection_checks": 256
+    },
+    {
+      "n": 13,
+      "d": 12,
+      "a": 1,
+      "gp": 13,
+      "anchored_gp_sets": 4096,
+      "projection_checks": 4096
+    },
+    {
+      "n": 14,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 14,
+      "projection_checks": 14
+    },
+    {
+      "n": 14,
+      "d": 13,
+      "a": 1,
+      "gp": 14,
+      "anchored_gp_sets": 8192,
+      "projection_checks": 8192
+    },
+    {
+      "n": 15,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 15,
+      "projection_checks": 15
+    },
+    {
+      "n": 15,
+      "d": 2,
+      "a": 1,
+      "gp": 3,
+      "anchored_gp_sets": 43,
+      "projection_checks": 43
+    },
+    {
+      "n": 15,
+      "d": 7,
+      "a": 1,
+      "gp": 8,
+      "anchored_gp_sets": 576,
+      "projection_checks": 576
+    },
+    {
+      "n": 15,
+      "d": 14,
+      "a": 1,
+      "gp": 15,
+      "anchored_gp_sets": 16384,
+      "projection_checks": 16384
+    },
+    {
+      "n": 16,
+      "d": 1,
+      "a": 1,
+      "gp": 2,
+      "anchored_gp_sets": 16,
+      "projection_checks": 16
+    },
+    {
+      "n": 16,
+      "d": 3,
+      "a": 1,
+      "gp": 4,
+      "anchored_gp_sets": 96,
+      "projection_checks": 96
+    },
+    {
+      "n": 16,
+      "d": 5,
+      "a": 1,
+      "gp": 6,
+      "anchored_gp_sets": 272,
+      "projection_checks": 272
+    },
+    {
+      "n": 16,
+      "d": 15,
+      "a": 1,
+      "gp": 16,
+      "anchored_gp_sets": 32768,
+      "projection_checks": 32768
+    }
+  ]
+}

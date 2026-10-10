@@ -1,23 +1,16 @@
-# Distributed researcher B
+# Distributed researcher B: handoff stage
 
-- ID: B; role: independent discovery, not main-agent integration.
-- Baseline: 42a30d62d084a9dbe64c92666addd6cf28986b16.
-- Branch: partner/dist-B; exclusive namespace: workstreams/B/.
-- Date: 2026-10-10 UTC.
-- Coordination: initial GitHub API and git ls-remote checks exposed only main; coord/distributed did not exist (404); no B task card or visible distributed claims available. This is not proof of absence of concurrent work.
-- Phase: candidate claim before computational search.
-- Candidate: El Zein–Mortada, arXiv:2603.25113v1, Conjecture 1, 0-saturated finite simple subcubic graphs with every degree-three vertex on a cycle of length at most four admit a (1,2,3,4)-packing coloring.
-- Source: https://arxiv.org/html/2603.25113v1#S5 . Original definitions and final conjecture to be frozen in research record.
-- Method: construct graphs satisfying all local hypotheses, test exact four-color feasibility; certify any obstruction via a separately implemented exhaustive checker. Prefer minimum degree two, connected graphs to remove avoidable definitional ambiguities.
-- Evidence: source read and bounded later-literature screening; no counterexample, theorem, computation, or independent review claimed yet.
-- Claim scope: only this exact conjecture and direct graph-search families. No claim on general packing coloring or existing 006 strong-product domination.
-- Blockers: remote publication authorization/access must be verified. A local record is not a shared claim or guaranteed collision avoidance.
-- Next: inspect statement, build small structured families and exact search, update at route changes and any candidate.
-
-## Route checkpoint, 04:53 UTC
-
-- First exact search covered 4,376 validated square necklaces/chains with connector lengths 2–5 and up to seven blocks, including triangle-ended chains; all were four-colorable. Endpoint variants and structural classification are being finalized. This finite negative search is not a theorem for the entire class.
-- Active second candidate claim: Chandran et al., The general position number of digraphs, arXiv:2604.15909v1, unnumbered optimality conjecture after Theorem 3.3. For d>=3, n=q*d+a, q>=1, 2<=a<=d-1, test gp(Circ(n,{1,...,d}))=max(a,ceil((d+1)/a)). Source: https://arxiv.org/html/2604.15909v1#S3.SS1 . Read the original definitions and both constructions. Bounded title/id/follow-up search found no resolution; not a priority guarantee.
-- A larger explicit set would refute this exact subclass using integer shortest-path checks only. Claim is confined to this circulant conjecture; not broad general-position theory.
-- Publication: initial shell push failed for missing credentials; GitHub connector successfully published the claim at 000f05222cc65398f21c7bbca3673db43e292d6d. No notification to other distributed members is claimed.
-- Rejected candidate: Jahanbani–Gutman nonsingular graph-energy bound, because arXiv:2608.22139v1 publicly reports a stronger theorem settling it. No independent audit of that proof claimed.
+- ID: B. Role: independent discovery, with separate internal mathematical review.
+- Branch: partner/dist-B. Exclusive path: workstreams/B/.
+- Baseline main SHA: 42a30d62d084a9dbe64c92666addd6cf28986b16.
+- Coordination: coord/distributed returned 404 and no task card was accessible. Initial remote checks exposed only main. Unknown files preserved; no global management files repaired.
+- Primary outcome: complete written proof of the original consecutive-generator circulant general-position conjecture after Theorem 3.3, arXiv:2604.15909v1. This is NOT a counterexample.
+- Scope: all integers 1<=d<n; exact formula and all boundary cases in circulant/PROOF.md.
+- Frozen corrected local source: 10c34c12b8ded555a953f75546f965cdf5a94151; proof SHA256 8003f03393834d7ee763b6e182a05de06fcc85ff208f50caaae1c2d9a528e30b.
+- Actual evidence: written integer proof; direct BFS checks of 6,884,676 anchored triples across 3,346 graphs; independent internal audit and checker receipts under audit/. Read audit verdict rather than treating a requested review as completed.
+- Literature: original coauthors' August 2026 survey still describes the bound as conjectured optimal. Bounded search found no prior resolution. Historical novelty unestablished.
+- Earlier route: local-girth packing coloring paused after 95,165 checked SAT instances; no counterexample, no general theorem. See search/RESULT.md for exact coverage and restart conditions.
+- Rejected candidate: nonsingular graph-energy bound already publicly reported proved in arXiv:2608.22139v1.
+- Publication history: first claim 000f05222cc65398f21c7bbca3673db43e292d6d; route-change claim 6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2. Shell push lacked credentials, connector publication succeeded. No other distributed member was directly notified.
+- Remaining: main-Agent independent acceptance, human responsibility review, final prior-art review, optional Lean formalization. No submission, author contact, merge, new numbered project, or priority announcement performed.
+- Next: use HANDOFF.md to reproduce and accept or identify a concrete gap. Do not repeat brute-force searches superseded by the general proof.

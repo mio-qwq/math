@@ -1,0 +1,319 @@
+{"n": 67, "d": 19, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 3438, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 39, "d": 27, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 392, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 82, "d": 26, "q": 3, "a": 4, "bound": 7, "status": "exhausted", "nodes": 17544, "best": [0, 4, 8, 12, 16, 20, 24]}
+{"n": 30, "d": 21, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 101, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 37, "d": 32, "q": 1, "a": 5, "bound": 7, "status": "exhausted", "nodes": 1737, "best": [0, 5, 10, 15, 20, 25, 30]}
+{"n": 239, "d": 46, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 86190, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 90, "d": 29, "q": 3, "a": 3, "bound": 10, "status": "timeout", "nodes": 94280, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]}
+{"n": 44, "d": 17, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 903, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 52, "d": 40, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 433, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 85, "d": 39, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 7708, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 247, "d": 48, "q": 5, "a": 7, "bound": 7, "status": "timeout", "nodes": 108095, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 212, "d": 40, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 65340, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 101, "d": 48, "q": 2, "a": 5, "bound": 10, "status": "timeout", "nodes": 90961, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]}
+{"n": 29, "d": 24, "q": 1, "a": 5, "bound": 5, "status": "exhausted", "nodes": 265, "best": [0, 1, 2, 3, 4]}
+{"n": 112, "d": 36, "q": 3, "a": 4, "bound": 10, "status": "timeout", "nodes": 100808, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36]}
+{"n": 63, "d": 30, "q": 2, "a": 3, "bound": 11, "status": "exhausted", "nodes": 71782, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]}
+{"n": 124, "d": 39, "q": 3, "a": 7, "bound": 7, "status": "exhausted", "nodes": 23416, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 92, "d": 44, "q": 2, "a": 4, "bound": 12, "status": "timeout", "nodes": 83205, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 152, "d": 28, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 87982, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 261, "d": 51, "q": 5, "a": 6, "bound": 9, "status": "timeout", "nodes": 87637, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48]}
+{"n": 60, "d": 28, "q": 2, "a": 4, "bound": 8, "status": "exhausted", "nodes": 8541, "best": [0, 4, 8, 12, 16, 20, 24, 28]}
+{"n": 18, "d": 16, "q": 1, "a": 2, "bound": 9, "status": "exhausted", "nodes": 130, "best": [0, 2, 4, 6, 8, 10, 12, 14]}
+{"n": 108, "d": 48, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 3813, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 271, "d": 52, "q": 5, "a": 11, "bound": 11, "status": "exhausted", "nodes": 107349, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 211, "d": 41, "q": 5, "a": 6, "bound": 7, "status": "timeout", "nodes": 110445, "best": [0, 6, 12, 18, 24, 30, 36]}
+{"n": 71, "d": 59, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 1490, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 51, "d": 21, "q": 2, "a": 9, "bound": 9, "status": "exhausted", "nodes": 513, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 252, "d": 48, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 88064, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 111, "d": 52, "q": 2, "a": 7, "bound": 8, "status": "timeout", "nodes": 114067, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 98, "d": 30, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 1630, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 46, "d": 21, "q": 2, "a": 4, "bound": 6, "status": "exhausted", "nodes": 963, "best": [0, 4, 8, 12, 16, 20]}
+{"n": 265, "d": 51, "q": 5, "a": 10, "bound": 10, "status": "exhausted", "nodes": 120426, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 101, "d": 47, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 62436, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 55, "d": 44, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 391, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 293, "d": 57, "q": 5, "a": 8, "bound": 8, "status": "timeout", "nodes": 97226, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 64, "d": 56, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 24911, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 58, "d": 49, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 1919, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 157, "d": 30, "q": 5, "a": 7, "bound": 7, "status": "exhausted", "nodes": 9052, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 80, "d": 38, "q": 2, "a": 4, "bound": 10, "status": "timeout", "nodes": 96294, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36]}
+{"n": 58, "d": 46, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 506, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 303, "d": 59, "q": 5, "a": 8, "bound": 8, "status": "timeout", "nodes": 90070, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 111, "d": 50, "q": 2, "a": 11, "bound": 11, "status": "exhausted", "nodes": 4128, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 100, "d": 46, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 14314, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 54, "d": 21, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 2894, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 115, "d": 54, "q": 2, "a": 7, "bound": 8, "status": "timeout", "nodes": 104521, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 236, "d": 46, "q": 5, "a": 6, "bound": 8, "status": "timeout", "nodes": 95552, "best": [0, 6, 12, 18, 24, 30, 36, 42]}
+{"n": 60, "d": 52, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 10070, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 102, "d": 18, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 87529, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 80, "d": 24, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 1022, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 122, "d": 56, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 18487, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 42, "d": 16, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 901, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 229, "d": 44, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 56403, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 66, "d": 57, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 9756, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 158, "d": 51, "q": 3, "a": 5, "bound": 11, "status": "timeout", "nodes": 76837, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]}
+{"n": 282, "d": 55, "q": 5, "a": 7, "bound": 8, "status": "timeout", "nodes": 87242, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 52, "d": 44, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 1684, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 264, "d": 51, "q": 5, "a": 9, "bound": 9, "status": "timeout", "nodes": 119777, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 51, "d": 16, "q": 3, "a": 3, "bound": 6, "status": "exhausted", "nodes": 1447, "best": [0, 3, 6, 9, 12, 15]}
+{"n": 78, "d": 24, "q": 3, "a": 6, "bound": 6, "status": "exhausted", "nodes": 1055, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 58, "d": 24, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 919, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 59, "d": 19, "q": 3, "a": 2, "bound": 10, "status": "exhausted", "nodes": 31743, "best": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]}
+{"n": 202, "d": 39, "q": 5, "a": 7, "bound": 7, "status": "exhausted", "nodes": 111417, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 88, "d": 40, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 3623, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 30, "d": 26, "q": 1, "a": 4, "bound": 7, "status": "exhausted", "nodes": 878, "best": [0, 4, 8, 12, 16, 20, 24]}
+{"n": 128, "d": 59, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 32965, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 111, "d": 53, "q": 2, "a": 5, "bound": 11, "status": "timeout", "nodes": 75130, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]}
+{"n": 93, "d": 27, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 13049, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 188, "d": 36, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 19294, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 95, "d": 29, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 1445, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 224, "d": 44, "q": 5, "a": 4, "bound": 12, "status": "timeout", "nodes": 68433, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 136, "d": 44, "q": 3, "a": 4, "bound": 12, "status": "timeout", "nodes": 73888, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 158, "d": 30, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 7620, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 226, "d": 43, "q": 5, "a": 11, "bound": 11, "status": "exhausted", "nodes": 65873, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 154, "d": 30, "q": 5, "a": 4, "bound": 8, "status": "timeout", "nodes": 105071, "best": [0, 4, 8, 12, 16, 20, 24, 28]}
+{"n": 105, "d": 31, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 13111, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 77, "d": 33, "q": 2, "a": 11, "bound": 11, "status": "exhausted", "nodes": 1719, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 164, "d": 51, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 15685, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 32, "d": 25, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 81, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 171, "d": 54, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 101261, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 24, "d": 18, "q": 1, "a": 6, "bound": 6, "status": "exhausted", "nodes": 39, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 280, "d": 54, "q": 5, "a": 10, "bound": 10, "status": "timeout", "nodes": 122139, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 66, "d": 27, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 2906, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 44, "d": 35, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 191, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 90, "d": 26, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 13044, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 37, "d": 26, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 248, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 69, "d": 22, "q": 3, "a": 3, "bound": 8, "status": "exhausted", "nodes": 17063, "best": [0, 3, 6, 9, 12, 15, 18, 21]}
+{"n": 113, "d": 22, "q": 5, "a": 3, "bound": 8, "status": "exhausted", "nodes": 114316, "best": [0, 3, 6, 9, 12, 15, 18, 21]}
+{"n": 281, "d": 54, "q": 5, "a": 11, "bound": 11, "status": "timeout", "nodes": 111777, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 103, "d": 33, "q": 3, "a": 4, "bound": 9, "status": "timeout", "nodes": 104796, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32]}
+{"n": 46, "d": 39, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 1493, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 31, "d": 21, "q": 1, "a": 10, "bound": 10, "status": "exhausted", "nodes": 155, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 234, "d": 46, "q": 5, "a": 4, "bound": 12, "status": "timeout", "nodes": 63108, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 102, "d": 33, "q": 3, "a": 3, "bound": 12, "status": "timeout", "nodes": 81307, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]}
+{"n": 62, "d": 25, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 2902, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 170, "d": 54, "q": 3, "a": 8, "bound": 8, "status": "timeout", "nodes": 114512, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 89, "d": 27, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 1203, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 37, "d": 28, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 118, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 61, "d": 18, "q": 3, "a": 7, "bound": 7, "status": "exhausted", "nodes": 470, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 109, "d": 33, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 3832, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 176, "d": 56, "q": 3, "a": 8, "bound": 8, "status": "timeout", "nodes": 108476, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 52, "d": 43, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 614, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 40, "d": 32, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 165, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 48, "d": 42, "q": 1, "a": 6, "bound": 8, "status": "exhausted", "nodes": 7181, "best": [0, 6, 12, 18, 24, 30, 36]}
+{"n": 94, "d": 45, "q": 2, "a": 4, "bound": 12, "status": "timeout", "nodes": 78497, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 52, "d": 46, "q": 1, "a": 6, "bound": 8, "status": "exhausted", "nodes": 22089, "best": [0, 6, 12, 18, 24, 30, 36, 42]}
+{"n": 97, "d": 18, "q": 5, "a": 7, "bound": 7, "status": "exhausted", "nodes": 2147, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 67, "d": 30, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 849, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 70, "d": 30, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 991, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 112, "d": 21, "q": 5, "a": 7, "bound": 7, "status": "exhausted", "nodes": 2403, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 124, "d": 23, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 11607, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 169, "d": 33, "q": 5, "a": 4, "bound": 9, "status": "timeout", "nodes": 95960, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32]}
+{"n": 51, "d": 44, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 5141, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 41, "d": 18, "q": 2, "a": 5, "bound": 5, "status": "exhausted", "nodes": 178, "best": [0, 1, 2, 3, 4]}
+{"n": 99, "d": 46, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 48021, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 38, "d": 32, "q": 1, "a": 6, "bound": 6, "status": "exhausted", "nodes": 780, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 300, "d": 58, "q": 5, "a": 10, "bound": 10, "status": "timeout", "nodes": 116141, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 111, "d": 51, "q": 2, "a": 9, "bound": 9, "status": "exhausted", "nodes": 16158, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 48, "d": 36, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 407, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 255, "d": 49, "q": 5, "a": 10, "bound": 10, "status": "exhausted", "nodes": 85021, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 19, "d": 16, "q": 1, "a": 3, "bound": 6, "status": "exhausted", "nodes": 93, "best": [0, 3, 6, 9, 12, 15]}
+{"n": 167, "d": 53, "q": 3, "a": 8, "bound": 8, "status": "timeout", "nodes": 116865, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 242, "d": 47, "q": 5, "a": 7, "bound": 7, "status": "timeout", "nodes": 107969, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 30, "d": 19, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 241, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 43, "d": 16, "q": 2, "a": 11, "bound": 11, "status": "exhausted", "nodes": 1615, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 61, "d": 19, "q": 3, "a": 4, "bound": 5, "status": "exhausted", "nodes": 1552, "best": [0, 4, 8, 12, 16]}
+{"n": 140, "d": 45, "q": 3, "a": 5, "bound": 10, "status": "timeout", "nodes": 89275, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]}
+{"n": 63, "d": 26, "q": 2, "a": 11, "bound": 11, "status": "exhausted", "nodes": 1636, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 79, "d": 25, "q": 3, "a": 4, "bound": 7, "status": "exhausted", "nodes": 11601, "best": [0, 4, 8, 12, 16, 20, 24]}
+{"n": 172, "d": 32, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 83895, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 63, "d": 19, "q": 3, "a": 6, "bound": 6, "status": "exhausted", "nodes": 364, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 63, "d": 55, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 19856, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 89, "d": 26, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 6757, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 109, "d": 51, "q": 2, "a": 7, "bound": 8, "status": "timeout", "nodes": 115242, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 219, "d": 43, "q": 5, "a": 4, "bound": 11, "status": "timeout", "nodes": 68971, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40]}
+{"n": 76, "d": 33, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 1067, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 114, "d": 52, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 8731, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 51, "d": 42, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 518, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 96, "d": 30, "q": 3, "a": 6, "bound": 6, "status": "exhausted", "nodes": 5880, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 189, "d": 59, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 33124, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 139, "d": 26, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 11877, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 50, "d": 19, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 2890, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 161, "d": 51, "q": 3, "a": 8, "bound": 8, "status": "timeout", "nodes": 123798, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 48, "d": 21, "q": 2, "a": 6, "bound": 6, "status": "exhausted", "nodes": 214, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 62, "d": 28, "q": 2, "a": 6, "bound": 6, "status": "exhausted", "nodes": 1190, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 72, "d": 60, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 1689, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 106, "d": 32, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 3760, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 108, "d": 33, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 2485, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 188, "d": 60, "q": 3, "a": 8, "bound": 8, "status": "timeout", "nodes": 99010, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 183, "d": 59, "q": 3, "a": 6, "bound": 10, "status": "timeout", "nodes": 79393, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54]}
+{"n": 183, "d": 58, "q": 3, "a": 9, "bound": 9, "status": "timeout", "nodes": 118700, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 72, "d": 23, "q": 3, "a": 3, "bound": 8, "status": "exhausted", "nodes": 28212, "best": [0, 3, 6, 9, 12, 15, 18, 21]}
+{"n": 89, "d": 28, "q": 3, "a": 5, "bound": 6, "status": "exhausted", "nodes": 9954, "best": [0, 5, 10, 15, 20, 25]}
+{"n": 113, "d": 52, "q": 2, "a": 9, "bound": 9, "status": "exhausted", "nodes": 19947, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 72, "d": 33, "q": 2, "a": 6, "bound": 6, "status": "exhausted", "nodes": 5011, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 277, "d": 54, "q": 5, "a": 7, "bound": 8, "status": "timeout", "nodes": 90017, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 217, "d": 42, "q": 5, "a": 7, "bound": 7, "status": "timeout", "nodes": 120328, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 92, "d": 28, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 1306, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 61, "d": 29, "q": 2, "a": 3, "bound": 10, "status": "exhausted", "nodes": 63396, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]}
+{"n": 132, "d": 24, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 87408, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 60, "d": 17, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 1734, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 122, "d": 22, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 87595, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 272, "d": 53, "q": 5, "a": 7, "bound": 8, "status": "timeout", "nodes": 94549, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 126, "d": 60, "q": 2, "a": 6, "bound": 11, "status": "timeout", "nodes": 81512, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60]}
+{"n": 131, "d": 24, "q": 5, "a": 11, "bound": 11, "status": "exhausted", "nodes": 58720, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 46, "d": 22, "q": 2, "a": 2, "bound": 12, "status": "exhausted", "nodes": 17680, "best": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]}
+{"n": 167, "d": 52, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 17623, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 57, "d": 25, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 328, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 161, "d": 50, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 14108, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 58, "d": 23, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 2898, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 44, "d": 36, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 324, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 66, "d": 20, "q": 3, "a": 6, "bound": 6, "status": "exhausted", "nodes": 426, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 104, "d": 46, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 3525, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 74, "d": 21, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 6732, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 40, "d": 28, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 393, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 289, "d": 56, "q": 5, "a": 9, "bound": 9, "status": "timeout", "nodes": 112752, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 93, "d": 42, "q": 2, "a": 9, "bound": 9, "status": "exhausted", "nodes": 2679, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 104, "d": 33, "q": 3, "a": 5, "bound": 7, "status": "exhausted", "nodes": 46768, "best": [0, 5, 10, 15, 20, 25, 30]}
+{"n": 131, "d": 25, "q": 5, "a": 6, "bound": 6, "status": "exhausted", "nodes": 5011, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 152, "d": 29, "q": 5, "a": 7, "bound": 7, "status": "exhausted", "nodes": 7231, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 63, "d": 54, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 5255, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 65, "d": 31, "q": 2, "a": 3, "bound": 11, "status": "timeout", "nodes": 100295, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]}
+{"n": 138, "d": 43, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 9685, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 287, "d": 55, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 80978, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 206, "d": 40, "q": 5, "a": 6, "bound": 7, "status": "timeout", "nodes": 111891, "best": [0, 6, 12, 18, 24, 30, 36]}
+{"n": 197, "d": 37, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 77118, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 142, "d": 46, "q": 3, "a": 4, "bound": 12, "status": "timeout", "nodes": 68198, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 93, "d": 17, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 4880, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 42, "d": 33, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 159, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 125, "d": 59, "q": 2, "a": 7, "bound": 9, "status": "timeout", "nodes": 90985, "best": [0, 7, 14, 21, 28, 35, 42, 49, 56]}
+{"n": 204, "d": 40, "q": 5, "a": 4, "bound": 11, "status": "timeout", "nodes": 71535, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40]}
+{"n": 48, "d": 22, "q": 2, "a": 4, "bound": 6, "status": "exhausted", "nodes": 1431, "best": [0, 4, 8, 12, 16, 20]}
+{"n": 68, "d": 19, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 6726, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 107, "d": 33, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 2563, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 163, "d": 31, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 8569, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 42, "d": 31, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 254, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 24, "d": 17, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 44, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 36, "d": 27, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 113, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 146, "d": 45, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 9508, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 57, "d": 45, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 489, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 65, "d": 59, "q": 1, "a": 6, "bound": 10, "status": "timeout", "nodes": 85824, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54]}
+{"n": 43, "d": 19, "q": 2, "a": 5, "bound": 5, "status": "exhausted", "nodes": 236, "best": [0, 1, 2, 3, 4]}
+{"n": 58, "d": 50, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 6409, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 187, "d": 60, "q": 3, "a": 7, "bound": 9, "status": "timeout", "nodes": 85759, "best": [0, 7, 14, 21, 28, 35, 42, 49, 56]}
+{"n": 146, "d": 47, "q": 3, "a": 5, "bound": 10, "status": "timeout", "nodes": 84669, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]}
+{"n": 44, "d": 37, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 920, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 53, "d": 17, "q": 3, "a": 2, "bound": 9, "status": "exhausted", "nodes": 12280, "best": [0, 2, 4, 6, 8, 10, 12, 14, 16]}
+{"n": 68, "d": 60, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 61808, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 151, "d": 48, "q": 3, "a": 7, "bound": 7, "status": "timeout", "nodes": 111791, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 179, "d": 34, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 15013, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 181, "d": 34, "q": 5, "a": 11, "bound": 11, "status": "exhausted", "nodes": 59613, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 63, "d": 58, "q": 1, "a": 5, "bound": 12, "status": "timeout", "nodes": 79149, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]}
+{"n": 117, "d": 22, "q": 5, "a": 7, "bound": 7, "status": "exhausted", "nodes": 2539, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 135, "d": 42, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 8040, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 274, "d": 53, "q": 5, "a": 9, "bound": 9, "status": "timeout", "nodes": 114472, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 192, "d": 60, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 37294, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 104, "d": 47, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 3740, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 27, "d": 18, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 98, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 102, "d": 46, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 3231, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 40, "d": 35, "q": 1, "a": 5, "bound": 8, "status": "exhausted", "nodes": 3300, "best": [0, 5, 10, 15, 20, 25, 30]}
+{"n": 76, "d": 32, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 2936, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 114, "d": 34, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 13211, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 67, "d": 55, "q": 1, "a": 12, "bound": 12, "status": "exhausted", "nodes": 959, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 108, "d": 49, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 5142, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 32, "d": 24, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 77, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 91, "d": 17, "q": 5, "a": 6, "bound": 6, "status": "exhausted", "nodes": 1029, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 170, "d": 33, "q": 5, "a": 5, "bound": 7, "status": "timeout", "nodes": 115418, "best": [0, 5, 10, 15, 20, 25, 30]}
+{"n": 93, "d": 29, "q": 3, "a": 6, "bound": 6, "status": "exhausted", "nodes": 4340, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 232, "d": 44, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 87183, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 174, "d": 34, "q": 5, "a": 4, "bound": 9, "status": "timeout", "nodes": 90638, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32]}
+{"n": 59, "d": 48, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 561, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 296, "d": 58, "q": 5, "a": 6, "bound": 10, "status": "timeout", "nodes": 70389, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54]}
+{"n": 45, "d": 17, "q": 2, "a": 11, "bound": 11, "status": "exhausted", "nodes": 1617, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 63, "d": 52, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 896, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 48, "d": 40, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 711, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 193, "d": 37, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 23914, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 89, "d": 40, "q": 2, "a": 9, "bound": 9, "status": "exhausted", "nodes": 1918, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 88, "d": 17, "q": 5, "a": 3, "bound": 6, "status": "exhausted", "nodes": 11752, "best": [0, 3, 6, 9, 12, 15]}
+{"n": 61, "d": 27, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 461, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 99, "d": 29, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 13070, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 67, "d": 59, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 49243, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 112, "d": 22, "q": 5, "a": 2, "bound": 12, "status": "timeout", "nodes": 78876, "best": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]}
+{"n": 290, "d": 56, "q": 5, "a": 10, "bound": 10, "status": "timeout", "nodes": 118053, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 178, "d": 34, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 13267, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 57, "d": 49, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 5115, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 84, "d": 38, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 2342, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 256, "d": 49, "q": 5, "a": 11, "bound": 11, "status": "exhausted", "nodes": 84228, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 119, "d": 57, "q": 2, "a": 5, "bound": 12, "status": "timeout", "nodes": 73924, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]}
+{"n": 159, "d": 50, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 41798, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 311, "d": 60, "q": 5, "a": 11, "bound": 11, "status": "timeout", "nodes": 110988, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 189, "d": 60, "q": 3, "a": 9, "bound": 9, "status": "timeout", "nodes": 106887, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 78, "d": 37, "q": 2, "a": 4, "bound": 10, "status": "timeout", "nodes": 98055, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36]}
+{"n": 58, "d": 25, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 365, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 70, "d": 59, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 2541, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 157, "d": 49, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 16289, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 76, "d": 23, "q": 3, "a": 7, "bound": 7, "status": "exhausted", "nodes": 663, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 220, "d": 42, "q": 5, "a": 10, "bound": 10, "status": "exhausted", "nodes": 37953, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 86, "d": 27, "q": 3, "a": 5, "bound": 6, "status": "exhausted", "nodes": 6976, "best": [0, 5, 10, 15, 20, 25]}
+{"n": 26, "d": 22, "q": 1, "a": 4, "bound": 6, "status": "exhausted", "nodes": 283, "best": [0, 4, 8, 12, 16, 20]}
+{"n": 52, "d": 22, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 314, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 115, "d": 35, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 4043, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 86, "d": 38, "q": 2, "a": 10, "bound": 10, "status": "exhausted", "nodes": 1350, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 73, "d": 31, "q": 2, "a": 11, "bound": 11, "status": "exhausted", "nodes": 1682, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 141, "d": 45, "q": 3, "a": 6, "bound": 8, "status": "timeout", "nodes": 110052, "best": [0, 6, 12, 18, 24, 30, 36, 42]}
+{"n": 177, "d": 33, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 86687, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 145, "d": 46, "q": 3, "a": 7, "bound": 7, "status": "timeout", "nodes": 125639, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 44, "d": 19, "q": 2, "a": 6, "bound": 6, "status": "exhausted", "nodes": 154, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 162, "d": 50, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 16924, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 86, "d": 16, "q": 5, "a": 6, "bound": 6, "status": "exhausted", "nodes": 954, "best": [0, 1, 2, 3, 4, 5]}
+{"n": 69, "d": 32, "q": 2, "a": 5, "bound": 7, "status": "exhausted", "nodes": 9948, "best": [0, 5, 10, 15, 20, 25, 30]}
+{"n": 81, "d": 24, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 1811, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 108, "d": 20, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 4991, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 113, "d": 36, "q": 3, "a": 5, "bound": 8, "status": "exhausted", "nodes": 107127, "best": [0, 5, 10, 15, 20, 25, 30, 35]}
+{"n": 99, "d": 32, "q": 3, "a": 3, "bound": 11, "status": "timeout", "nodes": 84320, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]}
+{"n": 128, "d": 58, "q": 2, "a": 12, "bound": 12, "status": "exhausted", "nodes": 8278, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 66, "d": 60, "q": 1, "a": 6, "bound": 11, "status": "timeout", "nodes": 95185, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54]}
+{"n": 216, "d": 42, "q": 5, "a": 6, "bound": 8, "status": "timeout", "nodes": 107230, "best": [0, 6, 12, 18, 24, 30, 36, 42]}
+{"n": 41, "d": 32, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 148, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 228, "d": 44, "q": 5, "a": 8, "bound": 8, "status": "timeout", "nodes": 133119, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 187, "d": 59, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 110551, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 86, "d": 40, "q": 2, "a": 6, "bound": 7, "status": "exhausted", "nodes": 31289, "best": [0, 6, 12, 18, 24, 30, 36]}
+{"n": 165, "d": 31, "q": 5, "a": 10, "bound": 10, "status": "exhausted", "nodes": 26994, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 27, "d": 19, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 66, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 186, "d": 59, "q": 3, "a": 9, "bound": 9, "status": "timeout", "nodes": 119896, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 109, "d": 52, "q": 2, "a": 5, "bound": 11, "status": "timeout", "nodes": 83140, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]}
+{"n": 73, "d": 34, "q": 2, "a": 5, "bound": 7, "status": "exhausted", "nodes": 19477, "best": [0, 5, 10, 15, 20, 25, 30]}
+{"n": 158, "d": 50, "q": 3, "a": 8, "bound": 8, "status": "exhausted", "nodes": 121844, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 65, "d": 18, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 6723, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 66, "d": 31, "q": 2, "a": 4, "bound": 8, "status": "exhausted", "nodes": 27699, "best": [0, 4, 8, 12, 16, 20, 24, 28]}
+{"n": 56, "d": 24, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 345, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 291, "d": 57, "q": 5, "a": 6, "bound": 10, "status": "timeout", "nodes": 67854, "best": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54]}
+{"n": 59, "d": 28, "q": 2, "a": 3, "bound": 10, "status": "exhausted", "nodes": 39305, "best": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]}
+{"n": 26, "d": 16, "q": 1, "a": 10, "bound": 10, "status": "exhausted", "nodes": 150, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 50, "d": 46, "q": 1, "a": 4, "bound": 12, "status": "timeout", "nodes": 86710, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]}
+{"n": 172, "d": 55, "q": 3, "a": 7, "bound": 8, "status": "timeout", "nodes": 79347, "best": [0, 7, 14, 21, 28, 35, 42, 49]}
+{"n": 73, "d": 33, "q": 2, "a": 7, "bound": 7, "status": "exhausted", "nodes": 1690, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 39, "d": 31, "q": 1, "a": 8, "bound": 8, "status": "exhausted", "nodes": 143, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 28, "d": 21, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 54, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 168, "d": 52, "q": 3, "a": 12, "bound": 12, "status": "exhausted", "nodes": 18648, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 184, "d": 35, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 16131, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 51, "d": 46, "q": 1, "a": 5, "bound": 10, "status": "exhausted", "nodes": 59872, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]}
+{"n": 114, "d": 22, "q": 5, "a": 4, "bound": 6, "status": "exhausted", "nodes": 19731, "best": [0, 4, 8, 12, 16, 20]}
+{"n": 56, "d": 18, "q": 3, "a": 2, "bound": 10, "status": "exhausted", "nodes": 16546, "best": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]}
+{"n": 61, "d": 28, "q": 2, "a": 5, "bound": 6, "status": "exhausted", "nodes": 3339, "best": [0, 5, 10, 15, 20, 25]}
+{"n": 61, "d": 52, "q": 1, "a": 9, "bound": 9, "status": "exhausted", "nodes": 3499, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 179, "d": 56, "q": 3, "a": 11, "bound": 11, "status": "exhausted", "nodes": 31010, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 112, "d": 20, "q": 5, "a": 12, "bound": 12, "status": "timeout", "nodes": 89783, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+{"n": 47, "d": 40, "q": 1, "a": 7, "bound": 7, "status": "exhausted", "nodes": 1907, "best": [0, 1, 2, 3, 4, 5, 6]}
+{"n": 210, "d": 41, "q": 5, "a": 5, "bound": 9, "status": "timeout", "nodes": 91720, "best": [0, 5, 10, 15, 20, 25, 30, 35, 40]}
+{"n": 60, "d": 49, "q": 1, "a": 11, "bound": 11, "status": "exhausted", "nodes": 626, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+{"n": 143, "d": 27, "q": 5, "a": 8, "bound": 8, "status": "exhausted", "nodes": 5953, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 130, "d": 25, "q": 5, "a": 5, "bound": 6, "status": "exhausted", "nodes": 14542, "best": [0, 5, 10, 15, 20, 25]}
+{"n": 61, "d": 17, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 3432, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 141, "d": 44, "q": 3, "a": 9, "bound": 9, "status": "exhausted", "nodes": 11779, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 160, "d": 50, "q": 3, "a": 10, "bound": 10, "status": "exhausted", "nodes": 19393, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+{"n": 34, "d": 16, "q": 2, "a": 2, "bound": 9, "status": "exhausted", "nodes": 1404, "best": [0, 2, 4, 6, 8, 10, 12, 14, 16]}
+{"n": 106, "d": 49, "q": 2, "a": 8, "bound": 8, "status": "exhausted", "nodes": 29008, "best": [0, 1, 2, 3, 4, 5, 6, 7]}
+{"n": 104, "d": 19, "q": 5, "a": 9, "bound": 9, "status": "exhausted", "nodes": 11446, "best": [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+{"n": 84, "d": 16, "q": 5, "a": 4, "bound": 5, "status": "exhausted", "nodes": 1510, "best": [0, 4, 8, 12, 16]}
+{"n": 68, "d": 32, "q": 2, "a": 4, "bound": 9, "status": "exhausted", "nodes": 30451, "best": [0, 4, 8, 12, 16, 20, 24, 28, 32]}

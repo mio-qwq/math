@@ -1,0 +1,9 @@
+{'i': 9999, 'family': 'endchain', 'lengths': (3, 6, 3, 4, 6), 'ends': ('triangle', 'triangle'), 'n': 39, 'status': 'SAT', 'nodes': 30, 'seconds': 0.00032448768615722656}
+{'i': 19999, 'family': 'endchain', 'lengths': (2, 2, 4, 6, 3, 6), 'ends': ('square', 'leaf'), 'n': 42, 'status': 'SAT', 'nodes': 25, 'seconds': 0.0004105567932128906}
+{'i': 29999, 'family': 'endchain', 'lengths': (2, 5, 3, 5, 5, 3), 'ends': ('triangle', 'leaf'), 'n': 41, 'status': 'SAT', 'nodes': 62, 'seconds': 0.0005066394805908203}
+{'i': 39999, 'family': 'endchain', 'lengths': (3, 3, 3, 4, 3, 4), 'ends': ('triangle', 'triangle'), 'n': 40, 'status': 'SAT', 'nodes': 28, 'seconds': 0.0003223419189453125}
+{'i': 49999, 'family': 'endchain', 'lengths': (3, 6, 4, 3, 2, 6), 'ends': ('square', 'leaf'), 'n': 43, 'status': 'SAT', 'nodes': 37, 'seconds': 0.0004134178161621094}
+{'i': 59999, 'family': 'endchain', 'lengths': (4, 4, 6, 3, 5, 6), 'ends': ('leaf', 'leaf'), 'n': 44, 'status': 'SAT', 'nodes': 26, 'seconds': 0.00027561187744140625}
+{'i': 69999, 'family': 'endchain', 'lengths': (5, 3, 5, 3, 2, 5), 'ends': ('triangle', 'square'), 'n': 44, 'status': 'SAT', 'nodes': 30, 'seconds': 0.0003459453582763672}
+{'i': 79999, 'family': 'endchain', 'lengths': (6, 2, 6, 4, 4, 5), 'ends': ('triangle', 'leaf'), 'n': 45, 'status': 'SAT', 'nodes': 40, 'seconds': 0.0003883838653564453}
+ALL DONE 88350

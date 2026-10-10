@@ -1,0 +1,3 @@
+python /workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/search/search.py
+python /workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/search/endpoints.py
+python /workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/search/verify_and_leaves.py

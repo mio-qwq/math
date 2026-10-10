@@ -1,0 +1,13 @@
+# Structural reduction sketch (not a coloring proof)
+
+Assumptions: finite simple connected graph, maximum degree at most 3; degree-3 vertices form an independent set; each degree-3 vertex belongs to a cycle of length 3 or 4.
+
+1. Any triangle contains at most one degree-3 vertex. Any square contains at most two, and if two they are opposite. A square has no chord, since a chord would join its degree-3 endpoints.
+2. Distinct cycles of length at most 4 cannot meet at just a vertex: the shared vertex would have degree at least 4. If two cycles share an edge but not its neighboring edges, the endpoints of their common path both have degree 3. Independence excludes a shared path of length 1. The only remaining possible overlap is two squares sharing a path of length 2; their union is K2,3. (Other multiple-edge overlap on four vertices either repeats the cycle or creates adjacent degree-3 vertices.) In this union the two common-path endpoints have degree 3. Each of their three common neighbors must have degree 2, so this K2,3 is the whole connected component.
+3. Excluding that exceptional component, all triangles and squares are vertex-disjoint. A short cycle has at most two edges leaving it; two exits are possible only for a square with opposite degree-3 vertices. A short cycle with no exit is its entire connected component.
+4. Every vertex outside the short cycles has degree at most 2, since every degree-3 vertex lies on a short cycle. Contract each short cycle to a vertex, retaining parallel edges and loops. All contracted vertices and ordinary vertices have degree at most 2. The connected quotient is therefore a path or cycle (or isolated vertex).
+5. Consequently the nontrivial components are necklaces of two-terminal opposite-corner squares joined by paths, or chains of such squares. Chain endpoints are a one-terminal triangle, a one-terminal square, or a degree-1 vertex. A path joining two degree-3 terminal vertices has length at least 2, by independence; a leaf-end path may have length 1. Exceptional components with no degree-3 vertices are arbitrary paths and cycles (and isolated vertices).
+
+Caveat: the overlap argument above is a compact structural proof sketch, not a machine-checked proof. It needs a careful final presentation if used in a theorem. The computational search only establishes colorability for its recorded finite parameter ranges, not all lengths or all components.
+
+Potential next productive step: check the literature for packing 4-colorings of these square-chain / square-necklace graphs. If no existing result settles them, seek a finite-state transfer proof for arbitrary lengths and numbers of blocks. Repeating random parameter searches is not currently justified by the uniformly easy SAT results.

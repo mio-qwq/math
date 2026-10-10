@@ -1,0 +1,16 @@
+0 {'n': 67, 'd': 19, 'q': 3, 'a': 10, 'bound': 10, 'status': 'exhausted', 'nodes': 3438, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+20 {'n': 60, 'd': 28, 'q': 2, 'a': 4, 'bound': 8, 'status': 'exhausted', 'nodes': 8541, 'best': [0, 4, 8, 12, 16, 20, 24, 28]}
+40 {'n': 303, 'd': 59, 'q': 5, 'a': 8, 'bound': 8, 'status': 'timeout', 'nodes': 90070, 'best': [0, 1, 2, 3, 4, 5, 6, 7]}
+60 {'n': 59, 'd': 19, 'q': 3, 'a': 2, 'bound': 10, 'status': 'exhausted', 'nodes': 31743, 'best': [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]}
+80 {'n': 280, 'd': 54, 'q': 5, 'a': 10, 'bound': 10, 'status': 'timeout', 'nodes': 122139, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+100 {'n': 52, 'd': 43, 'q': 1, 'a': 9, 'bound': 9, 'status': 'exhausted', 'nodes': 614, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+120 {'n': 167, 'd': 53, 'q': 3, 'a': 8, 'bound': 8, 'status': 'timeout', 'nodes': 116865, 'best': [0, 1, 2, 3, 4, 5, 6, 7]}
+140 {'n': 50, 'd': 19, 'q': 2, 'a': 12, 'bound': 12, 'status': 'exhausted', 'nodes': 2890, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+160 {'n': 122, 'd': 22, 'q': 5, 'a': 12, 'bound': 12, 'status': 'timeout', 'nodes': 87595, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+180 {'n': 65, 'd': 31, 'q': 2, 'a': 3, 'bound': 11, 'status': 'timeout', 'nodes': 100295, 'best': [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]}
+200 {'n': 43, 'd': 19, 'q': 2, 'a': 5, 'bound': 5, 'status': 'exhausted', 'nodes': 236, 'best': [0, 1, 2, 3, 4]}
+220 {'n': 114, 'd': 34, 'q': 3, 'a': 12, 'bound': 12, 'status': 'exhausted', 'nodes': 13211, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+240 {'n': 112, 'd': 22, 'q': 5, 'a': 2, 'bound': 12, 'status': 'timeout', 'nodes': 78876, 'best': [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]}
+260 {'n': 86, 'd': 38, 'q': 2, 'a': 10, 'bound': 10, 'status': 'exhausted', 'nodes': 1350, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+280 {'n': 165, 'd': 31, 'q': 5, 'a': 10, 'bound': 10, 'status': 'exhausted', 'nodes': 26994, 'best': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+300 {'n': 114, 'd': 22, 'q': 5, 'a': 4, 'bound': 6, 'status': 'exhausted', 'nodes': 19731, 'best': [0, 4, 8, 12, 16, 20]}

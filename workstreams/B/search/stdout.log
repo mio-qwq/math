@@ -1,0 +1,45 @@
+{'i': 0, 'family': 'necklace', 'lengths': (2,), 'n': 5, 'status': 'SAT', 'nodes': 4, 'seconds': 6.103515625e-05}
+{'i': 100, 'family': 'necklace', 'lengths': (2, 5, 4, 4), 'n': 27, 'status': 'SAT', 'nodes': 15, 'seconds': 0.00019621849060058594}
+{'i': 200, 'family': 'necklace', 'lengths': (2, 5, 3, 5), 'n': 27, 'status': 'SAT', 'nodes': 16, 'seconds': 0.00016498565673828125}
+{'i': 300, 'family': 'chain', 'lengths': (2, 2, 2, 5, 5), 'n': 33, 'status': 'SAT', 'nodes': 28, 'seconds': 0.0003902912139892578}
+{'i': 400, 'family': 'necklace', 'lengths': (3, 4, 4, 4, 5), 'n': 35, 'status': 'SAT', 'nodes': 31, 'seconds': 0.0002646446228027344}
+{'i': 500, 'family': 'chain', 'lengths': (2, 3, 3, 3, 3), 'n': 31, 'status': 'SAT', 'nodes': 65, 'seconds': 0.00042247772216796875}
+{'i': 600, 'family': 'chain', 'lengths': (2, 4, 3, 4, 5), 'n': 35, 'status': 'SAT', 'nodes': 340, 'seconds': 0.0016808509826660156}
+{'i': 700, 'family': 'chain', 'lengths': (3, 5, 5, 5, 5, 4), 'n': 47, 'status': 'SAT', 'nodes': 34, 'seconds': 0.00032591819763183594}
+{'i': 800, 'family': 'necklace', 'lengths': (3, 3, 4, 3, 3, 4), 'n': 38, 'status': 'SAT', 'nodes': 25, 'seconds': 0.0002658367156982422}
+{'i': 900, 'family': 'necklace', 'lengths': (2, 4, 5, 5, 3, 4), 'n': 41, 'status': 'SAT', 'nodes': 28, 'seconds': 0.0002789497375488281}
+{'i': 1000, 'family': 'necklace', 'lengths': (2, 3, 5, 2, 5, 3), 'n': 38, 'status': 'SAT', 'nodes': 20, 'seconds': 0.000240325927734375}
+{'i': 1100, 'family': 'chain', 'lengths': (2, 4, 5, 3, 3, 3), 'n': 40, 'status': 'SAT', 'nodes': 283, 'seconds': 0.0016632080078125}
+{'i': 1200, 'family': 'chain', 'lengths': (2, 5, 3, 5, 5, 3), 'n': 43, 'status': 'SAT', 'nodes': 64, 'seconds': 0.0005164146423339844}
+{'i': 1300, 'family': 'chain', 'lengths': (2, 2, 3, 5, 3, 4), 'n': 39, 'status': 'SAT', 'nodes': 37, 'seconds': 0.0004603862762451172}
+{'i': 1400, 'family': 'chain', 'lengths': (2, 3, 2, 4, 4, 4), 'n': 39, 'status': 'SAT', 'nodes': 23, 'seconds': 0.0002543926239013672}
+{'i': 1500, 'family': 'chain', 'lengths': (2, 3, 2, 5, 4, 4), 'n': 40, 'status': 'SAT', 'nodes': 24, 'seconds': 0.0003075599670410156}
+{'i': 1600, 'family': 'necklace', 'lengths': (2, 3, 5, 4, 5, 5), 'n': 42, 'status': 'SAT', 'nodes': 21, 'seconds': 0.0002567768096923828}
+{'i': 1700, 'family': 'necklace', 'lengths': (2, 2, 2, 5, 4, 4), 'n': 37, 'status': 'SAT', 'nodes': 28, 'seconds': 0.0002970695495605469}
+{'i': 1800, 'family': 'necklace', 'lengths': (2, 3, 3, 4, 4, 4), 'n': 38, 'status': 'SAT', 'nodes': 19, 'seconds': 0.0002875328063964844}
+{'i': 1900, 'family': 'necklace', 'lengths': (2, 2, 4, 2, 5, 3), 'n': 36, 'status': 'SAT', 'nodes': 29, 'seconds': 0.0002887248992919922}
+{'i': 2000, 'family': 'necklace', 'lengths': (2, 3, 2, 3, 2, 3), 'n': 33, 'status': 'SAT', 'nodes': 27, 'seconds': 0.000301361083984375}
+{'i': 2100, 'family': 'necklace', 'lengths': (3, 3, 5, 3, 5, 5, 4), 'n': 49, 'status': 'SAT', 'nodes': 38, 'seconds': 0.00036907196044921875}
+{'i': 2200, 'family': 'necklace', 'lengths': (2, 3, 5, 3, 3, 3, 3), 'n': 43, 'status': 'SAT', 'nodes': 27, 'seconds': 0.00028896331787109375}
+{'i': 2300, 'family': 'necklace', 'lengths': (2, 2, 4, 4, 5, 4, 5), 'n': 47, 'status': 'SAT', 'nodes': 40, 'seconds': 0.0003619194030761719}
+{'i': 2400, 'family': 'necklace', 'lengths': (2, 2, 5, 5, 4, 2, 5), 'n': 46, 'status': 'SAT', 'nodes': 34, 'seconds': 0.0003948211669921875}
+{'i': 2500, 'family': 'necklace', 'lengths': (2, 5, 5, 5, 4, 3, 3), 'n': 48, 'status': 'SAT', 'nodes': 27, 'seconds': 0.00031304359436035156}
+{'i': 2600, 'family': 'necklace', 'lengths': (2, 3, 3, 3, 4, 4, 5), 'n': 45, 'status': 'SAT', 'nodes': 37, 'seconds': 0.00036907196044921875}
+{'i': 2700, 'family': 'necklace', 'lengths': (2, 4, 2, 4, 4, 4, 3), 'n': 44, 'status': 'SAT', 'nodes': 27, 'seconds': 0.00030231475830078125}
+{'i': 2800, 'family': 'necklace', 'lengths': (3, 4, 3, 4, 5, 4, 5), 'n': 49, 'status': 'SAT', 'nodes': 37, 'seconds': 0.0003552436828613281}
+{'i': 2900, 'family': 'necklace', 'lengths': (2, 2, 4, 3, 5, 3, 5), 'n': 45, 'status': 'SAT', 'nodes': 32, 'seconds': 0.00034165382385253906}
+{'i': 3000, 'family': 'necklace', 'lengths': (2, 5, 4, 5, 4, 3, 3), 'n': 47, 'status': 'SAT', 'nodes': 30, 'seconds': 0.0003757476806640625}
+{'i': 3100, 'family': 'necklace', 'lengths': (2, 2, 4, 2, 4, 3, 3), 'n': 41, 'status': 'SAT', 'nodes': 23, 'seconds': 0.0002598762512207031}
+{'i': 3200, 'family': 'necklace', 'lengths': (2, 5, 5, 5, 3, 4, 5), 'n': 50, 'status': 'SAT', 'nodes': 35, 'seconds': 0.000354766845703125}
+{'i': 3300, 'family': 'necklace', 'lengths': (2, 4, 5, 3, 3, 3, 4), 'n': 45, 'status': 'SAT', 'nodes': 29, 'seconds': 0.000377655029296875}
+{'i': 3400, 'family': 'necklace', 'lengths': (2, 4, 3, 5, 2, 5, 5), 'n': 47, 'status': 'SAT', 'nodes': 37, 'seconds': 0.0004112720489501953}
+{'i': 3500, 'family': 'necklace', 'lengths': (2, 2, 2, 3, 2, 4, 3), 'n': 39, 'status': 'SAT', 'nodes': 38, 'seconds': 0.00032138824462890625}
+{'i': 3600, 'family': 'necklace', 'lengths': (2, 3, 2, 4, 5, 4, 5), 'n': 46, 'status': 'SAT', 'nodes': 34, 'seconds': 0.0003859996795654297}
+{'i': 3700, 'family': 'necklace', 'lengths': (2, 4, 4, 5, 3, 5, 4), 'n': 48, 'status': 'SAT', 'nodes': 28, 'seconds': 0.0003032684326171875}
+{'i': 3800, 'family': 'necklace', 'lengths': (2, 3, 3, 3, 5, 4, 3), 'n': 44, 'status': 'SAT', 'nodes': 29, 'seconds': 0.00029468536376953125}
+{'i': 3900, 'family': 'necklace', 'lengths': (3, 5, 4, 4, 4, 5, 5), 'n': 51, 'status': 'SAT', 'nodes': 31, 'seconds': 0.0006270408630371094}
+{'i': 4000, 'family': 'necklace', 'lengths': (2, 3, 4, 5, 5, 2, 5), 'n': 47, 'status': 'SAT', 'nodes': 31, 'seconds': 0.00032782554626464844}
+{'i': 4100, 'family': 'necklace', 'lengths': (2, 3, 2, 5, 2, 5, 5), 'n': 45, 'status': 'SAT', 'nodes': 35, 'seconds': 0.0003581047058105469}
+{'i': 4200, 'family': 'necklace', 'lengths': (2, 4, 5, 3, 5, 4, 5), 'n': 49, 'status': 'SAT', 'nodes': 34, 'seconds': 0.00042510032653808594}
+{'i': 4300, 'family': 'necklace', 'lengths': (2, 5, 5, 3, 3, 5, 4), 'n': 48, 'status': 'SAT', 'nodes': 34, 'seconds': 0.0003387928009033203}
+ALL DONE 4376
