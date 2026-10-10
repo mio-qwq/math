@@ -54,3 +54,21 @@ Bipartite subcase is completely classified by combining our worker theorem with 
 Independent bounded script python3 workstreams/A/code/verify_classification.py (blob c26bf0c479d661fa423d66450500d945d0534154), actual C4/C6/C8 proper 3-colouring counts (18,66,258), only 6 failures each (the 2-colourings); K2/P4 controls pass. For originally unresolved nonbipartite cubic examples, python3 workstreams/A/code/verify_small_nonbipartite.py (blob f161bce7c5c2d205b2dbc6e09962f17d3fd2057b) covers all 6 legal 3-edge-colorings each for K4 and the triangular prism; all succeed. This limited negative search is not an upper bound or universal proof. Important true remaining unknown in this packet: 3-,4-,5-regular **nonbipartite** graphs under arbitrary fixed proper d-edge-colouring.
 
 The previously published signed local archive is not available in this environment. This latest state is consistently **unsigned transport / pending ROOT independent review**. It is not a direct inter-agent message and does not assert receipt or acceptance. No scheduled tasks were created.
+
+
+## Frozen high-priority cubic-class theorem packet, 2026-10-10
+
+Review commit: 6bf3683b544e2e18694012cf05588245c36004d8.
+Written proof: workstreams/A/bipartite-sequential/ALL_CUBIC_THEOREM.md (Git blob 8c54efb2d1b5930d951b5e7ee01e4b9f806aa302).
+Executable original-definition check: workstreams/A/code/verify_cubic_factors.py (Git blob 94fba67e833b6a6488dd5159662d22f9962d83e0).
+
+Run from the repository root with Python 3.13:
+
+    python3 workstreams/A/code/verify_cubic_factors.py
+
+Actually executed under Python 3.13.5:
+PASS 13964 all-cubic coloured instances in ten cycle partitions; incomplete-edge-order negative test PASS. Actual executed script matches the remote Git blob hash.
+
+ROOT independent review checklist: (1) read source arXiv:2609.11832v1, Conjecture 10, source Theorem 5 and degree-two exceptions. (2) Prove an independent-root transversal exists: choose two candidate vertices per colour-0/1 cycle, add one pair edge and any matching edges within the candidates; the union of two matchings is bipartite. (3) Check every root has colour-2 in middle and every nonroot has colour-2 first/last under the specified single total edge order. (4) Check all colour-2 matching edges and colour-0/1 cycle edges; no edge recolouring. (5) Verify fixed proper colourings using globally >3 colours reduce via original published unequal-palette theorem. (6) Run stdlib exact checker and omitted-edge negative test; regenerate small graphs independently. (7) Perform source/citation/priority gate independently. The next open regular degrees are 4 and 5, not 3.
+
+STATUS: remote unsigned transport reconstruction with precisely frozen source blobs, NOT original missing signed archive, NOT independently accepted by ROOT, NOT Lean, NOT world priority. All writes confined to workstreams/A and no main changes.
