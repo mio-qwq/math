@@ -1,3 +1,12 @@
+# B substantive result — 2026-10-10 11:11UTC
+
+- Original lower-GP Cartesian-product conjecture, preprint2.10/final3: proved the UNIVERSAL PARTIAL bound gp^-(G square H)>=min{4,gp^-(G),gp^-(H)}. This establishes the original inequality whenever either factor's lowerGP<=4. It is not a full conjecture solution or counterexample.
+- Stage: complete arbitrary-distance written proof plus actual original-adjacency semantic checks; pending independent review. Baseline reservation41525be5116a2ccf7f70bf9f1faf3a0e5b772898.
+- Proof SHA256 cbc5d97fb06da0317e36973ea6e9ef4ec6e70f89cb8799c1f6d4701c014b5075; independent-definition verifier 7b14e795ae5de4ec5a99db3a4a1b7001a0a2b6e6d43ece0a253a3e42c523f8c3; constructor 6631ceb9e41a7a9feba4094c3a695b7d5c550b3c68196e0d2e90e248b9273b63.
+- Evidence: all projection/repetition/opposite-middle cases, disconnected reduction,182208product triples constructively extended,287factor hypotheses,18314BFS entries,49metric signature pairs,4boundary fixtures,3controls. No finite-to-universal inference, no Lean or firstness claim.
+- Next: freeze for review; any counterexample must have factor lowerGP>=5 and product lowerGP>=4. Closed three-point searches are mathematically superseded and will not be enlarged.
+- Order15 original circulant counterexample6022d2b remains frozen/pending review. Other original claims and actual acceptance receipts below are unchanged.
+
 # B active question — 2026-10-10 11:01UTC
 
 - Reserve lower_gp_product: original preprintConjecture2.10 / final2025Conjecture3, lower-GP Cartesian-product inequality. Source and ownership gates read; no result yet. Initial target: factors with lowerGP>=4 and a maximal product GP triple.

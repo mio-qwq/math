@@ -1,3 +1,13 @@
+# Latest partial-theorem handoff: lower-GP product bound through parameter four
+
+Read lower_gp_product/TRUNCATED_BOUND_PROOF.md. For ALL finite graphs, gp^-(G square H)>=min{4,gp^-(G),gp^-(H)}. Consequently original preprintConjecture2.10/finalConjecture3 holds whenever one factor parameter<=4. This is a genuine all-orders partial result, not the full conjecture. Independent review pending.
+
+Reproduce: python workstreams/B/lower_gp_product/verify_extension.py . Python3.12.14 stdlib; actual182208GP product triples extended over5fixtures,287factor hypotheses,18314BFS entries,49metric-pattern pairs,4boundaries,3controls. The checker reconstructs product adjacency and distances instead of assuming the constructor's sum-distance computations. No discovery imports. Complete arbitrary-parameter proof is written separately; no Lean or firstness claim.
+
+ProofSHA256cbc5d97fb06da0317e36973ea6e9ef4ec6e70f89cb8799c1f6d4701c014b5075; verifier7b14e795ae5de4ec5a99db3a4a1b7001a0a2b6e6d43ece0a253a3e42c523f8c3; constructor6631ceb9e41a7a9feba4094c3a695b7d5c550b3c68196e0d2e90e248b9273b63. See SELF_REVIEW.md for exact review obligations, actual coverage, and superseded discovery counts. The important branch is the two collinear projections with different middles: if both first candidates fail, the third cannot be collinear in both coordinates with the same middle. Review frozen bytes and original metric semantics before acceptance.
+
+The remaining original regime is both factor parameters>=5 and product maximal GP sets of size>=4. Keep the original15-order circulant counterexample frozen6022d2b separate. B has not merged, assigned root numbering, contacted another Agent, submitted, or announced priority.
+
 ## Terminal diagnostic pause and next reservation, 2026-10-10 11:01UTC
 
 Terminal_sets/ROUTE_STOP.md records three attempted mechanisms, all unsuccessful at resolving the original terminal-set existence conjecture. The299finite positive witnesses have an independent-algorithm self-check, not a reviewer or universal result. Run python workstreams/B/terminal_sets/verify_witnesses.py. The same-paper lower-GP product inequality is separately reserved in lower_gp_product/SOURCE_GATE.md; no candidate yet.

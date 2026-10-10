@@ -1,0 +1,2 @@
+{"stage": "factors", "accepted": 16, "attempts": 493, "seconds": 0.03436629700081539}
+{"status": "NO_CANDIDATE_IN_WINDOW", "factor_count": 16, "products": 120, "subsets_tested": 7312740, "seconds": 3.5555781359980756}

@@ -1,0 +1,22 @@
+{"factors": [0, 0], "product_order": 100, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 0.08260165400133701}
+{"factors": [0, 1], "product_order": 120, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 0.21931013200082816}
+{"factors": [0, 2], "product_order": 140, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 0.4595895010024833}
+{"factors": [0, 3], "product_order": 140, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 0.6730250830005389}
+{"factors": [0, 4], "product_order": 160, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 1.0006134880022728}
+{"factors": [0, 5], "product_order": 180, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 1.4571353200008161}
+{"factors": [1, 1], "product_order": 144, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 1.691327464999631}
+{"factors": [1, 2], "product_order": 168, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 2.064155875999859}
+{"factors": [1, 3], "product_order": 168, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 2.4634125280026637}
+{"factors": [1, 4], "product_order": 192, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 3.0772993200007477}
+{"factors": [1, 5], "product_order": 216, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 3.889950693002902}
+{"factors": [2, 2], "product_order": 196, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 4.49374630100283}
+{"factors": [2, 3], "product_order": 196, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 5.093280801000219}
+{"factors": [2, 4], "product_order": 224, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 6.024643541000842}
+{"factors": [2, 5], "product_order": 252, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 7.340450910000072}
+{"factors": [3, 3], "product_order": 196, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 7.964555906000896}
+{"factors": [3, 4], "product_order": 224, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 8.869815409001603}
+{"factors": [3, 5], "product_order": 252, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 10.18981112900292}
+{"factors": [4, 4], "product_order": 256, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 11.60508979199949}
+{"factors": [4, 5], "product_order": 288, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 13.689086676000443}
+{"factors": [5, 5], "product_order": 324, "status": "NO_SMALL_MAXIMAL_GP", "seconds": 16.566726205001032}
+{"status": "NO_CANDIDATE_IN_WINDOW", "products": 21, "subsets_tested": 33252580, "seconds": 16.56723681299991}
