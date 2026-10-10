@@ -161,3 +161,39 @@ With classical graph enumeration G_N~2^(binom(N,2))/N!, this yields **only a one
 **What is NOT claimed:** ROOT approval, a formal Lean theorem, 2026 historical firstness, arXiv submission, peer-reviewed accepted paper, PR/merge, main-branch integration or other-agent direct notice. C-audit remains isolated at partner/dist-C-audit-1010 / workstreams/C-audit-1010; original C branch and other agents untouched.
 
 **Next decision:** A rigorous independent audit takes precedence over another source problem or large search. If a precise gap is discovered, update via a **new version** without rewriting the frozen source. After completion, useful new research should examine error terms or convergence rates, but not inflate trivial sample counts. If proof fails and cannot be repaired in bounded distinct attempts, retain the failure and switch targets autonomously.
+
+
+## New quantitative-review freeze: sharpened error + generic D8 theorem candidate
+
+**Original public problem and source:** Hujdurović–Mitrović, *Some conditions implying stability of graphs*, JGT 105(2024), DOI 10.1002/jgt.23018, Problem 5.3. User's Agent C-audit has previously frozen a full *unlabelled* asymptotic proof candidate at `eb6d63dea62c4559f7d9deb6cdd5796255d7e150`; no fresh ROOT mathematical acceptance of this global count has been observed. The new work is **quantitative review**, not a modified original manuscript or a new open-problem assignment.
+
+**Mathematical freeze** `d1af2a3b1ebd6fffdfe537526206f99fa5d51bec` in workstreams/C-audit-1010/QUANTITATIVE_ERROR_AND_AUT_GROUP_REVIEW.md, Git blob `acb23e5581b9908d8a29418a1d078b7a1d4ddca7`, local proof SHA256 `d9f98fd11b31166d00ac3036917caf7d2cef76fd6f72840281d78cc141e77fd7`. It proposes the refined rate
+
+    U_n = 2^(binom(n-4,2)+2(n-4)-1)/(n-4)! × (1 + O(2^(-n/4)))
+
+and `U_n/g_n=[2(n)_4/4^n]*(1+O(2^-n/4))`, plus generic groups Aut(G)=C2 and Aut(CDC(G))=D8 (D8 has 8 elements). This is a **full written derivation candidate** only; ROOT must independently verify it, especially the relative-error rate.
+
+**Reproducible independent TF entropy validator is actually ON GITHUB:** `independent_tf_entropy_audit.js`, commit `70b5d4910a8f9993523dc4eef779d2a0f95042dd`, Git blob `56ed59cd76b9c8c31f04521aac3e01de0fbe4f2f`. It was constructed by serializing the *same JS functions actually evaluated* in this session. Run from directory:
+
+    node independent_tf_entropy_audit.js
+
+Expected actual evaluated result: `PASS`, 2800 deterministic permutation pairs, exact raw ordered TF rank tests across 8 sizes, variable incidence ≤3 and pairwise disjoint matching ≥(M−a)/6, and complete four-point classification: 6 legal s4,t2 ordered permutation pairs (12 valid internal masks) plus 30 nonminimal s4,t1 pairs (36 valid internal masks). The latter show that **t=1 s4 is not intrinsically impossible**; its neglect must rely on its extra external entropy deficit, not a false twin-free shortcut.
+
+**Additional, independently written local portable materials:**
+
+    python3 independent_support_audit.py
+    python3 test_generic_cover_group.py
+
+Both sources are inside the verified ZIP `/mnt/data/agent-C-quantitative-audit-20261010.zip` (SHA256 `ad1d4ce8d22939f36f0aed70137eeec5662d8e96cc989c66c05e7aeb5eac725a`). On actual CPython 3.13.5 Linux, the first PASSed 2798 deterministic random TF permutation pairs plus complete four-point enumeration, SHA256 `bf52ea3a7cdebfe9e12ad785f216e100e0a05cd4add1583ebccab19381f0c718`. The second PASSed three full VF2 automorphism-group enumerations on 12-,13-,14-vertex source-constructed graphs, revealing Aut(G) order 2 and Aut(CDC(G)) order 8 with element orders [1,2,2,2,2,2,4,4]. Python source SHA256 `9665e83fadebd38d33cc4f29883b5dfb67e9e091aa3a5deed3f02c2ba6ffc024`; uses NetworkX3.6.1. Do NOT call this third-party review or imply the ZIP was automatically merged to GitHub.
+
+**Prior-source validation:** the exact **connected, nonbipartite, open-neighbourhood twin-free** condition and source Construction5.1/Proposition5.2 were read on the 2024 journal publisher page, 2026-10-10. A bounded search found no verified later full same-scope asymptotic, but historical novelty is not certified. The construction and classical random-graph enumeration are PRIOR ART.
+
+**Genuine independent reviewer checklist (new delta):**
+1. Prove Burnside's `g_m=(2^binom(m,2)/m!)(1+O(m²2^-m))` with an explicit uniform support-sum bound; prove *unlabelled* old symmetric graphs are negligible, not merely labelled.
+2. Audit the source-edge/target-edge variable incidence bound ≤3 and greedy extraction ≥(M−a)/6. Do not confuse an equality between two variables with an independent constraint if equations share variables.
+3. Audit `(s!)²g_(n-s)2^[t(n-s)+C(s,2)]` as an **upper bound for UNLABELLED** graphs with one marked non-diagonal TF pair, including all 5≤s≤n/4.
+4. Audit s≥7 relative-error estimate using \((s!)^2(n-4)!/(n-s)!\le n^{3s}\), the uniform standard bound for g_(n-s), and large n inequalities; make sure O(2^-n/4) is justified after summing all s.
+5. Check two distinct minimal patterns on identical four vertices. Their combined TF action transitive, giving orbit count t=1 and enough entropy penalty. Do not assert finite literal uniqueness.
+6. Establish Aut(G)=C2 for a unique unordered four-point pattern with asymmetric X and A≠B, and that precisely four color-preserving cover automorphisms plus deck yield D8. Distinguish D8 group convention (order eight).
+
+The new note is published via GitHub contents API to the isolated partner/dist-C-audit-1010 branch only; commits were not cryptographically signed and are not accepted into main. ROOT still owns integration, literature priority checks, serial Lean formalization and review. No PR, forced update, main edit, author contact, submission, peer review or continuously running background work is claimed. The user's hourly automation remains disabled.
