@@ -1,0 +1,104 @@
+{
+  "source": "CDCMainEigenvalues.lean",
+  "source_sha256": "2cb2850b7a7556806cec97e6fdb6a600d944d8106131e46e1ee1da0ee3ae0095",
+  "source_after_sha256": "2cb2850b7a7556806cec97e6fdb6a600d944d8106131e46e1ee1da0ee3ae0095",
+  "start_utc": "2026-10-10T05:11:48.8799701+00:00",
+  "end_utc": "2026-10-10T05:12:02.5934912+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 7,
+  "expected_audits": 7,
+  "declaration_axioms": [
+    {
+      "declaration": "CDCMainEigenvalues.cover_action_left",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDCMainEigenvalues.cover_action_right",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDCMainEigenvalues.action_add",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDCMainEigenvalues.cover_main_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDCMainEigenvalues.iso_main_forward",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDCMainEigenvalues.iso_main_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDCMainEigenvalues.same_main_of_cover_iso",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "scope": "All finite simple graphs: actual adjacency eigenvectors with nonzero coordinate sum; canonical double cover; arbitrary adjacency-preserving cover bijection. Affirmative original question, not counterexample. Historical originality unestablished.",
+  "independent_statement_review": {
+    "status": "PASS",
+    "method": "Independent complete mathematical and source-semantic review against the original arXiv question, followed by reading the actual compiler JSON and axiom log. No second compilation claimed.",
+    "reviewed_source_sha256": "2cb2850b7a7556806cec97e6fdb6a600d944d8106131e46e1ee1da0ee3ae0095",
+    "summary": "INDEPENDENT_REVIEW.md",
+    "checks": [
+      "actual finite SimpleGraph adjacency action",
+      "nonzero coordinate sum entails nonzero eigenvector",
+      "canonical cross-layer cover definition",
+      "arbitrary cover RelIso, without layer preservation",
+      "empty, disconnected, isolated and zero-eigenvalue cases"
+    ],
+    "historical_originality_established": false
+  },
+  "finite_demonstrator_replay": {
+    "frozen_commit": "9d8f6264eb4c1f4f912e166e16df1e70cc4f97f7",
+    "verifier_sha256": "74ac11cc8cbc33c8f28978ca42fb0947f760e5341eec9ba07b016725c4b73e75",
+    "certificate_sha256": "0acbc9ad4f0322b4fa3899eec9857ee2b9a848a3bf168b6819cf2e4a2ded4c1a",
+    "python": "3.12.14",
+    "pass": true,
+    "negative_tests_rejected": 3,
+    "scope": "Finite 12-vertex illustration only; not used in Lean proof",
+    "command_note": "Use UTF-8 stdout on Windows; the first replay completed arithmetic checks but failed while printing a Unicode symbol, and was rerun with PYTHONIOENCODING=utf-8."
+  },
+  "status": "PASS",
+  "complete_original_question_formalized": true,
+  "counterexample": false,
+  "independent_compilation_replay_performed": false
+}
