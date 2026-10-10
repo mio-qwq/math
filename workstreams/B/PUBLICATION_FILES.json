@@ -195,6 +195,7 @@
   "workstreams/B/search/stdout.log",
   "workstreams/B/search/verify-stdout.log",
   "workstreams/B/search/verify_and_leaves.py",
+  "workstreams/B/terminal_sets/SOURCE_GATE.md",
   "workstreams/B/triangle_22223/MATCHING_ROUTE_OBSTACLE.md",
   "workstreams/B/triangle_22223/RESULT.md",
   "workstreams/B/triangle_22223/SHORT_CONNECTOR_REDUCTION.md",

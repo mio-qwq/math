@@ -1,3 +1,9 @@
+# B active reservation — 2026-10-10 10:54UTC
+
+- Terminal-set existence: Kruft Welton–Khudairi–Tuite preprintConjecture3.3 / final2025Conjecture6. Source gate and exact definitions in terminal_sets/SOURCE_GATE.md. No result yet; first original-distance diagnostic targets nonbipartite cubic graphs with diameter>=4 and order>=12, avoiding known covered families.
+- Detour route closed at9a6ab884fd8ba3c0b25e1b9eae8f87a526a257e2: only an exact stronger-lemma obstruction, not an original counterexample. No unchanged enlarged search.
+- Order15 original counterexample remains immutable6022d2b, pending independent review. Branch publication is the sole asynchronous handoff; no direct peers contacted.
+
 # B route change — 2026-10-10 10:53UTC
 
 - Detour-bound reservation8dd8ba6f: three distinct diagnostic mechanisms completed; original numerical bound unresolved, current mechanisms paused.
