@@ -1,0 +1,2 @@
+{"stage": "models", "count": 106, "profiles": 9101, "max_profiles": 400}
+{"status": "LOCAL_RELAXATION_ALL_INFEASIBLE", "counts": {"pairs": 5671, "gp": 2381, "known_extend": 0, "infeasible": 2381, "feasible": 0}, "nodes": 4239, "seconds": 2.043724447998102, "scope": "MET5 prior completeness required; no graph counterexample or universal proof claimed yet"}

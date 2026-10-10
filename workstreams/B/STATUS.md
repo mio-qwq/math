@@ -1,3 +1,16 @@
+# B universal improvement through five — 2026-10-10 11:58UTC
+
+- ID B; original lower-GP Cartesian-product Conjecture3/preprint2.10; baseline020539c3e7169bf1a78e7b4b6006ff3793992ec5; independent discovery; COMPLETE computer-assisted partial theorem, freeze/independent review pending.
+- ALL finite simple undirected factors, arbitrary orders/diameters and disconnected graphs: product lowerGP>=min(5,factor lowerGP numbers). Original conjecture established if either factor lowerGP<=5. Remaining potential counterexample needs both factors>=6 and product>=5. No full-conjecture or new counterexample claim.
+- New all-metric mechanism: derive25MET5rays from defining inequalities, exact9484zero faces, complete four-point projection/profile cover. Separate checker covers sizes1/2/3/4 with1/2/14/2381GP product cases, all infeasible. No reliance on frozen earlier truncation.33actual unweighted realizations/6022BFS entries/3controls per run; no repeated-test inflation.
+- ProofSHA256f9742af7532e5f2155048bc89e516747c659f42bd17b4bbf3133caffb1db4406; actual standalone stdlib runs PASS. No Lean or independent reviewer yet. B independently implemented discovery and checking; no new subagents.
+- Earlier diameter-two result frozen020539c3 verified with361hashes/clean archive; now mathematically superseded as a bound, bytes preserved. Pair-family results and original15-order counterexample6022d2b unchanged.
+- Next: freeze and clean replay; then assess a genuinely complete six-point metric route rather than enlarging closed four-point searches. Generic cone theory prior; novelty uncertain.
+
+# B active: arbitrary-metric four-point reduction — 2026-10-10 11:51UTC
+
+Diameter-two theorem remotely frozen020539c3e7169bf1a78e7b4b6006ff3793992ec5, clean replay /tmp/B-diameter-two-five-replay-7cyp6J passed361hashes and exact checker; fetch/same-tree merge confirmed. New mechanism: represent five-point metric triangle-equality types using the PRIOR metric-cone description (15 cut rays and10 K2,3 rays). Primary polyhedral source checked at https://cgm.cs.mcgill.ca/~avis/epc/epc.html ; no arbitrary-diameter theorem yet. Unlike merely enlarging graph samples, this tests a possible exact finite cover of all metric types. Completeness and a separate checker would be required before any new universal claim. No new agents.
+
 # B new arbitrary-order partial theorem — 2026-10-10 11:49UTC
 
 - ID B; original lower-GP product Conjecture3/preprint2.10; baseline3b473b165596630c5cfd9b43d3996b03e3792332; role independent researcher; stage complete proof plus exhaustive certificate, freeze/independent review pending.

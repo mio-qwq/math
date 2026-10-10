@@ -1,3 +1,11 @@
+# Priority handoff: universal product bound through five, no diameter restriction
+
+Read lower_gp_product/UNIVERSAL_FIVE_PROOF.md and UNIVERSAL_FIVE_REVIEW.md. For ALL finite simple undirected factors, product lowerGP>=min(5,factor parameters). This establishes the original conjecture whenever one factor parameter<=5, including arbitrary diameters/orders and disconnected graphs. It is still a partial theorem. Pending independent review.
+
+One-command exact replay: python workstreams/B/lower_gp_product/verify_universal_five.py. Python3.12.14 stdlib. The full chain derives metric rays from inequalities, exhausts all metric-equality faces, tests all product profile obstructions for sizes1–4, and checks actual unweighted graph semantics. No discovery-data import and no prior B-truncation dependency. The25ray description is independently recomputed, not assumed from a search result. Complete reduction and hashes are included. Audit the polyhedral completeness argument and necessary-demand logic, not merely the final PASS.
+
+Preserve original frozen diameter-two020539c3, mixed3b473b1, line95acdcd, Kneser0949c807, truncation4ebaa4094, and original order15counterexample6022d2b; the newest universal bound supersedes only weaker bounds, not their historical receipts. No root project number, main merge, Lean acceptance, firstness or independent review is claimed by B.
+
 # Latest handoff: truncation at five for all diameter-two factors
 
 DIAMETER_TWO_FIVE_PROOF.md and DIAMETER_TWO_FIVE_REVIEW.md in lower_gp_product establish the original lower-GP product conjecture whenever both connected factor diameters<=2 and one factor lowerGP<=5; more generally the bound is min(5,gp^-G,gp^-H). Independent review pending. This expands scope beyond the two previously frozen pair-graph families but does not solve arbitrary factors.

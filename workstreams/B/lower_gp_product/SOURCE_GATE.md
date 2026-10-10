@@ -31,3 +31,9 @@ Searched lower-general-position, Cartesian products, complete line graphs and Kn
 ## New diameter-two universal partial theorem gate, 2026-10-10 11:47UTC
 
 Read the final original primary PDF https://oro.open.ac.uk/98050/9/98050final.pdf again at printedp117 Conjecture3 and Theorem4. Queries combined exact lower-general-position with diameter two, Cartesian, five, and original title/conjecture. No matching universal truncation-at5 result was located. The known diameter<=3 terminal-set existence theorem concerns a different statement; it is not a prior proof of this lower bound. Source arithmetic definitions match the submitted proof. Historical novelty remains uncertified; same-scope result searches are bounded.
+
+## Arbitrary-diameter universal-five gate, 2026-10-10 11:50–11:56UTC
+
+The new proof removes the diameter restriction. Searches for exact lower-general-position/five/four/Cartesian/original arXiv-ID, counterexample and proof returned no matching universal bound. The final original primary at https://oro.open.ac.uk/98050/9/98050final.pdf was reread; James Tuite's author-page result and survey still list the source. This is a bounded gate, not a priority certification.
+
+Generic metric-cone input was checked in primary author exposition https://cgm.cs.mcgill.ca/~avis/epc/epc.html section3: MET4 has7cut rays, MET5 has25rays. The15cut+10K2,3structure motivated discovery, but the final certificate independently derives MET5 rays from nonnegative coordinates and all triangle inequalities by exact double-description. No external team's specific construction for the lowerGP problem was used.
