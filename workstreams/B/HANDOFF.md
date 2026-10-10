@@ -1,3 +1,7 @@
+# New reservation only: vertex-position ratio
+
+B now screens original DOI10.7151/dmgt.2491 Problem4; see vertex_position_ratio/SOURCE_GATE.md. No result yet; distinct rootwiseMAXparameter from prior lowerGP. The delivered original product counterexample remains the independent review priority and is not modified.
+
 # Attribution follow-up
 
 See lower_gp_product/POST_DISCOVERY_PRIOR_METHOD_NOTE.md: after freezing the fixed counterexample and family, a prior Brešar–Yero2024 use of generic true-twin saturation for a different parameter comparison was located. Cite it in future writing; it is not a located prior product counterexample. Fixed9c4b185/family6556271/universal-five8b42054 remain unchanged and pending review.

@@ -1,3 +1,9 @@
+# B new original-question reservation — 2026-10-10 12:16UTC
+
+ID B; independent researcher; baseline254c365bff8650479ccfe365f014c7b7ba19e6e1; phase source/ownership gate complete, public reservation before computation. New question: Thankachy etal., On the vertex position number of graphs, DOI10.7151/dmgt.2491 Problem4: is vp/vp^- universally bounded on connected graphs? Exact definitions/status/negation in vertex_position_ratio/SOURCE_GATE.md. No new mathematical result yet. A fixed finite ratio, even above6, does not answer boundedness. Proposed distinct mechanism: bounded-width rooted geodesic corridor with crossedges, preserving p_v=k and looking for p_u growing with length. Generic poset/matching facts credited as prior.
+
+The lower-GP product stream is delivered/closed: fixedcounter9c4b185, unboundedfamily6556271, universal-five8b42054, post-discovery methodcredit254c365. All recent packets pending independent review; no new agents or root numbering.
+
 # B product stream delivered and closed for new counterexample searches — 2026-10-10 12:12UTC
 
 Fixed counterexample9c4b185 and unbounded-family6556271 remotely published, all pending independent review. Family clean replay /tmp/B-unbounded-gap-replay-WjfR8D passed392hashes and checker. Combined with universal-five8b42054, the original conjecture has an optimal replacement min(r,5); elementary fixed/family refutation is independent of that lower theorem. Stop searching additional counterexamples to the same refuted statement.
