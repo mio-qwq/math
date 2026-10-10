@@ -117,3 +117,29 @@ Actually executed, 2026-10-10T09:08:16Z. Outputs: PASS all-degree 4042 complete 
 7. Repeat exact tests, independently regenerate graphs or implement a separate proof checker. Search follow-up literature/author pages and check historical prior art without assuming originality. Do not claim acceptance from our self-check or search absence.
 
 **Review limitations:** proof is complete in written mathematics but ROOT acceptance PENDING; no complete Lean proof, no outside referee, no priority certificate, no signed GitHub transport (the old signed local archive is not accessible here). This is a positive proof of the original conjecture, not a counterexample. The source hash was frozen before these coordination edits; do not overwrite it during review. No main merge, paper submission, contact with authors, arbitrary project number or scheduled automation.
+
+
+## Execution-HOLD repair, mathematically accepted theorem (2026-10-10)
+
+ROOT task card now confirms independent complete Conjecture10 written **mathematical PASS** on original frozen SHA 7168f6df66ba5518cd3420c4668eab5352e4be8c (original proof Git blob 84ab0860bb1fe9ca0812225bb01227f5b6d63d13), but explicitly placed the **executables on HOLD**. No complete Lean theorem exists.
+
+A completed revised replay packet is now frozen at worker-branch commit **7529211218cabae349be690ca827c34db8bb20f3**. Detailed new immutable log: workstreams/A/reviews/EXECUTION_REPLAY_V2.md.
+
+Updated files and exact Git blobs:
+- bipartite-sequential/ALL_DEGREES_THEOREM.md: faa2daa78f76dbda0d0f7629bfe37abbbab8d4c4 — same mathematics; corrected unsupported "distinct" count to 4,042 generated test runs not deduplicated.
+- code/verify_all_regular.py: dfd147219f4fb016e945daabfffea9bbe419919d — frozen unchanged.
+- code/verify_d5_exhaustive.py: 20197f09c231e2b6641c29abe0ca7fa8ab2da02f — import changed to verify_all_regular.
+- code/verify_component_transversal.py: 7b28fc7f3d878ef3ee427e08c3ecb061759c634d — import changed to verify_all_regular.
+- code/construct_order_cli.py: b6e4fd5e41547519d2f93a13ed25b2c923402392 — independent original-definition witness output/self-test.
+
+**ROOT reproduction from a fresh clone**:
+
+    python3 workstreams/A/code/verify_all_regular.py
+    python3 workstreams/A/code/verify_d5_exhaustive.py
+    python3 workstreams/A/code/verify_component_transversal.py
+    python3 workstreams/A/code/construct_order_cli.py --self-test
+    python3 workstreams/A/code/construct_order_cli.py workstreams/A/paper/example_k4.json
+
+All four test commands were actually run with Python 3.13.5 in a **fresh extraction** of the 90,601-byte corrected package; each returned 0, every expected Git blob matched, including intentional negative tests. Test counts 4,042 (not deduplicated), 2,502+3,096=5,598 and 82,347 graph/partition checks. The sample K4 produces a literal six-edge order certified by its independent semantic validator. Package SHA256: 8b5d6f3a67081fa4c2191ed86dabf6c553595209023f7b980e8d3cd34e59898c. Portable zip artifact exists in conversation at /mnt/data/agent_A_conjecture10_corrected_review.zip but was not falsely claimed uploaded as a signed GitHub release.
+
+**Please remove execution HOLD only after the coordinator's own source/import/replay verification.** Do not conflate worker replay with external execution acceptance, or mathematical PASS with a Lean proof. Original mathematical freeze was not rewritten. Do not create 007/008, merge main, submit papers, contact original authors or claim original priority. The next work is minimal Lean proof of the auxiliary transversal and root-order lemmas plus precise semantics, conditional on available toolchain.
