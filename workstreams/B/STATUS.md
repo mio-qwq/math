@@ -180,3 +180,9 @@ The exploration process was not terminated by the earlier stop request; its orig
 - Main new deliveries in this continuation remain the original Conjecture3 refutationfadb2d4 and the original Conjecture6 full proofd6238ac. Both proof bytes stay frozen. Conjectures4/5 remain paused and unresolved; no repeated searches are running.
 
 Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. Proof SHA256475dbd6209ccdd85bb635fdf4ef459de2d91c6cbbab8df384957ef39faa18d46; checker SHA2566ac424cf211c475deaa0252740fe0fc535fd8e9cf573a81e06fb0d948600809e.
+
+## New later-paper problem reservation, 2026-10-10 07:43 UTC
+
+- B reserves arXiv:2608.02566v1 Section6 Problem1, palette(1,1,3,3,4), connected claw-free subcubic graphs except the twelve-vertex truncation of K4. Source gate clawfree_11334/SOURCE_GATE.md; no candidate yet. This is distinct from source's already-disproved fifth-radius5 variant and solved fifth-radius3 theorem.
+- heavy_triangle_112/RELATED_WORK.md records the later paper's existing skeleton/Hall framework and the precise distinction from B's frozen Conjecture6 specialization. No claim that standard structural tools originated here.
+- Latest previous packetab22dda clean archive checked162 manifest files; all replayed checkers PASS. Earlier proof bytes unchanged. No new agents.

@@ -356,3 +356,5 @@ Narrow next gate: printed Conjecture9 appears to follow directly from classical 
 clawfree_square7/PROOF.md proves the printed Conjecture9 seven-radius-two vertex bound via classical Brooks and an elementary exception exclusion. This is not presented as a historically new theorem. Run python workstreams/B/clawfree_square7/check_exception.py:19355 labeled cubic8 graphs,2520 connected claw-free, all diameter3;7708 local-bound checks and controls PASS. High folklore/duplication risk remains. Main review priority remains the exact Conjecture3 counterexample and full Conjecture6 proof.
 
 Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. Proof SHA256475dbd6209ccdd85bb635fdf4ef459de2d91c6cbbab8df384957ef39faa18d46; checker SHA2566ac424cf211c475deaa0252740fe0fc535fd8e9cf573a81e06fb0d948600809e.
+
+New active source-gated target: arXiv:2608.02566v1 Section6 Problem1 (1,1,3,3,4), excluding H. No candidate yet. See clawfree_11334/SOURCE_GATE.md. Related-work clarification for the frozen Conjecture6 proof is heavy_triangle_112/RELATED_WORK.md; standard skeleton/Hall tools are prior background, not claimed original.
