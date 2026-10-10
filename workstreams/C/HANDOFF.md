@@ -41,3 +41,22 @@ At initial freeze of the checker:
 ## Operational next step
 
 The original search for a counterexample to this question must stop: §2 of `proof-q58.md` rules one out given the exact hypotheses. Retain the result as mathematical review material, but focus subsequent high-cost discovery efforts on a different unclaimed public conjecture. Do not create a numbered 007/008 project, modify main or overwrite B's claims. Integration remains solely the main agent's decision; no PR, merge, submission, or author contact was performed.
+
+
+## Second-frozen research packet: Mizzi v3 restricted TF obstruction (2026-10-10)
+
+**Important:** the prior Q5.8 packet above remains the first **affirmative original-question proof candidate**, not a counterexample. The new packet has a *different target* and is only a **subfamily obstruction**: neither packet demonstrates a new original-conjecture counterexample. C has now read `coord/distributed` / `tasks/C.md`, which preserves the first packet and permits a related alternative within the same CDC/TF scope.
+
+- **Frozen mathematics/code SHA:** `cd691cb710e4f6c0ef0fe254697349df25b7209c`. It contains `workstreams/C/mizzi_v3_uniform_odd.md` and `workstreams/C/uniform3_exhaustive.cpp`, source blob SHA `067645db0e3ad9bff9eecd796145278bb189086e`. SHA-256 of C++ source: `cbb7d6f9e1711ce69f8af6f58dbfbb32e2b8b6f2e3d605810fb781f7e81de367`. Subsequent status edits do not change the frozen proof.
+- **Precise target:** Mizzi, arXiv:2603.27559v3 `7 (September 2026), the **unstable asymmetric** cycle-length C_k and C_(2k) conjecture. An August counterexample (arXiv:2608.15281v1) applies to the older *unrestricted unstable-graph* assertion, so a report treating it as a refutation of the v3 asymmetric clause would be invalid.
+- **Precise accepted-if-correct statement:** if a nonbipartite simple graph has an all-orbit-size-m (uniform odd m≥3), no-fixed-point TF automorphism of the form \(\alpha(i,a)=(i,a+1),\beta=\alpha^{-1}\), then some odd k≥3 has a simple C_k and at least one vertex-disjoint C_(2k). The proof directly builds the quotient graph on the m-cycles and selects one perfect matching per edge of an odd quotient cycle. Its monodromy is \(x\mapsto c-x\), with one fixed point and nontrivial 2-orbits. This scope is **much narrower** than Mizzi's full original conjecture.
+- **Actual command** (from repo root):
+
+    cd workstreams/C
+    g++ -std=c++20 -O2 -Wall -Wextra -Werror uniform3_exhaustive.cpp -o /tmp/verify_C_uniform3
+    /tmp/verify_C_uniform3
+    sha256sum uniform3_exhaustive.cpp
+
+- **Actual output:** 262144 masks; 261156 nontrivially tested (the other 988 cannot be connected), 257942 connected, 245764 connected nonbipartite, all 245764 contain a C3 and a C6. No exceptions. Five sanity/negative test families passed. C++20 standard library, deterministic, no external solver dependency. This is an **independent direct adjacency/cycle check**, not formal Lean.
+- **Reviewer independent checklist:** validate the TF definition in Mizzi v3; check loop exclusion by invertibility of 2 modulo odd m; check complete bipartite orbit decomposition into matchings; check quotient odd cycle; verify fixed-point/transposition cycle lift is simple and disjoint. Run compiler and executable independently; optionally implement a second brute-force checker of the 12-vertex subfamily. Do not conflate a full theorem for the **restricted family** with a counterexample or general proof for all unstable asymmetric graphs. Seek existing matching-lift results before making any novelty claim.
+- **Stop reason:** this entire search family is structurally incapable of furnishing the desired original counterexample. A later nonuniform/fixed-point direction would require independent literature/collision checking and its own new packet. ROOT acceptance and human peer review are pending; commit publication does not imply notice or approval.
