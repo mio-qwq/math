@@ -462,3 +462,13 @@ PSEUDOFOREST_PROOF.md is independent of Maydanskiy and the frozen cubic candidat
     python workstreams/B/clawfree_12222/verify_pseudoforest.py
 
 Actual PASS:588 admissible objects,138753 distance pairs,588 negative controls.60 skipped cases violate the pseudoforest assumption. probe_mixed_short.py is DISCOVERY ONLY and its578 SAT cases do not establish the remaining theorem. Review the exact positive-neighbor counts at root triangles and outgoing-port triangles, and the low-degree vertex argument excluding K5. Frozen proof bytes from b49a74f and790bc81 remain unchanged. All new theorems pending independent review; no communication to other distributed agents is asserted.
+
+### FULL AugustConjecture1 corollary candidate, 09:49 UTC
+
+Primary review target: clawfree_12222/FULL_PROOF.md; read PRIOR_RESULT_AND_ROUTE_CHANGE.md and FULL_SELF_REVIEW.md first. It proves the original full finite simple claw-free subcubic12222 statement, using Yang–Wu2022 edge-weight<=5 theorem as an explicit published dependency. The new bridge is a simple-root line-graph base plus complete diamond induction; no restricted model remains in the statement. Reproduce once from the frozen commit:
+
+    python workstreams/B/clawfree_12222/verify_full.py
+
+Actual Python3.12.14 stdlib PASS:7716 graphs,112775 final BFS pairs,1212 generic edge-boundary colorings,6 cap rows /114 pairs, all reduction types,3 deliberately bad controls. No discovery imports, solver package, or added dependency. The universal theorem rests on the written induction and imported theorem, NOT graph enumeration. Source original statement confirmed at arxiv2608.02566v1 Section6Conjecture1; imported DOI10.1016/j.amc.2021.126840 primary-indexed abstract accessible, direct page403, full proof not reverified. Its metric is explicitly line-graph vertex distance.
+
+This is a prior-theorem corollary candidate, not an assertion that our earlier triangle-model existence results were new. Those are now explicitly known-theorem consequences. Preserve old frozen bytes. No independent review, Lean or firstness claim; ROOT should separately check source semantics and all exceptional diamond reductions. Do not combine its acceptance with unrelated already accepted B counterexamples. B did not contact any other distributed researcher directly.
