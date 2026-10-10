@@ -72,3 +72,18 @@ PASS 13964 all-cubic coloured instances in ten cycle partitions; incomplete-edge
 ROOT independent review checklist: (1) read source arXiv:2609.11832v1, Conjecture 10, source Theorem 5 and degree-two exceptions. (2) Prove an independent-root transversal exists: choose two candidate vertices per colour-0/1 cycle, add one pair edge and any matching edges within the candidates; the union of two matchings is bipartite. (3) Check every root has colour-2 in middle and every nonroot has colour-2 first/last under the specified single total edge order. (4) Check all colour-2 matching edges and colour-0/1 cycle edges; no edge recolouring. (5) Verify fixed proper colourings using globally >3 colours reduce via original published unequal-palette theorem. (6) Run stdlib exact checker and omitted-edge negative test; regenerate small graphs independently. (7) Perform source/citation/priority gate independently. The next open regular degrees are 4 and 5, not 3.
 
 STATUS: remote unsigned transport reconstruction with precisely frozen source blobs, NOT original missing signed archive, NOT independently accepted by ROOT, NOT Lean, NOT world priority. All writes confined to workstreams/A and no main changes.
+
+
+## Frozen new high-priority d=4 theorem packet (2026-10-10)
+
+Frozen source/checker commit SHA: 12b2c09814f65a4d0bfd0a658e9563ee699c735a.
+Proof: workstreams/A/bipartite-sequential/DEGREE_FOUR_THEOREM.md (Git blob c4a9c457b70ce0d49e8ade0885d4476d052d6af7).
+Exact stdlib checker: workstreams/A/code/verify_degree_four.py (Git blob 77f4e54c33efc67aa59fae82faaaefc0dc89792d).
+
+    python3 workstreams/A/code/verify_degree_four.py
+
+Actual Python 3.13.5 run after matching Git source blob hash: PASS 4-regular complete two-factor/matching enumeration {'(8,)': 446, '(4, 4)': 504} plus nonbipartite K4xK2, 5-regular K6, negative control. No third-party packages needed.
+
+**ROOT audit request:** (1) Read original Gorzkowska–Kwaśny Conjecture 10, Theorem 5 and their d=3/4/5 remaining scope. (2) Independently verify cited Haxell theorem t>=2Delta (see Haxell–Wdowinski 2024 Theorem 1, https://doi.org/10.1002/jgt.23085). The complementary graph Q of colours 2,3 has max-degree exactly 2; all parts from colour0/1 cycles have >=4 vertices, so the theorem applies without extra assumptions. (3) Verify single global insertion order, including two extra-colour edges after one cycle edge, and root/nonroot distinction via adjacency of colour 0 and colour 1 in vertex sequences. (4) Verify each matching edge: nonroot earlier/later endpoints have its colour after/before 0 and 1; when root present the root/nonroot type is unequal. (5) Check consequence for arbitrary proper colourings with >4 global colours invokes **published** unequal-palette theorem. (6) Distinguish all d=4 from d=5 C4-free *partial* result, and make a fresh prior-art/source gate. (7) Run checker and omitted-edge negative test; frozen bytes must remain unchanged during review.
+
+No independent ROOT review or full Lean formalization has occurred, the transport commits are unsigned, and novelty remains unverified. The same bounds show Conjecture 10 for connected maximum degree <=4 when combined with the earlier frozen cubic packet and source established low-degree results. Remaining high-level target is the five-regular class-one case in which every two-colour factor contains a 4-cycle. No main merge, external contact or scheduler.
