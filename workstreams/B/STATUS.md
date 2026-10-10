@@ -268,3 +268,10 @@ Frozen short-connector packet2123cb6e79bf6a54c3f3fd83a14d1e16639e1fd6 fetched ex
 A genuinely new proposed placement rule fails on a19vertex graph: K4 triangle expansion with five connectors length2 and one length3. Confining the fifth color to length2 interiors is impossible by a matching-cut argument, yet the original palette has an explicit valid coloring with its sole fifth-colored vertex on the length3 path. See triangle_22223/MATCHING_ROUTE_OBSTACLE.md, exact object/probe log and separate verify_matching_obstacle.py/log. All8 eligible core matchings and original BFS checked; damaged coloring rejected. This is ONLY a restricted-route obstruction. Stop this restricted placement search; resume only when length3/triangle fifth-color locations and their port-list constraints are handled.
 
 The possible new general1123/Petersen question is NOT reserved: CANDIDATE_GATE_1123.md records a2017/2018 full-solution abstract claim conflicting with later open-problem statements. No full proof/status reconciliation and no high-cost search. Preserve uncertainty and do not announce another open target prematurely. No active long computation remains; frozen Kautz3 and other pending packets await genuine independent review.
+
+
+## Updated card receipt and new exact reservation, 09:13 UTC
+
+Explicitly read BRIEF and Bcard09ad05d221909dfcfd9ce6a14ecd13a1ac3c4846 after wildcard branch fetch. Earlier generic git fetch updated only configured main; future ownership checks must fetch all branch refs explicitly. ROOT now records real independent reviews in progress for Ka(m,3)44c1ec and Conj6d6238ac, not acceptance yet. A's newer full sequential-order scope remains separate.
+
+B proposes claw-free12222, arXiv2608.02566v1 Section6 Conjecture1, with exact gate in clawfree_12222/SOURCE_GATE.md. Publish before substantial work. Standard simple-core incidence5 cases are already known and excluded as new discoveries. Focus on boundary extension across admissible caps/multiple-edge interfaces; retain original assumptions and reject restricted-rule failures as original counterexamples. Previous frozen results unchanged.
