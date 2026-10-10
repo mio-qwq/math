@@ -197,3 +197,29 @@ Expected actual observed output:
 **Mathlib provenance:** Theorem Finset.all_card_le_biUnion_card_iff_existsInjective' was verified at Mathlib pinned revision d13f23b723b8a846827a245b89c10fc7d3f11612 (source blob 9e013ce0f999e3135ec53e1abda4d178af3fa044), so formalization may invoke the existing proved marriage theorem rather than reinventing it. Actual Lean/Lake/Elan are unavailable here, and no compiler/axiom audit or full theorem formalization is claimed.
 
 **Review order:** Verify Hall counting and opposite-candidate selection independently; then use the new interface in formal graph root-order and global edge list proof without touching the already accepted original frozen mathematical file. Stop new identical numeric enumeration and do not merge, claim historical firstness, contact authors or schedule automations.
+
+
+## New two-partition strengthening: Hall proof and linear-time bichromatic splitting (2026-10-10)
+
+**Review object:** Worker commit \`e1910e1511064595ef2f443a23984cb26abf61b0\`, original first publication of the stronger theorem at \`8ac359b903a2a4f321ff14d84714bf6d48302664\`. Source text \`workstreams/A/proof/HALL_TRANSVERSAL.md\` and \`workstreams/A/proof/TWO_PARTITION_BICOLOURING.md\`; both are **NEW unreviewed mathematical arguments**, not a rewrite or already-reviewed theorem. Original full Conjecture 10 freeze \`7168f6df66ba5518cd3420c4668eab5352e4be8c\` remains unchanged.
+
+**Claims:** Let P,S be two partitions of a finite nonempty set X into blocks of cardinality≥2. (A) Using Hall, choose exactly one representative from each P block without fully including any S block. (B) Stronger and O(|X|) constructive: 2-colour *every* element of X so that every block of P and S has both colours. To prove B, convert elements to labelled edges of a bipartite incidence multigraph on P and S blocks, minimum degree≥2, find an even cycle, alternately colour its edges, root a spanning forest at its vertices, and process non-cycle vertices child-before-parent, colouring the parent edge opposite an already coloured other edge. Parallel 2-edge cycles are allowed; this property *cannot* be represented by discarding parallel labels. Choosing one colour-0 edge per P block supplies the original A-type transversal without Hall.
+
+**Exact worker source Git blob IDs:**
+- \`code/hall_transversal.py\` — \`da7362d802464620d95336e573295c6338194df1\`
+- \`code/verify_hall_transversal.py\` — \`9e3930dcdc89770c156f367eb7fffc163090cdfc\`
+- \`code/linear_split.py\` — \`00eb07caf4059c3161289b38c8f8768b6ce7476a\`
+- \`code/verify_linear_split.py\` — \`3bb26e32e60345f6972c203a5a6c0a22275d87c3\`
+
+**Reproduction from repo root**, Python 3.13.5, standard library:
+
+    python3 workstreams/A/code/verify_hall_transversal.py
+    python3 workstreams/A/code/verify_linear_split.py
+
+Both exact GitHub source files were re-extracted from a portable ZIP into a NEW temporary directory; both checker scripts returned exit 0 and empty stderr. Each reports 541,389 set-partition pair tests, literal original-block checks, all n≤8 partition pairs and additional fixed-seed larger examples, with brute-force small-n existence and invalid cases. Detailed SHA/exit-code receipt: \`workstreams/A/reviews/TWO_PARTITION_REPLAY.md\`. User conversation ZIP \`/mnt/data/agent_A_partition_theorems.zip\`, 7,136 bytes, SHA256 \`68f5ec4006eee30f66ebf1f708d32b8b3bf4fec11ced98b43bba7059a9ffb231\`. Not a signed GitHub Release.
+
+**ROOT independent acceptance steps:** Read both full proofs without relying on test counts. Check Hall double-count (especially dangerous/safe partition definitions and choosing the *other* candidate); separately prove every bipartite multigraph component of minimum degree 2 has an even cycle including two parallel edges, then verify forest child-before-parent colouring and global O(|X|) time bound. Confirm the 2-colouring yields original component-avoiding root selection, without altering the other root-order/global-edge-order lemmas of Conjecture 10. Treat either new result as pending independent mathematical review; do not infer acceptance from the older accepted full conjecture.
+
+**Lean boundary:** Actual Mathlib source at pinned d13f23... contains \`Finset.all_card_le_biUnion_card_iff_existsInjective'\`, so the Hall proof maps to an existing kernel-verified theorem. \`formal/HallBridge.lean\` is an UNCOMPILED minimal wrapper only. \`formal/HALL_LEAN_PLAN.md\` is a genuine proof-obligation outline, no completed source of the full theorem. No local Lean/Lake/Elan; no paid remote job was run. Do not claim compiled theorem or \`#print axioms\`.
+
+Do not modify main/other streams, merge, submit, contact authors, or set a scheduled recurring task. Future best direction is actual compiler availability plus full Hall-cardinality Lean formalization; do not enlarge unrelated enumerations merely to inflate checks.
