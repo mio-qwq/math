@@ -234,3 +234,12 @@ Original11334 remote freeze: bf89129f2bf457f7a63292d559f5c279330c9b2c. Actually 
 - Proof kautz_length3/PROOF.md is entirely analytical: explicit independent lower bound, injection for a missing-first-letter class, exhaustive four-type selected-arc reduction, separate m=3 base, isometric alphabet deletion. It does not depend on a solver or finite extrapolation.
 - Actual separate definition-first replay PASS:247508distance pairs,250744local geodesic checks,93848isometry pairs,599734lower-set unordered triples, all4096base subsets and32768restricted-m4 subsets;three controls. See verify.log/SELF_REVIEW.md. No new agents, no Lean, genuine independent acceptance pending.
 - Freeze important proof now and publish; no delay for equality classification or higher word lengths. Earlier original counterexamples/proofs retain frozen bytes. Source and later survey rechecked; historical firstness unconfirmed.
+
+
+## Confirmed publication and next exact scope, 08:44 UTC
+
+Kautz length3 frozen remote44c1ec16781f1c363d0874e4dd2f0d93f640a48e fetched successfully. Fresh archive /tmp/B-kautz-replay-72Y0fM: all190 manifest hashes and definition-first verify.py PASS. No independent acceptance inferred.
+
+Observed main5252ec23db04c7b96a7f0cfb5f3c0edb5e07e7b0 now accepts B's36vertex11334 counterexample: independent original-definition written review and actual ROOT2 Lean compilation,18 standard-only axiom audits. B read README/INDEPENDENT_REVIEW; B did not rerun Lean. All odd-k family accepted in writing, fixed k=3 only in Lean.
+
+Next proposed reservation is ONLY Ka(m,4), m>=3, original Problem5.2. See kautz_length4/SOURCE_GATE.md for refreshed source/ownership gate and distinct distance-two mechanism. Publish before substantive computation. Earlier packets remain frozen.

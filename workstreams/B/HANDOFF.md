@@ -397,3 +397,12 @@ Review frozen local source 50f4dbb6606aaf428d68b1e3fb2231da473fb7e9, publicly re
 - Source gate includes original source, author survey, post-candidate checks and the uninspected 2008 independence-number paper. No detected later same-scope resolution is not proof of priority.
 
 Conjecture5 dense-interface continuation is paused: triangle_22223/RESULT.md now records263+200 SAT presentations and an exact mobile-exception gadget calculation. No original counterexample or universal theorem was found on that route.
+
+
+## Confirmed publication and next exact scope, 08:44 UTC
+
+Kautz length3 frozen remote44c1ec16781f1c363d0874e4dd2f0d93f640a48e fetched successfully. Fresh archive /tmp/B-kautz-replay-72Y0fM: all190 manifest hashes and definition-first verify.py PASS. No independent acceptance inferred.
+
+Observed main5252ec23db04c7b96a7f0cfb5f3c0edb5e07e7b0 now accepts B's36vertex11334 counterexample: independent original-definition written review and actual ROOT2 Lean compilation,18 standard-only axiom audits. B read README/INDEPENDENT_REVIEW; B did not rerun Lean. All odd-k family accepted in writing, fixed k=3 only in Lean.
+
+Next proposed reservation is ONLY Ka(m,4), m>=3, original Problem5.2. See kautz_length4/SOURCE_GATE.md for refreshed source/ownership gate and distinct distance-two mechanism. Publish before substantive computation. Earlier packets remain frozen.
