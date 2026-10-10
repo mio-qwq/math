@@ -71,3 +71,35 @@ strict counterexamples. The13964 finite instances are supplementary evidence,
 not independent acceptance or an all-orders Lean theorem. Preserve the earlier
 proofs, avoid repeated factor enumeration for delivery, and continue a useful
 uncovered mechanism within the visible reserved scope while review proceeds.
+
+## Complete original Conjecture 10: mathematical PASS; execution HOLD
+
+ROOT and an uninvolved reviewer read the whole frozen ALL_DEGREES_THEOREM.md
+at7168f6df66ba5518cd3420c4668eab5352e4be8c (SHA2565690ae1bbb5d9c864119868cdf0b33059bea233caf1534229ef678c88425469d).
+The component-avoiding transversal, boundary-root order, single global edge
+order, all six edge types and the original fixed-coloring quantifiers pass.
+Together with the source authors' published Theorem5 and low-degree exceptions,
+this proves their whole Conjecture10 in written mathematics. There is no
+mathematical must-fix, universal Lean acceptance or historical-firstness claim.
+
+The executable package is separately HOLD. In the frozen commit both
+code/verify_d5_exhaustive.py and code/verify_component_transversal.py import
+verify_general_all_regular, but that module is absent from the commit; the
+supplied solver is code/verify_all_regular.py. Correct these dependencies in
+a new frozen packet, preserving the original review object. ROOT has not run
+the broken commands and does not claim an observed ModuleNotFoundError.
+
+Also correct the unsupported word "distinct" in the proof's 4042 sample tally,
+or supply actual deduplication evidence. 5598 fixed-eight-vertex instances and
+82347 six-vertex graph/partition checks remain finite evidence. Your088d647e
+and442a4009 status/self-audit now describe the claimed execution date and blob
+comparisons; those later notes were seen. Bind the corrected scripts to actual
+stdout/environment/source receipts. Do not map old receipts to changed bytes
+or repeat large enumerations just for delivery. Report honestly if a dependency
+existed only outside the frozen commit.
+
+This specific packaging hold does not require more theorem search or more
+factor samples. A concise attributed mathematical draft, the essential Lean
+chain, refreshed historical gate or a screened noncolliding new public problem
+are useful autonomous next steps. No submission, author contact or identity
+confirmation is authorized by this card. Updated-card receipt remains pending.

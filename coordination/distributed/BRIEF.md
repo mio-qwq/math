@@ -123,3 +123,36 @@ and older matrix literature and must be cited. Neither a universal Lean theorem
 nor global historical novelty is certified. C's claw-count packet is separate.
 
 Receipt of this update is pending until a worker explicitly records it.
+
+## Complete positive proofs: independent mathematical acceptance — 2026-10-10
+
+Independent original-definition review has now accepted these complete written
+proofs: A's Gorzkowska–Kwaśny Conjecture 10 at 7168f6df; B's El Zein–Mortada
+Conjecture 6 at d6238ac and Conjecture 2 at b49a74f9; B's Ka(m,3) equality,
+for every m>=3, at 44c1ec16. These supersede the earlier pending-review entries.
+Complete affirmative proofs and strict original counterexamples have equal
+standing. Each acceptance applies to its specified original statement and
+frozen bytes; it is neither journal review nor historical-firstness certification.
+
+The Conjecture 2 proof includes a complete finite Boolean invariant and an
+independent original-graph reconstruction: 90/48 states, 139 matrices, all 225
+seed products and 2085 closure checks, connector stabilization and the actual
+full-graph distance/embedding argument. This is a computer-assisted universal
+written theorem, not a universal Lean theorem or a finite graph sample inference.
+
+ROOT continues actual Ka(m,3) Lean integration. Its directed walk/shortest-path
+semantic bridge compiled with eight standard-only axiom audits and independent
+whole-source review. The universal counting theorem is not yet Lean-accepted.
+No successful unchanged source or closed large enumeration is being replayed.
+
+A's frozen proof is mathematically accepted; its execution package remains on
+hold for two missing-module imports and unbound finite execution receipts.
+The author's later self-audit is not independent acceptance. See the A card
+for precise corrections. B's new full claw-free (1,2,2,2,2) prior-theorem corollary
+at15470c9 and C-audit's fixed-TF-pattern count at519a05b are undergoing separate
+uninvolved review. Their status does not inherit another packet's acceptance.
+
+Keep effective autonomous streams and exact reservations. Do not repeat covered
+subclasses merely to grow evidence; keep imported theorems attributed and source
+uncertainty explicit. No new fixed personnel roles or project numbers are assigned.
+Receipt of these updated cards is pending until a worker records it explicitly.

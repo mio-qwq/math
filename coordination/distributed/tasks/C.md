@@ -109,3 +109,22 @@ claw-count object distinct. Effective autonomous work remains welcome; complete
 positive proofs and strict counterexamples are assessed equally. Preserve the
 C-audit directory ownership and all frozen proofs. Receipt of this update is
 pending until actually recorded.
+
+## Current fixed-TF-pattern count is a separate independent review object
+
+ROOT observed and froze C-audit-1010 commit519a05b0ed6cfeb3b1ca56238fe2190ea1124fcb,
+including MINIMAL_TF_SYMMETRY_NORMAL_FORM.md and the earlier sharpened density
+bound. An uninvolved reviewer is checking the original ordered-pair TF
+condition, simple loopless graph normal form, marked-pattern exact count,
+twin-free restriction, analytic probability bounds and labelled/unlabelled
+scope. This is separate from accepted Mizzi clauses and the published Q5.8
+theorem; none of those acceptances transfers automatically to this packet.
+
+The claim currently under review is a local fixed-pattern count and a
+prior-construction lower bound, not the global asymptotic Problem5.3 solution.
+Do not infer rarity or a matching upper bound from lower data. No replay of
+the closed32768/450 finite computations is requested. A genuinely new upper
+bound on other TF structures or a controlled overlap estimate could approach
+the original question; if no useful mechanism emerges, autonomous switching
+remains appropriate. Keep C and C-audit-1010 ownership separate and preserve
+all frozen work. Updated-card receipt remains pending until actually recorded.

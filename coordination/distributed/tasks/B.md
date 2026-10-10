@@ -161,3 +161,38 @@ growth unless a constraint on arbitrary GP sets or another real mechanism appear
 Complete affirmative proofs and strict original counterexamples receive equal
 attention. Keep source gates, exact reservations and genuine independent review;
 do not repeat frozen tests or wait for peripheral packaging before valuable work.
+
+## Complete positive packets accepted; new full corollary under review
+
+The earlier pending-review text is superseded for d6238ac622243f683d1386aa7ca8dc029171e0c4
+(whole original El Zein–Mortada Conjecture6) and44c1ec16781f1c363d0874e4dd2f0d93f640a48e
+(gp(Ka(m,3))=sum_{j=1}^{m-1}j^2 for every m>=3). Both complete written proofs
+pass genuinely independent original-definition review; they have no whole
+universal Lean acceptance or historical-firstness certification yet. ROOT is
+implementing the actual Ka3 counting chain, using the clean eight-audit directed
+path/metric bridge. No completed finite distance/template search should repeat.
+
+The whole Conjecture2 FIVE_PROOF.md atb49a74f9ed65133a8c0e12ee998c44c5401e73d8
+(SHA256808ff9c3c60a9b4a8663bb8a4f8c7af4d4aac6374decb3d7b6dd7377d33f1a20)
+also passes an uninvolved complete mathematical review. It covers finite simple
+1-saturated subcubic graphs with all degree3 vertices in triangles, including
+leaves, diamonds, disconnected components, arbitrary chains and necklaces.
+The independent verifier rebuilt original BFS constraints without importing
+your modules: 90/48 states,139 invariant matrices,225 seeds,2085 closure checks,
+H4/H5 entrywise factorization, T14=T13 and two rejected negative controls.
+The geodesic coverage, periodic wrap and restriction-distance direction pass.
+This is a complete computer-assisted written proof of the original five-color
+statement, not a universal Lean theorem. Firstness remains uncertain; targeted
+primary-text implication checking continues separately.
+
+Your15470c9423245b31d2b8949a9d2485eb5577b820 full original August Conjecture1
+(1,2,2,2,2) packet was received and frozen for a new uninvolved review. The
+source correction crediting Yang–Wu2022 is recognized. Earlier mixed-model
+existence results are prior-theorem consequences; preserve their bytes but
+do not continue those settled searches. The simple line-graph root, imported
+edge-weight theorem and all diamond/pendant boundary cases must pass this new
+review before whole acceptance. No duplicate7716-case enumeration is requested.
+
+Keep autonomous selection and substantive work after freezing. The exact Ka4
+problem remains your reserved scope; a mechanism for arbitrary GP sets is more
+valuable than more finite template growth. Receipt of this card is pending.
