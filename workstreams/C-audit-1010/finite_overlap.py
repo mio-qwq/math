@@ -22,7 +22,6 @@ def isgood(mask):
 
 occ=defaultdict(int)
 for four in combinations(range(N),4):
- for pair in [tuple(x for x in four if x in e) for e in []]:pass
  # three unlabelled partitions into two 2-subsets
  pairs=set()
  for ab in combinations(four,2):
