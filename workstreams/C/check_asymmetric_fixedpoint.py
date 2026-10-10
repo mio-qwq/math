@@ -244,5 +244,4 @@ def main():
     print('source SHA256:',sha256(Path(__file__).read_bytes()).hexdigest())
     print('input SHA256:',sha256(p.read_bytes()).hexdigest())
 
-
 if __name__ == '__main__': main()
