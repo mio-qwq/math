@@ -152,3 +152,13 @@ Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d7
 
 - B reserves original Section5 Conjecture6 of arXiv:2603.25113v1: (3,0)-saturated, every degree-three vertex on a triangle, palette(1,1,2). The additional heavy-vertex interfaces distinguish this from original Conjecture3 and the known 2-saturated triangle theorem.
 - Source gate heavy_triangle_112/SOURCE_GATE.md; no result yet. Matched direct two-port-triangle interfaces create permitted isolated heavy vertices. Prior routes4/5 remain paused with explicit limitations, not silently discarded.
+
+## Original Conjecture6 affirmative proof, 2026-10-10 07:32 UTC
+
+- Public reservation910275d4 preceded computation. New heavy_triangle_112/PROOF.md gives a full elementary proof of original Conjecture6, not merely the initial matched-heavy subfamily and not a counterexample.
+- Mechanism: disjoint triangle/one-port-diamond blocks, Hall selection of ordinary core edges, exchanges removing non-direct residual cycles, then a distance-two-independent set whose complement has only even cycles. Arbitrary core topology, connector lengths, loops, parallel edges, diamonds, leaves and disconnected components are included.
+- Actual regression:7042 exhaustive small admissible labeled graphs,671 generated core presentations,30 explicit leaf/disconnected fixtures;5,131,533 original-distance pair checks,1394 cycle exchanges,3 rejected controls. Separate matched-family check70 graphs PASS. Python3.12.14 stdlib. B self-review only; no new agents or Lean.
+- ProofSHA25611ba0814316379a764d9ed74431680b9c7c792428191e8d1f1e8c9086689183e. Constructive algorithm and original-definition verifier are separate. Historical novelty and independent acceptance pending.
+- Earlier search timeouts are retained as UNKNOWN; proof development replaced the covered search, not a retrospective claim of completed computation. Next: freeze/publish and replay a clean archive. Preserve original Conjecture3 refutationfadb2d4 and all earlier proof bytes.
+
+Conjecture6 frozen local source: 964fd526fcfac35c2397a71c44bfe8401d2560c1. Construct SHA256cf85e84a0fd3822c00cf41feafc67193edb2c729ae0f97a817e8fb9e40560f9e; original verifier SHA256ba24c26908933c628ae5a969153ac49e58398a4e65698b7cdc25e34e31872c32.

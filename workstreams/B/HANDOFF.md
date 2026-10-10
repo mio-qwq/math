@@ -1,3 +1,18 @@
+# Latest delivery: original Conjecture6 affirmative proof
+
+Read heavy_triangle_112/PROOF.md for the complete original claim of arXiv:2603.25113v1 Section5 Conjecture6: (3,0)-saturated subcubic graphs with every degree-three vertex on a triangle admit (1,1,2)-packing colorings. This is a positive proof candidate, not another counterexample. It covers all original graphs, not only the initial matched-heavy family.
+
+Mechanism: Hall matching on triangle/diamond core edges, cycle-elimination exchanges, and a radius-two class leaving a bipartite graph. Review loops/multiplicity, the exchange endpoint argument, direct-edge cycle parity, and original distances. See B_SELF_REVIEW.md for B's own checks; independent acceptance remains pending.
+
+Reproduce using Python3.12 standard library:
+
+    python workstreams/B/heavy_triangle_112/regression.py
+    python workstreams/B/heavy_triangle_112/check_matched_family.py
+
+Actually run:7042 small admissible labeled graphs,671 core presentations,30 leaf/disconnected fixtures;5,131,533 original-distance pair checks;1394 cycle exchanges;3 rejected controls. The additional matched-family70-graph regression also passes. Construct.py starts from original adjacency; verify_original.py is a separate distance/condition checker with no construction imports. No Lean, firstness or external acceptance claim.
+
+Proof SHA25611ba0814316379a764d9ed74431680b9c7c792428191e8d1f1e8c9086689183e. The seven-vertex original Conjecture3 counterexample remains unchanged atfadb2d4. Conjectures4/5 remain unresolved and their paused-route limitations remain recorded. ROOT may review/integrate/sign; B has not edited main or allocated a root project number.
+
 # Latest delivery: seven-vertex original Conjecture 3 counterexample
 
 Read two_saturated_112/PROOF.md. It disproves arXiv:2603.25113v1 Section5 Conjecture3 as printed, with no local-girth assumption. K4 with the three edges at one vertex subdivided once is 2-saturated and subcubic but not (1,1,2)-packing colorable. Triangle forces the unique distance-two color; deleting that triangle vertex leaves an odd five-cycle.
@@ -329,3 +344,5 @@ Conjecture5 is unresolved: see triangle_22223/RESULT.md and run its verify_obsta
 Conjecture4 bounded route is now paused without resolution; see two_saturated_12222/RESULT.md for1500 SAT presentations and the precise C5 obstruction to the naive construction. No additional original counterexample has been claimed.
 
 Active next exact scope: original Conjecture6, (3,0)-saturated triangle-local graphs and (1,1,2); see heavy_triangle_112/SOURCE_GATE.md. No result yet.
+
+Conjecture6 frozen local source: 964fd526fcfac35c2397a71c44bfe8401d2560c1. Construct SHA256cf85e84a0fd3822c00cf41feafc67193edb2c729ae0f97a817e8fb9e40560f9e; original verifier SHA256ba24c26908933c628ae5a969153ac49e58398a4e65698b7cdc25e34e31872c32.

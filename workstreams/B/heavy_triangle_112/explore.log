@@ -1,0 +1,23 @@
+short 4 {"short:SAT": 30}
+short 6 {"short:SAT": 60}
+short 8 {"short:SAT": 90}
+short 10 {"short:SAT": 120}
+short 12 {"short:SAT": 150}
+short 16 {"short:SAT": 158, "short:UNKNOWN": 22}
+short 20 {"short:SAT": 158, "short:UNKNOWN": 52}
+short 30 {"short:SAT": 158, "short:UNKNOWN": 82}
+parity 4 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 30}
+parity 6 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 60}
+parity 8 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 90}
+parity 10 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 120}
+parity 12 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 150}
+parity 16 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 24}
+parity 20 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 54}
+parity 30 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84}
+sparseheavy 4 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 30}
+sparseheavy 6 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 60}
+sparseheavy 8 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 90}
+sparseheavy 10 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 120}
+sparseheavy 12 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 150}
+sparseheavy 16 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 162, "sparseheavy:UNKNOWN": 18}
+sparseheavy 20 {"short:SAT": 158, "short:UNKNOWN": 82, "parity:SAT": 156, "parity:UNKNOWN": 84, "sparseheavy:SAT": 171, "sparseheavy:UNKNOWN": 39}
