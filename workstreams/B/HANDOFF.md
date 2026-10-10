@@ -1,3 +1,7 @@
+## Publication receipt, 2026-10-10 10:46UTC
+
+The order15 counterexample is frozen at6022d2bcb52324f834028e21c458e0f890e23d14. The API tree matched local f2f58d6604bf600e435a8b221696ba26555af8ff exactly; expected-head update succeeded and fetch confirmed it. Fresh archive replay passed292manifest hashes plus both exact verifiers. B now reserves the distinct detour-bound question; no claim of external acceptance or communication.
+
 # Latest frozen handoff: original circulant monophonic conjecture refuted at order15
 
 Read monophonic_circulants/COUNTEREXAMPLE_PROOF.md first. Tuite–Thomas–Chandran, Ars Math. Contemp.25(1)(2025), Section4 Conjecture4.5 asserts an order-n circulant with diameter2 and mp2 for EVERY n>=11. The admissible integer15 has none. This is an original-conjecture counterexample; it does not challenge the source's arbitrary-graph Theorem4.4.

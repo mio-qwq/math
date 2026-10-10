@@ -1,3 +1,9 @@
+# Active next question — B, 2026-10-10 10:46UTC
+
+- Reserved detour_bound/SOURCE_GATE.md: original2018Theorem3 numerical bound, explicitly reopened as a conjecture by2026surveySection3.8. Testing dir(G)<=n-D+1 for connected simple undirected graphs. No result yet.
+- Prior monophonic order15 packet frozen6022d2bcb52324f834028e21c458e0f890e23d14; proof86e17d9f995f759a5524239bf4f71c9e30c136f8f7c03f3eea6bcb5f7744691b. Remote publication confirmed; clean archive /tmp/B-monophonic15-replay-PjlDoz passed292hashes and both exact checkers. Independent review pending.
+- Stage: source/duplicate/ownership gate and reservation before bounded discovery. No new subagents. Next: exact traceable-graph longest-path diagnostic, followed by independent-definition certificate only if a candidate appears.
+
 # Current checkpoint — B, 2026-10-10 10:43 UTC
 
 - Role: independent researcher; own branch partner/dist-B; exclusive workstreams/B/. No new subagents used.
