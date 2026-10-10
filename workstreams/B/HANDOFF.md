@@ -360,3 +360,17 @@ Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. 
 New active source-gated target: arXiv:2608.02566v1 Section6 Problem1 (1,1,3,3,4), excluding H. No candidate yet. See clawfree_11334/SOURCE_GATE.md. Related-work clarification for the frozen Conjecture6 proof is heavy_triangle_112/RELATED_WORK.md; standard skeleton/Hall tools are prior background, not claimed original.
 
 August Problem1 screening checkpoint:254 presentations SAT, no original result; fixed-core-class4-packing transversals require private neighbors. See clawfree_11334/ROUTE_CONSTRAINT.md and check_route.py. This route is paused rather than enlarged unchanged.
+
+## New ORIGINAL counterexample: August claw-free11334 Problem1 (08:00 UTC)
+
+Review target: local source8e0417722436269bb02f29dc5bab9bdd88118e0a; remote frozen SHA recorded after publication. Earlier candidate/paused entries are superseded ONLY for arXiv:2608.02566v1 Section6 Problem1. Other paused conjectures remain unresolved.
+
+- Proof: clawfree_11334/COUNTEREXAMPLE_PROOF.md, SHA25679a049ad7f668c8298c9985428d075b6cad18336aa77da12b61cf29bd2613095.
+- Explicit36vertex54edge original counterexample: clawfree_11334/counterexample.json, SHA2567d1cdd61f032185728ffac6a6b0b6a79c611e0a36341a78eb35610df55b95ccd.
+- Independent-implementation verifier: clawfree_11334/verify_counterexample.py, SHA256e9e7cb20a1b6989905563193bd92c388231e6e3a049caa27f6db1b33fdb7f573.
+- Run from repository root: `python workstreams/B/clawfree_11334/verify_counterexample.py`. Python3.12.14 stdlib; no install, network or solver. Actual result PASS, logged in verify_counterexample.log. 531441 projected labelings,48 proper,3888 radius4 transversals,zero valid;36 original BFS rows;3negative controls;positive weaker-palette and even-ring controls.
+- Source: https://arxiv.org/html/2608.02566v1#S6 ; original PDF printed page15 (zero-based page14). Question's exception H has12vertices, hence not our36vertex graph. Exact statement independently checked in HTML andPDF after discovery. See updated SOURCE_GATE.md for authors/version/search limits.
+- Mathematical acceptance focus: every arbitrary original coloring yields a high representative in each triangle, so the core projection is necessary even when a triangle has multiple high-colored vertices. Adjacent blocks have allcrossdistances<=3. Color4forcesprivate neighbors, incompatible with one diamond's end color4; every end color mustthenliein{3a,3b}, impossiblearoundoddcycle.
+- The general written result covers12kvertices for EVERY oddk>=3; finite enumeration certifiesonlyk=3. No smallest-order/Lean/firstness claim.
+- Frozen proof does not depend on the earlier Hall-based sufficient-route sketch, earlier random SATs, or generic solver timeouts. Two15second runs on k=3,5 returnedUNKNOWN, explicitly retained in personalreceipt. No running search needs monitoring.
+- Status: self-reviewed original counterexample, pending independentROOT/human acceptance. Main integration/signing/numbering remain ROOT's responsibility. No direct peer notification, PR, author contact or submission performed. B keeps all previous frozen packets unchanged.

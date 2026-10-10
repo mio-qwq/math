@@ -192,3 +192,17 @@ Conjecture9 note frozen local source: f047f07a8379e52d9131a6f8211fe177abcd6623. 
 - Public reservationbcb3db98 preceded computation.254 admissible core/connector/interface presentations allSAT;6 named-H exclusions. No original counterexample or proof.
 - Exact new restriction: for an independent core class in an unsubdivided triangle truncation, a4-packing transversal exists exactly when each selected core vertex has a private neighbor. A fixed class of K3,3 fails all27 transversal choices. This obstructs a naive3-to4 packing upgrade, not the original problem.
 - Details clawfree_11334/ROUTE_CONSTRAINT.md; separate BFS checker PASS. Pause unchanged sampling; resume needs a new core-class choice or odd-cycle recoloring mechanism. Successful frozen packets unchanged; no active numerical searches remain.
+
+## Reopened August Problem1 with a different mechanism, 2026-10-10 07:55 UTC
+
+- Latest coord/B card and A/C records re-read after fetch. Existing reservation bcb3db98 remains the exact target; no new scope or numbering.
+- New sufficient-condition route: choose an independent odd-cycle transversal I in the loopless cubic core, with an external private neighbor for each vertex of I, instead of fixing an arbitrary independent class. Color the bipartite complement with two core colors; Hall supplies their radius-three transversals, while private neighbors supply the radius-four transversal. Removing one port from each triangle leaves a bipartite graph.
+- First cheap feasibility probe:198 connected cubic multigraph presentations of order2..14, excluding K4, all admit such I. This is only evidence for a strengthened core selection condition, not a universal theorem or an original-palette exhaustive search. New source code/log probe_private_oct.py/.log retained.
+- Next: prove the sufficient reduction with an independent original-distance reconstruction, then attack the core-selection condition by exchange arguments or find a precise obstruction. Do not restart the older unconstrained palette sampling. No new agents.
+
+## Original August Problem1 counterexample verified, 2026-10-10 08:00 UTC
+
+- B personally derived a36vertex connected claw-free cubic graph not(1,1,3,3,4)-packing colorable: triangle truncation of a cyclic chain of three diamonds. This negates ORIGINAL arXiv:2608.02566v1 Section6 Problem1, not its already-refuted radius5 variant. The sole source exception has12vertices.
+- COUNTEREXAMPLE_PROOF.md gives a complete elementary contradiction, also for every odd number k>=3 of diamonds (12k vertices). Key new step upgrades the prior route restriction to a NECESSARY condition for ANY original coloring by selecting one high-colored representative per triangle. Proper core labels then force an impossible odd-cycle two-coloring.
+- Actual independent-implementation checker verifies original graph/BFS;all531441 projected assignments,48 proper ones,3888 radius4 representative choices,zero valid. Three negative controls and genuine11333/same-graph plus11334/even-ring positive controls PASS. Discovery timeouts are explicitly UNKNOWN, not evidence. No new agents or Lean.
+- Earlier frozen proofs unchanged. This new original counterexample is self-checked, pending independent ROOT/human review and historical novelty. Freeze and publish promptly; do not delay for smaller order or more general classification.
