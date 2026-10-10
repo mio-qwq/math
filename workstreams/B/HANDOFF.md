@@ -382,3 +382,18 @@ Publication confirmation (08:02 UTC): the new original11334 packet is frozen rem
 This does NOT replace accepted e6ff181 or modify its proof. New file permutation_gp/OPTIMIZED_TERMINAL_BOUND.md proves the exact optimum WITHIN the source-inspired terminal-alphabet construction: choose t0=ceil((d+1)/k), yielding t0(d+k-t0)_(k-1). A tie witht0+1 occurs exactly when k dividesd+1. For fixedk this is a positive-density family of orderd^k, so the relative violation of the source's already-refuted orderd^(k-1) formula grows linearly withd. No exact maximum, additional conjecture refutation, or priority claim.
 
 Replay: `python workstreams/B/permutation_gp/verify_optimized.py`; actual Python3.12.14 stdlib PASS in verify_optimized.log.13104 exact optimizer parameter checks;Pe(9,3) rebuilt from original full-old-word arc rule:1320vertices11880arcs224selected49952orderedpairs,distances3/4/5 withcounts24192/19488/6272. Strict distancegap certifies every ordered triple. Two optimizer boundary/falseclaim controls PASS. This extension is personally checked, pending independent acceptance; no new agents or Lean. Frozen proofSHA2563cdae7f8b9e33f0813fe4c22fae41ad91e8c9b5e5a7aa6b2fc9bd2fa53908851.
+
+
+## Kautz length-three exact formula (2026-10-10 08:41 UTC)
+
+Review frozen local source 50f4dbb6606aaf428d68b1e3fb2231da473fb7e9, publicly reserved at 16f34b3322bec26504f6e6b84b0f0c86f6f9d0fc. For every integer m>=3, gp(Ka(m,3))=m(m-1)(2m-1)/6. This solves only the length-three Kautz slice of arXiv:2604.15909v1 Problem5.2; it is a positive proof candidate, not a counterexample or the solution for every length. Pending independent review and historical-novelty assessment.
+
+- Proof: kautz_length3/PROOF.md, SHA256 4dfb6bd9e0652cfa5bf2e4b36def9bae93d89d954af2a682e86b7a39fc642ffc.
+- Checker: kautz_length3/verify.py, SHA256 7dc0f53094929def038315a902b803f4b6026139832042857b4067426e5b4f4d.
+- Run from repository root: `python workstreams/B/kautz_length3/verify.py`. Python3.12.14 standard library, no solver/dependency installation. Actual PASS is in verify.log; SELF_REVIEW.md records scope and limitations.
+- Evidence: 247508 distance comparisons, 93848 isometry pairs, 250744 local geodesic checks, 599734 lower-bound triples, all4096 subsets at m=3 and all32768 restricted subsets at m=4, three negative controls. These finite checks supplement the analytical induction and analytical base case.
+- Review priorities: Section3 injects endpoint-zero words into missing middle-zero cells; Section4 exhausts all four selected-arc types and bounds one letter's incidence; Section5 handles the m=3 boundary where deleting a letter leaves a digon. The digon m=2 is deliberately excluded.
+- Independent-set lower bound and upper count are elementary and may be prior knowledge; the source already supplies five table values. No novelty claim is made for that independence calculation. No MILP, Lean, or outside reviewer was used.
+- Source gate includes original source, author survey, post-candidate checks and the uninspected 2008 independence-number paper. No detected later same-scope resolution is not proof of priority.
+
+Conjecture5 dense-interface continuation is paused: triangle_22223/RESULT.md now records263+200 SAT presentations and an exact mobile-exception gadget calculation. No original counterexample or universal theorem was found on that route.
