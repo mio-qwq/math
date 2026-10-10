@@ -1,0 +1,24 @@
+{
+  "description": "An irregular nonisomorphic TF-isomorphic pair with equal main polynomial; demonstration of the affirmative answer to Collins-Sciriha Question 5.8",
+  "n": 12,
+  "permutation_row": [1, 2, 3, 0, 5, 6, 7, 4, 9, 10, 11, 8],
+  "G_edges": [
+    [0,4],[0,5],[0,8],[0,9],[0,10],
+    [1,4],[1,7],[1,8],[1,9],[1,11],
+    [2,6],[2,7],[2,8],[2,10],[2,11],
+    [3,5],[3,6],[3,9],[3,10],[3,11],
+    [4,10],[4,11],[5,9],[5,10],[6,8],[6,9],[7,8],[7,11]
+  ],
+  "H_edges": [
+    [0,5],[0,6],[0,9],[0,10],[0,11],
+    [1,4],[1,5],[1,8],[1,9],[1,10],
+    [2,4],[2,7],[2,8],[2,9],[2,11],
+    [3,6],[3,7],[3,8],[3,10],[3,11],
+    [4,8],[4,11],[5,10],[5,11],[6,9],[6,10],[7,8],[7,9]
+  ],
+  "expected_edge_count": 28,
+  "expected_degree_multiset": [4,4,4,4,5,5,5,5,5,5,5,5],
+  "expected_degree4_triangle_multisets": {"G": [2,2,4,4], "H": [3,3,3,3]},
+  "main_minimal_polynomial": [1,-3,-8],
+  "expected_all_ones_walks_0_to_6": [12,56,264,1240,5832,27416,128904]
+}
