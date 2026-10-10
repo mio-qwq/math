@@ -65,3 +65,12 @@
 - Evidence: full structural and square-degeneracy proof; separate exact distance/elimination verifier; 2904 presentations +26 boundary fixtures PASS;3 negative controls rejected. Initial searches 2904+256 presentations per palette allSAT, no counterexample.
 - Phase: complete B self-review, publishing for independent acceptance. No new agents or Lean. Source and post-candidate novelty searches recorded, no firstness claim.
 - Next: independent acceptance belongs ROOT; B can pursue unresolved first/second palettes or Conjecture2 with a materially new construction, not blind enumeration. Preserve frozen proof and prior accepted packets.
+
+
+## Second palette finite-invariant proof, 2026-10-10 06:41 UTC
+
+- Original Problem1 SECOND palette (1,2,2,4) now has a full mathematical reduction plus finite invariant certificate. Positive answer, not a counterexample. Third-palette proof remains frozen at remote1ccf730.
+- Local frozen source312c2be09cba63484560664101f615e93daaaa55; SECOND_PROOF.md SHA2562bc9a0494f2331ccc2accd33a195d4ba330dbf275a6d7bdea2e34b2e63a7411b.
+- Actual checks:139 invariant states,1251 closure transitions, long-connector identity,2 negative controls;864 original graph colorings. Normal ansatz failures are preserved and repaired by one exceptional length4 connector.
+- Stage: B self-review complete, publication for independent acceptance. No new research agents, no Lean or firstness claim. New theorem is not covered by ROOT's older acceptance card.
+- Next: investigate first palette and Conjecture2 via a genuinely richer boundary-state mechanism; do not repeat unchanged enumerations. Freeze and deliver these correct positive results promptly.

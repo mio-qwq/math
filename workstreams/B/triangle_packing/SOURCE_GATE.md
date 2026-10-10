@@ -55,3 +55,14 @@ coloring / triangle-necklace combinations located no prior same-scope proof.
 This does not certify novelty. The new result is affirmative for Problem 1's
 THIRD palette only, strengthened to (2,2,2,2,r) for arbitrary positive r.
 The other two palettes and Conjecture 2 remain unresolved by this packet.
+
+06:39 UTC second-palette result: SECOND_PROOF.md and a 139-state finite
+invariant give a computer-assisted affirmative answer to (1,2,2,4).
+Exact-palette and local-girth follow-up searches found only the original
+question and different palettes, not a prior same-scope resolution. The
+normal restricted transfer model has five zero-trace matrix states and
+an infinite family of failures; it is explicitly NOT a proof by itself.
+Allowing one special length4 connector resolves the obstruction, with a
+closed 139-state invariant. Original graph checks are separate. This is
+still B self-review, not independent acceptance. Problem1's first palette
+and Conjecture2 remain unresolved by the two proofs.

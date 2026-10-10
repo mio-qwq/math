@@ -1,0 +1,25 @@
+states [(0, 1), (0, 2), (1, 0), (1, 2), (2, 0), (2, 1)] P (12, 48, 2, 16, 1, 4) relations {2: (32, 8, 0, 12, 0, 48), 3: (13, 50, 14, 18, 49, 5), 4: (30, 53, 50, 49, 13, 14), 5: (51, 15, 53, 13, 30, 50), 6: (61, 62, 15, 30, 51, 53), 7: (31, 55, 62, 51, 61, 15), 8: (63, 63, 55, 61, 31, 62), 9: (63, 63, 63, 31, 63, 55), 10: (63, 63, 63, 63, 63, 63), 11: (63, 63, 63, 63, 63, 63), 12: (63, 63, 63, 63, 63, 63), 13: (63, 63, 63, 63, 63, 63), 14: (63, 63, 63, 63, 63, 63), 15: (63, 63, 63, 63, 63, 63)}
+EMPTY TRACE (4,) (30, 53, 50, 49, 13, 14)
+EMPTY TRACE (2, 4) (14, 49, 0, 51, 0, 15)
+EMPTY TRACE (4, 2) (12, 48, 56, 48, 44, 12)
+EMPTY TRACE (2, 4, 2, 3) (30, 53, 0, 55, 0, 31)
+EMPTY TRACE (3, 2, 4, 2) (60, 60, 56, 48, 44, 12)
+CLOSED NORMAL SEMIGROUP (zero-trace states listed above) 86
+STATES 87 BAD 5 CAN REACH BAD 15
+Traceback (most recent call last):
+  File "/workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/triangle_packing/transfer_language_probe.py", line 23, in <module>
+    if I in live:dfs(I,())
+                 ^^^^^^^^^
+  File "/workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/triangle_packing/transfer_language_probe.py", line 21, in dfs
+    if B in live:dfs(B,prefix+(L,))
+                 ^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/triangle_packing/transfer_language_probe.py", line 21, in dfs
+    if B in live:dfs(B,prefix+(L,))
+                 ^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/triangle_packing/transfer_language_probe.py", line 21, in dfs
+    if B in live:dfs(B,prefix+(L,))
+                 ^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/477a3dcb7024/math-dist-B/workstreams/B/triangle_packing/transfer_language_probe.py", line 17, in dfs
+    if A in active:raise ValueError(('LIVE CYCLE',prefix))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: ('LIVE CYCLE', (2, 3, 2))

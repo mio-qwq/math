@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "original_graph_colorings_checked": 864,
+  "palette": [
+    1,
+    2,
+    2,
+    4
+  ],
+  "sample": "second_sample.json"
+}

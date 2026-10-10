@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "invariant_states": 139,
+  "verified_transitions": 1251,
+  "long_gap_relation": "all-ones from length10 onward",
+  "universal_trace_condition": true,
+  "negative_controls": [
+    "missing invariant state rejected",
+    "zero-trace invariant state rejected"
+  ],
+  "certificate_sha256": "f2b7eea0cc18cda9b050d441d459c2a0cae140b33235df8568eebaffd85839d4",
+  "checker_sha256": "df1d2a96f65fbbdea3b2fac7ae9c6b70fa77058c627e98d35a16772530605c3e",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

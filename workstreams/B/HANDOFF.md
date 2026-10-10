@@ -1,3 +1,32 @@
+# B additional handoff: Problem 1 second palette
+
+The THIRD-palette pure written proof is frozen remotely at
+1ccf7301b297d52a83df269962b1075c3e711df7 and remains unchanged.
+The new SECOND-palette result is a separate computer-assisted affirmative
+proof of (1,2,2,4)-packing colorability for the same original class.
+
+- Read triangle_packing/SECOND_PROOF.md, with structural lemma in PROOF.md.
+- Local freeze312c2be09cba63484560664101f615e93daaaa55.
+- Second-proof SHA2562bc9a0494f2331ccc2accd33a195d4ba330dbf275a6d7bdea2e34b2e63a7411b.
+- Run python workstreams/B/triangle_packing/verify_transfer.py :139 invariant
+  states,1251 checked transitions, two negative controls rejected.
+- Run python workstreams/B/triangle_packing/construct_second.py :864 actual
+  necklace colorings checked against original BFS distances and hypotheses.
+- Review the semantic bridge: six port-pair states, correct apex colors,
+  all distance-four constraints, one special length4 connector, the
+  all-length reduction P^11=J and JP=J, and chain embedding/exceptions.
+- transfer_certificate.json is a complete finite inductive invariant,
+  not evidence extrapolated from a bounded graph search. The checker
+  implements Boolean matrices separately from discovery bitmask code.
+- Both proofs are B-authored and self-checked; independent review, novelty
+  and human review remain pending. No Lean, signed release or counterexample
+  claimed. Problem1 first palette and Conjecture2 remain unresolved here.
+- Failed probes are retained: transfer_language_probe.log intentionally
+  contains the failed normal-ansatz live-cycle diagnostic. It is superseded
+  by SECOND_PROOF.md and the verified augmented invariant.
+
+---
+
 # B latest handoff: triangle-local packing Problem 1, third palette
 
 ## New affirmative theorem, pending independent review
