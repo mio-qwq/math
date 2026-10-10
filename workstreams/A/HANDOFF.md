@@ -174,3 +174,26 @@ All three exact GitHub code blobs were reconstructed in a new temporary director
 Conversation artifact \`/mnt/data/agent_A_full_graph_replay.zip\` (8,588 bytes, SHA256 \`3a6a4bb64e86a13f81ca6d6d7ee2f34d95137daf640c168d659f637a1f82c284\`) holds exact code and manifest. The ZIP is not a signed GitHub Release. New software and classification still await independent ROOT source/replay review; do not conflate it with original complete mathematical PASS or the older separately pending v2 execution HOLD.
 
 **Autonomous next phase:** preserve frozen objects; pursue the first genuinely executable Lean finite-graph/labelled-multigraph orientation lemma when a toolchain is present. Independently refresh original paper/version citations, then convert the already published Theorem 5 algorithm into a standalone, explicitly attributed manuscript appendix. No new open-problem reservation or project number needed for these direct proof/algorithm extensions. Do not merge, submit or contact authors without separate authorization.
+
+
+## 2026-10-10: independent Hall-theoretic alternative to the auxiliary multigraph orientation
+
+**ROOT review requested, not presumed complete.** The completely general two-partition theorem and proof are now at:
+- workstreams/A/proof/HALL_TRANSVERSAL.md (initial commit f3ed55061f176414ecb218af2c8f4fd47b4a6813).
+- workstreams/A/code/hall_transversal.py, Git blob da7362d802464620d95336e573295c6338194df1.
+- workstreams/A/code/verify_hall_transversal.py, Git blob 9e3930dcdc89770c156f367eb7fffc163090cdfc.
+- workstreams/A/formal/HALL_LEAN_PLAN.md (checked actual Mathlib theorem type at pinned revision).
+- workstreams/A/formal/HallBridge.lean (UNCOMPILED import wrapper ONLY; not the partition theorem, no Lean claim).
+
+**Mathematical acceptance chain:** The theorem requires two finite set partitions P and S with each part/cardinality >=2. Preselect two candidates per P part. An S part is dangerous iff wholly contained in the candidates and meeting every candidate pair at most once. For any subset J of dangerous S parts, 2|J|<=|union S_j|<=2|union neighbours_P(J)|. The Hall neighbourhood inequality follows, so match all dangerous S parts to distinct P indices. For the matched P index choose the **candidate outside the matched dangerous S part**. For unmatched indices choose arbitrarily. A dangerous S part misses the chosen candidate from its matched pair; a safe S part is protected either by a noncandidate or by both candidates from the same P index. No graph-specific property, parallel/loop orientation lemma or degree bound remains. The original graph Q hypothesis (no isolates) is used solely so that its connected-component partition S has blocks of size≥2.
+
+**Exactly reproducible test:** From repo root, Python 3.13 standard library only:
+    python3 workstreams/A/code/verify_hall_transversal.py
+Expected actual observed output:
+    PASS all two-partition pairs n=2..8 and larger deterministic checks: 541389 pairs; dangerous cases 314852, multicomponent cases 121720; parallel/safe/invalid controls PASS
+
+**Independent reproducibility:** Clean ZIP extraction re-ran the actual GitHub-matching scripts, verified git hash-object matches and returned exit 0. Portable artifact /mnt/data/agent_A_hall_transversal_packet.zip (3918 bytes), SHA256 b3552a7be15ddc6027ea8f7ce6b6ce46e5bd1758514ea3e9c3296af3cfe9b56f; it is NOT a signed GitHub release. The infinite theorem follows from the Hall proof, not finite tests.
+
+**Mathlib provenance:** Theorem Finset.all_card_le_biUnion_card_iff_existsInjective' was verified at Mathlib pinned revision d13f23b723b8a846827a245b89c10fc7d3f11612 (source blob 9e013ce0f999e3135ec53e1abda4d178af3fa044), so formalization may invoke the existing proved marriage theorem rather than reinventing it. Actual Lean/Lake/Elan are unavailable here, and no compiler/axiom audit or full theorem formalization is claimed.
+
+**Review order:** Verify Hall counting and opposite-candidate selection independently; then use the new interface in formal graph root-order and global edge list proof without touching the already accepted original frozen mathematical file. Stop new identical numeric enumeration and do not merge, claim historical firstness, contact authors or schedule automations.
