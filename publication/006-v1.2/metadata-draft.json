@@ -1,0 +1,86 @@
+{
+  "draft_schema": "local-publication-preparation-v2",
+  "state": "PREPARED_FILES_PENDING_HUMAN_APPROVAL_NOT_AN_API_PAYLOAD",
+  "version": "1.2.0-draft",
+  "prepared_utc": "2026-10-10T15:05:12.273738+00:00",
+  "doi": null,
+  "zenodo_record_id": null,
+  "doi_reserved": false,
+  "metadata": {
+    "title": "A counterexample to packing-domination inheritance in strong products",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "language": "eng",
+    "version": "1.2.0-draft",
+    "publication_date": null,
+    "creators": [
+      {
+        "name": "Zhang, River",
+        "orcid": "0009-0004-2437-8566",
+        "affiliation": "Chengdu Neusoft University"
+      }
+    ],
+    "license": null,
+    "description": "The d-distance p-packing domination number of a graph is the minimum size of a set that dominates within distance d and separates distinct centers by distance at least p+1, with value infinity when no such set exists. Bujtas, Irsic Chenoweth, Klavzar and Zhang conjectured that nonexistence in one factor is inherited by every strong product containing that factor. We construct a finite connected simple graph H, with 608 vertices and 9,168 edges, for which the binary six-cube Q6 admits no 2-distance dominating 3-packing but its strong product with H admits one with 64 centers. The auxiliary graph uses singleton and distance-four pair supports in the binary six-cube. Compatibility of support unions prevents short paths between incompatible code labels, while explicit eight-label sets provide radius-two coverage at pair vertices. We give a complete proof from actual graph adjacency. A Lean formalization checks the complete existence-level counterexample on finite simple graphs and standard graph walks; two separately implemented exact checkers reconstruct and verify the finite graph and its same-center covering witness. The numerical optimum is not determined, and historical priority is not asserted.",
+    "keywords": [
+      "distance domination",
+      "packing",
+      "strong graph product",
+      "hypercube",
+      "explicit counterexample",
+      "Lean",
+      "formal verification"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1007/s00026-026-00814-0",
+        "scheme": "doi",
+        "relation": "references"
+      },
+      {
+        "identifier": "https://arxiv.org/abs/2510.02749v1",
+        "scheme": "url",
+        "relation": "references"
+      },
+      {
+        "identifier": "https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09",
+        "scheme": "url",
+        "relation": "isNewVersionOf"
+      },
+      {
+        "identifier": "https://github.com/mio-qwq/math/releases/tag/006-strong-product-conjecture-counterexample-2026-10-09",
+        "scheme": "url",
+        "relation": "isSupplementedBy"
+      }
+    ]
+  },
+  "suggested_classifications": {
+    "arxiv": [
+      "math.CO"
+    ],
+    "MSC2020": [
+      "05C69",
+      "05C76",
+      "68V15"
+    ]
+  },
+  "original_statement": {
+    "source": "Bujtas, Irsic Chenoweth, Klavzar and Zhang, Conjecture3.1 (2025 preprint / 2026 journal)",
+    "claim": "If gamma_d^p(G) is infinite, then gamma_d^p(G strong-product H) is infinite for every graph H.",
+    "refutation": "d=2,p=3,G=Q6; connected simple H of order608; product admits64 centers."
+  },
+  "human_author_metadata_status": "USER_SUPPLIED_DRAFT_NOT_COMPLETED_ACCOUNTABILITY_REVIEW",
+  "pending_human_decisions": [
+    "final author information and any additional authors or order",
+    "accountable human examination of mathematics, references and AI involvement",
+    "corresponding email and any department",
+    "actual human contributions, funding and conflicts-of-interest declarations",
+    "deposit license",
+    "publication date and explicit external-publication approval"
+  ],
+  "funding": null,
+  "conflicts_of_interest": null,
+  "corresponding_email": null,
+  "ai_disclosure": "Substantial OpenAI Codex/GPT-6-based agent-system assistance in construction, derivations, Lean, exact checkers, literature searches, independent AI-agent reviews and manuscript writing. No AI author, completed human supervision or human peer review claimed.",
+  "historical_firstness": "NOT_ESTABLISHED"
+}

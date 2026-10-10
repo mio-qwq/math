@@ -1,30 +1,27 @@
 # A counterexample to packing-domination inheritance in strong products
 
-This directory contains the English [paper PDF](paper.pdf), its standalone [LaTeX source](main.tex), and the [manuscript verification record](VERIFICATION.md). The bibliography is embedded in the source; no additional TeX files are required.
+[PDF](paper.pdf) · [Standalone LaTeX](main.tex) · [BibTeX](references.bib) · [Verification](VERIFICATION.md) · [Exact build receipt](verification.json).
 
-The paper gives a self-contained proof that
+Manuscript **v1.2**, 10 October 2026, gives a self-contained proof that
 
 \[
-\gamma_2^3(Q_6)=\infty,
-\qquad
-\gamma_2^3(Q_6\boxtimes H)\le64,
+\gamma_2^3(Q_6)=\infty,\qquad \gamma_2^3(Q_6\boxtimes H)\le64
 \]
 
-for the explicitly defined finite connected simple graph \(H\) with 608 vertices and 9,168 edges. This refutes Conjecture 3.1 as stated in [the original preprint v1](https://arxiv.org/abs/2510.02749v1) and [the published article](https://doi.org/10.1007/s00026-026-00814-0). The 64-center witness is not claimed to be optimal, and the separate \(Q_6\boxtimes Q_6\) feasibility problem is not resolved here.
+for an explicit finite connected simple graph H with 608 vertices and 9168 edges. This refutes Conjecture 3.1 of [the original preprint](https://arxiv.org/abs/2510.02749v1) and [published article](https://doi.org/10.1007/s00026-026-00814-0). The 64 centers are a witness, not a proved optimum; neither Q6×Q6 nor minimum auxiliary order is decided.
 
-The complete existence-level assertion has passed Lean checking on actual finite `SimpleGraph` objects and standard Mathlib `Walk`s. Connectedness of \(H\), its edge count and the numerical minimum function are separate boundaries: the first two have written proofs and exact graph checks, while the Lean sources do not define a numerical gamma function. See the paper and [source-specific verification records](../results/lean-verification.json).
+The complete existence assertion has an actual finite-SimpleGraph and standard-Walk Lean proof. Numerical gamma, H connectedness/edge count/diameter are not separate Lean endpoints. The first two auxiliary facts have written proofs and exact checks. [Actual source-specific compilation evidence](../results/lean-verification.json) is retained; this paper revision does not recompile unchanged mathematical sources.
 
-**Academic status:** public research draft. Human author information and accountable human approval are pending. OpenAI Codex with a GPT-6-based agent system participated substantially in the construction, mathematics, formalization, exact-checker implementation, AI-agent reviews, literature searches and writing; the manuscript discloses these roles. No AI is listed as an author. Separate program implementations and AI-agent reviews do not constitute human peer review. This paper has not been submitted to arXiv or a journal; historical firstness is not established.
+Draft metadata: **River Zhang**, **Chengdu Neusoft University**, ORCID [0009-0004-2437-8566](https://orcid.org/0009-0004-2437-8566). Human accountability, actual contributions/declarations, contact, paper deposit license and external approval remain pending. Substantial OpenAI Codex/GPT-6-based agent-system involvement in construction, mathematics, Lean, programs, literature, independent AI review and writing is disclosed in Section 12. No AI author, external human peer review, completed human supervision or historical firstness is asserted.
 
-**PDF status:** compiled successfully on 9 October 2026 with Tectonic `0.17.0+20260731`; all 14 final PDF pages were rendered and individually inspected by the primary AI agent. All 20 PDF fonts are embedded. The TeX log has no unresolved references, warnings, overfull boxes or underfull boxes. The compiler also emitted a nonfatal Fontconfig startup diagnostic; it is recorded separately rather than described as an entirely silent build. See the [exact source/PDF hashes and build receipt](verification.json).
-
-To compile independently, use a standard LaTeX engine with the common AMS packages, `geometry`, `booktabs`, `longtable` and `hyperref`, for example:
+Installed Tectonic 0.17.0+20260731 successfully built the 15-page PDF. All pages were rendered and inspected, all 20 fonts are embedded, and no unresolved-reference/overflow/missing-character TeX diagnostic remains. Native-editor platform-directory failures and a nonfatal Fontconfig startup message are recorded separately. The editor source remains main.tex.
 
 ```sh
-pdflatex main.tex
-pdflatex main.tex
+tectonic main.tex
 ```
 
-Two passes resolve cross-references. Alternatively, `tectonic main.tex` compiles the same standalone source and resolves references automatically. In this recorded environment, two attempts through the built-in editor's compiler failed to locate platform directories. The PDF was exported successfully using the already bundled Tectonic executable; no TeX distribution was installed. The environment failures are not counted as successful builds.
+Alternatively run pdflatex main.tex twice with standard packages. The bibliography is embedded; references.bib provides the same 10 entries for journal adaptation and is not an extra build input. Different engines/timestamps can alter PDF bytes.
 
-The [complete topic materials](../README.md) include the Lean modules, explicit graph, same-center certificate, two separately implemented Python checkers, replay script and literature scope record.
+[Topic sources](../README.md) · [v1.2 supplement](../../publication/006-v1.2/README.md) · [Review](../../publication/006-v1.2/REVIEW.md) · [Originality](../../publication/ORIGINALITY_REVIEW.md) · [Preparation report](../../PUBLICATION_READINESS.md).
+
+Old immutable releases and dated receipts remain intact. No Zenodo record/DOI, arXiv/journal submission or author contact was made.

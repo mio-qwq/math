@@ -1,0 +1,151 @@
+{
+  "schema": "006-extracted-archive-exact-replay-v1",
+  "checked_utc": "2026-10-10T15:18:32.326452+00:00",
+  "status": "EXTRACTED_ARCHIVE_EXACT_RECONSTRUCTION_AND_COMPARISON_PASS",
+  "archive": "006-v1.2-reproducibility.zip",
+  "archive_sha256": "c9b7109c65ac504dac0e93b4e12049c805f05570fcb8dc99d80b7038628d23f3",
+  "python_version": "3.12.14",
+  "platform": "win32",
+  "commands_from_REPRODUCE_executed_without_optimization": true,
+  "runs": [
+    {
+      "command": [
+        "python",
+        "006-strong-product-packing-counterexample/verify_graph.py",
+        "replay-primary"
+      ],
+      "start_utc": "2026-10-10T15:18:28.667316+00:00",
+      "end_utc": "2026-10-10T15:18:28.995593+00:00",
+      "exit_code": 0,
+      "stdout_sha256": "126c05fc0c8d7ac3ca4bc0ecf52bef1aa4d14b825524bbaa52334ff71ac914ab",
+      "stderr_bytes": 0
+    },
+    {
+      "command": [
+        "python",
+        "006-strong-product-packing-counterexample/verify_independent.py",
+        "own",
+        "--out",
+        "replay-independent"
+      ],
+      "start_utc": "2026-10-10T15:18:28.996613+00:00",
+      "end_utc": "2026-10-10T15:18:32.078657+00:00",
+      "exit_code": 0,
+      "stdout_sha256": "929f49ea5ba2663be1fac03a9796f07575cabb7826e38417b80bea2ee9e3e3a3",
+      "stderr_bytes": 0
+    },
+    {
+      "command": [
+        "python",
+        "006-strong-product-packing-counterexample/verify_independent.py",
+        "compare",
+        "--out",
+        "replay-independent",
+        "--root",
+        "replay-primary"
+      ],
+      "start_utc": "2026-10-10T15:18:32.078657+00:00",
+      "end_utc": "2026-10-10T15:18:32.308943+00:00",
+      "exit_code": 0,
+      "stdout_sha256": "3c279f669e55bc59157d48883ad832d24e03e546f44a1af61f2ce7b8678b2d6e",
+      "stderr_bytes": 0
+    }
+  ],
+  "fresh_extraction_payload_sha256_matched": true,
+  "first_checker_graph_and_certificate_equal_to_frozen_published_bytes": true,
+  "primary_result": {
+    "status": "EXACT_FINITE_GRAPH_REPLAY_PASS",
+    "start_utc": "2026-10-10T15:18:28.733353+00:00",
+    "end_utc": "2026-10-10T15:18:28.965639+00:00",
+    "source_sha256": "07cddcd2d9a8d97b064a960ad6aee6671d869d70becbc68974f8ffb7e05f3bb1",
+    "parameters": {
+      "d": 2,
+      "p": 3
+    },
+    "G_vertices": 64,
+    "G_edges": 192,
+    "G_actual_graph_distances_equal_hamming": true,
+    "H_vertices": 608,
+    "H_edges": 9168,
+    "H_simple_undirected_connected": true,
+    "H_degree_range": [
+      16,
+      83
+    ],
+    "H_center_to_any_max_distance": 4,
+    "product_center_count": 64,
+    "checked_unordered_center_pairs": 2016,
+    "minimum_product_center_distance": 4,
+    "checked_same_center_targets": 38912,
+    "uncovered_targets": 0,
+    "packing_violations": 0,
+    "graph_sha256": "c8746a41f206642d8a50328cc0e924a299f241da6fdf65388cf4c993735f084b",
+    "certificate_sha256": "be0f9c9f593f6cc82f4ef25fbff82df5560985ad176e3e6d47ac962d1b41d7e5",
+    "factor_nonexistence_scope": "existing all-subsets Q6PackingDomination proof; not reproved by this replay",
+    "claim_scope": "Exact actual-graph replay; mathematical proof and Lean verification are recorded separately in README.md"
+  },
+  "separate_reconstruction_result": {
+    "artifact_sha256": {
+      "coverage-independent.json": "bca050499abe00a43a46b7ac1354b32bfcf967e2120946f4cd55d489de7dd4d2",
+      "distances-independent.json": "c069c3de21cd2c491b125f0617908702c8f2143765c9920d0588f17bfe4ab589",
+      "graph-independent.json": "a23d4b896fae57923d372af0e43cf227519a603b4a10213ceede2e514733c03c",
+      "packing-independent.json": "9351a50a523707ca1174146063b4db27ee3ce6885cbd79de74dfd106137166c6",
+      "reachable-labels-independent.json": "1fe412cd110e797cf39af7a46c1728ece12f5c9656efd32c4062d0b4c228ebf0"
+    },
+    "bfs_distance_entries": 369664,
+    "bfs_relaxations": 11148288,
+    "bfs_rows": 608,
+    "claim_scope": "Independent finite graph and exact candidate checks; not a Lean kernel proof or a priority claim.",
+    "connected": true,
+    "edge_count": 9168,
+    "edge_type_counts": {
+      "A-E": 960,
+      "A-S": 64,
+      "E-E": 3600,
+      "E-S": 3840,
+      "S-S": 704
+    },
+    "ended_utc": "2026-10-10T15:18:32.047424+00:00",
+    "graph_diameter": 4,
+    "maximum_reachable_center_labels": 23,
+    "minimum_product_center_distance": 4,
+    "minimum_reachable_center_labels": 8,
+    "node_count": 608,
+    "node_type_counts": {
+      "A": 64,
+      "E": 480,
+      "S": 64
+    },
+    "packing_pairs_checked": 2016,
+    "proper_unordered_adjacency_pairs_checked": 184528,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "root_artifacts_read": false,
+    "same_center_covering_targets_checked": 38912,
+    "source_sha256": "f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d",
+    "started_utc": "2026-10-10T15:18:29.096689+00:00",
+    "status": "OWN_EXACT_PASS_ROOT_COMPARISON_PENDING"
+  },
+  "comparison_result": {
+    "canonical_edges_matched": 9168,
+    "canonical_nodes_matched": 608,
+    "claim_scope": "Exact integer replay and certificate comparison only; no Lean or publication/priority claim.",
+    "ended_utc": "2026-10-10T15:18:32.273567+00:00",
+    "mustfix": 0,
+    "own_phase_source_sha256": "f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d",
+    "own_result_sha256": "cd0feda4ecb19e8a49cbfeeb387d1e9ad9eb228a382f078e70293fbf514082ab",
+    "root_center_bfs_entries_matched": 38912,
+    "root_certificate_sha256": "be0f9c9f593f6cc82f4ef25fbff82df5560985ad176e3e6d47ac962d1b41d7e5",
+    "root_graph_sha256": "c8746a41f206642d8a50328cc0e924a299f241da6fdf65388cf4c993735f084b",
+    "root_same_center_witnesses_independently_validated": 38912,
+    "root_vertex_numbering_identical": true,
+    "root_witnesses_different_but_valid": 0,
+    "root_witnesses_equal_own_minimum_choice": 38912,
+    "source_sha256": "f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d",
+    "started_utc": "2026-10-10T15:18:32.140042+00:00",
+    "status": "INDEPENDENT_EXACT_REPLAY_AND_ROOT_COMPARISON_PASS"
+  },
+  "lean_recompiled": false,
+  "empty_cache_dependency_bootstrap_tested": false,
+  "human_independent_reproduction_claimed": false,
+  "external_action_performed": false
+}

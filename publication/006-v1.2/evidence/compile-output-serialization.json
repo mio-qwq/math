@@ -1,0 +1,8 @@
+{
+  "original_log_sha256": "7899c5dd26daaaea08ec1daf3770c477d4c743bef7c47530a01141993f52c16e",
+  "published_log_sha256": "c8455e0d4ee9ed654f03e3022b3073f4de4d8dcb9490adb002dec8e3091251ff",
+  "normalization": "UTF-8 without BOM, LF line endings",
+  "redaction": "Two absolute local output paths replaced by <local-build-directory>; diagnostic text preserved.",
+  "redacted_path_count": 2,
+  "original_log_retained_locally": true
+}

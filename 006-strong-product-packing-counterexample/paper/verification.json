@@ -1,72 +1,101 @@
 {
-  "schema_version": 1,
-  "status": "scientifically checked public research draft; human author approval pending",
-  "date": "2026-10-09",
+  "schema_version": 3,
+  "version": "1.2.0-draft",
+  "date": "2026-10-10",
+  "status": "Completed AI-reviewed preprint files; supplied draft author/affiliation; human responsibility, license and external approval pending",
   "mathematical_baseline_commit": "613108f1fa107a88a1049ed5f25e6b9313d576ed",
   "source": {
     "path": "main.tex",
-    "sha256": "2207f48d3dc5d3481a02a21ee16b35f1a3820860c6826c96b8391ffc02e07b3b"
+    "sha256": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e"
+  },
+  "references": {
+    "path": "references.bib",
+    "sha256": "b5901171ea86152430b558c13ba309a3ef22c836fa2c8998a9e60dbcdecfe529",
+    "standalone_embedded_bibliography": true,
+    "matching_key_count": 10
   },
   "pdf": {
     "path": "paper.pdf",
-    "sha256": "ce38ceca74e055c4e14c1f4ad65bb4cf665a2435d779ea65aef8a4c6580bf383",
-    "bytes": 124128,
-    "pages": 14
+    "sha256": "67321311374782d68511a6ff3847dbdad61c6d626f7733c4fd5540ed3f99ad8f",
+    "bytes": 129556,
+    "pages": 15
   },
   "compile": {
+    "source_sha256": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e",
+    "start_utc": "2026-10-10T14:59:14.3598768Z",
+    "native_editor_result": "environment failure: Unable to find standard directories for platform",
+    "end_utc": "2026-10-10T14:59:15.8010914Z",
+    "source_after_sha256": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e",
     "engine": "existing bundled Tectonic 0.17.0+20260731",
     "exit_code": 0,
-    "start_utc": "2026-10-09T08:36:32.9113124Z",
-    "end_utc": "2026-10-09T08:36:34.5880059Z",
+    "native_editor_attempts_v1_2_total": 3,
     "source_unchanged": true,
     "tex_diagnostics": [],
-    "nonfatal_startup_diagnostic": "Fontconfig error: Cannot load default config file",
-    "native_editor_attempts": 2,
-    "native_editor_result": "environment failure: Unable to find standard directories for platform"
+    "nonfatal_startup_diagnostic": "Fontconfig error: Cannot load default config file"
   },
   "pdf_checks": {
+    "pages": 15,
     "font_count": 20,
     "all_fonts_embedded": true,
     "all_pages_have_extractable_text": true,
-    "replacement_character_pages": [],
-    "has_versioned_original_link": true,
-    "has_pinned_source_baseline_link": true,
+    "tex_diagnostics": [],
+    "source_sha256": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e",
+    "pdf_sha256": "67321311374782d68511a6ff3847dbdad61c6d626f7733c4fd5540ed3f99ad8f",
+    "pdf_bytes": 129556,
+    "references_bib_sha256": "b5901171ea86152430b558c13ba309a3ef22c836fa2c8998a9e60dbcdecfe529",
+    "matching_embedded_and_companion_bibliography_keys": [
+      "beineke-henning",
+      "bickz-strong",
+      "bickz-complexity",
+      "perfect",
+      "fisher",
+      "handbook",
+      "plotkin",
+      "lean4",
+      "mathlib",
+      "repository"
+    ],
+    "all_citation_and_cross_reference_keys_resolve": true,
+    "identical_rendered_pages_to_previous_formal_build": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
     "visual_review": {
-      "pages": [
+      "direct_final_pages": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "previously_inspected_identical_pages": [
         1,
         2,
-        3,
         4,
         5,
         6,
         7,
         8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
+        9
       ],
-      "renderer": "Poppler pdftoppm at scale-to 1600",
-      "method": "primary AI agent individually inspected every rendered page",
-      "result": "no clipping, overlap, missing visible glyphs, unresolved references or table overflow observed",
+      "pending": [],
+      "renderer": "Poppler pdftoppm, scale-to 1600",
+      "result": "No clipping, overlap, missing glyphs or table overflow observed",
       "human_review_claimed": false
-    }
-  },
-  "reviews": {
-    "mathematics_lean_computation": {
-      "reviewer_type": "separately assigned AI agent",
-      "final_source_sha256": "2207f48d3dc5d3481a02a21ee16b35f1a3820860c6826c96b8391ffc02e07b3b",
-      "must_fix_count": 0,
-      "report_sha256": "d4a6597f35a4c00ae2eeba1e4dc34de9c93a5da9c908954ceddc33c6d4fd49e8"
-    },
-    "literature": {
-      "reviewer_type": "separately assigned AI agent",
-      "final_source_sha256": "2207f48d3dc5d3481a02a21ee16b35f1a3820860c6826c96b8391ffc02e07b3b",
-      "must_fix_count": 0,
-      "report_sha256": "a704df6d72277e22efd3f4b5eee16ccc041ece097baba7a777c39dc076b17b22",
-      "historical_firstness": "unknown"
     }
   },
   "unchanged_checked_lean_sources": {
@@ -85,12 +114,237 @@
     "Quot.sound"
   ],
   "academic_status": {
-    "human_authors": "pending confirmation",
-    "human_accountable_approval": "pending",
-    "ai_authors": false,
-    "human_peer_review_claimed": false,
-    "arxiv_or_journal_submission": false,
-    "historical_firstness_claimed": false,
-    "venue_eligibility_claimed": false
+    "draft_human_author": "River Zhang",
+    "draft_orcid": "0009-0004-2437-8566",
+    "draft_affiliation": "Chengdu Neusoft University",
+    "human_accountability_review_completed": false,
+    "paper_deposit_license": null,
+    "external_publication_approved": false,
+    "doi_created_or_reserved": false,
+    "ai_disclosed": true,
+    "historical_firstness": "NOT_ESTABLISHED"
+  },
+  "previous_v1_receipt": {
+    "schema_version": 1,
+    "status": "scientifically checked public research draft; human author approval pending",
+    "date": "2026-10-09",
+    "mathematical_baseline_commit": "613108f1fa107a88a1049ed5f25e6b9313d576ed",
+    "source": {
+      "path": "main.tex",
+      "sha256": "2207f48d3dc5d3481a02a21ee16b35f1a3820860c6826c96b8391ffc02e07b3b"
+    },
+    "pdf": {
+      "path": "paper.pdf",
+      "sha256": "ce38ceca74e055c4e14c1f4ad65bb4cf665a2435d779ea65aef8a4c6580bf383",
+      "bytes": 124128,
+      "pages": 14
+    },
+    "compile": {
+      "engine": "existing bundled Tectonic 0.17.0+20260731",
+      "exit_code": 0,
+      "start_utc": "2026-10-09T08:36:32.9113124Z",
+      "end_utc": "2026-10-09T08:36:34.5880059Z",
+      "source_unchanged": true,
+      "tex_diagnostics": [],
+      "nonfatal_startup_diagnostic": "Fontconfig error: Cannot load default config file",
+      "native_editor_attempts": 2,
+      "native_editor_result": "environment failure: Unable to find standard directories for platform"
+    },
+    "pdf_checks": {
+      "font_count": 20,
+      "all_fonts_embedded": true,
+      "all_pages_have_extractable_text": true,
+      "replacement_character_pages": [],
+      "has_versioned_original_link": true,
+      "has_pinned_source_baseline_link": true,
+      "visual_review": {
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "renderer": "Poppler pdftoppm at scale-to 1600",
+        "method": "primary AI agent individually inspected every rendered page",
+        "result": "no clipping, overlap, missing visible glyphs, unresolved references or table overflow observed",
+        "human_review_claimed": false
+      }
+    },
+    "reviews": {
+      "mathematics_lean_computation": {
+        "reviewer_type": "separately assigned AI agent",
+        "final_source_sha256": "2207f48d3dc5d3481a02a21ee16b35f1a3820860c6826c96b8391ffc02e07b3b",
+        "must_fix_count": 0,
+        "report_sha256": "d4a6597f35a4c00ae2eeba1e4dc34de9c93a5da9c908954ceddc33c6d4fd49e8"
+      },
+      "literature": {
+        "reviewer_type": "separately assigned AI agent",
+        "final_source_sha256": "2207f48d3dc5d3481a02a21ee16b35f1a3820860c6826c96b8391ffc02e07b3b",
+        "must_fix_count": 0,
+        "report_sha256": "a704df6d72277e22efd3f4b5eee16ccc041ece097baba7a777c39dc076b17b22",
+        "historical_firstness": "unknown"
+      }
+    },
+    "unchanged_checked_lean_sources": {
+      "notes/proof/Q6PackingDomination.lean": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+      "006-strong-product-packing-counterexample/proof/Q6PackingComplexGeometry.lean": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830",
+      "006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b"
+    },
+    "independent_actual_lean_audits": [
+      12,
+      12,
+      26
+    ],
+    "only_final_endpoint_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "academic_status": {
+      "human_authors": "pending confirmation",
+      "human_accountable_approval": "pending",
+      "ai_authors": false,
+      "human_peer_review_claimed": false,
+      "arxiv_or_journal_submission": false,
+      "historical_firstness_claimed": false,
+      "venue_eligibility_claimed": false
+    }
+  },
+  "previous_v1_1_receipt": {
+    "schema_version": 2,
+    "version": "1.1.0-draft",
+    "date": "2026-10-10",
+    "status": "AI-reviewed public research draft; human authorship/license/publication approval pending",
+    "mathematical_baseline_commit": "613108f1fa107a88a1049ed5f25e6b9313d576ed",
+    "source": {
+      "path": "main.tex",
+      "sha256": "9c40d8304939954daafe07d25eb357eeb9aee80e6b0c2ca2788bfff84abb7160"
+    },
+    "pdf": {
+      "path": "paper.pdf",
+      "sha256": "4c53628a4aaf48b6aa0a2f9ddff67aa6c44c29564f08ea5cf034e760c0917848",
+      "bytes": 126617,
+      "pages": 15
+    },
+    "compile": {
+      "native_editor_result": "environment failure: Unable to find standard directories for platform",
+      "source_after_sha256": "9c40d8304939954daafe07d25eb357eeb9aee80e6b0c2ca2788bfff84abb7160",
+      "exit_code": 0,
+      "end_utc": "2026-10-10T14:02:48.8832462Z",
+      "source_sha256": "9c40d8304939954daafe07d25eb357eeb9aee80e6b0c2ca2788bfff84abb7160",
+      "native_editor_attempts_this_revision": 1,
+      "engine": "existing bundled Tectonic 0.17.0+20260731",
+      "start_utc": "2026-10-10T14:02:47.4254880Z",
+      "source_unchanged": true,
+      "tex_diagnostics": [],
+      "nonfatal_startup_diagnostic": "Fontconfig error: Cannot load default config file",
+      "native_editor_attempts_v1_1_total": 2
+    },
+    "pdf_checks": {
+      "pages": 15,
+      "font_count": 20,
+      "all_fonts_embedded": true,
+      "all_pages_have_extractable_text": true,
+      "tex_diagnostics": [],
+      "source_sha256": "9c40d8304939954daafe07d25eb357eeb9aee80e6b0c2ca2788bfff84abb7160",
+      "pdf_sha256": "4c53628a4aaf48b6aa0a2f9ddff67aa6c44c29564f08ea5cf034e760c0917848",
+      "pdf_bytes": 126617,
+      "unchanged_rendered_page_numbers_from_first_v1_1_build": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "visual_review": {
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "renderer": "Poppler pdftoppm, scale-to 1600",
+        "method": "ROOT inspected every page individually; final pages1-12 are byte-identical PNGs to the inspected first v1.1 rendering, final13-15 inspected directly",
+        "result": "No clipping, overlap, missing glyphs, unresolved references or table overflow observed",
+        "human_review_claimed": false
+      }
+    },
+    "unchanged_checked_lean_sources": {
+      "notes/proof/Q6PackingDomination.lean": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476",
+      "006-strong-product-packing-counterexample/proof/Q6PackingComplexGeometry.lean": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830",
+      "006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b"
+    },
+    "independent_actual_lean_audits": [
+      12,
+      12,
+      26
+    ],
+    "only_final_endpoint_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "academic_status": {
+      "human_authors": "pending confirmation",
+      "human_accountable_approval": "pending",
+      "ai_authors": false,
+      "human_peer_review_claimed": false,
+      "arxiv_or_journal_submission": false,
+      "historical_firstness_claimed": false,
+      "venue_eligibility_claimed": false
+    },
+    "current_replay": {
+      "proof_sources_recompiled": false,
+      "exact_graph_primary_and_separate_reconstruction": true,
+      "environment_checked": true,
+      "environment_only_check_is_not_a_lean_proof": true
+    },
+    "new_review_status": {
+      "mathematical_review": "Independent AI review PASS; human review not claimed",
+      "review_summary": "publication/006-v1.1/REVIEW.md",
+      "package_acceptance": "Recorded separately in package-validation.json after freezing the archive",
+      "historical_firstness": "NOT_ESTABLISHED"
+    }
+  },
+  "current_replay": {
+    "proof_sources_recompiled": false,
+    "exact_graph_primary_and_separate_reconstruction": true,
+    "environment_checked": true,
+    "environment_only_check_is_not_a_lean_proof": true
+  },
+  "new_review_status": {
+    "mathematical_review": "Independent AI review; current frozen source review summarized in REVIEW.md",
+    "review_summary": "publication/006-v1.2/REVIEW.md",
+    "package_acceptance": "Recorded separately after freezing the exact archive",
+    "historical_firstness": "NOT_ESTABLISHED"
   }
 }

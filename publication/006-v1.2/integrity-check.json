@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-10T15:17:11.815001+00:00",
+  "status": "PAYLOAD_HASH_AND_ZIP_REOPEN_PASS",
+  "archive": "publication/006-v1.2/006-v1.2-reproducibility.zip",
+  "archive_sha256": "c9b7109c65ac504dac0e93b4e12049c805f05570fcb8dc99d80b7038628d23f3",
+  "payload_files": 46,
+  "zip_entries": 47,
+  "archive_bytes": 285592,
+  "every_payload_matches_current_frozen_file": true,
+  "all_math_lean_sources_identical_to_baseline": true,
+  "math_source_recompiled_in_this_step": false,
+  "clean_machine_bootstrap_tested": false
+}

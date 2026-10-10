@@ -25,8 +25,8 @@
 \newcommand{\pairs}{\mathcal P_4}
 \title{A counterexample to packing-domination\\
 inheritance in strong products}
-\author{Human author information pending confirmation}
-\date{Public research draft --- 9 October 2026}
+\author{River Zhang\\[3pt]\small Chengdu Neusoft University}
+\date{Preprint draft v1.2 --- 10 October 2026}
 
 \begin{document}
 \maketitle
@@ -56,12 +56,17 @@ priority is not asserted.
 \end{abstract}
 \noindent\textbf{Keywords.} Distance domination; packing; strong graph
 product; hypercube; explicit counterexample; formal verification.
+\par\noindent\textbf{2020 Mathematics Subject Classification.}
+Primary 05C69; Secondary 05C76, 68V15.
 
 \medskip
-\noindent\textbf{Draft status.} Human author identity and accountable human
-approval remain pending. This document has not been submitted to arXiv
+\noindent\textbf{Draft status.} The author name and affiliation were supplied
+by the project owner as draft metadata; accountable human examination and publication approval remain
+pending. This document has not been submitted to arXiv
 or a journal and has not undergone human peer review. Substantial AI
 participation is disclosed in Section~\ref{sec:disclosure}.
+Version v1.2 retains the mathematical construction of v1, expands the
+literature discussion, and supplies a versioned reproducibility package.
 
 \section{Introduction}\label{sec:introduction}
 Distance domination and packing impose opposing requirements on a set of
@@ -105,6 +110,11 @@ strong products is established in~\cite{perfect}. Our example instead
 uses \(d=2,p=3\), where balls associated with a packing may overlap.
 This is the smallest integral parameter pair in the remaining interval.
 The support construction below uses that overlap directly.
+Thus the result concerns existence of a feasible set, before any
+comparison of finite optimal values. A product can restore feasibility
+even when one factor admits no feasible set at all.
+
+\subsection{Main result}
 
 \begin{theorem}\label{thm:main}
 There is a finite nonempty connected simple undirected graph \(H\) with
@@ -143,6 +153,51 @@ and the product distance formula is standard~\cite{handbook}.
 Compatibility graphs and clique supports are also established general
 tools. We do not claim novelty for these ingredients or assert
 historical firstness for this counterexample.
+
+\section{Related work}\label{sec:related}
+Beineke and Henning~\cite{beineke-henning} studied independent distance
+domination under a joint condition with separation parameter \(p\)
+and covering radius \(d\). The
+parameter in this paper is the same simultaneous packing and domination
+requirement, with notation adopted from~\cite{bickz-strong}. It must not
+be confused with the two separate optimization parameters for packing
+and domination. Fisher~\cite{fisher} studied domination, fractional
+domination, 2-packing and graph products. We cite that work for the
+older product context, without attributing to it an unverified
+statement about the joint parameter considered here.
+
+Abay-Asmerom, Hammack and Taylor~\cite{perfect} established the
+inheritance of perfect \(r\)-code nonexistence in strong products.
+Their result applies to the endpoint \(p=2d\), where the closed
+dominating balls partition the vertex set. The conjecture
+in~\cite{bickz-strong} extends this existence question to general
+packing-domination parameters; our counterexample lies strictly
+between \(d\) and \(2d\). It therefore preserves the perfect-code
+result while disproving the proposed extension. The close-vertex
+hypothesis used for a positive result in~\cite{bickz-strong} is also
+absent from our auxiliary graph, as proved in
+Proposition~\ref{prop:no-close}.
+
+The companion work~\cite{bickz-complexity} investigates computational
+complexity, exact values for paths and cycles, and bounds for trees.
+Those results do not impose
+such a restriction on the universal quantifier over \(H\) in
+Conjecture~3.1. Our auxiliary graph need not be a cycle, a tree,
+or a second hypercube. The source correspondence is stated explicitly
+in~\eqref{eq:original-conjecture}, and all graphs used here are finite
+and connected.
+
+The counting argument for the cube obstruction is a classical
+Plotkin-type method~\cite{plotkin}; the strong-product metric is
+standard~\cite{handbook}. Neither ingredient is claimed as a new
+theorem. The contribution presented here is the explicit support
+construction and its complete verification as a counterexample to
+the stated universal implication. Targeted literature checks have
+not established historical firstness; their limitations are recorded
+in Section~\ref{sec:discussion}. Lean~\cite{lean4} and
+Mathlib~\cite{mathlib} provide an additional, separately delimited
+formal check of the existence assertion, described in
+Section~\ref{sec:formal}.
 
 \section{Definitions and graph distances}\label{sec:preliminaries}
 Throughout the proof, a graph is finite, nonempty, simple and undirected;
@@ -890,7 +945,7 @@ problem: this paper does not decide whether
 \(\gamma_2^3(Q_6\boxtimes Q_6)\) is finite.
 
 The primary preprint and published article were checked on
-9 October 2026; their conjecture statements agree in the
+9 and 10 October 2026; their conjecture statements agree in the
 relevant scope. Targeted identifier, author, older
 \((p,d)\)-domination and support-compatibility searches did
 not locate a verified earlier complete result subsuming this
@@ -900,6 +955,12 @@ as~\cite{fisher} also involve packing and domination.
 A full historical audit remains necessary before asserting
 priority. Correctness of the explicit counterexample and
 historical priority are separate questions.
+The accompanying publication audit records the checked sources,
+the limits of the citation search and the precise formalization
+boundary. It is not a bibliometric similarity certificate or an
+external referee report. Before submission, the eventual human
+authors must examine the proof, the cited literature and the
+accountability requirements of the selected venue.
 
 \section{AI involvement and academic status}\label{sec:disclosure}
 Substantial generative-AI assistance was used in this research.
@@ -915,9 +976,11 @@ they are not described as independent human reviews.
 The Lean kernel checks and actual program executions are
 recorded separately from AI-generated reasoning.
 
-As of 9 October 2026, human author information and accountable
-human approval remain pending. No AI system is listed as an
-author. Any eventual human signatories must examine and take
+As of 10 October 2026, the project owner has supplied the draft human
+author name River Zhang, ORCID identifier 0009-0004-2437-8566,
+and affiliation Chengdu Neusoft University. Accountable human examination,
+license selection and external publication approval remain pending.
+No AI system is listed as an author. The human author must examine and take
 responsibility for all content, including proofs, references,
 verification claims and disclosures.
 This public research draft does not claim completed human
@@ -925,6 +988,16 @@ scholarly supervision or peer review. It has not been submitted
 to arXiv or a journal, has no arXiv identifier of its own, and
 does not claim acceptance or compliance with a particular
 venue's eligibility requirements.
+No Zenodo record or DOI has been created for this manuscript by
+this preparation work. The deposit license has not been selected.
+The author information is
+recorded from the project owner's instruction, not invented by an AI
+system. The substantial mathematical and writing assistance described
+above must not be represented as language polishing alone.
+No correspondence address, department, funding declaration or
+statement of the human author's individual research contributions
+has been supplied. These items must be confirmed by the author before
+submission; no absence of funding or conflicts of interest is inferred.
 
 \appendix
 \section{Source correspondence and reproducibility}\label{app:repro}
@@ -977,7 +1050,15 @@ prepare the dependency package
 \path{002-weighted-rectangular-pruning/proof/mathlib}.
 Its manifest fixes Mathlib and the transitive dependencies.
 Obtain the required dependency artifacts using Lake's cache
-command if they are absent. The replay runs all three
+command if they are absent. In a fresh checkout, first run
+\texttt{lake update} and \texttt{lake exe cache get} from that
+dependency package; its Git requirement fixes the Mathlib revision.
+The versioned supplementary archive includes the toolchain,
+Git dependency configuration, transitive manifest and the external
+factor module, rather than requiring a private local dependency path.
+The replay first queries the actual Lean version and Mathlib Git
+revision and checks them against the pins. An environment-only
+check does not count as a proof compilation. The replay runs all three
 project sources serially and creates new object files;
 it does not accept old project objects as a substitute
 for source compilation.

@@ -1,0 +1,79 @@
+{
+  "schema": "006-final-publication-file-and-replay-gate-v1",
+  "checked_utc": "2026-10-10T15:25:31.975302+00:00",
+  "status": "COMPLETE_FILE_AND_EXTRACTED_REPLAY_PASS",
+  "performed_by": "Primary AI agent; distinct independent AI manuscript review recorded separately",
+  "archive_sha256": "c9b7109c65ac504dac0e93b4e12049c805f05570fcb8dc99d80b7038628d23f3",
+  "payload_files": 46,
+  "zip_entries": 47,
+  "archive_bytes": 285592,
+  "payload_manifest_zip_crc_and_current_file_checks": {
+    "package": "publication/006-v1.2",
+    "archive_sha256": "c9b7109c65ac504dac0e93b4e12049c805f05570fcb8dc99d80b7038628d23f3",
+    "payload_files": 46,
+    "zip_entries": 47,
+    "status": "FILE_INTEGRITY_PASS",
+    "mathematical_proof_checked": false
+  },
+  "document_links_and_privacy_checks": {
+    "checked_utc": "2026-10-10T15:20:07.812433+00:00",
+    "status": "DOCUMENT_LINKS_FROZEN_OBJECTS_PRIVACY_AND_UNCHANGED_MATH_PASS",
+    "markdown_files": 8,
+    "local_links": 73,
+    "frozen_git_links": 10,
+    "unexpected_broken_links": [],
+    "deferred_final_package_receipt_links": [],
+    "secret_pattern_hits": 0,
+    "metadata_author_draft_matches_supplied_information": true,
+    "metadata_license_and_publication_date_unset": true,
+    "all_packaged_lean_sources_identical_to_baseline": true
+  },
+  "frozen_manuscript_file_sha256": {
+    "006-strong-product-packing-counterexample/paper/main.tex": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e",
+    "006-strong-product-packing-counterexample/paper/paper.pdf": "67321311374782d68511a6ff3847dbdad61c6d626f7733c4fd5540ed3f99ad8f",
+    "006-strong-product-packing-counterexample/paper/references.bib": "b5901171ea86152430b558c13ba309a3ef22c836fa2c8998a9e60dbcdecfe529"
+  },
+  "independent_ai_manuscript_review": {
+    "report_sha256": "05b3ad9a862a89a35260aa07faa19dac6640692749b1c1ae9beb326d44cdefa9",
+    "reviewed_main_tex_sha256": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e",
+    "remaining_mathematical_or_citation_mustfix": 0,
+    "scope": "Written mathematics, citation and manuscript audit; not external human peer review or independent final-ZIP execution"
+  },
+  "pdf_actual_compilation_and_page_checks": {
+    "receipt": "006-strong-product-packing-counterexample/paper/verification.json",
+    "pages": 15,
+    "all_pages_visually_checked_by_primary_ai": true,
+    "embedded_fonts": 20,
+    "tex_references_resolved": true,
+    "bibliography_entries": 10,
+    "native_editor_compiler_status": "Environment directory lookup failure; bundled Tectonic compiler succeeded"
+  },
+  "extracted_archive_exact_replay": {
+    "receipt": "publication/006-v1.2/archive-replay.json",
+    "receipt_sha256": "3a961b98ba7023d5149024debde2bdd81fe4ef540e4256081efa1b0c4fadfdb1",
+    "all_three_documented_commands_exit_zero": true,
+    "primary_and_separate_reconstruction_certificate_comparison_pass": true,
+    "checked_same_center_targets": 38912,
+    "checked_center_pairs": 2016,
+    "fresh_extraction_payload_and_frozen_graph_certificate_bytes_match": true
+  },
+  "lean_scope": {
+    "math_sources_identical_to_previously_verified_baseline": true,
+    "historical_actual_kernel_and_axiom_audits_preserved": true,
+    "proofs_recompiled_for_this_packaging_gate": false,
+    "empty_cache_dependency_bootstrap_tested": false,
+    "scope_reference": "006-strong-product-packing-counterexample/paper/VERIFICATION.md"
+  },
+  "external_checksums_expected": 10,
+  "external_publication": {
+    "human_metadata_status": "USER_SUPPLIED_DRAFT_NOT_COMPLETED_ACCOUNTABILITY_REVIEW",
+    "final_human_accountability_review_pending": true,
+    "license_pending_human_confirmation": true,
+    "historical_firstness": "Not established by bounded literature searches",
+    "doi_reserved": false,
+    "zenodo_record_created": false,
+    "arxiv_or_journal_submission_performed": false,
+    "authors_contacted": false
+  },
+  "external_action_performed": false
+}

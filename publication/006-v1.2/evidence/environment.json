@@ -1,0 +1,35 @@
+{
+  "status": "PINNED_ENVIRONMENT_PASS",
+  "checked_utc": "2026-10-10T14:18:37.182725+00:00",
+  "observed": {
+    "checked_utc": "2026-10-10T14:18:36.495497+00:00",
+    "lean_version": "4.34.1",
+    "lean_version_output": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+    "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "manifest_mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "lean_toolchain": "leanprover/lean4:v4.34.1",
+    "mathlib_tracked_worktree_clean": true,
+    "configuration_sha256": {
+      "lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "lakefile.lean": "74cb4107742058e0042a04fd1fd7230c745b6519ef3e358f73ca91dea93a3368",
+      "lake-manifest.json": "1b85cf58f31f8666cdef2e82532e02a17a00ef58722db185d572c93b3981c7a7"
+    }
+  },
+  "proof_compiled": false,
+  "checker_sha256": "71ccfab40c2b87f537d761c0f395845d1fe678c4da619323e97636b415cf9f92",
+  "version_negative_controls": [
+    {
+      "synthetic_version": "4.34.1-rc1",
+      "status": "REJECTED"
+    },
+    {
+      "synthetic_version": "4.34.1-dev",
+      "status": "REJECTED"
+    },
+    {
+      "synthetic_version": "4.35.0",
+      "status": "REJECTED"
+    }
+  ],
+  "control_method": "Synthetic version output only; other commands read the actual unchanged dependency checkout."
+}

@@ -1,0 +1,65 @@
+{
+  "pages": 15,
+  "font_count": 20,
+  "all_fonts_embedded": true,
+  "all_pages_have_extractable_text": true,
+  "tex_diagnostics": [],
+  "source_sha256": "f831f59c14d25f3b83134be4366fbdd1926af6f7e5bfa2c9467097f4a281c24e",
+  "pdf_sha256": "67321311374782d68511a6ff3847dbdad61c6d626f7733c4fd5540ed3f99ad8f",
+  "pdf_bytes": 129556,
+  "references_bib_sha256": "b5901171ea86152430b558c13ba309a3ef22c836fa2c8998a9e60dbcdecfe529",
+  "matching_embedded_and_companion_bibliography_keys": [
+    "beineke-henning",
+    "bickz-strong",
+    "bickz-complexity",
+    "perfect",
+    "fisher",
+    "handbook",
+    "plotkin",
+    "lean4",
+    "mathlib",
+    "repository"
+  ],
+  "all_citation_and_cross_reference_keys_resolve": true,
+  "identical_rendered_pages_to_previous_formal_build": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visual_review": {
+    "direct_final_pages": [
+      3,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "previously_inspected_identical_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "pending": [],
+    "renderer": "Poppler pdftoppm, scale-to 1600",
+    "result": "No clipping, overlap, missing glyphs or table overflow observed",
+    "human_review_claimed": false
+  }
+}
