@@ -114,3 +114,13 @@
 - Latest completed packet remote64f7633 remains frozen and pending independent acceptance. Clean remote archive passed all122 manifest files and nine checks.
 - Source and noncollision gate: two_saturated_112/SOURCE_GATE.md. Initial phase: reservation, no counterexample or theorem yet. New route: edge-cover subdivisions of cubic cores and exact distance-two-independent odd-cycle-transversal certificates.
 - Next: publish this reservation before computation, implement exact search and a separate verifier. User requested continuation without new subagents; B performs this work personally.
+
+## Original Conjecture3 counterexample verified, 2026-10-10 07:07 UTC
+
+- Public pre-computation reservation b7ac4fc51b02220a04aa99061706078c0420ef09.
+- Result: seven vertices, nine edges, K4 with one three-edge star subdivided once. It satisfies all original 2-saturation/subcubic hypotheses and admits no (1,1,2)-packing coloring. This IS an original-conjecture counterexample, not a strengthened variant.
+- Evidence: complete elementary triangle/odd-five-cycle contradiction; independent implementation checks all2187 assignments directly from BFS distances, plus3 symmetric proof cases and2 rejected corruptions. Actual PASS. No new research agents; B self-review, independent acceptance pending.
+- Discovery:1000 restricted matching-subdivision presentations SAT, broader edge-cover search finds witness and stops; planned parity batch not run. No minimality claim. Latest literature/source recheck found no resolution but historical novelty remains uncertain.
+- Next: freeze and publish proof, certificate, independent checker and reproducible logs promptly. Earlier four positive candidates remain unchanged and pending review. No Lean, signing, author contact, main edits or root project numbering.
+
+Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d76612b8c4777fb9906b3506c7a482e7984ca9a1cbcba62491b32d3eda91ff. Checker SHA256 7fe25d248e7bc772497effa491a1bd87e92cf46d8724d7302fb1ea6d1f9c25b9.

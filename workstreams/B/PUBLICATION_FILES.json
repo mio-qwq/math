@@ -121,5 +121,11 @@
   "workstreams/B/triangle_packing/verify_first.py",
   "workstreams/B/triangle_packing/verify_five.py",
   "workstreams/B/triangle_packing/verify_transfer.py",
-  "workstreams/B/two_saturated_112/SOURCE_GATE.md"
+  "workstreams/B/two_saturated_112/PROOF.md",
+  "workstreams/B/two_saturated_112/SOURCE_GATE.md",
+  "workstreams/B/two_saturated_112/candidate.json",
+  "workstreams/B/two_saturated_112/search.log",
+  "workstreams/B/two_saturated_112/search.py",
+  "workstreams/B/two_saturated_112/verify_candidate.log",
+  "workstreams/B/two_saturated_112/verify_candidate.py"
 ]

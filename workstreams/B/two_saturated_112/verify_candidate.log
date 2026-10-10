@@ -1,0 +1,3 @@
+{"assignments": 2187, "degrees": [3, 3, 3, 3, 2, 2, 2], "diameter": 2, "edges": 9, "triangle_cases": 3, "valid_colorings": 0, "vertices": 7}
+PASS rejected degree-four corrupted graph
+PASS rejected colorable edge-deleted graph / wrong UNSAT claim

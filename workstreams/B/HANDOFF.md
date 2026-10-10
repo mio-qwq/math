@@ -1,3 +1,11 @@
+# Latest delivery: seven-vertex original Conjecture 3 counterexample
+
+Read two_saturated_112/PROOF.md. It disproves arXiv:2603.25113v1 Section5 Conjecture3 as printed, with no local-girth assumption. K4 with the three edges at one vertex subdivided once is 2-saturated and subcubic but not (1,1,2)-packing colorable. Triangle forces the unique distance-two color; deleting that triangle vertex leaves an odd five-cycle.
+
+Reproduce: python workstreams/B/two_saturated_112/verify_candidate.py . Python3.12.14, standard library. Actual2187 assignments,0 valid; all degrees/saturation/BFS and3 proof cases pass;2 corruptions rejected. Discovery program is separate and unnecessary for verification. Candidate object is candidate.json. Source/duplicate gate is SOURCE_GATE.md; historical novelty unestablished. Independent review pending; no Lean or world-first claim. Prior packets are unchanged. Public reservation b7ac4fc preceded search.
+
+Review the frozen commit, confirm the exact original quantifier and the degree-three-neighbor counts, then inspect the short elementary proof. ROOT may integrate/sign under its own authority; B has not modified main or allocated a number. Do not delay acceptance for minimality or classification.
+
 # Active next target: Conjecture 3
 
 B now reserves arXiv:2603.25113v1 Section5 Conjecture3, (1,1,2)-colorability of every 2-saturated subcubic graph. Source gate and planned certificate in two_saturated_112/SOURCE_GATE.md. No result yet; previous four proof packets remain frozen.
@@ -307,3 +315,5 @@ included. Bulky per-instance packing-search JSONL logs remain in the local
 checkout; the deterministic commands regenerate them. The remote deliverable
 does not claim to include those raw logs. No credentials, private prompts,
 other agents' files, or shared dependency changes belong in this package.
+
+Frozen local source: 878d6936185dbe29f7691fb6a3c32d2b6abac4b2. Proof SHA256 d3d76612b8c4777fb9906b3506c7a482e7984ca9a1cbcba62491b32d3eda91ff. Checker SHA256 7fe25d248e7bc772497effa491a1bd87e92cf46d8724d7302fb1ea6d1f9c25b9.
