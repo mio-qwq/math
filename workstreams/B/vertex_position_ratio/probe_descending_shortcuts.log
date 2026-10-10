@@ -1,0 +1,5 @@
+{"k": 4, "peaks": 2, "level": 12, "order": 49, "edges": 53, "root_lower_position": 4, "other_root_position_lower_bound": 6, "ratio_lower_bound": "6/4", "bfs_entries": 98}
+{"k": 8, "peaks": 12, "level": 46, "order": 369, "edges": 387, "root_lower_position": 8, "other_root_position_lower_bound": 20, "ratio_lower_bound": "20/8", "bfs_entries": 738}
+{"k": 12, "peaks": 30, "level": 104, "order": 1249, "edges": 1289, "root_lower_position": 12, "other_root_position_lower_bound": 42, "ratio_lower_bound": "42/12", "bfs_entries": 2498}
+{"k": 24, "peaks": 132, "level": 422, "order": 10129, "edges": 10283, "root_lower_position": 24, "other_root_position_lower_bound": 156, "ratio_lower_bound": "156/24", "bfs_entries": 20258}
+{"k": 40, "peaks": 380, "level": 1182, "order": 47281, "edges": 47699, "root_lower_position": 40, "other_root_position_lower_bound": 420, "ratio_lower_bound": "420/40", "bfs_entries": 94562}

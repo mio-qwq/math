@@ -1,0 +1,10 @@
+{"stage": "length_done", "k": 2, "L": 12, "best_width": 6, "seconds": 0.004137067997362465}
+{"stage": "length_done", "k": 2, "L": 24, "best_width": 8, "seconds": 0.014790278997679707}
+{"stage": "length_done", "k": 2, "L": 48, "best_width": 7, "seconds": 0.056602070999360876}
+{"stage": "length_done", "k": 3, "L": 12, "best_width": 12, "seconds": 0.06404980499792146}
+{"stage": "length_done", "k": 3, "L": 24, "best_width": 13, "seconds": 0.08513944199876278}
+{"stage": "length_done", "k": 3, "L": 48, "best_width": 15, "seconds": 0.1672138369976892}
+{"stage": "length_done", "k": 4, "L": 12, "best_width": 17, "seconds": 0.1794270829996094}
+{"stage": "length_done", "k": 4, "L": 24, "best_width": 21, "seconds": 0.2191570260001754}
+{"stage": "length_done", "k": 4, "L": 48, "best_width": 24, "seconds": 0.3823623589996714}
+{"status": "DIAGNOSTIC_ONLY", "trials": 216, "root_evaluations": 432, "best_ratio": [24, 4], "seconds": 0.3833229819974804}

@@ -392,5 +392,15 @@
   "workstreams/B/two_saturated_12222/verify_brooks_obstacle.py",
   "workstreams/B/two_saturated_12222/verify_degeneracy_obstacle.log",
   "workstreams/B/two_saturated_12222/verify_degeneracy_obstacle.py",
-  "workstreams/B/vertex_position_ratio/SOURCE_GATE.md"
+  "workstreams/B/vertex_position_ratio/PROOF.md",
+  "workstreams/B/vertex_position_ratio/REVIEW.md",
+  "workstreams/B/vertex_position_ratio/SOURCE_GATE.md",
+  "workstreams/B/vertex_position_ratio/corridor_probe.json",
+  "workstreams/B/vertex_position_ratio/descending_shortcuts_probe.json",
+  "workstreams/B/vertex_position_ratio/probe_corridors.log",
+  "workstreams/B/vertex_position_ratio/probe_corridors.py",
+  "workstreams/B/vertex_position_ratio/probe_descending_shortcuts.log",
+  "workstreams/B/vertex_position_ratio/probe_descending_shortcuts.py",
+  "workstreams/B/vertex_position_ratio/verify_unbounded_ratio.log",
+  "workstreams/B/vertex_position_ratio/verify_unbounded_ratio.py"
 ]

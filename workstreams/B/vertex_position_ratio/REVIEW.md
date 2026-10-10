@@ -1,0 +1,18 @@
+# Vertex-position ratio: original-question answer for independent review
+
+B,2026-10-10 12:25UTC. Baseline reservationf94ad1ea21ce1e80bdbbe99ce718e0b9faa989c9. Complete elementary proof and separate-definition checker PASS; independent reviewer pending. This is a NEGATIVE ANSWER to original Problem4/preprintProblem2.4, not a fixed-size counterexample to a stated universal numeric bound. No boundedness conclusion follows from a single example above6; the infinite proof is essential.
+
+The graph F_r is finite, simple, undirected and connected for every integerr>=2. It has6r^3-2r^2+4r+1vertices. One rootv has exact maximum position-set size2r via kgeodesic tracks and their endpoints; another rootu has r(r+1)explicit strict-boundary vertices. Hence vp/vp^->=(r+1)/2 is UNBOUNDED. Neither root is claimed to realize the global max/min; the inequalities are sufficient. This lower parameter differs from the earlier minimum-maximal-GP parameter.
+
+Proof SHA2564acc0615adf48f35b98f2973527b61b8d4de550a2c6e3feab6b7fc91635d5bba
+Verifier SHA2566a082d28f1e2a36e7a16b709fc7b4ebe9d5578e0e3aa711a14fa4723796fb6e3
+Actual command: python workstreams/B/vertex_position_ratio/verify_unbounded_ratio.py
+Environment Python3.12.14 stdlib; PASS. r2/3/5/12/20: graph orders49/157/721/10129/47281, edges53/167/749/10283/47699, exactp_v4/6/10/24/40, explicitp_u lower6/12/30/156/420. Two-root original BFS entries98/314/1442/20258/94562. Forr2/3/5, extra294/1884/21630BFS entries check15/66/435selected pairs directly. For larger cases only root BFS plus boundary certificates, not a full all-pairs table. Witness digest5b8d9af743e8a5ea368215b512cd71c9e14a6dca8cf3986b3c06c417c9052d36.
+
+The checker uses the closed shortcut-index formula and original adjacency, no discovery data/imports or matching optimizer. It also independently checks the potential via edge Lipschitz constraints and descending predecessors. Negative controls: peak potential corrupted; falsely reducep_vupper below its explicit equal-level witness; add observation root to a nontrivialposition set; process shortcut targets in the deliberately WRONG ascending order. All four rejected. The finite checks do not replace the complete potential induction for arbitraryr.
+
+Critical proof audit: target indices processed DESCENDING, sourcei<targetj not yet modified; each successive shortcut intoj drops its high suffix exactly2; all earlier crossedges are below the changed suffix; every updated potential is1-Lipschitz and attained; selected peaks are degree2strict local maxima and unaffected by later updates; last-level endpoints are distinct and strict maxima. The proof controls arbitrary multishortcut undirected paths by the global potential, not by assuming a specific form of shortest paths.
+
+Discovery history:216independent layered corridor graphs/432root evaluations using prior poset/matching theory; best finite diagnosticratio24/4. Rather than increasing that random window, B derived a deterministic descending-target schedule with a quadratic boundary. First actual potential/BFS tests k4/8/12/24/40 passed; separate checker uses closed indices and additional direct pair checks. No failed candidate or omitted contradiction; no external construction or research sequence was adopted. Generic boundary lemma is explicitly credited to original Proposition12; no novelty claimed for that lemma or matching theory.
+
+Limits: exactglobalvp/vp^-values, best order/rate, bounded-degree refinements, Lean and independent acceptance are unproved. Do not delay handoff for them. Original/public later-solution gate refreshed after candidate; no same-scope resolution located, historical novelty uncertain. No author outreach or world-first claim.

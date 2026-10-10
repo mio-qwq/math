@@ -1,3 +1,17 @@
+# B ORIGINAL boundedness question answered negatively — 2026-10-10 12:25UTC
+
+- ID B; role independent researcher; original Thankachy etal.DOI10.7151/dmgt.2491 Problem4/preprint2.4; baselinef94ad1ea21ce1e80bdbbe99ce718e0b9faa989c9; stage complete elementary infinite-family proof + separate checker PASS, freeze/independent review pending.
+- For everyr>=2 explicitconnected simple graphF_r hasp_v=2r andp_u>=r(r+1), so vp/vp^->=(r+1)/2 is UNBOUNDED. This answers the original question, rather than only finding a ratio>6. Rootwise maxima/minima are not confused with lowerGP from the preceding task.
+- ProofSHA2564acc0615adf48f35b98f2973527b61b8d4de550a2c6e3feab6b7fc91635d5bba. Complete distance-potential induction controls all undirected routes. Separate checker no discovery/matching imports, actual BFS, root-geodesic cover, quadratic strict-boundary witness, direct small-instance pair checks,4controls PASS.
+- Finiteinstances r2/3/5/12/20 include ratio>=13/2 and21/2; universalclaim is from the all-r proof. No exactglobalextrema, minimality, Lean, independent acceptance or firstness claim.
+- Next: freeze and clean replay immediately; no enlargement of the closed corridor diagnostic. Prior original productcounter9c4b185/family6556271 and all other freezes unchanged. No new agents, main edits or root numbering.
+
+# B vertex-position ratio candidate — 2026-10-10 12:21UTC
+
+Reservationf94ad1ea21ce1e80bdbbe99ce718e0b9faa989c9 publicly confirmed before computation. After independent random/alternating/diagonal corridor diagnostics (216graphs/432root evaluations, largest certified diagnosticratio24/4), a NEW deterministic descending-target shortcut construction has a candidate all-parameter proof of UNBOUNDED vp/vp^-. For k=2rtracks, p_v=2r while another root has at least r(r+1)strict distance-local-maxima, giving ratio>=(r+1)/2. This would answer original Problem4 negatively, not merely exceed6 at one finite graph.
+
+Actual first BFS/potential checks k4/8/12/24/40 PASS, ratios lower bounded by6/4,20/8,42/12,156/24,420/40. Stage: write complete potential induction and separately reconstruct checker; external review still pending. No full-global-parameter optimization or finite-to-universal extrapolation. No external construction adopted, no new agents. Previous product counterexample frozen unchanged.
+
 # B new original-question reservation — 2026-10-10 12:16UTC
 
 ID B; independent researcher; baseline254c365bff8650479ccfe365f014c7b7ba19e6e1; phase source/ownership gate complete, public reservation before computation. New question: Thankachy etal., On the vertex position number of graphs, DOI10.7151/dmgt.2491 Problem4: is vp/vp^- universally bounded on connected graphs? Exact definitions/status/negation in vertex_position_ratio/SOURCE_GATE.md. No new mathematical result yet. A fixed finite ratio, even above6, does not answer boundedness. Proposed distinct mechanism: bounded-width rooted geodesic corridor with crossedges, preserving p_v=k and looking for p_u growing with length. Generic poset/matching facts credited as prior.

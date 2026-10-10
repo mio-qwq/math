@@ -1,3 +1,11 @@
+# New original-question handoff: vertex-position ratio UNBOUNDED
+
+Read vertex_position_ratio/PROOF.md, REVIEW.md and SOURCE_GATE.md. Original Thankachy etal.Problem4/preprint2.4 asks whether vp/vp^-is bounded on connected graphs. The explicit infinitefamilyF_r has p_v=2r andp_u>=r(r+1), proving a NEGATIVE ANSWER. This is not merely a finite ratio>6, and this vp^-is the minimum of rootwise maximum position-set sizes, not minimum-maximalGP. Pending independent review.
+
+Run python workstreams/B/vertex_position_ratio/verify_unbounded_ratio.py. StdlibPython3.12.14, no discovery imports/matching optimizer. The elementary all-r proof uses descending-target shortcuts and an exact1-Lipschitz potential updated by2on a suffix. The separate checker builds original adjacency via closed indices, runsBFS, validates geodesic covers/boundary witnesses, checks smaller instances directly, and rejects4corrupted controls. Exactsource hashes/counts in REVIEW.md. No claimedglobalparameteroptimum, Lean or firstness.
+
+This packet is separate from the delivered original lowerGPproductcounterexample9c4b185 and unboundedfamily6556271. Both elementary original-question packets can be reviewed without the more complicated universal-five metric-cone theorem. All frozen bytes preserved. B independently completed the work without new subagents or peer contacts; ROOT controls review/integration/signing/numbering.
+
 # New reservation only: vertex-position ratio
 
 B now screens original DOI10.7151/dmgt.2491 Problem4; see vertex_position_ratio/SOURCE_GATE.md. No result yet; distinct rootwiseMAXparameter from prior lowerGP. The delivered original product counterexample remains the independent review priority and is not modified.
