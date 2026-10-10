@@ -166,3 +166,9 @@ Conjecture6 frozen local source: 964fd526fcfac35c2397a71c44bfe8401d2560c1. Const
 ## Execution-accounting correction, 2026-10-10 07:35 UTC
 
 The exploration process was not terminated by the earlier stop request; its original session now confirms exit0 with485 SAT/235 UNKNOWN. See heavy_triangle_112/RUN_COMPLETION.md. The frozen full proof d6238ac, constructor, independent verifier and regression bytes are unchanged. A new metadata/log revision preserves this correction explicitly.
+
+## Narrow classical-corollary gate, 2026-10-10 07:38 UTC
+
+- B reserves printed Conjecture9, arXiv:2603.25113v1: seven radius-two VERTEX colors for claw-free subcubic graphs. A short Brooks-theorem consequence appears available. This is not the strong edge-coloring question.
+- Gate clawfree_square7/SOURCE_GATE.md explicitly flags high folklore/duplication risk; no historical novelty or new original theorem is claimed. Only a short proof and finite exception check are justified, not a large research build.
+- Earlier successful packets remain frozen; Conjectures4/5 remain unresolved. No new agents.
