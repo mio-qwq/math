@@ -1,0 +1,103 @@
+{
+  "positive_examples": [
+    {
+      "name": "mixed_chain",
+      "vertices": 39,
+      "edges": 42,
+      "components": 1,
+      "degree_three_vertices": 6,
+      "max_degree_three_local_girth": 4,
+      "same_color_connected_pairs_checked": 234,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    },
+    {
+      "name": "length_one_leaf_mixed_chain",
+      "vertices": 35,
+      "edges": 37,
+      "components": 1,
+      "degree_three_vertices": 5,
+      "max_degree_three_local_girth": 4,
+      "same_color_connected_pairs_checked": 185,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    },
+    {
+      "name": "necklace_2",
+      "vertices": 6,
+      "edges": 7,
+      "components": 1,
+      "degree_three_vertices": 2,
+      "max_degree_three_local_girth": 4,
+      "same_color_connected_pairs_checked": 3,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    },
+    {
+      "name": "necklace_3",
+      "vertices": 19,
+      "edges": 22,
+      "components": 1,
+      "degree_three_vertices": 6,
+      "max_degree_three_local_girth": 4,
+      "same_color_connected_pairs_checked": 55,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    },
+    {
+      "name": "necklace_4",
+      "vertices": 24,
+      "edges": 26,
+      "components": 1,
+      "degree_three_vertices": 4,
+      "max_degree_three_local_girth": 4,
+      "same_color_connected_pairs_checked": 85,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    },
+    {
+      "name": "two_triangle_short_connector",
+      "vertices": 7,
+      "edges": 8,
+      "components": 1,
+      "degree_three_vertices": 2,
+      "max_degree_three_local_girth": 3,
+      "same_color_connected_pairs_checked": 4,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    },
+    {
+      "name": "elementary_disconnected",
+      "vertices": 6,
+      "edges": 4,
+      "components": 3,
+      "degree_three_vertices": 0,
+      "max_degree_three_local_girth": null,
+      "same_color_connected_pairs_checked": 0,
+      "hypotheses": "PASS",
+      "packing_coloring": "PASS"
+    }
+  ],
+  "negative_controls_rejected": [
+    {
+      "name": "invalid_right_triangle_color",
+      "reason": "color 3 repeated at distance 3: 1,6"
+    },
+    {
+      "name": "self_loop",
+      "reason": "graph must be finite and simple"
+    },
+    {
+      "name": "asymmetric_adjacency",
+      "reason": "adjacency must be symmetric"
+    },
+    {
+      "name": "adjacent_degree_three",
+      "reason": "degree-three vertices are not independent"
+    },
+    {
+      "name": "degree_three_without_short_cycle",
+      "reason": "vertex 0 has no cycle of length at most four"
+    }
+  ]
+}

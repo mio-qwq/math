@@ -14,3 +14,15 @@
 - Publication history: first claim 000f05222cc65398f21c7bbca3673db43e292d6d; route-change claim 6e5f9b5776ea0fa66fb9e23c45abe762950ce0c2. Shell push lacked credentials, connector publication succeeded. No other distributed member was directly notified.
 - Remaining: main-Agent independent acceptance, human responsibility review, final prior-art review, optional Lean formalization. No submission, author contact, merge, new numbered project, or priority announcement performed.
 - Next: use HANDOFF.md to reproduce and accept or identify a concrete gap. Do not repeat brute-force searches superseded by the general proof.
+
+## Continued work and task-card receipt, 2026-10-10 05:16 UTC
+
+- Read BRIEF and B card at coord/distributed cdbc7b6883cea32e21505ccf1b1d9ec72e8f924f. ROOT's recorded receipt of628cb35 is observed; acceptance remains pending. No direct peer communication is inferred.
+- Circulant proof unchanged, including its exact frozen content hash.
+- New mechanism on the already-reserved packing question: complete short-cycle structural reduction plus four universal path/cycle tiles handles arbitrary odd/even connector lengths and triangle/square/leaf caps. This is an affirmative original-conjecture proof candidate, NOT a counterexample.
+- Frozen packing source: local29d3e9b472c1b05d6cc9d8268af36053cb5508c4, proofSHA2562ac000076874fefed2bd3cf15e983fcbae6b8f1672952229c79957665e5dbb94.
+- B directly checked the universal argument, added a separate original-definition graph/coloring checker, ran seven positive boundary examples and five rejected negative controls. See packing_extension/B_SELF_REVIEW.md. No repeated95165-case search.
+- Earlier helper review was stopped before its final report; partial computed evidence is retained under packing_review/. Do not mark it completed independent acceptance. Subsequent core reasoning is done directly by this B instance, per the user's B-only request.
+- SOURCE_GATE.md records both actual targets, known even-connector overlap and literature limits.
+- Pending: main-Agent independent review, human responsibility review and historical novelty. No Lean or signed commit claim. Current GitHub API publication is unsigned; controlled signed release remains unmet.
+- Next: deliver the second frozen candidate for acceptance, retain earlier versions, then choose a genuinely distinct question only after a new source gate and public reservation.

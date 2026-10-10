@@ -1,3 +1,20 @@
+# B current handoff: two distinct original-conjecture proof candidates
+
+The earlier circulant packet remains frozen at628cb3551046886c4fcb383243a090d4b664a231. The continued packing packet is described below; these are affirmative proofs, not counterexamples. Neither is claimed historically first.
+
+## New packing packet
+
+Target: El Zein–Mortada arXiv:2603.25113v1, §5 Conjecture1. Every finite simple subcubic graph with independent degree-three vertices, each on a triangle or square, is claimed packing4-colorable. No connectedness or minimum-degree assumption is added.
+
+- Read packing_extension/PROOF.md, local frozen commit29d3e9b472c1b05d6cc9d8268af36053cb5508c4, SHA2562ac000076874fefed2bd3cf15e983fcbae6b8f1672952229c79957665e5dbb94.
+- The proof reduces the entire class to square chains/necklaces plus caps and elementary exceptions, then uses four concatenable tiles of lengths4,5,6,7. Their scope is arbitrary connector length, not a finite search window.
+- B_SELF_REVIEW.md records B's direct reasoning and actual checks; packing_review/INTERRUPTED.md records why earlier helper data do NOT constitute a finished independent verdict. This packet awaits main-Agent acceptance.
+- Run python workstreams/B/packing_extension/check_tiles.py and python workstreams/B/packing_extension/self_check.py. Run verify_coloring.py on a supplied adjacency/color certificate to reconstruct every graph hypothesis and every same-color distance directly.
+- SOURCE_GATE.md and packing_gate/ credit the known all-even subclass and document the bounded search for a full prior resolution.
+- No Lean, human review, priority claim, merge, author contact or submission. GitHub API commits are unsigned; do not call this a signed research release. No signing credentials were requested, created or borrowed.
+
+## Earlier frozen circulant handoff (preserved below)
+
 # B handoff: exact circulant general-position formula
 
 ## What to review

@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "capped_chains": 1168,
+    "necklaces": 292,
+    "two_tile_linear_joins": 16,
+    "negative_controls": 2,
+    "K23": 1
+  },
+  "failures": []
+}
+{
+  "overlap_union_graphs_checked": 75,
+  "admitted_labeled_unions": 2,
+  "admitted_signatures": [
+    [
+      5,
+      6,
+      [
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    ]
+  ]
+}

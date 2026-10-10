@@ -1,0 +1,59 @@
+Date: 2026-10-10 UTC. Tool: web.run search/open/find. Results accepted only after primary-source inspection.
+
+Queries issued (quotes denote literal quoted terms):
+"2603.25113" -site:arxiv.org
+"packing coloring" "square" "chain"
+"packing chromatic" necklace
+"Maidoun Mortada" "local girth"
+"packing" "square chains"
+"packing" "necklaces" graph
+"packing chromatic" "0-saturated"
+"Ayman El Zein" publications
+"packing coloring" "chain graphs" cycles
+"packing chromatic" "necklace graphs"
+"packing chromatic" "square chain"
+"Maidoun Mortada" homepage
+"packing chromatic" "cycle chains"
+"packing coloring" "cactus" "four"
+"2603.25113" erratum
+"packing" "square necklace"
+packing coloring chains cycles subcubic four colors
+packing chromatic number polygonal chains squares
+"0-saturated" "2026" "coloring"
+"packing chromatic number" "cactus" subcubic
+"packing chromatic" "chain" -lattice -Kempe -silicate -windmill
+"packing coloring" "necklace" graph -jewelry -squares
+"On packing chromatic number of subcubic outerplanar graphs"
+"packing chromatic" "chain of cycles"
+"packing coloring" "square-chain"
+"packing chromatic" "necklaces"
+"packing coloring" "square" "chain" graph -lattice -grid -silicate -distance -Kempe -windmill -packings
+"Maidoun Mortada" "2026" "0-saturated"
+"Impact of local girth" correction
+"packing chromatic" "necklace" -jewelry
+"Packing chromatic numbers of finite super subdivisions of graphs"
+"packing chromatic" "circular necklace"
+"packing chromatic" "necklace graph"
+"0-saturated" "local girth" -site:researchgate.net -site:mathdb.com -site:gist.science
+"2603.25113" proof OR solved OR counterexample OR corrigendum
+
+Main direct inspections and anchors:
+https://arxiv.org/abs/2603.25113 : submission history v1 only
+https://arxiv.org/html/2603.25113v1 : Introduction; Theorem 1; Conjecture 1
+https://arxiv.org/abs/2608.02566 : submission history v1
+https://arxiv.org/html/2608.02566v1 : abstract, intro, conclusion, references
+https://arxiv.org/abs/2503.20239 : v3 history and current abstract
+https://arxiv.org/abs/1809.05552 : v3 history and abstract
+https://arxiv.org/pdf/1703.05023 : Theorem 11
+https://kalma-lu.com/authors/11/Ayman-EL-ZEIN : institutional biography/publication list
+https://web1.pmf.ni.ac.rs/filomat-content/2020/34-10/34-10-9-12153.pdf : definitions, Propositions 2.1, 2.7, 2.8
+https://par.nsf.gov/servlets/purl/10327485 : primary published article
+https://recentscientific.com/sites/default/files/11839-A-2018.pdf : false-positive search result ruled out
+
+Fetch limitations:
+ArXiv author links for both target authors: internal errors.
+https://o.togni.u-bourgogne.fr/index.php?n=Research.Publications : internal error.
+https://arxiv.org/pdf/2001.00469 : UnexpectedStatusCode; publisher alternate succeeded.
+
+Negative findings:
+No exact square-chain/necklace all-length four-color theorem located under those names. Numerous search hits were noise or repeated-color S-packing / edge-coloring results. No primary erratum or full Conjecture 1 resolution located. These are nonexhaustive search findings.
