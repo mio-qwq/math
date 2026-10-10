@@ -7,7 +7,7 @@ and an executable certificate; we do NOT claim the theorem itself is new. This i
 auxiliary theorem serving the component-transversal interface in the complete
 Gorzkowska–Kwaśny Conjecture 10 proof. It is **not** asserted historically
 new, independently ROOT accepted, Lean formalized or peer reviewed. The frozen
-complete conjecture proof at \`7168f6df\` is unchanged.
+complete conjecture proof at `7168f6df` is unchanged.
 
 ## Prior art (this is NOT a discovery of a new theorem)
 
@@ -47,7 +47,7 @@ blocks containing each x in X. Parallel edges are NOT collapsed. Every
 vertex degree equals its block cardinality.
 
 Let L be the left P vertices and R the right S vertices. There are 
-\`n=|X|\` original edges, so the number of odd-degree vertices in L has parity
+`n=|X|` original edges, so the number of odd-degree vertices in L has parity
 n, and so does the number in R (the sum of degrees on either side is n).
 
 Add auxiliary edges to make the graph Eulerian as follows:
@@ -79,9 +79,9 @@ Every dummy edge joining TWO L vertices has opposite contributions at its
 endpoints when deleted, so its contribution to this sum is zero. Dummy edges
 joining two R vertices do not affect the sum at all. If n is even there is no
 cross-side dummy, so the sum is zero. If n is odd, exactly one cross-side
-dummy affects the sum, by +1 or -1. Thus \`|#red(X)-#blue(X)| <= 1\`.
+dummy affects the sum, by +1 or -1. Thus `|#red(X)-#blue(X)| <= 1`.
 If needed, exchange the names red and blue globally, which preserves every
-per-block inequality and makes \`#red(X)=floor(n/2)\`.
+per-block inequality and makes `#red(X)=floor(n/2)`.
 
 This proves the theorem. QED.
 
@@ -90,7 +90,7 @@ This proves the theorem. QED.
 If each P and S block has at least two elements, then each block contains
 both colours. Selecting exactly one red from each P block leaves a blue
 unselected element in every S block; in fact at least
-\`floor(|S_j|/2)\` blue witnesses remain. Take S as the connected-component
+`floor(|S_j|/2)` blue witnesses remain. Take S as the connected-component
 vertex sets of the leftover graph Q in the original edge-ordering proof.
 
 Neither this corollary nor the algorithm changes the original root ordering or
@@ -99,10 +99,10 @@ independently reviewed SHA; this is an optional alternative certificate.
 
 ## Exact check and limitations
 
-\`workstreams/A/code/global_balanced_partitions.py\` implements the paired
+`workstreams/A/code/global_balanced_partitions.py` implements the paired
 odd-vertex augmentation and Euler-tour orientation. Its verifier independently
 checks the literal red count of every P and S block and the exact global
-floor-half target. \`verify_global_balanced_partitions.py\` tested all 44,169
+floor-half target. `verify_global_balanced_partitions.py` tested all 44,169
 pairs of labelled set partitions through n=6, another 2,738 seeded partition
 pairs through n=80, and a 100,000-element sample with exactly 50,000 red.
 Illegal-partition and globally-unbalanced-certificate negative controls pass.
