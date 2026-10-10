@@ -1,27 +1,23 @@
 # A counterexample to packing-domination inheritance in strong products
 
-[PDF](paper.pdf) · [Standalone LaTeX](main.tex) · [BibTeX](references.bib) · [Verification](VERIFICATION.md) · [Exact build receipt](verification.json).
+**Preprint v1.3 — 11 October 2026.** Authors: **River Zhang** (corresponding author, Chengdu Neusoft University, [ORCID 0009-0004-2437-8566](https://orcid.org/0009-0004-2437-8566)) and **Yongxian Zhang** (School of Computer Science and Engineering, South China University of Technology, [ORCID 0009-0000-3864-3536](https://orcid.org/0009-0000-3864-3536)). Contact: mioqwq@hotmail.com. No equal-first-author designation is made.
 
-Manuscript **v1.2**, 10 October 2026, gives a self-contained proof that
+[Current PDF](paper.pdf) · [Standalone LaTeX](main.tex) · [BibTeX](references.bib) · [v1.3 build and text checks](verification-v1.3.json) · [v1.2 historical verification](verification.json) · [v1.2 mathematical review](VERIFICATION.md).
 
+The paper gives a self-contained construction of a finite connected simple graph H with 608 vertices and 9,168 edges for which
 \[
-\gamma_2^3(Q_6)=\infty,\qquad \gamma_2^3(Q_6\boxtimes H)\le64
+\gamma_2^3(Q_6)=\infty,\qquad \gamma_2^3(Q_6\boxtimes H)\le64.
 \]
+This refutes Conjecture 3.1 of the [published source](https://doi.org/10.1007/s00026-026-00814-0), using the exact original packing and domination notions. The 64 centers are not claimed optimal; no minimum graph order or global historical firstness is established.
 
-for an explicit finite connected simple graph H with 608 vertices and 9168 edges. This refutes Conjecture 3.1 of [the original preprint](https://arxiv.org/abs/2510.02749v1) and [published article](https://doi.org/10.1007/s00026-026-00814-0). The 64 centers are a witness, not a proved optimum; neither Q6×Q6 nor minimum auxiliary order is decided.
+**Proof scope.** The mathematical definitions, constructions, lemmas and proofs from the previously reviewed manuscript have not changed. Three Lean sources verify the existence-level counterexample for finite simple graphs and actual walks; numerical gamma, H's connectivity and edge count are separately proved in the manuscript and verified by exact programs rather than being claimed as Lean endpoints. The unchanged mathematical sources retain their dated [Lean verification evidence](../results/lean-verification.json). This v1.3 update does **not** claim fresh Lean recompilation.
 
-The complete existence assertion has an actual finite-SimpleGraph and standard-Walk Lean proof. Numerical gamma, H connectedness/edge count/diameter are not separate Lean endpoints. The first two auxiliary facts have written proofs and exact checks. [Actual source-specific compilation evidence](../results/lean-verification.json) is retained; this paper revision does not recompile unchanged mathematical sources.
+**Academic and disclosure status.** Public, non-peer-reviewed research preprint; no Zenodo DOI, arXiv identifier or journal acceptance is claimed. The manuscript discloses substantial AI involvement in discovery, proof, implementation, formalization, literature work, agent review and drafting. Corresponding-author funding/interest statements are included. **Before external Zenodo deposit or journal submission, the coauthor must confirm the final text, his personal declarations and the selected CC BY 4.0 manuscript license.** No third author is listed or presumed. Separate code and third-party licenses remain applicable.
 
-Draft metadata: **River Zhang**, **Chengdu Neusoft University**, ORCID [0009-0004-2437-8566](https://orcid.org/0009-0004-2437-8566). Human accountability, actual contributions/declarations, contact, paper deposit license and external approval remain pending. Substantial OpenAI Codex/GPT-6-based agent-system involvement in construction, mathematics, Lean, programs, literature, independent AI review and writing is disclosed in Section 12. No AI author, external human peer review, completed human supervision or historical firstness is asserted.
-
-Installed Tectonic 0.17.0+20260731 successfully built the 15-page PDF. All pages were rendered and inspected, all 20 fonts are embedded, and no unresolved-reference/overflow/missing-character TeX diagnostic remains. Native-editor platform-directory failures and a nonfatal Fontconfig startup message are recorded separately. The editor source remains main.tex.
+The v1.2 [fixed reproducibility ZIP and hashes](../../publication/006-v1.2/README.md) remain a **historical version-locked archive**; they must not be presented as covering the new v1.3 PDF. The current PDF and TeX are checked together in [verification-v1.3.json](verification-v1.3.json). To compile:
 
 ```sh
 tectonic main.tex
 ```
 
-Alternatively run pdflatex main.tex twice with standard packages. The bibliography is embedded; references.bib provides the same 10 entries for journal adaptation and is not an extra build input. Different engines/timestamps can alter PDF bytes.
-
-[Topic sources](../README.md) · [v1.2 supplement](../../publication/006-v1.2/README.md) · [Review](../../publication/006-v1.2/REVIEW.md) · [Originality](../../publication/ORIGINALITY_REVIEW.md) · [Preparation report](../../PUBLICATION_READINESS.md).
-
-Old immutable releases and dated receipts remain intact. No Zenodo record/DOI, arXiv/journal submission or author contact was made.
+See the [project proof](../README.md), the [originality audit](../../publication/ORIGINALITY_REVIEW.md), and the [publication readiness report](../../PUBLICATION_READINESS.md) for precise limitations.

@@ -5,7 +5,7 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{booktabs,array,longtable}
 \usepackage{hyperref}
-\hypersetup{hidelinks,pdftitle={A counterexample to packing-domination inheritance in strong products}}
+\hypersetup{hidelinks,pdftitle={A counterexample to packing-domination inheritance in strong products},pdfauthor={River Zhang and Yongxian Zhang}}
 \allowdisplaybreaks
 \raggedbottom
 \newtheorem{theorem}{Theorem}[section]
@@ -25,8 +25,14 @@
 \newcommand{\pairs}{\mathcal P_4}
 \title{A counterexample to packing-domination\\
 inheritance in strong products}
-\author{River Zhang\\[3pt]\small Chengdu Neusoft University}
-\date{Preprint draft v1.2 --- 10 October 2026}
+\author{River Zhang$^{1}$ \qquad Yongxian Zhang$^{2}$\\[6pt]
+\small $^{1}$Chengdu Neusoft University, Chengdu, China\\
+\small $^{2}$School of Computer Science and Engineering,\\
+\small South China University of Technology, Guangzhou, China\\[5pt]
+\small Corresponding author: \texttt{mioqwq@hotmail.com}\\
+\small ORCID (R. Zhang): \href{https://orcid.org/0009-0004-2437-8566}{0009-0004-2437-8566}\\
+\small ORCID (Y. Zhang): \href{https://orcid.org/0009-0000-3864-3536}{0009-0000-3864-3536}}
+\date{Preprint version 1.3 --- 11 October 2026}
 
 \begin{document}
 \maketitle
@@ -60,13 +66,12 @@ product; hypercube; explicit counterexample; formal verification.
 Primary 05C69; Secondary 05C76, 68V15.
 
 \medskip
-\noindent\textbf{Draft status.} The author name and affiliation were supplied
-by the project owner as draft metadata; accountable human examination and publication approval remain
-pending. This document has not been submitted to arXiv
-or a journal and has not undergone human peer review. Substantial AI
-participation is disclosed in Section~\ref{sec:disclosure}.
-Version v1.2 retains the mathematical construction of v1, expands the
-literature discussion, and supplies a versioned reproducibility package.
+\noindent\textbf{Preprint status.} This version is a public research
+preprint and has not undergone external human peer review or received
+journal acceptance. The construction and mathematical proof are unchanged
+from the reviewed v1.2 draft; this revision updates human authorship,
+affiliations and publication declarations. Substantial AI participation is
+disclosed in Section~\ref{sec:disclosure}.
 
 \section{Introduction}\label{sec:introduction}
 Distance domination and packing impose opposing requirements on a set of
@@ -962,7 +967,7 @@ external referee report. Before submission, the eventual human
 authors must examine the proof, the cited literature and the
 accountability requirements of the selected venue.
 
-\section{AI involvement and academic status}\label{sec:disclosure}
+\section{AI assistance, authorship and declarations}\label{sec:disclosure}
 Substantial generative-AI assistance was used in this research.
 The work used OpenAI Codex with a GPT-6-based agent system;
 no more specific model version is asserted here.
@@ -976,28 +981,46 @@ they are not described as independent human reviews.
 The Lean kernel checks and actual program executions are
 recorded separately from AI-generated reasoning.
 
-As of 10 October 2026, the project owner has supplied the draft human
-author name River Zhang, ORCID identifier 0009-0004-2437-8566,
-and affiliation Chengdu Neusoft University. Accountable human examination,
-license selection and external publication approval remain pending.
-No AI system is listed as an author. The human author must examine and take
-responsibility for all content, including proofs, references,
-verification claims and disclosures.
-This public research draft does not claim completed human
-scholarly supervision or peer review. It has not been submitted
-to arXiv or a journal, has no arXiv identifier of its own, and
-does not claim acceptance or compliance with a particular
-venue's eligibility requirements.
-No Zenodo record or DOI has been created for this manuscript by
-this preparation work. The deposit license has not been selected.
-The author information is
-recorded from the project owner's instruction, not invented by an AI
-system. The substantial mathematical and writing assistance described
-above must not be represented as language polishing alone.
-No correspondence address, department, funding declaration or
-statement of the human author's individual research contributions
-has been supplied. These items must be confirmed by the author before
-submission; no absence of funding or conflicts of interest is inferred.
+The human coauthors are River Zhang and Yongxian Zhang. The first
+author is the corresponding author. No designation of equal-first
+authorship is intended. Yongxian Zhang contributed software to the
+research effort; individual contributions will be confirmed by both
+authors before any external repository deposit or journal submission.
+No AI system is listed as an author.
+
+\noindent\textbf{Funding.}
+No external research funding supported the work described here,
+as confirmed by the corresponding author.
+
+\noindent\textbf{Competing interests.}
+The corresponding author reports no competing interests. The
+coauthor's individual disclosure will be confirmed before
+external deposit or journal submission.
+
+\noindent\textbf{License.}
+The planned deposit license for the manuscript is the Creative
+Commons Attribution 4.0 International License (CC BY 4.0),
+subject to both coauthors' final approval. Existing source-code
+licenses and rights in cited third-party material are unaffected.
+
+\noindent\textbf{Academic status.}
+This preprint is not a peer-reviewed journal article. Neither
+historical priority nor full mathematical novelty is asserted.
+The manuscript has no arXiv identifier, Zenodo DOI or journal
+acceptance as of this revision. The human authors are responsible
+for independently examining the mathematical arguments,
+the references and the disclosed use of AI before formal submission.
+
+\section{Data and code availability}\label{sec:data}
+The explicit 608-vertex auxiliary graph, 64-center certificate,
+independently implemented Python checkers, Lean proofs and
+source-specific verification records are publicly available in
+the \href{https://github.com/mio-qwq/math/tree/9e217c0d18862f650ae2592ee2b83863281e6115/006-strong-product-packing-counterexample}{fixed source archive}.
+The mathematical witness is also preserved in the
+\href{https://github.com/mio-qwq/math/releases/tag/006-strong-product-conjecture-counterexample-2026-10-09}{immutable GitHub release}.
+A reproducibility supplement and file-hash manifest are available
+in the repository. A separate, later journal supplementary-file
+package may follow the target journal's file-format requirements.
 
 \appendix
 \section{Source correspondence and reproducibility}\label{app:repro}
