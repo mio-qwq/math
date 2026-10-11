@@ -118,3 +118,15 @@ Historical originality and practical attack relevance remain unconfirmed.
 The independent review receipt binds the exact files. Publication is only
 to this owner's branch; old proofs remain unchanged. SHA256-v3.json is the
 new content freeze; ASCON-PUBLICATION.json will record remote verification.
+
+## Current priority — 2026-10-12 Singapore
+
+User redirects the main effort toward substantial results about major
+primitives (RSA/AES/SHA-256 as examples). Source gate and decision are in
+CANDIDATES-20261012-RSA-AES-SHA256.md. Selected primary research is RSA's
+short-relation root-recovery gap, with reservation in
+projects/rsa-short-relations/STATUS.md and explicit next-cycle plan in
+NEXT-20261012.md. No new result or improved RSA exponent is claimed.
+The old SHA256-v3.json remains the historical freeze of remote 80da937;
+this status update and all future RSA work form a new version. The frozen
+Ascon and circulant proof/certificate bytes are preserved.
