@@ -1,0 +1,88 @@
+{
+  "captured_utc": "2026-10-11T07:10:31.886974+00:00",
+  "survey_cutoff": "2026-10-11 Asia/Shanghai",
+  "repository": "https://github.com/mio-qwq/math",
+  "base_sha": "a8c3f22e26b08c2d294e2b0e6df2d9cfa430cda0",
+  "branch": "partner/dist-crypto",
+  "refs": [
+    "origin a8c3f22e26b08c2d294e2b0e6df2d9cfa430cda0",
+    "origin/coord/distributed abd8e85628b1348f250c5d5c46a5450caae2876d",
+    "origin/integration/dist-b-permutation 7def63b75387c2f5be2d8cca8c907c8602680cba",
+    "origin/integration/dist-c-q58 ec55b0ef93f30349b5a0fbc37183a1d0b74ecb40",
+    "origin/main a8c3f22e26b08c2d294e2b0e6df2d9cfa430cda0",
+    "origin/partner/dist-A 64bd9d130c21fd0499eb4d8dc000e908da198b21",
+    "origin/partner/dist-B 802e030aa8ac47a2018c9441a6b19f59b2db2535",
+    "origin/partner/dist-C 979598c300580b18b603b51ded9ccdf59f470faa",
+    "origin/partner/dist-C-audit-1010 9ad1f91d953060d01a504481eb857daf57758ab0"
+  ],
+  "branch_directory_checks": [
+    {
+      "ref": "origin",
+      "workstream_paths": 60,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/coord/distributed",
+      "workstream_paths": 0,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/integration/dist-b-permutation",
+      "workstream_paths": 13,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/integration/dist-c-q58",
+      "workstream_paths": 5,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/main",
+      "workstream_paths": 60,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/partner/dist-A",
+      "workstream_paths": 79,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/partner/dist-B",
+      "workstream_paths": 415,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/partner/dist-C",
+      "workstream_paths": 30,
+      "crypto_named_paths": []
+    },
+    {
+      "ref": "origin/partner/dist-C-audit-1010",
+      "workstream_paths": 64,
+      "crypto_named_paths": []
+    }
+  ],
+  "search_limit": "Repository README and status files read; remote workstream filenames checked. A broad lazy-fetch git-grep scan was interrupted after several minutes to avoid redundant downloads; no exhaustive branch-content scan claimed.",
+  "baseline": "Fresh --no-checkout clone initially showed index deletions, resolved by checkout; clean before creating CRYPTO. Other A checkout was read-only and its uncommitted/unpushed state preserved.",
+  "git_identity": {
+    "name": "Codex",
+    "email": "codex@openai.com",
+    "commit_gpgsign": {
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu_count": 9
+  },
+  "instructions_sha256": {
+    "AGENTS.md": "f30dd3aadcc29e6ead910c39b45e286dc892ad9e4b161944458eb5b724981fd8",
+    "COORDINATION.md": "a2e4bc9fcaf602a53c5f69edf75d531cd60aff23347245788a3778c5c376d2dd",
+    "coordination/RESUME.md": "b5c60926fab174a752a7771824ca6e6a8fe46c036a0818ab144dd981db41bf54",
+    "coordination/ROADMAP.md": "703702d362752321d437003e7622e6e6afd19b490682d82b0b95b8cd3da0190e"
+  }
+}
