@@ -1,0 +1,19 @@
+{
+  "date_UTC": "2026-10-11",
+  "repository": "mio-qwq/math",
+  "branch": "partner/dist-CRYPTO2-20261011-7f3c",
+  "baseline": "a8c3f22e26b08c2d294e2b0e6df2d9cfa430cda0",
+  "content_remote_commit": "3353f163b9af525a7451f7f99c8246cce61d0c8e",
+  "content_local_signed_commit": "9584bb325621e1207dbabffe0c452d7adc3751ff",
+  "identical_tree": "40fc35a4d73fb3ff8c5864b0985062fc687efc82",
+  "local_signature": "SSH signature verified using the research identity; not GitHub verification",
+  "remote_signature": "unsigned connector commit",
+  "fetch_exit_code": 0,
+  "tree_comparison": "PASS",
+  "changed_paths_scope": "PASS: own workstream only",
+  "changed_files": 31,
+  "native_push_error": "fatal: could not read Username for 'https://github.com': No such device or address",
+  "native_push_exit_code": 128,
+  "connector_transport": "create tree, commit from expected prior remote head, non-force ref update; successful",
+  "note": "This receipt is committed in a subsequent descendant. Its containing commit ID is available from Git, avoiding a self-referential commit hash. The mathematical proof and certificates are unchanged."
+}

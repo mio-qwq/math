@@ -66,7 +66,7 @@ unchanged. The review addendum records both parties' correction explicitly.
 Final-file hashes are frozen in SHA256.json. See RESULT.md, RUNS.json,
 SOURCE-GATE.md and HANDOFF.md for scope and reproducibility.
 
-Stage: completed mathematical checkpoint; preparing branch publication.
+Stage: completed mathematical checkpoint; content published and fetched back.
 Reservation already published as b407c26994978afc7432cf505d8d78cdd9712ff9.
 Native push failed for missing local credentials; the authorized GitHub
 connector succeeded. Final content publication is to this same exclusive
@@ -79,3 +79,12 @@ Next useful work: fill those precise literature gaps and check equivalent
 invariant-code formulations. If already covered, downgrade to an attributed
 derivation. Do not repeat sample growth as a substitute for novelty work.
 
+
+## Verified publication receipt
+
+Content commit: `3353f163b9af525a7451f7f99c8246cce61d0c8e`. The fetched remote tree
+`40fc35a4d73fb3ff8c5864b0985062fc687efc82` exactly matches the locally signed
+snapshot `9584bb325621e1207dbabffe0c452d7adc3751ff`. Only this workstream differs
+from the baseline. PUBLICATION.json records transport and signature limits.
+This receipt and the updated manifest form a follow-up metadata commit;
+the proof, certificates and review files remain unchanged.
