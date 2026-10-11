@@ -1,0 +1,64 @@
+{
+  "date_UTC": "2026-10-11",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
+  },
+  "working_directory": "repository root",
+  "runs": [
+    {
+      "command": "python workstreams/CRYPTO2-20261011-7f3c/regression.py",
+      "exit_code": 0,
+      "stdout_file": "REGRESSION.json",
+      "seconds": 1.7281071780016646,
+      "source_hashes": {
+        "regression.py": "0d6e0d84d0824955f151ad1ee68f3c52222f9801e43dc11b72566386e5a2c128",
+        "construct.py": "b55e1b493d9469692177f9b74b5863a3b61872f9a6dfd5eec19db247980c134c",
+        "check.py": "69102005dc52241817d530e9cdaf0cc54104d08b49a6209f984683d31a1d86a0"
+      },
+      "result": "3710 exact certificates; n=2 boundary has 0/210 related pairs; 10 negative controls rejected",
+      "original_run": {
+        "seconds": 1.6500114680020488,
+        "regression_source_sha256": "0d409ed39139f8f36851adb6bd276d5f9f61018c7d7d546d61bc30e05422d910",
+        "note": "This first run preceded a comment-only correction about MDS descent; computational code was unchanged."
+      },
+      "note": "Final exact-file rerun after correcting the obsolete comment: exit 0, same counts and witness data. REGRESSION.json is the final-run output."
+    },
+    {
+      "command": "g++ -O2 -std=c++17 workstreams/CRYPTO2-20261011-7f3c/find_mds10.cpp -o /workspace/scratch/62f6e8a57d75/find_mds10 && /workspace/scratch/62f6e8a57d75/find_mds10",
+      "exit_code": 0,
+      "source_hashes": {
+        "find_mds10.cpp": "dba2fbceaf9206b4c070b0a278f0dd8d80e85687867de83a10958b36337ae1a3"
+      },
+      "result": "First deterministic trial: 184755 nonempty square minors nonzero. Discovery object embedded in certificates/mds10.json."
+    },
+    {
+      "command": "python workstreams/CRYPTO2-20261011-7f3c/check.py workstreams/CRYPTO2-20261011-7f3c/certificates/mds10.json --negative",
+      "exit_code": 0,
+      "source_hashes": {
+        "check.py": "69102005dc52241817d530e9cdaf0cc54104d08b49a6209f984683d31a1d86a0"
+      },
+      "stdout": {
+        "status": "PASS",
+        "certificates": 1,
+        "negative_controls": 8
+      }
+    },
+    {
+      "command": "python workstreams/CRYPTO2-20261011-7f3c/verify_mds.py workstreams/CRYPTO2-20261011-7f3c/certificates/mds10.json",
+      "exit_code": 0,
+      "source_hashes": {
+        "verify_mds.py": "76050abdf72c3ddb3524832ab2732454affad50827338768d3a2bde595aa36ce",
+        "check.py": "69102005dc52241817d530e9cdaf0cc54104d08b49a6209f984683d31a1d86a0"
+      },
+      "stdout_file": "MDS10-VERIFICATION.json",
+      "result": "division-free Laplace recurrence independently from C++ elimination: all 184755 nonempty minors nonzero; negative control rejected"
+    }
+  ],
+  "notes": [
+    "Source hashes bind the unchanged code actually used. No Lean run occurred.",
+    "Independent-agent check commands and environment are recorded separately in review/.",
+    "Discovery executable was run twice, first to display the object then to bind it into the witness JSON. No extended search was performed."
+  ]
+}

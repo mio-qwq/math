@@ -1,0 +1,18 @@
+[
+  {
+    "file": "2605.27535v1.html",
+    "url": "https://arxiv.org/html/2605.27535v1",
+    "retrieved_date_UTC": "2026-10-11",
+    "bytes": 564693,
+    "sha256": "ce923dda981c718b79e94647325547b9bcd59b814925feedeb71a8c65d2cca7e",
+    "storage": "scratch reference cache; not redistributed"
+  },
+  {
+    "file": "linear-maps-2007.pdf",
+    "url": "https://cs.ru.nl/~joan/papers/JDA_VRI_LinearMaps_2007.pdf",
+    "retrieved_date_UTC": "2026-10-11",
+    "bytes": 575567,
+    "sha256": "e327b13965d15ecc96da756b94dab89ce7ff7481ae08038b0897ae63f957df01",
+    "storage": "scratch reference cache; not redistributed"
+  }
+]

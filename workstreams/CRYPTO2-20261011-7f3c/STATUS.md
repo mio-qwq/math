@@ -14,7 +14,7 @@
   `551fcd76ebabe43971123d29d11a94319a3b0096` at inspection. No recovery archive
   was read or applied, and no uncommitted CRYPTO proof was reviewed.
 
-## Reservation, before computation
+## Reservation, before computation (historical checkpoint)
 
 Source: Kumar–Yadav–Samanta, *Analyzing Linear Layers in Related-Differential
 Cryptanalysis*, arXiv:2605.27535v1 (26 May 2026), Theorem 5 and Section VI.
@@ -42,4 +42,40 @@ No independent review or Lean claimed.
 
 Next: complete self-contained proof; directly check exact field witnesses,
 the quotient intertwining identity, n=2 exclusion, and corrupted certificates.
+
+## Completed checkpoint — 2026-10-11 UTC
+
+The main theorem is proved in **PROOF-v2.md**: every invertible circulant
+matrix of order n>=3 over every characteristic-two field has a nontrivial
+related-differential pair. This completes the remaining-order direction
+in the inspected source, not a verbatim numbered conjecture. The quotient
+identity MJ=JB also gives beta(B)>=ceil(beta(M)/t), so MDS descends.
+
+Evidence: complete symbolic proof; 3,710 exact checked witnesses; genuine
+10-by-10 MDS circulant over GF(2^16) with all 184,755 nonempty square minors
+verified by two different determinant methods; n=2 exception proved and
+all 210 candidate pairs checked; damaged-certificate controls rejected.
+Independent reviewer reconstructed before disclosure, then reviewed the
+proof and the correction; review receipts and test scope are in review/.
+The discoverer's differently implemented checker alone is not described
+as independent-agent review. No Lean, actual attack or priority certification.
+
+V1 and its first review are immutable historical records. V2 corrects an
+ancillary misleading claim about possible MDS loss; the main theorem is
+unchanged. The review addendum records both parties' correction explicitly.
+Final-file hashes are frozen in SHA256.json. See RESULT.md, RUNS.json,
+SOURCE-GATE.md and HANDOFF.md for scope and reproducibility.
+
+Stage: completed mathematical checkpoint; preparing branch publication.
+Reservation already published as b407c26994978afc7432cf505d8d78cdd9712ff9.
+Native push failed for missing local credentials; the authorized GitHub
+connector succeeded. Final content publication is to this same exclusive
+branch with an expected-head guard, no force and no main update.
+
+Blockers: historical originality remains uncertain; the full revised
+ePrint 2025/2240, September 2026 Toeplitz paper, and Whirlwind text were
+not fully retrieved. No same-scope theorem was found in the bounded search.
+Next useful work: fill those precise literature gaps and check equivalent
+invariant-code formulations. If already covered, downgrade to an attributed
+derivation. Do not repeat sample growth as a substitute for novelty work.
 

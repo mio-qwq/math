@@ -1,0 +1,59 @@
+{
+  "method": "Independent exact GF(4)/GF(16) arithmetic; no discoverer code imports",
+  "exhaustive_small": {
+    "3": {
+      "all_coefficients": 64,
+      "invertible_passed": 27
+    },
+    "4": {
+      "all_coefficients": 256,
+      "invertible_passed": 192
+    }
+  },
+  "sampled": {
+    "6": {
+      "invertible_passed": 24
+    },
+    "8": {
+      "invertible_passed": 24
+    },
+    "10": {
+      "invertible_passed": 24
+    },
+    "14": {
+      "invertible_passed": 24
+    }
+  },
+  "symmetric_mds_GF16": {
+    "3": {
+      "u": [
+        4,
+        1,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        7
+      ],
+      "passed": true
+    },
+    "5": {
+      "u": [
+        11,
+        13,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1,
+        7,
+        5
+      ],
+      "passed": true
+    }
+  }
+}
