@@ -1,0 +1,28 @@
+{
+  "status": "EXTRACTED_GRAPH_REPLAY_PASS",
+  "checked_utc": "2026-10-11T05:39:11.199030+00:00",
+  "commands": [
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python.exe 006-strong-product-packing-counterexample/verify_graph.py replay-primary",
+      "exit_code": 0,
+      "elapsed_sec": 0.28,
+      "output_tail": "\": {\n    \"d\": 2,\n    \"p\": 3\n  },\n  \"G_vertices\": 64,\n  \"G_edges\": 192,\n  \"G_actual_graph_distances_equal_hamming\": true,\n  \"H_vertices\": 608,\n  \"H_edges\": 9168,\n  \"H_simple_undirected_connected\": true,\n  \"H_degree_range\": [\n    16,\n    83\n  ],\n  \"H_center_to_any_max_distance\": 4,\n  \"product_center_count\": 64,\n  \"checked_unordered_center_pairs\": 2016,\n  \"minimum_product_center_distance\": 4,\n  \"checked_same_center_targets\": 38912,\n  \"uncovered_targets\": 0,\n  \"packing_violations\": 0,\n  \"graph_sha256\": \"c8746a41f206642d8a50328cc0e924a299f241da6fdf65388cf4c993735f084b\",\n  \"certificate_sha256\": \"be0f9c9f593f6cc82f4ef25fbff82df5560985ad176e3e6d47ac962d1b41d7e5\",\n  \"factor_nonexistence_scope\": \"existing all-subsets Q6PackingDomination proof; not reproved by this replay\",\n  \"claim_scope\": \"Exact actual-graph replay; mathematical proof and Lean verification are recorded separately in README.md\"\n}\n"
+    },
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python.exe 006-strong-product-packing-counterexample/verify_independent.py own --out replay-independent",
+      "exit_code": 0,
+      "elapsed_sec": 3.64,
+      "output_tail": "ected\": true, \"edge_count\": 9168, \"edge_type_counts\": {\"A-E\": 960, \"A-S\": 64, \"E-E\": 3600, \"E-S\": 3840, \"S-S\": 704}, \"ended_utc\": \"2026-10-11T05:39:10.868134+00:00\", \"graph_diameter\": 4, \"maximum_reachable_center_labels\": 23, \"minimum_product_center_distance\": 4, \"minimum_reachable_center_labels\": 8, \"node_count\": 608, \"node_type_counts\": {\"A\": 64, \"E\": 480, \"S\": 64}, \"packing_pairs_checked\": 2016, \"proper_unordered_adjacency_pairs_checked\": 184528, \"python\": \"3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]\", \"result_sha256\": \"bfd2de74000e3acedef4d1982b3becc8e54a75bd940efd042cf32445ecad36a4\", \"root_artifacts_read\": false, \"same_center_covering_targets_checked\": 38912, \"source_sha256\": \"f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d\", \"started_utc\": \"2026-10-11T05:39:07.350071+00:00\", \"status\": \"OWN_EXACT_PASS_ROOT_COMPARISON_PENDING\"}\n"
+    },
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python.exe 006-strong-product-packing-counterexample/verify_independent.py compare --out replay-independent --root replay-primary",
+      "exit_code": 0,
+      "elapsed_sec": 0.28,
+      "output_tail": "8c53d946b06eb3e62e249e5f66188c17\", \"ended_utc\": \"2026-10-11T05:39:11.178246+00:00\", \"mustfix\": 0, \"own_phase_source_sha256\": \"f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d\", \"own_result_sha256\": \"bfd2de74000e3acedef4d1982b3becc8e54a75bd940efd042cf32445ecad36a4\", \"root_center_bfs_entries_matched\": 38912, \"root_certificate_sha256\": \"be0f9c9f593f6cc82f4ef25fbff82df5560985ad176e3e6d47ac962d1b41d7e5\", \"root_graph_sha256\": \"c8746a41f206642d8a50328cc0e924a299f241da6fdf65388cf4c993735f084b\", \"root_same_center_witnesses_independently_validated\": 38912, \"root_vertex_numbering_identical\": true, \"root_witnesses_different_but_valid\": 0, \"root_witnesses_equal_own_minimum_choice\": 38912, \"source_sha256\": \"f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d\", \"started_utc\": \"2026-10-11T05:39:10.988044+00:00\", \"status\": \"INDEPENDENT_EXACT_REPLAY_AND_ROOT_COMPARISON_PASS\"}\n"
+    }
+  ],
+  "sha256_zip": "5059e5bcf9d125f04a423df9ea2f58619cf72b5241f70cb26a013d42b510e082",
+  "manifest_records": 23,
+  "lean_compiled": false,
+  "pdf_manuscript_still_matches_zip": true
+}

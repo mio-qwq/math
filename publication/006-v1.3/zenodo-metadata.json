@@ -1,0 +1,61 @@
+{
+  "schema": "local-zenodo-manual-entry-v3",
+  "status": "READY_FOR_DEPOSIT_NOT_PUBLISHED",
+  "doi": null,
+  "record_id": null,
+  "doi_reserved": false,
+  "first_zenodo_version": "V1",
+  "metadata": {
+    "title": "A counterexample to packing-domination inheritance in strong products",
+    "resource_type": "Publication / Preprint",
+    "publication_type": "preprint",
+    "language": "English",
+    "version": "1.3",
+    "license_manuscript": "CC BY 4.0",
+    "creators": [
+      {
+        "name": "Zhang, River",
+        "orcid": "0009-0004-2437-8566",
+        "affiliation": "Chengdu Neusoft University, Chengdu, China"
+      },
+      {
+        "name": "Zhang, Yongxian",
+        "orcid": "0009-0000-3864-3536",
+        "affiliation": "School of Computer Science and Engineering, South China University of Technology, Guangzhou, China"
+      }
+    ],
+    "corresponding_author": "River Zhang",
+    "corresponding_email": "mioqwq@hotmail.com",
+    "description": "The d-distance p-packing domination number of a graph is the minimum size of a set that dominates within distance d and separates distinct centers by distance at least p+1, with value infinity when no such set exists. Bujtas, Irsic Chenoweth, Klavzar and Zhang conjectured that nonexistence in one factor is inherited by every strong product containing that factor. We construct a finite connected simple graph H, with 608 vertices and 9,168 edges, for which the binary six-cube Q6 admits no 2-distance dominating 3-packing but its strong product with H admits one with 64 centers. The auxiliary graph uses singleton and distance-four pair supports in the binary six-cube. Compatibility of support unions prevents short paths between incompatible code labels, while explicit eight-label sets provide radius-two coverage at pair vertices. We give a complete proof from actual graph adjacency. A Lean formalization checks the complete existence-level counterexample on finite simple graphs and standard graph walks; two separately implemented exact checkers reconstruct and verify the finite graph and its same-center covering witness. The numerical optimum is not determined, and historical priority is not asserted.",
+    "keywords": [
+      "distance domination",
+      "packing",
+      "strong graph product",
+      "hypercube",
+      "counterexample",
+      "Lean",
+      "formal verification"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1007/s00026-026-00814-0",
+        "relation": "references"
+      },
+      {
+        "identifier": "https://arxiv.org/abs/2510.02749v1",
+        "relation": "references"
+      }
+    ],
+    "arxiv_category": "math.CO",
+    "MSC2020": [
+      "05C69",
+      "05C76",
+      "68V15"
+    ]
+  },
+  "funding": "The authors declare that this research received no external funding.",
+  "competing_interests": "Both authors declare that they have no competing interests.",
+  "ai_assistance": "Substantial OpenAI Codex/GPT-6 agent assistance with mathematical construction, derivations, Lean, checking, literature and drafting, fully disclosed in paper.",
+  "license_boundary": "CC BY 4.0 applies to the manuscript. Original code/Lean/certificates retain Apache-2.0 and external materials retain their own rights.",
+  "human_publication_action_required": true
+}

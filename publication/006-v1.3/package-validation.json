@@ -1,0 +1,16 @@
+{
+  "status": "EXTRACTED_GRAPH_REPLAY_AND_PDF_ARCHIVE_VERIFIED",
+  "pdf_sha256": "5cca59a117e4d7eac6359cb87a4919b8b4d8f1285649cadcb10b6b60c857b0d1",
+  "tex_sha256": "ee6898c6bf5c1996a884f34781b0bce1eb2d3d4aec491bd4816112cea5e01800",
+  "zip_sha256": "5059e5bcf9d125f04a423df9ea2f58619cf72b5241f70cb26a013d42b510e082",
+  "zip_bytes": 232552,
+  "archived_payload_files": 23,
+  "pdf_pages": 16,
+  "both_authors_confirmed": true,
+  "manuscript_license": "CC BY 4.0",
+  "math_body_unchanged": true,
+  "doi_created": false,
+  "new_lean_execution": false,
+  "archive_replay_pass": true,
+  "archive_replay_receipt": "publication/006-v1.3/archive-replay.json"
+}

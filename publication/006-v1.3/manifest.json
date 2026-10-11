@@ -1,0 +1,124 @@
+{
+  "schema": "006-v1.3-reproducibility-v1",
+  "prepared_utc": "2026-10-11T05:38:36.970248+00:00",
+  "base_commit": "f763482fb44f6492f1c3ae0f94593b2119771b37",
+  "file_count": 23,
+  "files": [
+    {
+      "path": "002-weighted-rectangular-pruning/proof/mathlib/lake-manifest.json",
+      "bytes": 3673,
+      "sha256": "1b85cf58f31f8666cdef2e82532e02a17a00ef58722db185d572c93b3981c7a7"
+    },
+    {
+      "path": "002-weighted-rectangular-pruning/proof/mathlib/lakefile.lean",
+      "bytes": 190,
+      "sha256": "74cb4107742058e0042a04fd1fd7230c745b6519ef3e358f73ca91dea93a3368"
+    },
+    {
+      "path": "002-weighted-rectangular-pruning/proof/mathlib/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/paper/main.tex",
+      "bytes": 52088,
+      "sha256": "ee6898c6bf5c1996a884f34781b0bce1eb2d3d4aec491bd4816112cea5e01800"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/paper/paper.pdf",
+      "bytes": 133469,
+      "sha256": "5cca59a117e4d7eac6359cb87a4919b8b4d8f1285649cadcb10b6b60c857b0d1"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/paper/references.bib",
+      "bytes": 3419,
+      "sha256": "b5901171ea86152430b558c13ba309a3ef22c836fa2c8998a9e60dbcdecfe529"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/paper/verification-v1.3.json",
+      "bytes": 1023,
+      "sha256": "13a897e883ef3b4ba228fa72e319e3ad6a38ca22b1167d358036e395ee4340f1"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean",
+      "bytes": 17650,
+      "sha256": "e15ab3fda118880ab88bccaf6a2154d21dcb08fd45ab5ea6978acf585950c88b"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/proof/Q6PackingComplexGeometry.lean",
+      "bytes": 4854,
+      "sha256": "1e6b729a57228bd82b6cc7aa5accb1ebde10225e6822a5e4e7d42829edac6830"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/results/certificate.json",
+      "bytes": 180596,
+      "sha256": "be0f9c9f593f6cc82f4ef25fbff82df5560985ad176e3e6d47ac962d1b41d7e5"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/results/graph-verification.json",
+      "bytes": 1148,
+      "sha256": "62035d7ad000ea3cd36e1aca69822d72cc35aa6b1e290153eff39adf6899a447"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/results/graph.json",
+      "bytes": 88708,
+      "sha256": "c8746a41f206642d8a50328cc0e924a299f241da6fdf65388cf4c993735f084b"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/results/independent-certificate-comparison.json",
+      "bytes": 1009,
+      "sha256": "1c19a266116938ba3ae17c2478d358211c6532768f2e25e3b2be76e0f9bdc761"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/results/independent-graph-verification.json",
+      "bytes": 1441,
+      "sha256": "251d3a439184a819c680d767dc10036bcd7b518f5046ec18a0d41c5163e066ad"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/results/lean-verification.json",
+      "bytes": 23341,
+      "sha256": "2227c0cf96902741b74fde7f2231794d57692cea32d32ab9b2498fd36a6520c0"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/verify_graph.py",
+      "bytes": 5241,
+      "sha256": "07cddcd2d9a8d97b064a960ad6aee6671d869d70becbc68974f8ffb7e05f3bb1"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/verify_independent.py",
+      "bytes": 17053,
+      "sha256": "f456d34e45b58a70869f5bc72ebf27fb6b07d0efef95c33d26ea546a8941808d"
+    },
+    {
+      "path": "006-strong-product-packing-counterexample/verify_lean.py",
+      "bytes": 8840,
+      "sha256": "71ccfab40c2b87f537d761c0f395845d1fe678c4da619323e97636b415cf9f92"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "notes/proof/Q6PackingDomination.lean",
+      "bytes": 8539,
+      "sha256": "dc8af711bf5ca84969c60ffdd4d2f7377ec23c27556daaabcc80088109288476"
+    },
+    {
+      "path": "publication/006-v1.3/LICENSES.md",
+      "bytes": 656,
+      "sha256": "8a027ab9de7d7e1e00ce9a776586dab4288793f9a5666d9acc60ef245ae1c74e"
+    },
+    {
+      "path": "publication/006-v1.3/README.md",
+      "bytes": 1932,
+      "sha256": "045a61cea7c9f1f5a3bfd1c1786165b0a5514c8af4d84333ff301f37893a0ff8"
+    },
+    {
+      "path": "publication/006-v1.3/REPRODUCE.md",
+      "bytes": 1962,
+      "sha256": "da3081db1c144b78c7b52beb765129ea3f338fe2b23aa825f5f94a91f983a63f"
+    }
+  ],
+  "cc_by_4_0_only_applies_to_manuscript": true
+}
