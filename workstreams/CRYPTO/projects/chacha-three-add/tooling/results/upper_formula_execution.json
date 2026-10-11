@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tooling/check_upper_formula.py"
+  ],
+  "cwd": "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add",
+  "started_at_utc": "2026-10-11T07:35:03.937785+00:00",
+  "finished_at_utc": "2026-10-11T07:35:04.264172+00:00",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"pass\", \"comparisons\": 324, \"recurrences\": 60, \"standard\": [{\"i\": 28, \"correlation\": \"-47180567524833621/1180591620717411303424\"}, {\"i\": 29, \"correlation\": \"-88356335546507093/4722366482869645213696\"}, {\"i\": 30, \"correlation\": \"-170707871589853653/18889465931478580854784\"}, {\"i\": 31, \"correlation\": \"-335410943676546677/75557863725914323419136\"}], \"output\": \"/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/tooling/results/upper_formula_check.json\"}\n",
+  "stderr": ""
+}

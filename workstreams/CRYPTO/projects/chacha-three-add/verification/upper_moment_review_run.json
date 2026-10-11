@@ -1,0 +1,5493 @@
+{
+  "started_utc": "2026-10-11T07:40:17.881425+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/upper_moment_review_checks.py"
+  ],
+  "source_and_input_sha256": {
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/upper_moment_review_checks.py": "f2447c009e3f9093a64d35673d3d80e274902f094c46f53e77655ad30ec54719",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/general_independent_verify.py": "2394bd052606d33754d186a41c134906bd9307ec7dc95f665e584d294d03be20",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/upper_range_independent_run.json": "0aaf66e822067b02da55c3604dc6f5db5c02198dc161c59bdbd946a45e6b80cb",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/proofs/overlap_bit_closed_form.md": "679893a5d746d0180215031b0b7c0ceed3d926d74f0d5969f5d7928cd8ba0fca"
+  },
+  "independence": "Post-disclosure manuscript review; previously independent DP, no discovery implementation read.",
+  "domain": "r,q=1..5;0<=k<=q;i=r+q+k;n=i+1",
+  "random_seed": null,
+  "status": "pass",
+  "exit_code": 0,
+  "unmasked_moment_comparisons": 100,
+  "masked_moment_comparisons": 475,
+  "low_mask_comparisons": 175,
+  "high_mask_comparisons": 300,
+  "parameter_cases_at_k_equals_q": 25,
+  "parameter_cases_at_k_equals_zero": 25,
+  "parameter_cases_with_k_at_least_r": 35,
+  "unmasked": [
+    {
+      "r": 1,
+      "q": 1,
+      "k": 0,
+      "moment": "-1/4",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 1,
+      "k": 1,
+      "moment": "-1/8",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 0,
+      "moment": "-5/16",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 1,
+      "moment": "-5/32",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 2,
+      "moment": "-5/64",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 0,
+      "moment": "-21/64",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 1,
+      "moment": "-21/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 2,
+      "moment": "-21/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 3,
+      "moment": "-21/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 0,
+      "moment": "-85/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 1,
+      "moment": "-85/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 2,
+      "moment": "-85/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 3,
+      "moment": "-85/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 4,
+      "moment": "-85/4096",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 0,
+      "moment": "-341/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 1,
+      "moment": "-341/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 2,
+      "moment": "-341/4096",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 3,
+      "moment": "-341/8192",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 4,
+      "moment": "-341/16384",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "moment": "-341/32768",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 0,
+      "moment": "-5/16",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 1,
+      "moment": "-5/32",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 0,
+      "moment": "-21/64",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 1,
+      "moment": "-21/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 2,
+      "moment": "-21/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 0,
+      "moment": "-85/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 1,
+      "moment": "-85/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 2,
+      "moment": "-85/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "moment": "-85/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 0,
+      "moment": "-341/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 1,
+      "moment": "-341/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 2,
+      "moment": "-341/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 3,
+      "moment": "-341/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "moment": "-341/16384",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 0,
+      "moment": "-1365/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 1,
+      "moment": "-1365/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 2,
+      "moment": "-1365/16384",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 3,
+      "moment": "-1365/32768",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "moment": "-1365/65536",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "moment": "-1365/131072",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 0,
+      "moment": "-21/64",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 1,
+      "moment": "-21/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 0,
+      "moment": "-85/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 1,
+      "moment": "-85/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "moment": "-85/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 0,
+      "moment": "-341/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 1,
+      "moment": "-341/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "moment": "-341/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "moment": "-341/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 0,
+      "moment": "-1365/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 1,
+      "moment": "-1365/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 2,
+      "moment": "-1365/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "moment": "-1365/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "moment": "-1365/65536",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 0,
+      "moment": "-5461/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 1,
+      "moment": "-5461/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 2,
+      "moment": "-5461/65536",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "moment": "-5461/131072",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "moment": "-5461/262144",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "moment": "-5461/524288",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 0,
+      "moment": "-85/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "moment": "-85/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 0,
+      "moment": "-341/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "moment": "-341/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "moment": "-341/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 0,
+      "moment": "-1365/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "moment": "-1365/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "moment": "-1365/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "moment": "-1365/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 0,
+      "moment": "-5461/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 1,
+      "moment": "-5461/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "moment": "-5461/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "moment": "-5461/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "moment": "-5461/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 0,
+      "moment": "-21845/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 1,
+      "moment": "-21845/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "moment": "-21845/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "moment": "-21845/524288",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "moment": "-21845/1048576",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "moment": "-21845/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "moment": "-341/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "moment": "-341/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "moment": "-1365/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "moment": "-1365/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "moment": "-1365/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "moment": "-5461/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "moment": "-5461/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "moment": "-5461/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "moment": "-5461/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 0,
+      "moment": "-21845/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "moment": "-21845/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "moment": "-21845/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "moment": "-21845/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "moment": "-21845/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 0,
+      "moment": "-87381/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "moment": "-87381/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "moment": "-87381/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "moment": "-87381/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "moment": "-87381/4194304",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "moment": "-87381/8388608",
+      "pass": true
+    }
+  ],
+  "masked": [
+    {
+      "r": 1,
+      "q": 1,
+      "k": 0,
+      "ell": 0,
+      "p": 1,
+      "branch": "high",
+      "moment": "1/8",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 1,
+      "k": 1,
+      "ell": 0,
+      "p": 1,
+      "branch": "low",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 1,
+      "k": 1,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 0,
+      "ell": 0,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 1,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 1,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 2,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 2,
+      "ell": 1,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "k": 2,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 0,
+      "ell": 0,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 1,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 1,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 2,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 2,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 2,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 3,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 3,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 3,
+      "ell": 2,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "k": 3,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 0,
+      "ell": 0,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 1,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 1,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 2,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 2,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 2,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 3,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 3,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 3,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 3,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 4,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 4,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 4,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 4,
+      "ell": 3,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "k": 4,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 0,
+      "ell": 0,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 1,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 1,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 2,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 2,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 2,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 3,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 3,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 3,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 3,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 4,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 4,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 4,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 4,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 4,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "ell": 4,
+      "p": 9,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "k": 5,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 0,
+      "ell": 0,
+      "p": 1,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 0,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/8",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 1,
+      "ell": 0,
+      "p": 1,
+      "branch": "low",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 1,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "k": 1,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 0,
+      "ell": 0,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 0,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 1,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 1,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 1,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 2,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 2,
+      "ell": 1,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 2,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "k": 2,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 0,
+      "ell": 0,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 0,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 1,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 1,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 1,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 2,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 2,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 2,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 2,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "ell": 2,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 0,
+      "ell": 0,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 0,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 1,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 1,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 1,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 2,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 2,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 2,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 2,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 3,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 3,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 3,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 3,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 3,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "ell": 3,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "k": 4,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 0,
+      "ell": 0,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 0,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 1,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 1,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 1,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 2,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 2,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 2,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 2,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 3,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 3,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 3,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 3,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 3,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 4,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 4,
+      "p": 9,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "k": 5,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 0,
+      "ell": 0,
+      "p": 1,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 0,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 0,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/8",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 1,
+      "ell": 0,
+      "p": 1,
+      "branch": "low",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 1,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 1,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "k": 1,
+      "ell": 3,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 0,
+      "ell": 0,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 0,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 0,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 1,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 1,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 1,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 1,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "ell": 1,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "ell": 4,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 0,
+      "ell": 0,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 0,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 0,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 1,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 1,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 1,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 1,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "ell": 2,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "k": 3,
+      "ell": 5,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 0,
+      "ell": 0,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 0,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 0,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 1,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 1,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 1,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 1,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 2,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 2,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 2,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 2,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 2,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 3,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 3,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "k": 4,
+      "ell": 6,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 0,
+      "ell": 0,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 0,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 0,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 1,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 1,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 1,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 1,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 2,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 2,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 2,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 2,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 2,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 3,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/4194304",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 4,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/33554432",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 4,
+      "p": 9,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "k": 5,
+      "ell": 7,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 0,
+      "ell": 0,
+      "p": 1,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 0,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 0,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 0,
+      "ell": 3,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/8",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "ell": 0,
+      "p": 1,
+      "branch": "low",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "ell": 3,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "ell": 4,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 0,
+      "ell": 0,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 0,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 0,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 0,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "ell": 4,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "ell": 1,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "ell": 4,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "ell": 5,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 0,
+      "ell": 0,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 0,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 0,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 0,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 2,
+      "ell": 5,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 2,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 5,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "k": 3,
+      "ell": 6,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 0,
+      "ell": 0,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 0,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 0,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 0,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 1,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 1,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 1,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 1,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 1,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 2,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 3,
+      "ell": 6,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 3,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 6,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "k": 4,
+      "ell": 7,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 0,
+      "ell": 0,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 0,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 0,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 0,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 1,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 1,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 1,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 1,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 1,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 2,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 3,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/16777216",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/4194304",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 4,
+      "ell": 7,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/134217728",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/33554432",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 4,
+      "p": 9,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 7,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "k": 5,
+      "ell": 8,
+      "p": 13,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "ell": 0,
+      "p": 1,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "ell": 3,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "ell": 4,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/8",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "ell": 0,
+      "p": 1,
+      "branch": "low",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "ell": 1,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "ell": 2,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "ell": 3,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "ell": 4,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "ell": 5,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "ell": 0,
+      "p": 2,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "ell": 4,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/16",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "ell": 1,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "ell": 4,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "ell": 5,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 0,
+      "p": 2,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 1,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 2,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 3,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 4,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 5,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "k": 2,
+      "ell": 6,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "ell": 0,
+      "p": 3,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/32",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "ell": 1,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 1,
+      "ell": 5,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 2,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 5,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 2,
+      "ell": 6,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 0,
+      "p": 3,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 1,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 2,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 3,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 4,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 5,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 6,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "k": 3,
+      "ell": 7,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 0,
+      "ell": 0,
+      "p": 4,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 0,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 0,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 0,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 0,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/64",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "ell": 1,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 1,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 2,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 2,
+      "ell": 6,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/4194304",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 3,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 6,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 3,
+      "ell": 7,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 0,
+      "p": 4,
+      "branch": "low",
+      "moment": "1/33554432",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 1,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 2,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 3,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 4,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 5,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 6,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 7,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "k": 4,
+      "ell": 8,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 0,
+      "ell": 0,
+      "p": 5,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 0,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 0,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 0,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 0,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/128",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "ell": 1,
+      "p": 6,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 1,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/256",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 2,
+      "p": 7,
+      "branch": "high",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 2,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/512",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 3,
+      "p": 8,
+      "branch": "high",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 3,
+      "ell": 7,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/1024",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/67108864",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/16777216",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/4194304",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 4,
+      "p": 9,
+      "branch": "high",
+      "moment": "1/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/131072",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/32768",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 7,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/8192",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 4,
+      "ell": 8,
+      "p": 13,
+      "branch": "high",
+      "moment": "1/2048",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 0,
+      "p": 5,
+      "branch": "low",
+      "moment": "1/536870912",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 1,
+      "p": 6,
+      "branch": "low",
+      "moment": "1/134217728",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 2,
+      "p": 7,
+      "branch": "low",
+      "moment": "1/33554432",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 3,
+      "p": 8,
+      "branch": "low",
+      "moment": "1/8388608",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 4,
+      "p": 9,
+      "branch": "low",
+      "moment": "1/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 5,
+      "p": 10,
+      "branch": "high",
+      "moment": "1/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 6,
+      "p": 11,
+      "branch": "high",
+      "moment": "1/262144",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 7,
+      "p": 12,
+      "branch": "high",
+      "moment": "1/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 8,
+      "p": 13,
+      "branch": "high",
+      "moment": "1/16384",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "k": 5,
+      "ell": 9,
+      "p": 14,
+      "branch": "high",
+      "moment": "1/4096",
+      "pass": true
+    }
+  ],
+  "invalid_block_negative_control": {
+    "n": 5,
+    "r": 1,
+    "q": 1,
+    "k": 2,
+    "i": 4,
+    "ell": 0,
+    "p": 1,
+    "violated_condition": "p>=k",
+    "actual_moment": "0",
+    "incorrectly_extended_moment": "1/256",
+    "contribution_to_correlation_difference": "1/2048"
+  },
+  "finished_utc": "2026-10-11T07:40:17.914570+00:00"
+}

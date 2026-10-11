@@ -1,0 +1,370 @@
+{
+  "independence": "Derived from the supplied word-operation specification; no discovery files read.",
+  "seed": "none; exhaustive / exact integer summation",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+  },
+  "source_sha256": {
+    "independent_word_enumerator.cpp": "f7caa0a652ede1c56974f101417b062f8cb9c40d6a39db5bfd3e3acb72458eb7",
+    "independent_verify.py": "9abfbefc3f25c1375f18e67194a9a93d15344d066dc08f96765d38b9a835979f"
+  },
+  "compile": {
+    "argv": [
+      "g++",
+      "-O3",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/independent_word_enumerator.cpp",
+      "-o",
+      "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/independent_word_enumerator"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.5603868779999175,
+    "stdout": "",
+    "stderr": ""
+  },
+  "execution": {
+    "argv": [
+      "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/independent_word_enumerator"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.3059463200006576,
+    "stderr": ""
+  },
+  "rfc8439": {
+    "kind": "rfc8439_section_2_1_1",
+    "pass": true,
+    "output_hex": [
+      "ea2a92f4",
+      "cb1cf8ce",
+      "4581472e",
+      "5881c4bb"
+    ]
+  },
+  "all_rotation_word_enumerations": 50,
+  "in_domain_exhaustive_cases": [
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "samples": 4096,
+      "signed_correlation": "-3/16",
+      "threshold_sum": "-3/16",
+      "formula": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "samples": 65536,
+      "signed_correlation": "-3/16",
+      "threshold_sum": "-3/16",
+      "formula": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "i": 3,
+      "samples": 65536,
+      "signed_correlation": "-3/16",
+      "threshold_sum": "-3/16",
+      "formula": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "i": 3,
+      "samples": 65536,
+      "signed_correlation": "-19/128",
+      "threshold_sum": "-19/128",
+      "formula": "-19/128",
+      "pass": true
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "samples": 1048576,
+      "signed_correlation": "-3/16",
+      "threshold_sum": "-3/16",
+      "formula": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 2,
+      "i": 3,
+      "samples": 1048576,
+      "signed_correlation": "-3/16",
+      "threshold_sum": "-3/16",
+      "formula": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 3,
+      "i": 4,
+      "samples": 1048576,
+      "signed_correlation": "-23/128",
+      "threshold_sum": "-23/128",
+      "formula": "-23/128",
+      "pass": true
+    },
+    {
+      "n": 5,
+      "r": 2,
+      "q": 1,
+      "i": 3,
+      "samples": 1048576,
+      "signed_correlation": "-19/128",
+      "threshold_sum": "-19/128",
+      "formula": "-19/128",
+      "pass": true
+    },
+    {
+      "n": 5,
+      "r": 2,
+      "q": 2,
+      "i": 4,
+      "samples": 1048576,
+      "signed_correlation": "-15/128",
+      "threshold_sum": "-15/128",
+      "formula": "-15/128",
+      "pass": true
+    },
+    {
+      "n": 5,
+      "r": 3,
+      "q": 1,
+      "i": 4,
+      "samples": 1048576,
+      "signed_correlation": "-115/1024",
+      "threshold_sum": "-115/1024",
+      "formula": "-115/1024",
+      "pass": true
+    }
+  ],
+  "independent_threshold_sum_cases": [
+    {
+      "r": 1,
+      "q": 1,
+      "pair_count": 16,
+      "correlation": "-3/16",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 2,
+      "pair_count": 64,
+      "correlation": "-3/16",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 3,
+      "pair_count": 256,
+      "correlation": "-23/128",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 4,
+      "pair_count": 1024,
+      "correlation": "-89/512",
+      "pass": true
+    },
+    {
+      "r": 1,
+      "q": 5,
+      "pair_count": 4096,
+      "correlation": "-349/2048",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 1,
+      "pair_count": 64,
+      "correlation": "-19/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 2,
+      "pair_count": 256,
+      "correlation": "-15/128",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 3,
+      "pair_count": 1024,
+      "correlation": "-103/1024",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 4,
+      "pair_count": 4096,
+      "correlation": "-377/4096",
+      "pass": true
+    },
+    {
+      "r": 2,
+      "q": 5,
+      "pair_count": 16384,
+      "correlation": "-1437/16384",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 1,
+      "pair_count": 256,
+      "correlation": "-115/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 2,
+      "pair_count": 1024,
+      "correlation": "-79/1024",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 3,
+      "pair_count": 4096,
+      "correlation": "-487/8192",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 4,
+      "pair_count": 16384,
+      "correlation": "-1657/32768",
+      "pass": true
+    },
+    {
+      "r": 3,
+      "q": 5,
+      "pair_count": 65536,
+      "correlation": "-6045/131072",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 1,
+      "pair_count": 1024,
+      "correlation": "-755/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 2,
+      "pair_count": 4096,
+      "correlation": "-463/8192",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 3,
+      "pair_count": 16384,
+      "correlation": "-2535/65536",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 4,
+      "pair_count": 65536,
+      "correlation": "-7801/262144",
+      "pass": true
+    },
+    {
+      "r": 4,
+      "q": 5,
+      "pair_count": 262144,
+      "correlation": "-26525/1048576",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 1,
+      "pair_count": 4096,
+      "correlation": "-5363/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 2,
+      "pair_count": 16384,
+      "correlation": "-3023/65536",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 3,
+      "pair_count": 65536,
+      "correlation": "-14823/524288",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 4,
+      "pair_count": 262144,
+      "correlation": "-40569/2097152",
+      "pass": true
+    },
+    {
+      "r": 5,
+      "q": 5,
+      "pair_count": 1048576,
+      "correlation": "-124829/8388608",
+      "pass": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "q=0 outside hypothesis",
+      "actual": "0",
+      "misapplied_formula": "-1/8",
+      "detected": true
+    },
+    {
+      "case": "r+q=n, wrapped bit outside hypothesis",
+      "actual": "1/2",
+      "misapplied_formula": "-3/16",
+      "detected": true
+    },
+    {
+      "case": "right instead of left rotation",
+      "actual": "-1/8",
+      "left_formula": "-3/16",
+      "detected": true
+    }
+  ],
+  "standard": {
+    "n": 32,
+    "r": 16,
+    "q": 12,
+    "i": 28,
+    "correlation": "-47180567524833621/1180591620717411303424",
+    "decimal_correlation": -3.9963495163690355e-05,
+    "equality_probability": "1180544440149886469803/2361183241434822606848",
+    "signed_bias": "-47180567524833621/2361183241434822606848",
+    "reported_fraction_matches": true
+  },
+  "result": "PASS; finite numerical evidence plus separate independent written general proof"
+}

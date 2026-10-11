@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tooling/exact_dp.py",
+    "--check",
+    "--standard-table",
+    "--output",
+    "tooling/results/dp_all_bits.json"
+  ],
+  "cwd": "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add",
+  "started_at_utc": "2026-10-11T07:25:28.148189+00:00",
+  "finished_at_utc": "2026-10-11T07:25:28.801355+00:00",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"completed\", \"output\": \"tooling/results/dp_all_bits.json\", \"elapsed_seconds\": 0.6081994859996485, \"checks\": {\"status\": \"passed\", \"independent_original_word_parameter_sets\": 50, \"independent_original_word_bit_comparisons\": 216, \"discovery_fixed_a_original_word_comparisons\": 248, \"additional_closed_expression_comparisons\": 105, \"one_bit_boundary_checks\": 3, \"invalid_parameter_checks\": 6, \"negative_control\": {\"actual\": \"-47180567524833621/1180591620717411303424\", \"false_independence\": \"1/4722366482869645213696\"}, \"inputs\": [{\"path\": \"verification/independent_word_counts.jsonl\", \"sha256\": \"848a174a1f19993baad8cffd32685a0aa6a44205f1da99114483bc4c13fb13ba\"}, {\"path\": \"experiments/results/exact_signed_max5.json\", \"sha256\": \"f3bf9c13f2d9b3b02a553fc7f9acc9cef51314814622c93fbd0c6be7fd35ba16\"}]}}\n",
+  "stderr": "",
+  "source_sha256": "50c60d497036d7c1ae39831f0ca416fe2fdc0b70588cdfb95c0a03f8eb8ebd2c"
+}

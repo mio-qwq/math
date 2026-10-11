@@ -1,0 +1,884 @@
+{
+  "status": "passed_research_self_check",
+  "independent_verification": false,
+  "randomness": "none; deterministic bounded formula-domain scan",
+  "started_at_utc": "2026-10-11T07:26:28.910178+00:00",
+  "finished_at_utc": "2026-10-11T07:26:31.336316+00:00",
+  "elapsed_seconds": 2.426149630000509,
+  "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python experiments/fixed_word_sign_check.py --max-i 12 --output experiments/results/fixed_word_sign_max12.json",
+  "exit_code_on_success": 0,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "max_rss_kib": 12672
+  },
+  "source_sha256": {
+    "fixed_word_sign_check.py": "ed87b0f85878f3136380a8d2d72aecfa9aea6d1ce2b430107cd9b0e6e6995041",
+    "exact_signed.py": "0cb36f039d5c40b59478fa21a720252d4ac45daa3dda962968e296bc25c12543"
+  },
+  "planned_and_executed_formula_cases": 81924,
+  "triangle_area_direct_cases": 980,
+  "triangle_product_comparison_cases": 458748,
+  "records": [
+    {
+      "i": 2,
+      "r": 1,
+      "q": 1,
+      "a_cases": 4,
+      "positive_count": 1,
+      "negative_count": 3,
+      "minimum_on_this_finite_domain": "-3/8",
+      "minimum_a": [
+        2,
+        3
+      ]
+    },
+    {
+      "i": 3,
+      "r": 1,
+      "q": 2,
+      "a_cases": 8,
+      "positive_count": 1,
+      "negative_count": 7,
+      "minimum_on_this_finite_domain": "-5/16",
+      "minimum_a": [
+        4,
+        5
+      ]
+    },
+    {
+      "i": 3,
+      "r": 2,
+      "q": 1,
+      "a_cases": 8,
+      "positive_count": 1,
+      "negative_count": 7,
+      "minimum_on_this_finite_domain": "-1/4",
+      "minimum_a": [
+        4,
+        5
+      ]
+    },
+    {
+      "i": 4,
+      "r": 1,
+      "q": 3,
+      "a_cases": 16,
+      "positive_count": 1,
+      "negative_count": 15,
+      "minimum_on_this_finite_domain": "-9/32",
+      "minimum_a": [
+        8,
+        9
+      ]
+    },
+    {
+      "i": 4,
+      "r": 2,
+      "q": 2,
+      "a_cases": 16,
+      "positive_count": 1,
+      "negative_count": 15,
+      "minimum_on_this_finite_domain": "-3/16",
+      "minimum_a": [
+        8,
+        9
+      ]
+    },
+    {
+      "i": 4,
+      "r": 3,
+      "q": 1,
+      "a_cases": 16,
+      "positive_count": 1,
+      "negative_count": 15,
+      "minimum_on_this_finite_domain": "-3/16",
+      "minimum_a": [
+        8,
+        9
+      ]
+    },
+    {
+      "i": 5,
+      "r": 1,
+      "q": 4,
+      "a_cases": 32,
+      "positive_count": 1,
+      "negative_count": 31,
+      "minimum_on_this_finite_domain": "-17/64",
+      "minimum_a": [
+        16,
+        17
+      ]
+    },
+    {
+      "i": 5,
+      "r": 2,
+      "q": 3,
+      "a_cases": 32,
+      "positive_count": 1,
+      "negative_count": 31,
+      "minimum_on_this_finite_domain": "-5/32",
+      "minimum_a": [
+        16,
+        17
+      ]
+    },
+    {
+      "i": 5,
+      "r": 3,
+      "q": 2,
+      "a_cases": 32,
+      "positive_count": 1,
+      "negative_count": 31,
+      "minimum_on_this_finite_domain": "-1/8",
+      "minimum_a": [
+        16,
+        17
+      ]
+    },
+    {
+      "i": 5,
+      "r": 4,
+      "q": 1,
+      "a_cases": 32,
+      "positive_count": 1,
+      "negative_count": 31,
+      "minimum_on_this_finite_domain": "-5/32",
+      "minimum_a": [
+        16,
+        17
+      ]
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 5,
+      "a_cases": 64,
+      "positive_count": 1,
+      "negative_count": 63,
+      "minimum_on_this_finite_domain": "-33/128",
+      "minimum_a": [
+        32,
+        33
+      ]
+    },
+    {
+      "i": 6,
+      "r": 2,
+      "q": 4,
+      "a_cases": 64,
+      "positive_count": 1,
+      "negative_count": 63,
+      "minimum_on_this_finite_domain": "-9/64",
+      "minimum_a": [
+        32,
+        33
+      ]
+    },
+    {
+      "i": 6,
+      "r": 3,
+      "q": 3,
+      "a_cases": 64,
+      "positive_count": 1,
+      "negative_count": 63,
+      "minimum_on_this_finite_domain": "-3/32",
+      "minimum_a": [
+        32,
+        33
+      ]
+    },
+    {
+      "i": 6,
+      "r": 4,
+      "q": 2,
+      "a_cases": 64,
+      "positive_count": 1,
+      "negative_count": 63,
+      "minimum_on_this_finite_domain": "-3/32",
+      "minimum_a": [
+        32,
+        33
+      ]
+    },
+    {
+      "i": 6,
+      "r": 5,
+      "q": 1,
+      "a_cases": 64,
+      "positive_count": 1,
+      "negative_count": 63,
+      "minimum_on_this_finite_domain": "-9/64",
+      "minimum_a": [
+        32,
+        33
+      ]
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 6,
+      "a_cases": 128,
+      "positive_count": 1,
+      "negative_count": 127,
+      "minimum_on_this_finite_domain": "-65/256",
+      "minimum_a": [
+        64,
+        65
+      ]
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 5,
+      "a_cases": 128,
+      "positive_count": 1,
+      "negative_count": 127,
+      "minimum_on_this_finite_domain": "-17/128",
+      "minimum_a": [
+        64,
+        65
+      ]
+    },
+    {
+      "i": 7,
+      "r": 3,
+      "q": 4,
+      "a_cases": 128,
+      "positive_count": 1,
+      "negative_count": 127,
+      "minimum_on_this_finite_domain": "-5/64",
+      "minimum_a": [
+        64,
+        65
+      ]
+    },
+    {
+      "i": 7,
+      "r": 4,
+      "q": 3,
+      "a_cases": 128,
+      "positive_count": 1,
+      "negative_count": 127,
+      "minimum_on_this_finite_domain": "-1/16",
+      "minimum_a": [
+        64,
+        65
+      ]
+    },
+    {
+      "i": 7,
+      "r": 5,
+      "q": 2,
+      "a_cases": 128,
+      "positive_count": 1,
+      "negative_count": 127,
+      "minimum_on_this_finite_domain": "-5/64",
+      "minimum_a": [
+        64,
+        65
+      ]
+    },
+    {
+      "i": 7,
+      "r": 6,
+      "q": 1,
+      "a_cases": 128,
+      "positive_count": 1,
+      "negative_count": 127,
+      "minimum_on_this_finite_domain": "-17/128",
+      "minimum_a": [
+        64,
+        65
+      ]
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 7,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-129/512",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 6,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-33/256",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 5,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-9/128",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 8,
+      "r": 4,
+      "q": 4,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-3/64",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 8,
+      "r": 5,
+      "q": 3,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-3/64",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 8,
+      "r": 6,
+      "q": 2,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-9/128",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 8,
+      "r": 7,
+      "q": 1,
+      "a_cases": 256,
+      "positive_count": 1,
+      "negative_count": 255,
+      "minimum_on_this_finite_domain": "-33/256",
+      "minimum_a": [
+        128,
+        129
+      ]
+    },
+    {
+      "i": 9,
+      "r": 1,
+      "q": 8,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-257/1024",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 2,
+      "q": 7,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-65/512",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 3,
+      "q": 6,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-17/256",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 4,
+      "q": 5,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-5/128",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 5,
+      "q": 4,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-1/32",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 6,
+      "q": 3,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-5/128",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 7,
+      "q": 2,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-17/256",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 9,
+      "r": 8,
+      "q": 1,
+      "a_cases": 512,
+      "positive_count": 1,
+      "negative_count": 511,
+      "minimum_on_this_finite_domain": "-65/512",
+      "minimum_a": [
+        256,
+        257
+      ]
+    },
+    {
+      "i": 10,
+      "r": 1,
+      "q": 9,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-513/2048",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 2,
+      "q": 8,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-129/1024",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 3,
+      "q": 7,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-33/512",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 4,
+      "q": 6,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-9/256",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 5,
+      "q": 5,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-3/128",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 6,
+      "q": 4,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-3/128",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 7,
+      "q": 3,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-9/256",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 8,
+      "q": 2,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-33/512",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 10,
+      "r": 9,
+      "q": 1,
+      "a_cases": 1024,
+      "positive_count": 1,
+      "negative_count": 1023,
+      "minimum_on_this_finite_domain": "-129/1024",
+      "minimum_a": [
+        512,
+        513
+      ]
+    },
+    {
+      "i": 11,
+      "r": 1,
+      "q": 10,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-1025/4096",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 2,
+      "q": 9,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-257/2048",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 3,
+      "q": 8,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-65/1024",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 4,
+      "q": 7,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-17/512",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 5,
+      "q": 6,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-5/256",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 6,
+      "q": 5,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-1/64",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 7,
+      "q": 4,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-5/256",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 8,
+      "q": 3,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-17/512",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 9,
+      "q": 2,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-65/1024",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 11,
+      "r": 10,
+      "q": 1,
+      "a_cases": 2048,
+      "positive_count": 1,
+      "negative_count": 2047,
+      "minimum_on_this_finite_domain": "-257/2048",
+      "minimum_a": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "i": 12,
+      "r": 1,
+      "q": 11,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-2049/8192",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 2,
+      "q": 10,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-513/4096",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 3,
+      "q": 9,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-129/2048",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 4,
+      "q": 8,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-33/1024",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 5,
+      "q": 7,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-9/512",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 6,
+      "q": 6,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-3/256",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 7,
+      "q": 5,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-3/256",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 8,
+      "q": 4,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-9/512",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 9,
+      "q": 3,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-33/1024",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 10,
+      "q": 2,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-129/2048",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    },
+    {
+      "i": 12,
+      "r": 11,
+      "q": 1,
+      "a_cases": 4096,
+      "positive_count": 1,
+      "negative_count": 4095,
+      "minimum_on_this_finite_domain": "-513/4096",
+      "minimum_a": [
+        2048,
+        2049
+      ]
+    }
+  ],
+  "scope": "Analytical formula self-check; no finite scan is treated as a general proof or an attack."
+}

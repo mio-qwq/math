@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-10-11T07:43:07.508520+00:00",
+  "role": "Independent verification agent /root/survey_publickey",
+  "observed_git_head": "b3b24135d0c71fae7a97f48a8e1c00c73496fffd",
+  "observed_git_branch": "partner/dist-crypto",
+  "git_note": "HEAD observed while verification files are not yet committed. These file hashes describe the worktree. The root agent owns final commit and push.",
+  "scope": "Only this verification directory was written by this verification task. No discovery implementation or root tooling output was read.",
+  "files": [
+    {
+      "file": "DISCOVERY_ENDPOINT_PROOF_REVIEW.md",
+      "bytes": 4402,
+      "sha256": "aacea20c685ca11412ef16a2614338b5c8582fa91c8320f96497aea06f528d71"
+    },
+    {
+      "file": "FIXED_WORD_PROOF_REVIEW.md",
+      "bytes": 10399,
+      "sha256": "5051965efa0ae1ace86b278858da824fe8de3da174d9ef73b80617e98e305888"
+    },
+    {
+      "file": "GENERAL_INDEPENDENT_PROOF.md",
+      "bytes": 9506,
+      "sha256": "a0f42dff639ae5cea6660b2cfdb8ca76317a0686ffd5aa77e1047fa62483b086"
+    },
+    {
+      "file": "GENERAL_VERIFICATION_REPORT.md",
+      "bytes": 7365,
+      "sha256": "c632185bdf4a80b5e8aaaa1d32c1935634668be2b7def2811063685e8618cda7"
+    },
+    {
+      "file": "INDEPENDENT_PROOF.md",
+      "bytes": 8876,
+      "sha256": "834305bbf8a08a10a5aa28543cb241f5fed9eb3d695f2905fa9755792084fa23"
+    },
+    {
+      "file": "UPPER_RANGE_PROOF_REVIEW.md",
+      "bytes": 11694,
+      "sha256": "b908b8d468648a2a4f6fb6adaed667f7fff0ecf98ac886b1a943467eb8abf110"
+    },
+    {
+      "file": "VERIFICATION_REPORT.md",
+      "bytes": 5422,
+      "sha256": "fbc004e300717d15f78b2d1db5ec8e42a489409663ea9370394af909e92fb7da"
+    },
+    {
+      "file": "fixed_proof_review_checks.py",
+      "bytes": 8615,
+      "sha256": "af98519708bbf5f4b0d20d56719010db5cc247c1966928aa012ec5c656cd993e"
+    },
+    {
+      "file": "fixed_proof_review_run.json",
+      "bytes": 11206,
+      "sha256": "54c5e50d67071bd9b01b82917f4d3477b96bd5acac7bd156f5b9f0726dc3f4e1"
+    },
+    {
+      "file": "general_fixed_word_counts.jsonl",
+      "bytes": 34840,
+      "sha256": "ef161507042abb5352dcf1c09006b536d04ba34a0451f7d9bad5208772ea372c"
+    },
+    {
+      "file": "general_fixed_word_enumerator.cpp",
+      "bytes": 2643,
+      "sha256": "cf57365beb8820b2cd484f32956c46932f2b417235c63b95f4bd32b19bbe1db2"
+    },
+    {
+      "file": "general_independent_run.json",
+      "bytes": 244239,
+      "sha256": "c145b9c30157cf2938b3deb4cce1022c652f4a809bb69b52dbc8f59a13e520d3"
+    },
+    {
+      "file": "general_independent_verify.py",
+      "bytes": 14313,
+      "sha256": "2394bd052606d33754d186a41c134906bd9307ec7dc95f665e584d294d03be20"
+    },
+    {
+      "file": "general_standard32_exact.json",
+      "bytes": 30358,
+      "sha256": "1d593d05f7d6aa466ce6ac9b1f62d8efd4e2268098876031dc1f193e00ebf421"
+    },
+    {
+      "file": "independent_run.json",
+      "bytes": 7945,
+      "sha256": "1e0419afeef76c4186557170e8e13d434439943587565f34de20f20429b0c94c"
+    },
+    {
+      "file": "independent_verify.py",
+      "bytes": 6049,
+      "sha256": "9abfbefc3f25c1375f18e67194a9a93d15344d066dc08f96765d38b9a835979f"
+    },
+    {
+      "file": "independent_word_counts.jsonl",
+      "bytes": 5075,
+      "sha256": "848a174a1f19993baad8cffd32685a0aa6a44205f1da99114483bc4c13fb13ba"
+    },
+    {
+      "file": "independent_word_enumerator.cpp",
+      "bytes": 3440,
+      "sha256": "f7caa0a652ede1c56974f101417b062f8cb9c40d6a39db5bfd3e3acb72458eb7"
+    },
+    {
+      "file": "upper_moment_review_checks.py",
+      "bytes": 5049,
+      "sha256": "f2447c009e3f9093a64d35673d3d80e274902f094c46f53e77655ad30ec54719"
+    },
+    {
+      "file": "upper_moment_review_run.json",
+      "bytes": 85501,
+      "sha256": "08d80f90d9e373029775e664e6cdb42fc95ed45816d4f6a6ba999fa2a1e2c261"
+    },
+    {
+      "file": "upper_range_independent_checks.py",
+      "bytes": 6642,
+      "sha256": "19b5d3040316514e51d0347cc615f9471aa9cc7e0ef8e213cf5bd6012e43d14f"
+    },
+    {
+      "file": "upper_range_independent_run.json",
+      "bytes": 44767,
+      "sha256": "0aaf66e822067b02da55c3604dc6f5db5c02198dc161c59bdbd946a45e6b80cb"
+    }
+  ]
+}

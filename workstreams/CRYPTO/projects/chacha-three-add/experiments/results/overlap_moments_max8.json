@@ -1,0 +1,3364 @@
+{
+  "status": "passed_research_self_check",
+  "independent_verification": false,
+  "randomness": "none",
+  "started_at_utc": "2026-10-11T07:33:41.658848+00:00",
+  "finished_at_utc": "2026-10-11T07:33:42.075917+00:00",
+  "elapsed_seconds": 0.41709214100046665,
+  "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python experiments/overlap_moments.py --max-i 8 --output experiments/results/overlap_moments_max8.json",
+  "exit_code_on_success": 0,
+  "source_sha256": "e4127deabed9f4fdb6825be52030e699b7f9d720516aded12cc64dd8fe45ce26",
+  "prior_original_input_result_sha256": "f3bf9c13f2d9b3b02a553fc7f9acc9cef51314814622c93fbd0c6be7fd35ba16",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "max_rss_kib": 12288
+  },
+  "planned_and_executed_threshold_pairs": 669920,
+  "inside_theorem_parameter_cases": 62,
+  "inside_theorem_masked_moment_checks": 214,
+  "reused_original_input_checks": [
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "exact_correlation": "-3/16"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "exact_correlation": "-3/16"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "i": 3,
+      "exact_correlation": "-9/128"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "i": 3,
+      "exact_correlation": "-3/16"
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "i": 3,
+      "exact_correlation": "-19/128"
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "exact_correlation": "-3/16"
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 1,
+      "i": 3,
+      "exact_correlation": "-9/128"
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 2,
+      "i": 3,
+      "exact_correlation": "-3/16"
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 2,
+      "i": 4,
+      "exact_correlation": "-15/256"
+    },
+    {
+      "n": 5,
+      "r": 1,
+      "q": 3,
+      "i": 4,
+      "exact_correlation": "-23/128"
+    },
+    {
+      "n": 5,
+      "r": 2,
+      "q": 1,
+      "i": 3,
+      "exact_correlation": "-19/128"
+    },
+    {
+      "n": 5,
+      "r": 2,
+      "q": 1,
+      "i": 4,
+      "exact_correlation": "-57/1024"
+    },
+    {
+      "n": 5,
+      "r": 2,
+      "q": 2,
+      "i": 4,
+      "exact_correlation": "-15/128"
+    },
+    {
+      "n": 5,
+      "r": 3,
+      "q": 1,
+      "i": 4,
+      "exact_correlation": "-115/1024"
+    }
+  ],
+  "outside_domain_counterexamples": [
+    {
+      "i": 4,
+      "r": 1,
+      "q": 1,
+      "k": 2,
+      "actual": "-7/256",
+      "extrapolated_candidate": "-57/2048"
+    },
+    {
+      "i": 5,
+      "r": 2,
+      "q": 1,
+      "k": 2,
+      "actual": "-47/2048",
+      "extrapolated_candidate": "-377/16384"
+    },
+    {
+      "i": 5,
+      "r": 1,
+      "q": 1,
+      "k": 3,
+      "actual": "-3/256",
+      "extrapolated_candidate": "-393/32768"
+    },
+    {
+      "i": 6,
+      "r": 3,
+      "q": 1,
+      "k": 2,
+      "actual": "-335/16384",
+      "extrapolated_candidate": "-2681/131072"
+    },
+    {
+      "i": 6,
+      "r": 2,
+      "q": 1,
+      "k": 3,
+      "actual": "-21/2048",
+      "extrapolated_candidate": "-2697/262144"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 2,
+      "k": 3,
+      "actual": "-61/8192",
+      "extrapolated_candidate": "-489/65536"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 1,
+      "k": 4,
+      "actual": "-11/2048",
+      "extrapolated_candidate": "-2889/524288"
+    },
+    {
+      "i": 7,
+      "r": 4,
+      "q": 1,
+      "k": 2,
+      "actual": "-2511/131072",
+      "extrapolated_candidate": "-20089/1048576"
+    },
+    {
+      "i": 7,
+      "r": 3,
+      "q": 1,
+      "k": 3,
+      "actual": "-157/16384",
+      "extrapolated_candidate": "-20105/2097152"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 2,
+      "k": 3,
+      "actual": "-381/65536",
+      "extrapolated_candidate": "-3049/524288"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 1,
+      "k": 4,
+      "actual": "-79/16384",
+      "extrapolated_candidate": "-20297/4194304"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 2,
+      "k": 4,
+      "actual": "-51/16384",
+      "extrapolated_candidate": "-3273/1048576"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 1,
+      "k": 5,
+      "actual": "-21/8192",
+      "extrapolated_candidate": "-22089/8388608"
+    },
+    {
+      "i": 8,
+      "r": 5,
+      "q": 1,
+      "k": 2,
+      "actual": "-19407/1048576",
+      "extrapolated_candidate": "-155257/8388608"
+    },
+    {
+      "i": 8,
+      "r": 4,
+      "q": 1,
+      "k": 3,
+      "actual": "-1213/131072",
+      "extrapolated_candidate": "-155273/16777216"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 2,
+      "k": 3,
+      "actual": "-2685/524288",
+      "extrapolated_candidate": "-21481/4194304"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 1,
+      "k": 4,
+      "actual": "-607/131072",
+      "extrapolated_candidate": "-155465/33554432"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 2,
+      "k": 4,
+      "actual": "-339/131072",
+      "extrapolated_candidate": "-21705/8388608"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 3,
+      "k": 4,
+      "actual": "-497/262144",
+      "extrapolated_candidate": "-3977/2097152"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 1,
+      "k": 5,
+      "actual": "-153/65536",
+      "extrapolated_candidate": "-157257/67108864"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 2,
+      "k": 5,
+      "actual": "-23/16384",
+      "extrapolated_candidate": "-23625/16777216"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 1,
+      "k": 6,
+      "actual": "-41/32768",
+      "extrapolated_candidate": "-172617/134217728"
+    }
+  ],
+  "standard_parameters": [
+    {
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "k": 0,
+      "i": 28,
+      "exact_correlation": "-47180567524833621/1180591620717411303424",
+      "decimal": -3.9963495163690355e-05
+    },
+    {
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "k": 1,
+      "i": 29,
+      "exact_correlation": "-88356335546507093/4722366482869645213696",
+      "decimal": -1.871018182663695e-05
+    },
+    {
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "k": 2,
+      "i": 30,
+      "exact_correlation": "-170707871589853653/18889465931478580854784",
+      "decimal": -9.0371994745164e-06
+    },
+    {
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "k": 3,
+      "i": 31,
+      "exact_correlation": "-335410943676546677/75557863725914323419136",
+      "decimal": -4.439126877557679e-06
+    }
+  ],
+  "records": [
+    {
+      "i": 2,
+      "r": 1,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1/4",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-3/16",
+      "candidate_correlation": "-3/16"
+    },
+    {
+      "i": 3,
+      "r": 2,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5/16",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-19/128",
+      "candidate_correlation": "-19/128"
+    },
+    {
+      "i": 3,
+      "r": 1,
+      "q": 2,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5/16",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-3/16",
+      "candidate_correlation": "-3/16"
+    },
+    {
+      "i": 3,
+      "r": 1,
+      "q": 1,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1/8",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-9/128",
+      "candidate_correlation": "-9/128"
+    },
+    {
+      "i": 4,
+      "r": 3,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-21/64",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-115/1024",
+      "candidate_correlation": "-115/1024"
+    },
+    {
+      "i": 4,
+      "r": 2,
+      "q": 2,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-21/64",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-15/128",
+      "candidate_correlation": "-15/128"
+    },
+    {
+      "i": 4,
+      "r": 1,
+      "q": 3,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-21/64",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-23/128",
+      "candidate_correlation": "-23/128"
+    },
+    {
+      "i": 4,
+      "r": 2,
+      "q": 1,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-5/32",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-57/1024",
+      "candidate_correlation": "-57/1024"
+    },
+    {
+      "i": 4,
+      "r": 1,
+      "q": 2,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-5/32",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-15/256",
+      "candidate_correlation": "-15/256"
+    },
+    {
+      "i": 4,
+      "r": 1,
+      "q": 1,
+      "k": 2,
+      "inside_theorem_domain": false,
+      "M0": "-1/16",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-7/256",
+      "candidate_correlation": "-57/2048"
+    },
+    {
+      "i": 5,
+      "r": 4,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-85/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-755/8192",
+      "candidate_correlation": "-755/8192"
+    },
+    {
+      "i": 5,
+      "r": 3,
+      "q": 2,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-85/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-79/1024",
+      "candidate_correlation": "-79/1024"
+    },
+    {
+      "i": 5,
+      "r": 2,
+      "q": 3,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-85/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-103/1024",
+      "candidate_correlation": "-103/1024"
+    },
+    {
+      "i": 5,
+      "r": 1,
+      "q": 4,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-85/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-89/512",
+      "candidate_correlation": "-89/512"
+    },
+    {
+      "i": 5,
+      "r": 3,
+      "q": 1,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-21/128",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-377/8192",
+      "candidate_correlation": "-377/8192"
+    },
+    {
+      "i": 5,
+      "r": 2,
+      "q": 2,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-21/128",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-79/2048",
+      "candidate_correlation": "-79/2048"
+    },
+    {
+      "i": 5,
+      "r": 1,
+      "q": 3,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-21/128",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-13/256",
+      "candidate_correlation": "-13/256"
+    },
+    {
+      "i": 5,
+      "r": 2,
+      "q": 1,
+      "k": 2,
+      "inside_theorem_domain": false,
+      "M0": "-5/64",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-47/2048",
+      "candidate_correlation": "-377/16384"
+    },
+    {
+      "i": 5,
+      "r": 1,
+      "q": 2,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-5/64",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-81/4096",
+      "candidate_correlation": "-81/4096"
+    },
+    {
+      "i": 5,
+      "r": 1,
+      "q": 1,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-1/32",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-3/256",
+      "candidate_correlation": "-393/32768"
+    },
+    {
+      "i": 6,
+      "r": 5,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-341/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-5363/65536",
+      "candidate_correlation": "-5363/65536"
+    },
+    {
+      "i": 6,
+      "r": 4,
+      "q": 2,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-341/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-463/8192",
+      "candidate_correlation": "-463/8192"
+    },
+    {
+      "i": 6,
+      "r": 3,
+      "q": 3,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-341/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-487/8192",
+      "candidate_correlation": "-487/8192"
+    },
+    {
+      "i": 6,
+      "r": 2,
+      "q": 4,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-341/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-377/4096",
+      "candidate_correlation": "-377/4096"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 5,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-341/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-349/2048",
+      "candidate_correlation": "-349/2048"
+    },
+    {
+      "i": 6,
+      "r": 4,
+      "q": 1,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-85/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-2681/65536",
+      "candidate_correlation": "-2681/65536"
+    },
+    {
+      "i": 6,
+      "r": 3,
+      "q": 2,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-85/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-463/16384",
+      "candidate_correlation": "-463/16384"
+    },
+    {
+      "i": 6,
+      "r": 2,
+      "q": 3,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-85/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-61/2048",
+      "candidate_correlation": "-61/2048"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 4,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-85/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-95/2048",
+      "candidate_correlation": "-95/2048"
+    },
+    {
+      "i": 6,
+      "r": 3,
+      "q": 1,
+      "k": 2,
+      "inside_theorem_domain": false,
+      "M0": "-21/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-335/16384",
+      "candidate_correlation": "-2681/131072"
+    },
+    {
+      "i": 6,
+      "r": 2,
+      "q": 2,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-21/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-465/32768",
+      "candidate_correlation": "-465/32768"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 3,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-21/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-125/8192",
+      "candidate_correlation": "-125/8192"
+    },
+    {
+      "i": 6,
+      "r": 2,
+      "q": 1,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-5/128",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-21/2048",
+      "candidate_correlation": "-2697/262144"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 2,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-5/128",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-61/8192",
+      "candidate_correlation": "-489/65536"
+    },
+    {
+      "i": 6,
+      "r": 1,
+      "q": 1,
+      "k": 4,
+      "inside_theorem_domain": false,
+      "M0": "-1/64",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-11/2048",
+      "candidate_correlation": "-2889/524288"
+    },
+    {
+      "i": 7,
+      "r": 6,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1365/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-40179/524288",
+      "candidate_correlation": "-40179/524288"
+    },
+    {
+      "i": 7,
+      "r": 5,
+      "q": 2,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1365/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-3023/65536",
+      "candidate_correlation": "-3023/65536"
+    },
+    {
+      "i": 7,
+      "r": 4,
+      "q": 3,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1365/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-2535/65536",
+      "candidate_correlation": "-2535/65536"
+    },
+    {
+      "i": 7,
+      "r": 3,
+      "q": 4,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1365/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-1657/32768",
+      "candidate_correlation": "-1657/32768"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 5,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1365/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-1437/16384",
+      "candidate_correlation": "-1437/16384"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 6,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-1365/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-1381/8192",
+      "candidate_correlation": "-1381/8192"
+    },
+    {
+      "i": 7,
+      "r": 5,
+      "q": 1,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-341/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-20089/524288",
+      "candidate_correlation": "-20089/524288"
+    },
+    {
+      "i": 7,
+      "r": 4,
+      "q": 2,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-341/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-3023/131072",
+      "candidate_correlation": "-3023/131072"
+    },
+    {
+      "i": 7,
+      "r": 3,
+      "q": 3,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-341/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-317/16384",
+      "candidate_correlation": "-317/16384"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 4,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-341/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-415/16384",
+      "candidate_correlation": "-415/16384"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 5,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-341/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 1,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-361/8192",
+      "candidate_correlation": "-361/8192"
+    },
+    {
+      "i": 7,
+      "r": 4,
+      "q": 1,
+      "k": 2,
+      "inside_theorem_domain": false,
+      "M0": "-85/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-2511/131072",
+      "candidate_correlation": "-20089/1048576"
+    },
+    {
+      "i": 7,
+      "r": 3,
+      "q": 2,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-85/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-3025/262144",
+      "candidate_correlation": "-3025/262144"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 3,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-85/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-637/65536",
+      "candidate_correlation": "-637/65536"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 4,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-85/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-211/16384",
+      "candidate_correlation": "-211/16384"
+    },
+    {
+      "i": 7,
+      "r": 3,
+      "q": 1,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-21/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-157/16384",
+      "candidate_correlation": "-20105/2097152"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 2,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-21/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-381/65536",
+      "candidate_correlation": "-3049/524288"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 3,
+      "k": 3,
+      "inside_theorem_domain": true,
+      "M0": "-21/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-665/131072",
+      "candidate_correlation": "-665/131072"
+    },
+    {
+      "i": 7,
+      "r": 2,
+      "q": 1,
+      "k": 4,
+      "inside_theorem_domain": false,
+      "M0": "-5/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-79/16384",
+      "candidate_correlation": "-20297/4194304"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 2,
+      "k": 4,
+      "inside_theorem_domain": false,
+      "M0": "-5/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-51/16384",
+      "candidate_correlation": "-3273/1048576"
+    },
+    {
+      "i": 7,
+      "r": 1,
+      "q": 1,
+      "k": 5,
+      "inside_theorem_domain": false,
+      "M0": "-1/128",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/131072"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "0",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-21/8192",
+      "candidate_correlation": "-22089/8388608"
+    },
+    {
+      "i": 8,
+      "r": 7,
+      "q": 1,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/32768",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/8",
+          "candidate_formula": "1/8"
+        }
+      ],
+      "actual_correlation": "-310515/4194304",
+      "candidate_correlation": "-310515/4194304"
+    },
+    {
+      "i": 8,
+      "r": 6,
+      "q": 2,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 5,
+          "p": 7,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-21455/524288",
+      "candidate_correlation": "-21455/524288"
+    },
+    {
+      "i": 8,
+      "r": 5,
+      "q": 3,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 4,
+          "p": 7,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-14823/524288",
+      "candidate_correlation": "-14823/524288"
+    },
+    {
+      "i": 8,
+      "r": 4,
+      "q": 4,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 3,
+          "p": 7,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-7801/262144",
+      "candidate_correlation": "-7801/262144"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 5,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 6,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 2,
+          "p": 7,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-6045/131072",
+      "candidate_correlation": "-6045/131072"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 6,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 7,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-5605/65536",
+      "candidate_correlation": "-5605/65536"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 7,
+      "k": 0,
+      "inside_theorem_domain": true,
+      "M0": "-5461/16384",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-5493/32768",
+      "candidate_correlation": "-5493/32768"
+    },
+    {
+      "i": 8,
+      "r": 6,
+      "q": 1,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1365/8192",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "1/32768",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/16",
+          "candidate_formula": "1/16"
+        }
+      ],
+      "actual_correlation": "-155257/4194304",
+      "candidate_correlation": "-155257/4194304"
+    },
+    {
+      "i": 8,
+      "r": 5,
+      "q": 2,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1365/8192",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 5,
+          "p": 7,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-21455/1048576",
+      "candidate_correlation": "-21455/1048576"
+    },
+    {
+      "i": 8,
+      "r": 4,
+      "q": 3,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1365/8192",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 4,
+          "p": 7,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-1853/131072",
+      "candidate_correlation": "-1853/131072"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 4,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1365/8192",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 3,
+          "p": 7,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-1951/131072",
+      "candidate_correlation": "-1951/131072"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 5,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1365/8192",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 1,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 7,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-1513/65536",
+      "candidate_correlation": "-1513/65536"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 6,
+      "k": 1,
+      "inside_theorem_domain": true,
+      "M0": "-1365/8192",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 1,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-1405/32768",
+      "candidate_correlation": "-1405/32768"
+    },
+    {
+      "i": 8,
+      "r": 5,
+      "q": 1,
+      "k": 2,
+      "inside_theorem_domain": false,
+      "M0": "-341/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/32",
+          "candidate_formula": "1/32"
+        }
+      ],
+      "actual_correlation": "-19407/1048576",
+      "candidate_correlation": "-155257/8388608"
+    },
+    {
+      "i": 8,
+      "r": 4,
+      "q": 2,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-341/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "1/32768",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 5,
+          "p": 7,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-21457/2097152",
+      "candidate_correlation": "-21457/2097152"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 3,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-341/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 4,
+          "p": 7,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-3709/524288",
+      "candidate_correlation": "-3709/524288"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 4,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-341/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 7,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-979/131072",
+      "candidate_correlation": "-979/131072"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 5,
+      "k": 2,
+      "inside_theorem_domain": true,
+      "M0": "-341/4096",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 5,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 1,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 2,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-191/16384",
+      "candidate_correlation": "-191/16384"
+    },
+    {
+      "i": 8,
+      "r": 4,
+      "q": 1,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-85/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/131072"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/64",
+          "candidate_formula": "1/64"
+        }
+      ],
+      "actual_correlation": "-1213/131072",
+      "candidate_correlation": "-155273/16777216"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 2,
+      "k": 3,
+      "inside_theorem_domain": false,
+      "M0": "-85/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 5,
+          "p": 7,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-2685/524288",
+      "candidate_correlation": "-21481/4194304"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 3,
+      "k": 3,
+      "inside_theorem_domain": true,
+      "M0": "-85/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "1/32768",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 4,
+          "p": 7,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-3737/1048576",
+      "candidate_correlation": "-3737/1048576"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 4,
+      "k": 3,
+      "inside_theorem_domain": true,
+      "M0": "-85/2048",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 4,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 1,
+          "p": 5,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 2,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 3,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-1009/262144",
+      "candidate_correlation": "-1009/262144"
+    },
+    {
+      "i": 8,
+      "r": 3,
+      "q": 1,
+      "k": 4,
+      "inside_theorem_domain": false,
+      "M0": "-21/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/262144"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/128",
+          "candidate_formula": "1/128"
+        }
+      ],
+      "actual_correlation": "-607/131072",
+      "candidate_correlation": "-155465/33554432"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 2,
+      "k": 4,
+      "inside_theorem_domain": false,
+      "M0": "-21/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/131072"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "1/8192",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 5,
+          "p": 7,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-339/131072",
+      "candidate_correlation": "-21705/8388608"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 3,
+      "k": 4,
+      "inside_theorem_domain": false,
+      "M0": "-21/1024",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 1,
+          "p": 4,
+          "actual": "1/16384",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 2,
+          "p": 5,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 3,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 4,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-497/262144",
+      "candidate_correlation": "-3977/2097152"
+    },
+    {
+      "i": 8,
+      "r": 2,
+      "q": 1,
+      "k": 5,
+      "inside_theorem_domain": false,
+      "M0": "-5/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/524288"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/131072"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/32768"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "0",
+          "candidate_formula": "1/8192"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "1/2048",
+          "candidate_formula": "1/2048"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/256",
+          "candidate_formula": "1/256"
+        }
+      ],
+      "actual_correlation": "-153/65536",
+      "candidate_correlation": "-157257/67108864"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 2,
+      "k": 5,
+      "inside_theorem_domain": false,
+      "M0": "-5/512",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/262144"
+        },
+        {
+          "ell": 1,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 2,
+          "p": 4,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 3,
+          "p": 5,
+          "actual": "1/4096",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 4,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 5,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-23/16384",
+      "candidate_correlation": "-23625/16777216"
+    },
+    {
+      "i": 8,
+      "r": 1,
+      "q": 1,
+      "k": 6,
+      "inside_theorem_domain": false,
+      "M0": "-1/256",
+      "moments": [
+        {
+          "ell": 0,
+          "p": 1,
+          "actual": "0",
+          "candidate_formula": "1/1048576"
+        },
+        {
+          "ell": 1,
+          "p": 2,
+          "actual": "0",
+          "candidate_formula": "1/262144"
+        },
+        {
+          "ell": 2,
+          "p": 3,
+          "actual": "0",
+          "candidate_formula": "1/65536"
+        },
+        {
+          "ell": 3,
+          "p": 4,
+          "actual": "0",
+          "candidate_formula": "1/16384"
+        },
+        {
+          "ell": 4,
+          "p": 5,
+          "actual": "0",
+          "candidate_formula": "1/4096"
+        },
+        {
+          "ell": 5,
+          "p": 6,
+          "actual": "1/1024",
+          "candidate_formula": "1/1024"
+        },
+        {
+          "ell": 6,
+          "p": 7,
+          "actual": "1/512",
+          "candidate_formula": "1/512"
+        }
+      ],
+      "actual_correlation": "-41/32768",
+      "candidate_correlation": "-172617/134217728"
+    }
+  ],
+  "scope": "Exact threshold moments and analytical formula; not a cipher attack or novelty certificate."
+}

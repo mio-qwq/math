@@ -1,0 +1,63 @@
+[
+  {
+    "name": "latin_dances_2022",
+    "url": "https://www.iacr.org/archive/asiacrypt2022/137910004/137910004.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "status": "unavailable",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "coutinho_2021_collection",
+    "url": "https://www.gov.br/abin/pt-br/assuntos/tecnologia/CEPESC_coletanea.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "http_status": 200,
+    "bytes": 2880560,
+    "sha256": "3cd69f3f435511031fac4c1ef38a97066aa88ac1b18a6013ba35be7d6078cbdb",
+    "pages": 140,
+    "status": "retrieved"
+  },
+  {
+    "name": "mealy_2026",
+    "url": "https://hukaisdu.github.io/files/papers/2026-1193-mealy-machines.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "http_status": 200,
+    "bytes": 884991,
+    "sha256": "e754420549521a2e39ce898f1e66d303fa50b894c39efa3a603f2b83b3f3f3fb",
+    "pages": 53,
+    "status": "retrieved"
+  },
+  {
+    "name": "walsh_dl_2026",
+    "url": "https://hukaisdu.github.io/files/papers/2026-2013-walsh-transform-differential-linear.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "http_status": 200,
+    "bytes": 1089999,
+    "sha256": "592232acd15295a7534bb2e5678f2753eab88a98db1034d472b145250b216eb5",
+    "pages": 65,
+    "status": "retrieved"
+  },
+  {
+    "name": "latin_dances_2022_mirror",
+    "url": "https://jackgiffin.com/main/pdfs/Coutinho-Latin-Dances-Reloaded-2022.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "http_status": 200,
+    "bytes": 308447,
+    "sha256": "fe5437bf84169d1d01e99a53457cf672712f72a87aaf5fa3b19fc7824d695f06",
+    "pages": 31,
+    "status": "retrieved"
+  },
+  {
+    "name": "sarkar_2009",
+    "url": "https://eprint.iacr.org/2009/047.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "status": "unavailable",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "nyberg_wallen_2006",
+    "url": "https://www.tcs.hut.fi/Publications/knyberg/snowpreproc.pdf",
+    "retrieval_date_utc": "2026-10-11",
+    "status": "unavailable",
+    "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  }
+]

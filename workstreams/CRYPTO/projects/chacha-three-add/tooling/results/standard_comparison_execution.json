@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tooling/cross_check_standard.py"
+  ],
+  "cwd": "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add",
+  "started_at_utc": "2026-10-11T07:32:28.203196+00:00",
+  "finished_at_utc": "2026-10-11T07:32:28.234394+00:00",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"pass\", \"comparison_count\": 160, \"output\": \"/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/tooling/results/standard_comparison.json\"}\n",
+  "stderr": ""
+}

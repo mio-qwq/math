@@ -1,0 +1,576 @@
+{
+  "started_utc": "2026-10-11T07:34:01.311071+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/fixed_proof_review_checks.py"
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+  },
+  "source_and_input_sha256": {
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/fixed_proof_review_checks.py": "af98519708bbf5f4b0d20d56719010db5cc247c1966928aa012ec5c656cd993e",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/general_independent_verify.py": "2394bd052606d33754d186a41c134906bd9307ec7dc95f665e584d294d03be20",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/general_fixed_word_counts.jsonl": "ef161507042abb5352dcf1c09006b536d04ba34a0451f7d9bad5208772ea372c",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/general_standard32_exact.json": "1d593d05f7d6aa466ce6ac9b1f62d8efd4e2268098876031dc1f193e00ebf421",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/proofs/fixed_first_word.md": "e96dbb4e8ef1ece9ec26bc8ff5bda58a1f63d441b6934084a07890bf43b812cb",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/proofs/fixed_word_sign.md": "7fb3e5763f56369730408395242c646b6fe6f5f0cefcac34ed112ec649154c1f"
+  },
+  "independence": "Post-disclosure written-proof review; discovery code never read. Original-word and DP data generated before these proofs were read.",
+  "new_original_word_enumerations": 0,
+  "random_seed": null,
+  "status": "pass",
+  "exit_code": 0,
+  "signed_primitive_parameter_pairs": 774,
+  "signed_primitive_identities_checked": 1548,
+  "signed_primitive_domain": "ell=0..5; t=-3*2^(ell+1)-1 .. 3*2^(ell+1)+1",
+  "auxiliary_parameter_cases": 2610,
+  "auxiliary_A0_cases": 21,
+  "auxiliary_domain": "p=1..6; ell=0..p-1; A=0..4*2^p+1",
+  "auxiliary_checks": "Direct T equals Abel convolution, triangular-area formula, signed-primitive formula; T bound; area versus direct triangle sum",
+  "original_word_sign_comparisons": 56,
+  "sign_class_counts": {
+    "A=0 positive": 10,
+    "A=1 equals -C0": 10,
+    "A>=2 below -C0": 36
+  },
+  "word_comparisons": [
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 0,
+      "A_low": 0,
+      "correlation": "1/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 1,
+      "A_low": 1,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 2,
+      "A_low": 2,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 3,
+      "A_low": 3,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 4,
+      "A_low": 0,
+      "correlation": "1/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 5,
+      "A_low": 1,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 6,
+      "A_low": 2,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 7,
+      "A_low": 3,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 0,
+      "A_low": 0,
+      "correlation": "1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 1,
+      "A_low": 1,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 2,
+      "A_low": 2,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 3,
+      "A_low": 3,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 4,
+      "A_low": 0,
+      "correlation": "1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 5,
+      "A_low": 1,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 6,
+      "A_low": 2,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 7,
+      "A_low": 3,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 8,
+      "A_low": 0,
+      "correlation": "1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 9,
+      "A_low": 1,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "A_low": 2,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 11,
+      "A_low": 3,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 12,
+      "A_low": 0,
+      "correlation": "1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 13,
+      "A_low": 1,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 14,
+      "A_low": 2,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 15,
+      "A_low": 3,
+      "correlation": "-3/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 0,
+      "A_low": 0,
+      "correlation": "1/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 1,
+      "A_low": 1,
+      "correlation": "-1/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 2,
+      "A_low": 2,
+      "correlation": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 3,
+      "A_low": 3,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 4,
+      "A_low": 4,
+      "correlation": "-5/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 5,
+      "A_low": 5,
+      "correlation": "-5/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 6,
+      "A_low": 6,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 7,
+      "A_low": 7,
+      "correlation": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 8,
+      "A_low": 0,
+      "correlation": "1/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 9,
+      "A_low": 1,
+      "correlation": "-1/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 10,
+      "A_low": 2,
+      "correlation": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 11,
+      "A_low": 3,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 12,
+      "A_low": 4,
+      "correlation": "-5/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 13,
+      "A_low": 5,
+      "correlation": "-5/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 14,
+      "A_low": 6,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 2,
+      "a": 15,
+      "A_low": 7,
+      "correlation": "-3/16",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 0,
+      "A_low": 0,
+      "correlation": "1/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 1,
+      "A_low": 1,
+      "correlation": "-1/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 2,
+      "A_low": 2,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 3,
+      "A_low": 3,
+      "correlation": "-7/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 4,
+      "A_low": 4,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 5,
+      "A_low": 5,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 6,
+      "A_low": 6,
+      "correlation": "-7/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 7,
+      "A_low": 7,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 8,
+      "A_low": 0,
+      "correlation": "1/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 9,
+      "A_low": 1,
+      "correlation": "-1/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 10,
+      "A_low": 2,
+      "correlation": "-1/8",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 11,
+      "A_low": 3,
+      "correlation": "-7/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 12,
+      "A_low": 4,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 13,
+      "A_low": 5,
+      "correlation": "-1/4",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 14,
+      "A_low": 6,
+      "correlation": "-7/32",
+      "pass": true
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 1,
+      "a": 15,
+      "A_low": 7,
+      "correlation": "-1/8",
+      "pass": true
+    }
+  ],
+  "standard_endpoint_comparisons": [
+    {
+      "a": "0x61707865",
+      "correlation": "-5014914159307157/295147905179352825856",
+      "pass": true,
+      "reference": "Previously generated independent arbitrary-bit DP output"
+    },
+    {
+      "a": "0x3320646e",
+      "correlation": "-20742118815994171/590295810358705651712",
+      "pass": true,
+      "reference": "Previously generated independent arbitrary-bit DP output"
+    },
+    {
+      "a": "0x79622d32",
+      "correlation": "-36166661545322725/590295810358705651712",
+      "pass": true,
+      "reference": "Previously generated independent arbitrary-bit DP output"
+    },
+    {
+      "a": "0x6b206574",
+      "correlation": "-14797957587093615/295147905179352825856",
+      "pass": true,
+      "reference": "Previously generated independent arbitrary-bit DP output"
+    },
+    {
+      "a": "0x00000000",
+      "correlation": "1/17592186044416",
+      "pass": true,
+      "reference": "Independent arbitrary-bit DP recomputed at A=0"
+    }
+  ],
+  "finished_utc": "2026-10-11T07:34:01.460207+00:00"
+}
