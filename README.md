@@ -6,6 +6,8 @@
 
 [已解决或证伪的公开数学问题](#已解决或证伪的公开数学问题) · [完整研究目录](#完整研究目录) · [分布式分支成果](#分布式分支成果) · [证明与复现](#证明与复现) · [在研问题与方法边界](#在研问题与方法边界) · [学术声明](#学术声明)
 
+**已公开数学预印本（006）**：[A counterexample to packing-domination inheritance in strong products](https://doi.org/10.5281/zenodo.23293088)，作者 **River Zhang、Yongxian Zhang**，Zenodo，2026-10-11，论文 **v1.3**（首次 Zenodo V1）。 [Version DOI：10.5281/zenodo.23293088](https://doi.org/10.5281/zenodo.23293088) · [Concept DOI：10.5281/zenodo.23293087](https://doi.org/10.5281/zenodo.23293087) · [论文 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [复现附件](publication/006-v1.3/006-v1.3-reproducibility.zip)。本成果为**公开预印本，尚未经过期刊同行评审**。
+
 ## 已解决或证伪的公开数学问题
 
 这里优先列出对**原命题全部假设与量词**给出的完整证明或严格反例，正面证明与证伪同等展示。随后单列重要特殊情形与新界，避免把局部进展写成一般猜想已解决。**独立研究 Agent 复核、Lean 检查、主分支集成与历史原创性是分别审查的状态**；下表不表示人类同行评议或首次解决。
@@ -16,7 +18,7 @@
 
 | 原始论文、命题与原陈述 | 我们的明确结论 | 严格证据与验证范围 |
 | --- | --- | --- |
-| **006：强积打包支配继承猜想**。Bujtás 等，arXiv:2510.02749v1，[§3 Conjecture 3.1](https://arxiv.org/html/2510.02749v1#S3)：若 $\gamma_d^p(G)=\infty$，则对任意 $H$ 也有 $\gamma_d^p(G\boxtimes H)=\infty$ | **完整反例**：$\gamma_2^3(Q_6)=\infty$，但 $\gamma_2^3(Q_6\boxtimes H)\le64$。所构造 $H$ 为 608 顶点、9,168 边的有限连通简单图 | [证明、证书与独立验证](006-strong-product-packing-counterexample/README.md) · [Lean](006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean) · [论文 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [反例 Release](https://github.com/mio-qwq/math/releases/tag/006-strong-product-conjecture-counterexample-2026-10-09)。实际图／路径的完整存在性反例；辅助图边数、连通性另有书面与精确验证，64 未宣称最优 |
+| **006：强积打包支配继承猜想**。Bujtás 等，arXiv:2510.02749v1，[§3 Conjecture 3.1](https://arxiv.org/html/2510.02749v1#S3)：若 $\gamma_d^p(G)=\infty$，则对任意 $H$ 也有 $\gamma_d^p(G\boxtimes H)=\infty$ | **完整反例**：$\gamma_2^3(Q_6)=\infty$，但 $\gamma_2^3(Q_6\boxtimes H)\le64$。所构造 $H$ 为 608 顶点、9,168 边的有限连通简单图 | [证明、证书与独立验证](006-strong-product-packing-counterexample/README.md) · [Lean](006-strong-product-packing-counterexample/proof/Q6PackingComplexCounterexample.lean) · [论文 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23293088) · [反例 Release](https://github.com/mio-qwq/math/releases/tag/006-strong-product-conjecture-counterexample-2026-10-09)。实际图／路径的完整存在性反例；辅助图边数、连通性另有书面与精确验证，64 未宣称最优 |
 | **置换有向图一般位置数最优性猜想**。Chandran 等，arXiv:2604.15909v1，[§3.3 Theorem 3.6 后未编号猜想](https://arxiv.org/html/2604.15909v1#S3.SS3)：$\operatorname{gp}(\mathrm{Pe}(d,k))=2(d+k-2)_{k-1}$，$k\ge3,d\ge2k$ | **完整反例**：原始 $\mathrm{Pe}(6,3)$ 中有 90 点一般位置集，严格超过猜想值 84；全原参数的三终结字母构造另有书面推广 | [定理与证书](workstreams/ROOT/permutation-gp-counterexample/THEOREM.md) · [Lean](workstreams/ROOT/permutation-gp-counterexample/PermutationGP90.lean) · [独立复核](workstreams/ROOT/permutation-gp-counterexample/INDEPENDENT_REVIEW.md) · [Release](https://github.com/mio-qwq/math/releases/tag/permutation-gp-counterexample-2026-10-10)。固定反例的全部最短有向简单路径、18 项审计通过；不是实际最大值等于 90 的证明 |
 | **无爪次三次图的 $(1,1,3,3,4)$ 打包着色问题**。Mortada 等，arXiv:2608.02566v1，[§6 Problem 1](https://arxiv.org/html/2608.02566v1#S6)：除指定 12 顶点图外，是否所有无爪次三次图都可作此着色？ | **完整反例**：一个 36 顶点连通简单三正则无爪图无目标着色，且与指定例外不同构；奇数 $k\ge3$ 的 $12k$ 顶点反例族另有完整书面证明 | [构造与证明](workstreams/ROOT/clawfree-11334-counterexample/README.md) · [Lean](workstreams/ROOT/clawfree-11334-counterexample/ClawFree11334.lean) · [独立复核](workstreams/ROOT/clawfree-11334-counterexample/INDEPENDENT_REVIEW.md) · [Release](https://github.com/mio-qwq/math/releases/tag/clawfree-11334-counterexample-2026-10-10)。固定 36 点图全部条件与任意着色的不可能性，18 项审计通过；未声称最小反例或无限族全 Lean |
 | **2-saturated 次三次图的 $(1,1,2)$ 打包着色猜想**。El Zein–Mortada，arXiv:2603.25113v1，[§5 Conjecture 3](https://arxiv.org/html/2603.25113v1#S5)：每个此类图均可作目标着色，原猜想无额外局部围长条件 | **完整反例**：将 $K_4$ 中同一顶点的三条关联边各细分一次，得到 7 顶点、9 边的连通 2-saturated 次三次图，但不存在目标着色 | [证明与证书](workstreams/ROOT/two-saturated-112-counterexample/README.md) · [Lean](workstreams/ROOT/two-saturated-112-counterexample/TwoSaturated112.lean) · [独立复核](workstreams/ROOT/two-saturated-112-counterexample/INDEPENDENT_REVIEW.md) · [Release](https://github.com/mio-qwq/math/releases/tag/two-saturated-112-counterexample-2026-10-10)。所有三色函数的不可能性，14 项审计通过；不否定原文另一个带额外围长假设的定理 |
@@ -24,7 +26,7 @@
 
 记 $(x)_j=x(x-1)\cdots(x-j+1)$。打包着色元组中的每一项代表一个**不同颜色**的距离半径，同色点距离须严格大于该半径。有向一般位置要求任意最短有向路径不含三个选点。
 
-006 的[英文研究稿 PDF](006-strong-product-packing-counterexample/paper/paper.pdf)、[LaTeX 源码](006-strong-product-packing-counterexample/paper/main.tex)、[论文验证与学术状态](006-strong-product-packing-counterexample/paper/README.md)及[固定论文 Release](https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09)已公开。人工作者信息及责任确认仍待完成，未宣称正式投稿或同行评审。
+006 已以 **River Zhang、Yongxian Zhang** 双作者正式公开为 [Zenodo 数学预印本（v1.3，Version DOI：10.5281/zenodo.23293088）](https://doi.org/10.5281/zenodo.23293088)； [Concept DOI](https://doi.org/10.5281/zenodo.23293087) 关联后续版本。对应 [论文 PDF](006-strong-product-packing-counterexample/paper/paper.pdf)、[LaTeX 源码](006-strong-product-packing-counterexample/paper/main.tex)、[复现材料](publication/006-v1.3/README.md)及[论文验证记录](006-strong-product-packing-counterexample/paper/README.md)均可核验。该成果是**公开预印本，尚未经过期刊同行评审**；[旧版论文 Release](https://github.com/mio-qwq/math/releases/tag/006-paper-v1-2026-10-09)保留为历史材料，不与本次 Zenodo 发表混同。
 
 ### 已获独立书面复核、尚待主分支集成的原命题解答
 

@@ -4,9 +4,8 @@ The self-contained English [research paper](paper/paper.pdf),
 [standalone LaTeX source](paper/main.tex) and
 [paper verification and academic-status record](paper/README.md)
 give a conventional theorem-and-proof presentation of this construction.
-Human author information and accountable approval are pending; substantial
-AI involvement is disclosed, and no human peer-review or submission status
-is claimed.
+The two-author, non-peer-reviewed preprint was published on Zenodo on 11 October 2026: [Version DOI: 10.5281/zenodo.23293088](https://doi.org/10.5281/zenodo.23293088) ([Concept DOI: 10.5281/zenodo.23293087](https://doi.org/10.5281/zenodo.23293087)).
+River Zhang and Yongxian Zhang approved the public manuscript and its CC BY 4.0 license. Substantial AI involvement is disclosed; publication as a preprint does not constitute journal peer review or acceptance.
 
 We construct a finite connected simple graph \(H\) with **608 vertices and
 9,168 edges** such that
