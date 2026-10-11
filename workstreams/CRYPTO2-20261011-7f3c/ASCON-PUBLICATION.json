@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-10-11T16:54:15.707830+00:00",
+  "repository": "mio-qwq/math",
+  "branch": "partner/dist-CRYPTO2-20261011-7f3c",
+  "remote_content_commit": "7c08a131cc27e711b932699d47a1d019946c8428",
+  "remote_parent": "7b4eda2f1b28a4ca90d6b0fe488302ba8d96ac2f",
+  "local_signed_content_commit": "ca2b41933cbb246f88e8dab5da5a378f73500194",
+  "identical_tree": "a0e1f3469c2ab0691da562a41b838786a2aad7a5",
+  "transport": "GitHub connector create_tree/create_commit/update_ref; expected-head guard; force=false",
+  "remote_signature": "Connector commit is not represented as carrying the local SSH signature.",
+  "verified_by": "git fetch, commit/tree checks, empty remote/local tree diff and both freeze manifests",
+  "scope": "Only owner workstream changed; no main update or merge.",
+  "owner_manifest_sha256": "9285d97758389fe500af3ad325461cf60754115158de013137ddddffdb8fbbd5",
+  "project_manifest_sha256": "2dee59a881f706ea18baa15aa2f5ce71c4f19185efd17592f0dc8b1c3a958577",
+  "receipt_policy": "This receipt is excluded from the frozen manifests to avoid a self-referential commit hash; it will be a separate metadata commit."
+}
