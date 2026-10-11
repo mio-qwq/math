@@ -1,0 +1,523 @@
+{
+  "created_utc": "2026-10-11T08:27:19.665080+00:00",
+  "observed_parent_commit": "59a24dc5c1afeaf481bb77ac7f2228465c821f3b",
+  "branch": "partner/dist-crypto",
+  "scope": "C001-C008 evidence, 15-topic survey, explicit prior-method reconstructions, Keccak source qualification and narrowed next target",
+  "mathematical_status": "ordinary written proofs plus independent exact finite computation; no proof assistant",
+  "novelty_status": "confirmed work remains L0; application-level originality not cleared; no new best attack",
+  "independent_manifest_entries_checked": 35,
+  "extra_frozen_files_checked": 7,
+  "files": [
+    {
+      "path": "workstreams/CRYPTO/.gitignore",
+      "bytes": 42,
+      "sha256": "6c156b7c2e26acc566e74eb05704a18dee7077f97f792d1230d09996ef0a6c0b"
+    },
+    {
+      "path": "workstreams/CRYPTO/CLAIMS.md",
+      "bytes": 4930,
+      "sha256": "083d99f0a619648e5b74d0dd91b2b2788893bd6ca9c9e2e405837cabf4ede95f"
+    },
+    {
+      "path": "workstreams/CRYPTO/LITERATURE.md",
+      "bytes": 4702,
+      "sha256": "850b082af87abc71c1ac4edb98ce31a0f9b9b85dcb9865fa56b137f64ccdec36"
+    },
+    {
+      "path": "workstreams/CRYPTO/NOVELTY_REVIEW.md",
+      "bytes": 5091,
+      "sha256": "9c489c32733e8d5cf3f13f6da69503a2b4c01005bbade1c0c173e3f2ef847904"
+    },
+    {
+      "path": "workstreams/CRYPTO/PROGRESS.md",
+      "bytes": 7736,
+      "sha256": "777ff775e10c1b0091d4be6290cb1582923f51ad485843d65ce8fc52a3bcaada"
+    },
+    {
+      "path": "workstreams/CRYPTO/README.md",
+      "bytes": 1797,
+      "sha256": "441f2f89fd9976cad850753d0c69f0415c21ba5ea7063327e994ee23e71d320b"
+    },
+    {
+      "path": "workstreams/CRYPTO/RESEARCH_LOG.md",
+      "bytes": 9388,
+      "sha256": "a03fb35172c72b0beb9136a417c65d10df6ef66c177ed62f19abaf8e1a57f927"
+    },
+    {
+      "path": "workstreams/CRYPTO/RESEARCH_OPPORTUNITIES.md",
+      "bytes": 18849,
+      "sha256": "8c05d4d0c226c27a776374a79aa169e8243d8ae32a69edc718429b8c8f896cf9"
+    },
+    {
+      "path": "workstreams/CRYPTO/RESUME.md",
+      "bytes": 6319,
+      "sha256": "def128723299210bacae8be7e2f64199acb20aa7fadc0f6a00610d3253f2d3c5"
+    },
+    {
+      "path": "workstreams/CRYPTO/ROADMAP.md",
+      "bytes": 3595,
+      "sha256": "3bab5b1bbfce86cebb883db732276d3e1acd4e4522d86ea69e57e47f819ae475"
+    },
+    {
+      "path": "workstreams/CRYPTO/literature/HASHES_SURVEY.md",
+      "bytes": 28390,
+      "sha256": "1234585f9a39232c75d5018dac2b0a8fdc2a0abd09fe7baa881d4b4994304fb4"
+    },
+    {
+      "path": "workstreams/CRYPTO/literature/PUBLICKEY_SURVEY.md",
+      "bytes": 24701,
+      "sha256": "9b552015673a56551c0bbbd47503cde81d248d86dae64f10955408bf1a8b7729"
+    },
+    {
+      "path": "workstreams/CRYPTO/literature/SYMMETRIC_SURVEY.md",
+      "bytes": 19189,
+      "sha256": "9f31c325b22a9eef31506e35634b0224b6a3a050dc220b226aebf43cd131796f"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/GENERAL_REDUCTION.md",
+      "bytes": 7880,
+      "sha256": "cb70223bbc6c58823d3df0392755433429ca2eb7f036bcee8fc402b889234ddd"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/NOVELTY_REVIEW.md",
+      "bytes": 25399,
+      "sha256": "241bbc6132e64b9030c783a60e2394b8b051b9312d8475f5406d335589ff0677"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/README.md",
+      "bytes": 6518,
+      "sha256": "14622feb4c90b57d7c0d5acf83ca1e5f27f566f5ff88a482c5c0934618d4346c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/RESULTS.md",
+      "bytes": 10555,
+      "sha256": "71215f54e37e2c6a0e87822eaea3a1361f0a8f5d68661794540967cc93fae427"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/OVERLAP_RUN.md",
+      "bytes": 3650,
+      "sha256": "6447151c10b0bb071689553cf6467fdf8a3d4aae7fdb3928241d9ad340c47682"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/README.md",
+      "bytes": 6951,
+      "sha256": "5e60051c27b5590e9b31d7c5f8bbd6eb3aac53db2b14935b860347cfa7aafa92"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/STREAMING_PREFIX_RUN.md",
+      "bytes": 5291,
+      "sha256": "4390656f4c62163159798a146f1f7aef377cf41169ce5c1eb755bef278bc2a69"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/exact_signed.py",
+      "bytes": 9255,
+      "sha256": "0cb36f039d5c40b59478fa21a720252d4ac45daa3dda962968e296bc25c12543"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/fixed_word_sign_check.py",
+      "bytes": 5091,
+      "sha256": "ed87b0f85878f3136380a8d2d72aecfa9aea6d1ce2b430107cd9b0e6e6995041"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/overlap_moments.py",
+      "bytes": 8232,
+      "sha256": "e4127deabed9f4fdb6825be52030e699b7f9d720516aded12cc64dd8fe45ce26"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/results/exact_signed_max5.json",
+      "bytes": 13519,
+      "sha256": "f3bf9c13f2d9b3b02a553fc7f9acc9cef51314814622c93fbd0c6be7fd35ba16"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/results/fixed_word_sign_max12.json",
+      "bytes": 16857,
+      "sha256": "13b9e3c4895fcb735f4318b8dd2f062a15c47c898d9fb85223d417f9a991f845"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/results/overlap_moments_max8.json",
+      "bytes": 69901,
+      "sha256": "1389bf2408493af14e5444fb7cc0ac8a19f1ed26f1651e5ac1f34f312e0e102d"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/results/streaming_prefix_run.json",
+      "bytes": 434330,
+      "sha256": "501a20071b5215adfa61a5de8dd51ed580ef98f585d46c80484daacdb3db2b1c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/experiments/streaming_prefix.py",
+      "bytes": 16568,
+      "sha256": "225348096f0e4bddbd13a117840ea45ea5976c32b6a4ec65e2d0ee4476d905b7"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/literature/.gitignore",
+      "bytes": 7,
+      "sha256": "695426e943174af72f2a2391c3f48ed02c52873628e79be9fbf1a117f9ab3d9d"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/literature/METHOD_COMPARISON.md",
+      "bytes": 32228,
+      "sha256": "baeb6af56157524af6d8fa4fa33f43b45b1817407cb625e27584183ecc1af685"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/literature/SEARCH_LOG.md",
+      "bytes": 8068,
+      "sha256": "1d7383d32fed05761e69cd8cf10f62ae1b3c8ed49e00dde757d66913a5605241"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/literature/fetch_public_sources.py",
+      "bytes": 2866,
+      "sha256": "99cc7315c1ca5f33edd39c77b43c7bce25eb965dcf4ea94d0e8177b407f6a943"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/literature/retrieval_manifest.json",
+      "bytes": 2068,
+      "sha256": "819ff28d7e0afa85085f1cf54e134cddb734c91fb9f2759e3d15a46ab38126e5"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/DERIVATION_PROVENANCE.md",
+      "bytes": 3373,
+      "sha256": "e290f87344b4e3164c7390e9b27201b97c7a48d7d8014a265b44f083e055eaa1"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/fixed_first_word.md",
+      "bytes": 6116,
+      "sha256": "e96dbb4e8ef1ece9ec26bc8ff5bda58a1f63d441b6934084a07890bf43b812cb"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/fixed_word_sign.md",
+      "bytes": 4015,
+      "sha256": "7fb3e5763f56369730408395242c646b6fe6f5f0cefcac34ed112ec649154c1f"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/overlap_bit_closed_form.md",
+      "bytes": 10363,
+      "sha256": "679893a5d746d0180215031b0b7c0ceed3d926d74f0d5969f5d7928cd8ba0fca"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/positive_bit_range.md",
+      "bytes": 3900,
+      "sha256": "4dd538d48f76aad9c9f7632ade0a55f69bbef400be2cd6213363eac68288e576"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/special_bit_signed_correlation.md",
+      "bytes": 6439,
+      "sha256": "184c9f29b147e4035ac155a1e375accbc0fd58cb591fc222bdc84e3fe5281d73"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/proofs/streaming_prefix_baseline.md",
+      "bytes": 12094,
+      "sha256": "738f5b5fb3a9ef2414f75d1406d43af455acab99cb660ea04eed90e9f7b71315"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/NOVELTY_REVIEW.md",
+      "bytes": 26705,
+      "sha256": "92af910ae3e36fc4e63bed718b85ce56183f169245502759f9c07baa24619dad"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/RUN.md",
+      "bytes": 4857,
+      "sha256": "61083e9aa04b71077c59d112cef5b6c44b9a3510955b206749b89ed40e9510b1"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/SCOUT.md",
+      "bytes": 7400,
+      "sha256": "b415a3fc676feb507e6bdc5ae673facd02a27f4fd814e76c9ecb4488e939ef9e"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/fixed_abc.py",
+      "bytes": 9391,
+      "sha256": "fa914112701aa6c6608c2b21f0a84fbc4e4615d9dac09c86b52ca41b7420a33e"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/results.json",
+      "bytes": 33912,
+      "sha256": "603b3fcf7f33420ddbe9cd458666601b833e54f7387df8ff060afb9d38825f8a"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/FIXED_ABC_VERIFICATION_MANIFEST.json",
+      "bytes": 3268,
+      "sha256": "d011e540acdcea41df3ca076be520dbdaf863322434f44930b7ae63978fb4758"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/INDEPENDENT_DERIVATION.md",
+      "bytes": 9540,
+      "sha256": "e32e9c9ea99ed1ff7d9ed38bed79cde4b264c4ee1cc6f10be21a3bef935da5a6"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/INDEPENDENT_STAGE_MANIFEST.json",
+      "bytes": 1443,
+      "sha256": "05dda496968ff4d50a182b745cb68126a1e510b3746a5bb619b7ca48f2a7af8e"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/ORDINARY_REVIEW_REPORT.md",
+      "bytes": 10957,
+      "sha256": "513077a025417512396d79416bb7bc1f6420749da8593f10f085b4770f37dc36"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/independent_fixed_abc.py",
+      "bytes": 8778,
+      "sha256": "95fe9d22b0f62b4cdba587b070f0fe8d1d957f1b80a2ff25a9813296066f463d"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/independent_run.json",
+      "bytes": 22320,
+      "sha256": "d21b411b466da5056974da6772fe9464d198f518580b2edd69952e2b2e6d31df"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/ordinary_review_checks.py",
+      "bytes": 7349,
+      "sha256": "eacc8698ab1ab4f54c81f8f3d2371c1f981142b91aa67f32e4b91b7aaa40e9d2"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/ordinary_review_run.json",
+      "bytes": 6546,
+      "sha256": "94f270c64a3f4f9a048732dfbf667d48fda601cee0539f05594639541188b38c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/README.md",
+      "bytes": 4130,
+      "sha256": "cc961f01f90e2b2c800f6ad9dc001ddade704d697bdda9f3b8e781d5ab43fed8"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/check_upper_formula.py",
+      "bytes": 3217,
+      "sha256": "e33a2a728c2664763343f6243dfb01e5253c5a32f58afd516357e4e75a37bd86"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/cross_check_standard.py",
+      "bytes": 2820,
+      "sha256": "c436652cfa8f0b2ced2164d1fa3ae31d5ef47147b2efe25a57bba56071ca6b9d"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/exact_dp.py",
+      "bytes": 10030,
+      "sha256": "50c60d497036d7c1ae39831f0ca416fe2fdc0b70588cdfb95c0a03f8eb8ebd2c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/results/dp_all_bits.json",
+      "bytes": 302227,
+      "sha256": "b9a6e4cf978753bc271126318b0b5cd72ee72d2ceefb731d82a2fbabc0f0807c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/results/dp_execution.json",
+      "bytes": 1440,
+      "sha256": "184611959b4340e2405e2da3c0a2667e675bdfb05b8a99fc6409f0b70f7dbf60"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/results/standard_comparison.json",
+      "bytes": 21220,
+      "sha256": "4a38977dbd9c4e850f060ddbd5572b1207255c500547047422a82dfe72855e2a"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/results/standard_comparison_execution.json",
+      "bytes": 603,
+      "sha256": "53feecd06d5e18968c818a88c8a20a2898d8fbd63651bbd29bf65c59ae6004d7"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/results/upper_formula_check.json",
+      "bytes": 40969,
+      "sha256": "913040d451e2cc9a4ef00878bebf0d3149b400201d14525ec43ab757f8d24018"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/tooling/results/upper_formula_execution.json",
+      "bytes": 946,
+      "sha256": "746b82e06ae9ff98085a3a5b2060b4b6a3fd20d8ad9502cdd7447f83dcddf6ec"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/DISCOVERY_ENDPOINT_PROOF_REVIEW.md",
+      "bytes": 4402,
+      "sha256": "aacea20c685ca11412ef16a2614338b5c8582fa91c8320f96497aea06f528d71"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/FIXED_WORD_PROOF_REVIEW.md",
+      "bytes": 10399,
+      "sha256": "5051965efa0ae1ace86b278858da824fe8de3da174d9ef73b80617e98e305888"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/GENERAL_INDEPENDENT_PROOF.md",
+      "bytes": 9506,
+      "sha256": "a0f42dff639ae5cea6660b2cfdb8ca76317a0686ffd5aa77e1047fa62483b086"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/GENERAL_VERIFICATION_REPORT.md",
+      "bytes": 7365,
+      "sha256": "c632185bdf4a80b5e8aaaa1d32c1935634668be2b7def2811063685e8618cda7"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/INDEPENDENT_PROOF.md",
+      "bytes": 8876,
+      "sha256": "834305bbf8a08a10a5aa28543cb241f5fed9eb3d695f2905fa9755792084fa23"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/INDEPENDENT_VERIFICATION_MANIFEST.json",
+      "bytes": 4160,
+      "sha256": "8bcf646b96453ceb796c36900e0e47bcbd1e7d25e7dae5bbe9dc10ac98335a9e"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/UPPER_RANGE_PROOF_REVIEW.md",
+      "bytes": 11694,
+      "sha256": "b908b8d468648a2a4f6fb6adaed667f7fff0ecf98ac886b1a943467eb8abf110"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/VERIFICATION_REPORT.md",
+      "bytes": 5422,
+      "sha256": "fbc004e300717d15f78b2d1db5ec8e42a489409663ea9370394af909e92fb7da"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/fixed_proof_review_checks.py",
+      "bytes": 8615,
+      "sha256": "af98519708bbf5f4b0d20d56719010db5cc247c1966928aa012ec5c656cd993e"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/fixed_proof_review_run.json",
+      "bytes": 11206,
+      "sha256": "54c5e50d67071bd9b01b82917f4d3477b96bd5acac7bd156f5b9f0726dc3f4e1"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/general_fixed_word_counts.jsonl",
+      "bytes": 34840,
+      "sha256": "ef161507042abb5352dcf1c09006b536d04ba34a0451f7d9bad5208772ea372c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/general_fixed_word_enumerator.cpp",
+      "bytes": 2643,
+      "sha256": "cf57365beb8820b2cd484f32956c46932f2b417235c63b95f4bd32b19bbe1db2"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/general_independent_run.json",
+      "bytes": 244239,
+      "sha256": "c145b9c30157cf2938b3deb4cce1022c652f4a809bb69b52dbc8f59a13e520d3"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/general_independent_verify.py",
+      "bytes": 14313,
+      "sha256": "2394bd052606d33754d186a41c134906bd9307ec7dc95f665e584d294d03be20"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/general_standard32_exact.json",
+      "bytes": 30358,
+      "sha256": "1d593d05f7d6aa466ce6ac9b1f62d8efd4e2268098876031dc1f193e00ebf421"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/independent_run.json",
+      "bytes": 7945,
+      "sha256": "1e0419afeef76c4186557170e8e13d434439943587565f34de20f20429b0c94c"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/independent_verify.py",
+      "bytes": 6049,
+      "sha256": "9abfbefc3f25c1375f18e67194a9a93d15344d066dc08f96765d38b9a835979f"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/independent_word_counts.jsonl",
+      "bytes": 5075,
+      "sha256": "848a174a1f19993baad8cffd32685a0aa6a44205f1da99114483bc4c13fb13ba"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/independent_word_enumerator.cpp",
+      "bytes": 3440,
+      "sha256": "f7caa0a652ede1c56974f101417b062f8cb9c40d6a39db5bfd3e3acb72458eb7"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/CODE_REVIEW_REPORT.md",
+      "bytes": 10141,
+      "sha256": "67ae53753951f4ce41bae591d0bddb76e60a0cfc15ec95038419fe326baebe50"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/MATRIX_SPEC_REVIEW.md",
+      "bytes": 12430,
+      "sha256": "f5271bc144c717588c5cfd3dfb178e8d9d33f5b15e05516a6ffe77e3112344ce"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/STREAMING_REVIEW_MANIFEST.json",
+      "bytes": 1605,
+      "sha256": "ef28ad08d24b1548ea895a0512edd1777c2c298f47eea93735e4a3140b28b9c8"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/matrix_spec_checks.py",
+      "bytes": 11616,
+      "sha256": "c76b35a9d88e84e7bb6e1e78ee2956f09f76d937645f666a5e15986475605408"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/matrix_spec_run.json",
+      "bytes": 10759,
+      "sha256": "0f4a002664d53b4af96cb164cce096acedfcc547618afa3c291df1b46354a28b"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/ordinary_code_review_checks.py",
+      "bytes": 5879,
+      "sha256": "f37bd20761c129a2ca9189c42e70e49fe8fa5617c3695d07eb2148c6fbbcbebc"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/ordinary_code_review_run.json",
+      "bytes": 9105,
+      "sha256": "2a6569e8a5f76e34c185fcb0ff9f9eca17c9f50fa556d6dc89df093bc184ac27"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/upper_moment_review_checks.py",
+      "bytes": 5049,
+      "sha256": "f2447c009e3f9093a64d35673d3d80e274902f094c46f53e77655ad30ec54719"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/upper_moment_review_run.json",
+      "bytes": 85501,
+      "sha256": "08d80f90d9e373029775e664e6cdb42fc95ed45816d4f6a6ba999fa2a1e2c261"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/upper_range_independent_checks.py",
+      "bytes": 6642,
+      "sha256": "19b5d3040316514e51d0347cc615f9471aa9cc7e0ef8e213cf5bd6012e43d14f"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/verification/upper_range_independent_run.json",
+      "bytes": 44767,
+      "sha256": "0aaf66e822067b02da55c3604dc6f5db5c02198dc161c59bdbd946a45e6b80cb"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/keccak-conditional-rank/NOVELTY_REVIEW.md",
+      "bytes": 5006,
+      "sha256": "6efdea8fddcce56956d8a6a01933add2ee271117d3dfef0e703957c66e7e10f9"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/keccak-conditional-rank/OBJECTIVE.md",
+      "bytes": 5347,
+      "sha256": "22162561b1950613dc4a30d37573d52f34f544cdde04afc5cc84cb9f3ad92bb2"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/keccak-conditional-rank/RECENT_LITERATURE.md",
+      "bytes": 17544,
+      "sha256": "af44392111e52ffc57b505f06682098b4ff43518de01675c054aa6ee20bbd00f"
+    },
+    {
+      "path": "workstreams/CRYPTO/projects/keccak-conditional-rank/SOURCE_ACCESS.md",
+      "bytes": 14677,
+      "sha256": "3b859e931d03b3f31ee7748ea5c0446543e81bb213971614ae8bd5ac9f22375d"
+    },
+    {
+      "path": "workstreams/CRYPTO/verification/README.md",
+      "bytes": 2355,
+      "sha256": "6934f97f18a73f9540ba6c9be90b61432121cba0114a3312e1def83381c270eb"
+    },
+    {
+      "path": "workstreams/CRYPTO/verification/RESEARCH_SNAPSHOT.json",
+      "bytes": 15059,
+      "sha256": "679bce26049476b886280eaad38bd2a0897bc49cda4f51a78e4675ea50626e88"
+    },
+    {
+      "path": "workstreams/CRYPTO/verification/STARTUP.json",
+      "bytes": 3133,
+      "sha256": "20008971d056aadf5324242a55f5fc9998bc5f8bad162e44d851dd67a85475c8"
+    },
+    {
+      "path": "workstreams/CRYPTO/verification/verify_snapshot.py",
+      "bytes": 2391,
+      "sha256": "caed6fdcfe381665dee02bac1b8aa265b81e9f722ae33197e8fb8742bce3b129"
+    }
+  ],
+  "excluded_self_referential_files": [
+    "workstreams/CRYPTO/verification/CHECKPOINT3_AUDIT_RUN.json",
+    "workstreams/CRYPTO/verification/CHECKPOINT3_SNAPSHOT.json"
+  ],
+  "self_hash_note": "The snapshot and subsequent audit receipt are excluded here and bound by their containing Git tree.",
+  "cache_note": "Third-party PDFs and temporary caches are ignored; source URLs, version metadata and hashes are recorded in SOURCE_ACCESS.md."
+}

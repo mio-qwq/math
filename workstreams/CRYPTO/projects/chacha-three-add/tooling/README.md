@@ -36,3 +36,9 @@ The separately written verifier later produced standard 32-bit results without r
 Carry phases are evaluated before the corresponding bit transition. Repeated borrow indices cancel by XOR. All terminal states are accepted. The fixed-word model changes both the subtraction rule and the normalization; it cannot be substituted by the uniform-word table. Omission of surviving Walsh terms is incorrect in general. These invariants are established in the derivation and exercised by independent original-word enumeration.
 
 The state method and arbitrary-precision counting are established techniques. This implementation and its exact local values have not demonstrated a new best attack or cleared originality review.
+
+## Stronger same-target baseline
+
+The original `exact_dp.py` recomputes each moment and takes O(n²) integer arithmetic operations per output bit. The later [streaming-prefix proof](../proofs/streaming_prefix_baseline.md) and [implementation](../experiments/streaming_prefix.py) share invertible prefixes and take O(n) exact rational arithmetic operations with O(n) live auxiliary bits. All 1,650 frozen values matched. See [the run receipt](../experiments/STREAMING_PREFIX_RUN.md) for scope, hashes and timings.
+
+This removes an avoidable project-internal recomputation factor; it is not a best-published-attack improvement. Growing-integer multiplication and Fraction normalization must be included in a bit-cost comparison. The older integer DP remains useful as a separately constructed check, not as an asserted optimal baseline.

@@ -1,0 +1,1197 @@
+{
+  "started_utc": "2026-10-11T08:06:31.358195+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/independent_fixed_abc.py"
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+  },
+  "source_sha256": "95fe9d22b0f62b4cdba587b070f0fe8d1d957f1b80a2ff25a9813296066f463d",
+  "independence": "Original definition and parent task specification only; discovery fixed_abc proof, code, and results not read before this run.",
+  "random_seed": null,
+  "settings": [
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      1,
+      0,
+      3,
+      5,
+      2
+    ],
+    [
+      3,
+      2,
+      2,
+      3,
+      1,
+      6
+    ],
+    [
+      4,
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    [
+      4,
+      2,
+      2,
+      7,
+      9,
+      13
+    ],
+    [
+      5,
+      4,
+      2,
+      13,
+      17,
+      23
+    ],
+    [
+      3,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "parameter_search_over_fixed_words": false,
+  "status": "pass",
+  "exit_code": 0,
+  "fixed_settings": 7,
+  "original_d_inputs_enumerated": 90,
+  "bit_comparisons": 23,
+  "raw_original_word_counts": [
+    {
+      "n": 1,
+      "r": 0,
+      "q": 0,
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "samples": 2,
+      "signed_sums": [
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "samples": 8,
+      "signed_sums": [
+        -8,
+        -8,
+        0
+      ]
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "samples": 8,
+      "signed_sums": [
+        -8,
+        0,
+        8
+      ]
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "samples": 16,
+      "signed_sums": [
+        0,
+        8,
+        12,
+        0
+      ]
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "samples": 16,
+      "signed_sums": [
+        8,
+        -4,
+        16,
+        0
+      ]
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "samples": 32,
+      "signed_sums": [
+        -24,
+        -4,
+        0,
+        16,
+        8
+      ]
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "samples": 8,
+      "signed_sums": [
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "n": 1,
+      "r": 0,
+      "q": 0,
+      "i": 0,
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "correlation": "1",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 0,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 0,
+        "prefix_length": 0,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 1,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          1,
+          1
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "i": 0,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "correlation": "-1",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 2,
+        "constant_phase": 1,
+        "S": 0,
+        "first_carry_word": 6,
+        "prefix_length": 0,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 1,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          3,
+          3
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "i": 1,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "correlation": "-1",
+      "pass": true,
+      "state_details": {
+        "j": 1,
+        "k": 0,
+        "constant_phase": 1,
+        "S": 0,
+        "first_carry_word": 6,
+        "prefix_length": 0,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 2,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          3,
+          3
+        ],
+        "overlap_U_interval": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "i": 2,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "correlation": "0",
+      "pass": true,
+      "state_details": {
+        "j": 2,
+        "k": 1,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 6,
+        "prefix_length": 0,
+        "overlap_length": 2,
+        "initial_integer_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          3,
+          3
+        ],
+        "overlap_U_interval": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "i": 0,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "correlation": "-1",
+      "pass": true,
+      "state_details": {
+        "j": 1,
+        "k": 2,
+        "constant_phase": 1,
+        "S": 4,
+        "first_carry_word": 6,
+        "prefix_length": 1,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 2,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          1
+        ],
+        "overlap_U_interval": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "i": 1,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "correlation": "0",
+      "pass": true,
+      "state_details": {
+        "j": 2,
+        "k": 0,
+        "constant_phase": 1,
+        "S": 4,
+        "first_carry_word": 6,
+        "prefix_length": 1,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          1
+        ],
+        "overlap_U_interval": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "i": 2,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "correlation": "1",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 1,
+        "constant_phase": 0,
+        "S": 4,
+        "first_carry_word": 6,
+        "prefix_length": 2,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          1,
+          3
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 0,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "0",
+      "pass": true,
+      "state_details": {
+        "j": 1,
+        "k": 0,
+        "constant_phase": 0,
+        "S": 12,
+        "first_carry_word": 14,
+        "prefix_length": 1,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "terminal_integer_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "denominator_before_reduction": 2,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          1
+        ],
+        "overlap_U_interval": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 1,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "1/2",
+      "pass": true,
+      "state_details": {
+        "j": 2,
+        "k": 1,
+        "constant_phase": 0,
+        "S": 12,
+        "first_carry_word": 14,
+        "prefix_length": 1,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "terminal_integer_counts": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          1
+        ],
+        "overlap_U_interval": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 2,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "3/4",
+      "pass": true,
+      "state_details": {
+        "j": 3,
+        "k": 2,
+        "constant_phase": 0,
+        "S": 12,
+        "first_carry_word": 14,
+        "prefix_length": 1,
+        "overlap_length": 2,
+        "initial_integer_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "terminal_integer_counts": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "denominator_before_reduction": 8,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          1
+        ],
+        "overlap_U_interval": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 3,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "0",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 3,
+        "constant_phase": 0,
+        "S": 12,
+        "first_carry_word": 14,
+        "prefix_length": 3,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          4,
+          4,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          4,
+          4,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 8,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          1,
+          4
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 0,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "1/2",
+      "pass": true,
+      "state_details": {
+        "j": 2,
+        "k": 0,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 14,
+        "prefix_length": 2,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "terminal_integer_counts": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          2
+        ],
+        "overlap_U_interval": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 1,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "-1/4",
+      "pass": true,
+      "state_details": {
+        "j": 3,
+        "k": 1,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 14,
+        "prefix_length": 2,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "terminal_integer_counts": [
+          3,
+          0,
+          5,
+          0
+        ],
+        "denominator_before_reduction": 8,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          2
+        ],
+        "overlap_U_interval": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 2,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "1",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 2,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 14,
+        "prefix_length": 2,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          2,
+          4
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 3,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "0",
+      "pass": true,
+      "state_details": {
+        "j": 1,
+        "k": 3,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 14,
+        "prefix_length": 2,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "denominator_before_reduction": 8,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          2,
+          4
+        ],
+        "overlap_U_interval": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 0,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "-3/4",
+      "pass": true,
+      "state_details": {
+        "j": 3,
+        "k": 4,
+        "constant_phase": 0,
+        "S": 30,
+        "first_carry_word": 2,
+        "prefix_length": 3,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "terminal_integer_counts": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "denominator_before_reduction": 8,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          3
+        ],
+        "overlap_U_interval": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 1,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "-1/8",
+      "pass": true,
+      "state_details": {
+        "j": 4,
+        "k": 0,
+        "constant_phase": 1,
+        "S": 30,
+        "first_carry_word": 2,
+        "prefix_length": 3,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "terminal_integer_counts": [
+          9,
+          0,
+          7,
+          0
+        ],
+        "denominator_before_reduction": 16,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          3
+        ],
+        "overlap_U_interval": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 2,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "0",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 1,
+        "constant_phase": 1,
+        "S": 30,
+        "first_carry_word": 2,
+        "prefix_length": 2,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          3,
+          5
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 3,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "1/2",
+      "pass": true,
+      "state_details": {
+        "j": 1,
+        "k": 2,
+        "constant_phase": 0,
+        "S": 30,
+        "first_carry_word": 2,
+        "prefix_length": 2,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          2,
+          0,
+          4
+        ],
+        "denominator_before_reduction": 8,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          3,
+          5
+        ],
+        "overlap_U_interval": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 4,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "1/4",
+      "pass": true,
+      "state_details": {
+        "j": 2,
+        "k": 3,
+        "constant_phase": 0,
+        "S": 30,
+        "first_carry_word": 2,
+        "prefix_length": 2,
+        "overlap_length": 2,
+        "initial_integer_counts": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          0,
+          4,
+          2,
+          10
+        ],
+        "denominator_before_reduction": 16,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          3,
+          5
+        ],
+        "overlap_U_interval": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "correlation": "1",
+      "pass": true,
+      "state_details": {
+        "j": 2,
+        "k": 1,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 0,
+        "prefix_length": 2,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i<q",
+        "independent_prefix": "middle-addition borrow",
+        "prefix_U_interval": [
+          0,
+          2
+        ],
+        "overlap_U_interval": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 1,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "correlation": "1",
+      "pass": true,
+      "state_details": {
+        "j": 0,
+        "k": 2,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 0,
+        "prefix_length": 1,
+        "overlap_length": 0,
+        "initial_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 2,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          2,
+          3
+        ],
+        "overlap_U_interval": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "correlation": "1",
+      "pass": true,
+      "state_details": {
+        "j": 1,
+        "k": 0,
+        "constant_phase": 0,
+        "S": 0,
+        "first_carry_word": 0,
+        "prefix_length": 1,
+        "overlap_length": 1,
+        "initial_integer_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "terminal_integer_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "denominator_before_reduction": 4,
+        "case": "i>=q",
+        "independent_prefix": "final-addition carry",
+        "prefix_U_interval": [
+          2,
+          3
+        ],
+        "overlap_U_interval": [
+          0,
+          1
+        ]
+      }
+    }
+  ],
+  "constant_phase_negative_control": {
+    "n": 3,
+    "r": 2,
+    "q": 2,
+    "i": 0,
+    "a": 3,
+    "b": 1,
+    "c": 6,
+    "correct": "-1",
+    "omitting_constant_phase": "1"
+  },
+  "distribution_control": {
+    "n": 3,
+    "r": 1,
+    "q": 1,
+    "i": 2,
+    "uniform_all_words": "-3/16",
+    "fixed_a_zero_other_words_uniform": "1/8",
+    "fixed_abc_zero_d_uniform": "1"
+  },
+  "frozen_data_sha256": {
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/independent_word_counts.jsonl": "848a174a1f19993baad8cffd32685a0aa6a44205f1da99114483bc4c13fb13ba",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/verification/general_fixed_word_counts.jsonl": "ef161507042abb5352dcf1c09006b536d04ba34a0451f7d9bad5208772ea372c"
+  },
+  "claim_status": "L0 distribution calibration; no novelty or attack claim",
+  "finished_utc": "2026-10-11T08:06:31.363918+00:00"
+}

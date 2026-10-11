@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-11T08:08:44.781204+00:00",
+  "reviewer": "/root/survey_publickey",
+  "stage": "Independent fixed-abc derivation and implementation before reading discovery fixed-abc proof/code/results",
+  "status": "pass",
+  "observed_git_head": "59a24dc5c1afeaf481bb77ac7f2228465c821f3b",
+  "git_note": "Worktree hashes; root owns later commit and push. This reviewer did not mutate Git.",
+  "files": [
+    {
+      "file": "INDEPENDENT_DERIVATION.md",
+      "bytes": 9540,
+      "sha256": "e32e9c9ea99ed1ff7d9ed38bed79cde4b264c4ee1cc6f10be21a3bef935da5a6"
+    },
+    {
+      "file": "independent_fixed_abc.py",
+      "bytes": 8778,
+      "sha256": "95fe9d22b0f62b4cdba587b070f0fe8d1d957f1b80a2ff25a9813296066f463d"
+    },
+    {
+      "file": "independent_run.json",
+      "bytes": 22320,
+      "sha256": "d21b411b466da5056974da6772fe9464d198f518580b2edd69952e2b2e6d31df"
+    }
+  ],
+  "previous_frozen_manifests": [
+    {
+      "manifest": "workstreams/CRYPTO/projects/chacha-three-add/verification/INDEPENDENT_VERIFICATION_MANIFEST.json",
+      "sha256": "8bcf646b96453ceb796c36900e0e47bcbd1e7d25e7dae5bbe9dc10ac98335a9e",
+      "files_checked_unchanged": 22
+    },
+    {
+      "manifest": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/STREAMING_REVIEW_MANIFEST.json",
+      "sha256": "ef28ad08d24b1548ea895a0512edd1777c2c298f47eea93735e4a3140b28b9c8",
+      "files_checked_unchanged": 6
+    }
+  ]
+}

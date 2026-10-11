@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-11T08:27:19.697763+00:00",
+  "cwd": "/workspace/scratch/5f0455e66649/math-crypto",
+  "observed_parent_commit": "59a24dc5c1afeaf481bb77ac7f2228465c821f3b",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "cpu_count": 9
+  },
+  "frozen_integrity_audit": {
+    "status": "passed",
+    "independent_manifests": [
+      {
+        "manifest": "workstreams/CRYPTO/projects/chacha-three-add/verification/INDEPENDENT_VERIFICATION_MANIFEST.json",
+        "sha256": "8bcf646b96453ceb796c36900e0e47bcbd1e7d25e7dae5bbe9dc10ac98335a9e",
+        "entries_checked": 22
+      },
+      {
+        "manifest": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/STREAMING_REVIEW_MANIFEST.json",
+        "sha256": "ef28ad08d24b1548ea895a0512edd1777c2c298f47eea93735e4a3140b28b9c8",
+        "entries_checked": 6
+      },
+      {
+        "manifest": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/FIXED_ABC_VERIFICATION_MANIFEST.json",
+        "sha256": "d011e540acdcea41df3ca076be520dbdaf863322434f44930b7ae63978fb4758",
+        "entries_checked": 7
+      }
+    ],
+    "entries_checked": 35,
+    "extra_frozen_files_checked": 7,
+    "extra_sha256": {
+      "workstreams/CRYPTO/projects/chacha-three-add/literature/METHOD_COMPARISON.md": "baeb6af56157524af6d8fa4fa33f43b45b1817407cb625e27584183ecc1af685",
+      "workstreams/CRYPTO/projects/chacha-three-add/experiments/streaming_prefix.py": "225348096f0e4bddbd13a117840ea45ea5976c32b6a4ec65e2d0ee4476d905b7",
+      "workstreams/CRYPTO/projects/chacha-three-add/proofs/streaming_prefix_baseline.md": "738f5b5fb3a9ef2414f75d1406d43af455acab99cb660ea04eed90e9f7b71315",
+      "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/fixed_abc.py": "fa914112701aa6c6608c2b21f0a84fbc4e4615d9dac09c86b52ca41b7420a33e",
+      "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/NOVELTY_REVIEW.md": "92af910ae3e36fc4e63bed718b85ce56183f169245502759f9c07baa24619dad",
+      "workstreams/CRYPTO/projects/keccak-conditional-rank/SOURCE_ACCESS.md": "3b859e931d03b3f31ee7748ea5c0446543e81bb213971614ae8bd5ac9f22375d",
+      "workstreams/CRYPTO/projects/keccak-conditional-rank/RECENT_LITERATURE.md": "af44392111e52ffc57b505f06682098b4ff43518de01675c054aa6ee20bbd00f"
+    },
+    "observed_head": "59a24dc5c1afeaf481bb77ac7f2228465c821f3b",
+    "scope": "frozen file integrity only; no repeated mathematical experiments"
+  },
+  "frozen_integrity_tool_observed_exit_code": 0,
+  "snapshot_validation": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/CRYPTO/verification/verify_snapshot.py",
+      "workstreams/CRYPTO/verification/CHECKPOINT3_SNAPSHOT.json"
+    ],
+    "start_utc": "2026-10-11T08:27:19.665512+00:00",
+    "elapsed_seconds": 0.03213046000018949,
+    "subprocess_returncode": 0,
+    "stdout": {
+      "status": "passed",
+      "snapshot": "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/verification/CHECKPOINT3_SNAPSHOT.json",
+      "revision": "worktree",
+      "files_checked": 101,
+      "failures": [],
+      "scope": "byte and SHA-256 integrity; not a new mathematical or novelty review"
+    },
+    "stderr": "",
+    "verifier_source_sha256": "caed6fdcfe381665dee02bac1b8aa265b81e9f722ae33197e8fb8742bce3b129",
+    "snapshot_sha256": "857ac94245b24a471eca4cea3a5ba5561e8249709c9489b7653af4fa89f0a7b8"
+  },
+  "scope": "byte identity and directory-scoped checkpoint validation only; no repeated mathematical experiments",
+  "self_hash_note": "This receipt is excluded from the snapshot and bound by the Git tree that contains both."
+}

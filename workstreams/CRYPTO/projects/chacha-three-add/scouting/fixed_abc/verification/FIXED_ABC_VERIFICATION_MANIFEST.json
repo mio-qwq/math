@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-11T08:11:56.632047+00:00",
+  "reviewer": "/root/survey_publickey",
+  "status": "pass; frozen for parent archival",
+  "classification": "L0 input-distribution calibration, no novelty or attack claim",
+  "phases": [
+    "Independent derivation and original-word/threshold/state checks completed before discovery fixed-abc file access",
+    "Ordinary post-disclosure proof/code review and limited analytical comparison"
+  ],
+  "observed_git_head": "59a24dc5c1afeaf481bb77ac7f2228465c821f3b",
+  "git_note": "Worktree hashes; reviewer performed no Git mutation; root owns later commit/push.",
+  "files": [
+    {
+      "file": "INDEPENDENT_DERIVATION.md",
+      "bytes": 9540,
+      "sha256": "e32e9c9ea99ed1ff7d9ed38bed79cde4b264c4ee1cc6f10be21a3bef935da5a6"
+    },
+    {
+      "file": "independent_fixed_abc.py",
+      "bytes": 8778,
+      "sha256": "95fe9d22b0f62b4cdba587b070f0fe8d1d957f1b80a2ff25a9813296066f463d"
+    },
+    {
+      "file": "independent_run.json",
+      "bytes": 22320,
+      "sha256": "d21b411b466da5056974da6772fe9464d198f518580b2edd69952e2b2e6d31df"
+    },
+    {
+      "file": "INDEPENDENT_STAGE_MANIFEST.json",
+      "bytes": 1443,
+      "sha256": "05dda496968ff4d50a182b745cb68126a1e510b3746a5bb619b7ca48f2a7af8e"
+    },
+    {
+      "file": "ordinary_review_checks.py",
+      "bytes": 7349,
+      "sha256": "eacc8698ab1ab4f54c81f8f3d2371c1f981142b91aa67f32e4b91b7aaa40e9d2"
+    },
+    {
+      "file": "ordinary_review_run.json",
+      "bytes": 6546,
+      "sha256": "94f270c64a3f4f9a048732dfbf667d48fda601cee0539f05594639541188b38c"
+    },
+    {
+      "file": "ORDINARY_REVIEW_REPORT.md",
+      "bytes": 10957,
+      "sha256": "513077a025417512396d79416bb7bc1f6420749da8593f10f085b4770f37dc36"
+    }
+  ],
+  "prior_frozen_manifests_verified": [
+    {
+      "manifest": "workstreams/CRYPTO/projects/chacha-three-add/verification/INDEPENDENT_VERIFICATION_MANIFEST.json",
+      "sha256": "8bcf646b96453ceb796c36900e0e47bcbd1e7d25e7dae5bbe9dc10ac98335a9e",
+      "files_checked_unchanged": 22
+    },
+    {
+      "manifest": "workstreams/CRYPTO/projects/chacha-three-add/verification/streaming_review/STREAMING_REVIEW_MANIFEST.json",
+      "sha256": "ef28ad08d24b1548ea895a0512edd1777c2c298f47eea93735e4a3140b28b9c8",
+      "files_checked_unchanged": 6
+    },
+    {
+      "manifest": "workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/INDEPENDENT_STAGE_MANIFEST.json",
+      "sha256": "05dda496968ff4d50a182b745cb68126a1e510b3746a5bb619b7ca48f2a7af8e",
+      "files_checked_unchanged": 3
+    }
+  ],
+  "discovery_files_unchanged_from_review": {
+    "SCOUT.md": "b415a3fc676feb507e6bdc5ae673facd02a27f4fd814e76c9ecb4488e939ef9e",
+    "fixed_abc.py": "fa914112701aa6c6608c2b21f0a84fbc4e4615d9dac09c86b52ca41b7420a33e",
+    "results.json": "603b3fcf7f33420ddbe9cd458666601b833e54f7387df8ff060afb9d38825f8a",
+    "RUN.md": "61083e9aa04b71077c59d112cef5b6c44b9a3510955b206749b89ed40e9510b1"
+  },
+  "scope": {
+    "independent_original_d_inputs": 90,
+    "independent_small_word_bits": 23,
+    "ordinary_comparisons_with_frozen_bits": 23,
+    "disclosed_standard32_examples_independently_evaluated": 6,
+    "additional_original_enumeration_after_disclosure": 0,
+    "discovery_harness_rerun": false
+  }
+}

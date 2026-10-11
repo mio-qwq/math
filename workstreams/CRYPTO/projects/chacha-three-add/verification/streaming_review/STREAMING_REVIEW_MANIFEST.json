@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-11T07:59:31.266781+00:00",
+  "status": "Frozen review checkpoint; no pending source correction",
+  "reviewer": "/root/survey_publickey",
+  "phases": [
+    "Independent mathematical-specification audit before implementation disclosure",
+    "Ordinary source review and 18 reused targeted executions after disclosure"
+  ],
+  "observed_git_head": "59a24dc5c1afeaf481bb77ac7f2228465c821f3b",
+  "git_note": "Worktree file hashes; root agent owns final commit and push.",
+  "previous_manifest_sha256": "8bcf646b96453ceb796c36900e0e47bcbd1e7d25e7dae5bbe9dc10ac98335a9e",
+  "previous_22_files_unchanged": true,
+  "files": [
+    {
+      "file": "CODE_REVIEW_REPORT.md",
+      "bytes": 10141,
+      "sha256": "67ae53753951f4ce41bae591d0bddb76e60a0cfc15ec95038419fe326baebe50"
+    },
+    {
+      "file": "MATRIX_SPEC_REVIEW.md",
+      "bytes": 12430,
+      "sha256": "f5271bc144c717588c5cfd3dfb178e8d9d33f5b15e05516a6ffe77e3112344ce"
+    },
+    {
+      "file": "matrix_spec_checks.py",
+      "bytes": 11616,
+      "sha256": "c76b35a9d88e84e7bb6e1e78ee2956f09f76d937645f666a5e15986475605408"
+    },
+    {
+      "file": "matrix_spec_run.json",
+      "bytes": 10759,
+      "sha256": "0f4a002664d53b4af96cb164cce096acedfcc547618afa3c291df1b46354a28b"
+    },
+    {
+      "file": "ordinary_code_review_checks.py",
+      "bytes": 5879,
+      "sha256": "f37bd20761c129a2ca9189c42e70e49fe8fa5617c3695d07eb2148c6fbbcbebc"
+    },
+    {
+      "file": "ordinary_code_review_run.json",
+      "bytes": 9105,
+      "sha256": "2a6569e8a5f76e34c185fcb0ff9f9eca17c9f50fa556d6dc89df093bc184ac27"
+    }
+  ]
+}

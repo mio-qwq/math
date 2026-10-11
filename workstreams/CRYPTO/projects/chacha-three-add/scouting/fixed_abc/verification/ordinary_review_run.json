@@ -1,0 +1,353 @@
+{
+  "started_utc": "2026-10-11T08:10:09.075470+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/5f0455e66649/math-crypto/workstreams/CRYPTO/projects/chacha-three-add/scouting/fixed_abc/verification/ordinary_review_checks.py"
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+  },
+  "review_type": "Ordinary post-disclosure proof/code/results review, following a frozen independent stage",
+  "discovery_harness_rerun": false,
+  "original_word_inputs_enumerated_in_this_run": 0,
+  "randomness": "none",
+  "status": "pass",
+  "exit_code": 0,
+  "source_sha256": "eacc8698ab1ab4f54c81f8f3d2371c1f981142b91aa67f32e4b91b7aaa40e9d2",
+  "independent_stage_manifest_sha256": "05dda496968ff4d50a182b745cb68126a1e510b3746a5bb619b7ca48f2a7af8e",
+  "frozen_independent_files_unchanged": 3,
+  "reviewed_files_sha256": {
+    "SCOUT.md": "b415a3fc676feb507e6bdc5ae673facd02a27f4fd814e76c9ecb4488e939ef9e",
+    "fixed_abc.py": "fa914112701aa6c6608c2b21f0a84fbc4e4615d9dac09c86b52ca41b7420a33e",
+    "results.json": "603b3fcf7f33420ddbe9cd458666601b833e54f7387df8ff060afb9d38825f8a",
+    "RUN.md": "61083e9aa04b71077c59d112cef5b6c44b9a3510955b206749b89ed40e9510b1"
+  },
+  "discovery_against_independent_raw_bit_values": 23,
+  "raw_value_checks": [
+    {
+      "n": 1,
+      "r": 0,
+      "q": 0,
+      "i": 0,
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "correlation": "1"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "i": 0,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "correlation": "-1"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "i": 1,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "correlation": "-1"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "i": 2,
+      "a": 3,
+      "b": 5,
+      "c": 2,
+      "correlation": "0"
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "i": 0,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "correlation": "-1"
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "i": 1,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "correlation": "0"
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 2,
+      "i": 2,
+      "a": 3,
+      "b": 1,
+      "c": 6,
+      "correlation": "1"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 0,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "0"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 1,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "1/2"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 2,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "3/4"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "i": 3,
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "correlation": "0"
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 0,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "1/2"
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 1,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "-1/4"
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 2,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "1"
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "i": 3,
+      "a": 7,
+      "b": 9,
+      "c": 13,
+      "correlation": "0"
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 0,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "-3/4"
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 1,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "-1/8"
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 2,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "0"
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 3,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "1/2"
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "q": 2,
+      "i": 4,
+      "a": 13,
+      "b": 17,
+      "c": 23,
+      "correlation": "1/4"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "correlation": "1"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 1,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "correlation": "1"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 1,
+      "i": 2,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "correlation": "1"
+    }
+  ],
+  "standard_analytical_checks": [
+    {
+      "label": "rfc_a_zero_bc",
+      "a_hex": "61707865",
+      "b_hex": "00000000",
+      "c_hex": "00000000",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "110069659/134217728"
+    },
+    {
+      "label": "rfc_a_pattern_bc",
+      "a_hex": "61707865",
+      "b_hex": "01234567",
+      "c_hex": "89abcdef",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "-9620621/33554432"
+    },
+    {
+      "label": "rfc_a_second_pattern_bc",
+      "a_hex": "61707865",
+      "b_hex": "deadbeef",
+      "c_hex": "10203040",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "-20410923/33554432"
+    },
+    {
+      "label": "zero_s_zero_c",
+      "a_hex": "00000000",
+      "b_hex": "00000000",
+      "c_hex": "00000000",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "1"
+    },
+    {
+      "label": "zero_s_half_c",
+      "a_hex": "00000000",
+      "b_hex": "00000000",
+      "c_hex": "00008000",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "0"
+    },
+    {
+      "label": "zero_s_max_c",
+      "a_hex": "00000000",
+      "b_hex": "00000000",
+      "c_hex": "0000ffff",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "-32767/32768"
+    }
+  ],
+  "newly_disclosed_symbolic_negative_control": {
+    "n": 2,
+    "r": 0,
+    "q": 0,
+    "a": 1,
+    "b": 2,
+    "c": 1,
+    "i": 1,
+    "bit_cases": [
+      {
+        "U_0": 0,
+        "borrow_1": 1,
+        "carry_1": 0
+      },
+      {
+        "U_0": 1,
+        "borrow_1": 0,
+        "carry_1": 1
+      }
+    ],
+    "actual": "-1",
+    "false_marginal_product": "0"
+  },
+  "discovery_receipt_arithmetic_consistent": true,
+  "classification": "L0 model calibration; no novelty or attack claim",
+  "finished_utc": "2026-10-11T08:10:09.086996+00:00"
+}

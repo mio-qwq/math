@@ -32,6 +32,8 @@ Distribution U makes a,b,c,d independent uniform. Distribution A fixes a and mak
 | C004 | Any bit/rotation reduces to at most n four-state moments | [General reduction](GENERAL_REDUCTION.md); [general implementation](tooling/exact_dp.py); separately implemented verifier |
 | C005 | At the special bit the conditional sign is positive exactly for a mod 2^(r+q)=0 | [Finite-sum proof](proofs/fixed_word_sign.md); independent review tracked in verification |
 | C006 | Closed form above r+q through offset k<=q, plus its short recurrence | [Proof](proofs/overlap_bit_closed_form.md); [independent review](verification/UPPER_RANGE_PROOF_REVIEW.md) |
+| C007 | O(n) exact arithmetic and O(n) auxiliary bits per output via reversible prefixes | [Proof](proofs/streaming_prefix_baseline.md); [1,650 exact comparisons](experiments/STREAMING_PREFIX_RUN.md); known-framework baseline, L0 |
+| C008 | Fixed a,b,c and uniform d reduce to an exact prefix distribution and four-state chain | [Bounded scout](scouting/fixed_abc/SCOUT.md); [run evidence](scouting/fixed_abc/RUN.md); direct known-method application, L0 |
 
 At standard parameters,
 
@@ -52,6 +54,6 @@ Start with [experiments/README.md](experiments/README.md), [verification/VERIFIC
 
 The initial cycle is successful as an exact, reproducible local analysis. It is **not** successful as a confirmed-original or best-attack improvement. Next work should inspect the missing near-neighbor theorems, compare the same masks and distributions, and determine whether the explicit rotation elimination or conditional classification remains a substantive contribution. The upper-bit overlap region is a bounded follow-up: obtain a proved closed form/recurrence or record a counterexample; do not grow a brute-force search without a complexity reason.
 
-The upper-bit follow-up is now complete: the formula and recurrence were independently checked, and an exact k>q counterexample limits the theorem. [RESULTS.md](RESULTS.md) gives the full standard-width spectrum, fixed-word classification and current originality verdict. The next method comparison checks a more efficient application of existing matrix-prefix techniques before making any complexity claim.
+The upper-bit follow-up is now complete: the formula and recurrence were independently checked, and an exact k>q counterexample limits the theorem. [RESULTS.md](RESULTS.md) gives the full standard-width spectrum, fixed-word classification and current originality verdict. [METHOD_COMPARISON.md](literature/METHOD_COMPARISON.md) explicitly reconstructs the key moments using existing kernels; the stronger reversible-prefix baseline has now been implemented and checked. The bounded fixed-a,b,c scout also reduces to ordinary kernels and is closed as L0 calibration. The main originality search moves to [Keccak constraint qualification](../keccak-conditional-rank/OBJECTIVE.md); missing ChaCha predecessor texts remain a future historical comparison task, not evidence for novelty.
 
 No external submission, author contact, DOI registration, or academic preprint publication has been performed. The code and notes are checkpoints in the user-authorized research branch.

@@ -1,0 +1,1745 @@
+{
+  "status": "passed_research_self_check",
+  "classification": "L0 input-distribution clarification using ordinary four-state constant-operation kernels",
+  "independent_verification": false,
+  "randomness": "none; fixed literal cases and complete enumeration of d only for n<=4",
+  "started_at_utc": "2026-10-11T08:00:01.957368+00:00",
+  "finished_at_utc": "2026-10-11T08:00:01.958872+00:00",
+  "elapsed_seconds": 0.0015120580001166672,
+  "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python scouting/fixed_abc/fixed_abc.py",
+  "exit_code_on_success": 0,
+  "source_sha256": "fa914112701aa6c6608c2b21f0a84fbc4e4615d9dac09c86b52ca41b7420a33e",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "max_rss_kib": 11392
+  },
+  "fixed_parameter_cases": 17,
+  "enumerated_d_inputs": 188,
+  "pointwise_identity_checks": 692,
+  "exact_correlation_checks": 54,
+  "incorrect_product_counterexamples": [
+    {
+      "n": 2,
+      "r": 0,
+      "q": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1,
+      "i": 1,
+      "actual": "-1",
+      "false_product": "0"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 2,
+      "a": 5,
+      "b": 2,
+      "c": 3,
+      "i": 1,
+      "actual": "1/2",
+      "false_product": "0"
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 1,
+      "a": 6,
+      "b": 3,
+      "c": 5,
+      "i": 2,
+      "actual": "1/2",
+      "false_product": "0"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 9,
+      "b": 6,
+      "c": 13,
+      "i": 1,
+      "actual": "1/2",
+      "false_product": "0"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 9,
+      "b": 6,
+      "c": 13,
+      "i": 2,
+      "actual": "3/4",
+      "false_product": "1/8"
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 3,
+      "a": 12,
+      "b": 3,
+      "c": 9,
+      "i": 1,
+      "actual": "1/2",
+      "false_product": "0"
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 3,
+      "a": 12,
+      "b": 3,
+      "c": 9,
+      "i": 2,
+      "actual": "-1/4",
+      "false_product": "-3/8"
+    }
+  ],
+  "omitted_phase_counterexamples": [
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "a": 7,
+      "b": 1,
+      "c": 4,
+      "i": 0,
+      "actual": "-1",
+      "without_phase": "1"
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "a": 7,
+      "b": 1,
+      "c": 4,
+      "i": 1,
+      "actual": "-1",
+      "without_phase": "1"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 0,
+      "actual": "-1",
+      "without_phase": "1"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 2,
+      "actual": "-1/2",
+      "without_phase": "1/2"
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 3,
+      "actual": "-3/4",
+      "without_phase": "3/4"
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 3,
+      "a": 7,
+      "b": 9,
+      "c": 0,
+      "i": 0,
+      "actual": "-1",
+      "without_phase": "1"
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 3,
+      "a": 7,
+      "b": 9,
+      "c": 0,
+      "i": 3,
+      "actual": "-1",
+      "without_phase": "1"
+    }
+  ],
+  "records": [
+    {
+      "n": 1,
+      "r": 0,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 2,
+      "d_count": 2,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 1,
+      "r": 0,
+      "q": 0,
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 2,
+      "d_count": 2,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 2,
+      "r": 0,
+      "q": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 4,
+      "d_count": 4,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 2,
+      "r": 0,
+      "q": 0,
+      "a": 1,
+      "b": 2,
+      "c": 1,
+      "i": 1,
+      "exact_correlation": "-1",
+      "signed_sum_over_d": -4,
+      "d_count": 4,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 2,
+      "r": 1,
+      "q": 1,
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 4,
+      "d_count": 4,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 2,
+      "r": 1,
+      "q": 1,
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "i": 1,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 4,
+      "d_count": 4,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 2,
+      "a": 5,
+      "b": 2,
+      "c": 3,
+      "i": 0,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 2,
+      "a": 5,
+      "b": 2,
+      "c": 3,
+      "i": 1,
+      "exact_correlation": "1/2",
+      "signed_sum_over_d": 4,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 2,
+      "a": 5,
+      "b": 2,
+      "c": 3,
+      "i": 2,
+      "exact_correlation": "-1/2",
+      "signed_sum_over_d": -4,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 1,
+      "a": 6,
+      "b": 3,
+      "c": 5,
+      "i": 0,
+      "exact_correlation": "1/2",
+      "signed_sum_over_d": 4,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 1,
+      "a": 6,
+      "b": 3,
+      "c": 5,
+      "i": 1,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 3,
+      "r": 2,
+      "q": 1,
+      "a": 6,
+      "b": 3,
+      "c": 5,
+      "i": 2,
+      "exact_correlation": "1/2",
+      "signed_sum_over_d": 4,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          1,
+          1
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 3,
+      "r": 0,
+      "q": 1,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 8,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 3,
+      "r": 0,
+      "q": 1,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "i": 1,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 8,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 3,
+      "r": 0,
+      "q": 1,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "i": 2,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 8,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "a": 7,
+      "b": 1,
+      "c": 4,
+      "i": 0,
+      "exact_correlation": "-1",
+      "signed_sum_over_d": -8,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": -1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "a": 7,
+      "b": 1,
+      "c": 4,
+      "i": 1,
+      "exact_correlation": "-1",
+      "signed_sum_over_d": -8,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 1,
+        "initial_phase": -1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 3,
+      "r": 1,
+      "q": 0,
+      "a": 7,
+      "b": 1,
+      "c": 4,
+      "i": 2,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 8,
+      "d_count": 8,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 0,
+      "a": 3,
+      "b": 5,
+      "c": 11,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 0,
+      "a": 3,
+      "b": 5,
+      "c": 11,
+      "i": 1,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 0,
+      "a": 3,
+      "b": 5,
+      "c": 11,
+      "i": 2,
+      "exact_correlation": "-1/2",
+      "signed_sum_over_d": -8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 0,
+      "a": 3,
+      "b": 5,
+      "c": 11,
+      "i": 3,
+      "exact_correlation": "1/4",
+      "signed_sum_over_d": 4,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 3,
+        "initial_phase": 1,
+        "terminal_counts": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 0,
+      "exact_correlation": "-1",
+      "signed_sum_over_d": -16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 3,
+        "shared_bit_steps": 0,
+        "initial_phase": -1,
+        "terminal_counts": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 1,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": -1,
+        "terminal_counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 2,
+      "exact_correlation": "-1/2",
+      "signed_sum_over_d": -8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": -1,
+        "terminal_counts": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 1,
+      "a": 10,
+      "b": 7,
+      "c": 8,
+      "i": 3,
+      "exact_correlation": "-3/4",
+      "signed_sum_over_d": -12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 2,
+        "initial_phase": -1,
+        "terminal_counts": [
+          7,
+          1,
+          0,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 9,
+      "b": 6,
+      "c": 13,
+      "i": 0,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 9,
+      "b": 6,
+      "c": 13,
+      "i": 1,
+      "exact_correlation": "1/2",
+      "signed_sum_over_d": 8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 9,
+      "b": 6,
+      "c": 13,
+      "i": 2,
+      "exact_correlation": "3/4",
+      "signed_sum_over_d": 12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          1,
+          0,
+          5
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 3,
+      "a": 9,
+      "b": 6,
+      "c": 13,
+      "i": 3,
+      "exact_correlation": "-3/4",
+      "signed_sum_over_d": -12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 3,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          7,
+          0,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 1,
+      "a": 15,
+      "b": 1,
+      "c": 7,
+      "i": 0,
+      "exact_correlation": "-3/4",
+      "signed_sum_over_d": -12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 3,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 1,
+      "a": 15,
+      "b": 1,
+      "c": 7,
+      "i": 1,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 1,
+      "a": 15,
+      "b": 1,
+      "c": 7,
+      "i": 2,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 1,
+      "a": 15,
+      "b": 1,
+      "c": 7,
+      "i": 3,
+      "exact_correlation": "-1/2",
+      "signed_sum_over_d": -8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          6,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "a": 1,
+      "b": 7,
+      "c": 15,
+      "i": 0,
+      "exact_correlation": "-1/2",
+      "signed_sum_over_d": -8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "a": 1,
+      "b": 7,
+      "c": 15,
+      "i": 1,
+      "exact_correlation": "-3/4",
+      "signed_sum_over_d": -12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "a": 1,
+      "b": 7,
+      "c": 15,
+      "i": 2,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 2,
+      "a": 1,
+      "b": 7,
+      "c": 15,
+      "i": 3,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 2,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 3,
+      "a": 12,
+      "b": 3,
+      "c": 9,
+      "i": 0,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 3,
+      "a": 12,
+      "b": 3,
+      "c": 9,
+      "i": 1,
+      "exact_correlation": "1/2",
+      "signed_sum_over_d": 8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 3,
+      "a": 12,
+      "b": 3,
+      "c": 9,
+      "i": 2,
+      "exact_correlation": "-1/4",
+      "signed_sum_over_d": -4,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          5,
+          0,
+          1
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "q": 3,
+      "a": 12,
+      "b": 3,
+      "c": 9,
+      "i": 3,
+      "exact_correlation": "-3/4",
+      "signed_sum_over_d": -12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 3,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          7,
+          0,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 4,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 4,
+      "i": 1,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 4,
+      "i": 2,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 2,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 4,
+      "i": 3,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 3,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 3,
+      "a": 7,
+      "b": 9,
+      "c": 0,
+      "i": 0,
+      "exact_correlation": "-1",
+      "signed_sum_over_d": -16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 0,
+        "initial_phase": -1,
+        "terminal_counts": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 3,
+      "a": 7,
+      "b": 9,
+      "c": 0,
+      "i": 1,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 3,
+      "a": 7,
+      "b": 9,
+      "c": 0,
+      "i": 2,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_lt_q",
+        "prefix_bits": 1,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 0,
+      "q": 3,
+      "a": 7,
+      "b": 9,
+      "c": 0,
+      "i": 3,
+      "exact_correlation": "-1",
+      "signed_sum_over_d": -16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 3,
+        "shared_bit_steps": 0,
+        "initial_phase": -1,
+        "terminal_counts": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 7,
+      "i": 0,
+      "exact_correlation": "1",
+      "signed_sum_over_d": 16,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 0,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 1,
+        "max_integer_bits": 1
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 7,
+      "i": 1,
+      "exact_correlation": "0",
+      "signed_sum_over_d": 0,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 1,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "unreduced_denominator": 2,
+        "max_integer_bits": 2
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 7,
+      "i": 2,
+      "exact_correlation": "-1/2",
+      "signed_sum_over_d": -8,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 2,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "unreduced_denominator": 4,
+        "max_integer_bits": 3
+      }
+    },
+    {
+      "n": 4,
+      "r": 1,
+      "q": 0,
+      "a": 0,
+      "b": 0,
+      "c": 7,
+      "i": 3,
+      "exact_correlation": "-3/4",
+      "signed_sum_over_d": -12,
+      "d_count": 16,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 0,
+        "shared_bit_steps": 3,
+        "initial_phase": 1,
+        "terminal_counts": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "unreduced_denominator": 8,
+        "max_integer_bits": 4
+      }
+    }
+  ],
+  "standard32_analytical_examples": [
+    {
+      "label": "rfc_a_zero_bc",
+      "a_hex": "61707865",
+      "b_hex": "00000000",
+      "c_hex": "00000000",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "110069659/134217728",
+      "decimal": 0.8200828656554222,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 12,
+        "shared_bit_steps": 16,
+        "initial_phase": 1,
+        "terminal_counts": [
+          244287387,
+          24148069,
+          0,
+          0
+        ],
+        "unreduced_denominator": 268435456,
+        "max_integer_bits": 29
+      }
+    },
+    {
+      "label": "rfc_a_pattern_bc",
+      "a_hex": "61707865",
+      "b_hex": "01234567",
+      "c_hex": "89abcdef",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "-9620621/33554432",
+      "decimal": -0.28671684861183167,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 12,
+        "shared_bit_steps": 16,
+        "initial_phase": 1,
+        "terminal_counts": [
+          52498432,
+          0,
+          172700212,
+          43236812
+        ],
+        "unreduced_denominator": 268435456,
+        "max_integer_bits": 29
+      }
+    },
+    {
+      "label": "rfc_a_second_pattern_bc",
+      "a_hex": "61707865",
+      "b_hex": "deadbeef",
+      "c_hex": "10203040",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "-20410923/33554432",
+      "decimal": -0.6082929074764252,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 12,
+        "shared_bit_steps": 16,
+        "initial_phase": -1,
+        "terminal_counts": [
+          215861420,
+          1980244,
+          50593792,
+          0
+        ],
+        "unreduced_denominator": 268435456,
+        "max_integer_bits": 29
+      }
+    },
+    {
+      "label": "zero_s_zero_c",
+      "a_hex": "00000000",
+      "b_hex": "00000000",
+      "c_hex": "00000000",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "1",
+      "decimal": 1.0,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 12,
+        "shared_bit_steps": 16,
+        "initial_phase": 1,
+        "terminal_counts": [
+          268435456,
+          0,
+          0,
+          0
+        ],
+        "unreduced_denominator": 268435456,
+        "max_integer_bits": 29
+      }
+    },
+    {
+      "label": "zero_s_half_c",
+      "a_hex": "00000000",
+      "b_hex": "00000000",
+      "c_hex": "00008000",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "0",
+      "decimal": 0.0,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 12,
+        "shared_bit_steps": 16,
+        "initial_phase": 1,
+        "terminal_counts": [
+          134217728,
+          0,
+          134217728,
+          0
+        ],
+        "unreduced_denominator": 268435456,
+        "max_integer_bits": 29
+      }
+    },
+    {
+      "label": "zero_s_max_c",
+      "a_hex": "00000000",
+      "b_hex": "00000000",
+      "c_hex": "0000ffff",
+      "n": 32,
+      "r": 16,
+      "q": 12,
+      "i": 28,
+      "exact_correlation": "-32767/32768",
+      "decimal": -0.999969482421875,
+      "diagnostics": {
+        "regime": "i_ge_q",
+        "prefix_bits": 12,
+        "shared_bit_steps": 16,
+        "initial_phase": 1,
+        "terminal_counts": [
+          4096,
+          0,
+          268431360,
+          0
+        ],
+        "unreduced_denominator": 268435456,
+        "max_integer_bits": 29
+      }
+    }
+  ],
+  "standard_scope": "Six exact small-state evaluations; no enumeration or statistical estimate at n=32."
+}
