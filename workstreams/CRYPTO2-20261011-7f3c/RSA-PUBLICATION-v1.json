@@ -1,0 +1,18 @@
+{
+  "schema": "crypto2-rsa-publication-v1",
+  "branch": "partner/dist-CRYPTO2-20261011-7f3c",
+  "claim_commit": "3b651069e690bc237faa6c608de895f532160736",
+  "content_commit": "cfc7b777384aefd836248ff3d8de7e3d9f79b2b6",
+  "local_signed_content_commit": "923751b524fd64d388c0880017347863b7e0c67d",
+  "verified_identical_tree": "4aa63e1db95a265d267ecad720973ef17ddbdb3d",
+  "manifest_sha256": "a3d99c61f36e74d9a0079ca57c741edbb08a54aad5aeae9b78ea3cb08187c6d2",
+  "frozen_files_verified": 19,
+  "checks": {
+    "definition_checker_exit": 0,
+    "reproduction_exit": 0,
+    "byte_identical_certificate_files": 5,
+    "negative_controls": 12
+  },
+  "status": "Proof candidates; pending independent review and originality confirmation; no improved RSA attack exponent.",
+  "preservation": "Only owner paths changed. No force push or main merge. Older Ascon/circulant proof files preserved."
+}
