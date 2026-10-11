@@ -1,0 +1,27 @@
+{
+  "schema": "crypto2-rsa-freeze-v1",
+  "owner": "CRYPTO2-20261011-7f3c",
+  "scope": "Restricted proof candidates; pending independent review; originality unconfirmed; no improved RSA attack exponent",
+  "claim_base_sha": "3b651069e690bc237faa6c608de895f532160736",
+  "files": {
+    "FAILURES.md": "ce11263bc6511ced3abae30a565595bee2cc105bf0fd4deb900044d5d2e4036d",
+    "GENERAL-PROOF-v1.md": "9e747a96c8d37fd0c7c5a902cca6cd32cc32f9e7c527e2c7eb7d09fb5851d21a",
+    "HANDOFF.md": "71ea26fd9ce7487f86939bc48531b82cfb5580bff2b4463dd9455bb3bb75085e",
+    "PROOF-v1.md": "ea10de9b86579e6cd044a628f4060c07dcb94ade27cbb5248f95ab0caa49cc35",
+    "RUN-RESULTS.json": "c2b04901b114f2a1dd63813c4c668bca6652d4180576ff0e6f4e2162befe77e4",
+    "RUNS.md": "1b038d155de3d460b217566a83fa86e4fdf94d002bab77cffc112a1a41100496",
+    "SOURCES.md": "d26271b3962d9d3c303fb0ef72a95c471722f4dbceecdeb10831f466253a83b1",
+    "STATUS.md": "00f66ebe69f2b99dde3190b7a36302500ef00acdf74a44c87c12395ffa570096",
+    "check.py": "3dcb0caa230aa5822811767b788abb97c623685aee3e4ee82222613836a3530a",
+    "evidence/control-96-m2-t0.json": "1bc6ebb68112ce66d5a416bdefdebc06dd0ccc2f6e2558e5f6ddfb976cb53152",
+    "evidence/general/synthetic.json": "c491588945e1099c2b72560214bcdec72fbb355faeec0f19bbd5b6fe3a0786b8",
+    "evidence/probe-96-m4-t2.json": "75296b909afc978580680c632c04c2b895519a1cdb8523f1e09fa7b13cc6c6dc",
+    "evidence/probe-96-m6-t1.json": "2c6c7a8a2aa84fa57171c119dd0f38dbd3bc43b505f89547c7fda899b7e2daad",
+    "evidence/quadratic/synthetic.json": "5900199daa46d332b14485831e5df1e3b30df468cde4b04f25b5fda8811ed0c4",
+    "make_general.py": "2ffdf61e656fa041548a7aa5ac49a35ba87bd9429b2b7b5e380de57246067fd0",
+    "make_quadratic.py": "a615d01b3bf9d7523fa88264373b860dfdb6d9c45085bb3daa2efdfd24818603",
+    "probe.py": "ab06bb4105e6db3f1c438608feb8cf503e2c502215ead30b74565c7072ee9681",
+    "recover_general.py": "cae18d8d9b28ef153f90104ea47ef7e79503b9a440cab02f6da44a3618f8a19d",
+    "reproduce.py": "10414374dfd2a06c63b9de65fe1bb5cd862043ac93d04cae0b3c0f0ca2850127"
+  }
+}

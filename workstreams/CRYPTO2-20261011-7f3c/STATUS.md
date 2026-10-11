@@ -130,3 +130,22 @@ NEXT-20261012.md. No new result or improved RSA exponent is claimed.
 The old SHA256-v3.json remains the historical freeze of remote 80da937;
 this status update and all future RSA work form a new version. The frozen
 Ascon and circulant proof/certificate bytes are preserved.
+
+## RSA v1 checkpoint — 2026-10-11 UTC
+
+Claim was published before computation as 3b651069e690bc237faa6c608de895f532160736.
+The new project now contains proof candidates for ideal-power inheritance
+by factors, an exact content defect, and conditional recovery from one
+sufficiently short t=0 RSA relation of any degree. A sharper quadratic
+case is also proved. The arbitrary-degree result keeps its explicit
+3^m norm margin and does not establish relation existence or a better
+RSA attack exponent. Positive y shifts remain the next genuine gap.
+
+Five certificate files reproduce byte for byte; the separate integer
+checker passes 12 negative controls, exact basis/prime/root checks and
+synthetic recovery controls. The latter are built from disclosed test keys,
+not unknown-key attacks. These RSA proofs await independent review and
+their originality remains unconfirmed. Full-text optimality literature
+gaps are recorded. See projects/rsa-short-relations/STATUS.md and its
+SHA256-v1.json; RSA-PUBLICATION-v1.json records actual publication details.
+This checkpoint does not meet the user's major-result objective yet.
