@@ -88,3 +88,33 @@ snapshot `9584bb325621e1207dbabffe0c452d7adc3751ff`. Only this workstream differ
 from the baseline. PUBLICATION.json records transport and signature limits.
 This receipt and the updated manifest form a follow-up metadata commit;
 the proof, certificates and review files remain unchanged.
+
+## Active phase — 2026-10-12 Singapore / 2026-10-11 UTC
+
+User requests continued autonomous work closer to high-impact modern
+cryptography. Three source-backed candidates are in CANDIDATES-20261012.md.
+New exclusive claim: projects/ascon-exact-propagation/STATUS.md, exact
+two-round standard-width propagation and independence-error certificates.
+The prior proof/certificates/review remain frozen at remote 7b4eda2.
+SHA256.json describes that historical snapshot; the next delivery will
+provide a separately versioned manifest rather than alter old proof files.
+
+## Ascon result checkpoint — 2026-10-11 UTC
+
+The new phase now has a complete bounded result. For uniform full-width
+Ascon inputs, all two-round trails with at most two active input columns
+have exact local-DDT products. Among all three-column supports, exactly
+320 can violate universal equality; 41344 remain universally exact.
+The former are the five translated lane rotation triples. An exact local
+correction formula proves a sharp 0<=P<=2M bound for every three-column
+trail. This is a two-round theorem, not an attack on the standardized AEAD.
+
+See projects/ascon-exact-propagation/RESULT.md, PROOF.md and EXTENSION.md.
+The evidence includes 10085 exact rank blocks, five reproducible certificate
+files, 11 negative controls and independent reconstruction/review. The
+latest quasidifferential literature makes clear that the generic correction
+mechanism is prior art; possible novelty is the concrete classification.
+Historical originality and practical attack relevance remain unconfirmed.
+The independent review receipt binds the exact files. Publication is only
+to this owner's branch; old proofs remain unchanged. SHA256-v3.json is the
+new content freeze; ASCON-PUBLICATION.json will record remote verification.

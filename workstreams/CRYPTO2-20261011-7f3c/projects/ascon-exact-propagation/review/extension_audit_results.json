@@ -1,0 +1,207 @@
+{
+  "all_9765_rank_claims_independently_recomputed": true,
+  "all_20_formula_claims_independently_recomputed_from_NIST_polynomials": true,
+  "exactly_two_fixtures_per_lane_and_scale": true,
+  "formula_records": [
+    {
+      "lane": 0,
+      "k": 1,
+      "betaF": "-1",
+      "betaG": "1",
+      "eta": 1,
+      "ratio": "0",
+      "nominal": "1/590295810358705651712",
+      "exact": "0"
+    },
+    {
+      "lane": 0,
+      "k": 1,
+      "betaF": "-1",
+      "betaG": "-1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/36028797018963968",
+      "exact": "1/18014398509481984"
+    },
+    {
+      "lane": 0,
+      "k": 2,
+      "betaF": "-1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/36028797018963968",
+      "exact": "1/36028797018963968"
+    },
+    {
+      "lane": 0,
+      "k": 2,
+      "betaF": "-1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/576460752303423488",
+      "exact": "1/576460752303423488"
+    },
+    {
+      "lane": 1,
+      "k": 1,
+      "betaF": "-1",
+      "betaG": "1",
+      "eta": 1,
+      "ratio": "0",
+      "nominal": "1/2199023255552",
+      "exact": "0"
+    },
+    {
+      "lane": 1,
+      "k": 1,
+      "betaF": "-1",
+      "betaG": "-1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/1152921504606846976",
+      "exact": "1/576460752303423488"
+    },
+    {
+      "lane": 1,
+      "k": 2,
+      "betaF": "-1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/9007199254740992",
+      "exact": "1/9007199254740992"
+    },
+    {
+      "lane": 1,
+      "k": 2,
+      "betaF": "-1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/36028797018963968",
+      "exact": "1/36028797018963968"
+    },
+    {
+      "lane": 2,
+      "k": 1,
+      "betaF": "1",
+      "betaG": "1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/590295810358705651712",
+      "exact": "1/295147905179352825856"
+    },
+    {
+      "lane": 2,
+      "k": 1,
+      "betaF": "-1",
+      "betaG": "-1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/4503599627370496",
+      "exact": "1/2251799813685248"
+    },
+    {
+      "lane": 2,
+      "k": 2,
+      "betaF": "-1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/4503599627370496",
+      "exact": "1/4503599627370496"
+    },
+    {
+      "lane": 2,
+      "k": 2,
+      "betaF": "1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/2305843009213693952",
+      "exact": "1/2305843009213693952"
+    },
+    {
+      "lane": 3,
+      "k": 1,
+      "betaF": "1",
+      "betaG": "1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/36028797018963968",
+      "exact": "1/18014398509481984"
+    },
+    {
+      "lane": 3,
+      "k": 1,
+      "betaF": "1",
+      "betaG": "-1",
+      "eta": 1,
+      "ratio": "0",
+      "nominal": "1/8796093022208",
+      "exact": "0"
+    },
+    {
+      "lane": 3,
+      "k": 2,
+      "betaF": "-1/2",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/4503599627370496",
+      "exact": "1/4503599627370496"
+    },
+    {
+      "lane": 3,
+      "k": 2,
+      "betaF": "-1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/562949953421312",
+      "exact": "1/562949953421312"
+    },
+    {
+      "lane": 4,
+      "k": 1,
+      "betaF": "-1",
+      "betaG": "-1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/70368744177664",
+      "exact": "1/35184372088832"
+    },
+    {
+      "lane": 4,
+      "k": 1,
+      "betaF": "1",
+      "betaG": "1",
+      "eta": 1,
+      "ratio": "2",
+      "nominal": "1/36028797018963968",
+      "exact": "1/18014398509481984"
+    },
+    {
+      "lane": 4,
+      "k": 2,
+      "betaF": "1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/18446744073709551616",
+      "exact": "1/18446744073709551616"
+    },
+    {
+      "lane": 4,
+      "k": 2,
+      "betaF": "1",
+      "betaG": "0",
+      "eta": 1,
+      "ratio": "1",
+      "nominal": "1/562949953421312",
+      "exact": "1/562949953421312"
+    }
+  ]
+}

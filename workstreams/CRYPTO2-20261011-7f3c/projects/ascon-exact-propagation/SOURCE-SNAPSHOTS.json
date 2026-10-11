@@ -1,0 +1,25 @@
+{
+  "access_date_utc": "2026-10-11",
+  "format": "UTF-8 tool-extracted text; not raw PDF hashes",
+  "distribution": "Full extracted third-party papers are not redistributed in this repository. Re-fetch primary sources and note extraction-dependent hashes.",
+  "sources": [
+    {
+      "title_key": "ascon-round-based-2026-358-extracted.md",
+      "url": "https://eprint.iacr.org/2026/358.pdf",
+      "bytes": 107105,
+      "sha256_tool_extracted_text": "f52d44cd7249dcf35680daff9cd1d1d1e5ea57a8b463af22c488d0fbf424ae2e"
+    },
+    {
+      "title_key": "masking-ascon-2025-179-extracted.md",
+      "url": "https://eprint.iacr.org/2025/179.pdf",
+      "bytes": 119787,
+      "sha256_tool_extracted_text": "27fca93fa8541c4c0ec3c9928c1f4e86c2adb4b1d6fcb63e043010dc6500b631"
+    },
+    {
+      "title_key": "quasidifferential-2026-1162-extracted.md",
+      "url": "https://hukaisdu.github.io/files/papers/2026-1162-quasidifferential-decoupling.pdf",
+      "bytes": 167504,
+      "sha256_tool_extracted_text": "1d96c6969ab161e28d85402c7eaad31a80444de0c3a7c90f734e329fde9f6256"
+    }
+  ]
+}
