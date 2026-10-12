@@ -1,0 +1,74 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "For every r>=2 the connected family has p_v=2r and p_u>=r(r+1), giving vp/vp^->=(r+1)/2. For k=2^h, h>=2, the connected bipartite subcubic family has p_v=2k and p_u>=(k-1)(k-2)/2+k, giving vp/vp^->=(k^2-k+2)/(4k). This refutes the boundedness question [Problem 4, DOI 10.7151/dmgt.2491](https://doi.org/10.7151/dmgt.2491), [author version](https://oro.open.ac.uk/87516/8/87516_EA.pdf), preprint arXiv:2209.00359v2 Problem 2.4.",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/vertex_position_ratio/PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/vertex_position_ratio/PROOF.md",
+      "source_sha256": "4acc0615adf48f35b98f2973527b61b8d4de550a2c6e3feab6b7fc91635d5bba",
+      "source_bytes": 10132,
+      "output_sha256": "3f0828ad4a352b3b385ba9908726b48860fcf00833ebd7e4d6155652cc91ad18",
+      "output_bytes": 8250,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "98e85eb8825881cf5a93d3710a961977fc6f910fecbd7dab08908bf74bdab80f",
+          "original_text_bytes": 138,
+          "replacement": "Complete elementary family proof of an unbounded ratio."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "8d7dcfc4c522e24ea9cd0413e73b65a65de467a747379bde082dc349ec230ab4",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "3f0b658f9ef75020b6bbe3c904c920a6a5ec5160d175392f3b1ab06f3bbb020e",
+          "removed_text_bytes": 1798
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "SUBCUBIC_PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/vertex_position_ratio/SUBCUBIC_PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/vertex_position_ratio/SUBCUBIC_PROOF.md",
+      "source_sha256": "662b373c535973b83c9676e850fc134410d1c14e767f970d7dded8cce671918e",
+      "source_bytes": 7397,
+      "output_sha256": "d7d4be623f96b5526de1601dad293d5f200ea76e77bc31569f4fb134c0bf433d",
+      "output_bytes": 5935,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "9f138959787328dc202b8d4fc047eb03be20ec0f53c9036a9340f9fb0bcc268e",
+          "original_text_bytes": 361,
+          "replacement": "The original Problem4/preprint2.4, authors and definitions are in PROOF.md. Subcubic means maximum degree at most3, not exactly3regular."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "c44da84b76e1dd059a5342bcd0deeb173f43422cac413075869405ad1286e90a",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "cc54a0cb94106ea70f88f82a56a33b6775b6f334bcf4964419397fe71baf7e53",
+          "removed_text_bytes": 1236
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "59c31d1396ff1c6f3748dea7f8050206a79a14fe9072b45acbb940abec00b528"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "mio-qwq/math/verification-scope/1",
+  "date": "2026-10-12",
+  "frozen_source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+  "independent_review_kind": "AI mathematical/source review; neither a human review nor Lean certification",
+  "full_lean_formalization": false,
+  "lean_compilation_performed": false,
+  "axiom_audit_performed": false,
+  "priority_certified": false,
+  "peer_review_claimed": false,
+  "historical_worker_large_regressions_independently_replayed": false,
+  "source_manifest": "provenance.json",
+  "written_mathematics": {
+    "original_scalar_conjecture": "PASS, independent 2026-10-10 review of unchanged frozen source",
+    "same_parity_strict_transfer_and_unique_maximizer": "PASS, independent 2026-10-10 review; strictness details expanded from that review",
+    "even_row_parity_crossover": "PASS, independent algebraic review 2026-10-12"
+  },
+  "independent_executed_controls": {
+    "environment": "Windows Python 3.12.10",
+    "date": "2026-10-12",
+    "scope": "h=2..9, k=1..20, exact integer cross-multiplication of adjacent odd/even maximum ratios",
+    "adjacent_comparisons": 152,
+    "result": "PASS",
+    "execution_mode": "original frozen Git objects, in-memory; no large enumeration"
+  },
+  "included_regression_scripts_execution_this_integration": "Not rerun; source bytes preserved."
+}

@@ -1,0 +1,223 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-C-audit-1010",
+  "scope": "For a fixed disjoint-transpositions TF pair, the unconstrained labelled count is exactly 2^(choose(N-4,2)+2(N-4)+2), and the source-constrained fixed-pattern count is asymptotic to 2^(choose(N,2)-2N+3). For N>=16 the sharpened unlabelled lower bound is (19/20)2^(choose(N,2)-2N+3)/N!. In the full connected nonbipartite twin-free target class, L_n~3 choose(n,4)2^(choose(n-4,2)+2(n-4)+1), U_n~2^(choose(n-4,2)+2(n-4)-1)/(n-4)!, and U_n/g_n~2(n)_4/4^n. Almost all target graphs have Aut(G)=C2 and Aut(CDC(G))=D8 of order eight. Source: [Hujdurovic–Mitrovic, Problem 5.3, DOI 10.1002/jgt.23018](https://doi.org/10.1002/jgt.23018).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "MINIMAL_TF_SYMMETRY_NORMAL_FORM.md",
+      "source_commit": "9ad1f91d953060d01a504481eb857daf57758ab0",
+      "source_path": "workstreams/C-audit-1010/MINIMAL_TF_SYMMETRY_NORMAL_FORM.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/9ad1f91d953060d01a504481eb857daf57758ab0/workstreams/C-audit-1010/MINIMAL_TF_SYMMETRY_NORMAL_FORM.md",
+      "source_sha256": "2579c69b738a8b82b87fde354dd1d3e0331eea04944c7e076f95be9587488e8f",
+      "source_bytes": 5484,
+      "output_sha256": "4094d9cf1d89eb22ec5d4b8368a9244df431941c693f6a576e96264772e74de2",
+      "output_bytes": 3375,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "bbc39094ea5f775487392d5e4e596161ec6ad3bcd0bbf202364ede3cfb588c60",
+          "original_text_bytes": 145,
+          "replacement": "Existing-construction structural corollary."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "40ffdef17c85d813a081d3b3be85de9984f2b31a9a97ffbde6a49ae128774651",
+          "original_text_bytes": 124,
+          "replacement": "this fixed-pattern argument does not bound large-support TF automorphisms. The complete global asymptotic is proved separately in GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "c5ecc5136edbae74fd049db55c814c2bcfb07f1960394a4d401ce29d48eb5787",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "c3378c102a7bd91e36de209ef44835e667e27a924e576db47faeccab0909a2bc",
+          "removed_text_bytes": 2056
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "UNSTABLE_DENSITY_LOG_BOUND.md",
+      "source_commit": "9ad1f91d953060d01a504481eb857daf57758ab0",
+      "source_path": "workstreams/C-audit-1010/UNSTABLE_DENSITY_LOG_BOUND.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/9ad1f91d953060d01a504481eb857daf57758ab0/workstreams/C-audit-1010/UNSTABLE_DENSITY_LOG_BOUND.md",
+      "source_sha256": "fa01cdc2ff96883a6781b6bcae3372fe65f5778ea645d93dd0537f366b5bad45",
+      "source_bytes": 8814,
+      "output_sha256": "38443dded587701c1d53594fc017f86313626aa54daa00bc35972520c4ea584b",
+      "output_bytes": 5833,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "147d2d2a6529847e894a4835251ce657cbe234050bd0a26116af0b37c352f043",
+          "original_text_bytes": 249,
+          "replacement": "Exact coarse-counting consequence of a prior construction."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "a06a7082a8ac378187c887ec74e41c4c9cf89e26a02d1e1c2a0067a4e049f94b",
+          "original_text_bytes": 23,
+          "replacement": "not a new graph construction here"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e76fb2524a0fac06cb8b232e3aa59ee271c03efc22dbab52f2ffe0d8853ea544",
+          "original_text_bytes": 36,
+          "replacement": "## Source and original question"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "4aa0536e99c17ad488528650aa7c90b2285342c4c1aa6004568c4dfa0a04110b",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "ec1f2697c5447a8f9f687c84637d77d4f350e63174449da32f64ada6dd0221ce",
+          "removed_text_bytes": 2794
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "UNSTABLE_DENSITY_SHARPENED_LOWER.md",
+      "source_commit": "9ad1f91d953060d01a504481eb857daf57758ab0",
+      "source_path": "workstreams/C-audit-1010/UNSTABLE_DENSITY_SHARPENED_LOWER.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/9ad1f91d953060d01a504481eb857daf57758ab0/workstreams/C-audit-1010/UNSTABLE_DENSITY_SHARPENED_LOWER.md",
+      "source_sha256": "f9afa5c013202fd6b1b488265d01d45946a22628f20b88063632bcf476b860ed",
+      "source_bytes": 8225,
+      "output_sha256": "0943de1b56b5dabc00cae5ad0486e380599876073498ee3ba8b30c4ec210294a",
+      "output_bytes": 5223,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "remove",
+          "start_marker_sha256": "f03ce3f2f58808faeaa18b1f697432ca21382425a9508cf4f90f37e2f299a2ea",
+          "end_marker_sha256": "1011667b2d3b48dc3786fc4e205ab29c933bf4ee00f82ed4b5886747bef773a1",
+          "removed_text_sha256": "15ba64fd24b08ee982a577704c5f8700e57e908bbf502933c8c7d3b55113fc48",
+          "removed_text_bytes": 393
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "ad262650a4d3c681e17a908ea367bb3ceaa3bb8680287f38407925ff47c11a90",
+          "original_text_bytes": 49,
+          "replacement": "a matching **upper bound** is not supplied by this lower-bound argument."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "cc7fa749f3dbb2aed2832c7b410bd09fd1b2782f8d342b320b88e1fe05284e10",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "160584815d59b9870951683d4f7f585b8790412d0140c7ae8eb4bfc4da76240a",
+          "removed_text_bytes": 2631
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md",
+      "source_commit": "9ad1f91d953060d01a504481eb857daf57758ab0",
+      "source_path": "workstreams/C-audit-1010/GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/9ad1f91d953060d01a504481eb857daf57758ab0/workstreams/C-audit-1010/GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md",
+      "source_sha256": "0de1b11b640aae8fb87292d4926748f589f3787de87e2792ed711c84be1740da",
+      "source_bytes": 17546,
+      "output_sha256": "1297e729c3ecf78bf2d7935a569a65641b161863d91587d6bd08389f34217ff6",
+      "output_bytes": 13499,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "3652ab0b7ed85d8428a99c3683dcb77afb13345d1694f4614f9142ed107ea677",
+          "original_text_bytes": 81,
+          "replacement": "# Asymptotic enumeration of nontrivially unstable graphs"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "f03ce3f2f58808faeaa18b1f697432ca21382425a9508cf4f90f37e2f299a2ea",
+          "end_marker_sha256": "f5743fb9ff0941608a6ca4ea9a4849c07109a73b69d5b2d5213fb8eb9cc4e84e",
+          "removed_text_sha256": "ef2424c08e4c8467f60e36d022d31e6dec5ab2b8e679edb74172b51ac9b373be",
+          "removed_text_bytes": 457
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "d5801e5750db73f4dd4ca87c64d448c519207597effebdc0aa4cdeff029ffd29",
+          "original_text_bytes": 60,
+          "replacement": "## Asymptotic answer to the original question"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "780b35c7fc9d25516a11adf34475d23af43ffcb36b8a10fefb4bd1185b83b4a7",
+          "original_text_bytes": 143,
+          "replacement": "The theorem gives an asymptotic equivalent for the exact class in Problem 5.3."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "baa9c9e0e61bab72234e475725648fd77e5591ffaf7af5c4c319ceaafc0f9bed",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "edae4f045d86e998415c11c23f07169c39641b35e373179c5820ca772550cbe0",
+          "removed_text_bytes": 3484
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "GENERIC_COVER_GROUP_COROLLARY.md",
+      "source_commit": "9ad1f91d953060d01a504481eb857daf57758ab0",
+      "source_path": "workstreams/C-audit-1010/GENERIC_COVER_GROUP_COROLLARY.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/9ad1f91d953060d01a504481eb857daf57758ab0/workstreams/C-audit-1010/GENERIC_COVER_GROUP_COROLLARY.md",
+      "source_sha256": "04d019a58f32649ed8f1edd2bdc2fe82fc68fc8fc7f4564196ce70ba1bed59c1",
+      "source_bytes": 2916,
+      "output_sha256": "a57bc97c1144af71090edae8aa4a14fa078b14d759914ddd1ea48fbc66156e59",
+      "output_bytes": 2702,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "87da0f28cbe5c94b719f40825f178591284b43e6ee2dd158408c888e3e664559",
+          "original_text_bytes": 292,
+          "replacement": "Corollary of [GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md](GLOBAL_NONTRIVIAL_INSTABILITY_ASYMPTOTIC.md)."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "b3e5b1f9807bc81c3aad3f815e5b7d8f2e19ee67d2a4d966d908acf16402449a",
+          "original_text_bytes": 24,
+          "replacement": "**Corollary.**"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "fb3c11027019b4fa00df469438cf9134977d0f541fbab88e34b2c484557f6845",
+          "original_text_bytes": 143,
+          "replacement": "It is a consequence of that manuscript, not an independent counting theorem. Historical priority and formalization remain open."
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "80a3205f9ed8c4485abd1215fe23d728012b015167fe014e220c9bdd8a68b392"
+}

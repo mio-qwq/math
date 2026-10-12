@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "For all integers 1<=d<n, D(n,d) has arcs x->x+j (mod n), 1<=j<=d. Write n=qd+r with 2<=r<=d+1. Then gp=d+1 for r=d+1, and gp=max(r,floor(d/r)+1) otherwise. This is the original unnumbered optimality assertion after Theorem 3.3 in [arXiv:2604.15909v1](https://arxiv.org/html/2604.15909v1#S3.SS1).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/circulant/PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/circulant/PROOF.md",
+      "source_sha256": "8003f03393834d7ee763b6e182a05de06fcc85ff208f50caaae1c2d9a528e30b",
+      "source_bytes": 7602,
+      "output_sha256": "db7803ed12a9ec5540faebfcd250021d55f059373c8f31e54cb3a6880d875e59",
+      "output_bytes": 6906,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "479f3355259284e63a019d1f6e6512c04adccf16eef0afc8d80dc4490ab9e66a",
+          "original_text_bytes": 232,
+          "replacement": "Complete written proof of the consecutive-generator circulant optimality statement."
+        },
+        {
+          "operation": "remove",
+          "removed_text_sha256": "d6c22b55bae537ad9e5be0b64ca904b614d473df42850f18be249d6d42ca85df",
+          "removed_text_bytes": 546,
+          "start_marker_sha256": "bdf66e5981ec0d95b5f88c57e88da3c039817a39a5221a8a62bf5a30519c492e",
+          "end_marker_sha256": null
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "152ae5e0f6b474f9450b5e25343fcbfa51e346b27fa1363863d1c55e7ece2d94"
+}

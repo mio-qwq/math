@@ -1,0 +1,43 @@
+{
+  "schema": "mio-qwq/math/verification-scope/1",
+  "date": "2026-10-12",
+  "frozen_source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+  "independent_review_kind": "AI mathematical/source review; neither a human review nor Lean certification",
+  "full_lean_formalization": false,
+  "lean_compilation_performed": false,
+  "axiom_audit_performed": false,
+  "priority_certified": false,
+  "peer_review_claimed": false,
+  "historical_worker_large_regressions_independently_replayed": false,
+  "source_manifest": "provenance.json",
+  "written_mathematics": {
+    "complete_conjecture_10": "PASS, independent full-chain 2026-10-10 review; only historical test-count wording later changed",
+    "de_werra_short_derivation": "PASS, independent mathematical reconstruction 2026-10-12",
+    "self_contained_global_half_size_balancing": "PASS, independent mathematical reconstruction 2026-10-12"
+  },
+  "independent_executed_controls": {
+    "environment": "Windows Python 3.12.10",
+    "date": "2026-10-12",
+    "execution_mode": "frozen Git objects loaded in memory; no large enumeration",
+    "static_import_modules": 38,
+    "missing_imports": 0,
+    "fixed_K6_JSON_certificate": "PASS",
+    "freshly_issued_K6_certificate": "PASS",
+    "damaged_certificates_rejected": 6,
+    "semantically_valid_order_rejected_by_strict_construction_checker": 1,
+    "full_graph_positive_controls": 5,
+    "full_graph_obstruction_controls": 2,
+    "global_balance_boundary_controls": 5
+  },
+  "fresh_integrated_path_replay": {
+    "status": "PASS",
+    "environment": "Windows Python 3.12.10",
+    "command": "python -B code/verify_euler_certificate_json.py code/demo_k6_certificate.json",
+    "returncode": 0,
+    "stdout": "PASS PASS exact certified construction and endpoint sequences",
+    "stderr": "",
+    "input": "code/demo_k6_certificate.json",
+    "input_sha256": "2b36b9e924df96c62ac56f4788d83d0d4120e3444d5534a5d3271522b979ded7",
+    "generator_imported_by_verifier": false
+  }
+}

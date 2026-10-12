@@ -1,0 +1,71 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "Every finite simple claw-free graph of maximum degree at most three has the stated packing coloring, including disconnected graphs, leaves and isolated vertices. This is [arXiv:2608.02566v1 §6 Conjecture 1](https://arxiv.org/html/2608.02566v1#S6).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "FULL_PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/clawfree_12222/FULL_PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/clawfree_12222/FULL_PROOF.md",
+      "source_sha256": "3a8e3787fa4b6aeb9f428ee573b92166df09fa652947e8b5f921337ab1c17117",
+      "source_bytes": 10216,
+      "output_sha256": "4f908892a644e5849de5ef762400eee68b9c7852b0e1bf04412d98c881234fc1",
+      "output_bytes": 8835,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "f2e8013a6325ec5e06839b8dba31de804ae39e912e0f73f448a4511fa85ea0e9",
+          "original_text_bytes": 22,
+          "replacement": "**Theorem.**"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e426c056be56c4a52645af0004787145ff89b9ebb960673d095fef5c13add9a9",
+          "original_text_bytes": 37,
+          "replacement": ""
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "ae56391774b6b9af197d7d9b85761f4ae6dc62efe509d91f8ae2aec741955873",
+          "original_text_bytes": 226,
+          "replacement": "In particular, the triangle-expansion subcases follow from prior theory and are not new existence results."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "bca6ce715b42db65e2990e5d56a8a3846fb5151238a5bbace068e78620b5e206",
+          "original_text_bytes": 108,
+          "replacement": "The D rows give the displayed cap certificate."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "7159f1df92aa7df19de52215cb55ba545f09594213a90c58461d496d67a84c63",
+          "original_text_bytes": 91,
+          "replacement": "QED."
+        },
+        {
+          "operation": "remove",
+          "removed_text_sha256": "b9fb3699fe42dcded2e70c174f5f15884aa2b1c1b8531653fdb4b38e60479f28",
+          "removed_text_bytes": 1064,
+          "start_marker_sha256": "022e32fd1a62b367051c9e0ba7793d7c550a5d457f4669ebaf7a1f5e8b866136",
+          "end_marker_sha256": null
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "a4f08ce39fae998d1a601af3191dffd9a0475062ff4e1ec7998a45d205df2393"
+}

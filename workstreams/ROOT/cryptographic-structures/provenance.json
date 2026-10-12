@@ -1,0 +1,232 @@
+{
+  "schema": "cryptographic-structures-integration-v1",
+  "created_utc": "2026-10-12T00:39:08.246893+00:00",
+  "repository": "mio-qwq/math",
+  "integration_kind": "AI-assisted technical integration of existing accepted written mathematics; no human authorship assertion",
+  "frozen_sources": [
+    {
+      "commit": "551fcd76ebabe43971123d29d11a94319a3b0096",
+      "tree": "410edf96d962692e20e9360371791249399643d8"
+    },
+    {
+      "commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "tree": "8c51a8bfd545030e58acb0600da42a92d82ecdf3"
+    }
+  ],
+  "scope": "Circulant all-order existence and MDS inheritance; standard-width two-round Ascon sparse propagation. No enlarged mathematical claims.",
+  "source_commit_signatures": {
+    "checked_utc": "2026-10-12",
+    "verification": {
+      "verified": false,
+      "reason": "unsigned"
+    },
+    "note": "These frozen source commits are not represented as GitHub-verified signed commits."
+  },
+  "files": [
+    {
+      "path": "circulant/PROOF.md",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/PROOF-v2.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/PROOF-v2.md",
+      "source_sha256": "71d5a5dc6e757402db8b54a15507ffd6e4e8e87eec0f4f4fe438c21f6cf55d91",
+      "output_sha256": "06c781a41d38721edf87d47a150d934b8143d8f5bec0160f8178a332f6e23a30",
+      "transformation": [
+        {
+          "operation": "replace_front_matter",
+          "removed": "Version and operational owner/review preface",
+          "replacement": "Technical scope and frozen correction-history link"
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "The new candidate ingredient is the divisor-lifting\nstep below.",
+          "new": "The completion uses the divisor-lifting\nstep below."
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "## 4. Divisor lifting (candidate new application)",
+          "new": "## 4. Divisor lifting"
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "using the source's\nown proven odd-order statement plus the new-to-this-investigation lifting\napplication.",
+          "new": "using the source's\nown proven odd-order statement plus the lifting\nargument."
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "The proposed delta is closing the remaining invertible/MDS circulant\norders using the elementary invariant periodic subspace. That invariant\nsubspace fact is standard linear algebra; historical originality of its\napplication here is not certified. Independent review must check the\nsource question, exact nontriviality, odd base, non-MDS fallback, column\norientation, and characteristic-two repetition before acceptance.",
+          "new": "The proof closes the remaining invertible/MDS circulant orders in the\ninspected source using the elementary invariant periodic subspace. That\ninvariant-subspace fact is standard linear algebra; historical originality\nof this application is not certified. The exact original source and\nindependent AI review are linked in ../provenance.json and ../VERIFICATION.json.\nThe accepted scope remains the written theorem; no Lean proof or cipher\nattack follows from the finite supporting checks."
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "## Attribution and unresolved review",
+          "new": "## Attribution and historical limits"
+        }
+      ]
+    },
+    {
+      "path": "circulant/check.py",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/check.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/check.py",
+      "source_sha256": "69102005dc52241817d530e9cdaf0cc54104d08b49a6209f984683d31a1d86a0",
+      "output_sha256": "16cfbd4f4795d7e0c465cbb558d17b558552984c3dd6f881b2af972ce74266bf",
+      "transformation": [
+        {
+          "operation": "replace_exact_text",
+          "old": "\"\"\"Standalone certificate checker, no import of construction or quotient solver.\n\nCarryless product then polynomial long division (different field algorithm);\nnontriviality and relatedness checked directly, and matrix inverse verified\nby exact column elimination. This is implementation separation by the same\nauthor, not independent-agent review. Python standard library only.\n\"\"\"",
+          "new": "\"\"\"Exact certificate checker copied from the frozen source.\nDirect field products, output nontriviality and quotient/lift checks.\nOnly this explanatory docstring changed; the mathematical code is unchanged.\nThis copied implementation is not a new independent checker.\"\"\""
+        }
+      ]
+    },
+    {
+      "path": "circulant/certificates/mds10.json",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/certificates/mds10.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/certificates/mds10.json",
+      "source_sha256": "a1a8d748555c749349c09b1e9eb549dba477e50f73ed82bf4301b2459102f567",
+      "output_sha256": "a1a8d748555c749349c09b1e9eb549dba477e50f73ed82bf4301b2459102f567",
+      "transformation": [
+        "Byte-for-byte copy; no mathematical or algorithmic change"
+      ]
+    },
+    {
+      "path": "ascon/PROOF.md",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/PROOF.md",
+      "source_sha256": "ce579b13525fa7545d8f9daafa34e84703d5fe219254a1b6c862b5b3761fbeae",
+      "output_sha256": "b524b3592cf20a8029119cc7aa79903b166f6091a3cb45bf55668f47fc428b4a",
+      "transformation": [
+        {
+          "operation": "replace_front_matter",
+          "removed": "Historical stage and owner-review boilerplate",
+          "replacement": "Current written scope, provenance and verification links"
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "The source and certificate hashes are frozen with the release.",
+          "new": "The source and certificate hashes are recorded in ../provenance.json.\nNo corresponding cryptographic GitHub Release is claimed."
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "The discoverer uses\nit only on bounded three-column cases.",
+          "new": "The supplied implementation applies\nit only to bounded three-column cases."
+        },
+        {
+          "operation": "replace_exact_text",
+          "old": "See review/FINAL-REVIEW.md for the independently\nreviewed scope and file hashes; see EXTENSION.md for the three-column result.",
+          "new": "See ../VERIFICATION.json for the current replay scope and a frozen link to\nthe independent AI review; see EXTENSION.md for the three-column result."
+        }
+      ]
+    },
+    {
+      "path": "ascon/EXTENSION.md",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/EXTENSION.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/EXTENSION.md",
+      "source_sha256": "9c92f88ceef42efee7eae246b7aea7c05358a1e415501ce66abb4885b21deacd",
+      "output_sha256": "192baaf0412d8e02f761503ed84653d28b93b689652fc442fe67109ad069378b",
+      "transformation": [
+        {
+          "operation": "replace_exact_text",
+          "old": "Version 1, 2026-10-11 UTC. Definitions and conventions are those of PROOF.md.\nThis is a restricted full-width theorem candidate with a finite exact rank\ncertificate, not an attack or a historical-priority claim.",
+          "new": "Definitions and conventions are those of PROOF.md. This is a complete\nwritten theorem for the restricted full-width model, with a finite exact\nrank certificate. The frozen-source review and current replay are recorded\nin ../VERIFICATION.json. No Lean proof, attack, or historical-priority\nclaim is made."
+        }
+      ]
+    },
+    {
+      "path": "ascon/check.py",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/check.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/check.py",
+      "source_sha256": "322f2d56022946d4393cce0bd77e20215647b5ade6f5cbfa40a617db35edce4a",
+      "output_sha256": "f1fc2b46e9848c90d6011ea761c8861f6a5e02076ef9836f0d29f3ca1b2eb19b",
+      "transformation": [
+        {
+          "operation": "replace_exact_text",
+          "old": "\"\"\"Independent implementation, same author: NIST table and column images.\nDoes not import discover.py, its derivative matrices or elimination routine.\n\"\"\"",
+          "new": "\"\"\"Exact checker copied from the frozen source: NIST lookup table and\nfree-column physical bit images. The computation is unchanged.\nIt imports no discovery program; this copy is not a new independent implementation.\"\"\""
+        }
+      ]
+    },
+    {
+      "path": "ascon/check_triples.py",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/check_triples.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/check_triples.py",
+      "source_sha256": "a64af9933b9a311803c17f48c99075ae4bf3d81f2dbb3f9561bd5db5ccada58a",
+      "output_sha256": "f1a550d3a3c59b03f285a40900ade062293580ca1e65cc21efaeb7bcc038a651",
+      "transformation": [
+        {
+          "operation": "replace_exact_text",
+          "old": "\"\"\"Separate checker: column-image ranks and character averages of NIST table.\nUses the verification module check.py, never the discovery programs.\n\"\"\"",
+          "new": "\"\"\"Exact three-column checker copied from the frozen source.\nUses check.py for table/rotation/column-rank definitions.\nOnly this docstring changed; no discovery program is needed.\"\"\""
+        }
+      ]
+    },
+    {
+      "path": "ascon/rank-certificate.json",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/rank-certificate.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/rank-certificate.json",
+      "source_sha256": "1fa22e22f070f0daca753968cefd5eaec6672201af895f2dde5551004409e01e",
+      "output_sha256": "1fa22e22f070f0daca753968cefd5eaec6672201af895f2dde5551004409e01e",
+      "transformation": [
+        "Byte-for-byte copy; no mathematical or algorithmic change"
+      ]
+    },
+    {
+      "path": "ascon/mismatch-certificate.json",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/mismatch-certificate.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/mismatch-certificate.json",
+      "source_sha256": "2e49a999a4f533f8219ea2ec0daab1847dce9f5b09bd4a69f75ed180288f1e09",
+      "output_sha256": "2e49a999a4f533f8219ea2ec0daab1847dce9f5b09bd4a69f75ed180288f1e09",
+      "transformation": [
+        "Byte-for-byte copy; no mathematical or algorithmic change"
+      ]
+    },
+    {
+      "path": "ascon/impossible-certificate.json",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/impossible-certificate.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/impossible-certificate.json",
+      "source_sha256": "097399f7ca473eff787fab6e26383a10c447b16ab313ed7a73b1e075acc2e48e",
+      "output_sha256": "097399f7ca473eff787fab6e26383a10c447b16ab313ed7a73b1e075acc2e48e",
+      "transformation": [
+        "Byte-for-byte copy; no mathematical or algorithmic change"
+      ]
+    },
+    {
+      "path": "ascon/triple-rank-certificate.json",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/triple-rank-certificate.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/triple-rank-certificate.json",
+      "source_sha256": "26d354c01d9a2d231d5ffa3c2d31d957cc7a7790dcf5518863ca5c31b49765b2",
+      "output_sha256": "26d354c01d9a2d231d5ffa3c2d31d957cc7a7790dcf5518863ca5c31b49765b2",
+      "transformation": [
+        "Byte-for-byte copy; no mathematical or algorithmic change"
+      ]
+    },
+    {
+      "path": "ascon/triple-formula-certificate.json",
+      "source_commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/triple-formula-certificate.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/triple-formula-certificate.json",
+      "source_sha256": "a1d61f0776b49ec0ee4ce03b2ae05c2afdd8b9d9e4837cc5c51f1a5c33c3951c",
+      "output_sha256": "a1d61f0776b49ec0ee4ce03b2ae05c2afdd8b9d9e4837cc5c51f1a5c33c3951c",
+      "transformation": [
+        "Byte-for-byte copy; no mathematical or algorithmic change"
+      ]
+    }
+  ],
+  "new_documents": [
+    {
+      "path": "README.md",
+      "sha256": "c40c6e19063d86d2a1faca8a17234c1d64b53414f6e2e607393093b975ba5348",
+      "purpose": "Technical scope, minimal reproduction and accurate status links"
+    }
+  ],
+  "preservation": "Frozen proof/certificate history is unchanged. No instruction/status files, discovery programs or full legacy workstreams are copied.",
+  "self_reference": "This JSON does not list its own hash or VERIFICATION.json hash, avoiding a self-reference; verification binds its bytes."
+}

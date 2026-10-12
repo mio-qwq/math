@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-C",
+  "scope": "The first clause holds for all nonisomorphic finite simple undirected graph pairs with isomorphic canonical double covers: one has two vertex-disjoint C_k and the other C_(2k), for odd k>=3, including disconnected/bipartite cases. The second clause holds for connected asymmetric unstable graphs in the source scope. More generally, any finite asymmetric graph with an explicit nontrivial TF automorphism has vertex-disjoint C_k and C_(2k). The conditional bundle lemma assumes an odd-order inverse TF pair and a chosen odd moving-orbit quotient cycle, giving C_k plus (M-1)/2 disjoint C_(2k) cycles. Source: [Mizzi arXiv:2603.27559v3 §7](https://arxiv.org/html/2603.27559v3#S7).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "mizzi_first_clause_full_proof_20261010.md",
+      "source_commit": "979598c300580b18b603b51ded9ccdf59f470faa",
+      "source_path": "workstreams/C/mizzi_first_clause_full_proof_20261010.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/979598c300580b18b603b51ded9ccdf59f470faa/workstreams/C/mizzi_first_clause_full_proof_20261010.md",
+      "source_sha256": "d80d92b21977b47ffcd03e3020e200f774099fa02dfd9dd051bf8b8f7e6de266",
+      "source_bytes": 10299,
+      "output_sha256": "a35f4853861aa2e3766e0e9a5e1eb48aebf2bf7ce909f799691d84c70717a21c",
+      "output_bytes": 7804,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "3fffc9b9216f37a642d6966afeb7af4f38f66c894e60f9bc58a7cd66215a811b",
+          "original_text_bytes": 77,
+          "replacement": "# Proof of Mizzi's first TF-cousin conjecture"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "209edb471ad1e9ae924b4357e693ce67a7623a0149b5683ac6028c06ad8a0a3e",
+          "end_marker_sha256": "de4107473eb4690749a1f7e7d37fbc9f6c44e8d6ab14407bca3502ae40109d5a",
+          "removed_text_sha256": "440d5f7d3d28fee02fc3fcbead7afcc08fbc635ee317c768e2f715d864da87e0",
+          "removed_text_bytes": 342
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "991ea79043da7f3e15894b7717f82b63d61f020153d7bff5e922266a292fab87",
+          "original_text_bytes": 100,
+          "replacement": "Historical firstness remains unknown."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "b20c382ed8e26c074ec2c4cc1820e9cb85f60dfe522f0adf57a3b3f3ad1f5b73",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "b18566c217e0486ba3e393979950c799be1ce79a0a2a71ee7555008a0b9c4122",
+          "removed_text_bytes": 2057
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "mizzi_v3_asymmetric_full_proof.md",
+      "source_commit": "979598c300580b18b603b51ded9ccdf59f470faa",
+      "source_path": "workstreams/C/mizzi_v3_asymmetric_full_proof.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/979598c300580b18b603b51ded9ccdf59f470faa/workstreams/C/mizzi_v3_asymmetric_full_proof.md",
+      "source_sha256": "3b5ffdf2e287e775377e8dabf9ce33ec2450c4c56667074453c6520b655827e8",
+      "source_bytes": 13801,
+      "output_sha256": "6bdc9c23b404c58c05190257b917a5f016620c983d94ed81f3b24952988feef0",
+      "output_bytes": 9170,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "fef3b17771e637447b4333b904629a4bc24f3c33e611b3921a734ad7dc6916d6",
+          "original_text_bytes": 77,
+          "replacement": "# Disjoint odd and doubled cycles from asymmetric TF symmetry"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "ff8843859156b28aa1e87517d362c06eab4f04e9d958a817849c4786fd9b5b84",
+          "end_marker_sha256": "a93dbd5d45cc32fd790ebadb602c990d0759e5c2c4221309e328bfabeec65ea3",
+          "removed_text_sha256": "1277f08800bc597622d33727816817d500b6cf43442a1b3a909366dc959ca72d",
+          "removed_text_bytes": 439
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "370ff4ae5832783f2e59e25e127613852bdb222f265eb4cd3ea4a8257a2607d8",
+          "original_text_bytes": 128,
+          "replacement": "We prove the second clause for **finite connected simple undirected asymmetric unstable graphs**. More generally, Theorem C assumes an explicit nontrivial TF automorphism and does not require connectedness."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "28512028055f5d60597c2b16dc70b5db8c0fff3845158f5a96ed19d147b45df0",
+          "original_text_bytes": 122,
+          "replacement": "In the connected source scope, Theorem 2.1 of that preprint states that instability is equivalent to existence of a **nontrivial two-fold automorphism**."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "b3102f52be57a6b259aef08bb94f5059071ca10e219508f38c520750232afd7b",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "b53b5bc42d903c68026ca29e90640c0a7552c4b8f693856790042920a8d544d4",
+          "removed_text_bytes": 4284
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "mizzi_v3_short_proof.md",
+      "source_commit": "979598c300580b18b603b51ded9ccdf59f470faa",
+      "source_path": "workstreams/C/mizzi_v3_short_proof.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/979598c300580b18b603b51ded9ccdf59f470faa/workstreams/C/mizzi_v3_short_proof.md",
+      "source_sha256": "430ea6b6f279ee9896c761b4b6cebba999cbe8e62d2c1218b534d2a0ab8328d7",
+      "source_bytes": 7236,
+      "output_sha256": "96c14b257e347f0a9fa7c176a578221a06fe2d5e66289f16809b5cba14ef1878",
+      "output_bytes": 5508,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "2b049618b0ce1833029d33017642ddc46986c9a5a01a40654d2489b7d70e483a",
+          "original_text_bytes": 73,
+          "replacement": "# Short proof of Mizzi's revised asymmetric-unstable clause"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "2088c9333724a1b3bd9920e0312d74c4d4441f364a059f96a5abb9897e1375e3",
+          "end_marker_sha256": "8d341110d1071c8b531ba220909d65c0986f01d37ea6b32a3ddb647ddd1e0128",
+          "removed_text_sha256": "bb19ac667355ef4beea5ffa8487c6c02256deb276601a813e6776f0625046ab6",
+          "removed_text_bytes": 342
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "cb432f7d4cd7ce7c0ef81cb7b3a320526cc32697d61b68b487391861d8561ace",
+          "original_text_bytes": 58,
+          "replacement": "every *connected unstable asymmetric* finite simple undirected graph"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "d210d01a00ebc6a27a91e54b94a6b1744aee464358bf13267b8d676dbc8e32b1",
+          "original_text_bytes": 19,
+          "replacement": "the earlier full proof"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "fc5203a8a90ed39d8125b3ba6e2c5bbe33c67ef66d322312efcc53bd56860b2a",
+          "original_text_bytes": 35,
+          "replacement": "Neither fact is claimed novel here:"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "f01b4c2ce7d391e2e2d3e2b37d6eb3083c8957794ca569d7332b2832afbd8202",
+          "original_text_bytes": 48,
+          "replacement": "the longer finite-group lemma"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "cc1068763aac9ce5deafe43be442f5588e9bbe61a99b221ff0d3eaa4e410c79f",
+          "original_text_bytes": 124,
+          "replacement": "For the connected source scope, we use the equivalence between instability and the existence of a nontrivial TF automorphism (Mizzi's Theorem 2.1). The proof also applies to any finite asymmetric graph with an explicit nontrivial TF automorphism."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "4a9985573be6f6e87c8f6eea947df4a90bfed158e5b240d659e75489745aa13c",
+          "original_text_bytes": 226,
+          "replacement": "The complete multiplicity argument is in `mizzi_cycle_bundle_extension.md`."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "209a1f40b5ee9891fb6290dab6ba56ad0d33c31a70fc5c130aa1bac2a9411749",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "f59f3b67a88ef4ea9836a960c76739156dfd388b928e543a75fe9849f47f0b2a",
+          "removed_text_bytes": 1336
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "mizzi_cycle_bundle_extension.md",
+      "source_commit": "979598c300580b18b603b51ded9ccdf59f470faa",
+      "source_path": "workstreams/C/mizzi_cycle_bundle_extension.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/979598c300580b18b603b51ded9ccdf59f470faa/workstreams/C/mizzi_cycle_bundle_extension.md",
+      "source_sha256": "80f97a8814efd262bd9ee07be5c504118db12f05c258602070b0e61a84226cff",
+      "source_bytes": 6741,
+      "output_sha256": "b43cd57b45ecbff17dc3bf795a5202312a05bb01229b411935c3ae51ef56d855",
+      "output_bytes": 4083,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "872b72b408acae5d4a61e25c863d46487a273c64e8cbd4d9527e347510156888",
+          "original_text_bytes": 68,
+          "replacement": "# Cycle-bundle amplification for odd TF-orbit symmetries"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "356cedf078e838708989c44c5536a9c8c4feaddf56396f849a501c4e78564fe6",
+          "end_marker_sha256": "957dca5aeb50b3daa04c8d31426db71d72ffbd50b6453f404fac8b63f4d5a553",
+          "removed_text_sha256": "2f044b8ef72743711ea6f52964dc895b80219ec262f37cfbae77d92d64578864",
+          "removed_text_bytes": 474
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "a63e99f6b0ee666bf926d765c84f7ab13883e631554a41fa3fa4ffe3481fd87e",
+          "original_text_bytes": 38,
+          "replacement": "Every finite connected asymmetric unstable graph"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "0175c7d75efe6b18c24f8cea47473adbcbebf2e0bb21f524a5d42a1a164b5344",
+          "end_marker_sha256": "74d8fbd4c80790ee8966fe5111ab9406d8c637538f45708ac2367e061d64ad10",
+          "removed_text_sha256": "8ee5f86576b22b870b5b3f98e941bc9edefcc77bb59ecac0a9403ad6c58b2fff",
+          "removed_text_bytes": 1792
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "74d8fbd4c80790ee8966fe5111ab9406d8c637538f45708ac2367e061d64ad10",
+          "original_text_bytes": 34,
+          "replacement": "## Prior work"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "50db0b9e25ce53984fe37d4141ac7b12fe02485cc01c299476cd3cb3a84c942b",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "338df49a32b4d19a3ad250f84ab3fa9523a6f4e808b7f5ed0515817bbee94498",
+          "removed_text_bytes": 368
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "7685fab316ea519fb83d586b0ddfb5cd072fe640396b378848e87f401c477e41"
+}

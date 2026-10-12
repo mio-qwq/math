@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "Every finite simple subcubic graph whose degree-three vertices are independent and each lie on a cycle of length at most four has a (1,2,3,4)-packing coloring. Arbitrary connector lengths, leaves and disconnected graphs are included. This is [arXiv:2603.25113v1 §5 Conjecture 1](https://arxiv.org/html/2603.25113v1#S5).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/packing_extension/PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/packing_extension/PROOF.md",
+      "source_sha256": "2ac000076874fefed2bd3cf15e983fcbae6b8f1672952229c79957665e5dbb94",
+      "source_bytes": 8804,
+      "output_sha256": "b432f5a7677f076415718fd34309481433434f7fa6504089ddffdc34221d928b",
+      "output_bytes": 8236,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "14218ea363b2ee606c2a9b7d4c048f01498490d7f4e57f3ce216168051f527b9",
+          "original_text_bytes": 47,
+          "replacement": "# All-length packing 4-coloring proof"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "7a761837a63a335ca1558fca09d4ec6b14a67000a12b46897a5291db2cf315a0",
+          "original_text_bytes": 65,
+          "replacement": "The hypotheses are:"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "2434bc15f69c0191a6e3854bbf26cad8941bfa86a9c1acafec30e8cd97b43f54",
+          "original_text_bytes": 218,
+          "replacement": " These are the hypotheses of Conjecture 1 in arXiv:2603.25113v1."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "298aa99e76ed0bbefc16e345c809d40bd5f752034eb2a7139693fe5a019d0b84",
+          "original_text_bytes": 120,
+          "replacement": ""
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e01e3006d404e1ac5d819ded5c741210262940b27a9b924962110a1f4c4d87aa",
+          "original_text_bytes": 31,
+          "replacement": "The present mechanism"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "332becc54f8f406237ed0bfb0d920209769627d79d46d31d87f0fa805b5f56fb",
+          "original_text_bytes": 80,
+          "replacement": "Historical novelty has not been certified."
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "d414637df3beb2444e9b0649e4c60e85f05d262310c8f85b3c9dfb418eda16e7",
+          "original_text_bytes": 51,
+          "replacement": "## 6. Source and overlap with existing results"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "7a57fab1212d2925e311e2294fc2d7e49b7013fc7d1a2427db4e08be244545e9",
+          "original_text_bytes": 185,
+          "replacement": ""
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "2da3667801898540b39ada7c520cc073c1617b34b30d889ffbf329b1a2f2d5b5"
+}

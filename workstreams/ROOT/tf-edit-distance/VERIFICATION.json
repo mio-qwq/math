@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "proof_status": "complete written proof independently reviewed; not Lean",
+  "historical_priority": "unconfirmed",
+  "independent_review": "uninvolved research AI reviewer; original proof and entropy rank reviewed 2026-10-10, source bytes matched 2026-10-12",
+  "source_freeze": "9ad1f91d953060d01a504481eb857daf57758ab0",
+  "source_sha256": "bf5e4efd9a273ad689adb11db8c5f8b2b2369f28c9e6a6ee41a59d0acd5ca6a7",
+  "checker_sha256": "0a33dea658ac8993795d00794eca0f777f6c8997bd2e7c732719d264f1f0ae58",
+  "execution": {
+    "python": "3.12.14",
+    "start_utc": "2026-10-12T00:38:33.262494+00:00",
+    "exit_code": 0,
+    "scope": "original frozen checker after extraction; definition-level finite regression, not the universal theorem",
+    "stdout": "PASS raw TF-edge edit-distance DSU and disjoint orbit-pair lower bound: 2000\nPASS true-twin edge toggles: 2000 original-target source conditions retained: 1341\nPASS negative controls: 3\nSHA256: 0a33dea658ac8993795d00794eca0f777f6c8997bd2e7c732719d264f1f0ae58\n",
+    "stderr": ""
+  },
+  "lean_compilation_this_integration": false,
+  "integration_independent_scope_review": {
+    "date": "2026-10-12",
+    "status": "PASS",
+    "review_kind": "uninvolved AI mathematical reconstruction and original-source binding; no second checker run or new Lean compilation",
+    "proof_sha256": "65d6d0c027ae23cbf310ffa0eef53a037a258b0d62509444c472ca47769b8f07",
+    "scope": [
+      "original all-target probability lower bound",
+      "inline entropy-rank proof",
+      "epsilon greater than or equal to one",
+      "restricted-target upper bound and ordinary automorphism distinction"
+    ]
+  }
+}

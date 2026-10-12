@@ -1,0 +1,223 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "The density lambda_4=lim gp(Ka(m,4))/m^4 exists and 26/125<=lambda_4<=377/1320. For every m>=11, gp<=floor(377(m)_4/1320)+m(m-1)(3m-5). The seven-window bound holds for m>=7. The three-block construction gives gp(Ka(5q,4))>=130q^4-74q^3+8q^2 for every q>=1. This is partial progress on [arXiv:2604.15909v1 Problem 5.2](https://arxiv.org/html/2604.15909v1#S5), not an exact formula.",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "DENSITY_LIMIT.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/kautz_length4/DENSITY_LIMIT.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/kautz_length4/DENSITY_LIMIT.md",
+      "source_sha256": "09447661ccbc4a77ad7df6b0f05db2074f26068a426bc4c530a31f94a1b7a6bf",
+      "source_bytes": 5718,
+      "output_sha256": "37054d86e2c03bd777d17a72a4629a7ade136857ef31497f56388ad1318751ea",
+      "output_bytes": 4198,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "57d6752c2df0ff56e5599cb64c1e28b549062e9bc0cad4bd705719bb65fd1f98",
+          "original_text_bytes": 365,
+          "replacement": "The scope is arXiv:2604.15909v1 Problem5.2, fixed word length four and arbitrary alphabet size. This is a partial universal bound and limiting-density theorem."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "010301756a707358cbe44292e0c1a24682d9d598a75f05b2f02d1e69f9973ada",
+          "original_text_bytes": 52,
+          "replacement": "Combining the constructive lower bound in LOWER_BOUND.md"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e0be6f1a970fb263bda0a0e4ba71fa9640581de38494378da93143d1ff531484",
+          "original_text_bytes": 42,
+          "replacement": "Finally, the lower bound in LOWER_BOUND.md is"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "3e6b4103bd5e14684c694f1cf0c685e32f8b37524282a200984f03e650736c40",
+          "original_text_bytes": 57,
+          "replacement": ""
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "8579ffa752812f1ca339d3ca898969c7386fe8532ce0281d959ef217c313bf2f",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "a4152b7fb06edf40eb0a77c06c5141f1d84aaa2bdfcfa8d1fc300fce4cd3c23d",
+          "removed_text_bytes": 1263
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "LOWER_BOUND.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/kautz_length4/LOWER_BOUND.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/kautz_length4/LOWER_BOUND.md",
+      "source_sha256": "66b7948c36701f8440756977c96dd2720e77a8dcb4d8fd54890954b079f8bacc",
+      "source_bytes": 8294,
+      "output_sha256": "e8a8e1190891fee8d1c96d5b6f7d04eb52cb5bb0b5b7494640361e4ee027221c",
+      "output_bytes": 7350,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "0b3ade410f186c4b49eb7fbd47bebd0c22602c59736ec3c4f0de80efb46d7b86",
+          "original_text_bytes": 93,
+          "replacement": " Historical novelty has not been certified."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "024eaf7bbec90bb982a66ceb57217bed18a6cc26f75ba31a5ffc3599e2d3568e",
+          "end_marker_sha256": "b33e7ba59f230a905e538598ba791dcab7ed96d8777aefbd86f5455f83fc2b24",
+          "removed_text_sha256": "656bb8107280b7fffe618364e3dc79962071da441920bc7595008d21ae2eafee",
+          "removed_text_bytes": 852
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "515b7af009c1117a96ecef11a3196056c0437077a38fd8b5a85d72569deb4786",
+          "original_text_bytes": 124,
+          "replacement": "No original upper bound is inferred from this sufficient binary-window-code class."
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "UPPER_BOUND.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/kautz_length4/UPPER_BOUND.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/kautz_length4/UPPER_BOUND.md",
+      "source_sha256": "bf88314b7a277c56cccd942ad25151de17cfb223d2ed45e8dff221ec7ebf2acd",
+      "source_bytes": 5994,
+      "output_sha256": "c738a7682383b3905e3e813081051d472553666de81c3bed555a541937cae92f",
+      "output_bytes": 5002,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "61a8bda7cdc4b576cea4bc0c1ebf3d132ad50bc84b4a9b6069bcf72503741106",
+          "original_text_bytes": 324,
+          "replacement": "A partial bound toward Chandran et al., arXiv:2604.15909v1, Problem5.2. It uses cross-support constraints and applies to **every** general-position set."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "fb047f6103aacf50a7fda640b9a3acd1c1d85015499964edbd612b6c15daca92",
+          "original_text_bytes": 23,
+          "replacement": "## Limits"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "b6a177fcdeca5e97d68b0ff6c723c5c5f0a143e5426b62dba53d0baf53289af3",
+          "original_text_bytes": 34,
+          "replacement": "the lower coefficient26/125"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "004cd97e4a2302c668adff68bc56da55dc810edef29f8f058e5cb5bc3181819d",
+          "original_text_bytes": 92,
+          "replacement": ""
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e74a239b72086f76f1e9025b07452e3ab07cd362a5e9fe0bc56a46e8fa16f21b",
+          "original_text_bytes": 55,
+          "replacement": "## Relation to the lower bound"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "8f81c4e839269be4fa60a277698176eda70f446e744361eef35e8322d2e84f2e",
+          "original_text_bytes": 36,
+          "replacement": "LOWER_BOUND.md gives"
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "b339105fc15873acd92985da0ad43dd40d7b239658e7180cae2ea26a4c858fdd",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "946510aa344f50eb08f9caf7401ff5701e167a440504a6329a54869f71627532",
+          "removed_text_bytes": 665
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "ROUNDING_REFINEMENT.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/kautz_length4/ROUNDING_REFINEMENT.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/kautz_length4/ROUNDING_REFINEMENT.md",
+      "source_sha256": "564af17170330939088d518ae98372db185fe3295001d760c0b46ed8529e0023",
+      "source_bytes": 1227,
+      "output_sha256": "ed8b383945f1d1c61d08dc0475bf255d33d3c5044e0540a43a7769308e266cd3",
+      "output_bytes": 909,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "fb710a6b91295b952b5cfab3d8546daa444af7af2006f23855b013fffaee9d7c",
+          "original_text_bytes": 255,
+          "replacement": "Addendum to DENSITY_LIMIT.md in the same original Problem5.2 scope. This refines the same partial theorem."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "4665b7f73470116c395f75e3a564b401cfae9ddd4b8be74cb03f7d59a3438785",
+          "original_text_bytes": 240,
+          "replacement": "All ingredients are the written seven-window and subalphabet arguments."
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "three_block_certificate.json",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/kautz_length4/three_block_certificate.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/kautz_length4/three_block_certificate.json",
+      "source_sha256": "a03c89944757208aebcf39b87114b7bb4e5e4feeeb6041512e1a410837e80770",
+      "source_bytes": 3430,
+      "output_sha256": "a03c89944757208aebcf39b87114b7bb4e5e4feeeb6041512e1a410837e80770",
+      "output_bytes": 3430,
+      "byte_identical": true,
+      "changes": []
+    },
+    {
+      "file": "verify_three_blocks.py",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/kautz_length4/verify_three_blocks.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/kautz_length4/verify_three_blocks.py",
+      "source_sha256": "c2830830e0c904b692dcdc3e84eccc85f7a99e87b2197e464b720277c250d085",
+      "source_bytes": 2966,
+      "output_sha256": "c2830830e0c904b692dcdc3e84eccc85f7a99e87b2197e464b720277c250d085",
+      "output_bytes": 2966,
+      "byte_identical": true,
+      "changes": []
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "e2229814bfc8deaedf9a1b22c2fb01af7f264b31a9af3743b1aefa16ed15f9cd"
+}

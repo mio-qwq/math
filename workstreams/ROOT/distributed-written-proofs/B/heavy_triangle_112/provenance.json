@@ -1,0 +1,50 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "Every finite simple subcubic graph with every degree-three vertex in a triangle and independent heavy vertices has a (1,1,2)-packing coloring. Heavy means degree three with all three neighbours of degree three. This is [arXiv:2603.25113v1 §5 Conjecture 6](https://arxiv.org/html/2603.25113v1#S5).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/heavy_triangle_112/PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/heavy_triangle_112/PROOF.md",
+      "source_sha256": "11ba0814316379a764d9ed74431680b9c7c792428191e8d1f1e8c9086689183e",
+      "source_bytes": 8944,
+      "output_sha256": "b23289e6cf3fbc4e842d66a7800489d75873809a497e5c35a517bc7ee2d295bf",
+      "output_bytes": 8252,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "638d2d4f698fc17feb914041ce4e610c12963033b6133a07798641a75f8c10ca",
+          "original_text_bytes": 52,
+          "replacement": "# Proof of original Conjecture 6"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "876f68e0b2fac58ee071f91d9f2cd1f3e47479f1ed468ebfeb448f53ceb0f23d",
+          "original_text_bytes": 111,
+          "replacement": ""
+        },
+        {
+          "operation": "remove",
+          "removed_text_sha256": "6bdffc9914b15901339d7dc507490357723a62236ce05e062150c1ffbdfbcdc5",
+          "removed_text_bytes": 560,
+          "start_marker_sha256": "80a502d11a44ec5c996208ea230481c5c086690b3b76f2e0aa73cc36a1d7da72",
+          "end_marker_sha256": null
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "c4581305ce5438590adff79d3286edd75f9ed24cb20183c30788fe152aac9e87"
+}

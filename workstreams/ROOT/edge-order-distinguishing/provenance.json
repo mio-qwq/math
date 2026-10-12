@@ -1,0 +1,178 @@
+{
+  "schema": "mio-qwq/math/source-provenance/1",
+  "integration_date": "2026-10-12",
+  "frozen_source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+  "source_repository": "https://github.com/mio-qwq/math",
+  "earlier_reviewed_mathematical_objects": [
+    {
+      "commit": "7168f6df66ba5518cd3420c4668eab5352e4be8c",
+      "scope": "Complete Conjecture 10 full mathematical construction",
+      "review_date": "2026-10-10",
+      "review_kind": "independent AI written mathematical review"
+    }
+  ],
+  "attribution": [
+    "Gorzkowska and Kwasny: original Conjecture 10 and unequal-palette Theorem 5",
+    "de Werra: classical equitable and strongly equitable bipartite multigraph edge-colouring",
+    "This integration asserts no historical-firstness claim"
+  ],
+  "files": [
+    {
+      "path": "ALL_DEGREES_THEOREM.md",
+      "source_path": "workstreams/A/bipartite-sequential/ALL_DEGREES_THEOREM.md",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/bipartite-sequential/ALL_DEGREES_THEOREM.md",
+      "source_sha256": "ddaa703c03ca855e1b9849172222e1776efa8672b2fc9fe61b8d2f2d96f6e7e1",
+      "source_git_blob": "faa2daa78f76dbda0d0f7629bfe37abbbab8d4c4",
+      "integrated_sha256": "2681c8a2dcf8394b9e6a3e705a443e063ef6217e64c16dca4d8cda5c487f6dd6",
+      "source_bytes_preserved": false,
+      "editorial_changes": [
+        "Replace obsolete pending-acceptance wording; replace historical enumeration/run directives with truthful worker-vs-independent verification scope; mathematical lemma/theorem bodies retained."
+      ]
+    },
+    {
+      "path": "DE_WERRA_SHORT_PROOF.md",
+      "source_path": "workstreams/A/paper/DE_WERRA_SHORT_PROOF.md",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/paper/DE_WERRA_SHORT_PROOF.md",
+      "source_sha256": "b49534cbb7f4955c4f7b8cfd3c58e933eba158945f526c565366b51923fb8e37",
+      "source_git_blob": "de98e22dbb2886b992e9147c4508edc4a8bfbfd9",
+      "integrated_sha256": "59446a904224dabd378ac323c0ec84d8de1cac8f9c6c58ecb807f65984a25f3f",
+      "source_bytes_preserved": false,
+      "editorial_changes": [
+        "Remove worker identity, management/status and stale pending-review text; retain all proof sections, prior-art citations and current explicit independent AI review scope."
+      ]
+    },
+    {
+      "path": "GLOBALLY_BALANCED_TWO_PARTITIONS.md",
+      "source_path": "workstreams/A/proof/GLOBALLY_BALANCED_TWO_PARTITIONS.md",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/proof/GLOBALLY_BALANCED_TWO_PARTITIONS.md",
+      "source_sha256": "60803e67cdac62e0d27a57e3a692ddccad52f7082c5bdf5cef132aed9f6720ba",
+      "source_git_blob": "09662f3d5dc399813a3f972b7e2860b14a2085c5",
+      "integrated_sha256": "977b293131e7a72f19c6ff519f75145615240827e6997b095e501b8999b39e3d",
+      "source_bytes_preserved": false,
+      "editorial_changes": [
+        "Remove worker ownership/status instructions and stale acceptance claims; retain theorem, self-contained Euler proof and de Werra attribution; accurately label historical worker enumeration."
+      ]
+    },
+    {
+      "path": "code/check_euler_order_certificate_strict.py",
+      "source_path": "workstreams/A/code/check_euler_order_certificate_strict.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/check_euler_order_certificate_strict.py",
+      "source_sha256": "31fcc09dcecc1e4e2232e176f79adfe650ba65af3669c5b79102760708b95f59",
+      "source_git_blob": "4d3bde472761ea171bc78d664ed19a545c1d4f9b",
+      "integrated_sha256": "31fcc09dcecc1e4e2232e176f79adfe650ba65af3669c5b79102760708b95f59",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/verify_euler_certificate_json.py",
+      "source_path": "workstreams/A/code/verify_euler_certificate_json.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/verify_euler_certificate_json.py",
+      "source_sha256": "2ee22468e2a2a55ab7b50db9e80bf806bb485a854a478eaafceade2487b49d72",
+      "source_git_blob": "f3969227c21bdfad7194a4fdca0073c2e9cf1979",
+      "integrated_sha256": "2ee22468e2a2a55ab7b50db9e80bf806bb485a854a478eaafceade2487b49d72",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/issue_euler_certificate.py",
+      "source_path": "workstreams/A/code/issue_euler_certificate.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/issue_euler_certificate.py",
+      "source_sha256": "bb4675c37aaefc4ee2ef6c0529fc3c1b4a6955e09242247343e7399a8ff21a75",
+      "source_git_blob": "ac98d5c1cf046c43394604e888bf06659b67bfa7",
+      "integrated_sha256": "bb4675c37aaefc4ee2ef6c0529fc3c1b4a6955e09242247343e7399a8ff21a75",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/euler_root_edge_order.py",
+      "source_path": "workstreams/A/code/euler_root_edge_order.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/euler_root_edge_order.py",
+      "source_sha256": "cd38dc00483dbaa4d501c1c4355947a10218916f9c95d5207519ded24d3911a1",
+      "source_git_blob": "9383ce3dc9ffdfee2b54944ba198781950291392",
+      "integrated_sha256": "cd38dc00483dbaa4d501c1c4355947a10218916f9c95d5207519ded24d3911a1",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/balanced_partitions.py",
+      "source_path": "workstreams/A/code/balanced_partitions.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/balanced_partitions.py",
+      "source_sha256": "6cd4cb3336857bdff4695cee4cea5de51957c3ab179486c7f7b01711d754dfd1",
+      "source_git_blob": "3cb72e2517c5004014063de166129a1d07151ee0",
+      "integrated_sha256": "6cd4cb3336857bdff4695cee4cea5de51957c3ab179486c7f7b01711d754dfd1",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/verify_all_regular.py",
+      "source_path": "workstreams/A/code/verify_all_regular.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/verify_all_regular.py",
+      "source_sha256": "d2bfc64941b46c159e6e3ea25e5cf4009d678fc2fe0d5135fd9f7c69f84ed6f3",
+      "source_git_blob": "dfd147219f4fb016e945daabfffea9bbe419919d",
+      "integrated_sha256": "d2bfc64941b46c159e6e3ea25e5cf4009d678fc2fe0d5135fd9f7c69f84ed6f3",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/global_balanced_partitions.py",
+      "source_path": "workstreams/A/code/global_balanced_partitions.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/global_balanced_partitions.py",
+      "source_sha256": "c098fde1ee276f785777e4b774d6a0e2e7396c1ff504968669338002f0ef114f",
+      "source_git_blob": "901f80296d25b3e7b0ad0cdbf85bf5908969a85a",
+      "integrated_sha256": "c098fde1ee276f785777e4b774d6a0e2e7396c1ff504968669338002f0ef114f",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/construct_full_graph.py",
+      "source_path": "workstreams/A/code/construct_full_graph.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/construct_full_graph.py",
+      "source_sha256": "be43ccc027c95dd42558e180e57b728913dcbc12116fdc86fc0907fbd583b2de",
+      "source_git_blob": "b0da98d468428cb81063e31b57f02f9f290d59ab",
+      "integrated_sha256": "be43ccc027c95dd42558e180e57b728913dcbc12116fdc86fc0907fbd583b2de",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/demo_k6.json",
+      "source_path": "workstreams/A/code/demo_k6.json",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/demo_k6.json",
+      "source_sha256": "fd78d0e2132463c44fd4db43b7b467e40b8183307f4e3c8f5c1f873ffe99c464",
+      "source_git_blob": "d4333d11faae3bb34eb0b7ed403f3848bae2eaef",
+      "integrated_sha256": "fd78d0e2132463c44fd4db43b7b467e40b8183307f4e3c8f5c1f873ffe99c464",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/demo_k6_certificate.json",
+      "source_path": "workstreams/A/code/demo_k6_certificate.json",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/demo_k6_certificate.json",
+      "source_sha256": "2b36b9e924df96c62ac56f4788d83d0d4120e3444d5534a5d3271522b979ded7",
+      "source_git_blob": "3710ba1cda11d8f0781df5afe949ed3c0cf5cacf",
+      "integrated_sha256": "2b36b9e924df96c62ac56f4788d83d0d4120e3444d5534a5d3271522b979ded7",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    }
+  ],
+  "new_editorial_files": [
+    {
+      "path": "README.md",
+      "sha256": "a78905665dbdb5624dcedcd7c1e4cdd9c9f266afe8e9b625cb6b680cd20c986b"
+    }
+  ],
+  "program_bytes_preserved": true,
+  "privacy": "Only mathematical source, technical documentation, frozen inputs and verification metadata are included."
+}

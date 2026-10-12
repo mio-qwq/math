@@ -1,0 +1,169 @@
+{
+  "schema": "cryptographic-structures-verification-v1",
+  "created_utc": "2026-10-12T00:40:34.492238+00:00",
+  "scope": "Existing written mathematics; post-disclosure source audit and bounded exact checker replay from the integrated directory. No new research.",
+  "mathematical_review": {
+    "review_kind": "Independent AI-assisted complete written-proof review after disclosure of the supplied statements/proofs; not human peer review or new blind discovery",
+    "circulant_verdict": "Accepted within all characteristic-two fields, all invertible circulants of order n>=3, and the stated periodic branch-number/MDS inheritance",
+    "ascon_verdict": "Accepted within uniform full-state, fixed-difference, fixed-constant two-round 320-bit model; at most two active columns and complete three-column classification",
+    "new_claims": "None; mathematical domains were not enlarged",
+    "proof_assistant": "No Lean formalization or kernel compilation is present or claimed",
+    "historical_originality": "Unconfirmed",
+    "cipher_attack": "None; no best attack or security-bound improvement claimed"
+  },
+  "prior_independent_AI_review": [
+    {
+      "kind": "Circulant pre-disclosure reconstruction from original sources, then exact version-2 receipt",
+      "url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/review/V2-RECEIPT.md",
+      "sha256": "555d6cb93d321cb1fc3adcbdcefe32250f7d617f4588b85178ee4dfa04f5e123",
+      "independence_limit": "The later MDS refinement was supplied before review; no independent discovery of that refinement is asserted."
+    },
+    {
+      "kind": "Ascon original-standard reconstruction before disclosure, followed by complete proof/extension review",
+      "url": "https://github.com/mio-qwq/math/blob/7144a9245827c4cd1f45449e0776e46f2599f6fb/workstreams/CRYPTO2-20261011-7f3c/projects/ascon-exact-propagation/review/FINAL-REVIEW.md",
+      "sha256": "b34c67f8fe664b1e75e10fa6fa8cf1d359185bd94faac62b7e3e4bcedb197c8e",
+      "independence_limit": "The ten-orbit/doubled-support refinement was assessed after its proposal; these reused checkers are not newly independent implementations."
+    }
+  ],
+  "source_checks": {
+    "provenance_sha256": "d54f82c0a3d92db323c9990f1690a8a134ff405955731f7dc9b96fd01aa97ef8",
+    "source_and_output_hash_pairs_checked": 12,
+    "certificate_files_byte_identical": 6,
+    "python_AST_checks": [
+      {
+        "path": "circulant/check.py",
+        "code_AST_excluding_module_docstring": "identical"
+      },
+      {
+        "path": "ascon/check.py",
+        "code_AST_excluding_module_docstring": "identical"
+      },
+      {
+        "path": "ascon/check_triples.py",
+        "code_AST_excluding_module_docstring": "identical"
+      }
+    ],
+    "mathematical_document_changes": "Only recorded front-matter, attribution/status wording, historical-limit heading and artifact-location references; proof formulas and domains retained."
+  },
+  "environment": {
+    "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": "Python standard library only",
+    "bytecode_generation": "Disabled for all executed checkers"
+  },
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/ROOT/cryptographic-structures/circulant/check.py",
+        "workstreams/ROOT/cryptographic-structures/circulant/certificates/mds10.json",
+        "--negative"
+      ],
+      "working_directory": "repository root",
+      "started_utc": "2026-10-12T00:40:32.136221+00:00",
+      "elapsed_seconds": 0.078,
+      "timeout_seconds": 60,
+      "exit_code": 0,
+      "stdout": "{\"status\": \"PASS\", \"certificates\": 1, \"negative_controls\": 8}\n",
+      "stderr": "",
+      "parsed_result": {
+        "status": "PASS",
+        "certificates": 1,
+        "negative_controls": 8
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/ROOT/cryptographic-structures/ascon/check.py"
+      ],
+      "working_directory": "repository root",
+      "started_utc": "2026-10-12T00:40:32.426469+00:00",
+      "elapsed_seconds": 0.157,
+      "timeout_seconds": 60,
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"rank_blocks\": 320,\n  \"positive\": {\n    \"exact\": \"1/18014398509481984\",\n    \"DDT_product\": \"1/36028797018963968\",\n    \"first_fiber_tuples\": 16,\n    \"projection_ranks\": [\n      17,\n      17,\n      16,\n      17,\n      17\n    ],\n    \"ratio\": \"2\"\n  },\n  \"impossible\": {\n    \"exact\": \"0\",\n    \"DDT_product\": \"1/36028797018963968\",\n    \"first_fiber_tuples\": 16,\n    \"projection_ranks\": [\n      17,\n      17,\n      16,\n      17,\n      17\n    ],\n    \"ratio\": \"0\"\n  },\n  \"negative_controls\": 7\n}\n",
+      "stderr": "",
+      "parsed_result": {
+        "status": "PASS",
+        "rank_blocks": 320,
+        "positive": {
+          "exact": "1/18014398509481984",
+          "DDT_product": "1/36028797018963968",
+          "first_fiber_tuples": 16,
+          "projection_ranks": [
+            17,
+            17,
+            16,
+            17,
+            17
+          ],
+          "ratio": "2"
+        },
+        "impossible": {
+          "exact": "0",
+          "DDT_product": "1/36028797018963968",
+          "first_fiber_tuples": 16,
+          "projection_ranks": [
+            17,
+            17,
+            16,
+            17,
+            17
+          ],
+          "ratio": "0"
+        },
+        "negative_controls": 7
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/ROOT/cryptographic-structures/ascon/check_triples.py"
+      ],
+      "working_directory": "repository root",
+      "started_utc": "2026-10-12T00:40:32.584284+00:00",
+      "elapsed_seconds": 1.906,
+      "timeout_seconds": 60,
+      "exit_code": 0,
+      "stdout": "{\n  \"rank_blocks\": 9765,\n  \"normalized_exceptions\": 30,\n  \"physical_exception_supports\": 640,\n  \"status\": \"PASS\",\n  \"formula_fixtures\": 20,\n  \"ratios\": [\n    \"0\",\n    \"1\",\n    \"2\"\n  ],\n  \"negative_controls\": 4,\n  \"doubled_cancellation_checks\": 37,\n  \"actual_exception_supports\": 320,\n  \"universally_exact_three_column_supports\": 41344\n}\n",
+      "stderr": "",
+      "parsed_result": {
+        "rank_blocks": 9765,
+        "normalized_exceptions": 30,
+        "physical_exception_supports": 640,
+        "status": "PASS",
+        "formula_fixtures": 20,
+        "ratios": [
+          "0",
+          "1",
+          "2"
+        ],
+        "negative_controls": 4,
+        "doubled_cancellation_checks": 37,
+        "actual_exception_supports": 320,
+        "universally_exact_three_column_supports": 41344
+      }
+    }
+  ],
+  "finite_execution_scope": {
+    "circulant": "One fixed 10x10 field certificate: direct RD, nontriviality, inverse, quotient and lift; 8 negative controls. No 3710-witness generation or 184755-minor replay.",
+    "ascon": "320 one/two-column rank blocks; two fixed probability certificates and 7 negative controls; 9765 three-column rank blocks, 20 formula fixtures, 37 doubled-cancellation checks and 4 negative controls. This is finite certificate replay, not discovery search.",
+    "not_executed": [
+      "No state enumeration over 2^320",
+      "No Keccak 2^28 enumeration",
+      "No RSA relation discovery or lattice reduction",
+      "No ChaCha large original-input enumeration",
+      "No Lean or compiler setup"
+    ]
+  },
+  "other_work": {
+    "ChaCha": "Frozen-link L0 baseline only; originality not cleared",
+    "RSA": "Restricted candidates HOLD; MNV Q2 and improved exponent unresolved",
+    "Keccak": "No new result; full instance not reconstructed"
+  },
+  "public_disclosure": "Source workstreams exist on public branches; no corresponding cryptographic immutable Release or signed source-commit verification is claimed here. This integration does not perform Git writes or release publication."
+}

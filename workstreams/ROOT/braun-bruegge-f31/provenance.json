@@ -1,0 +1,100 @@
+{
+  "schema": "mio-qwq/math/source-provenance/1",
+  "integration_date": "2026-10-12",
+  "frozen_source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+  "source_repository": "https://github.com/mio-qwq/math",
+  "earlier_reviewed_mathematical_objects": [
+    {
+      "commit": "f7acc4e6e6cea02018da144d0abd7a524722be0b",
+      "scope": "Original scalar Conjecture 31 and same-parity t-row written proof",
+      "review_date": "2026-10-10",
+      "review_kind": "independent AI written mathematical review"
+    }
+  ],
+  "attribution": [
+    "Braun and Bruegge: original scalar conjecture and definition",
+    "Vandermonde, binomial unimodality and single-crossing comparison: classical tools"
+  ],
+  "files": [
+    {
+      "path": "PROOF.md",
+      "source_path": "workstreams/A/braun-bruegge-f31/PROOF.md",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/braun-bruegge-f31/PROOF.md",
+      "source_sha256": "0ec22c17377831818170476f05f8dad87ff728f00d5bf01f84820bc62c6a330e",
+      "source_git_blob": "eef18bb24d0ab4d6d882039e74cc72ce85f67dc2",
+      "integrated_sha256": "070029dee2605127347078887cbfeaed19bc59c1110c73b547924e0ffe9522b9",
+      "source_bytes_preserved": false,
+      "editorial_changes": [
+        "Replace obsolete worker runtime/acceptance paragraph with dated independent review scope; mathematical argument retained."
+      ]
+    },
+    {
+      "path": "GENERALIZATION.md",
+      "source_path": "workstreams/A/braun-bruegge-f31/GENERALIZATION.md",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/braun-bruegge-f31/GENERALIZATION.md",
+      "source_sha256": "c3fb9fa7a2a7ab7da4d012362096abbd364203d6792c211047fa832edc83f254",
+      "source_git_blob": "6ce46c7fe426a8c62b508cc17ca308ce4591e94b",
+      "integrated_sha256": "131e39e947febac72129d3b02fa526ad1245c65834239c3e4ec7221cc6421094",
+      "source_bytes_preserved": false,
+      "editorial_changes": [
+        "Expand the existing single-crossing strictness into the two cases recorded by the independent mathematical review; theorem unchanged."
+      ]
+    },
+    {
+      "path": "CROSS_PARITY.md",
+      "source_path": "workstreams/A/braun-bruegge-f31/CROSS_PARITY.md",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/braun-bruegge-f31/CROSS_PARITY.md",
+      "source_sha256": "e7bc83f9c863dbac2de0b7476b5f9b6bab9e07942941e77f9f5ba9cfa64aab51",
+      "source_git_blob": "e6695ed03c2459f5a22106f43352c6c7900f4edb",
+      "integrated_sha256": "9423ed46cbe3ef6b343962b57b5618b9f1c45da435db0bcab314e6057d369cde",
+      "source_bytes_preserved": false,
+      "editorial_changes": [
+        "Replace obsolete review-status wording; mathematical statements and proof retained."
+      ]
+    },
+    {
+      "path": "code/verify_braun_f31.py",
+      "source_path": "workstreams/A/code/verify_braun_f31.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/verify_braun_f31.py",
+      "source_sha256": "470fde30caa55df4ee25fb497bf37aec0ac3fc313f5bcf37435cf9bd53f07941",
+      "source_git_blob": "c3eaaa71c9e5b9e934cd1f85a85b814089ec3a20",
+      "integrated_sha256": "470fde30caa55df4ee25fb497bf37aec0ac3fc313f5bcf37435cf9bd53f07941",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/verify_generalization.py",
+      "source_path": "workstreams/A/code/verify_generalization.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/verify_generalization.py",
+      "source_sha256": "088c7c83910669c6668a6e05cc0be11fe71c824d4baddfda2a4e7c86e0304bc7",
+      "source_git_blob": "3dc16deef1bb333e61394035a7e743b0d1e7a1a8",
+      "integrated_sha256": "088c7c83910669c6668a6e05cc0be11fe71c824d4baddfda2a4e7c86e0304bc7",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    },
+    {
+      "path": "code/verify_cross_parity.py",
+      "source_path": "workstreams/A/code/verify_cross_parity.py",
+      "source_commit": "64bd9d130c21fd0499eb4d8dc000e908da198b21",
+      "source_url": "https://github.com/mio-qwq/math/blob/64bd9d130c21fd0499eb4d8dc000e908da198b21/workstreams/A/code/verify_cross_parity.py",
+      "source_sha256": "7ee111104180fc71d728f3c9ef91a2cd70fb7e5831678095d9c43ec7ea442b29",
+      "source_git_blob": "d63eb3fd2b3b836c0983b389f794b9054a8066a5",
+      "integrated_sha256": "7ee111104180fc71d728f3c9ef91a2cd70fb7e5831678095d9c43ec7ea442b29",
+      "source_bytes_preserved": true,
+      "editorial_changes": []
+    }
+  ],
+  "new_editorial_files": [
+    {
+      "path": "README.md",
+      "sha256": "72f4cba550fc0f10b672f2814f69c8efa259675337c5d4a39e87b738437c04ee"
+    }
+  ],
+  "program_bytes_preserved": true,
+  "privacy": "Only mathematical source, technical documentation, frozen inputs and verification metadata are included."
+}

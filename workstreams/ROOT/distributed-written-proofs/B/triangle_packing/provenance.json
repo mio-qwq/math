@@ -1,0 +1,157 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "Every finite simple 1-saturated subcubic graph with every degree-three vertex in a triangle has a (1,2,3,4,5)-packing coloring. Here 1-saturated means at most one degree-three neighbour at each degree-three vertex. This is [arXiv:2603.25113v1 §5 Conjecture 2](https://arxiv.org/html/2603.25113v1#S5).",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "STRUCTURAL_CLASSIFICATION.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/triangle_packing/PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/triangle_packing/PROOF.md",
+      "source_sha256": "28901e98fd0c2eca8a89e7fe45da057ff334a49e15847fdbe795b51e9ea524bd",
+      "source_bytes": 8458,
+      "output_sha256": "42becd6e15a33802d15256c666d9e5ad0309a28c7d92bf04ba67cb575f255c6c",
+      "output_bytes": 1476,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "extract",
+          "source_start": "## Structural classification",
+          "source_end": "## Elimination for components with ends",
+          "new_title": "# Structural classification for the five-color theorem",
+          "selected_text_sha256": "4f0c7e594d124f8e785abbb1fc97ee31e3a1f8e002fb7b3e349a8af7ccce575e"
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ],
+      "inclusion_scope": "Only the displayed structural or embedding lemma; no other source-document palette theorem is accepted or included."
+    },
+    {
+      "file": "CHAIN_EMBEDDING.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/triangle_packing/SECOND_PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/triangle_packing/SECOND_PROOF.md",
+      "source_sha256": "2bc9a0494f2331ccc2accd33a195d4ba330dbf275a6d7bdea2e34b2e63a7411b",
+      "source_bytes": 8175,
+      "output_sha256": "93e4295ccf20bfb1b6ac4f6fd9e22638e5feb128fe4837c9cd745fadd80e5634",
+      "output_bytes": 768,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "extract",
+          "source_start": "Any triangle chain",
+          "source_end": "For two directly joined triangles",
+          "new_title": "# Chain-to-necklace embedding",
+          "selected_text_sha256": "c63f41be81d54909beb77eead7b5aed72a26bc4354db12a4067bebf85217e30e"
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ],
+      "inclusion_scope": "Only the displayed structural or embedding lemma; no other source-document palette theorem is accepted or included."
+    },
+    {
+      "file": "FIVE_PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/triangle_packing/FIVE_PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/triangle_packing/FIVE_PROOF.md",
+      "source_sha256": "808ff9c3c60a9b4a8663bb8a4f8c7af4d4aac6374decb3d7b6dd7377d33f1a20",
+      "source_bytes": 10477,
+      "output_sha256": "5061477cf962e07dce5055a4a7ffa90a881a8eb4b91e315d18480ed11f8a1d16",
+      "output_bytes": 8441,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "41f132da5430f9007b37444992c3da11194933da4034ab131b3426a235e15623",
+          "original_text_bytes": 74,
+          "replacement": "# Computer-assisted proof of the original five-color conjecture"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "cd0cc8cd5ad69155aa1443c9cfc1ce618014217cf10576c2b58a3c586fdb99af",
+          "original_text_bytes": 153,
+          "replacement": "Complete mathematical reduction and exact finite invariant certificate."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 2,
+          "original_text_sha256": "6d8926c39e42d9e33f7571b2e63ce733abcbd7cbb7374afe8ac4dd3a0bf2d780",
+          "original_text_bytes": 8,
+          "replacement": "STRUCTURAL_CLASSIFICATION.md"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "562f47857ec58deee477f1cb72c7c89c284afe69a9605649189a183ba2d32763",
+          "original_text_bytes": 35,
+          "replacement": "CHAIN_EMBEDDING.md"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e134ee9157873917d57ef0a3f10c60f4d81471b15e607e71102fdb93c1ef7293",
+          "original_text_bytes": 112,
+          "replacement": "QED."
+        },
+        {
+          "operation": "remove",
+          "removed_text_sha256": "62a5b4a86d42e912bf04a4b590c09796c8c8e41bb62e732fc4df8aa2b571d95f",
+          "removed_text_bytes": 1857,
+          "start_marker_sha256": "2e9fcc012dbdd2c82e35c84d126b1037e160972052e508a15ae31e6e4de9289a",
+          "end_marker_sha256": null
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "verify_five.py",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/triangle_packing/verify_five.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/triangle_packing/verify_five.py",
+      "source_sha256": "68266f6722b2dd9eb5c6d3c0d0c6f36c1727632c0071e59f31bba487c106a333",
+      "source_bytes": 4170,
+      "output_sha256": "68266f6722b2dd9eb5c6d3c0d0c6f36c1727632c0071e59f31bba487c106a333",
+      "output_bytes": 4170,
+      "byte_identical": true,
+      "changes": []
+    },
+    {
+      "file": "five_invariant.json",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/triangle_packing/five_invariant.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/triangle_packing/five_invariant.json",
+      "source_sha256": "27882d4e867f155012ecb847483bf0d3ddde9129744397946970718a4fcf8ca6",
+      "source_bytes": 16007,
+      "output_sha256": "27882d4e867f155012ecb847483bf0d3ddde9129744397946970718a4fcf8ca6",
+      "output_bytes": 16007,
+      "byte_identical": true,
+      "changes": []
+    },
+    {
+      "file": "five_relations.json",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/triangle_packing/five_relations.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/triangle_packing/five_relations.json",
+      "source_sha256": "f1dc06451e2dc451cbc7582af91652c27b8e351fed5bdbbaed2272b7381b2e14",
+      "source_bytes": 46377,
+      "output_sha256": "f1dc06451e2dc451cbc7582af91652c27b8e351fed5bdbbaed2272b7381b2e14",
+      "output_bytes": 46377,
+      "byte_identical": true,
+      "changes": []
+    }
+  ],
+  "external_mathematical_dependencies": [],
+  "generated_readme_sha256": "e161e65e0ac52feda1f03315576e13a5c2d3afc3f53bebb2aa288946d64511cd"
+}

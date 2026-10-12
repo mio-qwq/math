@@ -1,0 +1,26 @@
+{
+  "freeze": "9ad1f91d953060d01a504481eb857daf57758ab0",
+  "files": [
+    {
+      "source": "workstreams/C-audit-1010/BYCHAWSKI_C65_EDIT_DISTANCE.md",
+      "source_sha256": "bf5e4efd9a273ad689adb11db8c5f8b2b2369f28c9e6a6ee41a59d0acd5ca6a7",
+      "destination": "PROOF.md",
+      "destination_sha256": "65d6d0c027ae23cbf310ffa0eef53a037a258b0d62509444c472ca47769b8f07",
+      "changes": [
+        "correct target-class implication in introduction",
+        "separate original target requirements from additional connectedness and nonbipartiteness",
+        "include independently reviewed entropy-rank lemma inline",
+        "include elementary random-graph union bounds",
+        "handle epsilon>=1 and target nonemptiness",
+        "replace stale operational status with current scientific verification scope"
+      ]
+    },
+    {
+      "source": "workstreams/C-audit-1010/audit_bychawski_edit_distance.py",
+      "source_sha256": "0a33dea658ac8993795d00794eca0f777f6c8997bd2e7c732719d264f1f0ae58",
+      "destination": "audit_bychawski_edit_distance.py",
+      "changes": [],
+      "first_added_commit": "e2fc6e2484fcb53de1a2274d712509f14467c162"
+    }
+  ]
+}
