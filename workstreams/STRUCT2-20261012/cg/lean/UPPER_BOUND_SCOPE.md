@@ -65,11 +65,11 @@ the two new model-only layers use propext and Quot.sound. Exact source,
 driver, compiler and output hashes are under
 `../../verification/20261013-cg-upper-bound/`.
 
-This proves the full universal **upper bound**, but not by itself the
-matching parameter-family construction or the isomorphism
-Aut(CDC(CG(n))) = D_(6n) x C2. Those constructions are established in the
-written proof and finite original-definition checks, with their earlier
-review scope. Formal construction of every code, explicit group laws,
-exhaustive strong-switch/conjugacy classes and the exactly-two TF-cousin
-Lean theorem remain to be completed. No new independent human review is
-claimed for these supporting formal layers.
+This module proves the full universal **upper bound**. The matching
+parameter-family construction, exhaustive explicit family and actual
+two-sided original finite bijection are now subsequently proved in
+`CycleActions.lean` and `ModelActions.lean`; see `EXACT_AUTOMORPHISM_SCOPE.md`
+and its separate 130-audit dependency-chain receipt. Explicit abstract group
+laws, exhaustive strong-switch/conjugacy classes and the exactly-two
+TF-cousin Lean theorem remain to be completed. No new independent human
+review is claimed for these supporting formal layers.

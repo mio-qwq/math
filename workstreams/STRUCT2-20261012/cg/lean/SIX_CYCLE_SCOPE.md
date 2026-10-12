@@ -62,6 +62,7 @@ human review of the new formalization.
 The subsequent `RingAction.lean` and `CycleRigidity.lean` synchronize the
 two ring actions and prove an injective encoding of all original CDC
 automorphisms into Fin(24n); see `UPPER_BOUND_SCOPE.md`.
-Construct the matching explicit dihedral parameter family next.
+The matching explicit dihedral family and exact original finite bijection
+are now subsequently proved; see `EXACT_AUTOMORPHISM_SCOPE.md`.
 The exhaustive strong-switch classes, conjugacy and exactly-two TF-cousin
 conclusion remain written/previously reviewed but not fully formalized.

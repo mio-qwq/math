@@ -30,6 +30,8 @@ def main():
                         help='also rebuild ModelStructure and SixCycleInvariant')
     parser.add_argument('--include-ring-rigidity', action='store_true',
                         help='also rebuild all structural modules, RingAction and CycleRigidity')
+    parser.add_argument('--include-model-actions', action='store_true',
+                        help='also rebuild explicit cycle/model actions and exact 24n parametrization')
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
     build = args.build_dir.resolve()
@@ -47,15 +49,19 @@ def main():
     assert '5045d0056413266e57c625dcd7c365b10e377c52' in version
     start = time.perf_counter()
     runs = []
-    six_cycles = args.include_six_cycles or args.include_ring_rigidity
+    ring_rigidity = args.include_ring_rigidity or args.include_model_actions
+    six_cycles = args.include_six_cycles or ring_rigidity
     structure = args.include_structure or six_cycles
     modules = MODULES + ([('ModelStructure', 'Struct2.ModelStructure')]
                          if structure else [])
     if six_cycles:
         modules += [('SixCycleInvariant', 'Struct2.SixCycleInvariant')]
-    if args.include_ring_rigidity:
+    if ring_rigidity:
         modules += [('RingAction', 'Struct2.RingAction'),
                     ('CycleRigidity', 'Struct2.CycleRigidity')]
+    if args.include_model_actions:
+        modules += [('CycleActions', 'Struct2.CycleActions'),
+                    ('ModelActions', 'Struct2.ModelActions')]
     for module, namespace in modules:
         source = root / (module + '.lean')
         raw = source.read_text()
@@ -103,8 +109,9 @@ def main():
               'scope': ('Every odd n>=1: original named-leaf bijection, typed CG CDC/model graph isomorphism, all adjacency and deck intertwining. '
                         + ('Actual connected bipartite model and original CDC, actual strong decks, original deck fold recovery and instantiated full-automorphism fold/conjugacy equivalence. ' if structure else '')
                         + ('Symbolic six-cycle characterization for the model at n>=2 and original CDC at odd n>=3; arbitrary actual automorphisms preserve centre, leaf and ring types; explicit n=1 exception. ' if six_cycles else 'No all-n six-cycle invariant. ')
-                        + ('Synchronized actual ring actions, uniqueness from cyclic index/direction/swap and an injective encoding of all original CDC automorphisms into Fin(24*n) at every odd n>=3. ' if args.include_ring_rigidity else '')
-                        + 'No full group classification or exact cousin-count Lean theorem.')}
+                        + ('Synchronized actual ring actions, uniqueness from cyclic index/direction/swap and an injective encoding of all original CDC automorphisms into Fin(24*n) at every odd n>=3. ' if ring_rigidity else '')
+                        + ('Explicit cyclic rotations/reflections, centre-residue compatibility, exhaustive actual model/original automorphism parametrization and a two-sided bijection with Fin(24*n). Abstract group laws are not separately formalized. ' if args.include_model_actions else 'No full automorphism-family Lean classification. ')
+                        + 'No exhaustive strong-switch/conjugacy or exact cousin-count Lean theorem.')}
     (output / 'verification.json').write_text(json.dumps(report, indent=2, sort_keys=True) + '\n')
     print('TOTAL PASS:', report['audit_count'], 'audits;', report['seconds'], 'seconds')
 

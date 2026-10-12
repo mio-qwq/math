@@ -52,7 +52,9 @@ The universal six-cycle type invariant at n>=3 is now proved in the
 separate `SixCycleInvariant.lean` module; see `SIX_CYCLE_SCOPE.md` for its
 actual source-transfer and verification scope. The full automorphism upper
 bound is now proved in `RingAction.lean` and `CycleRigidity.lean`; see
-`UPPER_BOUND_SCOPE.md`. The matching formal family construction,
+`UPPER_BOUND_SCOPE.md`. The matching actual family and exact original finite
+bijection are now proved in `CycleActions.lean` and `ModelActions.lean`; see
+`EXACT_AUTOMORPHISM_SCOPE.md`. Abstract group laws,
 exhaustive strong-guide/conjugacy classification and exactly-two
 TF-cousin Lean conclusion remain unformalized. The full all-odd written
 theorem and its older independent review retain their separate scopes.

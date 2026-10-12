@@ -45,8 +45,9 @@ The later `SixCycleInvariant.lean` now proves the universal six-cycle type
 invariant and arbitrary-automorphism type preservation; see
 `SIX_CYCLE_SCOPE.md`. The remaining universal classification requires proofs of:
 
-1. the matching explicit `D_(6n) x C2` automorphism family and group laws
-   (the universal Fin(24n) upper bound is now proved; see `UPPER_BOUND_SCOPE.md`);
+1. the abstract composition/group-law packaging (the exhaustive explicit
+   automorphism family and exact Fin(24n) bijection are now proved; see
+   `EXACT_AUTOMORPHISM_SCOPE.md`);
 2. the complete strong-guide and conjugacy classification in that group;
 3. the other two fold classes and exhaustive ordinary-base classification.
 

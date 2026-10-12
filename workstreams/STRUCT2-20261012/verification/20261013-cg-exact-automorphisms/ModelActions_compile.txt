@@ -1,0 +1,28 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/model-actions/ModelActions.olean ModelActions.lean
+'Struct2.ModelActions.residue_rotation' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.residue_reflection' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.compatibleModelIso' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.rotationModelIso' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.reflectionModelIso' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.parameter_forward' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.every_model_automorphism_dihedral' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.parameter_inducedRingIso' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.parameter_code' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.parametersToAut_left_inv' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.parametersToAut_right_inv' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.parametersToAut_injective' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.modelAutToOriginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.modelAutToOriginal_left_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.modelAutToOriginal_right_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.originalParametersToAut_left_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.originalParametersToAut_right_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.pack_unpackCode' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.unpack_packCode' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.model_numeric_code_left_inv' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.model_numeric_code_right_inv' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelActions.original_numeric_code_left_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.original_numeric_code_right_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelActions.originalCDC_exact_24n' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT CODE: 0

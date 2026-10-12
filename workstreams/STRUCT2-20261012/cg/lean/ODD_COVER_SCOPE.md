@@ -70,7 +70,7 @@ and remain separate.
 ## Remaining universal classification
 
 The source/model semantic bridge is now proved. The remaining universal
-CG-specific tasks are the matching formal dihedral family, the exhaustive strong
+CG-specific tasks are the abstract group-law packaging, the exhaustive strong
 guide/conjugacy classification, and composition with the generic fold theorem
 to obtain precisely three ordinary base isomorphism classes. Those are not
 claimed by this module or its successful compilation.
@@ -84,6 +84,9 @@ preservation are subsequently proved in `SixCycleInvariant.lean`; see
 The actual universal automorphism upper bound is subsequently proved in
 `RingAction.lean` and `CycleRigidity.lean`; see `UPPER_BOUND_SCOPE.md` and
 its separate 94-audit dependency-chain receipt.
+The exhaustive explicit family and exact original finite bijection are
+subsequently proved in `CycleActions.lean` and `ModelActions.lean`; see
+`EXACT_AUTOMORPHISM_SCOPE.md` and its separate 130-audit receipt.
 
 The source definition and known companion constructions retain Mizzi's
 attribution. The generic folding correspondence retains its classical

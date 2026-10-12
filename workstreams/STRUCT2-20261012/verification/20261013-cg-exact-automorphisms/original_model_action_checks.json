@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": true,
+      "distinct_actual_automorphisms": 24,
+      "n": 1,
+      "shifts_tested": 6
+    },
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": true,
+      "distinct_actual_automorphisms": 72,
+      "n": 3,
+      "shifts_tested": 18
+    },
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": true,
+      "distinct_actual_automorphisms": 120,
+      "n": 5,
+      "shifts_tested": 30
+    },
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": true,
+      "distinct_actual_automorphisms": 168,
+      "n": 7,
+      "shifts_tested": 42
+    },
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": true,
+      "distinct_actual_automorphisms": 216,
+      "n": 9,
+      "shifts_tested": 54
+    },
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": false,
+      "distinct_actual_automorphisms": 28,
+      "n": 31,
+      "shifts_tested": 7
+    },
+    {
+      "all_original_adjacencies_and_residue_checks": true,
+      "all_shifts_tested": false,
+      "distinct_actual_automorphisms": 28,
+      "n": 101,
+      "shifts_tested": 7
+    }
+  ],
+  "coordinate_bridge_sha256": "1a5e5deb87c42da36b5ea8147212e4e4d129468ca7220abd4fa5e65f94ba2d8f",
+  "damage_controls_detected": 1,
+  "lean_sources": {
+    "CycleActions.lean": "83030fd6f18e6d85d2bb21b2e76b98acc85731e66502594b90b614901543abb9",
+    "ModelActions.lean": "61c2d690baba2b5a27830f9906a65bc38d510c547c3266e6804a3846a92ecd91"
+  },
+  "original_definition_sha256": "5eee16b8d3ecd40d0319c8ff4c5bbc2c8758869d87db8a0e2798f8e9cc12277e",
+  "pack_unpack_codes_checked": 62424,
+  "python": "3.12.14",
+  "scope": "Finite explicit-family checks only; n=1 is a proper subgroup, and full automorphism exhaustion/cardinality for odd n>=3 comes from Lean, not this program.",
+  "seconds": 0.147966,
+  "source_sha256": "f18ca924101b362a1f63394a6e1c0e39b3d0290f944b32d9c2c96129ed03e309",
+  "success": true,
+  "utc": "2026-10-12T18:52:05.038746+00:00"
+}
