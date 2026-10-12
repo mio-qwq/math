@@ -1,0 +1,46 @@
+{
+  "schema": "crypto3-independent-shift-review-v4-sha256",
+  "manifest_self_hash": false,
+  "files": {
+    "ABSORPTION.md": {
+      "bytes": 2373,
+      "sha256": "91bc9fabb75da86660107f7a93c8f5c68d450d3a463495dabfaca664dd62a887"
+    },
+    "ABSORPTION_RUN.json": {
+      "bytes": 21559,
+      "sha256": "231a14022c71c706f2689c3b117e0052ec1e63a55bcc456cf03eb0b6ec1a0104"
+    },
+    "EXECUTIONS.json": {
+      "bytes": 2434,
+      "sha256": "c85d7a9a814f30da85e4ec3773ab65aac23c03dae325fae8071fccc213aec8ef"
+    },
+    "INDEPENDENT_PROOF.md": {
+      "bytes": 8242,
+      "sha256": "3dd9f230476ddb21b7302755122325b087f3ce4fbda81c621ae653c082066404"
+    },
+    "INDEPENDENT_RUN.json": {
+      "bytes": 34863,
+      "sha256": "8ab41bdf1b5daaed7d20627ad5a4875ed199be150766a44d615d43ae3aebb77e"
+    },
+    "REVIEW.md": {
+      "bytes": 7245,
+      "sha256": "5dd34b7373f772db8b68134605a33f782b6f9639aa1c1841c6a29674beb0caa2"
+    },
+    "REVIEW_RECEIPT.json": {
+      "bytes": 27133,
+      "sha256": "737c8be234ab01740da07a72641cc3aad21f22bcbf8bc6eb9ccb6cc81388cef3"
+    },
+    "check_absorption.py": {
+      "bytes": 2628,
+      "sha256": "fc33841a11f35201a4dabc54f0f21ffcbb9dc02c44e47158baaad8ed29cc711d"
+    },
+    "check_independent.py": {
+      "bytes": 13248,
+      "sha256": "e126283ec563a2746c278d86355608523f33f4b91aa197678fc68f051ca79571"
+    },
+    "compare_candidate.py": {
+      "bytes": 7985,
+      "sha256": "d9ee171ef16eac5b26e40d88b6b296a840cfbb2f6580d5a6e9b628ef7362dff5"
+    }
+  }
+}

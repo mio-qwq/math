@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "bytes": 4161,
+      "git_blob": "a495221b7b60bc93e5077673e091e9445e731633",
+      "local_path": "sources/PROOF.md",
+      "sha256": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/PROOF.md"
+    },
+    {
+      "bytes": 537964,
+      "git_blob": "6e6ea5c60bee08c0b3272408d11f474e0e3a861e",
+      "local_path": "sources/certificate.json",
+      "sha256": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/certificate.json"
+    },
+    {
+      "bytes": 4401,
+      "git_blob": "5bc5b6872a078970ae0eb97009dd43e4709f72ff",
+      "local_path": "sources/check.py",
+      "sha256": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/check.py"
+    },
+    {
+      "bytes": 7922,
+      "git_blob": "f348cf5557592c183bf5f2f6aa7bc3f1f46ddfaa",
+      "local_path": "sources/v2/PROOF.md",
+      "sha256": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/PROOF.md"
+    },
+    {
+      "bytes": 2401,
+      "git_blob": "19ed391b5d2685bd181f139d9edd04696c83f0c1",
+      "local_path": "sources/v2/supports.json",
+      "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/supports.json"
+    },
+    {
+      "bytes": 357,
+      "git_blob": "64959f47cf96cc895f4a722e97dde307c5b55e0a",
+      "local_path": "sources/v2/exclusions.json",
+      "sha256": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/exclusions.json"
+    },
+    {
+      "bytes": 8110,
+      "git_blob": "9239bbd0d8a00251ee74c1aa009385a7ae1b3157",
+      "local_path": "sources/v2/check.py",
+      "sha256": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/check.py"
+    },
+    {
+      "bytes": 389,
+      "git_blob": "9dd2e6e0ea80eb6389a9c0c36c00f2791f182c7e",
+      "local_path": "sources/v2/TAIL.json",
+      "sha256": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804",
+      "source_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/TAIL.json"
+    }
+  ],
+  "source_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "source_ref_scope": "Pinned commit and object identities; no branch-containment claim.",
+  "source_repository": "https://github.com/mio-qwq/math"
+}

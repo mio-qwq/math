@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-12T17:06:28.072313+00:00",
+  "scope": "sources read before independent reconstruction; only file names seen from support12-v4, no bytes read",
+  "sources": {
+    "AGENTS.md": "f30dd3aadcc29e6ead910c39b45e286dc892ad9e4b161944458eb5b724981fd8",
+    "workstreams/CRYPTO3-20261012/README.md": "61ab65471f4526290fdf8170f3ed2b5fd1beada34da6ccf332b1612997a7ae63",
+    "workstreams/CRYPTO3-20261012/PUBLISH_STATUS.md": "4bb4be43d55919cc21dcd369562554647a9233ccf8af74651107da54eca8e7d2",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/mechanism/VALUATION_BOUND.md": "1edca147825bae48618e56d65730b5cf62ab7ebf50faf085f9226f5f1d95c574",
+    "coordination/RESUME.md": "b5c60926fab174a752a7771824ca6e6a8fe46c036a0818ab144dd981db41bf54",
+    "coordination/ROADMAP.md": "703702d362752321d437003e7622e6e6afd19b490682d82b0b95b8cd3da0190e",
+    "COORDINATION.md": "a2e4bc9fcaf602a53c5f69edf75d531cd60aff23347245788a3778c5c376d2dd"
+  }
+}

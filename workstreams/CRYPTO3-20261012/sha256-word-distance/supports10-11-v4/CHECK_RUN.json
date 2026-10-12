@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "original_recurrences": 11,
+  "Y_masks": 65536,
+  "first_survivors": 5,
+  "second_contradictions": 10,
+  "actual_local_fixtures": 2,
+  "scope": "author finite-dependency replay; no full schedule or independent-agent acceptance",
+  "negative_controls_rejected": [
+    "wrong_sigma",
+    "wrong_X_rank",
+    "wrong_X_mask",
+    "missing_Y_basis",
+    "missing_survivor",
+    "wrong_carry_bit",
+    "wrong_bridge_m",
+    "missing_active_d11",
+    "wrong_E_combination",
+    "damaged_fixture_word",
+    "false_fixture_interface"
+  ],
+  "python": "3.12.14",
+  "elapsed_s": 1.3336692830052925,
+  "source_sha256": {
+    "PROOF.md": "311d4c078d9a6bf55a2d35c2aae19ad6b7f07932ee83dcc3629ba938bb1ba1da",
+    "CERTIFICATE.json": "4ff0e86e9c8273484b19f1bcca13e6570702088292a1dd6c3c69d3d5f08c699d",
+    "check.py": "4f01716c910584caff09407a717fc9606b2644550c5ff7564e254bfaa12bc9e6"
+  },
+  "support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+}

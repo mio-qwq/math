@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T17:33:38.100841+00:00",
+  "author_manifest_sha256": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+  "author_manifest_files_verified": 17,
+  "author_hashes": {
+    "manifest.json": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+    "PROOF.md": "b74ae3ed3fc09d5aa6f8ac1e8b0e2a0ec76015722db3b031ae1416de52d8cffd",
+    "check.py": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+    "CERTIFICATE.json": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c"
+  },
+  "positive_input_classes_and_pair_coverage": [
+    {
+      "k": 1,
+      "complete_input_classes": 13,
+      "complete_pair_cases": 169,
+      "stored_twin_survivors": 0
+    },
+    {
+      "k": 2,
+      "complete_input_classes": 12,
+      "complete_pair_cases": 144,
+      "stored_twin_survivors": 0
+    },
+    {
+      "k": 3,
+      "complete_input_classes": 23,
+      "complete_pair_cases": 529,
+      "stored_twin_survivors": 0
+    },
+    {
+      "k": 4,
+      "complete_input_classes": 11,
+      "complete_pair_cases": 121,
+      "stored_twin_survivors": 0
+    },
+    {
+      "k": 5,
+      "complete_input_classes": 32,
+      "complete_pair_cases": 1024,
+      "stored_twin_survivors": 1
+    },
+    {
+      "k": 6,
+      "complete_input_classes": 21,
+      "complete_pair_cases": 441,
+      "stored_twin_survivors": 0
+    },
+    {
+      "k": 7,
+      "complete_input_classes": 31,
+      "complete_pair_cases": 961,
+      "stored_twin_survivors": 0
+    }
+  ],
+  "direct_XOR_row_receipts_checked": 512,
+  "written_original_row_combinations_checked": 28,
+  "mutations_detected": [
+    "row receipt RHS flip",
+    "missing mask pair"
+  ],
+  "scope": "artifact integrity/coverage and direct row identities; complete model exclusion independently rerun by check_independent.py"
+}

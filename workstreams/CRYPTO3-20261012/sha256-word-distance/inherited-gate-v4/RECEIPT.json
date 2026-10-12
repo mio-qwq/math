@@ -1,0 +1,97 @@
+{
+  "acceptance": {
+    "actual_schedule_distance_lower_bound": 13,
+    "basis_composition_checks": 128,
+    "complete_equality_supports": 15,
+    "equality_nodes_including_terminal": 735,
+    "negative_controls_rejected": 15,
+    "new_run_exit_code": 0,
+    "nonzero_initial_states_checked": 65535,
+    "right_inverse_columns_checked": 64,
+    "support_relaxation_exact_minimum": 13,
+    "terminal_zeros_checked": 65536,
+    "transition_inequalities_checked": 5308416,
+    "unforced_tail_equations_checked": 5,
+    "universally_excluded_support_indices": [
+      3,
+      14
+    ]
+  },
+  "created_utc": "2026-10-12T17:26:45.941833+00:00",
+  "decision": "accepted within written mathematics and independent full finite-certificate replay",
+  "default_replay_read_only": "python -B check_independent.py --negative",
+  "evidence_increment": "Completes the v1 full inequality replay and v2 full equality-path enumeration explicitly deferred by the older CRYPTO3 bounded review.",
+  "not_established": [
+    "actual distance-13 pair",
+    "actual lower bound 14",
+    "historical originality",
+    "cryptanalytic attack",
+    "Lean formalization",
+    "external human peer review"
+  ],
+  "review_base_crypto3_commit": "b7eb3becacf474a6978b6acb2879fce3d505e395",
+  "review_files_sha256": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CHECK.stdout.json": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2",
+    "PROVENANCE.json": "1f7c86a4cc3ca385b8d5e914025c6c47e75a0f9d94943b8a3915693aec1f705b",
+    "README.md": "93212ba880b853b32334645c4aa0c21aa7e445554def9fcde70a8a999be8e216",
+    "REVIEW.md": "357bf3b681aed741c8ebe3626a374e76ea1d23ab35a940511b3c281c59596059",
+    "RUN.json": "4b1256e522c4296726704e65c1491a926ba70d2372150251d99b35288dc8ed48",
+    "VERIFICATION.json": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2",
+    "check_independent.py": "620b44d889204ae4f50255984750965bd929b2d99274cd1ecc16d3492b194c1c"
+  },
+  "review_method": "Mathematical review and independent reimplementation after source disclosure; no blind-rediscovery claim",
+  "reviewer_role": "Independent inherited-global-gate subagent; not the CRYPTO2 discoverer",
+  "schema": "CRYPTO3-inherited-full-finite-gate-receipt-v4",
+  "source_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "source_files": [
+    {
+      "bytes": 4161,
+      "git_blob": "a495221b7b60bc93e5077673e091e9445e731633",
+      "local_path": "sources/PROOF.md",
+      "sha256": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424"
+    },
+    {
+      "bytes": 537964,
+      "git_blob": "6e6ea5c60bee08c0b3272408d11f474e0e3a861e",
+      "local_path": "sources/certificate.json",
+      "sha256": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b"
+    },
+    {
+      "bytes": 4401,
+      "git_blob": "5bc5b6872a078970ae0eb97009dd43e4709f72ff",
+      "local_path": "sources/check.py",
+      "sha256": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35"
+    },
+    {
+      "bytes": 7922,
+      "git_blob": "f348cf5557592c183bf5f2f6aa7bc3f1f46ddfaa",
+      "local_path": "sources/v2/PROOF.md",
+      "sha256": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1"
+    },
+    {
+      "bytes": 2401,
+      "git_blob": "19ed391b5d2685bd181f139d9edd04696c83f0c1",
+      "local_path": "sources/v2/supports.json",
+      "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+    },
+    {
+      "bytes": 357,
+      "git_blob": "64959f47cf96cc895f4a722e97dde307c5b55e0a",
+      "local_path": "sources/v2/exclusions.json",
+      "sha256": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca"
+    },
+    {
+      "bytes": 8110,
+      "git_blob": "9239bbd0d8a00251ee74c1aa009385a7ae1b3157",
+      "local_path": "sources/v2/check.py",
+      "sha256": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721"
+    },
+    {
+      "bytes": 389,
+      "git_blob": "9dd2e6e0ea80eb6389a9c0c36c00f2791f182c7e",
+      "local_path": "sources/v2/TAIL.json",
+      "sha256": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804"
+    }
+  ]
+}

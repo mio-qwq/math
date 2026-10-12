@@ -1,0 +1,9264 @@
+{
+  "bits": 32,
+  "case_count": 1024,
+  "cases": [
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 199,
+        "nodes": 208
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 215,
+        "nodes": 224
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 12057,
+        "nodes": 12122
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 535,
+        "nodes": 540
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 761,
+        "nodes": 794
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 761,
+        "nodes": 794
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "conflicts": 8,
+        "edges": 231,
+        "nodes": 232
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 110
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 73,
+        "nodes": 74
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 25,
+        "nodes": 26
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00280000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 73,
+        "nodes": 74
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 199,
+        "nodes": 208
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 600,
+        "nodes": 609
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 12057,
+        "nodes": 12122
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 984,
+        "nodes": 993
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 6137,
+        "nodes": 6170
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 136,
+        "nodes": 141
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 1017,
+        "nodes": 1050
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 244,
+        "nodes": 253
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 1161,
+        "nodes": 1194
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 110
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 169,
+        "nodes": 170
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 201,
+        "nodes": 202
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 233,
+        "nodes": 234
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 265,
+        "nodes": 266
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 169,
+        "nodes": 170
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 185,
+        "nodes": 186
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00380000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 215,
+        "nodes": 224
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 600,
+        "nodes": 609
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 631,
+        "nodes": 640
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 200,
+        "nodes": 209
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 5727,
+        "nodes": 5760
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 11034,
+        "nodes": 11099
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 1503,
+        "nodes": 1568
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 762,
+        "nodes": 795
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 799,
+        "nodes": 832
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 762,
+        "nodes": 795
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 111
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 75,
+        "nodes": 76
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 107,
+        "nodes": 108
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00580000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 74,
+        "nodes": 75
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 12057,
+        "nodes": 12122
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 631,
+        "nodes": 640
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 199,
+        "nodes": 208
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 5727,
+        "nodes": 5760
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 874,
+        "nodes": 883
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 538,
+        "nodes": 547
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 1055,
+        "nodes": 1088
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 218,
+        "nodes": 227
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "conflicts": 32,
+        "edges": 975,
+        "nodes": 976
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 138,
+        "nodes": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 175,
+        "nodes": 176
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 207,
+        "nodes": 208
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 239,
+        "nodes": 240
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 155,
+        "nodes": 156
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00680000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 12057,
+        "nodes": 12122
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 200,
+        "nodes": 209
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 199,
+        "nodes": 208
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 11034,
+        "nodes": 11099
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 5626,
+        "nodes": 5659
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 1018,
+        "nodes": 1051
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 1247,
+        "nodes": 1312
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 1162,
+        "nodes": 1195
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 703,
+        "nodes": 736
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 111
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 171
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 191,
+        "nodes": 192
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 202,
+        "nodes": 203
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 223,
+        "nodes": 224
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 234,
+        "nodes": 235
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 255,
+        "nodes": 256
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 266,
+        "nodes": 267
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 163,
+        "nodes": 164
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 170,
+        "nodes": 171
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 179,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00780000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 535,
+        "nodes": 540
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 984,
+        "nodes": 993
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 5727,
+        "nodes": 5760
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 11034,
+        "nodes": 11099
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 200,
+        "nodes": 209
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "conflicts": 256,
+        "edges": 4093,
+        "nodes": 3870
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "conflicts": 64,
+        "edges": 1285,
+        "nodes": 1238
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 81,
+        "nodes": 82
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00d80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 6137,
+        "nodes": 6170
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 5727,
+        "nodes": 5760
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 874,
+        "nodes": 883
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 357,
+        "nodes": 374
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 1605,
+        "nodes": 1622
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "conflicts": 32,
+        "edges": 821,
+        "nodes": 822
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "conflicts": 24,
+        "edges": 461,
+        "nodes": 454
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 133,
+        "nodes": 134
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 149,
+        "nodes": 150
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 101,
+        "nodes": 102
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 761,
+        "nodes": 794
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 11034,
+        "nodes": 11099
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 200,
+        "nodes": 209
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 357,
+        "nodes": 374
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 637,
+        "nodes": 670
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 637,
+        "nodes": 670
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 381,
+        "nodes": 398
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 141,
+        "nodes": 142
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 157,
+        "nodes": 158
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 113,
+        "nodes": 114
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00f80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 136,
+        "nodes": 141
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 5626,
+        "nodes": 5659
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 358,
+        "nodes": 375
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01d80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 1017,
+        "nodes": 1050
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 1503,
+        "nodes": 1568
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 538,
+        "nodes": 547
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "conflicts": 256,
+        "edges": 4093,
+        "nodes": 3870
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 357,
+        "nodes": 374
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 108,
+        "nodes": 113
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 761,
+        "nodes": 794
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 169,
+        "nodes": 178
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 762,
+        "nodes": 795
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 671,
+        "nodes": 704
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 357,
+        "nodes": 374
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 358,
+        "nodes": 375
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 638,
+        "nodes": 671
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 638,
+        "nodes": 671
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 382,
+        "nodes": 399
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 142,
+        "nodes": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 158,
+        "nodes": 159
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01f80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "conflicts": 8,
+        "edges": 231,
+        "nodes": 232
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 244,
+        "nodes": 253
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 1055,
+        "nodes": 1088
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 1018,
+        "nodes": 1051
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 1605,
+        "nodes": 1622
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 358,
+        "nodes": 375
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 173,
+        "nodes": 182
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 173,
+        "nodes": 182
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 173,
+        "nodes": 182
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 109,
+        "nodes": 114
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03d80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 105,
+        "nodes": 110
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 1161,
+        "nodes": 1194
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 799,
+        "nodes": 832
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 218,
+        "nodes": 227
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 1247,
+        "nodes": 1312
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "conflicts": 64,
+        "edges": 1285,
+        "nodes": 1238
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 637,
+        "nodes": 670
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 37,
+        "nodes": 38
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 105,
+        "nodes": 110
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 762,
+        "nodes": 795
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 170,
+        "nodes": 179
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 358,
+        "nodes": 375
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03f80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 106,
+        "nodes": 111
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "conflicts": 32,
+        "edges": 975,
+        "nodes": 976
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 1162,
+        "nodes": 1195
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "conflicts": 32,
+        "edges": 821,
+        "nodes": 822
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 638,
+        "nodes": 671
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 173,
+        "nodes": 182
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07d80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 169,
+        "nodes": 170
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 138,
+        "nodes": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 703,
+        "nodes": 736
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 637,
+        "nodes": 670
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 35,
+        "nodes": 36
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 106,
+        "nodes": 111
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07f80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 175,
+        "nodes": 176
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 170,
+        "nodes": 171
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "conflicts": 24,
+        "edges": 461,
+        "nodes": 454
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 638,
+        "nodes": 671
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 173,
+        "nodes": 182
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fd80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 201,
+        "nodes": 202
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 191,
+        "nodes": 192
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 381,
+        "nodes": 398
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0ff80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 207,
+        "nodes": 208
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 202,
+        "nodes": 203
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 133,
+        "nodes": 134
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 382,
+        "nodes": 399
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 173,
+        "nodes": 182
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fd80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 233,
+        "nodes": 234
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 223,
+        "nodes": 224
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 141,
+        "nodes": 142
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 108,
+        "nodes": 113
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1ff80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 239,
+        "nodes": 240
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 234,
+        "nodes": 235
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 149,
+        "nodes": 150
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 142,
+        "nodes": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 109,
+        "nodes": 114
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 54,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fd80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 265,
+        "nodes": 266
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 111,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 255,
+        "nodes": 256
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 85,
+        "nodes": 86
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 157,
+        "nodes": 158
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 53,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 95,
+        "nodes": 96
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 77,
+        "nodes": 78
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 53,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3ff80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 155,
+        "nodes": 156
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 266,
+        "nodes": 267
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 101,
+        "nodes": 102
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 158,
+        "nodes": 159
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 56,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 37,
+        "nodes": 38
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fd80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 22,
+        "nodes": 23
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 169,
+        "nodes": 170
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 75,
+        "nodes": 76
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 163,
+        "nodes": 164
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 105,
+        "nodes": 106
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 53,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 25,
+        "nodes": 26
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 73,
+        "nodes": 74
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 78,
+        "nodes": 79
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 68,
+        "nodes": 69
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 66,
+        "nodes": 67
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 40,
+        "nodes": 41
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 53,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 22,
+        "nodes": 23
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7ff80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 25,
+        "nodes": 26
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 170,
+        "nodes": 171
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 39,
+        "nodes": 40
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 106,
+        "nodes": 107
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 37,
+        "nodes": 38
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 35,
+        "nodes": 36
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 25,
+        "nodes": 26
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 22,
+        "nodes": 23
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 68,
+        "nodes": 68,
+        "sat_leaves": 1
+      },
+      "witness": {
+        "x": 4292345856,
+        "xp": 0,
+        "y": 4292345920,
+        "yp": 64
+      }
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffd80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 24,
+        "nodes": 25
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 185,
+        "nodes": 186
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 107,
+        "nodes": 108
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 179,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 81,
+        "nodes": 82
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 113,
+        "nodes": 114
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 37,
+        "nodes": 38
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 53,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00280000",
+      "stats": {
+        "edges": 73,
+        "nodes": 74
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00380000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00580000",
+      "stats": {
+        "edges": 74,
+        "nodes": 75
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00680000",
+      "stats": {
+        "edges": 67,
+        "nodes": 68
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00780000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00d80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00e80000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "00f80000",
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "01d80000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "01e80000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "01f80000",
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "03d80000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "03e80000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "03f80000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "07d80000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "07e80000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "07f80000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "0fd80000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "0fe80000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "0ff80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "1fd80000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "1fe80000",
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "1ff80000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "3fd80000",
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "3fe80000",
+      "stats": {
+        "edges": 41,
+        "nodes": 42
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "3ff80000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "7fd80000",
+      "stats": {
+        "edges": 22,
+        "nodes": 23
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "7fe80000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "7ff80000",
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "ffd80000",
+      "stats": {
+        "edges": 24,
+        "nodes": 25
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "ffe80000",
+      "stats": {
+        "edges": 23,
+        "nodes": 24
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "fff80000",
+      "alpha_y": "fff80000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 53,
+        "nodes": 53
+      },
+      "witness": null
+    }
+  ],
+  "delta": 2621440,
+  "input_classes": 32,
+  "order": [
+    0,
+    1
+  ],
+  "sat_cases": 1,
+  "scope": "fixed-difference twin core; not a full support or schedule witness",
+  "seconds": 1.2725722110044444,
+  "source_sha256": "cc5729725aff4aa05a8b6dc83a31a653a1afd75a13f53c841dbbf49acfba33a6",
+  "stats": {
+    "conflicts": 848,
+    "edges": 269515,
+    "nodes": 273011,
+    "sat_leaves": 1
+  }
+}

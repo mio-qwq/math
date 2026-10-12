@@ -1,0 +1,22 @@
+{
+  "files": {
+    "AUTHOR-RECEIPT.json": "705c8ae4d9388c6b33c97a521bd3d3fdc78d9cd998f1d46e072c3450dc69c284",
+    "BUILD-RUN.json": "22d3a4c74874c0ebd2a1c436e5b9c96ee1871f2bfa05107600d9d8f50f1c444b",
+    "CERTIFICATE.json": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c",
+    "CHECK-RUN.json": "8debf5b8cc04249f2863199f97fcbfb764c6a11ee333303377264ef527203d84",
+    "PROOF.md": "b74ae3ed3fc09d5aa6f8ac1e8b0e2a0ec76015722db3b031ae1416de52d8cffd",
+    "README.md": "4b818ed72557c7296ff36f96b7546dffc183adf7dcc2a2a2dfb4a921ec12c95a",
+    "TRIPLE-5-V19.json": "1c0070c35fe0b3cc7f4705fe2fcab7921256b9dfda1e972d32b9231fff63d6c9",
+    "TWIN-1-V19.json": "49433820e271221677d8160b46f575f71a28edd9e4dc49a29b010d36523e1c10",
+    "TWIN-1-V20.json": "11dceb1b852b466db54cda72828dd27825f6617cc880f7aa296267fd5913af67",
+    "TWIN-1-V21.json": "37e6941acb711c87c73a60de02e2c72c71872f179ef5ae4ef58ed2ec44895eca",
+    "TWIN-3-V19.json": "179ac5f2dbb511b09ff1189d11eccc5af5a485f600fde2674f4e460f6e816de4",
+    "TWIN-3-V20.json": "f20248a37b3714bd3cad7789b8acd8c1a936405ad1dcddd5be7b02e3409de294",
+    "TWIN-5-V19.json": "ed2edbe43790d315f425737aa0a8b97a887347ffb5d109ddc7f4864efd617171",
+    "TWIN-7-V19.json": "cf4e4c82eb7758d3b3c3491973094b77cd9e452f9a7d6c4292704178c795d227",
+    "check.py": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+    "explore.py": "cc5729725aff4aa05a8b6dc83a31a653a1afd75a13f53c841dbbf49acfba33a6",
+    "explore_triple.py": "42d4ff3a346de65521180778b358b79a47fe06324d944196b876f3b7c5de0335"
+  },
+  "schema": "CRYPTO3-support12-v4-manifest-v1"
+}

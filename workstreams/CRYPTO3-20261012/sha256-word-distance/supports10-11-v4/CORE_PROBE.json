@@ -1,0 +1,91 @@
+{
+  "schema": "supports10-11-local-fixed-mask-core-discovery-v1",
+  "scope": "two actual pairs at indices 18 and 26 only; no full schedule",
+  "interpretation": "UNSAT is uncertified discovery; SAT is only a local fixture",
+  "python": "3.12.14",
+  "z3": "4.15.3",
+  "source_sha256": "806c09ed02ddaec717e875d5ed7254381990eeaebf1847d967ca76acaed19b59",
+  "mask_source_sha256": "c6e09efea66f1d8165247f9532c58065b2a7805554a4b4af7819e9d45db69749",
+  "cases": [
+    {
+      "m": 1,
+      "alpha_Y": 1208278486,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.04162327900121454
+    },
+    {
+      "m": 1,
+      "alpha_Y": 3356810742,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.024115243002597708
+    },
+    {
+      "m": 1,
+      "alpha_Y": 3625254870,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.029347304000111762
+    },
+    {
+      "m": 1,
+      "alpha_Y": 1476722678,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.037543347003520466
+    },
+    {
+      "m": 1,
+      "alpha_Y": 3624267494,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.01499770800000988
+    },
+    {
+      "m": 2,
+      "alpha_Y": 1208278486,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.0381724109975039
+    },
+    {
+      "m": 2,
+      "alpha_Y": 3356810742,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.016280566000205
+    },
+    {
+      "m": 2,
+      "alpha_Y": 3625254870,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.013365655002417043
+    },
+    {
+      "m": 2,
+      "alpha_Y": 1476722678,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.02438906699535437
+    },
+    {
+      "m": 2,
+      "alpha_Y": 3624267494,
+      "timeout_ms": 5000,
+      "status": "unsat",
+      "reason_unknown": null,
+      "elapsed_s": 0.03529047899792204
+    }
+  ]
+}

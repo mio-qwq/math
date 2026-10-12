@@ -1,0 +1,1744 @@
+{
+  "schema": "crypto3-independent-shift-review-v4",
+  "claim_status": "independently checked conditional boundary theorem",
+  "support_source": {
+    "path": "sha256-word-distance/supports-v2.json",
+    "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "bytes": 2401
+  },
+  "checker_source_sha256": "e126283ec563a2746c278d86355608523f33f4b91aa197678fc68f051ca79571",
+  "recurrence": {
+    "modulus": 4294967296,
+    "forward_lags": [
+      [
+        "G",
+        2
+      ],
+      [
+        "d",
+        7
+      ],
+      [
+        "F",
+        15
+      ],
+      [
+        "d",
+        16
+      ]
+    ],
+    "inverse_offsets": [
+      [
+        "d",
+        16,
+        1
+      ],
+      [
+        "G",
+        14,
+        -1
+      ],
+      [
+        "d",
+        9,
+        -1
+      ],
+      [
+        "F",
+        1,
+        -1
+      ]
+    ]
+  },
+  "sigma_ranks": [
+    {
+      "sigma": 0,
+      "rank": 32,
+      "columns": [
+        33570816,
+        67141632,
+        134283264,
+        268566529,
+        537133058,
+        1074266116,
+        2148532232,
+        2097169,
+        4194338,
+        8388676,
+        16777352,
+        33554704,
+        67109408,
+        134218816,
+        268437632,
+        536875264,
+        1073750528,
+        2147501056,
+        34817,
+        69634,
+        139268,
+        278536,
+        557072,
+        1114144,
+        2228288,
+        4456576,
+        8913152,
+        17826304,
+        35652608,
+        71305216,
+        142610432,
+        285220864
+      ],
+      "eliminated_pivots": [
+        1,
+        3,
+        7,
+        14,
+        31,
+        63,
+        97,
+        194,
+        376,
+        656,
+        1112,
+        2593,
+        5186,
+        10373,
+        16656,
+        33312,
+        66624,
+        133249,
+        266498,
+        532996,
+        1065992,
+        2097169,
+        4194338,
+        8388676,
+        16777352,
+        33570816,
+        67141632,
+        134283264,
+        268566529,
+        537133058,
+        1074266116,
+        2148532232
+      ]
+    },
+    {
+      "sigma": 1,
+      "rank": 32,
+      "columns": [
+        40960,
+        81920,
+        163840,
+        327680,
+        655360,
+        1310720,
+        2621440,
+        5242880,
+        10485760,
+        20971520,
+        41943041,
+        83886082,
+        167772164,
+        335544328,
+        671088656,
+        1342177312,
+        2684354624,
+        1073741953,
+        2147483906,
+        517,
+        1034,
+        2068,
+        4136,
+        8272,
+        16544,
+        33088,
+        66176,
+        132352,
+        264704,
+        529408,
+        1058816,
+        2117632
+      ],
+      "eliminated_pivots": [
+        1,
+        3,
+        6,
+        11,
+        23,
+        46,
+        93,
+        186,
+        263,
+        517,
+        1034,
+        2068,
+        4136,
+        8535,
+        16555,
+        40960,
+        81920,
+        163840,
+        327680,
+        655360,
+        1310720,
+        2621440,
+        5242880,
+        10485760,
+        20971520,
+        41943041,
+        83886082,
+        167772164,
+        335544328,
+        671088656,
+        1342177312,
+        2684354624
+      ]
+    }
+  ],
+  "certified_maps": [
+    {
+      "source": 0,
+      "offset": 1,
+      "target": 9,
+      "shift_direction": "left",
+      "shift_size": 1,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        1,
+        8,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        37,
+        43,
+        50,
+        51,
+        57
+      ],
+      "distinct_initial_indices": [
+        1,
+        8,
+        9,
+        15
+      ]
+    },
+    {
+      "source": 1,
+      "offset": 2,
+      "target": 9,
+      "shift_direction": "left",
+      "shift_size": 2,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 65,
+          "original_recurrence_index": 65,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 63,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 58,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        1,
+        8,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        37,
+        43,
+        50,
+        51,
+        57
+      ],
+      "distinct_initial_indices": [
+        1,
+        8,
+        9,
+        15
+      ]
+    },
+    {
+      "source": 2,
+      "offset": 3,
+      "target": 9,
+      "shift_direction": "left",
+      "shift_size": 3,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 65,
+          "original_recurrence_index": 65,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 63,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 58,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 66,
+          "original_recurrence_index": 66,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 64,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 59,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 51,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        1,
+        8,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        37,
+        43,
+        50,
+        51,
+        57
+      ],
+      "distinct_initial_indices": [
+        1,
+        8,
+        9,
+        15
+      ]
+    },
+    {
+      "source": 4,
+      "offset": 4,
+      "target": 9,
+      "shift_direction": "left",
+      "shift_size": 4,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 65,
+          "original_recurrence_index": 65,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 63,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 58,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 66,
+          "original_recurrence_index": 66,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 64,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 59,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 51,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 67,
+          "original_recurrence_index": 67,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 65,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 60,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 52,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 51,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        1,
+        8,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        37,
+        43,
+        50,
+        51,
+        57
+      ],
+      "distinct_initial_indices": [
+        1,
+        8,
+        9,
+        15
+      ]
+    },
+    {
+      "source": 6,
+      "offset": 1,
+      "target": 12,
+      "shift_direction": "left",
+      "shift_size": 1,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        10,
+        11,
+        13,
+        15,
+        18,
+        20,
+        26,
+        28,
+        29,
+        34,
+        42,
+        43,
+        57
+      ],
+      "distinct_initial_indices": [
+        10,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "source": 7,
+      "offset": 3,
+      "target": 12,
+      "shift_direction": "left",
+      "shift_size": 3,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 65,
+          "original_recurrence_index": 65,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 63,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 58,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 66,
+          "original_recurrence_index": 66,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 64,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 59,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 51,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        10,
+        11,
+        13,
+        15,
+        18,
+        20,
+        26,
+        28,
+        29,
+        34,
+        42,
+        43,
+        57
+      ],
+      "distinct_initial_indices": [
+        10,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "source": 13,
+      "offset": 2,
+      "target": 12,
+      "shift_direction": "left",
+      "shift_size": 2,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": 65,
+          "original_recurrence_index": 65,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 63,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 58,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        10,
+        11,
+        13,
+        15,
+        18,
+        20,
+        26,
+        28,
+        29,
+        34,
+        42,
+        43,
+        57
+      ],
+      "distinct_initial_indices": [
+        10,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "source": 0,
+      "offset": -1,
+      "target": 1,
+      "shift_direction": "right",
+      "shift_size": 1,
+      "boundary_rows": [
+        {
+          "new_old_index": -1,
+          "original_recurrence_index": 15,
+          "terms": [
+            {
+              "symbol": "d",
+              "index": 15,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "G",
+              "index": 13,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 8,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 0,
+              "coefficient": -1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        3,
+        10,
+        11,
+        17,
+        24,
+        25,
+        31,
+        38,
+        39,
+        45,
+        52,
+        53,
+        59
+      ],
+      "distinct_initial_indices": [
+        3,
+        10,
+        11
+      ]
+    },
+    {
+      "source": 0,
+      "offset": -2,
+      "target": 2,
+      "shift_direction": "right",
+      "shift_size": 2,
+      "boundary_rows": [
+        {
+          "new_old_index": -1,
+          "original_recurrence_index": 15,
+          "terms": [
+            {
+              "symbol": "d",
+              "index": 15,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "G",
+              "index": 13,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 8,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 0,
+              "coefficient": -1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": -2,
+          "original_recurrence_index": 14,
+          "terms": [
+            {
+              "symbol": "d",
+              "index": 14,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "G",
+              "index": 12,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 7,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": -1,
+              "coefficient": -1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        4,
+        11,
+        12,
+        18,
+        25,
+        26,
+        32,
+        39,
+        40,
+        46,
+        53,
+        54,
+        60
+      ],
+      "distinct_initial_indices": [
+        4,
+        11,
+        12
+      ]
+    },
+    {
+      "source": 0,
+      "offset": -3,
+      "target": 4,
+      "shift_direction": "right",
+      "shift_size": 3,
+      "boundary_rows": [
+        {
+          "new_old_index": -1,
+          "original_recurrence_index": 15,
+          "terms": [
+            {
+              "symbol": "d",
+              "index": 15,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "G",
+              "index": 13,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 8,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 0,
+              "coefficient": -1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": -2,
+          "original_recurrence_index": 14,
+          "terms": [
+            {
+              "symbol": "d",
+              "index": 14,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "G",
+              "index": 12,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 7,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": -1,
+              "coefficient": -1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        },
+        {
+          "new_old_index": -3,
+          "original_recurrence_index": 13,
+          "terms": [
+            {
+              "symbol": "d",
+              "index": 13,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "G",
+              "index": 11,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 6,
+              "coefficient": -1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": -2,
+              "coefficient": -1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [],
+      "added_active_old_indices": [],
+      "new_exact_support": [
+        5,
+        12,
+        13,
+        19,
+        26,
+        27,
+        33,
+        40,
+        41,
+        47,
+        54,
+        55,
+        61
+      ],
+      "distinct_initial_indices": [
+        5,
+        12,
+        13
+      ]
+    },
+    {
+      "source": 3,
+      "offset": 2,
+      "target": 14,
+      "shift_direction": "left",
+      "shift_size": 2,
+      "boundary_rows": [
+        {
+          "new_old_index": 64,
+          "original_recurrence_index": 64,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 62,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 57,
+              "coefficient": 1,
+              "input_status": "nonzero"
+            },
+            {
+              "symbol": "F",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 48,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "nonzero"
+        },
+        {
+          "new_old_index": 65,
+          "original_recurrence_index": 65,
+          "terms": [
+            {
+              "symbol": "G",
+              "index": 63,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 58,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "F",
+              "index": 50,
+              "coefficient": 1,
+              "input_status": "zero"
+            },
+            {
+              "symbol": "d",
+              "index": 49,
+              "coefficient": 1,
+              "input_status": "zero"
+            }
+          ],
+          "conclusion": "zero"
+        }
+      ],
+      "deleted_active_original_indices": [
+        1
+      ],
+      "added_active_old_indices": [
+        64
+      ],
+      "new_exact_support": [
+        6,
+        9,
+        10,
+        14,
+        15,
+        24,
+        25,
+        27,
+        32,
+        40,
+        41,
+        55,
+        62
+      ],
+      "distinct_initial_indices": [
+        6,
+        9,
+        10,
+        14,
+        15
+      ]
+    }
+  ],
+  "exhaustive_safe_mapping_domain": {
+    "source_supports": 15,
+    "nonzero_offsets": 126,
+    "oracle": "zero/one active term; >=2 or unknown remain unknown"
+  },
+  "exhaustive_safe_maps": [
+    {
+      "source": 0,
+      "offset": -3,
+      "target": 4
+    },
+    {
+      "source": 0,
+      "offset": -2,
+      "target": 2
+    },
+    {
+      "source": 0,
+      "offset": -1,
+      "target": 1
+    },
+    {
+      "source": 0,
+      "offset": 1,
+      "target": 9
+    },
+    {
+      "source": 1,
+      "offset": -2,
+      "target": 4
+    },
+    {
+      "source": 1,
+      "offset": -1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "offset": 1,
+      "target": 0
+    },
+    {
+      "source": 1,
+      "offset": 2,
+      "target": 9
+    },
+    {
+      "source": 2,
+      "offset": -1,
+      "target": 4
+    },
+    {
+      "source": 2,
+      "offset": 1,
+      "target": 1
+    },
+    {
+      "source": 2,
+      "offset": 2,
+      "target": 0
+    },
+    {
+      "source": 2,
+      "offset": 3,
+      "target": 9
+    },
+    {
+      "source": 3,
+      "offset": 2,
+      "target": 14
+    },
+    {
+      "source": 4,
+      "offset": 1,
+      "target": 2
+    },
+    {
+      "source": 4,
+      "offset": 2,
+      "target": 1
+    },
+    {
+      "source": 4,
+      "offset": 3,
+      "target": 0
+    },
+    {
+      "source": 4,
+      "offset": 4,
+      "target": 9
+    },
+    {
+      "source": 6,
+      "offset": -1,
+      "target": 13
+    },
+    {
+      "source": 6,
+      "offset": 1,
+      "target": 12
+    },
+    {
+      "source": 7,
+      "offset": 1,
+      "target": 13
+    },
+    {
+      "source": 7,
+      "offset": 2,
+      "target": 6
+    },
+    {
+      "source": 7,
+      "offset": 3,
+      "target": 12
+    },
+    {
+      "source": 13,
+      "offset": 1,
+      "target": 6
+    },
+    {
+      "source": 13,
+      "offset": 2,
+      "target": 12
+    }
+  ],
+  "extra_maps_beyond_eleven_claims": [
+    {
+      "source": 1,
+      "offset": -2,
+      "target": 4
+    },
+    {
+      "source": 1,
+      "offset": -1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "offset": 1,
+      "target": 0
+    },
+    {
+      "source": 2,
+      "offset": -1,
+      "target": 4
+    },
+    {
+      "source": 2,
+      "offset": 1,
+      "target": 1
+    },
+    {
+      "source": 2,
+      "offset": 2,
+      "target": 0
+    },
+    {
+      "source": 4,
+      "offset": 1,
+      "target": 2
+    },
+    {
+      "source": 4,
+      "offset": 2,
+      "target": 1
+    },
+    {
+      "source": 4,
+      "offset": 3,
+      "target": 0
+    },
+    {
+      "source": 6,
+      "offset": -1,
+      "target": 13
+    },
+    {
+      "source": 7,
+      "offset": 1,
+      "target": 13
+    },
+    {
+      "source": 7,
+      "offset": 2,
+      "target": 6
+    },
+    {
+      "source": 13,
+      "offset": 1,
+      "target": 6
+    }
+  ],
+  "coverage": [
+    {
+      "source": 0,
+      "route": [
+        0,
+        9
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 1,
+      "route": [
+        1,
+        9
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 2,
+      "route": [
+        2,
+        9
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 3,
+      "route": [
+        3,
+        14
+      ],
+      "endpoint": "inherited-excluded-support14"
+    },
+    {
+      "source": 4,
+      "route": [
+        4,
+        9
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 5,
+      "route": [
+        5
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 6,
+      "route": [
+        6,
+        12
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 7,
+      "route": [
+        7,
+        12
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 8,
+      "route": [
+        8
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 9,
+      "route": [
+        9
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 10,
+      "route": [
+        10
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 11,
+      "route": [
+        11
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 12,
+      "route": [
+        12
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 13,
+      "route": [
+        13,
+        12
+      ],
+      "endpoint": "remaining-representative"
+    },
+    {
+      "source": 14,
+      "route": [
+        14
+      ],
+      "endpoint": "inherited-excluded-support14"
+    }
+  ],
+  "representatives": [
+    5,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "classification_dependency": "all distance-13 supports are in frozen fifteen; not re-proved here",
+  "inherited_exclusion_dependency": "support14 is impossible; not re-proved by this checker",
+  "negative_controls": [
+    {
+      "name": "tail64_in_support3_cannot_be_zero",
+      "rejected": true,
+      "reason": "target exact support is incorrect"
+    },
+    {
+      "name": "blind_reverse_9_to_0_has_unknown_prefix",
+      "rejected": true,
+      "reason": "unknown boundary activity"
+    },
+    {
+      "name": "shift0_right4_cannot_equal_support4",
+      "rejected": true,
+      "reason": "target exact support is incorrect"
+    },
+    {
+      "name": "wrong_shift_magnitude_for_2_to_9",
+      "rejected": true,
+      "reason": "target exact support is incorrect"
+    },
+    {
+      "name": "right14_to3_does_not_have_zero_prefix",
+      "rejected": true,
+      "reason": "unknown boundary activity"
+    },
+    {
+      "name": "discard_added_tail_in_3_to14",
+      "rejected": true,
+      "reason": "target exact support is incorrect"
+    },
+    {
+      "name": "unconditional_equal_right_prefix_is_false",
+      "rejected": true,
+      "inputs_a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inputs_b": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "new_prefix_a": 0,
+      "new_prefix_b": 1
+    },
+    {
+      "name": "unconditional_equal_left_tail_is_false",
+      "rejected": true,
+      "inputs_a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inputs_b": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "word64_a": 0,
+      "word64_b": 3782155622
+    }
+  ],
+  "implementation_crosschecks": {
+    "scope": "deterministic implementation crosschecks; not a universal proof",
+    "sigma_words": 98,
+    "sigma_checks": 196,
+    "distinct_pairs": 16,
+    "offsets_per_pair": 127,
+    "word_equalities_checked": 260096
+  },
+  "no_candidate_checker_import_or_execution": true,
+  "no_distance13_witness_or_distance14_bound": true
+}

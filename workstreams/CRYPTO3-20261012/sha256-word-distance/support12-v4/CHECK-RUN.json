@@ -1,0 +1,345 @@
+{
+  "certificate_sha256": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c",
+  "original_row_combinations": [
+    {
+      "original_rows": {
+        "18": 1
+      },
+      "relation": "d18-d11",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "34": 1
+      },
+      "relation": "d34-d18",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "50": -1
+      },
+      "relation": "d43+d34",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "33": 1,
+        "42": -1,
+        "49": -1
+      },
+      "relation": "F34-F18",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "33": 1,
+        "42": -1,
+        "58": -1
+      },
+      "relation": "F43-F18",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "18": -2,
+        "20": 1,
+        "27": 2,
+        "29": -1,
+        "36": -1
+      },
+      "relation": "G34-G18-2d18",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "18": -1,
+        "27": 1,
+        "36": -1,
+        "45": 1
+      },
+      "relation": "G34-G43-d18",
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_rows": {
+        "19": 1
+      },
+      "relation": "d18-d11",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "35": 1
+      },
+      "relation": "d34-d18",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "51": -1
+      },
+      "relation": "d43+d34",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "34": 1,
+        "43": -1,
+        "50": -1
+      },
+      "relation": "F34-F18",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "34": 1,
+        "43": -1,
+        "59": -1
+      },
+      "relation": "F43-F18",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "19": -2,
+        "21": 1,
+        "28": 2,
+        "30": -1,
+        "37": -1
+      },
+      "relation": "G34-G18-2d18",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "19": -1,
+        "28": 1,
+        "37": -1,
+        "46": 1
+      },
+      "relation": "G34-G43-d18",
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_rows": {
+        "21": 1
+      },
+      "relation": "d18-d11",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "37": 1
+      },
+      "relation": "d34-d18",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "53": -1
+      },
+      "relation": "d43+d34",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "36": 1,
+        "45": -1,
+        "52": -1
+      },
+      "relation": "F34-F18",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "36": 1,
+        "45": -1,
+        "61": -1
+      },
+      "relation": "F43-F18",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "21": -2,
+        "23": 1,
+        "30": 2,
+        "32": -1,
+        "39": -1
+      },
+      "relation": "G34-G18-2d18",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "21": -1,
+        "30": 1,
+        "39": -1,
+        "48": 1
+      },
+      "relation": "G34-G43-d18",
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_rows": {
+        "20": 1
+      },
+      "relation": "d18-d11",
+      "shift": 2,
+      "support": 13
+    },
+    {
+      "original_rows": {
+        "36": 1
+      },
+      "relation": "d34-d18",
+      "shift": 2,
+      "support": 13
+    },
+    {
+      "original_rows": {
+        "52": -1
+      },
+      "relation": "d43+d34",
+      "shift": 2,
+      "support": 13
+    },
+    {
+      "original_rows": {
+        "35": 1,
+        "44": -1,
+        "51": -1
+      },
+      "relation": "F34-F18",
+      "shift": 2,
+      "support": 13
+    },
+    {
+      "original_rows": {
+        "35": 1,
+        "44": -1,
+        "60": -1
+      },
+      "relation": "F43-F18",
+      "shift": 2,
+      "support": 13
+    },
+    {
+      "original_rows": {
+        "20": -2,
+        "22": 1,
+        "29": 2,
+        "31": -1,
+        "38": -1
+      },
+      "relation": "G34-G18-2d18",
+      "shift": 2,
+      "support": 13
+    },
+    {
+      "original_rows": {
+        "20": -1,
+        "29": 1,
+        "38": -1,
+        "47": 1
+      },
+      "relation": "G34-G43-d18",
+      "shift": 2,
+      "support": 13
+    }
+  ],
+  "positive_control": {
+    "D": "00280000",
+    "F": "e1fb700a",
+    "G_x": "ffc069e9",
+    "G_y": "001069e9",
+    "scope": "twin core only, no third pair or actual message blocks",
+    "x": "ffd80000",
+    "xp": "00000000",
+    "y": "ffd80040",
+    "yp": "00000040"
+  },
+  "recurrence_combinations": 28,
+  "scope": "author finite proof replay, not independent-agent review or Lean formalization",
+  "seconds": 15.97135447600158,
+  "stats": {
+    "F2_conflicts": 3618,
+    "truth_table_edges": 1419762
+  },
+  "status": "PASS",
+  "summary": [
+    {
+      "mask_count": 13,
+      "mask_pairs": 169,
+      "q": 1,
+      "third_masks_checked": 0,
+      "twin_surviving_branches": 0
+    },
+    {
+      "mask_count": 12,
+      "mask_pairs": 144,
+      "q": 2,
+      "third_masks_checked": 0,
+      "twin_surviving_branches": 0
+    },
+    {
+      "mask_count": 23,
+      "mask_pairs": 529,
+      "q": 3,
+      "third_masks_checked": 0,
+      "twin_surviving_branches": 0
+    },
+    {
+      "mask_count": 11,
+      "mask_pairs": 121,
+      "q": 4,
+      "third_masks_checked": 0,
+      "twin_surviving_branches": 0
+    },
+    {
+      "mask_count": 32,
+      "mask_pairs": 1024,
+      "q": 5,
+      "third_masks_checked": 32,
+      "twin_surviving_branches": 1
+    },
+    {
+      "mask_count": 21,
+      "mask_pairs": 441,
+      "q": 6,
+      "third_masks_checked": 0,
+      "twin_surviving_branches": 0
+    },
+    {
+      "mask_count": 31,
+      "mask_pairs": 961,
+      "q": 7,
+      "third_masks_checked": 0,
+      "twin_surviving_branches": 0
+    }
+  ],
+  "support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "xor_conflict_proofs": 512
+}

@@ -1,0 +1,14 @@
+{
+  "missing": {
+    "exit_code": 1,
+    "diagnostic": "REJECT: incomplete or duplicate kernel packet"
+  },
+  "duplicate": {
+    "exit_code": 1,
+    "diagnostic": "REJECT: incomplete or duplicate kernel packet"
+  },
+  "nonkernel": {
+    "exit_code": 1,
+    "diagnostic": "REJECT: nonkernel mask"
+  }
+}

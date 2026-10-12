@@ -1,0 +1,63 @@
+{
+  "schema": "CRYPTO3-support12-v4-independent-AI-review-receipt",
+  "status": "ACCEPT",
+  "utc": "2026-10-12T17:35:24.971802+00:00",
+  "theorem_scope": "ACCEPT exact support12-v4 necessary valuation ceiling v2(D)<=18 on supports12,6,7,13",
+  "reviewer": "review_support12 separate AI agent",
+  "independence": "Independent checker and full seven-value run frozen/completed before first author-file read. Old mechanism/VALUATION_BOUND.md read and recorded; no author code imported or executed. Later controls/comparison written after author contact.",
+  "author_directory": "workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v4",
+  "author_manifest_sha256": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+  "author_files": {
+    "AUTHOR-RECEIPT.json": "705c8ae4d9388c6b33c97a521bd3d3fdc78d9cd998f1d46e072c3450dc69c284",
+    "BUILD-RUN.json": "22d3a4c74874c0ebd2a1c436e5b9c96ee1871f2bfa05107600d9d8f50f1c444b",
+    "CERTIFICATE.json": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c",
+    "CHECK-RUN.json": "8debf5b8cc04249f2863199f97fcbfb764c6a11ee333303377264ef527203d84",
+    "PROOF.md": "b74ae3ed3fc09d5aa6f8ac1e8b0e2a0ec76015722db3b031ae1416de52d8cffd",
+    "README.md": "4b818ed72557c7296ff36f96b7546dffc183adf7dcc2a2a2dfb4a921ec12c95a",
+    "TRIPLE-5-V19.json": "1c0070c35fe0b3cc7f4705fe2fcab7921256b9dfda1e972d32b9231fff63d6c9",
+    "TWIN-1-V19.json": "49433820e271221677d8160b46f575f71a28edd9e4dc49a29b010d36523e1c10",
+    "TWIN-1-V20.json": "11dceb1b852b466db54cda72828dd27825f6617cc880f7aa296267fd5913af67",
+    "TWIN-1-V21.json": "37e6941acb711c87c73a60de02e2c72c71872f179ef5ae4ef58ed2ec44895eca",
+    "TWIN-3-V19.json": "179ac5f2dbb511b09ff1189d11eccc5af5a485f600fde2674f4e460f6e816de4",
+    "TWIN-3-V20.json": "f20248a37b3714bd3cad7789b8acd8c1a936405ad1dcddd5be7b02e3409de294",
+    "TWIN-5-V19.json": "ed2edbe43790d315f425737aa0a8b97a887347ffb5d109ddc7f4864efd617171",
+    "TWIN-7-V19.json": "cf4e4c82eb7758d3b3c3491973094b77cd9e452f9a7d6c4292704178c795d227",
+    "check.py": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+    "explore.py": "cc5729725aff4aa05a8b6dc83a31a653a1afd75a13f53c841dbbf49acfba33a6",
+    "explore_triple.py": "42d4ff3a346de65521180778b358b79a47fe06324d944196b876f3b7c5de0335"
+  },
+  "independent_files": {
+    "COMPARISON_RUN.json": "ff9e9b9a70395c520b05da499ec28639f6511422afaecc3864523c8eeee83d75",
+    "FIRST_AUTHOR_CONTACT.json": "ae14a12458851b154861c3ae1eb5bb6e6615ad8d52f80db86910220a916658b5",
+    "INDEPENDENT_RUN.json": "5d6e1d4ef5c98f9d078f798ea96e1dc192ad65b6d8238c77dc7b188001bcbc11",
+    "INITIAL_SOURCE_CONTACT.json": "588992bb7757908b7aa76355f900be4d8a537cc8c56a0c85c75929c0c2c94aa3",
+    "NEGATIVE_CONTROL_RUN.json": "7beac6257ea2989a75460e39baeaf503c509404e8a658e22c6fd80f3dd204b94",
+    "PILOT_RUN.json": "d6b9ee5da592c5ff5778b0127b542985b57ad3dac60e2beae1da482126e505af",
+    "PRE_AUTHOR_FREEZE.json": "787176fab73b9d63ef8a2c8f8458cbce5158b6a5164400549752bac7fdf4f3fb",
+    "RECONSTRUCTION.md": "56726ea610f6a3af229d0bf73732c3d794f202dcf49fb1d333de30c09c100436",
+    "REVIEW.md": "cc63f2a6f512309a206a54f3858cb847c6ae10c8fdc054af817f3c950b3c1a13",
+    "RUN.json": "c32047a83a544154419d95d9dcd594afdffaeacb24815409ebf2663314c6f3dc",
+    "check_independent.py": "fb99c76341485a8054fb9d839f071666b626d843a4935f12569149f0672ea238",
+    "compare_author.py": "16fef1a66231849199f930c73f8fd6ea6e73135021b114b36408008ea6ea0645",
+    "negative_control.py": "e3763ee1fd02dcfbe6aa0f1dc02ff50d9b629cf8e42aacf5050e198e00f56ff1",
+    "replay_readonly.py": "04d337f2420ebb609dde1d64703cfa53245e5456aec2f02a3e848a13a7aa801a"
+  },
+  "counts": {
+    "complete_triple_mask_cases": 89243,
+    "separately_rebuilt_original_rows": 48,
+    "written_original_combinations": 28,
+    "twin_mask_pairs": 3389,
+    "third_masks": 32,
+    "direct_author_XOR_receipts": 512,
+    "local_carry_truth_tables": 48
+  },
+  "limits": [
+    "not Lean formalization",
+    "not external human peer review",
+    "not distance >=14",
+    "no actual 13-word message pair",
+    "no revalidation of global support classification",
+    "no historical-priority certification"
+  ],
+  "author_branch_statistics": "Read and audited structurally; independently recomputed engine uses different search order and its own counts, not a claim of matching every author branch statistic."
+}

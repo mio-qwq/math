@@ -1,0 +1,18 @@
+{
+  "base_commit": "b7eb3becacf474a6978b6acb2879fce3d505e395",
+  "branch": "partner/dist-CRYPTO3-20261012",
+  "certificate_sha256": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c",
+  "checker_sha256": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v4/check.py --output workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v4/CHECK-RUN.json",
+  "created_utc": "2026-10-12T17:26:54.233415+00:00",
+  "exit_code": 0,
+  "frozen_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "independent_agent_acceptance": "not yet present",
+  "ownership": "only support12-v4 directory; no git mutations; no other agents files changed",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "run_sha256": "8debf5b8cc04249f2863199f97fcbfb764c6a11ee333303377264ef527203d84",
+  "schema": "CRYPTO3-support12-v4-author-receipt",
+  "scope": "Supports 12,6,7,13 actual message pairs require v2(D)<=18; no support excluded, no distance>=14 claim",
+  "status": "author checked complete finite proof; independent review pending"
+}

@@ -1,0 +1,21 @@
+{
+  "checker_sha256": "620b44d889204ae4f50255984750965bd929b2d99274cd1ecc16d3492b194c1c",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/inherited-gate-v4/check_independent.py",
+    "--negative",
+    "--output",
+    "/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/inherited-gate-v4/VERIFICATION.json"
+  ],
+  "cwd": "/workspace/scratch/b1d6bae025af/math-crypto3",
+  "elapsed_seconds": 1.110643895000976,
+  "ended_utc": "2026-10-12T17:07:57.270120+00:00",
+  "exit_code": 0,
+  "schema": "CRYPTO3-inherited-full-gate-run-v4",
+  "started_utc": "2026-10-12T17:07:56.159483+00:00",
+  "stderr_file": "CHECK.stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_file": "CHECK.stdout.json",
+  "stdout_sha256": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2"
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T17:33:38.197707+00:00",
+  "controls": {
+    "all_local_carry_groups_exact": {
+      "PASS": true,
+      "groups_checked": 48
+    },
+    "wrapped_positive_twin": {
+      "PASS": true,
+      "x": "0xffd80000",
+      "xp": "0x0",
+      "y": "0xffd80040",
+      "yp": "0x40",
+      "D": "0x280000",
+      "f": "0xe1fb700a",
+      "gx": "0xffc069e9",
+      "gy": "0x1069e9",
+      "controls": "exact carry model accepts genuine wraparound pair, rejects y xor 1 mutation"
+    },
+    "sigma0_addition_linearity_rejected": {
+      "PASS": true,
+      "actual_F": "0xe1fb700a",
+      "invalid_sigma0_D": "0x5500a"
+    },
+    "complete_twin_classification": [
+      {
+        "k": 1,
+        "mask_pairs": 169,
+        "surviving_mask_pairs": []
+      },
+      {
+        "k": 2,
+        "mask_pairs": 144,
+        "surviving_mask_pairs": []
+      },
+      {
+        "k": 3,
+        "mask_pairs": 529,
+        "surviving_mask_pairs": []
+      },
+      {
+        "k": 4,
+        "mask_pairs": 121,
+        "surviving_mask_pairs": []
+      },
+      {
+        "k": 5,
+        "mask_pairs": 1024,
+        "surviving_mask_pairs": [
+          [
+            "0xffd80000",
+            "0xffd80000"
+          ]
+        ]
+      },
+      {
+        "k": 6,
+        "mask_pairs": 441,
+        "surviving_mask_pairs": []
+      },
+      {
+        "k": 7,
+        "mask_pairs": 961,
+        "surviving_mask_pairs": []
+      }
+    ],
+    "linear_row_contradiction": {
+      "PASS": true,
+      "rows": [
+        "a0=0",
+        "a0=1"
+      ]
+    }
+  },
+  "source_sha256": "e3763ee1fd02dcfbe6aa0f1dc02ff50d9b629cf8e42aacf5050e198e00f56ff1"
+}

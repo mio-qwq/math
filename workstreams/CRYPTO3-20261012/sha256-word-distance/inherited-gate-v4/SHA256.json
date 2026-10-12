@@ -1,0 +1,24 @@
+{
+  "files": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CHECK.stdout.json": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2",
+    "PROVENANCE.json": "1f7c86a4cc3ca385b8d5e914025c6c47e75a0f9d94943b8a3915693aec1f705b",
+    "README.md": "93212ba880b853b32334645c4aa0c21aa7e445554def9fcde70a8a999be8e216",
+    "RECEIPT.json": "7a3fea94d5c4300a275194df72eef4c3522ba5708d671ee0e698e1177c1eff4f",
+    "REVIEW.md": "357bf3b681aed741c8ebe3626a374e76ea1d23ab35a940511b3c281c59596059",
+    "RUN.json": "4b1256e522c4296726704e65c1491a926ba70d2372150251d99b35288dc8ed48",
+    "VERIFICATION.json": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2",
+    "check_independent.py": "620b44d889204ae4f50255984750965bd929b2d99274cd1ecc16d3492b194c1c",
+    "sources/PROOF.md": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424",
+    "sources/certificate.json": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b",
+    "sources/check.py": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35",
+    "sources/v2/PROOF.md": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1",
+    "sources/v2/TAIL.json": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804",
+    "sources/v2/check.py": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721",
+    "sources/v2/exclusions.json": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca",
+    "sources/v2/supports.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "schema": "CRYPTO3-inherited-full-gate-sha256-v4",
+  "self_excluded": "SHA256.json",
+  "source_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51"
+}

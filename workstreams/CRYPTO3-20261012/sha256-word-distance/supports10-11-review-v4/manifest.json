@@ -1,0 +1,20 @@
+{
+  "author_manifest_sha256": "e85f54f94e7ca95271bd09f48a39814b509599eccb531a697b76a60912bb3dc5",
+  "compiled_binary_included": false,
+  "files": {
+    ".gitignore": "b4077f7018cd1183740fb9ff84e3f187038aa2670b3020c2c06fa930f108adbd",
+    "AUTHOR_COMPARISON.json": "bab8fcdef6e825f1e15a3cc4a0fff083b1e0306ec6c27f04d70f625230408575",
+    "AUTHOR_READONLY_RUN.json": "223169cf9282c89829ed650e8dfaa32836b5fb57de02f2255099c2c975d1fc96",
+    "RESULTS.json": "9e2c2611dcb676592f088a7648589159e75494ae4482f9d253c610f8e96f524a",
+    "REVIEW.md": "6485b9d96d69477733d89882c4b6ad8d16182ed4ad84b4b519520836db891c8e",
+    "RUN.json": "be10da7841d41f80f48aae797359fbde6212ba3a6298f3d876a14d0bf917ef0f",
+    "SUBSET_NEGATIVE_CONTROLS.json": "ad9e9671ac8b72edee87318db8de556eb22c29d003fe45e4fc5c52c66d69122a",
+    "SUBSET_RUN.json": "ee378ca13acc14681bca5eccbbaeced935e5be8c8aa728d09061ead73f2d061b",
+    "check_independent.py": "373ef831a050a2f205031d9a805d1a4edbb3a382c5cf0ea908e707e0e89f2f5f",
+    "check_subsets.cpp": "2a4d38d5b12d15f022df301e751fbb9ee107d0dc8aa0a456eea085d6209f4692",
+    "compare_author.py": "61f4cb8f4e044b9301d59ab71b17c9b78111f44197d4810d7a93e38586d71d40",
+    "kernel-masks.txt": "be3982ccf8df75f8ddc5466ea86185e6f1213f0ea63b5c5d10a925752ae8650e"
+  },
+  "schema": "independent-supports10-11-review-v4-frozen-files-v1",
+  "status": "independently accepted written local theorem; exact stated scope only"
+}

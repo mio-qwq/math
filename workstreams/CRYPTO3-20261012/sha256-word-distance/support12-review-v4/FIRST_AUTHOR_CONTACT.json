@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T17:28:05.511296+00:00",
+  "first_author_file_contact": "this command hashes four named author artifacts and then reads manifest/PROOF. Checker and certificate contents not read yet. Independent complete seven-k run already finished.",
+  "sha256": {
+    "manifest.json": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+    "PROOF.md": "b74ae3ed3fc09d5aa6f8ac1e8b0e2a0ec76015722db3b031ae1416de52d8cffd",
+    "check.py": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+    "CERTIFICATE.json": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "dependency_audit": {
+    "high_basis_images": [
+      {
+        "input_basis_bit": 18,
+        "sigma1_image": "80000102"
+      },
+      {
+        "input_basis_bit": 19,
+        "sigma1_image": "00000205"
+      },
+      {
+        "input_basis_bit": 20,
+        "sigma1_image": "0000040a"
+      },
+      {
+        "input_basis_bit": 21,
+        "sigma1_image": "00000814"
+      },
+      {
+        "input_basis_bit": 22,
+        "sigma1_image": "00001028"
+      },
+      {
+        "input_basis_bit": 23,
+        "sigma1_image": "00002050"
+      },
+      {
+        "input_basis_bit": 24,
+        "sigma1_image": "000040a0"
+      },
+      {
+        "input_basis_bit": 25,
+        "sigma1_image": "00008140"
+      },
+      {
+        "input_basis_bit": 26,
+        "sigma1_image": "00010280"
+      },
+      {
+        "input_basis_bit": 27,
+        "sigma1_image": "00020500"
+      },
+      {
+        "input_basis_bit": 28,
+        "sigma1_image": "00040a00"
+      },
+      {
+        "input_basis_bit": 29,
+        "sigma1_image": "00081400"
+      },
+      {
+        "input_basis_bit": 30,
+        "sigma1_image": "00102800"
+      },
+      {
+        "input_basis_bit": 31,
+        "sigma1_image": "00205000"
+      }
+    ],
+    "input_divisibility": 18,
+    "integer_quotients": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "remaining_low_bits": 22,
+    "sigma1_shared_output_bits": [
+      22,
+      30
+    ],
+    "top_changed_bit_identity": [
+      16,
+      18
+    ]
+  },
+  "negative_controls": [
+    {
+      "case": "input_boundary_17",
+      "rejected": true
+    },
+    {
+      "case": "output_boundary_21",
+      "rejected": true
+    },
+    {
+      "case": "wrong_top_bit",
+      "rejected": true
+    },
+    {
+      "case": "omitted_quotient_15",
+      "rejected": true
+    }
+  ],
+  "scope": "written width reduction with finite row audit; independent review pending",
+  "source_sha256": {
+    "PROOF.md": "ef948c192bf61dbee0c2010f7ee34d391326f21e421e2c1c9f704c5ac14d82d5",
+    "check.py": "5d97c019c356d1963dd91714bc2ea4ba5dc4a1724091f4ec02088a777ad7fd00"
+  },
+  "status": "PASS"
+}

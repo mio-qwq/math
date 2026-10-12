@@ -1,0 +1,354 @@
+{
+  "schema": "supports10-11-two-pair-joint-valuation-v1",
+  "status": "complete written proof with author checker; awaiting separate agent review",
+  "definitions": {
+    "bits": 32,
+    "f_rotations": [
+      7,
+      18
+    ],
+    "f_shift": 3,
+    "g_rotations": [
+      17,
+      19
+    ],
+    "g_shift": 10
+  },
+  "claim": "On either exact support 10 or 11, d18 and d34 cannot both be divisible by 2^16. The threshold is sharp only for the stated two-pair core.",
+  "k": 16,
+  "kernel_X_rank": 31,
+  "kernel_X_basis": [
+    "44ab0000"
+  ],
+  "kernel_Y_rank": 16,
+  "kernel_Y_basis": [
+    "10020001",
+    "04400802",
+    "00000004",
+    "24440808",
+    "40080010",
+    "80100020",
+    "10220040",
+    "20440080",
+    "40880100",
+    "81100200",
+    "12220400",
+    "08801000",
+    "11002000",
+    "22004000",
+    "44008000",
+    "88010000"
+  ],
+  "FX_xor_mask": "c81c272a",
+  "first_candidates": 65536,
+  "first_empty_histogram": {
+    "1": 16384,
+    "0": 32768,
+    "3": 4096,
+    "5": 3072,
+    "8": 2304,
+    "7": 2304,
+    "13": 1152,
+    "17": 360,
+    "12": 1536,
+    "18": 240,
+    "23": 210,
+    "25": 39,
+    "24": 63,
+    "26": 9,
+    "15": 480,
+    "30": 4,
+    "27": 15,
+    "16": 480,
+    "29": 15
+  },
+  "first_survivors": [
+    "4804ddd6",
+    "5804fff6",
+    "c814ddf6",
+    "d805eee6",
+    "d814ffd6"
+  ],
+  "second_first_empty_bits": {
+    "1": {
+      "4804ddd6": 16,
+      "c814ddf6": 16,
+      "d814ffd6": 16,
+      "5804fff6": 16,
+      "d805eee6": 16
+    },
+    "2": {
+      "4804ddd6": 27,
+      "c814ddf6": 27,
+      "d814ffd6": 29,
+      "5804fff6": 24,
+      "d805eee6": 22
+    }
+  },
+  "bridges": [
+    {
+      "support_index": 10,
+      "m": 1,
+      "active_indices": [
+        18,
+        26,
+        34
+      ],
+      "equations": [
+        {
+          "t": 20,
+          "terms": [
+            [
+              "d",
+              20,
+              1
+            ],
+            [
+              "g",
+              18,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 27,
+          "terms": [
+            [
+              "d",
+              27,
+              1
+            ],
+            [
+              "d",
+              20,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 33,
+          "terms": [
+            [
+              "d",
+              26,
+              -1
+            ],
+            [
+              "f",
+              18,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 34,
+          "terms": [
+            [
+              "d",
+              34,
+              1
+            ],
+            [
+              "d",
+              27,
+              -1
+            ],
+            [
+              "d",
+              18,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 41,
+          "terms": [
+            [
+              "d",
+              34,
+              -1
+            ],
+            [
+              "f",
+              26,
+              -1
+            ]
+          ]
+        }
+      ],
+      "core1_combination": {
+        "33": -1
+      },
+      "core2_combination": {
+        "20": -1,
+        "27": -1,
+        "34": -1,
+        "41": -1
+      },
+      "E_combination": {
+        "20": 1,
+        "27": 1,
+        "34": 1
+      }
+    },
+    {
+      "support_index": 11,
+      "m": 2,
+      "active_indices": [
+        18,
+        26,
+        34
+      ],
+      "equations": [
+        {
+          "t": 18,
+          "terms": [
+            [
+              "d",
+              18,
+              1
+            ],
+            [
+              "d",
+              11,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 20,
+          "terms": [
+            [
+              "d",
+              20,
+              1
+            ],
+            [
+              "g",
+              18,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 27,
+          "terms": [
+            [
+              "d",
+              27,
+              1
+            ],
+            [
+              "d",
+              20,
+              -1
+            ],
+            [
+              "d",
+              11,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 33,
+          "terms": [
+            [
+              "d",
+              26,
+              -1
+            ],
+            [
+              "f",
+              18,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 34,
+          "terms": [
+            [
+              "d",
+              34,
+              1
+            ],
+            [
+              "d",
+              27,
+              -1
+            ],
+            [
+              "d",
+              18,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 41,
+          "terms": [
+            [
+              "d",
+              34,
+              -1
+            ],
+            [
+              "f",
+              26,
+              -1
+            ]
+          ]
+        }
+      ],
+      "core1_combination": {
+        "33": -1
+      },
+      "core2_combination": {
+        "20": -1,
+        "27": -1,
+        "34": -1,
+        "41": -1,
+        "18": 1
+      },
+      "E_combination": {
+        "20": 1,
+        "27": 1,
+        "34": 1,
+        "18": -1
+      }
+    }
+  ],
+  "boundary_fixtures": [
+    {
+      "m": 1,
+      "words": {
+        "x": 2513673092,
+        "x_prime": 4079819652,
+        "y": 4044425216,
+        "y_prime": 2636067751
+      },
+      "interfaces": {
+        "A": 1566146560,
+        "C": 1878425600,
+        "E": 3444572160
+      }
+    },
+    {
+      "m": 2,
+      "words": {
+        "x": 1422753827,
+        "x_prime": 842203171,
+        "y": 1443966395,
+        "y_prime": 35610986
+      },
+      "interfaces": {
+        "A": 3714416640,
+        "C": 1880653824,
+        "E": 719552512
+      }
+    }
+  ],
+  "scope": "two-pair necessary core and exact original-recurrence support applications only; no support exclusion, whole schedule witness, >=14 bound, Lean, or priority claim",
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+}

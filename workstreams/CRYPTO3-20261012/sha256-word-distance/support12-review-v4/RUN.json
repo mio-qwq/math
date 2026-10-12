@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "conclusion": "ACCEPT exact support12-v4 necessary valuation ceiling v2(D)<=18 on supports12,6,7,13",
+  "utc": "2026-10-12T17:34:12.973980+00:00",
+  "triple_cases": 89243,
+  "GF2_nodes": 192307,
+  "linear_contradictions": 10994,
+  "source_hashes": {
+    "check_independent.py": "fb99c76341485a8054fb9d839f071666b626d843a4935f12569149f0672ea238",
+    "negative_control.py": "e3763ee1fd02dcfbe6aa0f1dc02ff50d9b629cf8e42aacf5050e198e00f56ff1",
+    "compare_author.py": "16fef1a66231849199f930c73f8fd6ea6e73135021b114b36408008ea6ea0645",
+    "replay_readonly.py": "04d337f2420ebb609dde1d64703cfa53245e5456aec2f02a3e848a13a7aa801a"
+  },
+  "execution_reports": {
+    "INDEPENDENT_RUN.json": "5d6e1d4ef5c98f9d078f798ea96e1dc192ad65b6d8238c77dc7b188001bcbc11",
+    "NEGATIVE_CONTROL_RUN.json": "7beac6257ea2989a75460e39baeaf503c509404e8a658e22c6fd80f3dd204b94",
+    "COMPARISON_RUN.json": "ff9e9b9a70395c520b05da499ec28639f6511422afaecc3864523c8eeee83d75"
+  },
+  "commands": [
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-review-v4/replay_readonly.py"
+  ],
+  "readonly_replay": "wrapper prints new execution reports without replacing frozen evidence"
+}

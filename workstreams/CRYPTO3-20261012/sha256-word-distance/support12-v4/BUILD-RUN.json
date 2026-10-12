@@ -1,0 +1,9 @@
+{
+  "bytes": 1413216,
+  "stats": {
+    "F2_conflicts": 3618,
+    "truth_table_edges": 1419762
+  },
+  "status": "BUILT",
+  "xor_conflict_proofs": 512
+}

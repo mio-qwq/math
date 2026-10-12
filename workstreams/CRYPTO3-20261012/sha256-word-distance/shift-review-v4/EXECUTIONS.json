@@ -1,0 +1,65 @@
+{
+  "schema": "crypto3-shift-review-freeze-evidence-v4",
+  "freeze_created_utc": "2026-10-12T17:26:53.389301+00:00",
+  "base_commit": "b7eb3becacf474a6978b6acb2879fce3d505e395",
+  "owned_directory": "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4",
+  "executions": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/check_independent.py",
+        "--output",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/INDEPENDENT_RUN.json"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "observed_wall_seconds": 2.704732792,
+      "recorded_from": "actual initial tool execution; checker not rerun at freeze"
+    },
+    {
+      "commands": [
+        [
+          "python",
+          "-B",
+          "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/check_absorption.py",
+          "--output",
+          "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/ABSORPTION_RUN.json"
+        ],
+        [
+          "python",
+          "-B",
+          "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/compare_candidate.py",
+          "--output",
+          "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/REVIEW_RECEIPT.json"
+        ]
+      ],
+      "shell_exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "recorded_from": "actual supplemental tool execution; no failing traceback"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/compare_candidate.py",
+        "--output",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-review-v4/REVIEW_RECEIPT.json"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "recorded_from": "actual final receipt generation after precise source-scope and extra-map field changes"
+    }
+  ],
+  "freeze_notes": [
+    "Original independent checker and proof preceded reading candidate PROOF.md.",
+    "The later absorption supplement was derived after candidate comparison.",
+    "No candidate checker imports or executions.",
+    "No modifications outside this owned review directory.",
+    "Read-only default script executions print deterministic JSON and never overwrite frozen outputs.",
+    "No git commit or push by this reviewing sub-agent."
+  ]
+}

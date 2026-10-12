@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "algorithm": "submask-membership without carry propagation",
+  "source_sha256": "2a4d38d5b12d15f022df301e751fbb9ee107d0dc8aa0a456eea085d6209f4692",
+  "exit_code": 0,
+  "stdout": "m=1 second_survivors=0\nm=2 second_survivors=0\nalgorithm=submask-membership kernel_records=65536 first_survivors=5 fK_distinct_differences=4096 membership_controls=65536\n",
+  "negative_controls": {
+    "missing": {
+      "exit_code": 1,
+      "diagnostic": "REJECT: incomplete or duplicate kernel packet"
+    },
+    "duplicate": {
+      "exit_code": 1,
+      "diagnostic": "REJECT: incomplete or duplicate kernel packet"
+    },
+    "nonkernel": {
+      "exit_code": 1,
+      "diagnostic": "REJECT: nonkernel mask"
+    }
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
+}

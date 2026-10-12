@@ -1,0 +1,765 @@
+{
+  "accepted": true,
+  "actual_schedule_distance_lower_bound": 13,
+  "checker_sha256": "620b44d889204ae4f50255984750965bd929b2d99274cd1ecc16d3492b194c1c",
+  "complete_equality_paths": {
+    "both_bit_choices_tested": 1440,
+    "equality_choices": 720,
+    "initial_states": 15,
+    "layer_sizes": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "nodes_including_terminal": 735,
+    "terminal_supports": 15
+  },
+  "complete_supports_indexed": [
+    [
+      2,
+      9,
+      10,
+      16,
+      23,
+      24,
+      30,
+      37,
+      38,
+      44,
+      51,
+      52,
+      58
+    ],
+    [
+      3,
+      10,
+      11,
+      17,
+      24,
+      25,
+      31,
+      38,
+      39,
+      45,
+      52,
+      53,
+      59
+    ],
+    [
+      4,
+      11,
+      12,
+      18,
+      25,
+      26,
+      32,
+      39,
+      40,
+      46,
+      53,
+      54,
+      60
+    ],
+    [
+      1,
+      8,
+      11,
+      12,
+      16,
+      17,
+      26,
+      27,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    [
+      5,
+      12,
+      13,
+      19,
+      26,
+      27,
+      33,
+      40,
+      41,
+      47,
+      54,
+      55,
+      61
+    ],
+    [
+      2,
+      8,
+      14,
+      16,
+      17,
+      19,
+      26,
+      28,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    [
+      11,
+      12,
+      14,
+      16,
+      19,
+      21,
+      27,
+      29,
+      30,
+      35,
+      43,
+      44,
+      58
+    ],
+    [
+      13,
+      14,
+      16,
+      18,
+      21,
+      23,
+      29,
+      31,
+      32,
+      37,
+      45,
+      46,
+      60
+    ],
+    [
+      1,
+      7,
+      9,
+      15,
+      22,
+      23,
+      29,
+      36,
+      37,
+      43,
+      50,
+      51,
+      57
+    ],
+    [
+      1,
+      8,
+      9,
+      15,
+      22,
+      23,
+      29,
+      36,
+      37,
+      43,
+      50,
+      51,
+      57
+    ],
+    [
+      2,
+      10,
+      15,
+      18,
+      20,
+      26,
+      27,
+      28,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    [
+      10,
+      11,
+      15,
+      18,
+      20,
+      26,
+      27,
+      28,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    [
+      10,
+      11,
+      13,
+      15,
+      18,
+      20,
+      26,
+      28,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    [
+      12,
+      13,
+      15,
+      17,
+      20,
+      22,
+      28,
+      30,
+      31,
+      36,
+      44,
+      45,
+      59
+    ],
+    [
+      6,
+      9,
+      10,
+      14,
+      15,
+      24,
+      25,
+      27,
+      32,
+      40,
+      41,
+      55,
+      62
+    ]
+  ],
+  "halfword_chain_dependencies": {
+    "adjacent_quotient_cases": 256,
+    "halfword": 2147483648,
+    "low24_residues": [
+      8192,
+      16769024
+    ],
+    "modulo_four_cases": 16,
+    "sigma0_half_hex": "11002000",
+    "sigma0_low_two_values": [
+      0,
+      1,
+      3
+    ],
+    "sigma1_inverse_half_hex": "c6eeaad6",
+    "signed_image_choices": 8
+  },
+  "no_claims": [
+    "distance 13 attainable",
+    "distance at least 14",
+    "cryptanalytic attack",
+    "historical originality"
+  ],
+  "potential": {
+    "bytes": 3211264,
+    "initial_bounds": {
+      "checked_states": 65535,
+      "equality_states": [
+        1540,
+        3080,
+        6160,
+        6402,
+        12320,
+        16644,
+        22528,
+        24576,
+        33410,
+        33538,
+        33796,
+        35840,
+        44032,
+        45056,
+        50752
+      ],
+      "minimum_slack": 0
+    },
+    "sha256": "1f04aa2b5ac13c5144e677cf75eb6d6af323d518abf96ec65a44a96fa07df23c",
+    "terminal_zeros_checked": 65536,
+    "transitions": {
+      "checked_inequalities": 5308416,
+      "per_row_edges": 110592,
+      "rows": 48,
+      "slack_histogram": {
+        "0": 3801173,
+        "1": 1119565,
+        "2": 308787,
+        "3": 65837,
+        "4": 11325,
+        "5": 1533,
+        "6": 188,
+        "7": 8
+      }
+    }
+  },
+  "proof_scope": "Written universal mathematics plus independent full finite-certificate replay; not Lean or human peer review.",
+  "rejected_controls": [
+    {
+      "control": "alter one sigma inverse column",
+      "rejected_by": "inverse reconstruction mismatch"
+    },
+    {
+      "control": "claim fixed bound 14",
+      "rejected_by": "fixed bound 13"
+    },
+    {
+      "control": "alter compressed-certificate raw digest",
+      "rejected_by": "pinned raw potential SHA256"
+    },
+    {
+      "control": "alter terminal value (numeric validator)",
+      "rejected_by": "terminal zeros"
+    },
+    {
+      "control": "lower a nonzero initial potential (numeric validator)",
+      "rejected_by": "initial weight lower bound"
+    },
+    {
+      "control": "raise initial zero-state potential (numeric validator)",
+      "rejected_by": "permitted transition inequality"
+    },
+    {
+      "control": "omit one equality starting state",
+      "rejected_by": "complete equality starts"
+    },
+    {
+      "control": "omit one terminal support",
+      "rejected_by": "complete equality terminal set"
+    },
+    {
+      "control": "duplicate one terminal support",
+      "rejected_by": "complete equality terminal set"
+    },
+    {
+      "control": "alter asserted halfword preimage",
+      "rejected_by": "halfword sigma1 preimage"
+    },
+    {
+      "control": "alter an exclusion coordinate",
+      "rejected_by": "exact excluded case parameters"
+    },
+    {
+      "control": "omit one surviving index",
+      "rejected_by": "complete surviving indices"
+    },
+    {
+      "control": "tamper an unforced-tail word",
+      "rejected_by": "tail opposite raw differences"
+    },
+    {
+      "control": "Boolean in unsigned tail word",
+      "rejected_by": "tail unsigned word"
+    },
+    {
+      "control": "duplicate JSON object key",
+      "rejected_by": "duplicate JSON key"
+    }
+  ],
+  "relaxation_witness": {
+    "rows_checked": 48,
+    "support": [
+      2,
+      9,
+      10,
+      16,
+      23,
+      24,
+      30,
+      37,
+      38,
+      44,
+      51,
+      52,
+      58
+    ],
+    "weight": 13
+  },
+  "runtime": {
+    "argv": [
+      "/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/inherited-gate-v4/check_independent.py",
+      "--negative",
+      "--output",
+      "/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/inherited-gate-v4/VERIFICATION.json"
+    ],
+    "began_utc": "2026-10-12T17:07:56.188474+00:00",
+    "elapsed_seconds": 1.072545857001387,
+    "ended_utc": "2026-10-12T17:07:57.261012+00:00",
+    "implementation": "CPython",
+    "python": "3.12.14"
+  },
+  "schema": "CRYPTO3-inherited-full-finite-gate-v4",
+  "sigma_invertibility": {
+    "basis_composition_checks": 128,
+    "ranks": [
+      32,
+      32
+    ],
+    "reconstructed_columns": 64,
+    "right_inverse_columns_checked": 64,
+    "sigma0_half": 285220864,
+    "sigma1_inverse_half": 3337530070
+  },
+  "source_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "source_files": [
+    {
+      "bytes": 4161,
+      "git_blob": "a495221b7b60bc93e5077673e091e9445e731633",
+      "local_path": "sources/PROOF.md",
+      "sha256": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424"
+    },
+    {
+      "bytes": 537964,
+      "git_blob": "6e6ea5c60bee08c0b3272408d11f474e0e3a861e",
+      "local_path": "sources/certificate.json",
+      "sha256": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b"
+    },
+    {
+      "bytes": 4401,
+      "git_blob": "5bc5b6872a078970ae0eb97009dd43e4709f72ff",
+      "local_path": "sources/check.py",
+      "sha256": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35"
+    },
+    {
+      "bytes": 7922,
+      "git_blob": "f348cf5557592c183bf5f2f6aa7bc3f1f46ddfaa",
+      "local_path": "sources/v2/PROOF.md",
+      "sha256": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1"
+    },
+    {
+      "bytes": 2401,
+      "git_blob": "19ed391b5d2685bd181f139d9edd04696c83f0c1",
+      "local_path": "sources/v2/supports.json",
+      "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+    },
+    {
+      "bytes": 357,
+      "git_blob": "64959f47cf96cc895f4a722e97dde307c5b55e0a",
+      "local_path": "sources/v2/exclusions.json",
+      "sha256": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca"
+    },
+    {
+      "bytes": 8110,
+      "git_blob": "9239bbd0d8a00251ee74c1aa009385a7ae1b3157",
+      "local_path": "sources/v2/check.py",
+      "sha256": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721"
+    },
+    {
+      "bytes": 389,
+      "git_blob": "9dd2e6e0ea80eb6389a9c0c36c00f2791f182c7e",
+      "local_path": "sources/v2/TAIL.json",
+      "sha256": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804"
+    }
+  ],
+  "support_relaxation_exact_minimum": 13,
+  "unforced_tail_boundary": {
+    "active_pairs": 4,
+    "delta_x": 962755629,
+    "differences_hex": {
+      "a": {
+        "d": "ae9d5531",
+        "f": "24c46324",
+        "g": "ff9de7ca"
+      },
+      "b": {
+        "d": "24c46324",
+        "f": "14980367",
+        "g": "39627c2d"
+      },
+      "r": {
+        "d": "c69d83d3",
+        "f": "5162aacf",
+        "g": "4f7aa1e6"
+      },
+      "x": {
+        "d": "39627c2d",
+        "f": "5162aacf",
+        "g": "11d7c604"
+      }
+    },
+    "scope": "Unforced five-equation independent-pair tail only; not a schedule.",
+    "verified_equations": 5
+  },
+  "universal_exclusion_substitutions": {
+    "excluded_indices": [
+      3,
+      14
+    ],
+    "identities": [
+      {
+        "support_index": 3,
+        "t": 34,
+        "terms": [
+          [
+            "d",
+            27,
+            -1
+          ],
+          [
+            "d",
+            34,
+            1
+          ]
+        ]
+      },
+      {
+        "support_index": 3,
+        "t": 43,
+        "terms": [
+          [
+            "d",
+            27,
+            -1
+          ],
+          [
+            "d",
+            43,
+            1
+          ]
+        ]
+      },
+      {
+        "support_index": 3,
+        "t": 50,
+        "terms": [
+          [
+            "d",
+            34,
+            -1
+          ],
+          [
+            "d",
+            43,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 3,
+        "t": 49,
+        "terms": [
+          [
+            "d",
+            42,
+            -1
+          ],
+          [
+            "f",
+            34,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 3,
+        "t": 57,
+        "terms": [
+          [
+            "d",
+            57,
+            1
+          ],
+          [
+            "f",
+            42,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 3,
+        "t": 59,
+        "terms": [
+          [
+            "d",
+            43,
+            -1
+          ],
+          [
+            "g",
+            57,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 14,
+        "t": 32,
+        "terms": [
+          [
+            "d",
+            25,
+            -1
+          ],
+          [
+            "d",
+            32,
+            1
+          ]
+        ]
+      },
+      {
+        "support_index": 14,
+        "t": 41,
+        "terms": [
+          [
+            "d",
+            25,
+            -1
+          ],
+          [
+            "d",
+            41,
+            1
+          ]
+        ]
+      },
+      {
+        "support_index": 14,
+        "t": 48,
+        "terms": [
+          [
+            "d",
+            32,
+            -1
+          ],
+          [
+            "d",
+            41,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 14,
+        "t": 47,
+        "terms": [
+          [
+            "d",
+            40,
+            -1
+          ],
+          [
+            "f",
+            32,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 14,
+        "t": 55,
+        "terms": [
+          [
+            "d",
+            55,
+            1
+          ],
+          [
+            "f",
+            40,
+            -1
+          ]
+        ]
+      },
+      {
+        "support_index": 14,
+        "t": 57,
+        "terms": [
+          [
+            "d",
+            41,
+            -1
+          ],
+          [
+            "g",
+            55,
+            -1
+          ]
+        ]
+      }
+    ],
+    "original_recurrence_identities_checked": 12,
+    "remaining_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "zero_base_obstruction_constants": {
+    "forced_word_hex": "94857ee6",
+    "scope": "S0 with zero base only",
+    "unequal_constant_hex": [
+      "abacb99f",
+      "00205000"
+    ]
+  }
+}

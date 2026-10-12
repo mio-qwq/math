@@ -1,0 +1,37 @@
+{
+  "accepted_files_sha256": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "README.md": "f432bcd84849ec78995cc2d4d583ce3b2704a4d0e55499a1d0cc468f2502eef2",
+    "REVIEW.md": "8493473b869188d56c98a6e31dc5ba6d0b0c18ed62eacbca87425afb71b93ae8",
+    "RUN.json": "e3eef7750398ae04775ca49982d6f4b06d4a289faf6e67a63ba88c3899d56d5d",
+    "VERIFICATION.json": "95d5773e50275bfd575a372fd5d099db55b2cb7a9a272f71f8d648f1f7cfbb3a",
+    "check_rows_independent.py": "d02ff8a90991f0cae75ca2aebff2c52b58ec32dcc0d495a2d038e5164beb18af"
+  },
+  "actual_pair_check_scope": {
+    "actual_three_pair_triples": 276,
+    "matched_full_gap_hypotheses": 0,
+    "ordered_pair_decompositions": 1656,
+    "scope": "Tests of actual-pair identities and reversal, not a feasibility or quantified proof by samples.",
+    "their_reversed_triples": 276
+  },
+  "decision": "accepted",
+  "default_read_only_replay": "python -B check_rows_independent.py",
+  "lemma": "If actual X,Y,R input differences are D,D,-D with D!=0 and sigma1 gaps GY-GX=2D,GY-GR=D, then 2^18|D implies D=+/-q*2^18 (mod2^32), 1<=q<=15.",
+  "method": "FIPS bit-index reconstruction, common H cancellation modulo N, ordinary integer B-2A representative bound, strict signed quotient range.",
+  "negative_controls_rejected": 4,
+  "new_run_exit_code": 0,
+  "no_author_checker_import_or_execution": true,
+  "not_established": [
+    "support exclusion",
+    "sigma0 joint feasibility",
+    "full schedule witness",
+    "distance at least14",
+    "historical originality",
+    "Lean or human review"
+  ],
+  "reviewer_role": "Independent inherited-global-gate subagent, not this candidate author",
+  "schema": "CRYPTO3-width18-independent-review-receipt-v5",
+  "scope": "Complete written necessary-condition lemma plus independent output rows and actual ordered-pair implementation checks. Not Lean or external human peer review.",
+  "source_proof_path": "../width-reduction-v5/PROOF.md",
+  "source_proof_sha256": "ef948c192bf61dbee0c2010f7ee34d391326f21e421e2c1c9f704c5ac14d82d5"
+}

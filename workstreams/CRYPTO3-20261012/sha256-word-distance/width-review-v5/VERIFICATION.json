@@ -1,0 +1,225 @@
+{
+  "accepted_finite_dependencies": true,
+  "actual_pair_checks": {
+    "actual_three_pair_triples": 276,
+    "matched_full_gap_hypotheses": 0,
+    "ordered_pair_decompositions": 1656,
+    "scope": "Tests of actual-pair identities and reversal, not a feasibility or quantified proof by samples.",
+    "their_reversed_triples": 276
+  },
+  "all_output_rows": [
+    [
+      10,
+      17,
+      19
+    ],
+    [
+      11,
+      18,
+      20
+    ],
+    [
+      12,
+      19,
+      21
+    ],
+    [
+      13,
+      20,
+      22
+    ],
+    [
+      14,
+      21,
+      23
+    ],
+    [
+      15,
+      22,
+      24
+    ],
+    [
+      16,
+      23,
+      25
+    ],
+    [
+      17,
+      24,
+      26
+    ],
+    [
+      18,
+      25,
+      27
+    ],
+    [
+      19,
+      26,
+      28
+    ],
+    [
+      20,
+      27,
+      29
+    ],
+    [
+      21,
+      28,
+      30
+    ],
+    [
+      22,
+      29,
+      31
+    ],
+    [
+      0,
+      23,
+      30
+    ],
+    [
+      1,
+      24,
+      31
+    ],
+    [
+      0,
+      2,
+      25
+    ],
+    [
+      1,
+      3,
+      26
+    ],
+    [
+      2,
+      4,
+      27
+    ],
+    [
+      3,
+      5,
+      28
+    ],
+    [
+      4,
+      6,
+      29
+    ],
+    [
+      5,
+      7,
+      30
+    ],
+    [
+      6,
+      8,
+      31
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      16,
+      18
+    ]
+  ],
+  "checker_sha256": "d02ff8a90991f0cae75ca2aebff2c52b58ec32dcc0d495a2d038e5164beb18af",
+  "claim": {
+    "low_width": 22,
+    "multiple_bound": 25165824,
+    "positive_quotients": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "stable_begin": 22,
+    "stable_end": 30,
+    "top_indices": [
+      16,
+      18
+    ]
+  },
+  "high_fixed_rows": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "proof_scope": "Independent written modular/integer proof in REVIEW.md plus direct row and actual-pair implementation checks; not Lean.",
+  "rejected_controls": [
+    {
+      "control": "include output bit 21 in fixed range",
+      "rejected_by": "stable output depends on high input"
+    },
+    {
+      "control": "declare top output bit fixed",
+      "rejected_by": "stable output depends on high input"
+    },
+    {
+      "control": "move top parity input from bit18 to bit17",
+      "rejected_by": "top row input indices"
+    },
+    {
+      "control": "replace strict q ceiling15 by16",
+      "rejected_by": "strict final integer range"
+    }
+  ],
+  "schema": "CRYPTO3-independent-width18-review-v5",
+  "top_row": [
+    16,
+    18
+  ]
+}

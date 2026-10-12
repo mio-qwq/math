@@ -1,0 +1,1111 @@
+{
+  "bits": 32,
+  "case_count": 121,
+  "cases": [
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 1065,
+        "nodes": 1074
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 633,
+        "nodes": 642
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 217,
+        "nodes": 226
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 137,
+        "nodes": 142
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00200000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 1065,
+        "nodes": 1074
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 1002,
+        "nodes": 1011
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 602,
+        "nodes": 611
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 218,
+        "nodes": 227
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 138,
+        "nodes": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00600000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 633,
+        "nodes": 642
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 1002,
+        "nodes": 1011
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 171,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 171,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 171,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 107,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "00e00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 217,
+        "nodes": 226
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 602,
+        "nodes": 611
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 171,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 108,
+        "nodes": 113
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "01e00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 137,
+        "nodes": 142
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 218,
+        "nodes": 227
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 171,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "03e00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 138,
+        "nodes": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 171,
+        "nodes": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "07e00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 107,
+        "nodes": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 172,
+        "nodes": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "0fe00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 108,
+        "nodes": 113
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "1fe00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "3fe00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 53,
+        "nodes": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "7fe00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "edges": 34,
+        "nodes": 35
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "00200000",
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "00600000",
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "00e00000",
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "01e00000",
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "03e00000",
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "07e00000",
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "0fe00000",
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "1fe00000",
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "3fe00000",
+      "stats": {
+        "edges": 33,
+        "nodes": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "7fe00000",
+      "stats": {
+        "edges": 34,
+        "nodes": 35
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": "ffe00000",
+      "alpha_y": "ffe00000",
+      "stats": {
+        "conflicts": 2,
+        "edges": 55,
+        "nodes": 55
+      },
+      "witness": null
+    }
+  ],
+  "delta": 2097152,
+  "input_classes": 11,
+  "order": [
+    0,
+    1
+  ],
+  "sat_cases": 0,
+  "scope": "fixed-difference twin core; not a full support or schedule witness",
+  "seconds": 0.06388952400448034,
+  "source_sha256": "cc5729725aff4aa05a8b6dc83a31a653a1afd75a13f53c841dbbf49acfba33a6",
+  "stats": {
+    "conflicts": 2,
+    "edges": 14321,
+    "nodes": 14675
+  }
+}

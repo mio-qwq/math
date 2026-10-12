@@ -1,0 +1,16 @@
+{
+  "checker_sha256": "d02ff8a90991f0cae75ca2aebff2c52b58ec32dcc0d495a2d038e5164beb18af",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/width-review-v5/check_rows_independent.py"
+  ],
+  "cwd": "/workspace/scratch/b1d6bae025af/math-crypto3",
+  "elapsed_seconds": 0.03095013900019694,
+  "end_utc": "2026-10-12T17:32:03.694282+00:00",
+  "exit_code": 0,
+  "schema": "CRYPTO3-width18-review-run-v5",
+  "start_utc": "2026-10-12T17:32:03.663335+00:00",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "95d5773e50275bfd575a372fd5d099db55b2cb7a9a272f71f8d648f1f7cfbb3a"
+}

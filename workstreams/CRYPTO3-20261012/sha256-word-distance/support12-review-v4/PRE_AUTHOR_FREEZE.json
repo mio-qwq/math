@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-12T17:27:39.945078+00:00",
+  "author_contact": "Ready notice received with named hashes only; author files still unread",
+  "source": {
+    "check_independent.py": "fb99c76341485a8054fb9d839f071666b626d843a4935f12569149f0672ea238"
+  },
+  "model": "three plus-D actual input pairs; full independent carry truth tables + 96-variable GF2; all 8192 high-input fibres; k1..7 including k4, no dependence on old <=20 lemma",
+  "pilot": "k7 29791 triples completely exhausted UNSAT"
+}

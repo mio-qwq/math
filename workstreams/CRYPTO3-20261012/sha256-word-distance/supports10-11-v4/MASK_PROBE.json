@@ -1,0 +1,68 @@
+{
+  "scope": "necessary two-pair core; k=16 simultaneous valuations only",
+  "equations": [
+    "dY=-FX",
+    "FY=-m*dX-GX",
+    "m in {1,2}",
+    "2^16 divides dX and m*dX+GX"
+  ],
+  "python": "3.12.14",
+  "probe_sha256": "5d12374c0c1ec866dbeba9acf1224c119fd20bc9501492a29c4f27bb99df4d9f",
+  "support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "kernel_X_rank": 31,
+  "kernel_X_basis": [
+    1152057344
+  ],
+  "FX_xor_mask": 3357288234,
+  "kernel_Y_rank": 16,
+  "kernel_Y_basis": [
+    268566529,
+    71305218,
+    4,
+    608438280,
+    1074266128,
+    2148532256,
+    270663744,
+    541327488,
+    1082654976,
+    2165309952,
+    304219136,
+    142610432,
+    285220864,
+    570441728,
+    1140883456,
+    2281766912
+  ],
+  "examined_masks": 65536,
+  "survivor_count": 5,
+  "survivors": [
+    1208278486,
+    3356810742,
+    3625254870,
+    1476722678,
+    3624267494
+  ],
+  "first_empty_carry_histogram": {
+    "1": 16384,
+    "0": 32768,
+    "3": 4096,
+    "5": 3072,
+    "8": 2304,
+    "7": 2304,
+    "13": 1152,
+    "17": 360,
+    "12": 1536,
+    "18": 240,
+    "23": 210,
+    "25": 39,
+    "24": 63,
+    "26": 9,
+    "15": 480,
+    "30": 4,
+    "27": 15,
+    "16": 480,
+    "29": 15
+  },
+  "elapsed_s": 0.11016510199988261,
+  "interpretation": "nonempty necessary cover is not actual-pair feasibility"
+}

@@ -1,0 +1,565 @@
+{
+  "schema": "crypto3-continuation-v4-sha256-v1",
+  "base_commit": "b7eb3becacf474a6978b6acb2879fce3d505e395",
+  "stage2_manifest_sha256": "a5581984839896e0bd50f99feae34ea06d7daba8112d998097d3cf9ea85f51b0",
+  "living_checkpoint_excluded": "CURRENT.md",
+  "manifest_self_hash": false,
+  "scientific_scope": "complete recovered evidence and independently accepted local constraints; global lower bound remains thirteen",
+  "files": [
+    {
+      "path": "continuation-v4/SNAPSHOT.md",
+      "bytes": 4687,
+      "sha256": "151789cdc70754f4eb21edd7e62c1d09a879ce94ca146cd611f97498953f0dab"
+    },
+    {
+      "path": "continuation-v4/evidence/CONTINUATION_REPLAY.json",
+      "bytes": 134060,
+      "sha256": "bb7c0053edb4efc1048c69f350725ff3c586636fd77829173d954f5ccb3e0229"
+    },
+    {
+      "path": "continuation-v4/evidence/STAGE2_REPLAY.json",
+      "bytes": 220771,
+      "sha256": "1162af4e286555c9d71139fe5afdd0e1178fa638b9899adaec8a4c3d5682f579"
+    },
+    {
+      "path": "continuation-v4/evidence/STAGE3_AUTHOR_REPLAY.json",
+      "bytes": 5221,
+      "sha256": "15cca5243a303be8374102b15c9b8f19a24146028fb09803a66f1ffbdae2dfb4"
+    },
+    {
+      "path": "continuation-v4/evidence/WIDTH_AUTHOR_REPLAY.json",
+      "bytes": 2194,
+      "sha256": "96ac52068dd68df088b7c8966545afffd42a3bc0ce07fbe9980b560f50de9e2f"
+    },
+    {
+      "path": "continuation-v4/replay.py",
+      "bytes": 5288,
+      "sha256": "e6c3f9b31bfa605ac82ffda7fbccfa0a54c8abc097d28fe3bdcfcb75ba975207"
+    },
+    {
+      "path": "sha256-word-distance/full-pair-probe-v4/MECHANISM.md",
+      "bytes": 1785,
+      "sha256": "6a18412030910b962c84cb40dc5d8dcd23677a8e56dc0531ce137c9c851c1350"
+    },
+    {
+      "path": "sha256-word-distance/full-pair-probe-v4/RUN.json",
+      "bytes": 766,
+      "sha256": "bc87af6774c340ed628bad26f80d8829a31c877df6cc09d4ee0d4f6aca1c9378"
+    },
+    {
+      "path": "sha256-word-distance/full-pair-probe-v4/circuit.json",
+      "bytes": 768213,
+      "sha256": "19283ffeef5de240c208d2d3e0cca721b08d6188dac87fc25c4bbf5fc91e5890"
+    },
+    {
+      "path": "sha256-word-distance/full-pair-probe-v4/probe.py",
+      "bytes": 6969,
+      "sha256": "e530d18d7081441b608a9e0d0352e7cf892877f2387a5e30b6e5c291af34ef20"
+    },
+    {
+      "path": "sha256-word-distance/full-pair-probe-v4/query.cnf",
+      "bytes": 779534,
+      "sha256": "80a31c38abe59ed0842d9f48b517f0b12d3ab8aa53f8abe595409be201556d4e"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/CHECK.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/CHECK.stdout.json",
+      "bytes": 13188,
+      "sha256": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/PROVENANCE.json",
+      "bytes": 2864,
+      "sha256": "1f7c86a4cc3ca385b8d5e914025c6c47e75a0f9d94943b8a3915693aec1f705b"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/README.md",
+      "bytes": 2045,
+      "sha256": "93212ba880b853b32334645c4aa0c21aa7e445554def9fcde70a8a999be8e216"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/RECEIPT.json",
+      "bytes": 4165,
+      "sha256": "7a3fea94d5c4300a275194df72eef4c3522ba5708d671ee0e698e1177c1eff4f"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/REVIEW.md",
+      "bytes": 11039,
+      "sha256": "357bf3b681aed741c8ebe3626a374e76ea1d23ab35a940511b3c281c59596059"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/RUN.json",
+      "bytes": 1031,
+      "sha256": "4b1256e522c4296726704e65c1491a926ba70d2372150251d99b35288dc8ed48"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/SHA256.json",
+      "bytes": 1749,
+      "sha256": "5841ea90dd748f9b80e370464a820dc028c0546b81c56aa3fc62a46311308c07"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/VERIFICATION.json",
+      "bytes": 13188,
+      "sha256": "e97a1f8fab8f2748bb78b536b9784edfbbb78e3110dd5757e1b8ce401a2d77b2"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/check_independent.py",
+      "bytes": 25583,
+      "sha256": "620b44d889204ae4f50255984750965bd929b2d99274cd1ecc16d3492b194c1c"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/PROOF.md",
+      "bytes": 4161,
+      "sha256": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/certificate.json",
+      "bytes": 537964,
+      "sha256": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/check.py",
+      "bytes": 4401,
+      "sha256": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/v2/PROOF.md",
+      "bytes": 7922,
+      "sha256": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/v2/TAIL.json",
+      "bytes": 389,
+      "sha256": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/v2/check.py",
+      "bytes": 8110,
+      "sha256": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/v2/exclusions.json",
+      "bytes": 357,
+      "sha256": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca"
+    },
+    {
+      "path": "sha256-word-distance/inherited-gate-v4/sources/v2/supports.json",
+      "bytes": 2401,
+      "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/ABSORPTION.md",
+      "bytes": 2373,
+      "sha256": "91bc9fabb75da86660107f7a93c8f5c68d450d3a463495dabfaca664dd62a887"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/ABSORPTION_RUN.json",
+      "bytes": 21559,
+      "sha256": "231a14022c71c706f2689c3b117e0052ec1e63a55bcc456cf03eb0b6ec1a0104"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/EXECUTIONS.json",
+      "bytes": 2434,
+      "sha256": "c85d7a9a814f30da85e4ec3773ab65aac23c03dae325fae8071fccc213aec8ef"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/INDEPENDENT_PROOF.md",
+      "bytes": 8242,
+      "sha256": "3dd9f230476ddb21b7302755122325b087f3ce4fbda81c621ae653c082066404"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/INDEPENDENT_RUN.json",
+      "bytes": 34863,
+      "sha256": "8ab41bdf1b5daaed7d20627ad5a4875ed199be150766a44d615d43ae3aebb77e"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/REVIEW.md",
+      "bytes": 7245,
+      "sha256": "5dd34b7373f772db8b68134605a33f782b6f9639aa1c1841c6a29674beb0caa2"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/REVIEW_RECEIPT.json",
+      "bytes": 27133,
+      "sha256": "737c8be234ab01740da07a72641cc3aad21f22bcbf8bc6eb9ccb6cc81388cef3"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/SHA256.json",
+      "bytes": 1497,
+      "sha256": "fce5b8d18710667ac7358a846e574c2bfd04cc4594b72ac40153597d0c7b71b1"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/check_absorption.py",
+      "bytes": 2628,
+      "sha256": "fc33841a11f35201a4dabc54f0f21ffcbb9dc02c44e47158baaad8ed29cc711d"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/check_independent.py",
+      "bytes": 13248,
+      "sha256": "e126283ec563a2746c278d86355608523f33f4b91aa197678fc68f051ca79571"
+    },
+    {
+      "path": "sha256-word-distance/shift-review-v4/compare_candidate.py",
+      "bytes": 7985,
+      "sha256": "d9ee171ef16eac5b26e40d88b6b296a840cfbb2f6580d5a6e9b628ef7362dff5"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/COMPARISON_RUN.json",
+      "bytes": 1855,
+      "sha256": "ff9e9b9a70395c520b05da499ec28639f6511422afaecc3864523c8eeee83d75"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/FIRST_AUTHOR_CONTACT.json",
+      "bytes": 626,
+      "sha256": "ae14a12458851b154861c3ae1eb5bb6e6615ad8d52f80db86910220a916658b5"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/INDEPENDENT_RUN.json",
+      "bytes": 9144,
+      "sha256": "5d6e1d4ef5c98f9d078f798ea96e1dc192ad65b6d8238c77dc7b188001bcbc11"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/INITIAL_SOURCE_CONTACT.json",
+      "bytes": 1088,
+      "sha256": "588992bb7757908b7aa76355f900be4d8a537cc8c56a0c85c75929c0c2c94aa3"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/NEGATIVE_CONTROL_RUN.json",
+      "bytes": 1657,
+      "sha256": "7beac6257ea2989a75460e39baeaf503c509404e8a658e22c6fd80f3dd204b94"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/PILOT_RUN.json",
+      "bytes": 6668,
+      "sha256": "d6b9ee5da592c5ff5778b0127b542985b57ad3dac60e2beae1da482126e505af"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/PRE_AUTHOR_FREEZE.json",
+      "bytes": 497,
+      "sha256": "787176fab73b9d63ef8a2c8f8458cbce5158b6a5164400549752bac7fdf4f3fb"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/RECONSTRUCTION.md",
+      "bytes": 6133,
+      "sha256": "56726ea610f6a3af229d0bf73732c3d794f202dcf49fb1d333de30c09c100436"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/REVIEW.md",
+      "bytes": 3450,
+      "sha256": "cc63f2a6f512309a206a54f3858cb847c6ae10c8fdc054af817f3c950b3c1a13"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/REVIEW_RECEIPT.json",
+      "bytes": 4363,
+      "sha256": "10483cdfd720bb34949dd26917f4cea3c9fb98886e92acd8327e8d19d7edbdfc"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/RUN.json",
+      "bytes": 1199,
+      "sha256": "c32047a83a544154419d95d9dcd594afdffaeacb24815409ebf2663314c6f3dc"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/SHA256.json",
+      "bytes": 1492,
+      "sha256": "cee4aeb66a656697e640ec092e03ab51aeb6c888065f1395d1eba7d3935e68e9"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/check_independent.py",
+      "bytes": 8195,
+      "sha256": "fb99c76341485a8054fb9d839f071666b626d843a4935f12569149f0672ea238"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/compare_author.py",
+      "bytes": 4594,
+      "sha256": "16fef1a66231849199f930c73f8fd6ea6e73135021b114b36408008ea6ea0645"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/negative_control.py",
+      "bytes": 4299,
+      "sha256": "e3763ee1fd02dcfbe6aa0f1dc02ff50d9b629cf8e42aacf5050e198e00f56ff1"
+    },
+    {
+      "path": "sha256-word-distance/support12-review-v4/replay_readonly.py",
+      "bytes": 885,
+      "sha256": "04d337f2420ebb609dde1d64703cfa53245e5456aec2f02a3e848a13a7aa801a"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/AUTHOR-RECEIPT.json",
+      "bytes": 1241,
+      "sha256": "705c8ae4d9388c6b33c97a521bd3d3fdc78d9cd998f1d46e072c3450dc69c284"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/BUILD-RUN.json",
+      "bytes": 151,
+      "sha256": "22d3a4c74874c0ebd2a1c436e5b9c96ee1871f2bfa05107600d9d8f50f1c444b"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/CERTIFICATE.json",
+      "bytes": 1413216,
+      "sha256": "1763fbb3256509c4d2b7503eb143c7527d09231237b539221ed826c3320fec2c"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/CHECK-RUN.json",
+      "bytes": 6250,
+      "sha256": "8debf5b8cc04249f2863199f97fcbfb764c6a11ee333303377264ef527203d84"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/PROOF.md",
+      "bytes": 9207,
+      "sha256": "b74ae3ed3fc09d5aa6f8ac1e8b0e2a0ec76015722db3b031ae1416de52d8cffd"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/README.md",
+      "bytes": 1043,
+      "sha256": "4b818ed72557c7296ff36f96b7546dffc183adf7dcc2a2a2dfb4a921ec12c95a"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TRIPLE-5-V19.json",
+      "bytes": 197453,
+      "sha256": "1c0070c35fe0b3cc7f4705fe2fcab7921256b9dfda1e972d32b9231fff63d6c9"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-1-V19.json",
+      "bytes": 27609,
+      "sha256": "49433820e271221677d8160b46f575f71a28edd9e4dc49a29b010d36523e1c10"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-1-V20.json",
+      "bytes": 23586,
+      "sha256": "11dceb1b852b466db54cda72828dd27825f6617cc880f7aa296267fd5913af67"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-1-V21.json",
+      "bytes": 19882,
+      "sha256": "37e6941acb711c87c73a60de02e2c72c71872f179ef5ae4ef58ed2ec44895eca"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-3-V19.json",
+      "bytes": 85524,
+      "sha256": "179ac5f2dbb511b09ff1189d11eccc5af5a485f600fde2674f4e460f6e816de4"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-3-V20.json",
+      "bytes": 71383,
+      "sha256": "f20248a37b3714bd3cad7789b8acd8c1a936405ad1dcddd5be7b02e3409de294"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-5-V19.json",
+      "bytes": 165489,
+      "sha256": "ed2edbe43790d315f425737aa0a8b97a887347ffb5d109ddc7f4864efd617171"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/TWIN-7-V19.json",
+      "bytes": 155409,
+      "sha256": "cf4e4c82eb7758d3b3c3491973094b77cd9e452f9a7d6c4292704178c795d227"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/check.py",
+      "bytes": 12640,
+      "sha256": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/explore.py",
+      "bytes": 4952,
+      "sha256": "cc5729725aff4aa05a8b6dc83a31a653a1afd75a13f53c841dbbf49acfba33a6"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/explore_triple.py",
+      "bytes": 4024,
+      "sha256": "42d4ff3a346de65521180778b358b79a47fe06324d944196b876f3b7c5de0335"
+    },
+    {
+      "path": "sha256-word-distance/support12-v4/manifest.json",
+      "bytes": 1597,
+      "sha256": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/.gitignore",
+      "bytes": 14,
+      "sha256": "b4077f7018cd1183740fb9ff84e3f187038aa2670b3020c2c06fa930f108adbd"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/AUTHOR_COMPARISON.json",
+      "bytes": 2917,
+      "sha256": "bab8fcdef6e825f1e15a3cc4a0fff083b1e0306ec6c27f04d70f625230408575"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/AUTHOR_READONLY_RUN.json",
+      "bytes": 986,
+      "sha256": "223169cf9282c89829ed650e8dfaa32836b5fb57de02f2255099c2c975d1fc96"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/RESULTS.json",
+      "bytes": 17944,
+      "sha256": "9e2c2611dcb676592f088a7648589159e75494ae4482f9d253c610f8e96f524a"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/REVIEW.md",
+      "bytes": 8295,
+      "sha256": "6485b9d96d69477733d89882c4b6ad8d16182ed4ad84b4b519520836db891c8e"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/RUN.json",
+      "bytes": 2885,
+      "sha256": "be10da7841d41f80f48aae797359fbde6212ba3a6298f3d876a14d0bf917ef0f"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/SUBSET_NEGATIVE_CONTROLS.json",
+      "bytes": 302,
+      "sha256": "ad9e9671ac8b72edee87318db8de556eb22c29d003fe45e4fc5c52c66d69122a"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/SUBSET_RUN.json",
+      "bytes": 790,
+      "sha256": "ee378ca13acc14681bca5eccbbaeced935e5be8c8aa728d09061ead73f2d061b"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/check_independent.py",
+      "bytes": 8836,
+      "sha256": "373ef831a050a2f205031d9a805d1a4edbb3a382c5cf0ea908e707e0e89f2f5f"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/check_subsets.cpp",
+      "bytes": 3549,
+      "sha256": "2a4d38d5b12d15f022df301e751fbb9ee107d0dc8aa0a456eea085d6209f4692"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/compare_author.py",
+      "bytes": 6823,
+      "sha256": "61f4cb8f4e044b9301d59ab71b17c9b78111f44197d4810d7a93e38586d71d40"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/kernel-masks.txt",
+      "bytes": 589824,
+      "sha256": "be3982ccf8df75f8ddc5466ea86185e6f1213f0ea63b5c5d10a925752ae8650e"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-review-v4/manifest.json",
+      "bytes": 1416,
+      "sha256": "7f30e683b89406e8b2e1b91f357514918007f53e92346a712f99f8ea94388797"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/BOUNDARY_PROBE.json",
+      "bytes": 5347,
+      "sha256": "65c39cc2e5cec2db61c73bd186421bc488caf1958ddddf09bc5f68bf56ea8b18"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/CERTIFICATE.json",
+      "bytes": 6167,
+      "sha256": "4ff0e86e9c8273484b19f1bcca13e6570702088292a1dd6c3c69d3d5f08c699d"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/CHECK_RUN.json",
+      "bytes": 986,
+      "sha256": "df6b853d8fab70292cc1311c8ecd509502a86143947a6305a81eca862592a020"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/CORE_PROBE.json",
+      "bytes": 2223,
+      "sha256": "c7bffd2302fc4f3f0c84b51ad75e14381334271b7b65a61f3044d813fac0cd18"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/MASK_PROBE.json",
+      "bytes": 1346,
+      "sha256": "c6e09efea66f1d8165247f9532c58065b2a7805554a4b4af7819e9d45db69749"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/MECHANISM.md",
+      "bytes": 4237,
+      "sha256": "4f742f63e59d7a658b7c5dd7cff9494ebdf4377632578b7f57ca85c02e9ea0e9"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/PROOF.md",
+      "bytes": 8147,
+      "sha256": "311d4c078d9a6bf55a2d35c2aae19ad6b7f07932ee83dcc3629ba938bb1ba1da"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/STRATUM_K15.json",
+      "bytes": 12360,
+      "sha256": "06899ce9355fc6a1e9b7869c88b4cfb53517bfe378929fd24a7e95ec7d00c2e7"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/check.py",
+      "bytes": 8690,
+      "sha256": "4f01716c910584caff09407a717fc9606b2644550c5ff7564e254bfaa12bc9e6"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/manifest.json",
+      "bytes": 1442,
+      "sha256": "e85f54f94e7ca95271bd09f48a39814b509599eccb531a697b76a60912bb3dc5"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/probe_boundary.py",
+      "bytes": 2613,
+      "sha256": "56d9c327cedc6c498a52d15bee719f84e1c184b210ea71fc414bbb81ef3fd88d"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/probe_core.py",
+      "bytes": 2524,
+      "sha256": "806c09ed02ddaec717e875d5ed7254381990eeaebf1847d967ca76acaed19b59"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/probe_masks.py",
+      "bytes": 3104,
+      "sha256": "5d12374c0c1ec866dbeba9acf1224c119fd20bc9501492a29c4f27bb99df4d9f"
+    },
+    {
+      "path": "sha256-word-distance/supports10-11-v4/probe_stratum.py",
+      "bytes": 2630,
+      "sha256": "90a8991a59f58e62256a702a1c24bdc3b3857ea587da8932ad93937e728fe31c"
+    },
+    {
+      "path": "sha256-word-distance/width-reduction-v5/PROOF.md",
+      "bytes": 3516,
+      "sha256": "ef948c192bf61dbee0c2010f7ee34d391326f21e421e2c1c9f704c5ac14d82d5"
+    },
+    {
+      "path": "sha256-word-distance/width-reduction-v5/check.py",
+      "bytes": 2485,
+      "sha256": "5d97c019c356d1963dd91714bc2ea4ba5dc4a1724091f4ec02088a777ad7fd00"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/CHECK.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/README.md",
+      "bytes": 775,
+      "sha256": "f432bcd84849ec78995cc2d4d583ce3b2704a4d0e55499a1d0cc468f2502eef2"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/RECEIPT.json",
+      "bytes": 2062,
+      "sha256": "e14a4362516894d85f940b5ef525d5fe23d42692196e76c8bbe3f930652d447a"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/REVIEW.md",
+      "bytes": 4009,
+      "sha256": "8493473b869188d56c98a6e31dc5ba6d0b0c18ed62eacbca87425afb71b93ae8"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/RUN.json",
+      "bytes": 735,
+      "sha256": "e3eef7750398ae04775ca49982d6f4b06d4a289faf6e67a63ba88c3899d56d5d"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/SHA256.json",
+      "bytes": 742,
+      "sha256": "e7f9c7de0730d8404b6e75d4d63ba28f579f275cb5842deae9f6e273e5f37089"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/VERIFICATION.json",
+      "bytes": 2855,
+      "sha256": "95d5773e50275bfd575a372fd5d099db55b2cb7a9a272f71f8d648f1f7cfbb3a"
+    },
+    {
+      "path": "sha256-word-distance/width-review-v5/check_rows_independent.py",
+      "bytes": 6843,
+      "sha256": "d02ff8a90991f0cae75ca2aebff2c52b58ec32dcc0d495a2d038e5164beb18af"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "supports10-11-v4-frozen-files-v1",
+  "base_commit": "b7eb3becacf474a6978b6acb2879fce3d505e395",
+  "scope": "joint valuation min(v2(d18),v2(d34))<=15 for frozen supports10/11; locally sharp two-pair core only; independent review pending",
+  "files": {
+    "BOUNDARY_PROBE.json": "65c39cc2e5cec2db61c73bd186421bc488caf1958ddddf09bc5f68bf56ea8b18",
+    "CERTIFICATE.json": "4ff0e86e9c8273484b19f1bcca13e6570702088292a1dd6c3c69d3d5f08c699d",
+    "CHECK_RUN.json": "df6b853d8fab70292cc1311c8ecd509502a86143947a6305a81eca862592a020",
+    "CORE_PROBE.json": "c7bffd2302fc4f3f0c84b51ad75e14381334271b7b65a61f3044d813fac0cd18",
+    "MASK_PROBE.json": "c6e09efea66f1d8165247f9532c58065b2a7805554a4b4af7819e9d45db69749",
+    "MECHANISM.md": "4f742f63e59d7a658b7c5dd7cff9494ebdf4377632578b7f57ca85c02e9ea0e9",
+    "PROOF.md": "311d4c078d9a6bf55a2d35c2aae19ad6b7f07932ee83dcc3629ba938bb1ba1da",
+    "STRATUM_K15.json": "06899ce9355fc6a1e9b7869c88b4cfb53517bfe378929fd24a7e95ec7d00c2e7",
+    "check.py": "4f01716c910584caff09407a717fc9606b2644550c5ff7564e254bfaa12bc9e6",
+    "probe_boundary.py": "56d9c327cedc6c498a52d15bee719f84e1c184b210ea71fc414bbb81ef3fd88d",
+    "probe_core.py": "806c09ed02ddaec717e875d5ed7254381990eeaebf1847d967ca76acaed19b59",
+    "probe_masks.py": "5d12374c0c1ec866dbeba9acf1224c119fd20bc9501492a29c4f27bb99df4d9f",
+    "probe_stratum.py": "90a8991a59f58e62256a702a1c24bdc3b3857ea587da8932ad93937e728fe31c"
+  }
+}

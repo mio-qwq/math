@@ -1,0 +1,26 @@
+{
+  "schema": "crypto3-support5-full-pair-probe-v4",
+  "support": 5,
+  "model": "all actual-pair difference recurrences; base completion absent",
+  "valuation": {
+    "index": 17,
+    "exact": 11
+  },
+  "conflict_budget": 50000,
+  "wall_budget_seconds": 45,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "pysat": "1.9.dev15",
+  "solver": "Glucose3",
+  "variables": 13369,
+  "clauses": 46690,
+  "cnf_sha256": "80a31c38abe59ed0842d9f48b517f0b12d3ab8aa53f8abe595409be201556d4e",
+  "source_sha256": "e530d18d7081441b608a9e0d0352e7cf892877f2387a5e30b6e5c291af34ef20",
+  "status": "unknown",
+  "seconds": 0.6985832080026739,
+  "statistics": {
+    "restarts": 255,
+    "conflicts": 50147,
+    "decisions": 113298,
+    "propagations": 3128123
+  }
+}
