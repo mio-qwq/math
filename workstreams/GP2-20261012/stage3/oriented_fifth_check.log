@@ -1,0 +1,17 @@
+COMMAND: python workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py
+STATUS: PASS
+EXHAUSTIVE_CASES: 59809 (all zero-one orientations of orders 1 through 5)
+MINIMUM_D_BY_ORDER: 1:0 2:0 3:0 4:0 5:0
+POINTWISE_WITNESS: (x,y,z,w)=(0,2,0,1), local sum=-1
+GLOBAL_WITNESS: (T,L,X,Y,D)=(16,0,2,6,12)
+TRACE_IDENTITY: tr(S^4)+tr(RSRS)=48=4D
+NEGATIVE_CONTROL: altered local sum rejected
+NEGATIVE_CONTROL: inserted digon rejected
+
+COMMAND: python -O workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py
+STATUS: PASS
+EXHAUSTIVE_CASES: 59809
+POINTWISE_WITNESS: local sum=-1
+GLOBAL_WITNESS: D=12
+NEGATIVE_CONTROLS: 2/2 rejected
+SCOPE: exact reduction and finite evidence; candidate 1/5 coefficient unproved

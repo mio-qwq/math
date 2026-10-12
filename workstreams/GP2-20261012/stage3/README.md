@@ -79,3 +79,12 @@ orientation has ratio `6385/26889<1/4`. Its standard-library checker expands
 all `24^4` ordered quadruples and rejects two damaged inputs. This negative
 result leaves the bound above unchanged and reinforces the mixed-class or
 canonical-interface direction.
+
+The subsequent
+[`ORIENTED_FIFTH_REDUCTION.md`](ORIENTED_FIFTH_REDUCTION.md) isolates the
+weaker candidate `2X<=T+L`, which would conditionally give reciprocal
+coefficient `1/5`. It proves two exact equivalent trace/interface formulas
+and supplies a five-vertex counterexample to pointwise interface positivity.
+All 59,809 zero-one orientations through order five pass the global candidate,
+but this finite evidence is explicitly not a proof and does not change the
+displayed lambda bound.

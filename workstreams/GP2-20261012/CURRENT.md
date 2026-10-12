@@ -71,6 +71,15 @@ two tamper controls. This does not change the current lambda bound. Do not
 restart from small-order evidence for `1/4`; seek a rigorously smaller
 coefficient or, preferably, exploit mixed classes/canonical interfaces.
 
+The weaker candidate `2X<=T+L` is reduced exactly in
+`stage3/ORIENTED_FIFTH_REDUCTION.md`. It is equivalent to nonnegativity of
+`[tr(S^4)+tr(RSRS)]/4` and would conditionally yield reciprocal coefficient
+`1/5`. Exhaustion of all 59,809 zero-one orientations through order five
+passes, but a five-vertex witness makes one pair-interface summand negative.
+Thus the candidate remains unproved, the finite check is not a new bound, and
+the next attempt must use a global square/flag certificate rather than
+pointwise positivity or merely larger enumeration.
+
 Lean 4.34.1 is the intended pinned toolchain, but the recovered local launcher
 actually exits with `failed to locate application`; no successful compilation
 is claimed. Resolve this environment issue before any formalization claim.

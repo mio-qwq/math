@@ -1,0 +1,18 @@
+{
+  "pointwise_obstruction": {
+    "order": 5,
+    "matrix_rows": [
+      "00011",
+      "00010",
+      "00010",
+      "00000",
+      "01100"
+    ],
+    "ordered_pair": [3, 4],
+    "x_y_z_w": [0, 2, 0, 1],
+    "pointwise_sum": -1,
+    "global_T_L_X_Y_D": [16, 0, 2, 6, 12]
+  },
+  "candidate": "For every nonnegative oriented matrix M, 2X <= T+L.",
+  "status": "UNPROVED; exact identities and a pointwise-proof obstruction only"
+}
