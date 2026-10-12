@@ -1,0 +1,10 @@
+{
+  "files": {
+    "CERTIFICATE.json": "329187765b72ca963bc2fa9e86fae88f930c829508e9da06201b24ea15ec77e3",
+    "PROOF.md": "3622a3c029c8a69554f91adba228d3f8a6df2dcb1baf2059c63be6267f334b9f",
+    "README.md": "2a7373dfa03390f65be06dea3759573f9cca4c915b92d60a8ac72d7d222b7162",
+    "check.py": "d2de8188863905fe72ccb2c1c5aad751fcf6e9a6d7f19c45d5789296034e3af3"
+  },
+  "schema": "CRYPTO3-directory-sha256-v1",
+  "scope": "support12-v16-q33-63-v10"
+}

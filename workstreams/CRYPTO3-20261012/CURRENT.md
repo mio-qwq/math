@@ -279,3 +279,56 @@ the rejected-v8/corrected-v9 factor review, accepted base chart, accepted
 fixed-residue obstruction and stopped-query receipt without rerunning Z3.
 Each continuation directory's snapshot and manifest binds its exact
 accepted phase.
+
+## Stage-10 accepted q=33..63 extension
+
+[The exact affine/carry classification](sha256-word-distance/support12-v16-q33-63-v10/PROOF.md)
+and its [blind independent reconstruction](sha256-word-distance/support12-v16-q33-63-review-v10/REVIEW.md)
+cover every positive odd `q` in `33..63` at `D=q*2^16`.  The selected twin
+condition is impossible for
+
+```text
+q={33,35,45,47,49,51,53,55,57,59,61,63},
+```
+
+and has twelve actual full-word local fixtures for `q={37,39,41,43}`, with
+affine-leaf counts `4,2,2,4`.  The reviewer froze its implementation before
+opening author-v10 bytes, rebuilt the complete class cover, and directly
+checked both sets of concrete fixtures.  The two implementations choose
+different representatives for the same leaf signatures because of different
+GF(2) pivot conventions; the first over-strict representative comparison is
+preserved as a failed run rather than hidden.
+
+[The direct selected-core certificates](sha256-word-distance/support12-v16-core-q33-63-v10/PROOF.md)
+have a separate [independent acceptance](sha256-word-distance/support12-v16-core-q33-63-review-v10/REVIEW.md).
+For all sixteen q values an independent encoder reproduced the 1,259-variable,
+9,683-clause CNF byte-for-byte and checked every one of 87,220 deletion-free
+DRUP additions.  Truncation, removed-definition-clause and proof-mutation
+controls reject for every q.  Pair reversal supplies negative D.  Combined
+with Stage 9, the selected three-pair core is therefore excluded for
+
+```text
+D=+/-q*2^16, every odd q in 1..63.
+```
+
+This is still a finite local window, not the whole exact-valuation-16 layer,
+complete support 12, or a message-pair theorem.
+
+[A candidate base/factor normal form](sha256-word-distance/support12-base-factor-normal-v10/CANDIDATE.md)
+definitionally eliminates nine scalar words and proposes an exact merged
+model with 18 free words, 13 derivative equations plus `R33=0`, and seven
+nonzero tests.  Ten thousand seeded substitutions and 64 word-57 sink
+controls pass.  It remains explicitly a candidate symbolic audit pending a
+complete written equivalence proof and independent review; no SAT/UNSAT or
+distance claim is inferred.
+
+The latest short frozen gate is:
+
+```sh
+python -B workstreams/CRYPTO3-20261012/continuation-v10/replay.py
+```
+
+It verifies Stage 9 integrity, all five new package manifests, replays the
+independent 87,220-step core audit, and reruns the candidate substitution
+controls.  The several-minute full affine classification is bound by its
+author and independent receipts rather than repeated by default.

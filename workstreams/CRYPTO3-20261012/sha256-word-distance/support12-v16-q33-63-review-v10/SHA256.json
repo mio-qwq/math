@@ -1,0 +1,17 @@
+{
+  "files": {
+    "ACCEPTANCE.json": "0ab58d386cf109b5528ea828f688a4142159780925564cfff2ccb6047bd319ba",
+    "AUTHOR_REPLAY.json": "5818c6f0e5025925a4be67f0577250a18ae8c23a5b2b40080664e0cb508ba5f2",
+    "COMPARISON.json": "491ad1d8bf9497c1b3c87332852b38bb4d4e0904ec5a54ec00660e6420c058e7",
+    "FAILED-RUN-01.md": "93b9581df656471e77c933f1f3d5cc48db876c4c3ed01e4091f70975ed2082c1",
+    "PRE_AUTHOR_FREEZE.json": "ef8894e61f5e8fb13d755dd99d0fcc57689eef206bbc614415bfb62af6726135",
+    "PRE_AUTHOR_FREEZE.md": "ff9eafaf9c208cd9e4d4a24ba0a0a07a2d87f30bfb33dbb9c27c27c4161128e6",
+    "PRE_AUTHOR_RUN.json": "a317600413ea0271480ee2a1f10732e8e42987f70d19894dbf9c8f28e0ce20cf",
+    "README.md": "fb5019ae5901965283a6f1f7ca4719a26612a2de80c4a599d145eae83f7a3711",
+    "REVIEW.md": "84986195990e06d1771cbddd180367d668f99643ebef7cd36d1948c7e6cef2e8",
+    "check_independent.py": "b9ce55525c1c7def35fcd588179a62a8931359665a31e3b67b4b68cf170d0de0",
+    "compare_author.py": "dd67ecd063db392cdbb551d981eb3ad22807467474aead4799bee80d2e0174b3"
+  },
+  "schema": "CRYPTO3-directory-sha256-v1",
+  "scope": "support12-v16-q33-63-review-v10"
+}

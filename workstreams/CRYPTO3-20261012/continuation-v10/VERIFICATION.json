@@ -1,0 +1,38 @@
+{
+  "schema": "CRYPTO3-stage10-verification-v1",
+  "status": "PASS",
+  "base_commit": "f27fc2c292094375c5c935e7cd3b4a269eaf4906",
+  "package_manifests": {
+    "support12-v16-q33-63-v10": "50b637f9b9522ed5d0cf836fc169145fe553e9122ecac338e6321c0bc5dde464",
+    "support12-v16-q33-63-review-v10": "e35e6934f985e2459cbe9ce6db3662f1e8b8cf3ad1c16d28da868baef10fc03c",
+    "support12-v16-core-q33-63-v10": "9625e5d5824beaf3c2c034b6181b6955cf8401ce60952f3936f27be2258e9ac1",
+    "support12-v16-core-q33-63-review-v10": "efc3696923214a619a618e6d0de45ac7ecf6d744f6057b1ccc3972434908938e",
+    "support12-base-factor-normal-v10": "9c780d8164782c0a8bb7e6efc159d1ac01fe27fe9df6d2bb020b2470b3b6a7ea"
+  },
+  "classification": {
+    "author_full_replay_seconds": 124.00,
+    "independent_full_cover_seconds": 515.52,
+    "status": "ACCEPT",
+    "independent_fixtures": 12,
+    "author_fixtures": 12,
+    "independent_damage_controls": 96,
+    "author_damage_controls": 48
+  },
+  "selected_core": {
+    "status": "ACCEPT",
+    "q_instances": 16,
+    "cnf_variables_each": 1259,
+    "cnf_clauses_each": 9683,
+    "rup_additions_checked": 87220,
+    "independent_replay_seconds": 130.46,
+    "negative_controls_per_q": 3
+  },
+  "base_factor_normal_form": {
+    "status": "PASS_CANDIDATE_SYMBOLIC_CHECK_ONLY",
+    "seeded_trials": 10000,
+    "u57_sink_controls": 64,
+    "independent_acceptance": false
+  },
+  "default_replay_omits_long_classification": true,
+  "final_default_replay_status": "PASS"
+}

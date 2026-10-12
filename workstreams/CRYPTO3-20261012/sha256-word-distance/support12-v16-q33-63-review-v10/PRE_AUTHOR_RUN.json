@@ -1,0 +1,621 @@
+{
+  "checker_sha256": "b9ce55525c1c7def35fcd588179a62a8931359665a31e3b67b4b68cf170d0de0",
+  "controls": {
+    "actual_fixtures_checked": 12,
+    "damaged_fixtures_attempted": 96,
+    "damaged_fixtures_rejected": 96,
+    "negative_reversals_checked": 12
+  },
+  "elapsed_seconds": 515.5186797060014,
+  "negative_orientation": "bijection checked by reversing every actual surviving fixture",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "question": "selected twin core for D=q*2^16, every odd q in [33,63]",
+  "range": {
+    "count": 16,
+    "odd_only": true,
+    "q_max": 63,
+    "q_min": 33,
+    "q_values": [
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63
+    ]
+  },
+  "results": [
+    {
+      "D": 2162688,
+      "class_size_histogram": {
+        "1024": 6,
+        "128": 6,
+        "16": 6,
+        "16384": 1,
+        "2": 2,
+        "2048": 4,
+        "256": 6,
+        "32": 7,
+        "4": 5,
+        "4096": 3,
+        "512": 6,
+        "64": 6,
+        "8": 5,
+        "8192": 2
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 65,
+      "q": 33,
+      "sigma0_leaves": 11317,
+      "stats": {
+        "carry_edges": 331945,
+        "checked_contradictions": 5576
+      }
+    },
+    {
+      "D": 2293760,
+      "class_size_histogram": {
+        "1024": 9,
+        "128": 9,
+        "16": 11,
+        "2": 2,
+        "2048": 7,
+        "256": 9,
+        "32": 9,
+        "4": 7,
+        "4096": 4,
+        "512": 9,
+        "64": 9,
+        "8": 10,
+        "8192": 2
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 97,
+      "q": 35,
+      "sigma0_leaves": 54829,
+      "stats": {
+        "carry_edges": 4054902,
+        "checked_contradictions": 103213
+      }
+    },
+    {
+      "D": 2424832,
+      "class_size_histogram": {
+        "1024": 11,
+        "128": 11,
+        "16": 12,
+        "2": 2,
+        "2048": 9,
+        "256": 11,
+        "32": 11,
+        "4": 9,
+        "4096": 4,
+        "512": 11,
+        "64": 11,
+        "8": 15,
+        "8192": 1
+      },
+      "fixtures": [
+        {
+          "G_gap": 4849664,
+          "G_x": 533629239,
+          "G_y": 538478903,
+          "common_F": 570538519,
+          "x": 2145648728,
+          "x_plus_D": 2148073560,
+          "xor_x": 4293722112,
+          "xor_y": 4293722112,
+          "y": 2145653066,
+          "y_plus_D": 2148077898
+        },
+        {
+          "G_gap": 4849664,
+          "G_x": 533629238,
+          "G_y": 538478902,
+          "common_F": 570555927,
+          "x": 2145714264,
+          "x_plus_D": 2148139096,
+          "xor_x": 4293853184,
+          "xor_y": 4293853184,
+          "y": 2145718602,
+          "y_plus_D": 2148143434
+        },
+        {
+          "G_gap": 4849664,
+          "G_x": 533629247,
+          "G_y": 538478911,
+          "common_F": 570415647,
+          "x": 2146173016,
+          "x_plus_D": 2148597848,
+          "xor_x": 4294770688,
+          "xor_y": 4294770688,
+          "y": 2146177354,
+          "y_plus_D": 2148602186
+        },
+        {
+          "G_gap": 4849664,
+          "G_x": 533629248,
+          "G_y": 538478912,
+          "common_F": 570416671,
+          "x": 2146238552,
+          "x_plus_D": 2148663384,
+          "xor_x": 4294901760,
+          "xor_y": 4294901760,
+          "y": 2146242890,
+          "y_plus_D": 2148667722
+        }
+      ],
+      "full32_twin_leaves": 4,
+      "input_classes": 118,
+      "q": 37,
+      "sigma0_leaves": 59524,
+      "stats": {
+        "carry_edges": 4194247,
+        "checked_contradictions": 105001
+      }
+    },
+    {
+      "D": 2555904,
+      "class_size_histogram": {
+        "1024": 10,
+        "128": 10,
+        "16": 12,
+        "2": 2,
+        "2048": 8,
+        "256": 10,
+        "32": 10,
+        "4": 7,
+        "4096": 5,
+        "512": 10,
+        "64": 10,
+        "8": 12,
+        "8192": 1
+      },
+      "fixtures": [
+        {
+          "G_gap": 5111808,
+          "G_x": 1606715830,
+          "G_y": 1611827638,
+          "common_F": 3254648341,
+          "x": 2145648720,
+          "x_plus_D": 2148204624,
+          "xor_x": 4293853184,
+          "xor_y": 4293853184,
+          "y": 2145653058,
+          "y_plus_D": 2148208962
+        },
+        {
+          "G_gap": 5111808,
+          "G_x": 1606715840,
+          "G_y": 1611827648,
+          "common_F": 3254787613,
+          "x": 2146173008,
+          "x_plus_D": 2148728912,
+          "xor_x": 4294901760,
+          "xor_y": 4294901760,
+          "y": 2146177346,
+          "y_plus_D": 2148733250
+        }
+      ],
+      "full32_twin_leaves": 2,
+      "input_classes": 107,
+      "q": 39,
+      "sigma0_leaves": 49761,
+      "stats": {
+        "carry_edges": 1148205,
+        "checked_contradictions": 11286
+      }
+    },
+    {
+      "D": 2686976,
+      "class_size_histogram": {
+        "1024": 11,
+        "128": 11,
+        "16": 13,
+        "2": 2,
+        "2048": 9,
+        "256": 11,
+        "32": 11,
+        "4": 9,
+        "4096": 4,
+        "512": 11,
+        "64": 11,
+        "8": 13,
+        "8192": 1
+      },
+      "fixtures": [
+        {
+          "G_gap": 5373952,
+          "G_x": 2680842810,
+          "G_y": 2686216762,
+          "common_F": 1107426825,
+          "x": 4293066760,
+          "x_plus_D": 786440,
+          "xor_x": 4293853184,
+          "xor_y": 4293853184,
+          "y": 4293071130,
+          "y_plus_D": 790810
+        },
+        {
+          "G_gap": 5373952,
+          "G_x": 2680842816,
+          "G_y": 2686216768,
+          "common_F": 1107303945,
+          "x": 4293591048,
+          "x_plus_D": 1310728,
+          "xor_x": 4294901760,
+          "xor_y": 4294901760,
+          "y": 4293595418,
+          "y_plus_D": 1315098
+        }
+      ],
+      "full32_twin_leaves": 2,
+      "input_classes": 117,
+      "q": 41,
+      "sigma0_leaves": 50677,
+      "stats": {
+        "carry_edges": 1276451,
+        "checked_contradictions": 11544
+      }
+    },
+    {
+      "D": 2818048,
+      "class_size_histogram": {
+        "1024": 13,
+        "128": 13,
+        "16": 14,
+        "2": 2,
+        "2048": 11,
+        "256": 13,
+        "32": 13,
+        "4": 11,
+        "4096": 4,
+        "512": 13,
+        "64": 13,
+        "8": 18
+      },
+      "fixtures": [
+        {
+          "G_gap": 5636096,
+          "G_x": 3753929403,
+          "G_y": 3759565499,
+          "common_F": 2717760011,
+          "x": 4292935680,
+          "x_plus_D": 786432,
+          "xor_x": 4293722112,
+          "xor_y": 4293722112,
+          "y": 4292940050,
+          "y_plus_D": 790802
+        },
+        {
+          "G_gap": 5636096,
+          "G_x": 3753929402,
+          "G_y": 3759565498,
+          "common_F": 2717777419,
+          "x": 4293001216,
+          "x_plus_D": 851968,
+          "xor_x": 4293853184,
+          "xor_y": 4293853184,
+          "y": 4293005586,
+          "y_plus_D": 856338
+        },
+        {
+          "G_gap": 5636096,
+          "G_x": 3753929407,
+          "G_y": 3759565503,
+          "common_F": 2717899275,
+          "x": 4293459968,
+          "x_plus_D": 1310720,
+          "xor_x": 4294770688,
+          "xor_y": 4294770688,
+          "y": 4293464338,
+          "y_plus_D": 1315090
+        },
+        {
+          "G_gap": 5636096,
+          "G_x": 3753929408,
+          "G_y": 3759565504,
+          "common_F": 2717900299,
+          "x": 4293525504,
+          "x_plus_D": 1376256,
+          "xor_x": 4294901760,
+          "xor_y": 4294901760,
+          "y": 4293529874,
+          "y_plus_D": 1380626
+        }
+      ],
+      "full32_twin_leaves": 4,
+      "input_classes": 138,
+      "q": 43,
+      "sigma0_leaves": 68938,
+      "stats": {
+        "carry_edges": 4217479,
+        "checked_contradictions": 99585
+      }
+    },
+    {
+      "D": 2949120,
+      "class_size_histogram": {
+        "1024": 12,
+        "128": 12,
+        "16": 14,
+        "2": 2,
+        "2048": 10,
+        "256": 12,
+        "32": 12,
+        "4": 9,
+        "4096": 5,
+        "512": 12,
+        "64": 12,
+        "8": 15
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 127,
+      "q": 45,
+      "sigma0_leaves": 64609,
+      "stats": {
+        "carry_edges": 4103289,
+        "checked_contradictions": 98839
+      }
+    },
+    {
+      "D": 3080192,
+      "class_size_histogram": {
+        "1024": 9,
+        "128": 9,
+        "16": 10,
+        "2": 2,
+        "2048": 7,
+        "256": 9,
+        "32": 10,
+        "4": 7,
+        "4096": 4,
+        "512": 9,
+        "64": 9,
+        "8": 8,
+        "8192": 2
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 95,
+      "q": 47,
+      "sigma0_leaves": 16817,
+      "stats": {
+        "carry_edges": 579684,
+        "checked_contradictions": 6932
+      }
+    },
+    {
+      "D": 3211264,
+      "class_size_histogram": {
+        "1024": 9,
+        "128": 9,
+        "16": 10,
+        "2": 2,
+        "2048": 7,
+        "256": 9,
+        "32": 10,
+        "4": 5,
+        "4096": 4,
+        "512": 9,
+        "64": 9,
+        "8": 9,
+        "8192": 2
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 94,
+      "q": 49,
+      "sigma0_leaves": 16934,
+      "stats": {
+        "carry_edges": 574934,
+        "checked_contradictions": 8765
+      }
+    },
+    {
+      "D": 3342336,
+      "class_size_histogram": {
+        "1024": 12,
+        "128": 12,
+        "16": 15,
+        "2": 2,
+        "2048": 10,
+        "256": 12,
+        "32": 12,
+        "4": 7,
+        "4096": 5,
+        "512": 12,
+        "64": 12,
+        "8": 14
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 125,
+      "q": 51,
+      "sigma0_leaves": 55589,
+      "stats": {
+        "carry_edges": 3879352,
+        "checked_contradictions": 99270
+      }
+    },
+    {
+      "D": 3473408,
+      "class_size_histogram": {
+        "1024": 13,
+        "128": 13,
+        "16": 16,
+        "2": 2,
+        "2048": 11,
+        "256": 13,
+        "32": 13,
+        "4": 9,
+        "4096": 4,
+        "512": 13,
+        "64": 13,
+        "8": 15
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 135,
+      "q": 53,
+      "sigma0_leaves": 60083,
+      "stats": {
+        "carry_edges": 3999616,
+        "checked_contradictions": 100754
+      }
+    },
+    {
+      "D": 3604480,
+      "class_size_histogram": {
+        "1024": 11,
+        "128": 11,
+        "16": 12,
+        "2": 2,
+        "2048": 9,
+        "256": 11,
+        "32": 12,
+        "4": 7,
+        "4096": 4,
+        "512": 11,
+        "64": 11,
+        "8": 12,
+        "8192": 1
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 114,
+      "q": 55,
+      "sigma0_leaves": 45998,
+      "stats": {
+        "carry_edges": 1255536,
+        "checked_contradictions": 13616
+      }
+    },
+    {
+      "D": 3735552,
+      "class_size_histogram": {
+        "1024": 10,
+        "128": 10,
+        "16": 12,
+        "2": 2,
+        "2048": 8,
+        "256": 10,
+        "32": 11,
+        "4": 5,
+        "4096": 5,
+        "512": 10,
+        "64": 10,
+        "8": 9,
+        "8192": 1
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 103,
+      "q": 57,
+      "sigma0_leaves": 45295,
+      "stats": {
+        "carry_edges": 1133171,
+        "checked_contradictions": 14360
+      }
+    },
+    {
+      "D": 3866624,
+      "class_size_histogram": {
+        "1024": 11,
+        "128": 11,
+        "16": 13,
+        "2": 2,
+        "2048": 9,
+        "256": 11,
+        "32": 12,
+        "4": 7,
+        "4096": 4,
+        "512": 11,
+        "64": 11,
+        "8": 10,
+        "8192": 1
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 113,
+      "q": 59,
+      "sigma0_leaves": 44273,
+      "stats": {
+        "carry_edges": 2496460,
+        "checked_contradictions": 58827
+      }
+    },
+    {
+      "D": 3997696,
+      "class_size_histogram": {
+        "1024": 9,
+        "128": 9,
+        "16": 9,
+        "2": 2,
+        "2048": 7,
+        "256": 9,
+        "32": 11,
+        "4": 5,
+        "4096": 4,
+        "512": 9,
+        "64": 9,
+        "8": 7,
+        "8192": 2
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 92,
+      "q": 61,
+      "sigma0_leaves": 39578,
+      "stats": {
+        "carry_edges": 2361376,
+        "checked_contradictions": 56937
+      }
+    },
+    {
+      "D": 4128768,
+      "class_size_histogram": {
+        "1024": 6,
+        "128": 6,
+        "16": 5,
+        "16384": 1,
+        "2": 2,
+        "2048": 4,
+        "256": 6,
+        "32": 6,
+        "4": 3,
+        "4096": 3,
+        "512": 6,
+        "64": 7,
+        "8": 4,
+        "8192": 2
+      },
+      "fixtures": [],
+      "full32_twin_leaves": 0,
+      "input_classes": 61,
+      "q": 63,
+      "sigma0_leaves": 12035,
+      "stats": {
+        "carry_edges": 335180,
+        "checked_contradictions": 8966
+      }
+    }
+  ],
+  "schema": "CRYPTO3-support12-v16-q33-63-independent-pre-author-v10",
+  "scope": "exact bounded selected twin condition only; no third pair, support assignment, message pair, distance-14 proof, or Lean formalization",
+  "status": "PASS"
+}

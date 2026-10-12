@@ -1,0 +1,16 @@
+{
+  "author_fixture_count": 12,
+  "author_manifest_files_checked": 4,
+  "author_replay": "PASS",
+  "decision": "ACCEPT",
+  "excluded_positive_q": [33, 35, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+  "independent_fixture_count": 12,
+  "independent_full_enumeration": "PASS",
+  "independent_negative_reversals_checked": 12,
+  "independent_negative_controls": "96/96 rejected",
+  "q_domain": [33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+  "schema": "CRYPTO3-support12-v16-q33-63-independent-acceptance-v10",
+  "scope": "exact bounded selected twin local condition only",
+  "surviving_positive_q": [37, 39, 41, 43],
+  "warning": "No third-pair/core acceptance, support assignment, message pair, distance-14 proof, or Lean formalization is implied."
+}

@@ -1,0 +1,760 @@
+{
+  "schema": "CRYPTO3-v16-selected-core-q33-63-independent-review-v10",
+  "status": "ACCEPT",
+  "accepted_q": [
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63
+  ],
+  "author_certificate_sha256": "a448850efb601f0691cef234dbc4e22b2298e04d0e4b5e95f65c40b2178e1d27",
+  "author_run_sha256": "3be37a013bfc0ead6ddb08bca901ddd42bd83d72d3cfb8fc55383d7f183793cb",
+  "checker": {
+    "python": "3.12.14",
+    "source_sha256": "79d9957174768848f6e982ccc2a40f40d852809be6480d4359bcf56bdf730286",
+    "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-core-q33-63-review-v10/independent_review.py --write"
+  },
+  "per_q": [
+    {
+      "q": 33,
+      "D": "00210000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "38f5affa39974a12d55d782801c30d6491519e2b0f6e83b39fa15fdc7ed38dee",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 6686,
+        "sha256": "946cffe54ce9cf77ddd5e8750f6aae965c22d4707b376a02bd015c3b8c715900",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 4.268795226998918
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffdf0000",
+        "shifted_words": [
+          "01444546",
+          "89cccdce",
+          "fefdbab9"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 4074",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 35,
+      "D": "00230000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "41a5f74a54ca82bb1007b6b8514d7872eec2163717bf93b062208486d7432fc3",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 6591,
+        "sha256": "3748903c5b718a85a85d99365f599b35b50710f38e4461059baad37f8ddd1f6f",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 4.102584434003802
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffdd0000",
+        "shifted_words": [
+          "01464544",
+          "89cecdcc",
+          "feffbabb"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 825",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 37,
+      "D": "00250000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "d5f40f8a766aa1d47fcaac297ab9de21b7e9612c4a201883750090eaeaad1f9c",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 5309,
+        "sha256": "42f39b32b415381f2055950bcaff0492d5c768bc8704c3952d7dd743c189dce1",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.845006060000742
+      },
+      "near_miss": {
+        "status": "PASS",
+        "words": [
+          "ffe59b73",
+          "ffe58a61",
+          "ffe5a74b"
+        ],
+        "equations": {
+          "F_D(y)=A": true,
+          "G_D(y)=T+D": true,
+          "F_D(z)=-A": true,
+          "G_D(z)=-T": false
+        }
+      },
+      "negative_symmetry": {
+        "negative_D": "ffdb0000",
+        "shifted_words": [
+          "000a9b73",
+          "000a8a61",
+          "000aa74b"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9681,
+        "definition_damage_failure": "non-RUP addition 4214",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 39,
+      "D": "00270000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "27a72021db1e67adcf16969f423c59e8fcea9d8c0f52fd39a5ea51afbb7f108e",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 4772,
+        "sha256": "cbc5dd974b4bdb0076f41bebfd8abab58001ddf416b77c97b3673c9ad2a396bd",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.2140564149958664
+      },
+      "near_miss": {
+        "status": "PASS",
+        "words": [
+          "7fe46a5b",
+          "7fe47b49",
+          "7ff4b8ae"
+        ],
+        "equations": {
+          "F_D(y)=A": true,
+          "G_D(y)=T+D": true,
+          "F_D(z)=-A": true,
+          "G_D(z)=-T": false
+        }
+      },
+      "negative_symmetry": {
+        "negative_D": "ffd90000",
+        "shifted_words": [
+          "800b6a5b",
+          "800b7b49",
+          "801bb8ae"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9681,
+        "definition_damage_failure": "non-RUP addition 888",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 41,
+      "D": "00290000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "fb6721c1a8edbddf675260f6c6a2047a69eda70cf03af08f6944e4b3d6aeca0d",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 7630,
+        "sha256": "fcc731f0597e1d46c748dc35c587fe5f1f1f62913c5d270167a1cacf9bcbd8ba",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 5.788938388999668
+      },
+      "near_miss": {
+        "status": "PASS",
+        "words": [
+          "7feb02d7",
+          "7feb13c5",
+          "ffeba774"
+        ],
+        "equations": {
+          "F_D(y)=A": true,
+          "G_D(y)=T+D": true,
+          "F_D(z)=-A": true,
+          "G_D(z)=-T": false
+        }
+      },
+      "negative_symmetry": {
+        "negative_D": "ffd70000",
+        "shifted_words": [
+          "801402d7",
+          "801413c5",
+          "0014a774"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9679,
+        "definition_damage_failure": "non-RUP addition 4931",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 43,
+      "D": "002b0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "33eb259552778b8961007a77849e4c03429fff20eb01ccee9b1756f0077a43f5",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 6177,
+        "sha256": "26f68b57710eebf888e2d739b0ec7abb37f822edcaf68fdffb7afa083ee666f0",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 3.56210154099972
+      },
+      "near_miss": {
+        "status": "PASS",
+        "words": [
+          "7feb3f21",
+          "7feb2e33",
+          "ffeb8b90"
+        ],
+        "equations": {
+          "F_D(y)=A": true,
+          "G_D(y)=T+D": true,
+          "F_D(z)=-A": true,
+          "G_D(z)=-T": false
+        }
+      },
+      "negative_symmetry": {
+        "negative_D": "ffd50000",
+        "shifted_words": [
+          "80163f21",
+          "80162e33",
+          "00168b90"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9679,
+        "definition_damage_failure": "non-RUP addition 938",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 45,
+      "D": "002d0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "64168bff6386775c970dcd5dac8b16140a8925adc57a8d5b9fc65985922b275e",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 3183,
+        "sha256": "24e3033d22d93c581d68a2cdfac2c8e70dae1a63f344c8dc7b397a9bfcd774a4",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 1.2272752359931474
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffd30000",
+        "shifted_words": [
+          "0150454a",
+          "89d8cdc2",
+          "ff09bab5"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9681,
+        "definition_damage_failure": "non-RUP addition 749",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 47,
+      "D": "002f0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "9ea8b19d36c548d8526ed706d3a35221a132805aee1ac92125b0c389242faa0a",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 4979,
+        "sha256": "4971f224edfec7d3a4ca5203697db74830fa4ad7471570ebe1df66b0921dd12b",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.5073004190053325
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffd10000",
+        "shifted_words": [
+          "01524548",
+          "89dacdc0",
+          "ff0bbab7"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9681,
+        "definition_damage_failure": "non-RUP addition 3143",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 49,
+      "D": "00310000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "e7dc02e5bbd885fb877ecde0ce49fb8538410ea99a32ada2011114292951b26e",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 4536,
+        "sha256": "2fa76cf000f1b60fc4d645700a4205332db508440980a94d1ff5e593cb4c009f",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.3325325090045226
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffcf0000",
+        "shifted_words": [
+          "01544556",
+          "89dccdde",
+          "ff0dbaa9"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 702",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 51,
+      "D": "00330000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "05ed27c4dfff120a0688b57aa71094c4f038c168fbd1cbd2aacb7ee199f1aaa6",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 5081,
+        "sha256": "b6da548e015a2a8e158d668bdf7019612d88aa4f64d7a06576508613a6e651a4",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.762837768001191
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffcd0000",
+        "shifted_words": [
+          "01564554",
+          "89decddc",
+          "ff0fbaab"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 4839",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 53,
+      "D": "00350000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "22eb85e9919a03dddc31f0f7da62ddc6e8ace3e6f07a806e760413c642615a0c",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 4678,
+        "sha256": "8bba7f7a4bafe22313697000afa6e73a29a6583bf1da072ca62f840c5e6f3a6e",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.2883851179940393
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffcb0000",
+        "shifted_words": [
+          "01584552",
+          "89e0cdda",
+          "ff11baad"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9681,
+        "definition_damage_failure": "non-RUP addition 934",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 55,
+      "D": "00370000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "d8980b3a20d71e645cf088b236b07b18837bd3346af63b81ce49e9ba6af598ea",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 5104,
+        "sha256": "4839037d1af988fb8c44c2494e55cf43eecd72e0491840b4569e5fbd026face4",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.5420321630008402
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffc90000",
+        "shifted_words": [
+          "015a4550",
+          "89e2cdd8",
+          "ff13baaf"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 1182",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 57,
+      "D": "00390000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "dc093696372322957769a423647c3f6de8064ce499566c2972fc634bb6684ea5",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 5911,
+        "sha256": "b488be8d8b522c2b07dff89799e4e2211fd4d64f34b1efa07683707ac2812292",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 3.34429889999592
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffc70000",
+        "shifted_words": [
+          "015c455e",
+          "89e4cdd6",
+          "ff15baa1"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 1121",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 59,
+      "D": "003b0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "cf0792d9358be34f0d68b6a69923eda3673bdd507d8518f906a932a1ba386405",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 5118,
+        "sha256": "ff418123fb3ae21ff04d549cdbf82d59eeb46813951091215aee4d56d27900c7",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.60619039300218
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffc50000",
+        "shifted_words": [
+          "015e455c",
+          "89e6cdd4",
+          "ff17baa3"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9680,
+        "definition_damage_failure": "non-RUP addition 110",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 61,
+      "D": "003d0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "da6c42ea47a82506d75d347a8f308ff4cc0f71ad0c604ed786d45e7473bb1f4b",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 6372,
+        "sha256": "e1fe1f8982a56e619232c9cb368b3ff323956d043864ed2ca8a36eca2ece3ee3",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 4.3228825260011945
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffc30000",
+        "shifted_words": [
+          "0160455a",
+          "89e8cdd2",
+          "ff19baa5"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 3412",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    },
+    {
+      "q": 63,
+      "D": "003f0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "450a7c7884cb14458aba2c1dcc35e4e524d689a80a28e9c4ccc863682a9375df",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions_checked": 5093,
+        "sha256": "c486b4de0fbef8bf942913a35384678639b77e5e3d5818e0e5250fe67c1d6685",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.7300324590032687
+      },
+      "near_miss": {
+        "status": "NOT_APPLICABLE",
+        "reason": "no prefix fixture used; the independent control set uses q=37,39,41,43"
+      },
+      "negative_symmetry": {
+        "negative_D": "ffc10000",
+        "shifted_words": [
+          "01624558",
+          "89eacdd0",
+          "ff1bbaa7"
+        ],
+        "pointwise_derivatives_negate": true,
+        "equation_vector_preserved": true
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "truncated_failure": "proof does not end in the empty clause",
+        "single_definition_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "definition_damage_failure": "non-RUP addition 1940",
+        "proof_literal_mutation_rejected": true,
+        "proof_mutation_addition": 2,
+        "proof_mutation_failure": "non-RUP addition 2"
+      }
+    }
+  ],
+  "scope": "selected three-pair core only for D=+/-q*2^16, odd q=33..63; not all exact-v2=16 differences, not a support-12 solution, not a SHA-256 message pair, not distance 13 attainability, not a distance-at-least-14 theorem, and not Lean"
+}

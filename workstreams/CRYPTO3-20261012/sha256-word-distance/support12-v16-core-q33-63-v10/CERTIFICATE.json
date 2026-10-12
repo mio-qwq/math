@@ -1,0 +1,320 @@
+{
+  "definition": {
+    "A": "F_D(x)",
+    "D": "q*2^16",
+    "T": "G_D(x)+D",
+    "encoded_constraints": [
+      "F_D(y)=A",
+      "G_D(y)=T+D",
+      "F_D(z)=-A",
+      "G_D(z)=-T"
+    ]
+  },
+  "q_values": [
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63
+  ],
+  "records": {
+    "33": {
+      "D": "00210000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "38f5affa39974a12d55d782801c30d6491519e2b0f6e83b39fa15fdc7ed38dee",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 6686,
+        "discarded_deletion_lines": 4348,
+        "format": "deletion-free DRUP",
+        "sha256": "946cffe54ce9cf77ddd5e8750f6aae965c22d4707b376a02bd015c3b8c715900"
+      },
+      "q": 33,
+      "solver_seconds": 0.06019599299906986,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "35": {
+      "D": "00230000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "41a5f74a54ca82bb1007b6b8514d7872eec2163717bf93b062208486d7432fc3",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 6591,
+        "discarded_deletion_lines": 1353,
+        "format": "deletion-free DRUP",
+        "sha256": "3748903c5b718a85a85d99365f599b35b50710f38e4461059baad37f8ddd1f6f"
+      },
+      "q": 35,
+      "solver_seconds": 0.0609342169991578,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "37": {
+      "D": "00250000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "d5f40f8a766aa1d47fcaac297ab9de21b7e9612c4a201883750090eaeaad1f9c",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5309,
+        "discarded_deletion_lines": 1562,
+        "format": "deletion-free DRUP",
+        "sha256": "42f39b32b415381f2055950bcaff0492d5c768bc8704c3952d7dd743c189dce1"
+      },
+      "q": 37,
+      "solver_seconds": 0.04340594699897338,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "39": {
+      "D": "00270000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "27a72021db1e67adcf16969f423c59e8fcea9d8c0f52fd39a5ea51afbb7f108e",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 4772,
+        "discarded_deletion_lines": 1482,
+        "format": "deletion-free DRUP",
+        "sha256": "cbc5dd974b4bdb0076f41bebfd8abab58001ddf416b77c97b3673c9ad2a396bd"
+      },
+      "q": 39,
+      "solver_seconds": 0.038511136001034174,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "41": {
+      "D": "00290000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "fb6721c1a8edbddf675260f6c6a2047a69eda70cf03af08f6944e4b3d6aeca0d",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 7630,
+        "discarded_deletion_lines": 4498,
+        "format": "deletion-free DRUP",
+        "sha256": "fcc731f0597e1d46c748dc35c587fe5f1f1f62913c5d270167a1cacf9bcbd8ba"
+      },
+      "q": 41,
+      "solver_seconds": 0.06711564499710221,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "43": {
+      "D": "002b0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "33eb259552778b8961007a77849e4c03429fff20eb01ccee9b1756f0077a43f5",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 6177,
+        "discarded_deletion_lines": 1402,
+        "format": "deletion-free DRUP",
+        "sha256": "26f68b57710eebf888e2d739b0ec7abb37f822edcaf68fdffb7afa083ee666f0"
+      },
+      "q": 43,
+      "solver_seconds": 0.04782427400641609,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "45": {
+      "D": "002d0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "64168bff6386775c970dcd5dac8b16140a8925adc57a8d5b9fc65985922b275e",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 3183,
+        "discarded_deletion_lines": 1515,
+        "format": "deletion-free DRUP",
+        "sha256": "24e3033d22d93c581d68a2cdfac2c8e70dae1a63f344c8dc7b397a9bfcd774a4"
+      },
+      "q": 45,
+      "solver_seconds": 0.025724191997142043,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "47": {
+      "D": "002f0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "9ea8b19d36c548d8526ed706d3a35221a132805aee1ac92125b0c389242faa0a",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 4979,
+        "discarded_deletion_lines": 1316,
+        "format": "deletion-free DRUP",
+        "sha256": "4971f224edfec7d3a4ca5203697db74830fa4ad7471570ebe1df66b0921dd12b"
+      },
+      "q": 47,
+      "solver_seconds": 0.039687178999884054,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "49": {
+      "D": "00310000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "e7dc02e5bbd885fb877ecde0ce49fb8538410ea99a32ada2011114292951b26e",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 4536,
+        "discarded_deletion_lines": 1396,
+        "format": "deletion-free DRUP",
+        "sha256": "2fa76cf000f1b60fc4d645700a4205332db508440980a94d1ff5e593cb4c009f"
+      },
+      "q": 49,
+      "solver_seconds": 0.03703705200314289,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "51": {
+      "D": "00330000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "05ed27c4dfff120a0688b57aa71094c4f038c168fbd1cbd2aacb7ee199f1aaa6",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5081,
+        "discarded_deletion_lines": 1530,
+        "format": "deletion-free DRUP",
+        "sha256": "b6da548e015a2a8e158d668bdf7019612d88aa4f64d7a06576508613a6e651a4"
+      },
+      "q": 51,
+      "solver_seconds": 0.04197038200072711,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "53": {
+      "D": "00350000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "22eb85e9919a03dddc31f0f7da62ddc6e8ace3e6f07a806e760413c642615a0c",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 4678,
+        "discarded_deletion_lines": 1530,
+        "format": "deletion-free DRUP",
+        "sha256": "8bba7f7a4bafe22313697000afa6e73a29a6583bf1da072ca62f840c5e6f3a6e"
+      },
+      "q": 53,
+      "solver_seconds": 0.03950995599734597,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "55": {
+      "D": "00370000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "d8980b3a20d71e645cf088b236b07b18837bd3346af63b81ce49e9ba6af598ea",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5104,
+        "discarded_deletion_lines": 1633,
+        "format": "deletion-free DRUP",
+        "sha256": "4839037d1af988fb8c44c2494e55cf43eecd72e0491840b4569e5fbd026face4"
+      },
+      "q": 55,
+      "solver_seconds": 0.04079611099587055,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "57": {
+      "D": "00390000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "dc093696372322957769a423647c3f6de8064ce499566c2972fc634bb6684ea5",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5911,
+        "discarded_deletion_lines": 1632,
+        "format": "deletion-free DRUP",
+        "sha256": "b488be8d8b522c2b07dff89799e4e2211fd4d64f34b1efa07683707ac2812292"
+      },
+      "q": 57,
+      "solver_seconds": 0.0684141589954379,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "59": {
+      "D": "003b0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "cf0792d9358be34f0d68b6a69923eda3673bdd507d8518f906a932a1ba386405",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5118,
+        "discarded_deletion_lines": 1270,
+        "format": "deletion-free DRUP",
+        "sha256": "ff418123fb3ae21ff04d549cdbf82d59eeb46813951091215aee4d56d27900c7"
+      },
+      "q": 59,
+      "solver_seconds": 0.039889348998258356,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "61": {
+      "D": "003d0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "da6c42ea47a82506d75d347a8f308ff4cc0f71ad0c604ed786d45e7473bb1f4b",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 6372,
+        "discarded_deletion_lines": 1673,
+        "format": "deletion-free DRUP",
+        "sha256": "e1fe1f8982a56e619232c9cb368b3ff323956d043864ed2ca8a36eca2ece3ee3"
+      },
+      "q": 61,
+      "solver_seconds": 0.054004790996259544,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "63": {
+      "D": "003f0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "450a7c7884cb14458aba2c1dcc35e4e524d689a80a28e9c4ccc863682a9375df",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5093,
+        "discarded_deletion_lines": 1525,
+        "format": "deletion-free DRUP",
+        "sha256": "c486b4de0fbef8bf942913a35384678639b77e5e3d5818e0e5250fe67c1d6685"
+      },
+      "q": 63,
+      "solver_seconds": 0.040373124997131526,
+      "status": "UNSAT candidate; DRUP generated"
+    }
+  },
+  "runtime": {
+    "command": "PYTHONPATH=/workspace/scratch/b1d6bae025af/crypto3-deps python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-core-q37-43-v10/generate.py",
+    "python": "3.12.14",
+    "python_sat": "1.9.dev15",
+    "solver": "Glucose4 bundled by python-sat; generation only",
+    "solver_binary": "/workspace/scratch/b1d6bae025af/crypto3-deps/pysolvers.cpython-312-x86_64-linux-gnu.so",
+    "solver_binary_sha256": "d6b02a21d3d8fcfd71996a2c9892f9c22ef8d78c1f8b19d260be1c6930411651"
+  },
+  "schema": "support12-v16-selected-core-q33-63-v10",
+  "scope": "sixteen fixed D values in a selected local subsystem only; not all v2(D)=16, not the complete support-12 graph, and not messages",
+  "source_sha256": {
+    "base_generate.py": "475bb1171d77ba2fd957f50025c335e4fdf7ee8d7bab2b86f7fcf9cd6055c3a0",
+    "generate.py": "720e0ee9099080515581147cc2c8e9eda7b0327c151a83ba29b213e7c8b651e5"
+  },
+  "status": "all sixteen author proof candidates generated"
+}

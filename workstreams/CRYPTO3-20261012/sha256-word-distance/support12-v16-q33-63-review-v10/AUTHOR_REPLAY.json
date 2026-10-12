@@ -1,0 +1,16 @@
+{
+  "certificate_sha256": "329187765b72ca963bc2fa9e86fae88f930c829508e9da06201b24ea15ec77e3",
+  "checker_sha256": "d2de8188863905fe72ccb2c1c5aad751fcf6e9a6d7f19c45d5789296034e3af3",
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-q33-63-v10/check.py --jobs 4 --negative",
+  "controls": {
+    "base_checker_sha256": "a58fc79b82edce8c82d8838a0d197bdd77b9dc42a4d91c4250b0d3ae4d6d1d60",
+    "basis_rows_checked": 64,
+    "damaged_fixture_fields_rejected": 48,
+    "excluded_with_low31_frontier": []
+  },
+  "elapsed_seconds": 124.00068437400478,
+  "excluded_positive_q": [33, 35, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+  "exit_code": 0,
+  "status": "PASS",
+  "surviving_positive_q": [37, 39, 41, 43]
+}

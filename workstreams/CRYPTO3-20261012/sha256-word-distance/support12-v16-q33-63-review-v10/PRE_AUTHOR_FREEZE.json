@@ -1,0 +1,8 @@
+{
+  "author_v10_files_read": [],
+  "checker_sha256": "b9ce55525c1c7def35fcd588179a62a8931359665a31e3b67b4b68cf170d0de0",
+  "frozen_question": "selected twin core for D=q*2^16, every odd q in [33,63]",
+  "q_values": [33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+  "schema": "CRYPTO3-support12-v16-q33-63-review-pre-author-freeze-v10",
+  "status": "FROZEN_BEFORE_AUTHOR_INSPECTION"
+}

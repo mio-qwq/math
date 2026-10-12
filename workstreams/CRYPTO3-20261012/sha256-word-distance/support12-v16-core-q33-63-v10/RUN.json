@@ -1,0 +1,434 @@
+{
+  "base_checker_sha256": "e033375f78bbaf125ccf486123e68bd018b3d788b25a2785bd1eaf8985582c3e",
+  "checker": "Python standard library only",
+  "records": {
+    "33": {
+      "D": "00210000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "38f5affa39974a12d55d782801c30d6491519e2b0f6e83b39fa15fdc7ed38dee",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 6686,
+        "final_empty": true,
+        "seconds": 6.450585370999761,
+        "sha256": "946cffe54ce9cf77ddd5e8750f6aae965c22d4707b376a02bd015c3b8c715900"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "35": {
+      "D": "00230000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "41a5f74a54ca82bb1007b6b8514d7872eec2163717bf93b062208486d7432fc3",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 6591,
+        "final_empty": true,
+        "seconds": 6.358615301003738,
+        "sha256": "3748903c5b718a85a85d99365f599b35b50710f38e4461059baad37f8ddd1f6f"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "37": {
+      "D": "00250000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "d5f40f8a766aa1d47fcaac297ab9de21b7e9612c4a201883750090eaeaad1f9c",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5309,
+        "final_empty": true,
+        "seconds": 4.902729344001273,
+        "sha256": "42f39b32b415381f2055950bcaff0492d5c768bc8704c3952d7dd743c189dce1"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "a1fdfeb9",
+        "G_D_z": "9fd96946",
+        "T": "a014693a",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "5feb96c6",
+        "x": "ffe59b73",
+        "y": "ffe58a61",
+        "z": "ffe5a74b"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "39": {
+      "D": "00270000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "27a72021db1e67adcf16969f423c59e8fcea9d8c0f52fd39a5ea51afbb7f108e",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 4772,
+        "final_empty": true,
+        "seconds": 4.049056578005548,
+        "sha256": "cbc5dd974b4bdb0076f41bebfd8abab58001ddf416b77c97b3673c9ad2a396bd"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "da020137",
+        "G_D_z": "e00589b6",
+        "T": "1ff489ca",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "e00b7636",
+        "x": "7fe46a5b",
+        "y": "7fe47b49",
+        "z": "7ff4b8ae"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "41": {
+      "D": "00290000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "fb6721c1a8edbddf675260f6c6a2047a69eda70cf03af08f6944e4b3d6aeca0d",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 7630,
+        "final_empty": true,
+        "seconds": 8.325311193002563,
+        "sha256": "fcc731f0597e1d46c748dc35c587fe5f1f1f62913c5d270167a1cacf9bcbd8ba"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "5dffdeb5",
+        "G_D_z": "1fe96a40",
+        "T": "a00b8a40",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "5ff475c0",
+        "x": "7feb02d7",
+        "y": "7feb13c5",
+        "z": "ffeba774"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "43": {
+      "D": "002b0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "33eb259552778b8961007a77849e4c03429fff20eb01ccee9b1756f0077a43f5",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 6177,
+        "final_empty": true,
+        "seconds": 5.7614589810036705,
+        "sha256": "26f68b57710eebf888e2d739b0ec7abb37f822edcaf68fdffb7afa083ee666f0"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "59ff9d3f",
+        "G_D_z": "e0346ac1",
+        "T": "e0148abf",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "1feb7541",
+        "x": "7feb3f21",
+        "y": "7feb2e33",
+        "z": "ffeb8b90"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "45": {
+      "D": "002d0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "64168bff6386775c970dcd5dac8b16140a8925adc57a8d5b9fc65985922b275e",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 3183,
+        "final_empty": true,
+        "seconds": 2.4237149100008537,
+        "sha256": "24e3033d22d93c581d68a2cdfac2c8e70dae1a63f344c8dc7b397a9bfcd774a4"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "47": {
+      "D": "002f0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "9ea8b19d36c548d8526ed706d3a35221a132805aee1ac92125b0c389242faa0a",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 4979,
+        "final_empty": true,
+        "seconds": 4.158951184996113,
+        "sha256": "4971f224edfec7d3a4ca5203697db74830fa4ad7471570ebe1df66b0921dd12b"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "49": {
+      "D": "00310000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "e7dc02e5bbd885fb877ecde0ce49fb8538410ea99a32ada2011114292951b26e",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 4536,
+        "final_empty": true,
+        "seconds": 4.030176628002664,
+        "sha256": "2fa76cf000f1b60fc4d645700a4205332db508440980a94d1ff5e593cb4c009f"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "51": {
+      "D": "00330000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "05ed27c4dfff120a0688b57aa71094c4f038c168fbd1cbd2aacb7ee199f1aaa6",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5081,
+        "final_empty": true,
+        "seconds": 4.589719429000979,
+        "sha256": "b6da548e015a2a8e158d668bdf7019612d88aa4f64d7a06576508613a6e651a4"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "53": {
+      "D": "00350000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "22eb85e9919a03dddc31f0f7da62ddc6e8ace3e6f07a806e760413c642615a0c",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 4678,
+        "final_empty": true,
+        "seconds": 4.042754359004903,
+        "sha256": "8bba7f7a4bafe22313697000afa6e73a29a6583bf1da072ca62f840c5e6f3a6e"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "55": {
+      "D": "00370000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "d8980b3a20d71e645cf088b236b07b18837bd3346af63b81ce49e9ba6af598ea",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5104,
+        "final_empty": true,
+        "seconds": 4.37564594399737,
+        "sha256": "4839037d1af988fb8c44c2494e55cf43eecd72e0491840b4569e5fbd026face4"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "57": {
+      "D": "00390000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "dc093696372322957769a423647c3f6de8064ce499566c2972fc634bb6684ea5",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5911,
+        "final_empty": true,
+        "seconds": 5.815634837003017,
+        "sha256": "b488be8d8b522c2b07dff89799e4e2211fd4d64f34b1efa07683707ac2812292"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "59": {
+      "D": "003b0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "cf0792d9358be34f0d68b6a69923eda3673bdd507d8518f906a932a1ba386405",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5118,
+        "final_empty": true,
+        "seconds": 4.756774952998967,
+        "sha256": "ff418123fb3ae21ff04d549cdbf82d59eeb46813951091215aee4d56d27900c7"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "61": {
+      "D": "003d0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "da6c42ea47a82506d75d347a8f308ff4cc0f71ad0c604ed786d45e7473bb1f4b",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 6372,
+        "final_empty": true,
+        "seconds": 6.3569333239938715,
+        "sha256": "e1fe1f8982a56e619232c9cb368b3ff323956d043864ed2ca8a36eca2ece3ee3"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    },
+    "63": {
+      "D": "003f0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "450a7c7884cb14458aba2c1dcc35e4e524d689a80a28e9c4ccc863682a9375df",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5093,
+        "final_empty": true,
+        "seconds": 4.571377915999619,
+        "sha256": "c486b4de0fbef8bf942913a35384678639b77e5e3d5818e0e5250fe67c1d6685"
+      },
+      "near_miss_dropping_GDz": {
+        "not_applicable": "twin layer is already empty"
+      },
+      "negative_controls": {
+        "mutated_cnf_digest_rejected": true,
+        "truncated_proof_rejected": true
+      },
+      "status": "PASS"
+    }
+  },
+  "schema": "support12-v16-selected-core-q33-63-check-v10",
+  "scope": "sixteen fixed D values only; not all v2(D)=16, not complete support-12, and not SHA-256 message pairs",
+  "status": "PASS",
+  "theorem": "the exact selected three-pair core is UNSAT for each listed positive D; pair reversal supplies negative D"
+}

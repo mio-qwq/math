@@ -1,0 +1,33 @@
+{
+  "schema": "CRYPTO3-stage10-acceptance-v1",
+  "status": "PASS",
+  "global_boundary": "lower bound 13 only; no distance-13 message pair and no lower bound 14",
+  "accepted_scope": {
+    "object": "selected three-pair local joint-image core",
+    "D": "+/-q*2^16",
+    "q": "every odd q in 33..63",
+    "combined_with_stage9": "every odd q in 1..63",
+    "review": "independent CNF reconstruction and 87220 deletion-free RUP additions"
+  },
+  "accepted_classification": {
+    "object": "selected two-pair local twin condition",
+    "q": "every odd q in 33..63",
+    "excluded": [33, 35, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+    "surviving": [37, 39, 41, 43],
+    "surviving_leaf_counts": [4, 2, 2, 4],
+    "review": "independent complete affine/carry cover and direct fixtures"
+  },
+  "candidate_only": {
+    "base_factor_normal_form": "18 free words, 14 equalities including R33, seven nonzero tests",
+    "status": "seeded symbolic substitution checks only; pending complete proof and independent review"
+  },
+  "not_claimed": [
+    "all exact-valuation-16 differences",
+    "complete support-12 exclusion",
+    "SHA-256 message pair",
+    "distance-13 attainability",
+    "distance at least 14",
+    "Lean formalisation",
+    "external human review"
+  ]
+}

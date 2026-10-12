@@ -1,0 +1,196 @@
+{
+  "author_fixtures_directly_checked": 12,
+  "author_manifest_files_checked": 4,
+  "author_negative_reversals_directly_checked": 12,
+  "comparisons": [
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 65,
+      "leaf_signature_set_equal": true,
+      "q": 33,
+      "sigma0_leaves": 11317
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 97,
+      "leaf_signature_set_equal": true,
+      "q": 35,
+      "sigma0_leaves": 54829
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": false,
+      "full32_twin_leaves": 4,
+      "input_classes": 118,
+      "leaf_signature_set_equal": true,
+      "q": 37,
+      "sigma0_leaves": 59524
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": false,
+      "full32_twin_leaves": 2,
+      "input_classes": 107,
+      "leaf_signature_set_equal": true,
+      "q": 39,
+      "sigma0_leaves": 49761
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": false,
+      "full32_twin_leaves": 2,
+      "input_classes": 117,
+      "leaf_signature_set_equal": true,
+      "q": 41,
+      "sigma0_leaves": 50677
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": false,
+      "full32_twin_leaves": 4,
+      "input_classes": 138,
+      "leaf_signature_set_equal": true,
+      "q": 43,
+      "sigma0_leaves": 68938
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 127,
+      "leaf_signature_set_equal": true,
+      "q": 45,
+      "sigma0_leaves": 64609
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 95,
+      "leaf_signature_set_equal": true,
+      "q": 47,
+      "sigma0_leaves": 16817
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 94,
+      "leaf_signature_set_equal": true,
+      "q": 49,
+      "sigma0_leaves": 16934
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 125,
+      "leaf_signature_set_equal": true,
+      "q": 51,
+      "sigma0_leaves": 55589
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 135,
+      "leaf_signature_set_equal": true,
+      "q": 53,
+      "sigma0_leaves": 60083
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 114,
+      "leaf_signature_set_equal": true,
+      "q": 55,
+      "sigma0_leaves": 45998
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 103,
+      "leaf_signature_set_equal": true,
+      "q": 57,
+      "sigma0_leaves": 45295
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 113,
+      "leaf_signature_set_equal": true,
+      "q": 59,
+      "sigma0_leaves": 44273
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 92,
+      "leaf_signature_set_equal": true,
+      "q": 61,
+      "sigma0_leaves": 39578
+    },
+    {
+      "class_size_histogram_equal": true,
+      "exact_word_fixture_set_equal": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 61,
+      "leaf_signature_set_equal": true,
+      "q": 63,
+      "sigma0_leaves": 12035
+    }
+  ],
+  "exact_fixture_matches": 0,
+  "excluded_positive_q": [
+    33,
+    35,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63
+  ],
+  "independent_fixture_count": 12,
+  "leaf_signature_matches": 12,
+  "q_case_count": 16,
+  "q_values_compared": [
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63
+  ],
+  "schema": "CRYPTO3-support12-v16-q33-63-author-comparison-v10",
+  "scope": "bounded selected twin condition only; not a third pair, support, message pair, distance-14 proof, or Lean formalization",
+  "status": "PASS",
+  "surviving_positive_q": [
+    37,
+    39,
+    41,
+    43
+  ]
+}

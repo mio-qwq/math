@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "CANDIDATE.md": "4a6ddf2d14ab042af43e8d4c66fbcea02487c92badae0ef8573c4c4ff0b6888b",
+    "RUN.json": "409e57b7aac5f3e2485c7027318c6532a35275a951222455bf74777647658139",
+    "verify_candidate.py": "15248aa67277df653d4383e27d8437d218cb1c1b2d915da8d27ded4d41b8c124"
+  },
+  "schema": "support12-base-factor-normal-v10-manifest-v1",
+  "scope": "Candidate algebraic normal form and seeded substitution audit only; not a complete proof or independent acceptance."
+}

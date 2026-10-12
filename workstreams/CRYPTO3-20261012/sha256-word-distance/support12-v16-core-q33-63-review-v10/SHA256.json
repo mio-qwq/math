@@ -1,0 +1,12 @@
+{
+  "schema": "CRYPTO3-v16-selected-core-q33-63-review-manifest-v10",
+  "status": "frozen",
+  "files": {
+    "AUDIT.json": "b89c75b5ef237375bc808909b6dfbe3b9d319ca94fcf9dc78860960e91549a92",
+    "EQUATIONS.md": "c84ec8a1a5f98a07ca086fcf3211e49eded7979c63907c95ca8adbd68854f56b",
+    "REVIEW.md": "dd424642941de3a112652e3d4e19ad20dc37337c790c0d9d8a2e082e9b78853c",
+    "RUN.json": "e8a143e60f24730a506f172949676c6e935947ee5562bd09eda80598e8bda04f",
+    "independent_review.py": "79d9957174768848f6e982ccc2a40f40d852809be6480d4359bcf56bdf730286"
+  },
+  "scope": "independent ACCEPT review package for the finite q=33..63 selected core only"
+}

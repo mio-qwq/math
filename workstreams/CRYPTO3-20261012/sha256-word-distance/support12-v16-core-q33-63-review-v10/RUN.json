@@ -1,0 +1,22 @@
+{
+  "schema": "CRYPTO3-v16-selected-core-q33-63-independent-run-v10",
+  "status": "PASS",
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-core-q33-63-review-v10/independent_review.py --write",
+  "working_directory": "/workspace/scratch/b1d6bae025af/math-crypto3",
+  "python": "3.12.14",
+  "wall_seconds_observed": 136.065,
+  "accepted_q": [33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+  "author_certificate_sha256": "a448850efb601f0691cef234dbc4e22b2298e04d0e4b5e95f65c40b2178e1d27",
+  "author_run_sha256": "3be37a013bfc0ead6ddb08bca901ddd42bd83d72d3cfb8fc55383d7f183793cb",
+  "checker_sha256": "79d9957174768848f6e982ccc2a40f40d852809be6480d4359bcf56bdf730286",
+  "audit_sha256": "b89c75b5ef237375bc808909b6dfbe3b9d319ca94fcf9dc78860960e91549a92",
+  "counts": {
+    "instances": 16,
+    "variables_per_instance": 1259,
+    "base_clauses_per_instance": 9683,
+    "rup_additions_checked": 87220,
+    "near_miss_instances": 4,
+    "negative_symmetry_instances": 16
+  },
+  "scope": "selected-three-pair core for D=+/-q*2^16 and odd q=33..63 only; no message-pair, distance-13, distance-at-least-14, complete-support, all-v2=16, or Lean claim"
+}
