@@ -1,0 +1,20 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/StrongConjugacy.olean StrongConjugacy.lean
+'Struct2.StrongConjugacy.rotation_halfShift_commute' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.reflection_halfShift_commute' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.halfTurn_central' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.conjugate_to_halfTurn_is_equal' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.odd_reflection_conjugacy_index' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.odd_reflection_conjugate_to_one' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.halfTurn_classes_distinct' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.halfTurn_reflection_classes_distinct' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongConjugacy.every_strong_in_three_classes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.exact_three_strong_classes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.secondSwitch_is_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.every_strong_fold_in_three_classes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.first_second_folds_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.first_third_folds_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.second_third_folds_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongConjugacy.exactly_two_cousin_folds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT CODE: 0

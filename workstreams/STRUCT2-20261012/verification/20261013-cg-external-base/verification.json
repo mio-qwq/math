@@ -1,0 +1,952 @@
+{
+  "adapter_binary_sha256": "0c7e0f97ffdf76f16b3375b93fb09b4e7e6f3ff13167e9064d61d37a3e5f6cc3",
+  "adapter_source_sha256": "b85d7f7d8fd2f2d86d61607cae779d7cb7a6c93d043c640ce0e17961d3b24289",
+  "audit_count": 164,
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "driver_sha256": "9b1997f1259b2cc096f11508a37a1e86d70adf607250ba8148c18e1fa87192af",
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "runs": [
+    {
+      "axiom_union": [
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.StrongFold.automorphism_colour_uniform": [
+          "propext"
+        ],
+        "Struct2.StrongFold.decode_adjacency": [
+          "propext"
+        ],
+        "Struct2.StrongFold.decode_deck": [
+          "propext"
+        ],
+        "Struct2.StrongFold.encode_switch": [
+          "propext"
+        ],
+        "Struct2.StrongFold.foldDoubleCoverIso": [
+          "propext"
+        ],
+        "Struct2.StrongFold.fold_iso_has_conjugating_automorphism": [
+          "propext"
+        ],
+        "Struct2.StrongFold.fold_loopless": [],
+        "Struct2.StrongFold.fold_symmetric": [],
+        "Struct2.StrongFold.folds_isomorphic_iff_conjugate": [
+          "propext"
+        ],
+        "Struct2.StrongFold.liftFoldIso": [
+          "propext"
+        ],
+        "Struct2.StrongFold.restrictConjugator": []
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/StrongFold.olean",
+        "StrongFold.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "f6b6c29b7625f677dc20a01146a0c560114e3855da0edc6e148607608b1e07f6",
+      "module": "StrongFold",
+      "olean_sha256": "428fd4feecbbcf7c481b6cbbe4eaf5397c91037be72e747d9c69af974e61ebd8",
+      "seconds": 0.726722,
+      "source_sha256": "5eb0d8946e9250191e6a3267c5fd348d00f9200e2237443fcae3e2b14b2772db"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.OddCoordinates.bit_add_odd": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.centreOfLeaf_coordinate": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.centreOfLeaf_is_mod": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.centreResidue_bit": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.centreResidue_is_mod": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.centre_named_leaf": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.coordinateDeck_intertwines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.coordinateDeck_preserves": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.cycleNext_is_mod": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.fromCover_toCover": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.halfShift_bit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.halfShift_cycleNext": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.halfShift_involutive": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.joinHalf_reduce": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.leafIndex_name": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.leafName_index": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.original_ring_leaf_incidence": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.reduceHalf_is_mod": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.ringAdj_bits": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.ringAdj_halfShift": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.toCover_adjacency": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.toCover_fromCover": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.toCover_injective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoordinates.toCover_surjective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/OddCoordinates.olean",
+        "OddCoordinates.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "bca83cc50cf0a0c5238d4d735b63fe74793799b8603cc26e9454fb6b838b0228",
+      "module": "OddCoordinates",
+      "olean_sha256": "a8f0aabe8eb5e61980b09fca700dd6a5b2f904fd346652cfbb00332d8ea6838b",
+      "seconds": 4.268368,
+      "source_sha256": "5f4bad8efe0d21c5571af997705a87a2d7b89bc8ffc5c3fddea40bbcb3b0b85c"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.OddCoverIso.originalCDCModelIso": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.OddCoverIso.originalCDC_deck_intertwining": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/OddCoverIso.olean",
+        "OddCoverIso.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "ace5228f471781325d4c63809552feda28944e172254f25f799cc1e8b4c4c574",
+      "module": "OddCoverIso",
+      "olean_sha256": "019b971e2e5bf184a7991b6e6daee4321fe02ea5afb223f22292e208a09928e6",
+      "seconds": 0.359275,
+      "source_sha256": "aea9c34fa15244f30c14e9a847b715a2c1f2d7ff290cc5b511d28a75c9b3953c"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.ModelStructure.actualCDC_connected": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.actualCoverGraph": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.baseAdj_loopless": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.baseAdj_symmetric": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.modelGraph": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.model_connected": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.model_folds_isomorphic_iff_conjugate": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.model_walk_to_root": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.originalFoldRecoversCG": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.originalLayerDeck": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.originalStrongDeck": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.ring_walk_to_root": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelStructure.transport_walk": []
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/ModelStructure.olean",
+        "ModelStructure.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "5cc5a71d40ef16766ed9a9fb5aa49eb07d69e8e9ed8c94b62291634eef7a65c7",
+      "module": "ModelStructure",
+      "olean_sha256": "23c74adde4ba3922542a9498873b46893e1dbbd2dcd91843996eead275be4a49",
+      "seconds": 0.656703,
+      "source_sha256": "55bf0acf09ddd0849ce40278009ab877ec5badf117160be0322ba4cfcd1e1615"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.SixCycleInvariant.actualCDC_six_cycle_characterization": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.actual_has_six_cycle_iff_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.automorphism_preserves_centres": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.automorphism_preserves_leaves": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.automorphism_preserves_rings": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.automorphism_preserves_six_cycle": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.centreResidue_cycleNext": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.cycleNext_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.cycleNext_twice_ne": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.fromCover_is_centre": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.has_six_cycle_iff_not_centre": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.leaf_iff_adjacent_centre": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.map_six_cycle": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.map_six_cycle_to_original": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.n_one_centre_exception": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.no_six_cycle_at_centre": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.no_two_steps_same_centre": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.nodup_map_of_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.six_cycle_A": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.six_cycle_X": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.SixCycleInvariant.six_cycle_Y": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/SixCycleInvariant.olean",
+        "SixCycleInvariant.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "acd9da801ee2d183aaf1559401be850943d5411a29b1d3c0a4b4bcc0000eee9a",
+      "module": "SixCycleInvariant",
+      "olean_sha256": "0cb0455c9396b142c73afe2d7167910d4f928c7aaa39e43e9451ed63165dddf9",
+      "seconds": 2.453812,
+      "source_sha256": "3daf24de1be3664b566f3bce0d388c08f4b93c63de21061870f7b8faa32303d0"
+    },
+    {
+      "axiom_union": [
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.RingAction.automorphism_determined_by_ring_data": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.centre_forward": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.every_automorphism_synchronized": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.inducedRingIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.leafImage_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.leafImage_left_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.leafImage_right_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.leaf_forward": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.ringSwap_constant": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.ringSwap_successor": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.ring_X_forward": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.RingAction.ring_Y_forward": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/RingAction.olean",
+        "RingAction.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "80804f88c9b4e18e660cc10a7a68d9dd87282d198f6771b72d6ad07ba8331609",
+      "module": "RingAction",
+      "olean_sha256": "21bcf9b43a88b3bc9ef63fedb1f866ad3ce08ede031a54c23310931bfeb66081",
+      "seconds": 0.686304,
+      "source_sha256": "18c2b17382d23acd80077cb9584c73af28610084c8d349fd5728dba20533e224"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.CycleRigidity.actual_automorphism_code_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.actual_automorphism_embeds_in_24n": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.cycle_iso_determined_by_index_direction": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.cycle_iso_determined_by_zero_one": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.direction_false": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.direction_true": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.graphIso_ext": [
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.originalAutToModel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.originalCDC_automorphism_embeds_in_24n": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.other_neighbour_unique": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleRigidity.packCode_injective": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/CycleRigidity.olean",
+        "CycleRigidity.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "3c2e9bb6c6883c454db9de745e3e1cfe5d7aa4d31b15c58b6a1d96c899e41137",
+      "module": "CycleRigidity",
+      "olean_sha256": "aa0243e2fa0a9b2416c583504a770f8780985ebdc5b718a73ccaff16020c9b46",
+      "seconds": 1.145624,
+      "source_sha256": "fedb6285e95d414b516a79b1c1c7c3ee9d6f6b8be7f363dc0556ac37e642619c"
+    },
+    {
+      "axiom_union": [
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.CycleActions.cycle_iso_dihedral": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.reflectionIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.reflection_adjacency": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.reflection_direction": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.reflection_involutive": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.reflection_next": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.rotationIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.rotation_adjacency": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.rotation_direction": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.rotation_left_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.rotation_next": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.CycleActions.rotation_right_inv": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/CycleActions.olean",
+        "CycleActions.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "7515696ea283bb7da9cce1f7fb9408c030c71817ad4143e64acd15ff74e17ccd",
+      "module": "CycleActions",
+      "olean_sha256": "fb6530ca7a661856b914b099f2824c8fe7b2967e971183f2030d7e3eab0eab54",
+      "seconds": 2.029775,
+      "source_sha256": "83030fd6f18e6d85d2bb21b2e76b98acc85731e66502594b90b614901543abb9"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.ModelActions.compatibleModelIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.every_model_automorphism_dihedral": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.modelAutToOriginal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.modelAutToOriginal_left_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.modelAutToOriginal_right_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.model_numeric_code_left_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.model_numeric_code_right_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.originalCDC_exact_24n": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.originalParametersToAut_left_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.originalParametersToAut_right_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.original_numeric_code_left_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.original_numeric_code_right_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.pack_unpackCode": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.parameter_code": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.parameter_forward": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.parameter_inducedRingIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.parametersToAut_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.parametersToAut_left_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.parametersToAut_right_inv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.reflectionModelIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.residue_reflection": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.residue_rotation": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.rotationModelIso": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.ModelActions.unpack_packCode": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/ModelActions.olean",
+        "ModelActions.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "be4d713385f0753f88d74e5035cb4cb5418129845d7b69c219c0f6ae914d7e10",
+      "module": "ModelActions",
+      "olean_sha256": "a45ced73ff5ece3422d513cf91007b9e6d4bab50683ef0d9eb6215c68e6376e8",
+      "seconds": 13.708452,
+      "source_sha256": "61c2d690baba2b5a27830f9906a65bc38d510c547c3266e6804a3846a92ecd91"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.StrongSwitchClassification.every_strong_automorphism": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.halfTurn_nonadjacent": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.halfTurn_rotation_involutive": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.odd_rotation_involution_half": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.parameter_isStrong_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.parameter_reverses_of_odd": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.reflection_action_involutive": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.reflection_witness_next": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.strong_halfTurn": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.strong_odd_swapped_reflection": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongSwitchClassification.unswapped_odd_reflection_not_nonadjacent": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/StrongSwitchClassification.olean",
+        "StrongSwitchClassification.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "6505b0b34a546f80618907c0579b949bb7f1f909337fc81c0d5a754841ad8dd7",
+      "module": "StrongSwitchClassification",
+      "olean_sha256": "35d4a30e4692d54b01c308c8cce42651a8a1ee34603c472154d8b48d8c63fb57",
+      "seconds": 4.288588,
+      "source_sha256": "5bee30d8d89c6ef85eda851c563378c902e3b0f00c76f2c9a23ffb601015fde1"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.StrongConjugacy.conjugate_to_halfTurn_is_equal": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.every_strong_fold_in_three_classes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.every_strong_in_three_classes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.exact_three_strong_classes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.exactly_two_cousin_folds": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.first_second_folds_distinct": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.first_third_folds_distinct": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.halfTurn_central": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.halfTurn_classes_distinct": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.halfTurn_reflection_classes_distinct": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.odd_reflection_conjugacy_index": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.odd_reflection_conjugate_to_one": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.reflection_halfShift_commute": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.rotation_halfShift_commute": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.secondSwitch_is_original": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.StrongConjugacy.second_third_folds_distinct": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/StrongConjugacy.olean",
+        "StrongConjugacy.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "6dce4d557a88fd420d7864ffeb8e489fe6464c0db0a2f4ec52762a9b47adbf50",
+      "module": "StrongConjugacy",
+      "olean_sha256": "b1774e72d884fb666d3a0a9c522f1fb33d404303f9f235e7a7ed9ebead911b4d",
+      "seconds": 4.077726,
+      "source_sha256": "7c1528076217f48f8225970d3ce0ad94dfd77b5a74bda03e663e7ad9057daef2"
+    },
+    {
+      "axiom_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axioms": {
+        "Struct2.ExternalBaseTransport.arbitrary_cover_recovers_base": [
+          "propext"
+        ],
+        "Struct2.ExternalBaseTransport.colour_preserving_cover_iso": [
+          "propext"
+        ],
+        "Struct2.ExternalBaseTransport.externalBaseIso": [
+          "propext"
+        ],
+        "Struct2.ExternalBaseTransport.external_base_in_three_fold_classes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ExternalBaseTransport.iso_colour_agreement_walk": [
+          "propext"
+        ],
+        "Struct2.ExternalBaseTransport.switchModelAut_strong": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.ExternalBaseTransport.transportedSwitch": [
+          "propext"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/ExternalBaseTransport.olean",
+        "ExternalBaseTransport.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "8d0308591b4fe567dc86a23d60357eff7c3b93d768348c28c984a8ce4180d29d",
+      "module": "ExternalBaseTransport",
+      "olean_sha256": "a08cc746a7a413c5db5c24788987c3e6e0718438c33ba31f0dac9c894352b479",
+      "seconds": 0.613185,
+      "source_sha256": "469f390e28ecf7f709457efc5ec0de1e71c5f64c9f695a56beecd92a9e7a69e9"
+    }
+  ],
+  "scope": "Every odd n>=1: original named-leaf bijection, typed CG CDC/model graph isomorphism, all adjacency and deck intertwining. Actual connected bipartite model and original CDC, actual strong decks, original deck fold recovery and instantiated full-automorphism fold/conjugacy equivalence. Symbolic six-cycle characterization for the model at n>=2 and original CDC at odd n>=3; arbitrary actual automorphisms preserve centre, leaf and ring types; explicit n=1 exception. Synchronized actual ring actions, uniqueness from cyclic index/direction/swap and an injective encoding of all original CDC automorphisms into Fin(24*n) at every odd n>=3. Explicit cyclic rotations/reflections, centre-residue compatibility, exhaustive actual model/original automorphism parametrization and a two-sided bijection with Fin(24*n). Abstract group laws are not separately formalized. Exact necessity-and-sufficiency classification of all actual strong switches as the two half-turn rotations or odd reflected ring swaps. Exactly three strong-switch conjugacy and fold-isomorphism classes, with the original deck identified and two nonoriginal fold classes. Every arbitrary simple external graph whose canonical double cover is isomorphic to the model is transported to a strong switch and hence isomorphic to exactly one of those three folds. Finiteness is not required. ",
+  "seconds": 35.03758,
+  "success": true,
+  "utc": "2026-10-12T23:23:06.137823+00:00"
+}

@@ -17,21 +17,21 @@ First continuation research commit:
 | CG full automorphism upper bound | [Synchronized rings and actual finite embedding](cg/lean/UPPER_BOUND_SCOPE.md) | Every odd n>=3; all original CDC automorphisms inject into Fin(24n); 94 dependency-chain audits; matching family construction remains separate |
 | CG exact automorphism family/count | [Explicit dihedral actions and original finite bijection](cg/lean/EXACT_AUTOMORPHISM_SCOPE.md) | Every odd n>=3; actual two-sided bijection with Fin(24n); 130 dependency-chain audits; strong-switch/cousin classification remains separate |
 | CG exact strong-switch membership | [Necessary-and-sufficient parameter classification](cg/lean/STRONG_SWITCH_CLASSIFICATION_SCOPE.md) | Every odd n>=3; exactly the two half-turns and odd swapped reflections; 141 dependency-chain audits; universal conjugacy/cousin count remains separate |
-| CG exact conjugacy/fold classes | [Three symbolic classes and two nonoriginal folds](cg/lean/STRONG_CONJUGACY_SCOPE.md) | Every odd n>=3; original deck identified; arbitrary-base converse remains in the written proof |
+| CG exact arbitrary-base classification | [External-base transport into the three folds](cg/lean/EXTERNAL_BASE_TRANSPORT_SCOPE.md) | Every odd n>=3; arbitrary simple external base, no finiteness needed; kernel-verified, independent written acceptance pending |
 | CG/theta replay | [New execution receipts](verification/20261012-continuation/) | CG n=1,3,5,7; CG(3) Lean; 19 actual theta graphs; 1,942 legal scalar triples at n<=40 |
 | Theta manuscript | [Seven-page draft](theta/paper/README.md) | Full written proofs retained; rendered PDF QA passed; this reorganization awaits new independent review |
 | C66 expectation | [Second order and effective remainder](c66/SECOND_ORDER.md) | Written candidate and exact graph/DSU checks; independent acceptance pending |
 | Sparse full TF | [Leading constant and twin-free scale](c66/SPARSE_THRESHOLD.md), [constant-order refinement](c66/SPARSE_SHIFT.md) | Written candidate; groups kept distinct; K=4 boundary unresolved |
 | Literature | [Existing C66 proof and comparison](c66/PRIOR_ART_2026-10-12.md), original theta source gate | No firstness claim; access/recall limits recorded |
 
-The generic Lean theorem formalizes prior classical graph theory. It does
-not promote the whole CG classification to a universal Lean theorem.
+The complete Lean chain proves the advertised odd-parameter CG classification,
+including arbitrary external bases with an isomorphic canonical double cover.
+It is kernel-verified but not newly independently accepted.
 The C66 limit overlaps an existing publicly posted proof claim; quantitative
 formulas require review on their own scope.
 
 Ownership and next steps are in `coordination/agents/STRUCT2-20261012.md`.
-The next useful work is to package the written arbitrary-base-to-switch
-converse as a Lean interface, seek independent acceptance of the completed CG
+The next useful work is to seek independent acceptance of the completed CG
 chain, then address C66's sparse boundary `p=(4 log n-4)/n`. Further prior-art
 search should include incidence-matrix stabilizers and Burnside expectations.
 

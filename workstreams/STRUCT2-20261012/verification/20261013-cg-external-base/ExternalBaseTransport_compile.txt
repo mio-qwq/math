@@ -1,0 +1,13 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/ExternalBaseTransport.olean ExternalBaseTransport.lean
+'Struct2.ExternalBaseTransport.iso_colour_agreement_walk' depends on axioms: [propext]
+'Struct2.ExternalBaseTransport.colour_preserving_cover_iso' depends on axioms: [propext]
+'Struct2.ExternalBaseTransport.transportedSwitch' depends on axioms: [propext]
+'Struct2.ExternalBaseTransport.externalBaseIso' depends on axioms: [propext]
+'Struct2.ExternalBaseTransport.arbitrary_cover_recovers_base' depends on axioms: [propext]
+'Struct2.ExternalBaseTransport.switchModelAut_strong' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ExternalBaseTransport.external_base_in_three_fold_classes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT CODE: 0

@@ -1,0 +1,27 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/SixCycleInvariant.olean SixCycleInvariant.lean
+'Struct2.SixCycleInvariant.cycleNext_injective' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.cycleNext_twice_ne' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.centreResidue_cycleNext' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.no_two_steps_same_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.no_six_cycle_at_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.six_cycle_X' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.six_cycle_Y' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.six_cycle_A' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.has_six_cycle_iff_not_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.nodup_map_of_injective' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.map_six_cycle' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.automorphism_preserves_six_cycle' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.automorphism_preserves_centres' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.leaf_iff_adjacent_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.automorphism_preserves_leaves' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.automorphism_preserves_rings' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.map_six_cycle_to_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.SixCycleInvariant.actual_has_six_cycle_iff_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.SixCycleInvariant.fromCover_is_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.SixCycleInvariant.actualCDC_six_cycle_characterization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Struct2.SixCycleInvariant.n_one_centre_exception' depends on axioms: [propext, Quot.sound]
+
+EXIT CODE: 0

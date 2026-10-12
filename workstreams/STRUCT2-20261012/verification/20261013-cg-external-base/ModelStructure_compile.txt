@@ -1,0 +1,17 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/external-base-clean-build/ModelStructure.olean ModelStructure.lean
+'Struct2.ModelStructure.baseAdj_symmetric' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelStructure.baseAdj_loopless' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelStructure.modelGraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelStructure.actualCoverGraph' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelStructure.originalLayerDeck' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelStructure.originalFoldRecoversCG' depends on axioms: [propext, Quot.sound]
+'Struct2.ModelStructure.originalStrongDeck' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelStructure.ring_walk_to_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelStructure.model_walk_to_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelStructure.model_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelStructure.transport_walk' does not depend on any axioms
+'Struct2.ModelStructure.actualCDC_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.ModelStructure.model_folds_isomorphic_iff_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT CODE: 0
