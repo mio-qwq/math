@@ -1,0 +1,143 @@
+{
+  "certificate_sha256": "4901cd8605e7f81b601d3229e0441a32a4ad41cc2ee316fbf452e405efec77e6",
+  "checker_sha256": "7b47fa737b0beffd098fdc5c332c5cb9caa54bd5611c86b275f07a2d229d9724",
+  "claim": {
+    "D": 65536,
+    "modulus": 2147483648,
+    "statement": "no two actual D-pairs have equal sigma0 derivative and sigma1-derivative gap 2D modulo 2^31"
+  },
+  "controls": {
+    "boundary_witness": {
+      "F": 1074782721,
+      "G_gap": 3221356544,
+      "x": 2885637458,
+      "xor_x": 134152192,
+      "xor_y": 134152192,
+      "xp": 2885702994,
+      "y": 67043328,
+      "yp": 67108864
+    },
+    "damaged_witnesses_rejected": 4,
+    "replace_gap_by_zero": {
+      "distinct_xor_receipts": 140,
+      "f_leaves": 414,
+      "g_leaves": 58,
+      "stats": {
+        "contradictions": 374,
+        "truth_edges": 17476
+      }
+    },
+    "truncate_F_to_31_bits": {
+      "distinct_xor_receipts": 111,
+      "f_leaves": 408,
+      "g_leaves": 20,
+      "stats": {
+        "contradictions": 406,
+        "truth_edges": 16913
+      }
+    },
+    "truncate_G_to_30_bits": {
+      "distinct_xor_receipts": 107,
+      "f_leaves": 414,
+      "g_leaves": 20,
+      "stats": {
+        "contradictions": 365,
+        "truth_edges": 17105
+      }
+    }
+  },
+  "elapsed_seconds": 1.0547578789992258,
+  "scope": "one fixed numerical D; selected twin core only; not a message pair",
+  "status": "PASS",
+  "theorem": {
+    "bit30_frontier": [
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": -1,
+        "leaves": 2,
+        "xor_x": 134152192,
+        "xor_y": 134152192
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": 1,
+        "leaves": 2,
+        "xor_x": 134152192,
+        "xor_y": 134152192
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": -1,
+        "leaves": 2,
+        "xor_x": 268369920,
+        "xor_y": 268369920
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": 1,
+        "leaves": 2,
+        "xor_x": 268369920,
+        "xor_y": 268369920
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": -1,
+        "leaves": 2,
+        "xor_x": 536805376,
+        "xor_y": 536805376
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": 1,
+        "leaves": 2,
+        "xor_x": 536805376,
+        "xor_y": 536805376
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": -1,
+        "leaves": 2,
+        "xor_x": 1073676288,
+        "xor_y": 1073676288
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": 1,
+        "leaves": 2,
+        "xor_x": 1073676288,
+        "xor_y": 1073676288
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": -1,
+        "leaves": 2,
+        "xor_x": 2147418112,
+        "xor_y": 2147418112
+      },
+      {
+        "gx30": 1,
+        "gy30": 1,
+        "incoming_carry": 1,
+        "leaves": 2,
+        "xor_x": 2147418112,
+        "xor_y": 2147418112
+      }
+    ],
+    "distinct_xor_receipts": 107,
+    "f_leaves": 414,
+    "g_leaves": 0,
+    "stats": {
+      "contradictions": 365,
+      "truth_edges": 17105
+    }
+  }
+}

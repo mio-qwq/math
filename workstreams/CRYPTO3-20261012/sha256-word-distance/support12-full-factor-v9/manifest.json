@@ -1,0 +1,39 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v9-manifest",
+  "status": "complete corrected author proof candidate; independent acceptance pending",
+  "files": {
+    "CERTIFICATE.json": "352b1c650d04811b3f29830ecf515e774bbf9c2573c164ac7c6d82f53c9821e2",
+    "CHECK-RUN.json": "25870578dead341976950f9d5f222355d186d7b7ce4fe9f480f2a336b8cd34c0",
+    "MECHANISM.md": "38ad67d41aab00c1ca308e8696ddea85aa255e5afdee50d2109de3e0e3a1ec11",
+    "PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395",
+    "PROVENANCE.json": "92dcdc83729446541a6fb7d0a69502c3f9f2308a662ec0e6b985084643c01f3c",
+    "README.md": "8b5012ad79b2373d87ce525ce5cb43cd32a47604eadebafd37e638719a0d5bfe",
+    "V8-OBJECT-ERROR.md": "1d70ebe2fa5b0f38915bb7b19507ad7b3dc9f281395481099fb747ec6682755d",
+    "build_certificate.py": "a451e01fe60750b3825f4b28ce65c52b4fe9adc1aa8e850a85919aac76e46d5a",
+    "check.py": "84516b87f1319e4a4af660b070e627f7c98b46d2a561c4a4e7d2ef150b37ad1e"
+  },
+  "target": {
+    "support_identifier": 12,
+    "zero_based": true,
+    "active_indices": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57]
+  },
+  "claims": {
+    "original_rows": 48,
+    "nonzero_rows": 25,
+    "zero_rows": 23,
+    "integer_unit_rank": 25,
+    "free_rank": 14,
+    "integer_unit_operations": 53,
+    "actual_joint_pair_factors": 13,
+    "private_parameters": 4,
+    "shared_parameters": 10,
+    "complete_bidirectional_reduction": true,
+    "keeps_same_pair_F_G_coupling": true,
+    "v8_object_error_recorded": true,
+    "message_pair": false,
+    "support_exclusion": false,
+    "distance_14_bound": false,
+    "independent_AI_acceptance": false,
+    "Lean": false
+  }
+}

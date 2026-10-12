@@ -1,0 +1,41 @@
+{
+  "schema": "CRYPTO3-support12-base-lift-v8-independent-AI-review-receipt",
+  "status": "ACCEPT exact frozen author version",
+  "reviewer": "support12_base_review separate AI agent",
+  "author_directory": "../support12-base-lift-v8",
+  "author_manifest_sha256": "374732f8fee671cd7290d7596ab7f0cb85bb83502b3c94a124d7a78280802dc6",
+  "pre_author_freeze_sha256": "8d69af5d578246b5ddc9c66214418854a3a2a02c9e70d8186e01f5c22a98aa1f",
+  "comparison_run_sha256": "5e6d4d1843f96c438665ca71df760dcfd510a01b5b4e5aab1dc12ba47ca286ce",
+  "review_sha256": "8c3ab0fb544c487e065316149fcf791630062aea5bc359a3ead53f748e033527",
+  "comparison_checker_sha256": "47f2c4013c10c8b4be70bd07d817cde8f937b9526cff3c55e53800917f4c2244",
+  "readonly_replay_sha256": "c5653807eaf6d0812ac754df9e17108244bac1c0ea41e548e9c4ab709138e9c3",
+  "theorem_scope": "For arbitrary prescribed first-word values on support 12, the author's five-anchor chart is in bijection with base schedules exactly when original residual rows 33 and 57 vanish.",
+  "accepted_checks": {
+    "author_files_hash_checked": 9,
+    "blind_lower_size_anchor_sets_checked": 272052,
+    "author_first_lexicographic_size5_trial": 1498469,
+    "author_distinct_rows": 46,
+    "author_distinct_targets": 46,
+    "shared_residual_rows": [33, 57],
+    "sigma_left_right_basis_compositions": 128,
+    "cross_implementation_roundtrips": 4,
+    "author_roundtrips_exactly_replayed": 16,
+    "combined_negative_controls": 6
+  },
+  "distinct_blind_chart": {
+    "reviewer_anchors": [21, 22, 23, 24, 32],
+    "author_anchors": [9, 12, 14, 19, 22]
+  },
+  "minimality_scope": "only the one-original-row, exactly-one-unknown reversible propagation class",
+  "not_accepted": [
+    "residual solvability",
+    "active-pair realization",
+    "full message pair",
+    "distance-13 attainability",
+    "distance at least 14",
+    "Lean formalization",
+    "human peer review"
+  ],
+  "author_files_modified": false,
+  "review_directory_only_written": true
+}

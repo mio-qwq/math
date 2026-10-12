@@ -1,0 +1,26 @@
+{
+  "schema": "crypto3-support12-full-pair-probe-v8-receipt",
+  "status": "STOPPED_UNKNOWN",
+  "solver": "Z3 4.15.3 SolverFor(QF_BV)",
+  "solver_check_calls": 1,
+  "timeout_ms": 30000,
+  "observed_seconds": 30.147937709996768,
+  "reason_unknown": "timeout",
+  "sat_model_obtained": false,
+  "unsat_certificate_obtained": false,
+  "model_verifier_executed": false,
+  "support": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57],
+  "valuation_d18": 16,
+  "original_difference_equations": 48,
+  "actual_active_pairs": 13,
+  "base_schedule_constraints": false,
+  "stopping_rule": "UNKNOWN ends this mechanism; no retry, seed sweep, valuation change or timeout extension",
+  "accepted_theorem": null,
+  "hashes": {
+    "PLAN.md": "405d02663f05f473125c4e3b1bbc23ed7938c0f6a37a30757ce7eeeacb879be4",
+    "run_probe.py": "133062d42bb3129bce8be806c300c880db0616e83d87f996c63213d36a048daf",
+    "verify_model.py": "2510a8efa01a8dfb8225447e1a308501b546fe34d375c67d247cb1d16220eb28",
+    "run-01/MODEL.smt2": "a915b1724720581463e65cf38964478a622ada664606a82d9f669e82474f961a",
+    "run-01/RESULT.json": "15c901b51fb20f1bd0ab589ea2f78f0acf2d4710a292d0a6d4d480d23da755db"
+  }
+}

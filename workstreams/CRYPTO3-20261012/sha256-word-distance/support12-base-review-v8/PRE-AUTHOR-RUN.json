@@ -1,0 +1,223 @@
+{
+  "actual_schedule_roundtrips": [
+    {
+      "fixture": 0,
+      "input_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "residuals_hex": {
+        "33": "00000000",
+        "57": "00000000"
+      },
+      "schedule_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    {
+      "fixture": 1,
+      "input_sha256": "59d67963f3f53fd016156b50d83b8c83d4068f6e2f08bc9c87f0b49c20cf31f0",
+      "residuals_hex": {
+        "33": "00000000",
+        "57": "00000000"
+      },
+      "schedule_sha256": "a6b92b6c4701a786396051387abf54cd70fdd413f463b92307bec83867150d2d"
+    },
+    {
+      "fixture": 2,
+      "input_sha256": "15b4c905fac6e75ebcb9cc00cecbe52072c7f251e087e5e3dafa596f04209e26",
+      "residuals_hex": {
+        "33": "00000000",
+        "57": "00000000"
+      },
+      "schedule_sha256": "5eefb4b87ec963d33b697d1e6823e5e066398fe21bab8ba68b4be8a0bfed939f"
+    },
+    {
+      "fixture": 3,
+      "input_sha256": "028a10d17d1495b798173646aac67dd83af1baeeb86cc7f55a4a31ecedbf084a",
+      "residuals_hex": {
+        "33": "00000000",
+        "57": "00000000"
+      },
+      "schedule_sha256": "ce477e32b66a0985ce71e4f61954ec038d985ed4c907563b77de3cdbf7dddde8"
+    }
+  ],
+  "author_files_read_or_imported": false,
+  "certificate_sha256": "e60ef1e924bd690113028fb77c668dfd6195381338af1102c213ec3c5ac927f6",
+  "checker_sha256": "2b22c1d3f6048701c76eea4ede39fa7f73fac35e3262f8ed7166f425dd2c09b3",
+  "claim": "exact five-anchor/two-residual base interpolation equivalence; minimal in the stated one-row reversible propagation class",
+  "minimality": {
+    "certified_anchor_size": 5,
+    "minimal_residual_count": 2,
+    "scope": "single-original-row reversible propagation",
+    "sets_by_size": {
+      "0": 1,
+      "1": 51,
+      "2": 1275,
+      "3": 20825,
+      "4": 249900
+    },
+    "sets_checked_below_five": 272052
+  },
+  "negative_controls": [
+    {
+      "name": "known_coordinate_as_solve_target",
+      "reason": "target is not the unique unknown",
+      "rejected": true
+    },
+    {
+      "name": "omit_residual_row",
+      "reason": "wrong residual row partition",
+      "rejected": true
+    },
+    {
+      "name": "alter_sigma0_inverse_column",
+      "reason": "basis composition differs from identity",
+      "rejected": true
+    },
+    {
+      "name": "alter_fixed_roundtrip_coordinate",
+      "reason": "roundtrip no longer equals the source schedule",
+      "rejected": true
+    }
+  ],
+  "not_claimed": [
+    "residual solvability",
+    "actual active pair data",
+    "full message pair",
+    "distance-13 attainability",
+    "distance at least 14",
+    "Lean formalization"
+  ],
+  "phase": "PRE-AUTHOR",
+  "schema": "CRYPTO3-support12-independent-base-review-v8",
+  "sigma_permutations": {
+    "basis_compositions_checked": 128,
+    "sigma0_inverse_columns_hex": [
+      "185744e9",
+      "30ae89d2",
+      "615d13a4",
+      "daed63a1",
+      "9cd03a8e",
+      "08fdcc39",
+      "11fb9872",
+      "23f730e4",
+      "5fb92521",
+      "bf724a42",
+      "57ee6948",
+      "afdcd290",
+      "76b358ec",
+      "f531f531",
+      "c36917ae",
+      "b78f9679",
+      "4615d13e",
+      "947ce695",
+      "19a4740f",
+      "2b1facf7",
+      "4e681d07",
+      "84877ee7",
+      "385344eb",
+      "70a689d6",
+      "f91a5745",
+      "c36917af",
+      "b78f967b",
+      "4615d13a",
+      "8c2ba274",
+      "290afdcd",
+      "4a42bf73",
+      "94857ee6"
+    ],
+    "sigma1_inverse_columns_hex": [
+      "2ccfffed",
+      "75500037",
+      "eaa0006e",
+      "589d5570",
+      "b13aaae0",
+      "c367ff81",
+      "27dd5543",
+      "4fbaaa86",
+      "b3baaae1",
+      "c667ff83",
+      "2ddd5547",
+      "5bbaaa8e",
+      "9bbaaaf1",
+      "9667ffa3",
+      "8ddd5507",
+      "9667ffa2",
+      "8ddd5505",
+      "9667ffa6",
+      "8ddd550d",
+      "9667ffb6",
+      "8ddd552d",
+      "9667fff6",
+      "8ddd55ad",
+      "9667fef6",
+      "8ddd57ad",
+      "baa8051b",
+      "f88d5f9a",
+      "50081575",
+      "a0102aea",
+      "e132ff95",
+      "6377556b",
+      "c6eeaad6"
+    ]
+  },
+  "status": "PASS",
+  "structure": {
+    "residual_rows": [
+      33,
+      57
+    ],
+    "step_type_counts": {
+      "identity_lag16": 11,
+      "identity_lag7": 3,
+      "identity_output": 21,
+      "sigma0_inverse": 3,
+      "sigma1_inverse": 8
+    },
+    "used_rows": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  "support_source_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+}

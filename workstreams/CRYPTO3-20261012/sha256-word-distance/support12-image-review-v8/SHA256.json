@@ -1,0 +1,11 @@
+{
+  "schema": "CRYPTO3-support12-image-independent-review-v8-manifest",
+  "files": {
+    "PROOF.md": "b3fe03603766caa7399ffa4fb336f9f7eedd845c8b68fd497657afcd70ec0fea",
+    "REVIEW_RECEIPT.json": "4f2d13cc08fc27d9f8b3e282dae97dca4f89ccffa107dc52dd80dd432b25fb10",
+    "check_independent.py": "a8c5423a05cbd959bf835d397acf94ce37b4e93deb230a63ef2a5b4f9f96983f"
+  },
+  "excludes": ["SHA256.json"],
+  "author_manifest_sha256": "f8166c958baead817204a262dbe0487ca5b856f05b5baa94433f5d69b0ef7c90",
+  "scope": "independent acceptance of fixed D=+/-0x00010000 selected twin core only"
+}

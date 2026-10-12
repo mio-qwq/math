@@ -48,6 +48,52 @@ neither individual valuation is asserted to be at most 15. These constrain
 actual schedules having the named supports, but do not exclude a complete
 support. Local sharpness fixtures are actual word pairs, not messages.
 
+## Stage-8 accepted support-12 reductions and fixed residue
+
+[The corrected full-row factorisation](sha256-word-distance/support12-full-factor-v9/PROOF.md)
+and [its independent acceptance](sha256-word-distance/support12-full-factor-review-v8/REVIEW_V9.md)
+now account for all 48 original support-12 difference rows. There are 25
+nonzero rows and 23 identities; integer unit elimination has rank 25 and
+free rank 14. Four boundary-private coordinates can be absorbed into their
+own actual-pair factors, leaving an exact connected ten-scalar system of
+thirteen same-word-pair conditions: nine full joint `(d,F,G)` memberships,
+three exact `(d,F)` projections and one exact `(d,G)` projection. Feasibility
+of this factor system is not asserted.
+
+The first author factor package is deliberately preserved and
+[independently rejected](sha256-word-distance/support12-full-factor-review-v8/REVIEW_V8.md):
+it used zero-based `supports[11]`, replacing the required position 13 by 27,
+while labelling the object support 12. Seven original rows change. Its
+internally shared wrong constant explains why its row counts, rank and
+damage controls passed. Corrected v9 binds `supports[12]` to three frozen
+sources and rejects both the off-by-one binding and the `13 -> 27` mutation.
+
+[The actual-base chart](sha256-word-distance/support12-base-lift-v8/PROOF.md)
+has [independent acceptance](sha256-word-distance/support12-base-review-v8/REVIEW.md).
+For arbitrary prescribed first words on support 12, five inactive anchors
+`{9,12,14,19,22}` determine 46 other coordinates through distinct original
+recurrences. A genuine schedule exists exactly when the two remaining
+original residuals at rows 33 and 57 vanish. The blind reviewer found a
+different five-anchor chart with the same residuals, exhausted all 272,052
+sets below size five, and confirmed the author's first size-five success at
+trial 1,498,469. Five variables and two equations do not imply a common zero.
+
+[A fixed-residue finite proof](sha256-word-distance/support12-image-v8/PROOF.md)
+and [independent reconstruction](sha256-word-distance/support12-image-review-v8/PROOF.md)
+exclude the selected twin joint-image core for `D=+/-0x00010000`. For the
+positive orientation, all 256 pairs of exact addition-XOR classes reduce
+from 414 sigma0-compatible affine leaves to 20 leaves through sigma1 bit 29,
+then to zero at bit 30 by odd-carry parity. Independent real boundary
+fixtures show the system remains feasible modulo `2^30`. This excludes only
+the two signed numerical residues, not the remaining exact-valuation-16
+layer or the complete support.
+
+[A separate full independent-pair probe](sha256-word-distance/support12-full-probe-v8/README.md)
+kept all thirteen active pairs, all 48 difference rows and exact
+`v2(d18)=16`. Its one preregistered Z3 4.15.3 check returned `unknown`
+with reason `timeout` at 30 seconds. It has no model or UNSAT certificate,
+omits base completion, and is stopped without retry or budget extension.
+
 ## Frozen failure and next mathematical step
 
 [Full-pair probe](sha256-word-distance/full-pair-probe-v4/MECHANISM.md)
@@ -150,13 +196,13 @@ records a corrected implementation error in its first unsigned-sum
 comparison; the author proof had no gap, and both source hashes and
 the correction mechanism are preserved.
 
-The next useful step is to factor **all** 25 nonzero support-12 rows
-into actual joint-image membership obligations, retaining every one of
-the 13 active pairs. A positive independent-pair object would still
-require a genuine base schedule. Further queries should incorporate
-new constraints and specify a new bounded mechanism; the stopped
-unrestricted query and old failed construction families are not
-continued by increasing their budgets.
+The next useful step is to solve or exclude the accepted ten-scalar,
+thirteen-factor support-12 system on the remaining difference strata, then
+compose any positive first-endpoint object with the exact two-residual base
+chart. A positive independent-pair object is still not a message pair.
+Further queries must incorporate new constraints and specify a new bounded
+mechanism; stopped unknown queries and old failed construction families are
+not continued by increasing their budgets.
 
 Other agents' paths and `main` are outside this workstream. Branch uploads
 may be unsigned; final signatures and main integration belong to ROOT.
@@ -166,7 +212,7 @@ certification is created by this continuation.
 Reproduction of the latest frozen continuation uses only Python's standard library:
 
 ```sh
-python -B workstreams/CRYPTO3-20261012/continuation-v7/replay.py
+python -B workstreams/CRYPTO3-20261012/continuation-v8/replay.py
 ```
 
 The stage-4 gate is `continuation-v4/replay.py`; add its `--full-stage2`
@@ -177,5 +223,8 @@ gates in a temporary copy. The stage-6 gate checks prior integrity, all
 without another solver query. The living checkpoint is not a frozen
 proof artifact. The stage-7 gate checks prior integrity and the new
 structure, width and actual-boundary proof/review commands; it does
-not repeat earlier large enumerations. Each continuation directory's snapshot and manifest
-bind its exact accepted phase.
+not repeat earlier large enumerations. The stage-8 gate additionally checks
+the rejected-v8/corrected-v9 factor review, accepted base chart, accepted
+fixed-residue obstruction and stopped-query receipt without rerunning Z3.
+Each continuation directory's snapshot and manifest binds its exact
+accepted phase.

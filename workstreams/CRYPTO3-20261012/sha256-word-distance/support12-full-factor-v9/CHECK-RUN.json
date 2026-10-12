@@ -1,0 +1,41 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v9-check-run",
+  "python": "3.12.14",
+  "commands": [
+    {
+      "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-v9/build_certificate.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "support_identifier": 12,
+        "rows": 48,
+        "nonzero_rows": 25,
+        "rank": 25,
+        "free_rank": 14,
+        "integer_unit_operations": 53
+      }
+    },
+    {
+      "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-v9/check.py --negative",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "active_indices": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57],
+        "rows": 48,
+        "nonzero_rows": 25,
+        "zero_rows": 23,
+        "integer_rank": 25,
+        "free_rank": 14,
+        "private_parameters": 4,
+        "shared_parameters": 10,
+        "connected_pair_factors": 13,
+        "negative_controls_rejected": 6,
+        "v8_failure_manifest_preserved": true
+      }
+    }
+  ],
+  "solver_used": false,
+  "message_pair": false,
+  "support_excluded": false,
+  "independent_acceptance": false
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "CRYPTO3-support12-fixed-D-joint-fibre-v8",
+  "claim": {
+    "D": "00010000",
+    "orientation_partner": "ffff0000",
+    "modulus_bits": 31,
+    "input_class_count": 16,
+    "mask_pair_count": 256,
+    "full_sigma0_affine_leaves": 414,
+    "low30_sigma1_gap_leaves": 20,
+    "low31_sigma1_gap_leaves": 0
+  },
+  "bit30_frontier": [
+    {"xor_mask": "07ff0000", "incoming_carries": {"-1": 2, "1": 2}, "sigma1_mask_bit30": 1},
+    {"xor_mask": "0fff0000", "incoming_carries": {"-1": 2, "1": 2}, "sigma1_mask_bit30": 1},
+    {"xor_mask": "1fff0000", "incoming_carries": {"-1": 2, "1": 2}, "sigma1_mask_bit30": 1},
+    {"xor_mask": "3fff0000", "incoming_carries": {"-1": 2, "1": 2}, "sigma1_mask_bit30": 1},
+    {"xor_mask": "7fff0000", "incoming_carries": {"-1": 2, "1": 2}, "sigma1_mask_bit30": 1}
+  ],
+  "boundary_control": {
+    "x": "abff5552",
+    "x_plus_D": "ac005552",
+    "y": "03ff0000",
+    "y_plus_D": "04000000",
+    "xor_mask_x": "07ff0000",
+    "xor_mask_y": "07ff0000",
+    "common_sigma0_derivative": "400fe201",
+    "sigma1_derivative_gap_mod_2_32": "c0020000",
+    "sigma1_gap_mod_2_30": "00020000",
+    "sigma1_gap_mod_2_31": "40020000"
+  },
+  "scope": "fixed D and its reversed orientation; selected twin core only; not all valuation-16 D and not a message pair"
+}

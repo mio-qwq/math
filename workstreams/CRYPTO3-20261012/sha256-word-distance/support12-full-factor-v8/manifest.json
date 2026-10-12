@@ -1,0 +1,31 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v8-manifest",
+  "status": "complete author proof candidate; independent acceptance pending",
+  "files": {
+    "CERTIFICATE.json": "c6e4b6fee0978ffd942310d83e13564e071881fd3067739fc5caa6e1e84abeac",
+    "CHECK-RUN.json": "204c3cd95221b06c65e6820699cb193c74a9f06d3c34343ab8713f8240a3c364",
+    "MECHANISM.md": "80f3ca3b24a924b410e74fa32ddb5274ab6fc692519fa981b2940179c5d21b8c",
+    "PROOF.md": "0c2ecb61f3517e1203d8119a7c266010f114e5992daae5df5d4f9e51d723470d",
+    "PROVENANCE.json": "d18d256365535293a01f1f9d4a9a553abe37976bfc7c5c4be2d90b694959a16e",
+    "README.md": "1d29160155c6245fa36758a02d524129a7584ae0a59bc34030575643163091e5",
+    "build_certificate.py": "3fe4e0581e89a0084e3e1d34d429d16a6c496abcd9491d4b34da5c4364698181",
+    "check.py": "22579f2a12ac460c8ee49d93cd53457402f3440defc96729ba6d1716ecb3609e"
+  },
+  "claims": {
+    "original_rows": 48,
+    "nonzero_rows": 25,
+    "zero_rows": 23,
+    "integer_unit_rank": 25,
+    "free_rank": 14,
+    "actual_joint_pair_factors": 13,
+    "private_parameters": 3,
+    "shared_parameters": 11,
+    "complete_bidirectional_reduction": true,
+    "keeps_same_pair_F_G_coupling": true,
+    "message_pair": false,
+    "support_exclusion": false,
+    "distance_14_bound": false,
+    "independent_AI_acceptance": false,
+    "Lean": false
+  }
+}

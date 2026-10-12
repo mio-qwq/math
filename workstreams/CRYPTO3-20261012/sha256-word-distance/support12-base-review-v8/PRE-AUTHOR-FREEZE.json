@@ -1,0 +1,31 @@
+{
+  "schema": "CRYPTO3-support12-base-review-v8-pre-author-freeze",
+  "frozen_at_utc": "2026-10-12T18:52:47Z",
+  "author_directory_read_before_freeze": false,
+  "source_scope": [
+    "original SHA-256 16-to-64 message-schedule recurrence",
+    "frozen support index 12 from ../supports-v2.json"
+  ],
+  "claim_frozen": "five anchors {21,22,23,24,32}, 46 distinct reversible original rows, residual rows {33,57}; exact base interpolation equivalence and minimality only in the stated one-row reversible propagation class",
+  "files_sha256": {
+    "COORDINATE-CERTIFICATE.json": "e60ef1e924bd690113028fb77c668dfd6195381338af1102c213ec3c5ac927f6",
+    "INDEPENDENT_PROOF.md": "fcbb2dca56ccd0158d243233f4a3438219ecac4aa7f1e458036cc4bc80280520",
+    "PRE-AUTHOR-RUN.json": "c2868c00d3fccc3af55e7604d0469b5aad248819bb445d82cd8a5e91616c40c3",
+    "README.md": "9401f9549f416ac63b07fb308a5ef7909b7326e7a134c9e6ac3e598a36d10a58",
+    "check_independent.py": "2b22c1d3f6048701c76eea4ede39fa7f73fac35e3262f8ed7166f425dd2c09b3"
+  },
+  "run_command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-base-review-v8/check_independent.py --output workstreams/CRYPTO3-20261012/sha256-word-distance/support12-base-review-v8/PRE-AUTHOR-RUN.json",
+  "run_status": "PASS",
+  "independent_anchor_search": {
+    "sets_exhausted_below_size_five": 272052,
+    "first_retained_five_anchor_solution": [21, 22, 23, 24, 32]
+  },
+  "scope_exclusions": [
+    "no residual solution",
+    "no second active endpoints",
+    "no full message pair",
+    "no distance-13 attainability",
+    "no lower bound 14",
+    "no Lean formalization"
+  ]
+}

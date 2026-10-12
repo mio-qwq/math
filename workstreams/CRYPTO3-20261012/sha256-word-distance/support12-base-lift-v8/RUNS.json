@@ -1,0 +1,50 @@
+{
+  "schema": "sha256-support12-base-lift-runs-v8",
+  "status": "PASS",
+  "dependencies": "Python 3.12 standard library only",
+  "commands": [
+    {
+      "argv": ["python", "-B", "structural_search.py"],
+      "exit_code": 0,
+      "stdout_file": "STRUCTURAL.json",
+      "stdout_sha256": "26d41c5a4d18108ca55044f4b5d94aa40f34e2ac7ce22ddf3b8e30c96c1c11bc",
+      "reported_elapsed_seconds": 24.282315650001692
+    },
+    {
+      "argv": ["python", "-B", "verify_completion.py"],
+      "exit_code": 0,
+      "stdout_file": "VERIFICATION.json",
+      "stdout_sha256": "5df748c1f5a7436b27d5bf558c9a2d8faeaae11fefd100a50b9fd1b5d228d3c6"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../shift-reduction-v3/supports-v2.json",
+      "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+      "purpose": "frozen support 12 coordinates"
+    },
+    {
+      "path": "../base-lift/PROJECTION.md",
+      "sha256": "436a80b20ae6d98a6d8a6b68248449ed047e212aaff8c9f6eb41a8ba73a76b9f",
+      "purpose": "accepted general difference/base-completion split"
+    },
+    {
+      "path": "../base-review/REVIEW.md",
+      "sha256": "e1a510cafe74911c6b29fd0528106bb6813ecdef67fea697c7325115f6549bbb",
+      "purpose": "independent review status of the general split"
+    }
+  ],
+  "result": {
+    "support_index": 12,
+    "anchors": [9, 12, 14, 19, 22],
+    "constructed_coordinates": 46,
+    "residual_rows": [33, 57],
+    "size3_exhausted": 20825,
+    "size4_exhausted": 249900,
+    "size5_trials_to_first_success": 1498469,
+    "actual_schedule_roundtrips": 16,
+    "negative_controls": 2
+  },
+  "review_status": "complete author proof/checks; independent review pending",
+  "scope": "base completion reduction only; no active-pair witness and no residual-solvability claim"
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-review-v8-pre-author-freeze",
+  "frozen_at_utc": "2026-10-12T18:50:09Z",
+  "author_v8_bytes_read": false,
+  "author_v8_code_imported_or_executed": false,
+  "external_solver_used": false,
+  "claim": "Exact 14-coordinate kernel and projected 10-scalar 13-factor necessary-and-sufficient criterion for support12 independent-active-pair feasibility; no base-message completion claim.",
+  "files": {
+    "check_independent.py": "a8b21e86b6884314ba8185ab225701a302c27eee97cbd75940217d1e15cde96f",
+    "INDEPENDENT_PROOF.md": "b826b4e1dd158c7a041c6c6ebe49a01d7742bd2232bd81bab47082d73a58513e",
+    "PRE_AUTHOR_FREEZE.md": "289a1767531dd0b08e3e9f2e29a98b5de50961b3dda90910252b125fddb2c5ec",
+    "INDEPENDENT_RUN.json": "ce216ce12166c22b88f2857e99dff944547e0e34046daeeffe2ca7ee7eb2e12f"
+  }
+}

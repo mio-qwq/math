@@ -1,0 +1,16 @@
+{
+  "schema": "sha256-support12-base-lift-integrity-v8",
+  "files": {
+    "MECHANISM.md": "660e86375a2e8daec5089b9c57fb9f47a1e2e570b23f88a2d73708c500f59229",
+    "PROOF.md": "40305b2a0ec9dc1d5776626cbde09cbaddb857cc24e627f6dabec20c7ee4ab3a",
+    "README.md": "09c3609ed5d439f6e7946a92d0aebdf21b3b37c2817c7c64bba8c3bc284324c9",
+    "RUNS.json": "d8f25cb3742c1c46f9109c35bc92ebc3fe3b5f8f19fc92fdca027e2e237a7a49",
+    "STRUCTURAL.json": "26d41c5a4d18108ca55044f4b5d94aa40f34e2ac7ce22ddf3b8e30c96c1c11bc",
+    "VERIFICATION.json": "5df748c1f5a7436b27d5bf558c9a2d8faeaae11fefd100a50b9fd1b5d228d3c6",
+    "base_completion.py": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+    "structural_search.py": "49d6b32f6f399b0a33a4aae305e6506516d76b09230452922ba82227c6a2834e",
+    "verify_completion.py": "972f08963f68f47b0dda1d2f6bbb90ebb6bbabf5556de26dfec71a9361fe4772"
+  },
+  "excluded": ["SHA256.json"],
+  "status": "frozen author package; independent review pending"
+}

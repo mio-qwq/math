@@ -1,0 +1,89 @@
+{
+  "author_hashes": {
+    "CERTIFICATE.json": "352b1c650d04811b3f29830ecf515e774bbf9c2573c164ac7c6d82f53c9821e2",
+    "PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395",
+    "check.py": "84516b87f1319e4a4af660b070e627f7c98b46d2a561c4a4e7d2ef150b37ad1e",
+    "manifest.json": "a0438580b430fdd031cecd0ea07c87363c5c942f5f8fc3848864ba1a51ae6b98"
+  },
+  "blind_hashes": {
+    "INDEPENDENT_PROOF.md": "b826b4e1dd158c7a041c6c6ebe49a01d7742bd2232bd81bab47082d73a58513e",
+    "INDEPENDENT_RUN.json": "ce216ce12166c22b88f2857e99dff944547e0e34046daeeffe2ca7ee7eb2e12f",
+    "PRE_AUTHOR_FREEZE.json": "0ce4247c7a571321060f61c3bda95c63c08f547739bfe0809aedf9af6e7ad475",
+    "PRE_AUTHOR_FREEZE.md": "289a1767531dd0b08e3e9f2e29a98b5de50961b3dda90910252b125fddb2c5ec",
+    "check_independent.py": "a8b21e86b6884314ba8185ab225701a302c27eee97cbd75940217d1e15cde96f"
+  },
+  "factor_theorem": {
+    "actual_pair_factors": 13,
+    "connected": true,
+    "distinct_active_d_nonzero_forms": 7,
+    "exact_projected_DF_or_DG": 4,
+    "full_joint_DFG": 9,
+    "private_coordinates": [
+      "G10",
+      "G11",
+      "G13",
+      "F57"
+    ],
+    "shared_count": 10,
+    "shared_scalars": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "s",
+      "u",
+      "v"
+    ]
+  },
+  "linear_module": {
+    "all_coordinate_forms_equal_under_change_of_basis": 39,
+    "author_unit_operations_replayed_and_reversed": 53,
+    "free_rank": 14,
+    "unit_rank": 25
+  },
+  "negative_controls_rejected": 6,
+  "row_comparison": {
+    "all_original_rows_equal": 48,
+    "nonzero": 25,
+    "zero": 23
+  },
+  "schema": "CRYPTO3-support12-full-factor-v9-independent-comparison",
+  "scope": {
+    "Lean": false,
+    "base_message_completion": false,
+    "complete_written_proof": "exact independent-active-pair factorization",
+    "distance13_witness": false,
+    "distance14_lower_bound": false,
+    "factor_system_feasibility_decided": false,
+    "independent_AI_acceptance": true
+  },
+  "sigma_bijectivity": {
+    "sigma0_gf2_rank": 32,
+    "sigma1_gf2_rank": 32
+  },
+  "status": "ACCEPT",
+  "target_binding": {
+    "active_indices": [
+      10,
+      11,
+      13,
+      15,
+      18,
+      20,
+      26,
+      28,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    "rejected_v8_manifest_preserved": "02a3729a66b7e474eb2abfeb33920160e2d60386f324ab5d4ef1b5c1e2bc0814",
+    "source_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "support_identifier": 12,
+    "zero_based": true
+  }
+}

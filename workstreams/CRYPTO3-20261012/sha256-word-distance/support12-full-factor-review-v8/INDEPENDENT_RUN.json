@@ -1,0 +1,330 @@
+{
+  "active_nonzero_conditions": [
+    "a",
+    "b",
+    "c",
+    "e",
+    "u",
+    "q+r",
+    "v"
+  ],
+  "checker_sha256": "a8b21e86b6884314ba8185ab225701a302c27eee97cbd75940217d1e15cde96f",
+  "factor_graph": {
+    "10": {
+      "forms": [
+        {
+          "a": -1
+        },
+        {
+          "b": -1
+        }
+      ],
+      "predicate": "DF"
+    },
+    "11": {
+      "forms": [
+        {
+          "b": 1
+        },
+        {
+          "a": 1,
+          "c": -1
+        }
+      ],
+      "predicate": "DF"
+    },
+    "13": {
+      "forms": [
+        {
+          "e": -1
+        },
+        {
+          "p": -1,
+          "q": -1,
+          "r": -1
+        }
+      ],
+      "predicate": "DF"
+    },
+    "15": {
+      "forms": [
+        {
+          "u": -1
+        },
+        {
+          "s": -1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "18": {
+      "forms": [
+        {
+          "b": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "b": -1,
+          "e": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "20": {
+      "forms": [
+        {
+          "b": -1
+        },
+        {
+          "q": 1,
+          "r": 1
+        },
+        {
+          "u": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "26": {
+      "forms": [
+        {
+          "c": -1
+        },
+        {
+          "b": -1
+        },
+        {
+          "p": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "28": {
+      "forms": [
+        {
+          "q": -1,
+          "r": -1
+        },
+        {
+          "b": -1
+        },
+        {
+          "s": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "29": {
+      "forms": [
+        {
+          "e": -1
+        },
+        {
+          "q": 1
+        },
+        {
+          "u": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "34": {
+      "forms": [
+        {
+          "b": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "b": 1,
+          "e": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "42": {
+      "forms": [
+        {
+          "c": -1
+        },
+        {
+          "v": 1
+        },
+        {
+          "r": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "43": {
+      "forms": [
+        {
+          "b": -1
+        },
+        {
+          "c": 1
+        },
+        {
+          "e": 1
+        }
+      ],
+      "predicate": "DFG"
+    },
+    "57": {
+      "forms": [
+        {
+          "v": 1
+        },
+        {
+          "b": 1
+        }
+      ],
+      "predicate": "DG"
+    }
+  },
+  "free_coordinates": [
+    "G10",
+    "G11",
+    "G13",
+    "G15",
+    "G26",
+    "G28",
+    "F29",
+    "G29",
+    "G42",
+    "F43",
+    "G43",
+    "d57",
+    "F57",
+    "G57"
+  ],
+  "free_parameters": [
+    "z10",
+    "z11",
+    "z13",
+    "a",
+    "p",
+    "s",
+    "q",
+    "u",
+    "r",
+    "c",
+    "e",
+    "v",
+    "z57",
+    "b"
+  ],
+  "logical_scope": "necessary and sufficient for thirteen independent actual-word pairs; no cross-index base-message completion",
+  "max_abs_transform_entry": 1,
+  "modular_parameter_samples": 4,
+  "negative_controls": [
+    {
+      "name": "flip_G34_b_sign",
+      "reason": "wrong pivot formula for G34",
+      "rejected": true
+    },
+    {
+      "name": "omit_F13_r_term",
+      "reason": "wrong pivot formula for F13",
+      "rejected": true
+    },
+    {
+      "name": "omit_active_57",
+      "reason": "support coverage",
+      "rejected": true
+    }
+  ],
+  "nonzero_rows": [
+    17,
+    18,
+    20,
+    22,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36,
+    41,
+    42,
+    43,
+    44,
+    45,
+    49,
+    50,
+    57,
+    58,
+    59
+  ],
+  "original_rows": 48,
+  "projected_scalar_parameters": [
+    "a",
+    "b",
+    "c",
+    "e",
+    "p",
+    "q",
+    "r",
+    "s",
+    "u",
+    "v"
+  ],
+  "rank_by_unit_pivots": 25,
+  "schema": "CRYPTO3-support12-full-factor-independent-v8",
+  "sigma_definition_samples": 7,
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "status": "PASS",
+  "support": [
+    10,
+    11,
+    13,
+    15,
+    18,
+    20,
+    26,
+    28,
+    29,
+    34,
+    42,
+    43,
+    57
+  ],
+  "unit_row_operations": 86,
+  "variables": 39,
+  "zero_rows": [
+    16,
+    19,
+    21,
+    23,
+    24,
+    32,
+    37,
+    38,
+    39,
+    40,
+    46,
+    47,
+    48,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    60,
+    61,
+    62,
+    63
+  ]
+}

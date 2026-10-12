@@ -1,0 +1,32 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v8-check-run",
+  "python": "3.12.14",
+  "commands": [
+    {
+      "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-v8/build_certificate.py",
+      "exit_code": 0,
+      "stdout": "{\"free_rank\": 14, \"nonzero\": 25, \"operations\": 57, \"output\": \"/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-v8/CERTIFICATE.json\", \"rank\": 25, \"rows\": 48, \"status\": \"PASS\"}"
+    },
+    {
+      "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-v8/check.py --negative",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "rows": 48,
+        "nonzero_rows": 25,
+        "zero_rows": 23,
+        "integer_rank": 25,
+        "free_rank": 14,
+        "unit_row_operations": 57,
+        "joint_pair_factors": 13,
+        "shared_parameters": 11,
+        "private_parameters": 3,
+        "sigma0_binary_rank": 32,
+        "sigma1_binary_rank": 32,
+        "negative_controls_rejected": 6
+      }
+    }
+  ],
+  "solver_used": false,
+  "independent_review": false
+}

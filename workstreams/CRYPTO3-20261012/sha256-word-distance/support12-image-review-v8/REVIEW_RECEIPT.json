@@ -1,0 +1,83 @@
+{
+  "schema": "CRYPTO3-support12-image-independent-review-v8",
+  "status": "ACCEPT",
+  "author_manifest_sha256": "f8166c958baead817204a262dbe0487ca5b856f05b5baa94433f5d69b0ef7c90",
+  "author_checker_sha256": "7b47fa737b0beffd098fdc5c332c5cb9caa54bd5611c86b275f07a2d229d9724",
+  "author_certificate_sha256": "4901cd8605e7f81b601d3229e0441a32a4ad41cc2ee316fbf452e405efec77e6",
+  "review_files": {
+    "PROOF.md": "b3fe03603766caa7399ffa4fb336f9f7eedd845c8b68fd497657afcd70ec0fea",
+    "check_independent.py": "a8c5423a05cbd959bf835d397acf94ce37b4e93deb230a63ef2a5b4f9f96983f"
+  },
+  "claim": {
+    "D_hex": "00010000",
+    "reverse_D_hex": "ffff0000",
+    "sigma0_modulus_bits": 32,
+    "sigma1_gap_modulus_bits": 31,
+    "statement": "no two actual +D word pairs in the selected twin core have equal sigma0 derivative and sigma1-derivative gap 2D modulo 2^31"
+  },
+  "input_classes": {
+    "count": 16,
+    "upper_half_values_exhausted": 65536,
+    "class_sizes": [32768, 16384, 8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 2],
+    "free_low_half_values_per_upper_value": 65536,
+    "mask_pair_count": 256,
+    "status": "complete"
+  },
+  "independent_counts": {
+    "full_sigma0_leaves": 414,
+    "sigma1_gap_mod_2_30_leaves": 20,
+    "sigma1_gap_mod_2_31_leaves": 0,
+    "theorem_assignments_tried": 41149,
+    "theorem_parity_edges": 19682,
+    "theorem_linear_conflicts": 365
+  },
+  "bit30_frontier": {
+    "common_masks_hex": ["07ff0000", "0fff0000", "1fff0000", "3fff0000", "7fff0000"],
+    "incoming_carries_each": [-1, 1],
+    "leaves_per_mask_and_carry": 2,
+    "sigma1_mask_bit30_both_pairs": 1,
+    "target_bit30": 0,
+    "contradiction": "even derivative-bit difference plus odd incoming carry has no even digit equation"
+  },
+  "independent_boundary_witness": {
+    "x": "03ff4048",
+    "x_plus_D": "04004048",
+    "y": "abff151a",
+    "y_plus_D": "ac00151a",
+    "common_sigma0_derivative": "402ff313",
+    "sigma1_gap_mod_2_32": "c0020000",
+    "sigma1_gap_mod_2_30": "00020000",
+    "sigma1_gap_mod_2_31": "40020000"
+  },
+  "controls": {
+    "drop_sigma1_bit30_leaves": 20,
+    "drop_sigma0_bit31_leaves": 20,
+    "replace_gap_by_zero_leaves": 58,
+    "damaged_frontiers_rejected": 4,
+    "author_negative_checker": "PASS",
+    "independent_negative_checker": "PASS"
+  },
+  "negative_D_symmetry": {
+    "map": "reverse both directed word pairs",
+    "effect": "D, F, and G derivatives all negate; equality is preserved and the target gap becomes 2(-D)",
+    "status": "accepted bijection"
+  },
+  "independence": {
+    "author_code_imported": false,
+    "sigma_rows": "derived from direct basis-word evaluation of rotations and shifts",
+    "carry_method": "complete local truth tables plus independently implemented highest-pivot GF(2) elimination"
+  },
+  "commands": [
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-image-v8/check.py --negative",
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-image-review-v8/check_independent.py --negative"
+  ],
+  "scope": "fixed D=+/-0x00010000 selected twin core only",
+  "not_claimed": [
+    "all residues with exact v2(D)=16",
+    "the full support-12 system",
+    "a SHA-256 message pair",
+    "distance-13 attainability",
+    "distance at least 14",
+    "Lean or human peer review"
+  ]
+}

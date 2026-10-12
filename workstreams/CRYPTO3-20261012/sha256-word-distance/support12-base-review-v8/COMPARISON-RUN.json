@@ -1,0 +1,105 @@
+{
+  "author_files_checked": {
+    "MECHANISM.md": "660e86375a2e8daec5089b9c57fb9f47a1e2e570b23f88a2d73708c500f59229",
+    "PROOF.md": "40305b2a0ec9dc1d5776626cbde09cbaddb857cc24e627f6dabec20c7ee4ab3a",
+    "README.md": "09c3609ed5d439f6e7946a92d0aebdf21b3b37c2817c7c64bba8c3bc284324c9",
+    "RUNS.json": "d8f25cb3742c1c46f9109c35bc92ebc3fe3b5f8f19fc92fdca027e2e237a7a49",
+    "STRUCTURAL.json": "26d41c5a4d18108ca55044f4b5d94aa40f34e2ac7ce22ddf3b8e30c96c1c11bc",
+    "VERIFICATION.json": "5df748c1f5a7436b27d5bf558c9a2d8faeaae11fefd100a50b9fd1b5d228d3c6",
+    "base_completion.py": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+    "structural_search.py": "49d6b32f6f399b0a33a4aae305e6506516d76b09230452922ba82227c6a2834e",
+    "verify_completion.py": "972f08963f68f47b0dda1d2f6bbb90ebb6bbabf5556de26dfec71a9361fe4772"
+  },
+  "author_files_modified": false,
+  "author_manifest_sha256": "374732f8fee671cd7290d7596ab7f0cb85bb83502b3c94a124d7a78280802dc6",
+  "author_verifier_rerun": {
+    "exact_frozen_output_match": true,
+    "negative_controls": [
+      "corrupted_constructed_31",
+      "damaged_active_10"
+    ],
+    "roundtrips": 16
+  },
+  "chart_comparison": {
+    "anchors_are_distinct": true,
+    "author_anchors": [
+      9,
+      12,
+      14,
+      19,
+      22
+    ],
+    "author_first_lexicographic_size5": {
+      "first_anchors": [
+        9,
+        12,
+        14,
+        19,
+        22
+      ],
+      "trials_to_first_success": 1498469
+    },
+    "author_structure": {
+      "residual_rows": [
+        33,
+        57
+      ],
+      "rows": 46,
+      "step_type_counts": {
+        "identity_lag16": 9,
+        "identity_lag7": 2,
+        "identity_output": 21,
+        "sigma0_inverse": 2,
+        "sigma1_inverse": 12
+      },
+      "targets": 46
+    },
+    "independent_anchors": [
+      21,
+      22,
+      23,
+      24,
+      32
+    ],
+    "independent_lower_size_sets_checked": 272052,
+    "shared_residual_rows": [
+      33,
+      57
+    ]
+  },
+  "implementation_comparison": {
+    "basis_function_comparisons": 64,
+    "cross_implementation_roundtrips": [
+      {
+        "fixture": 0,
+        "schedule_sha256": "a6b92b6c4701a786396051387abf54cd70fdd413f463b92307bec83867150d2d"
+      },
+      {
+        "fixture": 1,
+        "schedule_sha256": "7acb992ec98b40efb97b6bd4c61690bc219a28d3a1e7d3903ef4a3bb7f5bad87"
+      },
+      {
+        "fixture": 2,
+        "schedule_sha256": "bdcf366b36f73a3f5890710e09945ab8539f5df710d28e95bf1e93bc59a831d7"
+      },
+      {
+        "fixture": 3,
+        "schedule_sha256": "42cde722dd3fb9e6a0fda08ab2c57d01f3422357b2958d0939c49d1b1c151707"
+      }
+    ],
+    "inverse_columns_exact_match": true,
+    "inverse_compositions_checked": 128
+  },
+  "not_accepted": [
+    "residual solvability",
+    "active-pair realization",
+    "full message pair",
+    "distance-13 attainability",
+    "distance at least 14",
+    "Lean formalization"
+  ],
+  "pre_author_freeze_sha256": "8d69af5d578246b5ddc9c66214418854a3a2a02c9e70d8186e01f5c22a98aa1f",
+  "schema": "CRYPTO3-support12-base-lift-v8-independent-comparison",
+  "status": "ACCEPT",
+  "theorem_scope": "exact base interpolation bijection for arbitrary prescribed first words on support 12"
+}

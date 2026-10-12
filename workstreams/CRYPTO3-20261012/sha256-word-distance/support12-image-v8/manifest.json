@@ -1,0 +1,15 @@
+{
+  "schema": "CRYPTO3-support12-image-v8-author-manifest",
+  "files": {
+    "CERTIFICATE.json": "4901cd8605e7f81b601d3229e0441a32a4ad41cc2ee316fbf452e405efec77e6",
+    "CHECK-RUN.json": "369009f4baae28eb6d46f00314594f54ec15d08c18035819b0241929ff88bfba",
+    "MECHANISM.md": "dce231c92568685cbdfb48ce9283747f457b22d309b91c10b4bd5d0914a43a90",
+    "PROOF.md": "c41efebfae7c29286c7c1907f4021b51e86069be3d0f6af29c206c7829f09417",
+    "README.md": "7693a93994308547e56b9eec282cc718c94d36079dbf64557edd870ccded28ee",
+    "STATUS.md": "244f11ab2869e6f513a52fc6c84aec6737d7d3b56fd08c65d5f4cbf9c752d057",
+    "check.py": "7b47fa737b0beffd098fdc5c332c5cb9caa54bd5611c86b275f07a2d229d9724",
+    "explore.py": "2d0be20f754a20010759fecdca2ff347ec6df419a3d5f37ffe615e3f47ffff17"
+  },
+  "excludes": ["manifest.json", "independent-review/"],
+  "scope": "author fixed-residue proof; independent review is separately frozen"
+}

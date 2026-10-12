@@ -1,0 +1,18 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v9-provenance",
+  "correct_target": {
+    "identifier": 12,
+    "indexing": "zero-based",
+    "active_indices": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57]
+  },
+  "observed_inputs": {
+    "../supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "../actual-boundary-v6/PROOF.md": "572aed96c813c8f388802a70a80fd312ad23dc234424e49f898480ee209f5ace",
+    "../actual-boundary-review-v7/REVIEW_RECEIPT.json": "39993ce6f30b794e52c19cc731c150bde2a21b7b066a6f557d82c88ccc1bd21d",
+    "../support12-base-lift-v8/STRUCTURAL.json": "26d41c5a4d18108ca55044f4b5d94aa40f34e2ac7ce22ddf3b8e30c96c1c11bc",
+    "../support12-base-lift-v8/PROOF.md": "40305b2a0ec9dc1d5776626cbde09cbaddb857cc24e627f6dabec20c7ee4ab3a",
+    "../support12-full-factor-review-v8/REVIEW_V8.md": "c806c5e56be8c5023f03fe95abd1d097f501a37d8f173fc97f34ebe4358196fe",
+    "../support12-full-factor-v8/manifest.json": "02a3729a66b7e474eb2abfeb33920160e2d60386f324ab5d4ef1b5c1e2bc0814"
+  },
+  "note": "The v8 review identified the object error. V9 reconstructs the target from supports[12] and binds it independently to accepted actual-boundary and base-lift artifacts. V8 is retained byte-for-byte as a rejected-object failure record."
+}

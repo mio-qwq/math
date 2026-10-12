@@ -1,0 +1,65 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v9-independent-AI-review-receipt",
+  "status": "ACCEPT",
+  "review_directory": "workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-review-v8",
+  "author_directory": "workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-v9",
+  "accepted_claim": "Exact necessary-and-sufficient 13-factor reduction of the true zero-based support identifier 12 to independent actual SHA-256 word-pair predicates.",
+  "target": {
+    "support_identifier": 12,
+    "zero_based": true,
+    "active_indices": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57],
+    "source_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "accepted_checks": {
+    "all_original_rows_equal": 48,
+    "nonzero_rows": 25,
+    "zero_rows": 23,
+    "integer_unit_rank": 25,
+    "free_rank": 14,
+    "author_unit_operations_replayed_and_reversed": 53,
+    "coordinate_forms_equal_after_integral_change_of_basis": 39,
+    "actual_pair_factors": 13,
+    "full_joint_DFG_factors": 9,
+    "exact_projected_factors": 4,
+    "private_coordinates": ["G10", "G11", "G13", "F57"],
+    "shared_scalar_count": 10,
+    "shared_graph_connected": true,
+    "distinct_active_difference_nonzero_forms": 7,
+    "sigma0_gf2_rank": 32,
+    "sigma1_gf2_rank": 32,
+    "author_negative_controls_rejected": 6
+  },
+  "preserved_failure": {
+    "v8_status": "REJECT",
+    "mechanism": "v8 labels support index 12 but factors supports[11], replacing true position 13 by spurious position 27",
+    "changed_row_times": [20, 27, 28, 29, 34, 42, 43],
+    "v8_manifest_sha256": "02a3729a66b7e474eb2abfeb33920160e2d60386f324ab5d4ef1b5c1e2bc0814"
+  },
+  "author_v9_hashes": {
+    "manifest.json": "a0438580b430fdd031cecd0ea07c87363c5c942f5f8fc3848864ba1a51ae6b98",
+    "PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395",
+    "CERTIFICATE.json": "352b1c650d04811b3f29830ecf515e774bbf9c2573c164ac7c6d82f53c9821e2",
+    "check.py": "84516b87f1319e4a4af660b070e627f7c98b46d2a561c4a4e7d2ef150b37ad1e"
+  },
+  "blind_pre_author_hashes": {
+    "check_independent.py": "a8b21e86b6884314ba8185ab225701a302c27eee97cbd75940217d1e15cde96f",
+    "INDEPENDENT_PROOF.md": "b826b4e1dd158c7a041c6c6ebe49a01d7742bd2232bd81bab47082d73a58513e",
+    "PRE_AUTHOR_FREEZE.md": "289a1767531dd0b08e3e9f2e29a98b5de50961b3dda90910252b125fddb2c5ec",
+    "INDEPENDENT_RUN.json": "ce216ce12166c22b88f2857e99dff944547e0e34046daeeffe2ca7ee7eb2e12f",
+    "PRE_AUTHOR_FREEZE.json": "0ce4247c7a571321060f61c3bda95c63c08f547739bfe0809aedf9af6e7ad475"
+  },
+  "replay_commands": [
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-review-v8/check_independent.py --negative",
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-review-v8/compare_author_v8.py",
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-full-factor-review-v8/compare_author_v9.py"
+  ],
+  "excluded_claims": {
+    "factor_system_feasible": false,
+    "actual_pair_witnesses": false,
+    "base_message_completion": false,
+    "distance13_witness": false,
+    "distance14_lower_bound": false,
+    "Lean": false,
+    "external_human_review": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "crypto3-support12-full-probe-v8-integrity",
+  "files": [
+    {"path":"PLAN.md","bytes":1683,"sha256":"405d02663f05f473125c4e3b1bbc23ed7938c0f6a37a30757ce7eeeacb879be4"},
+    {"path":"README.md","bytes":801,"sha256":"696181ebaf8f1592d708bfe3e8ed19823b3e8967d5c45acd19364d8ec2b66e83"},
+    {"path":"RECEIPT.json","bytes":1167,"sha256":"d5a333c3c3f56d980d4426ea90ecd792f136d3b0339e969a1d8c233c46213d57"},
+    {"path":"run-01/MODEL.smt2","bytes":14964,"sha256":"a915b1724720581463e65cf38964478a622ada664606a82d9f669e82474f961a"},
+    {"path":"run-01/RESULT.json","bytes":638,"sha256":"15c901b51fb20f1bd0ab589ea2f78f0acf2d4710a292d0a6d4d480d23da755db"},
+    {"path":"run_probe.py","bytes":2430,"sha256":"133062d42bb3129bce8be806c300c880db0616e83d87f996c63213d36a048daf"},
+    {"path":"verify_model.py","bytes":1380,"sha256":"2510a8efa01a8dfb8225447e1a308501b546fe34d375c67d247cb1d16220eb28"}
+  ],
+  "scope": "One stopped UNKNOWN observation only; no accepted mathematical theorem."
+}

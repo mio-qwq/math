@@ -1,0 +1,21 @@
+{
+  "schema": "crypto3-stage8-prior-integrity-v1",
+  "stage7": {
+    "files_checked": 63,
+    "sha256": "79c29c030bcb43a6a9259a5e224b2cba7233eff7a01c8b9123b6056a715dab80"
+  },
+  "stages4_to_6": {
+    "stage4": {
+      "files_checked": 111,
+      "manifest_sha256": "ce83da67428cc236982612acf2f1dd35d26f54c8888e223216737d7256c0f25f"
+    },
+    "stage5": {
+      "files_checked": 47,
+      "sha256": "18dd4dfb6db4be7fb2e1365c059e765079133738a98a41ce2f482ee86ebf7f41"
+    },
+    "stage6": {
+      "files_checked": 107,
+      "sha256": "93acbf56a4aef563f6a7bcb4e98190ec85257c2b67bf2dba98fad7163263080b"
+    }
+  }
+}

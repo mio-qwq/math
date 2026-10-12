@@ -1,0 +1,114 @@
+{
+  "candidate_sha256": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+  "checker_sha256": "972f08963f68f47b0dda1d2f6bbb90ebb6bbabf5556de26dfec71a9361fe4772",
+  "negative_controls": {
+    "corrupted_constructed_31": {
+      "rejected_used_rows": [
+        31,
+        38,
+        46,
+        47
+      ]
+    },
+    "damaged_active_10": {
+      "all_46_constructed_rows_zero": true,
+      "nonzero_residuals": [
+        33,
+        57
+      ]
+    }
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "residual_indices": [
+    33,
+    57
+  ],
+  "roundtrips": [
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "38b0472d47ba706f05ae042b9026a7253ab799bb6026f2edecd1bd38d1f0d4f7"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "7acb992ec98b40efb97b6bd4c61690bc219a28d3a1e7d3903ef4a3bb7f5bad87"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "42cde722dd3fb9e6a0fda08ab2c57d01f3422357b2958d0939c49d1b1c151707"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "0e3c610050d34989ce5cf7f6d7c162f6bb0e4ce88e3c01b1dfd5d1237599aadc"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "5aa827e69d633f059b4f86316783240158624758c8739f4d6b7d6468147319e2"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "34e0eabc5980391538bf0ed599dcd3c05b3cffea65bf894af51a046f218104eb"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "da81e5211ed29dfb6715b72084f47c83a817738e5041e949bc167dc6f10495c3"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "94e681193157b666665bf9569520abd9a91c3513c79a9c381b3ebbec19bdf561"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "ab0807a81d08995e8afa76eb7bca4b9dfb66eb7c27f5394254a0d119bf5e2b14"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "3846d651729515bd365088444da5e3c2a482fa72b314e9eb58ff2f93464f9f08"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "2e93e23c58d4ac3c7dba6f4ad538d01647d9abbff670066327a883580ae5891f"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "68c8da353485dd6301c6c6a3b15a2caad73c0ae5b681982b66c11fe88782ed6f"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "02d9b29cf7b26bc58590ef39c430a93dae9c45515d5f8e17a147427d14f861e7"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "c9fd8f1689a421e44fb1e0d0068cce68cf9f4fd56ba12a5645fdf86c31786419"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "c42bcb36e1ea51a672ebac9be4e5c970419c9ba613f3fdd12f36302615f42269"
+    },
+    {
+      "all_48_rows_zero": true,
+      "all_64_words_equal": true,
+      "schedule_sha256": "5586ee86ea5984a2e8c8f76ac6059ac0d4e9ef9ff77262b6b6b2d30ecd93894b"
+    }
+  ],
+  "schema": "sha256-support12-base-lift-verification-v8",
+  "scope": "exact base-chart implementation checks; no active-pair witness, no automatic residual solvability, no distance bound",
+  "source_definition": "FIPS 180-4 equations 4.6, 4.7 and Section 6.2.2",
+  "status": "PASS",
+  "used_original_rows": 46
+}

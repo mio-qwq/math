@@ -1,0 +1,12 @@
+{
+  "schema": "CRYPTO3-support12-full-factor-v8-provenance",
+  "observed_inputs": {
+    "../../CURRENT.md": "7627c2f847d2d54e9fcf5498612f7a3608144b50e70f16614ffbae62f8c5b2f9",
+    "../actual-boundary-v6/PROOF.md": "572aed96c813c8f388802a70a80fd312ad23dc234424e49f898480ee209f5ace",
+    "../actual-boundary-v6/SHA256.json": "614d7c5fbf2994da2de9593efcbd8a09ee1f4b46dfe419e91a37d742d8073aad",
+    "../support12-structure-v7/PROOF.md": "e5ac4955289a850266b4c6891f6cd1249324f4d6b840c6747212e556e08e1bb5",
+    "../support12-structure-v7/manifest.json": "8a5d97b2f671ae416ed296267bc25df2835c053fa9d318b01bf5bc68c615288a",
+    "../supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "dependency_note": "The proof reconstructs all rows directly from supports-v2.json. The earlier proof files were read for notation and scope, not imported by the checker. CURRENT.md is living and this hash records only the version observed at start."
+}
