@@ -1,0 +1,9 @@
+{
+  "fixed_delta": 2097152,
+  "scope": "four independent words; no message/base recurrence",
+  "seconds": 0.1342941200000496,
+  "source_sha256": "56260d6dd117b74d217a365290e4eb92c961e1bcaa3c480f27033e39f43c030b",
+  "status": "unsat",
+  "timeout_ms": 10000,
+  "z3": "4.15.3"
+}

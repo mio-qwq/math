@@ -1,0 +1,61 @@
+{
+  "schema": "CRYPTO3-existing-scope-source-inputs-v1",
+  "files": [
+    {
+      "commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "path": "RESEARCH_RESULTS.md",
+      "sha256": "5b5f78327c01a832e8bdbf673a92656762f13e3bd49f5d33d6e32a299f1968a9",
+      "bytes": 21685,
+      "source_url": "https://github.com/mio-qwq/math/blob/61488e05c9fe41984f483853f99e79f5715dc893/RESEARCH_RESULTS.md"
+    },
+    {
+      "commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+      "path": "workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/PROOF.md",
+      "sha256": "593b4acde78a894f7dde390656a6b4a2b4b63b3d238e16a5a5bc3b11f93bcaa5",
+      "bytes": 2653,
+      "source_url": "https://github.com/mio-qwq/math/blob/80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51/workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/PROOF.md"
+    },
+    {
+      "commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+      "path": "workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/NOVELTY.md",
+      "sha256": "6d20137caeede725a26446163b8cfbceb78ed7379e3bfcf023c701b5caf5fa5a",
+      "bytes": 4654,
+      "source_url": "https://github.com/mio-qwq/math/blob/80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51/workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/NOVELTY.md"
+    },
+    {
+      "commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+      "path": "workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/RUNS.json",
+      "sha256": "916206cf68197af021007898d524c43c377ad3881355639e02d884aef449de87",
+      "bytes": 4003,
+      "source_url": "https://github.com/mio-qwq/math/blob/80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51/workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/RUNS.json"
+    },
+    {
+      "commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+      "path": "workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/lean/lakefile.lean",
+      "sha256": "dc2e88d65062e7b95b64f43d08f9805ebd6d552e91caaff6fff3a5c474451b23",
+      "bytes": 5879,
+      "source_url": "https://github.com/mio-qwq/math/blob/80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51/workstreams/CRYPTO2-20261011-7f3c/projects/rsa-short-relations/v2/lean/lakefile.lean"
+    },
+    {
+      "commit": "551fcd76ebabe43971123d29d11a94319a3b0096",
+      "path": "workstreams/CRYPTO/CLAIMS.md",
+      "sha256": "083d99f0a619648e5b74d0dd91b2b2788893bd6ca9c9e2e405837cabf4ede95f",
+      "bytes": 4930,
+      "source_url": "https://github.com/mio-qwq/math/blob/551fcd76ebabe43971123d29d11a94319a3b0096/workstreams/CRYPTO/CLAIMS.md"
+    },
+    {
+      "commit": "551fcd76ebabe43971123d29d11a94319a3b0096",
+      "path": "workstreams/CRYPTO/projects/chacha-three-add/RESULTS.md",
+      "sha256": "71215f54e37e2c6a0e87822eaea3a1361f0a8f5d68661794540967cc93fae427",
+      "bytes": 10555,
+      "source_url": "https://github.com/mio-qwq/math/blob/551fcd76ebabe43971123d29d11a94319a3b0096/workstreams/CRYPTO/projects/chacha-three-add/RESULTS.md"
+    },
+    {
+      "commit": "551fcd76ebabe43971123d29d11a94319a3b0096",
+      "path": "workstreams/CRYPTO/projects/keccak-conditional-rank/OBJECTIVE.md",
+      "sha256": "22162561b1950613dc4a30d37573d52f34f544cdde04afc5cc84cb9f3ad92bb2",
+      "bytes": 5347,
+      "source_url": "https://github.com/mio-qwq/math/blob/551fcd76ebabe43971123d29d11a94319a3b0096/workstreams/CRYPTO/projects/keccak-conditional-rank/OBJECTIVE.md"
+    }
+  ]
+}

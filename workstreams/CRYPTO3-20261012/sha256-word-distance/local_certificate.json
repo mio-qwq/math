@@ -1,0 +1,547 @@
+{
+  "carry_exclusions": [
+    {
+      "alpha": 3577749504,
+      "beta": 339025920,
+      "first_empty_bit": 16,
+      "selection": 1
+    },
+    {
+      "alpha": 2860531712,
+      "beta": 673898496,
+      "first_empty_bit": 13,
+      "selection": 2
+    },
+    {
+      "alpha": 2143313920,
+      "beta": 1008713728,
+      "first_empty_bit": 13,
+      "selection": 3
+    },
+    {
+      "alpha": 1426096128,
+      "beta": 1343578112,
+      "first_empty_bit": 13,
+      "selection": 4
+    },
+    {
+      "alpha": 2151718912,
+      "beta": 1142964224,
+      "first_empty_bit": 13,
+      "selection": 5
+    },
+    {
+      "alpha": 4286627840,
+      "beta": 2017427456,
+      "first_empty_bit": 14,
+      "selection": 6
+    },
+    {
+      "alpha": 717283328,
+      "beta": 1812635648,
+      "first_empty_bit": 17,
+      "selection": 7
+    },
+    {
+      "alpha": 2852192256,
+      "beta": 2687156224,
+      "first_empty_bit": 14,
+      "selection": 8
+    },
+    {
+      "alpha": 2134974464,
+      "beta": 3021987840,
+      "first_empty_bit": 22,
+      "selection": 9
+    },
+    {
+      "alpha": 8470528,
+      "beta": 2281709568,
+      "first_empty_bit": 13,
+      "selection": 10
+    },
+    {
+      "alpha": 3586220032,
+      "beta": 2620719104,
+      "first_empty_bit": 13,
+      "selection": 11
+    },
+    {
+      "alpha": 4278288384,
+      "beta": 4030701568,
+      "first_empty_bit": 13,
+      "selection": 12
+    },
+    {
+      "alpha": 708943872,
+      "beta": 3825893376,
+      "first_empty_bit": 13,
+      "selection": 13
+    },
+    {
+      "alpha": 1434566656,
+      "beta": 3625271296,
+      "first_empty_bit": 18,
+      "selection": 14
+    },
+    {
+      "alpha": 2160189440,
+      "beta": 3424673792,
+      "first_empty_bit": 21,
+      "selection": 15
+    },
+    {
+      "alpha": 4004118528,
+      "beta": 1077657600,
+      "first_empty_bit": 14,
+      "selection": 16
+    },
+    {
+      "alpha": 1005199360,
+      "beta": 1410260992,
+      "first_empty_bit": 21,
+      "selection": 17
+    },
+    {
+      "alpha": 1143619584,
+      "beta": 1745952768,
+      "first_empty_bit": 13,
+      "selection": 18
+    },
+    {
+      "alpha": 2439667712,
+      "beta": 2082734080,
+      "first_empty_bit": 13,
+      "selection": 19
+    },
+    {
+      "alpha": 3148513280,
+      "beta": 271491072,
+      "first_empty_bit": 13,
+      "selection": 20
+    },
+    {
+      "alpha": 1860870144,
+      "beta": 68911104,
+      "first_empty_bit": 13,
+      "selection": 21
+    },
+    {
+      "alpha": 288014336,
+      "beta": 939802624,
+      "first_empty_bit": 17,
+      "selection": 22
+    },
+    {
+      "alpha": 3295338496,
+      "beta": 741433344,
+      "first_empty_bit": 19,
+      "selection": 23
+    },
+    {
+      "alpha": 1152057344,
+      "beta": 3759210496,
+      "first_empty_bit": 19,
+      "selection": 24
+    },
+    {
+      "alpha": 2448105472,
+      "beta": 4096008192,
+      "first_empty_bit": 16,
+      "selection": 25
+    },
+    {
+      "alpha": 3995811840,
+      "beta": 3359367168,
+      "first_empty_bit": 13,
+      "selection": 26
+    },
+    {
+      "alpha": 996892672,
+      "beta": 3691954176,
+      "first_empty_bit": 13,
+      "selection": 27
+    },
+    {
+      "alpha": 296452096,
+      "beta": 2953076736,
+      "first_empty_bit": 13,
+      "selection": 28
+    },
+    {
+      "alpha": 3303776256,
+      "beta": 2754691072,
+      "first_empty_bit": 13,
+      "selection": 29
+    },
+    {
+      "alpha": 3140206592,
+      "beta": 2553184256,
+      "first_empty_bit": 14,
+      "selection": 30
+    },
+    {
+      "alpha": 1852563456,
+      "beta": 2350620672,
+      "first_empty_bit": 25,
+      "selection": 31
+    },
+    {
+      "alpha": 3713269760,
+      "beta": 2151096320,
+      "first_empty_bit": 13,
+      "selection": 32
+    },
+    {
+      "alpha": 135536640,
+      "beta": 2483159040,
+      "first_empty_bit": 13,
+      "selection": 33
+    },
+    {
+      "alpha": 2010398720,
+      "beta": 2820521984,
+      "first_empty_bit": 22,
+      "selection": 34
+    },
+    {
+      "alpha": 2727632896,
+      "beta": 3156795392,
+      "first_empty_bit": 18,
+      "selection": 35
+    },
+    {
+      "alpha": 2287239168,
+      "beta": 3491905536,
+      "first_empty_bit": 14,
+      "selection": 36
+    },
+    {
+      "alpha": 1561632768,
+      "beta": 3289866240,
+      "first_empty_bit": 24,
+      "selection": 37
+    },
+    {
+      "alpha": 584368128,
+      "beta": 4161314816,
+      "first_empty_bit": 13,
+      "selection": 38
+    },
+    {
+      "alpha": 4153729024,
+      "beta": 3963453440,
+      "first_empty_bit": 13,
+      "selection": 39
+    },
+    {
+      "alpha": 2002059264,
+      "beta": 538828800,
+      "first_empty_bit": 13,
+      "selection": 40
+    },
+    {
+      "alpha": 2719293440,
+      "beta": 875085824,
+      "first_empty_bit": 13,
+      "selection": 41
+    },
+    {
+      "alpha": 3721740288,
+      "beta": 137822208,
+      "first_empty_bit": 14,
+      "selection": 42
+    },
+    {
+      "alpha": 144007168,
+      "beta": 469901312,
+      "first_empty_bit": 16,
+      "selection": 43
+    },
+    {
+      "alpha": 576028672,
+      "beta": 1879605248,
+      "first_empty_bit": 18,
+      "selection": 44
+    },
+    {
+      "alpha": 4145389568,
+      "beta": 1681760256,
+      "first_empty_bit": 24,
+      "selection": 45
+    },
+    {
+      "alpha": 2295709696,
+      "beta": 1478647808,
+      "first_empty_bit": 13,
+      "selection": 46
+    },
+    {
+      "alpha": 1570103296,
+      "beta": 1276592128,
+      "first_empty_bit": 13,
+      "selection": 47
+    },
+    {
+      "alpha": 872284160,
+      "beta": 3222069248,
+      "first_empty_bit": 13,
+      "selection": 48
+    },
+    {
+      "alpha": 3871219712,
+      "beta": 3560554496,
+      "first_empty_bit": 13,
+      "selection": 49
+    },
+    {
+      "alpha": 2575187968,
+      "beta": 3894804480,
+      "first_empty_bit": 14,
+      "selection": 50
+    },
+    {
+      "alpha": 1279156224,
+      "beta": 4229111808,
+      "first_empty_bit": 16,
+      "selection": 51
+    },
+    {
+      "alpha": 1727954944,
+      "beta": 2417590272,
+      "first_empty_bit": 25,
+      "selection": 52
+    },
+    {
+      "alpha": 3015614464,
+      "beta": 2217517056,
+      "first_empty_bit": 17,
+      "selection": 53
+    },
+    {
+      "alpha": 3430858752,
+      "beta": 3090374656,
+      "first_empty_bit": 13,
+      "selection": 54
+    },
+    {
+      "alpha": 423550976,
+      "beta": 2886090752,
+      "first_empty_bit": 13,
+      "selection": 55
+    },
+    {
+      "alpha": 2583625728,
+      "beta": 1613111296,
+      "first_empty_bit": 13,
+      "selection": 56
+    },
+    {
+      "alpha": 1287593984,
+      "beta": 1947402240,
+      "first_empty_bit": 13,
+      "selection": 57
+    },
+    {
+      "alpha": 863977472,
+      "beta": 1208795136,
+      "first_empty_bit": 24,
+      "selection": 58
+    },
+    {
+      "alpha": 3862913024,
+      "beta": 1547296768,
+      "first_empty_bit": 25,
+      "selection": 59
+    },
+    {
+      "alpha": 3439296512,
+      "beta": 808665088,
+      "first_empty_bit": 14,
+      "selection": 60
+    },
+    {
+      "alpha": 431988736,
+      "beta": 604397568,
+      "first_empty_bit": 23,
+      "selection": 61
+    },
+    {
+      "alpha": 1719648256,
+      "beta": 404332544,
+      "first_empty_bit": 13,
+      "selection": 62
+    },
+    {
+      "alpha": 3007307776,
+      "beta": 204242944,
+      "first_empty_bit": 13,
+      "selection": 63
+    }
+  ],
+  "common_low_bits": 13,
+  "kernel_basis": [
+    3577749504,
+    2860531712,
+    1426096128,
+    2852192256,
+    4004118528,
+    3713269760
+  ],
+  "local_sharpness": {
+    "delta": 1237741568,
+    "h": 1054188897,
+    "scope": "one local word pair only; not an expanded message pair",
+    "sigma1_x": 3787629035,
+    "sigma1_y": 2549887467,
+    "x": 1561527158,
+    "y": 2799268726
+  },
+  "power2_boundary_pairs": [
+    [
+      2147483647,
+      2147483648
+    ],
+    [
+      4294967295,
+      0
+    ]
+  ],
+  "power2_interval_matches": [
+    {
+      "alpha": 4294967295,
+      "beta": 4194303,
+      "input_last": 31,
+      "k": 0,
+      "output_last": 21
+    }
+  ],
+  "projection_rank": 26,
+  "schema": "crypto3-sigma1-local-cancellation-v1",
+  "sigma1": {
+    "right_shift": 10,
+    "rotations": [
+      17,
+      19
+    ]
+  },
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "status": "candidate; independent written and finite verification recorded separately",
+  "support_bridges": [
+    {
+      "index": 0,
+      "support": [
+        2,
+        9,
+        10,
+        16,
+        23,
+        24,
+        30,
+        37,
+        38,
+        44,
+        51,
+        52,
+        58
+      ],
+      "u": 30
+    },
+    {
+      "index": 1,
+      "support": [
+        3,
+        10,
+        11,
+        17,
+        24,
+        25,
+        31,
+        38,
+        39,
+        45,
+        52,
+        53,
+        59
+      ],
+      "u": 31
+    },
+    {
+      "index": 2,
+      "support": [
+        4,
+        11,
+        12,
+        18,
+        25,
+        26,
+        32,
+        39,
+        40,
+        46,
+        53,
+        54,
+        60
+      ],
+      "u": 32
+    },
+    {
+      "index": 4,
+      "support": [
+        5,
+        12,
+        13,
+        19,
+        26,
+        27,
+        33,
+        40,
+        41,
+        47,
+        54,
+        55,
+        61
+      ],
+      "u": 33
+    },
+    {
+      "index": 8,
+      "support": [
+        1,
+        7,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        37,
+        43,
+        50,
+        51,
+        57
+      ],
+      "u": 29
+    },
+    {
+      "index": 9,
+      "support": [
+        1,
+        8,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        37,
+        43,
+        50,
+        51,
+        57
+      ],
+      "u": 29
+    }
+  ],
+  "word_bits": 32
+}

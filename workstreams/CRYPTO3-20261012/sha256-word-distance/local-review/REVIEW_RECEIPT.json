@@ -1,0 +1,386 @@
+{
+  "schema": "CRYPTO3-independent-local-review-receipt-v1",
+  "status": "PASS",
+  "review_kind": "independent AI reconstruction followed by exact-version comparison; not human peer review",
+  "python": "3.12.14",
+  "discoverer_sha256": {
+    "LOCAL_PROOF.md": "608752c21bbdc43ad5540a3b7f34ce1e2f55c0531df66864b68aa6c53943598b",
+    "build_local_certificate.py": "43e10b848c0b72981ec0944d64e4f3419248b1c3d2f13fceacf0d312aa1e9ffe",
+    "check_local.py": "9d10e42aacd2704afb927411fa1bba62a23cd2abe00e769868b974d3ae63a5dc",
+    "local_certificate.json": "fe8f32f4dfababf27438aad8470ef10671afb2c3ef21fc28e96284065cc7ed11",
+    "LOCAL_RUNS.json": "2140c80edfd479868729c8fcc9865b26082488d9894cbafedff2f257904d3517",
+    "supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "independent_sha256": {
+    "check_independent.py": "3273f3612a2295584563e24975c4eb507935ad98b4a1c28b0b0d7d3a4b5d3c9d",
+    "independent_certificate.json": "5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342",
+    "INDEPENDENT_PROOF.md": "31ac51c4ba5bcb867822a283ae003d9ed5b23c6e250fdd70b616d1407f4243bd",
+    "INDEPENDENT_RUN.json": "64d5e5379f5e44e691f8692e755a9b730ff91c78c7cf55c7bbf747e652edb6ee",
+    "RECONSTRUCTION.md": "2b9872a9cfdeefe4814e6c4bfde5a48c5f6616325f7be52161c4cb22d701adbb",
+    "compare_discoverer.py": "412195cb08d67856ca6427b681aeb4ea2dd5df2cc2b22e6920016938e4aedf06"
+  },
+  "common_nonzero_low13_masks": 63,
+  "complete_low13_alpha_beta_first_failure_agreement": true,
+  "failure_histogram": {
+    "13": 32,
+    "14": 8,
+    "16": 4,
+    "17": 3,
+    "18": 3,
+    "19": 2,
+    "21": 2,
+    "22": 2,
+    "23": 1,
+    "24": 3,
+    "25": 3
+  },
+  "complete_power2_interval_agreement": true,
+  "discoverer_witness_independently_recomputed": {
+    "x": "5d130376",
+    "y": "a6d97376",
+    "sigma1_x": "e1c2a1eb",
+    "sigma1_y": "97fc31eb",
+    "h_x": "3ed5a561",
+    "h_y": "3ed5a561",
+    "xor_mask": "fbca7000",
+    "additive_delta_y_minus_x": "49c67000",
+    "common_low_12": "376"
+  },
+  "boundary_sigma_deltas": [
+    "0000a001",
+    "ffc00001"
+  ],
+  "post_reconstruction_conditional_bridge_checks": [
+    {
+      "support_index": 0,
+      "u": 30,
+      "h_collision_word": 44,
+      "recurrences": [
+        {
+          "t": 37,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 37,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 30,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 44,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 44,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 37,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 46,
+          "terms": [
+            {
+              "kind": "g",
+              "index": 44,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 30,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 1,
+      "u": 31,
+      "h_collision_word": 45,
+      "recurrences": [
+        {
+          "t": 38,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 38,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 31,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 45,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 45,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 38,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 47,
+          "terms": [
+            {
+              "kind": "g",
+              "index": 45,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 31,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 2,
+      "u": 32,
+      "h_collision_word": 46,
+      "recurrences": [
+        {
+          "t": 39,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 39,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 32,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 46,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 46,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 39,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 48,
+          "terms": [
+            {
+              "kind": "g",
+              "index": 46,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 32,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 4,
+      "u": 33,
+      "h_collision_word": 47,
+      "recurrences": [
+        {
+          "t": 40,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 40,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 33,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 47,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 47,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 40,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 49,
+          "terms": [
+            {
+              "kind": "g",
+              "index": 47,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 33,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 8,
+      "u": 29,
+      "h_collision_word": 43,
+      "recurrences": [
+        {
+          "t": 36,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 43,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 43,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 45,
+          "terms": [
+            {
+              "kind": "g",
+              "index": 43,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 9,
+      "u": 29,
+      "h_collision_word": 43,
+      "recurrences": [
+        {
+          "t": 36,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 43,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 43,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 45,
+          "terms": [
+            {
+              "kind": "g",
+              "index": 43,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discoverer_checker_actual_rerun": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/40e57534c243/math-cr3/workstreams/CRYPTO3-20261012/sha256-word-distance/check_local.py",
+      "--negative"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.08125592499891354,
+    "stdout": "{\"actual_schedule_distance_lower_bound\": 13, \"carry_masks_rejected\": 63, \"exceptional_boundary_pairs\": 2, \"failure_histogram\": {\"13\": 32, \"14\": 8, \"16\": 4, \"17\": 3, \"18\": 3, \"19\": 2, \"21\": 2, \"22\": 2, \"23\": 1, \"24\": 3, \"25\": 3}, \"interval_masks\": 528, \"kernel_dimension\": 6, \"kernel_rank\": 26, \"limitation\": \"No actual 16-word message pair or complete 13-support exclusion is claimed.\", \"local_sharpness_delta\": 1237741568, \"negative_controls\": [{\"control\": \"wrong rotation\", \"rejection\": \"FIPS constants\"}, {\"control\": \"corrupt kernel basis\", \"rejection\": \"kernel membership\"}, {\"control\": \"omit carry mask\", \"rejection\": \"complete carry list\"}, {\"control\": \"fake carry rejection\", \"rejection\": \"carry obstruction\"}, {\"control\": \"wrong sigma image\", \"rejection\": \"carry mask\"}, {\"control\": \"omit interval exception\", \"rejection\": \"complete power2 masks\"}, {\"control\": \"damaged sharpness input\", \"rejection\": \"sharpness sigma values\"}, {\"control\": \"alter claimed sigma value\", \"rejection\": \"sharpness sigma values\"}, {\"control\": \"wrong recurrence index\", \"rejection\": \"support bridge coverage\"}, {\"control\": \"false global scope\", \"rejection\": \"sharpness scope\"}, {\"control\": \"damaged dependency\", \"rejection\": \"frozen support hash\"}], \"recurrence_identities\": 18, \"schedule_bridges\": 6, \"status\": \"PASS\"}\n",
+    "stderr": ""
+  },
+  "independent_additional_lemma": "Among all 255 nonzero low12 kernel masks, only fbca7000 survives the necessary carry obstruction.",
+  "limitations": [
+    "No new full-schedule distance bound or complete support exclusion.",
+    "The six bridge checks are conditional on the supplied exact supports; the old support classification and potential certificate were not replayed here.",
+    "No Lean compilation, external human peer review, or novelty claim.",
+    "Subsequent changes to any reviewed discoverer bytes require a new precise-version receipt."
+  ]
+}

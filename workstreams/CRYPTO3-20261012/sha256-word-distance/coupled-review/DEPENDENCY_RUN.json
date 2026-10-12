@@ -1,0 +1,1674 @@
+{
+  "status": "PASS",
+  "low12": {
+    "matrix_rows": 24,
+    "rank": 24,
+    "kernel_dimension": 8,
+    "independently_rebuilt_basis": [
+      "0040a000",
+      "00814000",
+      "040a1000",
+      "08142000",
+      "112ac000",
+      "22152000",
+      "40205000",
+      "80000000"
+    ],
+    "all_nonzero_masks_checked": 255,
+    "rejected_masks": 254,
+    "surviving_mask": "fbca7000",
+    "surviving_image": "763e9000",
+    "complete_supplied_table_matches": true,
+    "first_obstruction_histogram": {
+      "12": 128,
+      "13": 32,
+      "15": 16,
+      "19": 6,
+      "14": 16,
+      "16": 10,
+      "22": 4,
+      "21": 6,
+      "20": 4,
+      "23": 7,
+      "24": 7,
+      "17": 8,
+      "18": 6,
+      "25": 3,
+      "28": 1,
+      "none": 1
+    }
+  },
+  "signed_power_dependency": {
+    "input_intervals_checked": 528,
+    "same_start_interval_images": [
+      {
+        "k": 0,
+        "last": 31,
+        "image_last": 21,
+        "xor_mask": "ffffffff",
+        "sigma1_mask": "003fffff"
+      }
+    ],
+    "two_remaining_input_pairs": [
+      {
+        "x": "7fffffff",
+        "y": "80000000",
+        "h_x": "801faffe",
+        "h_y": "80205000"
+      },
+      {
+        "x": "ffffffff",
+        "y": "00000000",
+        "h_x": "003ffffe",
+        "h_y": "00000000"
+      }
+    ]
+  },
+  "bridges": {
+    "supports": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      9
+    ],
+    "original_recurrences_checked": 36,
+    "support5_pair_orientation": {
+      "p": "W'[8]",
+      "p_prime": "W[8]",
+      "q": "W[17]",
+      "q_prime": "W'[17]"
+    },
+    "all_active_D_coordinates_verified": true,
+    "rows": [
+      {
+        "support": 0,
+        "t": 37,
+        "full_equation_terms": [
+          [
+            "d",
+            37,
+            1
+          ],
+          [
+            "g",
+            35,
+            -1
+          ],
+          [
+            "d",
+            30,
+            -1
+          ],
+          [
+            "f",
+            22,
+            -1
+          ],
+          [
+            "d",
+            21,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            30,
+            -1
+          ],
+          [
+            "d",
+            37,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 0,
+        "t": 44,
+        "full_equation_terms": [
+          [
+            "d",
+            44,
+            1
+          ],
+          [
+            "g",
+            42,
+            -1
+          ],
+          [
+            "d",
+            37,
+            -1
+          ],
+          [
+            "f",
+            29,
+            -1
+          ],
+          [
+            "d",
+            28,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            37,
+            -1
+          ],
+          [
+            "d",
+            44,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 0,
+        "t": 46,
+        "full_equation_terms": [
+          [
+            "d",
+            46,
+            1
+          ],
+          [
+            "g",
+            44,
+            -1
+          ],
+          [
+            "d",
+            39,
+            -1
+          ],
+          [
+            "f",
+            31,
+            -1
+          ],
+          [
+            "d",
+            30,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            30,
+            -1
+          ],
+          [
+            "g",
+            44,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 0,
+        "t": 52,
+        "full_equation_terms": [
+          [
+            "d",
+            52,
+            1
+          ],
+          [
+            "g",
+            50,
+            -1
+          ],
+          [
+            "d",
+            45,
+            -1
+          ],
+          [
+            "f",
+            37,
+            -1
+          ],
+          [
+            "d",
+            36,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            52,
+            1
+          ],
+          [
+            "f",
+            37,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 0,
+        "t": 59,
+        "full_equation_terms": [
+          [
+            "d",
+            59,
+            1
+          ],
+          [
+            "g",
+            57,
+            -1
+          ],
+          [
+            "d",
+            52,
+            -1
+          ],
+          [
+            "f",
+            44,
+            -1
+          ],
+          [
+            "d",
+            43,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            52,
+            -1
+          ],
+          [
+            "f",
+            44,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 1,
+        "t": 38,
+        "full_equation_terms": [
+          [
+            "d",
+            38,
+            1
+          ],
+          [
+            "g",
+            36,
+            -1
+          ],
+          [
+            "d",
+            31,
+            -1
+          ],
+          [
+            "f",
+            23,
+            -1
+          ],
+          [
+            "d",
+            22,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            31,
+            -1
+          ],
+          [
+            "d",
+            38,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 1,
+        "t": 45,
+        "full_equation_terms": [
+          [
+            "d",
+            45,
+            1
+          ],
+          [
+            "g",
+            43,
+            -1
+          ],
+          [
+            "d",
+            38,
+            -1
+          ],
+          [
+            "f",
+            30,
+            -1
+          ],
+          [
+            "d",
+            29,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            38,
+            -1
+          ],
+          [
+            "d",
+            45,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 1,
+        "t": 47,
+        "full_equation_terms": [
+          [
+            "d",
+            47,
+            1
+          ],
+          [
+            "g",
+            45,
+            -1
+          ],
+          [
+            "d",
+            40,
+            -1
+          ],
+          [
+            "f",
+            32,
+            -1
+          ],
+          [
+            "d",
+            31,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            31,
+            -1
+          ],
+          [
+            "g",
+            45,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 1,
+        "t": 53,
+        "full_equation_terms": [
+          [
+            "d",
+            53,
+            1
+          ],
+          [
+            "g",
+            51,
+            -1
+          ],
+          [
+            "d",
+            46,
+            -1
+          ],
+          [
+            "f",
+            38,
+            -1
+          ],
+          [
+            "d",
+            37,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            53,
+            1
+          ],
+          [
+            "f",
+            38,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 1,
+        "t": 60,
+        "full_equation_terms": [
+          [
+            "d",
+            60,
+            1
+          ],
+          [
+            "g",
+            58,
+            -1
+          ],
+          [
+            "d",
+            53,
+            -1
+          ],
+          [
+            "f",
+            45,
+            -1
+          ],
+          [
+            "d",
+            44,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            53,
+            -1
+          ],
+          [
+            "f",
+            45,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 2,
+        "t": 39,
+        "full_equation_terms": [
+          [
+            "d",
+            39,
+            1
+          ],
+          [
+            "g",
+            37,
+            -1
+          ],
+          [
+            "d",
+            32,
+            -1
+          ],
+          [
+            "f",
+            24,
+            -1
+          ],
+          [
+            "d",
+            23,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            32,
+            -1
+          ],
+          [
+            "d",
+            39,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 2,
+        "t": 46,
+        "full_equation_terms": [
+          [
+            "d",
+            46,
+            1
+          ],
+          [
+            "g",
+            44,
+            -1
+          ],
+          [
+            "d",
+            39,
+            -1
+          ],
+          [
+            "f",
+            31,
+            -1
+          ],
+          [
+            "d",
+            30,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            39,
+            -1
+          ],
+          [
+            "d",
+            46,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 2,
+        "t": 48,
+        "full_equation_terms": [
+          [
+            "d",
+            48,
+            1
+          ],
+          [
+            "g",
+            46,
+            -1
+          ],
+          [
+            "d",
+            41,
+            -1
+          ],
+          [
+            "f",
+            33,
+            -1
+          ],
+          [
+            "d",
+            32,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            32,
+            -1
+          ],
+          [
+            "g",
+            46,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 2,
+        "t": 54,
+        "full_equation_terms": [
+          [
+            "d",
+            54,
+            1
+          ],
+          [
+            "g",
+            52,
+            -1
+          ],
+          [
+            "d",
+            47,
+            -1
+          ],
+          [
+            "f",
+            39,
+            -1
+          ],
+          [
+            "d",
+            38,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            54,
+            1
+          ],
+          [
+            "f",
+            39,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 2,
+        "t": 61,
+        "full_equation_terms": [
+          [
+            "d",
+            61,
+            1
+          ],
+          [
+            "g",
+            59,
+            -1
+          ],
+          [
+            "d",
+            54,
+            -1
+          ],
+          [
+            "f",
+            46,
+            -1
+          ],
+          [
+            "d",
+            45,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            54,
+            -1
+          ],
+          [
+            "f",
+            46,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 4,
+        "t": 40,
+        "full_equation_terms": [
+          [
+            "d",
+            40,
+            1
+          ],
+          [
+            "g",
+            38,
+            -1
+          ],
+          [
+            "d",
+            33,
+            -1
+          ],
+          [
+            "f",
+            25,
+            -1
+          ],
+          [
+            "d",
+            24,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            33,
+            -1
+          ],
+          [
+            "d",
+            40,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 4,
+        "t": 47,
+        "full_equation_terms": [
+          [
+            "d",
+            47,
+            1
+          ],
+          [
+            "g",
+            45,
+            -1
+          ],
+          [
+            "d",
+            40,
+            -1
+          ],
+          [
+            "f",
+            32,
+            -1
+          ],
+          [
+            "d",
+            31,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            40,
+            -1
+          ],
+          [
+            "d",
+            47,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 4,
+        "t": 49,
+        "full_equation_terms": [
+          [
+            "d",
+            49,
+            1
+          ],
+          [
+            "g",
+            47,
+            -1
+          ],
+          [
+            "d",
+            42,
+            -1
+          ],
+          [
+            "f",
+            34,
+            -1
+          ],
+          [
+            "d",
+            33,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            33,
+            -1
+          ],
+          [
+            "g",
+            47,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 4,
+        "t": 55,
+        "full_equation_terms": [
+          [
+            "d",
+            55,
+            1
+          ],
+          [
+            "g",
+            53,
+            -1
+          ],
+          [
+            "d",
+            48,
+            -1
+          ],
+          [
+            "f",
+            40,
+            -1
+          ],
+          [
+            "d",
+            39,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            55,
+            1
+          ],
+          [
+            "f",
+            40,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 4,
+        "t": 62,
+        "full_equation_terms": [
+          [
+            "d",
+            62,
+            1
+          ],
+          [
+            "g",
+            60,
+            -1
+          ],
+          [
+            "d",
+            55,
+            -1
+          ],
+          [
+            "f",
+            47,
+            -1
+          ],
+          [
+            "d",
+            46,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            55,
+            -1
+          ],
+          [
+            "f",
+            47,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 8,
+        "t": 36,
+        "full_equation_terms": [
+          [
+            "d",
+            36,
+            1
+          ],
+          [
+            "g",
+            34,
+            -1
+          ],
+          [
+            "d",
+            29,
+            -1
+          ],
+          [
+            "f",
+            21,
+            -1
+          ],
+          [
+            "d",
+            20,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            29,
+            -1
+          ],
+          [
+            "d",
+            36,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 8,
+        "t": 43,
+        "full_equation_terms": [
+          [
+            "d",
+            43,
+            1
+          ],
+          [
+            "g",
+            41,
+            -1
+          ],
+          [
+            "d",
+            36,
+            -1
+          ],
+          [
+            "f",
+            28,
+            -1
+          ],
+          [
+            "d",
+            27,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            36,
+            -1
+          ],
+          [
+            "d",
+            43,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 8,
+        "t": 45,
+        "full_equation_terms": [
+          [
+            "d",
+            45,
+            1
+          ],
+          [
+            "g",
+            43,
+            -1
+          ],
+          [
+            "d",
+            38,
+            -1
+          ],
+          [
+            "f",
+            30,
+            -1
+          ],
+          [
+            "d",
+            29,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            29,
+            -1
+          ],
+          [
+            "g",
+            43,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 8,
+        "t": 51,
+        "full_equation_terms": [
+          [
+            "d",
+            51,
+            1
+          ],
+          [
+            "g",
+            49,
+            -1
+          ],
+          [
+            "d",
+            44,
+            -1
+          ],
+          [
+            "f",
+            36,
+            -1
+          ],
+          [
+            "d",
+            35,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            51,
+            1
+          ],
+          [
+            "f",
+            36,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 8,
+        "t": 58,
+        "full_equation_terms": [
+          [
+            "d",
+            58,
+            1
+          ],
+          [
+            "g",
+            56,
+            -1
+          ],
+          [
+            "d",
+            51,
+            -1
+          ],
+          [
+            "f",
+            43,
+            -1
+          ],
+          [
+            "d",
+            42,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            51,
+            -1
+          ],
+          [
+            "f",
+            43,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 9,
+        "t": 36,
+        "full_equation_terms": [
+          [
+            "d",
+            36,
+            1
+          ],
+          [
+            "g",
+            34,
+            -1
+          ],
+          [
+            "d",
+            29,
+            -1
+          ],
+          [
+            "f",
+            21,
+            -1
+          ],
+          [
+            "d",
+            20,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            29,
+            -1
+          ],
+          [
+            "d",
+            36,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 9,
+        "t": 43,
+        "full_equation_terms": [
+          [
+            "d",
+            43,
+            1
+          ],
+          [
+            "g",
+            41,
+            -1
+          ],
+          [
+            "d",
+            36,
+            -1
+          ],
+          [
+            "f",
+            28,
+            -1
+          ],
+          [
+            "d",
+            27,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            36,
+            -1
+          ],
+          [
+            "d",
+            43,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 9,
+        "t": 45,
+        "full_equation_terms": [
+          [
+            "d",
+            45,
+            1
+          ],
+          [
+            "g",
+            43,
+            -1
+          ],
+          [
+            "d",
+            38,
+            -1
+          ],
+          [
+            "f",
+            30,
+            -1
+          ],
+          [
+            "d",
+            29,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            29,
+            -1
+          ],
+          [
+            "g",
+            43,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 9,
+        "t": 51,
+        "full_equation_terms": [
+          [
+            "d",
+            51,
+            1
+          ],
+          [
+            "g",
+            49,
+            -1
+          ],
+          [
+            "d",
+            44,
+            -1
+          ],
+          [
+            "f",
+            36,
+            -1
+          ],
+          [
+            "d",
+            35,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            51,
+            1
+          ],
+          [
+            "f",
+            36,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 9,
+        "t": 58,
+        "full_equation_terms": [
+          [
+            "d",
+            58,
+            1
+          ],
+          [
+            "g",
+            56,
+            -1
+          ],
+          [
+            "d",
+            51,
+            -1
+          ],
+          [
+            "f",
+            43,
+            -1
+          ],
+          [
+            "d",
+            42,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            51,
+            -1
+          ],
+          [
+            "f",
+            43,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 5,
+        "t": 24,
+        "full_equation_terms": [
+          [
+            "d",
+            24,
+            1
+          ],
+          [
+            "g",
+            22,
+            -1
+          ],
+          [
+            "d",
+            17,
+            -1
+          ],
+          [
+            "f",
+            9,
+            -1
+          ],
+          [
+            "d",
+            8,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            8,
+            -1
+          ],
+          [
+            "d",
+            17,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 5,
+        "t": 19,
+        "full_equation_terms": [
+          [
+            "d",
+            19,
+            1
+          ],
+          [
+            "g",
+            17,
+            -1
+          ],
+          [
+            "d",
+            12,
+            -1
+          ],
+          [
+            "f",
+            4,
+            -1
+          ],
+          [
+            "d",
+            3,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            19,
+            1
+          ],
+          [
+            "g",
+            17,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 5,
+        "t": 26,
+        "full_equation_terms": [
+          [
+            "d",
+            26,
+            1
+          ],
+          [
+            "g",
+            24,
+            -1
+          ],
+          [
+            "d",
+            19,
+            -1
+          ],
+          [
+            "f",
+            11,
+            -1
+          ],
+          [
+            "d",
+            10,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            19,
+            -1
+          ],
+          [
+            "d",
+            26,
+            1
+          ]
+        ]
+      },
+      {
+        "support": 5,
+        "t": 33,
+        "full_equation_terms": [
+          [
+            "d",
+            33,
+            1
+          ],
+          [
+            "g",
+            31,
+            -1
+          ],
+          [
+            "d",
+            26,
+            -1
+          ],
+          [
+            "f",
+            18,
+            -1
+          ],
+          [
+            "d",
+            17,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            17,
+            -1
+          ],
+          [
+            "d",
+            26,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 5,
+        "t": 23,
+        "full_equation_terms": [
+          [
+            "d",
+            23,
+            1
+          ],
+          [
+            "g",
+            21,
+            -1
+          ],
+          [
+            "d",
+            16,
+            -1
+          ],
+          [
+            "f",
+            8,
+            -1
+          ],
+          [
+            "d",
+            7,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            16,
+            -1
+          ],
+          [
+            "f",
+            8,
+            -1
+          ]
+        ]
+      },
+      {
+        "support": 5,
+        "t": 32,
+        "full_equation_terms": [
+          [
+            "d",
+            32,
+            1
+          ],
+          [
+            "g",
+            30,
+            -1
+          ],
+          [
+            "d",
+            25,
+            -1
+          ],
+          [
+            "f",
+            17,
+            -1
+          ],
+          [
+            "d",
+            16,
+            -1
+          ]
+        ],
+        "surviving_terms": [
+          [
+            "d",
+            16,
+            -1
+          ],
+          [
+            "f",
+            17,
+            -1
+          ]
+        ]
+      }
+    ]
+  },
+  "negative_controls": [
+    {
+      "case": "missing_mask_case",
+      "rejected": true
+    },
+    {
+      "case": "wrong_obstruction_bit",
+      "rejected": true
+    },
+    {
+      "case": "wrong_kernel_basis",
+      "rejected": true
+    },
+    {
+      "case": "removed_surviving_mask",
+      "rejected": true
+    },
+    {
+      "case": "removed_active_D_coordinate",
+      "rejected": true
+    },
+    {
+      "case": "reverse_input_but_not_sigma",
+      "rejected": true
+    },
+    {
+      "case": "reverse_sigma_but_not_input",
+      "rejected": true
+    }
+  ],
+  "source_hashes": {
+    "local-review/independent_certificate.json": "5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342",
+    "local-review/INDEPENDENT_PROOF.md": "31ac51c4ba5bcb867822a283ae003d9ed5b23c6e250fdd70b616d1407f4243bd",
+    "supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "coupled-boundary/SUPPORT5.md": "38bb2204f2ae853e4d4d0ba20f71e5d013bc67012a00713c9ca14135497037ab",
+    "coupled-boundary/check_support5.py": "aacbef579e3101c11ae7b251550a90c5d5d757a69258579891e742c41c205917"
+  },
+  "prior_checkers_imported_or_executed": false
+}

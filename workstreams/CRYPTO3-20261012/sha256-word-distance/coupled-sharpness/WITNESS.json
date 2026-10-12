@@ -1,0 +1,32 @@
+{
+  "words": {
+    "p": "0019f0ed",
+    "pp": "973448ed",
+    "q": "dff7f75f",
+    "qp": "77124f5f"
+  },
+  "outputs": {
+    "p": {
+      "f": "a6384dfa",
+      "g": "c66b2673"
+    },
+    "pp": {
+      "f": "dbf38441",
+      "g": "ad4eb46e"
+    },
+    "q": {
+      "f": "5996e6f8",
+      "g": "0573e9f8"
+    },
+    "qp": {
+      "f": "23dbb0b1",
+      "g": "6e5991f8"
+    }
+  },
+  "D": "971a5800",
+  "Fp": "35bb3647",
+  "Fq": "ca44c9b9",
+  "Gq": "68e5a800",
+  "valuation": 11,
+  "scope": "four-word local witness, not a message-pair witness"
+}

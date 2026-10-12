@@ -1,0 +1,56 @@
+{
+  "schema": "crypto3-coupled-root-verification-v1",
+  "started_utc": "2026-10-12T09:30:01.310882+00:00",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check_bridges.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.03828730900022492,
+      "stdout": "{\"negative_controls\": [{\"case\": \"omit support\", \"reason\": \"coverage\", \"rejected\": true}, {\"case\": \"wrong shared pair\", \"reason\": \"coordinates\", \"rejected\": true}, {\"case\": \"wrong sigma0 cancellation sign\", \"reason\": \"certificate equation\", \"rejected\": true}, {\"case\": \"invalid recurrence boundary\", \"reason\": \"equation locations\", \"rejected\": true}, {\"case\": \"alter frozen support bytes\", \"reason\": \"support source hash\", \"rejected\": true}], \"recurrences\": 30, \"status\": \"PASS\", \"supports\": 6}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check_drup.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.320005718000175,
+      "stdout": "{\"checked_rup_additions\": 19460, \"cnf_sha256\": \"f7baab8106897f1359fe20e69ac350a088f486b47260dc0825a4f1ce3c162262\", \"derived_empty_clause\": true, \"ignored_deletions\": 10328, \"input_clauses\": 4939, \"proof_sha256\": \"223d0c90cd7d7bf3ee85a290371828c27974691c348fb93fe8e88aacebe4c8f7\", \"seconds\": 8.285328972999196, \"status\": \"PASS\", \"variables\": 1423}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check_support5.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.029970745999889914,
+      "stdout": "{\"negative_controls\": [{\"case\": \"bad support bytes\", \"reason\": \"source pin\", \"rejected\": true}, {\"case\": \"only input reversed\", \"reason\": \"both derivatives reverse\", \"rejected\": true}, {\"case\": \"only sigma reversed\", \"reason\": \"both derivatives reverse\", \"rejected\": true}, {\"case\": \"missing early equation\", \"reason\": \"equation coverage\", \"rejected\": true}], \"recurrences\": 6, \"status\": \"PASS\", \"support\": 5}\n",
+      "stderr": "",
+      "recorded_utc": "2026-10-12T09:34:39.729246+00:00"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check_control.py",
+        "--negative"
+      ],
+      "started_utc": "2026-10-12T09:38:33.792991+00:00",
+      "elapsed_seconds": 0.03098680999937642,
+      "exit_code": 0,
+      "stdout": "{\"full_schedule_claimed\": false, \"local_positive_control\": {\"D\": \"887b6c5b\", \"input_xor\": \"889b945b\"}, \"negative_controls\": [{\"case\": \"damaged input\", \"reason\": \"equal nonzero input differences\", \"rejected\": true}, {\"case\": \"damaged sigma output\", \"reason\": \"recorded Gq_hex\", \"rejected\": true}, {\"case\": \"wrong XOR scope\", \"reason\": \"recorded q_xor_q_prime_hex\", \"rejected\": true}, {\"case\": \"wrong rotation\", \"reason\": \"standard sigma1 constants\", \"rejected\": true}], \"status\": \"PASS\"}\n",
+      "stderr": ""
+    }
+  ]
+}

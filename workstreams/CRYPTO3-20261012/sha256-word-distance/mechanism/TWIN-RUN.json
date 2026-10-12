@@ -1,0 +1,16 @@
+{
+  "delta": 4159148176,
+  "fixed_delta": null,
+  "scope": "four independent words; no message/base recurrence",
+  "seconds": 2.707265646999076,
+  "source_sha256": "56260d6dd117b74d217a365290e4eb92c961e1bcaa3c480f27033e39f43c030b",
+  "status": "sat",
+  "timeout_ms": 10000,
+  "words": {
+    "x": 3691494707,
+    "xp": 3555675587,
+    "y": 3756489747,
+    "yp": 3620670627
+  },
+  "z3": "4.15.3"
+}

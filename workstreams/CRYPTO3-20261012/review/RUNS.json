@@ -1,0 +1,36 @@
+{
+  "schema": "CRYPTO3-independent-review-runs-v1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "runs": [
+    {
+      "script": "small_checks.py",
+      "started_utc": "2026-10-12T08:54:01.890128+00:00",
+      "elapsed_seconds": 0.03309,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_file": "small_checks.json",
+      "stdout_sha256": "5c5cbb62d7ca19ac28c736648808092fdaf9360e7f45809bd5e17900d014b453"
+    },
+    {
+      "script": "audit_frozen.py",
+      "started_utc": "2026-10-12T08:54:01.923293+00:00",
+      "elapsed_seconds": 0.055401,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_file": "superseded by final audit_frozen.json; digest retained",
+      "stdout_sha256": "4a3e6e68d4577b87f1e544b2880f54b266755f7fda957dfe598bef943d867400"
+    },
+    {
+      "script": "audit_frozen.py",
+      "purpose": "Bind inspected snapshot bytes to exact Git commit blobs",
+      "started_utc": "2026-10-12T08:55:26.897217+00:00",
+      "elapsed_seconds": 0.063441,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_file": "audit_frozen.json",
+      "stdout_sha256": "305088752e082c18ba5238784fa48b0dc7297f1a326732645b844f95dcd47bb2"
+    }
+  ],
+  "dependencies": "Python standard library only; no solver or Lean compilation"
+}

@@ -1,0 +1,18 @@
+{
+  "variables": 1423,
+  "clauses": 4939,
+  "cnf_sha256": "f7baab8106897f1359fe20e69ac350a088f486b47260dc0825a4f1ce3c162262",
+  "solver": "Glucose3",
+  "pysat": "1.9.dev15",
+  "conflict_budget": 200000,
+  "answer": "False",
+  "seconds": 0.2649271789996419,
+  "statistics": {
+    "restarts": 53,
+    "conflicts": 19460,
+    "decisions": 32291,
+    "propagations": 1223184
+  },
+  "proof_sha256": "223d0c90cd7d7bf3ee85a290371828c27974691c348fb93fe8e88aacebe4c8f7",
+  "proof_lines": 29788
+}

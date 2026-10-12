@@ -1,0 +1,13 @@
+{
+  "checker_sha256": "dbb3b7f6f523696dc6be3e239d720846e2942b2af2c4fe9d8ef8658f9e42165a",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/active-pair-review/check_interfaces.py",
+    "--record",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/active-pair-review/INDEPENDENT_RUN.json"
+  ],
+  "exit_code": 0,
+  "result_record": "INDEPENDENT_RUN.json",
+  "stderr": "",
+  "stdout_sha256": "7e951e4ac3b5e26c5eb73ef4895be2e35c9daa79ecd98ff510db0d9159077001"
+}

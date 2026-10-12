@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/local-review/check_independent.py",
+    "--emit",
+    "--selftest"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.1301941789988632,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"python\": \"3.12.14\",\n  \"low13_nonzero_masks\": 63,\n  \"low12_nonzero_masks\": 255,\n  \"low12_only_surviving_mask\": [\n    \"fbca7000\"\n  ],\n  \"power_of_two_intervals\": 528,\n  \"boundary_witness\": {\n    \"x\": \"cd027f2a\",\n    \"y\": \"36c80f2a\",\n    \"sigma1_x\": \"70437fbe\",\n    \"sigma1_y\": \"067defbe\",\n    \"h_x\": \"3d45fee8\",\n    \"h_y\": \"3d45fee8\",\n    \"xor_mask\": \"fbca7000\",\n    \"additive_delta_y_minus_x\": \"69c59000\",\n    \"common_low_12\": \"f2a\"\n  },\n  \"negative_controls\": [\n    {\n      \"case\": \"wrong_sigma_rotation\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"damaged_kernel_basis\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"missing_low13_case\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"false_obstruction_bit\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"falsely_injective_mod_4096\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"damaged_input_word\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"tampered_sigma_word\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"missing_exceptional_interval\",\n      \"rejected\": true\n    }\n  ],\n  \"checker_sha256\": \"3273f3612a2295584563e24975c4eb507935ad98b4a1c28b0b0d7d3a4b5d3c9d\",\n  \"certificate_sha256\": \"5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342\",\n  \"proof_scope\": \"local h map only; no new full-schedule distance bound\",\n  \"formalization\": \"not Lean-formalized\"\n}\n",
+  "stderr": ""
+}

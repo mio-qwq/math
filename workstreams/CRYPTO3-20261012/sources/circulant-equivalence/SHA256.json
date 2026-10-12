@@ -1,0 +1,8 @@
+{
+  "schema": "sha256-manifest-v1",
+  "scope": "Review and exact source/provenance metadata; excludes itself",
+  "files": {
+    "REVIEW.md": "8139ac018661e343abb5b6bec25aa322db756b09fb3d9df88f85af16959eac7d",
+    "SOURCES.json": "ba5971f98dcb8c6b39b047bb420417654ef79e3cab30a56abfc42385a336a1aa"
+  }
+}

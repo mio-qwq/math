@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/valuation-review/compare_valuation.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.07172108700069657,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"receipt_sha256\": \"a4c0b8db046a330a966cd8eb63a9ff39a0c7596ea9e0313adb82fea76ede3cc2\",\n  \"reviewed_proof_sha256\": \"1edca147825bae48618e56d65730b5cf62ab7ebf50faf085f9226f5f1d95c574\",\n  \"author_checker_exit_code\": 0,\n  \"author_gap_cases\": 10,\n  \"independent_gap_cases\": 10,\n  \"boundary_witnesses_directly_verified\": 13,\n  \"scope\": \"For each exact support 6,7,12,13, the stated nonzero common difference D satisfies v2(D)<=20.\"\n}\n",
+  "stderr": ""
+}

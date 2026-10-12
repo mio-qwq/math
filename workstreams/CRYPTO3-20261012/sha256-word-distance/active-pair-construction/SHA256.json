@@ -1,0 +1,19 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "ANALYSIS.json": "ea946bf374e0bc1401e4b4e910bfc10f619d2ce34388f8c085b1846c23f93eb0",
+    "FIXED-MASK-RUN.json": "5d05c6080f6eb817bde8dedc1f18c808de26710f84cb2934994308ac57820d52",
+    "MECHANISM.md": "253c7fe07553775c587f80c98a46d6afdd28b9b26d0c16ecf149d0e7bc7c18aa",
+    "PROOF.md": "3c1423e3bc45e926d506017a512a6ee266d37dd8c338575612a1a0559f9365eb",
+    "README.md": "79b3e9676791bfaeb9b80a790e6bfb46e8e63b5d3a67f2cab33cad2bbf309aff",
+    "RECEIPT.json": "89270b3c2b6ee150632177531fdd816ba0d32bf3215030cd80095890b6263aa0",
+    "RUNS.json": "330ab4adc3d7b4c53912b9aca50788e4f880af50d7bfc4768f596c0821c0565c",
+    "VERIFICATION.json": "e98067762862041a5880c7f99a788dc33a7dd2eb94bb0c6f71ca686c7a573e03",
+    "analyze.py": "0975e124d2e5ab9f84dfdde2feaf89a2953db4734b6cb3afe65dfaab71947c0b",
+    "fixed_mask_probe.py": "2262c5b6a98018d30388fcf507de5eb0963d15a4dbfaa29b4e3c3391c958f7c2",
+    "provenance.json": "03997076310f7469543aaf5e711bb4e7be0f19f7f4dc3711f7e8f1e34c106145",
+    "reproduce.py": "589f5f529ca48ff41a86477d4d47a264548f21c52865719715a42307ec03b66f",
+    "verify.py": "0db2d1d09fabc5261d955fbc42e96dc6dd387938e4c328cc9aa53605679930be"
+  },
+  "schema": "sha256-file-manifest-v1"
+}

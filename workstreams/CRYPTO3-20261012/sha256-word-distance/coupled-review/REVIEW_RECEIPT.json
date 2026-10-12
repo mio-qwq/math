@@ -1,0 +1,115 @@
+{
+  "schema": "independent-coupled-boundary-review-v1",
+  "completed_utc": "2026-10-12T09:45:37.200647+00:00",
+  "verdict": "PASS for the exact frozen local theorem and seven conditional schedule-support applications",
+  "independence": {
+    "independent_word_encoding_before_source_comparison": true,
+    "prior_claimed_UNSAT_result_known": true,
+    "reconstruction_freeze_sha256": "516d59b6f1445f540fbde75ba07d388184c4cce55d8ceea7d7754b734e74ca4c",
+    "discoverer_programs_imported_or_executed": false,
+    "different_CNF_gate_templates": true,
+    "different_RUP_algorithm": "sequential explicit hints; no watch lists"
+  },
+  "source_files_relative_to_sha256_word_distance": {
+    "coupled-boundary/PROOF.md": "36dd1c96de0aef7572a4e3973480a989de5d5b50b530a95fde14f7b840e0acc6",
+    "coupled-boundary/SUPPORT5.md": "38bb2204f2ae853e4d4d0ba20f71e5d013bc67012a00713c9ca14135497037ab",
+    "coupled-boundary/boundary.cnf": "f7baab8106897f1359fe20e69ac350a088f486b47260dc0825a4f1ce3c162262",
+    "coupled-boundary/boundary.drup": "223d0c90cd7d7bf3ee85a290371828c27974691c348fb93fe8e88aacebe4c8f7",
+    "coupled-boundary/boundary.rup.jsonl": "cd1845cdde5fca010b4b8557bcb27947eb5aef50b45856619cce7d54608540c5",
+    "coupled-boundary/circuit.json": "9773b570ac90b76253d2fc8f3a5d0537f01411a6a300dcefa70d5fd4052e2834",
+    "coupled-boundary/build_cnf.py": "36c71809af7f30dcfe41ef75f917f06bfea4166c52c30c6ffff293631315e608",
+    "coupled-boundary/check_drup.py": "2c0adef2ecc2a282b83132d47f40add19c2afe81735d4aaee3c473869eb0a289",
+    "coupled-boundary/check_support5.py": "aacbef579e3101c11ae7b251550a90c5d5d757a69258579891e742c41c205917",
+    "local-review/INDEPENDENT_PROOF.md": "31ac51c4ba5bcb867822a283ae003d9ed5b23c6e250fdd70b616d1407f4243bd",
+    "local-review/independent_certificate.json": "5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342",
+    "supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "original_support_source": {
+    "git_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+    "path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/supports.json",
+    "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "exact_git_blob_match": true
+  },
+  "independent_CNF": {
+    "variables": 667,
+    "clauses": 4753,
+    "sha256": "4624329575e3cb0c187c521befb923e4296ba87eaa054c8b05caac7f37caa256",
+    "solver_cross_check_not_used_as_proof": true
+  },
+  "complete_proof_audit": {
+    "recorded_CNF_variables": 1423,
+    "recorded_CNF_clauses": 4939,
+    "recognized_gates": 1326,
+    "all_original_CNF_clauses_accounted_for": true,
+    "free_base_input_bits": 96,
+    "modular_adders": 6,
+    "word_equalities": 3,
+    "RUP_additions": 19460,
+    "unit_inferences": 2278157,
+    "ignored_deletions": 10328,
+    "all_additions_match_original_DRUP": true,
+    "derived_final_empty_clause": true,
+    "final_carry_unconstrained": true
+  },
+  "complete_dependency_audit": {
+    "low12_binary_rank": 24,
+    "low12_kernel_dimension": 8,
+    "nonzero_masks": 255,
+    "masks_rejected": 254,
+    "only_surviving_XOR_mask": "fbca7000",
+    "its_sigma1_image": "763e9000",
+    "complete_mask_table_matches": true,
+    "signed_power_input_intervals": 528,
+    "remaining_full_width_carry_pairs_checked": [
+      [
+        "7fffffff",
+        "80000000"
+      ],
+      [
+        "ffffffff",
+        "00000000"
+      ]
+    ],
+    "original_support_equations": 36,
+    "supports": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      9
+    ],
+    "support5_input_and_sigma_differences_both_reversed": true
+  },
+  "accepted_local_scope": "No arbitrary p,p_prime,q,q_prime over Z/(2^32) have common nonzero additive difference D divisible by 4096, sigma1(q_prime)-sigma1(q)=-D, and sigma0(p_prime)-sigma0(p)=-(sigma0(q_prime)-sigma0(q)).",
+  "accepted_schedule_scope": "For exact frozen supports 0,1,2,4,5,8,9, the explicitly identified common nonzero D satisfies v2(D)<=11. The existing signed-power exclusion also applies.",
+  "negative_controls": {
+    "mapping_rejections": 6,
+    "RUP_rejections": 6,
+    "dependency_rejections": 7,
+    "independent_encoding_component_controls": 3
+  },
+  "scope_limits": {
+    "complete_support_exclusions": 0,
+    "real_message_pair_constructed": false,
+    "actual_distance_lower_bound_raised": false,
+    "current_actual_distance_lower_bound": 13,
+    "old_735_node_classification_replayed": false,
+    "old_5308416_potential_inequalities_replayed": false,
+    "Lean_formalized": false,
+    "human_peer_review_claimed": false,
+    "main_integration_claimed": false,
+    "historical_priority_claimed": false
+  },
+  "review_artifacts": {
+    "REVIEW.md": "e5e5b075b1eb0f4166c898f2217056a0f78219084613c609d2a7276796ca6743",
+    "audit_mapping.py": "c613f56e51f71cd8001f770fadab56f38b531fe3d9fd4c80e6c60f256f2cb300",
+    "check_hints.py": "3bdefcbccaa794a8e5b525bd25d2f8cee6cdb9011d23eba7850cb187aba3c201",
+    "audit_dependencies.py": "bd2b6b2a6f3bc54fb7d3a3a35b0eeabfab7af43c0b2a8eb5127b56fe8c17d8e6",
+    "MAPPING_RUN.json": "45ab7546e5af1d89f9a539aa42d6d2c06c3835809b062595a6d0cb0eef3f4d00",
+    "RUP_RUN.json": "59ec021682ba1a01c3475fcb0c389288d7788c86d77b4b67ff37e131e18fe223",
+    "DEPENDENCY_RUN.json": "2f5ad49b064523c792bb4f31e003026880f03800f2e4c7dd65ae4843a4bb087e",
+    "RUNS.json": "8a3bd33782c446e6da2459c952745c1fdb53d968493f7aacd9696b16706e29bb"
+  }
+}

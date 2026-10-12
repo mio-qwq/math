@@ -1,0 +1,13 @@
+{
+  "schema": "crypto3-coupled-sharpness-check-v1",
+  "argv": [
+    "python",
+    "-B",
+    "check.py",
+    "--negative"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"D\": \"971a5800\", \"negative_controls\": 8, \"object\": {\"D\": \"971a5800\", \"Fp\": \"35bb3647\", \"Fq\": \"ca44c9b9\", \"Gq\": \"68e5a800\", \"outputs\": {\"p\": {\"f\": \"a6384dfa\", \"g\": \"c66b2673\"}, \"pp\": {\"f\": \"dbf38441\", \"g\": \"ad4eb46e\"}, \"q\": {\"f\": \"5996e6f8\", \"g\": \"0573e9f8\"}, \"qp\": {\"f\": \"23dbb0b1\", \"g\": \"6e5991f8\"}}, \"scope\": \"four-word local witness, not a message-pair witness\", \"valuation\": 11, \"words\": {\"p\": \"0019f0ed\", \"pp\": \"973448ed\", \"q\": \"dff7f75f\", \"qp\": \"77124f5f\"}}, \"status\": \"PASS\", \"valuation\": 11}\n",
+  "stderr": "",
+  "checker_sha256": "541f503379f1339e22178bfcaf24b068d158979e00272ad24565139b77edac2e"
+}

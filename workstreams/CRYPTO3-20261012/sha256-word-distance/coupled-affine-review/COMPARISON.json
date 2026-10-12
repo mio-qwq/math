@@ -1,0 +1,4025 @@
+{
+  "author_manifest_files_checked": 12,
+  "distinct_author_rows": 26,
+  "exact_author_hashes": {
+    "CERTIFICATE.json": "1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389",
+    "PROOF.md": "7b3fa0d70c8bb03401e8c1e0223d778650dc806a46fcfac477d2dbd1c753b22b",
+    "RUNS.json": "a6ef783ddf1ae1871fa96972bdb65ad6f7fc5fd3019707ff20861649f8c67f4d",
+    "SHA256.json": "9b0a2bd7fced9e3f8ccaf72ed5fc57a88db00ded403215e9d87d4a9c532bd13b",
+    "check.py": "71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d"
+  },
+  "necessary_mask_universes": {
+    "author_after_two_proved_fixed_bits": 131072,
+    "independent_before_author": 524288,
+    "same_final_masks": 132
+  },
+  "negative_controls": [
+    {
+      "name": "missing_mask_in_cover",
+      "rejected": true
+    },
+    {
+      "name": "flipped_template_rhs",
+      "rejected": true
+    },
+    {
+      "name": "missing_template_premise",
+      "rejected": true
+    },
+    {
+      "name": "reversed_word_bit_description",
+      "rejected": true
+    }
+  ],
+  "row_applications": [
+    {
+      "A": "1c3a7000",
+      "family": 0,
+      "independent_matrix_sha256": "eca2bf51a782231a1284ddeee6988b92aaabd4fb1de86545af8cd3f2b04e4bc8",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            42,
+            43,
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1c3af000",
+      "family": 0,
+      "independent_matrix_sha256": "1daa99b2c64d8e3327c11dfc710119452ac37934cfc3fcd4115a30aaa2dd7d4f",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            44,
+            45,
+            46
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1c4a7000",
+      "family": 0,
+      "independent_matrix_sha256": "ecdc07446bd7ed856ef8769d1f9f74f179ddfb5c307cd4a4f8d162c00cda1211",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1c5a7000",
+      "family": 0,
+      "independent_matrix_sha256": "bf24c0f88f524617926fc95fd054ec9d165ffb8212e354193fa25261e9681ecf",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            39,
+            40,
+            41
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1c5af000",
+      "family": 0,
+      "independent_matrix_sha256": "7240c1ab3be86ad8750e13cc070f9568d436e28cb533fa540759b84e46fa7934",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            41,
+            42,
+            43
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1c7a7000",
+      "family": 0,
+      "independent_matrix_sha256": "44ace07eda837e03dae7d14a57a2204b0c9a83c551ddc11e290b68ee05a29285",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            41,
+            42,
+            43
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1c7af000",
+      "family": 0,
+      "independent_matrix_sha256": "048fd6f80dfd8be24bc1478c333335eb3f6e97c0da1e0be1fa8184d94750e331",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            43,
+            44,
+            45
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "8439b000",
+      "family": 0,
+      "independent_matrix_sha256": "6dcd694140c122642b505ac3782cdd9f2dcbdf0de3b75e8a135e58af6a5f2a4c",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            48,
+            49,
+            50
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "843a7000",
+      "family": 0,
+      "independent_matrix_sha256": "8ae20f6316148336e610146e2fc0d4a648b72bbdbfcfe0f634d044c69b4975e2",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            42,
+            43,
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "844a7000",
+      "family": 0,
+      "independent_matrix_sha256": "8255fdd956fc311c5b6de638a8c9a97d7a0aecf9bd120052905582f9e3c6e5eb",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "8459b000",
+      "family": 0,
+      "independent_matrix_sha256": "8c30314e67626e37c8feda81ff827622515dd430cb3ee281ff033944eb8c8d88",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            45,
+            46,
+            47
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "845a7000",
+      "family": 0,
+      "independent_matrix_sha256": "f0d9b71bdbc496dcea57afd6e67e4163346f5867b2abb02bf36ba75f5443c0fe",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            39,
+            40,
+            41
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "8479b000",
+      "family": 0,
+      "independent_matrix_sha256": "1e50f8db042c8506474025433f82a45423baed27dfcc372b38fc19e03ced3f4e",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            47,
+            48,
+            49
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "847a7000",
+      "family": 0,
+      "independent_matrix_sha256": "ce5d5e33fe24961746a0cf6d32fc5bf2573f6519fe8398c281562b289c58dab1",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            41,
+            42,
+            43
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "9c3a7000",
+      "family": 0,
+      "independent_matrix_sha256": "857d629037c558f3a66aacdb87abd324a383a38e437802b94d3711f5d0880ad8",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            42,
+            43,
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "9c4a7000",
+      "family": 0,
+      "independent_matrix_sha256": "80db2ffd46b2b2bc9e2e299b3d48e3503703ee5511794abd99ee9cb6517da1b2",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "9c4ab000",
+      "family": 0,
+      "independent_matrix_sha256": "fa464ab85e3f806e08fe8a715286c81c2cee07303f9864d5b84efa8d8fbe7a5e",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            40,
+            41,
+            42
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "9c5a7000",
+      "family": 0,
+      "independent_matrix_sha256": "b8553f7c581ddac793afeb7582ef6c0affe3dd8578d5f82f939a39fd3a66bc25",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            39,
+            40,
+            41
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "9c7a7000",
+      "family": 0,
+      "independent_matrix_sha256": "f37365ac1c86e3b9bf8a3b9b484bbfa9a9358802dc41d340ab896595acd2c319",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            41,
+            42,
+            43
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "d84a7000",
+      "family": 0,
+      "independent_matrix_sha256": "922c76333da8f4e283a3e645f41129fd05b0f590f8d1ea9ba63c8cff5198d1c1",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "f84a7000",
+      "family": 0,
+      "independent_matrix_sha256": "bd0dec87c49cc49ebb8dd054300346116ea7d82c3a0449cde1192b13e5cfee67",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "fc4a7000",
+      "family": 0,
+      "independent_matrix_sha256": "0f04e7df91c3ec1e5686c8dcfddfb822f3964c81ea9bc905abf8e30cd2997f35",
+      "rows": [
+        {
+          "author_row_id": 16,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 17,
+          "independent_original_rows": [
+            18,
+            19,
+            20
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "293a1000",
+      "family": 1,
+      "independent_matrix_sha256": "6cc2958442ebfd877c65063cb0e6378314e77c42b647cc006ba5239df106ce23",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "294a1000",
+      "family": 1,
+      "independent_matrix_sha256": "804e26cfb4e74cc0a643234a9153c22a961d7a6635d9e3e8105e0d34947f520a",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "295a1000",
+      "family": 1,
+      "independent_matrix_sha256": "5517ad69c676e227b04a59f63010a0960409d40a8ce2952f70fc9467f4087490",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "297a1000",
+      "family": 1,
+      "independent_matrix_sha256": "b1c7eef2c66b1fea3fbab23a98f1bcb4905751973a8ba71ce7b9a1b34f5942f4",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "2f3a1000",
+      "family": 1,
+      "independent_matrix_sha256": "bacaab097be6bf81d380d89f6a841617956df83e923dc83a50a746ad937ef421",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "2f4a1000",
+      "family": 1,
+      "independent_matrix_sha256": "ed1bdce20c0ba7381f7a9cee7b19b94783bddff07da6b07723d2a6aba126338b",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "2f5a1000",
+      "family": 1,
+      "independent_matrix_sha256": "19f442bab0be4c5aa0ada780bd9214f04b6ec16d41074e06e11512dd4396bfb6",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "2f7a1000",
+      "family": 1,
+      "independent_matrix_sha256": "20f5780b71d145c2ab93d774356de12336169874ba0c4d1326da1e7f0541bf52",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "373a1000",
+      "family": 1,
+      "independent_matrix_sha256": "06478d5f8f6ce892076aa532c71aa5b473993a3aab4cc436f1085e825e026422",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "374a1000",
+      "family": 1,
+      "independent_matrix_sha256": "9dbbcecaa0017f11672caa187f540cdc33d8abbc8b04b6a2ab7f45737b10f3c4",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "375a1000",
+      "family": 1,
+      "independent_matrix_sha256": "b0da268babefe333841252a62178b68e5b0279445db3599aa734b9e93220c7f2",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "377a1000",
+      "family": 1,
+      "independent_matrix_sha256": "6ae74db018e500ade296bf3afcfcce3de0a88d1cfe30af8a84445d63f8ba55e7",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "483a1000",
+      "family": 1,
+      "independent_matrix_sha256": "25cf89960926ddf38c8f32356d4c986378fe49cefb52cd69a6940046119eced8",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "485a1000",
+      "family": 1,
+      "independent_matrix_sha256": "6e96395c8ad321943e24d02c06a9158132015c19f30e0f24bca71e117d9bd4bd",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "487a1000",
+      "family": 1,
+      "independent_matrix_sha256": "a376ba77bb2c325481f660af02e3869e552e10499c609fa386fe3d18c21c348c",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "48ba1000",
+      "family": 1,
+      "independent_matrix_sha256": "067dafdbf027f09c10fe6e40787ff99bbc1c665f4fdd69d9de650d779bac68c1",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "48da1000",
+      "family": 1,
+      "independent_matrix_sha256": "f8db0ec80f18b8e5f0f40f4f01818bb72e07bc15e27b945b34d4030989f996c4",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "48fa1000",
+      "family": 1,
+      "independent_matrix_sha256": "5b1b3a370f0c4299029a9cee141a449103ffd8eaf4643c99a27cad8696957fb5",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "493a1000",
+      "family": 1,
+      "independent_matrix_sha256": "2b3e8941420e323dca976d1f50aa49149a55592842af09f9ccdf70f2680f8eb2",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "495a1000",
+      "family": 1,
+      "independent_matrix_sha256": "d73cd341a2349fbedac15348196422e78ef598b4aa15ad69589ce9ba7518a923",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "497a1000",
+      "family": 1,
+      "independent_matrix_sha256": "11cc941ea23a8899b83e072e5d4801e4e0336007ab3553321373477dde1a62c5",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4b3a1000",
+      "family": 1,
+      "independent_matrix_sha256": "6dda1636d542b868bc579623183914ab8e21af891c78023eefe8f21370be85dc",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4b5a1000",
+      "family": 1,
+      "independent_matrix_sha256": "544eb190104ac8c37093ab647b590d3462740e6d7c12c3d5758b6c62115e8e0d",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4b7a1000",
+      "family": 1,
+      "independent_matrix_sha256": "2875fee1e1020a0b96f1e77a1c6129967c53edb7c2788098300a903d9b26ad36",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4f3a1000",
+      "family": 1,
+      "independent_matrix_sha256": "49c1c29e2507cff3f1d6cd0b48f4495bc180b9fb5a60ba3c7c7f27d01827da46",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4f5a1000",
+      "family": 1,
+      "independent_matrix_sha256": "587752280b8494ea1d01009c3cc8bd32a28433df0ce932a984e4708dec358050",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4f7a1000",
+      "family": 1,
+      "independent_matrix_sha256": "1bdcce3b19d5051f9f248f881677eeae948468d7cb882d37b7c311ccb6385cb2",
+      "rows": [
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 9,
+          "independent_original_rows": [
+            32,
+            33,
+            34
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "953bb000",
+      "family": 2,
+      "independent_matrix_sha256": "d3f871b708dbd0f4a966d6d903d5076e05940f66a6828fa5dfc8498d1b2bcc9e",
+      "rows": [
+        {
+          "author_row_id": 14,
+          "independent_original_rows": [
+            16,
+            17,
+            18
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 15,
+          "independent_original_rows": [
+            45,
+            46,
+            47
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "4939d000",
+      "family": 3,
+      "independent_matrix_sha256": "8b724728e7a8f22e1f8091c6692fda6a11808e6902b7b2a1a23e37b6dd38bc26",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "493a5000",
+      "family": 3,
+      "independent_matrix_sha256": "a61c0690c9b24acb42e2699a98016e89369f6187e5c06038de32e9b4b1dc1475",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "493ad000",
+      "family": 3,
+      "independent_matrix_sha256": "4166bb5ca3a70b844455b0e1377a6a0874681e2c246ca5f6aef4018b1c8a5efd",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "493bd000",
+      "family": 3,
+      "independent_matrix_sha256": "4ed27eb765061b37bfbd10b463c822030da746715ffeed3c9d9d6156c40b7537",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4949d000",
+      "family": 3,
+      "independent_matrix_sha256": "f0c3de14536eeb545e2d8acb93a5f2a673baf2c3a2368d7a953f8b862ae7b8d7",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "494ad000",
+      "family": 3,
+      "independent_matrix_sha256": "8bad3f77aeb169f8843d82d392a84e0e79ebe3a8d10da221429d43374004fc7b",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "494bd000",
+      "family": 3,
+      "independent_matrix_sha256": "cb5c5aa840a5ab1770f2c1c75d0702e318b7a390756717afc8b6e6397813783f",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4959d000",
+      "family": 3,
+      "independent_matrix_sha256": "83ad17b3daca284388eab36611a0752c2f8c543fc880cef547801d96d7b6c698",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "495a5000",
+      "family": 3,
+      "independent_matrix_sha256": "55dd07f38611a475e48f1a2ac3ff3219d6ce767519a300ccbd982f4573cef4a7",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "495ad000",
+      "family": 3,
+      "independent_matrix_sha256": "5d1ec0bcc5fe7e3ee9b27246bc5fda7ce3528bcc1010cad2f16166f1bb391b5f",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "495bd000",
+      "family": 3,
+      "independent_matrix_sha256": "aa2f682a884318e8ac753c413374c5ae2ff41248f21c48cfdace8a0d657cbc42",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4979d000",
+      "family": 3,
+      "independent_matrix_sha256": "96011ff23025449c536ef6ecd113002b4cbfdb110b84f2e86a25ef50e54e977a",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "497a5000",
+      "family": 3,
+      "independent_matrix_sha256": "64883f21adf03fcbd8bb27aae7ed160439a1224deb098dbdbc4d74164532cd36",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "497ad000",
+      "family": 3,
+      "independent_matrix_sha256": "42490f4adcca4cf54a244a31df591c56344d3b467e022154792d888fbcb59ef8",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "497bd000",
+      "family": 3,
+      "independent_matrix_sha256": "23d6f492c2183d675f0f9714e01eb47999dcbd76849b0ac56a1ddd0bfaae42a1",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4b3a5000",
+      "family": 3,
+      "independent_matrix_sha256": "78caa879836eef928e43560465205f23c37545dfa956c2cb81d083aea912e64d",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4b5a5000",
+      "family": 3,
+      "independent_matrix_sha256": "bff40a90e80f6f812852a804507c4691b63827432e8ca546b5a2617fa48a56e8",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4b7a5000",
+      "family": 3,
+      "independent_matrix_sha256": "1682a5aef031e9f11d185e58678abe736c062b4a0a118fcf057e8adfe6ed4f35",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4f3ad000",
+      "family": 3,
+      "independent_matrix_sha256": "3c66465ecaf6dc780851b9a45bfb15ddea394880370ed3e657aef8f43d0c20e1",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4f4ad000",
+      "family": 3,
+      "independent_matrix_sha256": "73c9c4b852054cb2a1d96b407811cd23433fd0187aa3e2c65b4bd4c2a7dc9075",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4f5ad000",
+      "family": 3,
+      "independent_matrix_sha256": "b5f28004a32de60a464501c077156a01e95a07a8446e8014688b3021e846a0f2",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "4f7ad000",
+      "family": 3,
+      "independent_matrix_sha256": "1cbc270e1bbda7fab3a251a86987d1c8d21694599e4a5964178d285938326ef3",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "56b9d000",
+      "family": 3,
+      "independent_matrix_sha256": "20cd9d391c9d6646295efddad56e70802fd1eff793c04b8dcf390fc62156f431",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "56d9d000",
+      "family": 3,
+      "independent_matrix_sha256": "5eb36ce941194932d31666a9bae934acdabb483cc6fa600a403ed1b096dafbc4",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "56f9d000",
+      "family": 3,
+      "independent_matrix_sha256": "d6af82354bb8b4cfa4f80860fffd1e60247c9af679638aca4dbbf49abb1f20da",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5939d000",
+      "family": 3,
+      "independent_matrix_sha256": "5596e0316aa5bc6bac91e32732ee0114deafc0e4a5b5a79c3cbd079c3adea5b6",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "593bd000",
+      "family": 3,
+      "independent_matrix_sha256": "404830dd1dfbdbb06a4a414e96cd06d2b1535ef25188c94fb6f2dab2f867c931",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5949d000",
+      "family": 3,
+      "independent_matrix_sha256": "148c2ae9a1ff2d90c70d73735184cad14403964f554920968733c62a0507e284",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "594bd000",
+      "family": 3,
+      "independent_matrix_sha256": "aba524f0e3e1756a8bf328a55d5ae34ac5c0f5898a7639a7c313a38238e2b210",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5959d000",
+      "family": 3,
+      "independent_matrix_sha256": "bc3959ea9936ee90c29b0fb6577fac1e0c4afe4378c550879388d989858bd06c",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "595bd000",
+      "family": 3,
+      "independent_matrix_sha256": "0d465d16fcf53563c00f25c8d2f97e3c1e9f619f0e8e245090a3f8ba4ff122e9",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5979d000",
+      "family": 3,
+      "independent_matrix_sha256": "29cc654531a4b3aa399020cea1309c9f72a56820bea922f2c7a7a4279a723034",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "597bd000",
+      "family": 3,
+      "independent_matrix_sha256": "8e32d6726ec4dcc3f1a97521d2102d8cab27f2da2073bd71b30f4b89df7a7330",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "953a5000",
+      "family": 3,
+      "independent_matrix_sha256": "e81527b8d505d1946b9f9c896014b04201dc31b6e05492aadb42b4fa5cab0281",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "954a5000",
+      "family": 3,
+      "independent_matrix_sha256": "8ad06c6db336335a8fe1ac8d434735f3b6eddc7a7226bb94f2727cd4d1aa09c7",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "955a5000",
+      "family": 3,
+      "independent_matrix_sha256": "c33b95930a6ff96096c7d24439e141bcbe70b8f288ba7949889b881618768118",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "957a5000",
+      "family": 3,
+      "independent_matrix_sha256": "a3511feda44cf46ba9b30c79d4bd687866c0480883a5cb64b135703e4f6b6ca9",
+      "rows": [
+        {
+          "author_row_id": 1,
+          "independent_original_rows": [
+            30
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 2,
+          "independent_original_rows": [
+            31,
+            32
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 5,
+          "independent_original_rows": [
+            1,
+            2
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "583a3000",
+      "family": 4,
+      "independent_matrix_sha256": "dcd3065e91149436931862a5dd82eb4990fa95cf63c843202353daeaec9cf224",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "585a3000",
+      "family": 4,
+      "independent_matrix_sha256": "7b930b5d13e6281b06d6e9aa31c175b4bf1b9a94172be9a30997b0b4983271d5",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "587a3000",
+      "family": 4,
+      "independent_matrix_sha256": "f9e79a1d0582cfbf7e46fe46c62e6603b8d5a7fc40063814a96d414aef6c340b",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "593a3000",
+      "family": 4,
+      "independent_matrix_sha256": "d1e4de82b971e10b1ae06c0a59c93457bc5141552eca2c19b155a4ff4cfb6451",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "595a3000",
+      "family": 4,
+      "independent_matrix_sha256": "4a5affddbfd2fbea1625a2635e86cc0c132a794002e8cd754e25d756f98f9d17",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "597a3000",
+      "family": 4,
+      "independent_matrix_sha256": "26720dfff90258f345e3082d39809f1d5e022800794a38738e955c44b032c5a7",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5a3a3000",
+      "family": 4,
+      "independent_matrix_sha256": "432891e12b165f63783a943860fb8579c62bdfa82b96206fc826d83e9ab2f9fd",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5a5a3000",
+      "family": 4,
+      "independent_matrix_sha256": "f7665c2595b79afd4071d154aefe0dd1bbcbb9d216ddb401fd71019f1cb6476d",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5a7a3000",
+      "family": 4,
+      "independent_matrix_sha256": "266c9a6b335b4710d82c551b85ce2ea8e01c0f3aff1d0c89183444100f704b2e",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5e3a3000",
+      "family": 4,
+      "independent_matrix_sha256": "b8bcd1da68dea7c2560edb1e8e36b69a8273e686856ebcb190a6aaf141412ec4",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5e5a3000",
+      "family": 4,
+      "independent_matrix_sha256": "86fef48defd565cad98cff408feccf56d01539056a6fe9639c8fc9aa815ddc5e",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "5e7a3000",
+      "family": 4,
+      "independent_matrix_sha256": "1d8afdfd4ab2cdabaed78cbd65cc7fe4c6a73caa5ea8d2e64b9cef1341e8772c",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "783a3000",
+      "family": 4,
+      "independent_matrix_sha256": "4fc3af43246a07ed70e9b2139fd728597d717ed031fe0cfb39c68c1fea455683",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "785a3000",
+      "family": 4,
+      "independent_matrix_sha256": "3470a2ff5d51b4b395206951469b4bf8dc78b7fa8b485f195845a9a3e6a49d97",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "787a3000",
+      "family": 4,
+      "independent_matrix_sha256": "538e7374815b6232464c9b8a436ff51c35e248e02e036b87c05e003b619a0eb1",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "7a3a3000",
+      "family": 4,
+      "independent_matrix_sha256": "97f10b0872a642f894b488bdeb537fd4a73ea0c3431f5b611392bcf9f6ffe288",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "7a5a3000",
+      "family": 4,
+      "independent_matrix_sha256": "eddac946880edb677883efe6e64e70b8f3c4e3c3d4f7d7630a0a25e4abe4a137",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "7a7a3000",
+      "family": 4,
+      "independent_matrix_sha256": "452844330c87b14c736da84b6b8160171b18654426a5dfaa40e66dedc7df2642",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 6,
+          "independent_original_rows": [
+            32,
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "955bb000",
+      "family": 5,
+      "independent_matrix_sha256": "b0a1fed461851aa4ef0ff31b87b1726c4d809a1ed51aff99f023f6be7edd4e09",
+      "rows": [
+        {
+          "author_row_id": 12,
+          "independent_original_rows": [
+            42
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 13,
+          "independent_original_rows": [
+            43,
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 14,
+          "independent_original_rows": [
+            16,
+            17,
+            18
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "957bb000",
+      "family": 5,
+      "independent_matrix_sha256": "eb471564b485e41097f171737f4242960babb77c97ff584cf67f7df9a86f0a3b",
+      "rows": [
+        {
+          "author_row_id": 12,
+          "independent_original_rows": [
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 13,
+          "independent_original_rows": [
+            45,
+            46
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 14,
+          "independent_original_rows": [
+            16,
+            17,
+            18
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "9d4ab000",
+      "family": 5,
+      "independent_matrix_sha256": "888dbe8fc20c344bb7b2df3365016a5886687dc7087e9e3075a2f6d96a01e6a7",
+      "rows": [
+        {
+          "author_row_id": 12,
+          "independent_original_rows": [
+            38
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 13,
+          "independent_original_rows": [
+            39,
+            40
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 14,
+          "independent_original_rows": [
+            16,
+            17,
+            18
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "fb4a7000",
+      "family": 5,
+      "independent_matrix_sha256": "7620c8f0c9a6ed7e2131c4c920aada478956ef215f92cabf95bf54e3d6644a49",
+      "rows": [
+        {
+          "author_row_id": 12,
+          "independent_original_rows": [
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 13,
+          "independent_original_rows": [
+            36,
+            37
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 14,
+          "independent_original_rows": [
+            16,
+            17,
+            18
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        }
+      ]
+    },
+    {
+      "A": "1a3a7000",
+      "family": 6,
+      "independent_matrix_sha256": "90d3a791f9dee7ab01a8917fb5e3116ab1697bc885abaa57d3f0512437c84fcb",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            47
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            64
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "1a4a7000",
+      "family": 6,
+      "independent_matrix_sha256": "c0fdf57a0e08fb8c1c393a9f5906026ef4881b4c9ee38b6f31d16ae0c974c54f",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            42
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            54
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "1a5a7000",
+      "family": 6,
+      "independent_matrix_sha256": "530aea938487051374b7a27438c7a03f29bbc4e84e85288ee70a2b63ec230273",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            58
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "1a7a7000",
+      "family": 6,
+      "independent_matrix_sha256": "b31f5dcde080609a323c72e9d2c4f87f8151ff58ee594a86327e84b7102ae675",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            46
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            62
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "1e3af000",
+      "family": 6,
+      "independent_matrix_sha256": "7e6822e4319f327a09d28ad406e9665041ae4f65d370bd583a165840ebc1a965",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            51
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            68
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "1e5af000",
+      "family": 6,
+      "independent_matrix_sha256": "6cbaf57f1265527817a90d8ec8a1f531eca89156092ab65528da9d41013882fb",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            48
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            62
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "1e7af000",
+      "family": 6,
+      "independent_matrix_sha256": "c76b43f0b092ac607ef60856c435205909d97c909d7a3d18b335752977acbeff",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            50
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            66
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a3a7000",
+      "family": 6,
+      "independent_matrix_sha256": "4fb555e4c807cfe5492eaeae71109a33cc9440b096091efc14f90b1555c98556",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            47
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            63
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a4a7000",
+      "family": 6,
+      "independent_matrix_sha256": "ce9918692ba53455a4a7e93778791ddba6672e4d26ad8890c09201be3860eb66",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            42
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            53
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a5a7000",
+      "family": 6,
+      "independent_matrix_sha256": "73c0282bd3924b9e07b27902db340601d85417066024cfe5254b45ccc045169f",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            44
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            57
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a7a7000",
+      "family": 6,
+      "independent_matrix_sha256": "20bc9b3752e9153699634392e680d5c070d3235445e7b64c47fbea622fb9e0ea",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            46
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            61
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "da4a7000",
+      "family": 6,
+      "independent_matrix_sha256": "99d5b4c2aa197bd3f72f1b2cd3b813587cfe9b355dc6eba0e14df4214f2cb670",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            42
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 21,
+          "independent_original_rows": [
+            52
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a3bb000",
+      "family": 7,
+      "independent_matrix_sha256": "1de0083ca07d6ac6bbaec71e9555f03f35679343ec58ed160de3271fad40cd0e",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            38
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            52
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            74
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a4ab000",
+      "family": 7,
+      "independent_matrix_sha256": "dd64c31416033b4f5db8cac674e52ba19fba17cb1da2abcff047b0f7baad3d20",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            36
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            45
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            60
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a5bb000",
+      "family": 7,
+      "independent_matrix_sha256": "f1bac3c68ee0f003c50ac63600c52297718ce38cf81af440cadcc546ba343c8e",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            38
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            49
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            68
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a7bb000",
+      "family": 7,
+      "independent_matrix_sha256": "2db0cd015ba739afa607562f00721ee553385c4a61638ace3e922f5b0d9c183a",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            38
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            51
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            72
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9dcab000",
+      "family": 7,
+      "independent_matrix_sha256": "c889eefb099fface1b7706d65aa6fe0aaee21291432a148a3670fcba3f827505",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            36
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            46
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            53
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9e4ab000",
+      "family": 7,
+      "independent_matrix_sha256": "4118c1b8d61ea669cbcc9ff122b0d339aef963691d339fbe5a2fc33e6a9569a6",
+      "rows": [
+        {
+          "author_row_id": 4,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            36
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            47
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            60
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "fa4a7000",
+      "family": 8,
+      "independent_matrix_sha256": "fe7c57a3256f01182fc431289b260852640f57037a1def291a9b7882a7087c60",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 18,
+          "independent_original_rows": [
+            42
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            51
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "fbca7000",
+      "family": 8,
+      "independent_matrix_sha256": "68011d744eff7363032d7686320a80fb017201191bc3c5ca4f878ae54775a278",
+      "rows": [
+        {
+          "author_row_id": 3,
+          "independent_original_rows": [
+            31
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 11,
+          "independent_original_rows": [
+            33
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 18,
+          "independent_original_rows": [
+            40
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 22,
+          "independent_original_rows": [
+            45
+          ],
+          "single_modular_subsystem": "fp_plus_fq"
+        }
+      ]
+    },
+    {
+      "A": "9a39b000",
+      "family": 9,
+      "independent_matrix_sha256": "c78d9da1199c50932ca4fc09bc13d3ed27b175ef1de7a2d70ae3a4f30336e628",
+      "rows": [
+        {
+          "author_row_id": 0,
+          "independent_original_rows": [
+            35,
+            36,
+            37
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 7,
+          "independent_original_rows": [
+            33,
+            34,
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 10,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            53
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 20,
+          "independent_original_rows": [
+            26
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 23,
+          "independent_original_rows": [
+            54,
+            55
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 24,
+          "independent_original_rows": [
+            28
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 25,
+          "independent_original_rows": [
+            55,
+            56,
+            57
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "9a59b000",
+      "family": 9,
+      "independent_matrix_sha256": "a34c40cfb446af72761c0d974133ddeb4e5c0c4fec91df9c3663bdf4d4cac84e",
+      "rows": [
+        {
+          "author_row_id": 0,
+          "independent_original_rows": [
+            35,
+            36,
+            37
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 7,
+          "independent_original_rows": [
+            33,
+            34,
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 10,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            50
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 20,
+          "independent_original_rows": [
+            26
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 23,
+          "independent_original_rows": [
+            51,
+            52
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 24,
+          "independent_original_rows": [
+            28
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 25,
+          "independent_original_rows": [
+            52,
+            53,
+            54
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    },
+    {
+      "A": "9a79b000",
+      "family": 9,
+      "independent_matrix_sha256": "2dd5a17bf7e24b549168510aeedc89dfb01661b3ffcc5d113bdcecb964ea36b7",
+      "rows": [
+        {
+          "author_row_id": 0,
+          "independent_original_rows": [
+            35,
+            36,
+            37
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 7,
+          "independent_original_rows": [
+            33,
+            34,
+            35
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 8,
+          "independent_original_rows": [
+            2,
+            3,
+            4
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 10,
+          "independent_original_rows": [
+            37,
+            38,
+            39
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 19,
+          "independent_original_rows": [
+            52
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 20,
+          "independent_original_rows": [
+            26
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 23,
+          "independent_original_rows": [
+            53,
+            54
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        },
+        {
+          "author_row_id": 24,
+          "independent_original_rows": [
+            28
+          ],
+          "single_modular_subsystem": "q_plus_gq"
+        },
+        {
+          "author_row_id": 25,
+          "independent_original_rows": [
+            54,
+            55,
+            56
+          ],
+          "single_modular_subsystem": "p_minus_q"
+        }
+      ]
+    }
+  ],
+  "row_applications_checked": 384,
+  "status": "pass",
+  "subsystem_projection_equivalences": 396,
+  "template_contradictions": 10
+}

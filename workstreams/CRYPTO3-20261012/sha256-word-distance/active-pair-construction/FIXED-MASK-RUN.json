@@ -1,0 +1,1412 @@
+{
+  "D": 2289790043,
+  "masks": {
+    "P": 2307175615,
+    "Q": 2291897435,
+    "R": 1125427077
+  },
+  "p_opposite_F_fibres": [
+    {
+      "impossible_bit": 15,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1124896914,
+      "requirements": {
+        "F": 3170065531,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3170065531
+    },
+    {
+      "impossible_bit": 15,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1124896913,
+      "requirements": {
+        "F": 3170065533,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3170065533
+    },
+    {
+      "impossible_bit": 15,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1124896910,
+      "requirements": {
+        "F": 3170065539,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3170065539
+    },
+    {
+      "impossible_bit": 15,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1124896909,
+      "requirements": {
+        "F": 3170065541,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3170065541
+    },
+    {
+      "combination": [
+        3,
+        6,
+        11,
+        15
+      ],
+      "input_xor_mask": 2307175615,
+      "reason": "linear_conflict",
+      "requirements": {
+        "F": 3203636347,
+        "d": 2289790043
+      },
+      "rows": [
+        {
+          "bit": 0,
+          "kind": "d",
+          "rhs": 0,
+          "row": 1
+        },
+        {
+          "bit": 1,
+          "kind": "d",
+          "rhs": 1,
+          "row": 2
+        },
+        {
+          "bit": 2,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4
+        },
+        {
+          "bit": 3,
+          "kind": "d",
+          "rhs": 0,
+          "row": 8
+        },
+        {
+          "bit": 4,
+          "kind": "d",
+          "rhs": 1,
+          "row": 16
+        },
+        {
+          "bit": 5,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32
+        },
+        {
+          "bit": 7,
+          "kind": "d",
+          "rhs": 0,
+          "row": 128
+        },
+        {
+          "bit": 10,
+          "kind": "d",
+          "rhs": 1,
+          "row": 1024
+        },
+        {
+          "bit": 12,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4096
+        },
+        {
+          "bit": 13,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8192
+        },
+        {
+          "bit": 15,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32768
+        },
+        {
+          "bit": 18,
+          "kind": "d",
+          "rhs": 1,
+          "row": 262144
+        },
+        {
+          "bit": 23,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8388608
+        },
+        {
+          "bit": 24,
+          "kind": "d",
+          "rhs": 0,
+          "row": 16777216
+        },
+        {
+          "bit": 27,
+          "kind": "d",
+          "rhs": 0,
+          "row": 134217728
+        },
+        {
+          "bit": 0,
+          "kind": "F",
+          "rhs": 0,
+          "row": 262280
+        },
+        {
+          "bit": 1,
+          "kind": "F",
+          "rhs": 1,
+          "row": 524560
+        },
+        {
+          "bit": 2,
+          "kind": "F",
+          "rhs": 0,
+          "row": 1049120
+        },
+        {
+          "bit": 3,
+          "kind": "F",
+          "rhs": 0,
+          "row": 2098240
+        },
+        {
+          "bit": 4,
+          "kind": "F",
+          "rhs": 1,
+          "row": 4196480
+        },
+        {
+          "bit": 7,
+          "kind": "F",
+          "rhs": 1,
+          "row": 33571840
+        },
+        {
+          "bit": 8,
+          "kind": "F",
+          "rhs": 0,
+          "row": 67143680
+        },
+        {
+          "bit": 10,
+          "kind": "F",
+          "rhs": 0,
+          "row": 268574720
+        },
+        {
+          "bit": 11,
+          "kind": "F",
+          "rhs": 0,
+          "row": 537149440
+        },
+        {
+          "bit": 12,
+          "kind": "F",
+          "rhs": 1,
+          "row": 1074298880
+        },
+        {
+          "bit": 13,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2148597760
+        },
+        {
+          "bit": 14,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2228225
+        },
+        {
+          "bit": 18,
+          "kind": "F",
+          "rhs": 1,
+          "row": 35651600
+        },
+        {
+          "bit": 19,
+          "kind": "F",
+          "rhs": 1,
+          "row": 71303200
+        },
+        {
+          "bit": 24,
+          "kind": "F",
+          "rhs": 0,
+          "row": 2281702400
+        },
+        {
+          "bit": 25,
+          "kind": "F",
+          "rhs": 1,
+          "row": 268437505
+        },
+        {
+          "bit": 30,
+          "kind": "F",
+          "rhs": 1,
+          "row": 65568
+        }
+      ],
+      "status": "empty"
+    },
+    {
+      "basis": [
+        912410688,
+        1074266368
+      ],
+      "dimension": 2,
+      "input_xor_mask": 2307175615,
+      "particular": 3605849650,
+      "rank": 30,
+      "requirements": {
+        "F": 3203636349,
+        "d": 2289790043
+      },
+      "rows": [
+        {
+          "bit": 0,
+          "kind": "d",
+          "rhs": 0,
+          "row": 1
+        },
+        {
+          "bit": 1,
+          "kind": "d",
+          "rhs": 1,
+          "row": 2
+        },
+        {
+          "bit": 2,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4
+        },
+        {
+          "bit": 3,
+          "kind": "d",
+          "rhs": 0,
+          "row": 8
+        },
+        {
+          "bit": 4,
+          "kind": "d",
+          "rhs": 1,
+          "row": 16
+        },
+        {
+          "bit": 5,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32
+        },
+        {
+          "bit": 7,
+          "kind": "d",
+          "rhs": 0,
+          "row": 128
+        },
+        {
+          "bit": 10,
+          "kind": "d",
+          "rhs": 1,
+          "row": 1024
+        },
+        {
+          "bit": 12,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4096
+        },
+        {
+          "bit": 13,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8192
+        },
+        {
+          "bit": 15,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32768
+        },
+        {
+          "bit": 18,
+          "kind": "d",
+          "rhs": 1,
+          "row": 262144
+        },
+        {
+          "bit": 23,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8388608
+        },
+        {
+          "bit": 24,
+          "kind": "d",
+          "rhs": 0,
+          "row": 16777216
+        },
+        {
+          "bit": 27,
+          "kind": "d",
+          "rhs": 0,
+          "row": 134217728
+        },
+        {
+          "bit": 0,
+          "kind": "F",
+          "rhs": 1,
+          "row": 262280
+        },
+        {
+          "bit": 1,
+          "kind": "F",
+          "rhs": 0,
+          "row": 524560
+        },
+        {
+          "bit": 2,
+          "kind": "F",
+          "rhs": 0,
+          "row": 1049120
+        },
+        {
+          "bit": 3,
+          "kind": "F",
+          "rhs": 0,
+          "row": 2098240
+        },
+        {
+          "bit": 4,
+          "kind": "F",
+          "rhs": 1,
+          "row": 4196480
+        },
+        {
+          "bit": 7,
+          "kind": "F",
+          "rhs": 1,
+          "row": 33571840
+        },
+        {
+          "bit": 8,
+          "kind": "F",
+          "rhs": 0,
+          "row": 67143680
+        },
+        {
+          "bit": 10,
+          "kind": "F",
+          "rhs": 0,
+          "row": 268574720
+        },
+        {
+          "bit": 11,
+          "kind": "F",
+          "rhs": 0,
+          "row": 537149440
+        },
+        {
+          "bit": 12,
+          "kind": "F",
+          "rhs": 1,
+          "row": 1074298880
+        },
+        {
+          "bit": 13,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2148597760
+        },
+        {
+          "bit": 14,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2228225
+        },
+        {
+          "bit": 18,
+          "kind": "F",
+          "rhs": 1,
+          "row": 35651600
+        },
+        {
+          "bit": 19,
+          "kind": "F",
+          "rhs": 1,
+          "row": 71303200
+        },
+        {
+          "bit": 24,
+          "kind": "F",
+          "rhs": 0,
+          "row": 2281702400
+        },
+        {
+          "bit": 25,
+          "kind": "F",
+          "rhs": 1,
+          "row": 268437505
+        },
+        {
+          "bit": 30,
+          "kind": "F",
+          "rhs": 1,
+          "row": 65568
+        }
+      ],
+      "status": "nonempty"
+    },
+    {
+      "combination": [
+        3,
+        6,
+        11,
+        15
+      ],
+      "input_xor_mask": 2307175615,
+      "reason": "linear_conflict",
+      "requirements": {
+        "F": 3203636355,
+        "d": 2289790043
+      },
+      "rows": [
+        {
+          "bit": 0,
+          "kind": "d",
+          "rhs": 0,
+          "row": 1
+        },
+        {
+          "bit": 1,
+          "kind": "d",
+          "rhs": 1,
+          "row": 2
+        },
+        {
+          "bit": 2,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4
+        },
+        {
+          "bit": 3,
+          "kind": "d",
+          "rhs": 0,
+          "row": 8
+        },
+        {
+          "bit": 4,
+          "kind": "d",
+          "rhs": 1,
+          "row": 16
+        },
+        {
+          "bit": 5,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32
+        },
+        {
+          "bit": 7,
+          "kind": "d",
+          "rhs": 0,
+          "row": 128
+        },
+        {
+          "bit": 10,
+          "kind": "d",
+          "rhs": 1,
+          "row": 1024
+        },
+        {
+          "bit": 12,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4096
+        },
+        {
+          "bit": 13,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8192
+        },
+        {
+          "bit": 15,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32768
+        },
+        {
+          "bit": 18,
+          "kind": "d",
+          "rhs": 1,
+          "row": 262144
+        },
+        {
+          "bit": 23,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8388608
+        },
+        {
+          "bit": 24,
+          "kind": "d",
+          "rhs": 0,
+          "row": 16777216
+        },
+        {
+          "bit": 27,
+          "kind": "d",
+          "rhs": 0,
+          "row": 134217728
+        },
+        {
+          "bit": 0,
+          "kind": "F",
+          "rhs": 0,
+          "row": 262280
+        },
+        {
+          "bit": 1,
+          "kind": "F",
+          "rhs": 1,
+          "row": 524560
+        },
+        {
+          "bit": 2,
+          "kind": "F",
+          "rhs": 1,
+          "row": 1049120
+        },
+        {
+          "bit": 3,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2098240
+        },
+        {
+          "bit": 4,
+          "kind": "F",
+          "rhs": 0,
+          "row": 4196480
+        },
+        {
+          "bit": 7,
+          "kind": "F",
+          "rhs": 1,
+          "row": 33571840
+        },
+        {
+          "bit": 8,
+          "kind": "F",
+          "rhs": 0,
+          "row": 67143680
+        },
+        {
+          "bit": 10,
+          "kind": "F",
+          "rhs": 0,
+          "row": 268574720
+        },
+        {
+          "bit": 11,
+          "kind": "F",
+          "rhs": 0,
+          "row": 537149440
+        },
+        {
+          "bit": 12,
+          "kind": "F",
+          "rhs": 1,
+          "row": 1074298880
+        },
+        {
+          "bit": 13,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2148597760
+        },
+        {
+          "bit": 14,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2228225
+        },
+        {
+          "bit": 18,
+          "kind": "F",
+          "rhs": 1,
+          "row": 35651600
+        },
+        {
+          "bit": 19,
+          "kind": "F",
+          "rhs": 1,
+          "row": 71303200
+        },
+        {
+          "bit": 24,
+          "kind": "F",
+          "rhs": 0,
+          "row": 2281702400
+        },
+        {
+          "bit": 25,
+          "kind": "F",
+          "rhs": 1,
+          "row": 268437505
+        },
+        {
+          "bit": 30,
+          "kind": "F",
+          "rhs": 1,
+          "row": 65568
+        }
+      ],
+      "status": "empty"
+    },
+    {
+      "combination": [
+        5,
+        6,
+        10,
+        19,
+        21,
+        28
+      ],
+      "input_xor_mask": 2307175615,
+      "reason": "linear_conflict",
+      "requirements": {
+        "F": 3203636357,
+        "d": 2289790043
+      },
+      "rows": [
+        {
+          "bit": 0,
+          "kind": "d",
+          "rhs": 0,
+          "row": 1
+        },
+        {
+          "bit": 1,
+          "kind": "d",
+          "rhs": 1,
+          "row": 2
+        },
+        {
+          "bit": 2,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4
+        },
+        {
+          "bit": 3,
+          "kind": "d",
+          "rhs": 0,
+          "row": 8
+        },
+        {
+          "bit": 4,
+          "kind": "d",
+          "rhs": 1,
+          "row": 16
+        },
+        {
+          "bit": 5,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32
+        },
+        {
+          "bit": 7,
+          "kind": "d",
+          "rhs": 0,
+          "row": 128
+        },
+        {
+          "bit": 10,
+          "kind": "d",
+          "rhs": 1,
+          "row": 1024
+        },
+        {
+          "bit": 12,
+          "kind": "d",
+          "rhs": 0,
+          "row": 4096
+        },
+        {
+          "bit": 13,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8192
+        },
+        {
+          "bit": 15,
+          "kind": "d",
+          "rhs": 1,
+          "row": 32768
+        },
+        {
+          "bit": 18,
+          "kind": "d",
+          "rhs": 1,
+          "row": 262144
+        },
+        {
+          "bit": 23,
+          "kind": "d",
+          "rhs": 1,
+          "row": 8388608
+        },
+        {
+          "bit": 24,
+          "kind": "d",
+          "rhs": 0,
+          "row": 16777216
+        },
+        {
+          "bit": 27,
+          "kind": "d",
+          "rhs": 0,
+          "row": 134217728
+        },
+        {
+          "bit": 0,
+          "kind": "F",
+          "rhs": 1,
+          "row": 262280
+        },
+        {
+          "bit": 1,
+          "kind": "F",
+          "rhs": 0,
+          "row": 524560
+        },
+        {
+          "bit": 2,
+          "kind": "F",
+          "rhs": 1,
+          "row": 1049120
+        },
+        {
+          "bit": 3,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2098240
+        },
+        {
+          "bit": 4,
+          "kind": "F",
+          "rhs": 0,
+          "row": 4196480
+        },
+        {
+          "bit": 7,
+          "kind": "F",
+          "rhs": 1,
+          "row": 33571840
+        },
+        {
+          "bit": 8,
+          "kind": "F",
+          "rhs": 0,
+          "row": 67143680
+        },
+        {
+          "bit": 10,
+          "kind": "F",
+          "rhs": 0,
+          "row": 268574720
+        },
+        {
+          "bit": 11,
+          "kind": "F",
+          "rhs": 0,
+          "row": 537149440
+        },
+        {
+          "bit": 12,
+          "kind": "F",
+          "rhs": 1,
+          "row": 1074298880
+        },
+        {
+          "bit": 13,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2148597760
+        },
+        {
+          "bit": 14,
+          "kind": "F",
+          "rhs": 1,
+          "row": 2228225
+        },
+        {
+          "bit": 18,
+          "kind": "F",
+          "rhs": 1,
+          "row": 35651600
+        },
+        {
+          "bit": 19,
+          "kind": "F",
+          "rhs": 1,
+          "row": 71303200
+        },
+        {
+          "bit": 24,
+          "kind": "F",
+          "rhs": 0,
+          "row": 2281702400
+        },
+        {
+          "bit": 25,
+          "kind": "F",
+          "rhs": 1,
+          "row": 268437505
+        },
+        {
+          "bit": 30,
+          "kind": "F",
+          "rhs": 1,
+          "row": 65568
+        }
+      ],
+      "status": "empty"
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1091571474,
+      "requirements": {
+        "F": 3236716411,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3236716411
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1091571473,
+      "requirements": {
+        "F": 3236716413,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3236716413
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1091571470,
+      "requirements": {
+        "F": 3236716419,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3236716419
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1091571469,
+      "requirements": {
+        "F": 3236716421,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3236716421
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1074786066,
+      "requirements": {
+        "F": 3270287227,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3270287227
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1074786065,
+      "requirements": {
+        "F": 3270287229,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3270287229
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1074786062,
+      "requirements": {
+        "F": 3270287235,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3270287235
+    },
+    {
+      "impossible_bit": 9,
+      "input_xor_mask": 2307175615,
+      "kind": "F",
+      "output_mask": 1124892063,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1074786061,
+      "requirements": {
+        "F": 3270287237,
+        "d": 2289790043
+      },
+      "status": "empty",
+      "target": 3270287237
+    }
+  ],
+  "p_viable_interfaces": {
+    "3203636349": [
+      {
+        "G": 857101243,
+        "pair": [
+          3605849650,
+          1600672397
+        ]
+      },
+      {
+        "G": 3411430181,
+        "pair": [
+          3767447154,
+          1762269901
+        ]
+      },
+      {
+        "G": 878072753,
+        "pair": [
+          2531583794,
+          526406541
+        ]
+      },
+      {
+        "G": 3424013103,
+        "pair": [
+          2693181298,
+          688004045
+        ]
+      }
+    ]
+  },
+  "q_A_values": [
+    3170065531,
+    3170065533,
+    3170065539,
+    3170065541,
+    3203636347,
+    3203636349,
+    3203636355,
+    3203636357,
+    3236716411,
+    3236716413,
+    3236716419,
+    3236716421,
+    3270287227,
+    3270287229,
+    3270287235,
+    3270287237
+  ],
+  "q_fibre": {
+    "basis": [
+      33818628,
+      128,
+      512,
+      2684354560,
+      1073741824
+    ],
+    "dimension": 5,
+    "input_xor_mask": 2291897435,
+    "particular": 3167232,
+    "rank": 27,
+    "requirements": {
+      "G": 2005177253,
+      "d": 2289790043
+    },
+    "rows": [
+      {
+        "bit": 0,
+        "kind": "d",
+        "rhs": 0,
+        "row": 1
+      },
+      {
+        "bit": 1,
+        "kind": "d",
+        "rhs": 0,
+        "row": 2
+      },
+      {
+        "bit": 3,
+        "kind": "d",
+        "rhs": 0,
+        "row": 8
+      },
+      {
+        "bit": 4,
+        "kind": "d",
+        "rhs": 0,
+        "row": 16
+      },
+      {
+        "bit": 6,
+        "kind": "d",
+        "rhs": 0,
+        "row": 64
+      },
+      {
+        "bit": 10,
+        "kind": "d",
+        "rhs": 1,
+        "row": 1024
+      },
+      {
+        "bit": 12,
+        "kind": "d",
+        "rhs": 1,
+        "row": 4096
+      },
+      {
+        "bit": 15,
+        "kind": "d",
+        "rhs": 0,
+        "row": 32768
+      },
+      {
+        "bit": 16,
+        "kind": "d",
+        "rhs": 0,
+        "row": 65536
+      },
+      {
+        "bit": 17,
+        "kind": "d",
+        "rhs": 0,
+        "row": 131072
+      },
+      {
+        "bit": 19,
+        "kind": "d",
+        "rhs": 0,
+        "row": 524288
+      },
+      {
+        "bit": 20,
+        "kind": "d",
+        "rhs": 1,
+        "row": 1048576
+      },
+      {
+        "bit": 23,
+        "kind": "d",
+        "rhs": 0,
+        "row": 8388608
+      },
+      {
+        "bit": 27,
+        "kind": "d",
+        "rhs": 0,
+        "row": 134217728
+      },
+      {
+        "bit": 0,
+        "kind": "G",
+        "rhs": 1,
+        "row": 656384
+      },
+      {
+        "bit": 1,
+        "kind": "G",
+        "rhs": 1,
+        "row": 1312768
+      },
+      {
+        "bit": 3,
+        "kind": "G",
+        "rhs": 1,
+        "row": 5251072
+      },
+      {
+        "bit": 4,
+        "kind": "G",
+        "rhs": 0,
+        "row": 10502144
+      },
+      {
+        "bit": 5,
+        "kind": "G",
+        "rhs": 0,
+        "row": 21004288
+      },
+      {
+        "bit": 7,
+        "kind": "G",
+        "rhs": 0,
+        "row": 84017152
+      },
+      {
+        "bit": 8,
+        "kind": "G",
+        "rhs": 0,
+        "row": 168034304
+      },
+      {
+        "bit": 9,
+        "kind": "G",
+        "rhs": 0,
+        "row": 336068608
+      },
+      {
+        "bit": 12,
+        "kind": "G",
+        "rhs": 0,
+        "row": 2688548864
+      },
+      {
+        "bit": 15,
+        "kind": "G",
+        "rhs": 0,
+        "row": 33554437
+      },
+      {
+        "bit": 18,
+        "kind": "G",
+        "rhs": 0,
+        "row": 268435496
+      },
+      {
+        "bit": 23,
+        "kind": "G",
+        "rhs": 1,
+        "row": 1280
+      },
+      {
+        "bit": 27,
+        "kind": "G",
+        "rhs": 0,
+        "row": 20480
+      },
+      {
+        "bit": 28,
+        "kind": "G",
+        "rhs": 0,
+        "row": 40960
+      },
+      {
+        "bit": 29,
+        "kind": "G",
+        "rhs": 1,
+        "row": 81920
+      }
+    ],
+    "status": "nonempty"
+  },
+  "q_pairs": [
+    [
+      3167232,
+      2292957275
+    ],
+    [
+      36985860,
+      2326775903
+    ],
+    [
+      3167360,
+      2292957403
+    ],
+    [
+      36985988,
+      2326776031
+    ],
+    [
+      3167744,
+      2292957787
+    ],
+    [
+      36986372,
+      2326776415
+    ],
+    [
+      3167872,
+      2292957915
+    ],
+    [
+      36986500,
+      2326776543
+    ],
+    [
+      2687521792,
+      682344539
+    ],
+    [
+      2721340420,
+      716163167
+    ],
+    [
+      2687521920,
+      682344667
+    ],
+    [
+      2721340548,
+      716163295
+    ],
+    [
+      2687522304,
+      682345051
+    ],
+    [
+      2721340932,
+      716163679
+    ],
+    [
+      2687522432,
+      682345179
+    ],
+    [
+      2721341060,
+      716163807
+    ],
+    [
+      1076909056,
+      3366699099
+    ],
+    [
+      1110727684,
+      3400517727
+    ],
+    [
+      1076909184,
+      3366699227
+    ],
+    [
+      1110727812,
+      3400517855
+    ],
+    [
+      1076909568,
+      3366699611
+    ],
+    [
+      1110728196,
+      3400518239
+    ],
+    [
+      1076909696,
+      3366699739
+    ],
+    [
+      1110728324,
+      3400518367
+    ],
+    [
+      3761263616,
+      1756086363
+    ],
+    [
+      3795082244,
+      1789904991
+    ],
+    [
+      3761263744,
+      1756086491
+    ],
+    [
+      3795082372,
+      1789905119
+    ],
+    [
+      3761264128,
+      1756086875
+    ],
+    [
+      3795082756,
+      1789905503
+    ],
+    [
+      3761264256,
+      1756087003
+    ],
+    [
+      3795082884,
+      1789905631
+    ]
+  ],
+  "result": "restricted_family_excluded_at_terminal_R3",
+  "schema": "crypto3-support0-fixed-mask-construction-v1",
+  "scope": "One D and three fixed XOR masks only; not an exclusion of support 0.",
+  "terminal_R3_fibres": [
+    {
+      "A1": 3203636349,
+      "A2": 3203636349,
+      "impossible_bit": 1,
+      "input_xor_mask": 1125427077,
+      "kind": "G",
+      "output_mask": 3340946625,
+      "reason": "unavailable_sign_bit",
+      "required_sign_word": 1124807839,
+      "requirements": {
+        "G": 1091330947,
+        "d": 3203636349
+      },
+      "status": "empty",
+      "target": 1091330947
+    }
+  ],
+  "terminal_surviving_interfaces": 0
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "CRYPTO3-independent-valuation-review-sha256-v1",
+  "scope": "Only this independent review package; exact author versions are bound in REVIEW_RECEIPT.json.",
+  "files": {
+    "COMPARISON_RUN.json": "00c5f3091b2d10b67295214ec7e78c562f89e5fc863ce566b5966bcf3226eeba",
+    "INDEPENDENT_RUN.json": "f921221634eafb0d8a67d02c20eac26eab939624a42449f0acbf5813d5683af3",
+    "RECONSTRUCTION.md": "5584ed4be2c5a9906c55b581d2523c033131a635cec10672f5a41228b4e2ffa0",
+    "REVIEW.md": "af1f4b8ba0988a93f78569677aa35bcdf41d0999fb6cee5c012ee98736567d06",
+    "REVIEW_RECEIPT.json": "a4c0b8db046a330a966cd8eb63a9ff39a0c7596ea9e0313adb82fea76ede3cc2",
+    "check_valuation_independent.py": "b9537d51976b705ba20bf3835c9e57812e5f32ff15d33d255de2ab55c7fd19c2",
+    "compare_valuation.py": "4d9a03d547d952054ebd08f067d857af3d9ace4bd910ab3e0065ebde39a1ddd8",
+    "independent_valuation_certificate.json": "7449074d5a957b348ee1a9b2221f1539b36a3500753a0622f9f1e2c04788af59"
+  }
+}

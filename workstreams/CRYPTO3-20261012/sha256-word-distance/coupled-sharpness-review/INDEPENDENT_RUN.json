@@ -1,0 +1,103 @@
+{
+  "checker_sha256": "dc7730a6acdbe366bc879c892a2509967b37a371a111cbef8cd70081dac9fc0d",
+  "evaluation": {
+    "checks": {
+      "claimed_difference": true,
+      "claimed_valuation": true,
+      "f_differences_cancel": true,
+      "g_difference_cancels_D": true,
+      "same_nonzero_difference": true
+    },
+    "f_parameters": [
+      7,
+      18,
+      3
+    ],
+    "f_words": {
+      "p": "0xa6384dfa",
+      "p_prime": "0xdbf38441",
+      "q": "0x5996e6f8",
+      "q_prime": "0x23dbb0b1"
+    },
+    "g_parameters": [
+      17,
+      19,
+      10
+    ],
+    "g_words": {
+      "p": "0xc66b2673",
+      "p_prime": "0xad4eb46e",
+      "q": "0x0573e9f8",
+      "q_prime": "0x6e5991f8"
+    },
+    "odd_quotient_D": 1237835,
+    "residues": {
+      "F_p": "0x35bb3647",
+      "F_q": "0xca44c9b9",
+      "G_q": "0x68e5a800",
+      "d_p": "0x971a5800",
+      "d_q": "0x971a5800",
+      "f_prime_sum": "0xffcf34f2",
+      "f_sum": "0xffcf34f2",
+      "h_q": "0xe56be157",
+      "h_q_prime": "0xe56be157",
+      "minus_D": "0x68e5a800",
+      "p_plus_q_prime": "0x772c404c",
+      "p_prime_plus_q": "0x772c404c",
+      "q_xor_q_prime": "0xa8e5b800"
+    },
+    "valuation_D": 11,
+    "words": {
+      "p": "0x0019f0ed",
+      "p_prime": "0x973448ed",
+      "q": "0xdff7f75f",
+      "q_prime": "0x77124f5f"
+    }
+  },
+  "implementation": "per-output-bit reconstruction from the FIPS 180-4 sigma source indices",
+  "negative_controls": [
+    {
+      "name": "flip_bit_0_of_p",
+      "reason": "failed: same_nonzero_difference, claimed_difference, g_difference_cancels_D, f_differences_cancel, claimed_valuation",
+      "rejected": true
+    },
+    {
+      "name": "flip_bit_0_of_p_prime",
+      "reason": "failed: same_nonzero_difference, claimed_difference, g_difference_cancels_D, f_differences_cancel, claimed_valuation",
+      "rejected": true
+    },
+    {
+      "name": "flip_bit_0_of_q",
+      "reason": "failed: same_nonzero_difference, g_difference_cancels_D, f_differences_cancel",
+      "rejected": true
+    },
+    {
+      "name": "flip_bit_0_of_q_prime",
+      "reason": "failed: same_nonzero_difference, g_difference_cancels_D, f_differences_cancel",
+      "rejected": true
+    },
+    {
+      "name": "wrong_f_rotation_7_to_6",
+      "reason": "failed: f_differences_cancel",
+      "rejected": true
+    },
+    {
+      "name": "wrong_g_rotation_19_to_18",
+      "reason": "failed: g_difference_cancels_D",
+      "rejected": true
+    },
+    {
+      "name": "damaged_claimed_D",
+      "reason": "failed: claimed_difference",
+      "rejected": true
+    },
+    {
+      "name": "damaged_claimed_valuation",
+      "reason": "failed: claimed_valuation",
+      "rejected": true
+    }
+  ],
+  "python": "3.12.14",
+  "scope": "four local words only; no SHA-256 schedule witness",
+  "status": "PASS"
+}

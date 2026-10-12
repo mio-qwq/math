@@ -1,0 +1,53 @@
+{
+  "K": "fbca7000",
+  "SAT_SMT_CNF_RUP_DRUP_used": false,
+  "author_distinct_rows": 26,
+  "author_manifest_files_checked": 12,
+  "author_negative_controls": 14,
+  "author_templates": 10,
+  "candidate_masks": 132,
+  "comparison_negative_controls": 4,
+  "comparison_sha256": "82a3f89f4fb2d0f3e795b6ba31993657e95217e4027746a9058af32f804a4886",
+  "decision": "accepted_exact_fixed_K_local_theorem",
+  "definition": {
+    "f_rotations": [
+      7,
+      18
+    ],
+    "f_shift": 3,
+    "g_rotations": [
+      17,
+      19
+    ],
+    "g_shift": 10,
+    "word_bits": 32
+  },
+  "external_human_review": false,
+  "frozen_utc": "2026-10-12T09:58:56.658348+00:00",
+  "independent_certificate_sha256": "d18c1461f641f510a8b67187b110c91c9e47b2cf1ffd8e296a283058a9b76d72",
+  "independent_contradictions": 132,
+  "independent_negative_controls": 8,
+  "mandatory_revisions": [],
+  "pre_author_checkpoint_sha256": "bb401045ff4705a8ab8ac1af33b314eb4348b029d81f0bb54278240aff16c50d",
+  "proof_assistant_compilation": false,
+  "review_sha256": "9a1b95e1d1e1795e9fd47df4699f51e81fa89c04c4f1ead795242b6b958fcee7",
+  "reviewed_author_files": {
+    "CERTIFICATE.json": "1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389",
+    "PROOF.md": "7b3fa0d70c8bb03401e8c1e0223d778650dc806a46fcfac477d2dbd1c753b22b",
+    "RUNS.json": "a6ef783ddf1ae1871fa96972bdb65ad6f7fc5fd3019707ff20861649f8c67f4d",
+    "SHA256.json": "9b0a2bd7fced9e3f8ccaf72ed5fc57a88db00ded403215e9d87d4a9c532bd13b",
+    "check.py": "71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d"
+  },
+  "run_status": "pass",
+  "schema": "crypto3-fixed-K-affine-independent-review-receipt-v1",
+  "scope_exclusions": [
+    "No classification of all h-collision XOR masks",
+    "No independent support-to-local-equation bridge in this review",
+    "No complete support exclusion",
+    "No actual schedule witness",
+    "No global distance-14 theorem",
+    "No historical priority certification"
+  ],
+  "single_subsystem_premise_derivations": 384,
+  "subsystem_projection_equivalences": 396
+}

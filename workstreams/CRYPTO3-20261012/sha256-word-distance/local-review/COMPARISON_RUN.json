@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/local-review/compare_discoverer.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.12930257900006836,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"receipt_sha256\": \"9e65e355bb0bd50a36b391675112ce9db079b294e1f2d50aab8cb7d4553c00d3\",\n  \"reviewed_proof_sha256\": \"608752c21bbdc43ad5540a3b7f34ce1e2f55c0531df66864b68aa6c53943598b\",\n  \"discoverer_run_exit\": 0,\n  \"common_masks\": 63,\n  \"conditional_recurrences\": 18,\n  \"root_witness\": {\n    \"x\": \"5d130376\",\n    \"y\": \"a6d97376\",\n    \"sigma1_x\": \"e1c2a1eb\",\n    \"sigma1_y\": \"97fc31eb\",\n    \"h_x\": \"3ed5a561\",\n    \"h_y\": \"3ed5a561\",\n    \"xor_mask\": \"fbca7000\",\n    \"additive_delta_y_minus_x\": \"49c67000\",\n    \"common_low_12\": \"376\"\n  }\n}\n",
+  "stderr": ""
+}

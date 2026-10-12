@@ -1,0 +1,70 @@
+{
+  "schema": "CRYPTO3-coupled-short-proof-sha256-v1",
+  "scope": "Fixed K=fbca7000 three-equation local impossibility; no full schedule claim; independent review recorded separately.",
+  "proof_and_verification": [
+    "PROOF.md",
+    "CERTIFICATE.json",
+    "check.py",
+    "RUNS.json"
+  ],
+  "construction_and_exploration_not_verifier_dependencies": [
+    "build_certificate.py",
+    "MECHANISM.md",
+    "mask_probe.py",
+    "MASK_PROBE.json",
+    "adjacent_probe.py",
+    "ADJACENT_PROBE.json",
+    "affine_probe.py",
+    "AFFINE_PROBE.json"
+  ],
+  "files": {
+    "PROOF.md": {
+      "bytes": 14466,
+      "sha256": "7b3fa0d70c8bb03401e8c1e0223d778650dc806a46fcfac477d2dbd1c753b22b"
+    },
+    "CERTIFICATE.json": {
+      "bytes": 13098,
+      "sha256": "1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389"
+    },
+    "check.py": {
+      "bytes": 13163,
+      "sha256": "71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d"
+    },
+    "build_certificate.py": {
+      "bytes": 4034,
+      "sha256": "46b548164b0dfd234003025256ea00e1541504a391137563bdbf93d18e853c07"
+    },
+    "RUNS.json": {
+      "bytes": 3745,
+      "sha256": "a6ef783ddf1ae1871fa96972bdb65ad6f7fc5fd3019707ff20861649f8c67f4d"
+    },
+    "MECHANISM.md": {
+      "bytes": 7719,
+      "sha256": "dfb1d4b4a0e0b05b73584f8f91c1a01e3ac8002de7dafbc0d4c489e3a1f1cdb0"
+    },
+    "mask_probe.py": {
+      "bytes": 4142,
+      "sha256": "94e26adbe1e3ce0d5f067e2def63817e85fda68fc273250bd58675e143fc1698"
+    },
+    "MASK_PROBE.json": {
+      "bytes": 3208,
+      "sha256": "d1cd0ba37f9fbdfaff57f98e358ff71bb94901644b4ef4a426ba78a137953f24"
+    },
+    "adjacent_probe.py": {
+      "bytes": 3222,
+      "sha256": "84645aa48485c9ed227e4f78bdb44bb821933e9657ca6919b424dde2436c0d8d"
+    },
+    "ADJACENT_PROBE.json": {
+      "bytes": 35652,
+      "sha256": "1b3fa34e8c8050b443850c8ecc371cdd5efa08e02f22a8446474fde19af0d68f"
+    },
+    "affine_probe.py": {
+      "bytes": 6824,
+      "sha256": "0d34fb316c4d2df7893728484ba50a7261b227ef24fdb4020cef8a3c3c15fbe1"
+    },
+    "AFFINE_PROBE.json": {
+      "bytes": 1369026,
+      "sha256": "1940134d9bd93222be51746e1a3a94efb84f502c2671b19bc59715c372a163b9"
+    }
+  }
+}

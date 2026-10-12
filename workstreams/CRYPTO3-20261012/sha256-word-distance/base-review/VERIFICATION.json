@@ -1,0 +1,249 @@
+{
+  "arbitrary_26_anchor_completions": [
+    {
+      "all_38_used_equations_zero": true,
+      "anchors_retained": true,
+      "completed_words_sha256": "43d8dcf6f987033d0d8dcb955a5f81a1ec11c5feae9a28b5d06652ab48e9e73c",
+      "nonzero_residual_indices": [
+        28,
+        29,
+        35,
+        36,
+        42,
+        43,
+        49,
+        50,
+        56,
+        57
+      ],
+      "seed": 1779033703
+    },
+    {
+      "all_38_used_equations_zero": true,
+      "anchors_retained": true,
+      "completed_words_sha256": "7835cd22275e249595dada953c44565925cce3f86ec4882692424f0a513c7e40",
+      "nonzero_residual_indices": [
+        28,
+        29,
+        35,
+        36,
+        42,
+        43,
+        49,
+        50,
+        56,
+        57
+      ],
+      "seed": 3144134277
+    }
+  ],
+  "author_assignments_verified": 38,
+  "common_word_formulas_verified": 10,
+  "damaged_anchor_control": {
+    "all_38_constructed_equations_zero": true,
+    "nonzero_remaining_equations": [
+      28,
+      29,
+      35,
+      36,
+      42,
+      43,
+      49,
+      50,
+      56,
+      57
+    ]
+  },
+  "evaluator_sha256": "1215aa82a6abe196fe2396803a5a7565042e7862c35a434ed2be0b4bfc156955",
+  "frozen_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "genuine_base_roundtrips": [
+    {
+      "all_48_raw_equations_zero": true,
+      "all_64_words_match": true,
+      "completed_words_sha256": "6d63809e087a4ccfb07d2ce812fb14c78c8718b76121e5dc910ede9dbc3fefb8",
+      "input_words": [
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "all_48_raw_equations_zero": true,
+      "all_64_words_match": true,
+      "completed_words_sha256": "20d15568edfd37c8e737f5b582de6b3e6c825702bfa96dfb48b5eafe01107311",
+      "input_words": [
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647,
+        2147483648,
+        2147483647
+      ]
+    },
+    {
+      "all_48_raw_equations_zero": true,
+      "all_64_words_match": true,
+      "completed_words_sha256": "fd63d598ac44b465721c7495ab8de8654cbe921f0114565d84119366bc432b71",
+      "input_words": [
+        324508639,
+        341351648,
+        358194657,
+        375037666,
+        391880675,
+        408723684,
+        425566693,
+        442409702,
+        459252711,
+        476095720,
+        492938729,
+        509781738,
+        526624747,
+        543467756,
+        560310765,
+        577153774
+      ]
+    },
+    {
+      "all_48_raw_equations_zero": true,
+      "all_64_words_match": true,
+      "completed_words_sha256": "8138467ddd8cee31005b2810ce94afc8026c94cd0d101cda8896f986c62e4906",
+      "input_words": [
+        95562928,
+        1005662939,
+        3923597873,
+        2266395313,
+        218806541,
+        1275950803,
+        2596958132,
+        612870017,
+        376022277,
+        1443251095,
+        3200170925,
+        2403857446,
+        3495678053,
+        2731643186,
+        2813975702,
+        1517690151
+      ]
+    }
+  ],
+  "lifting_identity": {
+    "exact_changed_support": [
+      2,
+      9,
+      10,
+      16,
+      23,
+      24,
+      30,
+      37,
+      38,
+      44,
+      51,
+      52,
+      58
+    ],
+    "interpretation": "rejected sparse candidate; verifies algebraic identity only",
+    "nonzero_replacement_residuals": [
+      16,
+      17,
+      18,
+      23,
+      24,
+      25,
+      26,
+      30,
+      31,
+      32,
+      37,
+      38,
+      39,
+      40,
+      44,
+      45,
+      46,
+      51,
+      52,
+      53,
+      54,
+      58,
+      59,
+      60
+    ],
+    "verified_equation_identities": 48
+  },
+  "manifest_files_verified": 7,
+  "negative_controls": [
+    {
+      "control": "missing active anchor",
+      "rejection": "wrong interpolation coordinates"
+    },
+    {
+      "control": "out-of-range word",
+      "rejection": "values must be unsigned 32-bit words"
+    },
+    {
+      "control": "non-integer Boolean word",
+      "rejection": "values must be unsigned 32-bit words"
+    },
+    {
+      "control": "wrong elimination target",
+      "rejection": "exactly one new coordinate"
+    },
+    {
+      "control": "omitted residual equation",
+      "rejection": "residual coordinates"
+    },
+    {
+      "control": "wrong sigma0 rotation constant",
+      "rejection": "original sigma basis"
+    },
+    {
+      "control": "damaged completed word",
+      "rejection": "nonzero original recurrence"
+    }
+  ],
+  "passed": true,
+  "proof_sha256": "436a80b20ae6d98a6d8a6b68248449ed047e212aaff8c9f6eb41a8ba73a76b9f",
+  "residual_indices": [
+    28,
+    29,
+    35,
+    36,
+    42,
+    43,
+    49,
+    50,
+    56,
+    57
+  ],
+  "reviewer_assignments_verified": 38,
+  "reviewer_sigma_inverse_compositions": 128,
+  "same_equation_set_different_order": true,
+  "schema": "independent-sha256-base-projection-review-v1",
+  "scope": "Independent written/evaluator review of two exact reductions; no projection surjectivity claim; no sparse pair found",
+  "sigma_basis_and_inverse_checks": 64
+}

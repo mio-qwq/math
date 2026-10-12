@@ -1,0 +1,77 @@
+{
+  "masks_checked": 132,
+  "families": 10,
+  "distinct_rows": 26,
+  "template_rows_xored": 36,
+  "row_membership_checks": 384,
+  "status": "PASS",
+  "python": "3.12.14",
+  "mask_assignments_examined": 131072,
+  "initial_carry": 0,
+  "final_carry": "unrestricted",
+  "local_transition_cases": 18,
+  "gaussian_elimination": false,
+  "solver_dependency": false,
+  "checker_sha256": "71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d",
+  "certificate_sha256": "1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389",
+  "review_status": "same-author checker; independent-agent review separate",
+  "scope": "No solution of the stated three local equations for fixed K; not a complete message-schedule exclusion by itself.",
+  "rejected_controls": [
+    {
+      "control": "wrong_K",
+      "reason": "exact fixed-mask FIPS object"
+    },
+    {
+      "control": "wrong_sigma0_rotation",
+      "reason": "exact fixed-mask FIPS object"
+    },
+    {
+      "control": "wrong_sigma1_shift",
+      "reason": "exact fixed-mask FIPS object"
+    },
+    {
+      "control": "wrong_input_derivative_sign",
+      "reason": "three derivative polarities"
+    },
+    {
+      "control": "incorrect_final_carry_zero",
+      "reason": "modular final carry scope"
+    },
+    {
+      "control": "omit_free_mask_bit",
+      "reason": "all 17 free mask bits"
+    },
+    {
+      "control": "omit_mask_case",
+      "reason": "canonical proof family"
+    },
+    {
+      "control": "duplicate_mask_case",
+      "reason": "canonical proof family"
+    },
+    {
+      "control": "tampered_row_coefficient",
+      "reason": "readable row coordinates"
+    },
+    {
+      "control": "tampered_row_rhs",
+      "reason": "direct XOR contradiction 0=1"
+    },
+    {
+      "control": "omit_XOR_premise",
+      "reason": "direct XOR contradiction 0=1"
+    },
+    {
+      "control": "unclassified_zero_mask",
+      "reason": "classified mask membership"
+    },
+    {
+      "control": "damaged_carry_table",
+      "reason": "complete checked affine carry table"
+    },
+    {
+      "control": "false_full_schedule_scope",
+      "reason": "local theorem scope"
+    }
+  ]
+}

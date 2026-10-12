@@ -1,0 +1,32 @@
+{
+  "author_exact_files": {
+    "PROOF.md": "1729e43270ca8d6090e02f2b2cbaf5c68f46a7543f3632197a99d2d99ef2ca89",
+    "SHA256.json": "56f1aebfb8bb076533b1f184048969f87486d791512029eede5a30590b455731",
+    "WITNESS.json": "d16791d3cf27c5a04746c3c5f7dc4d9c0b90419dc12743fddb96c3b1db4c4bf7"
+  },
+  "author_manifest_integrity_count": 7,
+  "compared_fields": [
+    "word.p",
+    "f.p",
+    "g.p",
+    "word.pp",
+    "f.pp",
+    "g.pp",
+    "word.q",
+    "f.q",
+    "g.q",
+    "word.qp",
+    "f.qp",
+    "g.qp",
+    "D",
+    "Fp",
+    "Fq",
+    "Gq",
+    "valuation"
+  ],
+  "independent_precomparison_files_unchanged": true,
+  "scope": "All 17 numerical fields match the independent reconstruction. Author proof mathematics read; discovery solver and author checker not executed or audited here.",
+  "status": "PASS",
+  "upper_bound_receipt_sha256": "6b2d264e21e88097c805eb0aced623beb5f21e5680e493be54fb459fd9099993",
+  "utc": "2026-10-12T09:50:17.001391+00:00"
+}

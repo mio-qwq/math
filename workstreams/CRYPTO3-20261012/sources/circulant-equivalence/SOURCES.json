@@ -1,0 +1,183 @@
+{
+  "schema": "circulant-equivalence-source-review-v1",
+  "reviewed_utc": "2026-10-12T09:23:27.340816+00:00",
+  "frozen_inputs": [
+    {
+      "commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "path": "workstreams/ROOT/cryptographic-structures/circulant/PROOF.md",
+      "bytes": 10681,
+      "sha256": "06c781a41d38721edf87d47a150d934b8143d8f5bec0160f8178a332f6e23a30",
+      "matches_frozen_git_blob": true
+    },
+    {
+      "commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "path": "workstreams/ROOT/cryptographic-structures/provenance.json",
+      "bytes": 14954,
+      "sha256": "d54f82c0a3d92db323c9990f1690a8a134ff405955731f7dc9b96fd01aa97ef8",
+      "matches_frozen_git_blob": true
+    },
+    {
+      "commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "path": "workstreams/ROOT/cryptographic-structures/VERIFICATION.json",
+      "bytes": 8047,
+      "sha256": "496d788f646b4c175142b02f6a7f9dc400d0f01bb089f8e3ac3628e97a51be7d",
+      "matches_frozen_git_blob": true
+    },
+    {
+      "commit": "7144a9245827c4cd1f45449e0776e46f2599f6fb",
+      "path": "workstreams/CRYPTO2-20261011-7f3c/PROOF-v2.md",
+      "bytes": 10434,
+      "sha256": "71d5a5dc6e757402db8b54a15507ffd6e4e8e87eec0f4f4fe438c21f6cf55d91",
+      "matches_main_provenance_source_sha256": true
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "daemen_rijmen_2009",
+      "url": "https://cs.ru.nl/~joan/papers/JDA_VRI_LinearMaps_2007.pdf",
+      "bytes": 575567,
+      "sha256": "e327b13965d15ecc96da756b94dab89ce7ff7481ae08038b0897ae63f957df01",
+      "pdf_magic": true,
+      "text_exit": 0,
+      "sha256_representation": "downloaded raw response bytes",
+      "included_in_repository": false,
+      "review": "PDF sections 2.4, 7-8 and 9.1; raw PDF plus web-rendered text",
+      "doi": "10.1007/s12095-008-0003-x"
+    },
+    {
+      "id": "whirlwind_2010",
+      "url": "https://research.utwente.nl/files/6728185/whirlwind_final_DCC.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256_representation": null,
+      "included_in_repository": false,
+      "review": "University copy download denied; publisher PDF separately read successfully"
+    },
+    {
+      "id": "barwick_jackson_2005",
+      "url": "https://eprint.iacr.org/2005/465.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256_representation": null,
+      "included_in_repository": false,
+      "review": "Official metadata/abstract only; PDF denied",
+      "metadata_url": "https://eprint.iacr.org/2005/465",
+      "metadata_history_revision": "2006-05-12"
+    },
+    {
+      "id": "kys_2026_v1",
+      "url": "https://arxiv.org/pdf/2605.27535v1",
+      "bytes": 401963,
+      "sha256": "f9d273e2bd3dfaf0d733965fb1014a356c073fab25e9a899313da33ff56d32e6",
+      "pdf_magic": true,
+      "text_exit": 0,
+      "sha256_representation": "downloaded raw response bytes",
+      "included_in_repository": false,
+      "review": "Theorems 2,4,5, sections IV and VI; raw PDF and versioned HTML",
+      "html_url": "https://arxiv.org/html/2605.27535v1",
+      "version": "arXiv:2605.27535v1",
+      "submission_utc": "2026-05-26T18:07:27Z"
+    },
+    {
+      "id": "jha_2025",
+      "url": "https://cic.iacr.org/p/2/1/37/pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256_representation": null,
+      "included_in_repository": false,
+      "review": "Web tool successfully supplied PDF text, especially section 1 and Theorem 3; direct raw-byte download denied",
+      "doi": "10.62056/a6ksdk5vt"
+    },
+    {
+      "id": "jha_readme",
+      "url": "https://raw.githubusercontent.com/sjsonucool/hadamard-matrices-resistant-to-related-differentials-cryptanalysis/abdc445c55baba482e3b9d0927e81983a1853adc/README.md",
+      "bytes": 5602,
+      "sha256": "55eff08a7cefee876b7d77817e111017a067167d649be193eb848f30ee14b138",
+      "sha256_representation": "downloaded raw response bytes",
+      "included_in_repository": false,
+      "review": "Repository README only; no source execution or mathematical-code audit",
+      "commit": "abdc445c55baba482e3b9d0927e81983a1853adc",
+      "git_ls_remote_exit_code": 0
+    },
+    {
+      "id": "cauchois_loidreau",
+      "url": "https://perso.univ-rennes1.fr/pierre.loidreau/articles/dcc/MDS_WCC.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256_representation": null,
+      "included_in_repository": false,
+      "review": "Author-PDF lead only, fetch denied; theorem contents not independently inspected"
+    },
+    {
+      "id": "kys_abs_v1",
+      "url": "https://arxiv.org/abs/2605.27535v1",
+      "bytes": 41641,
+      "sha256": "ce9d9fa9774122da9b4b14c2866d85bb3d165a796da072dfdcd4418790711b7a",
+      "sha256_representation": "downloaded raw response bytes",
+      "included_in_repository": false,
+      "review": "Official version history; retrieved unversioned page also lists v1 only",
+      "latest_metadata_url": "https://arxiv.org/abs/2605.27535"
+    },
+    {
+      "id": "whirlwind_publisher",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10623-010-9391-y.pdf",
+      "bytes": 300323,
+      "sha256": "64e317eae65e62bfa1da5a9221950f6e4e63b7fac86714400e7b955d8de5b321",
+      "pdf_magic": true,
+      "sha256_representation": "downloaded raw response bytes",
+      "included_in_repository": false,
+      "review": "Section 4.2, Theorem 1; raw PDF plus web-rendered text",
+      "doi": "10.1007/s10623-010-9391-y"
+    },
+    {
+      "id": "otal_sulce_yayla_2025",
+      "url": "https://eprint.iacr.org/2025/2240",
+      "review": "Official current abstract and history only; PDF and all-versions page returned 403",
+      "received": "2025-12-12",
+      "latest_revision_listed": "2026-06-11",
+      "sha256": null,
+      "reason_no_byte_hash": "No raw-byte archival copy retrieved",
+      "pdf_url": "https://eprint.iacr.org/2025/2240.pdf"
+    },
+    {
+      "id": "mousavi_esmaeili_gulliver_2025",
+      "url": "https://www.aimsciences.org/article/doi/10.3934/amc.2024020",
+      "review": "Publisher abstract and metadata only; no claim about unseen full text",
+      "early_online": "2024-05-13",
+      "issue": "2025, volume 19 issue 2, pages 716-735",
+      "sha256": null,
+      "reason_no_byte_hash": "Browser-rendered metadata inspected; raw response not downloaded"
+    }
+  ],
+  "bounded_search": {
+    "engines": [
+      "system1",
+      "system2"
+    ],
+    "queries": [
+      "\"related differentials\" circulant quotient",
+      "\"perfect hash\" \"double circulant\"",
+      "\"circulant\" \"MDS\" \"quotient\" branch number",
+      "Daemen Rijmen \"New criteria for linear maps\" pdf",
+      "\"Whirlwind\" \"related differentials\"",
+      "\"linear\" \"3-perfect hash\" codes",
+      "\"circulant\" \"related differentials\"",
+      "circulant \"perfect hash\" code",
+      "\"related differentials\" \"quotient\"",
+      "\"related differentials\" \"circulant\" \"2026\"",
+      "\"circulant\" \"linear perfect hash\"",
+      "\"double-circulant\" \"separating\"",
+      "\"circulant\" \"related-differential\" lifting",
+      "\"On the Cryptographic Resilience of MDS Matrices\" eprint",
+      "\"circulant MDS\" \"divisor\"",
+      "\"perfect hash\" \"cyclic\" \"linear\" Blackburn",
+      "Whirlwind hash Barreto Rijmen 2010 pdf",
+      "Barwick Jackson \"A sequence approach\" pdf",
+      "\"On circulant involutory MDS matrices\" Cauchois Loidreau"
+    ],
+    "result": "No same-scope all-order RD completion identified among inspected primary sources. This does not establish novelty or exhaustiveness."
+  },
+  "verification_scope": {
+    "repeated_finite_enumeration": false,
+    "lean_compiled": false,
+    "external_code_executed": false,
+    "external_messages_sent": false,
+    "new_global_theorem_claimed": false
+  }
+}

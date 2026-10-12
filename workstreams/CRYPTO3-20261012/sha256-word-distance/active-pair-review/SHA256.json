@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "bytes": 2652,
+      "path": "COMPARISON.json",
+      "sha256": "f5eb8ea077c2730ee0eab27590166cb26d647163157220cd7bf9aaaadff88f26"
+    },
+    {
+      "bytes": 27132,
+      "path": "INDEPENDENT_RUN.json",
+      "sha256": "7e951e4ac3b5e26c5eb73ef4895be2e35c9daa79ecd98ff510db0d9159077001"
+    },
+    {
+      "bytes": 6283,
+      "path": "INTERFACES.md",
+      "sha256": "1d67dfe94b4a6b5ee73f000a2174d17052adfd2b1c44611f32ca5cf6a7e2196c"
+    },
+    {
+      "bytes": 636,
+      "path": "PRECOMPARISON_FREEZE.json",
+      "sha256": "a931f748f0d3989d3afc7b2028ba7223cf8e91ec7ab7dfe94123864e31997120"
+    },
+    {
+      "bytes": 1357,
+      "path": "RECONSTRUCTION.md",
+      "sha256": "1d435f0018bfa29ec2b2f6dbc3b703ee62356c384900cf8409dd8f87b984e3a9"
+    },
+    {
+      "bytes": 5702,
+      "path": "REVIEW.md",
+      "sha256": "6ab1c12692dd1e5846bfb2e3871713227891036b395147a445aa3e6aedada216"
+    },
+    {
+      "bytes": 2903,
+      "path": "REVIEW_RECEIPT.json",
+      "sha256": "a3622616894979449c0cf62e1d9fb75f4f906916b28afaa71687ec111511fe31"
+    },
+    {
+      "bytes": 563,
+      "path": "RUN_EXECUTION.json",
+      "sha256": "4799b4e49eb402c918b71827a7d1a17b37e87cc0e4b998d4c73ecfa0793863ff"
+    },
+    {
+      "bytes": 8940,
+      "path": "check_interfaces.py",
+      "sha256": "dbb3b7f6f523696dc6be3e239d720846e2942b2af2c4fe9d8ef8658f9e42165a"
+    }
+  ],
+  "schema": "crypto3-file-manifest-v1"
+}

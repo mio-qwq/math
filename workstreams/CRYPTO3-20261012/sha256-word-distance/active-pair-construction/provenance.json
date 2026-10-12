@@ -1,0 +1,17 @@
+{
+  "base_lift_context_only": {
+    "path": "../base-lift/PROJECTION.md",
+    "sha256": "436a80b20ae6d98a6d8a6b68248449ed047e212aaff8c9f6eb41a8ba73a76b9f",
+    "used_for_proving_current_module_theorem": false
+  },
+  "discoverer": "CRYPTO3-20261012 delegated mechanism investigation",
+  "frozen_source_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "frozen_support_path": "workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/supports.json",
+  "independent_agent_review": false,
+  "schema": "crypto3-active-pair-construction-provenance-v1",
+  "scope": "Exact difference-interface construction criterion and one excluded fixed-mask family; no full active assignment or actual schedule pair.",
+  "seed_origin": "Four-word local coupled seed supplied in-session by the root researcher and recomputed from original output bits here.",
+  "standard": "FIPS 180-4, sigma definitions and SHA-256 schedule as supplied in the exact project definition",
+  "support_copy_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "support_index": 0
+}

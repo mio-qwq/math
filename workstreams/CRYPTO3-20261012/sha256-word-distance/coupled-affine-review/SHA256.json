@@ -1,0 +1,66 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "AUTHOR-CHECKER-RERUN.json": {
+      "bytes": 2150,
+      "sha256": "b362e25b92b33e8c62f9caa3b451f27e82d9dfe8c7880b7cb4996107e085404a"
+    },
+    "AUTHOR-CHECKER-STDERR.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "COMPARISON.json": {
+      "bytes": 96268,
+      "sha256": "82a3f89f4fb2d0f3e795b6ba31993657e95217e4027746a9058af32f804a4886"
+    },
+    "INDEPENDENT-CERTIFICATE.json": {
+      "bytes": 43512,
+      "sha256": "d18c1461f641f510a8b67187b110c91c9e47b2cf1ffd8e296a283058a9b76d72"
+    },
+    "INDEPENDENT-VERIFICATION.json": {
+      "bytes": 1393,
+      "sha256": "97587a5a1fc14cb318c1f85880c43910d4a2f8ec35bc2bb5bece11414dd4314f"
+    },
+    "PRE-AUTHOR-CHECKPOINT.json": {
+      "bytes": 498,
+      "sha256": "bb401045ff4705a8ab8ac1af33b314eb4348b029d81f0bb54278240aff16c50d"
+    },
+    "README.md": {
+      "bytes": 1798,
+      "sha256": "3fcda19ad5cc31209980af427088eb8f739fb483fe695fbc2d9c40e1eb666202"
+    },
+    "RECEIPT.json": {
+      "bytes": 2045,
+      "sha256": "d297e28fedd90255515b7810cb942a350677f813ce818a10c28ec94960f5bd79"
+    },
+    "RECONSTRUCTION.md": {
+      "bytes": 3160,
+      "sha256": "ebbb1cfa7adae8b53a3f294247f95c77e4d7c0ae990f7ad824112befc077901b"
+    },
+    "REVIEW.md": {
+      "bytes": 11273,
+      "sha256": "9a1b95e1d1e1795e9fd47df4699f51e81fa89c04c4f1ead795242b6b958fcee7"
+    },
+    "RUNS.json": {
+      "bytes": 2113,
+      "sha256": "c2ee43085d9654ac97a17863b46a4f72c7af15e686d980ceb8b969267afcf881"
+    },
+    "compare_author.py": {
+      "bytes": 11692,
+      "sha256": "ae8219860b86126d307c361d087c77e8bb9b67243b6dd748441712df5aec70b9"
+    },
+    "reconstruct.py": {
+      "bytes": 6017,
+      "sha256": "627d452dea94af1ad06b3df75e48553f0a1154414a6a6b9d8cbefb8dcb15db75"
+    },
+    "reproduce.py": {
+      "bytes": 2346,
+      "sha256": "04a9baf3b827d114cf0a95cf249f23dae6d81a381163df9c696de7e4b8eee2f2"
+    },
+    "verify_independent.py": {
+      "bytes": 8125,
+      "sha256": "4e87cd80c2188fd497ce38fa1ccaee1538885b6bbcdf89a93894d483a30794dc"
+    }
+  },
+  "schema": "crypto3-independent-review-sha256-v1"
+}

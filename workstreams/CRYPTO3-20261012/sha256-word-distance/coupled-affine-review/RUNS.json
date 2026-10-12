@@ -1,0 +1,63 @@
+{
+  "author_replay_matches_author_frozen_run": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "reconstruct.py"
+      ],
+      "exit_code": 0,
+      "matches_stored_json": true,
+      "seconds": 0.346423,
+      "source_sha256": "627d452dea94af1ad06b3df75e48553f0a1154414a6a6b9d8cbefb8dcb15db75",
+      "stderr": "",
+      "stored_output_sha256": "d18c1461f641f510a8b67187b110c91c9e47b2cf1ffd8e296a283058a9b76d72"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "verify_independent.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "matches_stored_json": true,
+      "seconds": 1.003094,
+      "source_sha256": "4e87cd80c2188fd497ce38fa1ccaee1538885b6bbcdf89a93894d483a30794dc",
+      "stderr": "",
+      "stored_output_sha256": "97587a5a1fc14cb318c1f85880c43910d4a2f8ec35bc2bb5bece11414dd4314f"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "compare_author.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "matches_stored_json": true,
+      "seconds": 0.204835,
+      "source_sha256": "ae8219860b86126d307c361d087c77e8bb9b67243b6dd748441712df5aec70b9",
+      "stderr": "",
+      "stored_output_sha256": "82a3f89f4fb2d0f3e795b6ba31993657e95217e4027746a9058af32f804a4886"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "../coupled-short-proof/check.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "matches_stored_json": true,
+      "seconds": 0.362413,
+      "source_sha256": "71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d",
+      "stderr": "",
+      "stored_output_sha256": "b362e25b92b33e8c62f9caa3b451f27e82d9dfe8c7880b7cb4996107e085404a"
+    }
+  ],
+  "sat_smt_RUP_or_DRUP_used": false,
+  "status": "pass"
+}

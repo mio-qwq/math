@@ -1,0 +1,15 @@
+{
+  "schema": "crypto3-coupled-local-sharpness-v1",
+  "solver": "Z3 4.15.3",
+  "timeout_ms": 15000,
+  "status": "sat",
+  "seconds": 0.11617131999992125,
+  "scope": "four actual words only; no schedule or message pair",
+  "statistics": "(:max-memory              26.27\n :memory                  17.29\n :num-allocs              2742548\n :rlimit-count            528944\n :sat-backjumps           6385\n :sat-conflicts           6385\n :sat-decisions           14405\n :sat-del-clause          4447\n :sat-elim-bool-vars-res  745\n :sat-elim-clauses        194\n :sat-elim-literals       630\n :sat-minimized-lits      28927\n :sat-mk-clause-2ary      2071\n :sat-mk-clause-3ary      864\n :sat-mk-clause-nary      14109\n :sat-mk-var              1783\n :sat-probing-assigned    3\n :sat-propagations-2ary   106039\n :sat-propagations-nary   351152\n :sat-restarts            578\n :sat-scc-elim-vars       65\n :sat-subs-resolution     6\n :sat-subs-resolution-dyn 550\n :sat-subsumed            678\n :sat-units               18\n :solve-eqs-elim-vars     12\n :solve-eqs-steps         19\n :time                    0.12)",
+  "words": {
+    "p": "0019f0ed",
+    "pp": "973448ed",
+    "q": "dff7f75f",
+    "qp": "77124f5f"
+  }
+}

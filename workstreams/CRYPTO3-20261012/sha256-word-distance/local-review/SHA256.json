@@ -1,0 +1,15 @@
+{
+  "schema": "CRYPTO3-independent-local-review-sha256-v1",
+  "scope": "Only this local review package; discoverer versions are separately pinned in REVIEW_RECEIPT.json.",
+  "files": {
+    "COMPARISON_RUN.json": "f2465156aca8c287af100330b1209890001ed8e3166e2db164e294d853abfa14",
+    "INDEPENDENT_PROOF.md": "31ac51c4ba5bcb867822a283ae003d9ed5b23c6e250fdd70b616d1407f4243bd",
+    "INDEPENDENT_RUN.json": "64d5e5379f5e44e691f8692e755a9b730ff91c78c7cf55c7bbf747e652edb6ee",
+    "RECONSTRUCTION.md": "2b9872a9cfdeefe4814e6c4bfde5a48c5f6616325f7be52161c4cb22d701adbb",
+    "REVIEW.md": "792a7c31dad7fb71c31c0317c414a32b3ee129f82169e0c935f171c1a84870b3",
+    "REVIEW_RECEIPT.json": "9e65e355bb0bd50a36b391675112ce9db079b294e1f2d50aab8cb7d4553c00d3",
+    "check_independent.py": "3273f3612a2295584563e24975c4eb507935ad98b4a1c28b0b0d7d3a4b5d3c9d",
+    "compare_discoverer.py": "412195cb08d67856ca6427b681aeb4ea2dd5df2cc2b22e6920016938e4aedf06",
+    "independent_certificate.json": "5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342"
+  }
+}

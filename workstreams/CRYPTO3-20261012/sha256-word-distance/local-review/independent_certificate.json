@@ -1,0 +1,2199 @@
+{
+  "schema": "CRYPTO3-independent-local-h-v1",
+  "definition": {
+    "bits": 32,
+    "rotr": [
+      17,
+      19
+    ],
+    "shr": 10,
+    "outer_operation": "addition modulo 2^32"
+  },
+  "low13": {
+    "low_bits": 13,
+    "map_rank": 26,
+    "map_columns": [
+      "00000001",
+      "00000002",
+      "00000004",
+      "00000008",
+      "00000010",
+      "00000020",
+      "00000040",
+      "00000080",
+      "00000100",
+      "00000200",
+      "00002400",
+      "00004800",
+      "00009000",
+      "00010000",
+      "00020000",
+      "00040000",
+      "00080000",
+      "00102000",
+      "00204000",
+      "0040a000",
+      "00814000",
+      "01028000",
+      "02050000",
+      "000a0000",
+      "00140000",
+      "00280000",
+      "00500000",
+      "00a00000",
+      "01400000",
+      "02800000",
+      "01000000",
+      "02000000"
+    ],
+    "kernel_dimension": 6,
+    "kernel_basis": [
+      "00814000",
+      "08142000",
+      "112ac000",
+      "22558000",
+      "442a4000",
+      "8040a000"
+    ],
+    "nonzero_masks_checked": 63,
+    "surviving_masks": [],
+    "cases": [
+      {
+        "selector": 1,
+        "xor_mask": "00814000",
+        "sigma1_mask": "88002000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 2,
+        "xor_mask": "08142000",
+        "sigma1_mask": "94020000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 3,
+        "xor_mask": "08956000",
+        "sigma1_mask": "1c022000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 4,
+        "xor_mask": "112ac000",
+        "sigma1_mask": "38044000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 5,
+        "xor_mask": "11ab8000",
+        "sigma1_mask": "b0046000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 6,
+        "xor_mask": "193ee000",
+        "sigma1_mask": "ac064000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 7,
+        "xor_mask": "19bfa000",
+        "sigma1_mask": "24066000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 8,
+        "xor_mask": "22558000",
+        "sigma1_mask": "70088000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 9,
+        "xor_mask": "22d4c000",
+        "sigma1_mask": "f808a000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 10,
+        "xor_mask": "2a41a000",
+        "sigma1_mask": "e40a8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 11,
+        "xor_mask": "2ac0e000",
+        "sigma1_mask": "6c0aa000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 12,
+        "xor_mask": "337f4000",
+        "sigma1_mask": "480cc000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 13,
+        "xor_mask": "33fe0000",
+        "sigma1_mask": "c00ce000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 14,
+        "xor_mask": "3b6b6000",
+        "sigma1_mask": "dc0ec000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 15,
+        "xor_mask": "3bea2000",
+        "sigma1_mask": "540ee000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 16,
+        "xor_mask": "442a4000",
+        "sigma1_mask": "68112000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 17,
+        "xor_mask": "44ab0000",
+        "sigma1_mask": "e0110000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 18,
+        "xor_mask": "4c3e6000",
+        "sigma1_mask": "fc132000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 19,
+        "xor_mask": "4cbf2000",
+        "sigma1_mask": "74130000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 20,
+        "xor_mask": "55008000",
+        "sigma1_mask": "50156000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 21,
+        "xor_mask": "5581c000",
+        "sigma1_mask": "d8154000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 22,
+        "xor_mask": "5d14a000",
+        "sigma1_mask": "c4176000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 23,
+        "xor_mask": "5d95e000",
+        "sigma1_mask": "4c174000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 24,
+        "xor_mask": "667fc000",
+        "sigma1_mask": "1819a000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 25,
+        "xor_mask": "66fe8000",
+        "sigma1_mask": "90198000",
+        "first_obstruction_bit": 25
+      },
+      {
+        "selector": 26,
+        "xor_mask": "6e6be000",
+        "sigma1_mask": "8c1ba000",
+        "first_obstruction_bit": 25
+      },
+      {
+        "selector": 27,
+        "xor_mask": "6eeaa000",
+        "sigma1_mask": "041b8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 28,
+        "xor_mask": "77550000",
+        "sigma1_mask": "201de000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 29,
+        "xor_mask": "77d44000",
+        "sigma1_mask": "a81dc000",
+        "first_obstruction_bit": 22
+      },
+      {
+        "selector": 30,
+        "xor_mask": "7f412000",
+        "sigma1_mask": "b41fe000",
+        "first_obstruction_bit": 22
+      },
+      {
+        "selector": 31,
+        "xor_mask": "7fc06000",
+        "sigma1_mask": "3c1fc000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 32,
+        "xor_mask": "8040a000",
+        "sigma1_mask": "44204000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 33,
+        "xor_mask": "80c1e000",
+        "sigma1_mask": "cc206000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 34,
+        "xor_mask": "88548000",
+        "sigma1_mask": "d0224000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 35,
+        "xor_mask": "88d5c000",
+        "sigma1_mask": "58226000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 36,
+        "xor_mask": "916a6000",
+        "sigma1_mask": "7c240000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 37,
+        "xor_mask": "91eb2000",
+        "sigma1_mask": "f4242000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 38,
+        "xor_mask": "997e4000",
+        "sigma1_mask": "e8260000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 39,
+        "xor_mask": "99ff0000",
+        "sigma1_mask": "60262000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 40,
+        "xor_mask": "a2152000",
+        "sigma1_mask": "3428c000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 41,
+        "xor_mask": "a2946000",
+        "sigma1_mask": "bc28e000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 42,
+        "xor_mask": "aa010000",
+        "sigma1_mask": "a02ac000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 43,
+        "xor_mask": "aa804000",
+        "sigma1_mask": "282ae000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 44,
+        "xor_mask": "b33fe000",
+        "sigma1_mask": "0c2c8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 45,
+        "xor_mask": "b3bea000",
+        "sigma1_mask": "842ca000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 46,
+        "xor_mask": "bb2bc000",
+        "sigma1_mask": "982e8000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 47,
+        "xor_mask": "bbaa8000",
+        "sigma1_mask": "102ea000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 48,
+        "xor_mask": "c46ae000",
+        "sigma1_mask": "2c316000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 49,
+        "xor_mask": "c4eba000",
+        "sigma1_mask": "a4314000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 50,
+        "xor_mask": "cc7ec000",
+        "sigma1_mask": "b8336000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 51,
+        "xor_mask": "ccff8000",
+        "sigma1_mask": "30334000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 52,
+        "xor_mask": "d5402000",
+        "sigma1_mask": "14352000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 53,
+        "xor_mask": "d5c16000",
+        "sigma1_mask": "9c350000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 54,
+        "xor_mask": "dd540000",
+        "sigma1_mask": "80372000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 55,
+        "xor_mask": "ddd54000",
+        "sigma1_mask": "08370000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 56,
+        "xor_mask": "e63f6000",
+        "sigma1_mask": "5c39e000",
+        "first_obstruction_bit": 25
+      },
+      {
+        "selector": 57,
+        "xor_mask": "e6be2000",
+        "sigma1_mask": "d439c000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 58,
+        "xor_mask": "ee2b4000",
+        "sigma1_mask": "c83be000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 59,
+        "xor_mask": "eeaa0000",
+        "sigma1_mask": "403bc000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 60,
+        "xor_mask": "f715a000",
+        "sigma1_mask": "643da000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 61,
+        "xor_mask": "f794e000",
+        "sigma1_mask": "ec3d8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 62,
+        "xor_mask": "ff018000",
+        "sigma1_mask": "f03fa000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 63,
+        "xor_mask": "ff80c000",
+        "sigma1_mask": "783f8000",
+        "first_obstruction_bit": 14
+      }
+    ]
+  },
+  "low12": {
+    "low_bits": 12,
+    "map_rank": 24,
+    "map_columns": [
+      "00000001",
+      "00000002",
+      "00000004",
+      "00000008",
+      "00000010",
+      "00000020",
+      "00000040",
+      "00000080",
+      "00000100",
+      "00000200",
+      "00001400",
+      "00002800",
+      "00004000",
+      "00008000",
+      "00010000",
+      "00020000",
+      "00040000",
+      "00081000",
+      "00102000",
+      "00205000",
+      "0040a000",
+      "00814000",
+      "00028000",
+      "00050000",
+      "000a0000",
+      "00140000",
+      "00280000",
+      "00500000",
+      "00a00000",
+      "00400000",
+      "00800000",
+      "00000000"
+    ],
+    "kernel_dimension": 8,
+    "kernel_basis": [
+      "0040a000",
+      "00814000",
+      "040a1000",
+      "08142000",
+      "112ac000",
+      "22152000",
+      "40205000",
+      "80000000"
+    ],
+    "nonzero_masks_checked": 255,
+    "surviving_masks": [
+      "fbca7000"
+    ],
+    "cases": [
+      {
+        "selector": 1,
+        "xor_mask": "0040a000",
+        "sigma1_mask": "44001000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 2,
+        "xor_mask": "00814000",
+        "sigma1_mask": "88002000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 3,
+        "xor_mask": "00c1e000",
+        "sigma1_mask": "cc003000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 4,
+        "xor_mask": "040a1000",
+        "sigma1_mask": "4a010000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 5,
+        "xor_mask": "044ab000",
+        "sigma1_mask": "0e011000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 6,
+        "xor_mask": "048b5000",
+        "sigma1_mask": "c2012000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 7,
+        "xor_mask": "04cbf000",
+        "sigma1_mask": "86013000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 8,
+        "xor_mask": "08142000",
+        "sigma1_mask": "94020000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 9,
+        "xor_mask": "08548000",
+        "sigma1_mask": "d0021000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 10,
+        "xor_mask": "08956000",
+        "sigma1_mask": "1c022000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 11,
+        "xor_mask": "08d5c000",
+        "sigma1_mask": "58023000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 12,
+        "xor_mask": "0c1e3000",
+        "sigma1_mask": "de030000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 13,
+        "xor_mask": "0c5e9000",
+        "sigma1_mask": "9a031000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 14,
+        "xor_mask": "0c9f7000",
+        "sigma1_mask": "56032000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 15,
+        "xor_mask": "0cdfd000",
+        "sigma1_mask": "12033000",
+        "first_obstruction_bit": 22
+      },
+      {
+        "selector": 16,
+        "xor_mask": "112ac000",
+        "sigma1_mask": "38044000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 17,
+        "xor_mask": "116a6000",
+        "sigma1_mask": "7c045000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 18,
+        "xor_mask": "11ab8000",
+        "sigma1_mask": "b0046000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 19,
+        "xor_mask": "11eb2000",
+        "sigma1_mask": "f4047000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 20,
+        "xor_mask": "1520d000",
+        "sigma1_mask": "72054000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 21,
+        "xor_mask": "15607000",
+        "sigma1_mask": "36055000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 22,
+        "xor_mask": "15a19000",
+        "sigma1_mask": "fa056000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 23,
+        "xor_mask": "15e13000",
+        "sigma1_mask": "be057000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 24,
+        "xor_mask": "193ee000",
+        "sigma1_mask": "ac064000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 25,
+        "xor_mask": "197e4000",
+        "sigma1_mask": "e8065000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 26,
+        "xor_mask": "19bfa000",
+        "sigma1_mask": "24066000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 27,
+        "xor_mask": "19ff0000",
+        "sigma1_mask": "60067000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 28,
+        "xor_mask": "1d34f000",
+        "sigma1_mask": "e6074000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 29,
+        "xor_mask": "1d745000",
+        "sigma1_mask": "a2075000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 30,
+        "xor_mask": "1db5b000",
+        "sigma1_mask": "6e076000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 31,
+        "xor_mask": "1df51000",
+        "sigma1_mask": "2a077000",
+        "first_obstruction_bit": 20
+      },
+      {
+        "selector": 32,
+        "xor_mask": "22152000",
+        "sigma1_mask": "34089000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 33,
+        "xor_mask": "22558000",
+        "sigma1_mask": "70088000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 34,
+        "xor_mask": "22946000",
+        "sigma1_mask": "bc08b000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 35,
+        "xor_mask": "22d4c000",
+        "sigma1_mask": "f808a000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 36,
+        "xor_mask": "261f3000",
+        "sigma1_mask": "7e099000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 37,
+        "xor_mask": "265f9000",
+        "sigma1_mask": "3a098000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 38,
+        "xor_mask": "269e7000",
+        "sigma1_mask": "f609b000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 39,
+        "xor_mask": "26ded000",
+        "sigma1_mask": "b209a000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 40,
+        "xor_mask": "2a010000",
+        "sigma1_mask": "a00a9000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 41,
+        "xor_mask": "2a41a000",
+        "sigma1_mask": "e40a8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 42,
+        "xor_mask": "2a804000",
+        "sigma1_mask": "280ab000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 43,
+        "xor_mask": "2ac0e000",
+        "sigma1_mask": "6c0aa000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 44,
+        "xor_mask": "2e0b1000",
+        "sigma1_mask": "ea0b9000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 45,
+        "xor_mask": "2e4bb000",
+        "sigma1_mask": "ae0b8000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 46,
+        "xor_mask": "2e8a5000",
+        "sigma1_mask": "620bb000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 47,
+        "xor_mask": "2ecaf000",
+        "sigma1_mask": "260ba000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 48,
+        "xor_mask": "333fe000",
+        "sigma1_mask": "0c0cd000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 49,
+        "xor_mask": "337f4000",
+        "sigma1_mask": "480cc000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 50,
+        "xor_mask": "33bea000",
+        "sigma1_mask": "840cf000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 51,
+        "xor_mask": "33fe0000",
+        "sigma1_mask": "c00ce000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 52,
+        "xor_mask": "3735f000",
+        "sigma1_mask": "460dd000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 53,
+        "xor_mask": "37755000",
+        "sigma1_mask": "020dc000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 54,
+        "xor_mask": "37b4b000",
+        "sigma1_mask": "ce0df000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 55,
+        "xor_mask": "37f41000",
+        "sigma1_mask": "8a0de000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 56,
+        "xor_mask": "3b2bc000",
+        "sigma1_mask": "980ed000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 57,
+        "xor_mask": "3b6b6000",
+        "sigma1_mask": "dc0ec000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 58,
+        "xor_mask": "3baa8000",
+        "sigma1_mask": "100ef000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 59,
+        "xor_mask": "3bea2000",
+        "sigma1_mask": "540ee000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 60,
+        "xor_mask": "3f21d000",
+        "sigma1_mask": "d20fd000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 61,
+        "xor_mask": "3f617000",
+        "sigma1_mask": "960fc000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 62,
+        "xor_mask": "3fa09000",
+        "sigma1_mask": "5a0ff000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 63,
+        "xor_mask": "3fe03000",
+        "sigma1_mask": "1e0fe000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 64,
+        "xor_mask": "40205000",
+        "sigma1_mask": "22102000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 65,
+        "xor_mask": "4060f000",
+        "sigma1_mask": "66103000",
+        "first_obstruction_bit": 20
+      },
+      {
+        "selector": 66,
+        "xor_mask": "40a11000",
+        "sigma1_mask": "aa100000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 67,
+        "xor_mask": "40e1b000",
+        "sigma1_mask": "ee101000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 68,
+        "xor_mask": "442a4000",
+        "sigma1_mask": "68112000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 69,
+        "xor_mask": "446ae000",
+        "sigma1_mask": "2c113000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 70,
+        "xor_mask": "44ab0000",
+        "sigma1_mask": "e0110000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 71,
+        "xor_mask": "44eba000",
+        "sigma1_mask": "a4111000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 72,
+        "xor_mask": "48347000",
+        "sigma1_mask": "b6122000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 73,
+        "xor_mask": "4874d000",
+        "sigma1_mask": "f2123000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 74,
+        "xor_mask": "48b53000",
+        "sigma1_mask": "3e120000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 75,
+        "xor_mask": "48f59000",
+        "sigma1_mask": "7a121000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 76,
+        "xor_mask": "4c3e6000",
+        "sigma1_mask": "fc132000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 77,
+        "xor_mask": "4c7ec000",
+        "sigma1_mask": "b8133000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 78,
+        "xor_mask": "4cbf2000",
+        "sigma1_mask": "74130000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 79,
+        "xor_mask": "4cff8000",
+        "sigma1_mask": "30131000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 80,
+        "xor_mask": "510a9000",
+        "sigma1_mask": "1a146000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 81,
+        "xor_mask": "514a3000",
+        "sigma1_mask": "5e147000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 82,
+        "xor_mask": "518bd000",
+        "sigma1_mask": "92144000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 83,
+        "xor_mask": "51cb7000",
+        "sigma1_mask": "d6145000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 84,
+        "xor_mask": "55008000",
+        "sigma1_mask": "50156000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 85,
+        "xor_mask": "55402000",
+        "sigma1_mask": "14157000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 86,
+        "xor_mask": "5581c000",
+        "sigma1_mask": "d8154000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 87,
+        "xor_mask": "55c16000",
+        "sigma1_mask": "9c155000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 88,
+        "xor_mask": "591eb000",
+        "sigma1_mask": "8e166000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 89,
+        "xor_mask": "595e1000",
+        "sigma1_mask": "ca167000",
+        "first_obstruction_bit": 22
+      },
+      {
+        "selector": 90,
+        "xor_mask": "599ff000",
+        "sigma1_mask": "06164000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 91,
+        "xor_mask": "59df5000",
+        "sigma1_mask": "42165000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 92,
+        "xor_mask": "5d14a000",
+        "sigma1_mask": "c4176000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 93,
+        "xor_mask": "5d540000",
+        "sigma1_mask": "80177000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 94,
+        "xor_mask": "5d95e000",
+        "sigma1_mask": "4c174000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 95,
+        "xor_mask": "5dd54000",
+        "sigma1_mask": "08175000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 96,
+        "xor_mask": "62357000",
+        "sigma1_mask": "1618b000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 97,
+        "xor_mask": "6275d000",
+        "sigma1_mask": "5218a000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 98,
+        "xor_mask": "62b43000",
+        "sigma1_mask": "9e189000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 99,
+        "xor_mask": "62f49000",
+        "sigma1_mask": "da188000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 100,
+        "xor_mask": "663f6000",
+        "sigma1_mask": "5c19b000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 101,
+        "xor_mask": "667fc000",
+        "sigma1_mask": "1819a000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 102,
+        "xor_mask": "66be2000",
+        "sigma1_mask": "d4199000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 103,
+        "xor_mask": "66fe8000",
+        "sigma1_mask": "90198000",
+        "first_obstruction_bit": 25
+      },
+      {
+        "selector": 104,
+        "xor_mask": "6a215000",
+        "sigma1_mask": "821ab000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 105,
+        "xor_mask": "6a61f000",
+        "sigma1_mask": "c61aa000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 106,
+        "xor_mask": "6aa01000",
+        "sigma1_mask": "0a1a9000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 107,
+        "xor_mask": "6ae0b000",
+        "sigma1_mask": "4e1a8000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 108,
+        "xor_mask": "6e2b4000",
+        "sigma1_mask": "c81bb000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 109,
+        "xor_mask": "6e6be000",
+        "sigma1_mask": "8c1ba000",
+        "first_obstruction_bit": 25
+      },
+      {
+        "selector": 110,
+        "xor_mask": "6eaa0000",
+        "sigma1_mask": "401b9000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 111,
+        "xor_mask": "6eeaa000",
+        "sigma1_mask": "041b8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 112,
+        "xor_mask": "731fb000",
+        "sigma1_mask": "2e1cf000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 113,
+        "xor_mask": "735f1000",
+        "sigma1_mask": "6a1ce000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 114,
+        "xor_mask": "739ef000",
+        "sigma1_mask": "a61cd000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 115,
+        "xor_mask": "73de5000",
+        "sigma1_mask": "e21cc000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 116,
+        "xor_mask": "7715a000",
+        "sigma1_mask": "641df000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 117,
+        "xor_mask": "77550000",
+        "sigma1_mask": "201de000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 118,
+        "xor_mask": "7794e000",
+        "sigma1_mask": "ec1dd000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 119,
+        "xor_mask": "77d44000",
+        "sigma1_mask": "a81dc000",
+        "first_obstruction_bit": 22
+      },
+      {
+        "selector": 120,
+        "xor_mask": "7b0b9000",
+        "sigma1_mask": "ba1ef000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 121,
+        "xor_mask": "7b4b3000",
+        "sigma1_mask": "fe1ee000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 122,
+        "xor_mask": "7b8ad000",
+        "sigma1_mask": "321ed000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 123,
+        "xor_mask": "7bca7000",
+        "sigma1_mask": "761ec000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 124,
+        "xor_mask": "7f018000",
+        "sigma1_mask": "f01ff000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 125,
+        "xor_mask": "7f412000",
+        "sigma1_mask": "b41fe000",
+        "first_obstruction_bit": 22
+      },
+      {
+        "selector": 126,
+        "xor_mask": "7f80c000",
+        "sigma1_mask": "781fd000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 127,
+        "xor_mask": "7fc06000",
+        "sigma1_mask": "3c1fc000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 128,
+        "xor_mask": "80000000",
+        "sigma1_mask": "00205000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 129,
+        "xor_mask": "8040a000",
+        "sigma1_mask": "44204000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 130,
+        "xor_mask": "80814000",
+        "sigma1_mask": "88207000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 131,
+        "xor_mask": "80c1e000",
+        "sigma1_mask": "cc206000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 132,
+        "xor_mask": "840a1000",
+        "sigma1_mask": "4a215000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 133,
+        "xor_mask": "844ab000",
+        "sigma1_mask": "0e214000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 134,
+        "xor_mask": "848b5000",
+        "sigma1_mask": "c2217000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 135,
+        "xor_mask": "84cbf000",
+        "sigma1_mask": "86216000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 136,
+        "xor_mask": "88142000",
+        "sigma1_mask": "94225000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 137,
+        "xor_mask": "88548000",
+        "sigma1_mask": "d0224000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 138,
+        "xor_mask": "88956000",
+        "sigma1_mask": "1c227000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 139,
+        "xor_mask": "88d5c000",
+        "sigma1_mask": "58226000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 140,
+        "xor_mask": "8c1e3000",
+        "sigma1_mask": "de235000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 141,
+        "xor_mask": "8c5e9000",
+        "sigma1_mask": "9a234000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 142,
+        "xor_mask": "8c9f7000",
+        "sigma1_mask": "56237000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 143,
+        "xor_mask": "8cdfd000",
+        "sigma1_mask": "12236000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 144,
+        "xor_mask": "912ac000",
+        "sigma1_mask": "38241000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 145,
+        "xor_mask": "916a6000",
+        "sigma1_mask": "7c240000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 146,
+        "xor_mask": "91ab8000",
+        "sigma1_mask": "b0243000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 147,
+        "xor_mask": "91eb2000",
+        "sigma1_mask": "f4242000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 148,
+        "xor_mask": "9520d000",
+        "sigma1_mask": "72251000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 149,
+        "xor_mask": "95607000",
+        "sigma1_mask": "36250000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 150,
+        "xor_mask": "95a19000",
+        "sigma1_mask": "fa253000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 151,
+        "xor_mask": "95e13000",
+        "sigma1_mask": "be252000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 152,
+        "xor_mask": "993ee000",
+        "sigma1_mask": "ac261000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 153,
+        "xor_mask": "997e4000",
+        "sigma1_mask": "e8260000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 154,
+        "xor_mask": "99bfa000",
+        "sigma1_mask": "24263000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 155,
+        "xor_mask": "99ff0000",
+        "sigma1_mask": "60262000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 156,
+        "xor_mask": "9d34f000",
+        "sigma1_mask": "e6271000",
+        "first_obstruction_bit": 20
+      },
+      {
+        "selector": 157,
+        "xor_mask": "9d745000",
+        "sigma1_mask": "a2270000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 158,
+        "xor_mask": "9db5b000",
+        "sigma1_mask": "6e273000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 159,
+        "xor_mask": "9df51000",
+        "sigma1_mask": "2a272000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 160,
+        "xor_mask": "a2152000",
+        "sigma1_mask": "3428c000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 161,
+        "xor_mask": "a2558000",
+        "sigma1_mask": "7028d000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 162,
+        "xor_mask": "a2946000",
+        "sigma1_mask": "bc28e000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 163,
+        "xor_mask": "a2d4c000",
+        "sigma1_mask": "f828f000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 164,
+        "xor_mask": "a61f3000",
+        "sigma1_mask": "7e29c000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 165,
+        "xor_mask": "a65f9000",
+        "sigma1_mask": "3a29d000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 166,
+        "xor_mask": "a69e7000",
+        "sigma1_mask": "f629e000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 167,
+        "xor_mask": "a6ded000",
+        "sigma1_mask": "b229f000",
+        "first_obstruction_bit": 28
+      },
+      {
+        "selector": 168,
+        "xor_mask": "aa010000",
+        "sigma1_mask": "a02ac000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 169,
+        "xor_mask": "aa41a000",
+        "sigma1_mask": "e42ad000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 170,
+        "xor_mask": "aa804000",
+        "sigma1_mask": "282ae000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 171,
+        "xor_mask": "aac0e000",
+        "sigma1_mask": "6c2af000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 172,
+        "xor_mask": "ae0b1000",
+        "sigma1_mask": "ea2bc000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 173,
+        "xor_mask": "ae4bb000",
+        "sigma1_mask": "ae2bd000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 174,
+        "xor_mask": "ae8a5000",
+        "sigma1_mask": "622be000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 175,
+        "xor_mask": "aecaf000",
+        "sigma1_mask": "262bf000",
+        "first_obstruction_bit": 21
+      },
+      {
+        "selector": 176,
+        "xor_mask": "b33fe000",
+        "sigma1_mask": "0c2c8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 177,
+        "xor_mask": "b37f4000",
+        "sigma1_mask": "482c9000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 178,
+        "xor_mask": "b3bea000",
+        "sigma1_mask": "842ca000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 179,
+        "xor_mask": "b3fe0000",
+        "sigma1_mask": "c02cb000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 180,
+        "xor_mask": "b735f000",
+        "sigma1_mask": "462d8000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 181,
+        "xor_mask": "b7755000",
+        "sigma1_mask": "022d9000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 182,
+        "xor_mask": "b7b4b000",
+        "sigma1_mask": "ce2da000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 183,
+        "xor_mask": "b7f41000",
+        "sigma1_mask": "8a2db000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 184,
+        "xor_mask": "bb2bc000",
+        "sigma1_mask": "982e8000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 185,
+        "xor_mask": "bb6b6000",
+        "sigma1_mask": "dc2e9000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 186,
+        "xor_mask": "bbaa8000",
+        "sigma1_mask": "102ea000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 187,
+        "xor_mask": "bbea2000",
+        "sigma1_mask": "542eb000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 188,
+        "xor_mask": "bf21d000",
+        "sigma1_mask": "d22f8000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 189,
+        "xor_mask": "bf617000",
+        "sigma1_mask": "962f9000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 190,
+        "xor_mask": "bfa09000",
+        "sigma1_mask": "5a2fa000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 191,
+        "xor_mask": "bfe03000",
+        "sigma1_mask": "1e2fb000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 192,
+        "xor_mask": "c0205000",
+        "sigma1_mask": "22307000",
+        "first_obstruction_bit": 20
+      },
+      {
+        "selector": 193,
+        "xor_mask": "c060f000",
+        "sigma1_mask": "66306000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 194,
+        "xor_mask": "c0a11000",
+        "sigma1_mask": "aa305000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 195,
+        "xor_mask": "c0e1b000",
+        "sigma1_mask": "ee304000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 196,
+        "xor_mask": "c42a4000",
+        "sigma1_mask": "68317000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 197,
+        "xor_mask": "c46ae000",
+        "sigma1_mask": "2c316000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 198,
+        "xor_mask": "c4ab0000",
+        "sigma1_mask": "e0315000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 199,
+        "xor_mask": "c4eba000",
+        "sigma1_mask": "a4314000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 200,
+        "xor_mask": "c8347000",
+        "sigma1_mask": "b6327000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 201,
+        "xor_mask": "c874d000",
+        "sigma1_mask": "f2326000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 202,
+        "xor_mask": "c8b53000",
+        "sigma1_mask": "3e325000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 203,
+        "xor_mask": "c8f59000",
+        "sigma1_mask": "7a324000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 204,
+        "xor_mask": "cc3e6000",
+        "sigma1_mask": "fc337000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 205,
+        "xor_mask": "cc7ec000",
+        "sigma1_mask": "b8336000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 206,
+        "xor_mask": "ccbf2000",
+        "sigma1_mask": "74335000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 207,
+        "xor_mask": "ccff8000",
+        "sigma1_mask": "30334000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 208,
+        "xor_mask": "d10a9000",
+        "sigma1_mask": "1a343000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 209,
+        "xor_mask": "d14a3000",
+        "sigma1_mask": "5e342000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 210,
+        "xor_mask": "d18bd000",
+        "sigma1_mask": "92341000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 211,
+        "xor_mask": "d1cb7000",
+        "sigma1_mask": "d6340000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 212,
+        "xor_mask": "d5008000",
+        "sigma1_mask": "50353000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 213,
+        "xor_mask": "d5402000",
+        "sigma1_mask": "14352000",
+        "first_obstruction_bit": 16
+      },
+      {
+        "selector": 214,
+        "xor_mask": "d581c000",
+        "sigma1_mask": "d8351000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 215,
+        "xor_mask": "d5c16000",
+        "sigma1_mask": "9c350000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 216,
+        "xor_mask": "d91eb000",
+        "sigma1_mask": "8e363000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 217,
+        "xor_mask": "d95e1000",
+        "sigma1_mask": "ca362000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 218,
+        "xor_mask": "d99ff000",
+        "sigma1_mask": "06361000",
+        "first_obstruction_bit": 23
+      },
+      {
+        "selector": 219,
+        "xor_mask": "d9df5000",
+        "sigma1_mask": "42360000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 220,
+        "xor_mask": "dd14a000",
+        "sigma1_mask": "c4373000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 221,
+        "xor_mask": "dd540000",
+        "sigma1_mask": "80372000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 222,
+        "xor_mask": "dd95e000",
+        "sigma1_mask": "4c371000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 223,
+        "xor_mask": "ddd54000",
+        "sigma1_mask": "08370000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 224,
+        "xor_mask": "e2357000",
+        "sigma1_mask": "1638e000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 225,
+        "xor_mask": "e275d000",
+        "sigma1_mask": "5238f000",
+        "first_obstruction_bit": 18
+      },
+      {
+        "selector": 226,
+        "xor_mask": "e2b43000",
+        "sigma1_mask": "9e38c000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 227,
+        "xor_mask": "e2f49000",
+        "sigma1_mask": "da38d000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 228,
+        "xor_mask": "e63f6000",
+        "sigma1_mask": "5c39e000",
+        "first_obstruction_bit": 25
+      },
+      {
+        "selector": 229,
+        "xor_mask": "e67fc000",
+        "sigma1_mask": "1839f000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 230,
+        "xor_mask": "e6be2000",
+        "sigma1_mask": "d439c000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 231,
+        "xor_mask": "e6fe8000",
+        "sigma1_mask": "9039d000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 232,
+        "xor_mask": "ea215000",
+        "sigma1_mask": "823ae000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 233,
+        "xor_mask": "ea61f000",
+        "sigma1_mask": "c63af000",
+        "first_obstruction_bit": 19
+      },
+      {
+        "selector": 234,
+        "xor_mask": "eaa01000",
+        "sigma1_mask": "0a3ac000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 235,
+        "xor_mask": "eae0b000",
+        "sigma1_mask": "4e3ad000",
+        "first_obstruction_bit": 17
+      },
+      {
+        "selector": 236,
+        "xor_mask": "ee2b4000",
+        "sigma1_mask": "c83be000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 237,
+        "xor_mask": "ee6be000",
+        "sigma1_mask": "8c3bf000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 238,
+        "xor_mask": "eeaa0000",
+        "sigma1_mask": "403bc000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 239,
+        "xor_mask": "eeeaa000",
+        "sigma1_mask": "043bd000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 240,
+        "xor_mask": "f31fb000",
+        "sigma1_mask": "2e3ca000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 241,
+        "xor_mask": "f35f1000",
+        "sigma1_mask": "6a3cb000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 242,
+        "xor_mask": "f39ef000",
+        "sigma1_mask": "a63c8000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 243,
+        "xor_mask": "f3de5000",
+        "sigma1_mask": "e23c9000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 244,
+        "xor_mask": "f715a000",
+        "sigma1_mask": "643da000",
+        "first_obstruction_bit": 24
+      },
+      {
+        "selector": 245,
+        "xor_mask": "f7550000",
+        "sigma1_mask": "203db000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 246,
+        "xor_mask": "f794e000",
+        "sigma1_mask": "ec3d8000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 247,
+        "xor_mask": "f7d44000",
+        "sigma1_mask": "a83d9000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 248,
+        "xor_mask": "fb0b9000",
+        "sigma1_mask": "ba3ea000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 249,
+        "xor_mask": "fb4b3000",
+        "sigma1_mask": "fe3eb000",
+        "first_obstruction_bit": 15
+      },
+      {
+        "selector": 250,
+        "xor_mask": "fb8ad000",
+        "sigma1_mask": "323e8000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 251,
+        "xor_mask": "fbca7000",
+        "sigma1_mask": "763e9000",
+        "first_obstruction_bit": null
+      },
+      {
+        "selector": 252,
+        "xor_mask": "ff018000",
+        "sigma1_mask": "f03fa000",
+        "first_obstruction_bit": 13
+      },
+      {
+        "selector": 253,
+        "xor_mask": "ff412000",
+        "sigma1_mask": "b43fb000",
+        "first_obstruction_bit": 12
+      },
+      {
+        "selector": 254,
+        "xor_mask": "ff80c000",
+        "sigma1_mask": "783f8000",
+        "first_obstruction_bit": 14
+      },
+      {
+        "selector": 255,
+        "xor_mask": "ffc06000",
+        "sigma1_mask": "3c3f9000",
+        "first_obstruction_bit": 12
+      }
+    ]
+  },
+  "boundary_witness": {
+    "x": "cd027f2a",
+    "y": "36c80f2a",
+    "sigma1_x": "70437fbe",
+    "sigma1_y": "067defbe",
+    "h_x": "3d45fee8",
+    "h_y": "3d45fee8",
+    "xor_mask": "fbca7000",
+    "additive_delta_y_minus_x": "69c59000",
+    "common_low_12": "f2a"
+  },
+  "power_of_two": {
+    "input_intervals_checked": 528,
+    "equal_valuation_cases": [
+      {
+        "k": 0,
+        "last": 10,
+        "xor_mask": "000007ff",
+        "sigma1_mask": "03006001"
+      },
+      {
+        "k": 0,
+        "last": 11,
+        "xor_mask": "00000fff",
+        "sigma1_mask": "06006003"
+      },
+      {
+        "k": 0,
+        "last": 12,
+        "xor_mask": "00001fff",
+        "sigma1_mask": "0c006007"
+      },
+      {
+        "k": 0,
+        "last": 13,
+        "xor_mask": "00003fff",
+        "sigma1_mask": "1800600f"
+      },
+      {
+        "k": 0,
+        "last": 14,
+        "xor_mask": "00007fff",
+        "sigma1_mask": "3000601f"
+      },
+      {
+        "k": 0,
+        "last": 15,
+        "xor_mask": "0000ffff",
+        "sigma1_mask": "6000603f"
+      },
+      {
+        "k": 0,
+        "last": 16,
+        "xor_mask": "0001ffff",
+        "sigma1_mask": "c000607f"
+      },
+      {
+        "k": 0,
+        "last": 19,
+        "xor_mask": "000fffff",
+        "sigma1_mask": "000063f9"
+      },
+      {
+        "k": 0,
+        "last": 20,
+        "xor_mask": "001fffff",
+        "sigma1_mask": "000067f3"
+      },
+      {
+        "k": 0,
+        "last": 21,
+        "xor_mask": "003fffff",
+        "sigma1_mask": "00006fe7"
+      },
+      {
+        "k": 0,
+        "last": 22,
+        "xor_mask": "007fffff",
+        "sigma1_mask": "00007fcf"
+      },
+      {
+        "k": 0,
+        "last": 23,
+        "xor_mask": "00ffffff",
+        "sigma1_mask": "00005f9f"
+      },
+      {
+        "k": 0,
+        "last": 24,
+        "xor_mask": "01ffffff",
+        "sigma1_mask": "00001f3f"
+      },
+      {
+        "k": 0,
+        "last": 25,
+        "xor_mask": "03ffffff",
+        "sigma1_mask": "00009e7f"
+      },
+      {
+        "k": 0,
+        "last": 26,
+        "xor_mask": "07ffffff",
+        "sigma1_mask": "00019cff"
+      },
+      {
+        "k": 0,
+        "last": 27,
+        "xor_mask": "0fffffff",
+        "sigma1_mask": "000399ff"
+      },
+      {
+        "k": 0,
+        "last": 28,
+        "xor_mask": "1fffffff",
+        "sigma1_mask": "000793ff"
+      },
+      {
+        "k": 0,
+        "last": 29,
+        "xor_mask": "3fffffff",
+        "sigma1_mask": "000f87ff"
+      },
+      {
+        "k": 0,
+        "last": 30,
+        "xor_mask": "7fffffff",
+        "sigma1_mask": "001fafff"
+      },
+      {
+        "k": 0,
+        "last": 31,
+        "xor_mask": "ffffffff",
+        "sigma1_mask": "003fffff"
+      },
+      {
+        "k": 1,
+        "last": 17,
+        "xor_mask": "0003fffe",
+        "sigma1_mask": "8000c0fe"
+      },
+      {
+        "k": 2,
+        "last": 18,
+        "xor_mask": "0007fffc",
+        "sigma1_mask": "000181fc"
+      }
+    ],
+    "same_start_interval_images": [
+      {
+        "k": 0,
+        "last": 31,
+        "image_last": 21,
+        "xor_mask": "ffffffff",
+        "sigma1_mask": "003fffff"
+      }
+    ],
+    "remaining_actual_pairs": [
+      {
+        "x": "7fffffff",
+        "y": "80000000",
+        "h_x": "801faffe",
+        "h_y": "80205000",
+        "h_difference": "0000a002"
+      },
+      {
+        "x": "ffffffff",
+        "y": "00000000",
+        "h_x": "003ffffe",
+        "h_y": "00000000",
+        "h_difference": "ffc00002"
+      }
+    ]
+  }
+}

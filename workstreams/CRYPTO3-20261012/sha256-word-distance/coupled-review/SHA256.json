@@ -1,0 +1,21 @@
+{
+  "schema": "sha256-manifest-v1",
+  "scope": "All top-level coupled-review artifacts, excluding this manifest; source bytes separately pinned by REVIEW_RECEIPT.json",
+  "files": {
+    "DEPENDENCY_RUN.json": "2f5ad49b064523c792bb4f31e003026880f03800f2e4c7dd65ae4843a4bb087e",
+    "MAPPING_RUN.json": "45ab7546e5af1d89f9a539aa42d6d2c06c3835809b062595a6d0cb0eef3f4d00",
+    "RECONSTRUCTION.md": "ce0dfb0c7c0dba35f5f053b9338c71ddeb2bd27f574023709349799d3835f0e7",
+    "RECONSTRUCTION_FREEZE.json": "516d59b6f1445f540fbde75ba07d388184c4cce55d8ceea7d7754b734e74ca4c",
+    "RECONSTRUCTION_RUN.json": "059655a5be4405efbba85cc149d358aaa9eea698be8999f21fb3df886a50b75b",
+    "REVIEW.md": "e5e5b075b1eb0f4166c898f2217056a0f78219084613c609d2a7276796ca6743",
+    "REVIEW_RECEIPT.json": "6b2d264e21e88097c805eb0aced623beb5f21e5680e493be54fb459fd9099993",
+    "RUNS.json": "8a3bd33782c446e6da2459c952745c1fdb53d968493f7aacd9696b16706e29bb",
+    "RUP_RUN.json": "59ec021682ba1a01c3475fcb0c389288d7788c86d77b4b67ff37e131e18fe223",
+    "audit_dependencies.py": "bd2b6b2a6f3bc54fb7d3a3a35b0eeabfab7af43c0b2a8eb5127b56fe8c17d8e6",
+    "audit_mapping.py": "c613f56e51f71cd8001f770fadab56f38b531fe3d9fd4c80e6c60f256f2cb300",
+    "check_hints.py": "3bdefcbccaa794a8e5b525bd25d2f8cee6cdb9011d23eba7850cb187aba3c201",
+    "independent-circuit.json": "a675b2eba0414c610a253e2f9cffae818c6d9b9f92c471b7e299c6ebaf4ee727",
+    "independent.cnf": "4624329575e3cb0c187c521befb923e4296ba87eaa054c8b05caac7f37caa256",
+    "reconstruct.py": "6c2f1643291556b0323735df3755646ba85d707a76af79ce233d8ba6305aa717"
+  }
+}

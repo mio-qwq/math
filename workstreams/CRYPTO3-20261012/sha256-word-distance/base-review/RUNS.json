@@ -1,0 +1,38 @@
+{
+  "initial_reconstruction_attempt": "INDEPENDENT-FIRST-RUN.json",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "verify_independent.py",
+        "--author-directory",
+        "../base-lift",
+        "--frozen-supports",
+        "FROZEN/v2/supports.json"
+      ],
+      "exit_code": 0,
+      "script_sha256": "c5f6086e23a79a0158933c3d0c3f084e1a2db77724beb9af3bed1bd0b7030693",
+      "stdout_file": "VERIFICATION.json",
+      "stdout_sha256": "f8ab0926b64fb6ee467f636c88a1b4f5f935373516b4eb3186f807205f92fb08"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "verify_completion.py"
+      ],
+      "equals_frozen_author_output": true,
+      "exit_code": 0,
+      "script_sha256": "476d03768e5f79040186273a6384c87a453f167ac98875260c107db49d0aedc8",
+      "stderr_file": "AUTHOR-VERIFIER-STDERR.txt",
+      "stdout_file": "AUTHOR-VERIFIER-RERUN.json",
+      "stdout_sha256": "c312a5fe8e26ecf43d237b8150172af992542ea0f25783cd88effffdf5ee79c9",
+      "working_directory": "../base-lift"
+    }
+  ],
+  "schema": "sha256-base-projection-independent-runs-v1",
+  "scope": "Exact lifting equivalence and specified 38+10 coordinate chart only; no rerun of three-anchor search, no new SMT",
+  "timestamp_utc": "2026-10-12T09:21:38.116041+00:00"
+}

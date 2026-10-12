@@ -1,0 +1,1867 @@
+{
+  "all_48_equations": [
+    {
+      "active_terms": {
+        "d16": 1,
+        "d9": -1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          16,
+          1
+        ],
+        [
+          "G",
+          14,
+          -1
+        ],
+        [
+          "d",
+          9,
+          -1
+        ],
+        [
+          "F",
+          1,
+          -1
+        ],
+        [
+          "d",
+          0,
+          -1
+        ]
+      ],
+      "t": 16
+    },
+    {
+      "active_terms": {
+        "F2": -1,
+        "d10": -1
+      },
+      "after_common_D_substitution": {
+        "F2": -1,
+        "d10": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          17,
+          1
+        ],
+        [
+          "G",
+          15,
+          -1
+        ],
+        [
+          "d",
+          10,
+          -1
+        ],
+        [
+          "F",
+          2,
+          -1
+        ],
+        [
+          "d",
+          1,
+          -1
+        ]
+      ],
+      "t": 17
+    },
+    {
+      "active_terms": {
+        "G16": -1,
+        "d2": -1
+      },
+      "after_common_D_substitution": {
+        "G16": -1,
+        "d2": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          18,
+          1
+        ],
+        [
+          "G",
+          16,
+          -1
+        ],
+        [
+          "d",
+          11,
+          -1
+        ],
+        [
+          "F",
+          3,
+          -1
+        ],
+        [
+          "d",
+          2,
+          -1
+        ]
+      ],
+      "t": 18
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          19,
+          1
+        ],
+        [
+          "G",
+          17,
+          -1
+        ],
+        [
+          "d",
+          12,
+          -1
+        ],
+        [
+          "F",
+          4,
+          -1
+        ],
+        [
+          "d",
+          3,
+          -1
+        ]
+      ],
+      "t": 19
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          20,
+          1
+        ],
+        [
+          "G",
+          18,
+          -1
+        ],
+        [
+          "d",
+          13,
+          -1
+        ],
+        [
+          "F",
+          5,
+          -1
+        ],
+        [
+          "d",
+          4,
+          -1
+        ]
+      ],
+      "t": 20
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          21,
+          1
+        ],
+        [
+          "G",
+          19,
+          -1
+        ],
+        [
+          "d",
+          14,
+          -1
+        ],
+        [
+          "F",
+          6,
+          -1
+        ],
+        [
+          "d",
+          5,
+          -1
+        ]
+      ],
+      "t": 21
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          22,
+          1
+        ],
+        [
+          "G",
+          20,
+          -1
+        ],
+        [
+          "d",
+          15,
+          -1
+        ],
+        [
+          "F",
+          7,
+          -1
+        ],
+        [
+          "d",
+          6,
+          -1
+        ]
+      ],
+      "t": 22
+    },
+    {
+      "active_terms": {
+        "d16": -1,
+        "d23": 1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          23,
+          1
+        ],
+        [
+          "G",
+          21,
+          -1
+        ],
+        [
+          "d",
+          16,
+          -1
+        ],
+        [
+          "F",
+          8,
+          -1
+        ],
+        [
+          "d",
+          7,
+          -1
+        ]
+      ],
+      "t": 23
+    },
+    {
+      "active_terms": {
+        "F9": -1,
+        "d24": 1
+      },
+      "after_common_D_substitution": {
+        "F9": -1,
+        "d24": 1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          24,
+          1
+        ],
+        [
+          "G",
+          22,
+          -1
+        ],
+        [
+          "d",
+          17,
+          -1
+        ],
+        [
+          "F",
+          9,
+          -1
+        ],
+        [
+          "d",
+          8,
+          -1
+        ]
+      ],
+      "t": 24
+    },
+    {
+      "active_terms": {
+        "F10": -1,
+        "G23": -1,
+        "d9": -1
+      },
+      "after_common_D_substitution": {
+        "D": -1,
+        "F10": -1,
+        "G23": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          25,
+          1
+        ],
+        [
+          "G",
+          23,
+          -1
+        ],
+        [
+          "d",
+          18,
+          -1
+        ],
+        [
+          "F",
+          10,
+          -1
+        ],
+        [
+          "d",
+          9,
+          -1
+        ]
+      ],
+      "t": 25
+    },
+    {
+      "active_terms": {
+        "G24": -1,
+        "d10": -1
+      },
+      "after_common_D_substitution": {
+        "G24": -1,
+        "d10": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          26,
+          1
+        ],
+        [
+          "G",
+          24,
+          -1
+        ],
+        [
+          "d",
+          19,
+          -1
+        ],
+        [
+          "F",
+          11,
+          -1
+        ],
+        [
+          "d",
+          10,
+          -1
+        ]
+      ],
+      "t": 26
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          27,
+          1
+        ],
+        [
+          "G",
+          25,
+          -1
+        ],
+        [
+          "d",
+          20,
+          -1
+        ],
+        [
+          "F",
+          12,
+          -1
+        ],
+        [
+          "d",
+          11,
+          -1
+        ]
+      ],
+      "t": 27
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          28,
+          1
+        ],
+        [
+          "G",
+          26,
+          -1
+        ],
+        [
+          "d",
+          21,
+          -1
+        ],
+        [
+          "F",
+          13,
+          -1
+        ],
+        [
+          "d",
+          12,
+          -1
+        ]
+      ],
+      "t": 28
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          29,
+          1
+        ],
+        [
+          "G",
+          27,
+          -1
+        ],
+        [
+          "d",
+          22,
+          -1
+        ],
+        [
+          "F",
+          14,
+          -1
+        ],
+        [
+          "d",
+          13,
+          -1
+        ]
+      ],
+      "t": 29
+    },
+    {
+      "active_terms": {
+        "d23": -1,
+        "d30": 1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          30,
+          1
+        ],
+        [
+          "G",
+          28,
+          -1
+        ],
+        [
+          "d",
+          23,
+          -1
+        ],
+        [
+          "F",
+          15,
+          -1
+        ],
+        [
+          "d",
+          14,
+          -1
+        ]
+      ],
+      "t": 30
+    },
+    {
+      "active_terms": {
+        "F16": -1,
+        "d24": -1
+      },
+      "after_common_D_substitution": {
+        "F16": -1,
+        "d24": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          31,
+          1
+        ],
+        [
+          "G",
+          29,
+          -1
+        ],
+        [
+          "d",
+          24,
+          -1
+        ],
+        [
+          "F",
+          16,
+          -1
+        ],
+        [
+          "d",
+          15,
+          -1
+        ]
+      ],
+      "t": 31
+    },
+    {
+      "active_terms": {
+        "G30": -1,
+        "d16": -1
+      },
+      "after_common_D_substitution": {
+        "D": -1,
+        "G30": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          32,
+          1
+        ],
+        [
+          "G",
+          30,
+          -1
+        ],
+        [
+          "d",
+          25,
+          -1
+        ],
+        [
+          "F",
+          17,
+          -1
+        ],
+        [
+          "d",
+          16,
+          -1
+        ]
+      ],
+      "t": 32
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          33,
+          1
+        ],
+        [
+          "G",
+          31,
+          -1
+        ],
+        [
+          "d",
+          26,
+          -1
+        ],
+        [
+          "F",
+          18,
+          -1
+        ],
+        [
+          "d",
+          17,
+          -1
+        ]
+      ],
+      "t": 33
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          34,
+          1
+        ],
+        [
+          "G",
+          32,
+          -1
+        ],
+        [
+          "d",
+          27,
+          -1
+        ],
+        [
+          "F",
+          19,
+          -1
+        ],
+        [
+          "d",
+          18,
+          -1
+        ]
+      ],
+      "t": 34
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          35,
+          1
+        ],
+        [
+          "G",
+          33,
+          -1
+        ],
+        [
+          "d",
+          28,
+          -1
+        ],
+        [
+          "F",
+          20,
+          -1
+        ],
+        [
+          "d",
+          19,
+          -1
+        ]
+      ],
+      "t": 35
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          36,
+          1
+        ],
+        [
+          "G",
+          34,
+          -1
+        ],
+        [
+          "d",
+          29,
+          -1
+        ],
+        [
+          "F",
+          21,
+          -1
+        ],
+        [
+          "d",
+          20,
+          -1
+        ]
+      ],
+      "t": 36
+    },
+    {
+      "active_terms": {
+        "d30": -1,
+        "d37": 1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          37,
+          1
+        ],
+        [
+          "G",
+          35,
+          -1
+        ],
+        [
+          "d",
+          30,
+          -1
+        ],
+        [
+          "F",
+          22,
+          -1
+        ],
+        [
+          "d",
+          21,
+          -1
+        ]
+      ],
+      "t": 37
+    },
+    {
+      "active_terms": {
+        "F23": -1,
+        "d38": 1
+      },
+      "after_common_D_substitution": {
+        "F23": -1,
+        "d38": 1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          38,
+          1
+        ],
+        [
+          "G",
+          36,
+          -1
+        ],
+        [
+          "d",
+          31,
+          -1
+        ],
+        [
+          "F",
+          23,
+          -1
+        ],
+        [
+          "d",
+          22,
+          -1
+        ]
+      ],
+      "t": 38
+    },
+    {
+      "active_terms": {
+        "F24": -1,
+        "G37": -1,
+        "d23": -1
+      },
+      "after_common_D_substitution": {
+        "D": -1,
+        "F24": -1,
+        "G37": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          39,
+          1
+        ],
+        [
+          "G",
+          37,
+          -1
+        ],
+        [
+          "d",
+          32,
+          -1
+        ],
+        [
+          "F",
+          24,
+          -1
+        ],
+        [
+          "d",
+          23,
+          -1
+        ]
+      ],
+      "t": 39
+    },
+    {
+      "active_terms": {
+        "G38": -1,
+        "d24": -1
+      },
+      "after_common_D_substitution": {
+        "G38": -1,
+        "d24": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          40,
+          1
+        ],
+        [
+          "G",
+          38,
+          -1
+        ],
+        [
+          "d",
+          33,
+          -1
+        ],
+        [
+          "F",
+          25,
+          -1
+        ],
+        [
+          "d",
+          24,
+          -1
+        ]
+      ],
+      "t": 40
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          41,
+          1
+        ],
+        [
+          "G",
+          39,
+          -1
+        ],
+        [
+          "d",
+          34,
+          -1
+        ],
+        [
+          "F",
+          26,
+          -1
+        ],
+        [
+          "d",
+          25,
+          -1
+        ]
+      ],
+      "t": 41
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          42,
+          1
+        ],
+        [
+          "G",
+          40,
+          -1
+        ],
+        [
+          "d",
+          35,
+          -1
+        ],
+        [
+          "F",
+          27,
+          -1
+        ],
+        [
+          "d",
+          26,
+          -1
+        ]
+      ],
+      "t": 42
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          43,
+          1
+        ],
+        [
+          "G",
+          41,
+          -1
+        ],
+        [
+          "d",
+          36,
+          -1
+        ],
+        [
+          "F",
+          28,
+          -1
+        ],
+        [
+          "d",
+          27,
+          -1
+        ]
+      ],
+      "t": 43
+    },
+    {
+      "active_terms": {
+        "d37": -1,
+        "d44": 1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          44,
+          1
+        ],
+        [
+          "G",
+          42,
+          -1
+        ],
+        [
+          "d",
+          37,
+          -1
+        ],
+        [
+          "F",
+          29,
+          -1
+        ],
+        [
+          "d",
+          28,
+          -1
+        ]
+      ],
+      "t": 44
+    },
+    {
+      "active_terms": {
+        "F30": -1,
+        "d38": -1
+      },
+      "after_common_D_substitution": {
+        "F30": -1,
+        "d38": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          45,
+          1
+        ],
+        [
+          "G",
+          43,
+          -1
+        ],
+        [
+          "d",
+          38,
+          -1
+        ],
+        [
+          "F",
+          30,
+          -1
+        ],
+        [
+          "d",
+          29,
+          -1
+        ]
+      ],
+      "t": 45
+    },
+    {
+      "active_terms": {
+        "G44": -1,
+        "d30": -1
+      },
+      "after_common_D_substitution": {
+        "D": -1,
+        "G44": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          46,
+          1
+        ],
+        [
+          "G",
+          44,
+          -1
+        ],
+        [
+          "d",
+          39,
+          -1
+        ],
+        [
+          "F",
+          31,
+          -1
+        ],
+        [
+          "d",
+          30,
+          -1
+        ]
+      ],
+      "t": 46
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          47,
+          1
+        ],
+        [
+          "G",
+          45,
+          -1
+        ],
+        [
+          "d",
+          40,
+          -1
+        ],
+        [
+          "F",
+          32,
+          -1
+        ],
+        [
+          "d",
+          31,
+          -1
+        ]
+      ],
+      "t": 47
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          48,
+          1
+        ],
+        [
+          "G",
+          46,
+          -1
+        ],
+        [
+          "d",
+          41,
+          -1
+        ],
+        [
+          "F",
+          33,
+          -1
+        ],
+        [
+          "d",
+          32,
+          -1
+        ]
+      ],
+      "t": 48
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          49,
+          1
+        ],
+        [
+          "G",
+          47,
+          -1
+        ],
+        [
+          "d",
+          42,
+          -1
+        ],
+        [
+          "F",
+          34,
+          -1
+        ],
+        [
+          "d",
+          33,
+          -1
+        ]
+      ],
+      "t": 49
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          50,
+          1
+        ],
+        [
+          "G",
+          48,
+          -1
+        ],
+        [
+          "d",
+          43,
+          -1
+        ],
+        [
+          "F",
+          35,
+          -1
+        ],
+        [
+          "d",
+          34,
+          -1
+        ]
+      ],
+      "t": 50
+    },
+    {
+      "active_terms": {
+        "d44": -1,
+        "d51": 1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          51,
+          1
+        ],
+        [
+          "G",
+          49,
+          -1
+        ],
+        [
+          "d",
+          44,
+          -1
+        ],
+        [
+          "F",
+          36,
+          -1
+        ],
+        [
+          "d",
+          35,
+          -1
+        ]
+      ],
+      "t": 51
+    },
+    {
+      "active_terms": {
+        "F37": -1,
+        "d52": 1
+      },
+      "after_common_D_substitution": {
+        "F37": -1,
+        "d52": 1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          52,
+          1
+        ],
+        [
+          "G",
+          50,
+          -1
+        ],
+        [
+          "d",
+          45,
+          -1
+        ],
+        [
+          "F",
+          37,
+          -1
+        ],
+        [
+          "d",
+          36,
+          -1
+        ]
+      ],
+      "t": 52
+    },
+    {
+      "active_terms": {
+        "F38": -1,
+        "G51": -1,
+        "d37": -1
+      },
+      "after_common_D_substitution": {
+        "D": -1,
+        "F38": -1,
+        "G51": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          53,
+          1
+        ],
+        [
+          "G",
+          51,
+          -1
+        ],
+        [
+          "d",
+          46,
+          -1
+        ],
+        [
+          "F",
+          38,
+          -1
+        ],
+        [
+          "d",
+          37,
+          -1
+        ]
+      ],
+      "t": 53
+    },
+    {
+      "active_terms": {
+        "G52": -1,
+        "d38": -1
+      },
+      "after_common_D_substitution": {
+        "G52": -1,
+        "d38": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          54,
+          1
+        ],
+        [
+          "G",
+          52,
+          -1
+        ],
+        [
+          "d",
+          47,
+          -1
+        ],
+        [
+          "F",
+          39,
+          -1
+        ],
+        [
+          "d",
+          38,
+          -1
+        ]
+      ],
+      "t": 54
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          55,
+          1
+        ],
+        [
+          "G",
+          53,
+          -1
+        ],
+        [
+          "d",
+          48,
+          -1
+        ],
+        [
+          "F",
+          40,
+          -1
+        ],
+        [
+          "d",
+          39,
+          -1
+        ]
+      ],
+      "t": 55
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          56,
+          1
+        ],
+        [
+          "G",
+          54,
+          -1
+        ],
+        [
+          "d",
+          49,
+          -1
+        ],
+        [
+          "F",
+          41,
+          -1
+        ],
+        [
+          "d",
+          40,
+          -1
+        ]
+      ],
+      "t": 56
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          57,
+          1
+        ],
+        [
+          "G",
+          55,
+          -1
+        ],
+        [
+          "d",
+          50,
+          -1
+        ],
+        [
+          "F",
+          42,
+          -1
+        ],
+        [
+          "d",
+          41,
+          -1
+        ]
+      ],
+      "t": 57
+    },
+    {
+      "active_terms": {
+        "d51": -1,
+        "d58": 1
+      },
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          58,
+          1
+        ],
+        [
+          "G",
+          56,
+          -1
+        ],
+        [
+          "d",
+          51,
+          -1
+        ],
+        [
+          "F",
+          43,
+          -1
+        ],
+        [
+          "d",
+          42,
+          -1
+        ]
+      ],
+      "t": 58
+    },
+    {
+      "active_terms": {
+        "F44": -1,
+        "d52": -1
+      },
+      "after_common_D_substitution": {
+        "F44": -1,
+        "d52": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          59,
+          1
+        ],
+        [
+          "G",
+          57,
+          -1
+        ],
+        [
+          "d",
+          52,
+          -1
+        ],
+        [
+          "F",
+          44,
+          -1
+        ],
+        [
+          "d",
+          43,
+          -1
+        ]
+      ],
+      "t": 59
+    },
+    {
+      "active_terms": {
+        "G58": -1,
+        "d44": -1
+      },
+      "after_common_D_substitution": {
+        "D": -1,
+        "G58": -1
+      },
+      "full_original_terms": [
+        [
+          "d",
+          60,
+          1
+        ],
+        [
+          "G",
+          58,
+          -1
+        ],
+        [
+          "d",
+          53,
+          -1
+        ],
+        [
+          "F",
+          45,
+          -1
+        ],
+        [
+          "d",
+          44,
+          -1
+        ]
+      ],
+      "t": 60
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          61,
+          1
+        ],
+        [
+          "G",
+          59,
+          -1
+        ],
+        [
+          "d",
+          54,
+          -1
+        ],
+        [
+          "F",
+          46,
+          -1
+        ],
+        [
+          "d",
+          45,
+          -1
+        ]
+      ],
+      "t": 61
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          62,
+          1
+        ],
+        [
+          "G",
+          60,
+          -1
+        ],
+        [
+          "d",
+          55,
+          -1
+        ],
+        [
+          "F",
+          47,
+          -1
+        ],
+        [
+          "d",
+          46,
+          -1
+        ]
+      ],
+      "t": 62
+    },
+    {
+      "active_terms": {},
+      "after_common_D_substitution": {},
+      "full_original_terms": [
+        [
+          "d",
+          63,
+          1
+        ],
+        [
+          "G",
+          61,
+          -1
+        ],
+        [
+          "d",
+          56,
+          -1
+        ],
+        [
+          "F",
+          48,
+          -1
+        ],
+        [
+          "d",
+          47,
+          -1
+        ]
+      ],
+      "t": 63
+    }
+  ],
+  "checker_sha256": "dbb3b7f6f523696dc6be3e239d720846e2942b2af2c4fe9d8ef8658f9e42165a",
+  "common_D_link_times": [
+    16,
+    23,
+    30,
+    37,
+    44,
+    51,
+    58
+  ],
+  "coordinate_names": {
+    "2": "Q0",
+    "9": "P0",
+    "10": "R0",
+    "16": "Q1",
+    "23": "P1",
+    "24": "R1",
+    "30": "Q2",
+    "37": "P2",
+    "38": "R2",
+    "44": "Q3",
+    "51": "P3",
+    "52": "R3",
+    "58": "Q4"
+  },
+  "fixed_xor_mod8": {
+    "F30_residues": [
+      3,
+      5
+    ],
+    "G52_residues": [
+      1,
+      7
+    ],
+    "Q_xor": "889b945b",
+    "R_xor": "4314a785",
+    "disjoint": true,
+    "f_Q_xor": "4314a785",
+    "g_R_xor": "c722ccc1"
+  },
+  "forced_interface": "G52 = F30 from t45 and t54",
+  "inverse_basis_checks": 64,
+  "negative_controls": [
+    {
+      "control": "omit_boundary_t16",
+      "reason": "incorrect equation or omitted interface at t=16",
+      "rejected": true
+    },
+    {
+      "control": "omit_boundary_t17",
+      "reason": "incorrect equation or omitted interface at t=17",
+      "rejected": true
+    },
+    {
+      "control": "omit_boundary_t18",
+      "reason": "incorrect equation or omitted interface at t=18",
+      "rejected": true
+    },
+    {
+      "control": "omit_boundary_t58",
+      "reason": "incorrect equation or omitted interface at t=58",
+      "rejected": true
+    },
+    {
+      "control": "omit_boundary_t59",
+      "reason": "incorrect equation or omitted interface at t=59",
+      "rejected": true
+    },
+    {
+      "control": "omit_boundary_t60",
+      "reason": "incorrect equation or omitted interface at t=60",
+      "rejected": true
+    },
+    {
+      "control": "wrong_reverse_g_sign_t54",
+      "reason": "incorrect equation or omitted interface at t=54",
+      "rejected": true
+    },
+    {
+      "control": "equal_initial_R_pair",
+      "reason": "an unequal initial R pair and three image parameters are required",
+      "rejected": true
+    }
+  ],
+  "nontrivial_equations": 24,
+  "python": "3.12.14",
+  "r_image_parameters": [
+    "00000000",
+    "ffffffff",
+    "76543210"
+  ],
+  "r_parameterization_fixture": [
+    [
+      "12345678",
+      "9abcdef0"
+    ],
+    [
+      "00000000",
+      "228a7266"
+    ],
+    [
+      "9f0e663f",
+      "6fde371a"
+    ],
+    [
+      "972d8f29",
+      "55045c28"
+    ]
+  ],
+  "remaining_interfaces": 17,
+  "scope": "independent active-pair equations; no base schedule or complete fibre audit",
+  "sigma_inverse_basis": {
+    "f": [
+      "185744e9",
+      "30ae89d2",
+      "615d13a4",
+      "daed63a1",
+      "9cd03a8e",
+      "08fdcc39",
+      "11fb9872",
+      "23f730e4",
+      "5fb92521",
+      "bf724a42",
+      "57ee6948",
+      "afdcd290",
+      "76b358ec",
+      "f531f531",
+      "c36917ae",
+      "b78f9679",
+      "4615d13e",
+      "947ce695",
+      "19a4740f",
+      "2b1facf7",
+      "4e681d07",
+      "84877ee7",
+      "385344eb",
+      "70a689d6",
+      "f91a5745",
+      "c36917af",
+      "b78f967b",
+      "4615d13a",
+      "8c2ba274",
+      "290afdcd",
+      "4a42bf73",
+      "94857ee6"
+    ],
+    "g": [
+      "2ccfffed",
+      "75500037",
+      "eaa0006e",
+      "589d5570",
+      "b13aaae0",
+      "c367ff81",
+      "27dd5543",
+      "4fbaaa86",
+      "b3baaae1",
+      "c667ff83",
+      "2ddd5547",
+      "5bbaaa8e",
+      "9bbaaaf1",
+      "9667ffa3",
+      "8ddd5507",
+      "9667ffa2",
+      "8ddd5505",
+      "9667ffa6",
+      "8ddd550d",
+      "9667ffb6",
+      "8ddd552d",
+      "9667fff6",
+      "8ddd55ad",
+      "9667fef6",
+      "8ddd57ad",
+      "baa8051b",
+      "f88d5f9a",
+      "50081575",
+      "a0102aea",
+      "e132ff95",
+      "6377556b",
+      "c6eeaad6"
+    ]
+  },
+  "status": "PASS",
+  "support": [
+    2,
+    9,
+    10,
+    16,
+    23,
+    24,
+    30,
+    37,
+    38,
+    44,
+    51,
+    52,
+    58
+  ],
+  "tautologies": 24
+}

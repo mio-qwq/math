@@ -1,0 +1,10 @@
+{
+  "checkpoint": "independent reconstruction saved before author files were read",
+  "files": {
+    "INDEPENDENT-FIRST-RUN.json": "e89d49fbb1510ef661af765fdcf948f6a76cbd7c87cd2f67ad7e446997b20839",
+    "INDEPENDENT-RECONSTRUCTION.json": "90fc7dbada42890c7ec2f147e6fffd241ef1ff725d56ca9ef04f654fd6abfc6d",
+    "INDEPENDENT_RECONSTRUCTION.md": "1cea60c46c66903689a4d27c6ab44bf497fa8a9a52a3ae4a12251e7a125a183b",
+    "reconstruct.py": "09ca3348d45ad7e6f1e3ea5cd9e7900d1edcc86ded2cad6ffc4a67648f98026b"
+  },
+  "timestamp_utc": "2026-10-12T09:17:17.601779+00:00"
+}

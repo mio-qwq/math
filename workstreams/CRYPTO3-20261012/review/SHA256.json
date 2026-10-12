@@ -1,0 +1,13 @@
+{
+  "schema": "CRYPTO3-independent-review-manifest-v1",
+  "files": {
+    "RUNS.json": "ddb91f8cc6b98355ec30dc52b41be14e0f77f6a47292090164b6e644b5ae422c",
+    "audit_frozen.json": "305088752e082c18ba5238784fa48b0dc7297f1a326732645b844f95dcd47bb2",
+    "audit_frozen.py": "ee78c0b4cddf10aabbc3ee1b4a3bb6a4eebffaf4146f4d5853c8895d337e8982",
+    "review.md": "0418dbd883339d9e17eab45285913baaeffa8adb8656c1351b389ae73cb3be67",
+    "scope_sources.json": "eca0dbdd644a866fe6cad1b875ae1cc545b72208d17880e7e80c8694b3f0c44f",
+    "small_checks.json": "5c5cbb62d7ca19ac28c736648808092fdaf9360e7f45809bd5e17900d014b453",
+    "small_checks.py": "eb459190ece237966394247d45d517009260fa0d67f5d80c306922ee141f2312"
+  },
+  "self_reference": "This manifest does not hash itself."
+}

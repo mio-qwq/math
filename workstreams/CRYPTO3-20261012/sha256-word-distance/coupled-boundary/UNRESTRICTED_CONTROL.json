@@ -1,0 +1,13 @@
+{
+  "schema": "crypto3-unrestricted-local-control-v1",
+  "scope": "Local four-word feasibility after removing the low12 condition; not a full schedule",
+  "q": 3167872,
+  "q_prime": 2292957915,
+  "p": 2531583794,
+  "p_prime": 526406541,
+  "D_hex": "887b6c5b",
+  "Gq_hex": "778493a5",
+  "Fq_hex": "410c6383",
+  "Fp_hex": "bef39c7d",
+  "q_xor_q_prime_hex": "889b945b"
+}

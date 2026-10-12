@@ -1,0 +1,1791 @@
+{
+  "schema": "CRYPTO3-independent-irregular-valuation-v1",
+  "definition": {
+    "word_bits": 32,
+    "f_rotations": [
+      7,
+      18
+    ],
+    "f_shift": 3,
+    "g_rotations": [
+      17,
+      19
+    ],
+    "g_shift": 10
+  },
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "support_bridges": [
+    {
+      "support_index": 6,
+      "support": [
+        11,
+        12,
+        14,
+        16,
+        19,
+        21,
+        27,
+        29,
+        30,
+        35,
+        43,
+        44,
+        58
+      ],
+      "x": 19,
+      "y": 35,
+      "r": 44,
+      "source_recurrences": [
+        {
+          "t": 19,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 12,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 19,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 21,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 19,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 14,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 28,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 12,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 14,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 30,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 34,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 19,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 27,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 35,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 19,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 35,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 37,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 35,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 30,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 43,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 27,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 43,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 46,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 44,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 30,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 50,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 35,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 43,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 51,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 35,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 44,
+              "coefficient": -1
+            }
+          ]
+        }
+      ],
+      "integer_combinations": [
+        {
+          "name": "d_y_minus_d_x",
+          "factors": [
+            {
+              "t": 35,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 19,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 35,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "d_r_plus_d_x",
+          "factors": [
+            {
+              "t": 35,
+              "factor": -1
+            },
+            {
+              "t": 51,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 19,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 44,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "F_y_minus_F_x",
+          "factors": [
+            {
+              "t": 34,
+              "factor": 1
+            },
+            {
+              "t": 43,
+              "factor": -1
+            },
+            {
+              "t": 50,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "F",
+              "index": 19,
+              "coefficient": -1
+            },
+            {
+              "kind": "F",
+              "index": 35,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_x_minus_2d_x",
+          "factors": [
+            {
+              "t": 19,
+              "factor": -2
+            },
+            {
+              "t": 21,
+              "factor": 1
+            },
+            {
+              "t": 28,
+              "factor": 2
+            },
+            {
+              "t": 30,
+              "factor": -1
+            },
+            {
+              "t": 37,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 19,
+              "coefficient": -1
+            },
+            {
+              "kind": "G",
+              "index": 35,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 19,
+              "coefficient": -2
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_r_minus_d_x",
+          "factors": [
+            {
+              "t": 19,
+              "factor": -1
+            },
+            {
+              "t": 28,
+              "factor": 1
+            },
+            {
+              "t": 37,
+              "factor": -1
+            },
+            {
+              "t": 46,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 35,
+              "coefficient": 1
+            },
+            {
+              "kind": "G",
+              "index": 44,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 19,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 7,
+      "support": [
+        13,
+        14,
+        16,
+        18,
+        21,
+        23,
+        29,
+        31,
+        32,
+        37,
+        45,
+        46,
+        60
+      ],
+      "x": 21,
+      "y": 37,
+      "r": 46,
+      "source_recurrences": [
+        {
+          "t": 21,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 14,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 23,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 16,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 23,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 14,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 23,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 32,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 16,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 32,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 36,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 37,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 37,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 39,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 37,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 23,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 32,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 45,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 45,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 48,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 46,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 32,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 52,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 37,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 45,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 53,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 37,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 46,
+              "coefficient": -1
+            }
+          ]
+        }
+      ],
+      "integer_combinations": [
+        {
+          "name": "d_y_minus_d_x",
+          "factors": [
+            {
+              "t": 37,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 37,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "d_r_plus_d_x",
+          "factors": [
+            {
+              "t": 37,
+              "factor": -1
+            },
+            {
+              "t": 53,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 46,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "F_y_minus_F_x",
+          "factors": [
+            {
+              "t": 36,
+              "factor": 1
+            },
+            {
+              "t": 45,
+              "factor": -1
+            },
+            {
+              "t": 52,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "F",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "F",
+              "index": 37,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_x_minus_2d_x",
+          "factors": [
+            {
+              "t": 21,
+              "factor": -2
+            },
+            {
+              "t": 23,
+              "factor": 1
+            },
+            {
+              "t": 30,
+              "factor": 2
+            },
+            {
+              "t": 32,
+              "factor": -1
+            },
+            {
+              "t": 39,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 21,
+              "coefficient": -1
+            },
+            {
+              "kind": "G",
+              "index": 37,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": -2
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_r_minus_d_x",
+          "factors": [
+            {
+              "t": 21,
+              "factor": -1
+            },
+            {
+              "t": 30,
+              "factor": 1
+            },
+            {
+              "t": 39,
+              "factor": -1
+            },
+            {
+              "t": 48,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 37,
+              "coefficient": 1
+            },
+            {
+              "kind": "G",
+              "index": 46,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 21,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 12,
+      "support": [
+        10,
+        11,
+        13,
+        15,
+        18,
+        20,
+        26,
+        28,
+        29,
+        34,
+        42,
+        43,
+        57
+      ],
+      "x": 18,
+      "y": 34,
+      "r": 43,
+      "source_recurrences": [
+        {
+          "t": 18,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 11,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 18,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 18,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 13,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 27,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 11,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 29,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 13,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 33,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 18,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 26,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 34,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 18,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 34,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 36,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 34,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 42,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 26,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 42,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 45,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 43,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 29,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 49,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 34,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 42,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 50,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 34,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 43,
+              "coefficient": -1
+            }
+          ]
+        }
+      ],
+      "integer_combinations": [
+        {
+          "name": "d_y_minus_d_x",
+          "factors": [
+            {
+              "t": 34,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 18,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 34,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "d_r_plus_d_x",
+          "factors": [
+            {
+              "t": 34,
+              "factor": -1
+            },
+            {
+              "t": 50,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 18,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 43,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "F_y_minus_F_x",
+          "factors": [
+            {
+              "t": 33,
+              "factor": 1
+            },
+            {
+              "t": 42,
+              "factor": -1
+            },
+            {
+              "t": 49,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "F",
+              "index": 18,
+              "coefficient": -1
+            },
+            {
+              "kind": "F",
+              "index": 34,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_x_minus_2d_x",
+          "factors": [
+            {
+              "t": 18,
+              "factor": -2
+            },
+            {
+              "t": 20,
+              "factor": 1
+            },
+            {
+              "t": 27,
+              "factor": 2
+            },
+            {
+              "t": 29,
+              "factor": -1
+            },
+            {
+              "t": 36,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 18,
+              "coefficient": -1
+            },
+            {
+              "kind": "G",
+              "index": 34,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 18,
+              "coefficient": -2
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_r_minus_d_x",
+          "factors": [
+            {
+              "t": 18,
+              "factor": -1
+            },
+            {
+              "t": 27,
+              "factor": 1
+            },
+            {
+              "t": 36,
+              "factor": -1
+            },
+            {
+              "t": 45,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 34,
+              "coefficient": 1
+            },
+            {
+              "kind": "G",
+              "index": 43,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 18,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support_index": 13,
+      "support": [
+        12,
+        13,
+        15,
+        17,
+        20,
+        22,
+        28,
+        30,
+        31,
+        36,
+        44,
+        45,
+        59
+      ],
+      "x": 20,
+      "y": 36,
+      "r": 45,
+      "source_recurrences": [
+        {
+          "t": 20,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 13,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 22,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 15,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 22,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 29,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 13,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 22,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 31,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 15,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 31,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 35,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 28,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 36,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 38,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 36,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 22,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 31,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 44,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 28,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 44,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "t": 47,
+          "terms": [
+            {
+              "kind": "G",
+              "index": 45,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 31,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 51,
+          "terms": [
+            {
+              "kind": "F",
+              "index": 36,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 44,
+              "coefficient": -1
+            }
+          ]
+        },
+        {
+          "t": 52,
+          "terms": [
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 45,
+              "coefficient": -1
+            }
+          ]
+        }
+      ],
+      "integer_combinations": [
+        {
+          "name": "d_y_minus_d_x",
+          "factors": [
+            {
+              "t": 36,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 36,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "d_r_plus_d_x",
+          "factors": [
+            {
+              "t": 36,
+              "factor": -1
+            },
+            {
+              "t": 52,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 45,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "F_y_minus_F_x",
+          "factors": [
+            {
+              "t": 35,
+              "factor": 1
+            },
+            {
+              "t": 44,
+              "factor": -1
+            },
+            {
+              "t": 51,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "F",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "F",
+              "index": 36,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_x_minus_2d_x",
+          "factors": [
+            {
+              "t": 20,
+              "factor": -2
+            },
+            {
+              "t": 22,
+              "factor": 1
+            },
+            {
+              "t": 29,
+              "factor": 2
+            },
+            {
+              "t": 31,
+              "factor": -1
+            },
+            {
+              "t": 38,
+              "factor": -1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 20,
+              "coefficient": -1
+            },
+            {
+              "kind": "G",
+              "index": 36,
+              "coefficient": 1
+            },
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": -2
+            }
+          ]
+        },
+        {
+          "name": "G_y_minus_G_r_minus_d_x",
+          "factors": [
+            {
+              "t": 20,
+              "factor": -1
+            },
+            {
+              "t": 29,
+              "factor": 1
+            },
+            {
+              "t": 38,
+              "factor": -1
+            },
+            {
+              "t": 47,
+              "factor": 1
+            }
+          ],
+          "result": [
+            {
+              "kind": "G",
+              "index": 36,
+              "coefficient": 1
+            },
+            {
+              "kind": "G",
+              "index": 45,
+              "coefficient": -1
+            },
+            {
+              "kind": "d",
+              "index": 20,
+              "coefficient": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "high21_g_columns": [
+    {
+      "input_bit": 21,
+      "g_image": "00000814"
+    },
+    {
+      "input_bit": 22,
+      "g_image": "00001028"
+    },
+    {
+      "input_bit": 23,
+      "g_image": "00002050"
+    },
+    {
+      "input_bit": 24,
+      "g_image": "000040a0"
+    },
+    {
+      "input_bit": 25,
+      "g_image": "00008140"
+    },
+    {
+      "input_bit": 26,
+      "g_image": "00010280"
+    },
+    {
+      "input_bit": 27,
+      "g_image": "00020500"
+    },
+    {
+      "input_bit": 28,
+      "g_image": "00040a00"
+    },
+    {
+      "input_bit": 29,
+      "g_image": "00081400"
+    },
+    {
+      "input_bit": 30,
+      "g_image": "00102800"
+    },
+    {
+      "input_bit": 31,
+      "g_image": "00205000"
+    }
+  ],
+  "signed_D_candidates_after_both_G_bounds": [
+    -2097152,
+    2097152
+  ],
+  "positive_D_after_swapping": 2097152,
+  "mixed_interval_exclusions": [
+    {
+      "last": 21,
+      "input_mask": "00200000",
+      "f_mask": "00044008",
+      "g_mask": "00000814",
+      "first_obstruction_bit": 25
+    },
+    {
+      "last": 22,
+      "input_mask": "00600000",
+      "f_mask": "000cc018",
+      "g_mask": "0000183c",
+      "first_obstruction_bit": 25
+    },
+    {
+      "last": 23,
+      "input_mask": "00e00000",
+      "f_mask": "001dc038",
+      "g_mask": "0000386c",
+      "first_obstruction_bit": 25
+    },
+    {
+      "last": 24,
+      "input_mask": "01e00000",
+      "f_mask": "003fc078",
+      "g_mask": "000078cc",
+      "first_obstruction_bit": 25
+    },
+    {
+      "last": 25,
+      "input_mask": "03e00000",
+      "f_mask": "007bc0f8",
+      "g_mask": "0000f98c",
+      "first_obstruction_bit": 19
+    },
+    {
+      "last": 26,
+      "input_mask": "07e00000",
+      "f_mask": "00f3c1f8",
+      "g_mask": "0001fb0c",
+      "first_obstruction_bit": 20
+    },
+    {
+      "last": 27,
+      "input_mask": "0fe00000",
+      "f_mask": "01e3c3f8",
+      "g_mask": "0003fe0c",
+      "first_obstruction_bit": 21
+    },
+    {
+      "last": 28,
+      "input_mask": "1fe00000",
+      "f_mask": "03c3c7f8",
+      "g_mask": "0007f40c",
+      "first_obstruction_bit": 22
+    },
+    {
+      "last": 29,
+      "input_mask": "3fe00000",
+      "f_mask": "0783cff8",
+      "g_mask": "000fe00c",
+      "first_obstruction_bit": 23
+    },
+    {
+      "last": 30,
+      "input_mask": "7fe00000",
+      "f_mask": "0f03dff8",
+      "g_mask": "001fc80c",
+      "first_obstruction_bit": 24
+    }
+  ],
+  "remaining_interval": {
+    "input_mask": "ffe00000",
+    "f_mask": "1e03fff8",
+    "g_mask": "003f980c"
+  },
+  "forced_difference_equations": {
+    "z_zero_bits": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "f_mask": "1e03fff8",
+    "f_target": "00000000",
+    "g_mask": "003f980c",
+    "g_target": "00200000"
+  },
+  "parity_contradiction": {
+    "f_mask": "0600ffa8",
+    "g_mask": "0020000c",
+    "z_mask": "4ea00000",
+    "basis_checks": [
+      {
+        "input_bit": 0,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 1,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 2,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 3,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 4,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 5,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 6,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 7,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 8,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 9,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 10,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 11,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 12,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 13,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 14,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 15,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 16,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 17,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 18,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 19,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 20,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 21,
+        "f_parity": 0,
+        "g_parity": 1,
+        "z_parity": 1
+      },
+      {
+        "input_bit": 22,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 23,
+        "f_parity": 1,
+        "g_parity": 0,
+        "z_parity": 1
+      },
+      {
+        "input_bit": 24,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 25,
+        "f_parity": 1,
+        "g_parity": 0,
+        "z_parity": 1
+      },
+      {
+        "input_bit": 26,
+        "f_parity": 1,
+        "g_parity": 0,
+        "z_parity": 1
+      },
+      {
+        "input_bit": 27,
+        "f_parity": 1,
+        "g_parity": 0,
+        "z_parity": 1
+      },
+      {
+        "input_bit": 28,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 29,
+        "f_parity": 0,
+        "g_parity": 0,
+        "z_parity": 0
+      },
+      {
+        "input_bit": 30,
+        "f_parity": 1,
+        "g_parity": 0,
+        "z_parity": 1
+      },
+      {
+        "input_bit": 31,
+        "f_parity": 1,
+        "g_parity": 1,
+        "z_parity": 0
+      }
+    ],
+    "forced_parities": [
+      0,
+      1,
+      0
+    ]
+  },
+  "valuation_bound": 20,
+  "scope": "Necessary valuation bound for four exact supports; no full support exclusion or new global schedule distance bound."
+}

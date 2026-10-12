@@ -1,0 +1,33 @@
+{
+  "actual_remaining_recurrences": [
+    29,
+    30,
+    37,
+    38,
+    43,
+    44,
+    51,
+    52,
+    57,
+    58
+  ],
+  "assigned": 38,
+  "attempt": "unrestricted lowest-index single-unknown closure before author read",
+  "coordinates_covered": 64,
+  "correction": "Reserve the specified ten residual equations before reconstructing the requested 38-equation chart; arbitrary elimination orders need not have the same complement.",
+  "exit_code": 1,
+  "reason": "expected residual complement was incorrectly required for an unrestricted ordering",
+  "script_sha256_at_failure": "6afa07a6bb97b2575e2018b43ce007359e4d8c36344a1e8c6752777dee9e797c",
+  "specified_remaining_recurrences": [
+    28,
+    29,
+    35,
+    36,
+    42,
+    43,
+    49,
+    50,
+    56,
+    57
+  ]
+}

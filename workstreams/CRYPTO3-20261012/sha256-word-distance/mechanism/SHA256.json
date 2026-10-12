@@ -1,0 +1,29 @@
+{
+  "files": {
+    "MECHANISMS.md": "a36862af1fc825be86089c47f6174ba9554c372084119f1ed0f4b2380960089c",
+    "README.md": "97efbf91955a87eb79285319faf7776f5593e0fb14b0506700711cb0e362d774",
+    "RELATIONS.json": "3229d3dcac0db5509c2279318fe5087445b64bcd8d0b9570d312bb0307801575",
+    "RUNS.json": "29d81e8cfac78a606c6f031258b5d9fa45c4fa028ee03deed7e3b587d507f123",
+    "STRUCTURAL-CERTIFICATE.json": "6fb30742ea7a520e0ce61d57c1ccb1f443ddb51dead591c46728804a701bef1d",
+    "TRIPLE-V20-3-RUN.json": "1a0091d20175f3a51268bd82bff544bf785bef40aaf4f39917828ed8a71c43f0",
+    "TRIPLE-V20-RUN.json": "8092cadb55b9c46fc96d7b23164a56e1ba5641a2f13d755263962a58882e4698",
+    "TWIN-RUN.json": "b0de2acb8ad6e63082dfa7b9cc89e00cc4f6612849b8db420474037ec79df918",
+    "TWIN-SHARPNESS.json": "5885aad70a20ccecad5d65df459c5e5a6cc5707f481bf34885f6127297835871",
+    "TWIN-V21-CARRY.json": "1b38a48f59c7de8c14c6787a08d7a102f33b55c4630704bce8488ac5befb54d6",
+    "TWIN-V21-HALF-CARRY.json": "2e7f5d467d613f4778db912b713c141c3209a92b4103702fd52c069ce0ef5b9a",
+    "TWIN-V21-RUN.json": "1b479da4a037cb54dd025d193378490865f7759def223f9f86db3296ce7bf18a",
+    "TWO_CYCLE_BOUNDARY.md": "35bba1795d43e83336f8cb6e296586448c1ce1607c9a32c9809d1452dc9cd657",
+    "VALUATION_BOUND.md": "1edca147825bae48618e56d65730b5cf62ab7ebf50faf085f9226f5f1d95c574",
+    "check_structural.py": "e1659b38a9b2f1e4949a53239e5a8de289128f8f969953e6ab316bb09c962077",
+    "check_twin_witness.py": "af320c9fa7b039ccca2168624c75b0afc47de560b299c4354f384635ab5edb62",
+    "check_valuation.py": "03001f38660f04efacbc3ab0346490440dd0ab5e8a4ad4d67753f1d1dd8b8ce6",
+    "provenance.json": "b8dda2813fe2ffd03b5e621fb531e5ed0500553b52fdef7eadfb144cab424ade",
+    "relations.py": "5a5b6ddac214a19667b83d511fdcda47b3821d8a9a9377da8d60f7554e5f9bdd",
+    "reproduce.py": "fa64eaa1da1283ba06d5a7da04fb21015a664f7904b569792f7307ae5a626939",
+    "triple_probe.py": "20891653b51324c28128d805570b17074ed1c6d7ecec48b7d4505c7232091166",
+    "twin_carry_proof.py": "a0048e029f7219378dc3f7776f6607419d080694c84ad18d7fa69efa29380666",
+    "twin_probe.py": "56260d6dd117b74d217a365290e4eb92c961e1bcaa3c480f27033e39f43c030b",
+    "twin_sharpness.py": "e92ae3374e178d7fbbcb2a93911dddbd0234273f229d11192b9d5ebd05ad2255"
+  },
+  "schema": "sha256-artifact-manifest-v1"
+}

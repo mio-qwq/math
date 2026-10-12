@@ -1,0 +1,23 @@
+{
+  "schema": "sha256-twin-divisibility-obstruction-v1",
+  "bits": 32,
+  "forbidden_divisibility_exponent": 21,
+  "support_cases": [
+    {"index": 6, "shift": 0, "x": 19, "y": 35, "r": 44},
+    {"index": 7, "shift": 2, "x": 21, "y": 37, "r": 46},
+    {"index": 12, "shift": -1, "x": 18, "y": 34, "r": 43},
+    {"index": 13, "shift": 1, "x": 20, "y": 36, "r": 45}
+  ],
+  "sigma1_masks_hex": [
+    "00000814", "0000183c", "0000386c", "000078cc", "0000f98c",
+    "0001fb0c", "0003fe0c", "0007f40c", "000fe00c", "001fc80c", "003f980c"
+  ],
+  "gap_bits": [15, 15, 5, 6, 7, 8, 9, 10, 11, 14],
+  "alpha_hex": "ffe00000",
+  "sigma0_alpha_hex": "1e03fff8",
+  "sigma1_alpha_hex": "003f980c",
+  "identity_raw_bits": [21, 23, 25, 26, 27, 30],
+  "identity_sigma0_bits": [3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 25, 26],
+  "identity_sigma1_bits": [2, 3],
+  "identity_target_sigma1_bit": 21
+}

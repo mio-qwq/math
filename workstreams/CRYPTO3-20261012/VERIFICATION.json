@@ -1,0 +1,43 @@
+{
+  "schema": "crypto3-release-verification-v1",
+  "started_utc": "2026-10-12T09:17:11.097157+00:00",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/check_local.py",
+        "--negative"
+      ],
+      "elapsed_seconds": 0.07883531300103641,
+      "exit_code": 0,
+      "stdout": "{\"actual_schedule_distance_lower_bound\": 13, \"carry_masks_rejected\": 63, \"exceptional_boundary_pairs\": 2, \"failure_histogram\": {\"13\": 32, \"14\": 8, \"16\": 4, \"17\": 3, \"18\": 3, \"19\": 2, \"21\": 2, \"22\": 2, \"23\": 1, \"24\": 3, \"25\": 3}, \"interval_masks\": 528, \"kernel_dimension\": 6, \"kernel_rank\": 26, \"limitation\": \"No actual 16-word message pair or complete 13-support exclusion is claimed.\", \"local_sharpness_delta\": 1237741568, \"negative_controls\": [{\"control\": \"wrong rotation\", \"rejection\": \"FIPS constants\"}, {\"control\": \"corrupt kernel basis\", \"rejection\": \"kernel membership\"}, {\"control\": \"omit carry mask\", \"rejection\": \"complete carry list\"}, {\"control\": \"fake carry rejection\", \"rejection\": \"carry obstruction\"}, {\"control\": \"wrong sigma image\", \"rejection\": \"carry mask\"}, {\"control\": \"omit interval exception\", \"rejection\": \"complete power2 masks\"}, {\"control\": \"damaged sharpness input\", \"rejection\": \"sharpness sigma values\"}, {\"control\": \"alter claimed sigma value\", \"rejection\": \"sharpness sigma values\"}, {\"control\": \"wrong recurrence index\", \"rejection\": \"support bridge coverage\"}, {\"control\": \"false global scope\", \"rejection\": \"sharpness scope\"}, {\"control\": \"damaged dependency\", \"rejection\": \"frozen support hash\"}], \"recurrence_identities\": 18, \"schedule_bridges\": 6, \"status\": \"PASS\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/local-review/check_independent.py",
+        "--selftest"
+      ],
+      "elapsed_seconds": 0.13236439100001007,
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"python\": \"3.12.14\",\n  \"low13_nonzero_masks\": 63,\n  \"low12_nonzero_masks\": 255,\n  \"low12_only_surviving_mask\": [\n    \"fbca7000\"\n  ],\n  \"power_of_two_intervals\": 528,\n  \"boundary_witness\": {\n    \"x\": \"cd027f2a\",\n    \"y\": \"36c80f2a\",\n    \"sigma1_x\": \"70437fbe\",\n    \"sigma1_y\": \"067defbe\",\n    \"h_x\": \"3d45fee8\",\n    \"h_y\": \"3d45fee8\",\n    \"xor_mask\": \"fbca7000\",\n    \"additive_delta_y_minus_x\": \"69c59000\",\n    \"common_low_12\": \"f2a\"\n  },\n  \"negative_controls\": [\n    {\n      \"case\": \"wrong_sigma_rotation\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"damaged_kernel_basis\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"missing_low13_case\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"false_obstruction_bit\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"falsely_injective_mod_4096\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"damaged_input_word\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"tampered_sigma_word\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"missing_exceptional_interval\",\n      \"rejected\": true\n    }\n  ],\n  \"checker_sha256\": \"3273f3612a2295584563e24975c4eb507935ad98b4a1c28b0b0d7d3a4b5d3c9d\",\n  \"certificate_sha256\": \"5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342\",\n  \"proof_scope\": \"local h map only; no new full-schedule distance bound\",\n  \"formalization\": \"not Lean-formalized\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "review/small_checks.py"
+      ],
+      "elapsed_seconds": 0.03319122599896218,
+      "exit_code": 0,
+      "stdout": "{\n  \"checker_sha256\": \"eb459190ece237966394247d45d517009260fa0d67f5d80c306922ee141f2312\",\n  \"scope\": \"sigma bijectivity, constants, valuation obstruction; no support enumeration\",\n  \"sigma0_rank\": 32,\n  \"sigma1_rank\": 32,\n  \"sigma0_H\": \"0x11002000\",\n  \"sigma1_inverse_H\": \"0xc6eeaad6\",\n  \"sigma0_inverse_basis\": [\n    \"0x185744e9\",\n    \"0x30ae89d2\",\n    \"0x615d13a4\",\n    \"0xdaed63a1\",\n    \"0x9cd03a8e\",\n    \"0x08fdcc39\",\n    \"0x11fb9872\",\n    \"0x23f730e4\",\n    \"0x5fb92521\",\n    \"0xbf724a42\",\n    \"0x57ee6948\",\n    \"0xafdcd290\",\n    \"0x76b358ec\",\n    \"0xf531f531\",\n    \"0xc36917ae\",\n    \"0xb78f9679\",\n    \"0x4615d13e\",\n    \"0x947ce695\",\n    \"0x19a4740f\",\n    \"0x2b1facf7\",\n    \"0x4e681d07\",\n    \"0x84877ee7\",\n    \"0x385344eb\",\n    \"0x70a689d6\",\n    \"0xf91a5745\",\n    \"0xc36917af\",\n    \"0xb78f967b\",\n    \"0x4615d13a\",\n    \"0x8c2ba274\",\n    \"0x290afdcd\",\n    \"0x4a42bf73\",\n    \"0x94857ee6\"\n  ],\n  \"sigma1_inverse_basis\": [\n    \"0x2ccfffed\",\n    \"0x75500037\",\n    \"0xeaa0006e\",\n    \"0x589d5570\",\n    \"0xb13aaae0\",\n    \"0xc367ff81\",\n    \"0x27dd5543\",\n    \"0x4fbaaa86\",\n    \"0xb3baaae1\",\n    \"0xc667ff83\",\n    \"0x2ddd5547\",\n    \"0x5bbaaa8e\",\n    \"0x9bbaaaf1\",\n    \"0x9667ffa3\",\n    \"0x8ddd5507\",\n    \"0x9667ffa2\",\n    \"0x8ddd5505\",\n    \"0x9667ffa6\",\n    \"0x8ddd550d\",\n    \"0x9667ffb6\",\n    \"0x8ddd552d\",\n    \"0x9667fff6\",\n    \"0x8ddd55ad\",\n    \"0x9667fef6\",\n    \"0x8ddd57ad\",\n    \"0xbaa8051b\",\n    \"0xf88d5f9a\",\n    \"0x50081575\",\n    \"0xa0102aea\",\n    \"0xe132ff95\",\n    \"0x6377556b\",\n    \"0xc6eeaad6\"\n  ],\n  \"possible_sigma0_additive_differences_from_H\": [\n    \"0x0effe000\",\n    \"0x0f002000\",\n    \"0x10ffe000\",\n    \"0x11002000\",\n    \"0xeeffe000\",\n    \"0xef002000\",\n    \"0xf0ffe000\",\n    \"0xf1002000\"\n  ],\n  \"valuation_sigma0_output\": 13,\n  \"valuation_input_to_sigma1_output_H\": 1,\n  \"adjacent_quotient_carry_cases\": 256,\n  \"valuation_only_premise_is_insufficient\": {\n    \"a\": \"0x00000000\",\n    \"a_prime\": \"0x00082000\",\n    \"sigma0_difference\": \"0x08011442\",\n    \"sigma0_difference_mod4\": 2\n  },\n  \"low_width_valuation_pairs_checked\": 21844,\n  \"negative_controls\": [\n    {\n      \"case\": \"corrupt_sigma0_constant\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"corrupt_sigma1_inverse_constant\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"wrong_sigma0_rotation\",\n      \"rejected\": true\n    },\n    {\n      \"case\": \"wrong_sigma1_shift\",\n      \"rejected\": true\n    }\n  ],\n  \"passed\": true\n}\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Small exact proof dependencies only; no new full-schedule lower bound, large old certificate replay, or Lean compilation."
+}

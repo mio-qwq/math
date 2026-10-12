@@ -1,0 +1,65 @@
+{
+  "author_short_proof_used": false,
+  "candidate_masks": 132,
+  "contradictions": 132,
+  "final_carry_fixtures": [
+    {
+      "a": 2147483648,
+      "b": 2147483648,
+      "final_carry": 1,
+      "integer_sum": 4294967296,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "a": 2147483648,
+      "b": 2147483648,
+      "final_carry": -1,
+      "integer_sum": -4294967296,
+      "x": 2147483648,
+      "y": 2147483648
+    }
+  ],
+  "local_truth_table_cases": 96,
+  "maximum_original_rows_in_one_conflict": 13,
+  "minimum_original_rows_in_one_conflict": 4,
+  "negative_controls": [
+    {
+      "name": "omitted_necessary_A",
+      "rejected": true
+    },
+    {
+      "name": "changed_fixed_K",
+      "rejected": true
+    },
+    {
+      "name": "removed_conflict_row",
+      "rejected": true
+    },
+    {
+      "name": "duplicated_conflict_row",
+      "rejected": true
+    },
+    {
+      "name": "tampered_matrix_hash",
+      "rejected": true
+    },
+    {
+      "name": "flipped_affine_rhs",
+      "rejected": true
+    },
+    {
+      "name": "wrong_sigma1_rotation",
+      "rejected": true
+    },
+    {
+      "name": "incorrect_zero_final_carry",
+      "rejected": true
+    }
+  ],
+  "original_sigma_matrix_columns": 128,
+  "sat_smt_or_RUP_used": false,
+  "scope": "fixed-K local four-word exclusion only; no actual-distance claim",
+  "status": "pass",
+  "width_three_all_input_table_cases": 4096
+}

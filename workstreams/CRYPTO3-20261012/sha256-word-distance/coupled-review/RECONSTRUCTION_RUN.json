@@ -1,0 +1,24 @@
+{
+  "nvars": 667,
+  "nclauses": 4753,
+  "cnf_sha256": "4624329575e3cb0c187c521befb923e4296ba87eaa054c8b05caac7f37caa256",
+  "controls": {
+    "input_fixtures": 99,
+    "sigma_word_comparisons": 594,
+    "modular_sum_comparisons": 594,
+    "negative_controls": [
+      "flipped internal gate bit",
+      "wrong XOR constant",
+      "wrong sigma rotation"
+    ],
+    "overflow_control": "0x00000001 + 0xffffffff encoded as 0x00000000",
+    "passed": true
+  },
+  "discoverer_files_read_by_program": false,
+  "solver_cross_check": {
+    "solver": "pysat cadical195",
+    "satisfiable": false,
+    "elapsed_seconds": 0.14466664700012188,
+    "is_certificate_review": false
+  }
+}

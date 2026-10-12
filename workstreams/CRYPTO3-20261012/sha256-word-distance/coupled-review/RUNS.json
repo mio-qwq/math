@@ -1,0 +1,56 @@
+{
+  "schema": "independent-coupled-review-runs-v1",
+  "recorded_utc": "2026-10-12T09:43:26.899522+00:00",
+  "python": "3.12.14",
+  "independent_reconstruction": {
+    "command": "PYTHONPATH=/workspace/scratch/40e57534c243/cr3-deps python workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/reconstruct.py --solve",
+    "exit_code": 0,
+    "result_record": "RECONSTRUCTION_RUN.json",
+    "pysat_version": "1.9.dev15"
+  },
+  "final_review_runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/audit_mapping.py",
+        "--record",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/MAPPING_RUN.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "source_sha256": "c613f56e51f71cd8001f770fadab56f38b531fe3d9fd4c80e6c60f256f2cb300",
+      "stdout_sha256": "45ab7546e5af1d89f9a539aa42d6d2c06c3835809b062595a6d0cb0eef3f4d00",
+      "result_record": "MAPPING_RUN.json",
+      "stdout_retention": "SHA256 of actual stdout is recorded; result_record retains substantive results, with the dependency record additionally retaining all 36 source equations."
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/check_hints.py",
+        "--record",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/RUP_RUN.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "source_sha256": "3bdefcbccaa794a8e5b525bd25d2f8cee6cdb9011d23eba7850cb187aba3c201",
+      "stdout_sha256": "59ec021682ba1a01c3475fcb0c389288d7788c86d77b4b67ff37e131e18fe223",
+      "result_record": "RUP_RUN.json",
+      "stdout_retention": "SHA256 of actual stdout is recorded; result_record retains substantive results, with the dependency record additionally retaining all 36 source equations."
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/audit_dependencies.py",
+        "--record",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/DEPENDENCY_RUN.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "source_sha256": "bd2b6b2a6f3bc54fb7d3a3a35b0eeabfab7af43c0b2a8eb5127b56fe8c17d8e6",
+      "stdout_sha256": "40184ccabba244b3922073d26232b233b9c399fbd3f701e19206dce229eb38d1",
+      "result_record": "DEPENDENCY_RUN.json",
+      "stdout_retention": "SHA256 of actual stdout is recorded; result_record retains substantive results, with the dependency record additionally retaining all 36 source equations."
+    }
+  ],
+  "author_programs_executed": false
+}

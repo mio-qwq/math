@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "mapping": {
+    "gates_recognized": 1326,
+    "truth_rows_checked": 10608,
+    "free_input_bits": 96,
+    "six_modular_adders": true,
+    "three_full_word_equalities": true,
+    "final_carries_unconstrained": true,
+    "every_cnf_clause_accounted_for": true
+  },
+  "negative_controls": [
+    {
+      "case": "wrong_xor_constant",
+      "rejected": true
+    },
+    {
+      "case": "wrong_sigma_bit_source",
+      "rejected": true
+    },
+    {
+      "case": "identified_independent_base_bits",
+      "rejected": true
+    },
+    {
+      "case": "missing_gate_clause",
+      "rejected": true
+    },
+    {
+      "case": "extra_auxiliary_assumption",
+      "rejected": true
+    },
+    {
+      "case": "damaged_word_equality",
+      "rejected": true
+    }
+  ],
+  "source_hashes": {
+    "PROOF.md": "36dd1c96de0aef7572a4e3973480a989de5d5b50b530a95fde14f7b840e0acc6",
+    "build_cnf.py": "36c71809af7f30dcfe41ef75f917f06bfea4166c52c30c6ffff293631315e608",
+    "circuit.json": "9773b570ac90b76253d2fc8f3a5d0537f01411a6a300dcefa70d5fd4052e2834",
+    "boundary.cnf": "f7baab8106897f1359fe20e69ac350a088f486b47260dc0825a4f1ce3c162262"
+  },
+  "imports_discoverer_builder": false
+}

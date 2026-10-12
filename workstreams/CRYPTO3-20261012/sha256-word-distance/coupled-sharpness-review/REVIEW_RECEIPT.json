@@ -1,0 +1,53 @@
+{
+  "claims_verified": [
+    "All four supplied input words and all eight small-sigma outputs",
+    "Both nonzero additive differences equal 0x971a5800",
+    "Gq + D = 0 modulo 2^32",
+    "Fp + Fq = 0 modulo 2^32",
+    "D = 2^11 times the odd integer 1237835; exact valuation 11",
+    "Together with the pinned upper-bound theorem, local sharpness at valuation 11"
+  ],
+  "independence": {
+    "SAT_used_in_review": false,
+    "author_checker_executed": false,
+    "author_code_imported": false,
+    "precomparison_files_unchanged": true,
+    "precomparison_freeze_sha256": "2609332d1d98d48088d60f80990ff86abc71fbfa818e0df96859f91931746135",
+    "reconstruction_before_author_package_read": true,
+    "witness_was_independently_discovered": false
+  },
+  "limitations": [
+    "No complete schedule or pair of input blocks",
+    "No full support exclusion",
+    "No improved global lower bound above 13",
+    "No formal Lean proof",
+    "No external human peer review or novelty claim"
+  ],
+  "object": "four arbitrary ordered 32-bit words under three coupled local equations",
+  "review_sha256": "3b1a220f5bc7adf30742ef0b809df7c8e176043bb998b70e11a6dc5947fdbf1e",
+  "reviewed_author_files": {
+    "PROOF.md": "1729e43270ca8d6090e02f2b2cbaf5c68f46a7543f3632197a99d2d99ef2ca89",
+    "SHA256.json": "56f1aebfb8bb076533b1f184048969f87486d791512029eede5a30590b455731",
+    "WITNESS.json": "d16791d3cf27c5a04746c3c5f7dc4d9c0b90419dc12743fddb96c3b1db4c4bf7"
+  },
+  "reviewer_role": "AI agent independent of the discoverer; not human peer review",
+  "schema": "crypto3-independent-sharpness-review-v1",
+  "status": "PASS",
+  "upper_bound_review_receipt": {
+    "path": "../coupled-review/REVIEW_RECEIPT.json",
+    "sha256": "6b2d264e21e88097c805eb0aced623beb5f21e5680e493be54fb459fd9099993"
+  },
+  "utc": "2026-10-12T09:51:04.410668+00:00",
+  "verification": {
+    "actual_exit_code": 0,
+    "all_negative_controls_rejected": true,
+    "author_manifest_files_integrity_checked": 7,
+    "checker_sha256": "dc7730a6acdbe366bc879c892a2509967b37a371a111cbef8cd70081dac9fc0d",
+    "command": "python workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-sharpness-review/check.py --record workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-sharpness-review/INDEPENDENT_RUN.json",
+    "compared_author_numerical_fields": 17,
+    "default_checker_mode": "read-only",
+    "negative_controls": 8,
+    "python": "3.12.14",
+    "run_record_sha256": "01b0b5ada631bad9b4c3c643376b03587263d912dc9d09dfcfaeb6a43f0c4158"
+  }
+}

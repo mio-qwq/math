@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "runs": [
+    {
+      "exit_code": 0,
+      "script": "check_structural.py",
+      "script_sha256": "e1659b38a9b2f1e4949a53239e5a8de289128f8f969953e6ab316bb09c962077",
+      "stderr": "",
+      "stdout": "{\"conclusion\": \"central nonzero difference is not divisible by 2^21\", \"gap_obstructions\": 10, \"recurrence_substitutions\": 44, \"rejected_controls\": [\"sigma1 carry mask\", \"exactly one active gap bit\", \"universal XOR row identity\", \"support case coordinates\", \"complete carry/gap lists\", \"recurrence reduction\"], \"scope\": \"finite dependencies of full written proof; distance bound remains 13\", \"sigma1_masks\": 11, \"support_indices\": [6, 7, 12, 13], \"support_source_sha256\": \"02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf\", \"xor_identities\": 1}"
+    },
+    {
+      "exit_code": 0,
+      "script": "check_twin_witness.py",
+      "script_sha256": "af320c9fa7b039ccca2168624c75b0afc47de560b299c4354f384635ab5edb62",
+      "stderr": "",
+      "stdout": "{\"generic\": {\"F\": 3140924411, \"Gx\": 644142061, \"Gy\": 372503821, \"delta\": 4159148176, \"scope\": \"independent pairs only; no base-schedule equations\"}, \"high_valuation_first\": {\"F\": 4010024968, \"Gx\": 4292851732, \"Gy\": 2078740, \"delta\": 2149580800, \"scope\": \"independent pairs only; no base-schedule equations\"}, \"high_valuation_witnesses\": 12, \"rejected_controls\": [\"equal nonzero input differences\", \"word range\", \"expected input difference\", \"equal nonzero input differences\"]}"
+    },
+    {
+      "exit_code": 0,
+      "script": "check_valuation.py",
+      "script_sha256": "03001f38660f04efacbc3ab0346490440dd0ab5e8a4ad4d67753f1d1dd8b8ce6",
+      "stderr": "",
+      "stdout": "{\"all_case_pairs\": 121, \"claim\": \"v2(D)<=20 in four stated support cores, pending external review\", \"independently_rebuilt_input_quotients\": 2048, \"linear_conflicts\": 56, \"recurrence_substitutions\": 44, \"rejected_controls\": [\"complete supplied case list\", \"certificate conclusion\", \"complete supplied case list\", \"no supplied SAT case\"], \"scope\": \"written reduction plus finite computation; no full support exclusion\", \"surviving_branches\": 0, \"truth_table_transitions\": 22352}"
+    }
+  ],
+  "scope": "written v2(D)<=20 lemma finite dependencies; independent review pending",
+  "status": "passed",
+  "support_source_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+}

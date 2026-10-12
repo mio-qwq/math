@@ -1,0 +1,10 @@
+{
+  "reason_unknown": "timeout",
+  "schema": "crypto3-periodic-active-pair-ansatz-v1",
+  "scope": "A period-14 assignment to active word pairs only; inactive base completion is not imposed.",
+  "seconds": 20.004097506000107,
+  "started_utc": "2026-10-12T09:10:49.708126+00:00",
+  "status": "unknown",
+  "timeout_ms": 20000,
+  "z3": "4.15.3"
+}

@@ -1,0 +1,2062 @@
+{
+  "schema": "CRYPTO3-coupled-short-adjacent-probe-v1",
+  "mechanism": "linear consequences of adjacent carry parity for the two derivative equations",
+  "source_probe_sha256": "d1cd0ba37f9fbdfaff57f98e358ff71bb94901644b4ef4a426ba78a137953f24",
+  "masks_checked": 132,
+  "rejected": 58,
+  "remaining_masks": [
+    "293a1000",
+    "294a1000",
+    "295a1000",
+    "297a1000",
+    "2f3a1000",
+    "2f4a1000",
+    "2f5a1000",
+    "2f7a1000",
+    "373a1000",
+    "374a1000",
+    "375a1000",
+    "377a1000",
+    "483a1000",
+    "485a1000",
+    "487a1000",
+    "48ba1000",
+    "48da1000",
+    "48fa1000",
+    "4939d000",
+    "493a1000",
+    "493a5000",
+    "493ad000",
+    "493bd000",
+    "4949d000",
+    "494ad000",
+    "494bd000",
+    "4959d000",
+    "495a1000",
+    "495a5000",
+    "495ad000",
+    "495bd000",
+    "4979d000",
+    "497a1000",
+    "497a5000",
+    "497ad000",
+    "497bd000",
+    "4b3a1000",
+    "4b3a5000",
+    "4b5a1000",
+    "4b5a5000",
+    "4b7a1000",
+    "4b7a5000",
+    "4f3a1000",
+    "4f3ad000",
+    "4f4ad000",
+    "4f5a1000",
+    "4f5ad000",
+    "4f7a1000",
+    "4f7ad000",
+    "56b9d000",
+    "56d9d000",
+    "56f9d000",
+    "5939d000",
+    "593bd000",
+    "5949d000",
+    "594bd000",
+    "5959d000",
+    "595bd000",
+    "5979d000",
+    "597bd000",
+    "8439b000",
+    "843a7000",
+    "844a7000",
+    "8459b000",
+    "845a7000",
+    "8479b000",
+    "847a7000",
+    "953a5000",
+    "954a5000",
+    "955a5000",
+    "957a5000",
+    "9a39b000",
+    "9a59b000",
+    "9a79b000"
+  ],
+  "contradiction_signatures": [
+    {
+      "rows": [
+        [
+          "f(z)",
+          10
+        ],
+        [
+          "z",
+          13
+        ],
+        [
+          "z",
+          17
+        ],
+        [
+          "z",
+          28
+        ]
+      ],
+      "count": 58
+    }
+  ],
+  "cases": [
+    {
+      "mask": "1a3a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1a4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1a5a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1a7a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c3a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c3af000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c5a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c5af000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c7a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1c7af000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1e3af000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1e5af000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "1e7af000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "293a1000",
+      "status": "consistent",
+      "rank": 10,
+      "equations": 10
+    },
+    {
+      "mask": "294a1000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "295a1000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "297a1000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "2f3a1000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "2f4a1000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "2f5a1000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "2f7a1000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "373a1000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "374a1000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "375a1000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "377a1000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "483a1000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "485a1000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "487a1000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "48ba1000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "48da1000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "48fa1000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "4939d000",
+      "status": "consistent",
+      "rank": 10,
+      "equations": 10
+    },
+    {
+      "mask": "493a1000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "493a5000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "493ad000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "493bd000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "4949d000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "494ad000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "494bd000",
+      "status": "consistent",
+      "rank": 17,
+      "equations": 17
+    },
+    {
+      "mask": "4959d000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "495a1000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "495a5000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "495ad000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "495bd000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "4979d000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "497a1000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "497a5000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "497ad000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "497bd000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "4b3a1000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "4b3a5000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "4b5a1000",
+      "status": "consistent",
+      "rank": 17,
+      "equations": 17
+    },
+    {
+      "mask": "4b5a5000",
+      "status": "consistent",
+      "rank": 18,
+      "equations": 18
+    },
+    {
+      "mask": "4b7a1000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "4b7a5000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "4f3a1000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "4f3ad000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "4f4ad000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "4f5a1000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "4f5ad000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "4f7a1000",
+      "status": "consistent",
+      "rank": 13,
+      "equations": 13
+    },
+    {
+      "mask": "4f7ad000",
+      "status": "consistent",
+      "rank": 14,
+      "equations": 14
+    },
+    {
+      "mask": "56b9d000",
+      "status": "consistent",
+      "rank": 13,
+      "equations": 13
+    },
+    {
+      "mask": "56d9d000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "56f9d000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "583a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "585a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "587a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "5939d000",
+      "status": "consistent",
+      "rank": 13,
+      "equations": 13
+    },
+    {
+      "mask": "593a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "593bd000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "5949d000",
+      "status": "consistent",
+      "rank": 17,
+      "equations": 17
+    },
+    {
+      "mask": "594bd000",
+      "status": "consistent",
+      "rank": 18,
+      "equations": 18
+    },
+    {
+      "mask": "5959d000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "595a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "595bd000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "5979d000",
+      "status": "consistent",
+      "rank": 17,
+      "equations": 17
+    },
+    {
+      "mask": "597a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "597bd000",
+      "status": "consistent",
+      "rank": 16,
+      "equations": 16
+    },
+    {
+      "mask": "5a3a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "5a5a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "5a7a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "5e3a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "5e5a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "5e7a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "783a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "785a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "787a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "7a3a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "7a5a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "7a7a3000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "8439b000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "843a7000",
+      "status": "consistent",
+      "rank": 10,
+      "equations": 10
+    },
+    {
+      "mask": "844a7000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "8459b000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "845a7000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "8479b000",
+      "status": "consistent",
+      "rank": 13,
+      "equations": 13
+    },
+    {
+      "mask": "847a7000",
+      "status": "consistent",
+      "rank": 12,
+      "equations": 12
+    },
+    {
+      "mask": "953a5000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "953bb000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "954a5000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "955a5000",
+      "status": "consistent",
+      "rank": 13,
+      "equations": 13
+    },
+    {
+      "mask": "955bb000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "957a5000",
+      "status": "consistent",
+      "rank": 13,
+      "equations": 13
+    },
+    {
+      "mask": "957bb000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a39b000",
+      "status": "consistent",
+      "rank": 11,
+      "equations": 11
+    },
+    {
+      "mask": "9a3a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a3bb000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a4ab000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a59b000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "9a5a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a5bb000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a79b000",
+      "status": "consistent",
+      "rank": 15,
+      "equations": 15
+    },
+    {
+      "mask": "9a7a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9a7bb000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9c3a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9c4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9c4ab000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9c5a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9c7a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9d4ab000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9dcab000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "9e4ab000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "d84a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "da4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 1
+        }
+      ]
+    },
+    {
+      "mask": "f84a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "fa4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "fb4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "fbca7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    },
+    {
+      "mask": "fc4a7000",
+      "status": "inconsistent",
+      "contradiction": [
+        {
+          "kind": "f(z)",
+          "bit": 10,
+          "rhs": 1
+        },
+        {
+          "kind": "z",
+          "bit": 13,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 17,
+          "rhs": 0
+        },
+        {
+          "kind": "z",
+          "bit": 28,
+          "rhs": 0
+        }
+      ]
+    }
+  ],
+  "seconds": 0.015753736999613466,
+  "scope": "Necessary mask/linear relaxation only; no h-fibre premise or full coupled nonexistence claim."
+}

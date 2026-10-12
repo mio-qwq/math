@@ -1,0 +1,40 @@
+{
+  "schema": "crypto3-file-manifest-v1",
+  "files": [
+    {
+      "path": "CHECK_RUN.json",
+      "bytes": 863,
+      "sha256": "98529754cec7bd09036c0f7749878b86d58f1c1d4b91719e7a5128788eb6630c"
+    },
+    {
+      "path": "MECHANISM.md",
+      "bytes": 1223,
+      "sha256": "aa2ae65f20b8a2cbd09ca0a7c15a94d723341f0754db242e130753c4e1a29b42"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 2355,
+      "sha256": "1729e43270ca8d6090e02f2b2cbaf5c68f46a7543f3632197a99d2d99ef2ca89"
+    },
+    {
+      "path": "RUN.json",
+      "bytes": 1231,
+      "sha256": "50b44c1d10053efa8e08f32c7b55b368217fdbd7b82378d641514fc4cb0c2a7e"
+    },
+    {
+      "path": "WITNESS.json",
+      "bytes": 543,
+      "sha256": "d16791d3cf27c5a04746c3c5f7dc4d9c0b90419dc12743fddb96c3b1db4c4bf7"
+    },
+    {
+      "path": "check.py",
+      "bytes": 3505,
+      "sha256": "541f503379f1339e22178bfcaf24b068d158979e00272ad24565139b77edac2e"
+    },
+    {
+      "path": "probe.py",
+      "bytes": 1532,
+      "sha256": "90445c705171b7babe8c9570b8db4d14bde00c64f8bd3e4baccf2935b7efe493"
+    }
+  ]
+}

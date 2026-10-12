@@ -1,0 +1,12 @@
+{
+  "files_sha256": {
+    "PROOF.md": "227e4713025452f5aa4b49430af339131c8452d9ab45ec013548a486d7ba39a0",
+    "RESULTS.json": "15cca5243a303be8374102b15c9b8f19a24146028fb09803a66f1ffbdae2dfb4",
+    "check.py": "072be3f8c42b88168d46bc3bd24f026a66bbe42c1e213fad6dbd5c36e196ac45",
+    "supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "inherited_base_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "phase2_commit": "1af7a5a95aa81d67df87ea201b807451ca7a0e2d",
+  "schema": "crypto3-window-reduction-v3-sha256",
+  "scope": "new local written claim pending independent review; no actual bound improvement"
+}

@@ -1,0 +1,400 @@
+{
+  "schema": "CRYPTO3-independent-irregular-valuation-review-v1",
+  "status": "PASS",
+  "review_kind": "independent AI reconstruction before reading author proof, then precise-version comparison; not human peer review",
+  "python": "3.12.14",
+  "author_sha256": {
+    "mechanism/VALUATION_BOUND.md": "1edca147825bae48618e56d65730b5cf62ab7ebf50faf085f9226f5f1d95c574",
+    "mechanism/STRUCTURAL-CERTIFICATE.json": "6fb30742ea7a520e0ce61d57c1ccb1f443ddb51dead591c46728804a701bef1d",
+    "mechanism/check_structural.py": "e1659b38a9b2f1e4949a53239e5a8de289128f8f969953e6ab316bb09c962077",
+    "mechanism/RUNS.json": "29d81e8cfac78a606c6f031258b5d9fa45c4fa028ee03deed7e3b587d507f123",
+    "mechanism/TWIN-V21-HALF-CARRY.json": "2e7f5d467d613f4778db912b713c141c3209a92b4103702fd52c069ce0ef5b9a",
+    "mechanism/TWIN-RUN.json": "b0de2acb8ad6e63082dfa7b9cc89e00cc4f6612849b8db420474037ec79df918",
+    "supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "independent_sha256": {
+    "RECONSTRUCTION.md": "5584ed4be2c5a9906c55b581d2523c033131a635cec10672f5a41228b4e2ffa0",
+    "check_valuation_independent.py": "b9537d51976b705ba20bf3835c9e57812e5f32ff15d33d255de2ab55c7fd19c2",
+    "independent_valuation_certificate.json": "7449074d5a957b348ee1a9b2221f1539b36a3500753a0622f9f1e2c04788af59",
+    "INDEPENDENT_RUN.json": "f921221634eafb0d8a67d02c20eac26eab939624a42449f0acbf5813d5683af3",
+    "compare_valuation.py": "4d9a03d547d952054ebd08f067d857af3d9ace4bd910ab3e0065ebde39a1ddd8"
+  },
+  "structural_comparison": {
+    "support_coordinates_agree": true,
+    "sigma1_masks_agree": 11,
+    "author_sigma1_gap_obstructions": [
+      {
+        "end": 21,
+        "sigma1_mask": "00000814",
+        "gap_bit": 15
+      },
+      {
+        "end": 22,
+        "sigma1_mask": "0000183c",
+        "gap_bit": 15
+      },
+      {
+        "end": 23,
+        "sigma1_mask": "0000386c",
+        "gap_bit": 5
+      },
+      {
+        "end": 24,
+        "sigma1_mask": "000078cc",
+        "gap_bit": 6
+      },
+      {
+        "end": 25,
+        "sigma1_mask": "0000f98c",
+        "gap_bit": 7
+      },
+      {
+        "end": 26,
+        "sigma1_mask": "0001fb0c",
+        "gap_bit": 8
+      },
+      {
+        "end": 27,
+        "sigma1_mask": "0003fe0c",
+        "gap_bit": 9
+      },
+      {
+        "end": 28,
+        "sigma1_mask": "0007f40c",
+        "gap_bit": 10
+      },
+      {
+        "end": 29,
+        "sigma1_mask": "000fe00c",
+        "gap_bit": 11
+      },
+      {
+        "end": 30,
+        "sigma1_mask": "001fc80c",
+        "gap_bit": 14
+      }
+    ],
+    "independent_sigma0_gap_obstructions": [
+      {
+        "last": 21,
+        "input_mask": "00200000",
+        "f_mask": "00044008",
+        "g_mask": "00000814",
+        "first_obstruction_bit": 25
+      },
+      {
+        "last": 22,
+        "input_mask": "00600000",
+        "f_mask": "000cc018",
+        "g_mask": "0000183c",
+        "first_obstruction_bit": 25
+      },
+      {
+        "last": 23,
+        "input_mask": "00e00000",
+        "f_mask": "001dc038",
+        "g_mask": "0000386c",
+        "first_obstruction_bit": 25
+      },
+      {
+        "last": 24,
+        "input_mask": "01e00000",
+        "f_mask": "003fc078",
+        "g_mask": "000078cc",
+        "first_obstruction_bit": 25
+      },
+      {
+        "last": 25,
+        "input_mask": "03e00000",
+        "f_mask": "007bc0f8",
+        "g_mask": "0000f98c",
+        "first_obstruction_bit": 19
+      },
+      {
+        "last": 26,
+        "input_mask": "07e00000",
+        "f_mask": "00f3c1f8",
+        "g_mask": "0001fb0c",
+        "first_obstruction_bit": 20
+      },
+      {
+        "last": 27,
+        "input_mask": "0fe00000",
+        "f_mask": "01e3c3f8",
+        "g_mask": "0003fe0c",
+        "first_obstruction_bit": 21
+      },
+      {
+        "last": 28,
+        "input_mask": "1fe00000",
+        "f_mask": "03c3c7f8",
+        "g_mask": "0007f40c",
+        "first_obstruction_bit": 22
+      },
+      {
+        "last": 29,
+        "input_mask": "3fe00000",
+        "f_mask": "0783cff8",
+        "g_mask": "000fe00c",
+        "first_obstruction_bit": 23
+      },
+      {
+        "last": 30,
+        "input_mask": "7fe00000",
+        "f_mask": "0f03dff8",
+        "g_mask": "001fc80c",
+        "first_obstruction_bit": 24
+      }
+    ],
+    "universal_parity_identity_agrees": true,
+    "original_recurrence_substitutions": 44,
+    "integer_target_identities": 20
+  },
+  "omitted_third_equation_boundary_witness": {
+    "words_hex": {
+      "x": "80000000",
+      "xp": "00200000",
+      "y": "29904000",
+      "yp": "a9b04000"
+    },
+    "delta": "80200000",
+    "F": "ef042008",
+    "G_x": "ffdfb814",
+    "G_y": "001fb814",
+    "G_y_minus_G_x": "00400000",
+    "ordinary_G_x": -2115564,
+    "ordinary_G_y": 2078740,
+    "scope": "two independent pairs; no third pair or complete schedule supplied"
+  },
+  "all_supplied_half_stratum_witnesses": [
+    {
+      "words_hex": {
+        "x": "80000000",
+        "xp": "00200000",
+        "y": "29904000",
+        "yp": "a9b04000"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffdfb814",
+      "G_y": "001fb814",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2115564,
+      "ordinary_G_y": 2078740,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "80000000",
+        "xp": "00200000",
+        "y": "09a1c000",
+        "yp": "89c1c000"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffdfb814",
+      "G_y": "001fb814",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2115564,
+      "ordinary_G_y": 2078740,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "a0000000",
+        "xp": "20200000",
+        "y": "88600440",
+        "yp": "08800440"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffdfd814",
+      "G_y": "001fd814",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2107372,
+      "ordinary_G_y": 2086932,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "c7be0c00",
+        "xp": "47de0c00",
+        "y": "4a0a4400",
+        "yp": "ca2a4400"
+      },
+      "delta": "80200000",
+      "F": "f0fbdff8",
+      "G_x": "ffe047ec",
+      "G_y": "002047ec",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2078740,
+      "ordinary_G_y": 2115564,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "80200000",
+        "xp": "00400000",
+        "y": "09a1c000",
+        "yp": "89c1c000"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffdfb814",
+      "G_y": "001fb814",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2115564,
+      "ordinary_G_y": 2078740,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "8eb14400",
+        "xp": "0ed14400",
+        "y": "fff999cc",
+        "yp": "801999cc"
+      },
+      "delta": "80200000",
+      "F": "0efc2018",
+      "G_x": "ffdfb804",
+      "G_y": "001fb804",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2115580,
+      "ordinary_G_y": 2078724,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "4f7e0d00",
+        "xp": "cf9e0d00",
+        "y": "6b9a0400",
+        "yp": "ebba0400"
+      },
+      "delta": "80200000",
+      "F": "10fb9ff8",
+      "G_x": "ffdfa7ec",
+      "G_y": "001fa7ec",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2119700,
+      "ordinary_G_y": 2074604,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "80600000",
+        "xp": "00800000",
+        "y": "88600440",
+        "yp": "08800440"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffdfd814",
+      "G_y": "001fd814",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2107372,
+      "ordinary_G_y": 2086932,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "80e00000",
+        "xp": "01000000",
+        "y": "88e00440",
+        "yp": "09000440"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffdfd834",
+      "G_y": "001fd834",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2107340,
+      "ordinary_G_y": 2086964,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "81e00000",
+        "xp": "02000000",
+        "y": "89f5664a",
+        "yp": "0a15664a"
+      },
+      "delta": "80200000",
+      "F": "ef042008",
+      "G_x": "ffe05874",
+      "G_y": "00205874",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2074508,
+      "ordinary_G_y": 2119796,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "ffeaaaaa",
+        "xp": "800aaaaa",
+        "y": "281a0000",
+        "yp": "a83a0000"
+      },
+      "delta": "80200000",
+      "F": "0f03a008",
+      "G_x": "ffe0380c",
+      "G_y": "0020380c",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2082804,
+      "ordinary_G_y": 2111500,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    },
+    {
+      "words_hex": {
+        "x": "7ffc3c00",
+        "xp": "001c3c00",
+        "y": "00a48c00",
+        "yp": "80c48c00"
+      },
+      "delta": "80200000",
+      "F": "0f035ff8",
+      "G_x": "ffe037f4",
+      "G_y": "002037f4",
+      "G_y_minus_G_x": "00400000",
+      "ordinary_G_x": -2082828,
+      "ordinary_G_y": 2111476,
+      "scope": "two independent pairs; no third pair or complete schedule supplied"
+    }
+  ],
+  "generic_twin_witness": {
+    "words_hex": {
+      "x": "dc07bd33",
+      "xp": "d3ef4dc3",
+      "y": "dfe77c13",
+      "yp": "d7cf0ca3"
+    },
+    "delta": "f7e79090",
+    "F": "bb36b3fb",
+    "G_x": "2664d3ed",
+    "G_y": "1633f50d",
+    "G_y_minus_G_x": "efcf2120",
+    "ordinary_G_x": 644142061,
+    "ordinary_G_y": 372503821,
+    "scope": "two independent pairs; no third pair or complete schedule supplied"
+  },
+  "author_structural_checker_actual_rerun": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/40e57534c243/math-cr3/workstreams/CRYPTO3-20261012/sha256-word-distance/mechanism/check_structural.py",
+      "/workspace/scratch/40e57534c243/math-cr3/workstreams/CRYPTO3-20261012/sha256-word-distance/supports-v2.json",
+      "--negative"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.029694779999772436,
+    "stdout": "{\"conclusion\": \"central nonzero difference is not divisible by 2^21\", \"gap_obstructions\": 10, \"recurrence_substitutions\": 44, \"rejected_controls\": [\"sigma1 carry mask\", \"exactly one active gap bit\", \"universal XOR row identity\", \"support case coordinates\", \"complete carry/gap lists\", \"recurrence reduction\"], \"scope\": \"finite dependencies of full written proof; distance bound remains 13\", \"sigma1_masks\": 11, \"support_indices\": [6, 7, 12, 13], \"support_source_sha256\": \"02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf\", \"xor_identities\": 1}\n",
+    "stderr": ""
+  },
+  "accepted_statement": "For each exact support 6,7,12,13, the stated nonzero common difference D satisfies v2(D)<=20.",
+  "limitations": [
+    "A conditional valuation restriction; none of the four supports is completely excluded.",
+    "The old potential certificate and support-classification completeness were not re-enumerated.",
+    "The exploratory 121-case traversal and SAT/UNSAT results are not proof dependencies and were not rerun.",
+    "Positive stored boundary word pairs were directly checked; unsupplied or null traversal cases make no claim here.",
+    "No Lean compilation, novelty claim, external human review, or increased global schedule distance bound."
+  ]
+}

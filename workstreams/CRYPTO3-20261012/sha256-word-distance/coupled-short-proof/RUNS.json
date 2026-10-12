@@ -1,0 +1,34 @@
+{
+  "schema": "CRYPTO3-coupled-short-actual-runs-v1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-short-proof/build_certificate.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.037651601000106893,
+      "stdout": "{\n  \"certificate_sha256\": \"1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389\",\n  \"bytes\": 13098,\n  \"families\": 10,\n  \"row_bank\": 26,\n  \"masks\": 132,\n  \"template_row_occurrences\": 36\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-short-proof/check.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.4289175019985123,
+      "stdout": "{\n  \"masks_checked\": 132,\n  \"families\": 10,\n  \"distinct_rows\": 26,\n  \"template_rows_xored\": 36,\n  \"row_membership_checks\": 384,\n  \"status\": \"PASS\",\n  \"python\": \"3.12.14\",\n  \"mask_assignments_examined\": 131072,\n  \"initial_carry\": 0,\n  \"final_carry\": \"unrestricted\",\n  \"local_transition_cases\": 18,\n  \"gaussian_elimination\": false,\n  \"solver_dependency\": false,\n  \"checker_sha256\": \"71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d\",\n  \"certificate_sha256\": \"1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389\",\n  \"review_status\": \"same-author checker; independent-agent review separate\",\n  \"scope\": \"No solution of the stated three local equations for fixed K; not a complete message-schedule exclusion by itself.\",\n  \"rejected_controls\": [\n    {\n      \"control\": \"wrong_K\",\n      \"reason\": \"exact fixed-mask FIPS object\"\n    },\n    {\n      \"control\": \"wrong_sigma0_rotation\",\n      \"reason\": \"exact fixed-mask FIPS object\"\n    },\n    {\n      \"control\": \"wrong_sigma1_shift\",\n      \"reason\": \"exact fixed-mask FIPS object\"\n    },\n    {\n      \"control\": \"wrong_input_derivative_sign\",\n      \"reason\": \"three derivative polarities\"\n    },\n    {\n      \"control\": \"incorrect_final_carry_zero\",\n      \"reason\": \"modular final carry scope\"\n    },\n    {\n      \"control\": \"omit_free_mask_bit\",\n      \"reason\": \"all 17 free mask bits\"\n    },\n    {\n      \"control\": \"omit_mask_case\",\n      \"reason\": \"canonical proof family\"\n    },\n    {\n      \"control\": \"duplicate_mask_case\",\n      \"reason\": \"canonical proof family\"\n    },\n    {\n      \"control\": \"tampered_row_coefficient\",\n      \"reason\": \"readable row coordinates\"\n    },\n    {\n      \"control\": \"tampered_row_rhs\",\n      \"reason\": \"direct XOR contradiction 0=1\"\n    },\n    {\n      \"control\": \"omit_XOR_premise\",\n      \"reason\": \"direct XOR contradiction 0=1\"\n    },\n    {\n      \"control\": \"unclassified_zero_mask\",\n      \"reason\": \"classified mask membership\"\n    },\n    {\n      \"control\": \"damaged_carry_table\",\n      \"reason\": \"complete checked affine carry table\"\n    },\n    {\n      \"control\": \"false_full_schedule_scope\",\n      \"reason\": \"local theorem scope\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "build_certificate.py": "46b548164b0dfd234003025256ea00e1541504a391137563bdbf93d18e853c07",
+    "check.py": "71c12525b4938650984a9c87394dcc0fdf5f65e848ec1b606732cd20ff0d0d4d",
+    "CERTIFICATE.json": "1428cce8b31378b67db8de32e4480bfedad608b0d62b0bee21742f3f09fa6389"
+  }
+}

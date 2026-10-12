@@ -1,0 +1,9 @@
+{
+  "delta": 3145728,
+  "scope": "three independent word pairs; no actual base-schedule equations",
+  "seconds": 0.0763747910004895,
+  "source_sha256": "20891653b51324c28128d805570b17074ed1c6d7ecec48b7d4505c7232091166",
+  "status": "unsat",
+  "timeout_ms": 10000,
+  "z3": "4.15.3"
+}

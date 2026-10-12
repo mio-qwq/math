@@ -1,0 +1,1424 @@
+{
+  "bits": 32,
+  "case_count": 121,
+  "cases": [
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2149580800,
+      "end_x": 21,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 65,
+        "sat_leaves": 1,
+        "visited": 67
+      },
+      "witness": {
+        "x": 2147483648,
+        "xp": 2097152,
+        "y": 697319424,
+        "yp": 2846900224
+      }
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2153775104,
+      "end_x": 21,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 1833,
+        "sat_leaves": 64,
+        "visited": 1842
+      },
+      "witness": {
+        "x": 2147483648,
+        "xp": 2097152,
+        "y": 161595392,
+        "yp": 2311176192
+      }
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2162163712,
+      "end_x": 21,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 1017,
+        "sat_leaves": 32,
+        "visited": 1026
+      },
+      "witness": {
+        "x": 2684354560,
+        "xp": 538968064,
+        "y": 2287993920,
+        "yp": 142607424
+      }
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2178940928,
+      "end_x": 21,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 217,
+        "visited": 226
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2212495360,
+      "end_x": 21,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 137,
+        "visited": 142
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2279604224,
+      "end_x": 21,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 45,
+        "visited": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2413821952,
+      "end_x": 21,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 49,
+        "visited": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2682257408,
+      "end_x": 21,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 53,
+        "visited": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 3219128320,
+      "end_x": 21,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 57,
+        "visited": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 4292870144,
+      "end_x": 21,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 61,
+        "visited": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2149580800,
+      "alpha_y": 2145386496,
+      "end_x": 21,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 273,
+        "linear_conflicts": 26,
+        "visited": 252
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2149580800,
+      "end_x": 22,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 1833,
+        "sat_leaves": 64,
+        "visited": 1842
+      },
+      "witness": {
+        "x": 3351120896,
+        "xp": 1205734400,
+        "y": 1242186752,
+        "yp": 3391767552
+      }
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2153775104,
+      "end_x": 22,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 65,
+        "sat_leaves": 1,
+        "visited": 67
+      },
+      "witness": {
+        "x": 2149580800,
+        "xp": 4194304,
+        "y": 161595392,
+        "yp": 2311176192
+      }
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2162163712,
+      "end_x": 22,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 426,
+        "visited": 435
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2178940928,
+      "end_x": 22,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 314,
+        "visited": 323
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2212495360,
+      "end_x": 22,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 218,
+        "visited": 227
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2279604224,
+      "end_x": 22,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 138,
+        "visited": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2413821952,
+      "end_x": 22,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 46,
+        "visited": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2682257408,
+      "end_x": 22,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 50,
+        "visited": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 3219128320,
+      "end_x": 22,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 54,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 4292870144,
+      "end_x": 22,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 58,
+        "visited": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2153775104,
+      "alpha_y": 2145386496,
+      "end_x": 22,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 502,
+        "linear_conflicts": 24,
+        "sat_leaves": 4,
+        "visited": 487
+      },
+      "witness": {
+        "x": 2393981952,
+        "xp": 248595456,
+        "y": 4294547916,
+        "yp": 2149161420
+      }
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2149580800,
+      "end_x": 23,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 1017,
+        "sat_leaves": 32,
+        "visited": 1026
+      },
+      "witness": {
+        "x": 1333660928,
+        "xp": 3483241728,
+        "y": 1805255680,
+        "yp": 3954836480
+      }
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2153775104,
+      "end_x": 23,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 426,
+        "visited": 435
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2162163712,
+      "end_x": 23,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 65,
+        "sat_leaves": 1,
+        "visited": 67
+      },
+      "witness": {
+        "x": 2153775104,
+        "xp": 8388608,
+        "y": 2287993920,
+        "yp": 142607424
+      }
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2178940928,
+      "end_x": 23,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 171,
+        "visited": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2212495360,
+      "end_x": 23,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 171,
+        "visited": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2279604224,
+      "end_x": 23,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 171,
+        "visited": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2413821952,
+      "end_x": 23,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 107,
+        "visited": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2682257408,
+      "end_x": 23,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 47,
+        "visited": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 3219128320,
+      "end_x": 23,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 51,
+        "visited": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 4292870144,
+      "end_x": 23,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 55,
+        "visited": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2162163712,
+      "alpha_y": 2145386496,
+      "end_x": 23,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 155,
+        "visited": 164
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2149580800,
+      "end_x": 24,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 217,
+        "visited": 226
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2153775104,
+      "end_x": 24,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 314,
+        "visited": 323
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2162163712,
+      "end_x": 24,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 171,
+        "visited": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2178940928,
+      "end_x": 24,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 65,
+        "sat_leaves": 1,
+        "visited": 67
+      },
+      "witness": {
+        "x": 2162163712,
+        "xp": 16777216,
+        "y": 2296382528,
+        "yp": 150996032
+      }
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2212495360,
+      "end_x": 24,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 172,
+        "visited": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2279604224,
+      "end_x": 24,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 172,
+        "visited": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2413821952,
+      "end_x": 24,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 172,
+        "visited": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2682257408,
+      "end_x": 24,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 108,
+        "visited": 113
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 3219128320,
+      "end_x": 24,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 48,
+        "visited": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 4292870144,
+      "end_x": 24,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 52,
+        "visited": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2178940928,
+      "alpha_y": 2145386496,
+      "end_x": 24,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 160,
+        "visited": 169
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2149580800,
+      "end_x": 25,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 137,
+        "visited": 142
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2153775104,
+      "end_x": 25,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 218,
+        "visited": 227
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2162163712,
+      "end_x": 25,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 171,
+        "visited": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2178940928,
+      "end_x": 25,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 172,
+        "visited": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2212495360,
+      "end_x": 25,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 65,
+        "sat_leaves": 1,
+        "visited": 67
+      },
+      "witness": {
+        "x": 2178940928,
+        "xp": 33554432,
+        "y": 2314561098,
+        "yp": 169174602
+      }
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2279604224,
+      "end_x": 25,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2413821952,
+      "end_x": 25,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2682257408,
+      "end_x": 25,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 3219128320,
+      "end_x": 25,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 4292870144,
+      "end_x": 25,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2212495360,
+      "alpha_y": 2145386496,
+      "end_x": 25,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2149580800,
+      "end_x": 26,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 45,
+        "visited": 46
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2153775104,
+      "end_x": 26,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 138,
+        "visited": 143
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2162163712,
+      "end_x": 26,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 171,
+        "visited": 180
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2178940928,
+      "end_x": 26,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 172,
+        "visited": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2212495360,
+      "end_x": 26,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2279604224,
+      "end_x": 26,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 55,
+        "linear_conflicts": 2,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2413821952,
+      "end_x": 26,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2682257408,
+      "end_x": 26,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 3219128320,
+      "end_x": 26,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 4292870144,
+      "end_x": 26,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2279604224,
+      "alpha_y": 2145386496,
+      "end_x": 26,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2149580800,
+      "end_x": 27,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 49,
+        "visited": 50
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2153775104,
+      "end_x": 27,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 46,
+        "visited": 47
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2162163712,
+      "end_x": 27,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 107,
+        "visited": 112
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2178940928,
+      "end_x": 27,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 172,
+        "visited": 181
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2212495360,
+      "end_x": 27,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2279604224,
+      "end_x": 27,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2413821952,
+      "end_x": 27,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 55,
+        "linear_conflicts": 2,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2682257408,
+      "end_x": 27,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 3219128320,
+      "end_x": 27,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 4292870144,
+      "end_x": 27,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2413821952,
+      "alpha_y": 2145386496,
+      "end_x": 27,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2149580800,
+      "end_x": 28,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 53,
+        "visited": 54
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2153775104,
+      "end_x": 28,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 50,
+        "visited": 51
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2162163712,
+      "end_x": 28,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 47,
+        "visited": 48
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2178940928,
+      "end_x": 28,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 108,
+        "visited": 113
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2212495360,
+      "end_x": 28,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2279604224,
+      "end_x": 28,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2413821952,
+      "end_x": 28,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2682257408,
+      "end_x": 28,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 55,
+        "linear_conflicts": 2,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 3219128320,
+      "end_x": 28,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 32,
+        "visited": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 4292870144,
+      "end_x": 28,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 32,
+        "visited": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2682257408,
+      "alpha_y": 2145386496,
+      "end_x": 28,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 32,
+        "visited": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2149580800,
+      "end_x": 29,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 57,
+        "visited": 58
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2153775104,
+      "end_x": 29,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 54,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2162163712,
+      "end_x": 29,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 51,
+        "visited": 52
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2178940928,
+      "end_x": 29,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 48,
+        "visited": 49
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2212495360,
+      "end_x": 29,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2279604224,
+      "end_x": 29,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2413821952,
+      "end_x": 29,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2682257408,
+      "end_x": 29,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 32,
+        "visited": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 3219128320,
+      "end_x": 29,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 55,
+        "linear_conflicts": 2,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 4292870144,
+      "end_x": 29,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 33,
+        "visited": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 3219128320,
+      "alpha_y": 2145386496,
+      "end_x": 29,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 33,
+        "visited": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2149580800,
+      "end_x": 30,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 61,
+        "visited": 62
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2153775104,
+      "end_x": 30,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 58,
+        "visited": 59
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2162163712,
+      "end_x": 30,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 55,
+        "visited": 56
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2178940928,
+      "end_x": 30,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 52,
+        "visited": 53
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2212495360,
+      "end_x": 30,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2279604224,
+      "end_x": 30,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2413821952,
+      "end_x": 30,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2682257408,
+      "end_x": 30,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 32,
+        "visited": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 3219128320,
+      "end_x": 30,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 33,
+        "visited": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 4292870144,
+      "end_x": 30,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 55,
+        "linear_conflicts": 2,
+        "visited": 55
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 4292870144,
+      "alpha_y": 2145386496,
+      "end_x": 30,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 34,
+        "visited": 35
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2149580800,
+      "end_x": 31,
+      "end_y": 21,
+      "stats": {
+        "carry_edges": 293,
+        "linear_conflicts": 26,
+        "sat_leaves": 2,
+        "visited": 272
+      },
+      "witness": {
+        "x": 4293569194,
+        "xp": 2148182698,
+        "y": 672792576,
+        "yp": 2822373376
+      }
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2153775104,
+      "end_x": 31,
+      "end_y": 22,
+      "stats": {
+        "carry_edges": 502,
+        "linear_conflicts": 24,
+        "sat_leaves": 4,
+        "visited": 487
+      },
+      "witness": {
+        "x": 2147236864,
+        "xp": 1850368,
+        "y": 10783744,
+        "yp": 2160364544
+      }
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2162163712,
+      "end_x": 31,
+      "end_y": 23,
+      "stats": {
+        "carry_edges": 155,
+        "visited": 164
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2178940928,
+      "end_x": 31,
+      "end_y": 24,
+      "stats": {
+        "carry_edges": 160,
+        "visited": 169
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2212495360,
+      "end_x": 31,
+      "end_y": 25,
+      "stats": {
+        "carry_edges": 29,
+        "visited": 30
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2279604224,
+      "end_x": 31,
+      "end_y": 26,
+      "stats": {
+        "carry_edges": 30,
+        "visited": 31
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2413821952,
+      "end_x": 31,
+      "end_y": 27,
+      "stats": {
+        "carry_edges": 31,
+        "visited": 32
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2682257408,
+      "end_x": 31,
+      "end_y": 28,
+      "stats": {
+        "carry_edges": 32,
+        "visited": 33
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 3219128320,
+      "end_x": 31,
+      "end_y": 29,
+      "stats": {
+        "carry_edges": 33,
+        "visited": 34
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 4292870144,
+      "end_x": 31,
+      "end_y": 30,
+      "stats": {
+        "carry_edges": 34,
+        "visited": 35
+      },
+      "witness": null
+    },
+    {
+      "alpha_x": 2145386496,
+      "alpha_y": 2145386496,
+      "end_x": 31,
+      "end_y": 31,
+      "stats": {
+        "carry_edges": 53,
+        "visited": 55
+      },
+      "witness": null
+    }
+  ],
+  "delta": 2149580800,
+  "half": true,
+  "k": 21,
+  "sat_cases": 12,
+  "scope": "fixed-difference four-word twin core; no schedule equations",
+  "source_sha256": "a0048e029f7219378dc3f7776f6607419d080694c84ad18d7fa69efa29380666"
+}

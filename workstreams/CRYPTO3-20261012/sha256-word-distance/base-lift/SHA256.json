@@ -1,0 +1,13 @@
+{
+  "schema": "sha256-base-completion-manifest-v1",
+  "files": {
+    "PROJECTION.md": "436a80b20ae6d98a6d8a6b68248449ed047e212aaff8c9f6eb41a8ba73a76b9f",
+    "RUNS.json": "a43e6e8e725eea318c6ec59f3cd84cf5b673dbeecdc42532da31bb6ef844b9f4",
+    "base_completion.py": "1215aa82a6abe196fe2396803a5a7565042e7862c35a434ed2be0b4bfc156955",
+    "coordinate_elimination.json": "caf8276f202e3b87bf3aaee712c1e1e773a762664d457ce9f225a6fb113cb2d1",
+    "coordinate_elimination.py": "670489ccdad8cef386dde93fef2b76abc5ba10f297c63f041ef7835cd35ee9dc",
+    "verification.json": "c312a5fe8e26ecf43d237b8150172af992542ea0f25783cd88effffdf5ee79c9",
+    "verify_completion.py": "476d03768e5f79040186273a6384c87a453f167ac98875260c107db49d0aedc8"
+  },
+  "self_reference": "This manifest excludes its own bytes."
+}

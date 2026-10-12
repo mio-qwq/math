@@ -1,0 +1,12 @@
+{
+  "author_short_proof_files_read": false,
+  "candidate_masks": 132,
+  "excluded_masks": 132,
+  "files": {
+    "INDEPENDENT-CERTIFICATE.json": "d18c1461f641f510a8b67187b110c91c9e47b2cf1ffd8e296a283058a9b76d72",
+    "RECONSTRUCTION.md": "ebbb1cfa7adae8b53a3f294247f95c77e4d7c0ae990f7ad824112befc077901b",
+    "reconstruct.py": "627d452dea94af1ad06b3df75e48553f0a1154414a6a6b9d8cbefb8dcb15db75"
+  },
+  "schema": "crypto3-pre-author-read-checkpoint-v1",
+  "utc": "2026-10-12T09:44:00.615592+00:00"
+}

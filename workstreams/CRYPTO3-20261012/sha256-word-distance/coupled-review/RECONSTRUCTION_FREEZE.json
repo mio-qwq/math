@@ -1,0 +1,17 @@
+{
+  "schema": "independent-reconstruction-receipt-v1",
+  "frozen_utc": "2026-10-12T09:26:47.873158+00:00",
+  "basis": "Supplied three equations and FIPS sigma definitions; root claimed UNSAT was known; discoverer files not yet read",
+  "python": "3.12.14",
+  "execution": {
+    "command": "PYTHONPATH=/workspace/scratch/40e57534c243/cr3-deps python workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-review/reconstruct.py --solve",
+    "exit_code": 0
+  },
+  "files": {
+    "RECONSTRUCTION.md": "ce0dfb0c7c0dba35f5f053b9338c71ddeb2bd27f574023709349799d3835f0e7",
+    "reconstruct.py": "6c2f1643291556b0323735df3755646ba85d707a76af79ce233d8ba6305aa717",
+    "independent.cnf": "4624329575e3cb0c187c521befb923e4296ba87eaa054c8b05caac7f37caa256",
+    "independent-circuit.json": "a675b2eba0414c610a253e2f9cffae818c6d9b9f92c471b7e299c6ebaf4ee727",
+    "RECONSTRUCTION_RUN.json": "059655a5be4405efbba85cc149d358aaa9eea698be8999f21fb3df886a50b75b"
+  }
+}

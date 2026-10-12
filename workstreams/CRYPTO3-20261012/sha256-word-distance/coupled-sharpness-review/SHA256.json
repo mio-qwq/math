@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "bytes": 956,
+      "path": "COMPARISON.json",
+      "sha256": "5f5835242cb4c794211cfa8dc7a28e12ca025d9c13fa8fb75e66d404231baf2c"
+    },
+    {
+      "bytes": 2793,
+      "path": "INDEPENDENT_RUN.json",
+      "sha256": "01b0b5ada631bad9b4c3c643376b03587263d912dc9d09dfcfaeb6a43f0c4158"
+    },
+    {
+      "bytes": 676,
+      "path": "PRECOMPARISON_FREEZE.json",
+      "sha256": "2609332d1d98d48088d60f80990ff86abc71fbfa818e0df96859f91931746135"
+    },
+    {
+      "bytes": 1715,
+      "path": "RECONSTRUCTION.md",
+      "sha256": "71fc60a73870cc9ed4460fb37bd2f712ba08d9cd3c8e522f69828f5435b3b131"
+    },
+    {
+      "bytes": 3939,
+      "path": "REVIEW.md",
+      "sha256": "3b1a220f5bc7adf30742ef0b809df7c8e176043bb998b70e11a6dc5947fdbf1e"
+    },
+    {
+      "bytes": 2513,
+      "path": "REVIEW_RECEIPT.json",
+      "sha256": "844f56f7caade1dc062851d170cd699bb890cf05142d07d10fcb4f371b0bd410"
+    },
+    {
+      "bytes": 4945,
+      "path": "check.py",
+      "sha256": "dc7730a6acdbe366bc879c892a2509967b37a371a111cbef8cd70081dac9fc0d"
+    }
+  ],
+  "schema": "crypto3-file-manifest-v1"
+}

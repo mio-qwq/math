@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "variables": 1423,
+  "original_clauses": 4939,
+  "checked_additions": 19460,
+  "ignored_deletions": 10328,
+  "unit_inferences": 2278157,
+  "maximum_hint_count": 1060,
+  "last_addition_empty": true,
+  "all_additions_match_original_drup": true,
+  "negative_controls": [
+    {
+      "case": "unknown_hint_id",
+      "rejected": true
+    },
+    {
+      "case": "satisfied_hint",
+      "rejected": true
+    },
+    {
+      "case": "nonunit_hint",
+      "rejected": true
+    },
+    {
+      "case": "missing_terminal_conflict",
+      "rejected": true
+    },
+    {
+      "case": "hints_after_conflict",
+      "rejected": true
+    },
+    {
+      "case": "damaged_target_literal",
+      "rejected": true
+    }
+  ],
+  "seconds": 1.9996483270006138,
+  "source_hashes": {
+    "boundary.cnf": "f7baab8106897f1359fe20e69ac350a088f486b47260dc0825a4f1ce3c162262",
+    "boundary.drup": "223d0c90cd7d7bf3ee85a290371828c27974691c348fb93fe8e88aacebe4c8f7",
+    "boundary.rup.jsonl": "cd1845cdde5fca010b4b8557bcb27947eb5aef50b45856619cce7d54608540c5"
+  },
+  "checker_sha256": "3bdefcbccaa794a8e5b525bd25d2f8cee6cdb9011d23eba7850cb187aba3c201",
+  "imports_discoverer_checker": false
+}

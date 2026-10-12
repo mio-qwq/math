@@ -1,0 +1,15 @@
+{
+  "actual_distance_13_schedule_found": false,
+  "complete_active_pair_assignment_found": false,
+  "frozen_utc": "2026-10-12T09:40:34.529482+00:00",
+  "global_lower_bound_changed": false,
+  "negative_controls_rejected": 8,
+  "proof_assistant_used": false,
+  "proof_sha256": "3c1423e3bc45e926d506017a512a6ee266d37dd8c338575612a1a0559f9365eb",
+  "run_status": "pass",
+  "schema": "crypto3-active-pair-construction-receipt-v1",
+  "solver_used": false,
+  "status": "candidate awaiting separate review",
+  "verification_sha256": "e98067762862041a5880c7f99a788dc33a7dd2eb94bb0c6f71ca686c7a573e03",
+  "verifier_sha256": "0db2d1d09fabc5261d955fbc42e96dc6dd387938e4c328cc9aa53605679930be"
+}

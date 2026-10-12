@@ -1,0 +1,96 @@
+{
+  "P_surviving_pairs": 4,
+  "P_target_fibres": 16,
+  "Q_F_values": 16,
+  "Q_pairs": 32,
+  "actual_schedule_pair_found": false,
+  "checker": "direct output-bit reconstruction; no discovery imports",
+  "complete_active_assignment_found": false,
+  "equation_check": {
+    "common_D_tree_edges": 7,
+    "identities": 24,
+    "mask_obstruction_sources": [
+      45,
+      54
+    ],
+    "original_equations": 48,
+    "remaining_module_equations": 17
+  },
+  "independent_agent_review": false,
+  "left_mod8": [
+    3,
+    5
+  ],
+  "negative_controls": [
+    {
+      "name": "damaged_seed_word",
+      "rejected": true
+    },
+    {
+      "name": "omitted_initial_boundary",
+      "rejected": true
+    },
+    {
+      "name": "damaged_affine_basis",
+      "rejected": true
+    },
+    {
+      "name": "omitted_interface_value",
+      "rejected": true
+    },
+    {
+      "name": "wrong_R_mask",
+      "rejected": true
+    },
+    {
+      "name": "false_contradiction_bit",
+      "rejected": true
+    },
+    {
+      "name": "wrong_sigma1_rotation",
+      "rejected": true
+    },
+    {
+      "name": "damaged_reversed_image_chain",
+      "rejected": true
+    }
+  ],
+  "reversed_image_chain_example": {
+    "pairs": [
+      [
+        3324392434,
+        3199576944
+      ],
+      [
+        3208824211,
+        1055348241
+      ],
+      [
+        3291996707,
+        193546747
+      ],
+      [
+        312444725,
+        3777383064
+      ]
+    ],
+    "scope": "R chain only, not a full assignment",
+    "shifts": [
+      2220962424,
+      830652076,
+      3624975614
+    ]
+  },
+  "right_mod8": [
+    1,
+    7
+  ],
+  "sigma_ranks": {
+    "f": 32,
+    "g": 32
+  },
+  "status": "pass",
+  "terminal_interfaces": 1,
+  "terminal_survivors": 0,
+  "uses_sat_or_smt": false
+}

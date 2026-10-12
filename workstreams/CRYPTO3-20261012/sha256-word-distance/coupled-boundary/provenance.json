@@ -1,0 +1,29 @@
+{
+  "schema": "crypto3-coupled-provenance-v1",
+  "source_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "dependencies": [
+    {
+      "path": "../supports-v2.json",
+      "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+    },
+    {
+      "path": "../local-review/INDEPENDENT_PROOF.md",
+      "sha256": "31ac51c4ba5bcb867822a283ae003d9ed5b23c6e250fdd70b616d1407f4243bd"
+    },
+    {
+      "path": "../local-review/independent_certificate.json",
+      "sha256": "5a884c9a2af33e15ea04ec1a62b40e30d733f4d6f42f13975dfcc05661b1d342"
+    },
+    {
+      "path": "../local-review/check_independent.py",
+      "sha256": "3273f3612a2295584563e24975c4eb507935ad98b4a1c28b0b0d7d3a4b5d3c9d"
+    }
+  ],
+  "definition": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
+  "scope": "arbitrary-word local restriction, conditional seven-support consequence (separate orientation proof for support5); global distance lower bound remains13",
+  "not_premises": [
+    "earlier SMT UNSAT",
+    "H_BOUNDARY_FIBRES.json discovery enumeration",
+    "proof producer solver correctness"
+  ]
+}

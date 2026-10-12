@@ -1,0 +1,133 @@
+{
+  "schema": "sha256-support0-base-completion-check-v1",
+  "passed": true,
+  "candidate_sha256": "1215aa82a6abe196fe2396803a5a7565042e7862c35a434ed2be0b4bfc156955",
+  "checker_sha256": "476d03768e5f79040186273a6384c87a453f167ac98875260c107db49d0aedc8",
+  "source_definition": "FIPS 180-4 equations 4.6, 4.7 and Section 6.2.2",
+  "structural_order_equations": 38,
+  "residual_indices": [
+    28,
+    29,
+    35,
+    36,
+    42,
+    43,
+    49,
+    50,
+    56,
+    57
+  ],
+  "nonzero_single_base_roundtrips": [
+    {
+      "message": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "all_64_words_equal": true,
+      "all_48_standard_recurrences_hold": true,
+      "expanded_words_big_endian_sha256": "38b0472d47ba706f05ae042b9026a7253ab799bb6026f2edecd1bd38d1f0d4f7"
+    },
+    {
+      "message": [
+        4294967295,
+        4294967294,
+        4294967293,
+        4294967292,
+        4294967291,
+        4294967290,
+        4294967289,
+        4294967288,
+        4294967287,
+        4294967286,
+        4294967285,
+        4294967284,
+        4294967283,
+        4294967282,
+        4294967281,
+        4294967280
+      ],
+      "all_64_words_equal": true,
+      "all_48_standard_recurrences_hold": true,
+      "expanded_words_big_endian_sha256": "7acb992ec98b40efb97b6bd4c61690bc219a28d3a1e7d3903ef4a3bb7f5bad87"
+    },
+    {
+      "message": [
+        2147483649,
+        2147483650,
+        2147483652,
+        2147483656,
+        2147483664,
+        2147483680,
+        2147483712,
+        2147483776,
+        2147483904,
+        2147484160,
+        2147484672,
+        2147485696,
+        2147487744,
+        2147491840,
+        2147500032,
+        2147516416
+      ],
+      "all_64_words_equal": true,
+      "all_48_standard_recurrences_hold": true,
+      "expanded_words_big_endian_sha256": "42cde722dd3fb9e6a0fda08ab2c57d01f3422357b2958d0939c49d1b1c151707"
+    },
+    {
+      "message": [
+        999433187,
+        2580261160,
+        2130917233,
+        3715677374,
+        2997893831,
+        283738124,
+        4129361493,
+        1411291026,
+        710286811,
+        2341444448,
+        1774674089,
+        3476877046,
+        2910090303,
+        44954180,
+        3773135757,
+        1188217290
+      ],
+      "all_64_words_equal": true,
+      "all_48_standard_recurrences_hold": true,
+      "expanded_words_big_endian_sha256": "0e3c610050d34989ce5cf7f6d7c162f6bb0e4ce88e3c01b1dfd5d1237599aadc"
+    }
+  ],
+  "negative_controls": {
+    "damaged_active_anchor": {
+      "all_38_used_equations_hold": true,
+      "nonzero_residual_indices": [
+        28,
+        29,
+        35,
+        36,
+        42,
+        43,
+        49,
+        50,
+        56,
+        57
+      ]
+    },
+    "tampered_completed_word": "rejected by direct standard recurrence"
+  },
+  "scope": "Exact decomposition/evaluator checking; no support-0 pair found or sought; no surjectivity claim"
+}

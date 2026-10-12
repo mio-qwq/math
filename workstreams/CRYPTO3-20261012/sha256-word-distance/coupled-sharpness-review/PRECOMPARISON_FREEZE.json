@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "files": {
+    "INDEPENDENT_RUN.json": "01b0b5ada631bad9b4c3c643376b03587263d912dc9d09dfcfaeb6a43f0c4158",
+    "RECONSTRUCTION.md": "71fc60a73870cc9ed4460fb37bd2f712ba08d9cd3c8e522f69828f5435b3b131",
+    "check.py": "dc7730a6acdbe366bc879c892a2509967b37a371a111cbef8cd70081dac9fc0d"
+  },
+  "phase": "independent reconstruction completed before reading the author sharpness package",
+  "utc": "2026-10-12T09:49:31.168558+00:00",
+  "verification_command": "python workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-sharpness-review/check.py --record workstreams/CRYPTO3-20261012/sha256-word-distance/coupled-sharpness-review/INDEPENDENT_RUN.json"
+}

@@ -1,0 +1,406 @@
+{
+  "schema": "CRYPTO3-bounded-independent-review-v1",
+  "passed": true,
+  "checker_sha256": "ee78c0b4cddf10aabbc3ee1b4a3bb6a4eebffaf4146f4d5853c8895d337e8982",
+  "sigma_implementation_sha256": "eb459190ece237966394247d45d517009260fa0d67f5d80c306922ee141f2312",
+  "frozen_crypto2_commit": "80b71cb3b6a67c8f8aae80d9cd8b6ed87d74bd51",
+  "main_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "source_file_sha256": {
+    "PROOF.md": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424",
+    "certificate.json": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b",
+    "check.py": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35",
+    "v2/PROOF.md": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1",
+    "v2/check.py": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721",
+    "v2/SOURCE-GATE.md": "f4e301c09138117dcc466f471d38c8199e03383c752987c69f84cf4c84926fa5",
+    "v2/supports.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "v2/exclusions.json": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca",
+    "v2/TAIL.json": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804"
+  },
+  "snapshot_to_git_blob_checks": {
+    "CRYPTO2": [
+      {
+        "path": "PROOF.md",
+        "git_blob": "a495221b7b60bc93e5077673e091e9445e731633",
+        "sha256": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424"
+      },
+      {
+        "path": "certificate.json",
+        "git_blob": "6e6ea5c60bee08c0b3272408d11f474e0e3a861e",
+        "sha256": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b"
+      },
+      {
+        "path": "check.py",
+        "git_blob": "5bc5b6872a078970ae0eb97009dd43e4709f72ff",
+        "sha256": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35"
+      },
+      {
+        "path": "v2/PROOF.md",
+        "git_blob": "f348cf5557592c183bf5f2f6aa7bc3f1f46ddfaa",
+        "sha256": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1"
+      },
+      {
+        "path": "v2/check.py",
+        "git_blob": "9239bbd0d8a00251ee74c1aa009385a7ae1b3157",
+        "sha256": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721"
+      },
+      {
+        "path": "v2/SOURCE-GATE.md",
+        "git_blob": "c4b137f1bee6038d5e7c8e743a0d66a986e357a4",
+        "sha256": "f4e301c09138117dcc466f471d38c8199e03383c752987c69f84cf4c84926fa5"
+      },
+      {
+        "path": "v2/supports.json",
+        "git_blob": "19ed391b5d2685bd181f139d9edd04696c83f0c1",
+        "sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+      },
+      {
+        "path": "v2/exclusions.json",
+        "git_blob": "64959f47cf96cc895f4a722e97dde307c5b55e0a",
+        "sha256": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca"
+      },
+      {
+        "path": "v2/TAIL.json",
+        "git_blob": "9dd2e6e0ea80eb6389a9c0c36c00f2791f182c7e",
+        "sha256": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804"
+      }
+    ],
+    "main": [
+      {
+        "path": "README.md",
+        "git_blob": "94da0af6393995d75274cc594557e25f305fcbac",
+        "sha256": "c40c6e19063d86d2a1faca8a17234c1d64b53414f6e2e607393093b975ba5348"
+      },
+      {
+        "path": "VERIFICATION.json",
+        "git_blob": "ebfbcde16ecf0e31f8507601b961bcfd56d82842",
+        "sha256": "496d788f646b4c175142b02f6a7f9dc400d0f01bb089f8e3ac3628e97a51be7d"
+      },
+      {
+        "path": "provenance.json",
+        "git_blob": "0945fb798b0ea0a9722e55393c89f7fedbaf2da7",
+        "sha256": "d54f82c0a3d92db323c9990f1690a8a134ff405955731f7dc9b96fd01aa97ef8"
+      },
+      {
+        "path": "circulant/PROOF.md",
+        "git_blob": "5f1497a9f7c6ddeb1ee4f0c83f183ea9cb7c08a8",
+        "sha256": "06c781a41d38721edf87d47a150d934b8143d8f5bec0160f8178a332f6e23a30"
+      },
+      {
+        "path": "circulant/check.py",
+        "git_blob": "b77c157f0f01ad43b3e02ea9a83483a9d5b4ca0b",
+        "sha256": "16cfbd4f4795d7e0c465cbb558d17b558552984c3dd6f881b2af972ce74266bf"
+      },
+      {
+        "path": "circulant/certificates/mds10.json",
+        "git_blob": "695586124076865bdd758a7ffaa2279759911052",
+        "sha256": "a1a8d748555c749349c09b1e9eb549dba477e50f73ed82bf4301b2459102f567"
+      },
+      {
+        "path": "ascon/PROOF.md",
+        "git_blob": "35d8970651cb0f254620a20858d9f702307ff823",
+        "sha256": "b524b3592cf20a8029119cc7aa79903b166f6091a3cb45bf55668f47fc428b4a"
+      },
+      {
+        "path": "ascon/EXTENSION.md",
+        "git_blob": "a60ba3638329da5c16ef13286048c61a36af6958",
+        "sha256": "192baaf0412d8e02f761503ed84653d28b93b689652fc442fe67109ad069378b"
+      },
+      {
+        "path": "ascon/check.py",
+        "git_blob": "09ad47bf251f50e7da25b247814aaf8b4cae8361",
+        "sha256": "f1fc2b46e9848c90d6011ea761c8861f6a5e02076ef9836f0d29f3ca1b2eb19b"
+      },
+      {
+        "path": "ascon/check_triples.py",
+        "git_blob": "c721cd4d5930fa66b267b373956ff550334d05ba",
+        "sha256": "f1a550d3a3c59b03f285a40900ade062293580ca1e65cc21efaeb7bcc038a651"
+      },
+      {
+        "path": "ascon/rank-certificate.json",
+        "git_blob": "db6cd8e9a1a6be5e357f0c2e2b15e7ba5bef2c6c",
+        "sha256": "1fa22e22f070f0daca753968cefd5eaec6672201af895f2dde5551004409e01e"
+      },
+      {
+        "path": "ascon/mismatch-certificate.json",
+        "git_blob": "81982acebf2560174099ff263af4e604edb5e0d9",
+        "sha256": "2e49a999a4f533f8219ea2ec0daab1847dce9f5b09bd4a69f75ed180288f1e09"
+      },
+      {
+        "path": "ascon/impossible-certificate.json",
+        "git_blob": "f316d0cdd9e10e0aa74fe52e3aba674354d18d90",
+        "sha256": "097399f7ca473eff787fab6e26383a10c447b16ab313ed7a73b1e075acc2e48e"
+      },
+      {
+        "path": "ascon/triple-rank-certificate.json",
+        "git_blob": "6c916954e241ee607df4af1c0534b7c83a08b118",
+        "sha256": "26d354c01d9a2d231d5ffa3c2d31d957cc7a7790dcf5518863ca5c31b49765b2"
+      },
+      {
+        "path": "ascon/triple-formula-certificate.json",
+        "git_blob": "d2a4609cd4c5e79605a5c70b8007d541858c48c8",
+        "sha256": "a1d61f0776b49ec0ee4ce03b2ae05c2afdd8b9d9e4837cc5c51f1a5c33c3951c"
+      }
+    ]
+  },
+  "listed_supports_checked": 15,
+  "no_singleton_tests_on_listed_supports": 720,
+  "classification_completeness_traversal_rerun": false,
+  "full_potential_inequalities_rerun": false,
+  "potential_sha256": "1f04aa2b5ac13c5144e677cf75eb6d6af323d518abf96ec65a44a96fa07df23c",
+  "potential_bytes": 3211264,
+  "inverse_columns_independently_recomputed": 64,
+  "verified_exclusion_equations": {
+    "3": [
+      {
+        "t": 34,
+        "terms": [
+          [
+            "d",
+            27,
+            -1
+          ],
+          [
+            "d",
+            34,
+            1
+          ]
+        ]
+      },
+      {
+        "t": 43,
+        "terms": [
+          [
+            "d",
+            27,
+            -1
+          ],
+          [
+            "d",
+            43,
+            1
+          ]
+        ]
+      },
+      {
+        "t": 50,
+        "terms": [
+          [
+            "d",
+            34,
+            -1
+          ],
+          [
+            "d",
+            43,
+            -1
+          ]
+        ]
+      },
+      {
+        "t": 49,
+        "terms": [
+          [
+            "F",
+            34,
+            -1
+          ],
+          [
+            "d",
+            42,
+            -1
+          ]
+        ]
+      },
+      {
+        "t": 57,
+        "terms": [
+          [
+            "F",
+            42,
+            -1
+          ],
+          [
+            "d",
+            57,
+            1
+          ]
+        ]
+      },
+      {
+        "t": 59,
+        "terms": [
+          [
+            "G",
+            57,
+            -1
+          ],
+          [
+            "d",
+            43,
+            -1
+          ]
+        ]
+      }
+    ],
+    "14": [
+      {
+        "t": 32,
+        "terms": [
+          [
+            "d",
+            25,
+            -1
+          ],
+          [
+            "d",
+            32,
+            1
+          ]
+        ]
+      },
+      {
+        "t": 41,
+        "terms": [
+          [
+            "d",
+            25,
+            -1
+          ],
+          [
+            "d",
+            41,
+            1
+          ]
+        ]
+      },
+      {
+        "t": 48,
+        "terms": [
+          [
+            "d",
+            32,
+            -1
+          ],
+          [
+            "d",
+            41,
+            -1
+          ]
+        ]
+      },
+      {
+        "t": 47,
+        "terms": [
+          [
+            "F",
+            32,
+            -1
+          ],
+          [
+            "d",
+            40,
+            -1
+          ]
+        ]
+      },
+      {
+        "t": 55,
+        "terms": [
+          [
+            "F",
+            40,
+            -1
+          ],
+          [
+            "d",
+            55,
+            1
+          ]
+        ]
+      },
+      {
+        "t": 57,
+        "terms": [
+          [
+            "G",
+            55,
+            -1
+          ],
+          [
+            "d",
+            41,
+            -1
+          ]
+        ]
+      }
+    ]
+  },
+  "tail_deltas": {
+    "x": "0x39627c2d",
+    "a": "0xae9d5531",
+    "r": "0xc69d83d3",
+    "b": "0x24c46324"
+  },
+  "tail_scope": "Only the supplied five-equation boundary witness; no search and no actual expansion witness",
+  "negative_controls": [
+    {
+      "case": "extra_active_sigma1_source",
+      "rejected": "reduced recurrence mismatch"
+    },
+    {
+      "case": "one_bit_tail_corruption",
+      "rejected": "tail cancellation"
+    }
+  ],
+  "integrated_main_output_hashes_checked": [
+    {
+      "path": "circulant/PROOF.md",
+      "sha256": "06c781a41d38721edf87d47a150d934b8143d8f5bec0160f8178a332f6e23a30"
+    },
+    {
+      "path": "circulant/check.py",
+      "sha256": "16cfbd4f4795d7e0c465cbb558d17b558552984c3dd6f881b2af972ce74266bf"
+    },
+    {
+      "path": "circulant/certificates/mds10.json",
+      "sha256": "a1a8d748555c749349c09b1e9eb549dba477e50f73ed82bf4301b2459102f567"
+    },
+    {
+      "path": "ascon/PROOF.md",
+      "sha256": "b524b3592cf20a8029119cc7aa79903b166f6091a3cb45bf55668f47fc428b4a"
+    },
+    {
+      "path": "ascon/EXTENSION.md",
+      "sha256": "192baaf0412d8e02f761503ed84653d28b93b689652fc442fe67109ad069378b"
+    },
+    {
+      "path": "ascon/check.py",
+      "sha256": "f1fc2b46e9848c90d6011ea761c8861f6a5e02076ef9836f0d29f3ca1b2eb19b"
+    },
+    {
+      "path": "ascon/check_triples.py",
+      "sha256": "f1a550d3a3c59b03f285a40900ade062293580ca1e65cc21efaeb7bcc038a651"
+    },
+    {
+      "path": "ascon/rank-certificate.json",
+      "sha256": "1fa22e22f070f0daca753968cefd5eaec6672201af895f2dde5551004409e01e"
+    },
+    {
+      "path": "ascon/mismatch-certificate.json",
+      "sha256": "2e49a999a4f533f8219ea2ec0daab1847dce9f5b09bd4a69f75ed180288f1e09"
+    },
+    {
+      "path": "ascon/impossible-certificate.json",
+      "sha256": "097399f7ca473eff787fab6e26383a10c447b16ab313ed7a73b1e075acc2e48e"
+    },
+    {
+      "path": "ascon/triple-rank-certificate.json",
+      "sha256": "26d354c01d9a2d231d5ffa3c2d31d957cc7a7790dcf5518863ca5c31b49765b2"
+    },
+    {
+      "path": "ascon/triple-formula-certificate.json",
+      "sha256": "a1d61f0776b49ec0ee4ce03b2ae05c2afdd8b9d9e4837cc5c51f1a5c33c3951c"
+    }
+  ],
+  "lean_rerun": false
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "crypto3-coupled-boundary-sha256-v1",
+  "scope": "Frozen original RUP proof, seven-support bridges, and local positive control; later reviews are separate directories.",
+  "files": [
+    {
+      "path": "MECHANISM.md",
+      "bytes": 1415,
+      "sha256": "7c55157dda86d56a29071fed43b64a706f84264a8b9a9568e1b147229cf912c9"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 8647,
+      "sha256": "36dd1c96de0aef7572a4e3973480a989de5d5b50b530a95fde14f7b840e0acc6"
+    },
+    {
+      "path": "RUNS.json",
+      "bytes": 3075,
+      "sha256": "71bbdde28db9a4b185fdfa70a42c4f0d7a8ec153c9f7ecbee4305970e96d1d09"
+    },
+    {
+      "path": "SOLVER_RUN.json",
+      "bytes": 487,
+      "sha256": "ac56d16c328504d0590d9e5348f8fa297263587f182f8d86deb2d0d1ceb0d397"
+    },
+    {
+      "path": "SUPPORT5.md",
+      "bytes": 1863,
+      "sha256": "38bb2204f2ae853e4d4d0ba20f71e5d013bc67012a00713c9ca14135497037ab"
+    },
+    {
+      "path": "UNRESTRICTED_CONTROL.json",
+      "bytes": 368,
+      "sha256": "a6d2045ed2aa69fd9e28fd59ecdfbd56611ffba5eed4eea87a8211d54d7d1ac7"
+    },
+    {
+      "path": "boundary.cnf",
+      "bytes": 69898,
+      "sha256": "f7baab8106897f1359fe20e69ac350a088f486b47260dc0825a4f1ce3c162262"
+    },
+    {
+      "path": "boundary.drup",
+      "bytes": 1793056,
+      "sha256": "223d0c90cd7d7bf3ee85a290371828c27974691c348fb93fe8e88aacebe4c8f7"
+    },
+    {
+      "path": "boundary.rup.jsonl",
+      "bytes": 12444726,
+      "sha256": "cd1845cdde5fca010b4b8557bcb27947eb5aef50b45856619cce7d54608540c5"
+    },
+    {
+      "path": "bridges.json",
+      "bytes": 7921,
+      "sha256": "d3cadaab4acdec6ac7d4e88b0db71d18356f6ab0020c4dee7e98bc2488b32529"
+    },
+    {
+      "path": "build_cnf.py",
+      "bytes": 3767,
+      "sha256": "36c71809af7f30dcfe41ef75f917f06bfea4166c52c30c6ffff293631315e608"
+    },
+    {
+      "path": "check_bridges.py",
+      "bytes": 3078,
+      "sha256": "e52c05e1dac8e1078719141de2178b03779fb4e9d987fd708414dcab5234414e"
+    },
+    {
+      "path": "check_control.py",
+      "bytes": 2653,
+      "sha256": "88308d28f11235761e60fd418c85601c8bb441d6a5cb7ebcd34e98d58742703f"
+    },
+    {
+      "path": "check_drup.py",
+      "bytes": 5166,
+      "sha256": "2c0adef2ecc2a282b83132d47f40add19c2afe81735d4aaee3c473869eb0a289"
+    },
+    {
+      "path": "check_support5.py",
+      "bytes": 2382,
+      "sha256": "aacbef579e3101c11ae7b251550a90c5d5d757a69258579891e742c41c205917"
+    },
+    {
+      "path": "circuit.json",
+      "bytes": 77834,
+      "sha256": "9773b570ac90b76253d2fc8f3a5d0537f01411a6a300dcefa70d5fd4052e2834"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1113,
+      "sha256": "adc033d803fd2a99e089790fbbe2a80c85378ec2865962c611be236c7d22ca31"
+    }
+  ]
+}

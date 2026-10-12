@@ -1,0 +1,33 @@
+{
+  "accepted_claims": [
+    "Exact prescribed-active-pair lifting equivalence conditional on all 48 difference equations and a genuine interpolating base",
+    "Specified 26-coordinate chart uniquely completes 38 original equations; the remaining ten are exact residuals",
+    "For fixed active coordinates, residual zeroes in 13 inactive parameters are in bijection with genuine base schedules",
+    "Displayed ten common-word residual rewritings match the original recurrence"
+  ],
+  "decision": "accepted_within_stated_scope",
+  "excluded_claims": [
+    "Projection surjectivity onto all active-coordinate tuples",
+    "Existence of any distance-13 full schedule pair",
+    "Improved universal word-distance lower bound",
+    "Three-anchor enumeration outcome",
+    "Full prior certificate-chain acceptance",
+    "Lean formalization or external human peer review"
+  ],
+  "external_human_peer_review": false,
+  "independent_reconstruction_before_author_read": true,
+  "pre_author_checkpoint_sha256": "63be4b14ce1d24025757378425b8abf785b2b984361834952f9db93d4499039d",
+  "required_revisions": [],
+  "review_sha256": "e1a510cafe74911c6b29fd0528106bb6813ecdef67fea697c7325115f6549bbb",
+  "reviewed_source_hashes": {
+    "PROJECTION.md": "436a80b20ae6d98a6d8a6b68248449ed047e212aaff8c9f6eb41a8ba73a76b9f",
+    "SHA256.json": "4e3f81e99f2ce065eac3d4fa16ae15d5b9dd1f598344ca54047f223547e8a5b1",
+    "base_completion.py": "1215aa82a6abe196fe2396803a5a7565042e7862c35a434ed2be0b4bfc156955",
+    "verify_completion.py": "476d03768e5f79040186273a6384c87a453f167ac98875260c107db49d0aedc8"
+  },
+  "reviewer_role": "independent assistant agent; did not participate in base-projection discovery",
+  "runs_sha256": "acee536e68aa3ba4edcc3f2a768b2445b0457523ce3ce9a11255f2daac6f9386",
+  "schema": "sha256-base-completion-independent-review-receipt-v1",
+  "timestamp_utc": "2026-10-12T09:23:40.026669+00:00",
+  "verification_sha256": "f8ab0926b64fb6ee467f636c88a1b4f5f935373516b4eb3186f807205f92fb08"
+}

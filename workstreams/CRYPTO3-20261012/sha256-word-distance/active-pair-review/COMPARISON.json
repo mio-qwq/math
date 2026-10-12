@@ -1,0 +1,35 @@
+{
+  "author_manifest_files": {
+    "ANALYSIS.json": "ea946bf374e0bc1401e4b4e910bfc10f619d2ce34388f8c085b1846c23f93eb0",
+    "FIXED-MASK-RUN.json": "5d05c6080f6eb817bde8dedc1f18c808de26710f84cb2934994308ac57820d52",
+    "MECHANISM.md": "253c7fe07553775c587f80c98a46d6afdd28b9b26d0c16ecf149d0e7bc7c18aa",
+    "PROOF.md": "3c1423e3bc45e926d506017a512a6ee266d37dd8c338575612a1a0559f9365eb",
+    "README.md": "79b3e9676791bfaeb9b80a790e6bfb46e8e63b5d3a67f2cab33cad2bbf309aff",
+    "RECEIPT.json": "89270b3c2b6ee150632177531fdd816ba0d32bf3215030cd80095890b6263aa0",
+    "RUNS.json": "330ab4adc3d7b4c53912b9aca50788e4f880af50d7bfc4768f596c0821c0565c",
+    "VERIFICATION.json": "e98067762862041a5880c7f99a788dc33a7dd2eb94bb0c6f71ca686c7a573e03",
+    "analyze.py": "0975e124d2e5ab9f84dfdde2feaf89a2953db4734b6cb3afe65dfaab71947c0b",
+    "fixed_mask_probe.py": "2262c5b6a98018d30388fcf507de5eb0963d15a4dbfaa29b4e3c3391c958f7c2",
+    "provenance.json": "03997076310f7469543aaf5e711bb4e7be0f19f7f4dc3711f7e8f1e34c106145",
+    "reproduce.py": "589f5f529ca48ff41a86477d4d47a264548f21c52865719715a42307ec03b66f",
+    "verify.py": "0db2d1d09fabc5261d955fbc42e96dc6dd387938e4c328cc9aa53605679930be"
+  },
+  "author_manifest_sha256": "b4fee1d8b109760ad078056285d27bbec132a266195530471b4ef70890b0cd3c",
+  "author_proof_sha256": "3c1423e3bc45e926d506017a512a6ee266d37dd8c338575612a1a0559f9365eb",
+  "equation_comparison": "all 48 original rows; 24 nontrivial, 24 tautological; seven common-D links and 17 remaining interfaces",
+  "left_boundary": "Q0 not put on common-D path; its F and Q1 G coupling retained; Q0 explicitly unequal.",
+  "mask_obstruction": "t45 and t54 force G52=F30; fixed output XOR masks 5 and 1 mod 8 force disjoint additive residue sets {3,5} and {1,7}.",
+  "not_independently_audited": [
+    "Numerical seed in Section 4",
+    "Stored affine bases and ranks for the particular fibres",
+    "Counts of 32 Q pairs, 2 Q triple-interface pairs and 4 P pairs",
+    "Claim of 16 Q F values and uniqueness of the surviving P target",
+    "Author analyse/probe/verifier source code or execution",
+    "Full support classification and the separate base-lift theorem"
+  ],
+  "precomparison_files_unchanged": true,
+  "r_parameterization_comparison": "For next pair (v,w), the independently derived (a,a-G(next)) equals author (g(w)+c,g(v)+c) with unique c=a-g(w).",
+  "right_boundary": "Q4 requires d=D and G=-D; actual Q2 supplies a valid independent pair; not an identification imposed on every solution.",
+  "status": "PASS for the module equivalence and fixed-mask obstruction; fibre enumeration not audited",
+  "utc": "2026-10-12T09:59:15.534834+00:00"
+}

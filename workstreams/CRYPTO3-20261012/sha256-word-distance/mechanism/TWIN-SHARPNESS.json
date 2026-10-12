@@ -1,0 +1,12 @@
+{
+  "alpha": 4292870144,
+  "delta": 2097152,
+  "equations": 30,
+  "rank": 20,
+  "scope": "valuation-bound sharpness for independent four-word core only",
+  "sigma_alpha": [
+    503578616,
+    4167692
+  ],
+  "translation": null
+}

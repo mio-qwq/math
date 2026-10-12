@@ -1,0 +1,47 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "analyze.py"
+      ],
+      "exit_code": 0,
+      "expected_output_sha256": "ea946bf374e0bc1401e4b4e910bfc10f619d2ce34388f8c085b1846c23f93eb0",
+      "matches_stored_json": true,
+      "script_sha256": "0975e124d2e5ab9f84dfdde2feaf89a2953db4734b6cb3afe65dfaab71947c0b",
+      "seconds": 0.028285,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "fixed_mask_probe.py"
+      ],
+      "exit_code": 0,
+      "expected_output_sha256": "5d05c6080f6eb817bde8dedc1f18c808de26710f84cb2934994308ac57820d52",
+      "matches_stored_json": true,
+      "script_sha256": "2262c5b6a98018d30388fcf507de5eb0963d15a4dbfaa29b4e3c3391c958f7c2",
+      "seconds": 0.028677,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "verify.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "expected_output_sha256": "e98067762862041a5880c7f99a788dc33a7dd2eb94bb0c6f71ca686c7a573e03",
+      "matches_stored_json": true,
+      "script_sha256": "0db2d1d09fabc5261d955fbc42e96dc6dd387938e4c328cc9aa53605679930be",
+      "seconds": 0.050193,
+      "stderr": ""
+    }
+  ],
+  "status": "pass",
+  "uses_external_dependencies": false
+}
