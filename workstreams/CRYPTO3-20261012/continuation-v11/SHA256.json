@@ -1,0 +1,26 @@
+{
+  "base_commit": "2e7c43a3f4524588a23c2b773db6c5376e1c3751",
+  "files": {
+    "continuation-v11/ACCEPTANCE.json": "ea4ffb246a6cb1a8a890e139032e840cf3288d64abe6a441ded0a3b9f161491e",
+    "continuation-v11/PRIOR_INTEGRITY.json": "1e5176fb69af8765043bd4123c2033c135de7bf2816b392c6c20205522d8f6a9",
+    "continuation-v11/SNAPSHOT.md": "2bee3059e2e9d46659c9819769793d35cce0b84795f9e444c9277d99cd33e85c",
+    "continuation-v11/VERIFICATION.json": "87eb81a563a84259c3ca48e81acd914571f06034b7ce7383b88a8278c567d477",
+    "continuation-v11/replay.py": "84365cec4967461f54c153c6e80fdd057e50c2d11cd47a59320f1560e36f10eb",
+    "sha256-word-distance/support12-base-factor-normal-proof-v11/PROOF.md": "f334877525adc2a18790d0d40f4d7e89d211a6c16d6b7ce4c1b347881086d8e3",
+    "sha256-word-distance/support12-base-factor-normal-proof-v11/RUN.json": "22505b3e2c9a660cc11468f1c52bc6df357777a9617ead87429aa1eddb27c499",
+    "sha256-word-distance/support12-base-factor-normal-proof-v11/SHA256.json": "dc2c0a4d2f6bf9bf14c720c476a865d16d75aaf439c2d3a0de52fb63a5a7d8fe",
+    "sha256-word-distance/support12-base-factor-normal-proof-v11/check_symbolic.py": "f8fbc3d5ae6112cff0a478c98cd21ea9fa2ce7a01e1afe99c3355f78bf3a1268",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/AUDIT.json": "6d425b8b682350ba8be20822e52de204ebc222d1b08c3df765b5f2661b694f38",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/PRE_AUTHOR_DERIVATION.md": "ae13e8b0b8371b5d0d30bd1f41003df9ed09081f0e90f58703558b79c5a19f1f",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/PRE_AUTHOR_FREEZE.json": "1d2a096c6448c21bfd20c3f75c44036b02deeff67742b91e22e539ed68f8ec77",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/PRE_AUTHOR_RUN.json": "d934e2e159265c72445d0609fe66b18f165b1bacb78d7c58965e8d6437ddfd50",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/REVIEW.md": "b6ea9631ec8cc2eec2c510057b8710b5414ec5ed936a2ebd389784f12ab0a0aa",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/SHA256.json": "793d9780b7890a42766f61a3a10030fe43a64ffb9a46e418114dfb9bf005395e",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/check_pre_author.py": "49006390aac3d6c87ee7709d57244e3a6f5fb1797ea9acb11be72cfdb9f84a90",
+    "sha256-word-distance/support12-base-factor-normal-review-v11/compare_author.py": "7131eacae4c9b38de0411c1c903c407e6469e0c087ac414e15980e70a47a2b0d"
+  },
+  "living_checkpoint_excluded": "CURRENT.md",
+  "schema": "CRYPTO3-stage11-sha256-v1",
+  "scope": "stage11 complete support12 message-equivalent normal-form proof and blind independent acceptance",
+  "stage10_manifest_sha256": "ed9ce1a9dbe3b8d2cb39745af024a1e84e9444fa72998cf8de31ceb1431308ca"
+}

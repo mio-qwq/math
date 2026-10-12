@@ -1,0 +1,16 @@
+{
+  "algorithm": "sha256",
+  "schema": "CRYPTO3-support12-base-factor-normal-review-v11-manifest",
+  "status": "ACCEPT",
+  "files": {
+    "AUDIT.json": "6d425b8b682350ba8be20822e52de204ebc222d1b08c3df765b5f2661b694f38",
+    "PRE_AUTHOR_DERIVATION.md": "ae13e8b0b8371b5d0d30bd1f41003df9ed09081f0e90f58703558b79c5a19f1f",
+    "PRE_AUTHOR_FREEZE.json": "1d2a096c6448c21bfd20c3f75c44036b02deeff67742b91e22e539ed68f8ec77",
+    "PRE_AUTHOR_RUN.json": "d934e2e159265c72445d0609fe66b18f165b1bacb78d7c58965e8d6437ddfd50",
+    "REVIEW.md": "b6ea9631ec8cc2eec2c510057b8710b5414ec5ed936a2ebd389784f12ab0a0aa",
+    "check_pre_author.py": "49006390aac3d6c87ee7709d57244e3a6f5fb1797ea9acb11be72cfdb9f84a90",
+    "compare_author.py": "7131eacae4c9b38de0411c1c903c407e6469e0c087ac414e15980e70a47a2b0d"
+  },
+  "author_manifest_sha256": "dc2c0a4d2f6bf9bf14c720c476a865d16d75aaf439c2d3a0de52fb63a5a7d8fe",
+  "claim": "Independent AI acceptance of exact bidirectional equivalence only; no satisfiability, distance-13 witness, distance-14 bound, Lean, or human review."
+}

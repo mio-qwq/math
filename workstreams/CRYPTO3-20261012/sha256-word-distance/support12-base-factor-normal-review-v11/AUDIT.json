@@ -1,0 +1,116 @@
+{
+  "author_chart": {
+    "definitionally_eliminated_equations": [
+      "10F",
+      "11F",
+      "13F",
+      "15F",
+      "26G",
+      "29F",
+      "29G",
+      "42F",
+      "43G"
+    ],
+    "extra_free_factor_word": "a",
+    "retained_factor_equations": [
+      "15G",
+      "18F",
+      "18G",
+      "20F",
+      "20G",
+      "26F",
+      "28F",
+      "28G",
+      "34F",
+      "34G",
+      "42G",
+      "43F",
+      "57G"
+    ]
+  },
+  "author_files_exact": true,
+  "author_manifest_sha256": "dc2c0a4d2f6bf9bf14c720c476a865d16d75aaf439c2d3a0de52fb63a5a7d8fe",
+  "author_symbolic_rerun_byte_exact": true,
+  "blind_chart": {
+    "eliminated_factor_parameters": [
+      "b",
+      "k",
+      "a",
+      "c",
+      "p",
+      "q",
+      "l",
+      "s",
+      "w"
+    ],
+    "extra_free_factor_word": "z",
+    "retained_factor_equations": [
+      "10F",
+      "18F",
+      "18G",
+      "20F",
+      "26F",
+      "28F",
+      "28G",
+      "29G",
+      "34F",
+      "34G",
+      "42F",
+      "42G",
+      "43F"
+    ]
+  },
+  "claims_accepted": {
+    "H_and_R33_independent_of_temporary_u57": true,
+    "bidirectional_exact_support12_schedule_pair_equivalence": true,
+    "exact_support_inequalities": 7,
+    "factor_equalities_22_to_13": true,
+    "first_16_words_are_message_blocks": true,
+    "free_words": 18,
+    "position57_same_endpoint_condition": "D1(H,Z)=B",
+    "total_equalities_including_R33": 14
+  },
+  "claims_not_made_or_accepted": [
+    "normal-form satisfiable",
+    "normal-form unsatisfiable",
+    "distance-13 message pair exists",
+    "distance at least 14",
+    "Lean formalisation",
+    "human peer review"
+  ],
+  "common_source_object": {
+    "active_positions": [
+      10,
+      11,
+      13,
+      15,
+      18,
+      20,
+      26,
+      28,
+      29,
+      34,
+      42,
+      43,
+      57
+    ],
+    "base_residuals_after_sink_merge": [
+      33
+    ],
+    "exact_support_nonzero_classes": [
+      "a",
+      "b",
+      "c",
+      "k",
+      "p+a",
+      "q+s",
+      "z"
+    ],
+    "original_factor_equalities": 22
+  },
+  "independent_numeric_definition_trials": 10000,
+  "pre_author_freeze_intact": true,
+  "schema": "CRYPTO3-support12-base-factor-normal-review-v11-author-comparison",
+  "scope": "Exact reformulation only; independent AI acceptance, not Lean or human certification.",
+  "status": "ACCEPT"
+}

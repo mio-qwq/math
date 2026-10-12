@@ -1,0 +1,19 @@
+{
+  "schema": "CRYPTO3-support12-base-factor-normal-review-v11-blind-freeze",
+  "status": "FROZEN_BEFORE_AUTHOR_V11",
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-base-factor-normal-review-v11/check_pre_author.py",
+  "frozen_members": {
+    "PRE_AUTHOR_DERIVATION.md": "ae13e8b0b8371b5d0d30bd1f41003df9ed09081f0e90f58703558b79c5a19f1f",
+    "PRE_AUTHOR_RUN.json": "d934e2e159265c72445d0609fe66b18f165b1bacb78d7c58965e8d6437ddfd50",
+    "check_pre_author.py": "49006390aac3d6c87ee7709d57244e3a6f5fb1797ea9acb11be72cfdb9f84a90"
+  },
+  "accepted_input_hashes": {
+    "../support12-full-factor-v9/PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395",
+    "../support12-base-review-v8/INDEPENDENT_PROOF.md": "fcbb2dca56ccd0158d243233f4a3438219ecac4aa7f1e458036cc4bc80280520",
+    "../support12-base-lift-v8/base_completion.py": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+    "../support12-base-residual-review-v9/PRE-AUTHOR-DERIVATION.md": "1d77df8a63d389f822d6080e734de99ec741738b24ab8170dcb53719eeb3f97c",
+    "../support12-base-residual-v9/PROOF.md": "d9fcb05b5bd21bd7b34fd16fdd6df61c9d6a351dc4b83bd63b6d1b91c5dc808c"
+  },
+  "author_material_read_before_freeze": false,
+  "claim": "Independent 18-word/14-equation/7-inequation equivalence derivation; author comparison pending; no satisfiability or Lean claim."
+}

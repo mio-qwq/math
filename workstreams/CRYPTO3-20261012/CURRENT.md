@@ -332,3 +332,40 @@ It verifies Stage 9 integrity, all five new package manifests, replays the
 independent 87,220-step core audit, and reruns the candidate substitution
 controls.  The several-minute full affine classification is bound by its
 author and independent receipts rather than repeated by default.
+
+## Stage-11 accepted message-equivalent normal form
+
+[The complete author proof](sha256-word-distance/support12-base-factor-normal-proof-v11/PROOF.md)
+and its [blind independent acceptance](sha256-word-distance/support12-base-factor-normal-review-v11/REVIEW.md)
+promote the Stage-10 candidate to an exact theorem.  A genuine pair of
+SHA-256 16-to-64 schedules with exact support 12 exists if and only if an
+18-word normal form is feasible.  Nine of the 22 local derivative equations
+are triangular definitions; the remaining system has thirteen derivative
+equalities, `R33=0`, and seven nonzero conditions.  The position-57 condition
+uses the forced first endpoint `H`, so the reverse direction constructs two
+actual schedules and not detached local word pairs.
+
+The reviewer froze a different coordinate form before reading the author
+package.  It retains a different extra factor word and eliminates a different
+nine-equation subset, then independently reconstructs the same exact-support
+object.  Both symbolic audits, the complete additive difference table, and
+the negative controls pass.  This is independent AI acceptance of the
+equivalence theorem only: feasibility, a distance-13 message pair, a lower
+bound of 14, Lean formalisation, and human review remain open.
+
+The next preferred computation is a direct message-level model with sixteen
+first-message words and one root difference.  It expands the base schedule by
+the original recurrence, so any positive assignment can be checked directly
+as two messages.  Factor-only solving may propose endpoints but cannot certify
+base completion.  Negative solver results require independently checked proof
+certificates; timeouts and `unknown` remain non-proofs.
+
+The latest short frozen gate is:
+
+```sh
+python -B workstreams/CRYPTO3-20261012/continuation-v11/replay.py
+```
+
+It verifies Stage 10 integrity, both Stage-11 package manifests, the author
+symbolic proof audit, the pre-author blind reconstruction, and the final
+independent comparison.

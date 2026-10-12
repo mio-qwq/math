@@ -1,0 +1,91 @@
+{
+  "auxiliary_v10_seeded_run": {
+    "seed": "0x0c012e57",
+    "status": "PASS_EXACT_FROZEN_REPLAY_NON_PROOF",
+    "trials": 10000,
+    "u57_sink_control_trials": 64
+  },
+  "python": "3.12.14",
+  "reference_hashes_checked": {
+    "support12-base-factor-normal-v10/CANDIDATE.md": "4a6ddf2d14ab042af43e8d4c66fbcea02487c92badae0ef8573c4c4ff0b6888b",
+    "support12-base-factor-normal-v10/RUN.json": "409e57b7aac5f3e2485c7027318c6532a35275a951222455bf74777647658139",
+    "support12-base-factor-normal-v10/SHA256.json": "9c780d8164782c0a8bb7e6efc159d1ac01fe27fe9df6d2bb020b2470b3b6a7ea",
+    "support12-base-factor-normal-v10/verify_candidate.py": "15248aa67277df653d4383e27d8437d218cb1c1b2d915da8d27ded4d41b8c124",
+    "support12-base-lift-v8/PROOF.md": "40305b2a0ec9dc1d5776626cbde09cbaddb857cc24e627f6dabec20c7ee4ab3a",
+    "support12-base-lift-v8/SHA256.json": "374732f8fee671cd7290d7596ab7f0cb85bb83502b3c94a124d7a78280802dc6",
+    "support12-base-lift-v8/base_completion.py": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+    "support12-base-residual-review-v9/REVIEW.md": "92017f34d561a9db3a4220c1c1f67fff429b54ff378ef3134cc900b239330cf0",
+    "support12-base-residual-review-v9/SHA256.json": "1ee4aa1318a6306dfc23c4f56426824f9d49eb87f0808adcd8a74058d36838a1",
+    "support12-base-residual-v9/PROOF.md": "d9fcb05b5bd21bd7b34fd16fdd6df61c9d6a351dc4b83bd63b6d1b91c5dc808c",
+    "support12-base-residual-v9/SHA256.json": "cbdfa2fd8d76c4e7bc511f10c30d15b43763144dfd1eac6fff758e1d5ee6546f",
+    "support12-base-review-v8/REVIEW.md": "8c3ab0fb544c487e065316149fcf791630062aea5bc359a3ead53f748e033527",
+    "support12-full-factor-review-v8/REVIEW_V9.md": "04cd55432d18f2abb3dbca2d16f651ceb4451ac550048c5b0e84db4c82da63e8",
+    "support12-full-factor-v9/PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395",
+    "support12-full-factor-v9/manifest.json": "a0438580b430fdd031cecd0ea07c87363c5c942f5f8fc3848864ba1a51ae6b98"
+  },
+  "schema": "support12-base-factor-normal-proof-v11-symbolic-run-v1",
+  "scope": "Complete author-written bidirectional equivalence proof audit for the 18-word support-12 normal form; no feasibility, message-pair, distance-14, independent-review, human-review, or Lean claim.",
+  "status": "PASS",
+  "symbolic_core": {
+    "R57_identity": "R57=U57-H",
+    "base_residual_equations": [
+      "R33=0"
+    ],
+    "cascade": "Z=D0(X42,P+A)=d57; D1(H,Z)=B",
+    "definitionally_zero_equations": [
+      "10F",
+      "11F",
+      "13F",
+      "15F",
+      "26G",
+      "29F",
+      "29G",
+      "42F",
+      "43G"
+    ],
+    "exact_support_nonzero_classes": 7,
+    "forced_u57": "H",
+    "free_word_count": 18,
+    "free_words": [
+      "A",
+      "X10",
+      "X11",
+      "X13",
+      "X15",
+      "X18",
+      "X20",
+      "X26",
+      "X28",
+      "X29",
+      "X34",
+      "X42",
+      "X43",
+      "P9",
+      "P12",
+      "P14",
+      "P19",
+      "P22"
+    ],
+    "method": "canonical normalized term DAG over the additive word group",
+    "original_factor_derivative_equations": 22,
+    "random_sampling_used_for_proof": false,
+    "retained_equation_count": 13,
+    "retained_equations": [
+      "15G",
+      "18F",
+      "18G",
+      "20F",
+      "20G",
+      "26F",
+      "28F",
+      "28G",
+      "34F",
+      "34G",
+      "42G",
+      "43F",
+      "57G"
+    ],
+    "u57_absent_from_H": true,
+    "u57_absent_from_R33": true
+  }
+}

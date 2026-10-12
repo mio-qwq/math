@@ -1,0 +1,44 @@
+{
+  "H_and_R33_independent_of_z": true,
+  "active_positions": [
+    10,
+    11,
+    13,
+    15,
+    18,
+    20,
+    26,
+    28,
+    29,
+    34,
+    42,
+    43,
+    57
+  ],
+  "base_inputs": 17,
+  "extra_factor_words": [
+    "z"
+  ],
+  "free_words": 18,
+  "local_factor_equalities_after": 13,
+  "local_factor_equalities_before": 22,
+  "negative_controls": 4,
+  "nonzero_classes": [
+    "a",
+    "b",
+    "c",
+    "k",
+    "p+a",
+    "q+s",
+    "z"
+  ],
+  "only_residual_row": 33,
+  "position57_condition": "D1(H,z)=b",
+  "random_identity_trials": 10000,
+  "rewritten_chart_rows": 47,
+  "schema": "CRYPTO3-support12-base-factor-normal-review-v11-pre-author",
+  "scope": "algebraic equivalence only; no satisfiability, message witness, distance-14 bound, Lean, or human review",
+  "status": "PASS",
+  "total_equations_with_R33": 14,
+  "triangular_definitions": 9
+}

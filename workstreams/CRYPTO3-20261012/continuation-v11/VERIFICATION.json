@@ -1,0 +1,23 @@
+{
+  "schema": "CRYPTO3-stage11-verification-v1",
+  "status": "PASS",
+  "base_commit": "2e7c43a3f4524588a23c2b773db6c5376e1c3751",
+  "package_manifests": {
+    "support12-base-factor-normal-proof-v11": "dc2c0a4d2f6bf9bf14c720c476a865d16d75aaf439c2d3a0de52fb63a5a7d8fe",
+    "support12-base-factor-normal-review-v11": "793d9780b7890a42766f61a3a10030fe43a64ffb9a46e418114dfb9bf005395e"
+  },
+  "author": {
+    "status": "PASS",
+    "method": "deterministic canonical term audit",
+    "auxiliary_numeric_trials": 10000,
+    "random_sampling_used_as_proof": false
+  },
+  "independent_review": {
+    "status": "ACCEPT",
+    "pre_author_freeze": true,
+    "different_triangular_coordinates": true,
+    "independent_numeric_definition_trials": 10000,
+    "negative_controls": 4
+  },
+  "final_default_replay_status": "PASS"
+}

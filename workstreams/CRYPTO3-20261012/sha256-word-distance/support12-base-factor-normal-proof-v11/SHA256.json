@@ -1,0 +1,27 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "PROOF.md": "f334877525adc2a18790d0d40f4d7e89d211a6c16d6b7ce4c1b347881086d8e3",
+    "RUN.json": "22505b3e2c9a660cc11468f1c52bc6df357777a9617ead87429aa1eddb27c499",
+    "check_symbolic.py": "f8fbc3d5ae6112cff0a478c98cd21ea9fa2ce7a01e1afe99c3355f78bf3a1268"
+  },
+  "schema": "support12-base-factor-normal-proof-v11-manifest-v1",
+  "status": "complete author-written equivalence proof; independent acceptance pending",
+  "claims": {
+    "free_words": 18,
+    "factor_derivative_equations_before_elimination": 22,
+    "definitionally_eliminated_equations": 9,
+    "retained_factor_derivative_equations": 13,
+    "additional_base_residual_equations": 1,
+    "exact_support_nonzero_classes": 7,
+    "bidirectional_equivalence_to_exact_support12_schedule_pairs": true,
+    "deterministic_symbolic_audit": true,
+    "random_sampling_used_as_proof": false,
+    "solution_exists": false,
+    "solution_excluded": false,
+    "distance_13_pair": false,
+    "distance_14_bound": false,
+    "independent_AI_acceptance": false,
+    "Lean": false
+  }
+}

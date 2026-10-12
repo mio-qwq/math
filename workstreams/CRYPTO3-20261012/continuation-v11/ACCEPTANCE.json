@@ -1,0 +1,27 @@
+{
+  "schema": "CRYPTO3-stage11-acceptance-v1",
+  "status": "PASS",
+  "global_boundary": "lower bound 13 only; no distance-13 message pair and no lower bound 14",
+  "accepted_scope": {
+    "object": "exact-support-12 SHA-256 16-to-64 schedule pairs",
+    "support": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57],
+    "equivalent_normal_form": {
+      "free_32bit_words": 18,
+      "original_factor_equalities": 22,
+      "triangular_definitions": 9,
+      "retained_factor_equalities": 13,
+      "base_residual_equalities": 1,
+      "exact_support_nonzero_classes": 7
+    },
+    "review": "blind independent derivation in different coordinates, followed by exact author comparison",
+    "status": "ACCEPT"
+  },
+  "not_claimed": [
+    "normal-form satisfiable",
+    "normal-form unsatisfiable",
+    "SHA-256 distance-13 message pair",
+    "distance at least 14",
+    "Lean formalisation",
+    "external human review"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "CRYPTO3-stage11-prior-integrity-v1",
+  "base_commit": "2e7c43a3f4524588a23c2b773db6c5376e1c3751",
+  "base_tree": "a1a50247c0feb533e4bedae7584514b4af5dacfc",
+  "stage10_manifest": "continuation-v10/SHA256.json",
+  "stage10_manifest_sha256": "ed9ce1a9dbe3b8d2cb39745af024a1e84e9444fa72998cf8de31ceb1431308ca",
+  "status": "PASS"
+}
