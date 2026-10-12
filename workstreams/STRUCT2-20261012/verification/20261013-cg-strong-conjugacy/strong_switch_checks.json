@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "conjugacy_class_sizes": [
+        1,
+        1,
+        9
+      ],
+      "literal_adjacency_colour_and_involution_checks": true,
+      "n": 3,
+      "parameters_checked": 72,
+      "strong_switches": 11
+    },
+    {
+      "conjugacy_class_sizes": [
+        1,
+        1,
+        15
+      ],
+      "literal_adjacency_colour_and_involution_checks": true,
+      "n": 5,
+      "parameters_checked": 120,
+      "strong_switches": 17
+    },
+    {
+      "conjugacy_class_sizes": [
+        1,
+        1,
+        21
+      ],
+      "literal_adjacency_colour_and_involution_checks": true,
+      "n": 7,
+      "parameters_checked": 168,
+      "strong_switches": 23
+    },
+    {
+      "conjugacy_class_sizes": [
+        1,
+        1,
+        27
+      ],
+      "literal_adjacency_colour_and_involution_checks": true,
+      "n": 9,
+      "parameters_checked": 216,
+      "strong_switches": 29
+    },
+    {
+      "conjugacy_class_sizes": null,
+      "literal_adjacency_colour_and_involution_checks": true,
+      "n": 31,
+      "parameters_checked": 744,
+      "strong_switches": 95
+    },
+    {
+      "conjugacy_class_sizes": null,
+      "literal_adjacency_colour_and_involution_checks": true,
+      "n": 101,
+      "parameters_checked": 2424,
+      "strong_switches": 305
+    }
+  ],
+  "damage_controls_detected": 3,
+  "dependencies": {
+    "check_coordinate_bridge.py": "1a5e5deb87c42da36b5ea8147212e4e4d129468ca7220abd4fa5e65f94ba2d8f",
+    "check_model_actions.py": "f18ca924101b362a1f63394a6e1c0e39b3d0290f944b32d9c2c96129ed03e309",
+    "check_original_definition.py": "5eee16b8d3ecd40d0319c8ff4c5bbc2c8758869d87db8a0e2798f8e9cc12277e"
+  },
+  "lean_source_sha256": "5bee30d8d89c6ef85eda851c563378c902e3b0f00c76f2c9a23ffb601015fde1",
+  "parameters_checked": 3744,
+  "python": "3.12.14",
+  "scope": "Finite checks of the explicit 24n family against literal original CG CDCs. Conjugacy was checked at n=3,5,7,9. Universal exhaustion and the iff classification are established by Lean, not by this program.",
+  "seconds": 5.190963,
+  "source_sha256": "c1235075f0723ae024249c94a427f8779376f54a95bd25ba81fefafb1ed733bd",
+  "success": true,
+  "utc": "2026-10-12T21:52:53.086020+00:00"
+}

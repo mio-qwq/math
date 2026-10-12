@@ -1,0 +1,16 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/strong-conjugacy/CycleActions.olean CycleActions.lean
+'Struct2.CycleActions.rotation_left_inv' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.rotation_right_inv' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.reflection_involutive' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.rotation_next' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.reflection_next' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.rotation_adjacency' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.reflection_adjacency' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.rotationIso' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.reflectionIso' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.rotation_direction' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.reflection_direction' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleActions.cycle_iso_dihedral' depends on axioms: [propext, Quot.sound]
+
+EXIT CODE: 0

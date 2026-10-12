@@ -34,6 +34,8 @@ def main():
                         help='also rebuild explicit cycle/model actions and exact 24n parametrization')
     parser.add_argument('--include-strong-switches', action='store_true',
                         help='also rebuild the exact strongly switching parameter classification')
+    parser.add_argument('--include-strong-conjugacy', action='store_true',
+                        help='also rebuild three conjugacy/fold classes and the two-cousin certificate')
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
     build = args.build_dir.resolve()
@@ -51,7 +53,8 @@ def main():
     assert '5045d0056413266e57c625dcd7c365b10e377c52' in version
     start = time.perf_counter()
     runs = []
-    model_actions = args.include_model_actions or args.include_strong_switches
+    strong_switches = args.include_strong_switches or args.include_strong_conjugacy
+    model_actions = args.include_model_actions or strong_switches
     ring_rigidity = args.include_ring_rigidity or model_actions
     six_cycles = args.include_six_cycles or ring_rigidity
     structure = args.include_structure or six_cycles
@@ -65,9 +68,11 @@ def main():
     if model_actions:
         modules += [('CycleActions', 'Struct2.CycleActions'),
                     ('ModelActions', 'Struct2.ModelActions')]
-    if args.include_strong_switches:
+    if strong_switches:
         modules += [('StrongSwitchClassification',
                      'Struct2.StrongSwitchClassification')]
+    if args.include_strong_conjugacy:
+        modules += [('StrongConjugacy', 'Struct2.StrongConjugacy')]
     for module, namespace in modules:
         source = root / (module + '.lean')
         raw = source.read_text()
@@ -117,7 +122,8 @@ def main():
                         + ('Symbolic six-cycle characterization for the model at n>=2 and original CDC at odd n>=3; arbitrary actual automorphisms preserve centre, leaf and ring types; explicit n=1 exception. ' if six_cycles else 'No all-n six-cycle invariant. ')
                         + ('Synchronized actual ring actions, uniqueness from cyclic index/direction/swap and an injective encoding of all original CDC automorphisms into Fin(24*n) at every odd n>=3. ' if ring_rigidity else '')
                         + ('Explicit cyclic rotations/reflections, centre-residue compatibility, exhaustive actual model/original automorphism parametrization and a two-sided bijection with Fin(24*n). Abstract group laws are not separately formalized. ' if model_actions else 'No full automorphism-family Lean classification. ')
-                        + ('Exact necessity-and-sufficiency classification of all actual strong switches as the two half-turn rotations or odd reflected ring swaps. Conjugacy-class exhaustion and exact cousin count are not yet formalized. ' if args.include_strong_switches else 'No exhaustive strong-switch/conjugacy or exact cousin-count Lean theorem.'))}
+                        + ('Exact necessity-and-sufficiency classification of all actual strong switches as the two half-turn rotations or odd reflected ring swaps. ' if strong_switches else 'No exhaustive strong-switch classification. ')
+                        + ('Exactly three strong-switch conjugacy and fold-isomorphism classes, with the original deck identified and two nonoriginal fold classes. The external arbitrary-base-to-switch converse remains a written theorem rather than a new Lean interface. ' if args.include_strong_conjugacy else 'No universal conjugacy/fold-class Lean theorem.'))}
     (output / 'verification.json').write_text(json.dumps(report, indent=2, sort_keys=True) + '\n')
     print('TOTAL PASS:', report['audit_count'], 'audits;', report['seconds'], 'seconds')
 
