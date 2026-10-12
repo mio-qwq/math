@@ -1,0 +1,62 @@
+{
+  "schema": "GP2-reciprocal-trace-rational-v1",
+  "trace_coefficients_T_L_Y_X": [
+    2,
+    2,
+    4,
+    8
+  ],
+  "sqrt_half_majorant": "177/250",
+  "symmetrized_trace_multiplier": "1458/125",
+  "off_diagonal_coefficient": "125/729",
+  "mass_coefficients": [
+    "1",
+    "1",
+    "1",
+    "125/729",
+    "125/729",
+    "125/729"
+  ],
+  "tangent_masses": [
+    "5/42",
+    "5/42",
+    "5/42",
+    "3/14",
+    "3/14",
+    "3/14"
+  ],
+  "tangent_remainder_coefficients": [
+    1,
+    2,
+    3
+  ],
+  "empty_orbit_lower": "125/74088",
+  "strict_density_upper": "73963/296352",
+  "direction_patterns_row_major": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "scope": "All finite alphabets, all probability weights, arbitrary three-valued ordered-pair relation; semantic samples are not a universal proof"
+}

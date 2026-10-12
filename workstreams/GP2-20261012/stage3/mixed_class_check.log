@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "result": {
+    "E": "3/8",
+    "G": "5/32",
+    "omitted_tuples": 56,
+    "independent_color_assignments": 6561,
+    "color_E_hits": 729,
+    "color_G_hits": 15
+  },
+  "negative_controls": [
+    {
+      "field": "G",
+      "rejected": "event totals"
+    },
+    {
+      "field": "missing",
+      "rejected": "omitted total"
+    },
+    {
+      "field": "limiting_random_G",
+      "rejected": "random G binding"
+    }
+  ],
+  "scope": "Mechanism omission, not strict-code optimality"
+}

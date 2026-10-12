@@ -1,0 +1,17 @@
+{
+  "input_sha256": {
+    "workstreams/GP2-20261012/stage3/RECIPROCAL_TRACE_BOUND.md": "7095f6e72557ca0f7635206048277c914cc3d6afdbaa2f608ad3cf7c555ab1ab",
+    "workstreams/GP2-20261012/construction/STRICT_WINDOW_REPAIR.md": "56ed0af016042abcbca256b52f6fb7539edb908fe81d6ba585a21102f9c4c4f5",
+    "workstreams/ROOT/distributed-written-proofs/B/kautz_length4/DENSITY_LIMIT.md": "37054d86e2c03bd777d17a72a4629a7ade136857ef31497f56388ad1318751ea",
+    "workstreams/GP2-20261012/weighted_review/INDEPENDENT_WEIGHTED_REVIEW.md": "f8f8c8027f8ddfb5e6875e833725575f93a8be9df64f6abf7ae9142004a1596a",
+    "workstreams/GP2-20261012/literature_lifts/JIGGS57_WEIGHTED_LIFT_V2.md": "6f1068bd29261ac4eea4cfc11b9392593900580498d087f3f7856cf04d334918",
+    "workstreams/GP2-20261012/stage3/trace_review/check_trace_independent.py": "27056356c42d33e2156734490230bdd43272e81d22830913a969b846ecc1290e"
+  },
+  "review_files_sha256": {
+    "REVIEW.md": "ebdb310daf6abf6767b77fb8b59cc6daafa290090a1b355bc888415d3b17c4f3",
+    "check_trace_independent.py": "27056356c42d33e2156734490230bdd43272e81d22830913a969b846ecc1290e",
+    "run.log": "77bed5466f592490a45f1d6385fca608b1080290e71011cadf558f4552b6a41b",
+    "run_metadata.json": "a3faab138df80d00f726226534f893d66666e8da9ef75d7edee46dd12c8fceb8"
+  },
+  "note": "This file is excluded from its own recursive hash; inputs are read-only. No Git commit was made."
+}

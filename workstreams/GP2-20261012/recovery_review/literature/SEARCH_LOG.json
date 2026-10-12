@@ -1,0 +1,46 @@
+{
+  "checked_date_user_timezone": "2026-10-13",
+  "timezone": "Asia/Singapore",
+  "checked_date_utc": "2026-10-12",
+  "review_scope": "Primary-source literature and provenance gate, not proof acceptance",
+  "source_checkout_head_initial": "2e920b20a297fc471c833858cc858f84c4d8f24e",
+  "searches": [
+    {"engine": "system1", "queries": ["\"2604.15909\" \"Kautz\"", "\"Kautz\" \"general position\" \"four\"", "\"comma-free\" \"182/729\"", "\"comma-free\" \"asymptotic\" \"4\" bound"]},
+    {"engine": "system2", "queries": ["\"Kautz\" \"general position\" 2026", "\"comma-free codes\" \"four\" \"asymptotic\"", "\"comma-free codes\" \"upper bound\" \"four\"", "\"comma-free\" \"weighted\" Jiggs"]},
+    {"engine": "system1", "queries": ["\"Diletter and triletter comma-free codes\" \"even\"", "\"comma-free\" \"0.2248\"", "\"comma-free\" \"0.2496\"", "\"comma-free codes\" \"weighted\" \"four\""]},
+    {"engine": "system1", "queries": ["\"comma-free\" \"W4\" upper", "\"comma-free\" \"four-letter\" bound", "\"comma-free\" \"weighted\" Jiggs 57", "\"comma-free\" \"2/9\" bound"]},
+    {"engine": "system2", "queries": ["site:ajc.maths.uq.edu.au/pdf/86/ajc_v86_p233.pdf \"coefficient\"", "\"comma-free\" \"182\" \"729\"", "\"Jiggs\" \"57\" \"asymptotic\"", "\"The general position number of digraphs\" citations"]},
+    {"engine": "system1", "queries": ["\"comma-free codes over finite alphabets\" \"2019\" \"four\"", "\"comma-free\" \"leading coefficient\" \"even\"", "\"comma-free\" \"57/256\"", "\"Kautz\" \"general position\" \"lambda\""]},
+    {"engine": "system1", "queries": [{"q": "Kautz digraph general position number solution", "recency_days": 180}, {"q": "James Tuite publications Kautz", "recency_days": 180}, {"q": "comma free codes length four asymptotic bound", "recency_days": 365}, {"q": "comma free codes length four weighted alphabet", "recency_days": 365}]},
+    {"engine": "system2", "queries": ["\"comma-free codes\" \"length 4\" \"bound\"", "\"comma-free codes\" \"length four\" \"asymptotic\"", "\"comma-free codes\" \"four-letter\" \"weighted\"", "\"Diletter and triletter comma-free codes\" pdf"]},
+    {"engine": "system1", "queries": ["\"Combinatorial problems motivated by comma-free codes\" upper bound", "\"golomb4.pdf\" \"four\"", "\"golomb4.pdf\" \"asymptotic\""]},
+    {"engine": "system2", "queries": ["\"James Tuite\" \"publications\" -site:researchgate.net -site:academia.edu", "\"Grahame Erskine\" \"publications\" Kautz", "\"Kautz\" \"general position\" \"2026\" -site:researchgate.net -site:arxiv.org -site:scirate.com -site:alphaxiv.org -site:aminer.org"]}
+  ],
+  "direct_primary_sources": [
+    {"url": "https://arxiv.org/abs/2604.15909", "refs": ["turn0view0"], "outcome": "Only v1 is listed; submitted 2026-04-17 10:10:49 UTC"},
+    {"url": "https://arxiv.org/html/2604.15909v1", "refs": ["turn0view1", "turn1view0", "turn1view1"], "locations": ["Definition 2.1", "Section 3.2", "Table 1", "Problem 5.2"], "outcome": "Read"},
+    {"url": "https://arxiv.org/abs/2501.19385", "refs": ["turn0view2", "turn1view2"], "outcome": "Latest v5, revised 2026-08-16 16:08:22 UTC"},
+    {"url": "https://arxiv.org/html/2501.19385v5", "refs": ["turn2view0", "turn3view0", "turn3view1", "turn3view2"], "locations": ["Section 5.6", "Section 6", "Reference 25"], "outcome": "Read; Kautz length at least three remains in the dated open-problem list"},
+    {"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B78C35132E2BCD4A14459BE6A142FF30/S0008414X00045296a.pdf/comma-free-codes.pdf", "refs": ["turn6view2"], "locations": ["Theorems 1, 5-7", "printed pp. 202-203, 207-208"], "outcome": "Read"},
+    {"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3F80EAEA1B86983AF9CCBB3410B93FF9/S0008414X00029382a.pdf/regent_results_in_commafree_codes.pdf", "refs": ["turn5view1", "turn7view0", "turn7view1", "turn8view2"], "locations": ["Theorem 5", "Sections 3, 5"], "outcome": "Read; table is historical and extracted text has OCR defects"},
+    {"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/71A7831337DAC1E7D03DF9AE4C096F08/S0008414X0000448Xa.pdf/a-new-result-on-comma-free-codes-of-even-word-length.pdf", "refs": ["turn5view0", "turn8view1"], "locations": ["Introduction", "Theorem 1.1", "comparison/compatibility vector mechanism"], "outcome": "Read"},
+    {"url": "https://ajc.maths.uq.edu.au/pdf/86/ajc_v86_p233.pdf", "refs": ["turn12view2", "turn14view1", "turn14view2"], "outcome": "Initial direct opens failed; click from Sereni official page succeeded"},
+    {"url": "https://dpt-info.di.unistra.fr/~c.michel/Michel_Article93.pdf", "refs": ["turn14view0", "turn15view0", "turn21view1", "turn22view0"], "locations": ["printed p. 236", "Definition 2.1", "Section 4.1", "References 20, 26, 33, 39"], "outcome": "Read; accessible author-hosted published PDF"},
+    {"url": "https://dpt-info.di.unistra.fr/~c.michel/Michel_Article71.pdf", "refs": ["turn22view1", "turn23view0", "turn23view2"], "locations": ["Definition 2.1", "Theorems 2.6, 2.11", "Appendix B"], "outcome": "Read"},
+    {"url": "https://link.springer.com/article/10.1007/s12190-025-02441-z", "refs": ["turn6view3", "turn7view2", "turn7view3", "turn8view0"], "locations": ["abstract", "introduction", "Definition 1", "references"], "outcome": "Read relevant portions; prefix/suffix overlap class differs from GP2 strict-window code"},
+    {"url": "https://link.springer.com/article/10.1007/s10623-023-01344-z", "refs": ["turn24view0", "turn25view0"], "locations": ["Definition 1", "Section 5", "Theorem 19"], "outcome": "Read; stronger non-overlapping class has exact length-four maximum r^3(q-r), r nearest 3q/4 with half rounded down"},
+    {"url": "https://irma.math.unistra.fr/~sereni/pub-journals.html", "refs": ["turn11view0"], "outcome": "Read to discover primary PDF; volume typo 82 on page is not used in bibliography"},
+    {"url": "https://dpt-info.di.unistra.fr/~c.michel/", "refs": ["turn11view1", "turn12view0"], "outcome": "Read to discover primary PDFs"},
+    {"url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcd.10071", "refs": ["turn16search0", "turn17view1"], "outcome": "Abstract, metadata and references read; no full-text theorem acceptance"},
+    {"url": "https://library.keldysh.ru/prep_vw.asp?lg=e&pid=2330", "refs": ["turn17view0"], "outcome": "Institute catalog read; linked manuscript not accessible"}
+  ],
+  "remaining_access_gaps": [
+    {"url": "https://keldysh.ru/papers/2003/source/article/golomb4.pdf", "refs": ["turn19view0"], "outcome": "502 Bad Gateway"},
+    {"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcd.10071", "refs": ["turn19view1"], "outcome": "503 Service Unavailable"},
+    {"url": "https://api.semanticscholar.org/arXiv%3A2604.15909", "refs": ["turn20view0"], "outcome": "Unreadable redirected page; no full forward-citation network"},
+    {"url": "https://scholar.google.com/scholar_lookup?arxiv_id=2604.15909", "refs": ["turn20view1"], "outcome": "Bot challenge; no full forward-citation network"},
+    {"url": "https://ui.adsabs.harvard.edu/abs/arXiv%3A2604.15909", "refs": ["turn20view2"], "outcome": "405 Method Not Allowed"}
+  ],
+  "novelty_status": "No matching prior 182/729 bound or exact optimized weighted Jiggs coefficient located by this bounded search; not a first-discovery or best-known certificate",
+  "formalization": "No Lean claims made by this literature-only review"
+}

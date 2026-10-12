@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-10-13",
+  "query_engine": "system2",
+  "queries": [
+    "\"73963/296352\"",
+    "\"125/74088\"",
+    "\"reciprocal\" \"comma-free\" bound",
+    "\"alternating\" \"directed\" \"4-cycle\" \"density\" inequality"
+  ],
+  "result": "No directly supporting prior instance of the new constants was located. The numeric queries returned irrelevant integer and address matches, so this is a weak bounded search, not a certification of novelty.",
+  "primary_problem_source": "https://arxiv.org/html/2604.15909v1",
+  "latest_dated_author_survey_directly_read": "https://arxiv.org/html/2501.19385v5",
+  "survey_revision_date": "2026-08-16",
+  "prior_framework": "Ordinary comma-free rotation counting and split graphs are classical. Matrix trace expansions, finite-sum Cauchy and convexity are standard tools. Specific application and constants need deeper forward-citation checking.",
+  "limits": "No exhaustive citation network, global best-known certification, historical first-discovery claim, or human peer review. See recovery_review/literature/ for direct primary-source readings and access gaps.",
+  "additional_verification_engine": "system1",
+  "additional_queries": [
+    "\"comma-free\" \"length four\" \"upper bound\"",
+    "\"nonnegative matrix\" \"transpose\" \"fourth\" \"trace\" inequality"
+  ],
+  "additional_result": "No directly relevant new bound was found in returned results; this is limited coverage and not an originality or best-known certificate."
+}

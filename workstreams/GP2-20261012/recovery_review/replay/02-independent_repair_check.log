@@ -1,0 +1,282 @@
+{
+  "status": "PASS",
+  "frozen_source_sha256": "56ed0af016042abcbca256b52f6fb7539edb908fe81d6ba585a21102f9c4c4f5",
+  "threshold_rows": [
+    {
+      "a": 1,
+      "b": 1,
+      "first_length": 1,
+      "second_length": 1,
+      "first_bad": 4,
+      "second_bad": 5
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "first_length": 2,
+      "second_length": 1,
+      "first_bad": 9,
+      "second_bad": 6
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "first_length": 3,
+      "second_length": 1,
+      "first_bad": 15,
+      "second_bad": 7
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "first_length": 2,
+      "second_length": 1,
+      "first_bad": 9,
+      "second_bad": 6
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "first_length": 2,
+      "second_length": 2,
+      "first_bad": 9,
+      "second_bad": 13
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "first_length": 3,
+      "second_length": 1,
+      "first_bad": 15,
+      "second_bad": 7
+    }
+  ],
+  "injective_geodesic_gap_cases": [
+    {
+      "a": 1,
+      "b": 1,
+      "windows": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "original_graph_distances": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "windows": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "original_graph_distances": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "windows": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "original_graph_distances": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "windows": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "original_graph_distances": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "windows": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "original_graph_distances": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "windows": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "original_graph_distances": [
+        3,
+        1,
+        4
+      ]
+    }
+  ],
+  "odd_permutation_gp_size": 12,
+  "strict_failure_positions": [
+    0,
+    2,
+    4
+  ],
+  "blowup_bad_windows": [
+    [
+      0,
+      2,
+      6,
+      4
+    ],
+    [
+      6,
+      4,
+      1,
+      3
+    ],
+    [
+      1,
+      3,
+      7,
+      5
+    ]
+  ],
+  "blowup_distances": [
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      4,
+      0,
+      2
+    ],
+    [
+      4,
+      4,
+      0
+    ]
+  ],
+  "repaired_small_fixture_size": 0,
+  "negative_controls": {
+    "threshold_1": "threshold cannot guarantee distinct extension",
+    "threshold_2": "threshold cannot guarantee distinct extension",
+    "threshold_3": "threshold cannot guarantee distinct extension",
+    "alphabet_binding": "selected word violates original graph parameter binding",
+    "distance_binding": "changed distance differs from original-adjacency BFS"
+  },
+  "scope": "Finite semantics only; all-parameter theorem is reviewed in writing."
+}

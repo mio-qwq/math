@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "bfs_overlap_pairs": 12240,
+  "seven_distinct_triples_checked": 35,
+  "negative_tests": {
+    "corrupt_gp_set": "chosen set contains a geodesic triple: [(0, 2, 0, 1), (0, 1, 0, 1), (1, 0, 1, 0)]",
+    "wrong_distance": "BFS distance matrix mismatch",
+    "wrong_parameter_binding": "alphabet binding mismatch",
+    "wrong_adjacency": "original adjacency mismatch"
+  },
+  "exact_cyclic_moments": [
+    {
+      "m": 3,
+      "cardinality": 7,
+      "p": "7/81",
+      "q_1_2_3": [
+        "0",
+        "8/729",
+        "19/2187"
+      ],
+      "7": {
+        "histogram": {
+          "0": 1144,
+          "1": 784,
+          "2": 238,
+          "3": 21
+        },
+        "mean": "49/81",
+        "pair_moment": "301/2187"
+      },
+      "9": {
+        "histogram": {
+          "0": 8517,
+          "1": 7659,
+          "2": 2898,
+          "3": 582,
+          "4": 27
+        },
+        "mean": "7/9",
+        "pair_moment": "178/729"
+      }
+    },
+    {
+      "m": 4,
+      "cardinality": 12,
+      "p": "3/64",
+      "q_1_2_3": [
+        "0",
+        "0",
+        "0"
+      ],
+      "7": {
+        "histogram": {
+          "0": 11008,
+          "1": 5376
+        },
+        "mean": "21/64",
+        "pair_moment": "0"
+      },
+      "9": {
+        "histogram": {
+          "0": 156736,
+          "1": 100224,
+          "2": 5184
+        },
+        "mean": "27/64",
+        "pair_moment": "81/4096"
+      }
+    }
+  ],
+  "delta_221": "10661244252121/116507435287321",
+  "asymptotic_root_approx": 0.27128644612183095
+}

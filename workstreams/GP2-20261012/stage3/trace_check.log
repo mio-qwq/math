@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "relation_cases": 297,
+  "rational_matrix_cases": 80,
+  "smallest_sample_E": "1165/9604",
+  "universal_rational_E_lower": "125/74088",
+  "universal_rational_density_upper": "73963/296352",
+  "negative_controls": [
+    {
+      "field": "sqrt_half_majorant",
+      "rejected": "square-root majorant invalid"
+    },
+    {
+      "field": "symmetrized_trace_multiplier",
+      "rejected": "matrix multiplier identity"
+    },
+    {
+      "field": "off_diagonal_coefficient",
+      "rejected": "matrix coefficient identity"
+    },
+    {
+      "field": "empty_orbit_lower",
+      "rejected": "constant tangent slope"
+    },
+    {
+      "field": "strict_density_upper",
+      "rejected": "rotation-density coefficient"
+    },
+    {
+      "field": "trace_coefficients_T_L_Y_X",
+      "rejected": "trace coefficient binding"
+    },
+    {
+      "field": "tangent_masses",
+      "rejected": "constant tangent slope"
+    },
+    {
+      "field": "tangent_remainder_coefficients",
+      "rejected": "quartic remainder identity"
+    },
+    {
+      "field": "direction_patterns_row_major",
+      "rejected": "four-pattern binding"
+    },
+    {
+      "field": "bad-level",
+      "rejected": "level range/type"
+    },
+    {
+      "field": "negative-weight",
+      "rejected": "letter probability distribution"
+    },
+    {
+      "field": "boolean-level",
+      "rejected": "level range/type"
+    }
+  ],
+  "scope": "Samples check semantics; the written trace/Cauchy/polynomial argument proves universality"
+}

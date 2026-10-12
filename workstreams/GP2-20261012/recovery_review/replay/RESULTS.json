@@ -1,0 +1,68 @@
+[
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/GP2-20261012/review/independent_window_check.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.39,
+    "log": "workstreams/GP2-20261012/recovery_review/replay/01-independent_window_check.log",
+    "sha256": "fd2e09c559ae34555767cfc57b2b3e48b96acba2d5e5d649843f3b7742965b1b"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/GP2-20261012/review/independent_repair_check.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.087,
+    "log": "workstreams/GP2-20261012/recovery_review/replay/02-independent_repair_check.log",
+    "sha256": "f7ac068238538742d0ad3f606cdb79251e3ce8c60e8b0f23731812a2b8243185"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/GP2-20261012/review/independent_fourteen_state_check.py",
+      "--verify",
+      "workstreams/GP2-20261012/review/independent_fourteen_state_certificate.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.052,
+    "log": "workstreams/GP2-20261012/recovery_review/replay/03-independent_fourteen_state_check.log",
+    "sha256": "ba4f90097c3a3b68b4c43f3411c706d6f463de2686d45e1c79a1e629129b44a2"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/GP2-20261012/weighted_review/verify_weighted_jiggs57.py",
+      "--negative-controls"
+    ],
+    "exit_code": 0,
+    "seconds": 0.189,
+    "log": "workstreams/GP2-20261012/recovery_review/replay/04-verify_weighted_jiggs57.log",
+    "sha256": "ec88105d250a8a591ea6077aca37ded0e5223edb06e5e4d565e0796ef4499141"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/GP2-20261012/stage2/verify_stage2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.255,
+    "log": "workstreams/GP2-20261012/recovery_review/replay/05-verify_stage2.log",
+    "sha256": "784b83c7913a309730d12b9048f99c918c8df5b0d6bce542f2399e27b50f7921"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "workstreams/GP2-20261012/stage2/verify_ten.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.032,
+    "log": "workstreams/GP2-20261012/recovery_review/replay/06-verify_ten.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification_performed": false,
+    "reason": "No executable entry point; successful process termination is not evidence of checks.",
+    "actual_replacement_command": "python workstreams/GP2-20261012/recovery_review/run_ten_state_review.py"
+  }
+]

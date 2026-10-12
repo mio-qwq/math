@@ -1,0 +1,4 @@
+$ python workstreams/GP2-20261012/stage2/verify_forced_cover.py
+PASS independent forced-cover certificate
+{"certified_loss": "64/1296", "cover_size": 64, "disjoint_edges": 64, "fixed_level_upper": "41/216", "forced_words": 189, "hyperedges": 7919, "rotation_bound": "310/1296", "used_forced_words": 187, "viable_orbits": 310}
+SHA256 c016b97a303821fee79ac84920c625d9f62da2a2fd16234ab3ea96fab108213e

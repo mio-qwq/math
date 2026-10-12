@@ -1,0 +1,8 @@
+{
+  "canonical_hypergraph_sha256": "214c442b553be57750c437476b37fa3d93cb1fecc996b3c1cdc85d63cbef97e6",
+  "edge_count": 7919,
+  "forced_word_sets_equal": true,
+  "full_hyperedge_sets_equal": true,
+  "original_verifier_sha256": "c2c327136ed64ff3e85276c463d4ccc88b90c5e53fbbef370c57c9ade0ddb026",
+  "viable_orbits_equal": true
+}

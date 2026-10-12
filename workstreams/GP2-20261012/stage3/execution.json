@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "command": "python workstreams/GP2-20261012/stage3/verify_reciprocal_trace_bound.py",
+      "exit_code": 0,
+      "log": "trace_check.log",
+      "log_sha256": "8d4a905ccb9cac9e76e3128517e2b0b051a9bc6b645bfde164f627c557968f20",
+      "checker_sha256": "8c4e783fd6393d946a61b7e81b4fd7d9ddeea74355a396622d02af403445fdd3",
+      "certificate_sha256": "8b4a93a4a70c0a1d56cfc99cb93346eba7af63b5a1407ca8cdb1fc1ab192e832"
+    },
+    {
+      "command": "python -O workstreams/GP2-20261012/stage3/verify_reciprocal_trace_bound.py",
+      "exit_code": 0,
+      "log": "trace_optimized_check.log",
+      "log_sha256": "8d4a905ccb9cac9e76e3128517e2b0b051a9bc6b645bfde164f627c557968f20",
+      "checker_sha256": "8c4e783fd6393d946a61b7e81b4fd7d9ddeea74355a396622d02af403445fdd3",
+      "certificate_sha256": "8b4a93a4a70c0a1d56cfc99cb93346eba7af63b5a1407ca8cdb1fc1ab192e832"
+    },
+    {
+      "command": "python workstreams/GP2-20261012/stage3/verify_mixed_class_obstacle.py",
+      "exit_code": 0,
+      "log": "mixed_class_check.log",
+      "log_sha256": "0afef57258c977ff932113c11e3fbac6b851d716ece3599719f88967c00186d3",
+      "checker_sha256": "b169f0068946e431bcb7555beca5dbaacc7f7d42c4be07670c33754bbd84972c"
+    }
+  ],
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "scope": "Actual command exits and logs; no universal theorem inferred from samples"
+}

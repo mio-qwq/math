@@ -1,0 +1,61 @@
+[
+  {
+    "command": [
+      "python",
+      "workstreams/GP2-20261012/stage2/verify_forced_cover.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 4.753157,
+    "log": "original_forced_cover.log",
+    "log_sha256": "376f7c4d8ac0aa4d1f2c58262b11b5bff67b1254c4c470cb8d38f629228236c5"
+  },
+  {
+    "command": [
+      "python",
+      "workstreams/GP2-20261012/recovery_review/finite/verify_finite_independent.py",
+      "--self-test",
+      "--output",
+      "/workspace/scratch/322c80a0ca77/math-gp2/workstreams/GP2-20261012/recovery_review/finite/independent_results.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.944023,
+    "log": "independent_forced_cover.log",
+    "log_sha256": "daf26ba15d6a53cf884646594dcd306dad95edc37a859f6edf01f5fbd50b3dc6"
+  },
+  {
+    "command": [
+      "python",
+      "-O",
+      "workstreams/GP2-20261012/recovery_review/finite/verify_finite_independent.py",
+      "--self-test"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 1.010589,
+    "log": "optimized_mode.log",
+    "log_sha256": "3ad57a5eb0faccbb8c898d153764a5b79538c0a4ff0f2b9075e47bacd0028543"
+  },
+  {
+    "command": [
+      "python",
+      "workstreams/GP2-20261012/recovery_review/finite/compare_hypergraphs.py",
+      "--output",
+      "/workspace/scratch/322c80a0ca77/math-gp2/workstreams/GP2-20261012/recovery_review/finite/hypergraph_comparison.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 1.076863,
+    "log": "hypergraph_comparison.log",
+    "log_sha256": "8db53fe207fcd9e6b38943af3defe2b77466bd2cd3caa8b97a6112fc07c29a41"
+  },
+  {
+    "command": [
+      "python",
+      "workstreams/GP2-20261012/recovery_review/finite/verify_ten_local_independent.py",
+      "--output",
+      "/workspace/scratch/322c80a0ca77/math-gp2/workstreams/GP2-20261012/recovery_review/finite/ten_local_results.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.043679,
+    "log": "ten_local_independent.log",
+    "log_sha256": "9b8cda620445096e733c0af4aa458d699af5e6792e1c9a741759e2a8f3fb4e87"
+  }
+]

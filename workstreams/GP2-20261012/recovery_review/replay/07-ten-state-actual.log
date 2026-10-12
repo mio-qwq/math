@@ -1,0 +1,53 @@
+{
+  "examples": {
+    "binary_independent_codes": 79,
+    "binary_nonindependent_codes": 4,
+    "binary_total": 83,
+    "jiggs_old_canonical_second_hit_six": 3,
+    "jiggs_profiles_used": 5,
+    "literal_random_ten_examples": 4,
+    "random_ten_hierarchies": 24
+  },
+  "frozen_certificate_sha256": "83ea8ca3825129e91c7d07f4ff90d20af8d465076de10f63f6407333986cdcf4",
+  "inherited_direct_command": "verify_ten.py has no __main__ entry point and does not execute checks",
+  "negative_controls": [
+    {
+      "field": "profiles",
+      "reason": "ten-profile list",
+      "rejected": true
+    },
+    {
+      "field": "pair_types",
+      "reason": "six/three type lists",
+      "rejected": true
+    },
+    {
+      "field": "letter_types",
+      "reason": "six/three type lists",
+      "rejected": true
+    },
+    {
+      "field": "allowed",
+      "reason": "ten allowed/height mismatch",
+      "rejected": true
+    },
+    {
+      "field": "marked",
+      "reason": "ten marked/height mismatch",
+      "rejected": true
+    }
+  ],
+  "scope": "Definition-level ten-state semantic replay; universal theorem uses its written proof",
+  "target": {
+    "active_domain_entries": 136,
+    "allowed_arcs": 76,
+    "letter_arcs": 9,
+    "letter_types": 3,
+    "local_independent_embedding_cases": 108,
+    "marked_arcs": 10,
+    "pair_arcs": 31,
+    "pair_types": 6,
+    "rectangle_subsets_checked": 1086,
+    "triple_profiles": 10
+  }
+}

@@ -1,0 +1,14 @@
+PASS: source SHA256 3cdcefd81b32054db42c9efb1c663d17e30e65d022cf95cf157a190958db6898
+PASS: independent hit-sequence classification: 14 profiles
+PASS: all 196 ordered profile pairs: 138 allowed, 20 marked
+PASS: five-step target walk maximum = 2; every shorter profile bound holds
+PASS: one-letter empty; alphabet=1; |C|=0; |completion|=0; literal maximum=0
+PASS: binary empty; alphabet=2; |C|=0; |completion|=0; literal maximum=0
+PASS: binary singleton; alphabet=2; |C|=1; |completion|=1; literal maximum=2
+PASS: binary three-word strict template; alphabet=2; |C|=3; |completion|=3; literal maximum=2
+PASS: ternary seven-word subcode; alphabet=3; |C|=7; |completion|=16; literal maximum=2
+PASS: ternary eighteen-word strict template; alphabet=3; |C|=18; |completion|=18; literal maximum=2
+PASS: containment, every F_0..F_5, and idempotence in every fixture
+PASS: 14 negative controls: constant selected word; period-two selected word; three overlapping distinct words; word length mismatch; alphabet binding mismatch; duplicate input listing; profile time corruption; parameter field corruption; source binding corruption; literal-object corruption; path-count corruption; assignment corruption; completion corruption; spurious marked loop
+PASS: certificate exactly replays from literal inputs
+SCOPE: proof/semantic checks, no claim to compute an optimum or to compile Lean

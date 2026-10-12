@@ -1,0 +1,5 @@
+$ python -O workstreams/GP2-20261012/recovery_review/finite/verify_finite_independent.py --self-test
+PASS: independent fixed six-letter certificate review
+{"all_rotation_orbits": 336, "alphabet_size": 6, "certificate_sha256": "c016b97a303821fee79ac84920c625d9f62da2a2fd16234ab3ea96fab108213e", "cover_size": 64, "edge_rank_histogram": {"2": 41, "3": 7878}, "fixed_array_upper": "41/216", "forced_loss": "4/81", "gap_occurrence_counts": {"1,1": 30, "1,2": 256, "1,3": 3902, "2,1": 243, "2,2": 0, "3,1": 4290}, "hyperedges": 7919, "hypergraph_sha256": "214c442b553be57750c437476b37fa3d93cb1fecc996b3c1cdc85d63cbef97e6", "literal_eight_letter_strictness_checked": true, "matching_rank_histogram": {"2": 5, "3": 59}, "matching_size": 64, "matching_used_vertices": 187, "minimum_vertex_cover": 64, "one_candidate_orbits": 189, "rotation_bound": "155/648", "scope": "all strict C contained in V_ell for the published fixed array", "two_candidate_orbits": 121, "viable_primitive_orbits": 310}
+PASS: 12 damaged certificates rejected through acceptance function
+PASS: 64 individually restored cover words have literal violation witnesses

@@ -1,0 +1,47 @@
+{
+  "adjacency_source_letter_type": [
+    2,
+    3
+  ],
+  "adjacency_target_letter_type": [
+    1,
+    2
+  ],
+  "admissible_pair_domains": 31,
+  "allowed_arcs": 76,
+  "complete_letter_type_graph": true,
+  "domination_entries": 136,
+  "five_profile_cases": 108,
+  "letter_states": 3,
+  "marked_arcs": 10,
+  "negative_controls": [
+    {
+      "damaged_field": "allowed",
+      "rejected": "allowed height table"
+    },
+    {
+      "damaged_field": "marked",
+      "rejected": "marked height table"
+    }
+  ],
+  "pair_arcs": 31,
+  "pair_states": 6,
+  "source_certificate_sha256": "83ea8ca3825129e91c7d07f4ff90d20af8d465076de10f63f6407333986cdcf4",
+  "triple_states": 10,
+  "unique_adjacent_profiles": [
+    [
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ]
+}
