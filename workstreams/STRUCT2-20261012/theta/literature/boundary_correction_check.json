@@ -1,0 +1,90 @@
+{
+  "method": "normalized integer labels and active-edge connectivity",
+  "results": [
+    {
+      "lengths": [
+        2,
+        2,
+        1
+      ],
+      "vertices": 4,
+      "edges": 5,
+      "facets": 12,
+      "facets_by_other_endpoint": {
+        "-1": 4,
+        "0": 4,
+        "1": 4
+      },
+      "disconnected_active_graphs_rejected": 5,
+      "k": 2,
+      "arithmetic_M": 12,
+      "actual_ratio": "1",
+      "corrected_ratio": "1",
+      "printed_ratio": "5/6"
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        1
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facets": 324,
+      "facets_by_other_endpoint": {
+        "-1": 144,
+        "0": 36,
+        "1": 144
+      },
+      "disconnected_active_graphs_rejected": 549,
+      "k": 4,
+      "arithmetic_M": 360,
+      "actual_ratio": "9/10",
+      "corrected_ratio": "9/10",
+      "printed_ratio": "17/20"
+    },
+    {
+      "lengths": [
+        6,
+        4,
+        1
+      ],
+      "vertices": 10,
+      "edges": 11,
+      "facets": 1560,
+      "facets_by_other_endpoint": {
+        "-1": 720,
+        "0": 120,
+        "1": 720
+      },
+      "disconnected_active_graphs_rejected": 5151,
+      "k": 5,
+      "arithmetic_M": 1800,
+      "actual_ratio": "13/15",
+      "corrected_ratio": "13/15",
+      "printed_ratio": "9/10"
+    },
+    {
+      "lengths": [
+        6,
+        6,
+        1
+      ],
+      "vertices": 12,
+      "edges": 13,
+      "facets": 7600,
+      "facets_by_other_endpoint": {
+        "-1": 3600,
+        "0": 400,
+        "1": 3600
+      },
+      "disconnected_active_graphs_rejected": 44033,
+      "k": 6,
+      "arithmetic_M": 8400,
+      "actual_ratio": "19/21",
+      "corrected_ratio": "19/21",
+      "printed_ratio": "37/42"
+    }
+  ],
+  "duplicate_path_control": "rejected as outside simple theta domain"
+}

@@ -1,0 +1,31 @@
+PASS: finite exact scalar regression
+UTC: 2026-10-12T09:13:22.805318+00:00
+Python: 3.12.14 (CPython)
+Window: 4 <= n <= 40
+Source SHA256: 52e4b28b4e4106af07768940e60bb06fdd76f638b288e0139ec7bc5c05dd397a
+Target SHA256: c0c02847ae525260d65dd5b11c1ee940b4b63aec6e2167c39fa8a9c12fc12fab
+Script SHA256: b39e20d1e214add339297476dfceb76c7765278403112a76ab01e82e0072d7c6
+Exact counts SHA256: fbfc22b89a88cafb95b03e7aec6263d016bb49d3ba84052830a0c32863acbc87
+balancing_even_order: 81
+balancing_odd_order: 81
+compression_even_order: 1330
+compression_even_order_identity: 190
+compression_even_order_strict: 1140
+compression_odd_order: 1140
+compression_odd_order_identity: 171
+compression_odd_order_strict: 969
+legal_unordered_triples: 1942
+maximum_closed_formulas: 37
+maximum_to_M_ratios: 36
+same_parity_strict_exclusion: 531
+short_formula_even_order: 100
+short_formula_odd_order: 99
+source_25(i): 531
+source_25(ii), two even: 615
+source_25(ii), two odd: 525
+source_25(iii): 100
+source_25(iv): 171
+unique_maximizer_orders: 37
+Targeted damage controls detected: 3/3
+Elapsed seconds: 0.035160
+Finite regression only; universal theorem requires the separate mathematical proof.

@@ -1,0 +1,131 @@
+{
+  "review_date": "2026-10-12",
+  "review_type": "exact-source mathematical and scope review",
+  "reviewer_continuity": "Continuation of the reviewer recorded in BOUND_REVIEW.md; not an additional independent reviewer or human peer review.",
+  "frozen_source": {
+    "repository_path": "workstreams/STRUCT2-20261012/theta/PROOF.md",
+    "sha256": "81f7c5f4326828b16a34204e1a84b3dec136ea1d61c30cfb60b17e6395616655",
+    "bytes": 15452
+  },
+  "verdict": "ACCEPTED_AS_WRITTEN_MATHEMATICAL_PROOF_WITH_STATED_SCOPE",
+  "scope": {
+    "global_theorem": "For every integer n >= 5, the maximum facet count among connected finite simple n-vertex, (n+1)-edge graphs is the original graph-defined M(n).",
+    "theta_theorem": "Every legal simple three-path graph on n >= 5 vertices has facet count strictly smaller than M(n), with at most one path of length 1.",
+    "n4": "The unique connected simple four-vertex five-edge graph is K4-e, with exactly 12 facets. Writing M(4)=12 refers only to the numerical binomial extension, not to Definition 12 as a simple-graph definition.",
+    "n3": "The class of simple graphs with three vertices and four edges is empty; no maximum equality is asserted.",
+    "maximizers": "Two odd cycle blocks with lengths balanced as in equation (1); no bridge for odd n and exactly one bridge for even n. The theorem is not a uniqueness assertion for the complete graph at even n.",
+    "not_claimed": [
+      "Conjecture 33",
+      "historical priority certification",
+      "full Lean formalization",
+      "human peer review"
+    ]
+  },
+  "checks": [
+    {
+      "section": "1",
+      "item": "Facet normalization and zero edges",
+      "finding": "The label at one vertex is fixed, translations alone are removed, and opposite labels are retained. The saturated-connectivity criterion permits at most one zero per path and requires one zero-free path. Both necessity and sufficiency include length-one paths."
+    },
+    {
+      "section": "1",
+      "item": "Uniform formula and zero rows",
+      "finding": "The two parity-compatible zero patterns have coefficients z and xy. B_0(t)=1[t=0] handles Corollary 25(iii),(iv) without treating a zero path or C1 as a valid simple graph."
+    },
+    {
+      "section": "2",
+      "item": "Convolution",
+      "finding": "Both residual convolutions have total length y+z-1; parity is synchronized. Vandermonde has no extra factor of 2. The three peak ratios in equation (12) are correct."
+    },
+    {
+      "section": "3",
+      "item": "Odd-cycle balancing",
+      "finding": "For q>=p+4, the numerator-minus-denominator in equation (14) is q-p-2>0. Valid odd lengths stay at least 3; the maximizing unordered pair has difference at most 2 and gives precisely W(k)."
+    },
+    {
+      "section": "3",
+      "item": "M growth",
+      "finding": "For odd n>=5, equality 2M(n)=M(n+1) follows from the definition. For even n>=6, lengthening either valid maximizing odd cycle by two gives a feasible product for M(n+1), with ratio strictly greater than 4. The small numerical extension satisfies 2*12<36 separately."
+    },
+    {
+      "section": "4",
+      "item": "Mixed odd order",
+      "finding": "x>=3 exists because two odd length-one paths are forbidden. y+z>=3. The strict gap 2z/(x+1)<z has positive factors; the comparison wedge has n vertices and n+1 edges."
+    },
+    {
+      "section": "4",
+      "item": "Mixed even order, long even path",
+      "finding": "For x>=4, y>=2, z>=1, the strict gap 2z/x<z remains valid at z=1. The two odd comparison cycles have lengths x-1 and y+z, both at least 3; adding one bridge gives the correct order and size."
+    },
+    {
+      "section": "4",
+      "item": "Two even paths of length 2",
+      "finding": "Direct expansion gives 6z(c+2)/(c+1)*binom(2c,c). For c>=1 this is less than 12z*binom(2c,c). For c=0 it gives the independent small case 12 without using C1."
+    },
+    {
+      "section": "5",
+      "item": "All even",
+      "finding": "A=B_a(0), D=B_m(0), a>=2, m=b+c>=4. h(a+1)h(m-1)/AD=(a+1)m/4>=3>1. Both comparison cycles are valid and have total length n+1."
+    },
+    {
+      "section": "5",
+      "item": "All odd",
+      "finding": "Simplicity permits a>=3 and ensures m=b+c>=4. The inequality 2a/(a+1)<am/2 is equivalent to 4<m(a+1). The target equals 2h(a)h(m-1), with valid odd cycle lengths totaling n. No use of the original Theorem 27 finite computations is needed."
+    },
+    {
+      "section": "6",
+      "item": "Connected 2-core",
+      "finding": "Deleting leaves preserves connectedness of the remaining nonempty cyclic graph and preserves |E|-|V|=1. The sum of degree excesses is 2. Suppression yields a single degree-four vertex with two cycle paths, or two degree-three vertices with either one or three connecting paths. These are exactly figure-eight, dumbbell, and theta structures."
+    },
+    {
+      "section": "6",
+      "item": "Theta core with attachments",
+      "finding": "Each pruned edge contributes the factor 2 by the wedge formula. Strictness survives restoration using M growth. A four-vertex diamond core is handled separately by 12*2^(n-4)<36*2^(n-5)."
+    },
+    {
+      "section": "6",
+      "item": "Cycle blocks and bridges",
+      "finding": "In the two-edge-disjoint-cycle cases, all remaining edges are bridges; N=2^t N(C_p)N(C_q) and n=p+q+t-1. Bridge attachment positions do not affect the count."
+    },
+    {
+      "section": "6",
+      "item": "Exclusion of even cycles",
+      "finding": "Even p is at least 4. Replacing p by p-1 and t by t+1 has factor p/2>1 and preserves both n and n+1 edges. A new simple wedge with the required tree edges realizes the numerical comparison; no local surgery on a fixed attachment pattern is required."
+    },
+    {
+      "section": "6",
+      "item": "Exclusion of excess bridges",
+      "finding": "With odd p,q and t>=2, replacing p by p+2 and t by t-2 has ratio (p+2)/(p+1)>1. Parity then forces t=0 for odd n or t=1 for even n at a maximum."
+    },
+    {
+      "section": "6",
+      "item": "All maximum cases",
+      "finding": "All exclusion and balancing steps are strict unless the final block data already match equation (1). Conversely every connected simple graph with those cycle lengths and the required bridge count has exactly M(n) facets. With one bridge, both a dumbbell and a figure-eight with a pendant edge are included; no missing third block type exists."
+    }
+  ],
+  "dependencies": {
+    "external_mathematical_input": "The standard facet-labeling characterization (Theorem 5 in Braun--Bruegge, attributed there to Higashitani--Jochemko--Michalek).",
+    "reproved_in_source": [
+      "cycle facet counts",
+      "wedge multiplicativity",
+      "same-parity theta bound",
+      "odd-cycle balancing",
+      "M growth",
+      "bicyclic core classification and extremal comparison"
+    ],
+    "not_required": [
+      "original Theorem 27 Stirling argument",
+      "original Theorem 27 finite Sage computations",
+      "original Theorem 14 as an unproved input",
+      "A scalar transfer theorem",
+      "Conjecture 33"
+    ]
+  },
+  "historical_scope_correction": {
+    "unchanged_record": "BOUND_REVIEW.md",
+    "clarification": "Its occurrences of N=12=M(4) and a conclusion on n>=4 use the numerical binomial extension at four vertices. They must not be read as claiming that the source Definition 12 literally defines a simple C1-based graph. The reviewed manuscript now states its main theorem on n>=5 and records n=4 separately. The earlier record has been retained unchanged."
+  },
+  "verification_activity": "The complete 15452-byte frozen source was read and all proof sections were checked algebraically and by domain analysis. No graph enumeration or Lean compilation was rerun for this receipt.",
+  "blocking_defects_found": [],
+  "source_change_rule": "This acceptance is tied to the SHA256 above; later substantive source changes require a new receipt."
+}

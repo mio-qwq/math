@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-12T09:11:54.979728+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": [
+    "python",
+    "check_small_maximizers.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.056111,
+  "stderr": "",
+  "checker_sha256": "e48777ff4f23e456ab57458da85d70277087d549c0ef9ea738bcdbcd391a38bf",
+  "stdout_file": "small_maximizers.json",
+  "stdout_sha256": "d0c7c52fe027e1a17cfd0281c9791accdf2eaa5cff177ced333ef8dd9d98e731",
+  "graphs_checked": 16
+}

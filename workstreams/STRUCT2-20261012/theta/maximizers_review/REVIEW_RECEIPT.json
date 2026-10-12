@@ -1,0 +1,45 @@
+{
+  "reviewed_utc": "2026-10-12T09:14:46.951342+00:00",
+  "status": "accepted_written_mathematical_review",
+  "reviewed_objects": [
+    {
+      "path": "MAXIMIZERS.md",
+      "bytes": 14079,
+      "sha256": "c0c02847ae525260d65dd5b11c1ee940b4b63aec6e2167c39fa8a9c12fc12fab",
+      "reviewed_scope": "Complete manuscript, theorem and Sections 1 through 8"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 15452,
+      "sha256": "81f7c5f4326828b16a34204e1a84b3dec136ea1d61c30cfb60b17e6395616655",
+      "reviewed_scope": "Sections 1 and 2: graph-label semantics and centered-binomial definitions"
+    }
+  ],
+  "review_report": "MAXIMIZERS_REVIEW.md",
+  "review_report_sha256": "4237df502e4c445b50eeaec5fd3884eb987ea13b25a020c5cc0900c8a95d653c",
+  "accepted_claims": [
+    "unique unordered maximizing simple theta triple for every n >= 4",
+    "both strict mixed-parity compression theorems",
+    "strict balancing of both boundary families",
+    "strict exclusion of all same-parity triples",
+    "the four exact H values and H/M ratios in Section 8"
+  ],
+  "finite_check": {
+    "run_evidence": "run_evidence.json",
+    "output": "small_maximizers.json",
+    "graphs": 16,
+    "vertex_range": [
+      4,
+      8
+    ],
+    "exit_code": 0,
+    "used_as_universal_proof": false
+  },
+  "limitations": [
+    "AI mathematical review, not human peer review",
+    "No full Lean formalization and no Lean compilation in this review",
+    "Historical priority not certified",
+    "The literature gate retains its disclosed journal-full-text access limitation"
+  ],
+  "manuscript_changes_required": []
+}

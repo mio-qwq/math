@@ -1,0 +1,5 @@
+*.olean
+*.olean.*
+*.ilean
+*.so
+__pycache__/

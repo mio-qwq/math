@@ -1,0 +1,80 @@
+{
+  "adapter_binary_sha256": "b63f5585b5578e30e0101203f0ff84d3e46cfc579daa2cda51807b0cd74e56f9",
+  "adapter_source_sha256": "b85d7f7d8fd2f2d86d61607cae779d7cb7a6c93d043c640ce0e17961d3b24289",
+  "adapter_used": true,
+  "axiom_union": [
+    "Quot.sound",
+    "propext"
+  ],
+  "axioms": {
+    "Struct2.Cg3.actual_six_cycle_iff_not_centre": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.Cg3.cdc_adjacency_is_original": [
+      "propext"
+    ],
+    "Struct2.Cg3.cdc_cubic": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.Cg3.cdc_loopless": [
+      "propext"
+    ],
+    "Struct2.Cg3.cdc_symmetric": [
+      "propext"
+    ],
+    "Struct2.Cg3.companion_guide_strong": [
+      "propext"
+    ],
+    "Struct2.Cg3.deck_strong": [
+      "propext"
+    ],
+    "Struct2.Cg3.fast_source_exact": [
+      "propext"
+    ],
+    "Struct2.Cg3.indexed_iff_actual": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.Cg3.indexed_six_cycle_classification": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.Cg3.next_complete": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.Cg3.next_distinct": [],
+    "Struct2.Cg3.original_edge_count": [],
+    "Struct2.Cg3.original_loopless": [],
+    "Struct2.Cg3.original_symmetric": [
+      "propext"
+    ],
+    "Struct2.Cg3.reflection_guide_strong": [
+      "propext"
+    ]
+  },
+  "command": [
+    "/workspace/scratch/8f11e83c6ec0/struct2_runtime/lean-4.34.1-linux/bin/lean",
+    "-j1",
+    "--profile",
+    "-o",
+    "Cg3.olean",
+    "Cg3.lean"
+  ],
+  "compile_log_sha256": "abffd984f86e9e7c041697dc8fb349cb351db8e83edfb6ce320b6c160744272c",
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "custom_axioms_used": false,
+  "exit_code": 0,
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "mathlib_used": false,
+  "native_decide_used": false,
+  "olean_sha256": "ac353fb4fdcdebe9da805996062b048cc7a1eb0f706d5a185bcf52ca303eccfd",
+  "scope": "n=3: original adjacency, cubic CDC, actual six-cycle centre classification, three explicit strong guides; no all-n group classification.",
+  "seconds": 33.938429,
+  "source_sha256": "781c9ddf9999c7645e03b2e3b9cd9fcf3f346b2128fd22472fbc420f1e5fb7e7",
+  "success": true,
+  "utc": "2026-10-12T09:18:24.603375+00:00",
+  "verification_script_sha256": "fe83bddfd5a6c81f88d5cd4be14a9523b18b47e9d2f53a80045a3914c0a0051d"
+}

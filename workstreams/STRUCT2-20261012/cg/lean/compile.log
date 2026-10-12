@@ -1,0 +1,62 @@
+VERSION
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+
+COMMAND
+/workspace/scratch/8f11e83c6ec0/struct2_runtime/lean-4.34.1-linux/bin/lean -j1 --profile -o Cg3.olean Cg3.lean
+
+STDOUT
+type checking took 4.42s
+type checking took 141ms
+type checking took 1.37s
+type checking took 3.62s
+type checking took 18.2s
+type checking took 1.87s
+type checking took 1.88s
+type checking took 1.71s
+'Struct2.Cg3.fast_source_exact' depends on axioms: [propext]
+'Struct2.Cg3.cdc_adjacency_is_original' depends on axioms: [propext]
+'Struct2.Cg3.original_edge_count' does not depend on any axioms
+'Struct2.Cg3.original_loopless' does not depend on any axioms
+'Struct2.Cg3.original_symmetric' depends on axioms: [propext]
+'Struct2.Cg3.cdc_loopless' depends on axioms: [propext]
+'Struct2.Cg3.cdc_symmetric' depends on axioms: [propext]
+'Struct2.Cg3.next_complete' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.next_distinct' does not depend on any axioms
+'Struct2.Cg3.cdc_cubic' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.indexed_iff_actual' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.indexed_six_cycle_classification' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.actual_six_cycle_iff_not_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.deck_strong' depends on axioms: [propext]
+'Struct2.Cg3.companion_guide_strong' depends on axioms: [propext]
+'Struct2.Cg3.reflection_guide_strong' depends on axioms: [propext]
+
+STDERR
+import took 274ms
+cumulative profiling times:
+	.olean serialization 19.8ms
+	attribute application 1.19ms
+	blocked (unaccounted) 5.52ms
+	compilation (IR) 1.18ms
+	compilation (LCNF base) 16.5ms
+	compilation (LCNF impure) 5.29ms
+	compilation (LCNF mono) 7.6ms
+	congr simp thm 0.703ms
+	elaboration 82.5ms
+	fix level params 0.291ms
+	import 274ms
+	initialization 28.2ms
+	instantiate metavars 1.74ms
+	interpretation 3.14ms
+	let-to-have transformation 0.69ms
+	linting 10.2ms
+	module linting 0.00123ms
+	parsing 10.4ms
+	process pre-definitions 20.9ms
+	share common exprs 1.26ms
+	simp 4.08ms
+	tactic execution 18.7ms
+	type checking 33.3s
+	typeclass inference 53.4ms
+
+EXIT CODE
+0

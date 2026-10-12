@@ -1,0 +1,1834 @@
+{
+  "method": "integer vertex labels via spanning-tree increments; Theorem 5",
+  "source": "https://cs.uwaterloo.ca/journals/JIS/VOL26/Braun/braun6.pdf",
+  "source_pdf_sha256": "52e4b28b4e4106af07768940e60bb06fdd76f638b288e0139ec7bc5c05dd397a",
+  "python": "3.12.14",
+  "script_sha256": "b17d63c85337c705baeaaabe772fc3f0ceaa906999c85acea88b65af9014cba1",
+  "damage_controls": {
+    "invalid_parameters_rejected": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        -1,
+        3,
+        4
+      ]
+    ],
+    "constant_labeling_rejected_by_connectivity": true,
+    "edge_jump_two_rejected_by_Lipschitz": true,
+    "tree_and_cycle_controls": [
+      {
+        "order": 4,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "facets": 8
+      },
+      {
+        "order": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "facets": 6
+      },
+      {
+        "order": 4,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "facets": 6
+      },
+      {
+        "order": 5,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "facets": 30
+      }
+    ]
+  },
+  "cases": [
+    {
+      "order": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 27,
+      "lipschitz_assignments": 17,
+      "facets": 12,
+      "endpoint_difference_histogram": {
+        "-1": 4,
+        "0": 4,
+        "1": 4
+      },
+      "normalized_facet_labels_sha256": "a8b89888af04b3b0dbecdc1f27b1c1a2a514d356330315f9288863fa3c605e1b",
+      "second_spanning_tree": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "second_spanning_tree_same_label_set": true,
+      "path_lengths": [
+        1,
+        2,
+        2
+      ],
+      "corollary25_count": 12,
+      "corollary25_case": "25(iii)",
+      "M": 12
+    },
+    {
+      "order": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 81,
+      "lipschitz_assignments": 45,
+      "facets": 24,
+      "endpoint_difference_histogram": {
+        "-1": 6,
+        "0": 12,
+        "1": 6
+      },
+      "normalized_facet_labels_sha256": "214f5ce3557df44f03348cd167024d0c9e63881fdd2f1ec669d7d6d088f78d91",
+      "path_lengths": [
+        1,
+        2,
+        3
+      ],
+      "corollary25_count": 24,
+      "corollary25_case": "25(iv)",
+      "M": 36
+    },
+    {
+      "order": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 243,
+      "lipschitz_assignments": 121,
+      "facets": 60,
+      "endpoint_difference_histogram": {
+        "-1": 24,
+        "0": 12,
+        "1": 24
+      },
+      "normalized_facet_labels_sha256": "c5071fb00276d3c961156094037c90b110a49e4200748991ed7a6822feccad98",
+      "path_lengths": [
+        1,
+        2,
+        4
+      ],
+      "corollary25_count": 60,
+      "corollary25_case": "25(iii)",
+      "M": 72
+    },
+    {
+      "order": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 729,
+      "lipschitz_assignments": 325,
+      "facets": 108,
+      "endpoint_difference_histogram": {
+        "-1": 36,
+        "0": 36,
+        "1": 36
+      },
+      "normalized_facet_labels_sha256": "6e3d0477015e3f0d48d512819ae585602de5ab00320b661d0f63e86f4ae3af3d",
+      "path_lengths": [
+        1,
+        3,
+        4
+      ],
+      "corollary25_count": 108,
+      "corollary25_case": "25(iv)",
+      "M": 180
+    },
+    {
+      "order": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 2187,
+      "lipschitz_assignments": 873,
+      "facets": 324,
+      "endpoint_difference_histogram": {
+        "-1": 144,
+        "0": 36,
+        "1": 144
+      },
+      "normalized_facet_labels_sha256": "fcdcf42090b26bcce322c528d09f7e256f5c1c27a60ab5c45239c2b699e242ce",
+      "path_lengths": [
+        1,
+        4,
+        4
+      ],
+      "corollary25_count": 324,
+      "corollary25_case": "25(iii)",
+      "M": 360
+    },
+    {
+      "order": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 6561,
+      "lipschitz_assignments": 2409,
+      "facets": 420,
+      "endpoint_difference_histogram": {
+        "-1": 120,
+        "0": 180,
+        "1": 120
+      },
+      "normalized_facet_labels_sha256": "f7b59d1e8b94195382626d7a499b86569fd60f8c98d1fdfbc714d0734c16a937",
+      "path_lengths": [
+        1,
+        4,
+        5
+      ],
+      "corollary25_count": 420,
+      "corollary25_case": "25(iv)",
+      "M": 900
+    },
+    {
+      "order": 10,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 19683,
+      "lipschitz_assignments": 6711,
+      "facets": 1560,
+      "endpoint_difference_histogram": {
+        "-1": 720,
+        "0": 120,
+        "1": 720
+      },
+      "normalized_facet_labels_sha256": "d561e2662c2a98e0929d9b0bff7cc0c1e99d260a20cfcdee76e73244c4a604bc",
+      "path_lengths": [
+        1,
+        4,
+        6
+      ],
+      "corollary25_count": 1560,
+      "corollary25_case": "25(iii)",
+      "M": 1800
+    },
+    {
+      "order": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 243,
+      "lipschitz_assignments": 117,
+      "facets": 54,
+      "endpoint_difference_histogram": {
+        "-2": 3,
+        "-1": 12,
+        "0": 24,
+        "1": 12,
+        "2": 3
+      },
+      "normalized_facet_labels_sha256": "5385c5a4ba055c4c017d911c5acd7e2a2e14f3716a6e56440e22de789e227e7a",
+      "path_lengths": [
+        2,
+        2,
+        3
+      ],
+      "corollary25_count": 54,
+      "corollary25_case": "25(ii), two even",
+      "M": 72
+    },
+    {
+      "order": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 2187,
+      "lipschitz_assignments": 879,
+      "facets": 240,
+      "endpoint_difference_histogram": {
+        "-2": 20,
+        "-1": 40,
+        "0": 120,
+        "1": 40,
+        "2": 20
+      },
+      "normalized_facet_labels_sha256": "b9e76798d7508674201b86994aa472c472a96d232dd48cf6629ae2d8ebea26ab",
+      "path_lengths": [
+        2,
+        2,
+        5
+      ],
+      "corollary25_count": 240,
+      "corollary25_case": "25(ii), two even",
+      "M": 360
+    },
+    {
+      "order": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 729,
+      "lipschitz_assignments": 309,
+      "facets": 126,
+      "endpoint_difference_histogram": {
+        "-2": 9,
+        "-1": 18,
+        "0": 72,
+        "1": 18,
+        "2": 9
+      },
+      "normalized_facet_labels_sha256": "b592ae0f0354f7e8927dde46de57fd530b5f4d87d5d85e9eb8b1cfaa0689fb85",
+      "path_lengths": [
+        2,
+        3,
+        3
+      ],
+      "corollary25_count": 126,
+      "corollary25_case": "25(ii), two odd",
+      "M": 180
+    },
+    {
+      "order": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 2187,
+      "lipschitz_assignments": 843,
+      "facets": 240,
+      "endpoint_difference_histogram": {
+        "-2": 12,
+        "-1": 72,
+        "0": 72,
+        "1": 72,
+        "2": 12
+      },
+      "normalized_facet_labels_sha256": "e5acb19c8d5b0574f7f29fa7d6c07e9db3a5e10c08d94555e66aeb5e93ef4931",
+      "second_spanning_tree": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "second_spanning_tree_same_label_set": true,
+      "path_lengths": [
+        2,
+        3,
+        4
+      ],
+      "corollary25_count": 240,
+      "corollary25_case": "25(ii), two even",
+      "M": 360
+    },
+    {
+      "order": 9,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 6561,
+      "lipschitz_assignments": 2331,
+      "facets": 600,
+      "endpoint_difference_histogram": {
+        "-2": 60,
+        "-1": 60,
+        "0": 360,
+        "1": 60,
+        "2": 60
+      },
+      "normalized_facet_labels_sha256": "95c57bf9ac6a001bc64d0d53c0b83ed5620b7836db17fa1bfd351bcdae0753ed",
+      "path_lengths": [
+        2,
+        3,
+        5
+      ],
+      "corollary25_count": 600,
+      "corollary25_case": "25(ii), two odd",
+      "M": 900
+    },
+    {
+      "order": 10,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 19683,
+      "lipschitz_assignments": 6387,
+      "facets": 1000,
+      "endpoint_difference_histogram": {
+        "-2": 80,
+        "-1": 240,
+        "0": 360,
+        "1": 240,
+        "2": 80
+      },
+      "normalized_facet_labels_sha256": "5abe4366286d7e7e5f999cb500826b70cc2921fb7c20c1fa996aa2cb4f0edc4b",
+      "path_lengths": [
+        2,
+        4,
+        5
+      ],
+      "corollary25_count": 1000,
+      "corollary25_case": "25(ii), two even",
+      "M": 1800
+    },
+    {
+      "order": 9,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 6561,
+      "lipschitz_assignments": 2271,
+      "facets": 512,
+      "endpoint_difference_histogram": {
+        "-3": 4,
+        "-2": 36,
+        "-1": 108,
+        "0": 216,
+        "1": 108,
+        "2": 36,
+        "3": 4
+      },
+      "normalized_facet_labels_sha256": "5ed6f08cd5592d9c79a6742ce89fc23a30e99b6b791618004e6b88d486aa2c11",
+      "second_spanning_tree": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "second_spanning_tree_same_label_set": true,
+      "path_lengths": [
+        3,
+        3,
+        4
+      ],
+      "corollary25_count": 512,
+      "corollary25_case": "25(ii), two odd",
+      "M": 900
+    },
+    {
+      "order": 10,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 19683,
+      "lipschitz_assignments": 6231,
+      "facets": 1208,
+      "endpoint_difference_histogram": {
+        "-3": 16,
+        "-2": 48,
+        "-1": 432,
+        "0": 216,
+        "1": 432,
+        "2": 48,
+        "3": 16
+      },
+      "normalized_facet_labels_sha256": "228f68b27fa4fd663e08111f0094f759e4fce20f61e3f00d0d6957bc743098a5",
+      "path_lengths": [
+        3,
+        4,
+        4
+      ],
+      "corollary25_count": 1208,
+      "corollary25_case": "25(ii), two even",
+      "M": 1800
+    },
+    {
+      "order": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 243,
+      "lipschitz_assignments": 121,
+      "facets": 18,
+      "endpoint_difference_histogram": {
+        "-1": 9,
+        "1": 9
+      },
+      "normalized_facet_labels_sha256": "aabe95be7a181317a6d6f4dfbaead8f2fa7bc37de8315879af91a292a4891bee",
+      "path_lengths": [
+        1,
+        3,
+        3
+      ],
+      "corollary25_count": 18,
+      "corollary25_case": "25(i)",
+      "M": 72
+    },
+    {
+      "order": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 81,
+      "lipschitz_assignments": 45,
+      "facets": 10,
+      "endpoint_difference_histogram": {
+        "-2": 1,
+        "0": 8,
+        "2": 1
+      },
+      "normalized_facet_labels_sha256": "d283acac763ba667ba599f83f6e922a7ad08873fa60f9d6d33e63f0c99c45976",
+      "path_lengths": [
+        2,
+        2,
+        2
+      ],
+      "corollary25_count": 10,
+      "corollary25_case": "25(i)",
+      "M": 36
+    },
+    {
+      "order": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 729,
+      "lipschitz_assignments": 319,
+      "facets": 32,
+      "endpoint_difference_histogram": {
+        "-2": 4,
+        "0": 24,
+        "2": 4
+      },
+      "normalized_facet_labels_sha256": "b0360f734f76beac4eb22d793e315b8bc7bd11cc58a9508d4c93a0d4848f949d",
+      "path_lengths": [
+        2,
+        2,
+        4
+      ],
+      "corollary25_count": 32,
+      "corollary25_case": "25(i)",
+      "M": 180
+    },
+    {
+      "order": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "spanning_tree": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "tree_method": "bfs",
+      "tree_increment_assignments": 2187,
+      "lipschitz_assignments": 831,
+      "facets": 56,
+      "endpoint_difference_histogram": {
+        "-3": 1,
+        "-1": 27,
+        "1": 27,
+        "3": 1
+      },
+      "normalized_facet_labels_sha256": "080f8f34b1c5cfff7477af34ba93bf6cda2de97fc327d25be66dd8d8691c6de8",
+      "path_lengths": [
+        3,
+        3,
+        3
+      ],
+      "corollary25_count": 56,
+      "corollary25_case": "25(i)",
+      "M": 360
+    }
+  ],
+  "elapsed_seconds": 0.166685
+}

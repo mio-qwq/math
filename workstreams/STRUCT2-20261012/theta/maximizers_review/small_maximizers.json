@@ -1,0 +1,433 @@
+{
+  "method": "graph construction and spanning-tree integer-label enumeration",
+  "finite_vertex_window": [
+    4,
+    8
+  ],
+  "per_order": [
+    {
+      "vertices": 4,
+      "legal_unordered_triples": 1,
+      "unique_maximizer": [
+        1,
+        2,
+        2
+      ],
+      "facet_count": 12
+    },
+    {
+      "vertices": 5,
+      "legal_unordered_triples": 2,
+      "unique_maximizer": [
+        1,
+        2,
+        3
+      ],
+      "facet_count": 24
+    },
+    {
+      "vertices": 6,
+      "legal_unordered_triples": 3,
+      "unique_maximizer": [
+        1,
+        2,
+        4
+      ],
+      "facet_count": 60
+    },
+    {
+      "vertices": 7,
+      "legal_unordered_triples": 4,
+      "unique_maximizer": [
+        2,
+        3,
+        3
+      ],
+      "facet_count": 126
+    },
+    {
+      "vertices": 8,
+      "legal_unordered_triples": 6,
+      "unique_maximizer": [
+        1,
+        4,
+        4
+      ],
+      "facet_count": 324
+    }
+  ],
+  "strict_comparison_controls": [
+    {
+      "name": "even_compression_x_equals_2",
+      "from": [
+        2,
+        2,
+        3
+      ],
+      "to": [
+        1,
+        2,
+        4
+      ],
+      "from_count": 54,
+      "to_count": 60
+    },
+    {
+      "name": "odd_compression_y_equals_1",
+      "from": [
+        1,
+        3,
+        4
+      ],
+      "to": [
+        2,
+        3,
+        3
+      ],
+      "from_count": 108,
+      "to_count": 126
+    },
+    {
+      "name": "even_boundary_balancing",
+      "from": [
+        1,
+        2,
+        6
+      ],
+      "to": [
+        1,
+        4,
+        4
+      ],
+      "from_count": 280,
+      "to_count": 324
+    },
+    {
+      "name": "odd_boundary_balancing",
+      "from": [
+        1,
+        2,
+        5
+      ],
+      "to": [
+        2,
+        3,
+        3
+      ],
+      "from_count": 100,
+      "to_count": 126
+    },
+    {
+      "name": "all_even_exclusion",
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        1,
+        2,
+        3
+      ],
+      "from_count": 10,
+      "to_count": 24
+    },
+    {
+      "name": "all_odd_exclusion",
+      "from": [
+        1,
+        3,
+        3
+      ],
+      "to": [
+        1,
+        2,
+        4
+      ],
+      "from_count": 18,
+      "to_count": 60
+    }
+  ],
+  "duplicate_length_one_control": "rejected",
+  "graphs": [
+    {
+      "lengths": [
+        1,
+        2,
+        2
+      ],
+      "vertices": 4,
+      "edges": 5,
+      "facet_count": 12,
+      "facets_by_second_endpoint": {
+        "-1": 4,
+        "0": 4,
+        "1": 4
+      },
+      "rejected_non_lipschitz": 10,
+      "rejected_disconnected_active_edges": 5
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        3
+      ],
+      "vertices": 5,
+      "edges": 6,
+      "facet_count": 24,
+      "facets_by_second_endpoint": {
+        "-1": 6,
+        "0": 12,
+        "1": 6
+      },
+      "rejected_non_lipschitz": 36,
+      "rejected_disconnected_active_edges": 21
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        2
+      ],
+      "vertices": 5,
+      "edges": 6,
+      "facet_count": 10,
+      "facets_by_second_endpoint": {
+        "-2": 1,
+        "0": 8,
+        "2": 1
+      },
+      "rejected_non_lipschitz": 36,
+      "rejected_disconnected_active_edges": 35
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        4
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "facet_count": 60,
+      "facets_by_second_endpoint": {
+        "-1": 24,
+        "0": 12,
+        "1": 24
+      },
+      "rejected_non_lipschitz": 122,
+      "rejected_disconnected_active_edges": 61
+    },
+    {
+      "lengths": [
+        1,
+        3,
+        3
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "facet_count": 18,
+      "facets_by_second_endpoint": {
+        "-1": 9,
+        "1": 9
+      },
+      "rejected_non_lipschitz": 122,
+      "rejected_disconnected_active_edges": 103
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        3
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "facet_count": 54,
+      "facets_by_second_endpoint": {
+        "-2": 3,
+        "-1": 12,
+        "0": 24,
+        "1": 12,
+        "2": 3
+      },
+      "rejected_non_lipschitz": 126,
+      "rejected_disconnected_active_edges": 63
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        5
+      ],
+      "vertices": 7,
+      "edges": 8,
+      "facet_count": 100,
+      "facets_by_second_endpoint": {
+        "-1": 20,
+        "0": 60,
+        "1": 20
+      },
+      "rejected_non_lipschitz": 396,
+      "rejected_disconnected_active_edges": 233
+    },
+    {
+      "lengths": [
+        1,
+        3,
+        4
+      ],
+      "vertices": 7,
+      "edges": 8,
+      "facet_count": 108,
+      "facets_by_second_endpoint": {
+        "-1": 36,
+        "0": 36,
+        "1": 36
+      },
+      "rejected_non_lipschitz": 404,
+      "rejected_disconnected_active_edges": 217
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        4
+      ],
+      "vertices": 7,
+      "edges": 8,
+      "facet_count": 32,
+      "facets_by_second_endpoint": {
+        "-2": 4,
+        "0": 24,
+        "2": 4
+      },
+      "rejected_non_lipschitz": 410,
+      "rejected_disconnected_active_edges": 287
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        3
+      ],
+      "vertices": 7,
+      "edges": 8,
+      "facet_count": 126,
+      "facets_by_second_endpoint": {
+        "-2": 9,
+        "-1": 18,
+        "0": 72,
+        "1": 18,
+        "2": 9
+      },
+      "rejected_non_lipschitz": 420,
+      "rejected_disconnected_active_edges": 183
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        6
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facet_count": 280,
+      "facets_by_second_endpoint": {
+        "-1": 120,
+        "0": 40,
+        "1": 120
+      },
+      "rejected_non_lipschitz": 1260,
+      "rejected_disconnected_active_edges": 647
+    },
+    {
+      "lengths": [
+        1,
+        3,
+        5
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facet_count": 60,
+      "facets_by_second_endpoint": {
+        "-1": 30,
+        "1": 30
+      },
+      "rejected_non_lipschitz": 1290,
+      "rejected_disconnected_active_edges": 837
+    },
+    {
+      "lengths": [
+        1,
+        4,
+        4
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facet_count": 324,
+      "facets_by_second_endpoint": {
+        "-1": 144,
+        "0": 36,
+        "1": 144
+      },
+      "rejected_non_lipschitz": 1314,
+      "rejected_disconnected_active_edges": 549
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        5
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facet_count": 240,
+      "facets_by_second_endpoint": {
+        "-2": 20,
+        "-1": 40,
+        "0": 120,
+        "1": 40,
+        "2": 20
+      },
+      "rejected_non_lipschitz": 1308,
+      "rejected_disconnected_active_edges": 639
+    },
+    {
+      "lengths": [
+        2,
+        3,
+        4
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facet_count": 240,
+      "facets_by_second_endpoint": {
+        "-2": 12,
+        "-1": 72,
+        "0": 72,
+        "1": 72,
+        "2": 12
+      },
+      "rejected_non_lipschitz": 1344,
+      "rejected_disconnected_active_edges": 603
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        3
+      ],
+      "vertices": 8,
+      "edges": 9,
+      "facet_count": 56,
+      "facets_by_second_endpoint": {
+        "-3": 1,
+        "-1": 27,
+        "1": 27,
+        "3": 1
+      },
+      "rejected_non_lipschitz": 1356,
+      "rejected_disconnected_active_edges": 775
+    }
+  ]
+}

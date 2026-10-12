@@ -1,0 +1,61 @@
+{
+  "retrieval_date_utc": "2026-10-12",
+  "hash_algorithm": "SHA256",
+  "note": "Hashes bind the bytes actually retrieved. Source documents are not included in this repository. Publisher journal full-text retrieval for DOI 10.1016/j.ejc.2025.104165 was unsuccessful and is not represented as a retrieved paper.",
+  "sources": [
+    {
+      "source": "JIS 26 (2023), Article 23.7.2",
+      "url": "https://cs.uwaterloo.ca/journals/JIS/VOL26/Braun/braun6.pdf",
+      "bytes": 360657,
+      "sha256": "52e4b28b4e4106af07768940e60bb06fdd76f638b288e0139ec7bc5c05dd397a"
+    },
+    {
+      "source": "JIS public TeX",
+      "url": "https://cs.uwaterloo.ca/journals/JIS/VOL26/Braun/braun6.tex",
+      "bytes": 76356,
+      "sha256": "bda8e77ba3666683edfdbf3ad8a2d34b0066dc5908eb43ce31f2cef9bb80878e"
+    },
+    {
+      "source": "arXiv:2201.13303v1",
+      "url": "https://arxiv.org/pdf/2201.13303v1",
+      "bytes": 337252,
+      "sha256": "5cb43e76f0f3bb770b5a0832fda5f88f06c6d86ce0a05409997b4dbb74b75206"
+    },
+    {
+      "source": "arXiv:2201.13303v2",
+      "url": "https://arxiv.org/pdf/2201.13303v2",
+      "bytes": 344465,
+      "sha256": "095360a9c547407102aeebaab628ac505a5cbb7462f825f0cbd86a72197a587d"
+    },
+    {
+      "source": "arXiv:2201.13303v3",
+      "url": "https://arxiv.org/pdf/2201.13303v3",
+      "bytes": 364305,
+      "sha256": "6dd5a86f06b51a2de582427183568265c22516ed047d423e72542942c8e9d316"
+    },
+    {
+      "source": "arXiv:2201.13303v4",
+      "url": "https://arxiv.org/pdf/2201.13303v4",
+      "bytes": 367618,
+      "sha256": "ea94002fb270fa42e9f6ea90a4f79c7445cd133dd6602d278c73550efff50ba1"
+    },
+    {
+      "source": "arXiv:2312.11287v1",
+      "url": "https://arxiv.org/pdf/2312.11287v1",
+      "bytes": 160768,
+      "sha256": "2c9bf19fdbd8081e3c742bff256f9aaa74c9a9d1682962e55219e001e854a2a7"
+    },
+    {
+      "source": "arXiv:2312.11287v2",
+      "url": "https://arxiv.org/pdf/2312.11287v2",
+      "bytes": 199055,
+      "sha256": "e68d3499220b080544bc3656c0775a795a11cd68a25828f692cb2714acba660d"
+    },
+    {
+      "source": "arXiv:2312.11287v3",
+      "url": "https://arxiv.org/pdf/2312.11287v3",
+      "bytes": 198931,
+      "sha256": "698018a3ecb8ae432774a6eaad679b069e90dd15800289be5f2baf99a2cfeb6a"
+    }
+  ]
+}

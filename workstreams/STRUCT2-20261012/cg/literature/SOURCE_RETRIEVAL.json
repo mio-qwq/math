@@ -1,0 +1,107 @@
+{
+  "checked_on": "2026-10-12",
+  "kind": "bounded prior-art check; not a priority certification",
+  "html_text_method": "Python html.parser.HTMLParser.handle_data, joined with newline, lowercase substring counts",
+  "html_sources": [
+    {
+      "name": "bolzano_v1",
+      "url": "https://arxiv.org/html/2604.16989v1",
+      "bytes": 549956,
+      "sha256": "506ac20d489b817ff53da149d025b07051a6e4ca7aabe7acae94ccbc8191b06a",
+      "counts": {
+        "claw": 0,
+        "mizzi": 0,
+        "cousin": 0,
+        "strongly switching": 0,
+        "dihedral": 0
+      }
+    },
+    {
+      "name": "bolzano_v2",
+      "url": "https://arxiv.org/html/2604.16989v2",
+      "bytes": 774647,
+      "sha256": "ceee4928cb2b7a722791059b7dd07f928ac87dc1ef716561fa66812d3ac5ad6d",
+      "counts": {
+        "claw": 0,
+        "mizzi": 0,
+        "cousin": 0,
+        "strongly switching": 0,
+        "dihedral": 0
+      }
+    },
+    {
+      "name": "mizzi_v1",
+      "url": "https://arxiv.org/html/2603.27559v1",
+      "bytes": 524336,
+      "sha256": "808043b1295cff20a7a971c26ac995b1f4ed0a7c91d0f61da662cb6a11ee1f41",
+      "counts": {
+        "claw": 22,
+        "mizzi": 7,
+        "cousin": 29,
+        "strongly switching": 7,
+        "dihedral": 0
+      }
+    },
+    {
+      "name": "mizzi_v2",
+      "url": "https://arxiv.org/html/2603.27559v2",
+      "bytes": 526608,
+      "sha256": "82a1c12338982a2739e8692bd99cd0f9249e03371fc441637883df02322fd871",
+      "counts": {
+        "claw": 22,
+        "mizzi": 7,
+        "cousin": 27,
+        "strongly switching": 7,
+        "dihedral": 0
+      }
+    },
+    {
+      "name": "mizzi_v3",
+      "url": "https://arxiv.org/html/2603.27559v3",
+      "bytes": 601944,
+      "sha256": "f8c8c248c6b349fbac89f756245d22cced277dc0ba2cdaa4970b6137be5c67aa",
+      "counts": {
+        "claw": 26,
+        "mizzi": 7,
+        "cousin": 39,
+        "strongly switching": 9,
+        "dihedral": 0
+      }
+    },
+    {
+      "name": "bolzano_site",
+      "url": "https://bolzano.app/",
+      "bytes": 1720,
+      "sha256": "1adf8c5f70dddd3ab39d06965767826d36a9f92f3e89ae4991b3f8467043f37e",
+      "counts": {
+        "claw": 0,
+        "mizzi": 0,
+        "cousin": 0,
+        "strongly switching": 0,
+        "dihedral": 0
+      }
+    }
+  ],
+  "source_repository": {
+    "url": "https://github.com/vaclavrozhon/problem-solver",
+    "default_branch": "main",
+    "commit": "ccc0f7185ef6a72b3b8f519b8efab3f386cf597f",
+    "committed_at": "2026-02-12T11:12:17Z",
+    "git_tree_from_commit_metadata": "4172d4b6fc9bf9981f9949fb72307f5accf473bf",
+    "recursive_tree_response_entries": 245,
+    "recursive_tree_response_truncated": false,
+    "readme_blob": "5b6a7d642ce6c572b1d022fb1656d322df2eee43",
+    "default_branch_code_searches": {
+      "claw": 0,
+      "cousin": 0,
+      "Mizzi": 0
+    },
+    "scope": "default branch metadata, recursive path tree, README, keyword code search; no hosted private research records"
+  },
+  "limits": [
+    "No equivalent full result located is not a proof of historical novelty.",
+    "The Bolzano landing page response is an SPA shell, not a full public transcript inventory.",
+    "The inspected author publications page may be stale.",
+    "The inspected HTML response hashes do not identify the original TeX bytes."
+  ]
+}
