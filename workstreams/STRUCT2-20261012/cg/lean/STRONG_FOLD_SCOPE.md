@@ -43,7 +43,7 @@ The all-odd source/model isomorphism is now formalized in
 `OddCoordinates.lean` and `OddCoverIso.lean`; see `ODD_COVER_SCOPE.md`.
 The remaining universal classification requires proofs of:
 
-1. connectedness and the six-cycle type invariant at every odd `n>=3`;
+1. the six-cycle type invariant at every odd `n>=3`;
 2. the full `D_(6n) x C2` automorphism upper bound;
 3. the complete strong-guide and conjugacy classification in that group;
 4. the identification of the original base and the other two classes.
@@ -52,6 +52,8 @@ The generic fold semantics removes an actual gap between a group
 classification and ordinary base isomorphism classes, but none of those
 remaining classification claims is supplied as a formal theorem by this file.
 The original `Cg3.lean` stays frozen with its finite scope and receipt.
+The later `ModelStructure.lean` proves actual connectedness, strong decks
+and recovery of the original graph from its deck fold universally.
 
 Reproduce on an ordinary host:
 

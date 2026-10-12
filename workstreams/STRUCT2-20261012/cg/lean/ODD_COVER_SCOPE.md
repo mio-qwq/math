@@ -70,11 +70,15 @@ and remain separate.
 ## Remaining universal classification
 
 The source/model semantic bridge is now proved. The remaining universal
-CG-specific tasks are actual model connectedness, the six-cycle type
-invariant at n>=3, the full automorphism upper bound, the exhaustive strong
+CG-specific tasks are the six-cycle type invariant at n>=3, the full
+automorphism upper bound, the exhaustive strong
 guide/conjugacy classification, and composition with the generic fold theorem
 to obtain precisely three ordinary base isomorphism classes. Those are not
 claimed by this module or its successful compilation.
+
+Actual model/CDC connectedness, strong decks and original fold recovery
+are subsequently proved in `ModelStructure.lean`; see
+`MODEL_STRUCTURE_SCOPE.md` and its separate dependency-chain receipt.
 
 The source definition and known companion constructions retain Mizzi's
 attribution. The generic folding correspondence retains its classical
