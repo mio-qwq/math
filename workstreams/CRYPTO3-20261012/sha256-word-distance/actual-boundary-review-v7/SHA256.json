@@ -1,0 +1,17 @@
+{
+  "schema": "CRYPTO3-actual-boundary-review-v7-integrity",
+  "files": {
+    "COMPARISON_FIXTURE_RUN.json": "5904507607f031f4b73dfd2c4fec9b62befa8dcc7d49b93b040d6145f95716b0",
+    "FIRST_AUTHOR_CONTACT.json": "3e6ac8265cff137ae843581a4454791cad0967592684f8d722ad99becfa0276a",
+    "IMPLEMENTATION_CORRECTION.json": "7b8980ba430eb1c845d2622be00028f06a56ab06df7f063bfcc88fdf98af217b",
+    "INDEPENDENT_PROOF.md": "5936cabfa3de9b41a353b560f7ca5deaf84f057e68f8cef60349b13ed0ea9dd5",
+    "INDEPENDENT_RUN.json": "32cc2afa9e798df70d623522703d810ad1cbe475b59ded7f0cb97ff48c9af506",
+    "PRE_AUTHOR_FREEZE.json": "6f85af5c5d6a53eee75978bf0f147750e816d79ff6143ed677bce255593d9bc6",
+    "REVIEW.md": "9e7e2b8394d2a498f94e9bde8f6b5d8a4062f103dd5ea0ca45a00b5473f4e13c",
+    "REVIEW_RECEIPT.json": "39993ce6f30b794e52c19cc731c150bde2a21b7b066a6f557d82c88ccc1bd21d",
+    "RUN.json": "2b22d570007d305c915234d5bac1fa371ec3f464580fba58234d33aef2cf939e",
+    "check_independent.py": "4980ed44e856e1e03b1e56bddc81f56ebeb39dfaf0095d627364f20732769563",
+    "compare_fixture.py": "fc4b5136c2ca1008ac0d2622f177a29db832f9ee7261588f2762fbc70143a444",
+    "replay_readonly.py": "fffab7c55be3dce5333174f039c2f336fdf5ddc885c8f9d7cddf683e9062d9b7"
+  }
+}

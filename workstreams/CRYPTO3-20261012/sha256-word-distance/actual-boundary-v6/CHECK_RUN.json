@@ -1,0 +1,541 @@
+{
+  "schema": "crypto3-actual-boundary-local-proof-check-v6",
+  "status": "PASS",
+  "data_sha256": "0a4f6572eacd775de46fb8dc87a8dc76364171ab098c460b10c811ed321babc7",
+  "checker_sha256": "0ed1ce41bbf4a4775eb385c360ab060b2e988cfedd1a263a9124fec176e5a3af",
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "original_48_row_reduction": {
+    "nonzero_rows": {
+      "17": [
+        [
+          "G",
+          15,
+          -1
+        ],
+        [
+          "d",
+          10,
+          -1
+        ]
+      ],
+      "18": [
+        [
+          "d",
+          18,
+          1
+        ],
+        [
+          "d",
+          11,
+          -1
+        ]
+      ],
+      "20": [
+        [
+          "d",
+          20,
+          1
+        ],
+        [
+          "G",
+          18,
+          -1
+        ],
+        [
+          "d",
+          13,
+          -1
+        ]
+      ],
+      "22": [
+        [
+          "G",
+          20,
+          -1
+        ],
+        [
+          "d",
+          15,
+          -1
+        ]
+      ],
+      "25": [
+        [
+          "d",
+          18,
+          -1
+        ],
+        [
+          "F",
+          10,
+          -1
+        ]
+      ],
+      "26": [
+        [
+          "d",
+          26,
+          1
+        ],
+        [
+          "F",
+          11,
+          -1
+        ],
+        [
+          "d",
+          10,
+          -1
+        ]
+      ],
+      "27": [
+        [
+          "d",
+          20,
+          -1
+        ],
+        [
+          "d",
+          11,
+          -1
+        ]
+      ],
+      "28": [
+        [
+          "d",
+          28,
+          1
+        ],
+        [
+          "G",
+          26,
+          -1
+        ],
+        [
+          "F",
+          13,
+          -1
+        ]
+      ],
+      "29": [
+        [
+          "d",
+          29,
+          1
+        ],
+        [
+          "d",
+          13,
+          -1
+        ]
+      ],
+      "30": [
+        [
+          "G",
+          28,
+          -1
+        ],
+        [
+          "F",
+          15,
+          -1
+        ]
+      ],
+      "31": [
+        [
+          "G",
+          29,
+          -1
+        ],
+        [
+          "d",
+          15,
+          -1
+        ]
+      ],
+      "33": [
+        [
+          "d",
+          26,
+          -1
+        ],
+        [
+          "F",
+          18,
+          -1
+        ]
+      ],
+      "34": [
+        [
+          "d",
+          34,
+          1
+        ],
+        [
+          "d",
+          18,
+          -1
+        ]
+      ],
+      "35": [
+        [
+          "d",
+          28,
+          -1
+        ],
+        [
+          "F",
+          20,
+          -1
+        ]
+      ],
+      "36": [
+        [
+          "G",
+          34,
+          -1
+        ],
+        [
+          "d",
+          29,
+          -1
+        ],
+        [
+          "d",
+          20,
+          -1
+        ]
+      ],
+      "41": [
+        [
+          "d",
+          34,
+          -1
+        ],
+        [
+          "F",
+          26,
+          -1
+        ]
+      ],
+      "42": [
+        [
+          "d",
+          42,
+          1
+        ],
+        [
+          "d",
+          26,
+          -1
+        ]
+      ],
+      "43": [
+        [
+          "d",
+          43,
+          1
+        ],
+        [
+          "F",
+          28,
+          -1
+        ]
+      ],
+      "44": [
+        [
+          "G",
+          42,
+          -1
+        ],
+        [
+          "F",
+          29,
+          -1
+        ],
+        [
+          "d",
+          28,
+          -1
+        ]
+      ],
+      "45": [
+        [
+          "G",
+          43,
+          -1
+        ],
+        [
+          "d",
+          29,
+          -1
+        ]
+      ],
+      "49": [
+        [
+          "d",
+          42,
+          -1
+        ],
+        [
+          "F",
+          34,
+          -1
+        ]
+      ],
+      "50": [
+        [
+          "d",
+          43,
+          -1
+        ],
+        [
+          "d",
+          34,
+          -1
+        ]
+      ],
+      "57": [
+        [
+          "d",
+          57,
+          1
+        ],
+        [
+          "F",
+          42,
+          -1
+        ]
+      ],
+      "58": [
+        [
+          "F",
+          43,
+          -1
+        ],
+        [
+          "d",
+          42,
+          -1
+        ]
+      ],
+      "59": [
+        [
+          "G",
+          57,
+          -1
+        ],
+        [
+          "d",
+          43,
+          -1
+        ]
+      ]
+    },
+    "zero_rows": [
+      16,
+      19,
+      21,
+      23,
+      24,
+      32,
+      37,
+      38,
+      39,
+      40,
+      46,
+      47,
+      48,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  "verified_summary": {
+    "power_comparisons": 11440,
+    "surviving_endpoint_triples": 3675,
+    "excluded_signed_power_bits": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "high_power_certificate": [
+      {
+        "k": 22,
+        "forward_valuation": 4,
+        "inverse_valuation_max": 3,
+        "inverse_run_words_hex": [
+          "385344eb",
+          "48f5cd3d",
+          "b1ef9a78",
+          "72868dd7",
+          "c5091bac",
+          "831cca96",
+          "0f3768e2",
+          "263d952f",
+          "6c7f2a5c",
+          "f8fa54ba"
+        ]
+      },
+      {
+        "k": 23,
+        "forward_valuation": 5,
+        "inverse_valuation_max": 2,
+        "inverse_run_words_hex": [
+          "70a689d6",
+          "89bcde93",
+          "4ad5c93c",
+          "fd5a5f47",
+          "bb4f8e7d",
+          "37642c09",
+          "1e6ed1c4",
+          "542c6eb7",
+          "c0a91051"
+        ]
+      },
+      {
+        "k": 24,
+        "forward_valuation": 6,
+        "inverse_valuation_max": 1,
+        "inverse_run_words_hex": [
+          "f91a5745",
+          "3a7340ea",
+          "8dfcd691",
+          "cbe907ab",
+          "47c2a5df",
+          "6ec85812",
+          "248ae761",
+          "b00f9987"
+        ]
+      },
+      {
+        "k": 25,
+        "forward_valuation": 7,
+        "inverse_valuation_max": 2,
+        "inverse_run_words_hex": [
+          "c36917af",
+          "74e681d4",
+          "32f350ee",
+          "bed8f29a",
+          "97d20f57",
+          "dd90b024",
+          "4915cec2"
+        ]
+      },
+      {
+        "k": 26,
+        "forward_valuation": 8,
+        "inverse_valuation_max": 3,
+        "inverse_run_words_hex": [
+          "b78f967b",
+          "f19a4741",
+          "7db1e535",
+          "54bb18f8",
+          "1ef9a78b",
+          "8a7cd96d"
+        ]
+      },
+      {
+        "k": 27,
+        "forward_valuation": 9,
+        "inverse_valuation_max": 4,
+        "inverse_run_words_hex": [
+          "4615d13a",
+          "ca3e734e",
+          "e3348e83",
+          "a97631f0",
+          "3df34f16"
+        ]
+      },
+      {
+        "k": 28,
+        "forward_valuation": 10,
+        "inverse_valuation_max": 2,
+        "inverse_run_words_hex": [
+          "8c2ba274",
+          "a5215fb9",
+          "ef63e0ca",
+          "7be69e2c"
+        ]
+      },
+      {
+        "k": 29,
+        "forward_valuation": 11,
+        "inverse_valuation_max": 3,
+        "inverse_run_words_hex": [
+          "290afdcd",
+          "634842be",
+          "f7cd3c58"
+        ]
+      },
+      {
+        "k": 30,
+        "forward_valuation": 12,
+        "inverse_valuation_max": 0,
+        "inverse_run_words_hex": [
+          "4a42bf73",
+          "dec7c195"
+        ]
+      },
+      {
+        "k": 31,
+        "forward_valuation": 13,
+        "inverse_valuation_max": 1,
+        "inverse_run_words_hex": [
+          "94857ee6"
+        ]
+      }
+    ],
+    "actual_pairs_checked": 4,
+    "actual_reverse_boundary": 4292155850
+  },
+  "negative_controls": [
+    {
+      "name": "alter_inverse_column",
+      "rejected": true,
+      "reason": "inverse basis equation"
+    },
+    {
+      "name": "omit_high_power_stratum",
+      "rejected": true,
+      "reason": "incomplete power strata"
+    },
+    {
+      "name": "incorrect_empty_stratum",
+      "rejected": true,
+      "reason": "empty high-power strata"
+    },
+    {
+      "name": "damage_actual_word",
+      "rejected": true,
+      "reason": "actual pair derivative mismatch"
+    },
+    {
+      "name": "damage_actual_G",
+      "rejected": true,
+      "reason": "actual pair derivative mismatch"
+    },
+    {
+      "name": "promote_local_fixture_to_complete_support",
+      "rejected": true,
+      "reason": "four-pair fixture omits nine active pairs and is not a complete support model"
+    }
+  ],
+  "discovery_generator_imported_or_executed": false,
+  "scope": "necessary high signed-power stratum exclusion and actual four-pair conservation counterfixture; actual inverse shift remains unresolved",
+  "independent_agent_acceptance": false
+}

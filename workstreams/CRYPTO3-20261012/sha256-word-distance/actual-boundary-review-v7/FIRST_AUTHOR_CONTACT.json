@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T18:22:31.034494+00:00",
+  "contact": "First author boundary byte contact after independent55mask proof/checker complete and frozen",
+  "sha256": {
+    "PROOF.md": "572aed96c813c8f388802a70a80fd312ad23dc234424e49f898480ee209f5ace",
+    "check_actual_boundary.py": "0ed1ce41bbf4a4775eb385c360ab060b2e988cfedd1a263a9124fec176e5a3af",
+    "SHA256.json": "614d7c5fbf2994da2de9593efcbd8a09ee1f4b46dfe419e91a37d742d8073aad",
+    "MASK_EXPERIMENT.json": "0a4f6572eacd775de46fb8dc87a8dc76364171ab098c460b10c811ed321babc7"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "COMPARISON-RUN.json": "c9c1b87b5977282cf2baab72ef377a4b6a5afc726b6140824896301b13b28e0f",
+    "COMPARISON.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "INDEPENDENT_PROOF.md": "b38d298ea40862c9642c574f68a9aa35f3360413113e6702b605806527656f3f",
+    "PRE-AUTHOR-CHECKPOINT.json": "dc7308c53472ad73eb4bdc0dd00d8a7e5f6a8f4bb68400d8600472c7209075fb",
+    "README.md": "1a42ea85e23c312114edb77e9f5e0e13de287ec89c1411933003cf966e6c4da0",
+    "RECEIPT.json": "b9eb490f320d9d52b8a6b2ae283ef195e10d866c5e6501c197a7c36a5bb142dd",
+    "REVIEW.md": "518a5e7d0589b87d598cc86855cd321d91726893a1ccef77e36ac9e263829611",
+    "RUN.json": "f4fdf98cc63655d44510440dc5687c01f01e0863e40a9c8c7099ab7ab3beb5df",
+    "SOURCE_COMPARISON.json": "c46aca6d02128f5c02d70e8bae8fe50188320796c1934e91e99e56b40bfb562a",
+    "VERIFICATION.json": "7ebab061ce5ae0a344ea3d430e874ee68a34a5cdc75a6b56d4e8d8b3f073d77f",
+    "check_independent.py": "d4d80fa43a334e6318731fe2bdb8e4acfa367a77b99a322fe825ab40c94d8e22",
+    "compare_author.py": "49652eb8f71d1da2a7b8023aa06f77f61c5e67f5c0e5d8514521f0fab01edfea"
+  },
+  "schema": "CRYPTO3-dyadic-width-independent-review-sha256-v7",
+  "self_excluded": "SHA256.json"
+}

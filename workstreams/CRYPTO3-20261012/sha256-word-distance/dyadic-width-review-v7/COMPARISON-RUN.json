@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/dyadic-width-review-v7/compare_author.py"
+  ],
+  "cwd": "/workspace/scratch/b1d6bae025af/math-crypto3",
+  "elapsed_seconds": 0.03291669100144645,
+  "ended_utc": "2026-10-12T18:14:57.211210+00:00",
+  "exit_code": 0,
+  "schema": "CRYPTO3-dyadic-width-exact-comparison-run-v7",
+  "started_utc": "2026-10-12T18:14:57.178295+00:00",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "c46aca6d02128f5c02d70e8bae8fe50188320796c1934e91e99e56b40bfb562a"
+}

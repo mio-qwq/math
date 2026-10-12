@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T18:29:27.061306+00:00",
+  "author_hashes": {
+    "PROOF.md": "572aed96c813c8f388802a70a80fd312ad23dc234424e49f898480ee209f5ace",
+    "check_actual_boundary.py": "0ed1ce41bbf4a4775eb385c360ab060b2e988cfedd1a263a9124fec176e5a3af",
+    "SHA256.json": "614d7c5fbf2994da2de9593efcbd8a09ee1f4b46dfe419e91a37d742d8073aad",
+    "MASK_EXPERIMENT.json": "0a4f6572eacd775de46fb8dc87a8dc76364171ab098c460b10c811ed321babc7"
+  },
+  "manifest_files_verified": 7,
+  "sigma0_inverse_basis_columns_checked": 32,
+  "high_interval_masks_checked": 55,
+  "original_rows_total": 48,
+  "nonzero_rows": {
+    "17": [
+      [
+        "G",
+        15,
+        -1
+      ],
+      [
+        "d",
+        10,
+        -1
+      ]
+    ],
+    "18": [
+      [
+        "d",
+        18,
+        1
+      ],
+      [
+        "d",
+        11,
+        -1
+      ]
+    ],
+    "20": [
+      [
+        "d",
+        20,
+        1
+      ],
+      [
+        "G",
+        18,
+        -1
+      ],
+      [
+        "d",
+        13,
+        -1
+      ]
+    ],
+    "22": [
+      [
+        "G",
+        20,
+        -1
+      ],
+      [
+        "d",
+        15,
+        -1
+      ]
+    ],
+    "25": [
+      [
+        "d",
+        18,
+        -1
+      ],
+      [
+        "F",
+        10,
+        -1
+      ]
+    ],
+    "26": [
+      [
+        "d",
+        26,
+        1
+      ],
+      [
+        "F",
+        11,
+        -1
+      ],
+      [
+        "d",
+        10,
+        -1
+      ]
+    ],
+    "27": [
+      [
+        "d",
+        20,
+        -1
+      ],
+      [
+        "d",
+        11,
+        -1
+      ]
+    ],
+    "28": [
+      [
+        "d",
+        28,
+        1
+      ],
+      [
+        "G",
+        26,
+        -1
+      ],
+      [
+        "F",
+        13,
+        -1
+      ]
+    ],
+    "29": [
+      [
+        "d",
+        29,
+        1
+      ],
+      [
+        "d",
+        13,
+        -1
+      ]
+    ],
+    "30": [
+      [
+        "G",
+        28,
+        -1
+      ],
+      [
+        "F",
+        15,
+        -1
+      ]
+    ],
+    "31": [
+      [
+        "G",
+        29,
+        -1
+      ],
+      [
+        "d",
+        15,
+        -1
+      ]
+    ],
+    "33": [
+      [
+        "d",
+        26,
+        -1
+      ],
+      [
+        "F",
+        18,
+        -1
+      ]
+    ],
+    "34": [
+      [
+        "d",
+        34,
+        1
+      ],
+      [
+        "d",
+        18,
+        -1
+      ]
+    ],
+    "35": [
+      [
+        "d",
+        28,
+        -1
+      ],
+      [
+        "F",
+        20,
+        -1
+      ]
+    ],
+    "36": [
+      [
+        "G",
+        34,
+        -1
+      ],
+      [
+        "d",
+        29,
+        -1
+      ],
+      [
+        "d",
+        20,
+        -1
+      ]
+    ],
+    "41": [
+      [
+        "d",
+        34,
+        -1
+      ],
+      [
+        "F",
+        26,
+        -1
+      ]
+    ],
+    "42": [
+      [
+        "d",
+        42,
+        1
+      ],
+      [
+        "d",
+        26,
+        -1
+      ]
+    ],
+    "43": [
+      [
+        "d",
+        43,
+        1
+      ],
+      [
+        "F",
+        28,
+        -1
+      ]
+    ],
+    "44": [
+      [
+        "G",
+        42,
+        -1
+      ],
+      [
+        "F",
+        29,
+        -1
+      ],
+      [
+        "d",
+        28,
+        -1
+      ]
+    ],
+    "45": [
+      [
+        "G",
+        43,
+        -1
+      ],
+      [
+        "d",
+        29,
+        -1
+      ]
+    ],
+    "49": [
+      [
+        "d",
+        42,
+        -1
+      ],
+      [
+        "F",
+        34,
+        -1
+      ]
+    ],
+    "50": [
+      [
+        "d",
+        43,
+        -1
+      ],
+      [
+        "d",
+        34,
+        -1
+      ]
+    ],
+    "57": [
+      [
+        "d",
+        57,
+        1
+      ],
+      [
+        "F",
+        42,
+        -1
+      ]
+    ],
+    "58": [
+      [
+        "F",
+        43,
+        -1
+      ],
+      [
+        "d",
+        42,
+        -1
+      ]
+    ],
+    "59": [
+      [
+        "G",
+        57,
+        -1
+      ],
+      [
+        "d",
+        43,
+        -1
+      ]
+    ]
+  },
+  "zero_rows": [
+    16,
+    19,
+    21,
+    23,
+    24,
+    32,
+    37,
+    38,
+    39,
+    40,
+    46,
+    47,
+    48,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    60,
+    61,
+    62,
+    63
+  ],
+  "fixture": {
+    "actual_pairs": {
+      "13": {
+        "x": 0,
+        "y": 688586189,
+        "difference": 688586189,
+        "F": 536870912,
+        "G": 559248155,
+        "input_xor": 688586189
+      },
+      "29": {
+        "x": 3606381106,
+        "y": 4294967295,
+        "difference": 688586189,
+        "F": 3758096384,
+        "G": 3738530587,
+        "input_xor": 688586189
+      },
+      "26": {
+        "x": 0,
+        "y": 2380092845,
+        "difference": 2380092845,
+        "F": 533427049,
+        "G": 4194304,
+        "input_xor": 2380092845
+      },
+      "42": {
+        "x": 1914874450,
+        "y": 4294967295,
+        "difference": 2380092845,
+        "F": 533427049,
+        "G": 4290772992,
+        "input_xor": 2380092845
+      }
+    },
+    "author_auxiliary": {
+      "a": 3761540247,
+      "b": 2380092845,
+      "c": 688586189,
+      "e": 541065216,
+      "k": 556436709,
+      "z": 533427049
+    },
+    "reviewer_auxiliary": {
+      "a": 2380092845,
+      "b": 3761540247
+    },
+    "original_rows_using_only_actual_pair_differences": [
+      29,
+      42
+    ],
+    "additional_rows_using_defined_auxiliary_interfaces": [
+      28,
+      31,
+      41,
+      44,
+      57
+    ],
+    "inverse_boundary_target": "ffd519ca",
+    "missing_actual_pairs": [
+      10,
+      11,
+      15,
+      18,
+      20,
+      28,
+      34,
+      43,
+      57
+    ],
+    "scope": "actual four-pair conservation subsystem only; no complete25row actual support or message blocks"
+  },
+  "symbol_mapping": {
+    "reviewer a": "author b=-checkpoint A",
+    "reviewer b": "author a=checkpoint D"
+  },
+  "overlap_context": {
+    "accepted_structure_review_manifest_sha256": "fb056bb7063b075f6a98e4eea05329267e60e00e7554184ea75e4f5b7b2d0d14",
+    "accepted_structure_author_proof_sha256": "e5ac4955289a850266b4c6891f6cd1249324f4d6b840c6747212e556e08e1bb5",
+    "overlap": "Accepted D valuation<=16 already excludes high signed powers in author a=reviewer b. Accepted reciprocal signature upperbound23 covers author b=reviewer a powersk>=24; exact signedpowerk22,23 remains additional.",
+    "structure_signature_table_replayed": false,
+    "old11440_discovery_comparisons_replayed": false
+  },
+  "negative_controls": [
+    "actual word mutation rejected",
+    "actual G mutation rejected",
+    "missing ninth actual-pair set prevents full-support promotion",
+    "missing high stratum detected"
+  ],
+  "unreviewed_supplementary_scope": "Low-k stored endpoint candidates and complete11440 traversal remain author-only statistics; not premises of the accepted high-power theorem."
+}

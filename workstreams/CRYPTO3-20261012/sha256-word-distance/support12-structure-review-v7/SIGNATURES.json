@@ -1,0 +1,6479 @@
+{
+  "anti_cycle_necessary_table": [
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "forward_signature_table": [
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "original_f_binary_rows": [
+    262280,
+    524560,
+    1049120,
+    2098240,
+    4196480,
+    8392960,
+    16785920,
+    33571840,
+    67143680,
+    134287360,
+    268574720,
+    537149440,
+    1074298880,
+    2148597760,
+    2228225,
+    4456450,
+    8912900,
+    17825800,
+    35651600,
+    71303200,
+    142606400,
+    285212800,
+    570425600,
+    1140851200,
+    2281702400,
+    268437505,
+    536875010,
+    1073750020,
+    2147500040,
+    32784,
+    65568,
+    131136
+  ],
+  "recurrence_bridges": [
+    {
+      "original_rows": {
+        "33": -1
+      },
+      "target": {
+        "F18": 1,
+        "d26": 1
+      }
+    },
+    {
+      "original_rows": {
+        "34": -1,
+        "41": -1
+      },
+      "target": {
+        "F26": 1,
+        "d18": 1
+      }
+    },
+    {
+      "original_rows": {
+        "34": 1
+      },
+      "target": {
+        "d18": -1,
+        "d34": 1
+      }
+    },
+    {
+      "original_rows": {
+        "33": 1,
+        "42": -1,
+        "49": -1
+      },
+      "target": {
+        "F18": -1,
+        "F34": 1
+      }
+    },
+    {
+      "original_rows": {
+        "18": 1,
+        "20": -1,
+        "27": -1
+      },
+      "target": {
+        "G18": 1,
+        "d13": 1,
+        "d18": 1
+      }
+    },
+    {
+      "original_rows": {
+        "18": -1,
+        "27": 1,
+        "29": -1,
+        "36": -1
+      },
+      "target": {
+        "G34": 1,
+        "d13": 1,
+        "d18": -1
+      }
+    },
+    {
+      "original_rows": {
+        "34": -1,
+        "50": -1
+      },
+      "target": {
+        "d18": 1,
+        "d43": 1
+      }
+    },
+    {
+      "original_rows": {
+        "33": 1,
+        "42": -1,
+        "58": -1
+      },
+      "target": {
+        "F18": -1,
+        "F43": 1
+      }
+    },
+    {
+      "original_rows": {
+        "29": -1,
+        "45": -1
+      },
+      "target": {
+        "G43": 1,
+        "d13": 1
+      }
+    }
+  ],
+  "schema": "independent-support12-sigma0-signatures-v7",
+  "scope": "All sigma0 XOR-mask signatures exactly; anti-cycle signature compatibility is only necessary for actual coupled pair equations.",
+  "signature_certificates": [
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262145
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524289
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1048577
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2097153
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4194305
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8388609
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16777217
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33554433
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67108865
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134217729
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268435457
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 536870913
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1073741825
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2147483649
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 339871745
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 411176961
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16916481
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 839008257
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1409449985
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2550333441
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268566529
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 35652609
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2433876481
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3695690945
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2854305857
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4053419841
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4221194769
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1391223777
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 688586189
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3737633173
+      },
+      {
+        "contradicting_row_combination": 3472704083,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262146
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524290
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1048578
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2097154
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4194306
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8388610
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16777218
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33554434
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67108866
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134217730
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268435458
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 536870914
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1073741826
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2147483650
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268566530
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 213915650
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 356526082
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 641746946
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1077970946
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2353072130
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 375524354
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2540834306
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 71305218
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1064520258
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1226165954
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 313444802
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2983783778
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 414112914
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1665680062
+      },
+      {
+        "contradicting_row_combination": 6945408165,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2491776742
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262148
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524292
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1048580
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2097156
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4194308
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8388612
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16777220
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33554436
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67108868
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134217732
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268435460
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 536870916
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1073741828
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2147483652
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268566532
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 71305220
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 427831300
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 713052164
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1283493892
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2155941892
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 446829572
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2612139524
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 867390020
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 142610436
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2129040516
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2251011876
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 626889604
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2351669876
+      },
+      {
+        "contradicting_row_combination": 3521486719,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 3521486719,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 3521486719,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 8
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 786440
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1310728
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2359304
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4456456
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8650760
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 17039368
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33816584
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67371016
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134479880
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268697608
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 262152
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1610874888
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2684616712
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 805699592
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 537133064
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 751048712
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 608438280
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 390359048
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1900324872
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3175426056
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 661007368
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 893659144
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2638572616
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3490753160
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2792762888
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4258081032
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1589317032
+      },
+      {
+        "contradicting_row_combination": 7042973431,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4157422680
+      },
+      {
+        "contradicting_row_combination": 12421251864,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 12421251864,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262160
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1572880
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2621456
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4718608
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8912912
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 17301520
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 34078736
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67633168
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134742032
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268959760
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 537395216
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524304
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3221749776
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1342832656
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1145571344
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1074266128
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1502097424
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1216876560
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 780718096
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3800649744
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2024428560
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4189738512
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1787318288
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 668833488
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1371214416
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 167777616
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2843095536
+      },
+      {
+        "contradicting_row_combination": 8347570878,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8347570878,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8347570878,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8347570878,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262176
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524320
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 32
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3145760
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 5242912
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 9437216
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 17825824
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 34603040
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 68157472
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 135266336
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 269484064
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 537919520
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1074790432
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1048608
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2417098784
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2219837472
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2291142688
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2148532256
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3004194848
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2433753120
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1561436192
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3341984800
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1176675872
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3995329120
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3574636576
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4174193568
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2742428832
+      },
+      {
+        "contradicting_row_combination": 5521518971,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 5521518971,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 5521518971,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 5521518971,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 5521518971,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262208
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524352
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1048640
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 64
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 6291520
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 10485824
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 18874432
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 35651648
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 69206080
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 136314944
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 270532672
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 538968128
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1075839040
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2149580864
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2097216
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 341968960
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 413274176
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 19013696
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 270663744
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1981988928
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 841105472
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3122872384
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2818655296
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 993215040
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1886317907,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 128
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 786560
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1310848
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2359424
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 262272
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 12845184
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 21233792
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 38011008
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 71565440
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 138674304
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 272892032
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4456576
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1615069312
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2688811136
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 809894016
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 604244096
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 683937920
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 826548352
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 38027392
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 541327488
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3963977856
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1682210944
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3847520896
+      },
+      {
+        "contradicting_row_combination": 3772635731,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1986430080
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4855328501,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262400
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 256
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1573120
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2621696
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4718848
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524544
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 25690368
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 42467584
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 76022016
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 143130880
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 277348608
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 545784064
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8913152
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3230138624
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1351221504
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1153960192
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1208488192
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1367875840
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1653096704
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 76054784
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1082654976
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3668641024
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3364421888
+      },
+      {
+        "contradicting_row_combination": 7545271379,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9710656757,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1538983680
+      },
+      {
+        "contradicting_row_combination": 19421313514,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 19421313514,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 19421313514,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 19421313514,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 19421313514,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 19421313514,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262656
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524800
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 512
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3146240
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 5243392
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 9437696
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1049088
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 51380736
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 84935168
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 152044032
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 286261760
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 554697216
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1091568128
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 17826304
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2433876480
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2236615168
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2307920384
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2416976384
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2735751680
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3306193408
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 152109568
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2165309952
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2469529088
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 6462580553,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 263168
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 525312
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1049600
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1024
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 6292480
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 10486784
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 18875392
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2098176
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 102761472
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 169870336
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 304088064
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 572523520
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1109394432
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2183136256
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 35652608
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 375524352
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 446829568
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 52569088
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 807552000
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1445102592
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2585986048
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 304219136
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4330768065,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 264192
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 526336
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1050624
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2099200
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2048
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 12584960
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 20973568
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 37750784
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4196352
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 205522944
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 339740672
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 608176128
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1145047040
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2218788864
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 339871744
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 71305216
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134289418,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 266240
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 528384
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1052672
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2101248
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4198400
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4096
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 25169920
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 41947136
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 75501568
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8392704
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 411045888
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 679481344
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1216352256
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2290094080
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 411176960
+      },
+      {
+        "contradicting_row_combination": 268576778,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 142610432
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537153556,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 270336
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 532480
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1056768
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2105344
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4202496
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8396800
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8192
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 50339840
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 83894272
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 151003136
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16785408
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 822091776
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1358962688
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2432704512
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16916480
+      },
+      {
+        "contradicting_row_combination": 537151498,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1074302996,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 285220864
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148605992,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 278528
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 540672
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1064960
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2113536
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4210688
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8404992
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16793600
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16384
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 100679680
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 167788544
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 302006272
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33570816
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1644183552
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2717925376
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 839008256
+      },
+      {
+        "contradicting_row_combination": 1074300938,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148601876,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297203752,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 570441728
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594407504,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 294912
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 557056
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1081344
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2129920
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4227072
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8421376
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16809984
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33587200
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 32768
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 201359360
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 335577088
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 604012544
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67141632
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 3288367104
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1409449984
+      },
+      {
+        "contradicting_row_combination": 2148599818,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297199636,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594399272,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17188798544,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1140883456
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377597088,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 327680
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 589824
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1114112
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2162688
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4259840
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8454144
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16842752
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33619968
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67174400
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 65536
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 402718720
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 671154176
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1208025088
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134283264
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2550333440
+      },
+      {
+        "contradicting_row_combination": 4297197578,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594395156,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17188790312,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34377580624,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68755161248,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2281766912
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137510322496,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 393216
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 655360
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1179648
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2228224
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4325376
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8519680
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16908288
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33685504
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67239936
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134348800
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 131072
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 805437440
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1342308352
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2416050176
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268566528
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297196609,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "feasible": true,
+        "xor_mask_witness": 262144
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 786568,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 1310856,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 524288
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2621712,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 2359432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4718864,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1048576
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 9437728,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 4456584,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8913168,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17826336,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2097152
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35652672,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 8650888,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17301776,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34603552,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 69207104,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 4194304
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 138414208,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 17039496,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34078992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68157984,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 136315968,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 272631936,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 8388608
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 545263872,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 33816712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 67633424,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 135266848,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 270533696,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 541067392,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1082134784,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 16777216
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2164269568,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 67371144,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 134742288,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 269484576,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 538969152,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1077938304,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2155876608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4311753216,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 33554432
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8623506432,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 134480008,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 268960016,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537920032,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1075840064,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2151680128,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4303360256,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8606720512,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17213441024,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 67108864
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34426882048,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 268697736,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 537395472,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1074790944,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2149581888,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4299163776,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8598327552,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17196655104,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34393310208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68786620416,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 134217728
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137573240832,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 537133192,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1074266384,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148532768,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4297065536,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8594131072,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17188262144,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34376524288,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68753048576,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137506097152,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 275012194304,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 268435456
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 550024388608,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 1074004104,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2148008208,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4296016416,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8592032832,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17184065664,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34368131328,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68736262656,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137472525312,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 274945050624,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 549890101248,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1099780202496,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 536870912
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199560404992,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 2147745928,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4295491856,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8590983712,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17181967424,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34363934848,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68727869696,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137455739392,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 274911478784,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 549822957568,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1099645915136,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199291830272,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4398583660544,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 1073741824
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8797167321088,
+        "feasible": false
+      }
+    ],
+    [
+      {
+        "contradicting_row_combination": 4295229576,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8590459152,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17180918304,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 34361836608,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 68723673216,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 137447346432,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 274894692864,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 549789385728,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 1099578771456,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 2199157542912,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 4398315085824,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 8796630171648,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 17593260343296,
+        "feasible": false
+      },
+      {
+        "feasible": true,
+        "xor_mask_witness": 2147483648
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      },
+      {
+        "contradicting_row_combination": 35186520686592,
+        "feasible": false
+      }
+    ]
+  ],
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "support_index": 12
+}

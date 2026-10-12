@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/dyadic-width-review-v7/check_independent.py"
+  ],
+  "cwd": "/workspace/scratch/b1d6bae025af/math-crypto3",
+  "elapsed_seconds": 0.026963487995089963,
+  "ended_utc": "2026-10-12T18:11:38.212426+00:00",
+  "exit_code": 0,
+  "schema": "CRYPTO3-dyadic-width-independent-run-v7",
+  "started_utc": "2026-10-12T18:11:38.185466+00:00",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "7ebab061ce5ae0a344ea3d430e874ee68a34a5cdc75a6b56d4e8d8b3f073d77f"
+}

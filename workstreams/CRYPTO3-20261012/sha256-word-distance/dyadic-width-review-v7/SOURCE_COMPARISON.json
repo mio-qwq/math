@@ -1,0 +1,38 @@
+{
+  "author_checker_imported_or_executed": false,
+  "author_files": [
+    {
+      "bytes": 6991,
+      "path": "CERTIFICATE.json",
+      "sha256": "ebbb99b6e0e61cc99e8d31d4b013f56b1334e37d4d048d7d62e3ad554796e1b9"
+    },
+    {
+      "bytes": 5529,
+      "path": "PROOF.md",
+      "sha256": "574b5a39fb4ee0f9768401544027448f6593928f44e615b5cb5c0b49c93fa9fe"
+    },
+    {
+      "bytes": 588,
+      "path": "README.md",
+      "sha256": "d8bdcd72490b7932f648ba4cd7038cd66d5107e9f690a442c8fff3fe80da64c2"
+    },
+    {
+      "bytes": 729,
+      "path": "RUN.json",
+      "sha256": "edc390b67444dcc5fe0778074673a9c7168f25591b804c7cc991d0039fda101a"
+    },
+    {
+      "bytes": 4793,
+      "path": "check.py",
+      "sha256": "75179120e3f8a0336058f5d2e1d53c94daf7ea3f1e87cd3079658dea9899e6ba"
+    }
+  ],
+  "author_manifest_sha256": "a6eebd06e58db8b6ec1c98b4fa20e4c6cffdbd56e97cd36b14b8a6851dd27d35",
+  "author_run_scope": "Identity and recorded exit checked; author run not independently rerun.",
+  "certificate_matches_independent_reconstruction": true,
+  "comparison_script_sha256": "49652eb8f71d1da2a7b8023aa06f77f61c5e67f5c0e5d8514521f0fab01edfea",
+  "passed": true,
+  "pre_author_checkpoint_sha256": "dc7308c53472ad73eb4bdc0dd00d8a7e5f6a8f4bb68400d8600472c7209075fb",
+  "schema": "CRYPTO3-dyadic-width-exact-author-comparison-v7",
+  "valuation_layers_compared": 9
+}

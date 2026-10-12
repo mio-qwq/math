@@ -1,0 +1,52 @@
+{
+  "negative_controls_rejected": [
+    "wrong_sigma_row",
+    "zero_feasible_witness",
+    "zero_infeasible_row_combination",
+    "false_anti_cycle_cell",
+    "false_forward_cell",
+    "wrong_anti_cycle_bridge_sign"
+  ],
+  "results": {
+    "anti_cycle_necessary_signatures": 309,
+    "forward_signatures": 417,
+    "homogeneous_form_method_agreements": 1024,
+    "l_at_least_18_cases": [
+      [
+        0,
+        18
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        3,
+        21
+      ],
+      [
+        4,
+        22
+      ],
+      [
+        5,
+        23
+      ]
+    ],
+    "max_k": 23,
+    "max_k_plus_l": 30,
+    "max_l": 23,
+    "original_48_row_bridge_identities": 9,
+    "systems_checked": 1024,
+    "verified_original_row_infeasibility_proofs": 607
+  },
+  "reviewer_checker_sha256": "5d920f33877559097b1aa095d33fc66a6b683ec65481365fccc90f43f5b28471",
+  "scope": "Necessary anti-cycle valuation constraints only; not actual-pair sufficiency, complete message realizability, or support exclusion.",
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "stage": "blind independent construction before author-v7 read",
+  "status": "PASS"
+}

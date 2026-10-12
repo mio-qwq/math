@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T18:29:24.625564+00:00",
+  "failed_source_sha256": "758326ff281e3fa0bd2c71e87972752f08a4c01daf435ede5701aa2743e9602b",
+  "failure": "First post-contact fixture comparison incorrectly required the ordinary unsigned sum G13+G29=2*low(G13); the actual modular equation has an extra2^32 in unsigned representatives.",
+  "values": {
+    "G13": "2155731b",
+    "G29": "ded5731b",
+    "ordinary_sum": "1002ae636",
+    "mod32_sum": "002ae636"
+  },
+  "correction": "Compare (G13+G29) mod2^32 to2*low(G13). This was a reviewer implementation error, not an author mathematical gap. Independent anti-cycle checker/proof unchanged."
+}

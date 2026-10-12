@@ -1,0 +1,42 @@
+{
+  "schema": "crypto3-actual-boundary-v6-freeze-executions",
+  "freeze_created_utc": "2026-10-12T18:16:19.009114+00:00",
+  "owned_directory": "workstreams/CRYPTO3-20261012/sha256-word-distance/actual-boundary-v6",
+  "pre_frozen_plan_sha256": "0c944b880a9f7e01505a02c9325452e6340178155850e67a95e85016b3975246",
+  "executions": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/actual-boundary-v6/finite_mask_experiment.py",
+        "--output",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/actual-boundary-v6/MASK_EXPERIMENT.json"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "recorded_from": "actual first finite experiment tool execution after writing frozen plan"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/actual-boundary-v6/check_actual_boundary.py",
+        "--output",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/actual-boundary-v6/CHECK_RUN.json"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "recorded_from": "actual direct-bit checker tool execution"
+    }
+  ],
+  "freeze_checks": {
+    "all_bound_source_hashes_match": true,
+    "all_v4_v5_manifest_entries_still_match": true,
+    "no_sat_unknown_replay_or_old_elimination_enumeration": true,
+    "no_subagent_commit_or_push": true
+  },
+  "status": "new exact local candidate, independent-agent acceptance pending",
+  "unresolved": "actual support12 inverse shift, all thirteen actual pair realization, complete base schedule and global minimum distance"
+}

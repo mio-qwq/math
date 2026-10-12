@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T18:32:01.691072+00:00",
+  "conclusion": "ACCEPT exact local sigma0 high signedpower theorem,48original rows,4actual-pair conservation counterfixture; not complete support or actual inverse-shift counterexample",
+  "inverse_mask_cases": 55,
+  "original_rows": 48,
+  "nonzero_original_rows": 25,
+  "actual_fixture_pairs": 4,
+  "fixture_inverse_boundary_target": "ffd519ca",
+  "source_hashes": {
+    "check_independent.py": "4980ed44e856e1e03b1e56bddc81f56ebeb39dfaf0095d627364f20732769563",
+    "compare_fixture.py": "fc4b5136c2ca1008ac0d2622f177a29db832f9ee7261588f2762fbc70143a444",
+    "replay_readonly.py": "fffab7c55be3dce5333174f039c2f336fdf5ddc885c8f9d7cddf683e9062d9b7"
+  },
+  "execution_reports": {
+    "INDEPENDENT_RUN.json": "32cc2afa9e798df70d623522703d810ad1cbe475b59ded7f0cb97ff48c9af506",
+    "COMPARISON_FIXTURE_RUN.json": "5904507607f031f4b73dfd2c4fec9b62befa8dcc7d49b93b040d6145f95716b0"
+  },
+  "readonly_command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/actual-boundary-review-v7/replay_readonly.py",
+  "readonly_parts": [
+    "--part core",
+    "--part comparison"
+  ]
+}

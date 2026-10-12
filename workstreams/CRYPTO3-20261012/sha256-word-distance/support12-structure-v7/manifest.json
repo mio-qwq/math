@@ -1,0 +1,13 @@
+{
+  "files": {
+    "AUTHOR-RECEIPT.json": "56aa9bee3a1e1a75e75ed58e71cd03888a3ca1c51587e249a04140b4647193ba",
+    "CERTIFICATE.json": "383906352d2622e9dc071ca26a32d57355659ef683549072e632c47f817b60f6",
+    "CHECK-RUN.json": "f6b7f49a6965fd9189bbba1f189358c5ff090ea67223f50ef56cb236fc9eff5c",
+    "MECHANISM.md": "03b9d75d7fb43cd1690e89deb9bdbde8acf55a02c7b86c83319cfe86903d2f21",
+    "PROOF.md": "e5ac4955289a850266b4c6891f6cd1249324f4d6b840c6747212e556e08e1bb5",
+    "README.md": "e72b2f72b905d855f0f357e027c7db63c70121671ec1c3d6db073aa36bca01cb",
+    "build_certificate.py": "d7ca9a765e5dd7ec7433855721241de910c0c9813a51dcd4bfd2c37dab9c61a6",
+    "check.py": "d643121cc37136ad439862d89e1d839004639ca1384f2bdf2d3a3e5d361a26ea"
+  },
+  "schema": "CRYPTO3-support12-structure-v7-manifest-v1"
+}

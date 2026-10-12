@@ -5,7 +5,8 @@ Branch: `partner/dist-CRYPTO3-20261012`. Recovery base:
 Stage 4 was uploaded and checked at
 `f888115f03f2ef1e06189296378f6ca200d1264b`; stage 5 was uploaded and
 checked at `24684c0207db415a60f7de57291d6aaf627eb287`. Later accepted
-stages are recorded below and in their own frozen manifests.
+stages are recorded below and in their own frozen manifests. Stage 6
+was uploaded and checked at `78d0b1395cbcfca1d647c8bfeb30493d2a351473`.
 The original stage-2 README, publication status, manifests and reviewed
 proof bytes are preserved. This checkpoint describes later work.
 
@@ -91,14 +92,71 @@ with reason `timeout` after its one fixed 15-second check. No model or
 UNSAT certificate was obtained; the stopped probe is not rerun by the
 proof replay and does not decide the entire core.
 
-The next work seeks whole-core structure rather than simply extending
-valuation enumeration. `support12-structure-v7/` investigates an exact
-joint-derivative image criterion and the extra sigma0 two-pair cycle.
-`dyadic-width-v7/` gives a complete lemma screening all layers
-10..18 with a sharper shared-term integer bound; its separate acceptance
-will be bound in the next frozen continuation. `actual-boundary-v6/` studies whether actual nonlinear
-coupling could supplement the failed additive reverse-shift mechanism.
-These are work in progress until their own exact acceptance is recorded.
+## New accepted structure beyond valuation enumeration
+
+[The joint-image result](sha256-word-distance/support12-structure-v7/PROOF.md)
+and [its independent acceptance](sha256-word-distance/support12-structure-review-v7/REVIEW.md)
+give an exact three-pair criterion. At fixed D, define the actual joint
+image I_D of `(f(x+D)-f(x),g(x+D)-g(x))`. The selected core is feasible
+exactly when some A,T have all three points `(A,T-D)`, `(A,T+D)`,
+`(-A,-T)` in I_D. Here T=G(X)+D; there is no division by two. Actual
+preimages remain required, so this is not an independent-derivative
+relaxation or a measured computational speedup.
+
+The fourth original pair requires the reciprocal sigma0 edge `D in R_A`.
+For support 12 use A=F18=-d26=-d42; the checked shifted bridges give
+the corresponding parameter for supports 6,7,13. Put k=v2(D), l=v2(A).
+All 1,024 one-pair binary-signature systems were classified by actual
+mask witnesses or original-row XOR contradictions, then independently
+reconstructed. The 309 transposed compatible signatures imply
+
+```
+k<=23, l<=23, k+l<=30;
+l>=18 => k=l-18<=5;
+k=16 => l in {0,1,...,10,12}.
+```
+
+These are necessary numerical constraints; the 309 signatures are not
+309 realized reciprocal numerical pairs. With the fourth pair present,
+neither endpoint of the third pair can coincide with an endpoint of
+either first pair. The selected core needs at least five actual word
+values. A finite-sum proof also shows that reciprocal sigma0 coupling
+alone always has a nonzero solution for any permutation of an even
+cyclic group. The joint sigma1 requirements and all other original
+equations are therefore substantive remaining obligations.
+
+[The uniform width lemma](sha256-word-distance/dyadic-width-v7/PROOF.md)
+is [independently accepted](sha256-word-distance/dyadic-width-review-v7/REVIEW.md).
+For every exact k=10,...,18, it gives
+`D=+/-q*2^k+h*2^(k+14)`, with odd q from 1 to `2^(22-k)-1`
+and all lifts h from 0 to `2^(18-k)-1`. Pair reversal permutes lifts
+by `h -> -h`, rather than keeping h fixed. The shared-term bound
+`|2q_R-q_Y-q_X|<=4*(2^22-1)` makes k=10 valid. At k=9 the same
+representative formula covers the entire layer, so provides no screen.
+No lower-layer finite exclusion is inferred from this lemma.
+
+[The actual nonlinear inverse-boundary study](sha256-word-distance/actual-boundary-v6/PROOF.md)
+now has [exact independent acceptance](sha256-word-distance/actual-boundary-review-v7/REVIEW.md).
+Its generic sigma0 two-pair theorem excludes signed powers of two in
+exponents 22..31. On support 12 it applies to d26=d42=-A; at exponents
+22 and 23 this adds information beyond the accepted valuation-signature
+ceiling 23. Fifty-five inverse masks give the complete local proof.
+Four actual word pairs also satisfy the selected conservation condition
+while leaving the inverse prefix `ffd519ca` nonzero. The other nine
+active pairs and base equations are absent, so this does not refute
+the actual reverse implication `12 -> 6`. All 48 original rows are
+accounted for, including the 25 nonzero ones. The independent review
+records a corrected implementation error in its first unsigned-sum
+comparison; the author proof had no gap, and both source hashes and
+the correction mechanism are preserved.
+
+The next useful step is to factor **all** 25 nonzero support-12 rows
+into actual joint-image membership obligations, retaining every one of
+the 13 active pairs. A positive independent-pair object would still
+require a genuine base schedule. Further queries should incorporate
+new constraints and specify a new bounded mechanism; the stopped
+unrestricted query and old failed construction families are not
+continued by increasing their budgets.
 
 Other agents' paths and `main` are outside this workstream. Branch uploads
 may be unsigned; final signatures and main integration belong to ROOT.
@@ -108,7 +166,7 @@ certification is created by this continuation.
 Reproduction of the latest frozen continuation uses only Python's standard library:
 
 ```sh
-python -B workstreams/CRYPTO3-20261012/continuation-v6/replay.py
+python -B workstreams/CRYPTO3-20261012/continuation-v7/replay.py
 ```
 
 The stage-4 gate is `continuation-v4/replay.py`; add its `--full-stage2`
@@ -117,5 +175,7 @@ checks stage-4 integrity and all stage-5 proof, review and damage-control
 gates in a temporary copy. The stage-6 gate checks prior integrity, all
 32 new author and independent finite cases, and the stopped-probe record
 without another solver query. The living checkpoint is not a frozen
-proof artifact; each continuation directory's snapshot and manifest
+proof artifact. The stage-7 gate checks prior integrity and the new
+structure, width and actual-boundary proof/review commands; it does
+not repeat earlier large enumerations. Each continuation directory's snapshot and manifest
 bind its exact accepted phase.

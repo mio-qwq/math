@@ -1,0 +1,363 @@
+{
+  "accepted_finite_dependencies": true,
+  "actual_pair_decompositions_and_reversals_checked": 486,
+  "all_g_output_rows": [
+    [
+      10,
+      17,
+      19
+    ],
+    [
+      11,
+      18,
+      20
+    ],
+    [
+      12,
+      19,
+      21
+    ],
+    [
+      13,
+      20,
+      22
+    ],
+    [
+      14,
+      21,
+      23
+    ],
+    [
+      15,
+      22,
+      24
+    ],
+    [
+      16,
+      23,
+      25
+    ],
+    [
+      17,
+      24,
+      26
+    ],
+    [
+      18,
+      25,
+      27
+    ],
+    [
+      19,
+      26,
+      28
+    ],
+    [
+      20,
+      27,
+      29
+    ],
+    [
+      21,
+      28,
+      30
+    ],
+    [
+      22,
+      29,
+      31
+    ],
+    [
+      0,
+      23,
+      30
+    ],
+    [
+      1,
+      24,
+      31
+    ],
+    [
+      0,
+      2,
+      25
+    ],
+    [
+      1,
+      3,
+      26
+    ],
+    [
+      2,
+      4,
+      27
+    ],
+    [
+      3,
+      5,
+      28
+    ],
+    [
+      4,
+      6,
+      29
+    ],
+    [
+      5,
+      7,
+      30
+    ],
+    [
+      6,
+      8,
+      31
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      16,
+      18
+    ]
+  ],
+  "case_budgets": [
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": false,
+      "h_count": 512,
+      "k": 9,
+      "modulus": 8388608,
+      "original_valuation_stratum_count": 4194304,
+      "positive_odd_q_count": 4096,
+      "q_max": 8191,
+      "signed_lift_count": 4194304,
+      "top_row": [
+        7,
+        9
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 256,
+      "k": 10,
+      "modulus": 16777216,
+      "original_valuation_stratum_count": 2097152,
+      "positive_odd_q_count": 2048,
+      "q_max": 4095,
+      "signed_lift_count": 1048576,
+      "top_row": [
+        8,
+        10
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 128,
+      "k": 11,
+      "modulus": 33554432,
+      "original_valuation_stratum_count": 1048576,
+      "positive_odd_q_count": 1024,
+      "q_max": 2047,
+      "signed_lift_count": 262144,
+      "top_row": [
+        9,
+        11
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 64,
+      "k": 12,
+      "modulus": 67108864,
+      "original_valuation_stratum_count": 524288,
+      "positive_odd_q_count": 512,
+      "q_max": 1023,
+      "signed_lift_count": 65536,
+      "top_row": [
+        10,
+        12
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 32,
+      "k": 13,
+      "modulus": 134217728,
+      "original_valuation_stratum_count": 262144,
+      "positive_odd_q_count": 256,
+      "q_max": 511,
+      "signed_lift_count": 16384,
+      "top_row": [
+        11,
+        13
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 16,
+      "k": 14,
+      "modulus": 268435456,
+      "original_valuation_stratum_count": 131072,
+      "positive_odd_q_count": 128,
+      "q_max": 255,
+      "signed_lift_count": 4096,
+      "top_row": [
+        12,
+        14
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 8,
+      "k": 15,
+      "modulus": 536870912,
+      "original_valuation_stratum_count": 65536,
+      "positive_odd_q_count": 64,
+      "q_max": 127,
+      "signed_lift_count": 1024,
+      "top_row": [
+        13,
+        15
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 4,
+      "k": 16,
+      "modulus": 1073741824,
+      "original_valuation_stratum_count": 32768,
+      "positive_odd_q_count": 32,
+      "q_max": 63,
+      "signed_lift_count": 256,
+      "top_row": [
+        14,
+        16
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 2,
+      "k": 17,
+      "modulus": 2147483648,
+      "original_valuation_stratum_count": 16384,
+      "positive_odd_q_count": 16,
+      "q_max": 31,
+      "signed_lift_count": 64,
+      "top_row": [
+        15,
+        17
+      ]
+    },
+    {
+      "B_minus_2A_forced_zero_by_joint_bound": true,
+      "h_count": 1,
+      "k": 18,
+      "modulus": 4294967296,
+      "original_valuation_stratum_count": 8192,
+      "positive_odd_q_count": 8,
+      "q_max": 15,
+      "signed_lift_count": 16,
+      "top_row": [
+        16,
+        18
+      ]
+    }
+  ],
+  "checker_sha256": "d4d80fa43a334e6318731fe2bdb8e4acfa367a77b99a322fe825ab40c94d8e22",
+  "common_half_decomposition_k_range": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "k8_actual_top_changes": [
+    1,
+    0
+  ],
+  "k8_top_row": [
+    6,
+    8,
+    31
+  ],
+  "k9_counterexample": {
+    "A": -4194816,
+    "B": -1024,
+    "B_minus_2A": 8388608,
+    "D_mod_M": 4193792,
+    "qr": 4193792,
+    "qx": 0,
+    "qy": -1024
+  },
+  "k9_counterexample_scope": "Representative integer obstruction to B=2A inference only.",
+  "k9_final_formula": "Vacuous: covers its complete exact-valuation stratum.",
+  "lift_boundary_fixtures_checked": 162,
+  "nontrivial_joint_width_k_range": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "rejected_controls": [
+    {
+      "control": "include SHR-bearing row21 as fixed at k10",
+      "rejected_by": "fixed-row exact dependency"
+    },
+    {
+      "control": "move k18 parity input18 to17",
+      "rejected_by": "common parity row"
+    },
+    {
+      "control": "use 3*2^23 coarse bound at k10",
+      "rejected_by": "bound cannot exclude nonzero modulus multiple"
+    },
+    {
+      "control": "force zero multiple with same bound at k9",
+      "rejected_by": "bound cannot exclude nonzero modulus multiple"
+    }
+  ],
+  "sample_scope": "Implementation checks only; none is asserted to satisfy the full three-pair core.",
+  "schema": "CRYPTO3-independent-dyadic-width-check-v7"
+}

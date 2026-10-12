@@ -1,0 +1,61 @@
+{
+  "certificate_sha256": "383906352d2622e9dc071ca26a32d57355659ef683549072e632c47f817b60f6",
+  "checker_sha256": "d643121cc37136ad439862d89e1d839004639ca1384f2bdf2d3a3e5d361a26ea",
+  "consequences": {
+    "allowed_count": 309,
+    "maximum_individual": 23,
+    "maximum_sum": 30
+  },
+  "excluded_single_pair_signatures": 607,
+  "half_strata": "D=H and A=H impossible in transposed two-pair coupling",
+  "necessary_transposed_signatures": 309,
+  "recurrence_bridges": [
+    {
+      "original_t": [
+        33,
+        34,
+        41
+      ],
+      "shift": 0,
+      "support": 12
+    },
+    {
+      "original_t": [
+        34,
+        35,
+        42
+      ],
+      "shift": 1,
+      "support": 6
+    },
+    {
+      "original_t": [
+        36,
+        37,
+        44
+      ],
+      "shift": 3,
+      "support": 7
+    },
+    {
+      "original_t": [
+        35,
+        36,
+        43
+      ],
+      "shift": 2,
+      "support": 13
+    }
+  ],
+  "rejected_controls": [
+    "all1024 valuation cases",
+    "half constants",
+    "inverse basis identity",
+    "nonempty distinct contradiction rows",
+    "exact necessary transposed table",
+    "d26+F18 original row"
+  ],
+  "scope": "author small dependency check; written proof gives arbitrary-word quantifiers",
+  "single_pair_signatures": 417,
+  "status": "PASS"
+}

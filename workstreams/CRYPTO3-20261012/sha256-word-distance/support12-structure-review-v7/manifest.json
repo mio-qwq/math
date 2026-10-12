@@ -1,0 +1,40 @@
+{
+  "author_manifest_sha256": "8a5d97b2f671ae416ed296267bc25df2835c053fa9d318b01bf5bc68c615288a",
+  "blind_manifest_sha256": "3d2e2ab37250187ed2e9f643eb5475ee01e72ae7eca8a82c4485579f85410a2a",
+  "files": {
+    "INDEPENDENT_PROOF.md": {
+      "bytes": 6773,
+      "sha256": "052287f8cef797d7de4711d9e3954f126ebf9451533309648253ef1201df3e99"
+    },
+    "INDEPENDENT_RUN.json": {
+      "bytes": 1245,
+      "sha256": "e47a0760318bf8ee6caed3d6b270f3c9e06786b3e6f83edc1253a59f7d5e9a9d"
+    },
+    "PRECOMPARISON_MANIFEST.json": {
+      "bytes": 698,
+      "sha256": "3d2e2ab37250187ed2e9f643eb5475ee01e72ae7eca8a82c4485579f85410a2a"
+    },
+    "REVIEW.md": {
+      "bytes": 8147,
+      "sha256": "ea4847b7324812e22dcb4d5963fc9cbee13937f0dc1c40a85f675dbeb51ae0f7"
+    },
+    "RUN.json": {
+      "bytes": 4187,
+      "sha256": "c16f31332489cf1f525bf25cdc9446c99410a107e0a3389ac29c8b0b8f8056d3"
+    },
+    "SIGNATURES.json": {
+      "bytes": 121016,
+      "sha256": "7a1fa0d29d368e2c93d304e182f90ff48408640c6b42b82fe00992044f3f1a4e"
+    },
+    "check_signatures_independent.py": {
+      "bytes": 10424,
+      "sha256": "5d920f33877559097b1aa095d33fc66a6b683ec65481365fccc90f43f5b28471"
+    },
+    "compare_author.py": {
+      "bytes": 9096,
+      "sha256": "6f0febe5053610054b57824dce3b72bcfddb89ceb394febaa92ac225d8b07c82"
+    }
+  },
+  "schema": "support12-structure-review-v7-frozen-files",
+  "status": "PASS within exact selected-local scope"
+}

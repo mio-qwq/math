@@ -1,0 +1,31 @@
+{
+  "schema": "crypto3-width7-frozen-author-manifest",
+  "files": [
+    {
+      "path": "CERTIFICATE.json",
+      "bytes": 6991,
+      "sha256": "ebbb99b6e0e61cc99e8d31d4b013f56b1334e37d4d048d7d62e3ad554796e1b9"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 5529,
+      "sha256": "574b5a39fb4ee0f9768401544027448f6593928f44e615b5cb5c0b49c93fa9fe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 588,
+      "sha256": "d8bdcd72490b7932f648ba4cd7038cd66d5107e9f690a442c8fff3fe80da64c2"
+    },
+    {
+      "path": "RUN.json",
+      "bytes": 729,
+      "sha256": "edc390b67444dcc5fe0778074673a9c7168f25591b804c7cc991d0039fda101a"
+    },
+    {
+      "path": "check.py",
+      "bytes": 4793,
+      "sha256": "75179120e3f8a0336058f5d2e1d53c94daf7ea3f1e87cd3079658dea9899e6ba"
+    }
+  ],
+  "scope": "Complete author proof; independent acceptance is separate."
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "crypto3-width7-author-replay",
+  "argv": [
+    "python",
+    "-B",
+    "workstreams/CRYPTO3-20261012/sha256-word-distance/dyadic-width-v7/check.py"
+  ],
+  "status": "PASS",
+  "exit_code": 0,
+  "stdout": "{\"actual_decomposition_samples\": 288, \"certificate_sha256\": \"ebbb99b6e0e61cc99e8d31d4b013f56b1334e37d4d048d7d62e3ad554796e1b9\", \"controls_rejected\": 4, \"original_bit_rows\": 32, \"samples_are_core_witnesses\": false, \"status\": \"PASS\", \"uses_solver\": false, \"valuation_layers\": 9}\n",
+  "stderr": "",
+  "seconds": 0.048814943998877425,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "checker_sha256": "75179120e3f8a0336058f5d2e1d53c94daf7ea3f1e87cd3079658dea9899e6ba"
+}

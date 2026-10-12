@@ -1,0 +1,34 @@
+{
+  "schema": "crypto3-actual-boundary-v6-sha256",
+  "manifest_self_hash": false,
+  "files": {
+    "CHECK_RUN.json": {
+      "bytes": 8769,
+      "sha256": "b544ef78286b9394ac87dcaa3e593db7d70cffdd500bb9d355063fb40474742d"
+    },
+    "EXECUTIONS.json": {
+      "bytes": 1657,
+      "sha256": "caeb91ab4bb872a7dec08c7bad08e2d1c12d4ff91b70521afcb10b22ef46d2d6"
+    },
+    "EXPERIMENT_PLAN.md": {
+      "bytes": 2442,
+      "sha256": "0c944b880a9f7e01505a02c9325452e6340178155850e67a95e85016b3975246"
+    },
+    "MASK_EXPERIMENT.json": {
+      "bytes": 242584,
+      "sha256": "0a4f6572eacd775de46fb8dc87a8dc76364171ab098c460b10c811ed321babc7"
+    },
+    "PROOF.md": {
+      "bytes": 10841,
+      "sha256": "572aed96c813c8f388802a70a80fd312ad23dc234424e49f898480ee209f5ace"
+    },
+    "check_actual_boundary.py": {
+      "bytes": 9523,
+      "sha256": "0ed1ce41bbf4a4775eb385c360ab060b2e988cfedd1a263a9124fec176e5a3af"
+    },
+    "finite_mask_experiment.py": {
+      "bytes": 4736,
+      "sha256": "4b96c8b7675c75289da24952f7c8cf52caefb0306cecff824ae628afe353c502"
+    }
+  }
+}

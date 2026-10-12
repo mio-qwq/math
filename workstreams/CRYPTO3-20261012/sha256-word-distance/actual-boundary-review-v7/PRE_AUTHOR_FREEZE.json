@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-12T18:22:11.499001+00:00",
+  "author_contact": "Only theorem statement, fixture scope statement and parent reported symbol mapping received; no actual-boundary-v6 or support12-structure-v7 byte read yet.",
+  "independent_files": {
+    "check_independent.py": "4980ed44e856e1e03b1e56bddc81f56ebeb39dfaf0095d627364f20732769563",
+    "INDEPENDENT_PROOF.md": "5936cabfa3de9b41a353b560f7ca5deaf84f057e68f8cef60349b13ed0ea9dd5",
+    "INDEPENDENT_RUN.json": "32cc2afa9e798df70d623522703d810ad1cbe475b59ded7f0cb97ff48c9af506"
+  },
+  "input_source": {
+    "supports-v2.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf"
+  },
+  "reviewer_symbols": {
+    "a": "d26=d42",
+    "b": "d18=d34=d11"
+  },
+  "parent_reported_author_symbols": {
+    "a": "d18",
+    "b": "d26"
+  }
+}

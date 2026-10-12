@@ -1,0 +1,598 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T18:21:32.415139+00:00",
+  "source_sha256": "4980ed44e856e1e03b1e56bddc81f56ebeb39dfaf0095d627364f20732769563",
+  "scope": "two actual sigma0 derivative pairs (b,-a),(a,-b) forbid any a or b equal +/-2^k,22<=k<=31",
+  "bridge": {
+    "source_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "reviewer_symbols": {
+      "a": "d26=d42",
+      "b": "d18=d34=d11"
+    },
+    "actual_pairs": {
+      "P": 18,
+      "Q": 26
+    },
+    "rows": [
+      {
+        "t": 18,
+        "row": {
+          "d18": 1,
+          "d11": -1
+        }
+      },
+      {
+        "t": 34,
+        "row": {
+          "d34": 1,
+          "d18": -1
+        }
+      },
+      {
+        "t": 42,
+        "row": {
+          "d42": 1,
+          "d26": -1
+        }
+      },
+      {
+        "t": 33,
+        "row": {
+          "d26": -1,
+          "F18": -1
+        }
+      },
+      {
+        "t": 41,
+        "row": {
+          "d34": -1,
+          "F26": -1
+        }
+      },
+      {
+        "t": 49,
+        "row": {
+          "d42": -1,
+          "F34": -1
+        }
+      }
+    ]
+  },
+  "sigma0_rows": [
+    "00040088",
+    "00080110",
+    "00100220",
+    "00200440",
+    "00400880",
+    "00801100",
+    "01002200",
+    "02004400",
+    "04008800",
+    "08011000",
+    "10022000",
+    "20044000",
+    "40088000",
+    "80110000",
+    "00220001",
+    "00440002",
+    "00880004",
+    "01100008",
+    "02200010",
+    "04400020",
+    "08800040",
+    "11000080",
+    "22000100",
+    "44000200",
+    "88000400",
+    "10000801",
+    "20001002",
+    "40002004",
+    "80004008",
+    "00008010",
+    "00010020",
+    "00020040"
+  ],
+  "inverse_rows": [
+    "677ea129",
+    "cefd4252",
+    "b3bf5094",
+    "2e45d431",
+    "5c8ba862",
+    "de69f1ed",
+    "f5e896c3",
+    "a2ea589f",
+    "6b91650e",
+    "d722ca1c",
+    "e77ee121",
+    "e0b81672",
+    "ef35f8d4",
+    "f02e2598",
+    "a9673e29",
+    "7c8ba862",
+    "9e69f1ed",
+    "75e896c3",
+    "8caf8caf",
+    "371acd6e",
+    "094b3bf5",
+    "129677ea",
+    "42524efd",
+    "84a49dfa",
+    "270cefc4",
+    "4e19df88",
+    "9c33bf10",
+    "715c0b39",
+    "85c6b75b",
+    "25c8ba86",
+    "4b91750c",
+    "9722ea18"
+  ],
+  "both_inverse_compositions_basis_vectors": 64,
+  "high_power_exponents": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "complete_inverse_masks": 55,
+  "table": [
+    {
+      "k": 22,
+      "complete_masks": 10,
+      "inverse_cases": [
+        {
+          "end": 22,
+          "output_mask": "00400000",
+          "inverse_input_mask": "385344eb",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 23,
+          "output_mask": "00c00000",
+          "inverse_input_mask": "48f5cd3d",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 24,
+          "output_mask": "01c00000",
+          "inverse_input_mask": "b1ef9a78",
+          "contradicting_low_bit": 3,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 25,
+          "output_mask": "03c00000",
+          "inverse_input_mask": "72868dd7",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 26,
+          "output_mask": "07c00000",
+          "inverse_input_mask": "c5091bac",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 27,
+          "output_mask": "0fc00000",
+          "inverse_input_mask": "831cca96",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 28,
+          "output_mask": "1fc00000",
+          "inverse_input_mask": "0f3768e2",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 29,
+          "output_mask": "3fc00000",
+          "inverse_input_mask": "263d952f",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 30,
+          "output_mask": "7fc00000",
+          "inverse_input_mask": "6c7f2a5c",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 4
+        },
+        {
+          "end": 31,
+          "output_mask": "ffc00000",
+          "inverse_input_mask": "f8fa54ba",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 4
+        }
+      ]
+    },
+    {
+      "k": 23,
+      "complete_masks": 9,
+      "inverse_cases": [
+        {
+          "end": 23,
+          "output_mask": "00800000",
+          "inverse_input_mask": "70a689d6",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 24,
+          "output_mask": "01800000",
+          "inverse_input_mask": "89bcde93",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 25,
+          "output_mask": "03800000",
+          "inverse_input_mask": "4ad5c93c",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 26,
+          "output_mask": "07800000",
+          "inverse_input_mask": "fd5a5f47",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 27,
+          "output_mask": "0f800000",
+          "inverse_input_mask": "bb4f8e7d",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 28,
+          "output_mask": "1f800000",
+          "inverse_input_mask": "37642c09",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 29,
+          "output_mask": "3f800000",
+          "inverse_input_mask": "1e6ed1c4",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 30,
+          "output_mask": "7f800000",
+          "inverse_input_mask": "542c6eb7",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 5
+        },
+        {
+          "end": 31,
+          "output_mask": "ff800000",
+          "inverse_input_mask": "c0a91051",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 5
+        }
+      ]
+    },
+    {
+      "k": 24,
+      "complete_masks": 8,
+      "inverse_cases": [
+        {
+          "end": 24,
+          "output_mask": "01000000",
+          "inverse_input_mask": "f91a5745",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 25,
+          "output_mask": "03000000",
+          "inverse_input_mask": "3a7340ea",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 26,
+          "output_mask": "07000000",
+          "inverse_input_mask": "8dfcd691",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 27,
+          "output_mask": "0f000000",
+          "inverse_input_mask": "cbe907ab",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 28,
+          "output_mask": "1f000000",
+          "inverse_input_mask": "47c2a5df",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 29,
+          "output_mask": "3f000000",
+          "inverse_input_mask": "6ec85812",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 30,
+          "output_mask": "7f000000",
+          "inverse_input_mask": "248ae761",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 6
+        },
+        {
+          "end": 31,
+          "output_mask": "ff000000",
+          "inverse_input_mask": "b00f9987",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 6
+        }
+      ]
+    },
+    {
+      "k": 25,
+      "complete_masks": 7,
+      "inverse_cases": [
+        {
+          "end": 25,
+          "output_mask": "02000000",
+          "inverse_input_mask": "c36917af",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 7
+        },
+        {
+          "end": 26,
+          "output_mask": "06000000",
+          "inverse_input_mask": "74e681d4",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 7
+        },
+        {
+          "end": 27,
+          "output_mask": "0e000000",
+          "inverse_input_mask": "32f350ee",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 7
+        },
+        {
+          "end": 28,
+          "output_mask": "1e000000",
+          "inverse_input_mask": "bed8f29a",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 7
+        },
+        {
+          "end": 29,
+          "output_mask": "3e000000",
+          "inverse_input_mask": "97d20f57",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 7
+        },
+        {
+          "end": 30,
+          "output_mask": "7e000000",
+          "inverse_input_mask": "dd90b024",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 7
+        },
+        {
+          "end": 31,
+          "output_mask": "fe000000",
+          "inverse_input_mask": "4915cec2",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 7
+        }
+      ]
+    },
+    {
+      "k": 26,
+      "complete_masks": 6,
+      "inverse_cases": [
+        {
+          "end": 26,
+          "output_mask": "04000000",
+          "inverse_input_mask": "b78f967b",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 8
+        },
+        {
+          "end": 27,
+          "output_mask": "0c000000",
+          "inverse_input_mask": "f19a4741",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 8
+        },
+        {
+          "end": 28,
+          "output_mask": "1c000000",
+          "inverse_input_mask": "7db1e535",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 8
+        },
+        {
+          "end": 29,
+          "output_mask": "3c000000",
+          "inverse_input_mask": "54bb18f8",
+          "contradicting_low_bit": 3,
+          "required_equal_low_bits": 8
+        },
+        {
+          "end": 30,
+          "output_mask": "7c000000",
+          "inverse_input_mask": "1ef9a78b",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 8
+        },
+        {
+          "end": 31,
+          "output_mask": "fc000000",
+          "inverse_input_mask": "8a7cd96d",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 8
+        }
+      ]
+    },
+    {
+      "k": 27,
+      "complete_masks": 5,
+      "inverse_cases": [
+        {
+          "end": 27,
+          "output_mask": "08000000",
+          "inverse_input_mask": "4615d13a",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 9
+        },
+        {
+          "end": 28,
+          "output_mask": "18000000",
+          "inverse_input_mask": "ca3e734e",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 9
+        },
+        {
+          "end": 29,
+          "output_mask": "38000000",
+          "inverse_input_mask": "e3348e83",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 9
+        },
+        {
+          "end": 30,
+          "output_mask": "78000000",
+          "inverse_input_mask": "a97631f0",
+          "contradicting_low_bit": 4,
+          "required_equal_low_bits": 9
+        },
+        {
+          "end": 31,
+          "output_mask": "f8000000",
+          "inverse_input_mask": "3df34f16",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 9
+        }
+      ]
+    },
+    {
+      "k": 28,
+      "complete_masks": 4,
+      "inverse_cases": [
+        {
+          "end": 28,
+          "output_mask": "10000000",
+          "inverse_input_mask": "8c2ba274",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 10
+        },
+        {
+          "end": 29,
+          "output_mask": "30000000",
+          "inverse_input_mask": "a5215fb9",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 10
+        },
+        {
+          "end": 30,
+          "output_mask": "70000000",
+          "inverse_input_mask": "ef63e0ca",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 10
+        },
+        {
+          "end": 31,
+          "output_mask": "f0000000",
+          "inverse_input_mask": "7be69e2c",
+          "contradicting_low_bit": 2,
+          "required_equal_low_bits": 10
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "complete_masks": 3,
+      "inverse_cases": [
+        {
+          "end": 29,
+          "output_mask": "20000000",
+          "inverse_input_mask": "290afdcd",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 11
+        },
+        {
+          "end": 30,
+          "output_mask": "60000000",
+          "inverse_input_mask": "634842be",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 11
+        },
+        {
+          "end": 31,
+          "output_mask": "e0000000",
+          "inverse_input_mask": "f7cd3c58",
+          "contradicting_low_bit": 3,
+          "required_equal_low_bits": 11
+        }
+      ]
+    },
+    {
+      "k": 30,
+      "complete_masks": 2,
+      "inverse_cases": [
+        {
+          "end": 30,
+          "output_mask": "40000000",
+          "inverse_input_mask": "4a42bf73",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 12
+        },
+        {
+          "end": 31,
+          "output_mask": "c0000000",
+          "inverse_input_mask": "dec7c195",
+          "contradicting_low_bit": 0,
+          "required_equal_low_bits": 12
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "complete_masks": 1,
+      "inverse_cases": [
+        {
+          "end": 31,
+          "output_mask": "80000000",
+          "inverse_input_mask": "94857ee6",
+          "contradicting_low_bit": 1,
+          "required_equal_low_bits": 13
+        }
+      ]
+    }
+  ],
+  "controls": [
+    "wrong inverse row rejected",
+    "actual word inverse accepted",
+    "ordinary sigma0 addition linearity rejected",
+    "positive addition wrap atbit31 included"
+  ],
+  "negative_orientation": "simultaneously swap both actual pairs; both a,b negate",
+  "member_exchange": "anti-cycle invariant under exchanging P and Q (and a,b)"
+}

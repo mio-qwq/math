@@ -1,0 +1,129 @@
+{
+  "all_four_support_bridges": [
+    {
+      "all_48_rows_reconstructed": true,
+      "reciprocal_and_d42_original_row_identities": true,
+      "shift": 0,
+      "support_index": 12
+    },
+    {
+      "all_48_rows_reconstructed": true,
+      "reciprocal_and_d42_original_row_identities": true,
+      "shift": 1,
+      "support_index": 6
+    },
+    {
+      "all_48_rows_reconstructed": true,
+      "reciprocal_and_d42_original_row_identities": true,
+      "shift": 3,
+      "support_index": 7
+    },
+    {
+      "all_48_rows_reconstructed": true,
+      "reciprocal_and_d42_original_row_identities": true,
+      "shift": 2,
+      "support_index": 13
+    }
+  ],
+  "author_comparison": {
+    "a16_necessary_b_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "all_1024_author_cases_match_blind_table": true,
+    "all_64_inverse_basis_identities": true,
+    "exact_309_transposed_entries_match": true,
+    "halfword_identities_and_valuation_mismatch": true
+  },
+  "author_source_sha256": {
+    "AUTHOR-RECEIPT.json": "56aa9bee3a1e1a75e75ed58e71cd03888a3ca1c51587e249a04140b4647193ba",
+    "CERTIFICATE.json": "383906352d2622e9dc071ca26a32d57355659ef683549072e632c47f817b60f6",
+    "CHECK-RUN.json": "f6b7f49a6965fd9189bbba1f189358c5ff090ea67223f50ef56cb236fc9eff5c",
+    "MECHANISM.md": "03b9d75d7fb43cd1690e89deb9bdbde8acf55a02c7b86c83319cfe86903d2f21",
+    "PROOF.md": "e5ac4955289a850266b4c6891f6cd1249324f4d6b840c6747212e556e08e1bb5",
+    "README.md": "e72b2f72b905d855f0f357e027c7db63c70121671ec1c3d6db073aa36bca01cb",
+    "build_certificate.py": "d7ca9a765e5dd7ec7433855721241de910c0c9813a51dcd4bfd2c37dab9c61a6",
+    "check.py": "d643121cc37136ad439862d89e1d839004639ca1384f2bdf2d3a3e5d361a26ea",
+    "manifest.json": "8a5d97b2f671ae416ed296267bc25df2835c053fa9d318b01bf5bc68c615288a"
+  },
+  "blind_manifest_sha256": "3d2e2ab37250187ed2e9f643eb5475ee01e72ae7eca8a82c4485579f85410a2a",
+  "blind_snapshot_unchanged": true,
+  "independent_signature_results": {
+    "anti_cycle_necessary_signatures": 309,
+    "forward_signatures": 417,
+    "homogeneous_form_method_agreements": 1024,
+    "l_at_least_18_cases": [
+      [
+        0,
+        18
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        3,
+        21
+      ],
+      [
+        4,
+        22
+      ],
+      [
+        5,
+        23
+      ]
+    ],
+    "max_k": 23,
+    "max_k_plus_l": 30,
+    "max_l": 23,
+    "original_48_row_bridge_identities": 9,
+    "systems_checked": 1024,
+    "verified_original_row_infeasibility_proofs": 607
+  },
+  "negative_controls_rejected": [
+    "missing_signature_case",
+    "zero_positive_witness",
+    "empty_infeasibility_xor",
+    "wrong_transposed_entry",
+    "wrong_f_inverse_column",
+    "wrong_g_inverse_column",
+    "false_halfword_valuation"
+  ],
+  "not_claimed": [
+    "309 numerical reciprocal pairs are all realizable",
+    "full support feasibility or exclusion",
+    "actual16word message pair",
+    "distance14",
+    "Lean",
+    "human review",
+    "historical novelty",
+    "publication"
+  ],
+  "reviewer": "independent AI mathematical reviewer",
+  "reviewer_comparison_source_sha256": "6f0febe5053610054b57824dce3b72bcfddb89ceb394febaa92ac225d8b07c82",
+  "scope": "Exact selected-local image equivalences, reciprocal-pair necessary restrictions and structural consequences only.",
+  "status": "PASS",
+  "written_claims_reviewed": {
+    "R_endpoints_disjoint_from_X_and_Y": "PASS conditional on fourth reciprocal coupling; not asserted for bare three-pair core",
+    "at_least_five_distinct_word_values": "PASS under selected four-pair model",
+    "four_pair_extra_D_in_R_A_iff_selected_local_equations": "PASS, additional forward-A preimage must exist; no base completion inferred",
+    "halfword_D_and_A_excluded_in_reciprocal_model": "PASS, valuation mismatch13 versus1 and f bijectivity",
+    "reciprocal_f_model_has_nonzero_solution": "PASS for every permutation of an even cyclic group by finite-sum and collision argument",
+    "three_pair_I_D_membership_iff_selected_local_core": "PASS, third pair reversed with both output signs changed"
+  }
+}

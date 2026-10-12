@@ -1,0 +1,15 @@
+{
+  "author_content_read": false,
+  "conclusion": "Nontrivial width/lift theorem valid for exact k=10..18. Common half decomposition valid k=9..18. k9 same representative formula is vacuous, while B=2A inference fails. k8 common parity row fails.",
+  "created_utc": "2026-10-12T18:11:38.212631+00:00",
+  "frozen_files_sha256": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "INDEPENDENT_PROOF.md": "b38d298ea40862c9642c574f68a9aa35f3360413113e6702b605806527656f3f",
+    "RUN.json": "f4fdf98cc63655d44510440dc5687c01f01e0863e40a9c8c7099ab7ab3beb5df",
+    "VERIFICATION.json": "7ebab061ce5ae0a344ea3d430e874ee68a34a5cdc75a6b56d4e8d8b3f073d77f",
+    "check_independent.py": "d4d80fa43a334e6318731fe2bdb8e4acfa367a77b99a322fe825ab40c94d8e22"
+  },
+  "independently_reconstructed_from": "Given candidate statement and original sigma1 rotation/shift definition.",
+  "key_bound": "B-2A=2qR-qY-qX, |B-2A|<4*2^22=2^24; not 3*2^23.",
+  "schema": "CRYPTO3-dyadic-width-pre-author-checkpoint-v7"
+}

@@ -1,0 +1,22 @@
+{
+  "author_v7_bytes_read": false,
+  "files": {
+    "INDEPENDENT_PROOF.md": {
+      "bytes": 6773,
+      "sha256": "052287f8cef797d7de4711d9e3954f126ebf9451533309648253ef1201df3e99"
+    },
+    "INDEPENDENT_RUN.json": {
+      "bytes": 1245,
+      "sha256": "e47a0760318bf8ee6caed3d6b270f3c9e06786b3e6f83edc1253a59f7d5e9a9d"
+    },
+    "SIGNATURES.json": {
+      "bytes": 121016,
+      "sha256": "7a1fa0d29d368e2c93d304e182f90ff48408640c6b42b82fe00992044f3f1a4e"
+    },
+    "check_signatures_independent.py": {
+      "bytes": 10424,
+      "sha256": "5d920f33877559097b1aa095d33fc66a6b683ec65481365fccc90f43f5b28471"
+    }
+  },
+  "schema": "support12-structure-review-v7-blind-precomparison-freeze"
+}

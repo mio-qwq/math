@@ -1,0 +1,97 @@
+{
+  "author_checker_imported_or_executed": false,
+  "author_directory": "../dyadic-width-v7",
+  "author_files": [
+    {
+      "bytes": 6991,
+      "path": "CERTIFICATE.json",
+      "sha256": "ebbb99b6e0e61cc99e8d31d4b013f56b1334e37d4d048d7d62e3ad554796e1b9"
+    },
+    {
+      "bytes": 5529,
+      "path": "PROOF.md",
+      "sha256": "574b5a39fb4ee0f9768401544027448f6593928f44e615b5cb5c0b49c93fa9fe"
+    },
+    {
+      "bytes": 588,
+      "path": "README.md",
+      "sha256": "d8bdcd72490b7932f648ba4cd7038cd66d5107e9f690a442c8fff3fe80da64c2"
+    },
+    {
+      "bytes": 729,
+      "path": "RUN.json",
+      "sha256": "edc390b67444dcc5fe0778074673a9c7168f25591b804c7cc991d0039fda101a"
+    },
+    {
+      "bytes": 4793,
+      "path": "check.py",
+      "sha256": "75179120e3f8a0336058f5d2e1d53c94daf7ea3f1e87cd3079658dea9899e6ba"
+    }
+  ],
+  "author_manifest_sha256": "a6eebd06e58db8b6ec1c98b4fa20e4c6cffdbd56e97cd36b14b8a6851dd27d35",
+  "common_half_decomposition_valid_k": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "created_utc": "2026-10-12T18:14:57.211452+00:00",
+  "decision": "accepted",
+  "finite_checks": {
+    "actual_pair_fixtures_each_with_reversal": 486,
+    "exact_author_comparison_exit_code": 0,
+    "g_rows": 32,
+    "independent_row_run_exit_code": 0,
+    "lift_boundary_fixtures": 162,
+    "malformed_controls_rejected": 4,
+    "nontrivial_layers": 9
+  },
+  "independent_reconstruction_before_author_read": true,
+  "joint_bound": "abs(B-2A) <= 4*(2^22-1) < 2^(k+14), valid already at k10.",
+  "k9_scope": "B=2A inference fails; same final signed-domain formula is vacuous and covers the whole valuation9 stratum.",
+  "nontrivial_valid_k": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "not_established": [
+    "separate high-valuation exclusion certificate",
+    "sigma0 joint feasibility",
+    "actual base interpolation",
+    "full support witness",
+    "distance at least14",
+    "historical originality",
+    "Lean or external human review"
+  ],
+  "pre_author_checkpoint_sha256": "dc7308c53472ad73eb4bdc0dd00d8a7e5f6a8f4bb68400d8600472c7209075fb",
+  "reversal_lift": "(-h) modulo 2^(18-k)",
+  "review_files_sha256": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "COMPARISON-RUN.json": "c9c1b87b5977282cf2baab72ef377a4b6a5afc726b6140824896301b13b28e0f",
+    "COMPARISON.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "INDEPENDENT_PROOF.md": "b38d298ea40862c9642c574f68a9aa35f3360413113e6702b605806527656f3f",
+    "PRE-AUTHOR-CHECKPOINT.json": "dc7308c53472ad73eb4bdc0dd00d8a7e5f6a8f4bb68400d8600472c7209075fb",
+    "README.md": "1a42ea85e23c312114edb77e9f5e0e13de287ec89c1411933003cf966e6c4da0",
+    "REVIEW.md": "518a5e7d0589b87d598cc86855cd321d91726893a1ccef77e36ac9e263829611",
+    "RUN.json": "f4fdf98cc63655d44510440dc5687c01f01e0863e40a9c8c7099ab7ab3beb5df",
+    "SOURCE_COMPARISON.json": "c46aca6d02128f5c02d70e8bae8fe50188320796c1934e91e99e56b40bfb562a",
+    "VERIFICATION.json": "7ebab061ce5ae0a344ea3d430e874ee68a34a5cdc75a6b56d4e8d8b3f073d77f",
+    "check_independent.py": "d4d80fa43a334e6318731fe2bdb8e4acfa367a77b99a322fe825ab40c94d8e22",
+    "compare_author.py": "49652eb8f71d1da2a7b8023aa06f77f61c5e67f5c0e5d8514521f0fab01edfea"
+  },
+  "samples_are_full_core_witnesses": false,
+  "schema": "CRYPTO3-dyadic-width-independent-acceptance-v7",
+  "scope": "Complete necessary dyadic width/lift lemma for actual three-pair gaps, exact k=10..18. Written proof plus independent row/range/lift implementation checks; not Lean or human peer review."
+}

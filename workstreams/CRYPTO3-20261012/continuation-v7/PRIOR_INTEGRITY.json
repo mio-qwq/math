@@ -1,0 +1,56 @@
+{
+  "schema": "crypto3-stage7-prior-integrity-audit",
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "seconds": 0.2087599720034632,
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/check_manifest.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"files_checked\": 203, \"manifest_sha256\": \"a5581984839896e0bd50f99feae34ea06d7daba8112d998097d3cf9ea85f51b0\", \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "checker_sha256": "dc215f305a47212e02f9873f82eb56060e1849aa0d58721935b260b30fcd8d33"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/continuation-v4/replay.py",
+        "--manifest-only"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"files_checked\": 111, \"manifest_sha256\": \"ce83da67428cc236982612acf2f1dd35d26f54c8888e223216737d7256c0f25f\", \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "checker_sha256": "e6c3f9b31bfa605ac82ffda7fbccfa0a54c8abc097d28fe3bdcfcb75ba975207"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/continuation-v5/replay.py",
+        "--manifest-only"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"files_checked\": 47, \"sha256\": \"18dd4dfb6db4be7fb2e1365c059e765079133738a98a41ce2f482ee86ebf7f41\", \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "checker_sha256": "81c59dd936da7f14a4d8837881c458590f6122b11dc98a16f38b5f379e8c516f"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/continuation-v6/replay.py",
+        "--manifest-only"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"files_checked\": 107, \"sha256\": \"93acbf56a4aef563f6a7bcb4e98190ec85257c2b67bf2dba98fad7163263080b\", \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "checker_sha256": "ecee271ab95e17edf371bed71484be03649f4f09540340f0d2ec7160458db261"
+    }
+  ],
+  "older_large_enumerations_rerun": false
+}
