@@ -15,9 +15,13 @@
       "bytes": 1491,
       "sha256": "fffd53df08cd540c924aed088f3dd64e743ee31519a531aad26545775ba3406c"
     },
+    "ORIENTED_TRACE_COEFFICIENT_OBSTACLE.md": {
+      "bytes": 3157,
+      "sha256": "883ef61addc08f11344cca0205484c81cee8ae8dfcd90d4e5adb59a500777a95"
+    },
     "README.md": {
-      "bytes": 3384,
-      "sha256": "dea6e3978c34986b093c4bc0c5323a5d073a2ba1ef7d2536279e485511b87840"
+      "bytes": 3889,
+      "sha256": "292ed6ae6fc82109a7460923ea30db026ff6d38812c2614f913b1f90c2583f11"
     },
     "RECIPROCAL_TRACE_BOUND.md": {
       "bytes": 9728,
@@ -34,6 +38,14 @@
     "mixed_class_witness.json": {
       "bytes": 3302,
       "sha256": "b93fef87a3181b98a4fc5aebf3fc83c84a363debd9cd90dab3b62f056b8fcb09"
+    },
+    "oriented_quarter_check.log": {
+      "bytes": 676,
+      "sha256": "d8cc44ae4020ebaf2aec3eeed391978809709e5269bdf7607ccad6b4f6396045"
+    },
+    "oriented_quarter_counterexample.json": {
+      "bytes": 1216,
+      "sha256": "6bc98db88f60ce5ff2a2b3229a5b9bf7a81cc791a8a1c18a9e8ca9eecb3f1b5e"
     },
     "trace_certificate.json": {
       "bytes": 961,
@@ -70,6 +82,10 @@
     "verify_mixed_class_obstacle.py": {
       "bytes": 2553,
       "sha256": "b169f0068946e431bcb7555beca5dbaacc7f7d42c4be07670c33754bbd84972c"
+    },
+    "verify_oriented_quarter_counterexample.py": {
+      "bytes": 3724,
+      "sha256": "b754741b798a6bdf46fcecea31699a80afb2e8e935dbad58efc57f5adbaf0572"
     },
     "verify_reciprocal_trace_bound.py": {
       "bytes": 9622,

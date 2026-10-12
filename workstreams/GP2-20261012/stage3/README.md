@@ -70,3 +70,12 @@ levels and triple choices, or a uniform forced-orbit loss certificate.
 Simply tuning the scalar trace coefficient would give only a small further
 gain. Neither a solver timeout nor a finite fixed-label cover can certify
 that missing uniform bridge.
+
+The follow-up file
+[`ORIENTED_TRACE_COEFFICIENT_OBSTACLE.md`](ORIENTED_TRACE_COEFFICIENT_OBSTACLE.md)
+now rules out one tempting shortcut exactly. Even with zero diagonal and no
+digons, the proposed coefficient `1/4` fails: a certified 24-vertex
+orientation has ratio `6385/26889<1/4`. Its standard-library checker expands
+all `24^4` ordered quadruples and rejects two damaged inputs. This negative
+result leaves the bound above unchanged and reinforces the mixed-class or
+canonical-interface direction.

@@ -1,0 +1,17 @@
+COMMAND: python workstreams/GP2-20261012/stage3/verify_oriented_quarter_counterexample.py
+STATUS: PASS
+COUNTS: T=5505 L=880 Y=4654 X=2799 R4=53778
+RATIO: 2(T+L)/R4=6385/26889
+QUARTER_GAP: R4-8(T+L)=2698
+EQUIVALENT_GAP: 4X+2Y-3(T+L)=1349
+NEGATIVE_CONTROL: R4+1 rejected (R4 binding)
+NEGATIVE_CONTROL: inserted digon rejected (no digons)
+
+COMMAND: python -O workstreams/GP2-20261012/stage3/verify_oriented_quarter_counterexample.py
+STATUS: PASS
+COUNTS: T=5505 L=880 Y=4654 X=2799 R4=53778
+RATIO: 2(T+L)/R4=6385/26889
+QUARTER_GAP: R4-8(T+L)=2698
+EQUIVALENT_GAP: 4X+2Y-3(T+L)=1349
+NEGATIVE_CONTROL: R4+1 rejected (R4 binding)
+NEGATIVE_CONTROL: inserted digon rejected (no digons)

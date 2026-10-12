@@ -62,6 +62,15 @@ entry point did not produce a mathematical counterexample.
    this branch and check the remote tree. Maintain main and all other owners
    unchanged. No DOI, submission or main merge is authorized.
 
+The first scalar-coefficient follow-up has now been closed negatively. The
+orientation conditions `M_xx=0` and `M_xy M_yx=0` do **not** imply
+`2(T+L)>=tr((M+M^t)^4)/4`: the exact 24-vertex certificate in
+`stage3/ORIENTED_TRACE_COEFFICIENT_OBSTACLE.md` has ratio
+`6385/26889<1/4`. Both ordinary and optimized exact checks pass, including
+two tamper controls. This does not change the current lambda bound. Do not
+restart from small-order evidence for `1/4`; seek a rigorously smaller
+coefficient or, preferably, exploit mixed classes/canonical interfaces.
+
 Lean 4.34.1 is the intended pinned toolchain, but the recovered local launcher
 actually exits with `failed to locate application`; no successful compilation
 is claimed. Resolve this environment issue before any formalization claim.
