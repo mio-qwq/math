@@ -26,6 +26,8 @@ def main():
     parser.add_argument('--build-dir', type=Path, required=True)
     parser.add_argument('--output-dir', type=Path, required=True)
     parser.add_argument('--include-structure', action='store_true')
+    parser.add_argument('--include-six-cycles', action='store_true',
+                        help='also rebuild ModelStructure and SixCycleInvariant')
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
     build = args.build_dir.resolve()
@@ -43,8 +45,11 @@ def main():
     assert '5045d0056413266e57c625dcd7c365b10e377c52' in version
     start = time.perf_counter()
     runs = []
+    structure = args.include_structure or args.include_six_cycles
     modules = MODULES + ([('ModelStructure', 'Struct2.ModelStructure')]
-                         if args.include_structure else [])
+                         if structure else [])
+    if args.include_six_cycles:
+        modules += [('SixCycleInvariant', 'Struct2.SixCycleInvariant')]
     for module, namespace in modules:
         source = root / (module + '.lean')
         raw = source.read_text()
@@ -90,8 +95,9 @@ def main():
               'seconds': round(time.perf_counter() - start, 6), 'runs': runs,
               'audit_count': sum(len(r['axioms']) for r in runs), 'success': True,
               'scope': ('Every odd n>=1: original named-leaf bijection, typed CG CDC/model graph isomorphism, all adjacency and deck intertwining. '
-                        + ('Actual connected bipartite model and original CDC, actual strong decks, original deck fold recovery and instantiated full-automorphism fold/conjugacy equivalence. ' if args.include_structure else '')
-                        + 'No all-n six-cycle invariant, full group classification or exact cousin-count Lean theorem.')}
+                        + ('Actual connected bipartite model and original CDC, actual strong decks, original deck fold recovery and instantiated full-automorphism fold/conjugacy equivalence. ' if structure else '')
+                        + ('Symbolic six-cycle characterization for the model at n>=2 and original CDC at odd n>=3; arbitrary actual automorphisms preserve centre, leaf and ring types; explicit n=1 exception. ' if args.include_six_cycles else 'No all-n six-cycle invariant. ')
+                        + 'No full group classification or exact cousin-count Lean theorem.')}
     (output / 'verification.json').write_text(json.dumps(report, indent=2, sort_keys=True) + '\n')
     print('TOTAL PASS:', report['audit_count'], 'audits;', report['seconds'], 'seconds')
 

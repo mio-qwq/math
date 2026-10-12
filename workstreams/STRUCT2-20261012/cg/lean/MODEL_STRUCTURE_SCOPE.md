@@ -48,7 +48,9 @@ cross-check of the original coordinate bridge has its separate receipt.
 
 ## What remains
 
-The universal six-cycle type invariant at n>=3, full automorphism upper
+The universal six-cycle type invariant at n>=3 is now proved in the
+separate `SixCycleInvariant.lean` module; see `SIX_CYCLE_SCOPE.md` for its
+actual source-transfer and verification scope. The full automorphism upper
 bound, exhaustive strong-guide/conjugacy classification and exactly-two
 TF-cousin Lean conclusion remain unformalized. The full all-odd written
 theorem and its older independent review retain their separate scopes.

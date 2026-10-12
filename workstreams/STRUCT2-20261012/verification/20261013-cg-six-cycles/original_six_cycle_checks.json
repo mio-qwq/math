@@ -1,0 +1,844 @@
+{
+  "cases": [
+    {
+      "centre_iff_no_six_cycle": false,
+      "n": 1,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "6": 2
+        },
+        "leaf": {
+          "6": 6
+        },
+        "ring": {
+          "6": 12
+        }
+      },
+      "vertices": 20
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 3,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 6
+        },
+        "leaf": {
+          "2": 18
+        },
+        "ring": {
+          "2": 36
+        }
+      },
+      "vertices": 60
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 5,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 10
+        },
+        "leaf": {
+          "2": 30
+        },
+        "ring": {
+          "2": 60
+        }
+      },
+      "vertices": 100
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 7,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 14
+        },
+        "leaf": {
+          "2": 42
+        },
+        "ring": {
+          "2": 84
+        }
+      },
+      "vertices": 140
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 9,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 18
+        },
+        "leaf": {
+          "2": 54
+        },
+        "ring": {
+          "2": 108
+        }
+      },
+      "vertices": 180
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 11,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 22
+        },
+        "leaf": {
+          "2": 66
+        },
+        "ring": {
+          "2": 132
+        }
+      },
+      "vertices": 220
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 13,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 26
+        },
+        "leaf": {
+          "2": 78
+        },
+        "ring": {
+          "2": 156
+        }
+      },
+      "vertices": 260
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 15,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 30
+        },
+        "leaf": {
+          "2": 90
+        },
+        "ring": {
+          "2": 180
+        }
+      },
+      "vertices": 300
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 17,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 34
+        },
+        "leaf": {
+          "2": 102
+        },
+        "ring": {
+          "2": 204
+        }
+      },
+      "vertices": 340
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 19,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 38
+        },
+        "leaf": {
+          "2": 114
+        },
+        "ring": {
+          "2": 228
+        }
+      },
+      "vertices": 380
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 21,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 42
+        },
+        "leaf": {
+          "2": 126
+        },
+        "ring": {
+          "2": 252
+        }
+      },
+      "vertices": 420
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 23,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 46
+        },
+        "leaf": {
+          "2": 138
+        },
+        "ring": {
+          "2": 276
+        }
+      },
+      "vertices": 460
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 25,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 50
+        },
+        "leaf": {
+          "2": 150
+        },
+        "ring": {
+          "2": 300
+        }
+      },
+      "vertices": 500
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 27,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 54
+        },
+        "leaf": {
+          "2": 162
+        },
+        "ring": {
+          "2": 324
+        }
+      },
+      "vertices": 540
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 29,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 58
+        },
+        "leaf": {
+          "2": 174
+        },
+        "ring": {
+          "2": 348
+        }
+      },
+      "vertices": 580
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 31,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 62
+        },
+        "leaf": {
+          "2": 186
+        },
+        "ring": {
+          "2": 372
+        }
+      },
+      "vertices": 620
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 33,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 66
+        },
+        "leaf": {
+          "2": 198
+        },
+        "ring": {
+          "2": 396
+        }
+      },
+      "vertices": 660
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 35,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 70
+        },
+        "leaf": {
+          "2": 210
+        },
+        "ring": {
+          "2": 420
+        }
+      },
+      "vertices": 700
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 37,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 74
+        },
+        "leaf": {
+          "2": 222
+        },
+        "ring": {
+          "2": 444
+        }
+      },
+      "vertices": 740
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 39,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 78
+        },
+        "leaf": {
+          "2": 234
+        },
+        "ring": {
+          "2": 468
+        }
+      },
+      "vertices": 780
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 41,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 82
+        },
+        "leaf": {
+          "2": 246
+        },
+        "ring": {
+          "2": 492
+        }
+      },
+      "vertices": 820
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 43,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 86
+        },
+        "leaf": {
+          "2": 258
+        },
+        "ring": {
+          "2": 516
+        }
+      },
+      "vertices": 860
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 45,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 90
+        },
+        "leaf": {
+          "2": 270
+        },
+        "ring": {
+          "2": 540
+        }
+      },
+      "vertices": 900
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 47,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 94
+        },
+        "leaf": {
+          "2": 282
+        },
+        "ring": {
+          "2": 564
+        }
+      },
+      "vertices": 940
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 49,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 98
+        },
+        "leaf": {
+          "2": 294
+        },
+        "ring": {
+          "2": 588
+        }
+      },
+      "vertices": 980
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 51,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 102
+        },
+        "leaf": {
+          "2": 306
+        },
+        "ring": {
+          "2": 612
+        }
+      },
+      "vertices": 1020
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 53,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 106
+        },
+        "leaf": {
+          "2": 318
+        },
+        "ring": {
+          "2": 636
+        }
+      },
+      "vertices": 1060
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 55,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 110
+        },
+        "leaf": {
+          "2": 330
+        },
+        "ring": {
+          "2": 660
+        }
+      },
+      "vertices": 1100
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 57,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 114
+        },
+        "leaf": {
+          "2": 342
+        },
+        "ring": {
+          "2": 684
+        }
+      },
+      "vertices": 1140
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 59,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 118
+        },
+        "leaf": {
+          "2": 354
+        },
+        "ring": {
+          "2": 708
+        }
+      },
+      "vertices": 1180
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 61,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 122
+        },
+        "leaf": {
+          "2": 366
+        },
+        "ring": {
+          "2": 732
+        }
+      },
+      "vertices": 1220
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 63,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 126
+        },
+        "leaf": {
+          "2": 378
+        },
+        "ring": {
+          "2": 756
+        }
+      },
+      "vertices": 1260
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 65,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 130
+        },
+        "leaf": {
+          "2": 390
+        },
+        "ring": {
+          "2": 780
+        }
+      },
+      "vertices": 1300
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 67,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 134
+        },
+        "leaf": {
+          "2": 402
+        },
+        "ring": {
+          "2": 804
+        }
+      },
+      "vertices": 1340
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 69,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 138
+        },
+        "leaf": {
+          "2": 414
+        },
+        "ring": {
+          "2": 828
+        }
+      },
+      "vertices": 1380
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 71,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 142
+        },
+        "leaf": {
+          "2": 426
+        },
+        "ring": {
+          "2": 852
+        }
+      },
+      "vertices": 1420
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 73,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 146
+        },
+        "leaf": {
+          "2": 438
+        },
+        "ring": {
+          "2": 876
+        }
+      },
+      "vertices": 1460
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 75,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 150
+        },
+        "leaf": {
+          "2": 450
+        },
+        "ring": {
+          "2": 900
+        }
+      },
+      "vertices": 1500
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 77,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 154
+        },
+        "leaf": {
+          "2": 462
+        },
+        "ring": {
+          "2": 924
+        }
+      },
+      "vertices": 1540
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 79,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 158
+        },
+        "leaf": {
+          "2": 474
+        },
+        "ring": {
+          "2": 948
+        }
+      },
+      "vertices": 1580
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 81,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 162
+        },
+        "leaf": {
+          "2": 486
+        },
+        "ring": {
+          "2": 972
+        }
+      },
+      "vertices": 1620
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 83,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 166
+        },
+        "leaf": {
+          "2": 498
+        },
+        "ring": {
+          "2": 996
+        }
+      },
+      "vertices": 1660
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 85,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 170
+        },
+        "leaf": {
+          "2": 510
+        },
+        "ring": {
+          "2": 1020
+        }
+      },
+      "vertices": 1700
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 87,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 174
+        },
+        "leaf": {
+          "2": 522
+        },
+        "ring": {
+          "2": 1044
+        }
+      },
+      "vertices": 1740
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 89,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 178
+        },
+        "leaf": {
+          "2": 534
+        },
+        "ring": {
+          "2": 1068
+        }
+      },
+      "vertices": 1780
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 91,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 182
+        },
+        "leaf": {
+          "2": 546
+        },
+        "ring": {
+          "2": 1092
+        }
+      },
+      "vertices": 1820
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 93,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 186
+        },
+        "leaf": {
+          "2": 558
+        },
+        "ring": {
+          "2": 1116
+        }
+      },
+      "vertices": 1860
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 95,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 190
+        },
+        "leaf": {
+          "2": 570
+        },
+        "ring": {
+          "2": 1140
+        }
+      },
+      "vertices": 1900
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 97,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 194
+        },
+        "leaf": {
+          "2": 582
+        },
+        "ring": {
+          "2": 1164
+        }
+      },
+      "vertices": 1940
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 99,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 198
+        },
+        "leaf": {
+          "2": 594
+        },
+        "ring": {
+          "2": 1188
+        }
+      },
+      "vertices": 1980
+    },
+    {
+      "centre_iff_no_six_cycle": true,
+      "n": 101,
+      "six_cycle_incidence_histograms": {
+        "centre": {
+          "0": 202
+        },
+        "leaf": {
+          "2": 606
+        },
+        "ring": {
+          "2": 1212
+        }
+      },
+      "vertices": 2020
+    }
+  ],
+  "controls_detected": [
+    "n=1 centre exception",
+    "isolated damaged ring vertex"
+  ],
+  "lean_source_sha256": "3daf24de1be3664b566f3bce0d388c08f4b93c63de21061870f7b8faa32303d0",
+  "n_one_exception": {
+    "n": 1,
+    "original_centre_vertex": 12,
+    "six_cycle": [
+      12,
+      15,
+      0,
+      3,
+      4,
+      19
+    ]
+  },
+  "original_definition_sha256": "5eee16b8d3ecd40d0319c8ff4c5bbc2c8758869d87db8a0e2798f8e9cc12277e",
+  "python": "3.12.14",
+  "scope": "Finite original-adjacency cross-check; no automorphism search. Exactly two cycle incidences at each noncentre is a finite observation here; Lean proves existence/nonexistence and type invariance, not the complete six-cycle catalogue.",
+  "seconds": 2.051097,
+  "source_sha256": "ba7a9620fc65f98d6cd9378003a8db9a4bbbb8c3ab123bae072e0229abfe08b8",
+  "success": true,
+  "utc": "2026-10-12T18:22:41.910567+00:00"
+}
