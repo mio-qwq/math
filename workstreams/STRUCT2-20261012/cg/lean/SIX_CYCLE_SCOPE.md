@@ -59,8 +59,9 @@ human review of the new formalization.
 
 ## Next proof gap
 
-Restrict an arbitrary actual automorphism to the two ring components,
-prove that the two ring actions agree through their matched leaves, and
-derive the dihedral action together with the optional ring interchange.
+The subsequent `RingAction.lean` and `CycleRigidity.lean` synchronize the
+two ring actions and prove an injective encoding of all original CDC
+automorphisms into Fin(24n); see `UPPER_BOUND_SCOPE.md`.
+Construct the matching explicit dihedral parameter family next.
 The exhaustive strong-switch classes, conjugacy and exactly-two TF-cousin
 conclusion remain written/previously reviewed but not fully formalized.

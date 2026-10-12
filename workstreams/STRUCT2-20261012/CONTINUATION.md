@@ -14,6 +14,7 @@ First continuation research commit:
 | CG all-odd coordinate bridge | [Original CDC/model isomorphism](cg/lean/ODD_COVER_SCOPE.md) | Every odd n>=1, all original edges and deck map; 37 dependency-chain audits and original-definition cross-checks through n=101 |
 | CG connectedness and folds | [Actual connected model/CDC, strong decks and original fold](cg/lean/MODEL_STRUCTURE_SCOPE.md) | Universal graph-walk proofs; 50 dependency-chain audits; full automorphism count remains separate |
 | CG universal type invariant | [Six-cycle characterization and arbitrary-automorphism type preservation](cg/lean/SIX_CYCLE_SCOPE.md) | Original CDC for every odd n>=3; 71 dependency-chain audits; original-edge cross-checks through n=101; n=1 exception retained |
+| CG full automorphism upper bound | [Synchronized rings and actual finite embedding](cg/lean/UPPER_BOUND_SCOPE.md) | Every odd n>=3; all original CDC automorphisms inject into Fin(24n); 94 dependency-chain audits; matching family construction remains separate |
 | CG/theta replay | [New execution receipts](verification/20261012-continuation/) | CG n=1,3,5,7; CG(3) Lean; 19 actual theta graphs; 1,942 legal scalar triples at n<=40 |
 | Theta manuscript | [Seven-page draft](theta/paper/README.md) | Full written proofs retained; rendered PDF QA passed; this reorganization awaits new independent review |
 | C66 expectation | [Second order and effective remainder](c66/SECOND_ORDER.md) | Written candidate and exact graph/DSU checks; independent acceptance pending |
@@ -26,7 +27,7 @@ The C66 limit overlaps an existing publicly posted proof claim; quantitative
 formulas require review on their own scope.
 
 Ownership and next steps are in `coordination/agents/STRUCT2-20261012.md`.
-The next useful work is the CG synchronized ring-action/dihedral upper bound, independent
+The next useful work is the CG explicit dihedral parameter-family and strong-switch classification, independent
 acceptance of C66, and the sparse boundary p=(4 log n-4)/n. Further prior-art
 search should include incidence-matrix stabilizers and Burnside expectations.
 

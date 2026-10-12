@@ -1,0 +1,28 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/ring-rigidity/OddCoordinates.olean OddCoordinates.lean
+'Struct2.OddCoordinates.bit_add_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.halfShift_involutive' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.reduceHalf_is_mod' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.halfShift_bit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.joinHalf_reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.fromCover_toCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.toCover_fromCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.toCover_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.toCover_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.coordinateDeck_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.halfShift_cycleNext' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.ringAdj_halfShift' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.ringAdj_bits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.centreOfLeaf_is_mod' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.centreResidue_bit' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.centreOfLeaf_coordinate' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.cycleNext_is_mod' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.centreResidue_is_mod' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.leafName_index' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.leafIndex_name' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.centre_named_leaf' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.original_ring_leaf_incidence' depends on axioms: [propext, Quot.sound]
+'Struct2.OddCoordinates.toCover_adjacency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoordinates.coordinateDeck_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT CODE: 0
