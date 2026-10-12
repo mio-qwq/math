@@ -1,0 +1,87 @@
+{
+  "bundle_filename": "GP2-20261013-complete.bundle",
+  "bundle_sha256": "80e926424d82ab136dac6850dddf6e8b4e628cdd29a86574a508d75f88e83e87",
+  "signed_head": "fec858c5f1edc36ad6335656a230f324959eee17",
+  "chunks": [
+    {
+      "name": "000.b64",
+      "char_len": 245760,
+      "file_sha256": "dcf023c8cd3e458189d1fdcfcfbc29cd583515c81657f5bca2489e17b8ccad39"
+    },
+    {
+      "name": "001.b64",
+      "char_len": 245760,
+      "file_sha256": "e04bef9184efd8e64f18e9945b9d5fc758eb261e5330adf949f914d8a01b7601"
+    },
+    {
+      "name": "002.b64",
+      "char_len": 245760,
+      "file_sha256": "285c031eef231ad37dd9c2e2c1eef3e2037839035ff029f4515ecde58ceeed5e"
+    },
+    {
+      "name": "003.b64",
+      "char_len": 245760,
+      "file_sha256": "68d8a6e68f7500533e2345d8f5f38e294098c16b998e092a1b382da4c7996777"
+    },
+    {
+      "name": "004.b64",
+      "char_len": 245760,
+      "file_sha256": "84164a87560877cb730ffc569a566a0cf822cf62cd3276905262b320ec30b750"
+    },
+    {
+      "name": "005.b64",
+      "char_len": 245760,
+      "file_sha256": "c7ef40e8d6788f9affd576018d9933631fd93d6199dc456bbb36360c5338ea90"
+    },
+    {
+      "name": "006.b64",
+      "char_len": 245760,
+      "file_sha256": "c84405415f0fe877d719ae0dfb426bb027032aa17fc218fa68583484a9481cc0"
+    },
+    {
+      "name": "007.b64",
+      "char_len": 245760,
+      "file_sha256": "3ee4fafd7f0d451e4bb28b9c280f1a4705d71277025c53b02266b44f2cc8fe81"
+    },
+    {
+      "name": "008.b64",
+      "char_len": 245760,
+      "file_sha256": "d131d2a74de05d1fc0d8479d0e06593e90809a009f7262a23693bec318814fb0"
+    },
+    {
+      "name": "009.b64",
+      "char_len": 245760,
+      "file_sha256": "f5d36289c886ed659eaab265c580f48fe331ae61353ed87f6fc70dd390a4ec36"
+    },
+    {
+      "name": "010.b64",
+      "char_len": 245760,
+      "file_sha256": "28ddb8648f6f56d272d481713499077b24a8b6661317a6defce5027cc7446f02"
+    },
+    {
+      "name": "011.b64",
+      "char_len": 245760,
+      "file_sha256": "09f1c7c244eaebaa6cfe3d24413b43e3104875906bf0d2c53d826082a18c282f"
+    },
+    {
+      "name": "012.b64",
+      "char_len": 245760,
+      "file_sha256": "1dfe06c361770ec2b6fcc865c33ceaf17626af61ef23d88bab2b7dcf08144b10"
+    },
+    {
+      "name": "013.b64",
+      "char_len": 245760,
+      "file_sha256": "05818b7c05470aa6da3919bcc7ef9d530496251ef52655d512b8276a6c1ac157"
+    },
+    {
+      "name": "014.b64",
+      "char_len": 245760,
+      "file_sha256": "01e330befb763a53596bd850b621ef5c7814e2f05e4fda3dd5956ca5a53f03ac"
+    },
+    {
+      "name": "015.b64",
+      "char_len": 99648,
+      "file_sha256": "4053d6a70c43e805b7f5431420c5d712b1d49a8fe01f79987bc8dccc0d8b6b5d"
+    }
+  ]
+}
