@@ -1,0 +1,405 @@
+{
+  "schema": "CRYPTO3-v16-core-batch-independent-review-v1",
+  "status": "ACCEPT",
+  "per_q": [
+    {
+      "q": 5,
+      "D": "00050000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "0d12389970748ee281e73f5cdac14311987c799a847bc87fb694ece1b46fa7f6",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions": 9205,
+        "sha256": "98636e3ab04227983dcfe68754ca2af7cf2e23fe99dd164b1ac508f55a8444ce",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 4.763862972002244
+      },
+      "near_miss_dropping_final_G": {
+        "words": [
+          "bfff89ab",
+          "bfff89a3",
+          "3fffe0c9"
+        ],
+        "equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "reversal_control": {
+        "shifted_words": [
+          "c00489ab",
+          "c00489a3",
+          "4004e0c9"
+        ],
+        "reverse_D": "fffb0000",
+        "pointwise_derivative_negation": true,
+        "equation_vector_preserved": true,
+        "original_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        },
+        "reversed_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "proof_mutation_rejected": true,
+        "proof_mutation": "proof addition 2 first literal flipped from 966 to -966",
+        "drop_final_G_64_clauses_rejected": true,
+        "weakened_proof_failure": "non-RUP addition 54: (82, 75, -956, -947, 84, 1228, 987, -986)",
+        "single_final_G_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "single_clause_failure": "non-RUP addition 933: (1174, -1175, 1172, -950, 997, -514, 956, -1109, 958, 1077, -86, -515, -81, 951, 79, 108, 966, 953, 1229, 1228, -109, -107)"
+      }
+    },
+    {
+      "q": 13,
+      "D": "000d0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "1df928754d23acefa41d4ac7d7fc010e0ca49fe7f993816d3e413bc409f8cee5",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions": 6720,
+        "sha256": "9b86c318437dab55ae07bf2848f2bd84f87d883e6d115359d3182e26843ff0cc",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.0468067420006264
+      },
+      "near_miss_dropping_final_G": {
+        "words": [
+          "bffb96fd",
+          "bffb96e5",
+          "3ff3ff87"
+        ],
+        "equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "reversal_control": {
+        "shifted_words": [
+          "c00896fd",
+          "c00896e5",
+          "4000ff87"
+        ],
+        "reverse_D": "fff30000",
+        "pointwise_derivative_negation": true,
+        "equation_vector_preserved": true,
+        "original_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        },
+        "reversed_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "proof_mutation_rejected": true,
+        "proof_mutation": "proof addition 2 first literal flipped from 966 to -966",
+        "drop_final_G_64_clauses_rejected": true,
+        "weakened_proof_failure": "non-RUP addition 49: (-78, -983, -952, 1255, 1256, -80)",
+        "single_final_G_clause_removed_rejected": true,
+        "removed_base_clause_number": 9681,
+        "single_clause_failure": "non-RUP addition 430: (1225, -514, 1257, 952, 986, 80)"
+      }
+    },
+    {
+      "q": 21,
+      "D": "00150000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "75de735eae881cd13e9cc9ae08996d9ce81d31799b970914e555f2281e64b350",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions": 5879,
+        "sha256": "0c8ef607e98c1929b971aed54d683a68d4cadcc229f326494992f180e8bbbb4b",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 1.9538564780013985
+      },
+      "near_miss_dropping_final_G": {
+        "words": [
+          "7ffd484d",
+          "7ffd595f",
+          "ffedfcfc"
+        ],
+        "equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "reversal_control": {
+        "shifted_words": [
+          "8012484d",
+          "8012595f",
+          "0002fcfc"
+        ],
+        "reverse_D": "ffeb0000",
+        "pointwise_derivative_negation": true,
+        "equation_vector_preserved": true,
+        "original_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        },
+        "reversed_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "proof_mutation_rejected": true,
+        "proof_mutation": "proof addition 2 first literal flipped from 966 to -966",
+        "drop_final_G_64_clauses_rejected": true,
+        "weakened_proof_failure": "non-RUP addition 45: (90, 955, 1236, -964, 1235, 960, 953, 1233, 1234, 88, 81, 92, 83)",
+        "single_final_G_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "single_clause_failure": "non-RUP addition 716: (1129, -515, -1258, -484)"
+      }
+    },
+    {
+      "q": 23,
+      "D": "00170000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "7710c2aff1e810c7f182bacf4e3adb035a5bb4daf404e68252f20cf4b6d13b5f",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions": 7365,
+        "sha256": "82ef370adf21a56e401cbced65122a3af2ea414540315ad182b50741b88de963",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.313925313996151
+      },
+      "near_miss_dropping_final_G": {
+        "words": [
+          "ffec5b45",
+          "ffec4a57",
+          "7fec102b"
+        ],
+        "equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "reversal_control": {
+        "shifted_words": [
+          "00035b45",
+          "00034a57",
+          "8003102b"
+        ],
+        "reverse_D": "ffe90000",
+        "pointwise_derivative_negation": true,
+        "equation_vector_preserved": true,
+        "original_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        },
+        "reversed_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "proof_mutation_rejected": true,
+        "proof_mutation": "proof addition 2 first literal flipped from 966 to -966",
+        "drop_final_G_64_clauses_rejected": true,
+        "weakened_proof_failure": "non-RUP addition 47: (90, 955, 1236, -964, 1235, 960, 953, 1233, 1234, 88, 81, 92, 83)",
+        "single_final_G_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "single_clause_failure": "non-RUP addition 395: (1226, 1259, -1051, -1038, -1099, -1042, -1055, -1006, -1067, 1116, -1053, -1023, 1012, -1044, -1096, 1128, -1094, -1126, 982, 976, 977, -1084, 1019, -1021, -1010, -953, 81, 515, 1258, -1114)"
+      }
+    },
+    {
+      "q": 25,
+      "D": "00190000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "4240a078f2cc3d225bf76e45e05dcdbe9246a23945c3fe260e915c10f4c020c6",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions": 4637,
+        "sha256": "47271c2b31dee08ae331b0b1c6b1d0b964c932b0b555555cc1279ba9c24c7cb7",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 1.0411376870033564
+      },
+      "near_miss_dropping_final_G": {
+        "words": [
+          "fffbb4bd",
+          "fffba5af",
+          "fffbaa81"
+        ],
+        "equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "reversal_control": {
+        "shifted_words": [
+          "0014b4bd",
+          "0014a5af",
+          "0014aa81"
+        ],
+        "reverse_D": "ffe70000",
+        "pointwise_derivative_negation": true,
+        "equation_vector_preserved": true,
+        "original_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        },
+        "reversed_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "proof_mutation_rejected": true,
+        "proof_mutation": "proof addition 2 first literal flipped from 966 to -966",
+        "drop_final_G_64_clauses_rejected": true,
+        "weakened_proof_failure": "non-RUP addition 45: (90, 955, 1236, -964, 1235, 960, 953, 1233, 1234, 88, 81, 92, 83)",
+        "single_final_G_clause_removed_rejected": true,
+        "removed_base_clause_number": 9678,
+        "single_clause_failure": "non-RUP addition 200: (-79, -1256, 1257, 953, 1125, -81, 1093)"
+      }
+    },
+    {
+      "q": 27,
+      "D": "001b0000",
+      "status": "ACCEPT",
+      "cnf": {
+        "variables": 1259,
+        "clauses": 9683,
+        "sha256": "a1361267d6e5b5f5560140a9d10344689a2cd25eeb80d987350b6e62eb7c8846",
+        "independent_exact_bytes": true,
+        "independent_clause_multiset": true
+      },
+      "drup": {
+        "additions": 7319,
+        "sha256": "f2d46e4bbe630864ed1018983563f58d4b1b0e4a850d2919f606273bd9bf2e7e",
+        "deletion_free": true,
+        "final_empty": true,
+        "independent_rup_seconds": 2.8436772729983204
+      },
+      "near_miss_dropping_final_G": {
+        "words": [
+          "fff2336b",
+          "fff22279",
+          "7ff25a01"
+        ],
+        "equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "reversal_control": {
+        "shifted_words": [
+          "000d336b",
+          "000d2279",
+          "800d5a01"
+        ],
+        "reverse_D": "ffe50000",
+        "pointwise_derivative_negation": true,
+        "equation_vector_preserved": true,
+        "original_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        },
+        "reversed_equations": {
+          "F_y=A": true,
+          "G_y=T+D": true,
+          "F_z=-A": true,
+          "G_z=-T": false
+        }
+      },
+      "negative_controls": {
+        "truncated_proof_rejected": true,
+        "proof_mutation_rejected": true,
+        "proof_mutation": "proof addition 2 first literal flipped from 966 to -966",
+        "drop_final_G_64_clauses_rejected": true,
+        "weakened_proof_failure": "non-RUP addition 47: (90, 955, 1236, -964, 1235, 960, 953, 1233, 1234, 88, 81, 92, 83)",
+        "single_final_G_clause_removed_rejected": true,
+        "removed_base_clause_number": 9683,
+        "single_clause_failure": "non-RUP addition 670: (-1257, -1195, 33, 639, 577, -60, -905, 873, -755, -787, 580, 670, 566, 710, 579, 658, -903, -934, 708, -1258, 514, -1175, -1256, 96, -85, 79, -83, 985, -968, -957, 951, 955, -807, 979, 64, 1099, -1196, 1229, -82, -987, 947, 956, -952, 1225)"
+      }
+    }
+  ],
+  "accepted_q": [
+    5,
+    13,
+    21,
+    23,
+    25,
+    27
+  ],
+  "author_manifest": {
+    "entries": 18,
+    "all_match": true,
+    "sha256": "4c1a4255d167365acb885bd2a8850011e70f6f4f33bad8d2933e3ab843f8609f"
+  },
+  "author_certificate_sha256": "237cab1d57207def6398ddf46d2a5592a65282076ec96355e1f683df8c34efee",
+  "scope": "exact selected three-pair UNSAT only for q in {5,13,21,23,25,27}; combines with separately reviewed twin exclusions only for the finite q<=31 window; no all-v2=16, full-support, message, or distance-14 claim"
+}

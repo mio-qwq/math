@@ -1,0 +1,184 @@
+{
+  "author_certificate_sha256": "f74dd80590b0e6b9c3f2ccb4841e9c39b94dd03a53c065dd16f3e48252854bd5",
+  "author_checker_sha256": "a58fc79b82edce8c82d8838a0d197bdd77b9dc42a4d91c4250b0d3ae4d6d1d60",
+  "author_replay_observed": {
+    "certificate_sha256": "f74dd80590b0e6b9c3f2ccb4841e9c39b94dd03a53c065dd16f3e48252854bd5",
+    "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-general-v9/check.py --negative",
+    "elapsed_seconds": 190.3482551410052,
+    "status": "PASS"
+  },
+  "cases": [
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 16,
+      "low31_twin_leaves": 0,
+      "q": 1,
+      "sigma0_leaves": 414,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 29,
+      "low31_twin_leaves": 0,
+      "q": 3,
+      "sigma0_leaves": 3123,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 3,
+      "input_classes": 41,
+      "low31_twin_leaves": 3,
+      "q": 5,
+      "sigma0_leaves": 3495,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 40,
+      "low31_twin_leaves": 0,
+      "q": 7,
+      "sigma0_leaves": 2310,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 51,
+      "low31_twin_leaves": 0,
+      "q": 9,
+      "sigma0_leaves": 3277,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 63,
+      "low31_twin_leaves": 0,
+      "q": 11,
+      "sigma0_leaves": 10057,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 2,
+      "input_classes": 62,
+      "low31_twin_leaves": 2,
+      "q": 13,
+      "sigma0_leaves": 10054,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 4,
+      "input_classes": 49,
+      "low31_twin_leaves": 4,
+      "q": 15,
+      "sigma0_leaves": 2345,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 59,
+      "low31_twin_leaves": 0,
+      "q": 17,
+      "sigma0_leaves": 3983,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 82,
+      "low31_twin_leaves": 0,
+      "q": 19,
+      "sigma0_leaves": 31014,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 4,
+      "input_classes": 93,
+      "low31_twin_leaves": 4,
+      "q": 21,
+      "sigma0_leaves": 33495,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 2,
+      "input_classes": 81,
+      "low31_twin_leaves": 2,
+      "q": 23,
+      "sigma0_leaves": 28467,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 2,
+      "input_classes": 80,
+      "low31_twin_leaves": 2,
+      "q": 25,
+      "sigma0_leaves": 28634,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 4,
+      "input_classes": 91,
+      "low31_twin_leaves": 4,
+      "q": 27,
+      "sigma0_leaves": 47541,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 79,
+      "low31_twin_leaves": 0,
+      "q": 29,
+      "sigma0_leaves": 45225,
+      "surviving_mask_multiset_match": true
+    },
+    {
+      "all_author_fixtures_directly_checked": true,
+      "full32_twin_leaves": 0,
+      "input_classes": 56,
+      "low31_twin_leaves": 0,
+      "q": 31,
+      "sigma0_leaves": 9874,
+      "surviving_mask_multiset_match": true
+    }
+  ],
+  "comparison_checker_sha256": "99177d83786b8b65afd222f9a692be1aa88a4322464663c4d81ada809fc11075",
+  "excluded_positive_q": [
+    1,
+    3,
+    7,
+    9,
+    11,
+    17,
+    19,
+    29,
+    31
+  ],
+  "independent_checker_sha256": "938cc2a2bebfce6537fb19663c959f274e44a8c21f74d6de3980e80f0d247d42",
+  "independent_run_sha256": "0e1f4637e56fa86312cc003bf2d288f57dcd87dc66357d399c7cfa06ca6252b6",
+  "schema": "CRYPTO3-support12-v16-author-comparison-v9",
+  "scope": "selected twin local condition only; no third pair, reciprocal edge, support assignment, message pair, or distance-14 proof",
+  "status": "PASS",
+  "surviving_positive_q": [
+    5,
+    13,
+    15,
+    21,
+    23,
+    25,
+    27
+  ],
+  "total_surviving_leaves": 21,
+  "verdict": "ACCEPT"
+}

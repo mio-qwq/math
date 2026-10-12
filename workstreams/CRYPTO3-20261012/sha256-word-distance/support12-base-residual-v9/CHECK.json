@@ -1,0 +1,23 @@
+{
+  "base_source": "support12-base-lift-v8/base_completion.py",
+  "base_source_sha256": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+  "claim_scope": "row-57 sink elimination and exact pointwise endpoint merge only",
+  "dependency_sources_affected_by_u57": [
+    57,
+    59,
+    61,
+    63
+  ],
+  "deterministic_contexts": 36,
+  "negative_control": {
+    "forced_base": "0x12345678",
+    "pointwise_b": "0xffffa000",
+    "projected_b": "0x0000a000",
+    "projected_witness_base": "0x00000000",
+    "projection_is_insufficient": true,
+    "z": "0x00000001"
+  },
+  "row57_pair_identity_trials": 64,
+  "status": "PASS",
+  "u57_replacements_per_context": 5
+}

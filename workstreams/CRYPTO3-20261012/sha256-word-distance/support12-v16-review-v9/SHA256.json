@@ -1,0 +1,18 @@
+{
+  "schema": "CRYPTO3-support12-v16-independent-review-manifest-v9",
+  "files": [
+    {"path": "COMPARISON.json", "bytes": 5138, "sha256": "281b4d52b14a57a28ec36a8b1b4223a40a1637130753fada0534a2f82b54cc2b"},
+    {"path": "PRE_AUTHOR_CONSOLE.txt", "bytes": 60, "sha256": "3e737f6a9117cec194b02103b357f8668fae9adb86a8a8cd0bf25efab8948548"},
+    {"path": "PRE_AUTHOR_FREEZE.json", "bytes": 1233, "sha256": "868baa4eb8d47899a0a9b34ed968c38c075fef48c405d2868835266f40426243"},
+    {"path": "PRE_AUTHOR_FREEZE.md", "bytes": 3793, "sha256": "9a3d325785b88dacf4bf2b8176c640af69bcf41e25adc6dcc88efbd6bf7fd3ef"},
+    {"path": "PRE_AUTHOR_RUN.json", "bytes": 25377, "sha256": "0e1f4637e56fa86312cc003bf2d288f57dcd87dc66357d399c7cfa06ca6252b6"},
+    {"path": "README.md", "bytes": 699, "sha256": "e8ebc7b8f2bf7301b9c2832a73fb97de34e66f8c2266500cba0cc41963b60c41"},
+    {"path": "REVIEW.md", "bytes": 4852, "sha256": "2aa6507d8c2091794988e86f51d45491dfdaac03d6c4357cadc0c582b71e6237"},
+    {"path": "REVIEW_RECEIPT.json", "bytes": 1183, "sha256": "a084879d1df6e78ab6696a2e8d0025b63f2f17332dd97424244b5aaf88c5726b"},
+    {"path": "check_independent.py", "bytes": 15581, "sha256": "938cc2a2bebfce6537fb19663c959f274e44a8c21f74d6de3980e80f0d247d42"},
+    {"path": "compare_author.py", "bytes": 7458, "sha256": "99177d83786b8b65afd222f9a692be1aa88a4322464663c4d81ada809fc11075"}
+  ],
+  "author_certificate_sha256": "f74dd80590b0e6b9c3f2ccb4841e9c39b94dd03a53c065dd16f3e48252854bd5",
+  "verdict": "ACCEPT",
+  "scope": "independent bounded selected-twin review only; no third pair, reciprocal edge, support assignment, message pair, or distance-14 proof"
+}

@@ -1,0 +1,39 @@
+{
+  "algorithm": "SHA-256",
+  "manifest_excludes_self": true,
+  "scope": "independent derivation and exact acceptance of support12-base-residual-v9",
+  "files": {
+    "COMPARISON.json": {
+      "bytes": 1073,
+      "sha256": "05497aab8e82bed4a97c69ab8d281255326c3285dc17fbd28f03861c089a1882"
+    },
+    "PRE-AUTHOR-DERIVATION.md": {
+      "bytes": 2609,
+      "sha256": "1d77df8a63d389f822d6080e734de99ec741738b24ab8170dcb53719eeb3f97c"
+    },
+    "PRE-AUTHOR-FREEZE.json": {
+      "bytes": 502,
+      "sha256": "fcd744962d99e74c5952cf425e77b03405bb80888b629a6694e8c73f267c0d96"
+    },
+    "PRE-AUTHOR-RUN.json": {
+      "bytes": 1339,
+      "sha256": "974d1bc37036ddd205d171873162291920c24d29eda9f450bf4f9a8748e3e6f9"
+    },
+    "README.md": {
+      "bytes": 556,
+      "sha256": "10f786b4bc6afaeb88f7a10ba371493e47926b14cdbbb4af0b972a8fd20d31b7"
+    },
+    "REVIEW.md": {
+      "bytes": 3199,
+      "sha256": "92017f34d561a9db3a4220c1c1f67fff429b54ff378ef3134cc900b239330cf0"
+    },
+    "check_independent.py": {
+      "bytes": 8710,
+      "sha256": "21880a099f32f2eef7f2295c2039e3f52321a7b3ce5bd5e7a3b1410a898195af"
+    },
+    "compare_author.py": {
+      "bytes": 4320,
+      "sha256": "112de5d577c40c5ecc9081c8587b870d3ec56e2a19f4ea44f9b97a6602b0516a"
+    }
+  }
+}

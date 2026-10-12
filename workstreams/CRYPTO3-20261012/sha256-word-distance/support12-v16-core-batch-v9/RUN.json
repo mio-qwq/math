@@ -1,0 +1,231 @@
+{
+  "checker": "Python standard library only",
+  "records": {
+    "13": {
+      "D": "000d0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "1df928754d23acefa41d4ac7d7fc010e0ca49fe7f993816d3e413bc409f8cee5",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 6720,
+        "final_empty": true,
+        "seconds": 7.344355768997048,
+        "sha256": "9b86c318437dab55ae07bf2848f2bd84f87d883e6d115359d3182e26843ff0cc"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "bcfe89e4",
+        "G_D_z": "dfe6c347",
+        "T": "a00fc339",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "5ff03cc7",
+        "x": "bffb96fd",
+        "y": "bffb96e5",
+        "z": "3ff3ff87"
+      },
+      "negative_controls": {
+        "missing_final_empty_rejected": true,
+        "mutated_cnf_digest_rejected": true
+      },
+      "status": "PASS"
+    },
+    "21": {
+      "D": "00150000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "75de735eae881cd13e9cc9ae08996d9ce81d31799b970914e555f2281e64b350",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 5879,
+        "final_empty": true,
+        "seconds": 6.1668317149960785,
+        "sha256": "0c8ef607e98c1929b971aed54d683a68d4cadcc229f326494992f180e8bbbb4b"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "51fe0137",
+        "G_D_z": "e003654a",
+        "T": "5ff38546",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "a00c7aba",
+        "x": "7ffd484d",
+        "y": "7ffd595f",
+        "z": "ffedfcfc"
+      },
+      "negative_controls": {
+        "missing_final_empty_rejected": true,
+        "mutated_cnf_digest_rejected": true
+      },
+      "status": "PASS"
+    },
+    "23": {
+      "D": "00170000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "7710c2aff1e810c7f182bacf4e3adb035a5bb4daf404e68252f20cf4b6d13b5f",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 7365,
+        "final_empty": true,
+        "seconds": 7.95399277999968,
+        "sha256": "82ef370adf21a56e401cbced65122a3af2ea414540315ad182b50741b88de963"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "d9fe01b9",
+        "G_D_z": "602185b6",
+        "T": "1feb65ba",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "e0149a46",
+        "x": "ffec5b45",
+        "y": "ffec4a57",
+        "z": "7fec102b"
+      },
+      "negative_controls": {
+        "missing_final_empty_rejected": true,
+        "mutated_cnf_digest_rejected": true
+      },
+      "status": "PASS"
+    },
+    "25": {
+      "D": "00190000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "4240a078f2cc3d225bf76e45e05dcdbe9246a23945c3fe260e915c10f4c020c6",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 4637,
+        "final_empty": true,
+        "seconds": 3.8932027900009416,
+        "sha256": "47271c2b31dee08ae331b0b1c6b1d0b964c932b0b555555cc1279ba9c24c7cb7"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "cdfe01fb",
+        "G_D_z": "1fe1663a",
+        "T": "1feb6636",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "e01499ca",
+        "x": "fffbb4bd",
+        "y": "fffba5af",
+        "z": "fffbaa81"
+      },
+      "negative_controls": {
+        "missing_final_empty_rejected": true,
+        "mutated_cnf_digest_rejected": true
+      },
+      "status": "PASS"
+    },
+    "27": {
+      "D": "001b0000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "a1361267d6e5b5f5560140a9d10344689a2cd25eeb80d987350b6e62eb7c8846",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 7319,
+        "final_empty": true,
+        "seconds": 8.938731674003066,
+        "sha256": "f2d46e4bbe630864ed1018983563f58d4b1b0e4a850d2919f606273bd9bf2e7e"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "56001e11",
+        "G_D_z": "a00186c0",
+        "T": "e00c66c0",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "1ff39940",
+        "x": "fff2336b",
+        "y": "fff22279",
+        "z": "7ff25a01"
+      },
+      "negative_controls": {
+        "missing_final_empty_rejected": true,
+        "mutated_cnf_digest_rejected": true
+      },
+      "status": "PASS"
+    },
+    "5": {
+      "D": "00050000",
+      "cnf": {
+        "clauses": 9683,
+        "independent_rebuild": true,
+        "sha256": "0d12389970748ee281e73f5cdac14311987c799a847bc87fb694ece1b46fa7f6",
+        "variables": 1259
+      },
+      "drup": {
+        "clauses_checked": 9205,
+        "final_empty": true,
+        "seconds": 10.710888588000671,
+        "sha256": "98636e3ab04227983dcfe68754ca2af7cf2e23fe99dd164b1ac508f55a8444ce"
+      },
+      "near_miss_dropping_GDz": {
+        "A": "caff864e",
+        "G_D_z": "dffb4142",
+        "T": "a006413e",
+        "equations": {
+          "A_eq_FDx": true,
+          "FDy_eq_A": true,
+          "FDz_eq_minus_A": true,
+          "GDy_eq_T_plus_D": true,
+          "GDz_eq_minus_T": false,
+          "T_eq_GDx_plus_D": true
+        },
+        "minus_T": "5ff9bec2",
+        "x": "bfff89ab",
+        "y": "bfff89a3",
+        "z": "3fffe0c9"
+      },
+      "negative_controls": {
+        "missing_final_empty_rejected": true,
+        "mutated_cnf_digest_rejected": true
+      },
+      "status": "PASS"
+    }
+  },
+  "schema": "support12-v16-selected-core-batch-check-v9",
+  "scope": "six fixed D values only; not all v2(D)=16, not complete support-12, and not SHA-256 message pairs",
+  "status": "PASS",
+  "theorem": "the exact selected three-pair core is UNSAT for each listed fixed D"
+}

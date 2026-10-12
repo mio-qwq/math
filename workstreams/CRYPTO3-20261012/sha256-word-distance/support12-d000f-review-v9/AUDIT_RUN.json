@@ -1,0 +1,63 @@
+{
+  "author_artifacts": {
+    "cnf": {
+      "clauses": 9683,
+      "exact_independent_reconstruction": true,
+      "sha256": "f16a99ee064edc1d95e7a248af07262bfd2ddd4c605dd5a1ec8d7587aa727a08",
+      "variables": 1259
+    },
+    "manifest_entries": 8,
+    "manifest_files_all_match": true,
+    "proof": {
+      "additions": 3951,
+      "all_additions_rup": true,
+      "deletion_lines": 0,
+      "only_final_clause_empty": true,
+      "sha256": "1256df91a4d7d82865b39743943450f0adfdb2875c98cb55c4b1d8c1c68a7210"
+    }
+  },
+  "decision": "ACCEPT",
+  "environment": {
+    "cadical": "2.1.2",
+    "cadical_compiler": "clang++ 22.1.4",
+    "python": "3.12.14"
+  },
+  "independent_blind_run": {
+    "cnf": {
+      "clauses": 10817,
+      "sha256": "4cda87765cc2835ff78ce0bd61f0482d78c0ffcdab5941156a09b8ce254bf55a",
+      "variables": 2593
+    },
+    "milp_300_second_result": "UNKNOWN (time limit)",
+    "sat_solver_result": "UNSATISFIABLE",
+    "sat_solver": "CaDiCaL 2.1.2"
+  },
+  "near_miss_controls": {
+    "author_witness": {
+      "A": "398179ec",
+      "G_D(z)": "5ff1e3b9",
+      "T": "a000e3b9",
+      "minus_T": "5fff1c47",
+      "required_first_five_identities": true,
+      "x": "5ff2e1be",
+      "y": "5ff2e1a6",
+      "z": "9ff20041"
+    },
+    "independent_witness": {
+      "A": "46fe9924",
+      "G_D(z)": "dfe8c3bd",
+      "T": "e00fc3bd",
+      "minus_T": "1ff03c43",
+      "required_first_five_identities": true,
+      "x": "3ffeb7ff",
+      "y": "3ffeb7e7",
+      "z": "3ff28bdf"
+    }
+  },
+  "proof_negative_controls": {
+    "first_addition_literal_6_flipped_rejected": true,
+    "truncated_before_final_empty_rejected": true
+  },
+  "scope": "fixed D=000f0000 selected local three-pair UNSAT only; no support-12, message-pair, or distance-14 inference",
+  "schema": "support12-d000f-independent-review-v9"
+}

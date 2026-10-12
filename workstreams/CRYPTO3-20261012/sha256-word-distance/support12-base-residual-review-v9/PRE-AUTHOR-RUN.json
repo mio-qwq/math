@@ -1,0 +1,67 @@
+{
+  "composition": {
+    "exact_composed_condition": "g(B+z)-g(B)=b mod 2^32",
+    "factor_normal_form_position_57": "PG(z,b)",
+    "pg_is_only_a_necessary_projection_after_base_composition": true,
+    "private_F57": "f(B+z)-f(B); unconstrained by rows 16..63"
+  },
+  "old_chart": {
+    "R33_depends_on_u57": false,
+    "R57_form": "u57 - (g(C55)+C50+f(C42)+C41)",
+    "R57_rhs_depends_on_u57": false,
+    "coordinates_depending_on_u57": [
+      57,
+      59,
+      61,
+      63
+    ],
+    "initial_count": 18,
+    "residual_rows": [
+      33,
+      57
+    ],
+    "used_rows": 46
+  },
+  "pg_separation_control": {
+    "PG_witness_x": 0,
+    "b": 40960,
+    "derivative_at_B": 4294942720,
+    "forced_base_B": 4,
+    "z": 1
+  },
+  "rewritten_chart": {
+    "forced_u57": "B=g(C55)+C50+f(C42)+C41",
+    "initial_coordinates": [
+      10,
+      11,
+      13,
+      15,
+      18,
+      20,
+      26,
+      28,
+      29,
+      34,
+      42,
+      43,
+      9,
+      12,
+      14,
+      19,
+      22
+    ],
+    "inserted_solve": [
+      57,
+      57
+    ],
+    "residual_rows": [
+      33
+    ],
+    "used_rows": 47
+  },
+  "roundtrips": 12,
+  "schema": "CRYPTO3-support12-base-residual-review-v9-pre-author",
+  "source_sha256": "21880a099f32f2eef7f2295c2039e3f52321a7b3ce5bd5e7a3b1410a898195af",
+  "status": "PASS",
+  "u57_identity_checks": 12
+}

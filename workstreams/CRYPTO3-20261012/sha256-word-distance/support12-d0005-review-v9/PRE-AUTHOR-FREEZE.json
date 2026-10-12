@@ -1,0 +1,43 @@
+{
+  "base_commit": "e2a81b71bcc83ab72f325934c449d27ef198efb3",
+  "environment": {
+    "python": "3.12.14",
+    "python_sat": "1.9.dev15",
+    "solver": "Glucose3"
+  },
+  "frozen_orientation": {
+    "known_X": ["00050000", "40406e02", "1ff8913e"],
+    "known_Y": ["00050000", "40406e02", "2002913e"],
+    "reciprocal_forward": ["40406e02", "00050000"],
+    "third_forward": ["00050000", "bfbf91fe", "e0026ec2"]
+  },
+  "independent_results": {
+    "reciprocal": {
+      "clauses": 1292,
+      "drup_additions": 1360,
+      "drup_deletions": 11,
+      "proof_lines": 1371,
+      "status": "UNSAT",
+      "variables": 222
+    },
+    "third_image": {
+      "clauses": 2158,
+      "drup_additions": 288,
+      "drup_deletions": 0,
+      "proof_lines": 288,
+      "status": "UNSAT",
+      "variables": 349
+    }
+  },
+  "sha256": {
+    "INDEPENDENT_RUN.json": "57d04afc2083667d9e871fa8311b0fc2e17f941a6373875c70f569d96195dbdb",
+    "PRE-AUTHOR-DERIVATION.md": "d7b823a41cb16a2584f47af955648ee8d0f0894dfc7d65976dc299160247823c",
+    "independent.py": "ab5f4ec1731f6b6797094c79ccb252e1920b59ea19aa8387aac324bf32f53fce",
+    "reciprocal.cnf": "c5d94162282e6a95bfed054a60001c426fdb1148b5ae67ba3817690c6d2eb1fe",
+    "reciprocal.drup": "28fdf5ceeb99b16f2e24487f0f81310e388ca45ba1f8bfe313cb0866b2e9d99e",
+    "third-image.cnf": "8a156471cb004a7a549adf10e98dc44aa3021596630d38eb203cedd38f7a3ca2",
+    "third-image.drup": "0c448930dc0a751c7665d06c4af83c3375fab9860e10c6f1453b19d10c3b9249"
+  },
+  "scope_exclusions": ["other q=5 A", "full support", "message", "distance14"],
+  "schema": "support12-d0005-pre-author-freeze-v9"
+}

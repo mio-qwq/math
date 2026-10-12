@@ -1,0 +1,20 @@
+{
+  "schema": "CRYPTO3-support12-v16-general-manifest-v9",
+  "files": [
+    {"path": "ALL-SURVIVORS-PRECOMMIT.md", "bytes": 856, "sha256": "4813b6ef5a30b7cc37bfbafb9a7e3150618a680f0d5c00fa328def1c67568246"},
+    {"path": "CERTIFICATE.json", "bytes": 25400, "sha256": "f74dd80590b0e6b9c3f2ccb4841e9c39b94dd03a53c065dd16f3e48252854bd5"},
+    {"path": "CHECK-RUN.json", "bytes": 626, "sha256": "2df00f825aa9617c7cafddbe90ca6f02af95a151578b1d7205ea5d50b677390d"},
+    {"path": "FAILED-RUN-01.md", "bytes": 804, "sha256": "1a60773b5fe1be68cf874fb0b06882f920a6d2b07ea48717c5029bae0459dad1"},
+    {"path": "PRECOMMIT.md", "bytes": 2699, "sha256": "7403897f1227cb8397a9fedfa88a499a1ada6a8c0fb695e50b5b419597eb652a"},
+    {"path": "PROOF.md", "bytes": 4853, "sha256": "75bb4e514deeed45dec7e10628cbc8e73c27e9abba9b0bd4da40cdec3133bea9"},
+    {"path": "Q5-ADDENDUM-PRECOMMIT.md", "bytes": 875, "sha256": "18e7a26fc81e7a66b8a1b5f16a2acbc9481708bee2fdc9d0a221757dc1083da4"},
+    {"path": "README.md", "bytes": 737, "sha256": "8c6ffbc939e7a14b1267913796c6ad097f3739d3eca015bebd78d129cfc20bd5"},
+    {"path": "REPLAY.json", "bytes": 588, "sha256": "ad6dd2a16809b3cc2b9455b926778cea047671ae04ad082c2532449a7bbcb9d8"},
+    {"path": "SOLVER-OBSERVATION.json", "bytes": 880, "sha256": "eaea4ca9378c83d29c6181e21b4b52d8da5f56552b155aaa92a972f6ca9df5c5"},
+    {"path": "STATUS.md", "bytes": 529, "sha256": "e43020ab5fff6ef4051656e26eb306cc1af2f9976dd5a700d1d7d656b501d783"},
+    {"path": "check.py", "bytes": 11670, "sha256": "a58fc79b82edce8c82d8838a0d197bdd77b9dc42a4d91c4250b0d3ae4d6d1d60"},
+    {"path": "search_q5.py", "bytes": 1263, "sha256": "8f26ae39cf748c130a01f1caa38cbbb7c4b00ee31a32645dea03f14944112c04"},
+    {"path": "search_survivors.py", "bytes": 1726, "sha256": "d3f4599c6991754b7a0a2cca3e2a5b9e6541359e3c1530117e9f1ab3c9b5f118"}
+  ],
+  "scope": "author bounded finite proof plus disclosed uncertified solver observations; pending independent review"
+}

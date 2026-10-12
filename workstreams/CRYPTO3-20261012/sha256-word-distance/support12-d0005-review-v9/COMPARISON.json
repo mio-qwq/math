@@ -1,0 +1,162 @@
+{
+  "author_artifacts": {
+    "reciprocal": {
+      "clauses": 1322,
+      "cnf_sha256": "c9aabd080d90748ad977a6e76c1a0c7bcc5dab6fac7428cdaf30069f2eddaaeb",
+      "drup": {
+        "additions": 1810,
+        "deletions": 0,
+        "empty_clause": true
+      },
+      "drup_sha256": "d2f197e04bc34d21cb07c2d05756ec9dda54b6918f3078f6ffd9ec50890dd1ab",
+      "exact_independent_clause_multiset_rebuild": true,
+      "negative_controls": {
+        "flipped_first_proof_literal_rejected": true,
+        "truncated_final_empty_rejected": true
+      },
+      "variables": 226
+    },
+    "third_image": {
+      "clauses": 2203,
+      "cnf_sha256": "fd679370c44887373eb8e8c2e682414d9dede63d77011831250518260f0497c4",
+      "drup": {
+        "additions": 7662,
+        "deletions": 0,
+        "empty_clause": true
+      },
+      "drup_sha256": "aa9b486ed83bea41436979c375ab50b904f1fff592bec364f1c07354317b25f2",
+      "exact_independent_clause_multiset_rebuild": true,
+      "negative_controls": {
+        "flipped_first_proof_literal_rejected": true,
+        "truncated_final_empty_rejected": true
+      },
+      "variables": 355
+    }
+  },
+  "author_manifest": {
+    "all_hashes_and_sizes_match": true,
+    "files_checked": 11,
+    "self_excluded": "SHA256.json"
+  },
+  "independent_rebuild": {
+    "artifact_sha256": {
+      "reciprocal.cnf": "c5d94162282e6a95bfed054a60001c426fdb1148b5ae67ba3817690c6d2eb1fe",
+      "reciprocal.drup": "28fdf5ceeb99b16f2e24487f0f81310e388ca45ba1f8bfe313cb0866b2e9d99e",
+      "third-image.cnf": "8a156471cb004a7a549adf10e98dc44aa3021596630d38eb203cedd38f7a3ca2",
+      "third-image.drup": "0c448930dc0a751c7665d06c4af83c3375fab9860e10c6f1453b19d10c3b9249"
+    },
+    "controls": {
+      "known_X_joint_query_is_sat": {
+        "F": "40406e02",
+        "G": "1ff8913e",
+        "word": "0ffb000a"
+      },
+      "known_X_sigma0_query_is_sat": {
+        "F": "40406e02",
+        "G": null,
+        "word": "0fff0004"
+      },
+      "known_Y_joint_query_is_sat": {
+        "F": "40406e02",
+        "G": "2002913e",
+        "word": "0ffb0002"
+      }
+    },
+    "orientation": {
+      "A": "40406e02",
+      "D": "00050000",
+      "T": "1ffd913e",
+      "X": {
+        "F_D": "40406e02",
+        "G_D": "1ff8913e",
+        "word": "0ffb000a"
+      },
+      "Y": {
+        "F_D": "40406e02",
+        "G_D": "2002913e",
+        "word": "0ffb0002"
+      },
+      "reciprocal_forward": [
+        "40406e02",
+        "00050000"
+      ],
+      "third_forward": [
+        "00050000",
+        "bfbf91fe",
+        "e0026ec2"
+      ]
+    },
+    "queries": {
+      "reciprocal": {
+        "clauses": 1292,
+        "drup_check": {
+          "additions": 1360,
+          "deletions": 11,
+          "empty_clause": true
+        },
+        "negative_control_truncated_proof_rejected": true,
+        "proof_lines": 1371,
+        "status": "UNSAT",
+        "variables": 222
+      },
+      "third_image": {
+        "clauses": 2158,
+        "drup_check": {
+          "additions": 288,
+          "deletions": 0,
+          "empty_clause": true
+        },
+        "negative_control_truncated_proof_rejected": true,
+        "proof_lines": 288,
+        "status": "UNSAT",
+        "variables": 349
+      }
+    },
+    "schema": "support12-d0005-independent-review-v9",
+    "scope_exclusions": [
+      "other q=5 A",
+      "full support",
+      "message",
+      "distance14"
+    ]
+  },
+  "orientation": {
+    "Q_forward": [
+      "00050000",
+      "40406e02",
+      "1ffd913e"
+    ],
+    "Q_reverse": [
+      "fffb0000",
+      "bfbf91fe",
+      "e0026ec2"
+    ],
+    "Q_words": [
+      "0ffb000e",
+      "1000000e"
+    ],
+    "candidate_sign_correction": "ACCEPT",
+    "equivalent_required_forward_image": [
+      "00050000",
+      "bfbf91fe",
+      "e0026ec2"
+    ],
+    "required_R_orientation": [
+      "fffb0000",
+      "40406e02",
+      "1ffd913e"
+    ]
+  },
+  "schema": "support12-d0005-author-comparison-v9",
+  "scope_exclusions": [
+    "other q=5 A",
+    "full support",
+    "message",
+    "distance14"
+  ],
+  "verdicts": {
+    "candidate_sign_correction": "ACCEPT",
+    "fixed_reciprocal_UNSAT": "ACCEPT",
+    "fixed_third_image_UNSAT": "ACCEPT"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "CRYPTO3-support12-v16-general-check-run-v9",
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-general-v9/check.py --negative --write-certificate",
+  "status": "PASS",
+  "elapsed_seconds": 193.89653662499768,
+  "certificate_sha256": "f74dd80590b0e6b9c3f2ccb4841e9c39b94dd03a53c065dd16f3e48252854bd5",
+  "checker_sha256": "a58fc79b82edce8c82d8838a0d197bdd77b9dc42a4d91c4250b0d3ae4d6d1d60",
+  "excluded_positive_q": [1,3,7,9,11,17,19,29,31],
+  "surviving_positive_q": [5,13,15,21,23,25,27],
+  "damaged_fixture_fields_rejected": 84,
+  "failed_prior_run": "FAILED-RUN-01.md"
+}

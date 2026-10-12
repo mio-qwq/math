@@ -1,0 +1,13 @@
+{
+  "accepted_inputs": {
+    "../support12-base-lift-v8/PROOF.md": "40305b2a0ec9dc1d5776626cbde09cbaddb857cc24e627f6dabec20c7ee4ab3a",
+    "../support12-base-lift-v8/base_completion.py": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+    "../support12-full-factor-v9/PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395"
+  },
+  "active_support": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57],
+  "base_parameters": [9, 12, 14, 19, 22],
+  "endpoint_symbols_at_57": {
+    "b": "G57",
+    "z": "d57"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "CRYPTO3-support12-v16-independent-freeze-v9",
+  "status": "FROZEN_BEFORE_AUTHOR_COMPARISON",
+  "author_material_read_before_freeze": [
+    "support12-v16-general-v9/PRECOMMIT.md"
+  ],
+  "accepted_inputs_read_before_freeze": [
+    "support12-image-v8/PROOF.md",
+    "support12-image-review-v8/PROOF.md",
+    "support12-image-v8/check.py"
+  ],
+  "author_material_not_read_before_freeze": [
+    "support12-v16-general-v9/CERTIFICATE.json",
+    "support12-v16-general-v9/check.py",
+    "support12-v16-general-v9/search_survivors.py",
+    "support12-v16-general-v9/ALL-SURVIVORS-PRECOMMIT.md"
+  ],
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-review-v9/check_independent.py",
+  "checker_sha256": "938cc2a2bebfce6537fb19663c959f274e44a8c21f74d6de3980e80f0d247d42",
+  "run_sha256": "0e1f4637e56fa86312cc003bf2d288f57dcd87dc66357d399c7cfa06ca6252b6",
+  "excluded_positive_q": [1, 3, 7, 9, 11, 17, 19, 29, 31],
+  "surviving_positive_q": [5, 13, 15, 21, 23, 25, 27],
+  "total_full32_surviving_leaves": 21,
+  "elapsed_seconds": 461.36854708399915,
+  "scope": "selected twin local condition only; no third pair, reciprocal edge, support assignment, message pair, or distance-14 proof"
+}

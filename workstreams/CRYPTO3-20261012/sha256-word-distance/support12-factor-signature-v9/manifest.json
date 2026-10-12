@@ -1,0 +1,18 @@
+{
+  "schema": "support12-factor-signature-v9-manifest-v1",
+  "scope": "Complete checked satisfiability witnesses for the all-factor low-26 quotient and exact factors 34/43 at one valuation-16 difference. Pending independent review; not a full factor or message solution.",
+  "upstream": {
+    "support12_full_factor_v9_manifest_sha256": "a0438580b430fdd031cecd0ea07c87363c5c942f5f8fc3848864ba1a51ae6b98",
+    "support12_full_factor_v9_proof_sha256": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395",
+    "support12_structure_v7_manifest_sha256": "8a5d97b2f671ae416ed296267bc25df2835c053fa9d318b01bf5bc68c615288a"
+  },
+  "files": {
+    "CERTIFICATE.json": {"bytes": 1635, "sha256": "6081cd43d0d307a8d42981ba5f46de39b994e2683a98479026749fedc3ae8731"},
+    "CHECK-RUN.json": {"bytes": 1576, "sha256": "10908cae23432ec708da6b59c66f0483619b7ca986475eb8ea973f58e93ef1f6"},
+    "MECHANISM.md": {"bytes": 1566, "sha256": "acea0f4eec5a6d1847a0615e0d6daac0a28c622bc26c54e653b8a4b50bb9cfb4"},
+    "PROOF.md": {"bytes": 4877, "sha256": "c3c3dc4550b2b16f64e513fc2f8da1340332eaf56ec856cfd9f966c36e12e40c"},
+    "README.md": {"bytes": 945, "sha256": "d98fafa4c8f590a019e0f91ccfe145591e3b126a40c20b00ba8051bc20a0398d"},
+    "check.py": {"bytes": 7303, "sha256": "3fce4f40f52d6bce06e1fff46aa7f4cb1a742ae34765cf1217a4c8c816ea90cf"},
+    "discover_low26.py": {"bytes": 3039, "sha256": "8fcc90a9d6df433f722f6c67b283d927e66cc76813e603e9d3bd0b8febfc7f6e"}
+  }
+}

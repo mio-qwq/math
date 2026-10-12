@@ -1,0 +1,91 @@
+{
+  "certificates": {
+    "reciprocal": {
+      "cnf_sha256": "c9aabd080d90748ad977a6e76c1a0c7bcc5dab6fac7428cdaf30069f2eddaaeb",
+      "drup_clauses_checked": 1810,
+      "drup_sha256": "d2f197e04bc34d21cb07c2d05756ec9dda54b6918f3078f6ffd9ec50890dd1ab",
+      "final_empty": true,
+      "independent_rebuild": true,
+      "original_clauses": 1322,
+      "variables": 226
+    },
+    "third_image": {
+      "cnf_sha256": "fd679370c44887373eb8e8c2e682414d9dede63d77011831250518260f0497c4",
+      "drup_clauses_checked": 7662,
+      "drup_sha256": "aa9b486ed83bea41436979c375ab50b904f1fff592bec364f1c07354317b25f2",
+      "final_empty": true,
+      "independent_rebuild": true,
+      "original_clauses": 2203,
+      "variables": 355
+    }
+  },
+  "checker": "Python standard library only",
+  "constants": {
+    "A": "40406e02",
+    "D": "00050000",
+    "T": "1ffd913e"
+  },
+  "gaps": {
+    "G_Y_minus_G_Q": "00050000",
+    "G_Y_minus_G_X": "000a0000"
+  },
+  "negative_controls": {
+    "known_sat_D_prime": "17081d0c",
+    "known_sat_joint_control": {
+      "F": "40406e02",
+      "G": "1ff8913e",
+      "d": "00050000",
+      "x": "0ffb000a"
+    },
+    "known_sat_witness_x": "00000000",
+    "missing_final_empty_rejected": true,
+    "mutated_cnf_digest_rejected": true
+  },
+  "orientation_failure": {
+    "actual_reverse_Q_d_F_G": [
+      "fffb0000",
+      "bfbf91fe",
+      "e0026ec2"
+    ],
+    "candidate_rejected": true,
+    "required_third_pair_d_F_G": [
+      "fffb0000",
+      "40406e02",
+      "1ffd913e"
+    ]
+  },
+  "schema": "support12-d0005-reciprocal-check-v9",
+  "scope": "fixed (D,A,T) attempted branch and fixed (D,A) reciprocal edge only; not all A at D, not full support, not messages",
+  "source_sha256": {
+    "check.py": "970d18e960094cbee525c14299b54b1760b9b47d9212f5d6eeb8b3dcb30cea1d",
+    "generate.py": "0d87209c54d7f8a74f9352b9d6e98ceb92028a8718e9647cd674f1548a64a1d6"
+  },
+  "status": "PASS",
+  "supplied_positive_pairs": {
+    "Q": {
+      "F": "40406e02",
+      "G": "1ffd913e",
+      "d": "00050000",
+      "u": "0ffb000e",
+      "v": "1000000e"
+    },
+    "X": {
+      "F": "40406e02",
+      "G": "1ff8913e",
+      "d": "00050000",
+      "u": "0ffb000a",
+      "v": "1000000a"
+    },
+    "Y": {
+      "F": "40406e02",
+      "G": "2002913e",
+      "d": "00050000",
+      "u": "0ffb0002",
+      "v": "10000002"
+    }
+  },
+  "theorems": {
+    "reciprocal": "no x has sigma0(x+A)-sigma0(x)=D mod 2^32",
+    "third_image": "no x has d=D, sigma0 derivative=-A, sigma1 derivative=-T"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "algorithm": "SHA-256",
+  "manifest_excludes_self": true,
+  "scope": "support-12 row-57 sink elimination and endpoint merge; no existence result",
+  "files": {
+    "CHECK.json": {
+      "bytes": 678,
+      "sha256": "525b7c7400e955995fb47207f3d9ab56c95abb757a65311fde7016cc963a34f0"
+    },
+    "PROOF.md": {
+      "bytes": 3844,
+      "sha256": "d9fcb05b5bd21bd7b34fd16fdd6df61c9d6a351dc4b83bd63b6d1b91c5dc808c"
+    },
+    "PROVENANCE.json": {
+      "bytes": 554,
+      "sha256": "0ada3dc048491cfdc9a7b7b38503b129ad2b6d546ff5602e62a91be0bf9fe80c"
+    },
+    "README.md": {
+      "bytes": 1013,
+      "sha256": "09c373cca7ee4e6a208e50cc07ed2fd43e998159c9860917a1d305fc1cb9a847"
+    },
+    "RECEIPT.json": {
+      "bytes": 811,
+      "sha256": "75480040cc512e4ff5c11e22a59c98ee7191816d3be838b8c24ff1da9087bf1c"
+    },
+    "verify_residual_merge.py": {
+      "bytes": 4980,
+      "sha256": "6eaca3df1d00ab9fd533b43875ffa4d584ba458f0e4c91c21ec88741fc27ffcd"
+    }
+  }
+}

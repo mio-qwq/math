@@ -1,0 +1,40 @@
+{
+  "cnf": {
+    "clauses": 9683,
+    "independent_rebuild": true,
+    "sha256": "f16a99ee064edc1d95e7a248af07262bfd2ddd4c605dd5a1ec8d7587aa727a08",
+    "variables": 1259
+  },
+  "drup": {
+    "checker": "Python standard library only",
+    "clauses_checked": 3951,
+    "final_empty": true,
+    "seconds": 3.2065930249955272,
+    "sha256": "1256df91a4d7d82865b39743943450f0adfdb2875c98cb55c4b1d8c1c68a7210"
+  },
+  "near_miss_control": {
+    "A": "398179ec",
+    "G_D_z": "5ff1e3b9",
+    "T": "a000e3b9",
+    "equations": {
+      "A_eq_FDx": true,
+      "FDy_eq_A": true,
+      "FDz_eq_minus_A": true,
+      "GDy_eq_T_plus_D": true,
+      "GDz_eq_minus_T": false,
+      "T_eq_GDx_plus_D": true
+    },
+    "minus_T": "5fff1c47",
+    "x": "5ff2e1be",
+    "y": "5ff2e1a6",
+    "z": "9ff20041"
+  },
+  "negative_controls": {
+    "missing_final_empty_rejected": true,
+    "mutated_cnf_digest_rejected": true
+  },
+  "schema": "support12-d000f-selected-four-pair-check-v9",
+  "scope": "fixed D selected local subsystem only; not the complete support-12 factor graph and not a SHA-256 message pair",
+  "status": "PASS",
+  "theorem": "for D=000f0000 the exact selected three-pair core is UNSAT; therefore the selected four-pair criterion is UNSAT"
+}

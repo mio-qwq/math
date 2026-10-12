@@ -1,0 +1,16 @@
+{
+  "schema": "CRYPTO3-v16-frozen-survivor-screen-summary-v9",
+  "z3_version": "4.15.3",
+  "certificate_sha256": "f74dd80590b0e6b9c3f2ccb4841e9c39b94dd03a53c065dd16f3e48252854bd5",
+  "q_values_with_fixtures": [5, 13, 15, 21, 23, 25, 27],
+  "fixture_counts": {"5": 3, "13": 2, "15": 4, "21": 4, "23": 2, "25": 2, "27": 4},
+  "query_count": 42,
+  "third_joint_member": {"sat": 0, "unsat": 21, "unknown": 0},
+  "reciprocal_sigma0_edge": {"sat": 0, "unsat": 21, "unknown": 0},
+  "maximum_observed_query_seconds": 0.005644862998451572,
+  "status": "uncertified UNSAT observations only",
+  "use_as_proof": false,
+  "command": "PYTHONPATH=/workspace/scratch/b1d6bae025af/crypto3-deps python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-general-v9/search_survivors.py",
+  "scope": "screen of frozen twin representatives; not an exclusion of either stronger core"
+}
+

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "classification": "complete author-written reduction; independent review pending",
+  "command": "python -B verify_residual_merge.py --output CHECK.json",
+  "python": "3.12.14",
+  "claims": [
+    "R33 and C0..C56 are independent of u57",
+    "R57=u57-H and has the unique zero u57=H",
+    "the merged word-57 endpoint condition is pointwise delta-sigma1 at H",
+    "projected PG membership alone is insufficient after base binding"
+  ],
+  "negative_control": "z=1 has PG witness x=0 for b=0x0000a000, but forced H=0x12345678 gives 0xffffa000",
+  "not_claimed": [
+    "R33 solvability",
+    "word-57 pointwise condition solvability",
+    "distance-13 message pair",
+    "support exclusion",
+    "distance at least 14",
+    "Lean formalisation",
+    "independent or human acceptance"
+  ]
+}

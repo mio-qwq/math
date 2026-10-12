@@ -1,0 +1,30 @@
+{
+  "accepted_input_hashes": {
+    "../support12-base-lift-v8/PROOF.md": "40305b2a0ec9dc1d5776626cbde09cbaddb857cc24e627f6dabec20c7ee4ab3a",
+    "../support12-base-lift-v8/base_completion.py": "ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365",
+    "../support12-full-factor-v9/PROOF.md": "efba27236a949965e8689462703b4ed675a0484c0c5a84302b621c59d9bd0395"
+  },
+  "author_checker_matches_frozen_receipt": true,
+  "author_manifest_members": 6,
+  "author_manifest_sha256": "cbdfa2fd8d76c4e7bc511f10c30d15b43763144dfd1eac6fff758e1d5ee6546f",
+  "coordinates_affected_by_u57": [
+    57,
+    59,
+    61,
+    63
+  ],
+  "exact_position57_condition": "g(H+z)-g(H)=b mod 2^32",
+  "forced_base": "H=g(C55)+C50+f(C42)+C41",
+  "independent_checker_matches_pre_author_freeze": true,
+  "old_residuals": [
+    33,
+    57
+  ],
+  "projected_PG_alone_sufficient": false,
+  "rewritten_residuals": [
+    33
+  ],
+  "schema": "CRYPTO3-support12-base-residual-review-v9-comparison",
+  "scope": "coordinate reduction only; no solvability and no message pair",
+  "status": "ACCEPT"
+}

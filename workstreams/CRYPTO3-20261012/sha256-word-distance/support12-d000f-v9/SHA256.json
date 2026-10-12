@@ -1,0 +1,15 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "CERTIFICATE.json": "e55bf86f1a6d9a223f04d4e0007cf620d81a1d387c0d769fd58a59bb46e68a4b",
+    "PROOF.md": "cd412eb4fd5fa549c0a4ab802b7a3c718f7a579826617a638839d7a0c8fe782b",
+    "REPLAY.md": "552e6a98033820cade734cb571c74d3b047023a7a57cb9b6f1d37bd9487ef141",
+    "RUN.json": "9875da234cdb8fff96b1b3a7e1d96bf4949d5905edb6d078f23a92b9936838b2",
+    "check.py": "7edbdab9128dcf7e4180b68276adc9bb9df577da08aed63b39b135ac57424e89",
+    "fourpair.cnf": "f16a99ee064edc1d95e7a248af07262bfd2ddd4c605dd5a1ec8d7587aa727a08",
+    "fourpair.drup": "1256df91a4d7d82865b39743943450f0adfdb2875c98cb55c4b1d8c1c68a7210",
+    "generate.py": "78e425de2fe4a13515a9fe494d0e395d384c70bb6af5dfd2f8be460aa9ba95a8"
+  },
+  "schema": "support12-d000f-v9-manifest",
+  "scope": "fixed D selected local subsystem author package; independent AI review pending"
+}

@@ -1,0 +1,10 @@
+{
+  "frozen_before_author_contact": true,
+  "schema": "CRYPTO3-support12-base-residual-review-v9-freeze",
+  "files": {
+    "PRE-AUTHOR-DERIVATION.md": "1d77df8a63d389f822d6080e734de99ec741738b24ab8170dcb53719eeb3f97c",
+    "PRE-AUTHOR-RUN.json": "974d1bc37036ddd205d171873162291920c24d29eda9f450bf4f9a8748e3e6f9",
+    "check_independent.py": "21880a099f32f2eef7f2295c2039e3f52321a7b3ce5bd5e7a3b1410a898195af"
+  },
+  "result": "row 57 is solvable; exact composition replaces PG(z,b) by g(B+z)-g(B)=b"
+}

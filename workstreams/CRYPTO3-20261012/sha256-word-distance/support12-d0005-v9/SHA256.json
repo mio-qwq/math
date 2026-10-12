@@ -1,0 +1,18 @@
+{
+  "schema": "support12-d0005-manifest-v9",
+  "self_excluded": "SHA256.json",
+  "files": {
+    "CERTIFICATE.json": {"bytes": 10859, "sha256": "39c227745a5865840c7909c0462d68284344739cbc0e4883f9182f6b7916d0c2"},
+    "PROOF.md": {"bytes": 4116, "sha256": "a9203c3e75ede467d16320986c20619dd3ec96ddbadfbb9479852f730b645cf2"},
+    "README.md": {"bytes": 1182, "sha256": "dd0e36902e2f328ea923c4ef9319f912f9ad4ade76bf405693f1bffaa89b176d"},
+    "RECEIPT.json": {"bytes": 2761, "sha256": "50ebadbd9ea99028366adb875e84840558077a5815c3ff75c064f39fb85f5956"},
+    "RUN.json": {"bytes": 2512, "sha256": "817f03b081ea49ecb3879d413f4d4a11c149d27c868dd5c84db975048f965e11"},
+    "check.py": {"bytes": 12336, "sha256": "970d18e960094cbee525c14299b54b1760b9b47d9212f5d6eeb8b3dcb30cea1d"},
+    "generate.py": {"bytes": 7222, "sha256": "0d87209c54d7f8a74f9352b9d6e98ceb92028a8718e9647cd674f1548a64a1d6"},
+    "reciprocal.cnf": {"bytes": 22484, "sha256": "c9aabd080d90748ad977a6e76c1a0c7bcc5dab6fac7428cdaf30069f2eddaaeb"},
+    "reciprocal.drup": {"bytes": 82518, "sha256": "d2f197e04bc34d21cb07c2d05756ec9dda54b6918f3078f6ffd9ec50890dd1ab"},
+    "third_image.cnf": {"bytes": 37779, "sha256": "fd679370c44887373eb8e8c2e682414d9dede63d77011831250518260f0497c4"},
+    "third_image.drup": {"bytes": 447575, "sha256": "aa9b486ed83bea41436979c375ab50b904f1fff592bec364f1c07354317b25f2"}
+  },
+  "scope": "Fixed (D,A,T) third-image exclusion and fixed (D,A) reciprocal exclusion only; independent AI review pending."
+}

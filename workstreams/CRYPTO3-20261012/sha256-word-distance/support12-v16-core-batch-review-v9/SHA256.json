@@ -1,0 +1,62 @@
+{
+  "schema": "CRYPTO3-support12-v16-core-batch-review-manifest-v1",
+  "status": "ACCEPT",
+  "scope": "independent audit of fixed q={5,13,21,23,25,27} selected three-pair UNSAT only",
+  "files": [
+    {
+      "path": "AUDIT.json",
+      "bytes": 12925,
+      "sha256": "02389b8be565345420225bbeddf1fc6474887854f2bc53494262de3d80217054"
+    },
+    {
+      "path": "PRE_AUTHOR_FREEZE.md",
+      "bytes": 2836,
+      "sha256": "26cdb98136a28eec77a653f50d759475ed4b8dce5ebe6911c8ac9bd10d629eb8"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 2081,
+      "sha256": "576bacac3f204277bc4ae71af3684283c3559077e31f6533fa26244d9c541e2b"
+    },
+    {
+      "path": "independent-cnf/PRECOMPARISON.json",
+      "bytes": 3602,
+      "sha256": "ac8807b8ba44e976b0bcd90379dce02af6fd47ca53db720cac37d435fe7e58dd"
+    },
+    {
+      "path": "independent-cnf/q05.cnf",
+      "bytes": 35415,
+      "sha256": "c51cce36b64413ca255dce914cd6b2b8663bc87f67dc9a7353e78e58493e703a"
+    },
+    {
+      "path": "independent-cnf/q13.cnf",
+      "bytes": 35394,
+      "sha256": "51e5e03a958fa97d4b16b1be67c06d38caedf319b5f2819cd8a43fdf4b25ba57"
+    },
+    {
+      "path": "independent-cnf/q21.cnf",
+      "bytes": 35423,
+      "sha256": "b4ab680310413333e9a3533b35af888365f206fde69913e1d4db0fd7f3426642"
+    },
+    {
+      "path": "independent-cnf/q23.cnf",
+      "bytes": 35432,
+      "sha256": "6795f4fbfdff8e783f76a07bde51f3119b89ebfc39dad23a6d1e3daa8af7b2fb"
+    },
+    {
+      "path": "independent-cnf/q25.cnf",
+      "bytes": 35430,
+      "sha256": "d90a05813530b2f9680560f44778c560ec24e633ab52f76107cb426c7ad908c9"
+    },
+    {
+      "path": "independent-cnf/q27.cnf",
+      "bytes": 35429,
+      "sha256": "7a721ff11cbdd12284226ab6542ab895aab80cbd8903dcd3bb844da257df1f5f"
+    },
+    {
+      "path": "independent.py",
+      "bytes": 25834,
+      "sha256": "7c91be87702dfc79087e47e32ba8de51cbbe224c5afa975795b4e2afe17228ff"
+    }
+  ]
+}

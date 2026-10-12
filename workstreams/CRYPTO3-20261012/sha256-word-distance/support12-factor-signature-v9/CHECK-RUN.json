@@ -1,0 +1,36 @@
+{
+  "command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-factor-signature-v9/check.py --negative",
+  "result": {
+    "certificate_sha256": "6081cd43d0d307a8d42981ba5f46de39b994e2683a98479026749fedc3ae8731",
+    "checker_sha256": "3fce4f40f52d6bce06e1fff46aa7f4cb1a742ae34765cf1217a4c8c816ea90cf",
+    "exact_two_factor_b": "bfbf0000",
+    "exact_two_factor_v2_b": 16,
+    "factors_checked": 13,
+    "fixed_low26_b": "00010000",
+    "full_joint_factors": 9,
+    "low_width": 26,
+    "negative_controls": [
+      {"control": "wrong_fixed_b", "rejected": true},
+      {"control": "damaged_pair18", "rejected": true},
+      {"control": "damaged_shared_p", "rejected": true},
+      {"control": "wrong_factor_kind", "rejected": true},
+      {"control": "wrong_sigma0_rotation", "rejected": true},
+      {"control": "damaged_exact_pair43", "rejected": true},
+      {"control": "damaged_exact_common_F", "rejected": true}
+    ],
+    "partial_factors": 4,
+    "python": "3.12.14",
+    "status": "PASS"
+  },
+  "discovery": {
+    "command": "PYTHONPATH=/workspace/scratch/b1d6bae025af/crypto3-deps python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-factor-signature-v9/discover_low26.py",
+    "first_60000ms_attempt": "unknown: timeout",
+    "fixed_attempt": "sat",
+    "fixed_timeout_ms": 180000,
+    "random_seed": 777,
+    "python": "3.12.14",
+    "z3": "4.15.3",
+    "source_sha256": "8fcc90a9d6df433f722f6c67b283d927e66cc76813e603e9d3bd0b8febfc7f6e",
+    "trust": "discovery only; SAT model is rechecked by check.py without Z3"
+  }
+}

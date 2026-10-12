@@ -1,0 +1,28 @@
+{
+  "schema": "CRYPTO3-support12-factor-signature-review-v9-pre-author-freeze",
+  "source": "accepted support12-full-factor-v9 only",
+  "fixed_b": "0010000",
+  "projection_bits": 26,
+  "factor_kinds": {
+    "J": 9,
+    "PF": 3,
+    "PG": 1
+  },
+  "factor_indices": [10, 11, 13, 15, 18, 20, 26, 28, 29, 34, 42, 43, 57],
+  "nonzero_forms": ["a", "b", "c", "k", "p+a", "q+s", "z"],
+  "independent_cnf": {
+    "variables": 13997,
+    "clauses": 57032,
+    "sha256": "f94f9f26cba2d20ef88e7a52ff735ba3a9a5a8c9507484c398dbf862fb7545d3",
+    "coupled_bits_per_coordinate": 26,
+    "uncoupled_high_bits_per_coordinate": 6
+  },
+  "blind_search": {
+    "backends": ["scipy.optimize.milp/HiGHS", "independent WalkSAT"],
+    "result": "UNKNOWN_RESOURCE_BOUNDARY",
+    "model_found": false,
+    "meaning": "No inference about SAT or UNSAT; subsequent positive witness audit does not depend on discovery."
+  },
+  "procedural_note": "A broad repository text search accidentally displayed author certificate pair lines before this file was written. The independent encoding and factor table did not use those lines, no blind model was found, and no claim of pristine blind discovery is made.",
+  "scope": "A SAT model would establish low26 residue feasibility only, defeating any local pruning argument of width at most 26; it would not establish full32 factor feasibility, a common base, or message existence."
+}

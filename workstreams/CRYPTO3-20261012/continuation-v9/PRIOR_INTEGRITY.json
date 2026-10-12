@@ -1,0 +1,8 @@
+{
+  "schema": "crypto3-stage9-prior-integrity-v1",
+  "stage8": {
+    "status": "PASS",
+    "files_checked": 80,
+    "sha256": "f9e932eb6b56785dd9c965beb99c005751d8988ba2e773a6462975eb544cb349"
+  }
+}

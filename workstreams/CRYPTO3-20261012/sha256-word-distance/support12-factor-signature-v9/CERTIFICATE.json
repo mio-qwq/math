@@ -1,0 +1,53 @@
+{
+  "schema": "support12-factor-signature-v9-certificate-v1",
+  "low26": {
+    "width": 26,
+    "fixed_b_residue": "00010000",
+    "scalars": {
+      "a": "035dc0f6",
+      "b": "00010000",
+      "c": "03cd88c0",
+      "k": "03e44744",
+      "p": "02621701",
+      "q": "018c8fbc",
+      "l": "0123544e",
+      "s": "0110a24b",
+      "w": "02a8b5f8",
+      "z": "03b732eb"
+    },
+    "pairs": {
+      "10": {"kind": "PF", "x": "19130f68", "y": "e870d05e"},
+      "11": {"kind": "PF", "x": "1c7f7337", "y": "80807337"},
+      "13": {"kind": "PF", "x": "6e2d8c1c", "y": "51fb14dc"},
+      "15": {"kind": "J", "x": "b317d1e7", "y": "dafc192b"},
+      "18": {"kind": "J", "x": "03ffddf9", "y": "dc00ddf9"},
+      "20": {"kind": "J", "x": "eed0267c", "y": "5ecf267c"},
+      "26": {"kind": "J", "x": "4894260f", "y": "9a53fe06"},
+      "28": {"kind": "J", "x": "0a1a03dc", "y": "f8b735e3"},
+      "29": {"kind": "J", "x": "de7174a0", "y": "4e3efd60"},
+      "34": {"kind": "J", "x": "03ffddfb", "y": "dc00ddfb"},
+      "42": {"kind": "J", "x": "21e60100", "y": "1fa5d8f7"},
+      "43": {"kind": "J", "x": "1a00a94a", "y": "c5ffa94a"},
+      "57": {"kind": "PG", "x": "41139682", "y": "64cac96d"}
+    },
+    "discovery": {
+      "python": "3.12.14",
+      "z3": "4.15.3",
+      "logic": "QF_BV",
+      "timeout_ms": 180000,
+      "random_seed": 777,
+      "result": "sat"
+    }
+  },
+  "exact_two_factor": {
+    "a": "00000001",
+    "b": "bfbf0000",
+    "c": "5fef57d8",
+    "common_F": "c8877210",
+    "p": "37788def",
+    "pairs": {
+      "34": {"x": "3e6d2593", "y": "fe2c2593"},
+      "43": {"x": "15d22ab7", "y": "56132ab7"}
+    }
+  }
+}

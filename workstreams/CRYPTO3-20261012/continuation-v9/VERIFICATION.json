@@ -1,0 +1,86 @@
+{
+  "schema": "crypto3-stage9-isolated-replay-v1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "base_commit": "e2a81b71bcc83ab72f325934c449d27ef198efb3",
+  "prior_stage8_integrity": {
+    "files_checked": 80,
+    "sha256": "f9e932eb6b56785dd9c965beb99c005751d8988ba2e773a6462975eb544cb349"
+  },
+  "stage9_integrity": {
+    "scope": "first execution before freeze"
+  },
+  "acceptance": {
+    "status": "ACCEPT",
+    "artifacts_checked": 13
+  },
+  "long_q_classification_rerun": false,
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/support12-base-residual-v9/verify_residual_merge.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.09791066400066484,
+      "stdout": "{\n  \"base_source\": \"support12-base-lift-v8/base_completion.py\",\n  \"base_source_sha256\": \"ffb18eab959097258633a69fbc23556d0f3fbf09bc80cf4d0deefc0fe7d89365\",\n  \"claim_scope\": \"row-57 sink elimination and exact pointwise endpoint merge only\",\n  \"dependency_sources_affected_by_u57\": [\n    57,\n    59,\n    61,\n    63\n  ],\n  \"deterministic_contexts\": 36,\n  \"negative_control\": {\n    \"forced_base\": \"0x12345678\",\n    \"pointwise_b\": \"0xffffa000\",\n    \"projected_b\": \"0x0000a000\",\n    \"projected_witness_base\": \"0x00000000\",\n    \"projection_is_insufficient\": true,\n    \"z\": \"0x00000001\"\n  },\n  \"row57_pair_identity_trials\": 64,\n  \"status\": \"PASS\",\n  \"u57_replacements_per_context\": 5\n}\n",
+      "stderr": "",
+      "checker_sha256": "6eaca3df1d00ab9fd533b43875ffa4d584ba458f0e4c91c21ec88741fc27ffcd",
+      "stdout_sha256": "525b7c7400e955995fb47207f3d9ab56c95abb757a65311fde7016cc963a34f0"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/support12-d0005-v9/check.py"
+      ],
+      "exit_code": 0,
+      "seconds": 8.412123548994714,
+      "stdout": "{\"certificates\": {\"reciprocal\": {\"cnf_sha256\": \"c9aabd080d90748ad977a6e76c1a0c7bcc5dab6fac7428cdaf30069f2eddaaeb\", \"drup_clauses_checked\": 1810, \"drup_sha256\": \"d2f197e04bc34d21cb07c2d05756ec9dda54b6918f3078f6ffd9ec50890dd1ab\", \"final_empty\": true, \"independent_rebuild\": true, \"original_clauses\": 1322, \"variables\": 226}, \"third_image\": {\"cnf_sha256\": \"fd679370c44887373eb8e8c2e682414d9dede63d77011831250518260f0497c4\", \"drup_clauses_checked\": 7662, \"drup_sha256\": \"aa9b486ed83bea41436979c375ab50b904f1fff592bec364f1c07354317b25f2\", \"final_empty\": true, \"independent_rebuild\": true, \"original_clauses\": 2203, \"variables\": 355}}, \"checker\": \"Python standard library only\", \"constants\": {\"A\": \"40406e02\", \"D\": \"00050000\", \"T\": \"1ffd913e\"}, \"gaps\": {\"G_Y_minus_G_Q\": \"00050000\", \"G_Y_minus_G_X\": \"000a0000\"}, \"negative_controls\": {\"known_sat_D_prime\": \"17081d0c\", \"known_sat_joint_control\": {\"F\": \"40406e02\", \"G\": \"1ff8913e\", \"d\": \"00050000\", \"x\": \"0ffb000a\"}, \"known_sat_witness_x\": \"00000000\", \"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"orientation_failure\": {\"actual_reverse_Q_d_F_G\": [\"fffb0000\", \"bfbf91fe\", \"e0026ec2\"], \"candidate_rejected\": true, \"required_third_pair_d_F_G\": [\"fffb0000\", \"40406e02\", \"1ffd913e\"]}, \"schema\": \"support12-d0005-reciprocal-check-v9\", \"scope\": \"fixed (D,A,T) attempted branch and fixed (D,A) reciprocal edge only; not all A at D, not full support, not messages\", \"source_sha256\": {\"check.py\": \"970d18e960094cbee525c14299b54b1760b9b47d9212f5d6eeb8b3dcb30cea1d\", \"generate.py\": \"0d87209c54d7f8a74f9352b9d6e98ceb92028a8718e9647cd674f1548a64a1d6\"}, \"status\": \"PASS\", \"supplied_positive_pairs\": {\"Q\": {\"F\": \"40406e02\", \"G\": \"1ffd913e\", \"d\": \"00050000\", \"u\": \"0ffb000e\", \"v\": \"1000000e\"}, \"X\": {\"F\": \"40406e02\", \"G\": \"1ff8913e\", \"d\": \"00050000\", \"u\": \"0ffb000a\", \"v\": \"1000000a\"}, \"Y\": {\"F\": \"40406e02\", \"G\": \"2002913e\", \"d\": \"00050000\", \"u\": \"0ffb0002\", \"v\": \"10000002\"}}, \"theorems\": {\"reciprocal\": \"no x has sigma0(x+A)-sigma0(x)=D mod 2^32\", \"third_image\": \"no x has d=D, sigma0 derivative=-A, sigma1 derivative=-T\"}}\n",
+      "stderr": "",
+      "checker_sha256": "970d18e960094cbee525c14299b54b1760b9b47d9212f5d6eeb8b3dcb30cea1d",
+      "stdout_sha256": "fb75cfa94a9b5095c9c6659a0d49a31fa3c6ac76d367b6cdfa12df99b7549ce0"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/support12-d000f-v9/check.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.3424617659984506,
+      "stdout": "{\"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"f16a99ee064edc1d95e7a248af07262bfd2ddd4c605dd5a1ec8d7587aa727a08\", \"variables\": 1259}, \"drup\": {\"checker\": \"Python standard library only\", \"clauses_checked\": 3951, \"final_empty\": true, \"seconds\": 3.266678096006217, \"sha256\": \"1256df91a4d7d82865b39743943450f0adfdb2875c98cb55c4b1d8c1c68a7210\"}, \"near_miss_control\": {\"A\": \"398179ec\", \"G_D_z\": \"5ff1e3b9\", \"T\": \"a000e3b9\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"5fff1c47\", \"x\": \"5ff2e1be\", \"y\": \"5ff2e1a6\", \"z\": \"9ff20041\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"schema\": \"support12-d000f-selected-four-pair-check-v9\", \"scope\": \"fixed D selected local subsystem only; not the complete support-12 factor graph and not a SHA-256 message pair\", \"status\": \"PASS\", \"theorem\": \"for D=000f0000 the exact selected three-pair core is UNSAT; therefore the selected four-pair criterion is UNSAT\"}\n",
+      "stderr": "",
+      "checker_sha256": "7edbdab9128dcf7e4180b68276adc9bb9df577da08aed63b39b135ac57424e89",
+      "stdout_sha256": "6735892665f03879b197c83808b7705b103a5a3fd8341b56ba07c2fe002c6393"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/support12-factor-signature-v9/check.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03045248700072989,
+      "stdout": "{\n  \"certificate_sha256\": \"6081cd43d0d307a8d42981ba5f46de39b994e2683a98479026749fedc3ae8731\",\n  \"checker_sha256\": \"3fce4f40f52d6bce06e1fff46aa7f4cb1a742ae34765cf1217a4c8c816ea90cf\",\n  \"exact_two_factor_b\": \"bfbf0000\",\n  \"exact_two_factor_v2_b\": 16,\n  \"factors_checked\": 13,\n  \"fixed_low26_b\": \"00010000\",\n  \"full_joint_factors\": 9,\n  \"low_width\": 26,\n  \"negative_controls\": [\n    {\n      \"control\": \"wrong_fixed_b\",\n      \"rejected\": true\n    },\n    {\n      \"control\": \"damaged_pair18\",\n      \"rejected\": true\n    },\n    {\n      \"control\": \"damaged_shared_p\",\n      \"rejected\": true\n    },\n    {\n      \"control\": \"wrong_factor_kind\",\n      \"rejected\": true\n    },\n    {\n      \"control\": \"wrong_sigma0_rotation\",\n      \"rejected\": true\n    },\n    {\n      \"control\": \"damaged_exact_pair43\",\n      \"rejected\": true\n    },\n    {\n      \"control\": \"damaged_exact_common_F\",\n      \"rejected\": true\n    }\n  ],\n  \"partial_factors\": 4,\n  \"python\": \"3.12.14\",\n  \"scope\": \"SAT witness for the exact low-26 quotient of all 13 factors, plus an exact two-factor valuation-16 witness; not a full 32-bit factor solution or message pair.\",\n  \"signatures\": {\n    \"10\": [\n      1,\n      16,\n      null\n    ],\n    \"11\": [\n      16,\n      0,\n      null\n    ],\n    \"13\": [\n      6,\n      2,\n      null\n    ],\n    \"15\": [\n      2,\n      1,\n      1\n    ],\n    \"18\": [\n      16,\n      0,\n      6\n    ],\n    \"20\": [\n      16,\n      0,\n      2\n    ],\n    \"26\": [\n      0,\n      16,\n      0\n    ],\n    \"28\": [\n      0,\n      16,\n      1\n    ],\n    \"29\": [\n      6,\n      3,\n      2\n    ],\n    \"34\": [\n      16,\n      0,\n      6\n    ],\n    \"42\": [\n      0,\n      0,\n      0\n    ],\n    \"43\": [\n      16,\n      0,\n      6\n    ],\n    \"57\": [\n      0,\n      null,\n      16\n    ]\n  },\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "checker_sha256": "3fce4f40f52d6bce06e1fff46aa7f4cb1a742ae34765cf1217a4c8c816ea90cf",
+      "stdout_sha256": "32e559fd69e4d4190cdd2f472ac41134816d26273dc4e7642334fb1a40a5ccd4"
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "sha256-word-distance/support12-v16-core-batch-v9/check.py"
+      ],
+      "exit_code": 0,
+      "seconds": 41.59239726699889,
+      "stdout": "{\"checker\": \"Python standard library only\", \"records\": {\"13\": {\"D\": \"000d0000\", \"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"1df928754d23acefa41d4ac7d7fc010e0ca49fe7f993816d3e413bc409f8cee5\", \"variables\": 1259}, \"drup\": {\"clauses_checked\": 6720, \"final_empty\": true, \"seconds\": 6.4673138490034034, \"sha256\": \"9b86c318437dab55ae07bf2848f2bd84f87d883e6d115359d3182e26843ff0cc\"}, \"near_miss_dropping_GDz\": {\"A\": \"bcfe89e4\", \"G_D_z\": \"dfe6c347\", \"T\": \"a00fc339\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"5ff03cc7\", \"x\": \"bffb96fd\", \"y\": \"bffb96e5\", \"z\": \"3ff3ff87\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"status\": \"PASS\"}, \"21\": {\"D\": \"00150000\", \"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"75de735eae881cd13e9cc9ae08996d9ce81d31799b970914e555f2281e64b350\", \"variables\": 1259}, \"drup\": {\"clauses_checked\": 5879, \"final_empty\": true, \"seconds\": 5.751561573000799, \"sha256\": \"0c8ef607e98c1929b971aed54d683a68d4cadcc229f326494992f180e8bbbb4b\"}, \"near_miss_dropping_GDz\": {\"A\": \"51fe0137\", \"G_D_z\": \"e003654a\", \"T\": \"5ff38546\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"a00c7aba\", \"x\": \"7ffd484d\", \"y\": \"7ffd595f\", \"z\": \"ffedfcfc\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"status\": \"PASS\"}, \"23\": {\"D\": \"00170000\", \"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"7710c2aff1e810c7f182bacf4e3adb035a5bb4daf404e68252f20cf4b6d13b5f\", \"variables\": 1259}, \"drup\": {\"clauses_checked\": 7365, \"final_empty\": true, \"seconds\": 7.504854346996581, \"sha256\": \"82ef370adf21a56e401cbced65122a3af2ea414540315ad182b50741b88de963\"}, \"near_miss_dropping_GDz\": {\"A\": \"d9fe01b9\", \"G_D_z\": \"602185b6\", \"T\": \"1feb65ba\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"e0149a46\", \"x\": \"ffec5b45\", \"y\": \"ffec4a57\", \"z\": \"7fec102b\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"status\": \"PASS\"}, \"25\": {\"D\": \"00190000\", \"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"4240a078f2cc3d225bf76e45e05dcdbe9246a23945c3fe260e915c10f4c020c6\", \"variables\": 1259}, \"drup\": {\"clauses_checked\": 4637, \"final_empty\": true, \"seconds\": 3.799736942004529, \"sha256\": \"47271c2b31dee08ae331b0b1c6b1d0b964c932b0b555555cc1279ba9c24c7cb7\"}, \"near_miss_dropping_GDz\": {\"A\": \"cdfe01fb\", \"G_D_z\": \"1fe1663a\", \"T\": \"1feb6636\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"e01499ca\", \"x\": \"fffbb4bd\", \"y\": \"fffba5af\", \"z\": \"fffbaa81\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"status\": \"PASS\"}, \"27\": {\"D\": \"001b0000\", \"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"a1361267d6e5b5f5560140a9d10344689a2cd25eeb80d987350b6e62eb7c8846\", \"variables\": 1259}, \"drup\": {\"clauses_checked\": 7319, \"final_empty\": true, \"seconds\": 7.555495054999483, \"sha256\": \"f2d46e4bbe630864ed1018983563f58d4b1b0e4a850d2919f606273bd9bf2e7e\"}, \"near_miss_dropping_GDz\": {\"A\": \"56001e11\", \"G_D_z\": \"a00186c0\", \"T\": \"e00c66c0\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"1ff39940\", \"x\": \"fff2336b\", \"y\": \"fff22279\", \"z\": \"7ff25a01\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"status\": \"PASS\"}, \"5\": {\"D\": \"00050000\", \"cnf\": {\"clauses\": 9683, \"independent_rebuild\": true, \"sha256\": \"0d12389970748ee281e73f5cdac14311987c799a847bc87fb694ece1b46fa7f6\", \"variables\": 1259}, \"drup\": {\"clauses_checked\": 9205, \"final_empty\": true, \"seconds\": 10.227019368998299, \"sha256\": \"98636e3ab04227983dcfe68754ca2af7cf2e23fe99dd164b1ac508f55a8444ce\"}, \"near_miss_dropping_GDz\": {\"A\": \"caff864e\", \"G_D_z\": \"dffb4142\", \"T\": \"a006413e\", \"equations\": {\"A_eq_FDx\": true, \"FDy_eq_A\": true, \"FDz_eq_minus_A\": true, \"GDy_eq_T_plus_D\": true, \"GDz_eq_minus_T\": false, \"T_eq_GDx_plus_D\": true}, \"minus_T\": \"5ff9bec2\", \"x\": \"bfff89ab\", \"y\": \"bfff89a3\", \"z\": \"3fffe0c9\"}, \"negative_controls\": {\"missing_final_empty_rejected\": true, \"mutated_cnf_digest_rejected\": true}, \"status\": \"PASS\"}}, \"schema\": \"support12-v16-selected-core-batch-check-v9\", \"scope\": \"six fixed D values only; not all v2(D)=16, not complete support-12, and not SHA-256 message pairs\", \"status\": \"PASS\", \"theorem\": \"the exact selected three-pair core is UNSAT for each listed fixed D\"}\n",
+      "stderr": "",
+      "checker_sha256": "e033375f78bbaf125ccf486123e68bd018b3d788b25a2785bd1eaf8985582c3e",
+      "stdout_sha256": "348be7ead37d561921e6d942cf59e6cdd36131fb1b33f79055b2f67c065d3ca2"
+    }
+  ],
+  "status": "PASS"
+}

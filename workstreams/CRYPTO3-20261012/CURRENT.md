@@ -94,6 +94,57 @@ kept all thirteen active pairs, all 48 difference rows and exact
 with reason `timeout` at 30 seconds. It has no model or UNSAT certificate,
 omits base completion, and is stopped without retry or budget extension.
 
+## Stage-9 accepted composition and valuation-16 finite window
+
+[The residual/endpoint merge](sha256-word-distance/support12-base-residual-v9/PROOF.md)
+and its [blind independent acceptance](sha256-word-distance/support12-base-residual-review-v9/REVIEW.md)
+show that active first endpoint `u57` affects exactly coordinates
+`{57,59,61,63}`.  Hence `R33` is independent of `u57`, while
+
+```
+H = sigma1(C55)+C50+sigma0(C42)+C41,
+R57 = u57-H.
+```
+
+Row 57 therefore forces the unique value `u57=H`.  When the accepted factor
+system is composed with the base chart, its projected `PG(z,b)` condition
+must be replaced by the pointwise condition `sigma1(H+z)-sigma1(H)=b`.
+This reduces the base obligation to `R33=0` plus the bound endpoint condition;
+it does not prove either one soluble.
+
+The exact affine/carry classification in
+[the valuation-16 package](sha256-word-distance/support12-v16-general-v9/PROOF.md)
+and its independent review covers every positive odd `q` in `1..31` at
+`D=q*2^16`.  The selected twin condition is excluded for
+`q={1,3,7,9,11,17,19,29,31}` and has 21 actual full-word local fixtures for
+`q={5,13,15,21,23,25,27}`.  Thus the old `q=1` obstruction does not extend
+uniformly across the valuation layer.
+
+For all seven surviving q values, separately checked deletion-free DRUP
+certificates exclude the required selected **three-pair** joint-image core.
+The fixed `q=15` package and review are separate; a six-q batch covers
+`{5,13,21,23,25,27}`.  Pair reversal gives the negative orientations.
+Together, the selected three-pair core is now excluded for
+
+```
+D=+/-q*2^16, every odd q in 1..31.
+```
+
+This remains a finite window, not all exact-valuation-16 residues.  The
+[corrected q=5 record](sha256-word-distance/support12-d0005-v9/PROOF.md)
+preserves a caught sign error: reversing the proposed third word negates
+`d,F,G` together, so the old three-pair candidate was invalid.  Independent
+certificates also exclude its fixed correct third image and reciprocal edge.
+
+[The low-26 factor witness](sha256-word-distance/support12-factor-signature-v9/PROOF.md)
+and its independent review establish a failure boundary.  The complete
+thirteen-factor graph is satisfiable modulo `2^26` at `b=00010000`, using one
+real 32-bit word pair for simultaneous `F/G` at each full factor.  Factors
+34/43 also have a full-word two-factor witness with `v2(b)=16`.  Therefore
+valuation signatures, exact low-26 carries, and that anti-symmetric fragment
+cannot by themselves exclude the remaining layer.  No full 32-bit factor
+solution or base-message lift is claimed.
+
 ## Frozen failure and next mathematical step
 
 [Full-pair probe](sha256-word-distance/full-pair-probe-v4/MECHANISM.md)

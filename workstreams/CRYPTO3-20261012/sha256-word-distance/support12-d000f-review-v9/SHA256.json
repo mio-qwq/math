@@ -1,0 +1,14 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "AUDIT_RUN.json": "1ddc417ec318b5eaf2ef7f682ee38c60be4a422bd3156a986736f42509c1b7b9",
+    "PREAUDIT.md": "e4fe6d955d9f8b7b35b21a421c4165221d10cc9387d56d400e7d9de135f9960b",
+    "REVIEW.md": "9187e9661e8d09e25ec7bf6b19e6d26e6c74709e4106295bf48538448bfd0686",
+    "audit.py": "40e008759761d75aaa24594202d69aef91602773b10e585805c69717c0d8c7af",
+    "independent.cnf": "4cda87765cc2835ff78ce0bd61f0482d78c0ffcdab5941156a09b8ce254bf55a",
+    "independent.py": "d521119c5c739a9a02abd15aa4882de35e8876acfa125cc2d57b6a98bb5bccfa",
+    "near_miss.cnf": "64cd764ccdc9e7c9fc036f0bd4b2e4a3c256246b219a26682c80dfca5da8b70f"
+  },
+  "schema": "support12-d000f-independent-review-v9-manifest",
+  "scope": "fixed D=000f0000 selected local three-pair UNSAT only"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "support12-d0005-review-manifest-v9",
+  "self_excluded": "SHA256.json",
+  "base_commit": "e2a81b71bcc83ab72f325934c449d27ef198efb3",
+  "files": {
+    "COMPARISON.json": {"bytes": 4158, "sha256": "ced686a86e5f261d2716af9d12dd36f050497fdc45098faed402119220e20ed2"},
+    "INDEPENDENT_RUN.json": {"bytes": 1934, "sha256": "57d04afc2083667d9e871fa8311b0fc2e17f941a6373875c70f569d96195dbdb"},
+    "PRE-AUTHOR-DERIVATION.md": {"bytes": 1722, "sha256": "d7b823a41cb16a2584f47af955648ee8d0f0894dfc7d65976dc299160247823c"},
+    "PRE-AUTHOR-FREEZE.json": {"bytes": 1611, "sha256": "164931f5573fdc7e8d1cd6c4ea21c6363da3b9d10337b03de829959e4e7e9ea1"},
+    "README.md": {"bytes": 655, "sha256": "802aeff690c8e0a77476d16383a7f7608c717bcf7a28f1056ad73cd08813967b"},
+    "REVIEW.md": {"bytes": 3418, "sha256": "16d5f058f146d2ef72cfc60aecc412fb4fa0e4ec24102a1075f585e8aaaa10af"},
+    "compare_author.py": {"bytes": 7340, "sha256": "55de1e62a4b3459349a519eebaeb115006937cddf67c64eea27098b86848b0ea"},
+    "independent.py": {"bytes": 12517, "sha256": "ab5f4ec1731f6b6797094c79ccb252e1920b59ea19aa8387aac324bf32f53fce"},
+    "reciprocal.cnf": {"bytes": 21857, "sha256": "c5d94162282e6a95bfed054a60001c426fdb1148b5ae67ba3817690c6d2eb1fe"},
+    "reciprocal.drup": {"bytes": 78945, "sha256": "28fdf5ceeb99b16f2e24487f0f81310e388ca45ba1f8bfe313cb0866b2e9d99e"},
+    "third-image.cnf": {"bytes": 36823, "sha256": "8a156471cb004a7a549adf10e98dc44aa3021596630d38eb203cedd38f7a3ca2"},
+    "third-image.drup": {"bytes": 5837, "sha256": "0c448930dc0a751c7665d06c4af83c3375fab9860e10c6f1453b19d10c3b9249"}
+  },
+  "verdicts": {
+    "candidate_sign_correction": "ACCEPT",
+    "fixed_third_image_UNSAT": "ACCEPT",
+    "fixed_reciprocal_UNSAT": "ACCEPT"
+  },
+  "scope_exclusions": ["other q=5 A", "full support", "message", "distance14"]
+}

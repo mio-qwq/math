@@ -1,0 +1,79 @@
+{
+  "schema": "crypto3-stage9-acceptance-v1",
+  "status": "ACCEPT",
+  "global_boundary": "distance >= 13 only; no distance-13 pair and no >=14 proof",
+  "accepted_scopes": [
+    "row57 base elimination and pointwise endpoint merge",
+    "selected twin classification for odd q<=31",
+    "selected three-pair exclusion for odd q<=31 after combining independently reviewed cases",
+    "fixed q=5 sign correction and branch obstructions",
+    "low-26 full-factor and full-word two-factor satisfiability failure boundaries"
+  ],
+  "artifacts": [
+    {
+      "path": "sha256-word-distance/support12-base-residual-v9/SHA256.json",
+      "bytes": 970,
+      "sha256": "cbdfa2fd8d76c4e7bc511f10c30d15b43763144dfd1eac6fff758e1d5ee6546f"
+    },
+    {
+      "path": "sha256-word-distance/support12-base-residual-review-v9/SHA256.json",
+      "bytes": 1269,
+      "sha256": "1ee4aa1318a6306dfc23c4f56426824f9d49eb87f0808adcd8a74058d36838a1"
+    },
+    {
+      "path": "sha256-word-distance/support12-v16-general-v9/SHA256.json",
+      "bytes": 1949,
+      "sha256": "99ce9174f0e8f15fcee45b766ec2427bfd2fa20df966dc3558aff9aab5cccade"
+    },
+    {
+      "path": "sha256-word-distance/support12-v16-review-v9/SHA256.json",
+      "bytes": 1639,
+      "sha256": "e73966fc59021030c88864de87af579f03a252c74f5cca7a38c025f46b392db9"
+    },
+    {
+      "path": "sha256-word-distance/support12-d0005-v9/SHA256.json",
+      "bytes": 1493,
+      "sha256": "c31b352ed4ef8a1673069a07b4518ea8948a695125280ba4b39ca950e57c2798"
+    },
+    {
+      "path": "sha256-word-distance/support12-d0005-review-v9/SHA256.json",
+      "bytes": 1818,
+      "sha256": "31c303b24a306feaa9cfb832f56062c25a4990a8a69eab31846e66423e2d7d1f"
+    },
+    {
+      "path": "sha256-word-distance/support12-d000f-v9/SHA256.json",
+      "bytes": 874,
+      "sha256": "b2dce4171d76d8bf5b70f500025201f54ee2cd5a1e96e4cd15c89a13ffb31776"
+    },
+    {
+      "path": "sha256-word-distance/support12-d000f-review-v9/SHA256.json",
+      "bytes": 791,
+      "sha256": "93639f92a0c6cba1aa5deee0f5a93ef8422a98598f25468924489a853196c534"
+    },
+    {
+      "path": "sha256-word-distance/support12-factor-signature-v9/manifest.json",
+      "bytes": 1458,
+      "sha256": "794f7b8ca8b5a5e2fca1469a682f098bd0c3ec4a8d46be1486b483b4a29b9e8e"
+    },
+    {
+      "path": "sha256-word-distance/support12-factor-signature-review-v9/REVIEW.md",
+      "bytes": 5162,
+      "sha256": "54f0b51598d6496529c7772f3a17f486764a30f92d42d08c9d3a5c6035dec17f"
+    },
+    {
+      "path": "sha256-word-distance/support12-factor-signature-review-v9/AUDIT-RUN.json",
+      "bytes": 1331,
+      "sha256": "5a0ab215150e268783ba8b002de9e8b8c032d985f5c07fbe7a7e70598dd7f4f7"
+    },
+    {
+      "path": "sha256-word-distance/support12-v16-core-batch-v9/SHA256.json",
+      "bytes": 1724,
+      "sha256": "4c1a4255d167365acb885bd2a8850011e70f6f4f33bad8d2933e3ab843f8609f"
+    },
+    {
+      "path": "sha256-word-distance/support12-v16-core-batch-review-v9/SHA256.json",
+      "bytes": 1920,
+      "sha256": "49c308f7431d8f3adb6c40ad35e26bd0dddb939fcbedaf2d15445edf56b02301"
+    }
+  ]
+}

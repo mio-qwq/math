@@ -1,0 +1,31 @@
+{
+  "schema": "CRYPTO3-support12-factor-signature-review-v9-audit-run",
+  "status": "PASS",
+  "decision": "ACCEPT",
+  "blind_discovery": {
+    "status": "UNKNOWN_RESOURCE_BOUNDARY",
+    "model_found": false,
+    "cnf_variables": 13997,
+    "cnf_clauses": 57032,
+    "cnf_sha256": "f94f9f26cba2d20ef88e7a52ff735ba3a9a5a8c9507484c398dbf862fb7545d3"
+  },
+  "author_witness_independent_audit": {
+    "low_width": 26,
+    "fixed_b": "00010000",
+    "factors_checked": 13,
+    "full_joint_same_pair_factors": 9,
+    "projected_factors": 4,
+    "direct_sigma_definitions_checked": true,
+    "uncoupled_high_bits_per_projected_coordinate": 6,
+    "exact_full32_factors_checked": [34, 43],
+    "negative_controls_rejected": 7,
+    "manifest_files_verified": 7,
+    "upstream_hash_bindings_verified": 3
+  },
+  "exact_full32_outputs": {
+    "34": {"d": "bfbf0000", "F": "c8877210", "G": "5fcfa828"},
+    "43": {"d": "40410000", "F": "c8877210", "G": "a010a828"}
+  },
+  "accepted_scope": "Exact satisfiability of the complete corrected 13-factor graph after projection modulo 2^26 at b=2^16, using actual 32-bit local pairs, plus exact full32 feasibility of the isolated factors 34/43 at b=bfbf0000.",
+  "excluded_scope": "No full32 13-factor solution, common base schedule, message pair, distance-13 construction, or distance lower bound."
+}

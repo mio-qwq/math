@@ -1,0 +1,61 @@
+{
+  "schema": "support12-d0005-receipt-v9",
+  "created_utc": "2026-10-12T19:31:40Z",
+  "base_commit": "e2a81b71bcc83ab72f325934c449d27ef198efb3",
+  "branch": "partner/dist-CRYPTO3-20261012",
+  "classification": {
+    "supplied_three_pair_fixture": "REJECTED: orientation/sign error in Q reversal",
+    "fixed_D_A_T_third_image": "complete finite UNSAT certificate; author-side stdlib check PASS",
+    "fixed_D_A_reciprocal": "complete finite UNSAT certificate; author-side stdlib check PASS",
+    "independent_AI_review": "not yet performed",
+    "Lean_formalization": "not performed"
+  },
+  "accepted_scope_if_independently_reviewed": [
+    "At D=00050000, A=40406e02, T=1ffd913e, the correct positive third point (D,-A,-T) is absent from the actual joint image.",
+    "At D=00050000 and A=40406e02, D is absent from the actual sigma0 derivative image R_A.",
+    "Therefore the displayed X/Y fixed branch cannot complete either its third selected pair or its reciprocal fourth edge."
+  ],
+  "not_claimed": [
+    "all A branches at D=00050000 are excluded",
+    "support 12 is excluded",
+    "all 48 difference rows are jointly infeasible",
+    "base schedule infeasibility",
+    "a distance-13 message pair",
+    "distance at least 14",
+    "Lean acceptance",
+    "human peer review",
+    "novelty or publication"
+  ],
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/b1d6bae025af/crypto3-deps python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-d0005-v9/generate.py",
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-d0005-v9/check.py --write",
+    "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-d0005-v9/check.py"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "python_sat": "1.9.dev15",
+    "proof_generator": "Glucose4 bundled by python-sat",
+    "final_checker_dependencies": "Python standard library only"
+  },
+  "proof_summary": {
+    "reciprocal": {
+      "variables": 226,
+      "original_clauses": 1322,
+      "drup_additions": 1810,
+      "cnf_sha256": "c9aabd080d90748ad977a6e76c1a0c7bcc5dab6fac7428cdaf30069f2eddaaeb",
+      "drup_sha256": "d2f197e04bc34d21cb07c2d05756ec9dda54b6918f3078f6ffd9ec50890dd1ab"
+    },
+    "third_image": {
+      "variables": 355,
+      "original_clauses": 2203,
+      "drup_additions": 7662,
+      "cnf_sha256": "fd679370c44887373eb8e8c2e682414d9dede63d77011831250518260f0497c4",
+      "drup_sha256": "aa9b486ed83bea41436979c375ab50b904f1fff592bec364f1c07354317b25f2"
+    }
+  },
+  "failure_mechanism": {
+    "required_third_pair": ["fffb0000", "40406e02", "1ffd913e"],
+    "actual_reverse_Q": ["fffb0000", "bfbf91fe", "e0026ec2"],
+    "explanation": "Reversing an actual pair negates d, F and G simultaneously; it does not negate d alone."
+  }
+}

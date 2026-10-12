@@ -1,0 +1,141 @@
+{
+  "definition": {
+    "A": "F_D(x)",
+    "D": "q*2^16",
+    "T": "G_D(x)+D",
+    "encoded_constraints": [
+      "F_D(y)=A",
+      "G_D(y)=T+D",
+      "F_D(z)=-A",
+      "G_D(z)=-T"
+    ]
+  },
+  "implication": "each certified core exclusion also excludes its fixed-D selected four-pair criterion after adding F_A(u)=D",
+  "q_values": [
+    5,
+    13,
+    21,
+    23,
+    25,
+    27
+  ],
+  "records": {
+    "13": {
+      "D": "000d0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "1df928754d23acefa41d4ac7d7fc010e0ca49fe7f993816d3e413bc409f8cee5",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 6720,
+        "discarded_deletion_lines": 4019,
+        "format": "deletion-free DRUP",
+        "sha256": "9b86c318437dab55ae07bf2848f2bd84f87d883e6d115359d3182e26843ff0cc"
+      },
+      "q": 13,
+      "solver_seconds": 0.06570674300019164,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "21": {
+      "D": "00150000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "75de735eae881cd13e9cc9ae08996d9ce81d31799b970914e555f2281e64b350",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 5879,
+        "discarded_deletion_lines": 2113,
+        "format": "deletion-free DRUP",
+        "sha256": "0c8ef607e98c1929b971aed54d683a68d4cadcc229f326494992f180e8bbbb4b"
+      },
+      "q": 21,
+      "solver_seconds": 0.049238040002819616,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "23": {
+      "D": "00170000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "7710c2aff1e810c7f182bacf4e3adb035a5bb4daf404e68252f20cf4b6d13b5f",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 7365,
+        "discarded_deletion_lines": 4343,
+        "format": "deletion-free DRUP",
+        "sha256": "82ef370adf21a56e401cbced65122a3af2ea414540315ad182b50741b88de963"
+      },
+      "q": 23,
+      "solver_seconds": 0.08643436199781718,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "25": {
+      "D": "00190000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "4240a078f2cc3d225bf76e45e05dcdbe9246a23945c3fe260e915c10f4c020c6",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 4637,
+        "discarded_deletion_lines": 1860,
+        "format": "deletion-free DRUP",
+        "sha256": "47271c2b31dee08ae331b0b1c6b1d0b964c932b0b555555cc1279ba9c24c7cb7"
+      },
+      "q": 25,
+      "solver_seconds": 0.05434620899904985,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "27": {
+      "D": "001b0000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "a1361267d6e5b5f5560140a9d10344689a2cd25eeb80d987350b6e62eb7c8846",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 7319,
+        "discarded_deletion_lines": 4509,
+        "format": "deletion-free DRUP",
+        "sha256": "f2d46e4bbe630864ed1018983563f58d4b1b0e4a850d2919f606273bd9bf2e7e"
+      },
+      "q": 27,
+      "solver_seconds": 0.09262871699320385,
+      "status": "UNSAT candidate; DRUP generated"
+    },
+    "5": {
+      "D": "00050000",
+      "cnf": {
+        "clauses": 9683,
+        "sha256": "0d12389970748ee281e73f5cdac14311987c799a847bc87fb694ece1b46fa7f6",
+        "variables": 1259
+      },
+      "proof": {
+        "added_clauses": 9205,
+        "discarded_deletion_lines": 4555,
+        "format": "deletion-free DRUP",
+        "sha256": "98636e3ab04227983dcfe68754ca2af7cf2e23fe99dd164b1ac508f55a8444ce"
+      },
+      "q": 5,
+      "solver_seconds": 0.09665415200288408,
+      "status": "UNSAT candidate; DRUP generated"
+    }
+  },
+  "runtime": {
+    "command": "PYTHONPATH=/workspace/scratch/b1d6bae025af/crypto3-deps python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-v16-core-batch-v9/generate.py",
+    "python": "3.12.14",
+    "python_sat": "1.9.dev15",
+    "solver": "Glucose4 bundled by python-sat; generation only",
+    "solver_binary": "/workspace/scratch/b1d6bae025af/crypto3-deps/pysolvers.cpython-312-x86_64-linux-gnu.so",
+    "solver_binary_sha256": "d6b02a21d3d8fcfd71996a2c9892f9c22ef8d78c1f8b19d260be1c6930411651"
+  },
+  "schema": "support12-v16-selected-core-batch-v9",
+  "scope": "six fixed D values in a selected local subsystem only; not all v2(D)=16, not the complete support-12 graph, and not messages",
+  "source_sha256": {
+    "check.py": "e033375f78bbaf125ccf486123e68bd018b3d788b25a2785bd1eaf8985582c3e",
+    "generate.py": "475bb1171d77ba2fd957f50025c335e4fdf7ee8d7bab2b86f7fcf9cd6055c3a0"
+  },
+  "status": "all six author proof candidates generated"
+}

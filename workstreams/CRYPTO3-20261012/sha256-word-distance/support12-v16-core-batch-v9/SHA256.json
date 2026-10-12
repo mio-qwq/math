@@ -1,0 +1,25 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "CERTIFICATE.json": "237cab1d57207def6398ddf46d2a5592a65282076ec96355e1f683df8c34efee",
+    "PROOF.md": "cb12b82b3e56aa814cd34693f3a9bc661af43f5e05518cd7a868639fa60ff349",
+    "REPLAY.md": "68281ffb3d43851d243e22d148abd7b9ce9c360e80fe1faab68dd02d43aa8c09",
+    "RUN.json": "37b34f9ba18a27f6bb325d755b6ef1b6ea8c60f95915f173aaf5a37f041a3034",
+    "check.py": "e033375f78bbaf125ccf486123e68bd018b3d788b25a2785bd1eaf8985582c3e",
+    "d0005.cnf": "0d12389970748ee281e73f5cdac14311987c799a847bc87fb694ece1b46fa7f6",
+    "d0005.drup": "98636e3ab04227983dcfe68754ca2af7cf2e23fe99dd164b1ac508f55a8444ce",
+    "d000d.cnf": "1df928754d23acefa41d4ac7d7fc010e0ca49fe7f993816d3e413bc409f8cee5",
+    "d000d.drup": "9b86c318437dab55ae07bf2848f2bd84f87d883e6d115359d3182e26843ff0cc",
+    "d0015.cnf": "75de735eae881cd13e9cc9ae08996d9ce81d31799b970914e555f2281e64b350",
+    "d0015.drup": "0c8ef607e98c1929b971aed54d683a68d4cadcc229f326494992f180e8bbbb4b",
+    "d0017.cnf": "7710c2aff1e810c7f182bacf4e3adb035a5bb4daf404e68252f20cf4b6d13b5f",
+    "d0017.drup": "82ef370adf21a56e401cbced65122a3af2ea414540315ad182b50741b88de963",
+    "d0019.cnf": "4240a078f2cc3d225bf76e45e05dcdbe9246a23945c3fe260e915c10f4c020c6",
+    "d0019.drup": "47271c2b31dee08ae331b0b1c6b1d0b964c932b0b555555cc1279ba9c24c7cb7",
+    "d001b.cnf": "a1361267d6e5b5f5560140a9d10344689a2cd25eeb80d987350b6e62eb7c8846",
+    "d001b.drup": "f2d46e4bbe630864ed1018983563f58d4b1b0e4a850d2919f606273bd9bf2e7e",
+    "generate.py": "475bb1171d77ba2fd957f50025c335e4fdf7ee8d7bab2b86f7fcf9cd6055c3a0"
+  },
+  "schema": "support12-v16-core-batch-v9-manifest",
+  "scope": "six fixed-D author certificate packages; independent AI review pending"
+}
