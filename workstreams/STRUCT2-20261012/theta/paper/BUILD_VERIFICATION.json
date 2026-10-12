@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-12T17:27:08.976526+00:00",
+  "engine": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+  "source_sha256": "594d42ceecb510bd79a1cc0df189819442d0976044743fd5a36909f4519029ec",
+  "pdf_sha256": "b851a2b389a1b1afb7f79220b0937f150613776f1ca9b7192000b2eb8d6e599b",
+  "pages": 7,
+  "final_build_log_sha256": "689d4c3c109697dce96ca92f08281e54e9e43f8f271533a7089b63b13188d77e",
+  "warning_free_final_build": true,
+  "visual_qa": "All seven rendered pages inspected; no clipping, overlap or missing formulas observed.",
+  "review_scope": "Consolidated research draft; no new independent mathematical review or full Lean polytope claim."
+}

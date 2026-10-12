@@ -12,6 +12,9 @@ New written results:
 - [Sparse expectation and twin-free scales](SPARSE_THRESHOLD.md): full
   TF expectation has leading sparse constant 4; twin-freeness has the
   distinct scale 1 and a Poisson critical-window formula.
+- [Constant-order threshold refinement](SPARSE_SHIFT.md): for
+  `p=(4 log n-K)/n`, full-group expectation tends to one when `K<4`
+  and diverges when `K>4`; the boundary `K=4` remains unresolved.
 - [Source/overlap report](PRIOR_ART_2026-10-12.md): no first-resolution
   claim for the fixed-p limit, no certification of historical firstness.
 

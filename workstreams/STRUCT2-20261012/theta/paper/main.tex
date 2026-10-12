@@ -1,0 +1,421 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs}
+\usepackage[a4paper,margin=27mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Th}{\Theta}
+\newcommand{\bn}[1]{\binom{#1}{#1/2}}
+\newcommand{\N}{\mathcal N}
+\title{Exact facet maximizers for simple theta graphs and the bicyclic extremal problem}
+\author{mio-qwq/math project\\\small STRUCT2-20261012 research manuscript}
+\date{13 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We determine the unique unordered path-length triple maximizing the number
+of facets of the symmetric edge polytope of a simple theta graph, for every
+order at which this class is nonempty. The maximizing exceptional-parity
+path has length one at even order and length two at odd order; its two
+remaining paths are as balanced as their parity permits. This proves the
+simple-graph version of Braun--Bruegge Conjecture 33 and strengthens its
+stated range and conclusion. Exact ratios to their bicyclic candidate
+bound are strictly less than one at every order at least five, proving
+Conjecture 32 on its natural domain. A block reduction then gives the
+maximum for every connected simple graph with one more edge than vertices,
+together with the maximizing block data. The argument treats length-one
+paths explicitly and uses a joint bound on both length-weighted counting
+terms. Its universal conclusions rest on exact inequalities, with separate
+definition-level computational checks supplied for reproducibility.
+\end{abstract}
+
+\section{Problem, domain, and results}
+For a finite connected simple graph $G$ on $[n]$, let
+\[
+ P_G=\operatorname{conv}\{\pm(e_i-e_j):ij\in E(G)\},\qquad
+ \N(G)=\#\{\text{facets of }P_G\}.
+\]
+A theta graph $\Th(a,b,c)$ consists of three internally vertex-disjoint
+paths with common distinct endpoints, of edge lengths $a,b,c$. We work
+throughout in the domain
+\begin{equation}\label{eq:domain}
+ a,b,c\ge1,\quad \#\{i:a_i=1\}\le1,\quad a+b+c=n+1.
+\end{equation}
+Thus it has $n$ vertices and $n+1$ edges, and $n\ge4$. Two purported
+length-one paths would duplicate the same edge of a simple graph.
+Braun and Bruegge use the notation $\mathrm{CB}(a,b,c)$ for this graph
+\cite{BB}. Their journal Conjecture 33 proposes four maximizers for
+$n\ge10$; Conjecture 32 asks for the remaining mixed-parity bound in
+their bicyclic extremal problem.
+
+\begin{theorem}\label{thm:theta}
+For every $n\ge4$, the maximizing unordered triple in \eqref{eq:domain}
+is unique and is given by the following table.
+\begin{center}
+\begin{tabular}{ccc}\toprule
+Order & Parity of $k$ & Maximizing triple\\\midrule
+$n=2k-1$ & even & $(k-1,k-1,2)$\\
+$n=2k-1$ & odd & $(k,k-2,2)$\\
+$n=2k$ & even & $(k,k,1)$\\
+$n=2k$ & odd & $(k+1,k-1,1)$\\\bottomrule
+\end{tabular}
+\end{center}
+The odd-order rows have $k\ge3$; the even-order rows have $k\ge2$.
+\end{theorem}
+
+For odd $s\ge3$, put $h(s)=s\binom{s-1}{(s-1)/2}$, and, for $k\ge3$,
+\begin{equation}\label{eq:M}
+ W(k)=\begin{cases}h(k-1)h(k+1),&k\text{ even},\\h(k)^2,&k\text{ odd},\end{cases}
+ \qquad M(2k-1)=W(k),\quad M(2k)=2W(k).
+\end{equation}
+This is the graph-defined candidate of \cite[Definition 12]{BB}.
+
+\begin{theorem}\label{thm:bicyclic}
+For every $n\ge5$, the maximum of $\N(G)$ among connected simple graphs
+with $n$ vertices and $n+1$ edges is $M(n)$. Every such graph with a theta
+core has strictly fewer facets. A maximizing graph has two odd cycle
+blocks with the balanced lengths in \eqref{eq:M}, and zero bridges at
+odd order or exactly one bridge at even order.
+\end{theorem}
+
+At even order, the maximizing block data may give different graph
+isomorphism types: the bridge can join disjoint cycles or be a pendant
+edge on their one-vertex wedge. We do not assert unique whole-graph
+maximizers there. At $n=4$, the sole eligible graph is $K_4-e$ and its
+facet count is 12. At $n=3$, no simple graph has four edges. The expression
+in \cite[Definition 12]{BB} contains an undefined $C_1$ at these small
+orders, so we do not introduce a one-cycle convention.
+
+\section{The counting formula and its boundary cases}
+We use the facet-labeling characterization of Higashitani, Jochemko and
+Micha\l ek \cite{HJM}, recalled in \cite[Theorem 5]{BB}. After one vertex
+label is normalized to zero, facets correspond exactly to integer
+functions $f$ whose difference has absolute value at most one on every
+edge and whose edges of absolute difference one form a connected
+spanning subgraph. Opposite functions are not identified.
+
+For $m\ge0$, define
+\[
+ B_m(t)=\begin{cases}
+ \binom m{(m+t)/2},& |t|\le m,\ m+t\equiv0\pmod2,\\
+ 0,&\text{otherwise},
+ \end{cases}
+ \qquad T(a,b,c)=\sum_tB_a(t)B_b(t)B_c(t).
+\]
+In particular $B_0(t)=1[t=0]$; this is a counting row and does not
+introduce a zero-length graph path.
+
+\begin{lemma}\label{lem:count}
+For common-parity lengths, $\N(\Th(a,b,c))=T(a,b,c)$. For mixed parity,
+name the same-parity lengths $x,y$ and the other length $z$. Then
+\begin{equation}\label{eq:weighted}
+ \N(x,y,z):=\N(\Th(x,y,z))
+ =zT(x,y,z-1)+xyT(x-1,y-1,z).
+\end{equation}
+This identity includes every legal length-one boundary in
+\eqref{eq:domain}.
+\end{lemma}
+\begin{proof}
+Normalize one common endpoint to zero and let the other endpoint label
+be $t$. Along each path increments belong to $\{-1,0,1\}$. Two zero
+increments on one path disconnect the segment between them in the
+saturated subgraph, so there is at most one zero on each path. At least
+one path has no zero, since otherwise the two endpoints are disconnected
+in that subgraph. Conversely, these two conditions make the saturated
+subgraph connected and spanning.
+
+For equal parities, equality of endpoint sums forces all three paths to
+have the same zero parity; only zero zeros on every path is allowed.
+This gives $T$. For mixed parity the two possibilities are: the $z$-path
+has one zero and the $x,y$ paths have none; or the $z$-path has none and
+each of the other two has one. Choosing zero positions gives the
+coefficients $z$ and $xy$ in \eqref{eq:weighted}. With a length-one path,
+deleting its zero increment leaves the row $B_0$. Thus the same argument
+covers the boundary rather than substituting an undefined path into a
+positive-length formula. These counts agree with the separate clauses
+of \cite[Corollary 25]{BB}.
+\end{proof}
+
+For same-parity $p,q\ge0$, Vandermonde's identity gives
+\begin{equation}\label{eq:vander}
+ \sum_t B_p(t)B_q(t)=B_{p+q}(0),\qquad
+ T(a,b,c)\le \max_tB_a(t)\,B_{b+c}(0).
+\end{equation}
+Write $b_j=\binom{2j}{j}$ for $j\ge0$. Its successive ratio is
+\begin{equation}\label{eq:rho}
+ \rho_j=b_{j+1}/b_j=4-2/(j+1),
+\end{equation}
+which is positive and strictly increasing. It follows that, for $u\ge0$
+and $v\ge1$,
+\begin{equation}\label{eq:product}
+ \frac{b_ub_v}{b_{u+v}}\le\frac{u+1}{2u+1},\qquad
+ b_rb_s\le2b_{r+s-1}\quad(r,s\ge1).
+\end{equation}
+Indeed the first quotient is nonincreasing in $v$ because its successive
+ratio is $\rho_v/\rho_{u+v}\le1$; evaluate at $v=1$. The second quotient
+equals 2 at $r=1$ and has successive ratio $\rho_r/\rho_{r+s-1}\le1$.
+
+\begin{lemma}\label{lem:short}
+For even $p,q\ge2$ and odd $x,y\ge1$ with at most one equal to one,
+\begin{align}
+ \N(p,q,1)&=\frac{pq+2}{2}B_p(0)B_q(0),\label{eq:short1}\\
+ \N(x,y,2)&=\frac{xy+5}{4}B_{x+1}(0)B_{y+1}(0).\label{eq:short2}
+\end{align}
+\end{lemma}
+\begin{proof}
+For \eqref{eq:short1}, only $t=0$ occurs in the first term of
+\eqref{eq:weighted} and only $t=\pm1$ in the second; use
+$B_{p-1}(1)=B_p(0)/2$.
+For \eqref{eq:short2}, put $A_x=B_{x-1}(0)$ and
+$r_x=(x-1)/(x+1)$, and similarly for $y$. Then
+\[
+ B_x(1)=\frac{2x}{x+1}A_x,\quad B_{x-1}(2)=r_xA_x,\quad
+ B_{x+1}(0)=\frac{4x}{x+1}A_x.
+\]
+These also hold at $x=1$. The two terms in \eqref{eq:weighted} give
+\[
+ \N(x,y,2)=4B_x(1)B_y(1)+2xyA_xA_y(1+r_xr_y)
+ =\frac{4xy(xy+5)}{(x+1)(y+1)}A_xA_y.
+\]
+This is \eqref{eq:short2}. The length multipliers and the constant 5
+are essential.
+\end{proof}
+
+\section{Strict compression of the exceptional-parity path}
+\begin{proposition}\label{prop:even}
+For even $x,y\ge2$ and odd $z\ge1$,
+\[
+ \N(x,y,z)\le\N(x,y+z-1,1),
+\]
+strictly when $z>1$.
+\end{proposition}
+\begin{proof}
+Put $D=B_{y+z-1}(0)>0$. The peaks of the even and odd rows of lengths
+$x,x-1$ are $B_x(0)$ and $B_x(0)/2$. Jointly applying
+\eqref{eq:vander} to \eqref{eq:weighted} gives
+\[
+ \N(x,y,z)\le B_x(0)D\left(z+\frac{xy}{2}\right).
+\]
+By \eqref{eq:short1}, the compressed count is
+$B_x(0)D(1+x(y+z-1)/2)$. The difference of these factors is
+$(z-1)(x-2)/2\ge0$. It is positive if $z>1$ and $x>2$.
+If $z>1$ and $x=2$, the first envelope itself is strict: at $t=2$ its
+weight $B_y(2)B_{z-1}(2)$ is positive, whereas $B_2(2)=1<B_2(0)=2$.
+This covers the boundary $x=y=2$. If $z=1$, the graph is unchanged.
+\end{proof}
+
+\begin{proposition}\label{prop:odd}
+For odd $x,y\ge1$, even $z\ge2$, and at most one of $x,y$ equal to one,
+\[
+ \N(x,y,z)\le\N(x,y+z-2,2),
+\]
+after naming $x\ge3$. The inequality is strict when $z>2$.
+\end{proposition}
+\begin{proof}
+Set
+\[
+ A=B_{x-1}(0),\quad D=B_{y+z-1}(0),\quad
+ E=B_{y-1}(0)B_z(0),\quad r=(x-1)/(x+1).
+\]
+For every even $t$, the largest noncentral entry of the row $x-1$ is
+at $\pm2$, so
+\[
+ B_{x-1}(t)\le rA+(1-r)A1[t=0].
+\]
+Vandermonde now bounds the second counting term by
+$T(x-1,y-1,z)\le rAD+(1-r)AE$. The first term has odd-row peak
+$2xA/(x+1)$. Together they give
+\begin{equation}\label{eq:joint}
+ \N(x,y,z)\le\frac{xA}{x+1}
+ \bigl((2z+y(x-1))D+2yE\bigr).
+\end{equation}
+Take $u=(y-1)/2$ and $v=z/2$ in \eqref{eq:product}. This yields
+$E/D\le(y+1)/(2y)$, including $y=1$. Equation \eqref{eq:joint}
+therefore reduces to
+\[
+ \N(x,y,z)\le\frac{xAD}{x+1}(xy+2z+1).
+\]
+Write $y'=y+z-2$, positive and odd. By \eqref{eq:short2}, the compressed
+count is $xAD(xy'+5)/(x+1)$. The factor difference is
+\[
+ xy'+5-(xy+2z+1)=(x-2)(z-2).
+\]
+It is positive for $z>2$ and vanishes at the unchanged case $z=2$.
+Both compressed triples preserve total length and the simple domain.
+\end{proof}
+
+\section{Strict balancing and exclusion of common parity}
+Let $u,v\ge2$ be even and $u\ge v+4$. Put
+\[
+ P=uv,\quad S=u+v,\quad d=u-v-2>0,\quad
+ U=u(v+1),\quad V=(u-1)(v+2)=U+d.
+\]
+The inward transfer $(u,v)\mapsto(u-2,v+2)$ increases the product to
+$P+2d$. Its central-binomial product ratio is
+\[
+ \frac{B_{u-2}(0)B_{v+2}(0)}{B_u(0)B_v(0)}=\frac UV.
+\]
+For the length-one case \eqref{eq:short1}, cross multiplication gives
+\[
+ U(P+2d+2)-V(P+2)=d(uv+2u-2)>0.
+\]
+For the length-two case, write $x=u-1,y=v-1$. The nonconstant weight
+in \eqref{eq:short2} is $P-S+6$, and its comparison gives
+\[
+ U(P+2d-S+6)-V(P-S+6)=d(uv+3u+v-6)>0.
+\]
+Thus the remaining pair is uniquely as balanced as parity permits.
+The transfer keeps positive lengths and at most one length one.
+
+It remains to exclude triples of common parity. For odd vertex count,
+all three lengths are even. Write $a=2r,b+c=2s$, with $r\ge1,s\ge2$
+and $r+s=k$. Equations \eqref{eq:vander} and \eqref{eq:product} give
+\[
+ \N(\Th(a,b,c))\le b_rb_s\le2b_{k-1}.
+\]
+The legal mixed-parity triple $(1,2k-3,2)$ has count
+$(k+1)b_{k-1}>2b_{k-1}$ for $k\ge3$, by \eqref{eq:short2}.
+
+For even vertex count, all common-parity lengths are odd. Write
+$c=2u+1,a+b=2v$, so $u\ge0,v\ge1,u+v=k$. The peak of the odd row
+is $(2u+1)b_u/(u+1)$, and hence
+\[
+ \N(\Th(a,b,c))\le\frac{2u+1}{u+1}b_ub_v\le b_k.
+\]
+The legal mixed-parity triple $(2,2k-2,1)$ has count $kb_k>b_k$ for
+$k\ge2$. At $n=4$ the all-odd class is empty, but the comparison triple
+is still legal. Common-parity triples are therefore strictly dominated.
+Combined with strict compression and balancing, this proves
+Theorem \ref{thm:theta}.
+
+\section{Exact maxima, ratios, and the global reduction}
+Let $H(n)$ be the maximum within the simple theta class. Substitution
+in \eqref{eq:short1}--\eqref{eq:short2} yields
+\begin{align*}
+ H(2k-1)&=\frac{k^2-2k+6}{4}\binom{k}{k/2}^{\!2}
+ &&(k\text{ even}),\\
+ H(2k-1)&=\frac{k(k^2-2k+5)}{k+1}
+                  \binom{k-1}{(k-1)/2}^{\!2}
+ &&(k\text{ odd}),\\
+ H(2k)&=\frac{k^2+2}{2}\binom{k}{k/2}^{\!2}
+ &&(k\text{ even}),\\
+ H(2k)&=\frac{2k(k^2+1)}{k+1}
+                  \binom{k-1}{(k-1)/2}^{\!2}
+ &&(k\text{ odd}).
+\end{align*}
+For $n\ge5$, their ratios to \eqref{eq:M} are
+\begin{equation}\label{eq:ratios}
+\begin{array}{c|cc}
+ &k\text{ even}&k\text{ odd}\\\hline
+H(2k-1)/M(2k-1)&(k^2-2k+6)/(k(k+1))&(k^2-2k+5)/(k(k+1))\\[2pt]
+H(2k)/M(2k)&(k^2+2)/(k(k+1))&(k^2+1)/(k(k+1)).
+\end{array}
+\end{equation}
+All are strictly less than one in this range and tend to one along their
+parity subsequences. At $n=4$, the formula gives $H(4)=12$ without any
+use of $C_1$. The even-order identities also correct the intermediate
+identities in \cite[Proposition 30]{BB}; the valid inequality of that
+proposition was already known and is not claimed as new.
+
+For completeness we give the block reduction. Facet-labeling shows that
+$\N(C_s)=\binom{s}{s/2}$ for even $s$, and $h(s)$ for odd $s$.
+It also gives multiplicativity over one-vertex sums and the factor 2
+for a bridge, as in \cite[Proposition 9 and Corollary 19]{BB}.
+The exact odd-cycle ratio is
+\begin{equation}\label{eq:h}
+ \frac{h(s+2)}{h(s)}=4\frac{s+2}{s+1}>4.
+\end{equation}
+This ratio decreases with $s$. Thus at fixed sum the product of two
+odd-cycle counts is maximized when the lengths are balanced: transferring
+two from a length $p\ge q+4$ to $q$ changes the product by
+$(p-1)(q+2)/(p(q+1))>1$. This also shows $M(n+1)\ge2M(n)$: at odd
+order attach a bridge, and at even order enlarge an odd cycle by two
+and remove the sole bridge, gaining a factor greater than two.
+
+Prune leaves from a graph with $n+1$ edges. Its connected 2-core with
+$v$ vertices has $v+1$ edges and
+\[
+ \sum_{w\in V}(\deg(w)-2)=2.
+\]
+It has either one degree-four vertex or two degree-three vertices.
+Following degree-two paths gives two cycles sharing a vertex, two
+disjoint cycles joined by a path, or a theta. If its core is a theta
+with $v\ge5$, its count with the $n-v$ pruned edges is
+\[
+ 2^{n-v}\N(\Th)<2^{n-v}M(v)\le M(n).
+\]
+For the $v=4$ core, the count is $12\cdot2^{n-4}$, strictly below
+$M(5)2^{n-5}=36\cdot2^{n-5}\le M(n)$ when $n\ge5$.
+
+In the other cases, let the two cycle lengths be $p,q\ge3$ and let
+$t$ be the number of bridges. Then
+\[
+ n=p+q+t-1,\qquad \N(G)=2^t\N(C_p)\N(C_q).
+\]
+An even cycle of length $p\ge4$ can be shortened by one and replaced
+by an added bridge; its contribution improves by
+$2h(p-1)/\binom p{p/2}=p/2>1$. A maximizer therefore has two odd cycles.
+If $t\ge2$, remove two bridges and enlarge an odd cycle by two; by
+\eqref{eq:h} the count strictly increases. Thus $t=0$ at odd order
+and $t=1$ at even order. Strict balancing now gives precisely
+\eqref{eq:M}. These block data are realized by simple graphs, so the
+bound is attained. This proves Theorem \ref{thm:bicyclic}.
+
+\section{Attribution, reproducibility, and review scope}
+The facet-labeling theorem, cycle count, block multiplicativity,
+Vandermonde identity and central-binomial ratios are existing mathematics.
+Braun--Bruegge already proved the common-parity and edge-disjoint-cycle
+bounds. The proposed contribution is the strict mixed-parity compression,
+its full length-one boundary treatment, and the resulting exact unique
+theta maximizers. The general fixed-edge result is a consequence of this
+step and the stated block reduction, not a second unrelated breakthrough.
+
+The join operation in Mori--Mori--Ohsugi \cite{MMO} adds all cross edges,
+rather than identifying a single vertex. Their global join-graph theorem
+does not directly give the fixed-edge theta result. The dated source
+report compares that preprint and records the inaccessible
+publisher-full-text boundary. No equivalent complete result was found
+within the inspected material; this is not certification of historical
+priority or absence of unpublished work.
+
+The repository provides original graph-label enumeration on 19 graphs,
+a separate original-graph maximizer check at orders four through eight,
+and exact scalar regression on all 1,942 legal triples at orders four
+through forty. The regression tests the source counting formula,
+compression strictness, balancing, boundary cases, all four maxima and
+their ratios. Neither finite range is a premise of a universal theorem.
+The independently reviewed frozen proof sources are \texttt{PROOF.md}
+and \texttt{MAXIMIZERS.md} under the workstream's \texttt{theta/}
+directory. Their original source hashes and review receipts are retained.
+
+This consolidated manuscript is an AI-assisted research draft derived
+from those sources. Their separate AI review receipts do not constitute
+human peer review, and this reorganization does not itself have a new
+independent review receipt. No universal Lean graph/polytope theorem,
+journal acceptance, DOI registration or final human authorship metadata
+is represented by this file. Reproduction sources and the precise
+verification map are available at
+\href{https://github.com/mio-qwq/math/tree/partner/dist-STRUCT2-20261012/workstreams/STRUCT2-20261012}{the STRUCT2 workstream in the project repository}.
+
+\begin{thebibliography}{9}
+\bibitem{BB} B. Braun and K. Bruegge,
+\emph{Facets of symmetric edge polytopes for graphs with few edges},
+Journal of Integer Sequences \textbf{26} (2023), Article 23.7.2.
+\url{https://cs.uwaterloo.ca/journals/JIS/VOL26/Braun/braun6.pdf}.
+Preprint: arXiv:2201.13303v4. Conjectures 32 and 33 are journal numbering.
+\bibitem{HJM} A. Higashitani, K. Jochemko and M. Micha\l ek,
+\emph{Arithmetic aspects of symmetric edge polytopes},
+Mathematika \textbf{65} (2019), 763--784.
+\bibitem{MMO} A. Mori, K. Mori and H. Ohsugi,
+\emph{Number of facets of symmetric edge polytopes arising from join graphs},
+European Journal of Combinatorics \textbf{127} (2025), Article 104165.
+\url{https://doi.org/10.1016/j.ejc.2025.104165}.
+Inspected preprint: arXiv:2312.11287v3.
+\end{thebibliography}
+\end{document}
