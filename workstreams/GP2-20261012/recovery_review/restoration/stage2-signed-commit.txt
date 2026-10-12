@@ -1,0 +1,13 @@
+tree bf6e64d7631ff5ef60e716e4f3c6f63da4777a6f
+parent b45b04eeab0fc521b789d6d47b4d8b94119e8c90
+author GP2-20261012 <gp2-20261012@research.invalid> 1791824279 +0000
+committer GP2-20261012 <gp2-20261012@research.invalid> 1791824279 +0000
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ iHUEABYKAB0WIQRV1zOloSuYtwx/h3AUwoEn4yvsWQUCas0RlwAKCRAUwoEn4yvs
+ WUdzAQC4wz2Jxa4wQjtgKHl+fp4uc4aXP4Ohg79gfSt5IokihQD/aBaK38A/8mhQ
+ r6OmtqTyaNX4F5Qy6AddsW8tY12bfQY=
+ =Ti6J
+ -----END PGP SIGNATURE-----
+
+Ka4 stage two: objective hierarchy and exact forced-orbit cover certificate

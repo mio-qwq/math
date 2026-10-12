@@ -1,0 +1,6 @@
+gpg: Signature made Mon Oct 12 18:57:59 2026 CEST
+gpg:                using EDDSA key 55D733A5A12B98B70C7F877014C28127E32BEC59
+gpg: Good signature from "GP2-20261012 research record <gp2-20261012@research.invalid>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 55D7 33A5 A12B 98B7 0C7F  8770 14C2 8127 E32B EC59
