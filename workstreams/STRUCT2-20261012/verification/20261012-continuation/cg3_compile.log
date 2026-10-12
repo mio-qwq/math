@@ -1,0 +1,63 @@
+VERSION
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+
+COMMAND
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 --profile -o Cg3.olean Cg3.lean
+
+STDOUT
+type checking took 4.55s
+type checking took 133ms
+type checking took 1.14s
+type checking took 3.39s
+type checking took 110ms
+type checking took 15.7s
+type checking took 1.62s
+type checking took 1.63s
+type checking took 1.68s
+'Struct2.Cg3.fast_source_exact' depends on axioms: [propext]
+'Struct2.Cg3.cdc_adjacency_is_original' depends on axioms: [propext]
+'Struct2.Cg3.original_edge_count' does not depend on any axioms
+'Struct2.Cg3.original_loopless' does not depend on any axioms
+'Struct2.Cg3.original_symmetric' depends on axioms: [propext]
+'Struct2.Cg3.cdc_loopless' depends on axioms: [propext]
+'Struct2.Cg3.cdc_symmetric' depends on axioms: [propext]
+'Struct2.Cg3.next_complete' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.next_distinct' does not depend on any axioms
+'Struct2.Cg3.cdc_cubic' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.indexed_iff_actual' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.indexed_six_cycle_classification' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.actual_six_cycle_iff_not_centre' depends on axioms: [propext, Quot.sound]
+'Struct2.Cg3.deck_strong' depends on axioms: [propext]
+'Struct2.Cg3.companion_guide_strong' depends on axioms: [propext]
+'Struct2.Cg3.reflection_guide_strong' depends on axioms: [propext]
+
+STDERR
+import took 964ms
+cumulative profiling times:
+	.olean serialization 39.2ms
+	attribute application 1.69ms
+	blocked (unaccounted) 6.27ms
+	compilation (IR) 2.01ms
+	compilation (LCNF base) 22.1ms
+	compilation (LCNF impure) 6.56ms
+	compilation (LCNF mono) 9.23ms
+	congr simp thm 0.617ms
+	elaboration 98.7ms
+	fix level params 0.353ms
+	import 964ms
+	initialization 30.2ms
+	instantiate metavars 0.578ms
+	interpretation 7.22ms
+	let-to-have transformation 0.836ms
+	linting 11.4ms
+	module linting 0.0083ms
+	parsing 12.1ms
+	process pre-definitions 25.8ms
+	share common exprs 1.19ms
+	simp 5.22ms
+	tactic execution 20.4ms
+	type checking 30s
+	typeclass inference 58.6ms
+
+EXIT CODE
+0

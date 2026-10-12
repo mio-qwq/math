@@ -1,0 +1,53 @@
+{
+  "adapter_binary_sha256": "b63f5585b5578e30e0101203f0ff84d3e46cfc579daa2cda51807b0cd74e56f9",
+  "adapter_source_sha256": "b85d7f7d8fd2f2d86d61607cae779d7cb7a6c93d043c640ce0e17961d3b24289",
+  "axiom_union": [
+    "propext"
+  ],
+  "axioms": {
+    "Struct2.StrongFold.automorphism_colour_uniform": [
+      "propext"
+    ],
+    "Struct2.StrongFold.decode_adjacency": [
+      "propext"
+    ],
+    "Struct2.StrongFold.decode_deck": [
+      "propext"
+    ],
+    "Struct2.StrongFold.encode_switch": [
+      "propext"
+    ],
+    "Struct2.StrongFold.foldDoubleCoverIso": [
+      "propext"
+    ],
+    "Struct2.StrongFold.fold_iso_has_conjugating_automorphism": [
+      "propext"
+    ],
+    "Struct2.StrongFold.fold_loopless": [],
+    "Struct2.StrongFold.fold_symmetric": [],
+    "Struct2.StrongFold.folds_isomorphic_iff_conjugate": [
+      "propext"
+    ],
+    "Struct2.StrongFold.liftFoldIso": [
+      "propext"
+    ],
+    "Struct2.StrongFold.restrictConjugator": []
+  },
+  "command": [
+    "/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean",
+    "-j1",
+    "-o",
+    "/workspace/scratch/6f2d6ef10a83/continuation-runs/strong-fold/StrongFold.olean",
+    "StrongFold.lean"
+  ],
+  "compile_log_sha256": "22cacfacbb4410b9150cf5633a60edd294f895cf7d56766fe3e67e3ee50a2daa",
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "exit_code": 0,
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "scope": "Arbitrary bipartite graphs: actual simple fold, CDC isomorphism and deck intertwining; for nonempty connected graphs, actual fold isomorphism iff full graph-automorphism conjugacy. No all-n CG automorphism classification.",
+  "script_sha256": "2d9ec72ec5e8871b01e6b2bf53b0341e8310911405a89b0cb073e17fbd2d9a23",
+  "seconds": 0.710786,
+  "source_sha256": "5eb0d8946e9250191e6a3267c5fd348d00f9200e2237443fcae3e2b14b2772db",
+  "success": true,
+  "utc": "2026-10-12T17:10:23.723598+00:00"
+}

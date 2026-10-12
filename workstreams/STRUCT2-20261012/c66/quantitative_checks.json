@@ -1,0 +1,134 @@
+{
+  "coefficients": {
+    "2": {
+      "1": "8"
+    },
+    "3": {
+      "2": "224"
+    },
+    "4": {
+      "2": "528",
+      "3": "33024"
+    },
+    "5": {
+      "3": "71680",
+      "4": "11403264"
+    }
+  },
+  "direct_graph_expectations": {
+    "2": {
+      "full": "3",
+      "projection": "2"
+    },
+    "3": {
+      "full": "15/2",
+      "projection": "3"
+    },
+    "4": {
+      "full": "141/8",
+      "projection": "39/8"
+    },
+    "5": {
+      "full": "3375/128",
+      "projection": "585/128"
+    }
+  },
+  "effective_remainder_endpoint_checks": {
+    "10": true,
+    "7": true,
+    "8": true,
+    "9": true
+  },
+  "histograms": {
+    "2": [
+      {
+        "external_deficit": 1,
+        "internal_rank": 0,
+        "pairs": 1
+      },
+      {
+        "external_deficit": 1,
+        "internal_rank": 1,
+        "pairs": 2
+      }
+    ],
+    "3": [
+      {
+        "external_deficit": 2,
+        "internal_rank": 2,
+        "pairs": 2
+      },
+      {
+        "external_deficit": 2,
+        "internal_rank": 3,
+        "pairs": 24
+      }
+    ],
+    "4": [
+      {
+        "external_deficit": 2,
+        "internal_rank": 2,
+        "pairs": 3
+      },
+      {
+        "external_deficit": 2,
+        "internal_rank": 4,
+        "pairs": 18
+      },
+      {
+        "external_deficit": 2,
+        "internal_rank": 5,
+        "pairs": 6
+      },
+      {
+        "external_deficit": 3,
+        "internal_rank": 4,
+        "pairs": 12
+      },
+      {
+        "external_deficit": 3,
+        "internal_rank": 5,
+        "pairs": 54
+      },
+      {
+        "external_deficit": 3,
+        "internal_rank": 6,
+        "pairs": 360
+      }
+    ],
+    "5": [
+      {
+        "external_deficit": 3,
+        "internal_rank": 7,
+        "pairs": 20
+      },
+      {
+        "external_deficit": 3,
+        "internal_rank": 8,
+        "pairs": 280
+      },
+      {
+        "external_deficit": 3,
+        "internal_rank": 9,
+        "pairs": 480
+      },
+      {
+        "external_deficit": 4,
+        "internal_rank": 8,
+        "pairs": 24
+      },
+      {
+        "external_deficit": 4,
+        "internal_rank": 10,
+        "pairs": 11040
+      }
+    ]
+  },
+  "python": "3.12.14",
+  "scope": "Finite original-adjacency certificates; not universal Lean or independent written review.",
+  "seconds": 7.496924,
+  "source_sha256": "8961036019dd2ff520309a26603f19fcab40da59290acf740fee37f0dc49b0f9",
+  "sparse_exact_probability_checks": 44922,
+  "success": true,
+  "utc": "2026-10-12T17:02:45.944461+00:00"
+}
