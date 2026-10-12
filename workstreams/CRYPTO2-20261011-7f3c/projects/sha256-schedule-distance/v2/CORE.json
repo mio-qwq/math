@@ -1,0 +1,13 @@
+{
+  "support_index": 3,
+  "constraints": [
+    "nz57",
+    "eq34",
+    "eq43",
+    "eq49",
+    "eq50",
+    "eq57",
+    "eq59"
+  ],
+  "warning": "solver-derived only; requires separate proof"
+}

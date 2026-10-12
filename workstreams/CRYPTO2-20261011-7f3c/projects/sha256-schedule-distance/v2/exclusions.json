@@ -1,0 +1,11 @@
+{
+  "schema": "sha256-impossible-chain-v2",
+  "word_bits": 32,
+  "sigma0_half": 285220864,
+  "sigma1_inverse_half": 3337530070,
+  "cases": [
+    {"support_index": 3, "u": 27, "x": 34, "a": 42, "r": 43, "b": 57},
+    {"support_index": 14, "u": 25, "x": 32, "a": 40, "r": 41, "b": 55}
+  ],
+  "remaining_indices": [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+}

@@ -178,3 +178,20 @@ Latest handoff: HANDOFF-20261012-RSA-SHA256.md. Next SHA decision: derive
 a genuinely stronger multi-step constraint before spending more SAT time;
 stop support-only growth if it does not improve attack-relevant knowledge.
 The user's major-result objective remains unmet; no background work promised.
+
+## SHA-256 v2 checkpoint — 2026-10-12 UTC
+
+Latest continuation: projects/sha256-schedule-distance/v2/. The 13-word
+support relaxation has exactly 15 minimum supports. A complete arbitrary-
+base sigma-chain proof excludes two of them, leaving 13 undecided. The
+actual word-distance lower bound remains 13; no sharpness pair or attack.
+The unforced common tail has a checked satisfying assignment, so that
+particular attempted extension is closed. Further progress needs earlier
+or base-schedule equations, not longer runs of the same SMT model.
+
+Evidence: exact regenerated support list, separate bit-equation checker,
+seven negative controls, source gate and complete written proof. No SHA
+Lean or independent review; originality unconfirmed. V1 and all other
+frozen research files remain unchanged. Current main/partner claims were
+read; no conflicting SHA-256 schedule claim was visible. The own-directory
+v2 HANDOFF.md is the next-step checkpoint. This remains a modest result.

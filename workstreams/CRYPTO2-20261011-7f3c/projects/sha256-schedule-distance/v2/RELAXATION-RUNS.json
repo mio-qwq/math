@@ -1,0 +1,70 @@
+{
+  "scope": "difference equations only, not actual message-pair witness",
+  "z3": "4.15.3",
+  "runs": [
+    {
+      "index": 0,
+      "support": [
+        2,
+        9,
+        10,
+        16,
+        23,
+        24,
+        30,
+        37,
+        38,
+        44,
+        51,
+        52,
+        58
+      ],
+      "status": "unknown",
+      "seconds": 15.008930579992011,
+      "timeout_ms": 15000,
+      "reason": "timeout"
+    },
+    {
+      "index": 3,
+      "support": [
+        1,
+        8,
+        11,
+        12,
+        16,
+        17,
+        26,
+        27,
+        29,
+        34,
+        42,
+        43,
+        57
+      ],
+      "status": "unsat",
+      "seconds": 6.533084126989706,
+      "timeout_ms": 15000
+    },
+    {
+      "index": 14,
+      "support": [
+        6,
+        9,
+        10,
+        14,
+        15,
+        24,
+        25,
+        27,
+        32,
+        40,
+        41,
+        55,
+        62
+      ],
+      "status": "unsat",
+      "seconds": 11.227604924002662,
+      "timeout_ms": 15000
+    }
+  ]
+}

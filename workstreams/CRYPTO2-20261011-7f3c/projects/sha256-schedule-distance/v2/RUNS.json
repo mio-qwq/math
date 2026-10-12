@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "scope": "v2 only; v1 potential is hash-pinned to the previously checked certificate",
+  "regenerated_byte_identically": true,
+  "support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "runs": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/62f6e8a57d75/math-crypto2/workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/enumerate_supports.py",
+        "/tmp/crypto2-sha-v2-q3haf1z0/supports.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.04112534300656989,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/62f6e8a57d75/math-crypto2/workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/v2/check.py",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "seconds": 0.13701935899734963,
+      "stdout": "{\"actual_distance_lower_bound\": 13, \"carry_cases\": 256, \"excluded_indices\": [3, 14], \"proof_scope\": \"written universal proof plus checked finite dependencies; not Lean\", \"rejected_controls\": [\"complete terminal supports\", \"complete terminal supports\", \"complete initial states\", \"sigma1 half inverse\", \"recurrence substitution\", \"remaining classification\", \"tail raw cancellation\"], \"remaining\": 13, \"supports\": 15, \"tail\": {\"delta_x\": 962755629, \"equations\": 5, \"scope\": \"counterexample to omitting forced H in tail exclusion; not an actual schedule\"}, \"visited_nodes\": 735}\n",
+      "stderr": ""
+    }
+  ]
+}

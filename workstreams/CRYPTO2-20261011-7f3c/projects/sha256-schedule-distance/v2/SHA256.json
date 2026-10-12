@@ -1,0 +1,33 @@
+{
+  "claim": "complete 15 equality supports; exclude 2 universally; actual bound stays 13; unforced tail feasible",
+  "date_utc": "2026-10-12",
+  "files": {
+    "ATTEMPTS.md": "f16e368a286c60cc2105b1e969209c334f8560107342abd7690dd4edf5ca01f8",
+    "CORE.json": "eca92123291d160ce1f7ccc2fe5c8eae804fdd69882e6ee086135d37a2223939",
+    "HANDOFF.md": "63807305a0c0c116291295a5f4a0b95c32369bf36d08ea9e9b3f6192a6c7af65",
+    "PROOF.md": "6e905e1c973703cd5896b54fdeb11430b7e4a5658264561ee304712388a043e1",
+    "RELAXATION-OTHER-RUNS.json": "0b1b82772c7f3450bbe66ad704bf60ca40dc8a65e704ba79b03a12bce3f238a8",
+    "RELAXATION-RUNS.json": "a73d5e1e64e0c6005157840aa8c19f6a78a7d7a105d8be203463a9739d10b999",
+    "RESULT.md": "d516b0de7298dd4724cc61d0c101eb25a113389474676c04694ac495e16c4902",
+    "RUNS.json": "a676f141aa0d004a4186b3e3e4e29f131136776d4b499fbb4ed6848da7b88d06",
+    "SOURCE-GATE.md": "f4e301c09138117dcc466f471d38c8199e03383c752987c69f84cf4c84926fa5",
+    "STATUS.md": "db44ce81b144e379bad87250776c46e5b3e8af119109556980f136ac41aaed49",
+    "TAIL.json": "601f0457629a04526be53119dd78bdcef0c47f4d5718b372ab96311abb15e804",
+    "check.py": "5536a3b4aefae109aed679e51649c3d2cf622f7fb074a40bf52d0cd9bdbbd721",
+    "core_probe.py": "802b7541cc7478462d50770f52fb8cd73f1a850b50a6a7b8cbb9b95f3fd56980",
+    "enumerate_supports.py": "e169388ad492fc544b1d74f780997ca3d15618e95f8d62c9dd9ff3ced41b0c12",
+    "exclusions.json": "8611e9bbae742c6b74f2a361640135937b9c24bed24cf9801b8a9d4868e3eaca",
+    "probe_relaxation.py": "b8221f416d4c0a18c585fd23b1657d77b74454ead0361e4ba1207a6ffe1b3641",
+    "reproduce.py": "d9e1a4b9478113d0d39dff6d0f7f39145c0480b89ee3a8a836edd1995b0998d4",
+    "supports.json": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+    "tail_probe.py": "6179bfff91919554e8989a47911cca3dc1177d088255d5c4395e249f1c0f1585"
+  },
+  "frozen_v1_dependencies": {
+    "PROOF.md": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424",
+    "SHA256.json": "57e0478b9ec533a4bfdd6daf86c755711cfcf23b4b83562ec0621b40ead01e65",
+    "certificate.json": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b",
+    "check.py": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35"
+  },
+  "review": "awaiting independent review; not Lean",
+  "schema": "sha256-schedule-distance-v2-freeze"
+}
