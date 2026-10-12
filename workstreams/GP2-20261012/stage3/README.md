@@ -86,5 +86,9 @@ weaker candidate `2X<=T+L`, which would conditionally give reciprocal
 coefficient `1/5`. It proves two exact equivalent trace/interface formulas
 and supplies a five-vertex counterexample to pointwise interface positivity.
 All 59,809 zero-one orientations through order five pass the global candidate,
-but this finite evidence is explicitly not a proof and does not change the
+but exact enumeration also shows that order five is the first local failure
+and that it occurs in all three endpoint-adjacency classes. Consequently an
+endpoint-class split cannot repair the pointwise proof; a useful local
+certificate must involve at least two labelled plus three unlabelled vertices.
+This finite evidence is explicitly not a proof and does not change the
 displayed lambda bound.

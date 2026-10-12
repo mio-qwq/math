@@ -85,6 +85,20 @@ Therefore a proof of (C) cannot declare each pair-interface contribution
 nonnegative. It must use cancellation between interfaces, a genuine
 sum-of-squares/flag certificate, or extra canonical-level structure.
 
+Nor can one repair pointwise positivity by splitting according to whether
+the endpoints are nonadjacent, joined as `i->k`, or joined as `k->i`.
+The direct endpoint arc occurs in none of `x,y,z,w`. Starting from the
+displayed witness, inserting either `3->4` or `4->3` therefore preserves
+`(x,y,z,w)=(0,2,0,1)` and the value `-1`. Exact exhaustion shows that order
+five is minimal for this phenomenon: for every zero-one orientation through
+four vertices the minimum bracket is zero in each of the three endpoint
+classes, while at order five it is `-1` in all three classes.
+
+Thus any local-to-global proof based on (2) must see at least five vertices.
+In particular, the next useful certificate basis is a two-labelled,
+three-unlabelled flag (or an equivalent five-letter charging rule); endpoint
+adjacency alone carries no correcting information.
+
 ## 4. Exact computation and status
 
 The standard-library checker reconstructs every matrix product with integer
@@ -94,7 +108,8 @@ obstruction, and exhausts all
     sum_(n=1)^5 3^(n choose 2) = 59809
 
 zero-one orientations through five vertices. It finds `T+L-2X>=0` in every
-case. Two altered certificates are rejected. Run:
+case and independently verifies the endpoint-class minima just stated. Two
+altered certificates are rejected. Run:
 
 ```sh
 python workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py

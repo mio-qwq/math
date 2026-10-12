@@ -76,9 +76,13 @@ The weaker candidate `2X<=T+L` is reduced exactly in
 `[tr(S^4)+tr(RSRS)]/4` and would conditionally yield reciprocal coefficient
 `1/5`. Exhaustion of all 59,809 zero-one orientations through order five
 passes, but a five-vertex witness makes one pair-interface summand negative.
-Thus the candidate remains unproved, the finite check is not a new bound, and
-the next attempt must use a global square/flag certificate rather than
-pointwise positivity or merely larger enumeration.
+The checker now also proves that five vertices are minimal for such a local
+failure and that the same value `-1` occurs whether the two labelled endpoints
+are nonadjacent or joined in either direction. Thus the candidate remains
+unproved, the finite check is not a new bound, and the next attempt must use a
+global two-labelled/three-unlabelled flag certificate (or equivalent
+five-letter charging rule), not endpoint-type pointwise positivity or merely
+larger enumeration.
 
 Lean 4.34.1 is the intended pinned toolchain, but the recovered local launcher
 actually exits with `failed to locate application`; no successful compilation

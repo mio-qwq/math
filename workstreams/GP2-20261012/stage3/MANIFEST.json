@@ -16,24 +16,24 @@
       "sha256": "fffd53df08cd540c924aed088f3dd64e743ee31519a531aad26545775ba3406c"
     },
     "ORIENTED_FIFTH_REDUCTION.md": {
-      "bytes": 3617,
-      "sha256": "45e9a16f2a248ea12e32b4b6b633ecd4672f0f3025aaf11eddc83803dd426ad6"
+      "bytes": 4531,
+      "sha256": "d27aefe5abe0855845a9fb324592cff44028355ec9d1a95ff842f766fc5ebc17"
     },
     "ORIENTED_TRACE_COEFFICIENT_OBSTACLE.md": {
       "bytes": 3157,
       "sha256": "883ef61addc08f11344cca0205484c81cee8ae8dfcd90d4e5adb59a500777a95"
     },
     "README.md": {
-      "bytes": 4379,
-      "sha256": "0896cd9c028878af5456dade31e81599fadb87580c844bbe0b8dd218c016d9a9"
+      "bytes": 4677,
+      "sha256": "65b7041ff65e6c8eaf6bc00778c650cce5afd8886e3cefe8323863409614000b"
     },
     "RECIPROCAL_TRACE_BOUND.md": {
       "bytes": 9728,
       "sha256": "7095f6e72557ca0f7635206048277c914cc3d6afdbaa2f608ad3cf7c555ab1ab"
     },
     "execution.json": {
-      "bytes": 1410,
-      "sha256": "4bb30ae44c4219b72c47a7779b1f7859a8aa2421d3a183b93523f1b2098c50f9"
+      "bytes": 2303,
+      "sha256": "3e2f6ab5b9bab326781cfdc0c6e9c48c0e983e3562a9300734496b78379ba157"
     },
     "mixed_class_check.log": {
       "bytes": 507,
@@ -44,12 +44,12 @@
       "sha256": "b93fef87a3181b98a4fc5aebf3fc83c84a363debd9cd90dab3b62f056b8fcb09"
     },
     "oriented_fifth_check.log": {
-      "bytes": 719,
-      "sha256": "3eb9161c8fc8db86c492ce9b55d60b1f658363c593e2abe4100ab5a7f0f72967"
+      "bytes": 1942,
+      "sha256": "59f14cb00060109f1a1230ced0e5002cb50db2d931ea7e0c579b72e83b0c2c27"
     },
     "oriented_fifth_reduction.json": {
-      "bytes": 430,
-      "sha256": "b92226416346fe2819430444164a4b2a53b3b9fb1ddb22ab5607840dd65ed3dd"
+      "bytes": 683,
+      "sha256": "882e655963133ad9dda7f727d4bd6f42f48aff818acfd215b6e669cbab5e3291"
     },
     "oriented_quarter_check.log": {
       "bytes": 676,
@@ -96,8 +96,8 @@
       "sha256": "b169f0068946e431bcb7555beca5dbaacc7f7d42c4be07670c33754bbd84972c"
     },
     "verify_oriented_fifth_reduction.py": {
-      "bytes": 4495,
-      "sha256": "87a70c48a342bb65ab044f6a7c8a1e56fe78f6a175f992f595c3a9ef2ab599fa"
+      "bytes": 7093,
+      "sha256": "b8449366ed92d4dbeff77403d1942d48b7ab6468f7eb8479216178d90fdc6984"
     },
     "verify_oriented_quarter_counterexample.py": {
       "bytes": 3724,

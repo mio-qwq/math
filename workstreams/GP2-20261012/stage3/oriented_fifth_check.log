@@ -1,17 +1,96 @@
-COMMAND: python workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py
-STATUS: PASS
-EXHAUSTIVE_CASES: 59809 (all zero-one orientations of orders 1 through 5)
-MINIMUM_D_BY_ORDER: 1:0 2:0 3:0 4:0 5:0
-POINTWISE_WITNESS: (x,y,z,w)=(0,2,0,1), local sum=-1
-GLOBAL_WITNESS: (T,L,X,Y,D)=(16,0,2,6,12)
-TRACE_IDENTITY: tr(S^4)+tr(RSRS)=48=4D
-NEGATIVE_CONTROL: altered local sum rejected
-NEGATIVE_CONTROL: inserted digon rejected
-
-COMMAND: python -O workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py
-STATUS: PASS
-EXHAUSTIVE_CASES: 59809
-POINTWISE_WITNESS: local sum=-1
-GLOBAL_WITNESS: D=12
-NEGATIVE_CONTROLS: 2/2 rejected
-SCOPE: exact reduction and finite evidence; candidate 1/5 coefficient unproved
+{
+  "negative_controls": [
+    {
+      "damage": "local sum changed",
+      "reason": "pointwise obstruction"
+    },
+    {
+      "damage": "digon inserted",
+      "reason": "no digons"
+    }
+  ],
+  "result": {
+    "endpoint_variants": {
+      "absent": {
+        "local_sum": -1,
+        "x_y_z_w": [
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "forward": {
+        "local_sum": -1,
+        "x_y_z_w": [
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "reverse": {
+        "local_sum": -1,
+        "x_y_z_w": [
+          0,
+          2,
+          0,
+          1
+        ]
+      }
+    },
+    "exhaustive_by_order": {
+      "1": {
+        "cases": 1,
+        "minimum_D": 0,
+        "minimum_local_bracket_by_endpoint_relation": {
+          "absent": null,
+          "forward": null,
+          "reverse": null
+        }
+      },
+      "2": {
+        "cases": 3,
+        "minimum_D": 0,
+        "minimum_local_bracket_by_endpoint_relation": {
+          "absent": 0,
+          "forward": 0,
+          "reverse": 0
+        }
+      },
+      "3": {
+        "cases": 27,
+        "minimum_D": 0,
+        "minimum_local_bracket_by_endpoint_relation": {
+          "absent": 0,
+          "forward": 0,
+          "reverse": 0
+        }
+      },
+      "4": {
+        "cases": 729,
+        "minimum_D": 0,
+        "minimum_local_bracket_by_endpoint_relation": {
+          "absent": 0,
+          "forward": 0,
+          "reverse": 0
+        }
+      },
+      "5": {
+        "cases": 59049,
+        "minimum_D": 0,
+        "minimum_local_bracket_by_endpoint_relation": {
+          "absent": -1,
+          "forward": -1,
+          "reverse": -1
+        }
+      }
+    },
+    "exhaustive_cases": 59809,
+    "trace_identity_rhs": 48,
+    "witness_global_D": 12,
+    "witness_local_sum": -1
+  },
+  "scope": "Exact reduction and small evidence; the 1/5 coefficient remains unproved.",
+  "status": "PASS"
+}

@@ -22,6 +22,22 @@
       "log": "mixed_class_check.log",
       "log_sha256": "0afef57258c977ff932113c11e3fbac6b851d716ece3599719f88967c00186d3",
       "checker_sha256": "b169f0068946e431bcb7555beca5dbaacc7f7d42c4be07670c33754bbd84972c"
+    },
+    {
+      "command": "python workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py",
+      "exit_code": 0,
+      "log": "oriented_fifth_check.log",
+      "log_sha256": "59f14cb00060109f1a1230ced0e5002cb50db2d931ea7e0c579b72e83b0c2c27",
+      "checker_sha256": "b8449366ed92d4dbeff77403d1942d48b7ab6468f7eb8479216178d90fdc6984",
+      "certificate_sha256": "882e655963133ad9dda7f727d4bd6f42f48aff818acfd215b6e669cbab5e3291"
+    },
+    {
+      "command": "python -O workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py",
+      "exit_code": 0,
+      "log": "oriented_fifth_check.log",
+      "log_sha256": "59f14cb00060109f1a1230ced0e5002cb50db2d931ea7e0c579b72e83b0c2c27",
+      "checker_sha256": "b8449366ed92d4dbeff77403d1942d48b7ab6468f7eb8479216178d90fdc6984",
+      "certificate_sha256": "882e655963133ad9dda7f727d4bd6f42f48aff818acfd215b6e669cbab5e3291"
     }
   ],
   "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",

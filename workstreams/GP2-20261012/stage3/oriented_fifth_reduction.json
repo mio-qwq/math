@@ -13,6 +13,12 @@
     "pointwise_sum": -1,
     "global_T_L_X_Y_D": [16, 0, 2, 6, 12]
   },
+  "expected_local_minima_by_order": {
+    "2": {"absent": 0, "forward": 0, "reverse": 0},
+    "3": {"absent": 0, "forward": 0, "reverse": 0},
+    "4": {"absent": 0, "forward": 0, "reverse": 0},
+    "5": {"absent": -1, "forward": -1, "reverse": -1}
+  },
   "candidate": "For every nonnegative oriented matrix M, 2X <= T+L.",
   "status": "UNPROVED; exact identities and a pointwise-proof obstruction only"
 }

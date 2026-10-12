@@ -56,6 +56,28 @@ def oriented_matrices(n):
         yield m
 
 
+def interface_minima(m):
+    """Minimum bracket in (2), split by the ordered endpoint relation."""
+    n = len(m)
+    mt = transpose(m)
+    mm = matmul(m, m)
+    mmt = matmul(m, mt)
+    mtm = matmul(mt, m)
+    minima = {"absent": None, "forward": None, "reverse": None}
+    for i in range(n):
+        for k in range(n):
+            if i == k:
+                continue
+            relation = ("forward" if m[i][k] else
+                        "reverse" if m[k][i] else "absent")
+            x, y = mm[i][k], mm[k][i]
+            z, w = mmt[i][k], mtm[i][k]
+            value = (z - x) * (z - y) + (w - x) * (w - y)
+            old = minima[relation]
+            minima[relation] = value if old is None else min(old, value)
+    return minima
+
+
 def verify(data, exhaustive=True):
     witness = data["pointwise_obstruction"]
     rows = witness["matrix_rows"]
@@ -76,6 +98,28 @@ def verify(data, exhaustive=True):
     require([x, y, z, w] == witness["x_y_z_w"], "local flags")
     require(local == witness["pointwise_sum"] == -1, "pointwise obstruction")
 
+    # A direct endpoint arc is not used by any length-two count above.  Hence
+    # the same local obstruction occurs for all three endpoint relations.
+    variants = {}
+    for relation in ("absent", "forward", "reverse"):
+        variant = [row[:] for row in m]
+        if relation == "forward":
+            variant[i][k] = 1
+        elif relation == "reverse":
+            variant[k][i] = 1
+        variant_minima = interface_minima(variant)
+        mmv = matmul(variant, variant)
+        mmtv = matmul(variant, transpose(variant))
+        mtmv = matmul(transpose(variant), variant)
+        flags = [mmv[i][k], mmv[k][i], mmtv[i][k], mtmv[i][k]]
+        value = ((flags[2] - flags[0]) * (flags[2] - flags[1]) +
+                 (flags[3] - flags[0]) * (flags[3] - flags[1]))
+        require(flags == witness["x_y_z_w"],
+                f"endpoint variant changed flags: {relation}")
+        require(value == -1 and variant_minima[relation] == -1,
+                f"endpoint variant obstruction: {relation}")
+        variants[relation] = {"x_y_z_w": flags, "local_sum": value}
+
     T, L, X, Y, D, rhs4 = counts(m)
     require([T, L, X, Y, D] == witness["global_T_L_X_Y_D"], "global counts")
     require(rhs4 == 4 * D, "R/S trace identity")
@@ -85,19 +129,34 @@ def verify(data, exhaustive=True):
     if exhaustive:
         for order in range(1, 6):
             minimum = None
+            local_minima = {"absent": None, "forward": None, "reverse": None}
             cases = 0
             for matrix in oriented_matrices(order):
                 t, ell, xx, yy, dd, rr = counts(matrix)
                 require(rr == 4 * dd, "exhaustive trace identity")
                 require(dd >= 0, "small candidate counterexample")
                 minimum = dd if minimum is None else min(minimum, dd)
+                current = interface_minima(matrix)
+                for relation, value in current.items():
+                    if value is not None:
+                        old = local_minima[relation]
+                        local_minima[relation] = value if old is None else min(old, value)
                 cases += 1
-            minima[str(order)] = {"cases": cases, "minimum_D": minimum}
+            minima[str(order)] = {
+                "cases": cases,
+                "minimum_D": minimum,
+                "minimum_local_bracket_by_endpoint_relation": local_minima,
+            }
             tested += cases
+        require({key: minima[key]["minimum_local_bracket_by_endpoint_relation"]
+                 for key in ("2", "3", "4", "5")} ==
+                data["expected_local_minima_by_order"],
+                "unexpected exhaustive local minima")
     return {
         "witness_local_sum": local,
         "witness_global_D": D,
         "trace_identity_rhs": rhs4,
+        "endpoint_variants": variants,
         "exhaustive_cases": tested,
         "exhaustive_by_order": minima,
     }
