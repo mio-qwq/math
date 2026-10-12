@@ -16,6 +16,7 @@ First continuation research commit:
 | CG universal type invariant | [Six-cycle characterization and arbitrary-automorphism type preservation](cg/lean/SIX_CYCLE_SCOPE.md) | Original CDC for every odd n>=3; 71 dependency-chain audits; original-edge cross-checks through n=101; n=1 exception retained |
 | CG full automorphism upper bound | [Synchronized rings and actual finite embedding](cg/lean/UPPER_BOUND_SCOPE.md) | Every odd n>=3; all original CDC automorphisms inject into Fin(24n); 94 dependency-chain audits; matching family construction remains separate |
 | CG exact automorphism family/count | [Explicit dihedral actions and original finite bijection](cg/lean/EXACT_AUTOMORPHISM_SCOPE.md) | Every odd n>=3; actual two-sided bijection with Fin(24n); 130 dependency-chain audits; strong-switch/cousin classification remains separate |
+| CG exact strong-switch membership | [Necessary-and-sufficient parameter classification](cg/lean/STRONG_SWITCH_CLASSIFICATION_SCOPE.md) | Every odd n>=3; exactly the two half-turns and odd swapped reflections; 141 dependency-chain audits; universal conjugacy/cousin count remains separate |
 | CG/theta replay | [New execution receipts](verification/20261012-continuation/) | CG n=1,3,5,7; CG(3) Lean; 19 actual theta graphs; 1,942 legal scalar triples at n<=40 |
 | Theta manuscript | [Seven-page draft](theta/paper/README.md) | Full written proofs retained; rendered PDF QA passed; this reorganization awaits new independent review |
 | C66 expectation | [Second order and effective remainder](c66/SECOND_ORDER.md) | Written candidate and exact graph/DSU checks; independent acceptance pending |
@@ -28,8 +29,9 @@ The C66 limit overlaps an existing publicly posted proof claim; quantitative
 formulas require review on their own scope.
 
 Ownership and next steps are in `coordination/agents/STRUCT2-20261012.md`.
-The next useful work is the CG exhaustive strong-switch/conjugacy classification, independent
-acceptance of C66, and the sparse boundary p=(4 log n-4)/n. Further prior-art
+The next useful work is the CG universal three-conjugacy-class and exact
+fold/cousin theorem, independent acceptance of C66, and the sparse boundary
+`p=(4 log n-4)/n`. Further prior-art
 search should include incidence-matrix stabilizers and Burnside expectations.
 
 A recurring continuation task is enabled for this STRUCT2 conversation at

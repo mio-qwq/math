@@ -1,0 +1,21 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/strong-switches/StrongSwitchClassification.olean StrongSwitchClassification.lean
+'Struct2.StrongSwitchClassification.parameter_reverses_of_odd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Struct2.StrongSwitchClassification.reflection_action_involutive' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongSwitchClassification.halfTurn_rotation_involutive' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongSwitchClassification.halfTurn_nonadjacent' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongSwitchClassification.strong_halfTurn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongSwitchClassification.strong_odd_swapped_reflection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Struct2.StrongSwitchClassification.odd_rotation_involution_half' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongSwitchClassification.reflection_witness_next' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongSwitchClassification.unswapped_odd_reflection_not_nonadjacent' depends on axioms: [propext, Quot.sound]
+'Struct2.StrongSwitchClassification.parameter_isStrong_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.StrongSwitchClassification.every_strong_automorphism' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT CODE: 0

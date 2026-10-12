@@ -1,0 +1,17 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/strong-switches/CycleRigidity.olean CycleRigidity.lean
+'Struct2.CycleRigidity.other_neighbour_unique' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.cycle_iso_determined_by_zero_one' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.direction_true' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.direction_false' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.cycle_iso_determined_by_index_direction' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.graphIso_ext' depends on axioms: [Quot.sound]
+'Struct2.CycleRigidity.actual_automorphism_code_injective' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.packCode_injective' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.actual_automorphism_embeds_in_24n' depends on axioms: [propext, Quot.sound]
+'Struct2.CycleRigidity.originalAutToModel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.CycleRigidity.originalCDC_automorphism_embeds_in_24n' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT CODE: 0
