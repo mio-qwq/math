@@ -149,3 +149,32 @@ their originality remains unconfirmed. Full-text optimality literature
 gaps are recorded. See projects/rsa-short-relations/STATUS.md and its
 SHA256-v1.json; RSA-PUBLICATION-v1.json records actual publication details.
 This checkpoint does not meet the user's major-result objective yet.
+
+## Latest checkpoint — 2026-10-12 UTC: RSA audit, SHA-256 priority
+
+The user requested prior-art checking before Lean and a main shift to SHA.
+New RSA v2 closes major full-text literature gaps and proves a scope
+obstruction: the t=0 short relation forces ordinary keys into classical
+continued-fraction recovery. Eight Lean declarations (recovery and integer
+scope bound) actually pass, with standard-axiom audit and negative controls.
+The full high-degree polynomial theorem is NOT Lean-formalized. Its written
+proof remains a candidate, and no independent RSA review is claimed.
+RSA t=0 attack development is stopped; original v1 files remain untouched.
+
+Current claim: projects/sha256-schedule-distance, actual 32-bit, 64-word
+SHA-256 message-expansion distance. Three sourced targets were screened;
+the reservation precedes computation. Exact certificates now prove at
+least 13 unequal expanded words for every pair of distinct input blocks.
+The support relaxation is sharp at 13, but no real sharpness witness exists
+here. The first zero-base lifting attempt has an exact contradiction;
+arbitrary-base SMT timed out. This is a modest preliminary bound, with
+originality unconfirmed and no attack-complexity conclusion.
+
+Evidence: 5,308,416 checked potential inequalities, complete inverse bases,
+byte-identical regeneration and five rejected corrupt/false certificates.
+The differently written checker is by this same researcher, not independent
+review. Both new project manifests freeze their evidence separately.
+Latest handoff: HANDOFF-20261012-RSA-SHA256.md. Next SHA decision: derive
+a genuinely stronger multi-step constraint before spending more SAT time;
+stop support-only growth if it does not improve attack-relevant knowledge.
+The user's major-result objective remains unmet; no background work promised.

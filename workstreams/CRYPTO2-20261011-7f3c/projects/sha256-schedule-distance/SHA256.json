@@ -1,0 +1,18 @@
+{
+  "schema": "research-freeze-v1",
+  "date_utc": "2026-10-12",
+  "owner": "CRYPTO2-20261011-7f3c",
+  "files": {
+    "CANDIDATES.md": "998fd12b22c8d04db0eed4c24e8ea3960773ac0a9a9367ce73fe35b8b4b6e1a4",
+    "HANDOFF.md": "3df418fa61936748cf0ac116eb808bcac494af3d4153ec518848e06d36bf07da",
+    "LIFT-RUNS.json": "62deb9bceceb6acf77415a3dd3162f1f93bf57996d2f2ae81e8fd78d3fdaf94e",
+    "PROOF.md": "2a215fb80a452a2f0223a8458f241799003bdd3beb8e47b61afd58524e52a424",
+    "RUNS.json": "7bc8adf89f6607f3fc871d0390ca3717b2cf317cd35ab656b3a59c3620bd0370",
+    "STATUS.md": "1de2b34fecbb24303c81cf3e2c41411d4fee83cfdd043b342f8dbdd075916fcc",
+    "certificate.json": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b",
+    "check.py": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35",
+    "discover.py": "dca16b1758866afa0b743769b3a967837fd6a76118b06b82ff325d382b497059",
+    "lift_probe.py": "4dea89e6396fb36ba626e85854e643b14f55f8d8464c3181bcd5d6dcd3285042",
+    "reproduce.py": "095d4a98b9b582c14cfec28c0fc5f90d4f55049c4cc47c41f0c2a0078a70f2c9"
+  }
+}

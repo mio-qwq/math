@@ -1,0 +1,40 @@
+{
+  "schema": "sha256-distance-runs-v1",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "deterministic_reproduction": true,
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/62f6e8a57d75/math-crypto2/workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/discover.py",
+        "/tmp/sha256-distance-nuw_dvxt/certificate.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.2074889950017678,
+      "stdout": "{\"schema\": \"sha256-word-support-relaxation-v1\", \"bound\": 13, \"state_encoding\": \"bit j is W[t-16+j] active\", \"shape\": [49, 65536], \"potential_sha256\": \"1f04aa2b5ac13c5144e677cf75eb6d6af323d518abf96ec65a44a96fa07df23c\", \"support_witness\": [2, 9, 10, 16, 23, 24, 30, 37, 38, 44, 51, 52, 58]}\ncertificate_bytes 537964\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/62f6e8a57d75/math-crypto2/workstreams/CRYPTO2-20261011-7f3c/projects/sha256-schedule-distance/check.py",
+        "/tmp/sha256-distance-nuw_dvxt/certificate.json",
+        "--negative"
+      ],
+      "exit_code": 0,
+      "seconds": 4.4912477580073755,
+      "stdout": "{\"bound\": 13, \"interpretation\": \"universal actual-word lower bound; sharp only in support relaxation\", \"rejected_controls\": [\"initial lower bound\", \"right inverse column\", \"support recurrence\", \"potential hash\", \"transition lower bound\"], \"verified_transition_inequalities\": 5308416}\n",
+      "stderr": ""
+    }
+  ],
+  "sha256": {
+    "discover.py": "dca16b1758866afa0b743769b3a967837fd6a76118b06b82ff325d382b497059",
+    "check.py": "3afa75cb04996c6babc7944de946fecf9d432fd580ba3cbaeff14e800ad20e35",
+    "reproduce.py": "095d4a98b9b582c14cfec28c0fc5f90d4f55049c4cc47c41f0c2a0078a70f2c9",
+    "certificate.json": "9ddf8469a51f24c97ecb57f32686af404a2ba7d36b1c98abec6a4405eb219b1b",
+    "lift_probe.py": "4dea89e6396fb36ba626e85854e643b14f55f8d8464c3181bcd5d6dcd3285042",
+    "LIFT-RUNS.json": "62deb9bceceb6acf77415a3dd3162f1f93bf57996d2f2ae81e8fd78d3fdaf94e"
+  }
+}

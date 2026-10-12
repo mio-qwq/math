@@ -1,0 +1,35 @@
+{
+  "z3_version": "4.15.3",
+  "support": [
+    2,
+    9,
+    10,
+    16,
+    23,
+    24,
+    30,
+    37,
+    38,
+    44,
+    51,
+    52,
+    58
+  ],
+  "interpretation": "discovery only; no UNSAT proof certificate",
+  "runs": [
+    {
+      "mode": "zero-base",
+      "result": "unsat",
+      "seconds": 0.022356556000886485,
+      "timeout_ms": 20000,
+      "reason_unknown": null
+    },
+    {
+      "mode": "unrestricted-base",
+      "result": "unknown",
+      "seconds": 20.107379567998578,
+      "timeout_ms": 20000,
+      "reason_unknown": "timeout"
+    }
+  ]
+}

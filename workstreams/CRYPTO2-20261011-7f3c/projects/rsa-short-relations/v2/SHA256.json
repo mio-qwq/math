@@ -1,0 +1,15 @@
+{
+  "schema": "research-freeze-v1",
+  "date_utc": "2026-10-12",
+  "owner": "CRYPTO2-20261011-7f3c",
+  "files": {
+    "HANDOFF.md": "ad998e3f094937fbf6fa36736e23d6ae228b81df4bb3a97a3cfc1c9f5999f141",
+    "NOVELTY.md": "6d20137caeede725a26446163b8cfbceb78ed7379e3bfcf023c701b5caf5fa5a",
+    "PROOF.md": "593b4acde78a894f7dde390656a6b4a2b4b63b3d238e16a5a5bc3b11f93bcaa5",
+    "RUNS.json": "916206cf68197af021007898d524c43c377ad3881355639e02d884aef449de87",
+    "check.py": "9dbac494b6b30f5614b13297b6c6552ec6fb35b25bb6ba2f0f8ebb9d732be85d",
+    "lean/.gitignore": "bae47b5d67dcb46217092d57d0e91ec92c22e9ca132745dd1d42a5c609b7e4f9",
+    "lean/lakefile.lean": "dc2e88d65062e7b95b64f43d08f9805ebd6d552e91caaff6fff3a5c474451b23",
+    "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "rsa-scope-audit-v2",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "lean_version": "Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)",
+  "source_sha256": "dc2e88d65062e7b95b64f43d08f9805ebd6d552e91caaff6fff3a5c474451b23",
+  "exact": {
+    "cases": [
+      {
+        "degree": 3,
+        "answers": [
+          {
+            "d": 488627,
+            "k": 108243,
+            "p": 175921860444271,
+            "q": 158329674400759
+          }
+        ]
+      },
+      {
+        "degree": 12,
+        "answers": [
+          {
+            "d": 488627,
+            "k": 108243,
+            "p": 175921860444271,
+            "q": 158329674400759
+          }
+        ]
+      }
+    ],
+    "negative_mathematical_controls": 3,
+    "fixture_sha256": "c491588945e1099c2b72560214bcdec72fbb355faeec0f19bbd5b6fe3a0786b8"
+  },
+  "lean_runs": [
+    {
+      "name": "positive",
+      "command": [
+        "/workspace/scratch/62f6e8a57d75/lean-runtime/lean-4.34.1-linux/bin/lake",
+        "--reconfigure",
+        "env",
+        "true"
+      ],
+      "exit_code": 0,
+      "output": "info: <temporary-checkout>/lakefile.lean:138:0: 'RSAScopeAudit.lift_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:139:0: 'RSAScopeAudit.small_multiple_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:140:0: 'RSAScopeAudit.short_lift_recovers' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:141:0: 'RSAScopeAudit.primitive_relation_divides' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:142:0: 'RSAScopeAudit.denominator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:143:0: 'RSAScopeAudit.legendre_integer_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:144:0: 'RSAScopeAudit.gcd_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:145:0: 'RSAScopeAudit.short_relation_scope' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: rsaScopeAudit: no previous manifest, creating one from scratch\ninfo: toolchain not updated; no toolchain information found\n"
+    },
+    {
+      "name": "false-conclusion",
+      "command": [
+        "/workspace/scratch/62f6e8a57d75/lean-runtime/lean-4.34.1-linux/bin/lake",
+        "--reconfigure",
+        "env",
+        "true"
+      ],
+      "exit_code": 1,
+      "output": "info: <temporary-checkout>/lakefile.lean:138:0: 'RSAScopeAudit.lift_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:139:0: 'RSAScopeAudit.small_multiple_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:140:0: 'RSAScopeAudit.short_lift_recovers' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:141:0: 'RSAScopeAudit.primitive_relation_divides' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:142:0: 'RSAScopeAudit.denominator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:143:0: 'RSAScopeAudit.legendre_integer_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:144:0: 'RSAScopeAudit.gcd_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: <temporary-checkout>/lakefile.lean:145:0: 'RSAScopeAudit.short_relation_scope' depends on axioms: [propext, Classical.choice, Quot.sound]\nerror: <temporary-checkout>/lakefile.lean:149:30: Tactic `decide` proved that the proposition\n  2 = 3\nis false\nerror: <temporary-checkout>/lakefile.lean: package configuration has errors\n"
+    }
+  ]
+}
