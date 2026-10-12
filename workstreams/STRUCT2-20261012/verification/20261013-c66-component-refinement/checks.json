@@ -1,0 +1,30 @@
+{
+  "damage_controls_detected": 1,
+  "dependency_sha256": "8961036019dd2ff520309a26603f19fcab40da59290acf740fee37f0dc49b0f9",
+  "exact_checks": 89844,
+  "maxima_observed": {
+    "4": {
+      "full_excess": 6,
+      "selected_excess": 6
+    },
+    "5": {
+      "full_excess": 10,
+      "selected_excess": 10
+    }
+  },
+  "orders": [
+    4,
+    5
+  ],
+  "probabilities": [
+    "1/10",
+    "1/2",
+    "9/10"
+  ],
+  "python": "3.12.14",
+  "scope": "Exact finite transcription checks for the component refinement; the all-n inequality is written, and the K=4 structural excess bound remains open.",
+  "seconds": 1.772471,
+  "source_sha256": "cb36ffd4cf34a63fc9895bf6e6fa19df0ffb5439a65071e8f807899a82b9613c",
+  "success": true,
+  "utc": "2026-10-12T23:27:15.409026+00:00"
+}

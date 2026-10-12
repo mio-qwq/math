@@ -150,5 +150,7 @@ independent acceptance. No extra finite experiment is used to assert (1).
 
 The next gap is `K=4` and displacements smaller than a fixed constant in
 `np`, where the current bound does not retain the `p^2 n^2` penalty
-from the empty-graph probability. Improving the constraint-component size
-information is a useful next route.
+from the empty-graph probability. `COMPONENT_REFINEMENT.md` now proves the
+exact missing penalty in terms of component excess. The remaining step is a
+uniform count of permutation pairs whose selected constraint system has low
+excess; the final boundary limit is still not claimed.

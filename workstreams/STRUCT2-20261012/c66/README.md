@@ -15,6 +15,9 @@ New written results:
 - [Constant-order threshold refinement](SPARSE_SHIFT.md): for
   `p=(4 log n-K)/n`, full-group expectation tends to one when `K<4`
   and diverges when `K>4`; the boundary `K=4` remains unresolved.
+- [Constraint-component refinement](COMPONENT_REFINEMENT.md): an exact
+  component-excess penalty recovers the discarded `Theta((log n)^2)` scale
+  at `K=4` and reduces the remaining problem to counting low-excess pairs.
 - [Source/overlap report](PRIOR_ART_2026-10-12.md): no first-resolution
   claim for the fixed-p limit, no certification of historical firstness.
 
@@ -25,13 +28,19 @@ five vertices, 44,922 rational probability-bound checks, and effective
 remainder endpoint certificates. This is definition-level finite evidence,
 not a formal universal proof or independent written acceptance.
 
+[Component checker](check_component_refinement.py) separately passes 89,844
+exact rational inequalities on full and selected constraint systems at
+`n=4,5`, with a size-two damage control. Its receipt is under
+`verification/20261013-c66-component-refinement/`.
+
 The new mathematical derivations are written completely, but remain
 **pending independent written review**. No human peer review, all-parameter
 Lean proof, journal acceptance or main-branch integration is claimed.
 The old full/projected/reduced first-order candidate is not reclassified
 as accepted because this nearby work has passed its own tests.
 
-Next useful targets: the full-group critical window near `4 log(n)/n`,
+Next useful targets: the low-excess permutation count at the full-group
+`K=4` boundary near `4 log(n)/n`,
 the unresolved projection interval `2 <= c <= 4`, higher exponential
 orders with structural coefficient formulas, and universal formalization
 of the selection/component inequality. These are different questions.
