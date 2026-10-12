@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T18:11:00.523391+00:00",
+  "conclusion": "ACCEPT new valuation17 quarter-width lemma and all32 fullmod2^32 core exclusions; with unchanged accepted v5/bridges, supports12,6,7,13 require v2(D)<=16",
+  "complete_representatives": 32,
+  "signed_residues": 64,
+  "triple_mask_cases": 7538454,
+  "exact_carry_GF2_nodes": 2819229,
+  "binary_contradictions": 94446,
+  "uncached_full_run_seconds": 192.8887707769827,
+  "source_hashes": {
+    "check_independent.py": "5db9c4deed25997b9e61276d0cf260b26bdc63f5df5b1a098e2512b0636799dc",
+    "controls_and_compare.py": "471b1577dbc8033c881774cfe1216f6aa4eb08a29beef5236296daa79d9c95b7",
+    "replay_readonly.py": "3cb25d71c4aa8a7707b0fcf8cffcb2adca9e2f31f0ce37c6d14d022b8e52c83e"
+  },
+  "execution_reports": {
+    "INDEPENDENT_RUN.json": "13de2ef8d9dba079a5ea76f14dda04e64612b6039c71c05d1a0dce8cafd4bb80",
+    "CONTROLS_COMPARISON_RUN.json": "ac5b89e59dd302be926bc3a4e7105f2a9cfc5c49e649ffee4c7157c346eda8eb"
+  },
+  "readonly_command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-review-v6/replay_readonly.py",
+  "readonly_parts": [
+    "--part core",
+    "--part controls"
+  ],
+  "scope": "full32bit actual three-pair model, no complete support exclusion"
+}

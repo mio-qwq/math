@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-12T17:58:12.499318+00:00",
+  "source_origin": "Own frozen support12-review-v5/check_independent.py",
+  "source_origin_sha256": "ed0265d3f1d54c930e5e9a97fd64bdabd68ed2ce0a8b4af5d7f9951b9a744116",
+  "new_source_sha256": "5db9c4deed25997b9e61276d0cf260b26bdc63f5df5b1a098e2512b0636799dc",
+  "author_v6_contact": "Ready notice and hashes only; no author-v6 file bytes read. Parent quarter-width observation received and independently rebuilt.",
+  "model": "32 cases oddq1..31 h0/1; exact15bit input quotient classes, complete beta_f/beta_g constants; all output bit30 variables retained; all equations equivalent to original mod2^32 core, low22-only width cuts"
+}

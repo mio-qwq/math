@@ -1,0 +1,18 @@
+{
+  "PYTHONPATH": "/workspace/scratch/b1d6bae025af/crypto3-deps",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/support12-unrestricted-core-v6/run_probe.py",
+    "--out-dir",
+    "/workspace/scratch/b1d6bae025af/math-crypto3/workstreams/CRYPTO3-20261012/sha256-word-distance/support12-unrestricted-core-v6/probe-01"
+  ],
+  "cwd": "/workspace/scratch/b1d6bae025af/math-crypto3",
+  "elapsed_seconds": 15.088252100998943,
+  "ended_utc": "2026-10-12T17:59:29.310078+00:00",
+  "exit_code": 0,
+  "schema": "CRYPTO3-unrestricted-core-execution-v6",
+  "started_utc": "2026-10-12T17:59:14.221831+00:00",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "82962627d810c76a5a6e4c9a929101fec5184be9c1526abf00728f12d22ab832"
+}

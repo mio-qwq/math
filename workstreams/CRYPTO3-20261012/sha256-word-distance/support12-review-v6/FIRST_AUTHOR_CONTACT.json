@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-12T18:02:42.164852+00:00",
+  "contact": "First author-v6 bytes hashed here, then proof/manifest/checker read; independent complete32case fullmodN run already finished",
+  "sha256": {
+    "manifest.json": "0b4ce1506295805dfe263b6bad8bdbc801c0c7b347161f13d1c02ee29bda90be",
+    "PROOF.md": "bf3f84170ad7a3c5a3b5d88295b89aaefc2307c8a3c2c11d004b78b87d6e32cf",
+    "check.py": "8aadcf801ed2b3b77c0de1261969286dac803ccbf040da0d3d781d701b19b881"
+  }
+}

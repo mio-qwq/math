@@ -1,0 +1,36 @@
+{
+  "core_source": {
+    "path": "../support12-v4/PROOF.md",
+    "scope": "Original three-pair necessary-core definition and recurrence bridges; its high-valuation restriction is not imposed in this query.",
+    "sha256": "b74ae3ed3fc09d5aa6f8ac1e8b0e2a0ec76015722db3b031ae1416de52d8cffd"
+  },
+  "repository_head_at_freeze": "f888115f03f2ef1e06189296378f6ca200d1264b",
+  "schema": "CRYPTO3-unrestricted-core-source-identities-v6",
+  "solver_files": [
+    {
+      "bytes": 210,
+      "path": "/workspace/scratch/b1d6bae025af/crypto3-deps/z3/__init__.py",
+      "sha256": "53c4529a01f38e7c0d593b7548c79e0d7398aa09f7d7cbd1773470859ee2febd"
+    },
+    {
+      "bytes": 347383,
+      "path": "/workspace/scratch/b1d6bae025af/crypto3-deps/z3/z3.py",
+      "sha256": "a175fce3e5e6f7cbe7aefb54a5d01d63addc206811a9cbd3e58f87f48c10432b"
+    },
+    {
+      "bytes": 202386,
+      "path": "/workspace/scratch/b1d6bae025af/crypto3-deps/z3/z3core.py",
+      "sha256": "c5859f1938aa7b5ce1c35ab52295ccb1405daa1ae224cb4ec292efbe98b1064e"
+    },
+    {
+      "bytes": 22437848,
+      "path": "/workspace/scratch/b1d6bae025af/crypto3-deps/z3/lib/libz3.so",
+      "sha256": "905314d1e5890ab9bc898a1f48f2a92cab81fd9b65a81b19f5e26be59e4247fc"
+    },
+    {
+      "bytes": 22437848,
+      "path": "/workspace/scratch/b1d6bae025af/crypto3-deps/z3/lib/libz3.so.4.15",
+      "sha256": "905314d1e5890ab9bc898a1f48f2a92cab81fd9b65a81b19f5e26be59e4247fc"
+    }
+  ]
+}

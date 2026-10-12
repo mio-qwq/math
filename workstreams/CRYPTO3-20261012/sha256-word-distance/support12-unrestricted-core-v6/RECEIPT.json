@@ -1,0 +1,33 @@
+{
+  "SAT_model_obtained": false,
+  "UNSAT_certificate_obtained": false,
+  "accepted_theorem_from_probe": null,
+  "base_schedule_constraints": false,
+  "created_utc": "2026-10-12T18:01:09.788438+00:00",
+  "decision": "unresolved; resource-limited solver observation only",
+  "independent_SAT_verifier_executed": false,
+  "observed_check_seconds": 15.002334051001526,
+  "reason_unknown": "timeout",
+  "run_exit_code": 0,
+  "schema": "CRYPTO3-unrestricted-core-bounded-probe-receipt-v6",
+  "scope": "Actual unrestricted three-pair necessary model; no full support, base expansion, compression attack or distance-bound conclusion.",
+  "solver_check_calls": 1,
+  "solver_result": "unknown",
+  "source_and_artifact_sha256": {
+    "CHECK.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CHECK.stdout.json": "82962627d810c76a5a6e4c9a929101fec5184be9c1526abf00728f12d22ab832",
+    "PLAN.md": "cdd5bdd25d34173e94a4d7798f5daf17ff2f96aa4b6728c0e6b169c97f5b0c93",
+    "README.md": "bf7ec5f95d1a21b3d81c9198bf1c606430a3a93fa21be090d81661dd1217e680",
+    "RUN.json": "7d77203a2108417abac88278e399e4998d8e0d1321a04d4ad32da1f1c439a229",
+    "SOURCES.json": "23b409d7ce3511533f37d149d82353ecf70992c3bf2412f7e378ff100ff5921f",
+    "STATUS.md": "7ea1c79848403825a90565c6c272aec9673bfea2d5a4d5035208d562b1cb7996",
+    "probe-01/MODEL.smt2": "ed39b5f80a18368a5853f373c74a43db9928f5ceab43e736fbfac5f75fb9efca",
+    "probe-01/RESULT.json": "82962627d810c76a5a6e4c9a929101fec5184be9c1526abf00728f12d22ab832",
+    "run_probe.py": "350e0f64e31442fc01ce7fd734e8e2ca46bd65346a2ee836fe755de76fb0998c",
+    "verify_model.py": "feedfe677e4bc54d1e85e681e99972caa9f27801f772bcc7418b0003a7e6cd43"
+  },
+  "stopping_protocol": "One 15s query completed as UNKNOWN. No repeat, extension, seed sweep or large enumeration.",
+  "timeout_ms": 15000,
+  "valuation_restriction_on_D": null,
+  "z3_version": "4.15.3"
+}

@@ -1,0 +1,230 @@
+{
+  "cases": [
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 1,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-1-0.json.xz\", \"raw_bytes\": 58307, \"raw_json_sha256\": \"18af911a42c7bb89b117b98a508919d2dcbbcd03e975d8cb189f8faf8b23fe13\", \"seconds\": 0.1704933869987144, \"status\": \"BUILT\", \"summary\": {\"D\": \"00020000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 225, \"negative_masks\": 15, \"positive_masks\": 15, \"q\": 1, \"stats\": {\"F2_conflicts\": 254, \"truth_table_edges\": 18694}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 64}, \"xz_bytes\": 2144, \"xz_sha256\": \"9c16948c614a4f19019c256ef3f48d0fec64ff186c24ba6cd197e3047baeabac\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 1,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-1-1.json.xz\", \"raw_bytes\": 53092, \"raw_json_sha256\": \"8f6103800f5297db3c9e42bb6ae3af439be275fb7f55bd5c5e4826a856da157a\", \"seconds\": 0.17687459199805744, \"status\": \"BUILT\", \"summary\": {\"D\": \"80020000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 225, \"negative_masks\": 15, \"positive_masks\": 15, \"q\": 1, \"stats\": {\"F2_conflicts\": 238, \"truth_table_edges\": 17494}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 54}, \"xz_bytes\": 2176, \"xz_sha256\": \"28eb635673091ceeeb0e935fb81ac8b2deb699883563f93d910778a371965049\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 3,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-3-0.json.xz\", \"raw_bytes\": 140125, \"raw_json_sha256\": \"d3c2c42f09a28461d7786b4ee86cde92e9e9e3a6f2b50bb4595d2678f5ec4407\", \"seconds\": 0.3308661800037953, \"status\": \"BUILT\", \"summary\": {\"D\": \"00060000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 729, \"negative_masks\": 27, \"positive_masks\": 27, \"q\": 3, \"stats\": {\"F2_conflicts\": 472, \"truth_table_edges\": 47130}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 100}, \"xz_bytes\": 3248, \"xz_sha256\": \"950575ae31a522d7d9ecab39c26f42dc83c7b2ac32589760186d7cd3b2940938\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 3,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-3-1.json.xz\", \"raw_bytes\": 157117, \"raw_json_sha256\": \"ae45d3962a1222152ddf5d2dbfc6b093b421ae021fd538591e833e31bc39397f\", \"seconds\": 0.30771917599486187, \"status\": \"BUILT\", \"summary\": {\"D\": \"80060000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 729, \"negative_masks\": 27, \"positive_masks\": 27, \"q\": 3, \"stats\": {\"F2_conflicts\": 1159, \"truth_table_edges\": 36169}, \"third_masks_checked\": 81, \"twin_branches\": 3, \"xor_conflict_proofs\": 146}, \"xz_bytes\": 4352, \"xz_sha256\": \"5d5ec90dfc034afe92205055077d23f33e699b509d7185df41e2cb620f9302f1\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 5,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-5-0.json.xz\", \"raw_bytes\": 278505, \"raw_json_sha256\": \"d7bd6745c065be4a38db6c01288a1d6b1841efcbbcd3e291ac2e3441a545e8b3\", \"seconds\": 0.8828542920018663, \"status\": \"BUILT\", \"summary\": {\"D\": \"000a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 1444, \"negative_masks\": 38, \"positive_masks\": 38, \"q\": 5, \"stats\": {\"F2_conflicts\": 851, \"truth_table_edges\": 125286}, \"third_masks_checked\": 114, \"twin_branches\": 3, \"xor_conflict_proofs\": 173}, \"xz_bytes\": 5340, \"xz_sha256\": \"e8475c523d34207bc49c239f5f91d87f657f9a2c1d2fc887ba4ba6d2407a69a0\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 5,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-5-1.json.xz\", \"raw_bytes\": 298118, \"raw_json_sha256\": \"ea3cb284c7060a7c5628012cab4096092d1c7dc64ac37129ab1176bb018955cc\", \"seconds\": 0.6653641759985476, \"status\": \"BUILT\", \"summary\": {\"D\": \"800a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 1444, \"negative_masks\": 38, \"positive_masks\": 38, \"q\": 5, \"stats\": {\"F2_conflicts\": 1475, \"truth_table_edges\": 96417}, \"third_masks_checked\": 228, \"twin_branches\": 6, \"xor_conflict_proofs\": 219}, \"xz_bytes\": 6696, \"xz_sha256\": \"361e52bfc1f41d1dd7bbe36dadbc31d6b556557408ae2f61fcf5117aaf23b571\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 7,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-7-0.json.xz\", \"raw_bytes\": 256286, \"raw_json_sha256\": \"ef62daa327c15447965ce3bd932e186e8d37c17ece6e05e902dda1c36bd83476\", \"seconds\": 0.7261203649977688, \"status\": \"BUILT\", \"summary\": {\"D\": \"000e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 1369, \"negative_masks\": 37, \"positive_masks\": 37, \"q\": 7, \"stats\": {\"F2_conflicts\": 862, \"truth_table_edges\": 118572}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 164}, \"xz_bytes\": 5124, \"xz_sha256\": \"7d2fbebddd686d98079eb68a1485af72a5693696d78e1fc939e6846cad2c8d92\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 7,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-7-1.json.xz\", \"raw_bytes\": 259891, \"raw_json_sha256\": \"4443afddc51b80b64b0eb2848724d80040d958bdfc26164b59b9a916de019578\", \"seconds\": 0.5603771099995356, \"status\": \"BUILT\", \"summary\": {\"D\": \"800e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 1369, \"negative_masks\": 37, \"positive_masks\": 37, \"q\": 7, \"stats\": {\"F2_conflicts\": 882, \"truth_table_edges\": 87578}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 186}, \"xz_bytes\": 5720, \"xz_sha256\": \"52a11434f02682e441572e0f8c915e2afed33fce4ad23b9a8c2a5e696a6c70f6\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 9,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-9-0.json.xz\", \"raw_bytes\": 390021, \"raw_json_sha256\": \"927b0c9c740bf56a0201bfa444059fd5bb3c38e81897a74d0d47bcd22339e2df\", \"seconds\": 1.0201632520038402, \"status\": \"BUILT\", \"summary\": {\"D\": \"00120000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 2209, \"negative_masks\": 47, \"positive_masks\": 47, \"q\": 9, \"stats\": {\"F2_conflicts\": 1784, \"truth_table_edges\": 193490}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 224}, \"xz_bytes\": 6772, \"xz_sha256\": \"5dafc2ade3ad34a3a1314b3ff57b80a33b0820684e993dfc968676b2210d79fa\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 9,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-9-1.json.xz\", \"raw_bytes\": 393660, \"raw_json_sha256\": \"bc8c89836f3bde63073d206c53407e955a0fc1e87cd8b045954107800a6cfca0\", \"seconds\": 1.0536933789990144, \"status\": \"BUILT\", \"summary\": {\"D\": \"80120000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 2209, \"negative_masks\": 47, \"positive_masks\": 47, \"q\": 9, \"stats\": {\"F2_conflicts\": 1886, \"truth_table_edges\": 165528}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 244}, \"xz_bytes\": 7648, \"xz_sha256\": \"202c54ecd7a67a1a04910bf242d9b44279b3c488dc265eaa43edc8b8ca4c4ca0\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 11,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-11-0.json.xz\", \"raw_bytes\": 551669, \"raw_json_sha256\": \"db11ab42b17a2effe020e781a17e87068c4852c0e611c730e7246fe9f1baff8e\", \"seconds\": 1.643466385998181, \"status\": \"BUILT\", \"summary\": {\"D\": \"00160000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 3364, \"negative_masks\": 58, \"positive_masks\": 58, \"q\": 11, \"stats\": {\"F2_conflicts\": 2421, \"truth_table_edges\": 265038}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 260}, \"xz_bytes\": 9048, \"xz_sha256\": \"b33c8c768d9293ccd7ebf2d26b8b3c4f4fae0dc9887e641f28a6665af66f432b\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 11,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-11-1.json.xz\", \"raw_bytes\": 757725, \"raw_json_sha256\": \"a4cc7f7e8d58216157a8945ee9b83b52931eacbdc6d3f19b9fa41ae473420192\", \"seconds\": 1.6999747570007457, \"status\": \"BUILT\", \"summary\": {\"D\": \"80160000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 3364, \"negative_masks\": 58, \"positive_masks\": 58, \"q\": 11, \"stats\": {\"F2_conflicts\": 9200, \"truth_table_edges\": 266160}, \"third_masks_checked\": 1566, \"twin_branches\": 27, \"xor_conflict_proofs\": 394}, \"xz_bytes\": 15696, \"xz_sha256\": \"bd87ba01207294b75293ed19b3135b0a579a9df21ab669a2422b96b948fa6423\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 13,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-13-0.json.xz\", \"raw_bytes\": 564356, \"raw_json_sha256\": \"a08a87e19c3105cbed1aa4d69cf36ea8537dca225369cf957f4193d5e5603661\", \"seconds\": 1.5097541390059632, \"status\": \"BUILT\", \"summary\": {\"D\": \"001a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 3249, \"negative_masks\": 57, \"positive_masks\": 57, \"q\": 13, \"stats\": {\"F2_conflicts\": 3202, \"truth_table_edges\": 244243}, \"third_masks_checked\": 114, \"twin_branches\": 2, \"xor_conflict_proofs\": 299}, \"xz_bytes\": 9668, \"xz_sha256\": \"5dbac92be3883a4af7fab8d825b044ce51f653a1cf95050ddbab3b9f4556b27e\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 13,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-13-1.json.xz\", \"raw_bytes\": 777582, \"raw_json_sha256\": \"eaf8080e35d0aa068abb1041a87d94806592bb32010549672102900e2f25223b\", \"seconds\": 1.8014000879993546, \"status\": \"BUILT\", \"summary\": {\"D\": \"801a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 3249, \"negative_masks\": 57, \"positive_masks\": 57, \"q\": 13, \"stats\": {\"F2_conflicts\": 10313, \"truth_table_edges\": 272747}, \"third_masks_checked\": 1653, \"twin_branches\": 29, \"xor_conflict_proofs\": 445}, \"xz_bytes\": 16644, \"xz_sha256\": \"7df4d024f0f0ca47e83daf52559adb52ecbe4e3715aa91a8db106e9217909184\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 15,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-15-0.json.xz\", \"raw_bytes\": 407245, \"raw_json_sha256\": \"22425d661916b4e8e893ebbf9e7846266a0bdd326496bcf6fc9a09670c14006f\", \"seconds\": 1.0418706819982617, \"status\": \"BUILT\", \"summary\": {\"D\": \"001e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 2025, \"negative_masks\": 45, \"positive_masks\": 45, \"q\": 15, \"stats\": {\"F2_conflicts\": 2590, \"truth_table_edges\": 174091}, \"third_masks_checked\": 180, \"twin_branches\": 4, \"xor_conflict_proofs\": 276}, \"xz_bytes\": 7728, \"xz_sha256\": \"5f54f941c9e795cea76a6d9f56c10252aaf61bae019e50949e2b4a09e8a96168\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 15,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-15-1.json.xz\", \"raw_bytes\": 775011, \"raw_json_sha256\": \"e2d0c55fd44a49ac494ec3d2b54a0b32c29a0d6ce0584c5eb65fc97e4843e3b9\", \"seconds\": 1.7288945609980146, \"status\": \"BUILT\", \"summary\": {\"D\": \"801e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 2025, \"negative_masks\": 45, \"positive_masks\": 45, \"q\": 15, \"stats\": {\"F2_conflicts\": 11428, \"truth_table_edges\": 244531}, \"third_masks_checked\": 2700, \"twin_branches\": 60, \"xor_conflict_proofs\": 496}, \"xz_bytes\": 17044, \"xz_sha256\": \"017c36a9612829d46fdf18951be9c1fb24dba16e6a2b5c3db0e6420a8b7b4a42\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 17,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-17-0.json.xz\", \"raw_bytes\": 518367, \"raw_json_sha256\": \"9f58e6faba251927d9d1a8a4b4ce9389ba50cf312b977c2deac8779885716b73\", \"seconds\": 1.5068078740005149, \"status\": \"BUILT\", \"summary\": {\"D\": \"00220000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 2916, \"negative_masks\": 54, \"positive_masks\": 54, \"q\": 17, \"stats\": {\"F2_conflicts\": 3424, \"truth_table_edges\": 262232}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 302}, \"xz_bytes\": 9224, \"xz_sha256\": \"2c2c64e4e155be653761fe6cea3b6ec5c34a1d99d6b61636635e413c962ac09c\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 17,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-17-1.json.xz\", \"raw_bytes\": 594110, \"raw_json_sha256\": \"4869415e92f36d089956209a00fde887ca07d6d83942be94de61990958d60894\", \"seconds\": 1.9109048190002795, \"status\": \"BUILT\", \"summary\": {\"D\": \"80220000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 2916, \"negative_masks\": 54, \"positive_masks\": 54, \"q\": 17, \"stats\": {\"F2_conflicts\": 4178, \"truth_table_edges\": 296298}, \"third_masks_checked\": 432, \"twin_branches\": 8, \"xor_conflict_proofs\": 370}, \"xz_bytes\": 11556, \"xz_sha256\": \"af4118628c66c2198b48ae0d35ac3f8a1030f0a337c98d87fb192102d9370618\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 19,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-19-0.json.xz\", \"raw_bytes\": 986305, \"raw_json_sha256\": \"e7ec998361c7fd6695fe291502b6cba42e3f546d1207c5bd94a3dcc891d0886a\", \"seconds\": 4.5514889970072545, \"status\": \"BUILT\", \"summary\": {\"D\": \"00260000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 5625, \"negative_masks\": 75, \"positive_masks\": 75, \"q\": 19, \"stats\": {\"F2_conflicts\": 10071, \"truth_table_edges\": 687549}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 512}, \"xz_bytes\": 15032, \"xz_sha256\": \"e88b3047565105c9b71ca14f2a6c09ee90fe13b3fbdb721f6ecf58f9a76e681d\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 19,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-19-1.json.xz\", \"raw_bytes\": 930459, \"raw_json_sha256\": \"b5e417a506a33e2e57b698e40bcbc7470ec0a25f342ce6075d078c363454d7b1\", \"seconds\": 2.4964526770054363, \"status\": \"BUILT\", \"summary\": {\"D\": \"80260000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 5625, \"negative_masks\": 75, \"positive_masks\": 75, \"q\": 19, \"stats\": {\"F2_conflicts\": 6837, \"truth_table_edges\": 413263}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 488}, \"xz_bytes\": 16448, \"xz_sha256\": \"cb294d60052454981f53114303d4d6e35141b0c94efac57390ebf150eb4e32b0\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 21,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-21-0.json.xz\", \"raw_bytes\": 1208698, \"raw_json_sha256\": \"f9175ea8ebb63ab1b3915726fb27e28a0bdac52023d998f5c9c4e981c0dbdb74\", \"seconds\": 5.751590135994775, \"status\": \"BUILT\", \"summary\": {\"D\": \"002a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 7225, \"negative_masks\": 85, \"positive_masks\": 85, \"q\": 21, \"stats\": {\"F2_conflicts\": 10313, \"truth_table_edges\": 968146}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 556}, \"xz_bytes\": 17996, \"xz_sha256\": \"72fd2a2c59ab2ac55ed77664e105e6d8e9b1c4772f907e7a5a3f65d4bf251a51\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 21,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-21-1.json.xz\", \"raw_bytes\": 1121495, \"raw_json_sha256\": \"db99254cba6b3f456d226f598ff236d3cf44216e59a7660cabf4538fe6e6e1fc\", \"seconds\": 3.156884778996755, \"status\": \"BUILT\", \"summary\": {\"D\": \"802a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 7225, \"negative_masks\": 85, \"positive_masks\": 85, \"q\": 21, \"stats\": {\"F2_conflicts\": 6569, \"truth_table_edges\": 560850}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 478}, \"xz_bytes\": 18348, \"xz_sha256\": \"0330f2f21cfb38121769170566cca784f0c9c56a96999a0c47654601332d2db5\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 23,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-23-0.json.xz\", \"raw_bytes\": 891534, \"raw_json_sha256\": \"15e65f1859a6dd2eb74de1546dea3c618bb01b706cdba7206c5184dce776f78f\", \"seconds\": 5.479413777000445, \"status\": \"BUILT\", \"summary\": {\"D\": \"002e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 5476, \"negative_masks\": 74, \"positive_masks\": 74, \"q\": 23, \"stats\": {\"F2_conflicts\": 7884, \"truth_table_edges\": 901534}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 396}, \"xz_bytes\": 14616, \"xz_sha256\": \"f7ae8b0b08305e6cb8bb71b8de3a7755623c8a847bd86a0bc5b868706eef73cf\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 23,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-23-1.json.xz\", \"raw_bytes\": 895241, \"raw_json_sha256\": \"5b64fa88672f3b5729ca1da5ceb3f2439d357f29f2fb0fd22d99bd79e93b8885\", \"seconds\": 2.597190670996497, \"status\": \"BUILT\", \"summary\": {\"D\": \"802e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 5476, \"negative_masks\": 74, \"positive_masks\": 74, \"q\": 23, \"stats\": {\"F2_conflicts\": 5566, \"truth_table_edges\": 461372}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 456}, \"xz_bytes\": 15384, \"xz_sha256\": \"9e91d6a538bc8618fcbe96cae87f536c76a9291bcb2c399b214b0ed4b2ddafd1\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 25,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-25-0.json.xz\", \"raw_bytes\": 888859, \"raw_json_sha256\": \"f7470ec76b4d5854372f3e78f949d0f93809f2a48344296d6edb90601887f795\", \"seconds\": 5.332353880003211, \"status\": \"BUILT\", \"summary\": {\"D\": \"00320000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 5329, \"negative_masks\": 73, \"positive_masks\": 73, \"q\": 25, \"stats\": {\"F2_conflicts\": 9132, \"truth_table_edges\": 898402}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 414}, \"xz_bytes\": 14684, \"xz_sha256\": \"bc3aa47b8f619283b8245155c50910b3e4176e4abc3f6db5f6dc14c9adde5b33\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 25,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-25-1.json.xz\", \"raw_bytes\": 892423, \"raw_json_sha256\": \"ca1ffc3569672ebc14979d0c1875a7e03778e6d32285c78b953eb3f4dff48273\", \"seconds\": 2.8839936240037787, \"status\": \"BUILT\", \"summary\": {\"D\": \"80320000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 5329, \"negative_masks\": 73, \"positive_masks\": 73, \"q\": 25, \"stats\": {\"F2_conflicts\": 7000, \"truth_table_edges\": 455222}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 472}, \"xz_bytes\": 15440, \"xz_sha256\": \"62e9e830ecfa9c17f2d0f600d06826d7f6f897633238e4d3ad481908783401ae\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 27,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-27-0.json.xz\", \"raw_bytes\": 1180445, \"raw_json_sha256\": \"69180e790584be743ecc31e938dfbe3a410ee22bdef9e65f40e0273e8238b3a6\", \"seconds\": 5.68727115799993, \"status\": \"BUILT\", \"summary\": {\"D\": \"00360000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 6889, \"negative_masks\": 83, \"positive_masks\": 83, \"q\": 27, \"stats\": {\"F2_conflicts\": 11525, \"truth_table_edges\": 966435}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 560}, \"xz_bytes\": 18012, \"xz_sha256\": \"3d74325f9d84cbf1ecb4d218d7ed87294262ba68af91b75cc9cda6ab54d34dae\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 27,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-27-1.json.xz\", \"raw_bytes\": 1101768, \"raw_json_sha256\": \"b5023501c03924060820f67e802aec7d78ef3266b0256229ca379ee7856113af\", \"seconds\": 3.033404359004635, \"status\": \"BUILT\", \"summary\": {\"D\": \"80360000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 6889, \"negative_masks\": 83, \"positive_masks\": 83, \"q\": 27, \"stats\": {\"F2_conflicts\": 7865, \"truth_table_edges\": 552607}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 500}, \"xz_bytes\": 18192, \"xz_sha256\": \"883e2ae6e2ebdc5ac7a507f1b8117a330d8326361312c7b754ea57e4fdbe8991\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 29,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-29-0.json.xz\", \"raw_bytes\": 944656, \"raw_json_sha256\": \"1ffc563ac2e373f4ae2364549072c5cef0134dbafd84e9db3b275959640bcc37\", \"seconds\": 4.655597156997828, \"status\": \"BUILT\", \"summary\": {\"D\": \"003a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 5184, \"negative_masks\": 72, \"positive_masks\": 72, \"q\": 29, \"stats\": {\"F2_conflicts\": 11940, \"truth_table_edges\": 699460}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 508}, \"xz_bytes\": 15000, \"xz_sha256\": \"a57b6987f9281cfa7f991431cb14e920a4f45015b469b30e466cf124a48c9fcb\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 29,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-29-1.json.xz\", \"raw_bytes\": 891804, \"raw_json_sha256\": \"c2041d95706e948ed695dca2b560cf08fe2e13301135fd261f564ffea636a3e8\", \"seconds\": 2.4909473349980544, \"status\": \"BUILT\", \"summary\": {\"D\": \"803a0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 5184, \"negative_masks\": 72, \"positive_masks\": 72, \"q\": 29, \"stats\": {\"F2_conflicts\": 9048, \"truth_table_edges\": 419638}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 496}, \"xz_bytes\": 16092, \"xz_sha256\": \"4f621f116394d6fd81f8a539cd9c9c584e2f6b5ece27c391714770be73bfd8b1\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 0,
+      "q": 31,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-31-0.json.xz\", \"raw_bytes\": 488586, \"raw_json_sha256\": \"895e686c20899965312ac060da8a0ea9dd4d902f1b226f931e70a6e1b64acdd4\", \"seconds\": 1.6290452500034007, \"status\": \"BUILT\", \"summary\": {\"D\": \"003e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 0, \"mask_pairs\": 2601, \"negative_masks\": 51, \"positive_masks\": 51, \"q\": 31, \"stats\": {\"F2_conflicts\": 5464, \"truth_table_edges\": 285332}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 306}, \"xz_bytes\": 9140, \"xz_sha256\": \"d48c7c3864bb605ba74e852194afb8aa3208b2ae5b9f708c501f1ad8815c0b2b\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "h": 1,
+      "q": 31,
+      "stderr": "",
+      "stdout": "{\"path\": \"CASE-31-1.json.xz\", \"raw_bytes\": 514220, \"raw_json_sha256\": \"b5f4b5c1cf6473467c5ff507e6b98f5bb338ad9653bf00e8b597e164a8cdf924\", \"seconds\": 1.8518937530025141, \"status\": \"BUILT\", \"summary\": {\"D\": \"803e0000\", \"actual_witnesses\": 0, \"final_branches\": 0, \"h\": 1, \"mask_pairs\": 2601, \"negative_masks\": 51, \"positive_masks\": 51, \"q\": 31, \"stats\": {\"F2_conflicts\": 6648, \"truth_table_edges\": 286752}, \"third_masks_checked\": 0, \"twin_branches\": 0, \"xor_conflict_proofs\": 356}, \"xz_bytes\": 10504, \"xz_sha256\": \"1e4809f3a4fb5d52bf6c395687949d04ec0bd7b910be77bf4e18a276195e5362\"}\n"
+    }
+  ],
+  "schema": "support12-v6-build-case-executions",
+  "source_sha256": "c30076f5330f232bb9b595191e53e2719852ade78d99b6bd2ea72a0ed87370e1"
+}

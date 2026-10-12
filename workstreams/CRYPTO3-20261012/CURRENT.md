@@ -3,8 +3,9 @@
 Branch: `partner/dist-CRYPTO3-20261012`. Recovery base:
 `b7eb3becacf474a6978b6acb2879fce3d505e395`.
 Stage 4 was uploaded and checked at
-`f888115f03f2ef1e06189296378f6ca200d1264b`; later accepted stages are
-recorded below and in their own frozen manifests.
+`f888115f03f2ef1e06189296378f6ca200d1264b`; stage 5 was uploaded and
+checked at `24684c0207db415a60f7de57291d6aaf627eb287`. Later accepted
+stages are recorded below and in their own frozen manifests.
 The original stage-2 README, publication status, manifests and reviewed
 proof bytes are preserved. This checkpoint describes later work.
 
@@ -38,10 +39,10 @@ all 64 positions, including the input. The universal lower bound remains
 
 | Exact support scope | New restriction | Current acceptance |
 |---|---|---|
-| 12, and 6/7/13 by directly checked recurrence bridges | **`v2(D)<=17`**, with `D=d18=d34` on support 12 | [Stage-5 independent acceptance](sha256-word-distance/support12-review-v5/REVIEW.md), 538,461 new complete three-mask cases; stage 4 separately checked 89,243 cases |
+| 12, and 6/7/13 by directly checked recurrence bridges | **`v2(D)<=16`**, with `D=d18=d34` on support 12 | [Stage-6 independent acceptance](sha256-word-distance/support12-review-v6/REVIEW.md), 7,538,454 new complete three-mask cases; stages 4 and 5 remain explicit accepted dependencies |
 | 10 and 11 | `min(v2(d18),v2(d34))<=15` | [Independent acceptance](sha256-word-distance/supports10-11-review-v4/REVIEW.md), complete 65,536-mask cover and both actual local sharpness fixtures |
 
-The first bound progressed from 20 to 18 and now 17. The second is a joint restriction;
+The first bound progressed from 20 to 18, 17 and now 16. The second is a joint restriction;
 neither individual valuation is asserted to be at most 15. These constrain
 actual schedules having the named supports, but do not exclude a complete
 support. Local sharpness fixtures are actual word pairs, not messages.
@@ -74,11 +75,30 @@ by additive recurrence elimination alone. All 48 rows and exact integer
 unit transformations were checked. The free-interface countermodels are
 not actual word pairs and do not refute either true nonlinear reverse map.
 
-The next actual-pair boundary is valuation 17. A candidate width argument
-modulo `2^31` reduces it to 32 positive representatives plus their global
-pair reversals. Fixed-difference SMT tests are exploratory; a further
-ceiling requires complete finite proof and independent review. Work is
-isolated in `support12-boundary-v6/`; no stage-6 result is accepted here.
+The valuation-17 boundary is now completely excluded in
+[the frozen stage-6 proof](sha256-word-distance/support12-boundary-v6/PROOF.md)
+and independently accepted. Its new width argument modulo `2^31` screens
+32 positive representatives plus their global pair reversals. The finite
+proof retains every original constraint modulo `2^32`, including the
+top output bit and both lifts. All 32 lossless XZ certificates recover
+20,167,680 raw JSON bytes. Independent checking also constructs 32 actual
+feasible twin-mask witnesses, so the third pair's exclusion is essential.
+Fixed-difference SMT observations remain discovery only.
+
+[One unrestricted actual six-word query](sha256-word-distance/support12-unrestricted-core-v6/STATUS.md)
+retained all valuations and all coupled sigma bits. It returned `unknown`
+with reason `timeout` after its one fixed 15-second check. No model or
+UNSAT certificate was obtained; the stopped probe is not rerun by the
+proof replay and does not decide the entire core.
+
+The next work seeks whole-core structure rather than simply extending
+valuation enumeration. `support12-structure-v7/` investigates an exact
+joint-derivative image criterion and the extra sigma0 two-pair cycle.
+`dyadic-width-v7/` gives a complete lemma screening all layers
+10..18 with a sharper shared-term integer bound; its separate acceptance
+will be bound in the next frozen continuation. `actual-boundary-v6/` studies whether actual nonlinear
+coupling could supplement the failed additive reverse-shift mechanism.
+These are work in progress until their own exact acceptance is recorded.
 
 Other agents' paths and `main` are outside this workstream. Branch uploads
 may be unsigned; final signatures and main integration belong to ROOT.
@@ -88,12 +108,14 @@ certification is created by this continuation.
 Reproduction of the latest frozen continuation uses only Python's standard library:
 
 ```sh
-python -B workstreams/CRYPTO3-20261012/continuation-v5/replay.py
+python -B workstreams/CRYPTO3-20261012/continuation-v6/replay.py
 ```
 
 The stage-4 gate is `continuation-v4/replay.py`; add its `--full-stage2`
 only when the original 21 checks need another replay. The stage-5 gate
-checks stage-4 integrity and all new proof, review and damage-control
-gates in a temporary copy. The living
-checkpoint is not a frozen proof artifact; the snapshot and manifest in
-`continuation-v4/` bind the exact accepted phase.
+checks stage-4 integrity and all stage-5 proof, review and damage-control
+gates in a temporary copy. The stage-6 gate checks prior integrity, all
+32 new author and independent finite cases, and the stopped-probe record
+without another solver query. The living checkpoint is not a frozen
+proof artifact; each continuation directory's snapshot and manifest
+bind its exact accepted phase.

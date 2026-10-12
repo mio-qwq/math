@@ -1,0 +1,26 @@
+{
+  "path": "CASE-25-1.json.xz",
+  "raw_bytes": 892423,
+  "raw_json_sha256": "ca1ffc3569672ebc14979d0c1875a7e03778e6d32285c78b953eb3f4dff48273",
+  "seconds": 2.8839936240037787,
+  "status": "BUILT",
+  "summary": {
+    "D": "80320000",
+    "actual_witnesses": 0,
+    "final_branches": 0,
+    "h": 1,
+    "mask_pairs": 5329,
+    "negative_masks": 73,
+    "positive_masks": 73,
+    "q": 25,
+    "stats": {
+      "F2_conflicts": 7000,
+      "truth_table_edges": 455222
+    },
+    "third_masks_checked": 0,
+    "twin_branches": 0,
+    "xor_conflict_proofs": 472
+  },
+  "xz_bytes": 15440,
+  "xz_sha256": "62e9e830ecfa9c17f2d0f600d06826d7f6f897633238e4d3ad481908783401ae"
+}
