@@ -1,0 +1,15 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/odd-cover/StrongFold.olean StrongFold.lean
+'Struct2.StrongFold.fold_symmetric' does not depend on any axioms
+'Struct2.StrongFold.fold_loopless' does not depend on any axioms
+'Struct2.StrongFold.decode_adjacency' depends on axioms: [propext]
+'Struct2.StrongFold.foldDoubleCoverIso' depends on axioms: [propext]
+'Struct2.StrongFold.encode_switch' depends on axioms: [propext]
+'Struct2.StrongFold.decode_deck' depends on axioms: [propext]
+'Struct2.StrongFold.liftFoldIso' depends on axioms: [propext]
+'Struct2.StrongFold.fold_iso_has_conjugating_automorphism' depends on axioms: [propext]
+'Struct2.StrongFold.restrictConjugator' does not depend on any axioms
+'Struct2.StrongFold.automorphism_colour_uniform' depends on axioms: [propext]
+'Struct2.StrongFold.folds_isomorphic_iff_conjugate' depends on axioms: [propext]
+
+EXIT CODE: 0

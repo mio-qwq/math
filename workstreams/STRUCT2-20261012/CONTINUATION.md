@@ -11,6 +11,7 @@ First continuation research commit:
 | Topic | New actual result | Verification boundary |
 |---|---|---|
 | CG formal semantics | [Universal actual folds and conjugacy iff isomorphism](cg/lean/STRONG_FOLD_SCOPE.md) | Lean 4.34.1, 11 audits, propext only; CG's all-odd full automorphism classification remains written |
+| CG all-odd coordinate bridge | [Original CDC/model isomorphism](cg/lean/ODD_COVER_SCOPE.md) | Every odd n>=1, all original edges and deck map; 37 dependency-chain audits and original-definition cross-checks through n=101 |
 | CG/theta replay | [New execution receipts](verification/20261012-continuation/) | CG n=1,3,5,7; CG(3) Lean; 19 actual theta graphs; 1,942 legal scalar triples at n<=40 |
 | Theta manuscript | [Seven-page draft](theta/paper/README.md) | Full written proofs retained; rendered PDF QA passed; this reorganization awaits new independent review |
 | C66 expectation | [Second order and effective remainder](c66/SECOND_ORDER.md) | Written candidate and exact graph/DSU checks; independent acceptance pending |

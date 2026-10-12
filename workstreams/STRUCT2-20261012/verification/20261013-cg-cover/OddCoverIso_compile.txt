@@ -1,0 +1,6 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/668a9b2a5e45/gp2-private-deps/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/odd-cover/OddCoverIso.olean OddCoverIso.lean
+'Struct2.OddCoverIso.originalCDCModelIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.OddCoverIso.originalCDC_deck_intertwining' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT CODE: 0

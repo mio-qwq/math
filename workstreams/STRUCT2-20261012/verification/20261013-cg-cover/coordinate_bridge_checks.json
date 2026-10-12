@@ -1,0 +1,373 @@
+{
+  "cases": [
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 30,
+      "mapping_sha256": "fb22b673515fb2ed8bdeae110b85936980e538afde7864781ef666864e007c81",
+      "n": 1,
+      "vertices": 20
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 90,
+      "mapping_sha256": "8a43305a0b61f849a72b884ddb649de10667f760a2afedfdee37b5a309542cd2",
+      "n": 3,
+      "vertices": 60
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 150,
+      "mapping_sha256": "e5016f12a24787232c23f67898f477a1236dc49ed113a1fe1599f6615541ec1f",
+      "n": 5,
+      "vertices": 100
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 210,
+      "mapping_sha256": "c0f054ac67bf181413ba2d7b354d4d30488648246c7ff04da200f5f90cc25711",
+      "n": 7,
+      "vertices": 140
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 270,
+      "mapping_sha256": "be321411230e50cac7eaac37463413cdd0af8dccc027d80b0acf887c17c77e43",
+      "n": 9,
+      "vertices": 180
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 330,
+      "mapping_sha256": "9f5a78426171ef533b92a18cf46663862c347d87021820f74f1ac6a124e5c4d9",
+      "n": 11,
+      "vertices": 220
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 390,
+      "mapping_sha256": "20ecda4913ae4745f2a2ed734116087b671a279dcd76101e8d4c6c472d218bb3",
+      "n": 13,
+      "vertices": 260
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 450,
+      "mapping_sha256": "9a89c180e2edf2f02ac0eb3b5910caaaeb70ff64bad0fd319c9b1895118745f7",
+      "n": 15,
+      "vertices": 300
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 510,
+      "mapping_sha256": "ffbae9b2537c7463cfff1354afd9ad47716f863f6cc67b0c1d3adaeef4842be7",
+      "n": 17,
+      "vertices": 340
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 570,
+      "mapping_sha256": "efc3850cdb4c80e3180f91fb71c873af166870d74ec78cef6a603a624d327c97",
+      "n": 19,
+      "vertices": 380
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 630,
+      "mapping_sha256": "1d01799e406ec1ee2ced8fdd1276d9349351b93ca673d07fb5dbe7c44d683b35",
+      "n": 21,
+      "vertices": 420
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 690,
+      "mapping_sha256": "6092236d7b87c670c90095742cf83a01c256addcac96fce50f6295bfe4d0f213",
+      "n": 23,
+      "vertices": 460
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 750,
+      "mapping_sha256": "62679e121621fcfe2eba07cba4cf38b294251f4420fd2f45e455ebc4486e7806",
+      "n": 25,
+      "vertices": 500
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 810,
+      "mapping_sha256": "2a657b469844009381528e5455936280c4c3ac7e51147c50a57275a5c7908b96",
+      "n": 27,
+      "vertices": 540
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 870,
+      "mapping_sha256": "1f41bfcda706ae919b27f9d6dc9144f428060aabcc9d434b75c23c1d1db66373",
+      "n": 29,
+      "vertices": 580
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 930,
+      "mapping_sha256": "379dbda5aeefe4da7752f07179b9e822fca3ec00bcb6700d13fe8520f7018237",
+      "n": 31,
+      "vertices": 620
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 990,
+      "mapping_sha256": "85b066a99cc244997d0539d597fbcb68ccf6ac08f3993ae44f119a60a1db15cc",
+      "n": 33,
+      "vertices": 660
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1050,
+      "mapping_sha256": "97117a4d1d2d5a1bc51b8999b61f62c31adabe155629c213055679c2a2073eaa",
+      "n": 35,
+      "vertices": 700
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1110,
+      "mapping_sha256": "303faf2d2b40e808a252a4974e59912db637e802a441c8ec0c68b65007315889",
+      "n": 37,
+      "vertices": 740
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1170,
+      "mapping_sha256": "133644ee72670acf14a2bb25bd0c007bd08c37f6173415084b0395c4557b912a",
+      "n": 39,
+      "vertices": 780
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1230,
+      "mapping_sha256": "fc4003badd148b0b620afd2f92f9d37730a751e66c5e564454f94075cfd47635",
+      "n": 41,
+      "vertices": 820
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1290,
+      "mapping_sha256": "900bcc2a316823f16db573e3d1e8a5b0e6c2e84222f902544f83b4f2720b9bc3",
+      "n": 43,
+      "vertices": 860
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1350,
+      "mapping_sha256": "0fb4bebf2600d6cc32b4b5b13a501b5dda016c874787a73cea19d365078ce7b6",
+      "n": 45,
+      "vertices": 900
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1410,
+      "mapping_sha256": "426f6d4d361733f8d4cec07a802fe78b092973e1ac1267165398a30b3c4e273e",
+      "n": 47,
+      "vertices": 940
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1470,
+      "mapping_sha256": "c0d2a522b5103e53fc59ad3b313fdbbb9f5bb789c3bb5fdd25cb33d73ebe1fbf",
+      "n": 49,
+      "vertices": 980
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1530,
+      "mapping_sha256": "c09e4468c98e483df8ca6b7acd608406ceab122ebc93d66bd7b7de6de7048bdb",
+      "n": 51,
+      "vertices": 1020
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1590,
+      "mapping_sha256": "fb5daf5b6c0ba220f709b60db6a0ab55be19818a86268a466cfc2d9db99ee22e",
+      "n": 53,
+      "vertices": 1060
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1650,
+      "mapping_sha256": "c774cedbbd69ec0a48693156688dcbec4ecc28d09db558671089b97d65647699",
+      "n": 55,
+      "vertices": 1100
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1710,
+      "mapping_sha256": "f753622f86af336dc6dc2e0de3648088c0153e9738bfa07b88ec706b390e6d46",
+      "n": 57,
+      "vertices": 1140
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1770,
+      "mapping_sha256": "b7d2d38aeb13a3063c3a0ce3483c253de651c7f421998744024637574d9aa900",
+      "n": 59,
+      "vertices": 1180
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1830,
+      "mapping_sha256": "0993d723f54746665eba6ec327533b803f73a69b722fc518d63ec9679edea0b8",
+      "n": 61,
+      "vertices": 1220
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1890,
+      "mapping_sha256": "a8ce44b4549d7e6132d3a49819338465176bea797ff2794217da9480f9d3bce3",
+      "n": 63,
+      "vertices": 1260
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 1950,
+      "mapping_sha256": "96b33fbb4907edfd477e49d1163e7c9eb6493a556e999c1720a3d591c5d35608",
+      "n": 65,
+      "vertices": 1300
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2010,
+      "mapping_sha256": "9f4f05185efbaae7e3b0278db5c513b6893761a791707d7eee12a474cf5a0f91",
+      "n": 67,
+      "vertices": 1340
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2070,
+      "mapping_sha256": "60d2889e42aedb05ac3dc4e12a632aec8da64dfd74ad3777dde0d447ad10324d",
+      "n": 69,
+      "vertices": 1380
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2130,
+      "mapping_sha256": "f8da49746b2f805cdfb4b57cdfff4081bf0fe5322ef1f683bc30c3cf3bdb9ac6",
+      "n": 71,
+      "vertices": 1420
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2190,
+      "mapping_sha256": "c007be035add849129adb3cfeef0d5849c7a5e32e82c60af69502201dfdf82ef",
+      "n": 73,
+      "vertices": 1460
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2250,
+      "mapping_sha256": "c1491bc986a84819552884051f4ccddf3a3810bcbad56f954d3748cd51a0e99c",
+      "n": 75,
+      "vertices": 1500
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2310,
+      "mapping_sha256": "939555f58cacb4e7e914796b93f0f1f34a7fd36154d092ce6c490c58d8b1c6e5",
+      "n": 77,
+      "vertices": 1540
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2370,
+      "mapping_sha256": "9ac3657f2b75d767e689768692579161907073d46f51ed6d3007e99af6d2117f",
+      "n": 79,
+      "vertices": 1580
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2430,
+      "mapping_sha256": "f9c83dceeac7325cd7f0518e8211afd9636dea8b13f242690e8bbfd12586d785",
+      "n": 81,
+      "vertices": 1620
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2490,
+      "mapping_sha256": "0b4c9c3f35bc56a30097864b75feb30efc6fa9ec45351960fdec094474dc3cdb",
+      "n": 83,
+      "vertices": 1660
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2550,
+      "mapping_sha256": "3a55c177bedb60a21a0978ebd4902c4501d184d5f01d4ba01fa311b5fd4f377d",
+      "n": 85,
+      "vertices": 1700
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2610,
+      "mapping_sha256": "06351689a02bba3cb143934c227ff18cbdc75f84b899448e7cc29c4ab689de7c",
+      "n": 87,
+      "vertices": 1740
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2670,
+      "mapping_sha256": "2ac049965293fc3ecc528bc24c3f1a9696d33d15b8e005f347dcf16c07dbc7ee",
+      "n": 89,
+      "vertices": 1780
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2730,
+      "mapping_sha256": "47ca7661bdecff45f9ec42cca8e9307b22d18f5a856ac86b1a89b0894018cd31",
+      "n": 91,
+      "vertices": 1820
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2790,
+      "mapping_sha256": "8240c54ef6c04a8d85c20b31986ddd7b85c4d5a1c04ecbe8f8938c0392ea9fe0",
+      "n": 93,
+      "vertices": 1860
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2850,
+      "mapping_sha256": "e53c5bc9cfa8b88e059685c4eb967037770f5ed8548562586c5c3a2c24b82148",
+      "n": 95,
+      "vertices": 1900
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2910,
+      "mapping_sha256": "58c2ea665e9583fde5664be178e2b6684182997c0cf0e18f582d2cdeb52c41ee",
+      "n": 97,
+      "vertices": 1940
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 2970,
+      "mapping_sha256": "59c6d54d84f0f7333d3a2cb2bb7a5255317a294263edd86d23f57a3b629fa07d",
+      "n": 99,
+      "vertices": 1980
+    },
+    {
+      "all_adjacency_inverse_and_deck_checks": true,
+      "edges": 3030,
+      "mapping_sha256": "c6db6ea6721f12884bd3870595833c841daecb6c7f94e6ede1fd969e8f327536",
+      "n": 101,
+      "vertices": 2020
+    }
+  ],
+  "damage_controls_detected": 4,
+  "lean_sources": {
+    "OddCoordinates.lean": "5f4bad8efe0d21c5571af997705a87a2d7b89bc8ffc5c3fddea40bbcb3b0b85c",
+    "OddCoverIso.lean": "aea9c34fa15244f30c14e9a847b715a2c1f2d7ff290cc5b511d28a75c9b3953c"
+  },
+  "original_definition_sha256": "5eee16b8d3ecd40d0319c8ff4c5bbc2c8758869d87db8a0e2798f8e9cc12277e",
+  "python": "3.12.14",
+  "scope": "Finite semantic cross-check only; the all-odd conclusion comes from the compiled Lean maps and adjacency iff.",
+  "seconds": 0.138476,
+  "source_sha256": "1a5e5deb87c42da36b5ea8147212e4e4d129468ca7220abd4fa5e65f94ba2d8f",
+  "success": true,
+  "utc": "2026-10-12T17:51:45.988369+00:00"
+}
