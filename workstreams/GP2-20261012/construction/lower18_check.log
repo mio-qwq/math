@@ -1,0 +1,229 @@
+{
+  "certificate_file": "lower18_certificate.json",
+  "certificate_sha256": "b9b8da78a2e17220a8cc278f4e6bc5b680254471b717aa50fb4cf8e65f154973",
+  "claim_boundary": "Finite original-adjacency/BFS audit and exact polynomial identities; the universal strict-code and GP theorem is a separate written proof, not a full Lean theorem.",
+  "exact_symbolic_polynomial_audit": {
+    "all_block_sizes_identity": "N=t*((m-1)^2-t)+2*x*y*z",
+    "balanced_residue_polynomials": [
+      {
+        "q_coefficients_low_to_high": [
+          0,
+          0,
+          3,
+          -16,
+          18
+        ],
+        "r": 0
+      },
+      {
+        "q_coefficients_low_to_high": [
+          0,
+          0,
+          -2,
+          8,
+          18
+        ],
+        "r": 1
+      },
+      {
+        "q_coefficients_low_to_high": [
+          0,
+          4,
+          18,
+          32,
+          18
+        ],
+        "r": 2
+      }
+    ],
+    "coefficient_ring": "Z[x,y,z]",
+    "definitions": "m=x+y+z; t=x*y+x*z+y*z",
+    "expanded_coefficients": {
+      "0,1,1": 1,
+      "0,1,2": -2,
+      "0,1,3": 1,
+      "0,2,1": -2,
+      "0,2,2": 1,
+      "0,3,1": 1,
+      "1,0,1": 1,
+      "1,0,2": -2,
+      "1,0,3": 1,
+      "1,1,0": 1,
+      "1,1,1": -4,
+      "1,1,2": 3,
+      "1,2,0": -2,
+      "1,2,1": 3,
+      "1,3,0": 1,
+      "2,0,1": -2,
+      "2,0,2": 1,
+      "2,1,0": -2,
+      "2,1,1": 3,
+      "2,2,0": 1,
+      "3,0,1": 1,
+      "3,1,0": 1
+    },
+    "pair_balancing_difference": "(x-z-1)*(x^2+y^2+z^2-3*x-z+2)"
+  },
+  "finite_cases": [
+    {
+      "all_BFS_ordered_pairs": 576,
+      "ambient_vertices": 24,
+      "distinct_ordered_triples_checked": 60,
+      "geodesic_triples_found": 0,
+      "m": 3,
+      "ordered_block_sizes": [
+        1,
+        1,
+        1
+      ],
+      "selected_vertices": 5
+    },
+    {
+      "all_BFS_ordered_pairs": 11664,
+      "ambient_vertices": 108,
+      "distinct_ordered_triples_checked": 12144,
+      "geodesic_triples_found": 0,
+      "m": 4,
+      "ordered_block_sizes": [
+        1,
+        1,
+        2
+      ],
+      "selected_vertices": 24
+    },
+    {
+      "all_BFS_ordered_pairs": 102400,
+      "ambient_vertices": 320,
+      "distinct_ordered_triples_checked": 357840,
+      "geodesic_triples_found": 0,
+      "m": 5,
+      "ordered_block_sizes": [
+        1,
+        2,
+        2
+      ],
+      "selected_vertices": 72
+    },
+    {
+      "all_BFS_ordered_pairs": 562500,
+      "ambient_vertices": 750,
+      "distinct_ordered_triples_checked": 5000040,
+      "geodesic_triples_found": 0,
+      "m": 6,
+      "ordered_block_sizes": [
+        2,
+        2,
+        2
+      ],
+      "selected_vertices": 172
+    }
+  ],
+  "negative_controls": [
+    {
+      "detected": true,
+      "name": "added_constant_template_word",
+      "witness": {
+        "selected_starts": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "word": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "detected": true,
+      "name": "strict_inequality_changed_to_weak",
+      "witness": {
+        "selected_starts": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "word": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "detected": true,
+      "name": "three_block_rule_used_on_four_blocks",
+      "witness": {
+        "selected_starts": [
+          0,
+          2,
+          4
+        ],
+        "word": [
+          0,
+          3,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "detected": true,
+      "name": "wrong_alphabet_binding",
+      "reason": "alphabet size/block sum mismatch"
+    },
+    {
+      "detected": true,
+      "name": "damaged_selected_distance",
+      "reason": "BFS distance certificate mismatch"
+    },
+    {
+      "detected": true,
+      "name": "damaged_target_set",
+      "reason": "target set does not equal the defined full lift"
+    },
+    {
+      "detected": true,
+      "name": "removed_original_arc",
+      "reason": "original adjacency mismatch"
+    },
+    {
+      "detected": true,
+      "name": "incorrect_claimed_count",
+      "reason": "claimed count mismatch"
+    }
+  ],
+  "python": "3.12.14",
+  "result": "PASS",
+  "strict_window_audit": {
+    "alphabet_size": 3,
+    "first_violation": null,
+    "maximum_selected_occurrences": 2,
+    "occurrence_histogram": {
+      "0": 729,
+      "1": 4374,
+      "2": 1458
+    },
+    "words_checked": 6561
+  },
+  "template_size": 18
+}

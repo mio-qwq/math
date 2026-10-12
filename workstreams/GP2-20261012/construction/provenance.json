@@ -1,0 +1,11 @@
+{
+  "command": "python workstreams/GP2-20261012/construction/verify_strict_window_repair.py",
+  "exit_code": 0,
+  "files": {
+    "STRICT_WINDOW_REPAIR.md": "56ed0af016042abcbca256b52f6fb7539edb908fe81d6ba585a21102f9c4c4f5",
+    "verification.json": "bda9dfc9831d65cd1d5744279b9a53d489a067b8431da06cd4d2ba1c30ba5f0d",
+    "verify_strict_window_repair.py": "eb4afc6d30122e5d617ffcea431d99ba1350d95202173eed2c6c66594bdc8376"
+  },
+  "python": "3.12.14",
+  "stderr": ""
+}

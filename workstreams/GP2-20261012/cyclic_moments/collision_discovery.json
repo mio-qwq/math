@@ -1,0 +1,2605 @@
+{
+  "kind": "discovery only; overlap metric",
+  "pattern_count": 877,
+  "capacity_counts": [
+    {
+      "alphabet_size": 1,
+      "max_occurrences": 0,
+      "count": 1
+    },
+    {
+      "alphabet_size": 2,
+      "max_occurrences": 0,
+      "count": 35
+    },
+    {
+      "alphabet_size": 2,
+      "max_occurrences": 1,
+      "count": 14
+    },
+    {
+      "alphabet_size": 2,
+      "max_occurrences": 2,
+      "count": 7
+    },
+    {
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "count": 7
+    },
+    {
+      "alphabet_size": 3,
+      "max_occurrences": 0,
+      "count": 56
+    },
+    {
+      "alphabet_size": 3,
+      "max_occurrences": 1,
+      "count": 70
+    },
+    {
+      "alphabet_size": 3,
+      "max_occurrences": 2,
+      "count": 147
+    },
+    {
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "count": 28
+    },
+    {
+      "alphabet_size": 4,
+      "max_occurrences": 0,
+      "count": 14
+    },
+    {
+      "alphabet_size": 4,
+      "max_occurrences": 1,
+      "count": 49
+    },
+    {
+      "alphabet_size": 4,
+      "max_occurrences": 2,
+      "count": 252
+    },
+    {
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "count": 35
+    },
+    {
+      "alphabet_size": 5,
+      "max_occurrences": 1,
+      "count": 7
+    },
+    {
+      "alphabet_size": 5,
+      "max_occurrences": 2,
+      "count": 126
+    },
+    {
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "count": 7
+    },
+    {
+      "alphabet_size": 6,
+      "max_occurrences": 2,
+      "count": 21
+    },
+    {
+      "alphabet_size": 7,
+      "max_occurrences": 2,
+      "count": 1
+    }
+  ],
+  "twice_excess_coefficients": {
+    "1": 0,
+    "2": 56,
+    "3": 84,
+    "4": 105,
+    "5": 21,
+    "6": 0,
+    "7": 0
+  },
+  "exceptional_patterns": [
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        3,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        3,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        3,
+        0,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        3,
+        0,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          2,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        3,
+        2,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        3,
+        2,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          4,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 2,
+      "max_occurrences": 4,
+      "twice_excess": 8,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        3,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        0,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        0,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        1,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        3,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        3,
+        4
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          4,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        3,
+        0,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        3,
+        0,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          2,
+          1,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        1,
+        3,
+        1,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          3,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 3,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        2,
+        3
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        3,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        0,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        0,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        3,
+        1
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "alphabet_size": 4,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        3,
+        4
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        0,
+        4
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          2,
+          3,
+          4,
+          0
+        ],
+        [
+          4,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          0,
+          4,
+          0
+        ]
+      ]
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        4
+      ],
+      "alphabet_size": 5,
+      "max_occurrences": 3,
+      "twice_excess": 3,
+      "witness": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          3,
+          4
+        ]
+      ]
+    }
+  ]
+}

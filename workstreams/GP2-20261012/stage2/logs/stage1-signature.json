@@ -1,0 +1,9 @@
+{
+  "commit": "b45b04eeab0fc521b789d6d47b4d8b94119e8c90",
+  "corrupt_payload_rejected": true,
+  "hash_algorithm": "sha512",
+  "namespace": "git",
+  "native_git_ssh_verification": "not executed: ssh-keygen absent in current runtime",
+  "public_fingerprint": "SHA256:Sr3y91PKDXe5Mo3sJa1Z0Q0N/n51sL4N+up5LnUCT3c",
+  "signature": "Ed25519 SSHSIG PASS"
+}

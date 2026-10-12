@@ -1,0 +1,69 @@
+{
+  "schema": "GP2-20261012-independent-weighted-review-provenance-v1",
+  "verdict": "PASS",
+  "reviewed_candidate": "../literature_lifts/JIGGS57_WEIGHTED_LIFT_V2.md",
+  "candidate_sections_reviewed": [
+    3,
+    4,
+    5
+  ],
+  "additional_exact_count_review": "Section 2 formulas for arbitrary block sizes, uniform q, and A:B:C:D=5:5:3:3",
+  "input_sha256": {
+    "../literature_lifts/jiggs57_words.txt": "26d405621e125016c26edf662bd1d18cb721bb6b09976c421fa5093e531a1f14",
+    "../literature_lifts/JIGGS57_WEIGHTED_LIFT.md": "069a2aad0a9bf45796ad97f549c0bfa282dce0d0a4a3b1114f74f47b5dfdde23",
+    "../literature_lifts/JIGGS57_WEIGHTED_LIFT_V2.md": "6f1068bd29261ac4eea4cfc11b9392593900580498d087f3f7856cf04d334918"
+  },
+  "artifact_sha256": {
+    "verify_weighted_jiggs57.py": "04267d6b7f6f7f1948ccdc8808342110d875bcdba8e1a65dad7019da5a75e5af",
+    "weighted_certificate.json": "617f833d3bab908ccc508cfee857c33d7e50dc78c2ebdf4a08b3930dca5325bd",
+    "INDEPENDENT_WEIGHTED_REVIEW.md": "f8f8c8027f8ddfb5e6875e833725575f93a8be9df64f6abf7ae9142004a1596a",
+    "weighted_check.log": "db3a3f9561ee4ad60f9c56938e28f9e5ae5694158fb3eaba2622f5bff3132974"
+  },
+  "actual_run": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/668a9b2a5e45/math-gp2/workstreams/GP2-20261012/weighted_review/verify_weighted_jiggs57.py",
+      "--negative-controls"
+    ],
+    "working_directory": "/workspace/scratch/668a9b2a5e45/math-gp2",
+    "started_utc": "2026-10-12T09:36:52.519819+00:00",
+    "finished_utc": "2026-10-12T09:36:52.716356+00:00",
+    "exit_code": 0,
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "negative_controls_rejected": 9,
+    "negative_controls_total": 9
+  },
+  "method": {
+    "arithmetic": "standard-library integers and fractions.Fraction only",
+    "density": "independent literal-word multiplication and enumeration of all 256 words and primitive rotation orbits",
+    "compression": "coefficient equality for the full four-variable homogeneous polynomials and the six positive square factors",
+    "optimum": "exact derivative/completed-square identities, rational endpoint signs, and exact reduction modulo the critical cubic",
+    "integer_lift": "57 ordered-word products n[w0] times product(n[wi]-int(wi==w[i-1]))",
+    "discovery_code_imported": false
+  },
+  "numerical_erratum": {
+    "original_candidate_preserved": true,
+    "original_rho_display": "0.18673085336460038...",
+    "corrected_rho_prefix": "0.186730853364600134432293139877952573...",
+    "mathematical_identities_unchanged": true,
+    "sections_1_and_2_byte_identical_between_v1_and_v2": true,
+    "correction_applied_by_candidate_author_in_revision_2": true
+  },
+  "acceptance_scope": [
+    "Exact density polynomial of the supplied fixed 57-word template",
+    "Exact sum-of-squares compression and equality case",
+    "Unique optimum of that fixed polynomial on the probability simplex",
+    "Rational isolation of the optimum parameters and density",
+    "Exact uniform and 5:5:3:3 integer lift counts",
+    "Asymptotic lower-bound inference conditional on the separately certified strict-window-to-original-GP bridge"
+  ],
+  "outside_scope": [
+    "Repeated original-adjacency BFS or strict-window certification",
+    "New proof of the inherited upper bound or density-limit existence",
+    "Optimality over all dictionaries or all original GP sets",
+    "Independent visual verification of the historical printed page",
+    "Historical maximality or priority",
+    "Lean formalization or compilation",
+    "External human peer review"
+  ]
+}

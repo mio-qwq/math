@@ -1,0 +1,9 @@
+{
+  "command": "python workstreams/GP2-20261012/construction/verify_fourteen_state_reduction.py",
+  "exit_code": 0,
+  "files": {
+    "FOURTEEN_STATE_REDUCTION.md": "3cdcefd81b32054db42c9efb1c663d17e30e65d022cf95cf157a190958db6898",
+    "fourteen_state_certificate.json": "781ae245818810615e134757a9caf2cd4725cf89ac7e1efb111a3d75eae13552",
+    "verify_fourteen_state_reduction.py": "f5ced2526d5c4a3e4f891647704e1b06d2e58e3ede5c308b2a82075d4f2698ac"
+  }
+}

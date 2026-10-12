@@ -1,0 +1,111 @@
+{
+  "actual_kautz": [
+    {
+      "all_pair_distances": 576,
+      "alphabet": 3,
+      "ordered_selected_triples": 60,
+      "selected": 5,
+      "vertices": 24
+    },
+    {
+      "all_pair_distances": 11664,
+      "alphabet": 4,
+      "ordered_selected_triples": 10626,
+      "selected": 23,
+      "vertices": 108
+    }
+  ],
+  "canonical_forced_obstacle": {
+    "code_words": 2,
+    "forced_count": 8,
+    "starts": [
+      0,
+      1,
+      4
+    ],
+    "word": "20100100"
+  },
+  "certificate_sha256": "83ea8ca3825129e91c7d07f4ff90d20af8d465076de10f63f6407333986cdcf4",
+  "finite_semantics": {
+    "binary_maximum_check_only": 3,
+    "binary_minimal_forbidden_masks": 48,
+    "binary_strict_codes": 83,
+    "binary_subsets": 65536,
+    "literal_full_shift_examples": 8,
+    "random_hierarchy_examples": 48
+  },
+  "jiggs_hierarchy": {
+    "dictionary_words": 57,
+    "full_triple_states": 64,
+    "reduced_code_words": 57
+  },
+  "jiggs_rotation_instance": {
+    "E": "1651/16384",
+    "T": "14733/65536",
+    "conflicts": 76,
+    "forced_count": 33,
+    "orbits": 57,
+    "status": "SAT",
+    "upper_for_this_fixed_array": "14733/65536"
+  },
+  "negative_controls_rejected": [
+    "wrong allowed transition",
+    "spurious marked loop",
+    "wrong pair threshold type",
+    "wrong alphabet binding",
+    "negative letter weight",
+    "false rotation defect",
+    "false forced moment",
+    "out-of-alphabet forced word",
+    "broken UNSAT implication",
+    "invalid SAT representative",
+    "invalid ternary profile",
+    "corrupt original distance",
+    "corrupt original adjacency",
+    "non-GP selected set",
+    "dropped repeated occurrence",
+    "forbidden second-hit-six in reduced target",
+    "ten-target spurious marked loop"
+  ],
+  "scope": "Finite exact semantic verification; not a new independent-agent review or an all-parameter Lean proof",
+  "six_letter_obstruction": {
+    "E": "7/162",
+    "T": "155/648",
+    "conflicts": 809,
+    "forced_count": 189,
+    "orbits": 310,
+    "status": "UNSAT",
+    "upper_for_this_fixed_array": "200165/839808"
+  },
+  "status": "PASS",
+  "target": {
+    "adjacent_marked_pair_patterns": 72,
+    "allowed_arcs": 138,
+    "letter_arcs": 23,
+    "marked_arcs": 20,
+    "nonempty_subset_closures_checked": 16894,
+    "pair_arcs": 64,
+    "profile_domain_entries_checked": 328
+  },
+  "ten_state_semantics": {
+    "binary_independent_codes": 79,
+    "binary_nonindependent_codes": 4,
+    "binary_total": 83,
+    "jiggs_old_canonical_second_hit_six": 3,
+    "jiggs_profiles_used": 5,
+    "literal_random_ten_examples": 4,
+    "random_ten_hierarchies": 24
+  },
+  "ten_state_target": {
+    "active_domain_entries": 136,
+    "allowed_arcs": 76,
+    "letter_arcs": 9,
+    "letter_types": 3,
+    "local_independent_embedding_cases": 108,
+    "marked_arcs": 10,
+    "pair_arcs": 31,
+    "pair_types": 6,
+    "rectangle_subsets_checked": 1086,
+    "triple_profiles": 10
+  }
+}

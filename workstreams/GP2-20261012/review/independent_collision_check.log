@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "equality_types": 877,
+  "independent_original_graph_bfs_rows": 355,
+  "capacity_distribution": [
+    {
+      "blocks": 1,
+      "capacity": 0,
+      "count": 1
+    },
+    {
+      "blocks": 2,
+      "capacity": 0,
+      "count": 35
+    },
+    {
+      "blocks": 2,
+      "capacity": 1,
+      "count": 14
+    },
+    {
+      "blocks": 2,
+      "capacity": 2,
+      "count": 7
+    },
+    {
+      "blocks": 2,
+      "capacity": 4,
+      "count": 7
+    },
+    {
+      "blocks": 3,
+      "capacity": 0,
+      "count": 56
+    },
+    {
+      "blocks": 3,
+      "capacity": 1,
+      "count": 70
+    },
+    {
+      "blocks": 3,
+      "capacity": 2,
+      "count": 147
+    },
+    {
+      "blocks": 3,
+      "capacity": 3,
+      "count": 28
+    },
+    {
+      "blocks": 4,
+      "capacity": 0,
+      "count": 14
+    },
+    {
+      "blocks": 4,
+      "capacity": 1,
+      "count": 49
+    },
+    {
+      "blocks": 4,
+      "capacity": 2,
+      "count": 252
+    },
+    {
+      "blocks": 4,
+      "capacity": 3,
+      "count": 35
+    },
+    {
+      "blocks": 5,
+      "capacity": 1,
+      "count": 7
+    },
+    {
+      "blocks": 5,
+      "capacity": 2,
+      "count": 126
+    },
+    {
+      "blocks": 5,
+      "capacity": 3,
+      "count": 7
+    },
+    {
+      "blocks": 6,
+      "capacity": 2,
+      "count": 21
+    },
+    {
+      "blocks": 7,
+      "capacity": 2,
+      "count": 1
+    }
+  ],
+  "excess_coefficients": {
+    "1": 0,
+    "2": 56,
+    "3": 84,
+    "4": 105,
+    "5": 21,
+    "6": 0,
+    "7": 0
+  },
+  "P_falling_coefficients": {
+    "2": 8,
+    "3": 12,
+    "4": 15,
+    "5": 3
+  },
+  "negative_tests": {
+    "understated_capacity": "capacity witness weight mismatch",
+    "wrong_distance": "original-adjacency BFS mismatch",
+    "wrong_parameter_binding": "alphabet-size binding mismatch",
+    "understated_final_coefficient": "excess coefficient sum mismatch",
+    "missing_rejection": "higher-weight rejection coverage mismatch"
+  }
+}

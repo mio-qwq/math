@@ -1,0 +1,182 @@
+{
+  "certificate_file": "jiggs57_certificate.json",
+  "certificate_sha256": "7477898ad8cefffe37bcb9a62d5cc7b48640364993393b712c203893de8b12e1",
+  "claim_boundary": "Exact finite strict-code verification plus original-adjacency/BFS audits. The arbitrary-block GP theorem is a written lift proof. No optimum-code enumeration or Lean theorem is used.",
+  "comma_free_and_adjacency_audit": {
+    "comma_free_violations": 0,
+    "interior_windows_of_two_codewords_checked": 9747,
+    "ordered_codeword_pairs_including_equal": 3249,
+    "selected_adjacent_pairs": 0
+  },
+  "equal_adjacent_block_pair_histogram": {
+    "0": 23,
+    "1": 28,
+    "2": 6
+  },
+  "equal_block_q_polynomial_low_to_high": [
+    0,
+    0,
+    6,
+    -40,
+    57
+  ],
+  "finite_cases": [
+    {
+      "all_ambient_BFS_ordered_pairs": 11664,
+      "ambient_vertices": 108,
+      "distinct_ordered_triples_covered": 10626,
+      "geodesic_triples_found": 0,
+      "m": 4,
+      "ordered_block_sizes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ordered_distinct_endpoint_pairs_checked": 506,
+      "positive_distance_splits_checked": 1305,
+      "selected_vertices": 23
+    },
+    {
+      "all_ambient_BFS_ordered_pairs": 102400,
+      "ambient_vertices": 320,
+      "distinct_ordered_triples_covered": 357840,
+      "geodesic_triples_found": 0,
+      "m": 5,
+      "ordered_block_sizes": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "ordered_distinct_endpoint_pairs_checked": 5112,
+      "positive_distance_splits_checked": 13704,
+      "selected_vertices": 72
+    },
+    {
+      "all_ambient_BFS_ordered_pairs": 7529536,
+      "ambient_vertices": 2744,
+      "distinct_ordered_triples_covered": 232607760,
+      "geodesic_triples_found": 0,
+      "m": 8,
+      "ordered_block_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "ordered_distinct_endpoint_pairs_checked": 378840,
+      "positive_distance_splits_checked": 1065272,
+      "selected_vertices": 616
+    }
+  ],
+  "negative_controls": [
+    {
+      "detected": true,
+      "name": "constant_template_word_added",
+      "witness": {
+        "selected_starts": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "word": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "all_pair_distances": [
+        "012",
+        "401",
+        "340"
+      ],
+      "detected": true,
+      "name": "actual_original_geodesic_triple",
+      "reason": "original geodesic triple 0,1,2",
+      "vertices": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "detected": true,
+      "name": "wrong_alphabet_binding",
+      "reason": "alphabet size/block binding mismatch"
+    },
+    {
+      "detected": true,
+      "name": "damaged_directed_distance",
+      "reason": "BFS selected-distance certificate mismatch"
+    },
+    {
+      "detected": true,
+      "name": "damaged_target_set",
+      "reason": "exact selected set mismatch"
+    },
+    {
+      "detected": true,
+      "name": "removed_original_arc",
+      "reason": "original adjacency mismatch"
+    },
+    {
+      "detected": true,
+      "name": "wrong_count",
+      "reason": "claimed count mismatch"
+    }
+  ],
+  "python": "3.12.14",
+  "rational_block_q_polynomial_low_to_high": [
+    0,
+    0,
+    94,
+    -2528,
+    14733
+  ],
+  "rational_block_scales": [
+    5,
+    5,
+    3,
+    3
+  ],
+  "rational_weight_density": "14733/65536",
+  "result": "PASS",
+  "source_sha256": "26d405621e125016c26edf662bd1d18cb721bb6b09976c421fa5093e531a1f14",
+  "strict_window_audit": {
+    "first_violation": null,
+    "maximum_selected_occurrences": 2,
+    "selected_occurrence_histogram": {
+      "0": 7289,
+      "1": 43534,
+      "2": 14713
+    },
+    "words_checked": 65536
+  },
+  "template_size": 57,
+  "uniform_density": "57/256"
+}

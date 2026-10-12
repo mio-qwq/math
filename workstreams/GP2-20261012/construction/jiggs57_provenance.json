@@ -1,0 +1,39 @@
+{
+  "actual_command": "python workstreams/GP2-20261012/construction/verify_jiggs57.py > workstreams/GP2-20261012/construction/jiggs57_check.log",
+  "actual_exit_code": 0,
+  "actual_working_directory": "repository root",
+  "files": {
+    "JIGGS57_INDEPENDENT_REVIEW.md": {
+      "bytes": 13108,
+      "sha256": "4f65c0b56c88545182fafd37660bd8da84a34d34daf01efa1ca130296fc8e72f"
+    },
+    "jiggs57_certificate.json": {
+      "bytes": 533344,
+      "sha256": "7477898ad8cefffe37bcb9a62d5cc7b48640364993393b712c203893de8b12e1"
+    },
+    "jiggs57_check.log": {
+      "bytes": 4053,
+      "sha256": "251c54c21be9a7d59604f87fa3a03ce0324f7ba9a8daff4136dbd40a8a1a2179"
+    },
+    "verify_jiggs57.py": {
+      "bytes": 14406,
+      "sha256": "9f1adcc87fabce127a356b6a1c87afc2899e5f890d4c6b3727dd62f18f328336"
+    }
+  },
+  "finite_scope": "All 4^8 strict windows, 57^2 ordered word pairs, 3*57^2 comma-free windows, all original graph distances for m=4,5,8",
+  "lean_status": "Not formalized or compiled in Lean",
+  "negative_controls_detected": 7,
+  "original_BFS_engine": "verify_lower18.py",
+  "original_BFS_engine_sha256": "f46274fb83baf013131258cc3e62b62e6f535f5aea81d0fc3e15212ea19d76db",
+  "python_version": "3.12.14",
+  "recorded_utc": "2026-10-12T09:32:04.385437+00:00",
+  "review_result": "PASS: strict finite dictionary, arbitrary-block original-GP lift, equal-q and (5q,5q,3q,3q) exact counts",
+  "review_scope": "Sections 1-2 only of the source note; exact four-weight maximization is assigned to a different reviewer",
+  "review_type": "Independent AI mathematics/code review, not external human peer review",
+  "schema": "GP2-20261012/independent-jiggs57-provenance/v1",
+  "source_note": "workstreams/GP2-20261012/literature_lifts/JIGGS57_WEIGHTED_LIFT.md",
+  "source_note_sha256_current": "069a2aad0a9bf45796ad97f549c0bfa282dce0d0a4a3b1114f74f47b5dfdde23",
+  "source_note_sha256_reviewed": "069a2aad0a9bf45796ad97f549c0bfa282dce0d0a4a3b1114f74f47b5dfdde23",
+  "wordlist_file": "workstreams/GP2-20261012/literature_lifts/jiggs57_words.txt",
+  "wordlist_sha256": "26d405621e125016c26edf662bd1d18cb721bb6b09976c421fa5093e531a1f14"
+}

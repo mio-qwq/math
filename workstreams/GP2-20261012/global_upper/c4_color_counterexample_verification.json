@@ -1,0 +1,69 @@
+{
+  "status": "exact rational checks passed",
+  "color_probabilities": [
+    [
+      [
+        "2/3",
+        "0",
+        "1/3"
+      ],
+      [
+        "1/3",
+        "2/3",
+        "0"
+      ],
+      [
+        "0",
+        "1/3",
+        "2/3"
+      ]
+    ],
+    [
+      [
+        "0",
+        "2/3",
+        "1/3"
+      ],
+      [
+        "1/3",
+        "0",
+        "2/3"
+      ],
+      [
+        "2/3",
+        "1/3",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      [
+        "1/3",
+        "1/3",
+        "1/3"
+      ]
+    ]
+  ],
+  "trace_B4": "-1/729",
+  "matrix_E": "77/729",
+  "independent_type_sum_E": "77/729",
+  "finite_q": 365,
+  "finite_alphabet_size": 1095,
+  "expected_defect_upper": "29563/266085",
+  "negative_controls": [
+    "normalization",
+    "trace sign",
+    "false 1/9 value"
+  ],
+  "proof_sha256": "a99bc69cd78453180e008dc3b439e2e842e2e0af5ddc1ae5a2fea59454c6dbba",
+  "checker_sha256": "b4f187b8ffab4688abdec376285f28d198ef051cf544a7e9f1f60d4b26dbf8e9"
+}

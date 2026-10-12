@@ -1,0 +1,1233 @@
+{
+  "schema": "GP2-20261012-weighted-jiggs57-exact-review-v1",
+  "binding": {
+    "alphabet_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "dictionary_relative_path": "../literature_lifts/jiggs57_words.txt",
+    "dictionary_sha256": "26d405621e125016c26edf662bd1d18cb721bb6b09976c421fa5093e531a1f14",
+    "candidate_relative_path": "../literature_lifts/JIGGS57_WEIGHTED_LIFT_V2.md",
+    "candidate_sha256": "6f1068bd29261ac4eea4cfc11b9392593900580498d087f3f7856cf04d334918",
+    "candidate_algebra_sections": [
+      3,
+      4,
+      5
+    ],
+    "source_attribution": "The literal dictionary is attributed to B. H. Jiggs (1963), p. 184. This review does not certify historical maximality or historical priority."
+  },
+  "orbits": {
+    "all_words": 256,
+    "period_dividing_two_words": 16,
+    "primitive_words": 240,
+    "primitive_orbits": 60,
+    "selected_orbits": [
+      "AAAB",
+      "AAAC",
+      "AAAD",
+      "AABB",
+      "AABC",
+      "AABD",
+      "AACB",
+      "AACC",
+      "AACD",
+      "AADB",
+      "AADC",
+      "AADD",
+      "ABAC",
+      "ABAD",
+      "ABBB",
+      "ABBC",
+      "ABBD",
+      "ABCB",
+      "ABCC",
+      "ABCD",
+      "ABDB",
+      "ABDC",
+      "ABDD",
+      "ACAD",
+      "ACBB",
+      "ACBC",
+      "ACBD",
+      "ACCB",
+      "ACCC",
+      "ACCD",
+      "ACDB",
+      "ACDC",
+      "ACDD",
+      "ADBB",
+      "ADBC",
+      "ADBD",
+      "ADCC",
+      "ADDB",
+      "ADDC",
+      "ADDD",
+      "BBBC",
+      "BBBD",
+      "BBCC",
+      "BBCD",
+      "BBDC",
+      "BBDD",
+      "BCBD",
+      "BCCC",
+      "BCCD",
+      "BCDD",
+      "BDCC",
+      "BDCD",
+      "BDDC",
+      "BDDD",
+      "CCCD",
+      "CCDD",
+      "CDDD"
+    ],
+    "missing_orbits": [
+      "ADCB",
+      "ADCD",
+      "BCDC"
+    ]
+  },
+  "density": {
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "homogeneous_terms": [
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          3,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          3
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          1,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          3
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "coefficient": "5"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          2,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          1,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ]
+  },
+  "compression": {
+    "variables": [
+      "u",
+      "v",
+      "r",
+      "s"
+    ],
+    "difference_factor": 16,
+    "difference_terms": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          1,
+          1
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "coefficient": "2"
+      }
+    ],
+    "sos": [
+      {
+        "multiplier": "2",
+        "square": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "multiplier": "1",
+        "square": [
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "multiplier": "1",
+        "square": [
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "multiplier": "1",
+        "square": [
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "multiplier": "2",
+        "square": [
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "multiplier": "1",
+        "square": [
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "univariate": {
+    "variable": "y",
+    "domain": [
+      "0",
+      "1/2"
+    ],
+    "f_coefficients_ascending": [
+      "3/16",
+      "1/2",
+      "-9/4",
+      "4",
+      "-3"
+    ],
+    "critical_polynomial_coefficients_ascending": [
+      "-1",
+      "9",
+      "-24",
+      "24"
+    ],
+    "rho_interval": {
+      "lower": "186730853364600134432293139877952573/1000000000000000000000000000000000000",
+      "upper": "93365426682300067216146569938976287/500000000000000000000000000000000000"
+    },
+    "beta_reduction_coefficients_ascending": [
+      "11/48",
+      "0",
+      "-1/8"
+    ],
+    "beta_reduction_quotient_coefficients_ascending": [
+      "1/24",
+      "-1/8"
+    ],
+    "beta_interval": {
+      "lower": "22480811521688269199843581722429/100000000000000000000000000000000",
+      "upper": "2248081152168826919984358172243/10000000000000000000000000000000"
+    }
+  },
+  "lift": {
+    "letter_weights": {
+      "A": 5,
+      "B": 5,
+      "C": 3,
+      "D": 3
+    },
+    "alphabet_size_coefficient": 16,
+    "q_polynomial_coefficients_ascending": [
+      "0",
+      "0",
+      "94",
+      "-2528",
+      "14733"
+    ],
+    "per_word_polynomials": [
+      {
+        "word": "DBDD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "135"
+        ]
+      },
+      {
+        "word": "DDAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "135"
+        ]
+      },
+      {
+        "word": "DDCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-27",
+          "81"
+        ]
+      },
+      {
+        "word": "CCCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "15",
+          "-90",
+          "135"
+        ]
+      },
+      {
+        "word": "BCCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "225"
+        ]
+      },
+      {
+        "word": "DCCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "135"
+        ]
+      },
+      {
+        "word": "ACCA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "225"
+        ]
+      },
+      {
+        "word": "DABD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "BABB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-125",
+          "625"
+        ]
+      },
+      {
+        "word": "DBCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "CACB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "DACB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "DCAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "135"
+        ]
+      },
+      {
+        "word": "DACD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "135"
+        ]
+      },
+      {
+        "word": "DAAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "225"
+        ]
+      },
+      {
+        "word": "BCAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "BAAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "ACAB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "375"
+        ]
+      },
+      {
+        "word": "BAAA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "25",
+          "-250",
+          "625"
+        ]
+      },
+      {
+        "word": "DCBD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "135"
+        ]
+      },
+      {
+        "word": "BDAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "BDCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "135"
+        ]
+      },
+      {
+        "word": "CCCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "9",
+          "-54",
+          "81"
+        ]
+      },
+      {
+        "word": "BCCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "135"
+        ]
+      },
+      {
+        "word": "DCCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-27",
+          "81"
+        ]
+      },
+      {
+        "word": "ACCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "135"
+        ]
+      },
+      {
+        "word": "DABB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "BCAB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "375"
+        ]
+      },
+      {
+        "word": "ABCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "375"
+        ]
+      },
+      {
+        "word": "DAAB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "BBAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "DCAB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "CACD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "135"
+        ]
+      },
+      {
+        "word": "DBAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "ACAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "DBCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "135"
+        ]
+      },
+      {
+        "word": "BAAB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-125",
+          "625"
+        ]
+      },
+      {
+        "word": "BCAA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "DCBB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "225"
+        ]
+      },
+      {
+        "word": "DBBD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "225"
+        ]
+      },
+      {
+        "word": "DBBB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "15",
+          "-150",
+          "375"
+        ]
+      },
+      {
+        "word": "CCCA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "15",
+          "-90",
+          "135"
+        ]
+      },
+      {
+        "word": "BCCA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "225"
+        ]
+      },
+      {
+        "word": "DCCA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "135"
+        ]
+      },
+      {
+        "word": "ACCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "225"
+        ]
+      },
+      {
+        "word": "BABD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "375"
+        ]
+      },
+      {
+        "word": "BBCB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "BACB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "375"
+        ]
+      },
+      {
+        "word": "AACD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "225"
+        ]
+      },
+      {
+        "word": "BBCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "225"
+        ]
+      },
+      {
+        "word": "BACD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      },
+      {
+        "word": "DCAA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-45",
+          "225"
+        ]
+      },
+      {
+        "word": "ABAD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "375"
+        ]
+      },
+      {
+        "word": "DAAA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "15",
+          "-150",
+          "375"
+        ]
+      },
+      {
+        "word": "AACB",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "ACAA",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "-75",
+          "375"
+        ]
+      },
+      {
+        "word": "ABCD",
+        "coefficients_ascending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "225"
+        ]
+      }
+    ],
+    "leading_density": "14733/65536",
+    "rational_density_error_upper_bound": "1/2500000",
+    "uniform_adjacent_equalities_histogram": {
+      "0": 23,
+      "1": 28,
+      "2": 6
+    },
+    "uniform_q_polynomial_coefficients_ascending": [
+      "0",
+      "0",
+      "6",
+      "-40",
+      "57"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "actual_command": "python workstreams/GP2-20261012/construction/verify_lower18.py > workstreams/GP2-20261012/construction/lower18_check.log",
+  "actual_exit_code": 0,
+  "actual_working_directory": "repository root",
+  "files": {
+    "LOWER18_INDEPENDENT_REVIEW.md": {
+      "bytes": 12472,
+      "sha256": "ce65d1589c1c681682f112df4250c3945457c552b58dadccae49401073e0156a"
+    },
+    "lower18_certificate.json": {
+      "bytes": 78312,
+      "sha256": "b9b8da78a2e17220a8cc278f4e6bc5b680254471b717aa50fb4cf8e65f154973"
+    },
+    "lower18_check.log": {
+      "bytes": 4657,
+      "sha256": "f72372a34c01905353579aff5d37230f91a69ec8d26ee30208a8a0892b1a3f7b"
+    },
+    "verify_lower18.py": {
+      "bytes": 15582,
+      "sha256": "f46274fb83baf013131258cc3e62b62e6f535f5aea81d0fc3e15212ea19d76db"
+    }
+  },
+  "lean_status": "Not formalized or compiled in Lean",
+  "negative_controls_detected": 8,
+  "python_version": "3.12.14",
+  "recorded_utc": "2026-10-12T09:23:43.613162+00:00",
+  "review_result": "PASS: strict template, original-GP lift, equal-block all-q lower bound; independent exact arbitrary-block and balancing proofs supplied",
+  "review_type": "Independent AI mathematical/code review; not external human peer review",
+  "schema": "GP2-20261012/independent-lower18-provenance/v1",
+  "source_note": "workstreams/GP2-20261012/review/TERNARY_STRICT_CONSTRUCTION_FROM_LITERATURE.md",
+  "source_note_sha256_current": "c505466f843428df45d6d3f115536c3298f3b5b1d6db5fb319350cfafd1e8f0c",
+  "source_note_sha256_reviewed": "c505466f843428df45d6d3f115536c3298f3b5b1d6db5fb319350cfafd1e8f0c",
+  "source_of_distances": "Full BFS of the original shift-and-append adjacency for m=3,4,5,6"
+}

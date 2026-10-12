@@ -1,0 +1,112 @@
+{
+  "owner": "GP2-20261012",
+  "scope": "stage-two files only",
+  "parent_signed_commit": "b45b04eeab0fc521b789d6d47b4d8b94119e8c90",
+  "files": [
+    {
+      "path": "FORCED_HYPERGRAPH_EXACT.md",
+      "size_bytes": 7927,
+      "sha256": "ac8114965703c26644aa047326cdb4added0adb58b619b6dfc906998e63f9433"
+    },
+    {
+      "path": "FORCED_OVERLAP_BOUND.md",
+      "size_bytes": 6766,
+      "sha256": "b50ed872bb2e3cabbfff51d08ace024f8dbc8a29d8ef4f1dcbe11d1ab1018a18"
+    },
+    {
+      "path": "HIERARCHICAL_MODEL.md",
+      "size_bytes": 10639,
+      "sha256": "4881ed8dcf3b34fcb45a966a321afc15a3c266bc0222dc1b302bb256c84de7fb"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3553,
+      "sha256": "8e64c42f8d550cedd9c9d809a1b17f335d103086bf70a71997b9c1bff754bad8"
+    },
+    {
+      "path": "ROTATION_COMPLETION.md",
+      "size_bytes": 5889,
+      "sha256": "f799ec1448a2c8142ea27c092c9aaa1bf31356a12d0fcda021f3faa1aa8bc87b"
+    },
+    {
+      "path": "SIGNING_KEY.asc",
+      "size_bytes": 433,
+      "sha256": "8c16bd0b49f9a0b17128db1c8188d5e7f9b48e57efdd054c486922c1d838c43d"
+    },
+    {
+      "path": "TEN_STATE_REDUCTION.md",
+      "size_bytes": 7727,
+      "sha256": "1f3f233c768a876ee859e387267aefb2e05542f07427e133e575f2443ee695d5"
+    },
+    {
+      "path": "build_certificate.py",
+      "size_bytes": 4171,
+      "sha256": "ca7fca705c8c1ef03f143a7d9dc2f62d5987f58c9ebb192d66b6105a3eb63777"
+    },
+    {
+      "path": "build_forced_cover.py",
+      "size_bytes": 2903,
+      "sha256": "c8ec6790925d738d97b5a7cff76c46ab271d2004f9c4f72833946eb49c9424c3"
+    },
+    {
+      "path": "certificate.json",
+      "size_bytes": 206739,
+      "sha256": "83ea8ca3825129e91c7d07f4ff90d20af8d465076de10f63f6407333986cdcf4"
+    },
+    {
+      "path": "forced_cover_certificate.json",
+      "size_bytes": 31044,
+      "sha256": "c016b97a303821fee79ac84920c625d9f62da2a2fd16234ab3ea96fab108213e"
+    },
+    {
+      "path": "logs/final-replay.txt",
+      "size_bytes": 1440,
+      "sha256": "dd10741f75df1a4d661b60335ccd21ce5c923b2475bd8f7f4542ea967e34412f"
+    },
+    {
+      "path": "logs/stage1-signature.json",
+      "size_bytes": 350,
+      "sha256": "2bbdc6fabc4e7a0bede63e66dde77abaa3a8c3e239bc42da6565c4c23aed77ad"
+    },
+    {
+      "path": "logs/verification.json",
+      "size_bytes": 2915,
+      "sha256": "ce254410527eb8b6ddfae41ccf286c1ed75ecadd47f8adb80b157c1aba4ae923"
+    },
+    {
+      "path": "model.py",
+      "size_bytes": 9933,
+      "sha256": "b946d863b56c69f413af39839511e0ac2bc64c514f3f5f098304476717e4f8ec"
+    },
+    {
+      "path": "ten_state.py",
+      "size_bytes": 3491,
+      "sha256": "bc1df9b29f0f08ef89b5b18dc3e96fa3edae3d7ef8d2b5e5dcfe5cb7330d7808"
+    },
+    {
+      "path": "verify_forced_cover.py",
+      "size_bytes": 3987,
+      "sha256": "c2c327136ed64ff3e85276c463d4ccc88b90c5e53fbbef370c57c9ade0ddb026"
+    },
+    {
+      "path": "verify_manifest.py",
+      "size_bytes": 892,
+      "sha256": "bc934266004185fde4caf22582bd99b35226f831cbac3a0039e00a3783dbd8d8"
+    },
+    {
+      "path": "verify_stage1_signature.py",
+      "size_bytes": 4067,
+      "sha256": "3e00b2c8e4e8786e868dd01ccc4395c86102948b35d60ea575b308b8dd9b5fed"
+    },
+    {
+      "path": "verify_stage2.py",
+      "size_bytes": 11332,
+      "sha256": "e2feebf15c93b861c33cc5c581083958242bf4bd0310bd73b5031921815ae772"
+    },
+    {
+      "path": "verify_ten.py",
+      "size_bytes": 6313,
+      "sha256": "e55d295f695db1c3549da985d625d770feec593ab0e093109b6644cba421dacc"
+    }
+  ]
+}
