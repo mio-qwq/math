@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T17:40:13.115614+00:00",
+  "author_hashes": {
+    "manifest.json": "e3b8858266902053ca6b0b4265c5184a266e00497c451da820339349e20d1be5",
+    "PROOF.md": "f14da53f84466770a9c82939083b3c01a443c2074cbd1e21bc2f47270298e67e",
+    "CERTIFICATE.json": "2262a150e0ce6d29f869ad306b2036190c44ea775e4b8bd5f6f9201622ea6d39",
+    "check.py": "86869d47b1d041caa61c1fa9b4625dfc70922e6e7afc2082a0d8a29a0b62450e"
+  },
+  "manifest_files_verified": 20,
+  "author_dependencies_verified": {
+    "../support12-v4/check.py": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+    "../support12-v4/manifest.json": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+    "../width-reduction-v5/PROOF.md": "ef948c192bf61dbee0c2010f7ee34d391326f21e421e2c1c9f704c5ac14d82d5",
+    "../width-reduction-v5/check.py": "5d97c019c356d1963dd91714bc2ea4ba5dc4a1724091f4ec02088a777ad7fd00"
+  },
+  "accepted_v4_review_manifest_sha256": "cee4aeb66a656697e640ec092e03ab51aeb6c888065f1395d1eba7d3935e68e9",
+  "accepted_v4_receipt_sha256": "10483cdfd720bb34949dd26917f4cea3c9fb98886e92acd8327e8d19d7edbdfc",
+  "width_proof_sha256": "ef948c192bf61dbee0c2010f7ee34d391326f21e421e2c1c9f704c5ac14d82d5",
+  "width_checker_sha256": "5d97c019c356d1963dd91714bc2ea4ba5dc4a1724091f4ec02088a777ad7fd00",
+  "cases": [
+    {
+      "k": 1,
+      "mask_classes_each_orientation": 14,
+      "complete_twin_mask_pairs": 196,
+      "feasible_twin_mask_pairs": [],
+      "stored_twin_branches": 0,
+      "third_mask_tests_checked": 0
+    },
+    {
+      "k": 3,
+      "mask_classes_each_orientation": 25,
+      "complete_twin_mask_pairs": 625,
+      "feasible_twin_mask_pairs": [],
+      "stored_twin_branches": 0,
+      "third_mask_tests_checked": 0
+    },
+    {
+      "k": 5,
+      "mask_classes_each_orientation": 35,
+      "complete_twin_mask_pairs": 1225,
+      "feasible_twin_mask_pairs": [
+        {
+          "alpha_x": "7fec0000",
+          "alpha_y": "7fec0000",
+          "actual_twin_witness": {
+            "x": "3fec0080",
+            "xp": "40000080",
+            "y": "3fec00a0",
+            "yp": "400000a0",
+            "F": "00fdb827",
+            "Gx": "7fe044f5",
+            "Gy": "800844f5"
+          }
+        },
+        {
+          "alpha_x": "ffec0000",
+          "alpha_y": "ffec0000",
+          "actual_twin_witness": {
+            "x": "7fec0000",
+            "xp": "80000000",
+            "y": "7fec0020",
+            "yp": "80000020",
+            "F": "01fdd805",
+            "Gx": "800084f5",
+            "Gy": "802884f5"
+          }
+        }
+      ],
+      "stored_twin_branches": 6,
+      "third_mask_tests_checked": 210
+    },
+    {
+      "k": 7,
+      "mask_classes_each_orientation": 34,
+      "complete_twin_mask_pairs": 1156,
+      "feasible_twin_mask_pairs": [],
+      "stored_twin_branches": 0,
+      "third_mask_tests_checked": 0
+    },
+    {
+      "k": 9,
+      "mask_classes_each_orientation": 43,
+      "complete_twin_mask_pairs": 1849,
+      "feasible_twin_mask_pairs": [],
+      "stored_twin_branches": 0,
+      "third_mask_tests_checked": 0
+    },
+    {
+      "k": 11,
+      "mask_classes_each_orientation": 53,
+      "complete_twin_mask_pairs": 2809,
+      "feasible_twin_mask_pairs": [],
+      "stored_twin_branches": 0,
+      "third_mask_tests_checked": 0
+    },
+    {
+      "k": 13,
+      "mask_classes_each_orientation": 52,
+      "complete_twin_mask_pairs": 2704,
+      "feasible_twin_mask_pairs": [
+        {
+          "alpha_x": "ffcc0000",
+          "alpha_y": "ffcc0000",
+          "actual_twin_witness": {
+            "x": "ffcc00a0",
+            "xp": "000000a0",
+            "y": "ffcc00c0",
+            "yp": "000000c0",
+            "F": "e1f9d82f",
+            "Gx": "7fc86ce1",
+            "Gy": "80306ce1"
+          }
+        }
+      ],
+      "stored_twin_branches": 3,
+      "third_mask_tests_checked": 156
+    },
+    {
+      "k": 15,
+      "mask_classes_each_orientation": 41,
+      "complete_twin_mask_pairs": 1681,
+      "feasible_twin_mask_pairs": [
+        {
+          "alpha_x": "ffc40000",
+          "alpha_y": "ffc40000",
+          "actual_twin_witness": {
+            "x": "ffc40000",
+            "xp": "00000000",
+            "y": "ffc40060",
+            "yp": "00000060",
+            "F": "e1f8c80f",
+            "Gx": "7fc06ee6",
+            "Gy": "80386ee6"
+          }
+        },
+        {
+          "alpha_x": "ffcc0000",
+          "alpha_y": "ffcc0000",
+          "actual_twin_witness": {
+            "x": "ffc80000",
+            "xp": "00040000",
+            "y": "ffc80060",
+            "yp": "00040060",
+            "F": "e1f9d80f",
+            "Gx": "7fc06ee5",
+            "Gy": "80386ee5"
+          }
+        }
+      ],
+      "stored_twin_branches": 6,
+      "third_mask_tests_checked": 246
+    }
+  ],
+  "third_mask_tests_checked": 612,
+  "direct_XOR_receipts_checked": 1253,
+  "controls": [
+    "nonzero half-word offset directly required",
+    "negative orientation retains same H offset",
+    "corrupt receipt RHS detected",
+    "actual twin witnesses for every independently feasible mask pair"
+  ],
+  "scope": "independent theorem model + complete coverage/row identities; author branch-edge counts are not independently matched"
+}

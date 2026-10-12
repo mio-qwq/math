@@ -1,0 +1,19 @@
+{
+  "author_manifest_sha256": "ae65d615bb115c5ccd9ca8ef20fcd9665df7059243a4ad404c4b656622fdf9d1",
+  "files": {
+    "REVIEW.md": {
+      "bytes": 6491,
+      "sha256": "c55a192af5c3014c26d6edddc52854a309c1448ce260b9363703654cf9b0bf1f"
+    },
+    "RUN.json": {
+      "bytes": 3308,
+      "sha256": "f74f90597c63f37083623d0f04c0501927ef78083ef7a7855ffb2184def4573b"
+    },
+    "check_independent.py": {
+      "bytes": 11007,
+      "sha256": "c688bea621e00de276da20928e1b78d443ba692c0cf00681bf08159a277f1c94"
+    }
+  },
+  "schema": "independent-shift-symbolic-module-review-v5",
+  "status": "PASS within exact free-interface module scope"
+}

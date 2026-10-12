@@ -1,0 +1,103 @@
+{
+  "author_source_sha256": {
+    "CHECK_RUN.json": "fdc3ab8a22d9ac84863564c6bcf5bbe8a32187e6db069427401265bfceb9b85b",
+    "EXECUTIONS.json": "3c008279de6847230006b811b6186f95f82a0c4ad70c717ad40fa690fdcc4b31",
+    "MODULE_CERTIFICATE.json": "a5cfeceea257637ca6d024627077f3d0f451f5c1bce17d686e2d47781d8d3ec8",
+    "PROOF.md": "f436ba74a0d172884ad25b80bd681e6dc761ebc379ae48f253082ca0a2f0ba0b",
+    "SHA256.json": "ae65d615bb115c5ccd9ca8ef20fcd9665df7059243a4ad404c4b656622fdf9d1",
+    "build_module_certificate.py": "5da65b23a47f45aa84823a24f853fd6d6869bfa99a0e918c5d2fbe788f832524",
+    "check_module_certificate.py": "d1b08653819f94e08ea7ff1e2b2f3f5dba7af8b626311ac57c7dde94dccf9afa"
+  },
+  "cases": [
+    {
+      "actual_pair_realization": "unproved and not asserted",
+      "all_39_interfaces_nonzero_in_both_models": true,
+      "boundary_residual": [
+        [
+          "F",
+          9,
+          1
+        ],
+        [
+          "G",
+          22,
+          1
+        ],
+        [
+          "G",
+          57,
+          -1
+        ]
+      ],
+      "checked_UA_coordinates": 1872,
+      "elementary_operations": 83,
+      "exact_inverse_operation_replay": true,
+      "free_columns": 16,
+      "integer_boundary": -14329223,
+      "integer_model_all_48_rows_zero": true,
+      "integer_rows": 48,
+      "mod32_boundary": 4280638073,
+      "mod32_model_all_48_rows_zero": true,
+      "nonmembership_over_integers": true,
+      "nonmembership_over_mod32": true,
+      "support_index": 9,
+      "unit_row_rank": 23,
+      "variables": 39
+    },
+    {
+      "actual_pair_realization": "unproved and not asserted",
+      "all_39_interfaces_nonzero_in_both_models": true,
+      "boundary_residual": [
+        [
+          "G",
+          13,
+          -1
+        ],
+        [
+          "G",
+          29,
+          -1
+        ]
+      ],
+      "checked_UA_coordinates": 1872,
+      "elementary_operations": 114,
+      "exact_inverse_operation_replay": true,
+      "free_columns": 14,
+      "integer_boundary": -59778,
+      "integer_model_all_48_rows_zero": true,
+      "integer_rows": 48,
+      "mod32_boundary": 4294907518,
+      "mod32_model_all_48_rows_zero": true,
+      "nonmembership_over_integers": true,
+      "nonmembership_over_mod32": true,
+      "support_index": 12,
+      "unit_row_rank": 25,
+      "variables": 39
+    }
+  ],
+  "negative_controls_rejected": [
+    "damaged_source_row",
+    "damaged_U",
+    "nonunit_self_add",
+    "wrong_target_combination",
+    "wrong_residual",
+    "zero_active_modular_interface",
+    "wrong_boundary_target",
+    "bad_integer_lift_same_modular_value"
+  ],
+  "not_claimed": [
+    "actual coupled word-pair counterexample",
+    "reverse time-shift refutation for true schedules",
+    "support exclusion",
+    "global distance14",
+    "Lean",
+    "human review",
+    "originality"
+  ],
+  "python": "3.12.14",
+  "review": "independent AI written mathematical review",
+  "reviewer_checker_sha256": "c688bea621e00de276da20928e1b78d443ba692c0cf00681bf08159a277f1c94",
+  "scope": "All 48 additive rows do not imply either shared backward boundary in the free d/F/G interface module, over Z or Z/(2^32), even with all 39 active interfaces nonzero.",
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "status": "PASS"
+}

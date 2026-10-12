@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T17:37:35.642504+00:00",
+  "contact": "First author v5 bytes hashed here; then manifest/PROOF read. Independent full8odd run already finished.",
+  "sha256": {
+    "manifest.json": "e3b8858266902053ca6b0b4265c5184a266e00497c451da820339349e20d1be5",
+    "PROOF.md": "f14da53f84466770a9c82939083b3c01a443c2074cbd1e21bc2f47270298e67e",
+    "CERTIFICATE.json": "2262a150e0ce6d29f869ad306b2036190c44ea775e4b8bd5f6f9201622ea6d39",
+    "check.py": "86869d47b1d041caa61c1fa9b4625dfc70922e6e7afc2082a0d8a29a0b62450e"
+  }
+}

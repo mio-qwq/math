@@ -2,6 +2,9 @@
 
 Branch: `partner/dist-CRYPTO3-20261012`. Recovery base:
 `b7eb3becacf474a6978b6acb2879fce3d505e395`.
+Stage 4 was uploaded and checked at
+`f888115f03f2ef1e06189296378f6ca200d1264b`; later accepted stages are
+recorded below and in their own frozen manifests.
 The original stage-2 README, publication status, manifests and reviewed
 proof bytes are preserved. This checkpoint describes later work.
 
@@ -35,10 +38,10 @@ all 64 positions, including the input. The universal lower bound remains
 
 | Exact support scope | New restriction | Current acceptance |
 |---|---|---|
-| 12, and 6/7/13 by directly checked recurrence bridges | `v2(D)<=18`, with `D=d18=d34` on support 12 | [Independent acceptance](sha256-word-distance/support12-review-v4/REVIEW.md), 89,243 complete three-mask cases |
+| 12, and 6/7/13 by directly checked recurrence bridges | **`v2(D)<=17`**, with `D=d18=d34` on support 12 | [Stage-5 independent acceptance](sha256-word-distance/support12-review-v5/REVIEW.md), 538,461 new complete three-mask cases; stage 4 separately checked 89,243 cases |
 | 10 and 11 | `min(v2(d18),v2(d34))<=15` | [Independent acceptance](sha256-word-distance/supports10-11-review-v4/REVIEW.md), complete 65,536-mask cover and both actual local sharpness fixtures |
 
-The first bound was previously 20. The second is a joint restriction;
+The first bound progressed from 20 to 18 and now 17. The second is a joint restriction;
 neither individual valuation is asserted to be at most 15. These constrain
 actual schedules having the named supports, but do not exclude a complete
 support. Local sharpness fixtures are actual word pairs, not messages.
@@ -58,26 +61,39 @@ divides D, sigma1 output bits 22..30 agree within each pair. Its bit 31
 changes precisely when input bit 18 changes, giving the same modular
 half-word contribution for differences D and -D. It cancels in both
 sigma1 derivative gaps. The same integer-width argument reduces this
-stratum to `D=+/-q*2^18`, `1<=q<=15`. A separate candidate calculation of
-the eight new odd quotients has empty exact carry branches; a stronger
-ceiling of 17 is being prepared as a separate proof package, with its own
-independent acceptance still required. It is not an accepted bound here.
+stratum to `D=+/-q*2^18`, `1<=q<=15`. The eight new odd quotients now have
+a complete finite exclusion in [the frozen extension](sha256-word-distance/support12-extension-v5/PROOF.md)
+and separate independent acceptance. Together with the stage-4 even cases,
+this proves the ceiling 17. Local SMT UNSAT observations are not premises.
 The original support-12 equations
 also retain `d26=-F18` and `F26=-D`, a further sigma0-chain constraint.
+
+[An independently checked linear-module obstruction](sha256-word-distance/shift-symbolic-review-v5/REVIEW.md)
+shows why the tempting inverse maps `9 -> 0` and `12 -> 6` are not proved
+by additive recurrence elimination alone. All 48 rows and exact integer
+unit transformations were checked. The free-interface countermodels are
+not actual word pairs and do not refute either true nonlinear reverse map.
+
+The next actual-pair boundary is valuation 17. A candidate width argument
+modulo `2^31` reduces it to 32 positive representatives plus their global
+pair reversals. Fixed-difference SMT tests are exploratory; a further
+ceiling requires complete finite proof and independent review. Work is
+isolated in `support12-boundary-v6/`; no stage-6 result is accepted here.
 
 Other agents' paths and `main` are outside this workstream. Branch uploads
 may be unsigned; final signatures and main integration belong to ROOT.
 No paper, DOI, Release, human peer review, historical priority or Lean
 certification is created by this continuation.
 
-Reproduction of the frozen continuation uses only Python's standard library:
+Reproduction of the latest frozen continuation uses only Python's standard library:
 
 ```sh
-python -B workstreams/CRYPTO3-20261012/continuation-v4/replay.py
+python -B workstreams/CRYPTO3-20261012/continuation-v5/replay.py
 ```
 
-Add `--full-stage2` only when the original 21 checks need another replay.
-The default checks the restored stage-2 hashes and all listed new proof,
-comparison and damage-control gates in a temporary copy. The living
+The stage-4 gate is `continuation-v4/replay.py`; add its `--full-stage2`
+only when the original 21 checks need another replay. The stage-5 gate
+checks stage-4 integrity and all new proof, review and damage-control
+gates in a temporary copy. The living
 checkpoint is not a frozen proof artifact; the snapshot and manifest in
 `continuation-v4/` bind the exact accepted phase.

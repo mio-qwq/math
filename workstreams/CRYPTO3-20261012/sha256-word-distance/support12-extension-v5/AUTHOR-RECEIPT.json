@@ -1,0 +1,36 @@
+{
+  "author_check_command": "timeout 55s python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-extension-v5/check.py --output workstreams/CRYPTO3-20261012/sha256-word-distance/support12-extension-v5/CHECK-RUN.json",
+  "author_check_exit": 0,
+  "base_commit": "b7eb3becacf474a6978b6acb2879fce3d505e395",
+  "branch": "partner/dist-CRYPTO3-20261012",
+  "certificate_sha256": "2262a150e0ce6d29f869ad306b2036190c44ea775e4b8bd5f6f9201622ea6d39",
+  "check_run_sha256": "326b1807acb87146fb2f0f38874574adacda2efba3204959d342a18955b2041c",
+  "checker_sha256": "86869d47b1d041caa61c1fa9b4625dfc70922e6e7afc2082a0d8a29a0b62450e",
+  "claim": "With v4 and width-v5 dependencies, support12/6/7/13 repeated D requires v2(D)<=17",
+  "created_utc": "2026-10-12T17:37:10.162602+00:00",
+  "dependencies": {
+    "../support12-v4/check.py": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+    "../support12-v4/manifest.json": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+    "../width-reduction-v5/PROOF.md": "ef948c192bf61dbee0c2010f7ee34d391326f21e421e2c1c9f704c5ac14d82d5",
+    "../width-reduction-v5/check.py": "5d97c019c356d1963dd91714bc2ea4ba5dc4a1724091f4ec02088a777ad7fd00"
+  },
+  "discovery_smt": "eight UNSAT answers preserved, not logical premises",
+  "exclusive_writes": "support12-extension-v5 only; frozen v4 unchanged; no git mutations",
+  "finite_discovery_budget_seconds": 55,
+  "finite_discovery_exit": 0,
+  "finite_discovery_seconds": 10.976998911995906,
+  "new_proof_scope": "eight odd positive q1..15 times2^18; negative orientation by simultaneous priming swap; even q reused from v4",
+  "not_claimed": [
+    "complete support exclusion",
+    "distance>=14",
+    "real message pair",
+    "Lean certification",
+    "historical priority",
+    "paper/DOI/Release publication"
+  ],
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "proof_replay_seconds": 14.035979848005809,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "schema": "CRYPTO3-support12-extension-v5-author-receipt",
+  "status": "complete finite proof, author PASS; independent acceptance pending"
+}

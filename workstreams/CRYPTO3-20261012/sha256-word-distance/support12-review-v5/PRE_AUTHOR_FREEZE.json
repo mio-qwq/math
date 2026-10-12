@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-12T17:36:52.790596+00:00",
+  "source_origin": "Own frozen support12-review-v4/check_independent.py",
+  "source_origin_sha256": "fb99c76341485a8054fb9d839f071666b626d843a4935f12569149f0672ea238",
+  "author_v5_contact": "No author v5 file bytes read, no generator imported. Author theorem description and parent bit18 width observation received.",
+  "new_source_sha256": "ed0265d3f1d54c930e5e9a97fd64bdabd68ed2ce0a8b4af5d7f9951b9a744116",
+  "model": "v2(D)=18 only, k odd1..15; sigma1 top bit contributes common offset2^31, removed from mask; exact14bit input classes and96actual base bits"
+}

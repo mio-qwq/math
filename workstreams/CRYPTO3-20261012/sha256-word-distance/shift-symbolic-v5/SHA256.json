@@ -1,0 +1,30 @@
+{
+  "schema": "crypto3-shift-symbolic-v5-sha256",
+  "manifest_self_hash": false,
+  "files": {
+    "CHECK_RUN.json": {
+      "bytes": 2273,
+      "sha256": "fdc3ab8a22d9ac84863564c6bcf5bbe8a32187e6db069427401265bfceb9b85b"
+    },
+    "EXECUTIONS.json": {
+      "bytes": 1388,
+      "sha256": "3c008279de6847230006b811b6186f95f82a0c4ad70c717ad40fa690fdcc4b31"
+    },
+    "MODULE_CERTIFICATE.json": {
+      "bytes": 191615,
+      "sha256": "a5cfeceea257637ca6d024627077f3d0f451f5c1bce17d686e2d47781d8d3ec8"
+    },
+    "PROOF.md": {
+      "bytes": 8542,
+      "sha256": "f436ba74a0d172884ad25b80bd681e6dc761ebc379ae48f253082ca0a2f0ba0b"
+    },
+    "build_module_certificate.py": {
+      "bytes": 5802,
+      "sha256": "5da65b23a47f45aa84823a24f853fd6d6869bfa99a0e918c5d2fbe788f832524"
+    },
+    "check_module_certificate.py": {
+      "bytes": 8146,
+      "sha256": "d1b08653819f94e08ea7ff1e2b2f3f5dba7af8b626311ac57c7dde94dccf9afa"
+    }
+  }
+}

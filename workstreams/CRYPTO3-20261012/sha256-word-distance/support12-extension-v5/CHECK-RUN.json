@@ -1,0 +1,88 @@
+{
+  "certificate_sha256": "2262a150e0ce6d29f869ad306b2036190c44ea775e4b8bd5f6f9201622ea6d39",
+  "checker_sha256": "86869d47b1d041caa61c1fa9b4625dfc70922e6e7afc2082a0d8a29a0b62450e",
+  "kernel_sha256": "b159cb1a0190bc9d85062b30415ef55461b098ee2c6bf9ce522e7e5b34a55fff",
+  "scope": "author finite proof of new odd cases only; independent-agent review separate",
+  "seconds": 14.035979848005809,
+  "stats": {
+    "F2_conflicts": 12370,
+    "truth_table_edges": 2696541
+  },
+  "status": "PASS",
+  "summary": [
+    {
+      "final_branches": 0,
+      "mask_pairs": 196,
+      "negative_masks": 14,
+      "positive_masks": 14,
+      "q": 1,
+      "third_masks_checked": 0,
+      "twin_branches": 0
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 625,
+      "negative_masks": 25,
+      "positive_masks": 25,
+      "q": 3,
+      "third_masks_checked": 0,
+      "twin_branches": 0
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 1225,
+      "negative_masks": 35,
+      "positive_masks": 35,
+      "q": 5,
+      "third_masks_checked": 210,
+      "twin_branches": 6
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 1156,
+      "negative_masks": 34,
+      "positive_masks": 34,
+      "q": 7,
+      "third_masks_checked": 0,
+      "twin_branches": 0
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 1849,
+      "negative_masks": 43,
+      "positive_masks": 43,
+      "q": 9,
+      "third_masks_checked": 0,
+      "twin_branches": 0
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 2809,
+      "negative_masks": 53,
+      "positive_masks": 53,
+      "q": 11,
+      "third_masks_checked": 0,
+      "twin_branches": 0
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 2704,
+      "negative_masks": 52,
+      "positive_masks": 52,
+      "q": 13,
+      "third_masks_checked": 156,
+      "twin_branches": 3
+    },
+    {
+      "final_branches": 0,
+      "mask_pairs": 1681,
+      "negative_masks": 41,
+      "positive_masks": 41,
+      "q": 15,
+      "third_masks_checked": 246,
+      "twin_branches": 6
+    }
+  ],
+  "v4_manifest_sha256": "3f8fab844410d88aebc26afed62a186553e9127b4196424d334be6831698acdc",
+  "xor_conflict_proofs": 1253
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "crypto3-shift-symbolic-v5-freeze-executions",
+  "freeze_created_utc": "2026-10-12T17:34:59.481061+00:00",
+  "owned_directory": "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-symbolic-v5",
+  "bounded_task": "full 48 original row modules for inverse targets S9->S0 and S12->S6",
+  "execution": {
+    "commands": [
+      [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-symbolic-v5/build_module_certificate.py",
+        "--output",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-symbolic-v5/MODULE_CERTIFICATE.json"
+      ],
+      [
+        "python",
+        "-B",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-symbolic-v5/check_module_certificate.py",
+        "--output",
+        "workstreams/CRYPTO3-20261012/sha256-word-distance/shift-symbolic-v5/CHECK_RUN.json"
+      ]
+    ],
+    "shell_exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "observed_wall_seconds": 0.011867647,
+    "recorded_from": "actual combined generator/checker tool execution"
+  },
+  "freeze_checks": {
+    "check_receipt_source_hashes_match": true,
+    "all_v4_manifest_files_still_match": true,
+    "v4_manifest_sha256": "fce5b8d18710667ac7358a846e574c2bfd04cc4594b72ac40153597d0c7b71b1",
+    "no_commit_or_push_by_subagent": true,
+    "new_candidate_not_independent_agent_acceptance": true
+  }
+}

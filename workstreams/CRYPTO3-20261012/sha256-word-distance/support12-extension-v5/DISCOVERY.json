@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "delta": 262144,
+      "q": 1,
+      "seconds": 0.09956858600344276,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 786432,
+      "q": 3,
+      "seconds": 0.12388058599754004,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 1310720,
+      "q": 5,
+      "seconds": 0.08507505300076446,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 1835008,
+      "q": 7,
+      "seconds": 0.2332646449940512,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 2359296,
+      "q": 9,
+      "seconds": 0.13257472700206563,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 2883584,
+      "q": 11,
+      "seconds": 0.2848689300008118,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 3407872,
+      "q": 13,
+      "seconds": 0.06992119200003799,
+      "status": "unsat",
+      "timeout_ms": 2000
+    },
+    {
+      "delta": 3932160,
+      "q": 15,
+      "seconds": 0.06683881500066491,
+      "status": "unsat",
+      "timeout_ms": 2000
+    }
+  ],
+  "schema": "support12-valuation18-discovery-v5",
+  "scope": "six actual words in necessary local core only; solver UNSAT is not a proof",
+  "source_sha256": "f359c91c39296ad3062e1b124463f0eeb1e99782bc1dc63991d2634193c803e8",
+  "z3": "4.15.3"
+}

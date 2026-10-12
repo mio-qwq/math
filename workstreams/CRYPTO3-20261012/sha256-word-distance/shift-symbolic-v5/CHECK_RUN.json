@@ -1,0 +1,89 @@
+{
+  "schema": "crypto3-backward-boundary-module-check-v5",
+  "status": "PASS",
+  "source_support_sha256": "02a12d8caa3ee3b78ec140f20fc0ad253835a6d32273247d20d22e0d8818edaf",
+  "certificate_sha256": "a5cfeceea257637ca6d024627077f3d0f451f5c1bce17d686e2d47781d8d3ec8",
+  "checker_sha256": "d1b08653819f94e08ea7ff1e2b2f3f5dba7af8b626311ac57c7dde94dccf9afa",
+  "objects": [
+    {
+      "support": 9,
+      "rows": 48,
+      "variables": 39,
+      "unit_rank": 23,
+      "free_variables": 16,
+      "boundary_residual_terms": [
+        [
+          "F",
+          9,
+          1
+        ],
+        [
+          "G",
+          22,
+          1
+        ],
+        [
+          "G",
+          57,
+          -1
+        ]
+      ],
+      "separating_boundary": 4280638073,
+      "all_39_active_interfaces_nonzero": true,
+      "nonmembership_over_integers_and_mod32": true
+    },
+    {
+      "support": 12,
+      "rows": 48,
+      "variables": 39,
+      "unit_rank": 25,
+      "free_variables": 14,
+      "boundary_residual_terms": [
+        [
+          "G",
+          13,
+          -1
+        ],
+        [
+          "G",
+          29,
+          -1
+        ]
+      ],
+      "separating_boundary": 4294907518,
+      "all_39_active_interfaces_nonzero": true,
+      "nonmembership_over_integers_and_mod32": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "alter_original_row",
+      "rejected": true,
+      "reason": "original recurrence row mismatch"
+    },
+    {
+      "name": "alter_transform",
+      "rejected": true,
+      "reason": "transform matrix mismatch"
+    },
+    {
+      "name": "alter_residual_identity",
+      "rejected": true,
+      "reason": "target residual row identity mismatch"
+    },
+    {
+      "name": "zero_active_interface",
+      "rejected": true,
+      "reason": "integer versus modular witness mismatch"
+    },
+    {
+      "name": "alter_boundary_target",
+      "rejected": true,
+      "reason": "boundary target mismatch"
+    }
+  ],
+  "builder_imported_or_executed": false,
+  "frozen_v4_modified": false,
+  "scope": "Exact linear-module nonmembership only. Actual word-pair derivative coupling and inverse time-shift truth remain unresolved.",
+  "review_status": "new researcher-authored candidate, not independent-agent mathematical acceptance"
+}

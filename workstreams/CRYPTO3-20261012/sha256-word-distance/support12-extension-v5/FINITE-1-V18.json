@@ -1,0 +1,2033 @@
+{
+  "cases": [
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 174,
+        "leaves": 8,
+        "nodes": 183
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 174,
+        "leaves": 8,
+        "nodes": 183
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 174,
+        "leaves": 8,
+        "nodes": 183
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 106,
+        "leaves": 4,
+        "nodes": 111
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 42,
+        "nodes": 43
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 24,
+        "nodes": 25
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00040000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 174,
+        "leaves": 8,
+        "nodes": 183
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 999,
+        "leaves": 8,
+        "nodes": 1008
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 599,
+        "leaves": 8,
+        "nodes": 608
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 215,
+        "leaves": 8,
+        "nodes": 224
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 135,
+        "leaves": 4,
+        "nodes": 140
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "000c0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 25,
+        "nodes": 26
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 174,
+        "leaves": 8,
+        "nodes": 183
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 999,
+        "leaves": 8,
+        "nodes": 1008
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 168,
+        "leaves": 8,
+        "nodes": 177
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 168,
+        "leaves": 8,
+        "nodes": 177
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 168,
+        "leaves": 8,
+        "nodes": 177
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 104,
+        "leaves": 4,
+        "nodes": 109
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "001c0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 174,
+        "leaves": 8,
+        "nodes": 183
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 599,
+        "leaves": 8,
+        "nodes": 608
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 168,
+        "leaves": 8,
+        "nodes": 177
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 169,
+        "leaves": 8,
+        "nodes": 178
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 169,
+        "leaves": 8,
+        "nodes": 178
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 169,
+        "leaves": 8,
+        "nodes": 178
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 105,
+        "leaves": 4,
+        "nodes": 110
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "003c0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 106,
+        "leaves": 4,
+        "nodes": 111
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 215,
+        "leaves": 8,
+        "nodes": 224
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 168,
+        "leaves": 8,
+        "nodes": 177
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 169,
+        "leaves": 8,
+        "nodes": 178
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "007c0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 42,
+        "nodes": 43
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 135,
+        "leaves": 4,
+        "nodes": 140
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 168,
+        "leaves": 8,
+        "nodes": 177
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 169,
+        "leaves": 8,
+        "nodes": 178
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "00fc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 43,
+        "nodes": 44
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 104,
+        "leaves": 4,
+        "nodes": 109
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 169,
+        "leaves": 8,
+        "nodes": 178
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "01fc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "nodes": 51
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 47,
+        "nodes": 48
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 105,
+        "leaves": 4,
+        "nodes": 110
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "03fc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 54,
+        "nodes": 55
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 51,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 48,
+        "nodes": 49
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "07fc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 58,
+        "nodes": 59
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 55,
+        "nodes": 56
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 52,
+        "nodes": 53
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 49,
+        "nodes": 50
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 50,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "0ffc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 62,
+        "nodes": 63
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 59,
+        "nodes": 60
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 56,
+        "nodes": 57
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 53,
+        "nodes": 54
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "conflicts": 2,
+        "edges": 52,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "1ffc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 44,
+        "nodes": 45
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 63,
+        "nodes": 64
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 60,
+        "nodes": 61
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 57,
+        "nodes": 58
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "conflicts": 2,
+        "edges": 52,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 11,
+        "nodes": 12
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "3ffc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 11,
+        "nodes": 12
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 24,
+        "nodes": 25
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 45,
+        "nodes": 46
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 64,
+        "nodes": 65
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 61,
+        "nodes": 62
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 11,
+        "nodes": 12
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "conflicts": 2,
+        "edges": 52,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "7ffc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "00040000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "000c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 25,
+        "nodes": 26
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "001c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 46,
+        "nodes": 47
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "003c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 65,
+        "nodes": 66
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "007c0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 26,
+        "nodes": 27
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "00fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 27,
+        "nodes": 28
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "01fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 28,
+        "nodes": 29
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "03fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 29,
+        "nodes": 30
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "07fc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 30,
+        "nodes": 31
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "0ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 31,
+        "nodes": 32
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "1ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 32,
+        "nodes": 33
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "3ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 11,
+        "nodes": 12
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "7ffc0000",
+      "r_cases": [],
+      "stats": {
+        "edges": 12,
+        "nodes": 13
+      },
+      "twin_leaves": 0
+    },
+    {
+      "alpha_x": "fffc0000",
+      "alpha_y": "fffc0000",
+      "r_cases": [],
+      "stats": {
+        "conflicts": 2,
+        "edges": 52,
+        "leaves": 1,
+        "nodes": 52
+      },
+      "twin_leaves": 0
+    }
+  ],
+  "delta": 262144,
+  "input_classes_negative": 14,
+  "input_classes_positive": 14,
+  "sat_count": 0,
+  "scope": "six actual words in necessary triple core; not a complete support witness",
+  "seconds": 0.289231110997207,
+  "solutions": [],
+  "source_sha256": {
+    "explore.py": "cc5729725aff4aa05a8b6dc83a31a653a1afd75a13f53c841dbbf49acfba33a6",
+    "explore_triple.py": "42d4ff3a346de65521180778b358b79a47fe06324d944196b876f3b7c5de0335"
+  },
+  "stats": {
+    "conflicts": 8,
+    "edges": 13736,
+    "leaves": 238,
+    "nodes": 14162
+  },
+  "twin_mask_pairs": 196,
+  "v5_wrapper_sha256": "fcb9d251593d914c1d7fc267845029ecadd618e9501a1b6452f8e63ec2c6bf0f"
+}

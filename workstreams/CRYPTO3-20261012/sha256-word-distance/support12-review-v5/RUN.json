@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T17:42:54.398541+00:00",
+  "conclusion": "ACCEPT eight odd valuation18 core exclusions and exact width lemma; with frozen accepted v4, supports12,6,7,13 require v2(D)<=17",
+  "triple_mask_cases": 538461,
+  "exact_carry_GF2_nodes": 338778,
+  "binary_contradictions": 17101,
+  "source_hashes": {
+    "check_independent.py": "ed0265d3f1d54c930e5e9a97fd64bdabd68ed2ce0a8b4af5d7f9951b9a744116",
+    "controls_and_compare.py": "202ae79415e878be83cbbb118141440bb63c73898eea0a0c97665f92a41565f6",
+    "replay_readonly.py": "f474add3ce94190ea07f6a1b55c111c89123fe10bd8e1cfcc3b06cfa7dd66618"
+  },
+  "execution_reports": {
+    "INDEPENDENT_RUN.json": "4f7182e641b6d9d822d5e32130811bbb87953794a0166988c6cfbb1ac8b9c97f",
+    "CONTROLS_COMPARISON_RUN.json": "d6f65573bf74cd627817443fff4ce81a769885318e7eaca3676bd8931d43ec1e"
+  },
+  "readonly_command": "python -B workstreams/CRYPTO3-20261012/sha256-word-distance/support12-review-v5/replay_readonly.py"
+}
