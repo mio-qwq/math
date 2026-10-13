@@ -1,0 +1,246 @@
+{
+  "convergence_parameter_witnesses": [
+    {
+      "K": 16,
+      "c": "-1",
+      "delta": "1/128",
+      "epsilon": "1/2",
+      "log_square_margin": "7/3"
+    },
+    {
+      "K": 16,
+      "c": "0",
+      "delta": "1/128",
+      "epsilon": "1/2",
+      "log_square_margin": "7/3"
+    },
+    {
+      "K": 32,
+      "c": "4",
+      "delta": "1/512",
+      "epsilon": "1/4",
+      "log_square_margin": "89/68"
+    },
+    {
+      "K": 128,
+      "c": "7",
+      "delta": "1/8192",
+      "epsilon": "1/16",
+      "log_square_margin": "301/832"
+    },
+    {
+      "K": 1280,
+      "c": "79/10",
+      "delta": "1/819200",
+      "epsilon": "1/160",
+      "log_square_margin": "153281/4102400"
+    },
+    {
+      "K": 12800,
+      "c": "799/100",
+      "delta": "1/81920000",
+      "epsilon": "1/1600",
+      "log_square_margin": "15356801/4096640000"
+    }
+  ],
+  "cycle_count_comparisons": 72,
+  "cycle_density_checks": 96522,
+  "damage_controls_detected": 1,
+  "dependency_sha256": "8961036019dd2ff520309a26603f19fcab40da59290acf740fee37f0dc49b0f9",
+  "empty_graph_expansion": [
+    {
+      "c": 0,
+      "expansion_error": "-0.56477179927595172",
+      "log_empty_contribution": "-242.734629711746068815133935268",
+      "n": "10000"
+    },
+    {
+      "c": 0,
+      "expansion_error": "-0.0217947647457836444",
+      "log_empty_contribution": "-615.686629469618736536519656903",
+      "n": "1000000"
+    },
+    {
+      "c": 0,
+      "expansion_error": "-0.0000802837315726459515",
+      "log_empty_contribution": "-1494.0212668059126598665896451",
+      "n": "1000000000"
+    },
+    {
+      "c": 0,
+      "expansion_error": "-1.98624542601397832e-7",
+      "log_empty_contribution": "-2754.11420249255842091098214038",
+      "n": "1000000000000"
+    },
+    {
+      "c": 7,
+      "expansion_error": "0.382846024664333488",
+      "log_empty_contribution": "55.1192822989845049838228712695",
+      "n": "10000"
+    },
+    {
+      "c": 7,
+      "expansion_error": "0.0117835228160294932",
+      "log_empty_contribution": "52.3861107382212259318835272593",
+      "n": "1000000"
+    },
+    {
+      "c": 7,
+      "expansion_error": "0.0000367964131109714436",
+      "log_empty_contribution": "9.06696459485785974503788406691",
+      "n": "1000000000"
+    },
+    {
+      "c": 7,
+      "expansion_error": "8.33523412116761701e-8",
+      "log_empty_contribution": "-81.9575545294689397748282783568",
+      "n": "1000000000000"
+    },
+    {
+      "c": 8,
+      "expansion_error": "0.518075141392226474",
+      "log_empty_contribution": "97.6696962995395820539210303996",
+      "n": "10000"
+    },
+    {
+      "c": 8,
+      "expansion_error": "0.0165803481703077333",
+      "log_empty_contribution": "147.825073552186668362085539834",
+      "n": "1000000"
+    },
+    {
+      "c": 8,
+      "expansion_error": "0.0000535221476969128292",
+      "log_empty_contribution": "223.793854794967565114171019292",
+      "n": "1000000000"
+    },
+    {
+      "c": 8,
+      "expansion_error": "1.23634753183806673e-7",
+      "log_empty_contribution": "299.779109465258128957742204602",
+      "n": "1000000000000"
+    },
+    {
+      "c": 9,
+      "expansion_error": "0.653268043774871267",
+      "log_empty_contribution": "140.220074085749410932005216834",
+      "n": "10000"
+    },
+    {
+      "c": 9,
+      "expansion_error": "0.0213771553073765137",
+      "log_empty_contribution": "243.264036347934901332544398776",
+      "n": "1000000"
+    },
+    {
+      "c": 9,
+      "expansion_error": "0.00007024788219063894",
+      "log_empty_contribution": "438.520744995077178268029312282",
+      "n": "1000000000"
+    },
+    {
+      "c": 9,
+      "expansion_error": "1.6391716515564573e-7",
+      "log_empty_contribution": "681.515773459985197690021241799",
+      "n": "1000000000000"
+    }
+  ],
+  "endpoint_component_checks": 8996,
+  "finer_empty_window": [
+    {
+      "expansion_error": "9.30195020186461622e-8",
+      "h": 21,
+      "log_empty_contribution": "9.65338771739312160631477039146",
+      "n": "1000000000000",
+      "s": 0
+    },
+    {
+      "expansion_error": "9.15616329155390816e-8",
+      "h": 22,
+      "log_empty_contribution": "-4.16212284202902160090025891233",
+      "n": "1000000000000",
+      "s": 0
+    },
+    {
+      "expansion_error": "9.14033467888348966e-8",
+      "h": 22,
+      "log_empty_contribution": "-5.66212284218730772760444388007",
+      "n": "1000000000000",
+      "s": 3
+    },
+    {
+      "expansion_error": "9.01037638124316193e-8",
+      "h": 23,
+      "log_empty_contribution": "-17.9776334014511648081156699528",
+      "n": "1000000000000",
+      "s": 0
+    }
+  ],
+  "mpmath": "1.3.0",
+  "orders": [
+    {
+      "mode": "all pairs; structural statements only",
+      "n": 2,
+      "pairs": 4
+    },
+    {
+      "mode": "all pairs; structural statements only",
+      "n": 3,
+      "pairs": 36
+    },
+    {
+      "mode": "all pairs; structural statements only",
+      "n": 4,
+      "pairs": 576
+    },
+    {
+      "mode": "all pairs; structural statements only",
+      "n": 5,
+      "pairs": 14400
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 6,
+      "pairs": 153
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 7,
+      "pairs": 153
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 8,
+      "pairs": 153
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 9,
+      "pairs": 153
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 10,
+      "pairs": 153
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 16,
+      "pairs": 153
+    },
+    {
+      "mode": "structured + seeded sample",
+      "n": 32,
+      "pairs": 153
+    }
+  ],
+  "pairs_checked": 16087,
+  "proof_sha256": "922a5c29b69f9bf791e24470f3fd4f9e8cf83e23e77590e006f80351cf264214",
+  "python": "3.12.14",
+  "rational_probability_checks": 2295,
+  "scope": "Definition-level component/cycle/count regressions and high-precision coefficient checks. The all-n limit is written, not inferred from finite checks, not Lean-verified, and not independently accepted.",
+  "seconds": 1.296901,
+  "source_sha256": "b13c69d5877b4d31b32f8032d3eecd3391b34e8c232500627b745bb6da166423",
+  "success": true,
+  "utc": "2026-10-13T00:27:24.610370+00:00"
+}

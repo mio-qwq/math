@@ -150,7 +150,8 @@ independent acceptance. No extra finite experiment is used to assert (1).
 
 The next gap is `K=4` and displacements smaller than a fixed constant in
 `np`, where the current bound does not retain the `p^2 n^2` penalty
-from the empty-graph probability. `COMPONENT_REFINEMENT.md` now proves the
-exact missing penalty in terms of component excess. The remaining step is a
-uniform count of permutation pairs whose selected constraint system has low
-excess; the final boundary limit is still not claimed.
+from the empty-graph probability. The subsequent `COMPONENT_REFINEMENT.md`
+and `CRITICAL_BOUNDARY.md` supply that penalty and the full-component
+short-cycle count. They prove convergence at `K=4` and the next correction
+`8(log n)^2/n` in `np`. The finer window still lacks a matching upper bound;
+independent written acceptance and universal Lean verification remain pending.

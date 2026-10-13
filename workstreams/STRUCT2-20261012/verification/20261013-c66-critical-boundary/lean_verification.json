@@ -1,0 +1,70 @@
+{
+  "adapter_binary_sha256": "0c7e0f97ffdf76f16b3375b93fb09b4e7e6f3ff13167e9064d61d37a3e5f6cc3",
+  "adapter_source_sha256": "b85d7f7d8fd2f2d86d61607cae779d7cb7a6c93d043c640ce0e17961d3b24289",
+  "audit_count": 12,
+  "axiom_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axioms": {
+    "Struct2.C66.ComponentSupport.actual_component_cycle_prefix_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.canonical_component_cycle_prefix_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.componentEdges_adjacency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.edgeVariable_symmetric": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.endpoint_transport": [],
+    "Struct2.C66.ComponentSupport.full_component_endpoint_transport": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.full_component_invariant": [],
+    "Struct2.C66.ComponentSupport.invariant_prefix_length_le_twice_edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.iterates_in_endpoint": [],
+    "Struct2.C66.ComponentSupport.mem_componentEdges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Struct2.C66.ComponentSupport.second_endpoint_transport": [],
+    "Struct2.C66.ComponentSupport.ungrounded_component_loopless": [
+      "propext"
+    ]
+  },
+  "command": [
+    "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+    "-j1",
+    "-o",
+    "/workspace/scratch/6f2d6ef10a83/continuation-runs/c66-critical-lean/ComponentSupport.olean",
+    "ComponentSupport.lean"
+  ],
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "driver_sha256": "fdbb975d5216365b2defc3e8fca1411f0e5ff49d97c9e4fb4611ef282353d88c",
+  "exit_code": 0,
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "log_sha256": "4fe7390373196755a0d3b9d04d38eed02923cf53563d3102510a54574509cd88",
+  "olean_sha256": "f0b003ca2987514d0364e3429507c785b2e6515b26c2c81921d43eb599dd5510",
+  "scope": "Actual original unordered variables and full ordered-equation closure; canonical ungrounded component edge list, adjacency equivalence, endpoint transport and distinct orbit-prefix length at most twice the actual component edge-list length. Probability/excess estimates, permutation entropy and the expectation limit remain written.",
+  "seconds": 0.641271,
+  "source_sha256": "4b5f5086daf387c1cb9f3eb4e52a3eb5c191a1d06e2b2c4d46ca721ec5252658",
+  "success": true,
+  "utc": "2026-10-13T00:23:57.778420+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "limitations": [
+    "Search results include unrelated material; no exhaustive historical-firstness certification.",
+    "The guessed arXiv v2 HTML page failed; the actual abstract exposes v1, and the v1 full text was successfully inspected."
+  ],
+  "queries": [
+    "two-fold automorphisms random expectation",
+    "expected automorphism group random graphs empty graph sparse",
+    "Bychawski Conjecture 6.6",
+    "two-fold expectation log n",
+    "two-fold automorphism critical random",
+    "automorphism 4 log expectation graph"
+  ],
+  "raw_sources_redistributed": false,
+  "sources": [
+    {
+      "bytes": 952468,
+      "scope": "Primary TF definitions/conjecture",
+      "sha256": "e6c65d29c4ebb74551c881eb73004bfad43f13c1db895b6c93102e8538417b0e",
+      "url": "https://arxiv.org/html/2406.06267v1"
+    },
+    {
+      "bytes": 222207,
+      "scope": "Previously disclosed public fixed-p proof submission",
+      "sha256": "db77ea961694b97d35188888a714e727757954c036436dba91cb6fc91fae8d40",
+      "url": "https://mathdb.com/p/363470/conjecture-on-the-expected-size-of-the-two-fold-automorphism"
+    }
+  ],
+  "utc": "2026-10-13T00:27:24.653160+00:00"
+}

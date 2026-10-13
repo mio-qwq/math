@@ -1,0 +1,47 @@
+{
+  "branch": "partner/dist-STRUCT2-20261012",
+  "commands": {
+    "lean_driver": "c66/lean/verify_component_support.py with official Lean 4.34.1 and an optional explicit runtime-path adapter",
+    "regression": "python3 workstreams/STRUCT2-20261012/c66/check_critical_structure.py --output workstreams/STRUCT2-20261012/verification/20261013-c66-critical-boundary/checks.json",
+    "regression_dependency": "mpmath==1.3.0"
+  },
+  "failure_mechanisms": [
+    "Initial regression import failed because mpmath was absent; pinned mpmath 1.3.0 was supplied in scratch and the complete run passed.",
+    "Initial flatMap length proof unfolded past the induction hypothesis; explicit constructor rewrites fixed it before the clean successful compile.",
+    "Earlier empty-graph wording conflated an all-zero assignment with full grounding; corrected without changing the probability lemma."
+  ],
+  "frozen_manifest_all_match": true,
+  "frozen_manifest_files_verified": 39,
+  "lean_component_interface": {
+    "audit_count": 12,
+    "axiom_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "success": true
+  },
+  "original_package_all_match": true,
+  "original_package_files_verified": 49,
+  "resumed_from": "da5627383ae25b299414a3747087794396350f7c",
+  "scope": {
+    "complete_written_proof": "Critical c<8 convergence, c>=8 divergence and finer empty-graph lower obstruction",
+    "kernel_verified": "Original full constraint closure, canonical component adjacency, endpoint and cycle-prefix transport",
+    "not_claimed": [
+      "Independent written acceptance",
+      "Universal Lean probability/entropy limit theorem",
+      "Matching upper bound or exact limit in the finer h=22 window",
+      "Historical firstness"
+    ]
+  },
+  "structural_regression": {
+    "cycle_count_comparisons": 72,
+    "damage_controls": 1,
+    "density_checks": 96522,
+    "pairs": 16087,
+    "parameter_witnesses": 6,
+    "rational_checks": 2295,
+    "success": true
+  },
+  "utc": "2026-10-13T00:28:42.791729+00:00"
+}

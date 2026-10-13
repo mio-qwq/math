@@ -14,12 +14,18 @@ New written results:
   distinct scale 1 and a Poisson critical-window formula.
 - [Constant-order threshold refinement](SPARSE_SHIFT.md): for
   `p=(4 log n-K)/n`, full-group expectation tends to one when `K<4`
-  and diverges when `K>4`; the boundary `K=4` remains unresolved.
+  and diverges when `K>4`; its boundary is closed by the subsequent note.
 - [Constraint-component refinement](COMPONENT_REFINEMENT.md): an exact
   component-excess penalty recovers the discarded `Theta((log n)^2)` scale
-  at `K=4` and reduces the remaining problem to counting low-excess pairs.
+  at `K=4`.
+- [Critical boundary and the next correction](CRITICAL_BOUNDARY.md): for
+  `np=4 log n-4-c(log n)^2/n`, expectation tends to one when `c<8`
+  and diverges when `c>=8`. This includes convergence at `K=4`. A finer
+  empty-graph obstruction identifies the next coefficient 22 and a positive
+  limiting lower bound, while a matching upper bound remains open.
 - [Source/overlap report](PRIOR_ART_2026-10-12.md): no first-resolution
   claim for the fixed-p limit, no certification of historical firstness.
+  [New source comparison](PRIOR_ART_2026-10-13.md) preserves the same boundary.
 
 [Original-definition checker](check_quantitative.py) and
 [actual execution](quantitative_checks.json) supply exact small-support
@@ -33,14 +39,25 @@ exact rational inequalities on full and selected constraint systems at
 `n=4,5`, with a size-two damage control. Its receipt is under
 `verification/20261013-c66-component-refinement/`.
 
+[Critical structure checker](check_critical_structure.py) checks 16,087
+permutation pairs, 96,522 cycle-density bounds, 2,295 exact probabilities,
+72 cycle-count comparisons and a four-cycle damage control. These are new
+structural checks, not a replay of the earlier graph enumeration.
+
+[Lean component interface](lean/README.md) defines actual original edge
+variables and the full equation closure, constructs the component edge list
+and proves endpoint/cycle-prefix transport. Its 12 Lean 4.34.1 audits pass;
+the overall expectation theorem remains written. Both receipts are under
+`verification/20261013-c66-critical-boundary/`.
+
 The new mathematical derivations are written completely, but remain
 **pending independent written review**. No human peer review, all-parameter
 Lean proof, journal acceptance or main-branch integration is claimed.
 The old full/projected/reduced first-order candidate is not reclassified
 as accepted because this nearby work has passed its own tests.
 
-Next useful targets: the low-excess permutation count at the full-group
-`K=4` boundary near `4 log(n)/n`,
+Next useful targets: a matching upper bound in the window
+`np=4 log n-4-8(log n)^2/n+(22 log n+s)/n`,
 the unresolved projection interval `2 <= c <= 4`, higher exponential
 orders with structural coefficient formulas, and universal formalization
 of the selection/component inequality. These are different questions.

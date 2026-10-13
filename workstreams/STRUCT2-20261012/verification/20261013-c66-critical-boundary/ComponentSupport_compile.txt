@@ -1,0 +1,22 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/c66-critical-lean/ComponentSupport.olean ComponentSupport.lean
+'Struct2.C66.ComponentSupport.endpoint_transport' does not depend on any axioms
+'Struct2.C66.ComponentSupport.second_endpoint_transport' does not depend on any axioms
+'Struct2.C66.ComponentSupport.iterates_in_endpoint' does not depend on any axioms
+'Struct2.C66.ComponentSupport.invariant_prefix_length_le_twice_edges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Struct2.C66.ComponentSupport.edgeVariable_symmetric' depends on axioms: [propext, Quot.sound]
+'Struct2.C66.ComponentSupport.ungrounded_component_loopless' depends on axioms: [propext]
+'Struct2.C66.ComponentSupport.full_component_invariant' does not depend on any axioms
+'Struct2.C66.ComponentSupport.full_component_endpoint_transport' depends on axioms: [propext, Quot.sound]
+'Struct2.C66.ComponentSupport.actual_component_cycle_prefix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Struct2.C66.ComponentSupport.mem_componentEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.ComponentSupport.componentEdges_adjacency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.ComponentSupport.canonical_component_cycle_prefix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT CODE: 0

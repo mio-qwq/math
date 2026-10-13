@@ -1,8 +1,9 @@
 # Constraint-component refinement at the `K=4` boundary
 
-Date: 2026-10-13 UTC. Proved analytic lemma and exact finite regression;
-the full `K=4` expectation limit remains a candidate problem. Independent
-written acceptance and universal Lean verification are pending.
+Date: 2026-10-13 UTC. Proved analytic lemma and exact finite regression.
+The subsequent `CRITICAL_BOUNDARY.md` closes the full `K=4` limit and the
+next logarithmic-square correction in writing. Independent written acceptance
+and universal Lean verification are pending.
 
 ## 1. The penalty discarded by the previous bound
 
@@ -91,18 +92,21 @@ would add the factor
 \tag{4}
 
 This is precisely the logarithmic-square penalty discarded by the earlier
-power-mean bound. For the empty graph all edge variables are grounded, so
-`D=binom(n,2)` and (4) reproduces the negative `Theta((log n)^2)` correction
-in its exact probability. Conversely, systems dominated by size-two
+power-mean bound. If a constraint system grounds every edge variable, then
+`D=binom(n,2)` and the only permitted graph is the empty graph; (4) reproduces
+the negative `Theta((log n)^2)` correction in its probability. The empty
+graph itself is an all-zero assignment and does not imply that the constraint
+system of every permutation pair is fully grounded. Conversely, systems dominated by size-two
 ungrounded components have small `D` and must be counted by their much more
 restricted permutation structure rather than charged a nonexistent
 probability penalty.
 
-Thus the unresolved boundary is reduced to a concrete entropy-versus-excess
+Thus the boundary is reduced to a concrete entropy-versus-excess
 statement: split permutation pairs according to `D`; use (2) for large
-excess, and prove a sharper count for pairs whose selected constraint system
-has small excess. No claim that this final structural estimate has already
-been proved is made here.
+excess, and prove a sharper count for pairs whose constraint system
+has small excess. The subsequent `CRITICAL_BOUNDARY.md` proves this split
+for the full system using invariant component endpoints and short-cycle
+counts. Invariance is not assumed for selected components.
 
 ## 4. Exact regression and status
 
@@ -124,5 +128,8 @@ Status separation:
 
 * **proved in writing and regression-checked:** the component lemma (2);
 * **identified reduction:** large-excess versus low-excess permutation pairs;
-* **still open here:** the required uniform low-excess counting theorem and
-  therefore the final value of `E|T|-1` at `K=4`.
+* **completed in the subsequent note:** full-component cycle invariance,
+  short-cycle entropy count, convergence at `K=4`, and the leading next
+  correction `8(log n)^2/n` in `np`;
+* **still open:** the finer window beyond that correction, independent
+  written acceptance and universal Lean verification.

@@ -21,8 +21,9 @@ First continuation research commit:
 | CG/theta replay | [New execution receipts](verification/20261012-continuation/) | CG n=1,3,5,7; CG(3) Lean; 19 actual theta graphs; 1,942 legal scalar triples at n<=40 |
 | Theta manuscript | [Seven-page draft](theta/paper/README.md) | Full written proofs retained; rendered PDF QA passed; this reorganization awaits new independent review |
 | C66 expectation | [Second order and effective remainder](c66/SECOND_ORDER.md) | Written candidate and exact graph/DSU checks; independent acceptance pending |
-| Sparse full TF | [Leading constant and twin-free scale](c66/SPARSE_THRESHOLD.md), [constant-order refinement](c66/SPARSE_SHIFT.md), [component-excess lemma](c66/COMPONENT_REFINEMENT.md) | Exact missing log-squared penalty proved; low-excess count and K=4 boundary remain unresolved |
-| Literature | [Existing C66 proof and comparison](c66/PRIOR_ART_2026-10-12.md), original theta source gate | No firstness claim; access/recall limits recorded |
+| Sparse full TF | [Critical boundary and next correction](c66/CRITICAL_BOUNDARY.md) | Written all-n proof: c<8 converges, c>=8 diverges at np=4 log n-4-c(log n)^2/n; independent acceptance pending |
+| C66 formal structure | [Actual full-constraint component interface](c66/lean/README.md) | 12 clean Lean audits; endpoint/cycle-prefix transport; probability and entropy summation remain written |
+| Literature | [Existing C66 proof](c66/PRIOR_ART_2026-10-12.md), [new comparison](c66/PRIOR_ART_2026-10-13.md), original theta source gate | No firstness claim; access/recall limits recorded |
 
 The complete Lean chain proves the advertised odd-parameter CG classification,
 including arbitrary external bases with an isomorphic canonical double cover.
@@ -32,9 +33,10 @@ formulas require review on their own scope.
 
 Ownership and next steps are in `coordination/agents/STRUCT2-20261012.md`.
 The next useful work is to seek independent acceptance of the completed CG
-chain and prove the low-excess permutation count at C66's sparse boundary
-`p=(4 log n-4)/n`. Further prior-art search should include incidence-matrix
-stabilizers and Burnside expectations.
+chain and prove a matching upper bound in C66's finer window
+`np=4 log n-4-8(log n)^2/n+(22 log n+s)/n`. The empty-graph lower bound is
+proved; an exact limiting function is not. Formal excess and entropy lemmas
+and further source comparison are also useful next steps.
 
 A recurring continuation task is enabled for this STRUCT2 conversation at
 the user's request. Scheduled runs restore these checkpoints; this does
