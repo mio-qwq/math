@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "q_range": [
+    1,
+    100
+  ],
+  "largest_n": 900,
+  "checked_family_traces": 200,
+  "minimal_counterexample_replay": [
+    {
+      "retired": 0,
+      "window": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ready": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "issue": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "retired": 0,
+      "window": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ready": [
+        0
+      ],
+      "issue": [
+        0
+      ]
+    },
+    {
+      "retired": 4,
+      "window": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "ready": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "issue": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "retired": 4,
+      "window": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "ready": [
+        4
+      ],
+      "issue": [
+        4
+      ]
+    },
+    {
+      "retired": 8,
+      "window": [
+        8
+      ],
+      "ready": [
+        8
+      ],
+      "issue": [
+        8
+      ]
+    }
+  ],
+  "elapsed": 0.5377492904663086,
+  "sources_sha256": {
+    "search.py": "f2b91b196cfe1d3d70aa4c81c63f69e338e53c8f593a9e11d3000600e895eb75",
+    "random_audit.py": "fac2a2bee5e2401ae83df9b6e4a4002a9385e9f5275ff65887cd734513aa2a53",
+    "replay.py": "9c975ee04331a24a5ddcf31fb9f54d8c63c4ac61dd784cc4f0da857896252176"
+  }
+}

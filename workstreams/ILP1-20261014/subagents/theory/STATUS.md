@@ -156,6 +156,30 @@ randomized ratio `1+3/(L+4)` at `B=4,W=3`. The causal implementation now
 includes this genuine uniform draw with an injectable RNG. Exact
 averaging over 26,616 finite offsets and 4,427 sampled-wrapper checks
 passes; no Monte Carlo estimate is used for the expectation bounds.
+Independent implementation and bound review is now saved by the
+verification agent in `ae81ad4570f382793cda8eca66d46634b73f0a01`.
+`RANDOM_OFFSET_SHARPNESS_REVIEW.md` independently accepts that agent's
+two-chain construction: the specific random-offset chunk policy has
+exact worst-case ratio `1+(B-1)/(B+L)` when `B,W>=2` and
+`B+L>=2B-3`. This is a policy-specific sharpness result; all-ready
+is optimal on that family, so it is not a minimax lower bound.
+The random version need not be optimal even when the entire program
+is initially visible; that statement belongs only to the default
+deterministic single-block case.
+
+`EAGER_POLICY_LIFT.md` proves a causal non-delay domination theorem
+for every completing policy in the stated prefix-information model.
+It maintains a separate virtual controller, retains its unfinished
+planned jobs, fills actual free slots with currently ready jobs, and
+skips virtual actions already completed in reality. Actual completion
+always contains virtual completion, preserving visibility and ROB
+admission. The lift is no slower for each fixed input/random tape.
+The original chunk policy remains frozen; a separate callback module
+implements the lift and its uniform-offset wrapper. All 20,238 finite
+offset comparisons and 3,366 sampled wrapper calls pass, including
+2,597 physically skipped virtual cycles. The two-chain sharpness
+family becomes exactly optimal. No better universal ratio coefficient
+has been proved; independent review of this increment is pending.
 
 `EXCESS_HARDNESS_REVIEW.md` independently accepts the main agent's
 balanced-biclique reduction, with exact makespan three versus four,
@@ -202,17 +226,19 @@ not replace the arbitrary-size proofs.
 
 ## Next work
 
-1. Integrate the proof notes and review the final chain minimax/advice
-   addendum independently, including the finite expected-ratio averaging.
-2. Search hidden-successor scheduling and advice literature before making
-   any priority claim. Existing online revelation models can have stronger
-   known lower bounds, but they are not automatically the eager-ROB model.
-3. Formalize the schedule equivalence, schedule footprint and observation
-   indistinguishability argument in the central dedicated Lean project.
-4. Study epsilon-sufficient resources after the layered family shows how
-   unstable an exact saturation threshold can be despite tiny timing loss.
-5. Formalize the reviewed **global** randomized `5/4` upper bound for
-   `B=3,W=2`; review and generalize the new larger-width hidden-omission
-   family, and seek global upper bounds for those narrow windows.
+1. Obtain independent semantic and callback review of the new causal
+   non-delay lift. Seek a sharp family or a better universal constant
+   for the lifted policy; removing one old family does not settle this.
+2. Narrow the constant gap in the `Theta(1/L)` lookahead loss at
+   `B=4,W=3`; preserve the oblivious-input and additive-constant scopes.
+3. Determine whether the excess-only parameterized hardness survives
+   maximum true indegree two. The reviewed biclique construction has
+   unbounded fan-in and does not settle this restriction.
+4. Continue targeted prior-work checks of the supplied-order excess
+   parameter, prefix lookahead and conditional scheduling formalizations.
+   Keep known scheduling techniques attributed and novelty unconfirmed.
+5. Coordinate the central Lean work with the parent. The current theory
+   notes are written proofs; claims of compiled formal coverage belong
+   to the actual checked declarations and separate semantic reviews.
 
 No shared files, main-branch files, or other researchers' files were edited.

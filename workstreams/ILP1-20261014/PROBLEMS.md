@@ -23,15 +23,18 @@ These do not imply a general efficient optimal finite-width online processor.
 
 3. **Excess-window complexity and certificates.** R21 supplies polynomial optimum at B=W+1 for arbitrary W, and XP in c=B-W. R25 now gives W[1]-hardness in c for general true DAGs, using a known biclique mechanism. Determine the status for true fan-in<=2; this is not settled by the reduction. The completed polynomial prefix-potential checker is R22. For a height-H/fan-in-d graph with redundant artificial edges, max(0,N-B)<=sum(d^j,j=1..H-1), so naive height-two binary expansion cannot preserve the old construction.
 
-4. **Formalize structural resource results and the optimized DP.** Actual finite/global non-delay normalization is now compiled and independently reviewed. First-clear-prefix macro decomposition and its recurrence are the immediate next steps.  Concrete executable time/lane enumeration is now proved sound, complete and optimal for the actual ROB model. Fixed-schedule window footprint is also formalized. Connect an efficient finite-frontier representation to the model; formalize R11–R13. Keep the generic Bellman/search interface, concrete enumeration, optimized DP, and Python correctness distinct.
+4. **Formalize structural resource results and the optimized DP.** Actual finite/global non-delay normalization is now compiled and independently reviewed. First-clear-prefix decomposition and the actual attained scalar recurrence are now compiled and independently reviewed; executable macro enumeration and backward evaluation are the next steps.  Concrete executable time/lane enumeration is now proved sound, complete and optimal for the actual ROB model. Fixed-schedule window footprint is also formalized. Connect an efficient finite-frontier representation to the model; formalize R11–R13. Keep the generic Bellman/search interface, concrete enumeration, optimized DP, and Python correctness distinct.
 
 5. **Full online observations in Lean.** Connect the sharp5/4 proof and any verified arithmetic kernel to actual ROB traces, randomized policy expectations, oldest normalization and the complete local recurrence. Extend to arbitrary B/W and hidden-subset randomized/advice results. A conditional arithmetic kernel is not a proof of this complete semantics bridge.
 
 6. **Robust resource frontiers.** Exact window drops from N to3 at widths2 to3 are now proved, with an explicit one-cycle-loss limitation. The chain-prefix family now gives an exact approximate-saturation curve and an Omega(N) window lower bound for fixed epsilon<1/W. Study tight universal resource trade-offs or further graph classes; do not present these resolved family questions as still open.
 
-7. **Improve lookahead constants and policies.** R23/R24 determine the optimal excess order Theta(1/(L+1)) at B4,W3, including additive constants. Find better leading constants or exact finite-L minimax values. The random chunk bound1+3/(L+4) is sharp for that policy, but its tight family is trivial for all-ready. A causal non-delay filling wrapper is under investigation; no better universal bound is yet proved.
+7. **Improve lookahead constants and policies.** R23/R24 determine the optimal excess order Theta(1/(L+1)) at B4,W3, including additive constants. Find better leading constants or exact finite-L minimax values. The random chunk bound1+3/(L+4) is sharp for that policy, but its tight family is trivial for all-ready. R26 now proves a causal non-delay wrapper. It eliminates the paired-chain example, but its five-job counterexample has ratio3/2. No improved global coefficient is proved for this implementation.
 
 ## Refuted shortcuts
+
+* Every non-delay B4,W3 execution has ratio at most3/2: false already at N9 with no true edges (5 cycles versus3). The proposed bound with a fixed additive constant also fails on a repeated true-fan-in-two family. This does not refute a3/2 guarantee for a suitably chosen policy.
+
 
 * Only offset edges `(j-B,j)` model the ROB: false.
 * Oldest-ready is universally optimal: false at N4,B3,W2.

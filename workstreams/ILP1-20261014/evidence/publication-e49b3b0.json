@@ -1,0 +1,12 @@
+{
+  "verified_utc": "2026-10-13T21:02:56.301312+00:00",
+  "branch": "partner/dist-ILP1-20261014",
+  "remote_sha": "e49b3b0fbbe69c3da08e3dba2c9fd4a3061883ae",
+  "source_sha": "c593c38f9f5d7e91b57ef52cc35a3401b7b1de15",
+  "tree_sha": "53dad76132619927a7b859024b5a5fe83f85bf84",
+  "previous_remote_sha": "a9d7d430c2742f64502be2be30dfccefd940bbc0",
+  "local_source_branch": "partner/ilp1-local-lookahead-20261014",
+  "method": "GitHub Git Data connector, expected old SHA, force=false; actual git fetch and ls-remote, identical source/remote trees",
+  "url": "https://github.com/mio-qwq/math/commit/e49b3b0fbbe69c3da08e3dba2c9fd4a3061883ae",
+  "scope": "R22\u2013R25, 225 distinct actual Lean endpoints, independent reviews, 17-page draft; novelty explicitly unconfirmed"
+}

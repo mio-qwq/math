@@ -1,0 +1,81 @@
+{
+  "reviewer": "formal-dp (not author)",
+  "recorded_utc": "2026-10-13T20:46:28.465563+00:00",
+  "author_commit": "f681f6a6ddc379ec683ba0e6c5d5803c1c9c4052",
+  "reviewer_precommit_head": "5af93dfdcf80a5963001eb91e0669f3eafe3a9fe",
+  "fetched_research_branch": "a9d7d430c2742f64502be2be30dfccefd940bbc0",
+  "files": [
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBModel.lean",
+      "sha256": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBOperational.lean",
+      "sha256": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBWorkBounds.lean",
+      "sha256": "d1abd7c738b8146a5a1f8c997218d54f17d0e997f621f6d5182fe4381105a408",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBReady.lean",
+      "sha256": "d33075995f991cbe516834b3e14ddb0ffb1a61a5e0427f62643317ccc5040487",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBContinuation.lean",
+      "sha256": "e3ca7c9170cc1b4e2fa80133e2fd524e9e9011dc3d70a96d589c9f59a8b1ea8d",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBNonDelay.lean",
+      "sha256": "68125a212a674979f961f156d12f64ade7b9ae92892f2afc5dfbdc4cd64bd08a",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBRepresentation.lean",
+      "sha256": "514f646ca7bb6c8b565aa0838e92f78a34d63fac2a2a453012e4c2274abf7e58",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBForcedPrefix.lean",
+      "sha256": "9a70cadb796b658a93c28f5f39d9abe2f2e4a871c60c8ee56fa80286c635dc94",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/verify_forced_prefix.py",
+      "sha256": "d08ed6099ac23664dae9b24ff9c5d8fbc47a7e928b2d38b2d69cac512831b1a5",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROB_FORCED_PREFIX.md",
+      "sha256": "93e231c68ed75d5d9a5627abc793a24eada4ad7f19210794f5b5ff4919d4db7d",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/proc_self_compat.c",
+      "sha256": "4df4d8a976819f90b21908ba966bdebe3a997847807226113f961915e55bfb50",
+      "matches_pinned_commit": true
+    }
+  ],
+  "receipt_sha256": "e614ab3000630fe5f617bf16780b91590545838dc85ced2105bb3a771229fac7",
+  "status": "PASS",
+  "started_utc": "2026-10-13T20:45:46.738243+00:00",
+  "completed_utc": "2026-10-13T20:45:51.219059+00:00",
+  "elapsed_compile_seconds": 4.406593,
+  "audit_counts": {
+    "ROBModel.lean": 22,
+    "ROBOperational.lean": 11,
+    "ROBWorkBounds.lean": 16,
+    "ROBReady.lean": 25,
+    "ROBContinuation.lean": 12,
+    "ROBNonDelay.lean": 11,
+    "ROBRepresentation.lean": 16,
+    "ROBForcedPrefix.lean": 18
+  },
+  "new_unique_primary_endpoints": 18,
+  "excluded_untracked_author_file": "ROBMacroOptimality.lean was observed but not imported or reviewed in this increment."
+}

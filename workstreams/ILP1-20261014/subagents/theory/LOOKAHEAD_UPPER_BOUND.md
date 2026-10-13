@@ -95,8 +95,10 @@ Apply Lemma 2 at each boundary and the projection inequality. Then
 `floor((N-1)/Q)<=N/Q` and the work bound `N<=WT*` give the second
 inequality. ∎
 
-If `N=0`, both makespans are zero. If `N<=B+L`, there is one block
-and the policy is exactly optimal. For `B=1`, the boundary term is
+If `N=0`, both makespans are zero. For the deterministic policy of
+Section 1, if `N<=B+L` there is one block and the policy is exactly
+optimal. This statement does not extend to the random initial block
+of Section 4. For `B=1`, the boundary term is
 zero, as expected for a serial window. Unit latency and strict
 dependency cycles are preserved throughout; no same-cycle bypass
 is introduced by projection or by the chunk algorithm.
@@ -150,8 +152,13 @@ present, only weaken the comparison. ∎
 The adversary is oblivious: its input is fixed independently of the
 offset draw. No assertion is made for an adversary that observes `U`
 and then selects the hidden program. The deterministic bound in
-Theorem 3 remains valid separately; randomizing the offset does not
-replace its stronger additive boundary formula on each fixed partition.
+Theorem 3 remains valid separately for the default first block `U=Q`.
+For another fixed offset the same proof uses its actual number of
+internal cuts, `max(0,1+floor((N-1-U)/Q))`, rather than the default
+cut count. Even when `N<=Q`, the random version may create an internal
+boundary. For example, three independent jobs with `B=4,W=3,Q=8`
+take two cycles at offsets one and two, and one cycle at the other
+six offsets. No whole-visible exactness is asserted for this version.
 
 ## 5. Matching order at `B=4,W=3`
 

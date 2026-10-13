@@ -3,14 +3,14 @@
 Snapshot: 14 October 2026, Asia/Singapore (13 October UTC).
 Branch: `partner/dist-ILP1-20261014`.
 Actually fetched main baseline: `bf732c32f1b8cef32ebf69cac6fb232a8a5323a3`.
-Last remotely verified publication: `a9d7d430c2742f64502be2be30dfccefd940bbc0`.
+Last remotely verified publication: `e49b3b0fbbe69c3da08e3dba2c9fd4a3061883ae`.
 The following integration is not remotely published until a separate fetch/tree receipt confirms it. Obtain this file's containing commit from Git; do not infer a future SHA from its text.
 
 ## Strongest current conclusions
 
 | Result | Written and independently reviewed | Actual Lean coverage | Originality boundary |
 | --- | --- | --- | --- |
-| R21 polynomial optimum for arbitrary W at B=W+1, plus XP(c) | Complete proof, independent CSP/source audit | Actual dominance, forced action and global non-delay optimum; compressed algorithm remains open | Unconfirmed |
+| R21 polynomial optimum for arbitrary W at B=W+1, plus XP(c) | Complete proof, independent CSP/source audit | Actual first-clear decomposition and attained prefix optimum recurrence; executable compressed algorithm remains open | Unconfirmed |
 | R20 sharp horizon corridor and FPT(c+S) | Complete count, sharpness and algorithm proofs | Actual trace strip and work-count interval | Unconfirmed; frontier methods established |
 | R22 polynomial prefix-potential certificate | Sound/complete proof; all macros independently regenerated | Not formalized | Classical potential certificate on R21 graph |
 | R23 hidden-final-operand and repeated lookahead lower bounds | General proofs, independent observation/barrier review | Not formalized | Hidden-tail and repetition methods have close prior art |
@@ -23,18 +23,22 @@ R25 settles the general FPT(c) search conditionally: such an algorithm would imp
 
 Earlier R1--R21 results remain valid, including linear perfect-saturation tiling, exact/approximate resource families, sharp B3,W2 factors5/4 and3/2, and the B4,W3 uniform-omission counterexample. Precise quantifiers and proof-status attributes remain in THEOREMS.md.
 
+R27 now proves the exact universal non-delay worst-case coefficient2-1/W even at B=W+1, including fixed additive constants. Its repeated family has true fan-in W-1 (two at W3). The stronger oldest-inclusive W3 construction also attains5/3. These are restrictions of classical tightness, not an all-policy impossibility or a novel approximation coefficient. Both proofs have independent review and separate static augmented-DAG audits.
+
 ## Actual verification
 
-Lean4.34.1, compiler5045d0056413266e57c625dcd7c365b10e377c52, bundled Std, no Mathlib. Root receipts and current-source hashes cover225 distinct audited endpoints:68 core,18 footprint,20 supplementary Bellman/search,10 conditional randomized potential,20 repeated gadgets,25 work/corridor,25 ready,12 continuation,11 non-delay and16 finite/global representation. Imports are counted once. Only standard propext/Classical.choice/Quot.sound occur; no sorryAx or custom unproved axiom. The documented process-path compatibility shim does not modify compiler/kernel.
+Lean4.34.1, compiler5045d0056413266e57c625dcd7c365b10e377c52, bundled Std, no Mathlib. Root receipts and current-source hashes cover263 distinct audited endpoints:68 core,18 footprint,20 supplementary Bellman/search,10 conditional randomized potential,20 repeated gadgets,25 work/corridor,25 ready,12 continuation,11 non-delay 16 finite/global representation,18 first-clear forced-prefix and20 actual macro optimality endpoints. Imports are counted once. Only standard propext/Classical.choice/Quot.sound occur; no sorryAx or custom unproved axiom. The documented process-path compatibility shim does not modify compiler/kernel.
 
-The64 new endpoints connect actual ROB state cardinalities, finite transition dominance, non-delay normalization and initial finite chains to the original Feasible/Optimal predicates. The global optimal non-delay actual profile has a Legal time assignment matching its same action list cycle by cycle. Independent fresh compiles and semantic reviews are saved in subagents/formal-dp/. This closes the initial representation gap. The first-clear-prefix macro decomposition, recurrence, executable optimized search and complexity are outside the225-endpoint checkpoint. Subsequent author-branch work must not silently change this count. Full randomized-policy semantics is also still unformalized.
+The latest38 endpoints prove first-clear-prefix decomposition, forced-tail uniqueness, strict progress from nonterminal prefixes, and the attained scalar minimum recurrence for actual ROB optimal continuations. The noncomputable prefix value has F_N=0 and F_0 satisfying the original global Optimal predicate. Root freshly rebuilt the dependency chain, with an independent fresh compilation and semantic review. The positive-length PrefixMacro definition alone permits a terminal idle loop; strict progress correctly assumes a nonterminal coherent clear prefix. Executable macro enumeration, backward computation/reconstruction, time/space bounds and Python correctness remain outside this formal result. Full randomized-policy semantics is also unformalized. See evidence/phase6-integration.json and evidence/lean-macro-root/receipt.json.
+
+R26 proves a causal non-delay lift for every completing prefix-lookahead policy: at a fixed input/random tape its actual time is no larger than the isolated virtual policy's time. It requires uncharged computation and arbitrary internal memory. Independent audit covers488 instances/3926 offsets, including virtual skips and early actual completion. The particular lifted chunk implementation still has a five-job3/2 counterexample. No improved global coefficient follows merely from non-delay normalization.
 
 Current integration checks:16 root unit-test groups pass (0.630 seconds). The new biclique audit passes1890 cases,898 YES/992 NO,898 CSP witnesses,2788 constructed replays and65663 redundant-edge checks. Prefix certificates:365 positive/33 adversarial cases. Random-offset independent audit:278 graph/lookahead cases,1672 exact offsets,8697 visibility-checked reads and5578 legal issue cycles; policy-sharpness audit:84 resource cases/624 offsets. These counts overlap earlier tests and are finite implementation evidence. Exact seeds/times/hashes live beside each report. Unchanged large exhaustive audits are reused.
 
-The research draft is17 pages, with complete new lookahead and hardness proofs, certificate theorem and the225-endpoint formal boundary. Actual compilation and visual review are recorded in evidence/paper-build.json and evidence/paper-qa.md.
+The research draft remains the pinned phase5,17-page document, with complete new lookahead and hardness proofs, certificate theorem and the225-endpoint formal boundary. Actual compilation and visual review are recorded in evidence/paper-build.json and evidence/paper-qa.md.
 
 ## Literature and next steps
 
 Feder et al.2004 is close prior art for the occupied-window convention, last-item ambiguity, numerical3/2 and5/4 lower patterns and inverse-lookahead chunk reasoning; its objective is cache misses. Jansen--Land--Kaluza2016 is close prior for three-cycle/height-two biclique reductions; the public appendices were read, but full main-body access remains missing. No cost-preserving caching equivalence or exact earlier c-preserving ROB-order theorem was established. This is not novelty clearance. Other known constraints/frontier methods remain attributed to Cire--van Hoeve and resource-event DAG work.
 
-Next concrete tasks already started on separate branches: actual first-clear-prefix decomposition and macro optimality in Lean; non-delay filling of chunk plans to remove avoidable barrier losses; complexity for true two-input programs at parameter c. A recent FPT result parameterizes the total number of predecessor jobs, not maximum indegree, and does not settle that restricted question. HANDOFF.md records exact pending commits, paths and commands.
+Next concrete tasks: seek guarantees for the specific lifted random-offset policy, connect the actual prefix recurrence to an executable optimized DP, and study complexity for true two-input programs at parameter c. A recent FPT result parameterizes the total number of predecessor jobs, not maximum indegree, and does not settle that restricted question. HANDOFF.md records exact pending commits, paths and commands.

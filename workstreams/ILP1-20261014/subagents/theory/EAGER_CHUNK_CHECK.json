@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "seed": 20261014,
+  "exhaustive_range": "all 1,100 forward DAGs on 0 through 5 jobs, L=0,1,5",
+  "exhaustive_program_lookahead_cases": 3300,
+  "random_binary_input_cases": 54,
+  "random_N_values": [
+    7,
+    11,
+    19
+  ],
+  "sharpness_family_cases": 12,
+  "counts": {
+    "offsets": 20238,
+    "wrappers": 3366,
+    "reads": 102978,
+    "cycles": 66769,
+    "strict_improvements": 4904,
+    "skipped_virtual_cycles": 2597,
+    "filler_jobs": 10546
+  },
+  "checked": [
+    "actual operand visibility and ROB issue callbacks",
+    "non-delay real action on every cycle",
+    "pathwise dominance for each common fixed offset",
+    "unique metadata reads, virtual inclusion assertions, skipped virtual cycles",
+    "exact optimality on the two-chain family",
+    "actual seeded uniform-wrapper calls"
+  ],
+  "implementation_sha256": "f085d68baa8223a460bf41817b6088f261772794e0047e93adacd38f20036bf6",
+  "unchanged_controller_sha256": "13b3374f6e9bbe388e5865d93b96f0053861db1b725e1e53e26fad427b2da5ed",
+  "checker_sha256": "7644c739fb033b22171f1fbcffa71c0a50f8998640f4bbeb3443f234356a6711",
+  "elapsed_seconds": 2.77298,
+  "scope": "finite implementation checks, not proof of a better universal competitive constant"
+}

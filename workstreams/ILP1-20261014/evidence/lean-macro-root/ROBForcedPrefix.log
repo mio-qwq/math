@@ -1,0 +1,18 @@
+'ILP1.ROBForcedPrefix.prefixState_clear' does not depend on any axioms
+'ILP1.ROBForcedPrefix.prefixState_coherent' depends on axioms: [propext, Quot.sound]
+'ILP1.ROBForcedPrefix.clear_state_eq' depends on axioms: [propext, Quot.sound]
+'ILP1.ROBForcedPrefix.finished_clear' does not depend on any axioms
+'ILP1.ROBForcedPrefix.nonclear_nonterminal' depends on axioms: [propext, Quot.sound]
+'ILP1.ROBForcedPrefix.step_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.nonclear_ready_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.nonclear_all_ready' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.nonclear_step_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.forcedTail_clear' does not depend on any axioms
+'ILP1.ROBForcedPrefix.forcedTail_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.forcedTail_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.forcedTail_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.profile_first_clear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.prefixMacro_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.prefixMacro_clear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.prefixMacro_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBForcedPrefix.profile_first_macro' depends on axioms: [propext, Classical.choice, Quot.sound]

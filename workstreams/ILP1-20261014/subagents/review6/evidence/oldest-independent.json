@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "q_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    50
+  ],
+  "cases": 21,
+  "youngest_after_oldest_cycles": 1300,
+  "full_traces": 42,
+  "maximum_n": 450,
+  "strong_barrier_counterexample_partial_trace": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ]
+  ],
+  "elapsed_seconds": 0.03976109799987171,
+  "source_sha256": "9a09c43374f02ef30e5df799e6f21cc2c977f6491c7e4584736a4d1e9aec4c49"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-13T21:08:16.646395+00:00",
+  "last_remote_publication": "e49b3b0fbbe69c3da08e3dba2c9fd4a3061883ae",
+  "lean_distinct_audited_endpoints": 263,
+  "new_endpoints": 38,
+  "canonical_lean_sources": {
+    "formal/ROBModel.lean": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+    "formal/ROBOperational.lean": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+    "formal/OnlinePair.lean": "71bb6bb631a1df308e87a606f9f7e5c1c344e98f6b4c6dd0f75cf0d047ee1f54",
+    "formal/ExactEnumeration.lean": "0c3467869f7439034cab12750d2d97846c63a86424fd58eb562c5568c5f28f22",
+    "formal/ResourceBounds.lean": "4104df8505bc5288279b7fd2e1996ad023334b48e04acf0e0935b29dc5773b27",
+    "formal/ResourceFootprint.lean": "54808a4ccd10f60e4584369f447dd36d415821f2cc2db1bf7b24fb1b5119cabd",
+    "subagents/formal-dp/ROBBellman.lean": "1cda0bdd6e0aa1ef34a7d1b204be887dcbe65030ee153c4dd2809d46b7196e31",
+    "subagents/formal-dp/FiniteSearch.lean": "17dc85d24ee770aeed52a7ffc1b37a96900fb224297ae0748e50b1c56ad13f35",
+    "subagents/formal-dp/BellmanExact.lean": "de9467f89f3544253dd5ee2de2b588cf4c1daa8db0abb25ce8426d5d4d14e2a6",
+    "formal/UniformYoungerPotential.lean": "9e5265433d856728fc3540cfd62fbd078636570f431f29b81e1b71bf776a2a28",
+    "formal/RepeatedGadgets.lean": "d031ef0e025e25bd54821c2df7c8da8d7d3eddea30ee5be47ab461827786a612",
+    "formal/ROBWorkBounds.lean": "d1abd7c738b8146a5a1f8c997218d54f17d0e997f621f6d5182fe4381105a408",
+    "formal/ROBCorridor.lean": "9796a1affd8ba18919af982fe49ef8117217cb9729e1bef75f73014e711f566d",
+    "formal/ROBReady.lean": "d33075995f991cbe516834b3e14ddb0ffb1a61a5e0427f62643317ccc5040487",
+    "formal/ROBContinuation.lean": "e3ca7c9170cc1b4e2fa80133e2fd524e9e9011dc3d70a96d589c9f59a8b1ea8d",
+    "formal/ROBNonDelay.lean": "68125a212a674979f961f156d12f64ade7b9ae92892f2afc5dfbdc4cd64bd08a",
+    "formal/ROBRepresentation.lean": "514f646ca7bb6c8b565aa0838e92f78a34d63fac2a2a453012e4c2274abf7e58",
+    "formal/ROBForcedPrefix.lean": "9a70cadb796b658a93c28f5f39d9abe2f2e4a871c60c8ee56fa80286c635dc94",
+    "formal/ROBMacroOptimality.lean": "d1a55582c71fa7b94874d34b31f997c780731439732097e6e68b2c648187be59"
+  },
+  "scope": "Actual first-clear macro decomposition, strict progress from nonterminal prefixes, and attained scalar recurrence for actual noncomputable prefix optima. No executable optimized DP, time/space proof, or online probability formalization.",
+  "independent_reviews": [
+    "subagents/formal-dp/FORCED_PREFIX_LEAN_REVIEW.md",
+    "subagents/review6/MACRO_OPTIMALITY_REVIEW.md",
+    "subagents/review6/EAGER_LIFT_REVIEW.md",
+    "subagents/review6/NONDELAY_RATIO_REVIEW.md"
+  ],
+  "paper": "17-page phase5 draft remains pinned to225 endpoints; latest formal extension is in separate canonical notes.",
+  "finalized_utc": "2026-10-13T21:16:22.835023+00:00",
+  "unit_tests": {
+    "command": "python -m unittest discover -s workstreams/ILP1-20261014/tests -q",
+    "groups": 16,
+    "elapsed_seconds": 0.75,
+    "status": "PASS"
+  },
+  "new_written_results": [
+    "R26 causal non-delay fixed-tape domination",
+    "R27 Graham tightness at B=W+1",
+    "R27 oldest-inclusive B4W3 true-fan-in-two tightness"
+  ],
+  "next_conjecture": "Specific eager random-offset policy expected ratio<=3/2 at B4,W3,L0; unproved, counterexample search started."
+}

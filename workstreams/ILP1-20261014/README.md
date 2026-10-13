@@ -4,9 +4,13 @@ This workstream studies optimal instruction-level parallelism for a fixed progra
 
 ## Main results and boundaries
 
+Latest formal extension:263 distinct audited endpoints. The17-page PDF is deliberately pinned to the preceding225-endpoint phase5 draft; current formal scope is in THEOREMS.md and the source notes.
+
+
+* The worst non-delay loss is exactly the classical2-1/W even with B=W+1. At B4,W3, a two-input repeated family still attains5/3 when every cycle must include the oldest job. These independently reviewed tightness results do not lower-bound every online policy.
 * The eager ROB model is exactly equivalent to unit-job scheduling after adding every precedence edge i->j with i+B<=j. Resource-event edges have substantial prior art; the general operational equivalence is Lean verified here.
 * Exact optimal schedules are produced by two independently coded Python methods and an executable, proved-correct Lean enumerator. The Python implementations are not themselves formally verified.
-* For arbitrary variable W with B=W+1, every finite forward program now has an exact polynomial optimizer: O(N min(B,N)(N+|E|)) time and O(N+|E|) space, by compressing uniquely forced execution segments between clear prefixes. The general excess c=B-W gives an XP algorithm. These are independently reviewed written algorithm proofs, not yet Lean proofs.
+* For arbitrary variable W with B=W+1, every finite forward program now has an exact polynomial optimizer: O(N min(B,N)(N+|E|)) time and O(N+|E|) space, by compressing uniquely forced execution segments between clear prefixes. The general excess c=B-W gives an XP algorithm. The actual first-clear macro decomposition and attained noncomputable prefix recurrence are now Lean verified; executable evaluation and complexity remain independently reviewed written proofs.
 * At B=W+1 and N=kW, exact k-cycle feasibility has a stronger O(N+|E|) test: tile consecutive W-job blocks by legal singleton or boundary-swap pair macros. Rejection has a short true-edge certificate.
 * At horizon H, c=B-W and S=WH-N, all feasible traces lie in a completed-set strip of width at most2c+S. The actual ROB strip theorem is Lean verified. A sharp binomial candidate count gives an independently checked exact feasibility algorithm FPT in c+S; its counting/algorithm proof remains written.
 * At fixed widths2 and3, a two-input family has exact sufficient windows N and3 respectively. This example loses only one cycle at a small window, so exact saturation must not be confused with a large performance benefit.
@@ -29,7 +33,7 @@ These are mathematical results within R1. Their correctness, formalization, inde
 * `src/rob.py`: memoized exact state search. `src/checker.py`: independent operational replay and Bellman certificate checking. `src/resources.py`: compact unrestricted-width window-saturation certificates.
 * `subagents/verification/constraint_solver.py`: independent exact time-assignment method.
 * [CORRIDOR.md](CORRIDOR.md), `src/corridor.py`: parameterized horizon feasibility and actual-trace strip theorem. [FORCED_SEGMENT_DP.md](subagents/theory/FORCED_SEGMENT_DP.md) and its adjacent Python module: polynomial B=W+1 optimization. [PERFECT_SATURATION.md](subagents/theory/PERFECT_SATURATION.md): linear structural test and certificates.
-* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair, resource proofs, actual ROB corridor, finite/global non-delay execution bridge and a conditional randomized-potential kernel. `subagents/formal-dp/`: general Bellman/search theorems and independent reviews. Current fresh audits cover225 distinct declarations; that count does not turn the conditional kernel into a full ROB policy proof, or verify the new Python algorithms.
+* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair, resource proofs, actual ROB corridor, finite/global non-delay execution bridge and a conditional randomized-potential kernel. `subagents/formal-dp/`: general Bellman/search theorems and independent reviews. Current fresh audits cover263 distinct declarations; that count does not turn the conditional kernel into a full ROB policy proof, or verify the new Python algorithms.
 
 From this directory:
 

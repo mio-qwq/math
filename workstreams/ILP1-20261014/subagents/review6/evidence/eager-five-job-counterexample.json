@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "B": 4,
+  "W": 3,
+  "L": 0,
+  "N": 5,
+  "edges": [
+    [
+      3,
+      4
+    ]
+  ],
+  "offsets": [
+    {
+      "offset": 1,
+      "trace": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "result": {
+        "cycles": 3,
+        "virtual_cycles": 3,
+        "skipped_virtual_cycles": 0,
+        "filler_jobs": 2,
+        "observed_jobs": 5,
+        "initial_chunk_size": 1
+      }
+    },
+    {
+      "offset": 2,
+      "trace": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "result": {
+        "cycles": 3,
+        "virtual_cycles": 3,
+        "skipped_virtual_cycles": 0,
+        "filler_jobs": 1,
+        "observed_jobs": 5,
+        "initial_chunk_size": 2
+      }
+    },
+    {
+      "offset": 3,
+      "trace": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "result": {
+        "cycles": 3,
+        "virtual_cycles": 3,
+        "skipped_virtual_cycles": 0,
+        "filler_jobs": 0,
+        "observed_jobs": 5,
+        "initial_chunk_size": 3
+      }
+    },
+    {
+      "offset": 4,
+      "trace": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ],
+      "result": {
+        "cycles": 3,
+        "virtual_cycles": 3,
+        "skipped_virtual_cycles": 0,
+        "filler_jobs": 0,
+        "observed_jobs": 5,
+        "initial_chunk_size": 4
+      }
+    }
+  ],
+  "optimal_trace": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "optimum": 2,
+  "lower_bound": "ceil(5/3)=2",
+  "mean_cost": 3,
+  "ratio": "3/2",
+  "scope": "specified fixed implementation only; isolated instance, no additive-constant conclusion"
+}

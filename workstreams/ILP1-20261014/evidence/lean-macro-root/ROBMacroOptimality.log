@@ -1,0 +1,20 @@
+'ILP1.ROBMacroOptimality.profile_continuation' does not depend on any axioms
+'ILP1.ROBMacroOptimality.continuation_includes' does not depend on any axioms
+'ILP1.ROBMacroOptimality.continuation_append' does not depend on any axioms
+'ILP1.ROBMacroOptimality.clear_completedCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.forcedTail_length_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixMacro_progress' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixMacro_length_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixMacro_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.macro_finishes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.finishesFrom_first_macro' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.finishesFrom_iff_macro' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.optimalFrom_first_macro' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.optimalFrom_macro_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.optimalFrom_iff_macro_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixOpt_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixCost_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixCost_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixState_zero' depends on axioms: [propext, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixCost_global_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ROBMacroOptimality.prefixCost_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

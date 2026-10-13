@@ -1,0 +1,89 @@
+{"progress": {"n": 1, "graphs": 1}, "best": [1, 1]}
+{"progress": {"n": 2, "graphs": 2}, "best": [1, 1]}
+{"progress": {"n": 3, "graphs": 8}, "best": [1, 1]}
+{"progress": {"n": 4, "graphs": 64}, "best": [1, 1]}
+{"progress": {"n": 5, "graphs": 512}, "best": [3, 2]}
+{"progress": {"n": 6, "graphs": 4096}, "best": [3, 2]}
+{"progress": {"n": 7, "graphs": 32768}, "best": [3, 2]}
+{
+  "status": "COMPUTATIONALLY_SUPPORTED",
+  "counts": [
+    {
+      "n": 1,
+      "graphs": 1
+    },
+    {
+      "n": 2,
+      "graphs": 2
+    },
+    {
+      "n": 3,
+      "graphs": 8
+    },
+    {
+      "n": 4,
+      "graphs": 64
+    },
+    {
+      "n": 5,
+      "graphs": 512
+    },
+    {
+      "n": 6,
+      "graphs": 4096
+    },
+    {
+      "n": 7,
+      "graphs": 32768
+    }
+  ],
+  "elapsed": 1.7416050434112549,
+  "record_examples": [
+    {
+      "n": 1,
+      "edges": [],
+      "optimum": 1,
+      "worst_nd": 1,
+      "optimal_trace": [
+        [
+          0
+        ]
+      ],
+      "worst_trace": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 5,
+      "edges": [],
+      "optimum": 2,
+      "worst_nd": 3,
+      "optimal_trace": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "worst_trace": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    }
+  ]
+}

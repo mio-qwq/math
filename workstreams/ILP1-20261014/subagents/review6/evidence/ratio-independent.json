@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "widths": [
+    2,
+    14
+  ],
+  "blocks": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "cases": 52,
+  "youngest_cycles": 2145,
+  "barrier_ancestor_pairs": 893802,
+  "maximum_n": 980,
+  "elapsed_seconds": 4.82578361600099,
+  "source_sha256": "f0f93e4a5dd3a7617596a1ca779d5fd42c216b46640d5b5455fbc85a730fba20",
+  "scope": "arbitrary-W/family proof separately reviewed; finite static augmented graph checks only; no exhaustive minimality rerun"
+}

@@ -123,3 +123,15 @@ completed jobs' dummy times. Infinite canonical-state identification, prefix
 macro decomposition, and executable DP remain outside this proof.
 `FIRST_CLEAR_PREFIX_INTERFACE.md` records only a proposed next formal interface,
 with no additional Lean-verified theorem claim.
+
+`FORCED_PREFIX_LEAN_REVIEW.md` accepts author commit
+`f681f6a6ddc379ec683ba0e6c5d5803c1c9c4052`. Independent fresh compilation
+passed 18 new audits plus all seven imports with only standard axioms. Actual
+successor uniqueness, nonclear all-ready forcing at B=W+1, bounded first-clear
+tail existence/uniqueness, and decomposition retaining the original non-delay
+action list and suffix are now verified and reviewed. Evidence and pinned hashes
+are in `evidence/forced-prefix-independent/` and its provenance JSON.
+PrefixMacro permits terminal idle macros; positive list length is not yet
+strict endpoint advance. Macro N-r bounds, optimal cost recurrence, action
+enumeration and executable DP are not claimed by this module. The author's
+untracked ROBMacroOptimality file was outside this review.
