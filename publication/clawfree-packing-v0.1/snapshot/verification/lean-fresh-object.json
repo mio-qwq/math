@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "source_sha256": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2",
+  "started_utc": "2026-10-12T10:28:35.562424+00:00",
+  "finished_utc": "2026-10-12T10:29:40.118795+00:00",
+  "seconds": 64.56200000000536,
+  "command": [
+    "C:\\Users\\Administrator\\.elan\\bin\\lake.exe",
+    "env",
+    "lean",
+    "-R",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\supplement\\frozen",
+    "-o",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\build\\ClawFree11334.olean",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\supplement\\frozen\\ClawFree11334.lean"
+  ],
+  "exit_code": 0,
+  "lean": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "declarations": [
+    {
+      "declaration": "ClawFree11334.core_obstruction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.partner_involutive",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_matches_edges",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_claw_free",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_connected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.not_iso_twelve",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.block_cross_adj",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.core_ports",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.adjacent_triangles_walk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.adjacent_triangles_edist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.port_neighbour_walk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.port_neighbour_edist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.packing_adj_ne",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.triangle_has_high",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.packing_core_necessary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.no_packing11334",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.original_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "diagnostics": {
+    "error": 0,
+    "warning": 0,
+    "panic": 0
+  },
+  "object_sha256": "10558e6fae671ffdcf91877d5c5698dd4530bde086a2801461f4109a8106fb66",
+  "scope": "Fixed k=3 witness: actual Mathlib SimpleGraph, degree, connectedness, induced-claw exclusion, Walk/edist, nonisomorphism to every 12-point graph, and all Fin36-to-Fin5 colorings. Not the odd-k family or diamond-free statement."
+}

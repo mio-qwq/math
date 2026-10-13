@@ -1,0 +1,51 @@
+{
+  "format_version": 1,
+  "checked_utc": "2026-10-13T00:50:21.468160+00:00",
+  "status": "BYTE_PRESERVED_ACCEPTED_DRAFT",
+  "mathematical_source_baseline": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "manuscript_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+  "pdf_sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e",
+  "pages": 7,
+  "archive": {
+    "file": "clawfree-packing-v0.1-reproducibility.zip",
+    "sha256": "c568897e36a2c31c57e870087ccc60cb805686b62315d30a008a1a35740706f4",
+    "bytes": 2758549,
+    "payload_files": 62
+  },
+  "preparation_receipt_sha256": "654b1b3b6cac461c32a323829cc2fa0b816dc43778aa2958a6ec50d4b681d6f6",
+  "preparation_completed_utc": "2026-10-12T11:06:51.895780+00:00",
+  "previous_extracted_replay": {
+    "status": "PASS",
+    "jobs": [
+      {
+        "job": "integrity",
+        "exit_code": 0,
+        "source_sha256": "e8fa1bedea26571e0bdc9d8e2e631bbcba96e0110b7a9ce6c076a617340c6ec2"
+      },
+      {
+        "job": "structural-controls",
+        "exit_code": 0,
+        "source_sha256": "cd092e18e582c7dd790c2ec55edc9d1a5a425b5eb8f1228ad99cc0ef07158ef5"
+      },
+      {
+        "job": "independent-checks",
+        "exit_code": 0,
+        "source_sha256": "029efd76fb31bf09343aa1a1f1326000de8d63ae3d9356fc77fc6da48b724c47"
+      }
+    ],
+    "negative_control": {
+      "result": "PASS: changed manuscript rejected",
+      "exit_code": 1,
+      "mutation_scope": "extracted copy only; all archived bytes restored"
+    }
+  },
+  "current_integrity_replay_exit_code": 0,
+  "exact_archive_matches_snapshot": true,
+  "new_lean_compilation_this_sync": false,
+  "new_latex_compilation_this_sync": false,
+  "unchanged_source_bound_preparation_audits": 18,
+  "lean_scope": "Lean 完整覆盖固定 36 点图与任意目标着色的失败；全部奇数参数族及无菱形结构结论有完整书面证明，未作为全称 Lean 定理宣称。",
+  "authorship": "Pending separate human confirmation for this manuscript; no AI author.",
+  "publication_scope": "Public GitHub draft only; no new DOI, journal/arXiv/Zenodo deposit or external peer-review claim.",
+  "archive_note": "The frozen PDF and snapshot retain their original private-draft labels and preparation date. This public wrapper records the subsequent GitHub synchronization without altering historical bytes."
+}

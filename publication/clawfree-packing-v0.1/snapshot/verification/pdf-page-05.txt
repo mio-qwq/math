@@ -1,0 +1,44 @@
+Proof. The adjacent bases ai, bi have diﬀerent colors. Each tip is adjacent to both bases, so
+both tips have the third color, denoted by ti. The joining edge qipi+1 gives ti ̸= ti+1.
+Suppose that ti = C, and put I = f − 1(C). Both pi and qi belong to I. By ( 2), a possible
+private neighbor of pi must be one of ai, bi, qi− 1. Neither ai nor bi is private, since each is also
+adjacent to qi ∈ I, and qi ̸= pi.
+The remaining candidate is qi− 1. Its color is ti− 1 ̸= ti = C, because qi− 1pi is an edge. In
+the preceding diamond, the two base colors and its tip color are all three labels. Consequently
+one of ai− 1, bi− 1 has color C. This base vertex is adjacent to qi− 1, belongs to I, and is distinct
+from pi. Hence qi− 1 is not a private neighbor either. We have exhausted all three neighbors
+of pi, a contradiction.
+Proof of Theorem 2.3. The graph-theoretic assertions follow from Lemma 3.1. Suppose Gk
+admitted a (1,1,3,3,4)-packing coloring. Proposition 4.1 would give a proper core three-
+coloring with the private-neighbor property. Lemma 5.1 would then give labels ti ∈ {A, B}
+with ti ̸= ti+1 at every cyclic index. Starting with t0, these labels alternate around the ring.
+Since k is odd, tk− 1 = t0, contradicting the last joining edge. Thus no such packing coloring
+exists.
+Remark 5.2 (Why radius four matters) . The walk ( 3) has length at most four. For a radius-
+three label, this upper bound alone gives no contradiction: distance four is allowed. The
+private-neighbor conclusion for C therefore uses precisely the stronger distance requirement.
+By the known (1,1,3,3,3)-colorability result [ 5, Theorem 4], the members of our family do
+admit the weaker sequence. This is a comparison with that theorem, not a new proof of it.
+6 The ﬁxed certiﬁcate and formal veriﬁcation
+The full mathematical proof above is independent of computation. For a reproducible ﬁnite
+witness, we additionally specify G3 as follows. Number the core vertices by
+ai = 4i, b i = 4i + 1, p i = 4i + 2, q i = 4i + 3 (0 ≤ i < 3).
+List the incidences (v, w) lexicographically, with neighbors of each v in increasing numerical
+order. Number them 0, . . . ,35. This convention determines the graph exactly, without relying
+on a picture or a stored distance table.
+6.1 What the Lean theorem proves
+The source ClawFree11334.lean implements this graph as a Mathlib SimpleGraph (Fin 36) .
+It proves agreement with the 54 undirected certiﬁcate edges, degree exactly three at every
+vertex, connectedness by actual walks, exclusion of every induced claw, and nonisomorphism
+to every graph on 12 vertices.
+The packing predicate is a strict inequality between the radius 1,1,3,3,4 of a label and
+the actual Mathlib extended graph distance. The main declaration is
+ClawFree11334.original_counterexample.
+It includes the failure of all color functions Fin(36) → Fin(5), not merely failure within
+a selected family of colorings. Intermediate declarations establish the actual length-three
+and length-four walks, extract arbitrary high representatives, and prove the core obstruction
+structurally. Small ordinary kernel decisions check ﬁxed graph data and local three-color
+identities. The proof does not enumerate all ﬁve-color functions, use native_decide, admit
+a proof, or introduce a nonstandard axiom.
+The supplied audit covers 18 declarations. Its allowed axioms are
+5

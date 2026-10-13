@@ -1,0 +1,96 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\supplement\\check_structural.py"
+  ],
+  "started_utc": "2026-10-12T10:47:55.533943+00:00",
+  "finished_utc": "2026-10-12T10:47:55.617200+00:00",
+  "seconds": 0.09300000000803266,
+  "source_sha256": "cd092e18e582c7dd790c2ec55edc9d1a5a425b5eb8f1228ad99cc0ef07158ef5",
+  "exit_code": 0,
+  "result": {
+    "certificate_sha256": "7d1cdd61f032185728ffac6a6b0b6a79c611e0a36341a78eb35610df55b95ccd",
+    "completed_utc": "2026-10-12T10:47:55.607310+00:00",
+    "even_ring_positive_control": true,
+    "fixtures": [
+      {
+        "adjacent_core_pairs": 162,
+        "bfs_rows": 36,
+        "connected_simple_cubic_clawfree_diamondfree": true,
+        "k": 3,
+        "m": 54,
+        "n": 36,
+        "port_four_walk_pairs": 216,
+        "replacement_triangles": 12
+      },
+      {
+        "adjacent_core_pairs": 216,
+        "bfs_rows": 48,
+        "connected_simple_cubic_clawfree_diamondfree": true,
+        "k": 4,
+        "m": 72,
+        "n": 48,
+        "port_four_walk_pairs": 288,
+        "replacement_triangles": 16
+      },
+      {
+        "adjacent_core_pairs": 270,
+        "bfs_rows": 60,
+        "connected_simple_cubic_clawfree_diamondfree": true,
+        "k": 5,
+        "m": 90,
+        "n": 60,
+        "port_four_walk_pairs": 360,
+        "replacement_triangles": 20
+      },
+      {
+        "adjacent_core_pairs": 378,
+        "bfs_rows": 84,
+        "connected_simple_cubic_clawfree_diamondfree": true,
+        "k": 7,
+        "m": 126,
+        "n": 84,
+        "port_four_walk_pairs": 504,
+        "replacement_triangles": 28
+      },
+      {
+        "adjacent_core_pairs": 486,
+        "bfs_rows": 108,
+        "connected_simple_cubic_clawfree_diamondfree": true,
+        "k": 9,
+        "m": 162,
+        "n": 108,
+        "port_four_walk_pairs": 648,
+        "replacement_triangles": 36
+      }
+    ],
+    "historical_positive_witness_sha256": "0c89517f49bb38ab44ee948aab8b85b0ff89174075ab33a9d01468d9d5eaed2c",
+    "invalid_coloring_rejected": true,
+    "negative_controls": [
+      {
+        "control": "missing-edge",
+        "rejected": "incorrect expanded edges"
+      },
+      {
+        "control": "corrupt-incidence",
+        "rejected": "incorrect incidence labels"
+      },
+      {
+        "control": "changed-palette",
+        "rejected": "incorrect palette"
+      },
+      {
+        "control": "bool-for-integer",
+        "rejected": "incorrect palette"
+      }
+    ],
+    "python": "3.12.14",
+    "scope": "Bounded object/metric/positive-control replay. No 531441-coloring enumeration, no all-odd-k computational proof.",
+    "source_sha256": "cd092e18e582c7dd790c2ec55edc9d1a5a425b5eb8f1228ad99cc0ef07158ef5",
+    "status": "PASS",
+    "weaker_positive_control": true
+  },
+  "status": "PASS"
+}

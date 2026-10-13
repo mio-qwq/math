@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T09:07:14.722667+00:00",
+  "scope": "Independent bounded controls only: MET3/MET4, small graph profiles and artificial Boolean systems. No MET5 full replay, no Lean compilation.",
+  "reduced_cones": {
+    "3": {
+      "adjacency_pairs": 5,
+      "extreme_rays": 3,
+      "zero_patterns": 8,
+      "stage_counts": [
+        4,
+        4,
+        3
+      ]
+    },
+    "4": {
+      "adjacency_pairs": 39,
+      "extreme_rays": 7,
+      "zero_patterns": 106,
+      "stage_counts": [
+        7,
+        7,
+        6,
+        8,
+        8,
+        7,
+        10,
+        10,
+        10,
+        9,
+        8,
+        7
+      ]
+    }
+  },
+  "graph_profiles": {
+    "fixtures": 5,
+    "gp_sets": 2518,
+    "extension_tests": 46148,
+    "repeated_projection_sets": 1813,
+    "factor_demands": 412
+  },
+  "synthetic_search": {
+    "synthetic_systems": 2000,
+    "both_factor_orders_checked": true,
+    "production_states": 4299
+  },
+  "source_sha256": {
+    "workstreams/ROOT/lower-gp-product319-counterexample/PROOF.md": "bfc815e52a7a918705b256fce12bf61a98a853fd49dcff5b2c4b9a47e865f658",
+    "workstreams/ROOT/lower-gp-product319-counterexample/FAMILY_PROOF.md": "7a1128ec4186fffa041ac013fe1bdfef4e58e079700f834841b39ab47defb7ad",
+    "workstreams/ROOT/lower-gp-product319-counterexample/LowerGPProduct319.lean": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e",
+    "workstreams/ROOT/lower-gp-product319-counterexample/lean-audit.json": "67217678b5058d53f6de36d21364ad19fd784a1205f698a59967ece448f9f5f3",
+    "workstreams/ROOT/lower-gp-product319-counterexample/lean-audit.log": "68d4c28da37b5fcf044e9f829504e9cedbec1cc1036d58b844203d1118a6dc35",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/UNIVERSAL_FIVE_PROOF.md": "9ecfeb62c4f52a2ef86ae161a0b1fb8c5f4ca16e96eb62a2b14a3af83122aac5",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/UNBOUNDED_GAP_PROOF.md": "0970e52c71f759c24c1281bce5b7a1c9f4095398d511f556cd709b5a19d3496e",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_metric_rays.py": "59299a4e518d539dc9a527832eddfe8842f62c171cce1df0b46bf1634db9321c",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_arbitrary_four.py": "9ff179bc74f046a639247b4df16040258c9a62dfcbf7ce05fa404904dcd38997",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_universal_five.py": "a3fbbc53d73ed2144c489c6ec89048c0dac2d76693577a52fb7a7ea8484b63a3",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/metric_faces.json": "01001dc53737560f49749784eaef85fe4d8c9297afde51093923a34ef185a382",
+    "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/metric_rays_verified.json": "0153b1d6ca7449b5c6f7a4af256b3bcf8c6513e48ac8b226554a1b384339a8ef"
+  },
+  "source_unchanged_during_controls": true
+}

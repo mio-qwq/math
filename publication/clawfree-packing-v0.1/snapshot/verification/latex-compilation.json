@@ -1,0 +1,38 @@
+[
+  {
+    "pass_number": 1,
+    "command": [
+      "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\\app\\resources\\tectonic\\tectonic.exe",
+      "--keep-logs",
+      "--keep-intermediates",
+      "--outdir",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\paper",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\paper\\main.tex"
+    ],
+    "engine": "Tectonic 0.17.0+20260731",
+    "started_utc": "2026-10-12T10:55:07.776124+00:00",
+    "finished_utc": "2026-10-12T10:55:10.985504+00:00",
+    "seconds": 3.2030000000086147,
+    "exit_code": 0,
+    "tex_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+    "pdf_sha256": "26207e034c2c023ef651cc84a355266f9f6083e0f7c0bc56ef31636a3249c5ae"
+  },
+  {
+    "pass_number": 2,
+    "command": [
+      "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\\app\\resources\\tectonic\\tectonic.exe",
+      "--keep-logs",
+      "--keep-intermediates",
+      "--outdir",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\paper",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\paper\\main.tex"
+    ],
+    "engine": "Tectonic 0.17.0+20260731",
+    "started_utc": "2026-10-12T10:55:10.988615+00:00",
+    "finished_utc": "2026-10-12T10:55:13.636573+00:00",
+    "seconds": 2.6560000000026776,
+    "exit_code": 0,
+    "tex_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+    "pdf_sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e"
+  }
+]

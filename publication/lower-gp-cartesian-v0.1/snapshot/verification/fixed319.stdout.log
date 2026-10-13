@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-12T08:58:25.448737+00:00",
+  "finished_utc": "2026-10-12T08:58:29.222824+00:00",
+  "elapsed_ns": 3773527000,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "graphs": {
+    "orders": [
+      11,
+      29,
+      319
+    ],
+    "edges": [
+      30,
+      140,
+      2410
+    ],
+    "diameters": [
+      2,
+      2,
+      4
+    ]
+  },
+  "factor_distance_checks": "BFS and independent Floyd matrices equal",
+  "product_BFS_distance_entries": 101761,
+  "adjacency_sha256": {
+    "G": "67ca4f72fb8a30ba53c8f5b7e32bccee7f01e2fc0446720c76a2fbcdcd6ad138",
+    "H": "0802e33fa328afd1e3837ef9e69a30cd6ebbec25866ee229807e2903af3bdbb9",
+    "product": "487db319448cb2e098ec657a6a09b790dba7b18b8594b8ce9f6caae8e8e1dc47"
+  },
+  "distance_sha256": {
+    "G": "5e9c16338175dca5bc5f9a0a4caf059c03fe3a92e937d49388f6487e8c5ea8a8",
+    "H": "c3c80dac8e9eb9835b6cb2fa19a615c81a442ef9429573d9af37fac7d0c10bc2",
+    "product": "4739457ec0aa4e41d354105df5c04cd013b414f20e8e0e779fc51c17167996f8"
+  },
+  "selected_coordinates": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ]
+  ],
+  "selected_distance_matrix": [
+    [
+      0,
+      2,
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      0,
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      3,
+      3,
+      2,
+      0,
+      2
+    ],
+    [
+      3,
+      3,
+      2,
+      2,
+      0
+    ]
+  ],
+  "selected_unordered_triples_checked": 10,
+  "outside_vertices_with_actual_shortest_path": 314,
+  "outside_roles": {
+    "outside_endpoint": 309,
+    "outside_middle": 5
+  },
+  "blocking_path_lengths": {
+    "3": 53,
+    "2": 3,
+    "4": 258
+  },
+  "blocker_paths_sha256": "a065cb01790cb5c12a976187f04729ef5a0753258ab60fdce5ecf1f665836574",
+  "small_factor_subsets": {
+    "G": {
+      "all_subsets_by_size": [
+        1,
+        11,
+        55,
+        165,
+        330,
+        462
+      ],
+      "gp_subsets_by_size": [
+        1,
+        11,
+        55,
+        140,
+        230,
+        262
+      ],
+      "extension_certificate_sha256": "66979a39c45e5fdc9e2673babc8dd44461bced4fa64bac76925250f1e1210faf"
+    },
+    "H": {
+      "all_subsets_by_size": [
+        1,
+        29,
+        406,
+        3654,
+        23751,
+        118755
+      ],
+      "gp_subsets_by_size": [
+        1,
+        29,
+        406,
+        3192,
+        17170,
+        67764
+      ],
+      "extension_certificate_sha256": "3f93fedcafdf6571413bf16b8b35fe02352557d3fc3c0f8a02e6c8d81ce58355"
+    }
+  },
+  "G_all_maximal_GP_sets": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      0,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  ],
+  "H_saturated_maximal_GP_size_counts": {
+    "9": 4,
+    "14": 12,
+    "19": 8,
+    "24": 1
+  },
+  "negative_controls_rejected": {
+    "four_point_subset_is_maximal": true,
+    "six_point_superset_is_GP": true,
+    "G_lower_number_at_least_7": true,
+    "G_cross_block_triple_is_GP": true
+  },
+  "conclusion": "gpminus(G)=6; gpminus(H)>=6; gpminus(G Cartesian H)<=5",
+  "independence": "No author code/data read at runtime; no universal-min5 dependency; no Lean claim"
+}

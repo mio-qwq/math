@@ -8,6 +8,8 @@
 
 **已公开数学预印本（006）**：[A counterexample to packing-domination inheritance in strong products](https://doi.org/10.5281/zenodo.23293088)，作者 **River Zhang、Yongxian Zhang**，Zenodo，2026-10-11，论文 **v1.3**（首次 Zenodo V1）。 [Version DOI：10.5281/zenodo.23293088](https://doi.org/10.5281/zenodo.23293088) · [Concept DOI：10.5281/zenodo.23293087](https://doi.org/10.5281/zenodo.23293087) · [论文 PDF](006-strong-product-packing-counterexample/paper/paper.pdf) · [复现附件](publication/006-v1.3/006-v1.3-reproducibility.zip)。本成果为**公开预印本，尚未经过期刊同行评审**。
 
+**新增论文冻结稿（2026-10-13）**：[笛卡尔积下 GP 的反例、无界差距与尖锐修正界](publication/lower-gp-cartesian-v0.1/README.md)（13 页）与[无爪次三次图打包着色反例及无限族](publication/clawfree-packing-v0.1/README.md)（7 页）已完成技术验收，公开同步 PDF、TeX、复现包和准确验证范围；作者及单独预印本许可元数据仍待逐篇确认。查看[完整论文与复现索引](publication/README.md)，其中单列尚未集成的分支初稿。
+
 ## 已解决或证伪的公开数学问题
 
 这里优先列出对**原命题全部假设与量词**给出的完整证明或严格反例，正面证明与证伪同等展示。随后单列重要特殊情形与新界，避免把局部进展写成一般猜想已解决。**独立研究 Agent 复核、Lean 检查、主分支集成与历史原创性是分别审查的状态**；下表不表示人类同行评议或首次解决。

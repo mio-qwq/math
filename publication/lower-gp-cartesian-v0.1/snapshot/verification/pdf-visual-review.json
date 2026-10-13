@@ -1,0 +1,150 @@
+{
+  "reviewed_utc": "2026-10-12T09:45:16.452123+00:00",
+  "reviewer": "ROOT AI agent; actual visual inspection via rendered local PNGs",
+  "tex_sha256": "81104eac829996435ed5076a56745c4b5ef2494db33fd9321b76bebfdd97b815",
+  "pdf_sha256": "fe923b7017dd04c03126aa07a48c3538a48a31855e4bb2ec973d4f5397392cb4",
+  "pages": [
+    {
+      "page": 1,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 2,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 3,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 4,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 5,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 6,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 7,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 8,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 9,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 10,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 11,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 12,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    },
+    {
+      "page": 13,
+      "result": "PASS",
+      "criteria": [
+        "readable text and mathematics",
+        "no truncation or overlap",
+        "appropriate page boundaries",
+        "headers, references or figure legible"
+      ]
+    }
+  ],
+  "corrected_findings": [
+    "Long provenance paths were moved to line-breaking listings.",
+    "Figure 1 panels were separated to remove overlap.",
+    "Bibliography ragged-right setting removed stretched lines."
+  ],
+  "remaining_layout_blockers": [],
+  "notes": [
+    "Page 13 is a short continuation of the bibliography, not a blank or truncated page.",
+    "All 21 PDF fonts are embedded.",
+    "Tectonic stderr contains a nonfatal Fontconfig default-config warning; it produced a valid PDF with embedded fonts.",
+    "Native editor compilation timed out and is not counted as success."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "frozen_utc": "2026-10-12T10:28:27.338256+00:00",
+  "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "files": [
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/ClawFree11334.lean",
+      "package_path": "supplement/frozen/ClawFree11334.lean",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/counterexample.json",
+      "package_path": "supplement/frozen/counterexample.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "7d1cdd61f032185728ffac6a6b0b6a79c611e0a36341a78eb35610df55b95ccd",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/verify_counterexample.py",
+      "package_path": "supplement/frozen/verify_counterexample.py",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "e9e7cb20a1b6989905563193bd92c388231e6e3a049caa27f6db1b33fdb7f573",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/verifier-author-run.json",
+      "package_path": "supplement/frozen/verifier-author-run.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "0c89517f49bb38ab44ee948aab8b85b0ff89174075ab33a9d01468d9d5eaed2c",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/lean-audit.json",
+      "package_path": "supplement/frozen/lean-audit.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "c017e9c568d6c75ca0ceff19b898680a31debdb9ab282c552f9b046e0b01b03a",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/lean-audit.log",
+      "package_path": "supplement/frozen/lean-audit.log",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "10cd16641c8589227025549a502674b0f044e2061266c7076e007e20c956e370",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/PROOF.md",
+      "package_path": "supplement/frozen/PROOF.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "9ff9ef34895a71fc0d2c3c66960fde9d30de4405c09815af21936d9e91f2ea04",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/INDEPENDENT_REVIEW.md",
+      "package_path": "supplement/frozen/INDEPENDENT_REVIEW.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "cc46b05778bfbbf8a8c2408d5840354d0dc6a6eb2d2c7092aabb1f7c8301e6c4",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/HISTORY.md",
+      "package_path": "supplement/frozen/HISTORY.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "933174d6a36d9424fff4331024f62515e3234fd3485fbfd03decd4541f5a40c6",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "workstreams/ROOT/clawfree-11334-counterexample/README.md",
+      "package_path": "supplement/frozen/README.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "1aa89165fc13c8efdf01c7e543ba1162a17e4219d881041e6cbb45dc8b264876",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "002-weighted-rectangular-pruning/proof/mathlib/lakefile.lean",
+      "package_path": "supplement/lakefile.lean",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "74cb4107742058e0042a04fd1fd7230c745b6519ef3e358f73ca91dea93a3368",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "002-weighted-rectangular-pruning/proof/mathlib/lean-toolchain",
+      "package_path": "supplement/lean-toolchain",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "source_bytes_preserved": true
+    },
+    {
+      "repository_path": "002-weighted-rectangular-pruning/proof/mathlib/lake-manifest.json",
+      "package_path": "supplement/lake-manifest.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "sha256": "1b85cf58f31f8666cdef2e82532e02a17a00ef58722db185d572c93b3981c7a7",
+      "source_bytes_preserved": true
+    }
+  ]
+}

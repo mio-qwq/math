@@ -1,0 +1,38 @@
+[
+  {
+    "pass_number": 1,
+    "command": [
+      "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\\app\\resources\\tectonic\\tectonic.exe",
+      "--keep-logs",
+      "--keep-intermediates",
+      "--outdir",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\paper",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\paper\\main.tex"
+    ],
+    "engine": "Tectonic 0.17.0+20260731",
+    "started_utc": "2026-10-12T09:41:31.411865+00:00",
+    "finished_utc": "2026-10-12T09:41:36.629880+00:00",
+    "seconds": 5.218000000008033,
+    "exit_code": 0,
+    "tex_sha256": "81104eac829996435ed5076a56745c4b5ef2494db33fd9321b76bebfdd97b815",
+    "pdf_sha256": "9985df0730d207aba1931302db310cb522f050a8dca4a9d180f7b317d49d45a6"
+  },
+  {
+    "pass_number": 2,
+    "command": [
+      "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\\app\\resources\\tectonic\\tectonic.exe",
+      "--keep-logs",
+      "--keep-intermediates",
+      "--outdir",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\paper",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\paper\\main.tex"
+    ],
+    "engine": "Tectonic 0.17.0+20260731",
+    "started_utc": "2026-10-12T09:41:36.629880+00:00",
+    "finished_utc": "2026-10-12T09:41:39.570971+00:00",
+    "seconds": 2.9539999999979045,
+    "exit_code": 0,
+    "tex_sha256": "81104eac829996435ed5076a56745c4b5ef2494db33fd9321b76bebfdd97b815",
+    "pdf_sha256": "fe923b7017dd04c03126aa07a48c3538a48a31855e4bb2ec973d4f5397392cb4"
+  }
+]

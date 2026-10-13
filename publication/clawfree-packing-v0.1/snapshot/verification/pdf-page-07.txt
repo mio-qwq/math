@@ -1,0 +1,45 @@
+A Exact replay and certiﬁcate conventions
+The ﬁxed JSON certiﬁcate uses the numbering given in Section 6. Undirected edge pairs are
+stored once, with the smaller endpoint ﬁrst, in lexicographic order. The incidence labels and
+the palette are part of the certiﬁcate, not descriptive metadata that a checker may ignore.
+The following pseudocode reconstructs the object.
+For each cyclic index i, add the ﬁve diamond edges and qipi+1. For each core vertex v, sort
+its three neighbors and list the incidences (v, w). Join all three pairs within Tv, and join
+each incidence to its reciprocal (w, v). Reject loops, repeated edges and a mismatching
+certiﬁcate. Compute BFS from every expanded vertex.
+The bounded structural replay checks cubicity, connectivity, claw-freeness, unique replace-
+ment triangles, and all the metric bounds used in Proposition 4.1. It checks the tip-neighbor
+formulas at every cyclic index without enumerating the full space of original colorings. A
+separate independent checker reconstructs the graph without importing the author’s veriﬁer.
+The ﬁnite regressions are checks of the implementation, not proofs of the all-odd- k statement.
+The controls include a missing edge, a corrupted incidence label, a changed palette, an
+invalid equal-low-label coloring on adjacent vertices, a valid (1,1,3,3,3) coloring of G3, and
+a valid (1,1,3,3,4) coloring of G4. Every positive coloring is tested against distances in the
+entire expanded graph. The historical exhaustive veriﬁer remains available as an optional
+command; it is not part of the bounded publication replay.
+For Lean, use the supplied lean-toolchain and lake-manifest.json; the evidence uses
+Lean 4.34.1 and Mathlib commit
+d13f23b723b8a846827a245b89c10fc7d3f11612.
+The REPRODUCE.md ﬁle gives the exact commands, including the standalone source-root option.
+The delivery manifest binds the paper, source, certiﬁcate, reviews and execution records by
+SHA256. Installing Lean from an empty cache is a separate environment step and is not
+claimed as a tested part of this package replay.
+References
+[1] S. E. Anderson, K. Kuenzel and J. D. Marcano Cuellar, Diamond-free, claw-free cubic graphs are
+(1,1,2,3)-packing colorable, arXiv:2607.25198v1 (2026). https://arxiv.org/abs/2607.25198.
+[2] B. Brešar, K. Kuenzel and D. F. Rall, Claw-free cubic graphs are (1,1,2,2)-colorable, Discrete
+Mathematics 348 (2025), article 114477; preprint arXiv:2409.15455v1.
+https://arxiv.org/abs/2409.15455.
+[3] B. Brešar, J. Ferme, S. Klavžar and D. F. Rall, A survey on packing colorings , Discussiones
+Mathematicae Graph Theory 40 (2020), 923–970. https://doi.org/10.7151/dmgt.2320.
+[4] N. Gastineau and O. Togni, S-packing colorings of cubic graphs , Discrete Mathematics 339
+(2016), 2461–2470; preprint arXiv:1403.7495. https://arxiv.org/abs/1403.7495.
+[5] M. Mortada, A. El Zein and S. Al Hajjar, On (1,1,2,3)- and (1,1,3,3,3)-packing colorings of
+claw-free subcubic graphs , arXiv:2608.02566v1 (2026), Section 6, Problem 1.
+https://arxiv.org/html/2608.02566v1#S6.
+[6] M. Mortada and A. El Zein, A short proof that every claw-free cubic graph is (1,1,2,2)-packing
+colorable, Discrete Applied Mathematics 391 (2026), 24–27; preprint arXiv:2512.24001v1.
+https://arxiv.org/abs/2512.24001.
+[7] S.-il Oum, Perfect matchings in claw-free cubic graphs , Electronic Journal of Combinatorics 18
+(2011), #P62. https://doi.org/10.37236/549.
+7

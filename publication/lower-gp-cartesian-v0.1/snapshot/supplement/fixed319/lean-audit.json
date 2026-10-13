@@ -1,0 +1,141 @@
+{
+  "source": "LowerGPProduct319.lean",
+  "source_sha256": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e",
+  "source_after_sha256": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e",
+  "start_utc": "2026-10-10T13:19:45.8270463+00:00",
+  "end_utc": "2026-10-10T13:20:28.8262665+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 15,
+  "expected_audits": 15,
+  "declaration_axioms": [
+    {
+      "declaration": "LowerGPProduct319.metricGP_iff_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.maximalGP_iff_inclusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.lowerGP_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.metricGP_insert_distanceTwin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.G_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.H_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.product_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.gStructural_large_superset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.g_small_extension",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.G_maximal_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.H_maximal_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.selected_actual_shortest_path",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.selected_maximalGP",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.fixed_original_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.not_original_conjecture",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "toolchain": {
+    "lean": "4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+  }
+}

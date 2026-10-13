@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "reviewer": "ROOT actual inspection of every rendered page",
+  "completed_utc": "2026-10-12T11:03:55.453527+00:00",
+  "tex_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+  "pdf_sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e",
+  "pages": [
+    {
+      "page": 1,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-1.png",
+      "sha256": "6fae29b7fc0fd9d3c8db24d53601dcb89807000237fecac466fac21acf09a3ca",
+      "note": "Title, author placeholder, abstract, notation and introduction readable; no truncation."
+    },
+    {
+      "page": 2,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-2.png",
+      "sha256": "c70ccc6802e75fcf105fc4ad993a860dd89a910a51c4737b0e1fa3f07c0e3107",
+      "note": "Related work and general definitions readable; infinity convention and strict inequality displayed correctly."
+    },
+    {
+      "page": 3,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-3.png",
+      "sha256": "8f69ccc962446a24797578b8aff59d4b99b2a6db28a3f1293f9b8ffcbca1514e",
+      "note": "Construction, main theorem and structure/metric proofs readable; explicit structural statement checked."
+    },
+    {
+      "page": 4,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-4.png",
+      "sha256": "a634df91e402cbef48a4a8a4f5967a010c7da15506a68a6b0d5d0bb96ba48914",
+      "note": "Core figure labels are clear of joining edges and closing edge; necessary-condition proof and section breaks checked."
+    },
+    {
+      "page": 5,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-5.png",
+      "sha256": "b9f732dbbc5bb37be5ad5252a7683efc79a819408a90128eb5a97c56a7c6cdbf",
+      "note": "Diamond obstruction and parity proof, certificate convention and Lean declarations readable; no clipping."
+    },
+    {
+      "page": 6,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-6.png",
+      "sha256": "3ae443e0bcd95e962ed36c7a708517a013ec897e4df7b4a851685366c51445f4",
+      "note": "Axiom list, formalization boundary, verification discussion and AI disclosure readable."
+    },
+    {
+      "page": 7,
+      "image": "tmp/pdfs/7b1160a51f525ca2/page-7.png",
+      "sha256": "a67874418dcd677937fe483fc471763fb1f9381fe432a29480bc78e17d317c68",
+      "note": "Reproduction appendix and all seven references fit; no almost-empty trailing page or unresolved links."
+    }
+  ],
+  "scope": "All seven latest final-PDF pages visually inspected through the image tool; not external human peer review.",
+  "repaired": [
+    "tip labels crossed joining edges",
+    "closing edge overlapped base labels",
+    "bibliography left an almost-empty last page"
+  ]
+}

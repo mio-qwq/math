@@ -1,0 +1,41 @@
+A structural obstruction to
+(1, 1, 3, 3, 4)-packing colorings
+Author information pending conﬁrmation
+Private manuscript, version 0.1
+12 October 2026
+Abstract
+Mortada, El Zein and Al Hajjar asked whether every connected claw-free subcubic
+graph, apart from their speciﬁed exception, admits a (1,1,3,3,4)-packing coloring. We
+give a negative answer. For every odd integer k ≥ 3, the triangle expansion of a ring
+of k diamonds is a connected cubic graph on 12k vertices that admits no such coloring.
+The proof selects an arbitrary existing high-colored vertex in each triangle. The selected
+labels give a proper three-coloring of the core, and the radius-four class forces an external
+private neighbor at each of its core vertices. This requirement excludes that class from
+every diamond tip, leaving an impossible two-coloring of an odd cycle. The proof is
+structural and requires no exhaustive search. A 36-vertex member is also certiﬁed in Lean
+using actual graph distances; that formalization does not cover the entire inﬁnite family.
+Keywords. Packing coloring; claw-free graph; cubic graph; triangle expansion; counterexam-
+ple; formal veriﬁcation.
+Mathematics Subject Classiﬁcation (2020). 05C15, 05C12.
+1 Introduction
+A packing coloring assigns diﬀerent distance requirements to its color classes. Repeated
+numbers in a prescribed sequence stand for distinct labels, each with its own class. This
+distinction is particularly useful for subcubic graphs, where several independent sets and a
+few more widely separated classes can be combined. For background on this framework, see
+Gastineau and Togni [ 4] and the survey of Brešar, Ferme, Klavžar and Rall [ 3].
+Mortada, El Zein and Al Hajjar [ 5] proved that a connected claw-free subcubic graph other
+than a speciﬁed graph H admits a (1,1,3,3,3)-packing coloring. They then asked in Section 6,
+Problem 1 whether the third radius-three class could always be replaced by a radius-four class.
+Their exception H has 12 vertices. Our constructions have at least 36 vertices and satisfy all
+the other hypotheses of that question.
+The answer is negative even for cubic graphs obtained by the standard operation of replac-
+ing each vertex of a cubic core by a triangle. Our cores are odd rings of diamonds. Neither
+these cores nor the triangle replacement operation is new: both occur in the structural descrip-
+tion of claw-free cubic graphs, for example in Oum [ 7] and Brešar, Kuenzel and Rall [ 2]. The
+mathematical content here is the obstruction to the particular distance sequence (1,1,3,3,4)
+and its proof for all odd ring lengths.
+The key reduction uses only necessary conditions. Each replacement triangle must contain
+a vertex with one of the three high labels. Choosing any such vertex gives a proper three-
+coloring of the core. For the label of radius four, the chosen incidence must point to a core
+neighbor that is adjacent to no other core vertex with that label. An odd diamond ring has no
+1

@@ -1,0 +1,58 @@
+{
+  "status": "PRIVATE DRAFT; not a validated API payload or submission",
+  "title": "A structural obstruction to (1,1,3,3,4)-packing colorings",
+  "abstract": "Mortada, El Zein and Al Hajjar asked whether every connected claw-free subcubic graph, apart from their specified exception, admits a (1,1,3,3,4)-packing coloring. We give a negative answer. For every odd integer k >= 3, the triangle expansion of a ring of k diamonds is a connected cubic graph on 12k vertices that admits no such coloring. The proof selects an arbitrary existing high-colored vertex in each triangle. The selected labels give a proper three-coloring of the core, and the radius-four class forces an external private neighbor at each of its core vertices. This requirement excludes that class from every diamond tip, leaving an impossible two-coloring of an odd cycle. The proof is structural and requires no exhaustive search. A 36-vertex member is also certified in Lean using actual graph distances; that formalization does not cover the entire infinite family.",
+  "language": "eng",
+  "version": "0.1-private",
+  "resource_type": "publication / preprint",
+  "keywords": [
+    "packing coloring",
+    "claw-free graph",
+    "cubic graph",
+    "triangle expansion",
+    "counterexample",
+    "formal verification"
+  ],
+  "subject_classification": {
+    "scheme": "MSC 2020",
+    "codes": [
+      "05C15",
+      "05C12"
+    ]
+  },
+  "creators": null,
+  "author_order": null,
+  "affiliations": null,
+  "orcid": null,
+  "correspondence": null,
+  "contributions": null,
+  "funding": null,
+  "competing_interests": null,
+  "license": null,
+  "publication_date": null,
+  "doi": null,
+  "deposit_id": null,
+  "source_repository": "https://github.com/mio-qwq/math",
+  "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "manuscript_public_commit": null,
+  "related_source_archive": "https://github.com/mio-qwq/math/releases/tag/accepted-written-results-2026-10-12",
+  "original_problem": {
+    "authors": [
+      "Maidoun Mortada",
+      "Ayman El Zein",
+      "Sara Al Hajjar"
+    ],
+    "title": "On (1,1,2,3)- and (1,1,3,3,3)-packing colorings of claw-free subcubic graphs",
+    "arxiv": "2608.02566v1",
+    "problem": "Section 6, Problem 1",
+    "url": "https://arxiv.org/html/2608.02566v1#S6"
+  },
+  "reference_file": "paper/references.bib",
+  "formalization_scope": "Fixed k=3, 36-vertex original-problem counterexample; all-odd-k family and diamond-freeness have written proofs only.",
+  "review_scope": "Independent AI mathematical and whole-manuscript review; no external human peer review.",
+  "originality_status": "Bounded multi-round primary-source search; no verified same-scope prior answer found, no global firstness claim.",
+  "ai_disclosure": "AI systems contributed substantially to exploration, proofs, Lean, code, literature checks, independent AI review and writing; no AI author.",
+  "manuscript_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+  "pdf_sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e",
+  "pending": "Human authorship, responsibility, declarations, license and publication permission require separate confirmation for this paper."
+}

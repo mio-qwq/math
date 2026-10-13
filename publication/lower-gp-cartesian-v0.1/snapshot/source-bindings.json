@@ -1,0 +1,143 @@
+{
+  "created_utc": "2026-10-12T08:58:02.901799+00:00",
+  "baseline": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "publication": "PRIVATE DRAFT; author/license/external release unconfirmed",
+  "source_files": [
+    {
+      "file": "supplement/fixed319/PROOF.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/PROOF.md",
+      "sha256": "bfc815e52a7a918705b256fce12bf61a98a853fd49dcff5b2c4b9a47e865f658",
+      "bytes": 8114,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/FAMILY_PROOF.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/FAMILY_PROOF.md",
+      "sha256": "7a1128ec4186fffa041ac013fe1bdfef4e58e079700f834841b39ab47defb7ad",
+      "bytes": 2607,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/HISTORY.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/HISTORY.md",
+      "sha256": "f67ec6e94656daf2c5b9b5bcd7f172289bbdc0246fe39cc6bd6d5d90e463ddab",
+      "bytes": 3727,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/INDEPENDENT_REVIEW.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/INDEPENDENT_REVIEW.md",
+      "sha256": "c32aa41569b294a111ec20f201e10b25bf03ac74cd34e6a6f2072a3163849239",
+      "bytes": 8157,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/LowerGPProduct319.lean",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/LowerGPProduct319.lean",
+      "sha256": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e",
+      "bytes": 27760,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/verify.py",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/verify.py",
+      "sha256": "d5231a56040db3ef4dcd86066cc36f480ea4d9de46f21743259d333e4275f285",
+      "bytes": 10510,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/lean-audit.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/lean-audit.json",
+      "sha256": "67217678b5058d53f6de36d21364ad19fd784a1205f698a59967ece448f9f5f3",
+      "bytes": 3133,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/fixed319/lean-audit.log",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/lower-gp-product319-counterexample/lean-audit.log",
+      "sha256": "68d4c28da37b5fcf044e9f829504e9cedbec1cc1036d58b844203d1118a6dc35",
+      "bytes": 1478,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/UNIVERSAL_FIVE_PROOF.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/UNIVERSAL_FIVE_PROOF.md",
+      "sha256": "9ecfeb62c4f52a2ef86ae161a0b1fb8c5f4ca16e96eb62a2b14a3af83122aac5",
+      "bytes": 11289,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/UNBOUNDED_GAP_PROOF.md",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/UNBOUNDED_GAP_PROOF.md",
+      "sha256": "0970e52c71f759c24c1281bce5b7a1c9f4095398d511f556cd709b5a19d3496e",
+      "bytes": 3290,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/verify_metric_rays.py",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_metric_rays.py",
+      "sha256": "59299a4e518d539dc9a527832eddfe8842f62c171cce1df0b46bf1634db9321c",
+      "bytes": 2610,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/verify_arbitrary_four.py",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_arbitrary_four.py",
+      "sha256": "9ff179bc74f046a639247b4df16040258c9a62dfcbf7ce05fa404904dcd38997",
+      "bytes": 6001,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/verify_universal_five.py",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_universal_five.py",
+      "sha256": "a3fbbc53d73ed2144c489c6ec89048c0dac2d76693577a52fb7a7ea8484b63a3",
+      "bytes": 647,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/verify_unbounded_gap.py",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/verify_unbounded_gap.py",
+      "sha256": "c2ee7cb2872d2f7e03e3590661e3ab4afdcc6f35ad0068a5659a4162653b9736",
+      "bytes": 3221,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/metric_faces.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/metric_faces.json",
+      "sha256": "01001dc53737560f49749784eaef85fe4d8c9297afde51093923a34ef185a382",
+      "bytes": 130481,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/metric_rays_verified.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/metric_rays_verified.json",
+      "sha256": "0153b1d6ca7449b5c6f7a4af256b3bcf8c6513e48ac8b226554a1b384339a8ef",
+      "bytes": 1517,
+      "byte_identical": true
+    },
+    {
+      "file": "supplement/universal/provenance.json",
+      "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+      "source_path": "workstreams/ROOT/distributed-written-proofs/B/lower_gp_product/provenance.json",
+      "sha256": "3fd8504537a58e5df7eb2c6100f0068493b3b73bbe46837ce16c0cf368f8aaed",
+      "bytes": 12051,
+      "byte_identical": true
+    }
+  ]
+}

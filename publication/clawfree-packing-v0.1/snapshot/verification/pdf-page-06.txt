@@ -1,0 +1,45 @@
+propext, Classical.choice, Quot.sound.
+The supplement binds the source, toolchain and actual compilation log by SHA256. The
+precise formalization boundary is important: the Lean theorem covers k = 3 , and does not
+formalize all odd k, or the separate diamond-free observation in Lemma 3.1.
+6.2 Reproducibility and independent checks
+The supplement contains the ﬁxed adjacency certiﬁcate, the exact Lean source, version infor-
+mation, and deﬁnition-ﬁrst Python checks. Our bounded replay reconstructs the incidence
+graph from ( 1), compares it with the frozen certiﬁcate, computes full-graph BFS distances,
+and checks the short-walk bounds. It includes damaged-input and positive controls, as de-
+scribed in Appendix A.
+An earlier author’s exhaustive projected check is retained as historical evidence: it ex-
+amined 312 = 531441 assignments, found 48 proper core labelings, and checked 3888 candi-
+date selections for their radius-four representatives, ﬁnding none. These ﬁgures are explicitly
+author-provenanced and are not described as a new run during manuscript preparation. Nei-
+ther Theorem 2.3 nor its Lean instance depends on that ﬁnite search.
+An independent AI reviewer, uninvolved in discovery, implementation and manuscript
+writing, rederived the proof from the original deﬁnitions and checked the manuscript’s math-
+ematical and semantic claims. AI-assisted independent checking is not external human peer
+review. Version-bound review and execution records are included with the private manuscript
+materials.
+7 Discussion
+The obstruction has two distinct components. Triangle expansion converts short walks into
+restrictions on a core coloring. The diamond ring then ampliﬁes the local private-neighbor
+restriction into a global parity contradiction. This explains why the witness extends to arbi-
+trarily large orders without a search or a new distance calculation for each graph.
+The core condition is a useful way to test a proposed (1,1,3,3,4)-coloring route, but we
+have not proved that it is suﬃcient. Even ring lengths escape the ﬁnal parity contradiction;
+that fact alone does not prove their expanded graphs colorable. An explicit k = 4 coloring is
+checked as a positive control in the supplement. We do not claim a classiﬁcation of all admis-
+sible cores, the smallest counterexample, or a solution to other packing coloring problems.
+The ﬁxed formal witness is enough to give a negative answer to the original universal
+question. Extending the Lean development to cyclic indices of arbitrary odd order would
+formalize the family theorem, but is not needed for the mathematical proof presented here.
+The source’s positive results for weaker palettes remain part of the existing literature and are
+not counted as additional new results of this paper.
+AI assistance and responsibility
+AI agents assisted the project’s mathematical exploration, proof derivation, Lean implemen-
+tation, code checking and technical writing. For this manuscript an additional AI reviewer
+independently examined the original statement, the family proof and the formalization’s scope.
+This disclosure does not assert a human-only research process or external human peer review.
+No AI system is listed as an author. Human authorship, contribution statements and ﬁnal re-
+sponsibility review remain to be conﬁrmed for this private draft. Funding, conﬂict-of-interest,
+correspondence and license declarations are also pending; no declaration is inferred from an
+earlier paper.
+6

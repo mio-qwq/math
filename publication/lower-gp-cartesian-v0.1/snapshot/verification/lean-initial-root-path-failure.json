@@ -1,0 +1,27 @@
+{
+  "status": "FAIL",
+  "source_sha256": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e",
+  "started_utc": "2026-10-12T09:00:27.195203+00:00",
+  "finished_utc": "2026-10-12T09:00:29.971456+00:00",
+  "seconds": 2.764999999999418,
+  "command": [
+    "C:\\Users\\Administrator\\.elan\\bin\\lake.exe",
+    "env",
+    "lean",
+    "-o",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\build\\LowerGPProduct319.olean",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\supplement\\fixed319\\LowerGPProduct319.lean"
+  ],
+  "exit_code": 1,
+  "lean": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "declarations": [],
+  "nonstandard_axioms": [],
+  "diagnostics": {
+    "error": 0,
+    "warning": 0,
+    "panic": 0
+  },
+  "object_sha256": null,
+  "scope": "Fixed 11 by 29 counterexample using original shortest-path GP, inclusion maximality, true lowerGP and boxProd; no universal all-parameter Lean theorem."
+}

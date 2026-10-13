@@ -1,0 +1,13 @@
+{
+  "status": "compile-failed",
+  "tool": "mcp__codex_app__compile_latex_document",
+  "attempted_path": "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\paper\\main.tex",
+  "message": "Compilation timed out",
+  "diagnostic": "exec failed: sandbox error: command timed out",
+  "successful_compilation": false,
+  "attempt_context": "Actual earlier-draft attempt in this session, before final formatting revisions.",
+  "attempt_source_sha256": null,
+  "limitation": "The failed-attempt source hash was not captured; no claim that the final revised TeX was checked by this failed native attempt.",
+  "final_export_evidence": "latex-compilation.json contains the successful two-pass Tectonic builds of the final TeX/PDF.",
+  "receipt_clarified_utc": "2026-10-12T09:54:36.590578+00:00"
+}

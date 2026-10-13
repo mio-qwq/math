@@ -1,0 +1,213 @@
+{
+  "checked_utc": "2026-10-12T09:42:24.431644+00:00",
+  "tex_sha256": "81104eac829996435ed5076a56745c4b5ef2494db33fd9321b76bebfdd97b815",
+  "pdf_sha256": "fe923b7017dd04c03126aa07a48c3538a48a31855e4bb2ec973d4f5397392cb4",
+  "pages": [
+    {
+      "page": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2435
+    },
+    {
+      "page": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 3047
+    },
+    {
+      "page": 3,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2872
+    },
+    {
+      "page": 4,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2433
+    },
+    {
+      "page": 5,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2260
+    },
+    {
+      "page": 6,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 3391
+    },
+    {
+      "page": 7,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2836
+    },
+    {
+      "page": 8,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 3095
+    },
+    {
+      "page": 9,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2566
+    },
+    {
+      "page": 10,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 3487
+    },
+    {
+      "page": 11,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2650
+    },
+    {
+      "page": 12,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 2599
+    },
+    {
+      "page": 13,
+      "width": 612.0,
+      "height": 792.0,
+      "text_characters": 373
+    }
+  ],
+  "fonts": {
+    "/IHAIZV+LMRoman17-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/BZIVMZ+LMRoman12-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/IXFAWU+LMRoman10-Bold": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/TQTHRL+LMRoman10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/YEUUOC+LMMathItalic10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/AKHCZK+LMMathSymbols10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/VDVGTR+LMRoman10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/CAFSZL+LMMathSymbols7-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/DDIEWW+MSAM10": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/FKPJSN+LMRoman12-Bold": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/PVTTLK+LMMathSymbols8-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/JAGKKY+LMRoman10-Italic": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/NOMARO+LMMathItalic8-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/KPXLOM+LMMathExtension10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/UTACNV+LMRoman8-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/FZDNHS+LMMathItalic7-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/DZGKAF+LMRoman7-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/GJMHKB+MSBM10": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/NITCSQ+LMMathItalic6-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/UBBQTN+LMMono10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/LPOGEQ+LMMono9-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    }
+  },
+  "bibliography_items": [
+    "Avis",
+    "BY",
+    "WKT",
+    "lowerGP"
+  ],
+  "citations": [
+    "Avis",
+    "BY",
+    "WKT",
+    "lowerGP"
+  ],
+  "log_issues": [],
+  "rendering": {
+    "command": [
+      "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe",
+      "-scale-to",
+      "1600",
+      "-png",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\paper\\main.pdf",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\tmp\\pdfs\\page"
+    ],
+    "exit_code": 0,
+    "page_files": [
+      "tmp/pdfs/page-01.png",
+      "tmp/pdfs/page-02.png",
+      "tmp/pdfs/page-03.png",
+      "tmp/pdfs/page-04.png",
+      "tmp/pdfs/page-05.png",
+      "tmp/pdfs/page-06.png",
+      "tmp/pdfs/page-07.png",
+      "tmp/pdfs/page-08.png",
+      "tmp/pdfs/page-09.png",
+      "tmp/pdfs/page-10.png",
+      "tmp/pdfs/page-11.png",
+      "tmp/pdfs/page-12.png",
+      "tmp/pdfs/page-13.png"
+    ]
+  },
+  "structural_issues": [],
+  "structural_pass": true,
+  "visual_review_status": "PASS_ROOT_INSPECTED_ALL_13_PAGES"
+}

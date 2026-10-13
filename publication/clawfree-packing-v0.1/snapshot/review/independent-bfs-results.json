@@ -1,0 +1,255 @@
+{
+  "cases": [
+    {
+      "adjacent_arbitrary_endpoint_tests": 108,
+      "adjacent_distance_histogram": {
+        "1": 12,
+        "2": 48,
+        "3": 48
+      },
+      "claw_free": true,
+      "connected": true,
+      "core_edges": 12,
+      "core_vertices": 8,
+      "degree_set": [
+        3
+      ],
+      "diameter": 7,
+      "diamond_free": true,
+      "expanded_edges": 36,
+      "expanded_vertices": 24,
+      "k": 2,
+      "private_arbitrary_other_endpoint_tests": 144,
+      "private_distance_histogram": {
+        "2": 24,
+        "3": 72,
+        "4": 48
+      },
+      "tip_local_pair_tests": 32,
+      "triangle_count": 8
+    },
+    {
+      "adjacent_arbitrary_endpoint_tests": 162,
+      "adjacent_distance_histogram": {
+        "1": 18,
+        "2": 72,
+        "3": 72
+      },
+      "claw_free": true,
+      "connected": true,
+      "core_edges": 18,
+      "core_vertices": 12,
+      "degree_set": [
+        3
+      ],
+      "diameter": 9,
+      "diamond_free": true,
+      "expanded_edges": 54,
+      "expanded_vertices": 36,
+      "k": 3,
+      "private_arbitrary_other_endpoint_tests": 216,
+      "private_distance_histogram": {
+        "2": 36,
+        "3": 108,
+        "4": 72
+      },
+      "tip_local_pair_tests": 48,
+      "triangle_count": 12
+    },
+    {
+      "adjacent_arbitrary_endpoint_tests": 216,
+      "adjacent_distance_histogram": {
+        "1": 24,
+        "2": 96,
+        "3": 96
+      },
+      "claw_free": true,
+      "connected": true,
+      "core_edges": 24,
+      "core_vertices": 16,
+      "degree_set": [
+        3
+      ],
+      "diameter": 13,
+      "diamond_free": true,
+      "expanded_edges": 72,
+      "expanded_vertices": 48,
+      "k": 4,
+      "private_arbitrary_other_endpoint_tests": 288,
+      "private_distance_histogram": {
+        "2": 48,
+        "3": 144,
+        "4": 96
+      },
+      "tip_local_pair_tests": 64,
+      "triangle_count": 16
+    },
+    {
+      "adjacent_arbitrary_endpoint_tests": 270,
+      "adjacent_distance_histogram": {
+        "1": 30,
+        "2": 120,
+        "3": 120
+      },
+      "claw_free": true,
+      "connected": true,
+      "core_edges": 30,
+      "core_vertices": 20,
+      "degree_set": [
+        3
+      ],
+      "diameter": 15,
+      "diamond_free": true,
+      "expanded_edges": 90,
+      "expanded_vertices": 60,
+      "k": 5,
+      "private_arbitrary_other_endpoint_tests": 360,
+      "private_distance_histogram": {
+        "2": 60,
+        "3": 180,
+        "4": 120
+      },
+      "tip_local_pair_tests": 80,
+      "triangle_count": 20
+    },
+    {
+      "adjacent_arbitrary_endpoint_tests": 378,
+      "adjacent_distance_histogram": {
+        "1": 42,
+        "2": 168,
+        "3": 168
+      },
+      "claw_free": true,
+      "connected": true,
+      "core_edges": 42,
+      "core_vertices": 28,
+      "degree_set": [
+        3
+      ],
+      "diameter": 21,
+      "diamond_free": true,
+      "expanded_edges": 126,
+      "expanded_vertices": 84,
+      "k": 7,
+      "private_arbitrary_other_endpoint_tests": 504,
+      "private_distance_histogram": {
+        "2": 84,
+        "3": 252,
+        "4": 168
+      },
+      "tip_local_pair_tests": 112,
+      "triangle_count": 28
+    }
+  ],
+  "certificate_alignment": {
+    "all_vertex_pair_tests": 1296,
+    "core_edges_match": true,
+    "expanded_edges_match": true,
+    "labels_match": true,
+    "palette_match": true,
+    "partner_match": true
+  },
+  "finished_utc": "2026-10-12T10:50:36.752517+00:00",
+  "input_sha256": {
+    "ClawFree11334.lean": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2",
+    "HISTORY.md": "933174d6a36d9424fff4331024f62515e3234fd3485fbfd03decd4541f5a40c6",
+    "PROOF.md": "9ff9ef34895a71fc0d2c3c66960fde9d30de4405c09815af21936d9e91f2ea04",
+    "counterexample.json": "7d1cdd61f032185728ffac6a6b0b6a79c611e0a36341a78eb35610df55b95ccd",
+    "lean-audit.json": "c017e9c568d6c75ca0ceff19b898680a31debdb9ab282c552f9b046e0b01b03a",
+    "verify_counterexample.py": "e9e7cb20a1b6989905563193bd92c388231e6e3a049caa27f6db1b33fdb7f573"
+  },
+  "negative_controls": {
+    "distance_four_actual_BFS": 4,
+    "distance_four_path": [
+      [
+        2,
+        11
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "even_ring_controls": [
+      {
+        "C_private_witnesses": {
+          "0": 1,
+          "4": 5
+        },
+        "core_colours": [
+          2,
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        "k": 2,
+        "original_packing_existence_not_tested": true,
+        "proper_and_C_private": true
+      },
+      {
+        "C_private_witnesses": {
+          "0": 1,
+          "4": 5,
+          "8": 9,
+          "12": 13
+        },
+        "core_colours": [
+          2,
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          2,
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        "k": 4,
+        "original_packing_existence_not_tested": true,
+        "proper_and_C_private": true
+      }
+    ],
+    "local_triangle_multi_high_examples": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    "multi_high_examples_are_only_local_not_global": true,
+    "same_C_pair_allowed_at_radius_three": true,
+    "same_C_pair_forbidden_at_radius_four": true
+  },
+  "scope": "Small explicit constructors, BFS and two-diamond local checks; no global colouring enumeration or Lean execution",
+  "script_sha256": "41fcbebed9e58f15c29867f490e9e08ffe416337102e973713b5b7b1cb688e17",
+  "started_utc": "2026-10-12T10:50:36.693918+00:00",
+  "status": "PASS"
+}

@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "source_sha256": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e",
+  "started_utc": "2026-10-12T09:01:50.190789+00:00",
+  "finished_utc": "2026-10-12T09:02:59.043457+00:00",
+  "seconds": 68.85899999999674,
+  "command": [
+    "C:\\Users\\Administrator\\.elan\\bin\\lake.exe",
+    "env",
+    "lean",
+    "-R",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\supplement\\fixed319",
+    "-o",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\build\\LowerGPProduct319.olean",
+    "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\supplement\\fixed319\\LowerGPProduct319.lean"
+  ],
+  "exit_code": 0,
+  "lean": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "declarations": [
+    {
+      "declaration": "LowerGPProduct319.metricGP_iff_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.maximalGP_iff_inclusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.lowerGP_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.metricGP_insert_distanceTwin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.G_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.H_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.product_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.gStructural_large_superset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.g_small_extension",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.G_maximal_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.H_maximal_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.selected_actual_shortest_path",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.selected_maximalGP",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.fixed_original_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "LowerGPProduct319.not_original_conjecture",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "diagnostics": {
+    "error": 0,
+    "warning": 0,
+    "panic": 0
+  },
+  "object_sha256": "a043f51762770ec515a4d0d2fd1ea15ddf4e8be2c247dc4b13a072e3884557a3",
+  "scope": "Fixed 11 by 29 counterexample using original shortest-path GP, inclusion maximality, true lowerGP and boxProd; no universal all-parameter Lean theorem."
+}

@@ -1,0 +1,61 @@
+{
+  "format_version": 1,
+  "checked_utc": "2026-10-13T00:50:21.468160+00:00",
+  "status": "BYTE_PRESERVED_ACCEPTED_DRAFT",
+  "mathematical_source_baseline": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "manuscript_sha256": "81104eac829996435ed5076a56745c4b5ef2494db33fd9321b76bebfdd97b815",
+  "pdf_sha256": "fe923b7017dd04c03126aa07a48c3538a48a31855e4bb2ec973d4f5397392cb4",
+  "pages": 13,
+  "archive": {
+    "file": "lower-gp-cartesian-v0.1-reproducibility.zip",
+    "sha256": "b661e42dacae96415bb0a51e5e6ffa4565ada3986b22cd684089f20692e85c09",
+    "bytes": 300092,
+    "payload_files": 63
+  },
+  "preparation_receipt_sha256": "1275126fd5ef56bc0fb9554ee7679166e16e8c7f6afa2ad0ad70ec12ccd28d0f",
+  "preparation_completed_utc": "2026-10-12T10:00:38.591230+00:00",
+  "previous_extracted_replay": {
+    "status": "PASS",
+    "jobs": [
+      {
+        "job": "integrity",
+        "exit_code": 0,
+        "source_sha256": "fdcb65da129948a72f24fe1bbfeef7c96f73cd97c1de6cd9e584fdff28231bb3"
+      },
+      {
+        "job": "fixed319",
+        "exit_code": 0,
+        "source_sha256": "d5231a56040db3ef4dcd86066cc36f480ea4d9de46f21743259d333e4275f285"
+      },
+      {
+        "job": "universal-five",
+        "exit_code": 0,
+        "source_sha256": "a3fbbc53d73ed2144c489c6ec89048c0dac2d76693577a52fb7a7ea8484b63a3"
+      },
+      {
+        "job": "unbounded-family",
+        "exit_code": 0,
+        "source_sha256": "c2ee7cb2872d2f7e03e3590661e3ab4afdcc6f35ad0068a5659a4162653b9736"
+      },
+      {
+        "job": "independent-small-controls",
+        "exit_code": 0,
+        "source_sha256": "e896d774d4548c4fabd29cd8719a916a3608d77afd053c430b5210fd8347e4d5"
+      }
+    ],
+    "negative_control": {
+      "result": "PASS: changed manuscript rejected",
+      "exit_code": 1,
+      "mutation_scope": "extracted copy only; original bytes restored"
+    }
+  },
+  "current_integrity_replay_exit_code": 0,
+  "exact_archive_matches_snapshot": true,
+  "new_lean_compilation_this_sync": false,
+  "new_latex_compilation_this_sync": false,
+  "unchanged_source_bound_preparation_audits": 15,
+  "lean_scope": "Lean 完整覆盖固定 319 点反例的实际图、最短路径和极大性；通用界及无限族属于完整书面／计算机辅助证明，未全篇 Lean 化。",
+  "authorship": "Pending separate human confirmation for this manuscript; no AI author.",
+  "publication_scope": "Public GitHub draft only; no new DOI, journal/arXiv/Zenodo deposit or external peer-review claim.",
+  "archive_note": "The frozen PDF and snapshot retain their original private-draft labels and preparation date. This public wrapper records the subsequent GitHub synchronization without altering historical bytes."
+}

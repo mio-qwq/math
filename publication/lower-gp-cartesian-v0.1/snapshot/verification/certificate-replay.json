@@ -1,0 +1,44 @@
+[
+  {
+    "job": "fixed319",
+    "command": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\supplement\\fixed319\\verify.py"
+    ],
+    "source_sha256": "d5231a56040db3ef4dcd86066cc36f480ea4d9de46f21743259d333e4275f285",
+    "started_utc": "2026-10-12T08:58:25.370980+00:00",
+    "finished_utc": "2026-10-12T08:58:29.528519+00:00",
+    "seconds": 4.156999999991967,
+    "exit_code": 0
+  },
+  {
+    "job": "universal-five",
+    "command": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\supplement\\universal\\verify_universal_five.py"
+    ],
+    "source_sha256": "a3fbbc53d73ed2144c489c6ec89048c0dac2d76693577a52fb7a7ea8484b63a3",
+    "started_utc": "2026-10-12T08:58:29.532895+00:00",
+    "finished_utc": "2026-10-12T08:58:37.593025+00:00",
+    "seconds": 8.062000000005355,
+    "exit_code": 0
+  },
+  {
+    "job": "unbounded-family",
+    "command": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\lower-gp-cartesian-v0.1\\supplement\\universal\\verify_unbounded_gap.py"
+    ],
+    "source_sha256": "c2ee7cb2872d2f7e03e3590661e3ab4afdcc6f35ad0068a5659a4162653b9736",
+    "started_utc": "2026-10-12T08:58:37.594603+00:00",
+    "finished_utc": "2026-10-12T08:58:38.094316+00:00",
+    "seconds": 0.5,
+    "exit_code": 0
+  }
+]

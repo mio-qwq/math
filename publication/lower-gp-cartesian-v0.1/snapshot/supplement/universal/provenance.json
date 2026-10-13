@@ -1,0 +1,240 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-12",
+  "original_branch": "partner/dist-B",
+  "scope": "For all nonempty finite simple undirected graphs, gp^-(G square H)>=min(5,gp^-G,gp^-H), with no order, diameter or connectedness restriction. For every r>=6, the companion connected family has min(gp^-G_r,gp^-H_r)=r and product lower-GP exactly 5. Complete-graph examples for r=1,...,5 show that min(r,5) is the optimal universal lower bound depending only on the smaller factor parameter. The original-conjecture refutation and sharp replacement are one combined result. Source: [arXiv:2404.19451v1 Conjecture 2.10](https://arxiv.org/html/2404.19451v1), [final paper Conjecture 3](https://oro.open.ac.uk/98050/9/98050final.pdf), DOI 10.22049/cco.2024.29171.1879.",
+  "status": "independently reviewed written mathematics; novelty unconfirmed; no all-parameter Lean",
+  "integration_validation": "exact hashes, Python AST, JSON and dependency closure; no mathematical replay",
+  "sources": [
+    {
+      "file": "UNIVERSAL_FIVE_PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/UNIVERSAL_FIVE_PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/UNIVERSAL_FIVE_PROOF.md",
+      "source_sha256": "f9742af7532e5f2155048bc89e516747c659f42bd17b4bbf3133caffb1db4406",
+      "source_bytes": 12933,
+      "output_sha256": "9ecfeb62c4f52a2ef86ae161a0b1fb8c5f4ca16e96eb62a2b14a3af83122aac5",
+      "output_bytes": 11289,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "d3fec1575b8789389d35a3c77bec137b9681454ef9a5365a79ad1a5ea0b81d6d",
+          "original_text_bytes": 101,
+          "replacement": "Complete computer-assisted all-orders partial theorem."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "9ff333092fb00249c4694a4eeebb4d620f5c00d4f17c617d550a0a2142e005b5",
+          "original_text_bytes": 64,
+          "replacement": "Theorem (T) alone does not establish the original bound when both factor parameters>=6; the companion family refutes that bound."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "d04254a9c2cb8f23484739857899d1e69ff32f0de51bdd36ee872e9fa0fbf95c",
+          "original_text_bytes": 221,
+          "replacement": "This supersedes the truncation-at4 and diameter-two truncation-at5 bounds. It is not the original conjectured bound or an exact formula for every product."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "aba198b1894b340168f2eac0a694b4d7948a0e4955b7004b2dfc9448a5eafedb",
+          "original_text_bytes": 58,
+          "replacement": "The generic polyhedral theory is prior;"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "8e12ab072fcb143e7ca37d5481e6a515a60e5b120a1052d6c6ab1c036dde1603",
+          "original_text_bytes": 80,
+          "replacement": "This describes the original algorithmic cross-check; independent review is a separate verification step."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "cca96116fff354a3c01520088ff05d446bb76c369d8e6087ded7d21a89241b0f",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "9ba951c47ced04094db746691a587f435322b44012d963752b824ee6723a0755",
+          "removed_text_bytes": 1598
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "UNBOUNDED_GAP_PROOF.md",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/UNBOUNDED_GAP_PROOF.md",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/UNBOUNDED_GAP_PROOF.md",
+      "source_sha256": "4eb8215912faf05d7fae3f277b5d9ad3a74a437219058fb757ee0c9b377ef65b",
+      "source_bytes": 4117,
+      "output_sha256": "0970e52c71f759c24c1281bce5b7a1c9f4095398d511f556cd709b5a19d3496e",
+      "output_bytes": 3290,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "061fe3eddc071b30e58bfab3425af21b4bdf99fdad4937f0f2947a479596df23",
+          "original_text_bytes": 190,
+          "replacement": "This proof extends the fixed lower-GP counterexample to all integer parameters r>=6."
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "5744023b0ba538b06ba52a2fe1066a50e6f53c45e87a7a4984f063a973c465f0",
+          "original_text_bytes": 23,
+          "replacement": "[the fixed construction proof](../../../lower-gp-product319-counterexample/PROOF.md)"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "abc7b8feef787a220d12fbc5b4734dbe62ec5933507f7140bc05ee9229da671d",
+          "original_text_bytes": 91,
+          "replacement": "UNIVERSAL_FIVE_PROOF.md proves"
+        },
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "a79944cc267e0eeb401a67e23f83895cdef30f58017b1613c9d8eba6b1629825",
+          "original_text_bytes": 85,
+          "replacement": "The two dependencies are separate written results; no universal Lean or historical-priority claim is made."
+        },
+        {
+          "operation": "remove",
+          "start_marker_sha256": "8b95f66b4a3b8a6ad525d868ecd5f9d47bfbd0a4882711b141a35cf9f5070543",
+          "end_marker_sha256": null,
+          "removed_text_sha256": "768c45200dfe7b5b9efc421c56dd2c5393ad8e6d682a77572e66b8f878fef410",
+          "removed_text_bytes": 741
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "verify_universal_five.py",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/verify_universal_five.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/verify_universal_five.py",
+      "source_sha256": "f354221432d3b0309b7b9b2345c1a5456221528dc028b2d29e5338d66e256fce",
+      "source_bytes": 675,
+      "output_sha256": "a3fbbc53d73ed2144c489c6ec89048c0dac2d76693577a52fb7a7ea8484b63a3",
+      "output_bytes": 647,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e90814b7484b2c3b2b3b3bcf0e53428d7d1f9fe2bfffe4c4f9bf8e533808c861",
+          "original_text_bytes": 28,
+          "replacement": ""
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "verify_arbitrary_four.py",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/verify_arbitrary_four.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/verify_arbitrary_four.py",
+      "source_sha256": "69999ef184ce26c91ab5c2e53fb94a647e7d8b1f71a24b60d6596b41ad2e27b1",
+      "source_bytes": 6029,
+      "output_sha256": "9ff179bc74f046a639247b4df16040258c9a62dfcbf7ce05fa404904dcd38997",
+      "output_bytes": 6001,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e90814b7484b2c3b2b3b3bcf0e53428d7d1f9fe2bfffe4c4f9bf8e533808c861",
+          "original_text_bytes": 28,
+          "replacement": ""
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "verify_unbounded_gap.py",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/verify_unbounded_gap.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/verify_unbounded_gap.py",
+      "source_sha256": "5ecae32fccf89aebd374c4ef2f936c15ca9ab023195f25495694e74cf6b0408b",
+      "source_bytes": 3249,
+      "output_sha256": "c2ee7cb2872d2f7e03e3590661e3ab4afdcc6f35ad0068a5659a4162653b9736",
+      "output_bytes": 3221,
+      "byte_identical": false,
+      "changes": [
+        {
+          "operation": "replace",
+          "occurrences": 1,
+          "original_text_sha256": "e90814b7484b2c3b2b3b3bcf0e53428d7d1f9fe2bfffe4c4f9bf8e533808c861",
+          "original_text_bytes": 28,
+          "replacement": ""
+        },
+        {
+          "operation": "normalize_end",
+          "description": "UTF-8; one final newline; no mathematical calculation changed"
+        }
+      ]
+    },
+    {
+      "file": "verify_metric_rays.py",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/verify_metric_rays.py",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/verify_metric_rays.py",
+      "source_sha256": "59299a4e518d539dc9a527832eddfe8842f62c171cce1df0b46bf1634db9321c",
+      "source_bytes": 2610,
+      "output_sha256": "59299a4e518d539dc9a527832eddfe8842f62c171cce1df0b46bf1634db9321c",
+      "output_bytes": 2610,
+      "byte_identical": true,
+      "changes": []
+    },
+    {
+      "file": "metric_faces.json",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/metric_faces.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/metric_faces.json",
+      "source_sha256": "01001dc53737560f49749784eaef85fe4d8c9297afde51093923a34ef185a382",
+      "source_bytes": 130481,
+      "output_sha256": "01001dc53737560f49749784eaef85fe4d8c9297afde51093923a34ef185a382",
+      "output_bytes": 130481,
+      "byte_identical": true,
+      "changes": []
+    },
+    {
+      "file": "metric_rays_verified.json",
+      "source_commit": "802e030aa8ac47a2018c9441a6b19f59b2db2535",
+      "source_path": "workstreams/B/lower_gp_product/metric_rays_verified.json",
+      "source_url": "https://github.com/mio-qwq/math/blob/802e030aa8ac47a2018c9441a6b19f59b2db2535/workstreams/B/lower_gp_product/metric_rays_verified.json",
+      "source_sha256": "0153b1d6ca7449b5c6f7a4af256b3bcf8c6513e48ac8b226554a1b384339a8ef",
+      "source_bytes": 1517,
+      "output_sha256": "0153b1d6ca7449b5c6f7a4af256b3bcf8c6513e48ac8b226554a1b384339a8ef",
+      "output_bytes": 1517,
+      "byte_identical": true,
+      "changes": []
+    }
+  ],
+  "external_mathematical_dependencies": [
+    {
+      "path": "workstreams/ROOT/lower-gp-product319-counterexample/PROOF.md",
+      "commit": "a8c3f22e26b08c2d294e2b0e6df2d9cfa430cda0",
+      "sha256": "bfc815e52a7a918705b256fce12bf61a98a853fd49dcff5b2c4b9a47e865f658",
+      "url": "https://github.com/mio-qwq/math/blob/a8c3f22e26b08c2d294e2b0e6df2d9cfa430cda0/workstreams/ROOT/lower-gp-product319-counterexample/PROOF.md",
+      "local_link": "../../../lower-gp-product319-counterexample/PROOF.md",
+      "required_for": "UNBOUNDED_GAP_PROOF.md elementary family"
+    }
+  ],
+  "generated_readme_sha256": "78291de02f8d1980fed97a1334a5bf8212402371f9b801ab32ac874d78863123"
+}

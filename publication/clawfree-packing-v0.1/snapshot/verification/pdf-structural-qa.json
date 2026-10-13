@@ -1,0 +1,174 @@
+{
+  "checked_utc": "2026-10-12T10:55:21.194105+00:00",
+  "tex_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+  "pdf_sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e",
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 2956
+    },
+    {
+      "page": 2,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 3066
+    },
+    {
+      "page": 3,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 2842
+    },
+    {
+      "page": 4,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 2617
+    },
+    {
+      "page": 5,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 3346
+    },
+    {
+      "page": 6,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 3474
+    },
+    {
+      "page": 7,
+      "width": 595.28,
+      "height": 841.89,
+      "text_characters": 3392
+    }
+  ],
+  "fonts": {
+    "/IHAIZV+LMRoman17-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/BZIVMZ+LMRoman17-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/IXFAWU+LMMathItalic12-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/TQTHRL+LMRoman12-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/YEUUOC+LMRoman10-Bold": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/AKHCZK+LMRoman10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/VDVGTR+LMRoman10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/CAFSZL+LMMathItalic10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/DDIEWW+LMMathSymbols10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/FKPJSN+LMRoman12-Bold": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/PVTTLK+LMMono10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/JAGKKY+LMMathItalic8-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/NOMARO+LMRoman8-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/KPXLOM+MSBM10": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/UTACNV+LMMathExtension10-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/FZDNHS+LMRoman10-Italic": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/DZGKAF+LMMathItalic6-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/GJMHKB+LMMathSymbols8-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/NITCSQ+LMRoman7-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/UBBQTN+LMMathItalic7-Regular": {
+      "subtype": "/Type1",
+      "embedded": true
+    }
+  },
+  "bibliography_items": [
+    "AKM",
+    "BKR",
+    "GT",
+    "MEAH",
+    "MEZ",
+    "Oum",
+    "survey"
+  ],
+  "citations": [
+    "AKM",
+    "BKR",
+    "GT",
+    "MEAH",
+    "MEZ",
+    "Oum",
+    "survey"
+  ],
+  "log_issues": [],
+  "rendering": {
+    "command": [
+      "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe",
+      "-scale-to",
+      "1600",
+      "-png",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\paper\\main.pdf",
+      "C:\\Users\\Administrator\\Desktop\\math\\.private-research\\papers\\clawfree-packing-v0.1\\tmp\\pdfs\\7b1160a51f525ca2\\page"
+    ],
+    "exit_code": 0,
+    "page_files": [
+      "tmp/pdfs/7b1160a51f525ca2/page-1.png",
+      "tmp/pdfs/7b1160a51f525ca2/page-2.png",
+      "tmp/pdfs/7b1160a51f525ca2/page-3.png",
+      "tmp/pdfs/7b1160a51f525ca2/page-4.png",
+      "tmp/pdfs/7b1160a51f525ca2/page-5.png",
+      "tmp/pdfs/7b1160a51f525ca2/page-6.png",
+      "tmp/pdfs/7b1160a51f525ca2/page-7.png"
+    ]
+  },
+  "structural_issues": [],
+  "structural_pass": true,
+  "visual_review_status": "PASS_ROOT_ALL_SEVEN_FINAL_PAGES",
+  "visual_review_receipt": "verification/pdf-visual-review.json"
+}

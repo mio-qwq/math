@@ -1,0 +1,44 @@
+with edge set
+E(Dk) =
+∪
+i
+{aibi, aipi, aiqi, bipi, biqi, qipi+1}. (1)
+Thus {ai, bi, pi, qi} induces a diamond K4 − piqi, and the additional edges join the diamonds
+in a ring. Put Gk = T (Dk).
+Theorem 2.3. For every odd integer k ≥ 3, the graph Gk is connected, cubic, claw-free and
+diamond-free, has 12k vertices and 18k edges, and admits no (1,1,3,3,4)-packing coloring.
+Corollary 2.4. Problem 1 in Section 6 of Mortada, El Zein and Al Hajjar [ 5] has a negative
+answer. In particular, G3 is a 36-vertex counterexample, and counterexamples exist with
+arbitrarily large order.
+Proof. Each Gk is a connected claw-free subcubic graph. Since |V (H)|= 12 and |V (Gk)|=
+12k ≥ 36, the graph Gk is not isomorphic to the exception H. Odd integers k ≥ 3 are
+unbounded.
+3 Structure and metric of the expansion
+Lemma 3.1. For every k ≥ 3, Dk is a connected simple cubic graph. Its triangle expansion
+Gk is connected, cubic, claw-free and diamond-free, with 12k vertices and 18k edges.
+Proof. Within a diamond, ai and bi have neighbors equal to the other base vertex and both
+tips. The tips have neighborhoods
+NDk (pi) = {ai, bi, qi− 1}, N Dk (qi) = {ai, bi, pi+1}. (2)
+All these neighbors are distinct for k ≥ 3. The edges in ( 1) have no loops or repetitions. Every
+diamond is connected, and the joining edges form a ring of the diamonds, so Dk is connected.
+More generally, for any simple cubic D, a vertex (v, w) of T (D) has two neighbors in Tv
+and the third neighbor (w, v) outside Tv. These three neighbors are distinct, and the ﬁrst two
+are adjacent. Hence the expansion is simple, cubic and claw-free. A path in D lifts to a walk
+between its replacement triangles, and every triangle is connected; therefore connectedness of
+D implies connectedness of T (D). There are 3|V (Dk)|= 12 k incidences, and cubicity gives
+|E(Gk)|= 3(12k)/2 = 18 k.
+The edges between distinct replacement triangles form a matching. No such edge can
+belong to a triangle: a hypothetical third vertex would require one of its endpoints to have a
+second neighbor outside its own replacement triangle. Thus every triangle of the expansion is
+one of the Tv. A diamond contains two triangles sharing an edge, whereas the Tv are vertex-
+disjoint. Consequently Gk is diamond-free. This last observation concerns the expanded
+graph; the core Dk certainly contains diamonds.
+Lemma 3.2. Let D be a simple cubic graph.
+1. If uv ∈ E(D), then every pair x ∈ Tu, y ∈ Tv is joined by a walk of length at most three
+in T (D).
+2. If x = (v, w), u ∈ ND(w) \ {v} and y ∈ Tu, then x and y are joined by a walk of length
+at most four in T (D).
+Proof. For the ﬁrst assertion, use the internal step from x to (u, v), then the edge (u, v)(v, u),
+and ﬁnally the internal step from (v, u) to y. An internal step is omitted when its endpoints
+coincide. Each internal step has length at most one.
+3

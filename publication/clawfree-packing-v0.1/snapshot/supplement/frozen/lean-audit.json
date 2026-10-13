@@ -1,0 +1,162 @@
+{
+  "source": "ClawFree11334.lean",
+  "source_sha256": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2",
+  "source_after_sha256": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2",
+  "start_utc": "2026-10-10T08:28:20.0309293+00:00",
+  "end_utc": "2026-10-10T08:29:15.2796926+00:00",
+  "exit_code": 0,
+  "warnings": 0,
+  "errors": 0,
+  "panics": 0,
+  "audits": 18,
+  "expected_audits": 18,
+  "declaration_axioms": [
+    {
+      "declaration": "ClawFree11334.core_obstruction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.partner_involutive",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_matches_edges",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_claw_free",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.graph_connected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.not_iso_twelve",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.block_cross_adj",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.core_ports",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.adjacent_triangles_walk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.adjacent_triangles_edist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.port_neighbour_walk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.port_neighbour_edist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.packing_adj_ne",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.triangle_has_high",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.packing_core_necessary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.no_packing11334",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ClawFree11334.original_counterexample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "nonstandard_axioms": [],
+  "pass": true,
+  "toolchain": {
+    "lean": "Lean 4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "project": "002-weighted-rectangular-pruning/proof/mathlib"
+  }
+}

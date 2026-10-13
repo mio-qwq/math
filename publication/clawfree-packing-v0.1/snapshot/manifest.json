@@ -1,0 +1,313 @@
+{
+  "format_version": 1,
+  "created_utc": "2026-10-12T11:06:49.527301+00:00",
+  "version": "0.1-private",
+  "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "title": "A structural obstruction to (1,1,3,3,4)-packing colorings",
+  "manuscript_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+  "pdf_sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e",
+  "status": "Private technical preparation; human author/license/publication decisions pending.",
+  "files": [
+    {
+      "path": "ORIGINALITY_REVIEW.md",
+      "bytes": 5115,
+      "sha256": "82526a939429c975d7bc095996540c8d7a1ab2b536268936cd203b8666fdf643"
+    },
+    {
+      "path": "PUBLICATION_READINESS.md",
+      "bytes": 5337,
+      "sha256": "4fd91480792dad7117ed594469cdf8444893f6326c79802727620eb27456669d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3802,
+      "sha256": "0e53f205df4673b80536ae8385f2fab042c6f76f3f9b47d0671157b776e7bbd1"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 4982,
+      "sha256": "5689892c6258b681ddb59674b68baf63b737de40ce8b85a6016af0d09e860127"
+    },
+    {
+      "path": "build/ClawFree11334.olean",
+      "bytes": 1119544,
+      "sha256": "10558e6fae671ffdcf91877d5c5698dd4530bde086a2801461f4109a8106fb66"
+    },
+    {
+      "path": "metadata-draft.json",
+      "bytes": 3268,
+      "sha256": "1975a46fbe7b00cce506943ebc0e804c7f58f927ab76f4e62e988c3b5a0b3770"
+    },
+    {
+      "path": "paper/main.pdf",
+      "bytes": 90888,
+      "sha256": "7b1160a51f525ca2ae904e65852853ec6b296f2f42b8bdff9e10f0ad4d92ed3e"
+    },
+    {
+      "path": "paper/main.tex",
+      "bytes": 26184,
+      "sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9"
+    },
+    {
+      "path": "paper/references.bib",
+      "bytes": 2242,
+      "sha256": "a2cf6d36e99843b73016dafe370d28c58ecaec941d77675535c4e86c9dbe482f"
+    },
+    {
+      "path": "replay_independent_checks.py",
+      "bytes": 1306,
+      "sha256": "029efd76fb31bf09343aa1a1f1326000de8d63ae3d9356fc77fc6da48b724c47"
+    },
+    {
+      "path": "review/FINAL_MANUSCRIPT_REVIEW.md",
+      "bytes": 9368,
+      "sha256": "1bc72627660804e8c6cf30894937b2d842942a714bf1be853aa63f0413a72cf5"
+    },
+    {
+      "path": "review/INDEPENDENT_MATHEMATICS.md",
+      "bytes": 13742,
+      "sha256": "fa5ac4de08a836bbc013dde48ab5a3ae6919ec12b37b3b33ceccad9edb57f2c4"
+    },
+    {
+      "path": "review/independent-bfs-results.json",
+      "bytes": 6047,
+      "sha256": "0e5ed3714ad79d522e0a7f8f6f40f6a7fcfb79760f4cef26c45eda24321be84a"
+    },
+    {
+      "path": "review/independent_bfs_checks.py",
+      "bytes": 11719,
+      "sha256": "41fcbebed9e58f15c29867f490e9e08ffe416337102e973713b5b7b1cb688e17"
+    },
+    {
+      "path": "source-bindings.json",
+      "bytes": 4798,
+      "sha256": "51b287f41caab4b63e5d137b2a3f8b63bc4027659a40df06bd4656b3ce58db7e"
+    },
+    {
+      "path": "supplement/check_structural.py",
+      "bytes": 7554,
+      "sha256": "cd092e18e582c7dd790c2ec55edc9d1a5a425b5eb8f1228ad99cc0ef07158ef5"
+    },
+    {
+      "path": "supplement/frozen/ClawFree11334.lean",
+      "bytes": 26692,
+      "sha256": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2"
+    },
+    {
+      "path": "supplement/frozen/HISTORY.md",
+      "bytes": 1486,
+      "sha256": "933174d6a36d9424fff4331024f62515e3234fd3485fbfd03decd4541f5a40c6"
+    },
+    {
+      "path": "supplement/frozen/INDEPENDENT_REVIEW.md",
+      "bytes": 3354,
+      "sha256": "cc46b05778bfbbf8a8c2408d5840354d0dc6a6eb2d2c7092aabb1f7c8301e6c4"
+    },
+    {
+      "path": "supplement/frozen/PROOF.md",
+      "bytes": 3798,
+      "sha256": "9ff9ef34895a71fc0d2c3c66960fde9d30de4405c09815af21936d9e91f2ea04"
+    },
+    {
+      "path": "supplement/frozen/README.md",
+      "bytes": 3016,
+      "sha256": "1aa89165fc13c8efdf01c7e543ba1162a17e4219d881041e6cbb45dc8b264876"
+    },
+    {
+      "path": "supplement/frozen/counterexample.json",
+      "bytes": 3538,
+      "sha256": "7d1cdd61f032185728ffac6a6b0b6a79c611e0a36341a78eb35610df55b95ccd"
+    },
+    {
+      "path": "supplement/frozen/lean-audit.json",
+      "bytes": 3503,
+      "sha256": "c017e9c568d6c75ca0ceff19b898680a31debdb9ab282c552f9b046e0b01b03a"
+    },
+    {
+      "path": "supplement/frozen/lean-audit.log",
+      "bytes": 1612,
+      "sha256": "10cd16641c8589227025549a502674b0f044e2061266c7076e007e20c956e370"
+    },
+    {
+      "path": "supplement/frozen/verifier-author-run.json",
+      "bytes": 1401,
+      "sha256": "0c89517f49bb38ab44ee948aab8b85b0ff89174075ab33a9d01468d9d5eaed2c"
+    },
+    {
+      "path": "supplement/frozen/verify_counterexample.py",
+      "bytes": 5482,
+      "sha256": "e9e7cb20a1b6989905563193bd92c388231e6e3a049caa27f6db1b33fdb7f573"
+    },
+    {
+      "path": "supplement/lake-manifest.json",
+      "bytes": 3673,
+      "sha256": "1b85cf58f31f8666cdef2e82532e02a17a00ef58722db185d572c93b3981c7a7"
+    },
+    {
+      "path": "supplement/lakefile.lean",
+      "bytes": 190,
+      "sha256": "74cb4107742058e0042a04fd1fd7230c745b6519ef3e358f73ca91dea93a3368"
+    },
+    {
+      "path": "supplement/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-1.png",
+      "bytes": 323897,
+      "sha256": "6fae29b7fc0fd9d3c8db24d53601dcb89807000237fecac466fac21acf09a3ca"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-2.png",
+      "bytes": 338193,
+      "sha256": "c70ccc6802e75fcf105fc4ad993a860dd89a910a51c4737b0e1fa3f07c0e3107"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-3.png",
+      "bytes": 333292,
+      "sha256": "8f69ccc962446a24797578b8aff59d4b99b2a6db28a3f1293f9b8ffcbca1514e"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-4.png",
+      "bytes": 305470,
+      "sha256": "a634df91e402cbef48a4a8a4f5967a010c7da15506a68a6b0d5d0bb96ba48914"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-5.png",
+      "bytes": 367704,
+      "sha256": "b9f732dbbc5bb37be5ad5252a7683efc79a819408a90128eb5a97c56a7c6cdbf"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-6.png",
+      "bytes": 364388,
+      "sha256": "3ae443e0bcd95e962ed36c7a708517a013ec897e4df7b4a851685366c51445f4"
+    },
+    {
+      "path": "tmp/pdfs/7b1160a51f525ca2/page-7.png",
+      "bytes": 393662,
+      "sha256": "a67874418dcd677937fe483fc471763fb1f9381fe432a29480bc78e17d317c68"
+    },
+    {
+      "path": "verification/latex-compilation.json",
+      "bytes": 1745,
+      "sha256": "1705fd7c3014b1c3de5222ffe0221e09f5f2dc2d96fe3e19ec5cda4870dccf91"
+    },
+    {
+      "path": "verification/latex-pass-1.stderr.log",
+      "bytes": 73,
+      "sha256": "58d227394e8c4a372d5899b52a5fcee87211a871ce4f9502bf48ff1a2766818f"
+    },
+    {
+      "path": "verification/latex-pass-1.stdout.log",
+      "bytes": 585,
+      "sha256": "910534980a8dc1e822850e174f1d81fd554f039d8f4740bf89176bdc4c2995fb"
+    },
+    {
+      "path": "verification/latex-pass-1.tex.log",
+      "bytes": 25646,
+      "sha256": "9d2e8786e1375de8cbf2ead864c723852d400bcf9d3d2d75d94328a3079ac682"
+    },
+    {
+      "path": "verification/latex-pass-2.stderr.log",
+      "bytes": 73,
+      "sha256": "58d227394e8c4a372d5899b52a5fcee87211a871ce4f9502bf48ff1a2766818f"
+    },
+    {
+      "path": "verification/latex-pass-2.stdout.log",
+      "bytes": 585,
+      "sha256": "903c8bb654f7f02283b8e2ac99342ee0b6f1ff8da7c0d7c5c7cc62655a207473"
+    },
+    {
+      "path": "verification/latex-pass-2.tex.log",
+      "bytes": 25646,
+      "sha256": "9d2e8786e1375de8cbf2ead864c723852d400bcf9d3d2d75d94328a3079ac682"
+    },
+    {
+      "path": "verification/lean-fresh-object.json",
+      "bytes": 4391,
+      "sha256": "88a9ae765c2e7d4961bfc5d76706b82822af3fe0145462b73cffe21adc6cd5e1"
+    },
+    {
+      "path": "verification/lean-fresh-object.log",
+      "bytes": 1630,
+      "sha256": "3d4002c8093944c3c4f09d899be2888034021388300b8af405320260855747ef"
+    },
+    {
+      "path": "verification/pdf-page-01.txt",
+      "bytes": 3017,
+      "sha256": "82820cbb0d8a78bce5f2ec6198852695f24945d37e2bd75d0e9823fa52962bd6"
+    },
+    {
+      "path": "verification/pdf-page-02.txt",
+      "bytes": 3162,
+      "sha256": "25d21bdb8018a83ccf88bc4152cddc1081f893e581e8eed369468d18d64bc543"
+    },
+    {
+      "path": "verification/pdf-page-03.txt",
+      "bytes": 2917,
+      "sha256": "cf97cd605973a9627b100e6d46e1f77135a09f14d3abaab2792a61b38ea81372"
+    },
+    {
+      "path": "verification/pdf-page-04.txt",
+      "bytes": 2703,
+      "sha256": "4e4e2cd88654b1a171ebb4e1f4dd7fa99641f3baa8f746c6762df26286d231c5"
+    },
+    {
+      "path": "verification/pdf-page-05.txt",
+      "bytes": 3437,
+      "sha256": "d8c70d00d29fe0d947bce58a39050c291f67ad2b8c64528bb4a7b1c5f4d95d96"
+    },
+    {
+      "path": "verification/pdf-page-06.txt",
+      "bytes": 3562,
+      "sha256": "8f6f40b70af341ace4395e3623a051bb854d30aeb9913012da335f8f1a448f93"
+    },
+    {
+      "path": "verification/pdf-page-07.txt",
+      "bytes": 3471,
+      "sha256": "c818243517344cbfd4e4f602aaa09bec7dd39b9c65911012d00220502bbe2aea"
+    },
+    {
+      "path": "verification/pdf-structural-qa.json",
+      "bytes": 4291,
+      "sha256": "79ac1c7a0901574d398a676fab06b3b7199fc628e56537704f3ed98b3a9852f8"
+    },
+    {
+      "path": "verification/pdf-visual-review.json",
+      "bytes": 2671,
+      "sha256": "0ecd31ec35c787fb5619d1636fbc26f71c8d3c66b459d017cb8153738526e6de"
+    },
+    {
+      "path": "verification/poppler.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification/replayed-independent/independent-bfs-results.json",
+      "bytes": 6047,
+      "sha256": "8543beb77b6b4531f1faf1e9f4fa232a90ad141b3f3b045255e285cff87f45e7"
+    },
+    {
+      "path": "verification/structural-check.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification/structural-check.stdout.log",
+      "bytes": 1836,
+      "sha256": "ceed9cd55c32c5af8ba31e042d540a14aaebc8bb4cc12d4575bedb4e25791852"
+    },
+    {
+      "path": "verification/structural-replay.json",
+      "bytes": 3071,
+      "sha256": "9c897f433517c98b599c22f9682f69319212a31998a6b3907ef89b79b7c4f761"
+    },
+    {
+      "path": "verify_manifest.py",
+      "bytes": 732,
+      "sha256": "e8fa1bedea26571e0bdc9d8e2e631bbcba96e0110b7a9ce6c076a617340c6ec2"
+    }
+  ],
+  "scope": "Complete written odd-k theorem; Lean covers only fixed k=3. Independent AI review, not external human peer review."
+}

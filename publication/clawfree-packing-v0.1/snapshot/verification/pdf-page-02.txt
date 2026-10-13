@@ -1,0 +1,43 @@
+proper three-coloring satisfying this additional requirement. No assumption about a unique
+high vertex per triangle, or a normal form for the original coloring, is needed.
+We also give an exact, machine-checkable 36-vertex instance. Its Lean theorem uses Math-
+lib’s SimpleGraph, walks and extended graph distance, and quantiﬁes over every ﬁve-label
+coloring of the graph. The inﬁnite-family proof in this paper is an ordinary mathematical
+proof. Computations provide reproducibility and controls, rather than a premise of the fam-
+ily theorem.
+1.1 Related work and contribution boundaries
+Brešar, Kuenzel and Rall [ 2] established (1,1,2,2)-packing colorability for claw-free cubic
+graphs. Mortada and El Zein [ 6] subsequently gave a shorter proof. Anderson, Kuenzel and
+Marcano Cuellar [ 1] proved (1,1,2,3)-packing colorability for diamond-free claw-free cubic
+graphs. The expanded graphs used here are themselves diamond-free: the diamonds lie in
+their cores. These positive results concern diﬀerent distance sequences and are consistent with
+our obstruction.
+The result of Mortada, El Zein and Al Hajjar [ 5, Theorem 4] also implies that every
+graph in our family admits a (1,1,3,3,3)-packing coloring. We use that known conclusion
+only to place the obstruction in context. We do not claim to refute that theorem, or to
+settle their separate (1,1,2,3) problem for general subcubic graphs. We make no claim of
+minimum counterexample order, an exact ordinary packing chromatic number, or historical
+ﬁrstness. The original arXiv record and related literature were checked in several bounded
+searches; absence of an earlier veriﬁed answer in those searches is not an exhaustive priority
+certiﬁcation.
+2 Deﬁnitions and main result
+All graphs in this paper are ﬁnite, simple and undirected. For a graph F , its open neighbor-
+hood at v is NF (v). The distance distF (x, y) is the minimum length of an x– y path, with
+distance ∞ between vertices in diﬀerent components. Distances in an induced subgraph are
+not used for packing constraints. A graph is subcubic if every vertex has degree at most three,
+cubic if every vertex has degree three, and claw-free if it contains no induced copy of K1,3.
+Deﬁnition 2.1. For a sequence S = (s1, . . . , st) of positive integers, an S-packing coloring of
+F is a map c : V (F ) − → {1, . . . , t} such that
+x ̸= y, c (x) = c(y) = j =⇒ distF (x, y) > s j.
+Equal entries of S correspond to diﬀerent color labels. For S = (1 ,1,3,3,4), we denote the
+labels by 1a,1b, A, B, C, with radii 1,1,3,3,4, respectively. The labels A, B, Care called high
+labels.
+Deﬁnition 2.2 (Triangle expansion). Let D be a simple cubic graph. The graph T (D) has
+vertex set
+V (T (D)) = {(v, w) : v ∈ V (D), w ∈ ND(v)}.
+For each v, the three vertices Tv = {(v, w) : w ∈ ND(v)}form a triangle. In addition, for each
+edge vw ∈ E(D), add the edge (v, w)(w, v). There are no other edges. The pair (v, w) is an
+incidence, or port, at v pointing to w.
+For an integer k ≥ 3, take indices in Z/kZ. Deﬁne Dk on the 4k distinct vertices
+ai, bi, pi, qi (i ∈ Z/kZ)
+2
