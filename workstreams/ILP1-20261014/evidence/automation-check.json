@@ -1,0 +1,10 @@
+{
+  "title": "推进 ILP1 调度理论研究",
+  "is_enabled": true,
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Singapore:20261014T041500\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT",
+  "verified_via": "private automation lookup",
+  "recorded_utc": "2026-10-13T19:19:33.913542+00:00",
+  "scope": "this research conversation only",
+  "behavior": "recover checkpoint, advance actual research, save status/handoff, publish verified own-branch results",
+  "limitation": "No continuous computation is promised between triggers; future runtime availability is not guaranteed."
+}

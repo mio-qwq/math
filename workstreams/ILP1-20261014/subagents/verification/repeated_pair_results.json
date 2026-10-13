@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T19:33:01.001230+00:00",
+  "elapsed_seconds": 0.07234683699971356,
+  "q_range": [
+    0,
+    6
+  ],
+  "all_bit_programs": 127,
+  "direct_cross_block_augmented_edges_checked": 8256,
+  "optimum": "2q",
+  "uniform_policy_expected": "5q/2",
+  "policy_tree": {
+    "bits": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "leaves": 64,
+    "distribution": {
+      "12": "1/64",
+      "13": "3/32",
+      "14": "15/64",
+      "15": "5/16",
+      "16": "15/64",
+      "17": "3/32",
+      "18": "1/64"
+    },
+    "expected": "15",
+    "all_random_decisions_have_hidden_final_job_unadmitted": true
+  },
+  "scope": "Finite checks support the separate all-q proof; no general online policy is simulated here.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "wider_policy_independent.py": "d3d39578fe6c2b655d8167fceba319c88c86f6633d9583081f380a9e5816ebce",
+    "repeated_pair_audit.py": "b77774a354bffa026df76ab4d8d97dcb794304773a5e4b8e7f19a897b1534249"
+  }
+}

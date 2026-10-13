@@ -1,0 +1,88 @@
+{
+  "status": "NO_COUNTEREXAMPLE_IN_FINITE_RANGE",
+  "model": {
+    "B": 3,
+    "W": 2
+  },
+  "max_n_requested": 12,
+  "source_sha256": "359c0c3df8259026e384fb242f0d2103b1837162b9cfdbbb03bce7c35a93e886",
+  "python": "3.12.14",
+  "graphs_by_n": [
+    {
+      "n": 1,
+      "graphs_examined": 1,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "1"
+    },
+    {
+      "n": 2,
+      "graphs_examined": 2,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "1"
+    },
+    {
+      "n": 3,
+      "graphs_examined": 8,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "1"
+    },
+    {
+      "n": 4,
+      "graphs_examined": 32,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "5/4"
+    },
+    {
+      "n": 5,
+      "graphs_examined": 128,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "7/6"
+    },
+    {
+      "n": 6,
+      "graphs_examined": 512,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "5/4"
+    },
+    {
+      "n": 7,
+      "graphs_examined": 2048,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "19/16"
+    },
+    {
+      "n": 8,
+      "graphs_examined": 8192,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "5/4"
+    },
+    {
+      "n": 9,
+      "graphs_examined": 32768,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "6/5"
+    },
+    {
+      "n": 10,
+      "graphs_examined": 131072,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "5/4"
+    },
+    {
+      "n": 11,
+      "graphs_examined": 524288,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "29/24"
+    },
+    {
+      "n": 12,
+      "graphs_examined": 2097152,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio_examined": "5/4"
+    }
+  ],
+  "independent_optimum_crosschecks": 683,
+  "independent_expectation_crosschecks": 683,
+  "witness": null,
+  "elapsed_seconds": 20.314495
+}

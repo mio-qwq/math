@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T19:20:22.605099+00:00",
+  "elapsed_seconds": 0.04759109599945077,
+  "programs": 51,
+  "first_action_checks": 1927,
+  "policy_replays": 761,
+  "cases": [
+    {
+      "W": 5,
+      "B": 7,
+      "m": 2,
+      "N": 9,
+      "number_hidden_subsets": 10,
+      "maximum_indegree": 2,
+      "exact_family_ratio": "29/20"
+    },
+    {
+      "W": 5,
+      "B": 8,
+      "m": 2,
+      "N": 10,
+      "number_hidden_subsets": 20,
+      "maximum_indegree": 2,
+      "exact_family_ratio": "59/40"
+    },
+    {
+      "W": 6,
+      "B": 8,
+      "m": 2,
+      "N": 10,
+      "number_hidden_subsets": 15,
+      "maximum_indegree": 2,
+      "exact_family_ratio": "22/15"
+    },
+    {
+      "W": 5,
+      "B": 7,
+      "m": 3,
+      "N": 10,
+      "number_hidden_subsets": 6,
+      "maximum_indegree": 1,
+      "exact_family_ratio": "17/12"
+    }
+  ],
+  "scope": "Selected new B>W+1 parameter cases; prior full audits were not rerun.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "hidden_subset_audit.py": "1ed28f6f0ba1f86c65360cc75d295010b4a434b53949f5a7dc0bc6e5017c779a"
+  }
+}

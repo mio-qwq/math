@@ -120,7 +120,7 @@ Uniform x is hit by any first action containing0 with probability at most (W-1)/
 
 For q>=1 take N4q,B3q,W2q. First3q jobs are roots. Let F={0,...,q-1}, U={q,...,3q-1}; choose a hidden q-subset A of U. Each suffix job has a distinct parent in A. Every optimum has two cycles and unique first action F union A. With M=binom(2q,q), the exact strict randomized minimax ratio on this family is 3/2-1/(2M), and exactly ceil(log2 M) fixed-length pre-decision advice bits suffice and are necessary. The proof counts compatible first actions and gives an explicit three-cycle continuation for every incorrect guessed subset. See the independent review and theory note for the full argument.
 
-Every work-conserving R1 policy inherits the classical Graham bound 2-1/W on the augmented DAG. The theory note gives the full backward-path counting proof and explicit attribution. Combining W2's upper bound3/2 with R7 proves that the **global strict deterministic online minimax ratio at fixed B3,W2 is exactly3/2**. No additive constant is allowed in this definition. The randomized global value at these fixed resources is only bounded between5/4 and3/2 here.
+Every work-conserving R1 policy inherits the classical Graham bound 2-1/W on the augmented DAG. The theory note gives the full backward-path counting proof and explicit attribution. Combining W2's upper bound3/2 with R7 proves that the **global strict deterministic online minimax ratio at fixed B3,W2 is exactly3/2**. No additive constant is allowed in this definition. The initial randomized interval[5/4,3/2] at these resources is now closed by R15 below: the exact strict randomized value is5/4.
 
 ## R10. Compact exact saturation certificate at unrestricted width
 
@@ -190,4 +190,57 @@ Choose the lexicographically least program-index time vector among all optimal c
 
 This is an existence restriction, not arbitrary oldest-inclusive greedy optimality. The four-job B3,W2 online pair still forces a choice of younger job. At B4,W2,E={(1,3),(2,3)}, an optimal two-cycle schedule must omit oldest0 initially, so the hypothesis cannot simply be dropped. Independent restricted-CSP checks cover225 exhaustive small instances plus200 seeded instances and this negative control.
 
-For B3,W2, after choosing the oldest plus any other ready job the optimal continuation returns to a completed-prefix state within at most two cycles. The complete scalar O(N+|E|) recurrence and boundary proof are in theory NARROW_WINDOW_POLICY.md. This simplifies the constant-window DP but does not improve its asymptotic complexity class. The uniform younger-choice online policy is now under investigation; its general5/4 guarantee remains unproved.
+For B3,W2, after choosing the oldest plus any other ready job the optimal continuation returns to a completed-prefix state within at most two cycles. The complete scalar O(N+|E|) recurrence and boundary proof are in theory NARROW_WINDOW_POLICY.md. This simplifies the constant-window DP but does not improve its asymptotic complexity class. The uniform younger-choice online policy is proved sharply5/4 in R15 below.
+
+
+## R15. Sharp randomized scheduling at B=3,W=2
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED + COMPUTATIONALLY_SUPPORTED; conditional scalar induction kernel LEAN_VERIFIED, full ROB/random-policy theorem not Lean verified; NOVELTY_UNCONFIRMED.**
+
+Define R to include the oldest unfinished operation. If all three entries are unfinished and ready, uniformly and independently choose one of the two younger operations; otherwise issue all ready operations. For every fixed finite forward-DAG program, with N instructions, offline optimum F and policy expected time E,
+
+    4E <= N+3F <= 5F.
+
+Therefore the global strict randomized online minimax ratio at these fixed resources is exactly5/4, against an oblivious adversary choosing the complete program in advance. For the empty program the undivided inequality remains true but no ratio is defined.
+
+**General proof.** R14 reduces optimal and policy values to the same completed-prefix scalar recursion, with a minimum for F and an average for E. Let F_i,E_i,n_i be the remaining optimal time, expected time and number of jobs at suffix i; empty suffixes have zero values. Completing one extra prefix job never hurts and doing it alone costs one cycle, so F_i-F_(i+1) is0 or1. Define K_i=3F_i+n_i-4E_i. Descending strong induction jointly proves K_i>=0 and, for a nonempty suffix with F_i=F_(i+1), K_i+K_(i+1)>=1.
+
+Forced macros have nonnegative K increments. Randomized macros have targets p=i+2,q=i+ell, where ell=3 or4, and x=F_p-F_q. The exact K increments above the average of the two tail potentials are -1/2 for(ell,x)=(3,0),1 for(3,1),0 for(4,0)or(4,2), and3/2 for(4,1). The negative row is canceled by the later adjacent-equality invariant. To prove that invariant at i, the forced-singleton case has unequal F; all other forced cases and x1 have K_i>=1. Each remaining randomized case forces either a fixed pair or a good x1 random state at i+1, giving K_(i+1)>=1. The delicate(4,0)case follows from excluding the suboptimal adjacent-pair branch at suffix i+2, forcing a four-job alternative and then two consecutive unit F decreases. All existence, tail and edge implications are given in the complete proof [RANDOMIZED_FIVE_QUARTERS.md](subagents/theory/RANDOMIZED_FIVE_QUARTERS.md), §3, and independently reconstructed in two review reports. No numerical search is used in that induction.
+
+At i=0, K_i>=0 is the first displayed bound; width two gives N<=2F. The four-job pair of R7 has E=5/2,F=2 under R. For every randomized policy, its probabilities of choosing the two distinct uniquely optimal first actions sum to at most1. One fixed program thus has miss probability at least1/2 and expected duration at least5/2. This proves the matching lower bound without an adaptive adversary.
+
+Finite support: all2,796,203 effective local-edge graphs throughN12 were searched exactly. Independent time-variable CSP optima and direct operational policy expectations checked683 nonempty graphs plusempty,3869 suffix occurrences and1232 equal-adjacent cases. They also checked every difficult proof classification. These data are supporting evidence, not the general proof. The equivalent three-quarter guarantee for double-issue cycles is not automatically a theorem about arbitrary online matching models.
+
+`formal/UniformYoungerPotential.lean` verifies the finite joint strong induction and all five local min/mean identities over a common positive integer scale. Ten new declaration audits were actually recompiled by the primary agent. The explicit `MacroShape` interface contains local equations and structural successor classifications; connecting those assumptions to every actual ROB instance, constructing the probability/scale semantics, and the separate work bound remain unformalized. No full-policy Lean claim follows from this conditional kernel.
+
+## R16. A unified hidden-subset family at shallow true depth
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED + COMPUTATIONALLY_SUPPORTED; not Lean verified; NOVELTY_UNCONFIRMED.**
+
+Fix W>=2,1<=m<=W-1,W<B<=2W-m,d>=1 and W-m<=dm. Let N=B+m. The first B jobs are roots, F={0,...,m-1},U={m,...,B-1}. A hidden A subset U of size W-m is partitioned among the m suffix jobs, with each part of size at most d supplying its incoming edges. Empty parts are allowed. True indegree<=d,outdegree<=1,depth<=2.
+
+Every member has optimum two and unique two-cycle first action F union A. The last suffix job's admission requires all F first; all parents require all A first; their union fills width W. Conversely the remaining B-W roots plus m sinks fit the second cycle since B-W+m<=W.
+
+With M=binom(B-m,W-m), the exact promised-family deterministic ratio is3/2, randomized ratio3/2-1/(2M), and fixed-length advice for always-optimal deterministic scheduling is ceil(log2 M) bits before the first decision. Initial observations agree and the M required actions are distinct, giving the counting lower bounds. For attainment, uniformly guess A', issue F union A', then all ready jobs. A correct guess takes two cycles. Otherwise all remaining roots and currently ready sinks fit cycle two, and all blocked sinks fit cycle three. Encoding A gives the advice upper bound. These are family upper bounds and unrestricted-model lower bounds, not unrestricted-model upper bounds.
+
+At B=W+1, M=W+1-m. For W=2q,m=q,d=1, the true graph contains q disjoint edges, yet the randomized lower bound is3/2-1/(2(q+1)), approaching3/2 as the resources grow. At B4,W3,m1,d2 it is4/3. This already prevents extending the B3,W2 value5/4 uniformly to all B=W+1. Proof and reviews: theory ONE_EXTRA_ENTRY_FAMILY and verification WINDOW_PLUS_ONE_FAMILY_REVIEW. Independent checks cover77 single-omission programs/10675 first actions/419 policy replays and51 further unified-family programs/1927 first actions/761 replays.
+
+## R17. Limits of stronger oldest-first and uniform-omission rules
+
+**Status: REFUTED conjectures, exact counterexamples; independent numerical verification; no novelty claim.**
+
+Requiring the oldest W-1 jobs in every full-ready action is already suboptimal at N5,B4,W3,E={(2,4),(3,4)}. Optimum2 uses {0,2,3};{1,4}; including0,1 first forces3 cycles. The valid single-oldest normalization R14 is unaffected.
+
+The policy that always includes oldest and uniformly omits one younger job when all B=W+1 jobs are ready does not have ratio4/3 at B4,W3. On N9,E={(1,4),(2,4),(2,5),(5,8)}, optimum3 uses {0,1,2};{3,4,5};{6,7,8}. The policy has duration3 with probability1/9,4 with probability2/3,and5 with probability2/9. Thus E=37/9 and E/T*=37/27>4/3. Exact independent CSP and operational probability-tree checks agree. The prior exhaustive N<=8 search contains no smaller counterexample to this specific policy, in the effective local-edge graph encoding. This refutes a policy guarantee, not the possibility that another online policy achieves4/3.
+
+In fact no fixed younger-rank probability vector, independent of length, operands, position and history, can guarantee4/3. The three N5 hidden-pair programs force all three omission probabilities to be1/3 if that bound is to hold, but the N9 example then violates it. The four-input minimax within this restricted fixed-vector class is (13+sqrt(73))/16; see theory WIDER_POLICY_COUNTEREXAMPLE §4. This is not a lower bound above4/3 for fully adaptive online policies.
+
+## R18. The same sharp ratios with an additive constant
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED; general random observation/probability argument not Lean verified; NOVELTY_UNCONFIRMED.**
+
+At fixed B3,W2, the optimal randomized factor remains5/4 and the deterministic factor remains3/2 in the definition E[T(P)]<=cT*(P)+alpha, with fixed finite input-independent alpha. This is not inferred just from the earlier finite witness.
+
+For q>=1 concatenate q four-job blocks (a_k,b_k,c_k,d_k)=(4k,4k+1,4k+2,4k+3), each with hidden parent b_k or c_k for d_k. Give each of the three roots of the next block two true predecessors c_k,d_k. Every true indegree is at most two. Window edges automatically supply the missing a_k,b_k precedences, so every instruction of a new block must wait for the entire preceding block to finish. There are no extra separator instructions or cycles. Issuing a_k and the hidden parent, then the remaining two jobs, proves T*=2q.
+
+Under independent uniform hidden bits chosen in advance, each block's d_k remains unadmitted at its first decision. Its bit is still uniform conditioned on all previous history and policy random state. The two distinct successful first batches have total probability at most1, hence expected duration at least5/2 per block. Some fixed length4q input has E[T]>=5q/2. Letting q grow rules out c<5/4 even with alpha. For deterministic policies, recursively select the missed hidden parent per block; this specifies one fixed input with T>=3q. Existing strict upper bounds match both. Full proof: [REPEATED_GADGETS.md](REPEATED_GADGETS.md); independent theory and verification reviews saved separately. `formal/RepeatedGadgets.lean` now verifies the exact true graph (indegree<=2), arbitrary-q block separation, hidden-job admission barrier, forced first jobs in a two-cycle block, the explicit schedule, and actual-model optimum2q including q0. This is a closed structural theorem, not a conditional DP interface; its probability/online semantics extension remains unformalized. Product-distribution/direct-sum methods are classical.

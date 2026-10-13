@@ -37,8 +37,51 @@ the left endpoint. This is a fixed-tolerance resource tradeoff.
 `NARROW_WINDOW_POLICY.md` proves an oldest-inclusive optimal-schedule
 normalization for `B=W+1` using lexicographic minimality over all optimal
 schedules, and a scalar exact recurrence for `B=3,W=2`. A uniform binary
-randomized policy is now a concrete test target for the unresolved global
-randomized interval `[5/4,3/2]`; no `5/4` upper bound is assumed.
+randomized policy was tested against the initially unresolved global
+randomized interval `[5/4,3/2]`.
+The first actual exhaustive policy search covers all 2,796,203 effective
+graphs through 12 vertices, with no ratio above `5/4`, and independent
+optimal/expected-time crosschecks on 683 graphs through six vertices.
+This remains computational evidence only. A separate arbitrary-size proof
+is now written in `RANDOMIZED_FIVE_QUARTERS.md`: it establishes
+`4E<=N+3F<=5F` by a two-part descending induction on
+`K_i=3F_i+n_i-4E_i`, with auxiliary inequality
+`F_i=F_(i+1) => K_i+K_(i+1)>=1` restricted to nonempty suffixes.
+This proves the fair policy's `5/4` bound and, with the established
+four-job lower bound, the exact global randomized minimax ratio `5/4`.
+Status is WRITTEN_PROOF and INDEPENDENTLY_REVIEWED: verification commit
+`8566370336bd87985b5a3296725c70b426450e3e` saves a separate reconstruction
+and independently generated finite checks of the auxiliary invariant.
+No Lean or historical originality claim is made by this directory.
+
+`ONE_EXTRA_ENTRY_FAMILY.md` then refutes the attempted stronger
+oldest-`W-1` normalization: `B=4,W=3,N=5`, true edges `3->5,4->5`,
+requires omitting job 2 in every two-cycle schedule. A hidden-omission
+family at `B=W+1` has exact randomized family minimax
+`3/2-1/[2(W+1-m)]`, with maximum indegree `d` whenever `W-m<=dm`.
+In particular, `W=2q,m=q,d=1` gives a global lower bound tending to
+`3/2` on disjoint-edge graphs despite a window only one larger than
+issue width. This is a written proof with independent review underway.
+The unified hidden-cover extension in the same note subsumes the earlier
+binomial family and has now been independently reviewed in verification
+commit `71d0ba7509ac193ae4686f41d37dc1eefc636ea9`.
+
+The `B=4,W=3` uniform-younger-omission `4/3` conjecture is now REFUTED.
+After exact search over all 299,595 effective graphs through eight
+vertices, a nine-job graph with edges `2->5,3->5,3->6,6->9` gives
+optimum three and exact expectation `37/9`, ratio `37/27>4/3`.
+`WIDER_POLICY_COUNTEREXAMPLE.md` records the full nine-branch probability
+tree, scope of computational minimum-length evidence, and a proof that
+no fixed rank bias can guarantee `4/3`. The global minimax value for
+fully adaptive policies is still unresolved. The four-input restricted
+fixed-bias minimax is exactly `(13+sqrt(73))/16`; this is not a bound
+for all online policies.
+
+`REPEATED_GADGET_REVIEW.md` independently accepts the main agent's
+no-extra-cycle block construction. It establishes randomized `5/4`
+and deterministic `3/2` lower bounds at `B=3,W=2` even when an
+input-independent additive constant is allowed. Cross-block admission,
+information leakage, and history dependence were explicitly reviewed.
 
 `ONLINE_LOWER_BOUND.md` proves a family of `binomial(2q,q)` indistinguishable
 programs with exact randomized minimax ratio tending to `3/2` and exact
@@ -48,8 +91,8 @@ to a shorter chain and explicit sharper ratio. The single-hidden-root chain
 family has exact deterministic/randomized minimax and advice formulas.
 A separately attributed proof of the classical Graham non-delay bound
 combines with the four-job pair to give the exact **global** deterministic
-online minimax ratio `3/2` at `B=3,W=2`; a global randomized matching bound
-remains open in this work.
+online minimax ratio `3/2` at `B=3,W=2`. The newly written randomized
+matching upper bound is in the separate note just described.
 
 Correctness labels: WRITTEN_PROOF and finite computational checks. Independent
 verification and literature agents have separately agreed with the online
@@ -85,7 +128,8 @@ not replace the arbitrary-size proofs.
    indistinguishability argument in the central dedicated Lean project.
 4. Study epsilon-sufficient resources after the layered family shows how
    unstable an exact saturation threshold can be despite tiny timing loss.
-5. Seek a matching **global** online competitive upper bound; exact minimax
-   values in the explicit families are not global guarantees.
+5. Formalize the reviewed **global** randomized `5/4` upper bound for
+   `B=3,W=2`; review and generalize the new larger-width hidden-omission
+   family, and seek global upper bounds for those narrow windows.
 
 No shared files, main-branch files, or other researchers' files were edited.

@@ -1,7 +1,7 @@
 {
-  "source_sha256": "8d10fd46bd5e72adb7d23b4aee4a00973bceb74ba5f832aca1d1a87a927f5ce4",
-  "pdf_sha256": "3b0ae59cf4bf9e154562d0b25d6972ff2c3f5dd7267eab91534a16a6410dbc02",
-  "pdfinfo": "Title:           Exact Resource Thresholds and Information Limits in a Unit-Latency Reorder-Buffer Model\nSubject:         ILP1-20261014 research draft; originality unconfirmed\nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref\nProducer:        pdfTeX-1.40.25\nCreationDate:    Tue Oct 13 21:58:06 2026 +03\nModDate:         Tue Oct 13 21:58:06 2026 +03\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           7\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       290740 bytes\nOptimized:       no\nPDF version:     1.5\n",
+  "source_sha256": "3d329a5fa100da0e254c042a8d774d3547149f9c00454bb20db328ef6d0767d4",
+  "pdf_sha256": "e2e1c3225dbda25d2175d1e4f16e78a56640d7bf0e3fe38e577e1e2c3abac343",
+  "pdfinfo": "Title:           Exact Resource Thresholds and Information Limits in a Unit-Latency Reorder-Buffer Model\nSubject:         ILP1-20261014 research draft; originality unconfirmed\nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref\nProducer:        pdfTeX-1.40.25\nCreationDate:    Tue Oct 13 22:38:41 2026 +03\nModDate:         Tue Oct 13 22:38:41 2026 +03\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           10\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       322889 bytes\nOptimized:       no\nPDF version:     1.5\n",
   "build_status": "PASS",
   "visual_review": "Recorded separately; compilation alone is not visual QA."
 }

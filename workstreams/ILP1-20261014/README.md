@@ -8,7 +8,8 @@ This workstream studies optimal instruction-level parallelism for a fixed progra
 * Exact optimal schedules are produced by two independently coded Python methods and an executable, proved-correct Lean enumerator. The Python implementations are not themselves formally verified.
 * At fixed widths2 and3, a two-input family has exact sufficient windows N and3 respectively. This example loses only one cycle at a small window, so exact saturation must not be confused with a large performance benefit.
 * A different chain-prefix family has an exact approximate-saturation formula and requires a window linear in N for fixed tolerance epsilon<1/W. True indegree and outdegree are at most one.
-* A universally optimal online policy exists exactly when W=1 or W>=B under the explicitly hidden-future observation model. The general theorem has independent written review; the four-job arbitrary-policy obstruction is Lean verified.
+* A universally optimal online policy exists exactly when W=1 or W>=B under the explicitly hidden-future observation model. At B3,W2 the exact strict randomized online ratio is5/4, attained by a simple fair younger-choice policy with general inequality4E<=N+3T*. The general proof has independent review, and a separate two-input repetition proof extends the sharp factors to definitions with an additive constant. The complete ROB/randomized semantics bridge is not yet Lean verified.
+* A hidden-subset family gives exact family randomized/advice bounds already at true depth two. At B4,W3, the natural uniform-omission extension exceeds4/3 on a nine-job counterexample; a general optimal policy for these larger resources remains unresolved.
 
 These are mathematical results within R1. Their correctness, formalization, independent review and originality are recorded separately. No historical-first claim is made.
 
@@ -21,7 +22,7 @@ These are mathematical results within R1. Their correctness, formalization, inde
 * [STATUS.md](STATUS.md), [HANDOFF.md](HANDOFF.md), [PROBLEMS.md](PROBLEMS.md): evidence, recovery and next questions.
 * `src/rob.py`: memoized exact state search. `src/checker.py`: independent operational replay and Bellman certificate checking. `src/resources.py`: compact unrestricted-width window-saturation certificates.
 * `subagents/verification/constraint_solver.py`: independent exact time-assignment method.
-* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair and resource proofs. `subagents/formal-dp/`: general Bellman and search theorems.
+* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair, resource proofs and a conditional randomized-potential kernel. `subagents/formal-dp/`: general Bellman/search theorems and independent reviews. Current fresh audits cover136 distinct declarations; that count does not turn the conditional kernel into a full ROB policy proof.
 
 From this directory:
 

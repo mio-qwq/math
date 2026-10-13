@@ -16,6 +16,10 @@ No historical-first or publication-readiness claim is made. Correctness, Lean co
 | Hidden-chain resource-dependent loss/advice | Full written proof; independent review | Same unresolved novelty boundary |
 | Fixed widths2 to3 reduce exact sufficient window fromN to3 | Full arbitrary-size proof; two independent reviews; finite checks | NOVELTY_UNCONFIRMED; prior resource trade-offs preclude broad first-idea claims |
 | Depth-two exact saturated-width curve | Written proof; independent review and exhaustive family checks | NOVELTY_UNCONFIRMED |
+| Sharp randomized5/4 bound at B3,W2 | General joint proof; two independent mathematical reviews; finite audits | NOVELTY_UNCONFIRMED; matching/revelation equivalence search still needed |
+| Unified hidden-subset family, including B=W+1 with indegree bounds | Written proof; independent review and independent CSP checks | Counting/advice method classical; exact ordered-window instances unconfirmed |
+| Separator-free two-input repetition at B3,W2 | General written proof; independent theory and verification review | Product/direct-sum methods classical; exact ROB composition unconfirmed |
+| Nine-job failure of width-three uniform omission | Exact rational counterexample; independent probability-tree replay | Modest policy counterexample; no historical priority claim |
 | Chain-prefix exact epsilon-window formula, linear necessary window and robust single-slot collapse | Written proof; independent verification and literature reviewer agreement | NOVELTY_UNCONFIRMED; head-of-line blocking is a known phenomenon |
 
 Do not claim that two-input instructions make the general scheduling problem easy. They impose at most two true producers per job but not a bounded number of consumers; window edges can add many predecessors. The hard resource/online examples here already have true indegree at most two, and the online dichotomy needs only a single path plus isolated jobs. Conversely, no new NP-hardness theorem is proved.
@@ -23,3 +27,6 @@ Do not claim that two-input instructions make the general scheduling problem eas
 The main current candidates are precise resource thresholds and the separation of offline optimization from universal finite-information optimality. The layered exact-window collapse has only a one-cycle performance penalty at small windows; R13 was developed specifically to test robustness under fixed positive tolerance. Whether these results merit publication depends on deeper equivalence searches, stronger general results, and formalization. Independent AI review is not human peer review.
 
 Next novelty queries should target bounded lookahead DAG scheduling, FIFO storage constraints, hidden-successor revelation, advice complexity and repeated finite-window adversaries. Publication authorship, licensing, submission and DOI decisions remain unset.
+
+
+The targeted follow-up [NARROW_ONLINE_NOVELTY.md](subagents/literature/NARROW_ONLINE_NOVELTY.md) found classical two-machine scheduling/matching connections and recent related random-matching results, but no checked implication covering R15. A three-quarter double-issue pairing guarantee is not merely a generic two-neighbor random-matching guarantee: readiness and contiguous retirement matter. The general5/4 proof is complete and independently reviewed; its full Lean model bridge and its historical novelty are separate open tasks.

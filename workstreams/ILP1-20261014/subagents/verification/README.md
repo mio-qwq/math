@@ -37,6 +37,11 @@ python followup_audit.py --primary-directory ../../src
 python saturation_drop_audit.py
 python approximate_saturation_audit.py
 python one_slot_oldest_audit.py
+python randomized_bound_audit.py
+python window_plus_one_family_audit.py
+python hidden_subset_audit.py
+python wider_policy_independent.py
+python repeated_pair_audit.py
 ```
 
 The optional `--primary-directory` cross-check imports the separately written
@@ -79,6 +84,26 @@ solver implementation. The report records the exact primary source hashes used.
   lexicographic proof of oldest-inclusive optimal schedules at `B=W+1`
   (225 exhaustive small cases, 200 seeded cases, and an outside-domain negative
   control).
+- `RANDOMIZED_BOUND_REVIEW.md` and `randomized_bound_results.json`: independent
+  arbitrary-size review of the sharp `5/4` randomized online bound at `B=3,W=2`,
+  using a joint potential invariant. The new invariants and fragile local
+  implications were also checked on 684 effective graphs including the empty
+  graph, using time-variable CSP optima and direct ROB policy expectations.
+- `WINDOW_PLUS_ONE_FAMILY_REVIEW.md` and `window_plus_one_family_results.json`:
+  exact hidden-omission family ratio at `B=W+1`, including matching graphs with
+  randomized lower bounds approaching `3/2`; 77 programs, 10,675 first-action
+  checks, and 419 direct policy replays.
+- The same review's hidden-subset extension and `hidden_subset_results.json`:
+  selected new `B>W+1` cases, with 51 programs, 1,927 first-action checks,
+  and 761 policy replays.
+- `WIDER_POLICY_COUNTEREXAMPLE_REVIEW.md` and `wider_policy_independent_results.json`:
+  a nine-job `B=4,W=3` counterexample with exact expected ratio `37/27>4/3`,
+  independently checked by CSP and its complete nine-leaf ROB probability tree.
+  The report also preserves the earlier finite random support and failed potential.
+- `REPEATED_PAIR_REVIEW.md` and `repeated_pair_results.json`: independent proof
+  review of the barrier-separated family that makes the `5/4` randomized and
+  `3/2` deterministic lower bounds robust to additive constants; 127 bit-string
+  programs and an exact six-block probability tree.
 
 All finite checks passed. These reports do not constitute arbitrary-size Lean
 proofs. This subagent has not run Lean or made originality claims.

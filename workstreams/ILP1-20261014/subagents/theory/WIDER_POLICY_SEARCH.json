@@ -1,0 +1,69 @@
+{
+  "status": "NO_COUNTEREXAMPLE_IN_FINITE_RANGE",
+  "B": 4,
+  "W": 3,
+  "candidate_ratio": "4/3",
+  "source_sha256": "49126292496e3f8d3174e2f8b36ada45e8b38c8c526fbb08fa1e86bd2d478ba8",
+  "python": "3.12.14",
+  "graphs_by_n": [
+    {
+      "n": 1,
+      "graphs_examined": 1,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "1",
+      "worst_mask": 0
+    },
+    {
+      "n": 2,
+      "graphs_examined": 2,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "1",
+      "worst_mask": 0
+    },
+    {
+      "n": 3,
+      "graphs_examined": 8,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "1",
+      "worst_mask": 0
+    },
+    {
+      "n": 4,
+      "graphs_examined": 64,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "1",
+      "worst_mask": 0
+    },
+    {
+      "n": 5,
+      "graphs_examined": 512,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "4/3",
+      "worst_mask": 192
+    },
+    {
+      "n": 6,
+      "graphs_examined": 4096,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "4/3",
+      "worst_mask": 128
+    },
+    {
+      "n": 7,
+      "graphs_examined": 32768,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "11/9",
+      "worst_mask": 1035
+    },
+    {
+      "n": 8,
+      "graphs_examined": 262144,
+      "all_local_graphs_exhausted": true,
+      "largest_ratio": "35/27",
+      "worst_mask": 98432
+    }
+  ],
+  "witness": null,
+  "elapsed_seconds": 3.874363,
+  "scope": "Tests this policy only; no global minimax upper bound is established."
+}

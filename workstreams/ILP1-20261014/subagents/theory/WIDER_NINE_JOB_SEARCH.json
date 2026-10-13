@@ -1,0 +1,36 @@
+{
+  "status": "COUNTEREXAMPLE",
+  "n": 9,
+  "B": 4,
+  "W": 3,
+  "graphs_examined": 262849,
+  "all_local_graphs_exhausted": false,
+  "largest_ratio": "37/27",
+  "worst_mask": 262848,
+  "witness": {
+    "edges_one_based": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "mask": 262848,
+    "optimum": 3,
+    "expected": "37/9",
+    "ratio": "37/27"
+  },
+  "elapsed_seconds": 3.829887,
+  "source_sha256": "49126292496e3f8d3174e2f8b36ada45e8b38c8c526fbb08fa1e86bd2d478ba8"
+}

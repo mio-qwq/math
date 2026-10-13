@@ -1,0 +1,61 @@
+{
+  "started_utc": "2026-10-13T19:20:54.785320+00:00",
+  "runner_sha256": "85782229acddcdb1c58a23bebdab5ddd41fa080bf7abfa0a8520cea69232b51d",
+  "mathlib": null,
+  "proc_self_compat": true,
+  "compilations": [
+    {
+      "source": "UniformYoungerPotential.lean",
+      "source_sha256": "9e5265433d856728fc3540cfd62fbd078636570f431f29b81e1b71bf776a2a28",
+      "elapsed_seconds": 1.487645,
+      "exit_code": 0,
+      "axiom_audits": {
+        "ILP1.UniformYoungerPotential.joint_invariant": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.scaled_expected_bound": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.scaled_five_quarters": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.scaled_length_sub": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.forced_potential_identity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.choice_three_equal_identity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.choice_three_one_identity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.choice_four_equal_identity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.choice_four_one_identity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.UniformYoungerPotential.choice_four_two_identity": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "unexpected_axioms": []
+    }
+  ],
+  "compat_source_sha256": "4df4d8a976819f90b21908ba966bdebe3a997847807226113f961915e55bfb50",
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "completed_utc": "2026-10-13T19:20:56.353133+00:00",
+  "status": "PASS"
+}

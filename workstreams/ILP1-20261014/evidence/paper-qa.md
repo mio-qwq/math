@@ -1,10 +1,10 @@
 # Paper build and visual review
 
 Primary-agent review on 13 October2026 UTC /14 October Asia/Singapore.
-PDF: paper/ilp1-research-draft.pdf,7 A4 pages.
-Source SHA256: 8d10fd46bd5e72adb7d23b4aee4a00973bceb74ba5f832aca1d1a87a927f5ce4
-PDF SHA256: 3b0ae59cf4bf9e154562d0b25d6972ff2c3f5dd7267eab91534a16a6410dbc02
+PDF: paper/ilp1-research-draft.pdf,10 A4 pages.
+Source SHA256: 3d329a5fa100da0e254c042a8d774d3547149f9c00454bb20db328ef6d0767d4
+PDF SHA256: e2e1c3225dbda25d2175d1e4f16e78a56640d7bf0e3fe38e577e1e2c3abac343
 
-Two pdflatex passes succeeded. Build checks reject overfull horizontal/vertical boxes and undefined references. Poppler rendered all7 pages; the primary agent inspected a full contact sheet, full-size equation/table pages4 and6, the updated bibliography page7, and the final revised abstract page1. No clipping, overlap, missing mathematical symbols or unreadable layout defects were found. Page numbers and references are present. Intermediate PNGs were kept outside the repository and are reproducible with pdftoppm.
+Two pdflatex passes succeeded. Build checks reject overfull boxes and undefined references. Poppler rendered all10 pages; all final PNGs decoded successfully. Truncated intermediate PNGs were rerendered rather than accepted. The primary agent inspected the final contact sheet and full-size pages1,8,10, plus the detailed potential proof and evidence table in the preceding render (pages7,9). No clipping, overlap, missing mathematical symbols or unreadable layout defects were found. Standard small bibliography text removed a two-line overflow page; the final document has10 pages and all references remain legible. Intermediate images are outside the repository and reproducible with pdftoppm.
 
-Independent mathematical review is subagents/formal-dp/PAPER_REVIEW.md. Its B_sat=1 certificate correction and all three nonblocking wording/reference suggestions were accepted. Later changes after the review hash were limited to those accepted wording/reference edits. This QA is not a novelty or human-peer-review claim. No publication author list or new license was assigned.
+Independent mathematical reviews: subagents/formal-dp/PAPER_REVIEW.md and UNIFORM_POTENTIAL_REVIEW.md; the repeated construction has separate independent theory and verification reports, and its arbitrary-size Lean structure has REPEATED_GADGETS_LEAN_REVIEW.md. Later changes state actual formal scope, add the reviewed repetition and hidden-subset results, preserve the exact nine-job policy counterexample, and update the136 endpoint count. This is draft QA and independent-agent review, not a novelty or human-peer-review claim. No publication author list or new license was assigned.

@@ -34,7 +34,10 @@ only one extra cycle at window two, highlighting the distinction between
 exact and approximate saturation. A separate chain-prefix family has linear
 window requirements even at fixed positive relative tolerance. Under a precise hidden-future information
 model, a universally optimal online policy exists exactly when $W=1$ or
-$W\ge B$. Lean 4.34.1 verifies the operational reduction, existence of an
+$W\ge B$. At $B=3,W=2$, a simple randomized policy has the sharp strict
+ratio $5/4$, proved by a joint potential invariant. A two-input repeated
+construction preserves this lower bound with an additive constant.
+Lean 4.34.1 verifies the operational reduction, existence of an
 optimum, an executable exact enumeration algorithm, resource caps, Bellman
 certificates, and a four-job arbitrary-policy online obstruction. General
 resource families and online classifications have independent written review
@@ -377,9 +380,235 @@ $E=\{2\to3\}$ force distinct optimal initial batches $\{0,1\}$ and
 $\{0,2\}$. Every deterministic policy has ratio at least $3/2$ on one.
 Graham's $2-1/W$ bound applies to every non-delay policy on the augmented
 DAG, proving the global strict deterministic minimax ratio is exactly
-$3/2$ at these resources. The global randomized value is only bounded
-between $5/4$ and $3/2$ here. These ratios allow \emph{no additive constant};
-finite witnesses alone do not settle an asymptotic definition that does.
+$3/2$ at these resources. The next section sharpens the global randomized
+value to exactly $5/4$. The finite witnesses establish strict ratios with
+\emph{no additive constant}. A separate repeating construction below
+also settles the definition allowing a fixed additive constant.
+
+\section{The sharp randomized bound at a three-entry window}
+Fix $B=3,W=2$. Policy R always issues the oldest unfinished operation.
+When all three window entries are unfinished and ready, it chooses one of
+the two younger operations uniformly, using fresh randomness. Otherwise it
+issues all ready jobs. The following bound applies to every fixed program;
+it does not give the adversary access to realized random choices.
+
+\begin{theorem}[Sharp randomized guarantee]
+Let $F$ be the offline optimum, and $E$ the expected duration of R. Then
+\[
+ 4E\le N+3F\le5F.
+\]
+For nonempty inputs the global strict randomized online minimax ratio at
+these resources is exactly $5/4$ against an oblivious adversary.
+\end{theorem}
+We give the complete upper-bound argument. The preceding four-job pair
+supplies the lower bound: under the uniform distribution over its two
+fixed programs, any initial action succeeds in two cycles with probability
+at most $1/2$. Thus some fixed input has expected duration at least $5/2$
+and optimum two.
+
+First, when $B=W+1$, some optimal non-delay schedule includes the oldest
+unfinished job every cycle. Choose the lexicographically least time vector
+among all optimal schedules. It is non-delay because a ready job can move
+into any unused issue slot. If oldest $a$ is omitted, all $W$ other window
+entries must issue; retirement stalls and the next cycle issues only $a$.
+Swap $a$ with any job of the first batch. The two-cycle endpoint is unchanged
+and the time vector decreases, a contradiction. The swapped schedule need
+not itself be non-delay: the minimum was over all optimal schedules.
+
+For a completed-prefix state beginning at index $i$, let $F_i,E_i$ be its
+optimal and expected remaining times, and $n_i=\max(0,N-i)$. Beyond the
+program all three quantities are zero. Write $a=i,b=i+1,c=i+2,d=i+3$,
+omitting nonexistent jobs. If just $a$ is ready, advance one job in one
+cycle. If only younger job $b$ is ready, advance two jobs in one cycle.
+Issuing $a,c$ forces a second cycle with $b$ and, if ready, $d$. This
+advances $\ell=4$ jobs if $d$ exists and $b\to d$ is absent, otherwise
+$\ell=3$. When both younger jobs are ready, optimality takes the minimum
+of the two macro-actions $(1,i+2)$ and $(2,i+\ell)$; R takes their average.
+The normalization just proved establishes completeness of this recurrence.
+
+We also have $0\le F_i-F_{i+1}\le1$: completing an additional prefix job
+cannot harm a continuation, while issuing oldest alone costs one cycle.
+Define
+\[
+ K_i=3F_i+n_i-4E_i.
+\]
+We prove jointly, by descending induction, that $K_i\ge0$, and that
+\[
+ i<N,\quad F_i=F_{i+1}\quad\Longrightarrow\quad K_i+K_{i+1}\ge1.
+ \tag{*}
+\]
+The restriction $i<N$ excludes two empty suffixes. At the final job,
+$F_i=E_i=n_i=1$, hence $K_i=0$ and the equality antecedent is false.
+
+A forced macro-action advancing $\ell$ jobs in $z$ cycles gives
+$K_i=\ell-z+K_{i+\ell}$. The increments for $(\ell,z)=(1,1),(2,1),
+(3,2),(4,2)$ are $0,1,1,2$. In a randomized state put
+$p=i+2,q=i+\ell,x=F_p-F_q$. Direct substitution gives
+\[
+\begin{array}{c|c|c}
+\ell&x&K_i\\\hline
+3&0&(K_p+K_q)/2-1/2\\
+3&1&(K_p+K_q)/2+1\\
+4&0\text{ or }2&(K_p+K_q)/2\\
+4&1&(K_p+K_q)/2+3/2
+\end{array}
+\]
+These exhaust the possibilities because each consecutive $F$ difference
+is zero or one. Every row is nonnegative by the tail induction hypothesis,
+except possibly $\ell=3,x=0$. There $p$ is nonempty, $q=p+1$ and
+$F_p=F_q$, so tail invariant (*) cancels the negative half. This proves
+$K_i\ge0$ before proving (*) at the same index.
+
+For (*), a forced singleton would give $F_i=1+F_{i+1}$, excluding its
+antecedent. All other forced cases and the randomized cases $x=1$ give
+$K_i\ge1$. It remains to handle three randomized cases, with $a,b,c$
+all present and ready, hence with no true edges among them.
+
+If $\ell=3,x=0$, then $F_c=F_d$. Job $d$ must exist, since $c$ is nonempty
+and has positive value. The edge $b\to d$ therefore exists. At the suffix
+beginning at $b$, only younger job $c$ is ready, so
+$K_b=1+K_d\ge1$. Together with $K_a\ge0$ this proves (*).
+
+If $\ell=4,x=2$, put $e=i+4$. Then $F_c=F_d+1=F_e+2$. Without the edge
+$c\to d$, the legal first pair $c,d$ would give $F_c\le1+F_e$, a
+contradiction. Thus $c\to d$ exists, and at suffix $b$ only younger job
+$c$ is ready. Again $K_b=1+K_d\ge1$.
+
+Finally suppose $\ell=4,x=0$, so $F_c=F_e$. If $c\to d$ exists the
+preceding argument applies. Otherwise the pair $c,d$ is legal but costs
+$1+F_e>F_c$. The recurrence forces the alternative $c,e$ to exist, be
+ready and be optimal. In particular $c\to e$ and $d\to e$ are absent.
+Its two-cycle target is $u\in\{e+1,e+2\}$ with $2+F_u=F_e$.
+The one-step difference bound excludes $u=e+1$, so
+\[
+ F_e-F_{e+1}=F_{e+1}-F_{e+2}=1,\qquad F_d=F_e.
+\]
+At suffix $b$, all $b,c,d$ are ready. Its second macro-action $b,d$
+also issues $e$ next cycle because $c\to e$ is absent. Its targets are
+$d,e+1$, whose optimal values differ by one. This is the good
+$\ell=4,x=1$ row, so $K_b\ge3/2$. This completes (*) and the induction.
+
+At the initial state, $K_0\ge0$ gives $4E\le N+3F$. Width two gives
+$N\le2F$, finishing the upper bound. On each member of the four-job pair,
+R has $E=5/2,F=2$, attaining equality. Equivalently, R achieves in
+expectation at least three quarters of the optimum number of double-issue
+cycles. This pairing interpretation does not by itself establish an
+equivalence to an arbitrary online matching model.
+
+The general statement above has written proof and independent review.
+Lean verifies its conditional joint-induction kernel and each local
+min/mean potential identity. The remaining interface contains nine local
+macro classifications and their structural successor equations; these
+are not assumed nonnegativity conclusions. The connection from all ROB
+programs to this interface, and the probability/scale semantics, are not
+yet formalized. A prior exhaustive search of 2,796,203 effective local-edge
+graphs through $N=12$ found no counterexample; it is supporting evidence,
+not the proof. Historical novelty of the exact bound remains unconfirmed.
+
+\section{Repeating the obstruction without separator cycles}
+\begin{theorem}[Lower bounds with additive constants]
+At $B=3,W=2$, the best randomized competitive factor against oblivious
+inputs is $5/4$, even in the definition
+$\mathbb E[T(P)]\le c\T(P)+\alpha$ with a fixed finite additive constant
+$\alpha$. The deterministic factor in the same definition is $3/2$.
+The lower-bound inputs have true indegree at most two.
+\end{theorem}
+\begin{proof}
+For $q\ge1$, concatenate blocks
+$(a_k,b_k,c_k,d_k)=(4k,4k+1,4k+2,4k+3)$, $0\le k<q$.
+Within each block $d_k$ depends on a hidden choice $x_k\in\{b_k,c_k\}$.
+For $k>0$, each of $a_k,b_k,c_k$ has exactly the two true predecessors
+$c_{k-1},d_{k-1}$. All indices remain forward and true indegrees are at
+most two.
+
+The first job of a new block has artificial predecessors $a_{k-1},b_{k-1}$
+and true predecessors $c_{k-1},d_{k-1}$. For the next job, window edges
+already cover the first three previous jobs and its true edge covers the
+fourth; for the third job, window edges cover all four. Thus no job of
+the new block can issue before all jobs of the previous block complete.
+This is strict cycle separation without a separator job or extra cycle.
+Every block needs at least two cycles by width, and the batches
+$\{a_k,x_k\}$ followed by the other root and $d_k$ attain two.
+Consequently the offline optimum is $2q$.
+
+Choose the hidden bits independently and uniformly before execution.
+Before the first block action, $d_k$ is unadmitted because $a_k$ has not
+retired. Earlier visible operands reveal no information about $x_k$;
+future roots refer only to the fixed identities $c_k,d_k$. Conditional
+on every previous observation and all policy random state, the current
+bit is therefore still fair. Completion in two cycles forces one of the
+two distinct first actions $\{a_k,b_k\}$ or $\{a_k,c_k\}$, according to
+the hidden bit. Success probability is at most one half; every failure,
+including idle or underfilled first choices, needs at least three cycles.
+Separation and linearity of expectation give average duration at least
+$5q/2$. For every $q$ there is thus a fixed input with expected duration
+at least $5q/2$ and optimum $2q$. The inequality
+$5q/2\le2cq+\alpha$ for every $q$ forces $c\ge5/4$.
+
+For a deterministic policy, select each still-hidden bit to disagree
+with its first action. This recursively determines one fixed complete
+program, since the action cannot yet depend on that bit. Every block
+needs at least three cycles, proving $3q\le2cq+\alpha$ and $c\ge3/2$.
+This argument is only for deterministic policies; the randomized proof
+used the oblivious product distribution. The preceding strict upper
+bounds complete both equalities.
+\end{proof}
+The product-distribution and direct-sum methods are classical. Historical
+priority of the exact two-input ROB composition is unconfirmed. The
+general composition has two independent written reviews. Lean verifies
+its true indegree bound, arbitrary-block separation, exact offline value
+$2q$, and hidden-job admission barrier in the actual ROB model, including
+$q=0$. Conditioning on observation histories and the probabilistic lower
+bound are still written arguments.
+
+\section{Larger windows and a failed policy extension}
+\begin{proposition}[A hidden-subset family]
+Let $W\ge2$, $1\le m\le W-1$, $W<B\le2W-m$, and let $d\ge1$ satisfy
+$W-m\le dm$. There is a family of
+$M=\binom{B-m}{W-m}$ programs with $N=B+m$, true indegree at most $d$,
+outdegree at most one and depth at most two, on which the exact randomized
+minimax ratio is $3/2-1/(2M)$. Exactly $\lceil\log_2M\rceil$ bits of
+fixed-length pre-decision advice are necessary and sufficient for a
+deterministic policy always to be optimal within this promised family.
+\end{proposition}
+\begin{proof}
+The first $B$ jobs are roots. Put $F=\{0,\ldots,m-1\}$ and
+$U=\{m,\ldots,B-1\}$. Choose a hidden subset $A\subset U$ of size $W-m$
+and partition it among the $m$ suffix jobs, each with at most $d$ parents.
+Empty parts are allowed. All initial observations agree. Any two-cycle
+completion must issue $F$ first to admit the last job, and $A$ first to
+satisfy every suffix dependency. Thus its first action is uniquely
+$F\cup A$, filling width $W$. Conversely the remaining $B-W$ roots and
+$m$ suffix jobs fit cycle two. The optimum is two.
+
+The $M$ distinct required actions give success probability at most $1/M$
+under uniform hidden input, and therefore expected duration at least
+$3-1/M$ on some fixed input. Guessing $A'$ uniformly attains this value:
+issue $F\cup A'$, then every remaining root and ready suffix job, which
+fit because $B-W+m\le W$. On a wrong guess the blocked sinks all fit
+cycle three. Advice needs $M$ messages to distinguish the first actions,
+and encoding $A$ suffices. This is the classical distinguishability
+counting argument applied to this family.
+\end{proof}
+The attaining policy is promised the family; this is a global-model lower
+bound, not a global upper bound. At $B=W+1$, $M=W+1-m$.
+Taking $W=2q,m=q,d=1$ gives a disjoint-edge true graph and lower bound
+$3/2-1/(2(q+1))$, tending to $3/2$ as the resources grow. This is distinct
+from an asymptotic input-length claim at fixed resources.
+
+At $B=4,W=3$, uniform omission of one younger job when all four are ready
+does not guarantee $4/3$. For $N=9$ with zero-based true edges
+\[
+ \{1\to4,\ 2\to4,\ 2\to5,\ 5\to8\},
+\]
+the optimum is three, attained by
+$\{0,1,2\};\{3,4,5\};\{6,7,8\}$. The uniform policy has durations
+three, four and five with probabilities $1/9,2/3,2/9$, respectively.
+Its expected ratio is $37/27>4/3$. An independent constraint solver and
+direct probability-tree replay verify these exact values. Exhaustive
+effective local-edge search through $N=8$ found no smaller counterexample
+to this policy. A different online policy might still attain $4/3$;
+that minimax question remains open here.
 
 \section{Computational and formal verification}
 The operational Python solver uses completed-set memoization. A separately
@@ -413,8 +642,9 @@ Compact certificates & 350 independent random instances and
 Lean 4.34.1 (compiler commit
 \texttt{5045d0056413266e57c625dcd7c365b10e377c52}) uses Std, with no Mathlib
 dependency. The main modules expose 68 audited declarations; the resource-footprint
-module adds 18, and three supplementary Bellman/search modules add 20
-distinct declarations (106 in total). Root
+module adds 18, three supplementary Bellman/search modules add 20,
+the conditional randomized-potential module adds 10, and the actual
+repeated-gadget module adds 20 distinct declarations (136 in total). Root
 recompilation uses fresh temporary compiled objects. Audits permit only
 Lean's standard \texttt{propext}, \texttt{Classical.choice} and
 \texttt{Quot.sound}; no new unproved axiom, \texttt{sorry}, or \texttt{admit}
@@ -441,7 +671,7 @@ what a concrete processor can infer. No implementation-level speed or energy
 claim follows from these theorems.
 
 The next questions are robust approximate saturation, tight online ratios
-at other fixed resources, composable hidden-choice adversaries, efficient
+at other fixed resources, composition of larger hidden-subset families, efficient
 certificates at finite issue width, and formalization of the general
 resource and observation theorems. A deep originality audit remains needed,
 especially for bounded-lookahead and FIFO storage scheduling. All research
@@ -450,6 +680,7 @@ states and reproducible commands are saved in \texttt{STATUS.md} and
 \texttt{partner/dist-ILP1-20261014}.
 
 \begin{thebibliography}{9}
+\small
 \bibitem{wall} D. W. Wall. \emph{Limits of Instruction-Level Parallelism}.
 WRL Research Report 93/6, 1993.
 \url{https://davidwall.info/papers/WRL-TR-93.6.pdf}.

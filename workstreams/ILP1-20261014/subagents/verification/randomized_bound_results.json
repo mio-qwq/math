@@ -1,0 +1,451 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T19:12:37.892852+00:00",
+  "elapsed_seconds": 0.08302055600051972,
+  "python": "3.12.14",
+  "scope": "All gap-one/gap-two graphs through N=6, including empty; no random sampling.",
+  "method": "Time-variable CSP for each suffix optimum; independent direct ROB policy expectation.",
+  "counts": {
+    "graphs_including_empty": 684,
+    "nonempty_suffixes": 3869,
+    "forced_length_1_cost_1": 1963,
+    "adjacent_equal_value_checks": 1232,
+    "forced_length_2_cost_1": 1280,
+    "random_length_3_difference_1": 153,
+    "forced_length_3_cost_2": 199,
+    "random_length_4_difference_1": 70,
+    "forced_length_4_cost_2": 114,
+    "random_length_4_difference_2": 42,
+    "random_length_3_difference_0": 46,
+    "random_length_4_difference_0_cd_edge_0": 1,
+    "random_length_4_difference_0_cd_edge_1": 1
+  },
+  "distinct_CSP_inputs": 684,
+  "maximum_expected_ratio": [
+    5,
+    4
+  ],
+  "first_case_witnesses": {
+    "random_length_3_difference_1": {
+      "N": 3,
+      "edges": [],
+      "index": 0,
+      "F": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "E": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "K": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "random_length_4_difference_1": {
+      "N": 4,
+      "edges": [],
+      "index": 0,
+      "F": [
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "E": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "K": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "random_length_4_difference_2": {
+      "N": 4,
+      "edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "index": 0,
+      "F": [
+        2,
+        2,
+        2,
+        1,
+        0
+      ],
+      "E": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "K": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "random_length_3_difference_0": {
+      "N": 4,
+      "edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "index": 0,
+      "F": [
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "E": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "K": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "random_length_4_difference_0_cd_edge_0": {
+      "N": 6,
+      "edges": [
+        [
+          4,
+          5
+        ]
+      ],
+      "index": 0,
+      "F": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        0
+      ],
+      "E": [
+        [
+          15,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "K": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "random_length_4_difference_0_cd_edge_1": {
+      "N": 6,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "index": 0,
+      "F": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        0
+      ],
+      "E": [
+        [
+          7,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "K": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "lower_bound_pair": [
+    {
+      "N": 4,
+      "edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "F": 2,
+      "E": [
+        5,
+        2
+      ]
+    },
+    {
+      "N": 4,
+      "edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "F": 2,
+      "E": [
+        5,
+        2
+      ]
+    }
+  ],
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "randomized_bound_audit.py": "967f8061e37d98e5dde51e1d176a496b06c9f0d93bb63a493e16819620321c6f"
+  }
+}

@@ -112,12 +112,12 @@ This is a simplified constant-window exact recurrence, not an improvement
 to the complexity of arbitrary-width precedence scheduling. In particular,
 the `O(poly(B)N3^B)` baseline already becomes linear in `N` at fixed `B`.
 
-## 3. Randomized question under investigation
+## 3. Randomized search and subsequent proof
 
-At `B=3,W=2`, the known global randomized interval in this project is
-`[5/4,3/2]`. The lower endpoint comes from the four-job indistinguishability
+At the beginning of this investigation the known global randomized interval
+in this project was `[5/4,3/2]`. The lower endpoint comes from the four-job indistinguishability
 pair; the upper endpoint comes from classical non-delay list scheduling.
-Neither endpoint is assumed to be the exact randomized value.
+The search did not assume either endpoint was the exact randomized value.
 
 A specific candidate policy issues the oldest job, and, whenever all
 three current entries are ready, chooses each of the two younger jobs
@@ -127,8 +127,42 @@ same recurrence as Theorem 2, with the `min` in the final line replaced
 by the arithmetic mean. The `a,c` branch has a forced second action,
 so this recurrence does not hide another randomized choice.
 
-The next experiment will compare this exact rational expected-time
-recurrence with the unrestricted exact ROB solver and search for a
-program whose expected ratio exceeds `5/4`. Finding such a program
-would refute the candidate policy's bound, not the existence of some
-other `5/4`-competitive randomized policy.
+An actual exhaustive experiment is now recorded in
+`NARROW_POLICY_SEARCH.json`, reproduced by `narrow_policy_search.py`.
+It covered all 2,796,203 effective gap-one/gap-two graphs on one through
+twelve vertices and found no expected ratio above `5/4`. Every examined
+even size from four onward has an instance attaining `5/4`. The scalar
+optimal recurrence and exact dyadic expected-time recurrence were each
+cross-checked on all 683 effective graphs through six vertices against
+separate completed-set recursions (the policy checker uses exact Python
+`Fraction` values). Runtime and the source hash are in the report.
+
+Experiment status: **COMPUTATIONALLY_SUPPORTED**, not a general proof. Longer true
+edges are redundant with artificial ROB edges, so this finite test covers
+all distinct scheduling/readiness behaviors at these sizes for this
+particular policy. It does not enumerate all randomized online policies.
+
+The arbitrary-size proof is now written separately in
+`RANDOMIZED_FIVE_QUARTERS.md`. It establishes the stronger bound
+`4E<=N+3F<=5F` using a joint induction on
+`K_i=3F_i+n_i-4E_i` and the auxiliary statement
+`F_i=F_(i+1) => K_i+K_(i+1)>=1` for nonempty suffixes.
+Together with the four-job lower bound, it gives global randomized
+minimax `5/4`. Its current status is **WRITTEN_PROOF**, pending the
+saved independent review; no Lean or originality claim is made here.
+
+An earlier, incomplete potential-function route used `D_i=5F_i−4E_i`, where `E_i`
+is this policy's expected remaining time. A forced macro-action of cost
+`a` gives `D_i=a+D_j`. At a two-choice state, let `p=i+2` and let
+`q∈{i+3,i+4}` be the other branch's target. Since completing a prefix
+job changes the optimal value by either zero or one,
+`x=F_p−F_q∈{0,1,2}`. Substituting the recurrence yields
+
+`D_i=(D_p+D_q)/2−1` if `x=0` or `x=2`,
+
+and `D_i=(D_p+D_q)/2+3/2` if `x=1`.
+
+Thus the plain induction `D_j≥0` did not close. These identities remain
+as a record of that proof-development route. The subsequent `K` invariant
+absorbs the suffix's width-two work slack and closes with the single
+adjacent-equality auxiliary statement proved in the separate note.

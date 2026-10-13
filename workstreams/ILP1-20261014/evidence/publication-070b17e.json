@@ -1,0 +1,11 @@
+{
+  "branch": "partner/dist-ILP1-20261014",
+  "remote_sha": "070b17ec765389dfa6507735ba0cb03edba8f89b",
+  "url": "https://github.com/mio-qwq/math/commit/070b17ec765389dfa6507735ba0cb03edba8f89b",
+  "verified_tree": "e54aea592648d66fbe608ca6fb53d9cc547fadab",
+  "local_source_sha": "96841c94aec04fbbdc85ba7909c366e74d5ec33b",
+  "method": "GitHub create_tree/create_commit/update_ref with expected head, force=false; actual git fetch and ls-remote; exact tree equality",
+  "scope": "own workstream and own coordination status only",
+  "rechecked_utc": "2026-10-13T19:34:41.833727+00:00",
+  "recheck": "Actual git fetch and ls-remote still report the same remote branch SHA before phase3 publication."
+}

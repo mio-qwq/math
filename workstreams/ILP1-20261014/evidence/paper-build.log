@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.11)  13 OCT 2026 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.11)  13 OCT 2026 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,7 +385,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box56
 )
-(/tmp/ilp1-paper-4lsj4n2i/draft.aux)
+(/tmp/ilp1-paper-3tj008l7/draft.aux)
 \openout1 = `draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -468,7 +468,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 18.
 
-(/tmp/ilp1-paper-4lsj4n2i/draft.out) (/tmp/ilp1-paper-4lsj4n2i/draft.out)
+(/tmp/ilp1-paper-3tj008l7/draft.out) (/tmp/ilp1-paper-3tj008l7/draft.out)
 \@outlinefile=\write3
 \openout3 = `draft.out'.
 
@@ -548,53 +548,41 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 59.
+(Font)              <10.95> on input line 62.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
 athsy.enc}]
-[2] [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [4] [5]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-14.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+[2] [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [4] [5] [6] [7]
+[8]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
+43.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [6]
-Underfull \hbox (badness 4832) in paragraph at lines 476--480
-\T1/lmr/m/n/10.95 (+20) In-spected repos-i-tory com-mit \T1/lmtt/m/n/10.95 1581
-d4cbdd69a0faf34b2089614fe2a814316a6a\T1/lmr/m/n/10.95 (+20) . [][]$\T1/lmtt/m/n
-/10.95 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--480
-\T1/lmtt/m/n/10.95 / / github . com / openai / math / blob / 1581d4cbdd69a0faf3
-4b2089614fe2a814316a6a / lean /
- []
-
-[7] (/tmp/ilp1-paper-4lsj4n2i/draft.aux)
+ [9] [10]
+(/tmp/ilp1-paper-3tj008l7/draft.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `draft.out' has not changed.
-(rerunfilecheck)             Checksum: FC6E8DBE664D04220EBC45C74A5A34DC;1636.
+(rerunfilecheck)             Checksum: 09C840A7C47F701D0B2CA560D506D8FD;2543.
  ) 
 Here is how much of TeX's memory you used:
- 12570 strings out of 476182
- 194260 string characters out of 5795594
- 1939975 words of memory out of 5000000
- 34171 multiletter control sequences out of 15000+600000
- 633223 words of font info for 183 fonts, out of 8000000 for 9000
+ 12655 strings out of 476182
+ 195184 string characters out of 5795594
+ 1940975 words of memory out of 5000000
+ 34182 multiletter control sequences out of 15000+600000
+ 646645 words of font info for 218 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,1076b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1076b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/p
@@ -605,10 +593,10 @@ onts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb>
-Output written on /tmp/ilp1-paper-4lsj4n2i/draft.pdf (7 pages, 290740 bytes).
+Output written on /tmp/ilp1-paper-3tj008l7/draft.pdf (10 pages, 322889 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 37441 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 44121 words of extra memory for PDF output out of 51595 (max. 10000000)
 
