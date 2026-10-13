@@ -1,0 +1,27 @@
+{
+  "scope": "finite tests only; not a proof for arbitrary DAGs",
+  "max_n_all_forward_dags": 5,
+  "random_programs_indegree_at_most_two": 100,
+  "seed": 20261014,
+  "exhaustive_counts": {
+    "programs": 1100,
+    "parameter_cases": 26706,
+    "certificates": 26706,
+    "states_checked": 235593
+  },
+  "total_counts": {
+    "programs": 1200,
+    "parameter_cases": 32106,
+    "certificates": 32106,
+    "states_checked": 401864
+  },
+  "maximum_states_in_one_case": 192,
+  "python": "3.12.14",
+  "seconds": 3.3955364209996333,
+  "source_sha256": {
+    "src/rob.py": "a35793d3297877f71f8c452307953a25c78f9557a718f5c5f63d0fa4ef3a96e9",
+    "src/checker.py": "2cb1cc95bf10cf88945e06a632cea200f2d4c9d86ebef4c81af3dc0a065fec2e",
+    "tests/exhaustive.py": "75a9948f4e9fddc274206aadf87b276ec2be767a8c1c0566d7e8808f9a9e955f"
+  },
+  "result": "PASS"
+}

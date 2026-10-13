@@ -1,0 +1,14 @@
+test_certificate_negative_controls (test_rob.ModelTests.test_certificate_negative_controls) ... ok
+test_completed_blocked_entries_keep_slots (test_rob.ModelTests.test_completed_blocked_entries_keep_slots) ... ok
+test_data_critical_path_greedy_can_fail (test_rob.ModelTests.test_data_critical_path_greedy_can_fail) ... ok
+test_empty_single_and_invalid_parameters (test_rob.ModelTests.test_empty_single_and_invalid_parameters) ... ok
+test_independent_and_serial (test_rob.ModelTests.test_independent_and_serial) ... ok
+test_no_same_cycle_dependencies (test_rob.ModelTests.test_no_same_cycle_dependencies) ... ok
+test_offset_edges_are_not_enough (test_rob.ModelTests.test_offset_edges_are_not_enough) ... ok
+test_saturation_thresholds_are_not_monotone (test_rob.ModelTests.test_saturation_thresholds_are_not_monotone) ... ok
+test_window_blockage_and_oldest_counterexample (test_rob.ModelTests.test_window_blockage_and_oldest_counterexample) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.398s
+
+OK
