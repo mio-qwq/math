@@ -7,9 +7,17 @@
       "bytes": 9480,
       "sha256": "1f318a58b37e9bbf73267c89a5136211f4f4ccb9f5c51af76e54332542447f7b"
     },
+    "ENDPOINT_ROTATION_LOSS.md": {
+      "bytes": 7632,
+      "sha256": "0cfaf3ca4719a27f0614c0b2abdb40080ddd0985aaf0f715c0b4d0dd30154b83"
+    },
     "FORMALIZATION_STATUS.md": {
       "bytes": 1137,
       "sha256": "8c7ffc6db417b79d931945055544a8bead9d7a5dcce2637709eafc815294477e"
+    },
+    "INJECTIVE_SAMPLING_BRIDGE.md": {
+      "bytes": 8335,
+      "sha256": "c5e8d27d9f531ca968eeca2025cc516e82ecd817ae16bb6cb2098f0242ac4c30"
     },
     "MIXED_CLASS_OBSTACLE.md": {
       "bytes": 4318,
@@ -32,8 +40,8 @@
       "sha256": "4d33920fd6123cc4a139fe37525ea62d98d8dc62ac873c9923726da1ae0ca6af"
     },
     "README.md": {
-      "bytes": 5908,
-      "sha256": "3f613c3d81422ef39596a003b76bb9263cd2e2e4b07e1dbb33f9ae29c8b52a08"
+      "bytes": 7255,
+      "sha256": "314902a7ed2e20eb2a262b7ebf81fc7110163b3c15b7c55a2a2521f187c647a4"
     },
     "RECIPROCAL_TRACE_BOUND.md": {
       "bytes": 9728,
@@ -82,6 +90,42 @@
     "oriented_trace_transfer_check.log": {
       "bytes": 2180,
       "sha256": "21668822520aa175ae53a6d226db19a0f9246cf3bd739d14960aecd8f5487155"
+    },
+    "probe_injective_sampling.py": {
+      "bytes": 5772,
+      "sha256": "0a8a84feab44427dcacd9454ec1a64facfa12f80a28f7b43dbc029cab5de33e2"
+    },
+    "sampling_discovery.json": {
+      "bytes": 2110,
+      "sha256": "915781dcd236f7cfc634e99296494fd8194b00fda27a6ed76f2747fed45d58b9"
+    },
+    "sampling_endpoint_certificate.json": {
+      "bytes": 4501,
+      "sha256": "d292a4e83bf3b665ba0e387596f8ea89914762dd9d114cabc16e6ea0bd2c0616"
+    },
+    "sampling_endpoint_check.log": {
+      "bytes": 4587,
+      "sha256": "f70677fb12d0aec27bee2211617a481165a2b317bdb465c8066b1a5c87b49faf"
+    },
+    "sampling_endpoint_execution.json": {
+      "bytes": 1609,
+      "sha256": "825ef80069c4e589569f24685669b43920f7dc950695f33701bff77be0c8ff05"
+    },
+    "sampling_review/REVIEW.md": {
+      "bytes": 9840,
+      "sha256": "007047d546c674725e090ad268d4b2c18a09dfa17e82441ccb1b3648936697e2"
+    },
+    "sampling_review/checker.py": {
+      "bytes": 11239,
+      "sha256": "8c458be6900aabd40e6be02fc5017fe063b3be38c761b2e7330e0f5d63d6a5fe"
+    },
+    "sampling_review/execution.json": {
+      "bytes": 2698,
+      "sha256": "f23a77c23dc0142246a8fbbe23ea98c98d2fb5c7b15efdec26e6e3aa1d77a9f4"
+    },
+    "sampling_review/run.log": {
+      "bytes": 4808,
+      "sha256": "5d7d8aeec0252352e2e84a5573ca0deeddadc2d42f01c465c0e4c310407d39bb"
     },
     "trace_certificate.json": {
       "bytes": 961,
@@ -138,6 +182,10 @@
     "verify_reciprocal_trace_bound.py": {
       "bytes": 9622,
       "sha256": "8c4e783fd6393d946a61b7e81b4fd7d9ddeea74355a396622d02af403445fdd3"
+    },
+    "verify_sampling_endpoint.py": {
+      "bytes": 12239,
+      "sha256": "5f9676af982d056d07110cdfcf174ae7b4aca0f3b9328c3b9e113375ddf89756"
     }
   }
 }

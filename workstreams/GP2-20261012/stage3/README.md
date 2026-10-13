@@ -51,7 +51,7 @@ python workstreams/GP2-20261012/stage3/verify_oriented_trace_transfer.py
 python workstreams/GP2-20261012/stage3/verify_bridge_deletion.py
 ```
 
-The last command remedies the inherited ten-state checker's absent entry
+The ten-state wrapper command remedies the inherited checker's absent entry
 point while preserving its frozen source. The original 98 science files and
 their manifests remain unchanged. Historical original sources, signature
 preservation limitations and exact remote-delivery acceptance are documented
@@ -112,3 +112,29 @@ bounds. Exact checks include nine inputs, local subset optima, literal
 window checks, original directed Kautz BFS and six altered inputs in both
 ordinary and optimized Python. This is not a density-preserving deletion
 theorem, a new numerical lambda bound, or independent/Lean acceptance.
+
+The next two all-parameter refinements are
+[`ENDPOINT_ROTATION_LOSS.md`](ENDPOINT_ROTATION_LOSS.md) and
+[`INJECTIVE_SAMPLING_BRIDGE.md`](INJECTIVE_SAMPLING_BRIDGE.md). The first
+computes a complete endpoint-support empty-rotation event and adds a
+disjoint trace gap on the common endpoint alphabet. It also bounds bridge
+adjacency by the intrinsic endpoint masses. The second proves that any
+finite injective-motif inequality valid for all strict index codes lifts
+exactly to every finite weighted alphabet. Its upper-bound hierarchy is
+monotone and converges to lambda_4 with an explicit error at most 3/(2n).
+
+A 30-word certificate proves the five-index maximum exactly, while showing
+that this level can saturate its rotation count even with selected
+adjacency. The six-index optimum remains unresolved; discovery timeouts
+are not certificates. The accepted numerical lambda interval above is
+unchanged. Reproduce the new primary acceptance by
+
+```sh
+python workstreams/GP2-20261012/stage3/verify_sampling_endpoint.py
+python -O workstreams/GP2-20261012/stage3/verify_sampling_endpoint.py
+```
+
+Exact source/certificate hashes and actual command records accompany the
+log. Independent AI proof review and separate computation are under
+[`sampling_review/`](sampling_review/). Neither a complete Lean proof nor
+historical novelty is asserted.

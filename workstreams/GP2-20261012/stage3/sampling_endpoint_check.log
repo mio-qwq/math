@@ -1,0 +1,243 @@
+{
+  "endpoint_cases": {
+    "binary_equal": {
+      "F": "1/8",
+      "adjacency": "1/32",
+      "bridge_mass": "1/8",
+      "deletion": "1/16",
+      "empty": "1/2",
+      "h": "0",
+      "l": "1/2",
+      "localized_slack": "3/8",
+      "n": "0",
+      "p": "1/8",
+      "r": "1/2"
+    },
+    "binary_unequal": {
+      "F": "97/625",
+      "adjacency": "72/3125",
+      "bridge_mass": "12/125",
+      "deletion": "24/625",
+      "empty": "77/125",
+      "h": "0",
+      "l": "2/5",
+      "localized_slack": "288/625",
+      "n": "0",
+      "p": "12/125",
+      "r": "3/5"
+    },
+    "binary_zero": {
+      "F": "1",
+      "adjacency": "0",
+      "bridge_mass": "0",
+      "deletion": "0",
+      "empty": "1",
+      "h": "0",
+      "l": "0",
+      "localized_slack": "0",
+      "n": "0",
+      "p": "0",
+      "r": "1"
+    },
+    "empty": {
+      "F": "1",
+      "adjacency": "0",
+      "bridge_mass": "0",
+      "deletion": "0",
+      "empty": "1",
+      "h": "0",
+      "l": "0",
+      "localized_slack": "0",
+      "n": "1",
+      "p": "0",
+      "r": "0"
+    },
+    "five_unequal": {
+      "F": "626/50625",
+      "adjacency": "32/50625",
+      "bridge_mass": "32/1125",
+      "deletion": "32/16875",
+      "empty": "14683/16875",
+      "h": "3/5",
+      "l": "1/15",
+      "localized_slack": "119122337/138915000",
+      "n": "0",
+      "p": "548/16875",
+      "r": "1/3"
+    },
+    "five_uniform": {
+      "F": "2/625",
+      "adjacency": "4/3125",
+      "bridge_mass": "4/125",
+      "deletion": "4/625",
+      "empty": "101/125",
+      "h": "3/5",
+      "l": "1/5",
+      "localized_slack": "1379857/1715000",
+      "n": "0",
+      "p": "6/125",
+      "r": "1/5"
+    },
+    "unused_letter": {
+      "F": "959/1250",
+      "adjacency": "9/12500",
+      "bridge_mass": "3/250",
+      "deletion": "3/1250",
+      "empty": "122/125",
+      "h": "0",
+      "l": "1/5",
+      "localized_slack": "261/1250",
+      "n": "1/2",
+      "p": "3/500",
+      "r": "3/10"
+    }
+  },
+  "five": {
+    "four_letter_sizes": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "injective_adjacent_words": [
+      "01234",
+      "01324",
+      "02134",
+      "03124"
+    ],
+    "literal_eight_words": 390625,
+    "rotation_orbits": 30,
+    "size": 30,
+    "strict_maximum": 2
+  },
+  "five_words": [
+    "0123",
+    "0124",
+    "0132",
+    "0134",
+    "0213",
+    "0214",
+    "0231",
+    "0234",
+    "0241",
+    "0243",
+    "0312",
+    "0314",
+    "0321",
+    "0324",
+    "0412",
+    "0413",
+    "0431",
+    "0432",
+    "1034",
+    "1042",
+    "1234",
+    "1324",
+    "1423",
+    "1432",
+    "2014",
+    "2034",
+    "2134",
+    "3014",
+    "3042",
+    "3124"
+  ],
+  "negative_controls_rejected": 8,
+  "original_Kautz": {
+    "BFS_sources": 30,
+    "arcs": 1280,
+    "ordered_GP_triples": 24360,
+    "vertices": 320
+  },
+  "sampling": [
+    {
+      "a": "1/32",
+      "expected_adjacent": "15/4",
+      "expected_empty": "60",
+      "expected_words": "15",
+      "falling_five": 120,
+      "falling_four": 120,
+      "maps_checked": 32,
+      "n": 5,
+      "p": "1/8",
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "a": "72/3125",
+      "expected_adjacent": "1728/625",
+      "expected_empty": "1848/25",
+      "expected_words": "288/25",
+      "falling_five": 120,
+      "falling_four": 120,
+      "maps_checked": 32,
+      "n": 5,
+      "p": "12/125",
+      "weights": [
+        2,
+        3
+      ]
+    },
+    {
+      "a": "0",
+      "expected_adjacent": "0",
+      "expected_empty": "120",
+      "expected_words": "0",
+      "falling_five": 120,
+      "falling_four": 120,
+      "maps_checked": 32,
+      "n": 5,
+      "p": "0",
+      "weights": [
+        0,
+        1
+      ]
+    },
+    {
+      "a": "4/243",
+      "expected_adjacent": "320/27",
+      "expected_empty": "760/3",
+      "expected_words": "80/3",
+      "falling_five": 720,
+      "falling_four": 360,
+      "maps_checked": 64,
+      "n": 6,
+      "p": "2/27",
+      "weights": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schema": "GP2-sampling-endpoint-v1",
+  "type_polynomial": {
+    "avoiding_words": 81,
+    "coefficients_L_R_H_N": {
+      "0004": 1,
+      "0013": 4,
+      "0022": 2,
+      "0103": 4,
+      "0112": 8,
+      "0202": 6,
+      "0211": 4,
+      "0301": 4,
+      "0400": 1,
+      "1003": 4,
+      "1012": 8,
+      "1102": 8,
+      "1111": 4,
+      "1201": 4,
+      "2002": 6,
+      "2011": 4,
+      "2101": 4,
+      "3001": 4,
+      "4000": 1
+    },
+    "type_words": 256,
+    "weight_cases": 255
+  }
+}
+PASS exact type polynomial, strict witness, raw BFS, sampling and 8 negative controls

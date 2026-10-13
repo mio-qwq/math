@@ -114,5 +114,57 @@ Lean 4.34.1 is the intended pinned toolchain, but the recovered local launcher
 actually exits with `failed to locate application`; no successful compilation
 is claimed. Resolve this environment issue before any formalization claim.
 
+## New endpoint loss and finite-certificate bridge
+
+The follow-up `stage3/ENDPOINT_ROTATION_LOSS.md` proves an intrinsic
+support constraint. With first/last supports P,Q and masses l,r,h,n of
+P\Q, Q\P, P intersection Q, and the complement, the exact probability F
+of no cyclic Q->P edge satisfies
+
+    1-4p >= F+delta h^4,     F>=l^4+r^4.
+
+It includes a complete nonnegative polynomial for F and the bridge bound
+`a(C)<=lr mu(P)mu(Q)<=1/16`, giving an explicit adjacency-dependent
+rotation penalty. This does not improve the uniform lambda_4 endpoint;
+the independent regime remains a core obstacle.
+
+`stage3/INJECTIVE_SAMPLING_BRIDGE.md` proves an exact all-parameter
+certificate transfer. If M_n is the maximum strict code on n indices
+supported on four-distinct-index words, then for every n>=4
+
+    M_n/n^4 <= lambda_4 <= rho_n=M_n/(n)_4,
+    rho_n decreases to lambda_4,
+    rho_n-lambda_4 <= [1-(n)_4/n^4]/4.
+
+More generally any pointwise finite inequality in injective motif counts
+transfers to every weighted alphabet, including joint adjacency and empty
+rotation motifs. Actual letters may repeat; strictness on the finite
+index alphabet still tests all eight-index words. Fixed-label optima do
+not qualify as M_n certificates.
+
+The exact witness gives M_4=6 and M_5=30, and the five-index optimum can
+have four selected adjacent five-index words. Thus neither a pure
+five-index density certificate nor the proposed five-index linear
+adjacency penalty beats 1/4. This is a limitation of that certificate
+form, not a disproof of a global p+c*a inequality. M_6 is unresolved:
+the two bounded six-index discovery attempts timed out and certify no
+impossibility. Do not repeat them with a larger timeout as the next step.
+
+Primary exact checks pass in ordinary and optimized Python: all 390625
+five-letter-alphabet eight-window inputs, the separate triple-state DP,
+the 256-term endpoint type polynomial and 255 rational weight cases,
+160 sampled alphabet maps, original Ka(5,4) BFS on 320 vertices/1280 arcs
+and 24360 ordered selected triples, and eight damaged-input controls.
+Independent AI review and a separate checker are in
+`stage3/sampling_review/`. These are not Lean or human review. In this
+fresh checkout neither lean nor lake is on PATH; no new compilation ran.
+
+Next: derive a structural constraint on the six-index compatibility
+problem or a finite motif inequality with canonical pair/triple labels.
+A proved M_6<=89 would already imply lambda_4<=89/360, but it is only a
+target and must not be reported as obtained. The sampling theorem supplies
+the missing finite-to-all-alphabet implication once a genuine certificate
+is available. Preserve the current trusted interval stated at the top.
+
 The latest publication SHA must always be read from the actual remote ref;
 this file cannot include the SHA of the commit containing itself.

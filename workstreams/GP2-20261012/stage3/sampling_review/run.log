@@ -1,0 +1,287 @@
+{
+  "endpoint": {
+    "all_type_words": 256,
+    "coefficient_table_l_r_h_n": [
+      {
+        "coefficient": 1,
+        "powers": [
+          4,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          3,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          2,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "coefficient": 6,
+        "powers": [
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "coefficient": 8,
+        "powers": [
+          1,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "coefficient": 8,
+        "powers": [
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          1,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "coefficient": 1,
+        "powers": [
+          0,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          0,
+          3,
+          0,
+          1
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          0,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "coefficient": 6,
+        "powers": [
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "coefficient": 8,
+        "powers": [
+          0,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          0,
+          1,
+          0,
+          3
+        ]
+      },
+      {
+        "coefficient": 2,
+        "powers": [
+          0,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "coefficient": 4,
+        "powers": [
+          0,
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "coefficient": 1,
+        "powers": [
+          0,
+          0,
+          0,
+          4
+        ]
+      }
+    ],
+    "exact_weight_vectors": 255,
+    "no_qp_type_words": 81,
+    "vectors_with_zero_weights": 174
+  },
+  "five_letter_certificate": {
+    "alphabet_size": 5,
+    "compatible_ordered_pairs_by_gap": {
+      "1": 4,
+      "2": 15,
+      "3": 60
+    },
+    "four_letter_restriction_sizes": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "gap_pair_combinations_checked": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "injective_adjacency_count": 4,
+    "injective_adjacency_words": [
+      "01234",
+      "01324",
+      "02134",
+      "03124"
+    ],
+    "normalized_adj5": "1/30",
+    "occupied_injective_rotation_orbits": 30,
+    "rho4": "1/4",
+    "rho5": "1/4",
+    "selected_words": 30
+  },
+  "joint_motif_transfer": {
+    "motifs": [
+      {
+        "expected_count": "288/25",
+        "injections": 120,
+        "k": 4,
+        "name": "selected",
+        "product_probability": "12/125"
+      },
+      {
+        "expected_count": "1728/625",
+        "injections": 120,
+        "k": 5,
+        "name": "adjacent",
+        "product_probability": "72/3125"
+      },
+      {
+        "expected_count": "10944/625",
+        "injections": 120,
+        "k": 5,
+        "name": "xor_adjacent",
+        "product_probability": "456/3125"
+      },
+      {
+        "expected_count": "1848/25",
+        "injections": 120,
+        "k": 4,
+        "name": "empty_rotation",
+        "product_probability": "77/125"
+      },
+      {
+        "expected_count": "12672/625",
+        "injections": 120,
+        "k": 5,
+        "name": "shared_indices_with_negation",
+        "product_probability": "528/3125"
+      }
+    ],
+    "sampled_alphabet_maps": 32
+  },
+  "negative_controls_rejected": {
+    "changed_endpoint_coefficient": true,
+    "damaged_adjacency_count": true,
+    "negative_probability_weight": true,
+    "noninjective_index_word": true,
+    "repeated_index_motif_query": true,
+    "second_selected_rotation": true,
+    "selected_constant_loop": true,
+    "zero_total_probability": true
+  },
+  "review_kind": "independent AI and exact standard-library checks",
+  "scope": "endpoint identities; strict order-five witness; Boolean motif semantics",
+  "status": "PASS"
+}

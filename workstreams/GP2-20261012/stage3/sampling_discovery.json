@@ -1,0 +1,37 @@
+{
+  "schema": "GP2-bounded-discovery-not-proof-v1",
+  "date": "2026-10-13",
+  "scope": "The two six-index timeouts below certify no infeasibility or upper bound. The accepted five-index result uses the exact checker and rotation proof.",
+  "attempts": [
+    {
+      "command": "python workstreams/GP2-20261012/stage3/probe_injective_sampling.py 5 --seconds 40",
+      "variables": 120,
+      "forbidden_word_sets": 17100,
+      "solver_reported_value": 30,
+      "solver_reported_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "accepted_upper_proof": "Independent exact witness plus the 30 rotation-orbit upper bound, not the floating solver bound."
+    },
+    {
+      "command": "python workstreams/GP2-20261012/stage3/probe_injective_sampling.py 6 --seconds 45",
+      "variables": 360,
+      "forbidden_word_sets": 193020,
+      "solver_reported_value": 61,
+      "solver_reported_dual": -89.99999999999149,
+      "solver_reported_status": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "elapsed_seconds": 45.654832858999725,
+      "accepted_upper_proof": null
+    },
+    {
+      "command": "python workstreams/GP2-20261012/stage3/probe_injective_sampling.py 6 --seconds 40 --complete",
+      "forbidden_word_sets": 193020,
+      "visited_nodes": 35760,
+      "status": "timeout",
+      "elapsed_seconds": 40.00026560900733,
+      "accepted_upper_proof": null
+    }
+  ],
+  "five_witness_origin": "A separate five-index run fixed 0123 and 1234 selected and returned the recorded 30-word witness. The current discovery CLI exposes that condition as --force-adjacent. Exact acceptance is solver-independent.",
+  "source_hash_at_discovery": null,
+  "source_hash_note": "Per-attempt source hashes were not captured for these exploratory runs. The delivered source subsequently added the --force-adjacent option; its actual delivered hash is in MANIFEST.json. Do not mistake that for an archived pre-edit executable hash.",
+  "next_step": "Analyze finite compatibility structurally; do not infer impossibility from a timeout or merely enlarge the search."
+}
