@@ -1,0 +1,129 @@
+{
+  "adapter_binary_sha256": "0c7e0f97ffdf76f16b3375b93fb09b4e7e6f3ff13167e9064d61d37a3e5f6cc3",
+  "adapter_source_sha256": "b85d7f7d8fd2f2d86d61607cae779d7cb7a6c93d043c640ce0e17961d3b24289",
+  "audit_count": 21,
+  "axiom_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "driver_dependency_sha256": "fdbb975d5216365b2defc3e8fca1411f0e5ff49d97c9e4fb4611ef282353d88c",
+  "driver_sha256": "d2d62ec45861ca9b54d329f9d517e324e765d93e5a9a51aac9f4f2adab40f99e",
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "modules": [
+    {
+      "audit_count": 12,
+      "axioms": {
+        "Struct2.C66.ComponentSupport.actual_component_cycle_prefix_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.canonical_component_cycle_prefix_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.componentEdges_adjacency": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.edgeVariable_symmetric": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.endpoint_transport": [],
+        "Struct2.C66.ComponentSupport.full_component_endpoint_transport": [
+          "propext",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.full_component_invariant": [],
+        "Struct2.C66.ComponentSupport.invariant_prefix_length_le_twice_edges": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.iterates_in_endpoint": [],
+        "Struct2.C66.ComponentSupport.mem_componentEdges": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.ComponentSupport.second_endpoint_transport": [],
+        "Struct2.C66.ComponentSupport.ungrounded_component_loopless": [
+          "propext"
+        ]
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/exact-window-final-lean/ComponentSupport.olean",
+        "ComponentSupport.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "99f845ac14ec0aa6d538fa18bb5336ce55499e0f5d9ebe063ecddbd2f2477b60",
+      "module": "ComponentSupport",
+      "olean_sha256": "f0b003ca2987514d0364e3429507c785b2e6515b26c2c81921d43eb599dd5510",
+      "source_sha256": "4b5f5086daf387c1cb9f3eb4e52a3eb5c191a1d06e2b2c4d46ca721ec5252658"
+    },
+    {
+      "audit_count": 9,
+      "axioms": {
+        "Struct2.C66.SingletonComponent.actual_singleton_classification": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.SingletonComponent.edge_variable_fiber": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.SingletonComponent.edge_variable_nonzero": [
+          "propext"
+        ],
+        "Struct2.C66.SingletonComponent.invariant_fiber_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.SingletonComponent.invariant_implies_singleton": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.SingletonComponent.one_edge_invariant_iff": [],
+        "Struct2.C66.SingletonComponent.singleton_adjacency": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.SingletonComponent.singleton_implies_invariant": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Struct2.C66.SingletonComponent.singleton_is_ungrounded": []
+      },
+      "command": [
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean",
+        "-j1",
+        "-o",
+        "/workspace/scratch/6f2d6ef10a83/continuation-runs/exact-window-final-lean/SingletonComponent.olean",
+        "SingletonComponent.lean"
+      ],
+      "exit_code": 0,
+      "log_sha256": "da68c6a5060ad83a9e33138c6126aabbae68dc23fe71247ccd977ed02f2adcb4",
+      "module": "SingletonComponent",
+      "olean_sha256": "fcfb1982ba43a345fc25c104d8c8ca713e5555c43ccee362bbdf82bb7b343974",
+      "source_sha256": "25f7f94c36e7d9433040593681620a722a79f64ae977c4e55c61a88c046f13f3"
+    }
+  ],
+  "scope": "Original full ordered-equation closure and canonical component support; an actual ungrounded singleton iff both endpoints are commonly fixed or commonly transposed. No assumed singleton invariance. The cardinality, probability, cycle-count and asymptotic statements are not formalized.",
+  "seconds": 1.331654,
+  "success": true,
+  "utc": "2026-10-13T02:21:44.266386+00:00"
+}

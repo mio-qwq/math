@@ -22,7 +22,13 @@ New written results:
   `np=4 log n-4-c(log n)^2/n`, expectation tends to one when `c<8`
   and diverges when `c>=8`. This includes convergence at `K=4`. A finer
   empty-graph obstruction identifies the next coefficient 22 and a positive
-  limiting lower bound, while a matching upper bound remains open.
+  limiting lower bound, whose matching upper bound is proved next.
+- [Exact sparse window](EXACT_WINDOW.md): uniformly for
+  `n^2*p=4*n*log n-4*n+O((log n)^2)`, the full expectation is
+  `1+(n!)^2*(1-p)^binom(n,2)+o(1+(n!)^2*(1-p)^binom(n,2))`.
+  At `p=1-(n!)^(-2/binom(n,2))+2*x/n^2`, its limit is `1+exp(-x)`.
+  Includes an explicit finite remainder and the matched coefficient-22
+  window. The nonempty-conditional expectation tends to one there.
 - [Source/overlap report](PRIOR_ART_2026-10-12.md): no first-resolution
   claim for the fixed-p limit, no certification of historical firstness.
   [New source comparison](PRIOR_ART_2026-10-13.md) preserves the same boundary.
@@ -50,14 +56,21 @@ and proves endpoint/cycle-prefix transport. Its 12 Lean 4.34.1 audits pass;
 the overall expectation theorem remains written. Both receipts are under
 `verification/20261013-c66-critical-boundary/`.
 
+[Exact-window checker](check_exact_window.py) checks the new singleton and
+union-support statements on 15,396 pairs, with 3,984 exact rational
+assertions, 80 short-cycle moment/tail comparisons and 1,238 literal-graph
+or finite-bound assertions. Two damage controls reject false singleton
+rules. The two-module Lean chain adds the actual singleton iff shared
+fixed/transposed endpoints, passing 21 audits. Receipts are under
+`verification/20261013-c66-exact-window/`; the analytic limit is not Lean.
+
 The new mathematical derivations are written completely, but remain
 **pending independent written review**. No human peer review, all-parameter
 Lean proof, journal acceptance or main-branch integration is claimed.
 The old full/projected/reduced first-order candidate is not reclassified
 as accepted because this nearby work has passed its own tests.
 
-Next useful targets: a matching upper bound in the window
-`np=4 log n-4-8(log n)^2/n+(22 log n+s)/n`,
+Next useful targets: independent semantic acceptance of the exact window,
 the unresolved projection interval `2 <= c <= 4`, higher exponential
 orders with structural coefficient formulas, and universal formalization
 of the selection/component inequality. These are different questions.

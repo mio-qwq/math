@@ -4,6 +4,11 @@ Date: 2026-10-13 UTC. Complete written proof with definition-level structural
 regression. Independent written acceptance and universal Lean verification
 are pending. All logarithms are natural.
 
+Subsequent result: `EXACT_WINDOW.md` proves the matching upper bound and
+the exact limiting function in the finer window left open by this note.
+The historical scope and derivation below are retained; the new written
+result has separate regression and Lean structural receipts.
+
 Let
 
 \[

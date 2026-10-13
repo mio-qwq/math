@@ -1,0 +1,15 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+/workspace/scratch/6f2d6ef10a83/continuation-runs/lean-4.34.1/lean-4.34.1-linux/bin/lean -j1 -o /workspace/scratch/6f2d6ef10a83/continuation-runs/exact-window-final-lean/SingletonComponent.olean SingletonComponent.lean
+'Struct2.C66.SingletonComponent.one_edge_invariant_iff' does not depend on any axioms
+'Struct2.C66.SingletonComponent.edge_variable_nonzero' depends on axioms: [propext]
+'Struct2.C66.SingletonComponent.edge_variable_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.SingletonComponent.singleton_adjacency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.SingletonComponent.singleton_implies_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.SingletonComponent.invariant_fiber_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.SingletonComponent.invariant_implies_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Struct2.C66.SingletonComponent.actual_singleton_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Struct2.C66.SingletonComponent.singleton_is_ungrounded' does not depend on any axioms
+
+EXIT CODE: 0

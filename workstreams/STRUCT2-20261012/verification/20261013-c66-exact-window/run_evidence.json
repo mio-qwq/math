@@ -1,0 +1,43 @@
+{
+  "base_commit": "c3fe80a57bbbfa2adaabb14e90871ee1e90559a7",
+  "branch": "partner/dist-STRUCT2-20261012",
+  "failures_and_recovery": [
+    {
+      "failure": "Scratch checkout and Lean/mpmath caches were absent",
+      "recovery": "Cloned the own remote branch; downloaded official Lean 4.34.1 and restored mpmath 1.3.0 into a scratch target.",
+      "stage": "environment"
+    },
+    {
+      "failure": "Unsolved conditional goals in edge_variable_nonzero/fiber; the failed output was not accepted",
+      "recovery": "Explicit equality and order cases; successful sequential replay has no errors/warnings/sorryAx.",
+      "stage": "Lean draft"
+    }
+  ],
+  "full_analytic_lean": false,
+  "historical_firstness_certified": false,
+  "independent_acceptance": false,
+  "next_step": "Independent semantic acceptance, then universal cardinality/probability interfaces; sparse projection threshold remains distinct.",
+  "original_freeze_files_verified": 49,
+  "original_freeze_unchanged": true,
+  "proof_review_points": [
+    "The full ordered closure, including diagonal ground, is required for component invariance.",
+    "Both coordinates must share a transposition; an alpha transposition alone does not give a singleton.",
+    "Union-support m=n-f counts yield the binomial denominator; using maximum support would lose the tail bound.",
+    "Short-cycle binomial moments are counted without assuming independent cycle counts.",
+    "Identity is separated from empty-graph contributions to avoid double counting.",
+    "Conditional-on-nonempty limit is asserted in the bounded-B fixed window only."
+  ],
+  "reproduction": {
+    "checker": "python3 workstreams/STRUCT2-20261012/c66/check_exact_window.py --output /chosen/receipt/checks.json (mpmath==1.3.0)",
+    "lean": "python3 workstreams/STRUCT2-20261012/c66/lean/verify_singleton_component.py --lean /path/to/official/lean --build-dir /chosen/build --output-dir /chosen/receipt [--adapter /path/to/runtime_path.so]"
+  },
+  "scope": "C66 exact sparse full-group expectation window; written all-n proof and separate Lean singleton/component bridge",
+  "utc": "2026-10-13T02:25:36.823305+00:00",
+  "verification": {
+    "coefficient_checks": "90-digit mpmath; numerical checks, not proofs of the limit",
+    "finite": "15396 permutation pairs, 3984 rational assertions, 80 cycle moment/tail checks, 1238 graph-oracle/finite-bound assertions, 2 damage controls",
+    "lean": "21 actual audits in two Std-only modules; full analytic theorem not formalized",
+    "written_proof": "Complete derivation plus same-agent semantic review; not independently accepted"
+  },
+  "written_manifest_entries_verified": 39
+}

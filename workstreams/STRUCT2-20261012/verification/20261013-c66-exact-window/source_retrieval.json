@@ -1,0 +1,39 @@
+{
+  "raw_redistributed": false,
+  "scope": "Bounded source comparison; not exhaustive; no firstness or independent acceptance certification. Prior fixed-p MathDB overlap preserved.",
+  "searches": [
+    {
+      "queries": [
+        "\"two-fold automorphism\" \"expectation\" \"sparse\"",
+        "\"two-fold\" \"random graphs\" \"critical\" expectation"
+      ],
+      "result": "Mostly unrelated results; inadequate coverage.",
+      "system": "system2"
+    },
+    {
+      "queries": [
+        "\"two-fold automorphisms\" \"expected\" graph",
+        "\"two-fold automorphisms\" \"sparse\""
+      ],
+      "result": "Recovered original paper and earlier TF literature; no matching exact sparse-window proof identified.",
+      "system": "system1"
+    }
+  ],
+  "sources": [
+    {
+      "bytes": 952468,
+      "local_raw_name": "Bychawski-2406.06267v1.html",
+      "retrieved": true,
+      "sha256": "e6c65d29c4ebb74551c881eb73004bfad43f13c1db895b6c93102e8538417b0e",
+      "url": "https://arxiv.org/html/2406.06267v1"
+    },
+    {
+      "bytes": 222574,
+      "local_raw_name": "MathDB-363470.html",
+      "retrieved": true,
+      "sha256": "c770608efb50eb5f419a8896dc55d711bc9e9abd8b94231f3948fa5e6e33e18d",
+      "url": "https://mathdb.com/p/363470/conjecture-on-the-expected-size-of-the-two-fold-automorphism"
+    }
+  ],
+  "utc": "2026-10-13T02:24:51.122479+00:00"
+}

@@ -22,7 +22,9 @@ First continuation research commit:
 | Theta manuscript | [Seven-page draft](theta/paper/README.md) | Full written proofs retained; rendered PDF QA passed; this reorganization awaits new independent review |
 | C66 expectation | [Second order and effective remainder](c66/SECOND_ORDER.md) | Written candidate and exact graph/DSU checks; independent acceptance pending |
 | Sparse full TF | [Critical boundary and next correction](c66/CRITICAL_BOUNDARY.md) | Written all-n proof: c<8 converges, c>=8 diverges at np=4 log n-4-c(log n)^2/n; independent acceptance pending |
+| Exact sparse window | [Matched expectation and finite remainder](c66/EXACT_WINDOW.md) | Written proof of E=1+B+o(1+B), B=(n!)^2(1-p)^binom(n,2), in the stated corridor; centered limit 1+exp(-x); independent acceptance pending |
 | C66 formal structure | [Actual full-constraint component interface](c66/lean/README.md) | 12 clean Lean audits; endpoint/cycle-prefix transport; probability and entropy summation remain written |
+| C66 singleton structure | [Actual singleton iff common endpoint action](c66/lean/SingletonComponent.lean) | Two-module chain: 21 clean audits; closure-based singleton classification; cardinality and analytic limit not Lean |
 | Literature | [Existing C66 proof](c66/PRIOR_ART_2026-10-12.md), [new comparison](c66/PRIOR_ART_2026-10-13.md), original theta source gate | No firstness claim; access/recall limits recorded |
 
 The complete Lean chain proves the advertised odd-parameter CG classification,
@@ -32,11 +34,16 @@ The C66 limit overlaps an existing publicly posted proof claim; quantitative
 formulas require review on their own scope.
 
 Ownership and next steps are in `coordination/agents/STRUCT2-20261012.md`.
-The next useful work is to seek independent acceptance of the completed CG
-chain and prove a matching upper bound in C66's finer window
-`np=4 log n-4-8(log n)^2/n+(22 log n+s)/n`. The empty-graph lower bound is
-proved; an exact limiting function is not. Formal excess and entropy lemmas
-and further source comparison are also useful next steps.
+The matching upper bound in C66's finer window is now proved in writing in
+`EXACT_WINDOW.md`: at `p=1-(n!)^(-2/binom(n,2))+2*x/n^2`, the full
+expectation tends to `1+exp(-x)`. It includes explicit finite error bounds
+and a nonempty-conditional limit of one. New receipts are under
+`verification/20261013-c66-exact-window/`.
+The next useful work is independent semantic acceptance of this exact-window
+proof and the completed CG chain, then formalizing finite cardinality and
+expectation interfaces. The first-coordinate projection's sparse interval
+`2 <= c <= 4` remains a distinct unresolved question here. Further source
+comparison is useful; no historical-firstness claim is made.
 
 A recurring continuation task is enabled for this STRUCT2 conversation at
 the user's request. Scheduled runs restore these checkpoints; this does

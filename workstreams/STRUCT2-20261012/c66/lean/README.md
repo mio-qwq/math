@@ -42,3 +42,29 @@ The initial proof iteration unfolded `List.flatMap` past the induction
 hypothesis and produced an unsolved length goal. Explicit constructor and
 length rewrites preserve the hypothesis and resolve it. Only the final clean
 compilation is included in the successful audit receipt.
+
+## Actual singleton classification for the exact window
+
+`SingletonComponent.lean` imports `ComponentSupport` and defines
+`FreeSingleton` directly through the complete equality closure: its edge
+variable is not the ground and every variable connected to it equals it.
+It proves this is equivalent to both permutations fixing the two endpoints
+pointwise, or both sharing the same transposition. The invariance of the
+one-edge adjacency is derived from the actual closure, and the converse
+is proved by induction over all equality paths.
+
+The two-module chain passes 21 named audits (12 existing and 9 new) with
+official Lean 4.34.1 and only `propext`, `Classical.choice`, `Quot.sound`.
+The generic one-edge classification itself uses no axioms. Reproduce with:
+
+```sh
+python3 verify_singleton_component.py --lean /absolute/path/to/lean \
+  --build-dir /chosen/build --output-dir /chosen/receipt
+```
+
+The same optional `--adapter` is supported. Actual logs and hashes are in
+`verification/20261013-c66-exact-window/`. The first source iteration left
+conditional terms unsimplified in the edge-variable fiber proof; explicit
+equality/order cases fixed this. Failed draft compilations are not counted
+as passed audits. Finite cardinalities, probability products, factorial
+tails and the expectation limit in `../EXACT_WINDOW.md` remain written.
