@@ -48,6 +48,7 @@ python -O workstreams/GP2-20261012/stage3/verify_reciprocal_trace_bound.py
 python workstreams/GP2-20261012/stage3/trace_review/check_trace_independent.py
 python workstreams/GP2-20261012/recovery_review/run_ten_state_review.py
 python workstreams/GP2-20261012/stage3/verify_oriented_trace_transfer.py
+python workstreams/GP2-20261012/stage3/verify_bridge_deletion.py
 ```
 
 The last command remedies the inherited ten-state checker's absent entry
@@ -98,3 +99,16 @@ matrices; the broad certificate-basis inference is withdrawn because
 weighted kernels already fail locally at order four. None of these
 negative results changes the accepted lambda bound. The next proof target
 is mixed reciprocal classes with canonical 10/6/3 compatibility.
+
+The positive follow-up
+[`BRIDGE_DELETION_FORMULA.md`](BRIDGE_DELETION_FORMULA.md) gives a new
+all-alphabet compatibility functional. Every strict code's selected-word
+adjacency components are disjoint complete bipartite graphs indexed by
+shared triples. Its optimal independent-subset density is exactly `p-d`,
+where `d=sum_s mu^3(s) min{i(s),o(s)}`, and the sharp inequality
+`d^2<=b*a` couples the deletion cost to active bridge mass and adjacency
+probability. The accepted hierarchy gives additional letter-type mass
+bounds. Exact checks include nine inputs, local subset optima, literal
+window checks, original directed Kautz BFS and six altered inputs in both
+ordinary and optimized Python. This is not a density-preserving deletion
+theorem, a new numerical lambda bound, or independent/Lean acceptance.

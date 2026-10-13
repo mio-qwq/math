@@ -1,0 +1,330 @@
+{
+  "schema": "GP2-bridge-deletion-v1",
+  "cases": [
+    {
+      "name": "binary_equal",
+      "kind": "explicit",
+      "alphabet": 2,
+      "weights": [
+        1,
+        1
+      ],
+      "words": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "expected": {
+        "p": "1/8",
+        "deletion": "1/16",
+        "independent_density": "1/16",
+        "bridge_mass": "1/8",
+        "adjacency_probability": "1/32",
+        "bridge_components": 1,
+        "isolated_words": 0,
+        "arcs": 1,
+        "local_subsets_checked": 4,
+        "cost_square_slack": "0",
+        "r0_mass": "1/2",
+        "r2_mass": "1/2",
+        "bridge_endpoint_slack": "1/8",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 2,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "binary_unequal",
+      "kind": "explicit",
+      "alphabet": 2,
+      "weights": [
+        2,
+        3
+      ],
+      "words": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "expected": {
+        "p": "12/125",
+        "deletion": "24/625",
+        "independent_density": "36/625",
+        "bridge_mass": "12/125",
+        "adjacency_probability": "72/3125",
+        "bridge_components": 1,
+        "isolated_words": 0,
+        "arcs": 1,
+        "local_subsets_checked": 4,
+        "cost_square_slack": "288/390625",
+        "r0_mass": "3/5",
+        "r2_mass": "2/5",
+        "bridge_endpoint_slack": "18/125",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 2,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "zero_weight",
+      "kind": "explicit",
+      "alphabet": 2,
+      "weights": [
+        0,
+        1
+      ],
+      "words": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "expected": {
+        "p": "0",
+        "deletion": "0",
+        "independent_density": "0",
+        "bridge_mass": "0",
+        "adjacency_probability": "0",
+        "bridge_components": 1,
+        "isolated_words": 0,
+        "arcs": 1,
+        "local_subsets_checked": 4,
+        "cost_square_slack": "0",
+        "r0_mass": "1",
+        "r2_mass": "0",
+        "bridge_endpoint_slack": "0",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 2,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "nonoverlap",
+      "kind": "explicit",
+      "alphabet": 3,
+      "weights": [
+        1,
+        2,
+        3
+      ],
+      "words": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ]
+      ],
+      "expected": {
+        "p": "1/72",
+        "deletion": "0",
+        "independent_density": "1/72",
+        "bridge_mass": "0",
+        "adjacency_probability": "0",
+        "bridge_components": 0,
+        "isolated_words": 2,
+        "arcs": 0,
+        "local_subsets_checked": 0,
+        "cost_square_slack": "0",
+        "r0_mass": "0",
+        "r2_mass": "0",
+        "bridge_endpoint_slack": "1",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 2,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "blowup4_equal",
+      "kind": "blowup",
+      "alphabet": 4,
+      "weights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "expected": {
+        "p": "1/8",
+        "deletion": "1/16",
+        "independent_density": "1/16",
+        "bridge_mass": "1/8",
+        "adjacency_probability": "1/32",
+        "bridge_components": 8,
+        "isolated_words": 0,
+        "arcs": 32,
+        "local_subsets_checked": 128,
+        "cost_square_slack": "0",
+        "r0_mass": "1/2",
+        "r2_mass": "1/2",
+        "bridge_endpoint_slack": "1/8",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 32,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "blowup4_unequal",
+      "kind": "blowup",
+      "alphabet": 4,
+      "weights": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expected": {
+        "p": "63/1000",
+        "deletion": "189/10000",
+        "independent_density": "441/10000",
+        "bridge_mass": "63/1000",
+        "adjacency_probability": "1323/100000",
+        "bridge_components": 8,
+        "isolated_words": 0,
+        "arcs": 32,
+        "local_subsets_checked": 128,
+        "cost_square_slack": "11907/25000000",
+        "r0_mass": "7/10",
+        "r2_mass": "3/10",
+        "bridge_endpoint_slack": "147/1000",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 32,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "blowup6_equal",
+      "kind": "blowup",
+      "alphabet": 6,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "expected": {
+        "p": "1/8",
+        "deletion": "1/16",
+        "independent_density": "1/16",
+        "bridge_mass": "1/8",
+        "adjacency_probability": "1/32",
+        "bridge_components": 27,
+        "isolated_words": 0,
+        "arcs": 243,
+        "local_subsets_checked": 1728,
+        "cost_square_slack": "0",
+        "r0_mass": "1/2",
+        "r2_mass": "1/2",
+        "bridge_endpoint_slack": "1/8",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 162,
+        "strict_maximum": 2
+      }
+    },
+    {
+      "name": "valid_kautz4",
+      "kind": "valid_blowup",
+      "alphabet": 4,
+      "weights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "expected": {
+        "p": "1/32",
+        "deletion": "1/64",
+        "independent_density": "1/64",
+        "bridge_mass": "1/16",
+        "adjacency_probability": "1/256",
+        "bridge_components": 4,
+        "isolated_words": 0,
+        "arcs": 4,
+        "local_subsets_checked": 16,
+        "cost_square_slack": "0",
+        "r0_mass": "1/2",
+        "r2_mass": "1/2",
+        "bridge_endpoint_slack": "3/16",
+        "adjacency_mass_slack": "3/256",
+        "deletion_mass_slack": "1/64",
+        "words": 8,
+        "strict_maximum": 2,
+        "original_gp_bfs": {
+          "vertices": 108,
+          "arcs": 324,
+          "selected": 8,
+          "ordered_selected_triples": 336
+        }
+      }
+    },
+    {
+      "name": "empty_code",
+      "kind": "explicit",
+      "alphabet": 1,
+      "weights": [
+        1
+      ],
+      "words": [],
+      "expected": {
+        "p": "0",
+        "deletion": "0",
+        "independent_density": "0",
+        "bridge_mass": "0",
+        "adjacency_probability": "0",
+        "bridge_components": 0,
+        "isolated_words": 0,
+        "arcs": 0,
+        "local_subsets_checked": 0,
+        "cost_square_slack": "0",
+        "r0_mass": "0",
+        "r2_mass": "0",
+        "bridge_endpoint_slack": "1",
+        "adjacency_mass_slack": "0",
+        "deletion_mass_slack": "0",
+        "words": 0,
+        "strict_maximum": 0
+      }
+    }
+  ]
+}

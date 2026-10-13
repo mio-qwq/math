@@ -54,6 +54,30 @@
       "log_sha256": "21668822520aa175ae53a6d226db19a0f9246cf3bd739d14960aecd8f5487155",
       "checker_sha256": "e76467cf496dc5890908c161d718bcfd758817fa38372c6f68b5d5cc183971fc",
       "certificate_sha256": "95364b7990efd235e9d4f4203d1dd76eeb7b8a8eb982dafc265f22c65af95e4b"
+    },
+    {
+      "command": "python workstreams/GP2-20261012/stage3/verify_bridge_deletion.py",
+      "exit_code": 0,
+      "log": "bridge_deletion_check.log",
+      "log_sha256": "5cd34fcbb192a655b3ecb249ab61843e3a58a2fb8dafbb126ac5f82ad3d0576f",
+      "checker_sha256": "16bca5242fef4e2f49ada4897c4f748a464a936436a0a48d381a962279719dcc",
+      "certificate_sha256": "c61f6ce48dd4df774c0abcc7037b6cfbda94b843e9cdf4c7864c93d9defaee7b",
+      "dependency_sha256": {
+        "../stage2/ten_state.py": "bc1df9b29f0f08ef89b5b18dc3e96fa3edae3d7ef8d2b5e5dcfe5cb7330d7808",
+        "../stage2/model.py": "b946d863b56c69f413af39839511e0ac2bc64c514f3f5f098304476717e4f8ec"
+      }
+    },
+    {
+      "command": "python -O workstreams/GP2-20261012/stage3/verify_bridge_deletion.py",
+      "exit_code": 0,
+      "log": "bridge_deletion_check.log",
+      "log_sha256": "5cd34fcbb192a655b3ecb249ab61843e3a58a2fb8dafbb126ac5f82ad3d0576f",
+      "checker_sha256": "16bca5242fef4e2f49ada4897c4f748a464a936436a0a48d381a962279719dcc",
+      "certificate_sha256": "c61f6ce48dd4df774c0abcc7037b6cfbda94b843e9cdf4c7864c93d9defaee7b",
+      "dependency_sha256": {
+        "../stage2/ten_state.py": "bc1df9b29f0f08ef89b5b18dc3e96fa3edae3d7ef8d2b5e5dcfe5cb7330d7808",
+        "../stage2/model.py": "b946d863b56c69f413af39839511e0ac2bc64c514f3f5f098304476717e4f8ec"
+      }
     }
   ],
   "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",

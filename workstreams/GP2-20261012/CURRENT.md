@@ -94,6 +94,22 @@ Do not seek a flag/SOS proof of the refuted candidate. Resume mixed
 reciprocal classes with the actual 10/6/3 compatibility hierarchy; orientation
 support alone cannot improve the cone of these four quartic scalars.
 
+The first positive interface step is now proved in
+`stage3/BRIDGE_DELETION_FORMULA.md`. For every finite strict code and every
+probability distribution, its selected-word adjacency components are
+vertex-disjoint complete bipartite graphs indexed by active triple bridges.
+The greatest independent subset density is exactly
+`p-d(C)`, where `d(C)=sum_s mu^3(s) min{i(s),o(s)}`. The exact adjacency
+probability `a(C)` and bridge mass `b(C)` satisfy `d(C)^2<=b(C)a(C)`, with
+sharp coefficient one. The 10/6/3 model bounds incoming free-letter mass
+by the r2 mass and outgoing mass by the r0 mass. This quantifies the
+adjacency branch rather than discarding it. Nine exact input cases,
+component-subset optima, raw Kautz BFS and six damaged inputs pass under
+ordinary Python and `python -O`. No new lambda bound, independent AI
+review or Lean claim is made. Next couple mixed-class rotation loss with
+these exact bridge costs, covering both independent and positive-bridge
+regimes without assuming extremizers are independent.
+
 Lean 4.34.1 is the intended pinned toolchain, but the recovered local launcher
 actually exits with `failed to locate application`; no successful compilation
 is claimed. Resolve this environment issue before any formalization claim.
