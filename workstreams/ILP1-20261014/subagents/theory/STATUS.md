@@ -113,8 +113,58 @@ is part of the input. The implemented predecessor-counter solver passes
 7,605 complete resource cases, 60 seeded all-suffix comparisons and
 stated boundaries. The same branch-state argument gives a written XP
 algorithm for general excess `c`; its arc count is at most
-`N(2^c-1) binomial(B,c)`. Independent review is in progress; historical
-novelty and Lean coverage remain unconfirmed for this new algorithm.
+`N(2^c-1) binomial(B,c)`. Independent review now accepts the proof,
+implementation and complexity in verification commit
+`dedfdb8f24cd385ef02e85db0e842ddbce48e4a8`; historical novelty and
+Lean coverage remain unconfirmed for this new algorithm. A later
+explicit chain-plus-isolates family shows forced segments can require
+exactly `N/2` cycles even at fixed `B=4,W=3`.
+
+`LOOKAHEAD_BOUNDARY.md` proves a new information boundary at `B=4,W=3`.
+For every `N>=7`, two programs with true indegree/outdegree at most one
+agree on all incoming edges except the last instruction, yet require
+disjoint optimal first-action sets. Thus even knowing `N` and all
+first `N-1` operands does not guarantee an optimal first decision;
+every fixed extra-lookahead budget fails on some finite input. The
+two-input family's exact randomized minimax is
+`1+1/[2(M+2)]`, tending to one as its common prefix grows, so it does
+not establish a constant asymptotic ratio above one. All 40 finite
+programs and 600 first-action checks pass; independent review is in
+progress. No Lean or originality claim is made for this addendum.
+The single-block result is now independently accepted in formal-dp
+commit `386e0c8ecd6b831ebc1c28b224a6bb9c8f8ef364`.
+
+`REPEATED_LOOKAHEAD_REVIEW.md` independently accepts the verification
+agent's no-extra-job block repetition. It gives fixed-lookahead lower
+bounds that survive any input-independent additive constant, and exact
+fixed-length advice `q` bits for `q` blocks. Maximum true indegree two
+is preserved; the repeated construction does not retain outdegree one.
+
+`LOOKAHEAD_UPPER_BOUND.md` gives the complementary chunk policy: with
+`Q=B+L` visible jobs, solve one consecutive block at a time. Projecting
+a global optimal schedule into blocks and counting crossing cycles
+proves `T_chunk<=T*+(B-1)floor((N-1)/Q)`. At `B=4,W=3`, this gives
+ratio at most `1+9/(L+4)`, and together with the repeated lower family
+establishes that the optimal deterministic and randomized competitive
+excess is `Theta(1/L)` as lookahead grows. Constants are not claimed
+optimal. A causal callback implementation rejects forbidden reads and
+passes 4,560 stated finite cases; independent review is underway.
+The verification agent's random-offset improvement is independently
+proved in the same note: choosing the initial block length uniformly
+from `1,...,Q` gives `E[T]<=T*+sum(action spans)/Q`, hence the stronger
+randomized ratio `1+3/(L+4)` at `B=4,W=3`. The causal implementation now
+includes this genuine uniform draw with an injectable RNG. Exact
+averaging over 26,616 finite offsets and 4,427 sampled-wrapper checks
+passes; no Monte Carlo estimate is used for the expectation bounds.
+
+`EXCESS_HARDNESS_REVIEW.md` independently accepts the main agent's
+balanced-biclique reduction, with exact makespan three versus four,
+`c=k`, height two, true poset width `B`, and all artificial ROB edges
+already true. It implies W[1]-hardness for unbounded true indegree,
+using the independently inspected deterministic hardness source.
+This is a parameter/order-preserving use of a known biclique scheduling
+mechanism; historical novelty remains unconfirmed, and the binary-input
+case is not settled by the construction.
 
 `ONLINE_LOWER_BOUND.md` proves a family of `binomial(2q,q)` indistinguishable
 programs with exact randomized minimax ratio tending to `3/2` and exact

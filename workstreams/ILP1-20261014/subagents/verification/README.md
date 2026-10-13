@@ -46,6 +46,11 @@ python packed_tiling_audit.py
 python fixed_bias_audit.py
 python corridor_audit.py --primary-module ../../src/corridor.py
 python forced_macro_audit.py --primary-module ../theory/forced_segment_dp.py
+python certificate_audit.py
+python repeated_lookahead_audit.py
+python chunk_lookahead_audit.py
+python causal_chunk_audit.py --primary-directory ../theory
+python random_offset_audit.py --primary-directory ../theory
 ```
 
 The optional `--primary-directory` cross-check imports the separately written
@@ -124,6 +129,29 @@ solver implementation. The report records the exact primary source hashes used.
   polynomial exact optimization for `B=W+1`, plus the general-excess XP proof;
   4,472 primary/CSP comparisons and replays, 26,746 prefix-value comparisons,
   and 13,380 independent general-excess/CSP comparisons, all passed.
+- `PREFIX_CERTIFICATE_REVIEW.md`, `macro_certificate.py`, and
+  `certificate_results.json`: polynomial optimality certificates using integer
+  lower potentials and an attaining trace. The independent checker regenerates
+  every macro; 365 CSP-cross-checked certificates passed and 33 malformed or
+  mathematically false certificates were rejected, including a targeted
+  omitted-macro attack. `c1_certificate_example.json` is a concrete certificate.
+- `REPEATED_LOOKAHEAD.md` and `repeated_lookahead_results.json`: fixed-prefix-
+  lookahead lower bounds robust to additive constants, matching promised-family
+  randomized/deterministic bounds, and exact advice requirements. Independent
+  theory review accompanies 42 exact programs, 630 first-action checks, 252
+  direct trace replays, and explicit barrier/observation checks.
+- `CHUNK_LOOKAHEAD_REVIEW.md` and `chunk_lookahead_results.json`: independently
+  reviewed global chunk upper bound and the resulting `Theta(1/(L+1))`
+  deterministic/randomized competitive excess at `B=4,W=3`; 5,024 chunk cases,
+  7,389 projected-trace replays, and 2,429 cut-charge checks passed.
+- The same review's causal-source addendum and `causal_chunk_results.json`:
+  20 targeted cases enforce the actual read frontier and persistent eager ROB
+  for the primary callback implementation; 199 reads and 104 issue cycles pass.
+- `RANDOM_OFFSET_LOOKAHEAD.md` and `random_offset_results.json`: a stronger
+  global randomized upper bound `1+(B-1)/(B+L)` and its exact sharpness for
+  the specified policy under the stated threshold. The audit checks all
+  1,672 offsets of 278 cases through the causal wrapper and 624 offsets of
+  84 sharpness cases, using exact rational averages.
 
 All finite checks passed. These reports do not constitute arbitrary-size Lean
 proofs. This subagent has not run Lean or made originality claims.

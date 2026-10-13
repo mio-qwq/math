@@ -12,6 +12,9 @@ This workstream studies optimal instruction-level parallelism for a fixed progra
 * At fixed widths2 and3, a two-input family has exact sufficient windows N and3 respectively. This example loses only one cycle at a small window, so exact saturation must not be confused with a large performance benefit.
 * A different chain-prefix family has an exact approximate-saturation formula and requires a window linear in N for fixed tolerance epsilon<1/W. True indegree and outdegree are at most one.
 * A universally optimal online policy exists exactly when W=1 or W>=B under the explicitly hidden-future observation model. At B3,W2 the exact strict randomized online ratio is5/4, attained by a simple fair younger-choice policy with general inequality4E<=N+3T*. The general proof has independent review, and a separate two-input repetition proof extends the sharp factors to definitions with an additive constant. The complete ROB/randomized semantics bridge is not yet Lean verified.
+* At B4,W3, finite prefix lookahead L has optimal competitive excess Theta(1/(L+1)), with independently reviewed bounds and actual causal implementations. Randomly shifted chunks achieve1+3/(L+4); the exact global constant remains open.
+* General true-DAG feasibility is W[1]-hard in c=B-W by a parameter-preserving embedding of the known biclique scheduling mechanism. The reduction has unbounded fan-in; two-input complexity remains unresolved in this work.
+* Polynomial prefix-potential certificates independently verify any optimal c1 trace without a full completed-state table.
 * A hidden-subset family gives exact family randomized/advice bounds already at true depth two. At B4,W3, the natural uniform-omission extension exceeds4/3 on a nine-job counterexample; a general optimal policy for these larger resources remains unresolved.
 
 These are mathematical results within R1. Their correctness, formalization, independent review and originality are recorded separately. No historical-first claim is made.
@@ -26,7 +29,7 @@ These are mathematical results within R1. Their correctness, formalization, inde
 * `src/rob.py`: memoized exact state search. `src/checker.py`: independent operational replay and Bellman certificate checking. `src/resources.py`: compact unrestricted-width window-saturation certificates.
 * `subagents/verification/constraint_solver.py`: independent exact time-assignment method.
 * [CORRIDOR.md](CORRIDOR.md), `src/corridor.py`: parameterized horizon feasibility and actual-trace strip theorem. [FORCED_SEGMENT_DP.md](subagents/theory/FORCED_SEGMENT_DP.md) and its adjacent Python module: polynomial B=W+1 optimization. [PERFECT_SATURATION.md](subagents/theory/PERFECT_SATURATION.md): linear structural test and certificates.
-* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair, resource proofs, actual ROB corridor and a conditional randomized-potential kernel. `subagents/formal-dp/`: general Bellman/search theorems and independent reviews. Current fresh audits cover161 distinct declarations; that count does not turn the conditional kernel into a full ROB policy proof, or verify the new Python algorithms.
+* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair, resource proofs, actual ROB corridor, finite/global non-delay execution bridge and a conditional randomized-potential kernel. `subagents/formal-dp/`: general Bellman/search theorems and independent reviews. Current fresh audits cover225 distinct declarations; that count does not turn the conditional kernel into a full ROB policy proof, or verify the new Python algorithms.
 
 From this directory:
 

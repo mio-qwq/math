@@ -1,7 +1,7 @@
 {
-  "source_sha256": "179a5b4668dda89036586e375cd41714d7fa625b4216e5272f2f970cbd896f8a",
-  "pdf_sha256": "f0fb0faafc416ab7e1150c19776ba26939e8175a5aa05be45fc17c0c2027c4be",
-  "pdfinfo": "Title:           Structure, Exact Algorithms and Information Limits in a Unit-Latency Reorder-Buffer Model\nSubject:         ILP1-20261014 research draft; originality unconfirmed\nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref\nProducer:        pdfTeX-1.40.25\nCreationDate:    Tue Oct 13 23:11:44 2026 +03\nModDate:         Tue Oct 13 23:11:44 2026 +03\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           14\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       347990 bytes\nOptimized:       no\nPDF version:     1.5\n",
+  "source_sha256": "2ba4ec3531787f4dbf0739df834a571661b02622b4247271703cc567ca3c808d",
+  "pdf_sha256": "d657f325e88943ce3ce464ce37bfa3c1ad902514ce30c3851db330816148b924",
+  "pdfinfo": "Title:           Structure, Exact Algorithms and Information Limits in a Unit-Latency Reorder-Buffer Model\nSubject:         ILP1-20261014 research draft; originality unconfirmed\nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref\nProducer:        pdfTeX-1.40.25\nCreationDate:    Tue Oct 13 23:49:17 2026 +03\nModDate:         Tue Oct 13 23:49:17 2026 +03\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           17\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       371497 bytes\nOptimized:       no\nPDF version:     1.5\n",
   "build_status": "PASS",
   "visual_review": "Recorded separately; compilation alone is not visual QA."
 }

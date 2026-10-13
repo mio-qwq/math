@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T20:26:24.236279+00:00",
+  "elapsed_seconds": 0.2784490949998144,
+  "all_DAG_N_range": [
+    0,
+    4
+  ],
+  "all_DAG_B_W_ranges": [
+    1,
+    4
+  ],
+  "all_DAG_L_range": [
+    0,
+    3
+  ],
+  "all_DAG_chunk_cases": 4864,
+  "seed": 2026101412,
+  "general_random_cases": 100,
+  "general_random_N_range": [
+    6,
+    14
+  ],
+  "general_random_B_range": [
+    1,
+    6
+  ],
+  "general_random_W_range": [
+    1,
+    8
+  ],
+  "random_L_range": [
+    0,
+    6
+  ],
+  "fixed_B4_W3_random_cases": 60,
+  "fixed_B4_W3_random_N_range": [
+    7,
+    18
+  ],
+  "all_random_indegree_at_most": 2,
+  "total_chunk_cases": 5024,
+  "independent_global_CSP_solves": 1376,
+  "projected_schedule_ROB_replays": 7389,
+  "cut_charging_checks": 2429,
+  "actual_crossing_cycles": 346,
+  "scope": "Independent exact CSP for global and chunk schedules. Every concatenation and projected local trace directly ROB-replayed; all crossing jobs and multiplicative bounds checked. No primary solver.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "chunk_lookahead_audit.py": "5be58e116bc76ea4bd7b2c618945c94ebea97737c05fb8732d9e8ad64e72840f"
+  }
+}

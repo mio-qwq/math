@@ -74,3 +74,52 @@ and natural-subtraction semantics passed review. Evidence is saved in
 `evidence/corridor-independent/`. The binomial candidate-state bound,
 tightness, exact reachability algorithm, and Python remain unformalized
 by these modules; do not promote those statuses with the strip theorem.
+
+`LOOKAHEAD_BOUNDARY_REVIEW.md` independently accepts theory commit
+`f9c74fc56e96a69772f7106519b3373df49c4ac6`: even all-but-last incoming
+information cannot ensure an optimal first action at B=4,W=3, with every
+N>=7 and every fixed extra-lookahead L covered by the stated length bound.
+The two optimum values, first-action sets, padding/admission endpoints,
+and exact promised-pair minimax ratios passed independent proof review.
+This gives no additive-constant lower bound or global upper algorithm.
+Small independent time-CSP evidence covers 12 programs, 216 decisions,
+60 operational replays, and 33 observation pairs; all passed. Script and
+`evidence/lookahead-pair-checks.json` are saved. No Lean/novelty claim is made.
+
+`READY_CONTINUATION_LEAN_REVIEW.md` independently accepts author commits
+`4b7334a571f2ee24ee84297774a243affa7b3814` and
+`0ddd4ba34ad7554ea32e487c18aea92bc28e9cf9`. Separate fresh runner invocations
+rebuilt all imports and passed 25+12=37 new audited endpoints. Actual ROB
+coherence, ready/hole counting, forced non-delay actions, non-delay trace
+termination, and completion dominance for finite chains of actual ROBStep
+transitions passed semantic review. Source hashes and complete receipts are in
+`evidence/ready-independent/`, `evidence/continuation-independent/`, and
+`evidence/ready-continuation-provenance.json`. All audits use only standard
+axioms; source is byte-identical to the pinned commits. No infinite-trace
+splicing, non-delay optimum existence, macro DP, or Python verification is
+claimed. A later untracked ROBNonDelay module was outside this review.
+
+That later module now has its own review: `NONDELAY_LEAN_REVIEW.md` accepts
+author commit `daa73300afcbeb724be39077f42e97c746464895`. Fresh independent
+compilation rebuilt five imports and passed 11 new audited endpoints with only
+standard axioms. Actual action extension, exact-horizon finite normalization,
+bounded non-delay completion, and an optimal non-delay finite continuation from
+every coherent forward-program state with positive B,W are now proved and
+independently reviewed. Evidence is in `evidence/nondelay-independent/` and
+`evidence/nondelay-provenance.json`. The complete time-assignment representation
+bridge and macro-DP/Python verification still remain open; arbitrary non-delay
+policies are not claimed optimal. No foreign file was changed.
+
+The standard-initial-state representation gap is now closed by a later increment:
+`REPRESENTATION_LEAN_REVIEW.md` independently accepts author commit
+`0b4e56b3fe5e9dbf2d7e3132d991886a0b88a4f7`. Fresh compilation rebuilt six
+imports and passed 16 new audits with only standard axioms. Actual finite
+profiles produce exact issue times/lanes; initial finite finishing chains are
+equivalent to original Feasible, their optima to original Optimal, and a global
+optimal non-delay profile has an exactly matching legal time assignment.
+Evidence is in `evidence/representation-independent/` and its provenance JSON.
+Arbitrary-state residual realization does not assert global legality of already
+completed jobs' dummy times. Infinite canonical-state identification, prefix
+macro decomposition, and executable DP remain outside this proof.
+`FIRST_CLEAR_PREFIX_INTERFACE.md` records only a proposed next formal interface,
+with no additional Lean-verified theorem claim.

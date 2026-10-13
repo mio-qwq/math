@@ -296,3 +296,60 @@ More generally, for normalized c=B-W>=1, branching requires h<c. There are at mo
 outgoing macros in total. Compress unique-action segments and order the graph by completed-set size. This gives an XP algorithm in c (polynomial for each fixed c), not an FPT-in-c claim. At c0 all actions are unique and all-ready simulation is optimal. The theory implementation covers c1; the verification implementation separately exercises the general compressed-state construction.
 
 Full proof and source: [FORCED_SEGMENT_DP.md](subagents/theory/FORCED_SEGMENT_DP.md). Independent CSP checks compare4,472 c1 instances and26,746 suffix values; the general excess construction is separately checked on13,380 cases. These finite counts support implementation review and do not replace the arbitrary-size proof. General poset-width algorithms and discrepancy-precedence algorithms must still be checked for equivalent or stronger prior results.
+
+The actual-model ingredients now have separate Lean coverage: `ROBReady` proves the ready/hole count, forced non-delay action and progress; `ROBContinuation` proves finite continuation dominance; `ROBNonDelay` proves non-delay normalization and an optimal non-delay finite continuation from any coherent state under forward dependencies and positive resources. `ROBRepresentation` proves initial finite-chain/global-feasibility and optimality equivalence, and a global optimal non-delay actual profile whose same actions match a Legal time assignment cycle by cycle. Their independent reviews and actual root compile receipts are saved. This does not yet prove the first-clear-prefix decomposition, macro recurrence, complexity or Python implementation in Lean.
+
+## R22. Polynomial prefix-potential optimality certificates
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED + COMPUTATIONALLY_SUPPORTED; not Lean verified; classical certificate principle on the R21 graph.**
+
+For B=W+1, an optimal K-cycle schedule has a polynomial certificate: the attaining legal trace and bounded prefix potentials 0<=f_i<=N-i with f_N=0,f_0=K. Independently regenerate every non-delay macro i->j of length ell and check f_i<=ell+f_j. Every accepted certificate proves T*=K. Conversely every optimal trace has an accepting potential vector, namely the actual suffix optima. This is existential in the potential vector; not every vector attached to an optimal trace is valid.
+
+Summing inequalities along any complete macro path gives K<=path length. R21 supplies an optimal non-delay path, and direct operational replay supplies the opposite inequality. The certificate occupies O(N+E) integer words, or O((N+E)log(N+1)+log(B+W)+1) bits including the instance copy. The independent set-based checker takes O(N^2 min(B,N)(N+E)) time and trusts no submitted macro whitelist. It does not solve or enumerate the complete completed-state graph.
+
+Proof/checker: [PREFIX_CERTIFICATE_REVIEW.md](subagents/verification/PREFIX_CERTIFICATE_REVIEW.md), `macro_certificate.py`. Actual checks include365 positive certificates,2198 macro inequalities and33 rejected tamper cases. The N4 edge1->3 counterexample explicitly detects a plausible three-cycle certificate that omits the competing two-cycle macro. Lower potentials need not be exact at every suffix.
+
+## R23. Hidden final operands and repeated finite-lookahead lower bounds
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED + COMPUTATIONALLY_SUPPORTED; not Lean verified; NOVELTY_UNCONFIRMED. Hidden-tail and repetition methods have substantial prior art.**
+
+At B4,W3 and each N>=7 there are two programs with true indegree/outdegree<=1, identical through the incoming operands of job N-2, with disjoint sets of optimal first actions. Put M>=1,p in {0,1},N=2M+5+p. Jobs0,1,B_0=2,A_0=3 are roots, A_k=2k+2,B_k=2k+3 form two chains for1<=k<=M, and optional padding precedes the final job z. Its sole parent is hidden A_M or B_M. Both optima are K=M+2. In the A case the possible optimal first sets are {0,3},{0,1,3},{0,2,3}; in the B case the first set is exactly {0,1,2}. The chains must start immediately and the second chain jobs' admission forces these restrictions. Explicit alternating schedules attain K; the wrong initial choice costs at least one further cycle. Thus even knowing every incoming dependency except the last does not guarantee optimal initial choice. See [LOOKAHEAD_BOUNDARY.md](subagents/theory/LOOKAHEAD_BOUNDARY.md) and its independent formal-dp review.
+
+For fixed extra prefix lookahead L>=0 choose M=max(1,ceil(L/2)) and K=M+2. Concatenate q unpadded blocks. Give all four roots of each new block true parents equal to the previous z and the previous chain leaf not selected by z. Every true indegree is at most two. These true edges together with ROB edges force strict block separation, without added separator instructions/cycles. Offline optimum is qK. At every block's first action the hidden final operand and future metadata revealing it are outside r+4+L, since L<=2M. Independent uniform hidden bits remain conditionally uniform.
+
+Any randomized policy therefore has some fixed input with E[T]>=q(K+1/2); any deterministic policy has some fixed input with T>=q(K+1). Guessing the bit independently per block attains these family values, and q advice bits are necessary and sufficient for guaranteed family optimality. Letting q grow proves global-model competitive lower bounds 1+1/(2K) and1+1/K, respectively, even with any fixed input-independent additive constant. The family upper bounds are not global upper bounds. Outdegree-one is asserted only for the single block, not the repeated construction. Full proof/reviews: verification `REPEATED_LOOKAHEAD.md`, theory `REPEATED_LOOKAHEAD_REVIEW.md`. The finite audit has42 programs,630 first actions,252 guess replays,540 barrier checks and510 visibility comparisons.
+
+## R24. Causal chunk policies and the order of finite-lookahead loss
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED; causal implementations and exact finite averages tested; not Lean verified; NOVELTY_UNCONFIRMED for this objective. Chunking, random shifts and inverse-lookahead laws are prior methods.**
+
+Let B,W>=1,L>=0,Q=B+L. At each clear prefix solve the next Q-job block optimally using only its visible incoming operands, and complete it before starting the next block. For N>0 this deterministic policy satisfies
+
+    T_chunk <= T*+(B-1) floor((N-1)/Q)
+            <= [1+W(B-1)/Q] T*.
+
+Project a fixed optimum onto consecutive blocks, deleting empty projected cycles. True and artificial ROB precedences are preserved. Each original action spans at most B-1 indices, so it meets at most two blocks. At any cut, crossing cycles inject into its last B-1 earlier jobs. This gives the additive bound, then N<=WT* gives the ratio. Empty programs finish in zero; one-block programs are optimal. The argument does not assume small fan-in.
+
+For an oblivious fixed input, choose the initial block size U uniformly from1..Q, then use Q-job blocks. Each action A_t of a fixed optimum is split with probability exactly span(A_t)/Q. Consequently
+
+    E[T_offset] <= T*+sum_t span(A_t)/Q
+                <= [1+(B-1)/Q] T*.
+
+Only internal cuts are counted. Distinct cut positions within one action have distinct residues modulo Q, including partial first/last blocks. This policy never observes future operands beyond its current r+B+L frontier. Its full-information subproblems concern only visible blocks; polynomial planning at B=W+1 follows from R21.
+
+At B4,W3 combine these upper bounds with R23. For competitive factors allowing an additive constant, both the optimal deterministic and optimal oblivious-randomized factor have excess above1 of order Theta(1/(L+1)); explicit bounds are
+
+    1+1/(M+2) <= rho_det(L) <= 1+9/(L+4),
+    1+1/[2(M+2)] <= rho_rand(L) <= 1+3/(L+4).
+
+This also holds when the entire input class is restricted to true indegree<=2. Exact optimal constants remain open. Full proof and causal callback implementation: [LOOKAHEAD_UPPER_BOUND.md](subagents/theory/LOOKAHEAD_UPPER_BOUND.md), with independent verification reports. The arbitrary-size proof is separate from the exact-offset tests.
+
+For this specific random-offset chunk policy, the upper factor is exact whenever B,W>=2 and Q>=max(B,2B-3), including with additive constants. Put k=B-1 and concatenate q pairs of consecutive k-job chains, making both next roots depend on both prior leaves. True in/outdegree<=2, optimum=qk. A cut at relative position t inside a block costs min(t,2k-t) extra; its sum over t=1..2k-1 is k^2. At most one cut lies inside each block under the stated Q, and each cut has probability1/Q, giving E[T]=qk+qk^2/Q. A plain all-ready policy is already optimal on this whole family, so this is explicitly not a global-policy-class lower bound. At B4,W3,L0 the one-block offset costs [4,5,6,5] give5/3, not7/4. Also N<=Q alone does not ensure optimality for the random-offset policy, whose initial block may be shorter than N. Independent proof/audit: verification `RANDOM_OFFSET_LOOKAHEAD.md` and theory `RANDOM_OFFSET_SHARPNESS_REVIEW.md`.
+
+## R25. W[1]-hardness in window excess for arbitrary fan-in
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED + COMPUTATIONALLY_SUPPORTED; not Lean verified. Known biclique-hardness mechanism; exact R1 embedding NOVELTY_UNCONFIRMED.**
+
+R1 horizon feasibility is W[1]-hard in c=B-W, already for horizon3 and true height2, importing the known W[1]-hardness of balanced k-Biclique. There is a deterministic polynomial reduction with c=k, N=2B, true poset width B, and all artificial ROB edges already true. Its exact optimum is3 on YES inputs and4 otherwise. Full construction, both directions, witness admission, source attribution and independent reviews are in [EXCESS_HARDNESS.md](EXCESS_HARDNESS.md).
+
+Thus FPT(c) for general true DAGs would imply FPT=W[1]. The reduction has unbounded true fan-in and gives no such result for two-input instructions, no fixed-c NP-hardness, no W[1]-membership and no stronger time exponent bound. It is consistent with R21 XP(c) and R20 FPT(c+S), because its S is not bounded by c. Jansen--Land--Kaluza2016 already connects three-cycle/height-two scheduling and biclique via nonedges; this is not presented as a first scheduling/biclique theorem. The exact earlier c-preserving supplied-order scope remains unconfirmed because the full main body was not accessible. Finite CSP/replay checks pass1890 reduction cases, not a substitute for the general proof.

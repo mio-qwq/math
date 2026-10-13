@@ -1,0 +1,97 @@
+{
+  "reviewer": "formal-dp (not author)",
+  "recorded_utc": "2026-10-13T20:23:55.967963+00:00",
+  "ready_commit": "4b7334a571f2ee24ee84297774a243affa7b3814",
+  "continuation_commit": "0ddd4ba34ad7554ea32e487c18aea92bc28e9cf9",
+  "reviewer_precommit_head": "386e0c8ecd6b831ebc1c28b224a6bb9c8f8ef364",
+  "fetched_research_branch": "a9d7d430c2742f64502be2be30dfccefd940bbc0",
+  "source_tree_status_note": "A new untracked ROBNonDelay.lean was observed in author tree after builds started; it is not imported, read, compiled, or covered by this review. All reviewed files match the pinned commits.",
+  "files": [
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBModel.lean",
+      "sha256": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBOperational.lean",
+      "sha256": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBWorkBounds.lean",
+      "sha256": "d1abd7c738b8146a5a1f8c997218d54f17d0e997f621f6d5182fe4381105a408",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBReady.lean",
+      "sha256": "d33075995f991cbe516834b3e14ddb0ffb1a61a5e0427f62643317ccc5040487",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBContinuation.lean",
+      "sha256": "e3ca7c9170cc1b4e2fa80133e2fd524e9e9011dc3d70a96d589c9f59a8b1ea8d",
+      "matches_continuation_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/verify_ready.py",
+      "sha256": "a13b7c080ae5e2394d4430e017d5cf30f18b1ca1a7a6b92913bececf585eba43",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/verify_continuation.py",
+      "sha256": "1796e2cf4b677549f845afd70e68b79c7c5c877fac5df40cecaad811935308a7",
+      "matches_continuation_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROB_READY.md",
+      "sha256": "2d0b3d5c00983de6714ac269d6af4d782a2afcad00a1f4a50a56822f9ae2629a",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROB_CONTINUATION.md",
+      "sha256": "dc0c6685c953c0da7ad3dae03cf03177e2dd0f742c8ac18736c90f6b342e8fab",
+      "matches_continuation_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/proc_self_compat.c",
+      "sha256": "4df4d8a976819f90b21908ba966bdebe3a997847807226113f961915e55bfb50",
+      "matches_continuation_commit": true,
+      "matches_ready_commit": true
+    }
+  ],
+  "independent_receipts": {
+    "ready-independent": {
+      "sha256": "de1ccb1d4e26ee02ed215c8238036bd399906a2eee340bb20dbfcb6ed1047c31",
+      "status": "PASS",
+      "started_utc": "2026-10-13T20:22:27.703011+00:00",
+      "completed_utc": "2026-10-13T20:22:30.460931+00:00",
+      "elapsed_compile_seconds": 2.682011,
+      "audit_counts": {
+        "ROBModel.lean": 22,
+        "ROBOperational.lean": 11,
+        "ROBWorkBounds.lean": 16,
+        "ROBReady.lean": 25
+      }
+    },
+    "continuation-independent": {
+      "sha256": "db0b9979b956820a13af3d4d4f3f951c5539d6796b10e4f91ed2ae03b804b158",
+      "status": "PASS",
+      "started_utc": "2026-10-13T20:22:59.489141+00:00",
+      "completed_utc": "2026-10-13T20:23:02.519407+00:00",
+      "elapsed_compile_seconds": 2.9358910000000003,
+      "audit_counts": {
+        "ROBModel.lean": 22,
+        "ROBOperational.lean": 11,
+        "ROBWorkBounds.lean": 16,
+        "ROBReady.lean": 25,
+        "ROBContinuation.lean": 12
+      }
+    }
+  }
+}

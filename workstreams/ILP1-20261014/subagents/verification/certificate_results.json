@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T20:12:12.235703+00:00",
+  "elapsed_seconds": 0.044073764998756815,
+  "all_DAG_N_range": [
+    0,
+    4
+  ],
+  "all_DAG_W_range": [
+    1,
+    4
+  ],
+  "all_DAG_valid_certificates": 304,
+  "random_seed": 2026101411,
+  "random_indegree_at_most": 2,
+  "random_N_range": [
+    5,
+    15
+  ],
+  "random_W_range": [
+    1,
+    8
+  ],
+  "random_valid_certificates": 60,
+  "valid_certificates": 365,
+  "checked_macro_inequalities": 2198,
+  "rejected_tampers": {
+    "initial potential disagrees with duration": {
+      "valid": false,
+      "reason": "invalid terminal or initial potential"
+    },
+    "intermediate potential too high within numeric bound": {
+      "valid": false,
+      "reason": "lower-potential macro inequality violated",
+      "prefix": 2,
+      "first_action": [
+        2,
+        3
+      ],
+      "macro_length": 1,
+      "endpoint": 4,
+      "potential": 2,
+      "right_hand_side": 1,
+      "macro_inequalities_checked": 5
+    },
+    "intermediate potential lowered invalidates incoming macro": {
+      "valid": false,
+      "reason": "lower-potential macro inequality violated",
+      "prefix": 1,
+      "first_action": [
+        1,
+        2
+      ],
+      "macro_length": 1,
+      "endpoint": 3,
+      "potential": 2,
+      "right_hand_side": 1,
+      "macro_inequalities_checked": 4
+    },
+    "terminal potential is nonzero": {
+      "valid": false,
+      "reason": "potentials must be integers in 0..N-i"
+    },
+    "negative potential": {
+      "valid": false,
+      "reason": "potentials must be integers in 0..N-i"
+    },
+    "oversized potential": {
+      "valid": false,
+      "reason": "potentials must be integers in 0..N-i"
+    },
+    "short potential vector": {
+      "valid": false,
+      "reason": "invalid potential vector length"
+    },
+    "boolean potential": {
+      "valid": false,
+      "reason": "potentials must be integers in 0..N-i"
+    },
+    "floating potential": {
+      "valid": false,
+      "reason": "potentials must be integers in 0..N-i"
+    },
+    "potential vector absent": {
+      "valid": false,
+      "reason": "invalid certificate fields"
+    },
+    "unrecognized macro whitelist": {
+      "valid": false,
+      "reason": "invalid certificate fields"
+    },
+    "wrong schema": {
+      "valid": false,
+      "reason": "unknown certificate schema"
+    },
+    "wrong graph": {
+      "valid": false,
+      "reason": "certificate graph does not match canonical instance"
+    },
+    "wrong N": {
+      "valid": false,
+      "reason": "certificate instance/resources do not match"
+    },
+    "wrong window": {
+      "valid": false,
+      "reason": "certificate instance/resources do not match"
+    },
+    "wrong width": {
+      "valid": false,
+      "reason": "certificate instance/resources do not match"
+    },
+    "boolean width": {
+      "valid": false,
+      "reason": "metadata must use integers"
+    },
+    "wrong cycle count": {
+      "valid": false,
+      "reason": "invalid terminal or initial potential"
+    },
+    "nonintegral cycle count": {
+      "valid": false,
+      "reason": "metadata must use integers"
+    },
+    "missing job": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "repeated issue job": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "duplicate in one action": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "same cycle dependence": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "too wide issue": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "unadmitted first job": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "out of range job": {
+      "valid": false,
+      "reason": "schedule fails direct ROB replay"
+    },
+    "boolean schedule job": {
+      "valid": false,
+      "reason": "invalid schedule representation or cycle count"
+    },
+    "nonlist action": {
+      "valid": false,
+      "reason": "invalid schedule representation or cycle count"
+    },
+    "illegal target resources": {
+      "valid": false,
+      "reason": "certificate domain requires B=W+1"
+    },
+    "zero issue width": {
+      "valid": false,
+      "reason": "invalid external instance"
+    },
+    "external graph mismatch": {
+      "valid": false,
+      "reason": "certificate graph does not match canonical instance"
+    },
+    "invalid backward external edge": {
+      "valid": false,
+      "reason": "invalid external instance"
+    },
+    "omitted optimal macro adversary": {
+      "valid": false,
+      "reason": "lower-potential macro inequality violated",
+      "prefix": 0,
+      "first_action": [
+        0,
+        1
+      ],
+      "macro_length": 1,
+      "endpoint": 2,
+      "potential": 3,
+      "right_hand_side": 2,
+      "macro_inequalities_checked": 1
+    }
+  },
+  "valid_inexact_tail_potential_certificate": {
+    "schema": "ilp1-c1-prefix-lower-v1",
+    "n": 3,
+    "window": 3,
+    "width": 2,
+    "edges": [],
+    "cycles": 2,
+    "potentials": [
+      2,
+      0,
+      1,
+      0
+    ],
+    "schedule": [
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "scope": "Certificate checker regenerates every macro itself; no submitted whitelist and no primary/theory optimizer calls. Time-variable CSP cross-checks positive claimed optima.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "forced_macro_audit.py": "1e7a57fee115010f1a91dad8f139306587ebfa469d2325f2ddbf998b9ec36a9a",
+    "macro_certificate.py": "da37ccf90a90f6a470db3fc5e27886bb3344ec5e366a9b1dc99fe119f4220ff9",
+    "certificate_audit.py": "9a79d4be401df8b4b5e224355dcb39f789be9cf33a0aec9c6eaba5350cc2e4a6"
+  }
+}

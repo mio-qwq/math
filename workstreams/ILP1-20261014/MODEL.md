@@ -42,6 +42,8 @@ The full proof of this operational equivalence is in THEOREMS.md. Condition 3 ad
 
 The offline solver knows N, E, B and W. Its actions nevertheless obey the window. An online policy observes entered instructions, their operand producers, completion history and all previous observations; it does not observe the destinations of future uses in unentered instructions. N may be public. Two programs can share an initial visible prefix but require different optimal actions. Extra metadata such as future use lists or precomputed critical-path lengths is additional advice, not part of this online model.
 
+The **prefix-lookahead variant** changes information only. For a fixed integer L>=0, at a boundary with retired prefix r it exposes the incoming dependencies of every instruction with index below min(N,r+B+L), together with prior observations. Execution still uses only the original B-entry ROB. A policy may not query arbitrary future instructions or observe their use lists. L=0 recovers the preceding online model. Randomized guarantees fix the whole input independently of the policy's random choices (an oblivious adversary). A competitive factor rho with additive constant means E[T_pi(P)]<=rho T*(P)+alpha for all programs, where alpha is finite, may depend on fixed resources/L/policy, and may not depend on the input or N. Deterministic policies omit the expectation. The lookahead results explicitly distinguish strict ratios, repeated-family lower bounds that survive alpha, and upper bounds for particular policies.
+
 ## Boundary checks and convention traps
 
 * B=1 or W=1 gives T*=N. A single operation takes one cycle. Empty input takes zero.

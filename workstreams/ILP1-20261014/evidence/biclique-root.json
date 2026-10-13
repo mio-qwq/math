@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-13T20:31:08.227311+00:00",
+  "python": "3.12.14",
+  "elapsed_seconds": 2.778674236998995,
+  "counts": {
+    "cases": 1890,
+    "yes": 898,
+    "no": 992,
+    "CSP_witness_replays": 898,
+    "constructed_witness_replays": 2788,
+    "window_edge_checks": 65663
+  },
+  "exhaustive_bipartition_ranges": [
+    {
+      "left": 1,
+      "right": 1,
+      "graphs": 2,
+      "cases": 2
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "graphs": 4,
+      "cases": 4
+    },
+    {
+      "left": 1,
+      "right": 3,
+      "graphs": 8,
+      "cases": 8
+    },
+    {
+      "left": 2,
+      "right": 1,
+      "graphs": 4,
+      "cases": 4
+    },
+    {
+      "left": 2,
+      "right": 2,
+      "graphs": 16,
+      "cases": 32
+    },
+    {
+      "left": 2,
+      "right": 3,
+      "graphs": 64,
+      "cases": 128
+    },
+    {
+      "left": 3,
+      "right": 1,
+      "graphs": 8,
+      "cases": 8
+    },
+    {
+      "left": 3,
+      "right": 2,
+      "graphs": 64,
+      "cases": 128
+    },
+    {
+      "left": 3,
+      "right": 3,
+      "graphs": 512,
+      "cases": 1536
+    }
+  ],
+  "random": {
+    "cases": 40,
+    "seed": 2026101414,
+    "left_right": "3..6",
+    "k": "1..min(3,n,m)"
+  },
+  "source_sha256": {
+    "src/biclique_reduction.py": "db3786e2788cc0b4ae615f08214297686aab51b267afec992d78c3a47070f990",
+    "tests/biclique_audit.py": "4294ca2ab3418c7eb5bf16e92fca0d08be2d42cb91433381657ab44e5c700310",
+    "subagents/verification/constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e"
+  },
+  "scope": "Root construction compared with independent time-variable CSP; finite tests are not the general proof. Unbounded true fan-in only."
+}

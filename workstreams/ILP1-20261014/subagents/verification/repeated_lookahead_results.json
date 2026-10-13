@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T20:19:43.535715+00:00",
+  "elapsed_seconds": 0.09154280400071002,
+  "M_range": [
+    1,
+    3
+  ],
+  "q_range": [
+    1,
+    3
+  ],
+  "all_bit_vector_programs": 42,
+  "exact_first_action_checks": 630,
+  "direct_policy_trace_replays": 252,
+  "cross_block_ancestor_checks": 540,
+  "visible_incoming_edge_flip_checks": 510,
+  "first_action_sets": [
+    [
+      0,
+      [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ]
+    ],
+    [
+      1,
+      [
+        [
+          0,
+          1,
+          2
+        ]
+      ]
+    ]
+  ],
+  "barriers_removed_negative_control": {
+    "M": 1,
+    "bits": [
+      0,
+      0
+    ],
+    "cycles": 6,
+    "optimal_schedule": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        13
+      ]
+    ],
+    "overlap_schedule": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6,
+        7,
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ]
+    ],
+    "scope": "The optimum remains six in this sample. The explicit overlap trace is legal only without barriers."
+  },
+  "scope": "All finite bit vectors in the stated range; no primary solver. Expected values are exact Fractions over all fixed guessed-bit traces. Visibility is incoming-edge-only prefix access, not successor lists.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "repeated_lookahead_audit.py": "582d88ba910e22aa8032e86c71780fdd7596b8e1471c53ee599a6344d7f1290c"
+  }
+}

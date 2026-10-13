@@ -1,0 +1,42 @@
+{
+  "recorded_utc": "2026-10-13T20:50:47.705728+00:00",
+  "status": "PASS",
+  "last_remote_publication": "a9d7d430c2742f64502be2be30dfccefd940bbc0",
+  "lean_distinct_audited_endpoints": 225,
+  "canonical_lean_sources": {
+    "formal/ROBModel.lean": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+    "formal/ROBOperational.lean": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+    "formal/OnlinePair.lean": "71bb6bb631a1df308e87a606f9f7e5c1c344e98f6b4c6dd0f75cf0d047ee1f54",
+    "formal/ExactEnumeration.lean": "0c3467869f7439034cab12750d2d97846c63a86424fd58eb562c5568c5f28f22",
+    "formal/ResourceBounds.lean": "4104df8505bc5288279b7fd2e1996ad023334b48e04acf0e0935b29dc5773b27",
+    "formal/ResourceFootprint.lean": "54808a4ccd10f60e4584369f447dd36d415821f2cc2db1bf7b24fb1b5119cabd",
+    "subagents/formal-dp/ROBBellman.lean": "1cda0bdd6e0aa1ef34a7d1b204be887dcbe65030ee153c4dd2809d46b7196e31",
+    "subagents/formal-dp/FiniteSearch.lean": "17dc85d24ee770aeed52a7ffc1b37a96900fb224297ae0748e50b1c56ad13f35",
+    "subagents/formal-dp/BellmanExact.lean": "de9467f89f3544253dd5ee2de2b588cf4c1daa8db0abb25ce8426d5d4d14e2a6",
+    "formal/UniformYoungerPotential.lean": "9e5265433d856728fc3540cfd62fbd078636570f431f29b81e1b71bf776a2a28",
+    "formal/RepeatedGadgets.lean": "d031ef0e025e25bd54821c2df7c8da8d7d3eddea30ee5be47ab461827786a612",
+    "formal/ROBWorkBounds.lean": "d1abd7c738b8146a5a1f8c997218d54f17d0e997f621f6d5182fe4381105a408",
+    "formal/ROBCorridor.lean": "9796a1affd8ba18919af982fe49ef8117217cb9729e1bef75f73014e711f566d",
+    "formal/ROBReady.lean": "d33075995f991cbe516834b3e14ddb0ffb1a61a5e0427f62643317ccc5040487",
+    "formal/ROBContinuation.lean": "e3ca7c9170cc1b4e2fa80133e2fd524e9e9011dc3d70a96d589c9f59a8b1ea8d",
+    "formal/ROBNonDelay.lean": "68125a212a674979f961f156d12f64ade7b9ae92892f2afc5dfbdc4cd64bd08a",
+    "formal/ROBRepresentation.lean": "514f646ca7bb6c8b565aa0838e92f78a34d63fac2a2a453012e4c2274abf7e58"
+  },
+  "new_actual_model_endpoints": 64,
+  "scope": "Actual ready/dominance/non-delay/global representation; macro recurrence, optimized executable DP and online probability remain outside this checkpoint.",
+  "unit_test_groups": 16,
+  "actual_unittest_seconds": 0.63,
+  "paper_pages": 17,
+  "biclique_root_audit": "biclique-root.json",
+  "independent_random_audit": "../subagents/verification/random_offset_results.json",
+  "source_hashes_verified": {
+    "src/biclique_reduction.py": "db3786e2788cc0b4ae615f08214297686aab51b267afec992d78c3a47070f990",
+    "tests/biclique_audit.py": "4294ca2ab3418c7eb5bf16e92fca0d08be2d42cb91433381657ab44e5c700310",
+    "subagents/verification/constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "subagents/theory/chunk_lookahead.py": "13b3374f6e9bbe388e5865d93b96f0053861db1b725e1e53e26fad427b2da5ed",
+    "subagents/theory/forced_segment_dp.py": "6798ccdf97277f16731bafb86afcd68fe5623620b8541304c750057b0093a21d",
+    "subagents/verification/causal_chunk_audit.py": "4bc0e3934a6a78c233a5a56e4285ee34d4f05d615619afa7a19124f2365279cd",
+    "subagents/verification/random_offset_audit.py": "f87c60120c63de4b28b9c9f6328b153fe53defcd828069b30d81147e986939e5"
+  },
+  "unchanged_large_audits": "Preserved and reused; no claim of fresh rerun."
+}

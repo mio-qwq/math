@@ -1,0 +1,739 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "completed_utc": "2026-10-13T20:16:27.642959+00:00",
+  "M_values": [
+    1,
+    2,
+    3
+  ],
+  "padding_values": [
+    0,
+    1
+  ],
+  "programs": 12,
+  "CSP_decisions": 216,
+  "direct_operational_replays": 60,
+  "initial_observation_pair_checks": 33,
+  "initial_action_scope": "All 16 root subsets: 15 capacity-valid subsets including empty, plus one over-width negative check.",
+  "cases": [
+    {
+      "M": 1,
+      "padding": 0,
+      "side": "A",
+      "N": 7,
+      "optimum": 3,
+      "optimal_first_actions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "M": 1,
+      "padding": 0,
+      "side": "B",
+      "N": 7,
+      "optimum": 3,
+      "optimal_first_actions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "M": 1,
+      "padding": 1,
+      "side": "A",
+      "N": 8,
+      "optimum": 3,
+      "optimal_first_actions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6,
+          7
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "M": 1,
+      "padding": 1,
+      "side": "B",
+      "N": 8,
+      "optimum": 3,
+      "optimal_first_actions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "M": 2,
+      "padding": 0,
+      "side": "A",
+      "N": 9,
+      "optimum": 4,
+      "optimal_first_actions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6
+        ],
+        [
+          8
+        ]
+      ]
+    },
+    {
+      "M": 2,
+      "padding": 0,
+      "side": "B",
+      "N": 9,
+      "optimum": 4,
+      "optimal_first_actions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ]
+      ]
+    },
+    {
+      "M": 2,
+      "padding": 1,
+      "side": "A",
+      "N": 10,
+      "optimum": 4,
+      "optimal_first_actions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8,
+          9
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "M": 2,
+      "padding": 1,
+      "side": "B",
+      "N": 10,
+      "optimum": 4,
+      "optimal_first_actions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "M": 3,
+      "padding": 0,
+      "side": "A",
+      "N": 11,
+      "optimum": 5,
+      "optimal_first_actions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8
+        ],
+        [
+          10
+        ]
+      ]
+    },
+    {
+      "M": 3,
+      "padding": 0,
+      "side": "B",
+      "N": 11,
+      "optimum": 5,
+      "optimal_first_actions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ]
+      ]
+    },
+    {
+      "M": 3,
+      "padding": 1,
+      "side": "A",
+      "N": 12,
+      "optimum": 5,
+      "optimal_first_actions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          11
+        ]
+      ]
+    },
+    {
+      "M": 3,
+      "padding": 1,
+      "side": "B",
+      "N": 12,
+      "optimum": 5,
+      "optimal_first_actions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "explicit_schedule": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "wrong_leader_schedule": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11
+        ]
+      ]
+    }
+  ],
+  "oracle_sha256": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+  "checker_sha256": "f477f194fffe11f9dc93c18b8b743cca08fbb97ea9fb9272d42d2feb38f3817b",
+  "elapsed_seconds": 0.009764,
+  "scope": "Finite boundary/CSP evidence, not a proof for arbitrary M, L, policies, or randomization."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T20:29:50.418574+00:00",
+  "elapsed_seconds": 0.004582453000693931,
+  "targeted_cases": 20,
+  "actual_frontier_checked_reads": 199,
+  "operationally_checked_issue_cycles": 104,
+  "invalid_callback_masks_rejected": 3,
+  "primary_source_sha256": {
+    "chunk_lookahead.py": "5595bd9263010789e7507ef9d67a4805352bfa1bb6bc7cc54fa80bfd77effe70",
+    "forced_segment_dp.py": "6798ccdf97277f16731bafb86afcd68fe5623620b8541304c750057b0093a21d"
+  },
+  "scope": "Own persistent eager-window environment checks every callback access and issue; independent CSP chunk values agree. No repeat of the earlier large mathematical audit.",
+  "source_sha256": "4bc0e3934a6a78c233a5a56e4285ee34d4f05d615619afa7a19124f2365279cd"
+}

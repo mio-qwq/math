@@ -1,0 +1,68 @@
+{
+  "reviewer": "formal-dp (not author)",
+  "recorded_utc": "2026-10-13T20:29:24.249327+00:00",
+  "author_commit": "daa73300afcbeb724be39077f42e97c746464895",
+  "reviewer_precommit_head": "8c5ab2ee5a8aefd8a32f4911178d5e2e3063ab3f",
+  "fetched_research_branch": "a9d7d430c2742f64502be2be30dfccefd940bbc0",
+  "files": [
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBModel.lean",
+      "sha256": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBOperational.lean",
+      "sha256": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBWorkBounds.lean",
+      "sha256": "d1abd7c738b8146a5a1f8c997218d54f17d0e997f621f6d5182fe4381105a408",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBReady.lean",
+      "sha256": "d33075995f991cbe516834b3e14ddb0ffb1a61a5e0427f62643317ccc5040487",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBContinuation.lean",
+      "sha256": "e3ca7c9170cc1b4e2fa80133e2fd524e9e9011dc3d70a96d589c9f59a8b1ea8d",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBNonDelay.lean",
+      "sha256": "68125a212a674979f961f156d12f64ade7b9ae92892f2afc5dfbdc4cd64bd08a",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/verify_nondelay.py",
+      "sha256": "1f958a448b38843a11bfad7761913b8169b88a20c655b9f7620dc656b2ef7aa5",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROB_NONDELAY.md",
+      "sha256": "0237aaa9081e2e5956a3921504239c1ff7855a9a7be86da9f36f329983149684",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/proc_self_compat.c",
+      "sha256": "4df4d8a976819f90b21908ba966bdebe3a997847807226113f961915e55bfb50",
+      "matches_pinned_commit": true
+    }
+  ],
+  "receipt_sha256": "d33ee4f28841e38d10fe9ba2612435c085c773245427be9d7fce1d031d645dbe",
+  "status": "PASS",
+  "started_utc": "2026-10-13T20:27:19.261811+00:00",
+  "completed_utc": "2026-10-13T20:27:22.947794+00:00",
+  "elapsed_compile_seconds": 3.601463,
+  "audit_counts": {
+    "ROBModel.lean": 22,
+    "ROBOperational.lean": 11,
+    "ROBWorkBounds.lean": 16,
+    "ROBReady.lean": 25,
+    "ROBContinuation.lean": 12,
+    "ROBNonDelay.lean": 11
+  },
+  "new_unique_primary_endpoints": 11
+}

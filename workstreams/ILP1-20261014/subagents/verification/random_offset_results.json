@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T20:37:14.592960+00:00",
+  "elapsed_seconds": 0.3187919880001573,
+  "all_DAG_N_range": [
+    0,
+    4
+  ],
+  "all_DAG_L_values": [
+    0,
+    1,
+    4
+  ],
+  "all_DAG_cases": 228,
+  "all_DAG_exact_offsets": 1292,
+  "seed": 2026101413,
+  "random_cases": 50,
+  "random_N_range": [
+    5,
+    15
+  ],
+  "random_L_range": [
+    0,
+    7
+  ],
+  "random_indegree_at_most": 2,
+  "total_B4_W3_cases": 278,
+  "total_exact_offsets_and_callback_runs": 1672,
+  "frontier_checked_operand_reads": 8697,
+  "operational_issue_cycles": 5578,
+  "sharp_B_range": [
+    2,
+    6
+  ],
+  "sharp_W_values": [
+    2,
+    3
+  ],
+  "sharp_q_range": [
+    1,
+    3
+  ],
+  "sharp_Q_values": "distinct max(B,2k-1), max(B,2k), 3k+1, k=B-1",
+  "sharp_family_resource_cases": 84,
+  "sharp_family_exact_offsets": 624,
+  "below_threshold_control": {
+    "B": 4,
+    "W": 3,
+    "L": 0,
+    "q": 1,
+    "offset_costs": [
+      4,
+      5,
+      6,
+      5
+    ],
+    "ratio": "5/3",
+    "universal_upper": "7/4"
+  },
+  "seeded_wrapper_result": {
+    "cycles": 4,
+    "largest_block": 5,
+    "initial_chunk_size": 2
+  },
+  "invalid_offsets_rejected": 3,
+  "primary_source_sha256": {
+    "chunk_lookahead.py": "13b3374f6e9bbe388e5865d93b96f0053861db1b725e1e53e26fad427b2da5ed",
+    "forced_segment_dp.py": "6798ccdf97277f16731bafb86afcd68fe5623620b8541304c750057b0093a21d"
+  },
+  "scope": "Exact finite uniform averages, not random sampling of expected values. Every callback run uses an independent persistent eager-window environment. Sharpness is for this policy, not the entire online class.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "causal_chunk_audit.py": "4bc0e3934a6a78c233a5a56e4285ee34d4f05d615619afa7a19124f2365279cd",
+    "random_offset_audit.py": "f87c60120c63de4b28b9c9f6328b153fe53defcd828069b30d81147e986939e5"
+  }
+}

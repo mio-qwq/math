@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "seed": 20261014,
+  "complete_program_range": "all 1,100 forward DAGs on 0 through 5 jobs",
+  "complete_lookahead_values": [
+    0,
+    1,
+    2,
+    5
+  ],
+  "complete_program_lookahead_cases": 4400,
+  "seeded_random_cases": 100,
+  "random_N_values": [
+    6,
+    9,
+    12,
+    20,
+    30
+  ],
+  "hidden_family_cases": 60,
+  "checks": [
+    "causal operand access below actual r+4+L frontier",
+    "operational ROB issue replay",
+    "independent full-state optimum",
+    "additive boundary and multiplicative guarantees",
+    "projected optimal schedules and per-cut crossing counts"
+  ],
+  "implementation_sha256": "13b3374f6e9bbe388e5865d93b96f0053861db1b725e1e53e26fad427b2da5ed",
+  "checker_sha256": "e5579c837d4732c52df5684e02de0e14d64730fdb67067193b43eed8b6c31d08",
+  "elapsed_seconds": 0.366859,
+  "scope": "finite implementation evidence, not a universal proof or novelty claim"
+}

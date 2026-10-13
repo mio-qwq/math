@@ -3,44 +3,38 @@
 Snapshot: 14 October 2026, Asia/Singapore (13 October UTC).
 Branch: `partner/dist-ILP1-20261014`.
 Actually fetched main baseline: `bf732c32f1b8cef32ebf69cac6fb232a8a5323a3`.
-Last remotely verified publication: `310fabfae3cf7d12f64068c13b8a4111fe5aa41b`.
-The next integration is not remotely published until its separate fetch/tree receipt exists.
-Obtain this file's containing commit with `git log -1 --format=%H -- workstreams/ILP1-20261014/STATUS.md`; never infer a future SHA from this text.
+Last remotely verified publication: `a9d7d430c2742f64502be2be30dfccefd940bbc0`.
+The following integration is not remotely published until a separate fetch/tree receipt confirms it. Obtain this file's containing commit from Git; do not infer a future SHA from its text.
 
-## Current strongest algorithmic results
+## Strongest current conclusions
 
-| Result | Written proof | Independent review | Actual Lean scope | Originality |
-| --- | --- | --- | --- | --- |
-| R19: O(N+E) perfect-saturation test, B=W+1,N=kW | Complete macro decomposition and path criterion | CSP/replay, flag patterns, independent negative parser | Not formalized | Unconfirmed |
-| R20: horizon corridor, c=B-W,S=WH-N | Complete strip, sharp binomial count, exact FPT(c+S) algorithm | Theory, independent CSP/replay, separate Lean review | Actual trace strip and work-count interval; not binomial count or algorithm | Unconfirmed |
-| R21: polynomial optimum for arbitrary W at B=W+1 | Complete non-delay/dominance and prefix recurrence proof | Independent proof/source/time-space review and CSP | Algorithm and non-delay optimum not formalized | Unconfirmed |
-| R21: XP in general c=B-W | Complete state/action count and compressed graph | Independent general-c implementation and proof review | Not formalized | Unconfirmed |
+| Result | Written and independently reviewed | Actual Lean coverage | Originality boundary |
+| --- | --- | --- | --- |
+| R21 polynomial optimum for arbitrary W at B=W+1, plus XP(c) | Complete proof, independent CSP/source audit | Actual dominance, forced action and global non-delay optimum; compressed algorithm remains open | Unconfirmed |
+| R20 sharp horizon corridor and FPT(c+S) | Complete count, sharpness and algorithm proofs | Actual trace strip and work-count interval | Unconfirmed; frontier methods established |
+| R22 polynomial prefix-potential certificate | Sound/complete proof; all macros independently regenerated | Not formalized | Classical potential certificate on R21 graph |
+| R23 hidden-final-operand and repeated lookahead lower bounds | General proofs, independent observation/barrier review | Not formalized | Hidden-tail and repetition methods have close prior art |
+| R24 chunk/random-offset upper bounds and inverse-lookahead order | General proofs and actual causal implementation audit | Not formalized | Same window convention and inverse-lookahead pattern precede this work |
+| R25 W[1]-hardness in c=B-W for unrestricted true fan-in | Explicit c=k biclique embedding, two reviews and CSP checks | Not formalized | Known scheduling/biclique mechanism; exact R1 parameter/order combination unconfirmed |
 
-R21 takes O(N min(B,N)(N+E)) indexed-graph operations and O(N+E) working space. Its proof does not assume bounded macro duration; a forced segment can be linear in N at fixed B4,W3. R20's FPT parameter is c+S, not c alone. Its exact per-layer bound is sum(j=c..c+S) choose(2c+S,j), attained by independent two-cycle instances; this is not a computational hardness bound.
+At fixed B4,W3, with L extra visible incoming-dependency records, the best deterministic and oblivious-randomized competitive factors have excess Theta(1/(L+1)), even when additive constants are allowed and true indegree is at most two. With M=max(1,ceil(L/2)), the deterministic bounds are 1+1/(M+2) and1+9/(L+4); randomized bounds are1+1/[2(M+2)] and1+3/(L+4). Exact global constants remain open. The random-offset chunk policy's own upper factor1+(B-1)/(B+L) is exact for B,W>=2 and B+L>=max(B,2B-3). Its tight two-chain family is easy for another policy, so it is not an all-policy lower bound.
 
-Earlier results remain valid: R1–R5 establish the model, exact algorithms/certificates, resource monotonicity and fixed-schedule window footprint. Reviewed resource families have exact and approximate window thresholds, with an explicit one-cycle limitation on one exact-threshold example. R15 proves the sharp randomized5/4 guarantee at B3,W2; R18 extends it and the deterministic3/2 factor to a fixed additive constant using a two-input repeated construction. R17 refutes the B4,W3 uniform-omission extension and every fixed rank-bias4/3 guarantee; fully adaptive policy minimax is open. Precise statements and proof-status boundaries are in THEOREMS.md.
+R25 settles the general FPT(c) search conditionally: such an algorithm would imply FPT=W[1]. Its graph has true height2 but unbounded fan-in. It does not classify two-input programs. The source problem hardness is imported from Lin; three-cycle/biclique scheduling reductions are prior work. A bounded-fan-in/height ancestor count explains why simply preserving the old redundant-window construction cannot work: max(0,N-B)<=sum(j=1..H-1)d^j if every artificial edge is already true-reachable. This is an elementary limitation, not a new hardness theorem.
+
+Earlier R1--R21 results remain valid, including linear perfect-saturation tiling, exact/approximate resource families, sharp B3,W2 factors5/4 and3/2, and the B4,W3 uniform-omission counterexample. Precise quantifiers and proof-status attributes remain in THEOREMS.md.
 
 ## Actual verification
 
-Lean4.34.1, compiler commit5045d0056413266e57c625dcd7c365b10e377c52, bundled Std, no Mathlib. Root fresh receipts cover161 distinct audited endpoints:68 core,18 footprint,20 supplementary Bellman/search,10 conditional randomized potential,20 actual repeated gadgets,25 actual work-count/corridor. Repeated imports are counted once. Only standard propext/Classical.choice/Quot.sound occur; no sorryAx or added axiom is accepted. A documented own-process path shim leaves the compiler/kernel unchanged.
+Lean4.34.1, compiler5045d0056413266e57c625dcd7c365b10e377c52, bundled Std, no Mathlib. Root receipts and current-source hashes cover225 distinct audited endpoints:68 core,18 footprint,20 supplementary Bellman/search,10 conditional randomized potential,20 repeated gadgets,25 work/corridor,25 ready,12 continuation,11 non-delay and16 finite/global representation. Imports are counted once. Only standard propext/Classical.choice/Quot.sound occur; no sorryAx or custom unproved axiom. The documented process-path compatibility shim does not modify compiler/kernel.
 
-The new25 declarations were independently recompiled and semantically reviewed in subagents/formal-dp/CORRIDOR_LEAN_REVIEW.md. They quantify over actual completing ROBTrace objects, derive cardinality from actual lane injections, and handle the terminal layer, empty programs and natural-number truncation. The binomial candidate count, its sharpness, Python implementation and parameterized algorithm are explicitly outside this Lean result. The earlier randomized-potential kernel remains conditional, with the full policy/expectation bridge open.
+The64 new endpoints connect actual ROB state cardinalities, finite transition dominance, non-delay normalization and initial finite chains to the original Feasible/Optimal predicates. The global optimal non-delay actual profile has a Legal time assignment matching its same action list cycle by cycle. Independent fresh compiles and semantic reviews are saved in subagents/formal-dp/. This closes the initial representation gap. The first-clear-prefix macro decomposition, recurrence, executable optimized search and complexity are outside the225-endpoint checkpoint. Subsequent author-branch work must not silently change this count. Full randomized-policy semantics is also still unformalized.
 
-Root unit tests:16 groups passed, including10,326 corridor graph/resource/horizon cases. Independent new datasets:4,797 corridor/CSP comparisons and1,921 replays;9,384 boundary inequalities on2,050 legal time maps;4,472 c1 optimizer comparisons and26,746 suffix values;13,380 general-c compressed comparisons plus15 normalization boundaries. The tiling has separate graph, path-pattern and certificate-tampering checks. The older baseline/resource/randomized audits are unchanged and preserved. Counts overlap; none is an infinite proof. Exact ranges, seeds, timings and hashes live beside each report.
+Current integration checks:16 root unit-test groups pass (0.630 seconds). The new biclique audit passes1890 cases,898 YES/992 NO,898 CSP witnesses,2788 constructed replays and65663 redundant-edge checks. Prefix certificates:365 positive/33 adversarial cases. Random-offset independent audit:278 graph/lookahead cases,1672 exact offsets,8697 visibility-checked reads and5578 legal issue cycles; policy-sharpness audit:84 resource cases/624 offsets. These counts overlap earlier tests and are finite implementation evidence. Exact seeds/times/hashes live beside each report. Unchanged large exhaustive audits are reused.
 
-The expanded14-page draft includes full new algorithm/corridor proofs. Its actual build and final visual verification are recorded separately in evidence/paper-build.json and evidence/paper-qa.md.
+The research draft is17 pages, with complete new lookahead and hardness proofs, certificate theorem and the225-endpoint formal boundary. Actual compilation and visual review are recorded in evidence/paper-build.json and evidence/paper-qa.md.
 
-## Literature boundary
+## Literature and next steps
 
-The all-prefix window edges are established discrepancy precedences: Cire–van Hoeve's2013 manuscript section9 also gives exponential local-state compression. R2/R4 are not a new constraint family or a new generic frontier idea. Recent time-window overlap and incomparable-graph degeneracy algorithms use parameters that can grow with W even at fixed c or c+S; no direct implication covering R19–R21 was established in the inspected sources. This finite search is not novelty clearance. The associated2026 SSRN full text and Dubey1994 full text remain access gaps. See LITERATURE.md, NOVELTY_AUDIT.md and the independent source-level notes.
+Feder et al.2004 is close prior art for the occupied-window convention, last-item ambiguity, numerical3/2 and5/4 lower patterns and inverse-lookahead chunk reasoning; its objective is cache misses. Jansen--Land--Kaluza2016 is close prior for three-cycle/height-two biclique reductions; the public appendices were read, but full main-body access remains missing. No cost-preserving caching equivalence or exact earlier c-preserving ROB-order theorem was established. This is not novelty clearance. Other known constraints/frontier methods remain attributed to Cire--van Hoeve and resource-event DAG work.
 
-## Work already continuing on independent branches
-
-1. Polynomial optimality certificates for R21: a legal K-cycle trace plus prefix potentials checked against every independently regenerated macro; negative controls in progress.
-2. Actual-model Lean ready/hole cardinality, forced non-delay action and progress lemmas, followed by the missing dominance/non-delay-optimum bridge. Do not count an unmerged author-run module in the161 total.
-3. Information boundary at B4,W3: a two-chain hidden-final-parent family may require near-total future dependency knowledge for universal optimality. Written construction and independent review are in progress; do not mark it proved in this checkpoint.
-4. Decide whether the XP(c) bound improves to FPT(c), or find an appropriate parameterized obstruction. No hardness result has been proved.
-
-## Recovery and continuation
-
-An authorized recurring continuation remains enabled and scoped to this conversation. It requests actual recovery, research, checkpointing and Git publication; it is not a claim of computation between invocations. Preserve it until the user asks to stop, subject to actual runtime availability. HANDOFF.md records paths, commands, active roles and publication mechanics.
+Next concrete tasks already started on separate branches: actual first-clear-prefix decomposition and macro optimality in Lean; non-delay filling of chunk plans to remove avoidable barrier losses; complexity for true two-input programs at parameter c. A recent FPT result parameterizes the total number of predecessor jobs, not maximum indegree, and does not settle that restricted question. HANDOFF.md records exact pending commits, paths and commands.

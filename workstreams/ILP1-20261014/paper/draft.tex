@@ -33,6 +33,9 @@ has capacity $B=W+1$. Perfect saturation then has a linear structural test.
 More generally, a horizon with $S=HW-N$ unused issue slots confines every
 feasible trace to a strip of width $2(B-W)+S$, yielding fixed-parameter
 feasibility in $(B-W)+S$. We also exhibit
+an explicit balanced-biclique embedding that makes feasibility W[1]-hard
+in $B-W$ alone for unrestricted true fan-in; its underlying scheduling
+hardness mechanism is established prior work. We exhibit
 two-input programs whose minimum sufficient window falls from $N$ to $3$ when
 issue width increases from $2$ to $3$. This unbounded threshold change costs
 only one extra cycle at window two, highlighting the distinction between
@@ -42,10 +45,15 @@ model, a universally optimal online policy exists exactly when $W=1$ or
 $W\ge B$. At $B=3,W=2$, a simple randomized policy has the sharp strict
 ratio $5/4$, proved by a joint potential invariant. A two-input repeated
 construction preserves this lower bound with an additive constant.
+At $B=4,W=3$, the best deterministic and oblivious-randomized competitive
+factors have excess above one of order $1/(L+1)$ with $L$ additional visible
+instructions. Randomly shifted optimal chunks give the general upper bound
+$1+(B-1)/(B+L)$; these lookahead methods have close caching predecessors.
 Lean 4.34.1 verifies the operational reduction, existence of an
 optimum, an executable exact enumeration algorithm, resource caps, Bellman
-certificates, the actual-trace strip bound, and a four-job arbitrary-policy online obstruction. General
-resource families and online classifications have independent written review
+certificates, the actual-trace strip bound, and a four-job arbitrary-policy online obstruction.
+It also verifies existence of a global optimal non-delay actual execution.
+General resource families and online classifications have independent written review
 but are not yet fully formalized. Historical originality remains unconfirmed.
 \end{abstract}
 
@@ -93,6 +101,11 @@ An offline planner sees the entire graph. An online planner sees only
 admitted operations, their incoming true dependencies, and execution history.
 It may know $N$, but receives no oracle for future uses of visible values.
 All online lower bounds below use this observation model.
+In the prefix-lookahead variant, a boundary with retired prefix $r$ exposes
+incoming dependencies below $\min(N,r+B+L)$, where $L\ge0$ is fixed.
+Only information changes; the execution window still has capacity $B$.
+Randomized guarantees below use an input fixed independently of the random
+choices. Additive competitive constants are independent of the input and $N$.
 
 \section{Related work and claim boundaries}
 Wall's report studies instruction-level parallelism under idealization
@@ -130,6 +143,16 @@ Hidden-successor adversaries and advice-counting methods also have prior art;
 the workstream literature notes compare different release and observation
 models. No exact equivalent of all the threshold formulas below was located,
 but the search is incomplete. All prospective novelty is unconfirmed.
+
+A particularly close predecessor is Feder et al.'s reordering/cache model
+\cite{feder}. Its window is positioned at the first unserved request and
+counts requests already served out of order. It has hidden-tail obstructions,
+$3/2$ and $5/4$ lower bounds, and inverse-lookahead estimates using offline
+chunks. The objective is cache misses, not parallel makespan. We therefore
+attribute these methods and patterns without asserting a cost-preserving
+equivalence. Jansen--Land--Kaluza already connect three-cycle and height-two
+scheduling to biclique \cite{jansen}; our hardness result below is an ordered
+ROB embedding of that known mechanism, not a first biclique reduction.
 
 \section{Static reduction and exact algorithms}
 \begin{theorem}[Exact window representation]
@@ -282,6 +305,23 @@ if necessary. Completed-set size strictly increases along every macro,
 giving an exact acyclic state graph. This is an XP algorithm in $c$,
 not a fixed-parameter algorithm in $c$ alone. At $c=0$ every action is unique.
 
+\begin{corollary}[Polynomial optimality certificates]
+At $B=W+1$, a legal $K$-cycle trace is optimal if and only if there exist
+integers $0\le f_i\le N-i$ with $f_0=K$, $f_N=0$, and
+$f_i\le\ell+f_j$ for every independently regenerated macro $i\to j$ of
+duration $\ell$.
+\end{corollary}
+\begin{proof}
+The inequalities telescope along any complete macro path to give a lower
+bound $K$. An optimal non-delay path exists, so the attaining trace proves
+equality. Conversely the exact suffix optima satisfy every inequality and
+the bounds. The independent checker regenerates all macros and trusts no
+submitted whitelist; it need not require exact potentials at every suffix.
+The certificate contains $O(N+|E|)$ integer words including the instance.
+The present direct set-based checker runs in polynomial time
+$O(N^2\min(B,N)(N+|E|))$; it does not call the optimizer.
+\end{proof}
+
 \subsection{A linear perfect-saturation criterion}
 Suppose $W\ge2$, $B=W+1$ and $N=kW$. Partition the jobs into $k$
 consecutive blocks of $W$ entries. A singleton macro executes one block
@@ -389,6 +429,58 @@ This recovers the preceding tiling result. For $S>0$, appending independent
 dummy jobs is not a reduction to $S=0$: at $B=4,W=3$, five jobs with sole
 true edge $0\to1$ finish in two cycles, but adding a sixth independent job
 makes two cycles impossible.
+
+\section{An excess-parameter hardness embedding}
+The following result uses the known W[1]-hardness of balanced $k$-Biclique
+\cite{lin}. Scheduling/biclique reductions and the three-cycle target
+already occur in \cite{jansen}; the point checked here is the supplied
+ROB order and exact parameter preservation. This construction has
+unbounded true fan-in.
+
+\begin{theorem}[Hardness in window excess]
+R1 horizon feasibility is W[1]-hard parameterized by $c=B-W$, even at
+horizon three and true height two. The reduction has true poset width $B$
+and every artificial ROB precedence is already a true edge.
+\end{theorem}
+\begin{proof}
+Let a bipartite source graph have parts $U,V$ of sizes $n,m$, with
+$1\le k\le\min(n,m)$. Set $f=m+k$, $B=n+m+k$, $W=n+m$, and create
+$2B$ jobs. The first $B$ are roots: first $f$ forced roots, then the
+$n$ vertices of $U$. The next $B$ are sinks. The first $m$ represent $V$;
+each has all forced roots and its $U$ nonneighbors as parents. All remaining
+padding sinks depend on every root.
+
+If sets $S\subset U$, $T\subset V$ of size $k$ form a biclique, issue
+all roots except $S$ first, then $S\cup T$, then the remaining sinks.
+These batches have sizes $W,2k,W$. All forced roots retire first, admitting
+every represented sink because $f\ge m$. Those in $T$ have no parent in
+$S$, so the second batch uses no same-cycle dependence. Completing all roots
+then admits the remaining sinks. The schedule takes three cycles.
+
+Conversely, any three-cycle schedule must issue at least $B-W=k$ sinks
+second, since none can issue first and the last cycle has width $W$.
+At least $k$ roots remain after the first cycle. No forced root can remain,
+or no sink would be ready second. No padding sink can issue second, because
+some root remains. Hence at least $k$ represented $V$ sinks issue second,
+and all are adjacent to every omitted $U$ root. Choosing $k$ from each gives
+a balanced biclique. The converse permits underissuing and idle cycles.
+
+Two cycles are impossible by $2B>2W$. Four always suffice by issuing roots
+in batches $W,k$ and then sinks in batches $W,k$. Thus the exact optimum is
+three or four according to the source answer. A represented sink $B+v$
+has artificial parents only at indices $i\le v<m$, all forced roots;
+padding sinks already have every root. Thus no artificial edge is new.
+The two layers are $B$-element antichains. Any mixed antichain contains
+neither a forced root nor a padding sink and has size at most $n+m=W<B$.
+Therefore the poset width is $B$ and $c=k$ exactly.
+\end{proof}
+
+An FPT algorithm in $c$ for general true DAGs would consequently imply
+FPT=W[1]. This does not prove hardness for two-input instructions or at
+fixed $c$, and does not contradict FPT in $c+S$: here
+$S=3W-2B=n+m-2k$ is unbounded in $k$. The 2016 publisher abstract and public
+appendices were inspected; its main body was inaccessible. Historical
+priority of the precise combined order/parameter assumptions is unconfirmed.
 
 \section{Unbounded changes in exact resource thresholds}
 For nonempty programs define
@@ -814,6 +906,134 @@ effective local-edge search through $N=8$ found no smaller counterexample
 to this policy. A different online policy might still attain $4/3$;
 that minimax question remains open here.
 
+\section{Finite prefix lookahead}
+We first give an obstruction whose only hidden data is one final operand,
+then quantify how increasing visible information reduces worst-case loss.
+These are R1 proofs of methods with the prior-art boundary described above.
+
+\begin{proposition}[Hidden final operand]
+At $B=4,W=3$, for every $N\ge7$ there are two programs with true indegree
+and outdegree at most one, identical except for the last instruction's
+incoming edge, whose sets of optimal first actions are disjoint.
+\end{proposition}
+\begin{proof}
+Write $N=2M+5+p$, where $M\ge1$ and $p\in\{0,1\}$. Start with roots
+$0,1,B_0=2,A_0=3$ and interleave two chains
+$A_i=2i+2$, $B_i=2i+3$ for $1\le i\le M$. An optional isolated pad
+comes next, then final job $z$ whose parent is either $A_M$ or $B_M$.
+Both optima are $K=M+2$. A selected chain followed by $z$ already has
+that length, so its root must issue first and its second job next.
+If $A$ is selected, admitting $A_1=4$ next forces job0 first and hence
+the possible optimal first sets are $\{0,3\}$, $\{0,1,3\}$ and
+$\{0,2,3\}$. If $B$ is selected, admitting $B_1=5$ next forces both
+0 and1 first, so the first set is exactly $\{0,1,2\}$.
+
+For attainment in the $A$ case, issue $\{0,1,3\}$, then
+$\{B_{i-1},A_i\}$ for $i=1,\ldots,M$, then $\{B_M,z\}$ with the
+optional pad. The $B$ case uses $\{0,1,2\}$, then
+$\{A_{i-1},B_i\}$, then $\{A_M,z\}$ with the pad.
+After first set $\{0,3\}$, use $\{1,B_0,A_1\}$ next and the same
+remaining pairs. After $\{0,2,3\}$, use $\{1,A_1\}$ next, then the
+pairs $\{B_{i-1},A_i\}$ for $i=2,\ldots,M$ and the same final batch.
+All batches obey the ROB and width three.
+The two successful-first-action sets are therefore disjoint.
+\end{proof}
+
+\begin{theorem}[Repeated lookahead lower bounds]
+Fix $L\ge0$, set $M=\max(1,\lceil L/2\rceil)$ and $K=M+2$.
+At $B=4,W=3$, every deterministic competitive factor is at least
+$1+1/K$ and every oblivious-randomized factor is at least $1+1/(2K)$,
+even allowing a finite input-independent additive constant. The true
+maximum indegree need be no greater than two.
+\end{theorem}
+\begin{proof}
+Concatenate $q$ unpadded copies of the preceding construction. Give the
+four roots of the next block two parents: the previous $z$ and whichever
+chain leaf is not its parent. Together these cover both chain leaves and
+$z$; the artificial ROB edges cover every remaining preceding job.
+Every new block therefore starts strictly after the previous block ends,
+without extra separator jobs or cycles. The offline optimum is $qK$.
+
+Before a block's first action its retirement frontier is at most its
+starting index $s$. Since $L\le2M$, its visible prefix ends no later
+than $s+4+L\le s+2M+4=z$. The hidden final operand is not visible;
+neither is next-block metadata that could reveal it. For independent
+uniform hidden choices, each bit remains uniform conditioned on prior
+history and the policy's random state. The disjoint first actions imply
+conditional expected duration at least $K+1/2$ per block. Averaging gives
+a fixed input with expectation at least $q(K+1/2)$. For a deterministic
+policy, choosing the failed branch at each first action specifies one
+fixed input costing at least $q(K+1)$. Let $q$ grow to absorb any fixed
+additive constant. Outdegree one is not claimed for this repeated graph.
+\end{proof}
+
+\begin{theorem}[Chunk guarantees]
+For arbitrary positive $B,W$, set $Q=B+L$. Complete consecutive blocks
+of at most $Q$ jobs using an optimal schedule computed from their visible
+operands. The fixed partition satisfies, for $N>0$,
+\[
+ T_{\rm chunk}\le\T+(B-1)\left\lfloor\frac{N-1}{Q}\right\rfloor
+ \le\left(1+\frac{W(B-1)}Q\right)\T.
+\]
+If the first block length is uniform on $1,\ldots,Q$ and all subsequent
+blocks have length $Q$ except possibly the last, then on every fixed input
+\[
+ \mathbb E[T_{\rm offset}]
+ \le\T+\frac1Q\sum_t\operatorname{span}(A_t)
+ \le\left(1+\frac{B-1}Q\right)\T,
+\]
+where $A_t$ are the actions of any fixed optimal schedule.
+\end{theorem}
+\begin{proof}
+At each clear prefix, the entire next block is visible. Removing its
+incoming edges from earlier completed blocks is legal. Project a global
+optimum onto each block and remove empty projected cycles. Internal true
+and artificial ROB precedences retain strictly earlier cycles, so each
+projection is feasible for its block. The sum of block optima is no
+greater than the sum of projected durations.
+
+Any global action has index span at most $B-1<Q$, and hence meets at
+most two blocks. Every split action contributes one extra projected
+cycle. At a fixed cut, crossing actions inject into the at most $B-1$
+jobs immediately before the cut, by choosing one of their earlier-side
+jobs; no job issues twice. This proves the deterministic additive bound.
+The work bound $N\le W\T$ gives its ratio form.
+
+For the random offset, an action with extreme indices $a,b$ is split
+exactly when a grid boundary lies at one of $a+1,\ldots,b$. These are
+internal cuts, with distinct residues modulo $Q$, each realized by
+one uniform offset. The split probability is $(b-a)/Q$; the first and
+last partial blocks change nothing. Linearity of expectation gives the
+refined bound, then $b-a\le B-1$ gives the claimed ratio. The input
+and its fixed optimal trace are chosen independently of the offset.
+\end{proof}
+
+Combining the last two theorems gives, at $B=4,W=3$,
+\[
+ 1+\frac1{M+2}\le\rho_{\rm det}(L)\le1+\frac9{L+4},\qquad
+ 1+\frac1{2(M+2)}\le\rho_{\rm rand}(L)\le1+\frac3{L+4}.
+\]
+Thus both best competitive factors have excess $\Theta(1/(L+1))$,
+also within the true-indegree-two class and with additive constants.
+This settles the decay order, not the leading constants. The concrete
+callback policy at $B=4,W=3$ reads only currently visible operands and
+uses the polynomial prefix solver on each block; it does not receive a
+full-graph oracle. Exact block planning has a cost and is not claimed to
+be realizable as a zero-cost hardware scheduling decision.
+
+The random-offset policy's upper coefficient is itself tight for
+$B,W\ge2$ and $Q\ge\max(B,2B-3)$. Put $k=B-1$. Each of $q$ blocks
+contains two consecutive $k$-job chains; the next block's two roots
+depend on both preceding leaves. The optimum is $qk$, by issuing the
+corresponding chain jobs together at span $k$. Cutting a block at
+$1\le t<2k$ increases its optimum by $\min(t,2k-t)$, whose sum over
+cuts is $k^2$. Under the stated threshold there is at most one grid
+cut inside each block. Each cut position occurs with probability $1/Q$,
+so the exact expected ratio is $1+k/Q$. The true fan-in/out are at most
+two. This is sharpness for this policy only: an all-ready policy is
+already optimal on the entire family, so it supplies no corresponding
+lower bound on the optimal policy class.
+
 \section{Computational and formal verification}
 The operational Python solver uses completed-set memoization. A separately
 implemented time-assignment constraint solver shares neither that recurrence
@@ -848,8 +1068,9 @@ Lean 4.34.1 (compiler commit
 dependency. The main modules expose 68 audited declarations; the resource-footprint
 module adds 18, three supplementary Bellman/search modules add 20,
 the conditional randomized-potential module adds 10, and the actual
-repeated-gadget module adds 20, and work-count/corridor modules add 25
-distinct declarations (161 in total). Root
+repeated-gadget module adds 20, work-count/corridor modules add 25,
+ready/continuation/non-delay modules add 48, and finite/global
+representation adds 16 distinct declarations (225 in total). Root
 recompilation uses fresh temporary compiled objects. Audits permit only
 Lean's standard \texttt{propext}, \texttt{Classical.choice} and
 \texttt{Quot.sound}; no new unproved axiom, \texttt{sorry}, or \texttt{admit}
@@ -862,7 +1083,12 @@ a concrete executable time-and-lane enumeration
 algorithm with soundness/completeness/optimality, operational Bellman lower
 certificates, a general attaining-potential theorem, and the arbitrary-local-
 policy four-job obstruction. Generic finite-search lemmas and the actual
-concrete enumerator are distinguished. These proofs do not verify the
+concrete enumerator are distinguished.
+The actual finite-continuation dominance and optimal non-delay normalization
+are also formalized. A completing action-labelled profile is connected to
+the original global feasibility and optimality predicates, with the same
+actions matching its legal time assignment cycle by cycle.
+These proofs do not verify the
 Python program, the polynomial forced-segment DP, the corridor candidate
 count or parameterized algorithm, the full general
 online theorem, or the unbounded saturation families. Finite tests are not
@@ -876,6 +1102,11 @@ constraint comparisons, 1,921 feasible witness replays, and 9,384 boundary
 checks on 2,050 complete legal time maps. The linear saturation theorem
 has separate graph, abstract macro-pattern and negative-certificate audits.
 Each saved report gives its actual ranges and seeds; these counts overlap.
+The new reduction audit compares 1,890 biclique instances against the
+independent time-variable CSP. The prefix certificate audit accepts 365
+positive examples and rejects 33 corruptions. Random-offset testing
+enumerates offsets exactly and checks both causal operand access and
+operational replay; it is not a Monte Carlo proof of the expectation bound.
 
 \section{Limitations and future work}
 The model omits variable operation latency, functional-unit classes, finite
@@ -885,10 +1116,10 @@ Its online information model is deliberately explicit and may differ from
 what a concrete processor can infer. No implementation-level speed or energy
 claim follows from these theorems.
 
-The next questions are fixed-parameter tractability in $B-W$ alone,
-efficient optimality certificates for the compressed graph, tight online ratios
-at other fixed resources, composition of larger hidden-subset families, efficient
-certificates at finite issue width, and formalization of the general
+The next questions are fixed-parameter tractability in $B-W$ with restricted
+true fan-in, tight online ratios and lookahead constants
+at other fixed resources, composition of larger hidden-subset families,
+and formalization of the compressed optimizer and general
 resource and observation theorems. A deep originality audit remains needed,
 especially for bounded-lookahead and FIFO storage scheduling. All research
 states and reproducible commands are saved in \texttt{STATUS.md} and
@@ -924,6 +1155,18 @@ Author manuscript revised May2013, section9, Lemma8 and Theorem3.
 \bibitem{graham} R. L. Graham. \emph{Bounds for Certain Multiprocessing
 Anomalies}. Bell System Technical Journal 45, 1563--1581, 1966.
 \url{https://doi.org/10.1002/j.1538-7305.1966.tb01709.x}.
+\bibitem{feder} T. Feder, R. Motwani, R. Panigrahy, S. Seiden,
+R. van Stee, A. Zhu. \emph{Combining Request Scheduling with Web Caching}.
+CWI report SEN-E0402, March2004, sections1 and3.
+\url{https://ir.cwi.nl/pub/4063/04063D.pdf}.
+\bibitem{jansen} K. Jansen, F. Land, M. Kaluza.
+\emph{Precedence Scheduling with Unit Execution Time is Equivalent to
+Parametrized Biclique}. SOFSEM2016, LNCS9587, pp.329--343.
+\url{https://doi.org/10.1007/978-3-662-49192-8_27}.
+Public abstract and Appendices B/C read; main-body access incomplete.
+\bibitem{lin} B. Lin. \emph{The Parameterized Complexity of k-Biclique}.
+arXiv:1406.3700v3, revised8June2019, section1.1, Corollary1.3.
+\url{https://arxiv.org/abs/1406.3700v3}.
 \bibitem{oai} OpenAI. \emph{Three-machine unit-time precedence scheduling},
 family 124, September 2026 artifact. Inspected repository commit
 \texttt{1581d4cbdd69a0faf34b2089614fe2a814316a6a}.

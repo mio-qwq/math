@@ -1,0 +1,74 @@
+{
+  "reviewer": "formal-dp (not author)",
+  "recorded_utc": "2026-10-13T20:40:02.637216+00:00",
+  "author_commit": "0b4e56b3fe5e9dbf2d7e3132d991886a0b88a4f7",
+  "reviewer_precommit_head": "aa003063d0c2ffaad6131f745c0193b383d104b3",
+  "fetched_research_branch": "a9d7d430c2742f64502be2be30dfccefd940bbc0",
+  "files": [
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBModel.lean",
+      "sha256": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBOperational.lean",
+      "sha256": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBWorkBounds.lean",
+      "sha256": "d1abd7c738b8146a5a1f8c997218d54f17d0e997f621f6d5182fe4381105a408",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBReady.lean",
+      "sha256": "d33075995f991cbe516834b3e14ddb0ffb1a61a5e0427f62643317ccc5040487",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBContinuation.lean",
+      "sha256": "e3ca7c9170cc1b4e2fa80133e2fd524e9e9011dc3d70a96d589c9f59a8b1ea8d",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBNonDelay.lean",
+      "sha256": "68125a212a674979f961f156d12f64ade7b9ae92892f2afc5dfbdc4cd64bd08a",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROBRepresentation.lean",
+      "sha256": "514f646ca7bb6c8b565aa0838e92f78a34d63fac2a2a453012e4c2274abf7e58",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/verify_representation.py",
+      "sha256": "d5936e9152fefbbfa9186490a091414b8de9bc1daa49675e1c0b6c3c87b4547a",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/ROB_REPRESENTATION.md",
+      "sha256": "ab7b45fb4208e7f17bdc92fb732ce716c654f9cf3df1348e4b3ef095bd3ea110",
+      "matches_pinned_commit": true
+    },
+    {
+      "path": "workstreams/ILP1-20261014/formal/proc_self_compat.c",
+      "sha256": "4df4d8a976819f90b21908ba966bdebe3a997847807226113f961915e55bfb50",
+      "matches_pinned_commit": true
+    }
+  ],
+  "receipt_sha256": "6e5374c79c9e8501dbe7c0d7d96a55ecbeca4e937cf5f938f6e0084e498946f8",
+  "status": "PASS",
+  "started_utc": "2026-10-13T20:39:22.250843+00:00",
+  "completed_utc": "2026-10-13T20:39:26.269816+00:00",
+  "elapsed_compile_seconds": 3.94447,
+  "audit_counts": {
+    "ROBModel.lean": 22,
+    "ROBOperational.lean": 11,
+    "ROBWorkBounds.lean": 16,
+    "ROBReady.lean": 25,
+    "ROBContinuation.lean": 12,
+    "ROBNonDelay.lean": 11,
+    "ROBRepresentation.lean": 16
+  },
+  "new_unique_primary_endpoints": 16
+}

@@ -1,7 +1,7 @@
 # Exact optimization with a window one slot wider than issue width
 
-Status: **WRITTEN_PROOF**; independent review and implementation checks are
-tracked separately below. Historical novelty is unconfirmed. No Lean
+Status: **WRITTEN_PROOF** and **INDEPENDENTLY_REVIEWED** for Sections 1–4;
+implementation checks are tracked separately below. Historical novelty is unconfirmed. No Lean
 verification is asserted. This note uses the eager unit-latency ROB model
 and zero-based job indices. It concerns arbitrary finite forward DAGs and
 arbitrary makespans, without a perfect-saturation assumption.
@@ -181,6 +181,34 @@ implies the other parameter dependence.
 The current implementation covers the `c=1` prefix recurrence only.
 The general XP extension is a written algorithm and counting proof.
 
+## 5. Forced segments can be arbitrarily long at fixed width
+
+The macro construction must not be optimized by imposing a bound
+depending only on `W`. Fix `W=3,B=4`, choose any integer `m>=2`, and
+take `N=2m`. Jobs 0, 1, 2 and every odd-indexed job are roots. The
+remaining true edges form the single even-index chain
+
+`2 -> 4 -> 6 -> ... -> 2m-2`.
+
+From the empty prefix, choose the legal full action `{0,1,3}`. Its
+forced continuation is
+
+`{2t-2,2t+1}` in cycle `t`, for `2<=t<=m-1`,
+
+followed by `{2m-2}` in cycle `m`. After every cycle `t<m`, the retired
+prefix is exactly `2t` and job `2t+1` is the sole completed unretired
+job. At the next boundary the only uncompleted ready entries are
+`2t` and, if it exists, `2t+3`: the intermediate even job `2t+2`
+depends on `2t`, while `2t+1` is already complete. This proves the
+action formula inductively. Before the last cycle the oldest even
+job is the only uncompleted job.
+
+Thus the first return to a clear prefix occurs after exactly `m=N/2`
+cycles, even though the window and width are fixed and all true
+indegrees and outdegrees are at most one. The claim concerns the length
+of one enumerated macro, not the makespan of an optimal whole-program
+schedule. The `O(N+|E|)` macro simulation bound is designed to cover it.
+
 ## Evidence and remaining limits
 
 The file `FORCED_SEGMENT_CHECK.json` records the actual implementation
@@ -197,8 +225,14 @@ than the program, independent/serial 200-job programs, duplicate edges,
 and five invalid-input rejections. Every case passes; the recorded
 Python 3.12.14 runtime is 0.895748 seconds.
 
-The verification agent independently accepted the branching argument
-and suggested the predecessor-counter implementation bound before
-this implementation was written. Its saved independent report, once
-available, determines the formal scope of INDEPENDENTLY_REVIEWED.
-Neither historical novelty nor a general Lean bridge is asserted.
+The verification agent independently accepted Sections 1–4 and the
+implementation in commit `dedfdb8f24cd385ef02e85db0e842ddbce48e4a8`.
+Its separate CSP checks cover 4,472 one-extra-entry cases and 26,746
+suffix values; an independent general-excess prototype passes 13,380
+CSP cases and 15 normalization boundaries. The review includes the
+polynomial complexity and XP arc-count arguments.
+
+Section 5's later long-macro construction is a separate written
+addendum. `lookahead_boundary_check.py` checks its exact forced actions
+and internal-hole invariant for `m=2,...,40`. Neither historical
+novelty nor a general Lean bridge is asserted.
