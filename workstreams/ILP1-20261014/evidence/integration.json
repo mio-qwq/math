@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-13T19:00:30.568688+00:00",
+  "fetched_baseline": "bf732c32f1b8cef32ebf69cac6fb232a8a5323a3",
+  "previous_verified_remote": "4379581865cb3c7cf81ccd6397ade07faa9bbff4",
+  "local_integration_head_before_root_commit": "793e17ae299ab4916b426bdde1ea8c1807c7d0db",
+  "lean_distinct_audited_endpoints": 106,
+  "lean_receipts": [
+    "evidence/lean-root/receipt.json",
+    "evidence/lean-footprint-root/receipt.json",
+    "evidence/lean-bellman-root/receipt.json"
+  ],
+  "extra_axioms": [],
+  "source_hashes": {
+    "src/checker.py": "2cb1cc95bf10cf88945e06a632cea200f2d4c9d86ebef4c81af3dc0a065fec2e",
+    "src/resources.py": "d3e8deaac531f3353ce68afd08c8c93f9203d2b6b462515bc957956f175f87a3",
+    "src/rob.py": "a35793d3297877f71f8c452307953a25c78f9557a718f5c5f63d0fa4ef3a96e9",
+    "tests/test_resources.py": "495cd2aa8cae3534dd0319bd03d8e870c2cdff9c08b5c6e2d25fd3cc2d6b4038",
+    "tests/exhaustive.py": "75a9948f4e9fddc274206aadf87b276ec2be767a8c1c0566d7e8808f9a9e955f",
+    "tests/test_rob.py": "08d1f79b578012d3b8ce01bfe8026d84a48152e84816a98389bdacf41a74ec87"
+  },
+  "paper_source_sha256": "8d10fd46bd5e72adb7d23b4aee4a00973bceb74ba5f832aca1d1a87a927f5ce4",
+  "paper_pdf_sha256": "3b0ae59cf4bf9e154562d0b25d6972ff2c3f5dd7267eab91534a16a6410dbc02",
+  "status": "PASS",
+  "limitations": [
+    "Python implementation not Lean verified",
+    "general resource and online families not Lean verified",
+    "historical novelty unconfirmed",
+    "finite audit datasets overlap"
+  ]
+}

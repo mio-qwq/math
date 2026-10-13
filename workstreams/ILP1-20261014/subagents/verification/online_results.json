@@ -1,0 +1,231 @@
+{
+  "utc_start": "2026-10-13T18:20:34.698335+00:00",
+  "indexing": "zero-based",
+  "scope": "Finite computational verification only; accompanying review gives proof audit.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "online_audit.py": "aef25b2a20cfe1ea2f4338ab940295bc5cbe480160c3d5323d06e8e72607b711"
+  },
+  "binomial_family": {
+    "q_range": [
+      1,
+      4
+    ],
+    "programs_checked": 98,
+    "full_first_action_checks": 36426,
+    "instances": [
+      {
+        "q": 1,
+        "N": 4,
+        "B": 3,
+        "W": 2,
+        "number_of_indistinguishable_programs": 2,
+        "distinct_required_first_actions": 2,
+        "randomized_minimax_expected_ratio": [
+          5,
+          4
+        ],
+        "sufficient_necessary_fixed_length_advice_bits": 1
+      },
+      {
+        "q": 2,
+        "N": 8,
+        "B": 6,
+        "W": 4,
+        "number_of_indistinguishable_programs": 6,
+        "distinct_required_first_actions": 6,
+        "randomized_minimax_expected_ratio": [
+          17,
+          12
+        ],
+        "sufficient_necessary_fixed_length_advice_bits": 3
+      },
+      {
+        "q": 3,
+        "N": 12,
+        "B": 9,
+        "W": 6,
+        "number_of_indistinguishable_programs": 20,
+        "distinct_required_first_actions": 20,
+        "randomized_minimax_expected_ratio": [
+          59,
+          40
+        ],
+        "sufficient_necessary_fixed_length_advice_bits": 5
+      },
+      {
+        "q": 4,
+        "N": 16,
+        "B": 12,
+        "W": 8,
+        "number_of_indistinguishable_programs": 70,
+        "distinct_required_first_actions": 70,
+        "randomized_minimax_expected_ratio": [
+          209,
+          140
+        ],
+        "sufficient_necessary_fixed_length_advice_bits": 7
+      }
+    ]
+  },
+  "chain_family": {
+    "B_range": [
+      3,
+      8
+    ],
+    "W_range": "2..B-1",
+    "programs_checked": 112,
+    "all_first_actions_checked": 11036,
+    "parameters": [
+      {
+        "B": 3,
+        "W": 2,
+        "N": 6,
+        "offline_optimum": 4,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 4,
+        "W": 2,
+        "N": 8,
+        "offline_optimum": 5,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 4,
+        "W": 3,
+        "N": 8,
+        "offline_optimum": 5,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 5,
+        "W": 2,
+        "N": 10,
+        "offline_optimum": 6,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 5,
+        "W": 3,
+        "N": 10,
+        "offline_optimum": 6,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 5,
+        "W": 4,
+        "N": 10,
+        "offline_optimum": 6,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 6,
+        "W": 2,
+        "N": 12,
+        "offline_optimum": 7,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 6,
+        "W": 3,
+        "N": 12,
+        "offline_optimum": 7,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 6,
+        "W": 4,
+        "N": 12,
+        "offline_optimum": 7,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 6,
+        "W": 5,
+        "N": 12,
+        "offline_optimum": 7,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 7,
+        "W": 2,
+        "N": 14,
+        "offline_optimum": 8,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 7,
+        "W": 3,
+        "N": 14,
+        "offline_optimum": 8,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 7,
+        "W": 4,
+        "N": 14,
+        "offline_optimum": 8,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 7,
+        "W": 5,
+        "N": 14,
+        "offline_optimum": 8,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 7,
+        "W": 6,
+        "N": 14,
+        "offline_optimum": 8,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 8,
+        "W": 2,
+        "N": 16,
+        "offline_optimum": 9,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 8,
+        "W": 3,
+        "N": 16,
+        "offline_optimum": 9,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 8,
+        "W": 4,
+        "N": 16,
+        "offline_optimum": 9,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 8,
+        "W": 5,
+        "N": 16,
+        "offline_optimum": 9,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 8,
+        "W": 6,
+        "N": 16,
+        "offline_optimum": 9,
+        "all_programs_optimal_first_action_intersection": []
+      },
+      {
+        "B": 8,
+        "W": 7,
+        "N": 16,
+        "offline_optimum": 9,
+        "all_programs_optimal_first_action_intersection": []
+      }
+    ]
+  },
+  "elapsed_seconds": 1.646024304999628,
+  "status": "PASS"
+}

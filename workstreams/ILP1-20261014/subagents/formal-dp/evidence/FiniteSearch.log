@@ -1,0 +1,7 @@
+'ILP1.FiniteSearch.within_iff' depends on axioms: [propext, Quot.sound]
+'ILP1.FiniteSearch.firstTrue_spec' depends on axioms: [propext, Quot.sound]
+'ILP1.FiniteSearch.exactSearch_sound' depends on axioms: [propext, Quot.sound]
+'ILP1.FiniteSearch.exactSearch_complete' depends on axioms: [propext, Quot.sound]
+'ILP1.FiniteSearch.exactSearch_none_iff' depends on axioms: [propext, Quot.sound]
+'ILP1.FiniteSearch.finishes_iff_of_enumeration' does not depend on any axioms
+'ILP1.FiniteSearch.exactSearch_optimal_of_enumeration' depends on axioms: [propext, Quot.sound]

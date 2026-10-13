@@ -1,0 +1,723 @@
+{
+  "utc_start": "2026-10-13T18:33:06.276234+00:00",
+  "seed": 2026101402,
+  "scope": "Independent finite checks and source review; no new Lean compilation.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "followup_audit.py": "b931dce054dea7588b93f7db6702b107405d3ac5e909b73897f01d2f8925f2bf"
+  },
+  "chain_minimax_advice": {
+    "B_range": [
+      3,
+      12
+    ],
+    "W_range": "2..B-1",
+    "parameter_pairs": 55,
+    "policy_replays": 40830,
+    "advice_replays": 440,
+    "instances": [
+      {
+        "B": 3,
+        "W": 2,
+        "L": 1,
+        "number_first_subsets": 2,
+        "randomized_ratio": [
+          5,
+          4
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 4,
+        "W": 2,
+        "L": 2,
+        "number_first_subsets": 3,
+        "randomized_ratio": [
+          11,
+          9
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 4,
+        "W": 3,
+        "L": 1,
+        "number_first_subsets": 3,
+        "randomized_ratio": [
+          7,
+          6
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 5,
+        "W": 2,
+        "L": 3,
+        "number_first_subsets": 4,
+        "randomized_ratio": [
+          19,
+          16
+        ],
+        "advice_messages": 4,
+        "advice_bits": 2
+      },
+      {
+        "B": 5,
+        "W": 3,
+        "L": 1,
+        "number_first_subsets": 6,
+        "randomized_ratio": [
+          5,
+          4
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 5,
+        "W": 4,
+        "L": 1,
+        "number_first_subsets": 4,
+        "randomized_ratio": [
+          9,
+          8
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 6,
+        "W": 2,
+        "L": 4,
+        "number_first_subsets": 5,
+        "randomized_ratio": [
+          29,
+          25
+        ],
+        "advice_messages": 5,
+        "advice_bits": 3
+      },
+      {
+        "B": 6,
+        "W": 3,
+        "L": 2,
+        "number_first_subsets": 10,
+        "randomized_ratio": [
+          6,
+          5
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 6,
+        "W": 4,
+        "L": 1,
+        "number_first_subsets": 10,
+        "randomized_ratio": [
+          6,
+          5
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 6,
+        "W": 5,
+        "L": 1,
+        "number_first_subsets": 5,
+        "randomized_ratio": [
+          11,
+          10
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 7,
+        "W": 2,
+        "L": 5,
+        "number_first_subsets": 6,
+        "randomized_ratio": [
+          41,
+          36
+        ],
+        "advice_messages": 6,
+        "advice_bits": 3
+      },
+      {
+        "B": 7,
+        "W": 3,
+        "L": 2,
+        "number_first_subsets": 15,
+        "randomized_ratio": [
+          11,
+          9
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 7,
+        "W": 4,
+        "L": 1,
+        "number_first_subsets": 20,
+        "randomized_ratio": [
+          5,
+          4
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 7,
+        "W": 5,
+        "L": 1,
+        "number_first_subsets": 15,
+        "randomized_ratio": [
+          7,
+          6
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 7,
+        "W": 6,
+        "L": 1,
+        "number_first_subsets": 6,
+        "randomized_ratio": [
+          13,
+          12
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 8,
+        "W": 2,
+        "L": 6,
+        "number_first_subsets": 7,
+        "randomized_ratio": [
+          55,
+          49
+        ],
+        "advice_messages": 7,
+        "advice_bits": 3
+      },
+      {
+        "B": 8,
+        "W": 3,
+        "L": 3,
+        "number_first_subsets": 21,
+        "randomized_ratio": [
+          33,
+          28
+        ],
+        "advice_messages": 4,
+        "advice_bits": 2
+      },
+      {
+        "B": 8,
+        "W": 4,
+        "L": 2,
+        "number_first_subsets": 35,
+        "randomized_ratio": [
+          25,
+          21
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 8,
+        "W": 5,
+        "L": 1,
+        "number_first_subsets": 35,
+        "randomized_ratio": [
+          17,
+          14
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 8,
+        "W": 6,
+        "L": 1,
+        "number_first_subsets": 21,
+        "randomized_ratio": [
+          8,
+          7
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 8,
+        "W": 7,
+        "L": 1,
+        "number_first_subsets": 7,
+        "randomized_ratio": [
+          15,
+          14
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 9,
+        "W": 2,
+        "L": 7,
+        "number_first_subsets": 8,
+        "randomized_ratio": [
+          71,
+          64
+        ],
+        "advice_messages": 8,
+        "advice_bits": 3
+      },
+      {
+        "B": 9,
+        "W": 3,
+        "L": 3,
+        "number_first_subsets": 28,
+        "randomized_ratio": [
+          19,
+          16
+        ],
+        "advice_messages": 4,
+        "advice_bits": 2
+      },
+      {
+        "B": 9,
+        "W": 4,
+        "L": 2,
+        "number_first_subsets": 56,
+        "randomized_ratio": [
+          29,
+          24
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 9,
+        "W": 5,
+        "L": 1,
+        "number_first_subsets": 70,
+        "randomized_ratio": [
+          5,
+          4
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 9,
+        "W": 6,
+        "L": 1,
+        "number_first_subsets": 56,
+        "randomized_ratio": [
+          19,
+          16
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 9,
+        "W": 7,
+        "L": 1,
+        "number_first_subsets": 28,
+        "randomized_ratio": [
+          9,
+          8
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 9,
+        "W": 8,
+        "L": 1,
+        "number_first_subsets": 8,
+        "randomized_ratio": [
+          17,
+          16
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 10,
+        "W": 2,
+        "L": 8,
+        "number_first_subsets": 9,
+        "randomized_ratio": [
+          89,
+          81
+        ],
+        "advice_messages": 9,
+        "advice_bits": 4
+      },
+      {
+        "B": 10,
+        "W": 3,
+        "L": 4,
+        "number_first_subsets": 36,
+        "randomized_ratio": [
+          52,
+          45
+        ],
+        "advice_messages": 5,
+        "advice_bits": 3
+      },
+      {
+        "B": 10,
+        "W": 4,
+        "L": 2,
+        "number_first_subsets": 84,
+        "randomized_ratio": [
+          11,
+          9
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 10,
+        "W": 5,
+        "L": 2,
+        "number_first_subsets": 126,
+        "randomized_ratio": [
+          32,
+          27
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 10,
+        "W": 6,
+        "L": 1,
+        "number_first_subsets": 126,
+        "randomized_ratio": [
+          11,
+          9
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 10,
+        "W": 7,
+        "L": 1,
+        "number_first_subsets": 84,
+        "randomized_ratio": [
+          7,
+          6
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 10,
+        "W": 8,
+        "L": 1,
+        "number_first_subsets": 36,
+        "randomized_ratio": [
+          10,
+          9
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 10,
+        "W": 9,
+        "L": 1,
+        "number_first_subsets": 9,
+        "randomized_ratio": [
+          19,
+          18
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 11,
+        "W": 2,
+        "L": 9,
+        "number_first_subsets": 10,
+        "randomized_ratio": [
+          109,
+          100
+        ],
+        "advice_messages": 10,
+        "advice_bits": 4
+      },
+      {
+        "B": 11,
+        "W": 3,
+        "L": 4,
+        "number_first_subsets": 45,
+        "randomized_ratio": [
+          29,
+          25
+        ],
+        "advice_messages": 5,
+        "advice_bits": 3
+      },
+      {
+        "B": 11,
+        "W": 4,
+        "L": 3,
+        "number_first_subsets": 120,
+        "randomized_ratio": [
+          47,
+          40
+        ],
+        "advice_messages": 4,
+        "advice_bits": 2
+      },
+      {
+        "B": 11,
+        "W": 5,
+        "L": 2,
+        "number_first_subsets": 210,
+        "randomized_ratio": [
+          6,
+          5
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 11,
+        "W": 6,
+        "L": 1,
+        "number_first_subsets": 252,
+        "randomized_ratio": [
+          5,
+          4
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 11,
+        "W": 7,
+        "L": 1,
+        "number_first_subsets": 210,
+        "randomized_ratio": [
+          6,
+          5
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 11,
+        "W": 8,
+        "L": 1,
+        "number_first_subsets": 120,
+        "randomized_ratio": [
+          23,
+          20
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 11,
+        "W": 9,
+        "L": 1,
+        "number_first_subsets": 45,
+        "randomized_ratio": [
+          11,
+          10
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 11,
+        "W": 10,
+        "L": 1,
+        "number_first_subsets": 10,
+        "randomized_ratio": [
+          21,
+          20
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 12,
+        "W": 2,
+        "L": 10,
+        "number_first_subsets": 11,
+        "randomized_ratio": [
+          131,
+          121
+        ],
+        "advice_messages": 11,
+        "advice_bits": 4
+      },
+      {
+        "B": 12,
+        "W": 3,
+        "L": 5,
+        "number_first_subsets": 55,
+        "randomized_ratio": [
+          25,
+          22
+        ],
+        "advice_messages": 6,
+        "advice_bits": 3
+      },
+      {
+        "B": 12,
+        "W": 4,
+        "L": 3,
+        "number_first_subsets": 165,
+        "randomized_ratio": [
+          13,
+          11
+        ],
+        "advice_messages": 4,
+        "advice_bits": 2
+      },
+      {
+        "B": 12,
+        "W": 5,
+        "L": 2,
+        "number_first_subsets": 330,
+        "randomized_ratio": [
+          40,
+          33
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 12,
+        "W": 6,
+        "L": 2,
+        "number_first_subsets": 462,
+        "randomized_ratio": [
+          13,
+          11
+        ],
+        "advice_messages": 3,
+        "advice_bits": 2
+      },
+      {
+        "B": 12,
+        "W": 7,
+        "L": 1,
+        "number_first_subsets": 462,
+        "randomized_ratio": [
+          27,
+          22
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 12,
+        "W": 8,
+        "L": 1,
+        "number_first_subsets": 330,
+        "randomized_ratio": [
+          13,
+          11
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 12,
+        "W": 9,
+        "L": 1,
+        "number_first_subsets": 165,
+        "randomized_ratio": [
+          25,
+          22
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 12,
+        "W": 10,
+        "L": 1,
+        "number_first_subsets": 55,
+        "randomized_ratio": [
+          12,
+          11
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      },
+      {
+        "B": 12,
+        "W": 11,
+        "L": 1,
+        "number_first_subsets": 11,
+        "randomized_ratio": [
+          23,
+          22
+        ],
+        "advice_messages": 2,
+        "advice_bits": 1
+      }
+    ]
+  },
+  "compact_resource_certificates": {
+    "primary_source_sha256": {
+      "resources.py": "d3e8deaac531f3353ce68afd08c8c93f9203d2b6b462515bc957956f175f87a3",
+      "rob.py": "a35793d3297877f71f8c452307953a25c78f9557a718f5c5f63d0fa4ef3a96e9",
+      "checker.py": "2cb1cc95bf10cf88945e06a632cea200f2d4c9d86ebef4c81af3dc0a065fec2e"
+    },
+    "random_instances": 350,
+    "random_N_range": [
+      6,
+      14
+    ],
+    "independent_solver": "constraint_solver.solve",
+    "rejected_mathematical_tampers": [
+      "zero_window",
+      "too_large_window",
+      "nonstrict_integer_window",
+      "unsupported_width",
+      "claimed_height_changed",
+      "original_path_empty",
+      "original_path_repeated",
+      "original_path_backward",
+      "original_path_missing_edge",
+      "original_path_out_of_range",
+      "smaller_path_empty",
+      "smaller_path_short",
+      "smaller_path_repeated",
+      "smaller_path_backward",
+      "smaller_path_missing_edge",
+      "smaller_path_out_of_range",
+      "schedule_missing_job",
+      "schedule_duplicate_job",
+      "schedule_unready_job",
+      "schedule_unadmitted_job",
+      "schedule_trailing_cycle",
+      "dependency_backward",
+      "dependency_out_of_range",
+      "window_one_spurious_obstruction"
+    ],
+    "note": "Certificates bind their own embedded n/edges, not an external trusted instance."
+  },
+  "status": "PASS",
+  "elapsed_seconds": 0.5271360610004194
+}

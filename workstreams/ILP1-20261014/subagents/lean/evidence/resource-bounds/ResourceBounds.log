@@ -1,0 +1,7 @@
+'ILP1.canonicalROB_widthBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.legal_iff_when_width_ge_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.legal_width_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.feasible_width_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.optimal_width_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.canonicalROB_of_full_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.legal_iff_when_full_window' depends on axioms: [propext, Classical.choice, Quot.sound]

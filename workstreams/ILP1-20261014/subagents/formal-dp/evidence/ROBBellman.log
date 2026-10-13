@@ -1,0 +1,7 @@
+'ILP1.trace_initial_eq' depends on axioms: [propext, Quot.sound]
+'ILP1.trace_complete_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.potential_trace_prefix' depends on axioms: [propext, Quot.sound]
+'ILP1.potential_trace_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.potential_feasible_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.potential_witness_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.potential_finished_witness_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,22 @@
+'ILP1.exists_least_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.retirementPrefix_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.retirementPrefix_unique' depends on axioms: [propext, Quot.sound]
+'ILP1.retirementPrefix_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.not_retired_at_issue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.windowEdges_iff_canonicalROB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.windowEdges_iff_blockingDistance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.augmented_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.augmented_forward' depends on axioms: [propext, Quot.sound]
+'ILP1.window_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.width_mono' does not depend on any axioms
+'ILP1.feasible_resources_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.feasible_horizon_mono' does not depend on any axioms
+'ILP1.serial_legal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.feasible_serial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.optimal_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.optimal_unique' depends on axioms: [propext, Quot.sound]
+'ILP1.optimal_iff_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.optimal_iff_previous_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.optimal_resources_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.empty_optimal' does not depend on any axioms
+'ILP1.nonempty_positive_horizon' depends on axioms: [propext, Quot.sound]

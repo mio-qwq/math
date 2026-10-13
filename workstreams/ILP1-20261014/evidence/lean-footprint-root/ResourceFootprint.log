@@ -1,0 +1,18 @@
+'ILP1.canonicalROB_iff_reversal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.canonicalROB_positive_of_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.canonicalROB_iff_footprintBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.footprintBound_mono' does not depend on any axioms
+'ILP1.footprintBound_full' depends on axioms: [propext, Quot.sound]
+'ILP1.footprint_max_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.footprint_max_le_iff' does not depend on any axioms
+'ILP1.footprint_max_unique' depends on axioms: [propext, Quot.sound]
+'ILP1.footprint_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.footprint_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.footprint_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.footprint_le_program_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.canonicalROB_iff_footprint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.canonicalROB_iff_footprint_of_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.legal_iff_footprint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.fixed_schedule_minimum_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.footprint_eq_one_of_strict_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.empty_footprint' depends on axioms: [propext, Classical.choice, Quot.sound]

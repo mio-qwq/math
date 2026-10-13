@@ -1,0 +1,452 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T18:26:55.694094+00:00",
+  "elapsed_seconds": 3.9714597620004497,
+  "B_range": [
+    3,
+    10
+  ],
+  "W_range": "2..B-1",
+  "programs_checked": 240,
+  "all_first_actions_checked": 75352,
+  "adverse_first_actions_excluded_at_optimum": 60506,
+  "scope": "Finite verification; general written proof audited in REVIEW.md.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "sharpened_chain_audit.py": "1588f317b394445a84f5210124f677dc1e45973a5a44486b963cf45f1b739d14"
+  },
+  "instances": [
+    {
+      "B": 3,
+      "W": 2,
+      "L": 1,
+      "N": 4,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 4,
+      "W": 2,
+      "L": 2,
+      "N": 6,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 4,
+      "W": 3,
+      "L": 1,
+      "N": 5,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 5,
+      "W": 2,
+      "L": 3,
+      "N": 8,
+      "offline_optimum": 4,
+      "adverse_duration_lower_bound": 5,
+      "competitive_ratio_lower_bound": [
+        5,
+        4
+      ]
+    },
+    {
+      "B": 5,
+      "W": 3,
+      "L": 1,
+      "N": 6,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 5,
+      "W": 4,
+      "L": 1,
+      "N": 6,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 6,
+      "W": 2,
+      "L": 4,
+      "N": 10,
+      "offline_optimum": 5,
+      "adverse_duration_lower_bound": 6,
+      "competitive_ratio_lower_bound": [
+        6,
+        5
+      ]
+    },
+    {
+      "B": 6,
+      "W": 3,
+      "L": 2,
+      "N": 8,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 6,
+      "W": 4,
+      "L": 1,
+      "N": 7,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 6,
+      "W": 5,
+      "L": 1,
+      "N": 7,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 7,
+      "W": 2,
+      "L": 5,
+      "N": 12,
+      "offline_optimum": 6,
+      "adverse_duration_lower_bound": 7,
+      "competitive_ratio_lower_bound": [
+        7,
+        6
+      ]
+    },
+    {
+      "B": 7,
+      "W": 3,
+      "L": 2,
+      "N": 9,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 7,
+      "W": 4,
+      "L": 1,
+      "N": 8,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 7,
+      "W": 5,
+      "L": 1,
+      "N": 8,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 7,
+      "W": 6,
+      "L": 1,
+      "N": 8,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 8,
+      "W": 2,
+      "L": 6,
+      "N": 14,
+      "offline_optimum": 7,
+      "adverse_duration_lower_bound": 8,
+      "competitive_ratio_lower_bound": [
+        8,
+        7
+      ]
+    },
+    {
+      "B": 8,
+      "W": 3,
+      "L": 3,
+      "N": 11,
+      "offline_optimum": 4,
+      "adverse_duration_lower_bound": 5,
+      "competitive_ratio_lower_bound": [
+        5,
+        4
+      ]
+    },
+    {
+      "B": 8,
+      "W": 4,
+      "L": 2,
+      "N": 10,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 8,
+      "W": 5,
+      "L": 1,
+      "N": 9,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 8,
+      "W": 6,
+      "L": 1,
+      "N": 9,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 8,
+      "W": 7,
+      "L": 1,
+      "N": 9,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 9,
+      "W": 2,
+      "L": 7,
+      "N": 16,
+      "offline_optimum": 8,
+      "adverse_duration_lower_bound": 9,
+      "competitive_ratio_lower_bound": [
+        9,
+        8
+      ]
+    },
+    {
+      "B": 9,
+      "W": 3,
+      "L": 3,
+      "N": 12,
+      "offline_optimum": 4,
+      "adverse_duration_lower_bound": 5,
+      "competitive_ratio_lower_bound": [
+        5,
+        4
+      ]
+    },
+    {
+      "B": 9,
+      "W": 4,
+      "L": 2,
+      "N": 11,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 9,
+      "W": 5,
+      "L": 1,
+      "N": 10,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 9,
+      "W": 6,
+      "L": 1,
+      "N": 10,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 9,
+      "W": 7,
+      "L": 1,
+      "N": 10,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 9,
+      "W": 8,
+      "L": 1,
+      "N": 10,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 10,
+      "W": 2,
+      "L": 8,
+      "N": 18,
+      "offline_optimum": 9,
+      "adverse_duration_lower_bound": 10,
+      "competitive_ratio_lower_bound": [
+        10,
+        9
+      ]
+    },
+    {
+      "B": 10,
+      "W": 3,
+      "L": 4,
+      "N": 14,
+      "offline_optimum": 5,
+      "adverse_duration_lower_bound": 6,
+      "competitive_ratio_lower_bound": [
+        6,
+        5
+      ]
+    },
+    {
+      "B": 10,
+      "W": 4,
+      "L": 2,
+      "N": 12,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 10,
+      "W": 5,
+      "L": 2,
+      "N": 12,
+      "offline_optimum": 3,
+      "adverse_duration_lower_bound": 4,
+      "competitive_ratio_lower_bound": [
+        4,
+        3
+      ]
+    },
+    {
+      "B": 10,
+      "W": 6,
+      "L": 1,
+      "N": 11,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 10,
+      "W": 7,
+      "L": 1,
+      "N": 11,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 10,
+      "W": 8,
+      "L": 1,
+      "N": 11,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    },
+    {
+      "B": 10,
+      "W": 9,
+      "L": 1,
+      "N": 11,
+      "offline_optimum": 2,
+      "adverse_duration_lower_bound": 3,
+      "competitive_ratio_lower_bound": [
+        3,
+        2
+      ]
+    }
+  ]
+}

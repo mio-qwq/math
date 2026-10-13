@@ -1,0 +1,252 @@
+{
+  "started_utc": "2026-10-13T18:31:03.682680+00:00",
+  "mathlib": null,
+  "imports": "Lean 4.34.1 bundled Std and preceding local modules only",
+  "runner_sha256": "d0b725f6f31df28cf9efd36294e61852029e196697d0ec92448d864c96bcd558",
+  "proc_self_compat": true,
+  "compilations": [
+    {
+      "source": "ROBModel.lean",
+      "source_sha256": "1a01548dfa80474fd6cfcffb5acada166c558b95855de7fea2fe4cce94fc896c",
+      "elapsed_seconds": 0.790054,
+      "exit_code": 0,
+      "axiom_audits": {
+        "ILP1.exists_least_nat": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.retirementPrefix_exists": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.retirementPrefix_unique": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.retirementPrefix_mono": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.not_retired_at_issue": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.windowEdges_iff_canonicalROB": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.windowEdges_iff_blockingDistance": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.augmented_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.augmented_forward": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.window_mono": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.feasible_resources_mono": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.serial_legal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.feasible_serial": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.optimal_exists": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.optimal_unique": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.optimal_iff_certificate": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.optimal_iff_previous_infeasible": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.optimal_resources_antitone": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.nonempty_positive_horizon": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.width_mono": [],
+        "ILP1.feasible_horizon_mono": [],
+        "ILP1.empty_optimal": []
+      },
+      "unexpected_axioms": []
+    },
+    {
+      "source": "ROBOperational.lean",
+      "source_sha256": "359eac6b66e7cce5483f877992a95e122de59e8be2e4e03994206830feecc4a6",
+      "elapsed_seconds": 0.505351,
+      "exit_code": 0,
+      "axiom_audits": {
+        "ILP1.trace_completed_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.trace_retirementPrefix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.trace_admitted": [
+          "propext"
+        ],
+        "ILP1.trace_legal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.retirementCount_spec": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.retirementCount_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.legal_canonical_step": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.legal_iff_operational": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.trace_finished_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.feasible_iff_finished_trace": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.completedPrefix_iff": []
+      },
+      "unexpected_axioms": []
+    },
+    {
+      "source": "OnlinePair.lean",
+      "source_sha256": "71bb6bb631a1df308e87a606f9f7e5c1c344e98f6b4c6dd0f75cf0d047ee1f54",
+      "elapsed_seconds": 0.537414,
+      "exit_code": 0,
+      "axiom_audits": {
+        "ILP1.width_two_forbids_three": [
+          "propext",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.forward_A": [
+          "propext"
+        ],
+        "ILP1.OnlinePair.forward_B": [
+          "propext"
+        ],
+        "ILP1.OnlinePair.timeA_legal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.timeB_legal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.feasible_A_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.feasible_B_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.optimal_A_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.optimal_B_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.first_A_forced": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.first_B_forced": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.no_common_first_action": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.same_initial_view": [
+          "propext"
+        ],
+        "ILP1.OnlinePair.local_policy_cannot_optimize_both": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.local_policy_three_cycles": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ILP1.OnlinePair.achievesWithin_mono": []
+      },
+      "unexpected_axioms": []
+    }
+  ],
+  "compat_source_sha256": "4df4d8a976819f90b21908ba966bdebe3a997847807226113f961915e55bfb50",
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "completed_utc": "2026-10-13T18:31:05.602597+00:00",
+  "status": "PASS"
+}

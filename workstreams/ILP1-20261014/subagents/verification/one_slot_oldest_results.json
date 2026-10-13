@@ -1,0 +1,290 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T18:54:15.294762+00:00",
+  "elapsed_seconds": 0.03080176000003121,
+  "seed": 2026101403,
+  "one_slot_corollary": {
+    "rational_boundary_checks": 420,
+    "W_range": [
+      2,
+      8
+    ],
+    "K_range": [
+      1,
+      20
+    ],
+    "epsilon_samples": [
+      {
+        "W": 2,
+        "epsilon": [
+          1,
+          3
+        ],
+        "K20_thresholds": [
+          9,
+          3
+        ]
+      },
+      {
+        "W": 2,
+        "epsilon": [
+          5,
+          12
+        ],
+        "K20_thresholds": [
+          5,
+          3
+        ]
+      },
+      {
+        "W": 2,
+        "epsilon": [
+          299,
+          600
+        ],
+        "K20_thresholds": [
+          3,
+          3
+        ]
+      },
+      {
+        "W": 3,
+        "epsilon": [
+          1,
+          4
+        ],
+        "K20_thresholds": [
+          6,
+          4
+        ]
+      },
+      {
+        "W": 3,
+        "epsilon": [
+          7,
+          24
+        ],
+        "K20_thresholds": [
+          6,
+          4
+        ]
+      },
+      {
+        "W": 3,
+        "epsilon": [
+          133,
+          400
+        ],
+        "K20_thresholds": [
+          3,
+          3
+        ]
+      },
+      {
+        "W": 4,
+        "epsilon": [
+          1,
+          5
+        ],
+        "K20_thresholds": [
+          5,
+          5
+        ]
+      },
+      {
+        "W": 4,
+        "epsilon": [
+          9,
+          40
+        ],
+        "K20_thresholds": [
+          5,
+          5
+        ]
+      },
+      {
+        "W": 4,
+        "epsilon": [
+          499,
+          2000
+        ],
+        "K20_thresholds": [
+          5,
+          5
+        ]
+      },
+      {
+        "W": 5,
+        "epsilon": [
+          1,
+          6
+        ],
+        "K20_thresholds": [
+          6,
+          6
+        ]
+      },
+      {
+        "W": 5,
+        "epsilon": [
+          11,
+          60
+        ],
+        "K20_thresholds": [
+          6,
+          6
+        ]
+      },
+      {
+        "W": 5,
+        "epsilon": [
+          599,
+          3000
+        ],
+        "K20_thresholds": [
+          6,
+          6
+        ]
+      },
+      {
+        "W": 6,
+        "epsilon": [
+          1,
+          7
+        ],
+        "K20_thresholds": [
+          9,
+          7
+        ]
+      },
+      {
+        "W": 6,
+        "epsilon": [
+          13,
+          84
+        ],
+        "K20_thresholds": [
+          6,
+          6
+        ]
+      },
+      {
+        "W": 6,
+        "epsilon": [
+          233,
+          1400
+        ],
+        "K20_thresholds": [
+          6,
+          6
+        ]
+      },
+      {
+        "W": 7,
+        "epsilon": [
+          1,
+          8
+        ],
+        "K20_thresholds": [
+          7,
+          7
+        ]
+      },
+      {
+        "W": 7,
+        "epsilon": [
+          15,
+          112
+        ],
+        "K20_thresholds": [
+          7,
+          7
+        ]
+      },
+      {
+        "W": 7,
+        "epsilon": [
+          799,
+          5600
+        ],
+        "K20_thresholds": [
+          7,
+          7
+        ]
+      },
+      {
+        "W": 8,
+        "epsilon": [
+          1,
+          9
+        ],
+        "K20_thresholds": [
+          7,
+          7
+        ]
+      },
+      {
+        "W": 8,
+        "epsilon": [
+          17,
+          144
+        ],
+        "K20_thresholds": [
+          7,
+          7
+        ]
+      },
+      {
+        "W": 8,
+        "epsilon": [
+          899,
+          7200
+        ],
+        "K20_thresholds": [
+          7,
+          7
+        ]
+      }
+    ]
+  },
+  "oldest_inclusion": {
+    "exhaustive_instances_N1_through4": 225,
+    "exhaustive_W_range": [
+      1,
+      3
+    ],
+    "random_instances": 200,
+    "random_N_range": [
+      5,
+      10
+    ],
+    "random_W_range": [
+      1,
+      4
+    ],
+    "B": "W+1",
+    "outside_domain_negative_control": {
+      "N": 4,
+      "B": 4,
+      "W": 2,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "optimum": 2,
+      "oldest_inclusive_two_cycle_schedule_exists": false
+    }
+  },
+  "scope": "Small fresh checks; earlier full audits were not rerun.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "run_audit.py": "39c8ed03bfe71fb9691021ab0bc9da9fab70a53a415f70da4bf8aa5f1c2e37b6",
+    "one_slot_oldest_audit.py": "e85477ef640626c2792dd6962627d685036cb10011977d09fc470a9b1a65859d"
+  }
+}

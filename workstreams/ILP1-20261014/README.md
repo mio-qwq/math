@@ -1,23 +1,36 @@
 # ILP1: finite-window instruction scheduling
 
-This workstream studies optimal instruction-level parallelism for the explicitly specified eager, in-order-retiring, unit-latency ROB model. It does not model an entire real CPU.
+This workstream studies optimal instruction-level parallelism for a fixed program order under eager admission, bounded unretired occupancy and in-order retirement. Its idealized model is not a complete processor.
 
-* [MODEL.md](MODEL.md): semantics, information boundaries and exact window convention.
-* [THEOREMS.md](THEOREMS.md): complete written proofs of the static precedence reduction, exact dynamic programming, bounded-window state count, resource formulas and small counterexamples.
-* [STATUS.md](STATUS.md) and [HANDOFF.md](HANDOFF.md): current verification and continuation state.
-* `src/rob.py`: complete-state exact solver, returning a schedule and optional Bellman potential certificate.
-* `src/checker.py`: independently coded operational replay and lower-bound checker.
-* `tests/`: boundaries, counterexamples, certificate tamper controls and finite exhaustive audits.
+## Main results and boundaries
 
-Run from this directory:
+* The eager ROB model is exactly equivalent to unit-job scheduling after adding every precedence edge i->j with i+B<=j. Resource-event edges have substantial prior art; the general operational equivalence is Lean verified here.
+* Exact optimal schedules are produced by two independently coded Python methods and an executable, proved-correct Lean enumerator. The Python implementations are not themselves formally verified.
+* At fixed widths2 and3, a two-input family has exact sufficient windows N and3 respectively. This example loses only one cycle at a small window, so exact saturation must not be confused with a large performance benefit.
+* A different chain-prefix family has an exact approximate-saturation formula and requires a window linear in N for fixed tolerance epsilon<1/W. True indegree and outdegree are at most one.
+* A universally optimal online policy exists exactly when W=1 or W>=B under the explicitly hidden-future observation model. The general theorem has independent written review; the four-job arbitrary-policy obstruction is Lean verified.
+
+These are mathematical results within R1. Their correctness, formalization, independent review and originality are recorded separately. No historical-first claim is made.
+
+## Reading and reproduction
+
+* [MODEL.md](MODEL.md): operations, semantics, cycle boundaries and observations.
+* [THEOREMS.md](THEOREMS.md): complete proofs and links to larger generalizations.
+* [Research draft](paper/ilp1-research-draft.pdf) and [LaTeX source](paper/draft.tex).
+* [LITERATURE.md](LITERATURE.md), [NOVELTY_AUDIT.md](NOVELTY_AUDIT.md): primary sources, related results and unresolved originality gaps.
+* [STATUS.md](STATUS.md), [HANDOFF.md](HANDOFF.md), [PROBLEMS.md](PROBLEMS.md): evidence, recovery and next questions.
+* `src/rob.py`: memoized exact state search. `src/checker.py`: independent operational replay and Bellman certificate checking. `src/resources.py`: compact unrestricted-width window-saturation certificates.
+* `subagents/verification/constraint_solver.py`: independent exact time-assignment method.
+* `formal/`: pinned Lean model, operational bridge, executable exact solver, online pair and resource proofs. `subagents/formal-dp/`: general Bellman and search theorems.
+
+From this directory:
 
 ```sh
 python -m unittest discover -s tests -v
 python tests/exhaustive.py --max-n 5 --random 100 --seed 20261014 --output evidence/exhaustive.json
+python paper/build.py
 ```
 
-Input JSON uses zero-based indices: `{"n":4,"edges":[[2,3]],"B":3,"W":2}`. Run `python src/rob.py instance.json --certificate > certificate.json` and `python src/checker.py certificate.json`.
+Input JSON uses zero-based indices: `{"n":4,"edges":[[2,3]],"B":3,"W":2}`. Run `python src/rob.py instance.json --certificate > certificate.json` then `python src/checker.py certificate.json`.
 
-The initial search identifies older processor event-graph work that already represents finite ROB capacity by precedence edges. Bellman recursion, list scheduling and longest-path layering are classical. Nothing here is yet a claim of historical priority, a solution to a classical scheduling open problem, or a real online optimal processor implementation. Subsequent independently developed proofs, literature audits and actual Lean logs are integrated as they are reviewed.
-
-This is research in progress. No manuscript author list, new license, journal submission or DOI release is determined by this workstream.
+See formal/README.md and HANDOFF.md for actual Lean reproduction commands. Do not rerun unchanged large audits merely after a session switch. This research branch determines no author list, new license, formal publication version, journal submission or DOI.

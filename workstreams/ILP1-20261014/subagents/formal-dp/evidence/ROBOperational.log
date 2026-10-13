@@ -1,0 +1,11 @@
+'ILP1.completedPrefix_iff' does not depend on any axioms
+'ILP1.trace_completed_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.trace_retirementPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.trace_admitted' depends on axioms: [propext]
+'ILP1.trace_legal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.retirementCount_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.retirementCount_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.legal_canonical_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.legal_iff_operational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.trace_finished_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.feasible_iff_finished_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

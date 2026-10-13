@@ -1,0 +1,15 @@
+'ILP1.ExactEnumeration.assignments_complete' depends on axioms: [propext, Quot.sound]
+'ILP1.ExactEnumeration.mem_slots' depends on axioms: [propext, Quot.sound]
+'ILP1.ExactEnumeration.slotCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.feasibleCheck_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.firstTrue_none' depends on axioms: [propext, Quot.sound]
+'ILP1.ExactEnumeration.firstTrue_some' depends on axioms: [propext, Quot.sound]
+'ILP1.ExactEnumeration.optimalSearch_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.optimalSearch_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.scheduleAt_some_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.scheduleAt_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.solve_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ILP1.ExactEnumeration.solve_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+some 0
+some (2, [0, 0, 1, 1])
+some (4, [0, 1, 2, 3])

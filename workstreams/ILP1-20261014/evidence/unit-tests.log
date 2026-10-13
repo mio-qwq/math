@@ -1,3 +1,6 @@
+test_all_forward_dags_through_five (test_resources.ResourceTests.test_all_forward_dags_through_five) ... ok
+test_compact_certificate_tamper_controls (test_resources.ResourceTests.test_compact_certificate_tamper_controls) ... ok
+test_schedule_footprint_is_not_asap_saturation (test_resources.ResourceTests.test_schedule_footprint_is_not_asap_saturation) ... ok
 test_certificate_negative_controls (test_rob.ModelTests.test_certificate_negative_controls) ... ok
 test_completed_blocked_entries_keep_slots (test_rob.ModelTests.test_completed_blocked_entries_keep_slots) ... ok
 test_data_critical_path_greedy_can_fail (test_rob.ModelTests.test_data_critical_path_greedy_can_fail) ... ok
@@ -9,6 +12,6 @@ test_saturation_thresholds_are_not_monotone (test_rob.ModelTests.test_saturation
 test_window_blockage_and_oldest_counterexample (test_rob.ModelTests.test_window_blockage_and_oldest_counterexample) ... ok
 
 ----------------------------------------------------------------------
-Ran 9 tests in 0.398s
+Ran 12 tests in 0.485s
 
 OK
