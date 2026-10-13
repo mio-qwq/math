@@ -20,5 +20,5 @@
     "5": {"absent": -1, "forward": -1, "reverse": -1}
   },
   "candidate": "For every nonnegative oriented matrix M, 2X <= T+L.",
-  "status": "UNPROVED; exact identities and a pointwise-proof obstruction only"
+  "status": "REFUTED at order 46 in oriented_trace_transfer_certificate.json; these identities and finite checks remain valid"
 }

@@ -47,6 +47,7 @@ python workstreams/GP2-20261012/stage3/verify_reciprocal_trace_bound.py
 python -O workstreams/GP2-20261012/stage3/verify_reciprocal_trace_bound.py
 python workstreams/GP2-20261012/stage3/trace_review/check_trace_independent.py
 python workstreams/GP2-20261012/recovery_review/run_ten_state_review.py
+python workstreams/GP2-20261012/stage3/verify_oriented_trace_transfer.py
 ```
 
 The last command remedies the inherited ten-state checker's absent entry
@@ -82,13 +83,18 @@ canonical-interface direction.
 
 The subsequent
 [`ORIENTED_FIFTH_REDUCTION.md`](ORIENTED_FIFTH_REDUCTION.md) isolates the
-weaker candidate `2X<=T+L`, which would conditionally give reciprocal
-coefficient `1/5`. It proves two exact equivalent trace/interface formulas
-and supplies a five-vertex counterexample to pointwise interface positivity.
-All 59,809 zero-one orientations through order five pass the global candidate,
-but exact enumeration also shows that order five is the first local failure
-and that it occurs in all three endpoint-adjacency classes. Consequently an
-endpoint-class split cannot repair the pointwise proof; a useful local
-certificate must involve at least two labelled plus three unlabelled vertices.
-This finite evidence is explicitly not a proof and does not change the
-displayed lambda bound.
+initial candidate `2X<=T+L`. Its exact identities and the 59,809 small
+finite checks remain valid, but that candidate is now refuted in
+[`ORIENTED_TRACE_TRANSFER.md`](ORIENTED_TRACE_TRANSFER.md): a 46-vertex
+binary orientation has `T+L-2X=-759`. A separately certified 1057-vertex
+binary Cayley orientation even has `2(T+L)/R4=1723885/8660823<1/5`.
+
+The new uniform transfer theorem proves that orientation alone does not
+strengthen any homogeneous linear inequality in `(T,L,X,Y)` beyond its
+validity on arbitrary nonnegative matrices. It supplies the necessary
+scalar-coefficient ceiling `2548/12899<1/5` (not a proved sharp constant).
+The old five-vertex local-minimality claim is restricted to zero-one
+matrices; the broad certificate-basis inference is withdrawn because
+weighted kernels already fail locally at order four. None of these
+negative results changes the accepted lambda bound. The next proof target
+is mixed reciprocal classes with canonical 10/6/3 compatibility.

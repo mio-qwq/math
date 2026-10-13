@@ -91,6 +91,6 @@
     "witness_global_D": 12,
     "witness_local_sum": -1
   },
-  "scope": "Exact reduction and small evidence; the 1/5 coefficient remains unproved.",
+  "scope": "Exact identities and finite evidence only; the all-order candidate and 1/5 coefficient are refuted by the separate transfer certificate.",
   "status": "PASS"
 }

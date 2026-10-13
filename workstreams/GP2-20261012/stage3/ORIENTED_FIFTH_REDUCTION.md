@@ -2,8 +2,12 @@
 
 GP2-20261012, 2026-10-13. This note isolates a potentially useful next
 inequality and an exact obstruction to the simplest pointwise proof. **The
-candidate inequality is not proved here, and the certified Ka4 bound is not
-changed.**
+candidate inequality was not proved here, and the certified Ka4 bound is not
+changed.** Later in the same date, the candidate and the weaker scalar
+coefficient `1/5` were both refuted by the exact constructions in
+[`ORIENTED_TRACE_TRANSFER.md`](ORIENTED_TRACE_TRANSFER.md). The identities
+and the finite order-at-most-five checks below remain valid; they are not
+an open all-order proof target.
 
 ## 1. Candidate and conditional consequence
 
@@ -16,7 +20,7 @@ retain
     T=tr((MM^t)^2), L=tr(M^4),
     Y=tr(M^2(M^t)^2), X=tr(M^3M^t).
 
-The remaining candidate is
+The candidate at the initial drafting of this note was
 
     2X <= T+L.                                           (C)
 
@@ -94,10 +98,12 @@ five is minimal for this phenomenon: for every zero-one orientation through
 four vertices the minimum bracket is zero in each of the three endpoint
 classes, while at order five it is `-1` in all three classes.
 
-Thus any local-to-global proof based on (2) must see at least five vertices.
-In particular, the next useful certificate basis is a two-labelled,
-three-unlabelled flag (or an equivalent five-letter charging rule); endpoint
-adjacency alone carries no correcting information.
+This minimality is restricted to zero-one matrices. It does **not** imply
+that every useful flag certificate needs five vertices: arbitrary weighted
+matrices and product-weighted indicator kernels already have a four-vertex
+negative bracket (see `ORIENTED_TRACE_TRANSFER.md`, Section 4). The earlier
+broader certificate-basis inference is withdrawn. Endpoint adjacency alone
+still cannot ensure pointwise positivity in either setting.
 
 ## 4. Exact computation and status
 
@@ -117,8 +123,9 @@ python -O workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py
 ```
 
 The finite exhaustion is evidence only: it neither proves (C) for all orders
-and weights nor supplies a new Ka4 bound. No independent AI review, Lean
-formalization, optimality, or historical-priority claim is made. The next
-step is an exact global square/flag decomposition of (1), or a counterexample;
-if neither emerges, return to mixed reciprocal classes rather than enlarging
-the same search.
+and weights nor supplies a new Ka4 bound. The subsequent 46-vertex zero-one
+counterexample settles (C) negatively. The separate Cayley counterexample
+also rules out the proposed `1/5` scalar coefficient. No independent AI
+review, Lean formalization, optimality, or historical-priority claim is made.
+The next mechanism is mixed reciprocal classes coupled to canonical
+interfaces, not a square/flag decomposition of this refuted candidate.

@@ -192,7 +192,7 @@ def main():
         "status": "PASS",
         "result": result,
         "negative_controls": rejected,
-        "scope": "Exact reduction and small evidence; the 1/5 coefficient remains unproved."
+        "scope": "Exact identities and finite evidence only; the all-order candidate and 1/5 coefficient are refuted by the separate transfer certificate."
     }, indent=2, sort_keys=True))
 
 

@@ -1,0 +1,45 @@
+{
+  "schema": "GP2-oriented-transfer-v1",
+  "jordan46": {
+    "construction": {"prime": 23, "tensor_rows": [[1, 1], [0, 1]]},
+    "expected": {
+      "L": 30360, "R4": 1203774, "T": 108031, "X": 69575, "Y": 92598,
+      "candidate_slack": -759, "fifth_slack": 180136,
+      "four_index_tuples": 4477456,
+      "matrix_sha256": "d39c0b1384abca7804f2ce94bb572ce7d3acec28b3b6efa668659b012d793dd3",
+      "order": 46, "ratio_denominator": 2379, "ratio_numerator": 547
+    }
+  },
+  "cayley1057": {
+    "construction": {
+      "prime": 151,
+      "major_shifts": [0, 4],
+      "minor_shift": 1,
+      "minor_stride": 5,
+      "minor_residues": [1, 9, 18, 25, 36, 42, 49, 62, 74, 84, 91, 99, 116, 125, 138]
+    },
+    "expected": {
+      "L": 229808712, "R4": 18308979822, "T": 1592337733,
+      "X": 1036917000, "Y": 1592337733,
+      "candidate_slack": -251687555, "degree": 165, "fifth_slack": -87515372,
+      "matrix_sha256": "2ac3f14f764bc6aea936039780a37f19da3cb9249142916bdb67e2428c35030c",
+      "order": 1057, "ratio_denominator": 8660823, "ratio_numerator": 1723885,
+      "rooted_three_walks": 4492125
+    }
+  },
+  "base7": {
+    "construction": {"circulant_weights": [5, 1, 0, 0, 5, 0, 0]},
+    "expected": {
+      "L": 4515, "R4": 361172, "T": 31157, "X": 20650, "Y": 31157,
+      "candidate_slack": -5628, "fifth_slack": -4452, "order": 7,
+      "ratio_denominator": 12899, "ratio_numerator": 2548
+    }
+  },
+  "weighted_local4": {
+    "expected": {
+      "order": 4, "integer_flags": [0, 2, 0, 1], "integer_bracket": -1,
+      "product_weight_flags": ["0", "2/25", "0", "1/25"],
+      "product_weight_bracket": "-1/625"
+    }
+  }
+}

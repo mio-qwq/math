@@ -27,17 +27,33 @@
       "command": "python workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py",
       "exit_code": 0,
       "log": "oriented_fifth_check.log",
-      "log_sha256": "59f14cb00060109f1a1230ced0e5002cb50db2d931ea7e0c579b72e83b0c2c27",
-      "checker_sha256": "b8449366ed92d4dbeff77403d1942d48b7ab6468f7eb8479216178d90fdc6984",
-      "certificate_sha256": "882e655963133ad9dda7f727d4bd6f42f48aff818acfd215b6e669cbab5e3291"
+      "log_sha256": "996ca368114bdbb7cddf87ba4882d94aec6dd651728d990e70c0b443f96aab62",
+      "checker_sha256": "edeefec7027ce0244de48dac13afd949ec47b876e564821695c271bad01414cf",
+      "certificate_sha256": "b9882f3e8696c03c0c61a852f74fa1e0074dbf8a85e5eba89421f7c798b169b2"
     },
     {
       "command": "python -O workstreams/GP2-20261012/stage3/verify_oriented_fifth_reduction.py",
       "exit_code": 0,
       "log": "oriented_fifth_check.log",
-      "log_sha256": "59f14cb00060109f1a1230ced0e5002cb50db2d931ea7e0c579b72e83b0c2c27",
-      "checker_sha256": "b8449366ed92d4dbeff77403d1942d48b7ab6468f7eb8479216178d90fdc6984",
-      "certificate_sha256": "882e655963133ad9dda7f727d4bd6f42f48aff818acfd215b6e669cbab5e3291"
+      "log_sha256": "996ca368114bdbb7cddf87ba4882d94aec6dd651728d990e70c0b443f96aab62",
+      "checker_sha256": "edeefec7027ce0244de48dac13afd949ec47b876e564821695c271bad01414cf",
+      "certificate_sha256": "b9882f3e8696c03c0c61a852f74fa1e0074dbf8a85e5eba89421f7c798b169b2"
+    },
+    {
+      "command": "python workstreams/GP2-20261012/stage3/verify_oriented_trace_transfer.py",
+      "exit_code": 0,
+      "log": "oriented_trace_transfer_check.log",
+      "log_sha256": "21668822520aa175ae53a6d226db19a0f9246cf3bd739d14960aecd8f5487155",
+      "checker_sha256": "e76467cf496dc5890908c161d718bcfd758817fa38372c6f68b5d5cc183971fc",
+      "certificate_sha256": "95364b7990efd235e9d4f4203d1dd76eeb7b8a8eb982dafc265f22c65af95e4b"
+    },
+    {
+      "command": "python -O workstreams/GP2-20261012/stage3/verify_oriented_trace_transfer.py",
+      "exit_code": 0,
+      "log": "oriented_trace_transfer_check.log",
+      "log_sha256": "21668822520aa175ae53a6d226db19a0f9246cf3bd739d14960aecd8f5487155",
+      "checker_sha256": "e76467cf496dc5890908c161d718bcfd758817fa38372c6f68b5d5cc183971fc",
+      "certificate_sha256": "95364b7990efd235e9d4f4203d1dd76eeb7b8a8eb982dafc265f22c65af95e4b"
     }
   ],
   "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",

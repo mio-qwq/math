@@ -16,24 +16,28 @@
       "sha256": "fffd53df08cd540c924aed088f3dd64e743ee31519a531aad26545775ba3406c"
     },
     "ORIENTED_FIFTH_REDUCTION.md": {
-      "bytes": 4531,
-      "sha256": "d27aefe5abe0855845a9fb324592cff44028355ec9d1a95ff842f766fc5ebc17"
+      "bytes": 5148,
+      "sha256": "fd7f37bc12bc1fa589425091e5be6cc559401a1545add649d9b299263ae43d32"
     },
     "ORIENTED_TRACE_COEFFICIENT_OBSTACLE.md": {
       "bytes": 3157,
       "sha256": "883ef61addc08f11344cca0205484c81cee8ae8dfcd90d4e5adb59a500777a95"
     },
+    "ORIENTED_TRACE_TRANSFER.md": {
+      "bytes": 11395,
+      "sha256": "4d33920fd6123cc4a139fe37525ea62d98d8dc62ac873c9923726da1ae0ca6af"
+    },
     "README.md": {
-      "bytes": 4677,
-      "sha256": "65b7041ff65e6c8eaf6bc00778c650cce5afd8886e3cefe8323863409614000b"
+      "bytes": 5034,
+      "sha256": "e9dbb1e1cd4663dd1c1255d8adacd3e474744bda8de8dcf1df036e385e37331f"
     },
     "RECIPROCAL_TRACE_BOUND.md": {
       "bytes": 9728,
       "sha256": "7095f6e72557ca0f7635206048277c914cc3d6afdbaa2f608ad3cf7c555ab1ab"
     },
     "execution.json": {
-      "bytes": 2303,
-      "sha256": "3e2f6ab5b9bab326781cfdc0c6e9c48c0e983e3562a9300734496b78379ba157"
+      "bytes": 3212,
+      "sha256": "b64291178f33641946cb49ed17907a05da06181e73737ac93555a866cf60699b"
     },
     "mixed_class_check.log": {
       "bytes": 507,
@@ -44,12 +48,12 @@
       "sha256": "b93fef87a3181b98a4fc5aebf3fc83c84a363debd9cd90dab3b62f056b8fcb09"
     },
     "oriented_fifth_check.log": {
-      "bytes": 1942,
-      "sha256": "59f14cb00060109f1a1230ced0e5002cb50db2d931ea7e0c579b72e83b0c2c27"
+      "bytes": 2005,
+      "sha256": "996ca368114bdbb7cddf87ba4882d94aec6dd651728d990e70c0b443f96aab62"
     },
     "oriented_fifth_reduction.json": {
-      "bytes": 683,
-      "sha256": "882e655963133ad9dda7f727d4bd6f42f48aff818acfd215b6e669cbab5e3291"
+      "bytes": 730,
+      "sha256": "b9882f3e8696c03c0c61a852f74fa1e0074dbf8a85e5eba89421f7c798b169b2"
     },
     "oriented_quarter_check.log": {
       "bytes": 676,
@@ -58,6 +62,14 @@
     "oriented_quarter_counterexample.json": {
       "bytes": 1216,
       "sha256": "6bc98db88f60ce5ff2a2b3229a5b9bf7a81cc791a8a1c18a9e8ca9eecb3f1b5e"
+    },
+    "oriented_trace_transfer_certificate.json": {
+      "bytes": 1641,
+      "sha256": "95364b7990efd235e9d4f4203d1dd76eeb7b8a8eb982dafc265f22c65af95e4b"
+    },
+    "oriented_trace_transfer_check.log": {
+      "bytes": 2180,
+      "sha256": "21668822520aa175ae53a6d226db19a0f9246cf3bd739d14960aecd8f5487155"
     },
     "trace_certificate.json": {
       "bytes": 961,
@@ -96,12 +108,16 @@
       "sha256": "b169f0068946e431bcb7555beca5dbaacc7f7d42c4be07670c33754bbd84972c"
     },
     "verify_oriented_fifth_reduction.py": {
-      "bytes": 7093,
-      "sha256": "b8449366ed92d4dbeff77403d1942d48b7ab6468f7eb8479216178d90fdc6984"
+      "bytes": 7156,
+      "sha256": "edeefec7027ce0244de48dac13afd949ec47b876e564821695c271bad01414cf"
     },
     "verify_oriented_quarter_counterexample.py": {
       "bytes": 3724,
       "sha256": "b754741b798a6bdf46fcecea31699a80afb2e8e935dbad58efc57f5adbaf0572"
+    },
+    "verify_oriented_trace_transfer.py": {
+      "bytes": 11850,
+      "sha256": "e76467cf496dc5890908c161d718bcfd758817fa38372c6f68b5d5cc183971fc"
     },
     "verify_reciprocal_trace_bound.py": {
       "bytes": 9622,

@@ -71,18 +71,28 @@ two tamper controls. This does not change the current lambda bound. Do not
 restart from small-order evidence for `1/4`; seek a rigorously smaller
 coefficient or, preferably, exploit mixed classes/canonical interfaces.
 
-The weaker candidate `2X<=T+L` is reduced exactly in
-`stage3/ORIENTED_FIFTH_REDUCTION.md`. It is equivalent to nonnegativity of
-`[tr(S^4)+tr(RSRS)]/4` and would conditionally yield reciprocal coefficient
-`1/5`. Exhaustion of all 59,809 zero-one orientations through order five
-passes, but a five-vertex witness makes one pair-interface summand negative.
-The checker now also proves that five vertices are minimal for such a local
-failure and that the same value `-1` occurs whether the two labelled endpoints
-are nonadjacent or joined in either direction. Thus the candidate remains
-unproved, the finite check is not a new bound, and the next attempt must use a
-global two-labelled/three-unlabelled flag certificate (or equivalent
-five-letter charging rule), not endpoint-type pointwise positivity or merely
-larger enumeration.
+The weaker candidate `2X<=T+L` is now **refuted**, not an open proof target.
+`stage3/ORIENTED_TRACE_TRANSFER.md` gives a 46-vertex binary orientation
+with `T+L-2X=-759`, checked by matrix products and all 4,477,456 ordered
+quadruples. A separate explicit 1057-vertex binary Cayley orientation has
+`2(T+L)/R4=1723885/8660823<1/5`, so the weaker proposed scalar coefficient
+`1/5` is also false. Group convolution and literal outgoing-neighbor/rooted
+walk counts agree exactly; six damaged certificates are rejected.
+
+The note also proves a uniform transfer theorem: every homogeneous linear
+inequality in `(T,L,X,Y)` true on all finite binary orientations must be
+true on all finite nonnegative matrices, including diagonal entries and
+digons. A seven-dimensional circulant matrix therefore puts the ceiling
+`2548/12899<1/5` on any universal scalar coefficient. This ceiling is not
+claimed sharp or achievable. It does not change the accepted lambda bound.
+
+The earlier order-five local minimality remains true only for zero-one
+matrices. Weighted matrices and product-weighted indicator kernels already
+have an order-four negative local bracket. The overbroad inference that
+every useful certificate must see at least five vertices is withdrawn.
+Do not seek a flag/SOS proof of the refuted candidate. Resume mixed
+reciprocal classes with the actual 10/6/3 compatibility hierarchy; orientation
+support alone cannot improve the cone of these four quartic scalars.
 
 Lean 4.34.1 is the intended pinned toolchain, but the recovered local launcher
 actually exits with `failed to locate application`; no successful compilation
