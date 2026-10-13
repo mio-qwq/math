@@ -108,3 +108,48 @@ runtime, and exact rational outputs are in `wider_policy_independent_results.jso
 
 Status: the wider uniform-policy conjecture is **REFUTED**; this counterexample
 is **INDEPENDENTLY_REVIEWED**. No Lean or originality claim is made here.
+
+## Independent review of a fixed-rank-bias repair
+
+The theory agent additionally considered policies using the same conditional
+probabilities `(p,q,r)` at every full ready window to omit the first, second,
+or third younger job. The vector is fixed across lengths, visible operand
+patterns, and histories; otherwise all ready jobs issue. I independently
+accept the following four-input restricted-class calculation.
+
+In the nine-job example, the first two omission branches have expected total
+time `4+p`, because only the next first-rank omission takes five rather than
+four cycles. The third first branch has expected total time `4-r`, because
+its next third-rank omission is the only three-cycle leaf. Hence
+
+`E_9=(1-r)(4+p)+r(4-r)=4-r^2+(1-r)p`.
+
+For each of the three five-job programs with four roots and a final job
+depending on a pair of younger roots, two-cycle success corresponds to one
+omitted rank. Their expected costs are `3-p`, `3-q`, and `3-r`, with optimum
+two. In particular, keeping all three ratios at most `4/3` forces
+`p=q=r=1/3`, which the nine-job example disproves. No fixed vector in this
+restricted class can globally guarantee `4/3`.
+
+More precisely let `t=min(p,q,r)`. The three short inputs give worst ratio
+`f(t)=(3-t)/2`. Since `p>=t` and `r<=1-2t`, and `E_9` is nondecreasing
+in `p` and nonincreasing in `r` on the probability simplex, the fourth ratio
+is at least `g(t)=(3+4t-2t^2)/3`. Here `0<=t<=1/3`; `f` decreases and
+`g` increases. Their unique crossing is
+
+`t_0=(11-sqrt(73))/8`, from `4t^2-11t+3=0`.
+
+Thus the exact minimax value on these **four inputs within this restricted
+policy class** is `(13+sqrt(73))/16`. The choice `p=q=t_0,r=1-2t_0`
+attains both bounds. This is not a global upper bound over every program,
+and it is not a lower bound above `4/3` for arbitrary online policies.
+In particular, the five-job and nine-job inputs have different lengths,
+so a policy permitted to choose different biases at different known lengths
+is not covered by this argument.
+
+`fixed_bias_audit.py` reweights the independently generated full ROB execution
+trees for all 91 probability triples on the denominator-12 simplex. The 364
+exact rational program checks confirm the displayed formulas and inequalities.
+Their scope, source hashes, and actual runtime are in `fixed_bias_results.json`.
+The algebra above supplies the continuous-parameter proof; the finite grid
+is not being used as a proof for arbitrary probabilities.

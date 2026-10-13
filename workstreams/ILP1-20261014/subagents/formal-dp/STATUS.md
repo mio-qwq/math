@@ -53,3 +53,24 @@ Fresh independent compilation rebuilt both imports and passed all 20 new
 audited endpoints. Evidence is in `evidence/repeated-gadgets-independent/`.
 This is an actual-model theorem, but the online observation and probability
 bridge and additive-constant lower bounds remain written proofs.
+
+`PERFECT_SATURATION_REVIEW.md` independently accepts theory commit
+`69dc6527d69918972f8f5576410fde7d409a5ecc`: the arbitrary-width two-macro
+characterization for B=W+1 and W dividing N, the path-component criterion,
+the weaker odd-interval negative certificate, and O(N+|E|) edge accounting.
+The final nondivisible aside has the necessary full-first-action guard;
+the earlier unguarded wording is not a counterexample to the final theorem.
+`perfect_negative_certificate_check.py` independently checks actual edge
+witnesses without trusting producer flags. All 29 targeted parser/tampering
+checks passed; evidence is in `evidence/perfect-negative-checks.json`.
+No CSP enumeration was repeated, and no Lean verification is claimed here.
+
+`CORRIDOR_LEAN_REVIEW.md` independently accepts Lean commit
+`bf7b46cf258d357fdf2ba85d59b0299f68cf4d2c`: actual lane-injection work
+bounds and the closed ROBTrace corridor/count bounds for every completing
+horizon H and cut 0<=t<=H. Fresh compilation passed 16+9=25 new endpoints
+and both imports. All audits use standard axioms only; empty/final-layer
+and natural-subtraction semantics passed review. Evidence is saved in
+`evidence/corridor-independent/`. The binomial candidate-state bound,
+tightness, exact reachability algorithm, and Python remain unformalized
+by these modules; do not promote those statuses with the strip theorem.

@@ -83,6 +83,39 @@ and deterministic `3/2` lower bounds at `B=3,W=2` even when an
 input-independent additive constant is allowed. Cross-block admission,
 information leakage, and history dependence were explicitly reviewed.
 
+`PERFECT_SATURATION.md` gives a new closed structural result:
+for variable `W>=2`, `B=W+1`, and `N=kW`, the work bound `T*=k`
+is attained exactly when the consecutive W-job blocks admit a tiling
+by one-cycle blocks and two-cycle boundary-swap pairs. Every k-cycle
+schedule has this structure. A path-component parity condition yields
+an O(N+|E|) algorithm, explicit schedules, and short negative edge
+witness certificates. `perfect_saturation.py` implements it and passes
+38,506 complete graph cases, 90 seeded random cases, all returned
+certificate checks, and stated boundaries. Verification commit
+`d566e057cf3cd7b2e9eaf597c5851cda5921b6df` independently accepts the
+arbitrary-size proof. Originality remains unconfirmed; no Lean claim
+is made for this new theorem.
+
+`SLACK_CORRIDOR_REVIEW.md` independently accepts the main agent's
+general `B=W+c`, horizon `H`, total idle-slot budget `S=WH-N` corridor.
+It records exact state-pair transition equivalence, a sharper
+`sum_(j=c)^(c+S) binomial(2c+S,j)` state count, and the distinction
+between an FPT algorithm in `c+S` and unrestricted fixed-window DP.
+The main agent's two-cycle independent-job construction attains every
+counted state; this count sharpness is not a complexity lower bound.
+
+`FORCED_SEGMENT_DP.md` now gives a stronger all-horizon result for
+`B=W+1`: every nonclear completed state has a unique non-delay action,
+so every choice occurs at one of `N+1` clear prefixes. A scalar macro
+recurrence computes the exact optimum in
+`O(N min(B,N)(N+|E|))` time and linear working space, even when `W`
+is part of the input. The implemented predecessor-counter solver passes
+7,605 complete resource cases, 60 seeded all-suffix comparisons and
+stated boundaries. The same branch-state argument gives a written XP
+algorithm for general excess `c`; its arc count is at most
+`N(2^c-1) binomial(B,c)`. Independent review is in progress; historical
+novelty and Lean coverage remain unconfirmed for this new algorithm.
+
 `ONLINE_LOWER_BOUND.md` proves a family of `binomial(2q,q)` indistinguishable
 programs with exact randomized minimax ratio tending to `3/2` and exact
 fixed-length advice complexity. It also proves the universal online-optimality

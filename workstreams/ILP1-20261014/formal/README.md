@@ -40,6 +40,14 @@ with no same-cycle collisions. This is an operational encoding of at most
 `W` issuances. The cardinality equivalence to a particular list-counting
 implementation has not been separately formalized.
 
+`ROBWorkBounds.lean` now derives actual issued/completed/pending cardinality
+bounds from these lane injections, and `ROBCorridor.lean` proves the
+horizon-dependent completed-set strip for actual ROB traces. The25 new
+audited endpoints handle arbitrary completion horizons, terminal boundaries,
+empty programs and truncated natural subtraction. See [ROB_CORRIDOR.md](ROB_CORRIDOR.md)
+and `verify_corridor.py`. The binomial state count and exact corridor/prefix
+algorithms remain written proofs, not formal consequences asserted here.
+
 ## Exclusions
 
 These files do not verify the Python exact solvers, their memoization or

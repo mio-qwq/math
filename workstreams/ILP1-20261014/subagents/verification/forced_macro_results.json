@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T20:04:59.616651+00:00",
+  "elapsed_seconds": 1.694372382000438,
+  "all_DAG_N_range": [
+    0,
+    5
+  ],
+  "all_DAG_W_range": [
+    1,
+    4
+  ],
+  "all_DAG_c_range": [
+    0,
+    2
+  ],
+  "all_DAG_prefix_CSP_comparisons": 4400,
+  "all_DAG_excess_CSP_comparisons": 13200,
+  "random_seed": 2026101410,
+  "random_indegree_at_most": 2,
+  "random_N_range": [
+    6,
+    12
+  ],
+  "random_W_range": [
+    1,
+    8
+  ],
+  "random_c_range": [
+    1,
+    3
+  ],
+  "random_CSP_comparisons": 180,
+  "resource_normalization_comparisons": 15,
+  "total_prefix_CSP_comparisons": 4472,
+  "total_excess_CSP_comparisons": 13380,
+  "primary_CSP_comparisons_and_replays": 4472,
+  "primary_prefix_value_comparisons": 26746,
+  "primary_source_sha256": "6798ccdf97277f16731bafb86afcd68fe5623620b8541304c750057b0093a21d",
+  "longest_observed_forced_macro": 5,
+  "scope": "Independent set-based prefix and excess macro algorithms; all returned schedules directly ROB-replayed. Optional primary import is used only for cross-check, never in the independent solvers. These finite checks do not prove the general theorem.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "forced_macro_audit.py": "1e7a57fee115010f1a91dad8f139306587ebfa469d2325f2ddbf998b9ec36a9a"
+  }
+}

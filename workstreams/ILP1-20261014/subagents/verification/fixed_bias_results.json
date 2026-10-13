@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T19:44:36.712060+00:00",
+  "elapsed_seconds": 0.018753590000414988,
+  "probability_vectors": 91,
+  "denominator": 12,
+  "weighted_program_tree_checks": 364,
+  "exact_nine_job_formula": "4-r^2+(1-r)p",
+  "exact_four_input_fixed_bias_value": "(13+sqrt(73))/16",
+  "optimal_vector": "p=q=(11-sqrt(73))/8, r=1-2p",
+  "scope": "The same conditional rank-bias vector is used at all windows and lengths. This is not a minimax value for arbitrary adaptive online policies.",
+  "source_sha256": {
+    "wider_policy_independent.py": "d3d39578fe6c2b655d8167fceba319c88c86f6633d9583081f380a9e5816ebce",
+    "fixed_bias_audit.py": "113038727ae13b24c6d2c6a3f6592d8e28fb9d576ec3d41b81698582cc658a9e"
+  }
+}

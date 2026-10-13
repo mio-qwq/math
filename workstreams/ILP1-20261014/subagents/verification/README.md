@@ -42,6 +42,10 @@ python window_plus_one_family_audit.py
 python hidden_subset_audit.py
 python wider_policy_independent.py
 python repeated_pair_audit.py
+python packed_tiling_audit.py
+python fixed_bias_audit.py
+python corridor_audit.py --primary-module ../../src/corridor.py
+python forced_macro_audit.py --primary-module ../theory/forced_segment_dp.py
 ```
 
 The optional `--primary-directory` cross-check imports the separately written
@@ -104,6 +108,22 @@ solver implementation. The report records the exact primary source hashes used.
   review of the barrier-separated family that makes the `5/4` randomized and
   `3/2` deterministic lower bounds robust to additive constants; 127 bit-string
   programs and an exact six-block probability tree.
+- `PACKED_TILING_REVIEW.md` and `packed_tiling_results.json`: the exact linear
+  work-bound attainment criterion at `B=W+1,N=kW`, its path-component form and
+  short negative certificates; 4,715 effective-graph CSP comparisons, 540
+  seeded binary-input cases, and 2,731 abstract Boolean tiling cases.
+- The wider-policy review's fixed-rank-bias analysis and `fixed_bias_results.json`:
+  exact minimax on four specified inputs for a restricted stationary policy class,
+  with 364 weighted-tree rational checks. This does not establish an unrestricted
+  online minimax value.
+- `CORRIDOR_REVIEW.md` and `corridor_results.json`: independent proof/source review
+  of the finite-horizon completion corridor, 4,797 primary/CSP comparisons,
+  1,921 direct returned-schedule replays, and 9,384 boundary inequalities checked
+  across 2,050 exhaustively enumerated legal time assignments.
+- `FORCED_MACRO_REVIEW.md` and `forced_macro_results.json`: arbitrary-makespan
+  polynomial exact optimization for `B=W+1`, plus the general-excess XP proof;
+  4,472 primary/CSP comparisons and replays, 26,746 prefix-value comparisons,
+  and 13,380 independent general-excess/CSP comparisons, all passed.
 
 All finite checks passed. These reports do not constitute arbitrary-size Lean
 proofs. This subagent has not run Lean or made originality claims.

@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T19:39:46.405930+00:00",
+  "elapsed_seconds": 0.16173420099948999,
+  "exhaustive_parameter_pairs_W_N": [
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "exhaustive_effective_graphs": 4715,
+  "seed": 2026101408,
+  "random_indegree_at_most_two_cases": 540,
+  "random_W_range": [
+    2,
+    10
+  ],
+  "random_block_count_range": [
+    1,
+    6
+  ],
+  "successful_graph_cases_before_forced_swap_tests": 262,
+  "forced_swap_witnesses": [
+    {
+      "W": 2,
+      "N": 4,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "W": 3,
+      "N": 6,
+      "edges": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "W": 4,
+      "N": 8,
+      "edges": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "W": 5,
+      "N": 10,
+      "edges": [
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "W": 6,
+      "N": 12,
+      "edges": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "W": 7,
+      "N": 14,
+      "edges": [
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "W": 8,
+      "N": 16,
+      "edges": [
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "W": 9,
+      "N": 18,
+      "edges": [
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "W": 10,
+      "N": 20,
+      "edges": [
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "W": 11,
+      "N": 22,
+      "edges": [
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "W": 12,
+      "N": 24,
+      "edges": [
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "W": 13,
+      "N": 26,
+      "edges": [
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "W": 14,
+      "N": 28,
+      "edges": [
+        [
+          0,
+          13
+        ]
+      ]
+    },
+    {
+      "W": 15,
+      "N": 30,
+      "edges": [
+        [
+          0,
+          14
+        ]
+      ]
+    },
+    {
+      "W": 16,
+      "N": 32,
+      "edges": [
+        [
+          0,
+          15
+        ]
+      ]
+    },
+    {
+      "W": 17,
+      "N": 34,
+      "edges": [
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "W": 18,
+      "N": 36,
+      "edges": [
+        [
+          0,
+          17
+        ]
+      ]
+    },
+    {
+      "W": 19,
+      "N": 38,
+      "edges": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "W": 20,
+      "N": 40,
+      "edges": [
+        [
+          0,
+          19
+        ]
+      ]
+    }
+  ],
+  "boolean_component_cases": 2731,
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "packed_tiling_audit.py": "af750dd591c36718267e06bb4f5cd0f4c57a0e23ed661d939b99a4e72a797d8c"
+  }
+}

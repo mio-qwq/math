@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "completed_utc": "2026-10-13T19:50:18.983050+00:00",
+  "deterministic_checks": 29,
+  "results": [
+    {
+      "case": "producer interior one-block witness",
+      "accepted": true
+    },
+    {
+      "case": "negative lower endpoint",
+      "accepted": false
+    },
+    {
+      "case": "empty interval",
+      "accepted": false
+    },
+    {
+      "case": "upper endpoint beyond program",
+      "accepted": false
+    },
+    {
+      "case": "even interval",
+      "accepted": false
+    },
+    {
+      "case": "boolean lower endpoint",
+      "accepted": false
+    },
+    {
+      "case": "missing singleton witness",
+      "accepted": false
+    },
+    {
+      "case": "duplicate singleton witness",
+      "accepted": false
+    },
+    {
+      "case": "wrong singleton position",
+      "accepted": false
+    },
+    {
+      "case": "cross-block singleton edge",
+      "accepted": false
+    },
+    {
+      "case": "non-edge singleton witness",
+      "accepted": false
+    },
+    {
+      "case": "missing interior left barrier",
+      "accepted": false
+    },
+    {
+      "case": "wrong left boundary index",
+      "accepted": false
+    },
+    {
+      "case": "left witness outside its two-block interval",
+      "accepted": false
+    },
+    {
+      "case": "nonviolating left true edge",
+      "accepted": false
+    },
+    {
+      "case": "missing interior right barrier",
+      "accepted": false
+    },
+    {
+      "case": "wrong right boundary index",
+      "accepted": false
+    },
+    {
+      "case": "nonviolating right true edge",
+      "accepted": false
+    },
+    {
+      "case": "missing required field",
+      "accepted": false
+    },
+    {
+      "case": "witness edge deleted from graph",
+      "accepted": false
+    },
+    {
+      "case": "zero-width input",
+      "accepted": false
+    },
+    {
+      "case": "nondivisible input",
+      "accepted": false
+    },
+    {
+      "case": "invalid true edge",
+      "accepted": false
+    },
+    {
+      "case": "valid noncomponent odd interval",
+      "accepted": true
+    },
+    {
+      "case": "spurious endpoint boundary",
+      "accepted": false
+    },
+    {
+      "case": "single-block program",
+      "accepted": true
+    },
+    {
+      "case": "false certificate on independent program",
+      "accepted": false
+    },
+    {
+      "case": "no rejection certificate for empty program",
+      "accepted": false
+    },
+    {
+      "case": "no width-one singleton true edge",
+      "accepted": false
+    }
+  ],
+  "producer_sha256": "2718784659ddb8aba84b8d0b5db200bacf518c4559f6a8cc80ee58aeafce125a",
+  "checker_sha256": "a05462ced42eafe8a07f951bc2a6e1e2b521b0ceaf3af76b33e0e97a0f7b390c",
+  "elapsed_seconds": 0.000682,
+  "scope": "Targeted witness/parser checks only; no new scheduling enumeration or Lean claim."
+}

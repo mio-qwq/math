@@ -20,7 +20,7 @@ This recursion is well founded by the number of unfinished jobs. Strong inductio
 
 ## R2. Exact static precedence representation
 
-**Status: WRITTEN_PROOF; closely related event-graph representations are prior art.**
+**Status: WRITTEN_PROOF; general operational equivalence LEAN_VERIFIED. Resource-event representations and the all-prefix discrepancy precedences themselves are prior art.**
 
 Define E_B=E union {(i,j):i+B<=j<N}. A time assignment t is feasible in R1 iff it respects all E_B edges strictly and has at most W jobs at each time.
 
@@ -44,7 +44,7 @@ The last term is absent if j<B. Prefix maxima make this O(N+|E|) time and O(N+|E
 
 ## R4. A parameterized exact algorithm
 
-**Status: WRITTEN_PROOF; straightforward bounded-frontier DP, not claimed novel.**
+**Status: WRITTEN_PROOF; straightforward bounded-frontier DP, not claimed novel. Cire–van Hoeve (2013 manuscript), section9, Lemma8/Theorem3, treats the same discrepancy precedences and exponential-in-B sequencing-state compression.**
 
 At a nonterminal state the first incomplete r is absent from D, [0,r) is present, and the only optional completed indices are r+1,...,min(N,r+B)-1. Hence there are at most 1+N*2^(B-1) reachable completed sets (replace B by min(B,N) for N>0).
 
@@ -244,3 +244,55 @@ At fixed B3,W2, the optimal randomized factor remains5/4 and the deterministic f
 For q>=1 concatenate q four-job blocks (a_k,b_k,c_k,d_k)=(4k,4k+1,4k+2,4k+3), each with hidden parent b_k or c_k for d_k. Give each of the three roots of the next block two true predecessors c_k,d_k. Every true indegree is at most two. Window edges automatically supply the missing a_k,b_k precedences, so every instruction of a new block must wait for the entire preceding block to finish. There are no extra separator instructions or cycles. Issuing a_k and the hidden parent, then the remaining two jobs, proves T*=2q.
 
 Under independent uniform hidden bits chosen in advance, each block's d_k remains unadmitted at its first decision. Its bit is still uniform conditioned on all previous history and policy random state. The two distinct successful first batches have total probability at most1, hence expected duration at least5/2 per block. Some fixed length4q input has E[T]>=5q/2. Letting q grow rules out c<5/4 even with alpha. For deterministic policies, recursively select the missed hidden parent per block; this specifies one fixed input with T>=3q. Existing strict upper bounds match both. Full proof: [REPEATED_GADGETS.md](REPEATED_GADGETS.md); independent theory and verification reviews saved separately. `formal/RepeatedGadgets.lean` now verifies the exact true graph (indegree<=2), arbitrary-q block separation, hidden-job admission barrier, forced first jobs in a two-cycle block, the explicit schedule, and actual-model optimum2q including q0. This is a closed structural theorem, not a conditional DP interface; its probability/online semantics extension remains unformalized. Product-distribution/direct-sum methods are classical.
+
+## R19. A linear structural test for perfect width saturation
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED; not Lean verified; NOVELTY_UNCONFIRMED.**
+
+Let B=W+1, W>=2, N=kW. Partition the fixed program order into k consecutive W-job blocks. A legal one-block macro executes its block in one cycle. A legal two-block macro swaps the last job of its first block with the first job of its second block, then executes the resulting two sets in successive cycles. Macro legality requires every internal true edge to point strictly from the earlier cycle to the later cycle.
+
+Then T*=k iff the blocks admit a tiling by these legal macros; indeed every k-cycle execution has this decomposition. In a clear-prefix full window, a full-width action omits one entry at one-based position r. At most r unfinished entries remain available next cycle. Since that cycle must also be full, r>=W: omitting W+1 gives a one-block macro, and omitting W forces precisely the boundary-swapped two-block macro. Repeat at its next clear prefix. Conversely every legal macro satisfies the actual window and returns to a clear prefix, so a tiling realizes k cycles.
+
+Keep an edge of the block path exactly when its two-block macro is legal, and mark each block whose singleton macro is legal. Every even component is tileable. An odd component is tileable iff a marked vertex occurs at an odd local position; choose it and pair both even sides. Necessity follows from the leftmost singleton in any tiling. Each true edge invalidates at most one singleton and two adjacent-pair macros, giving O(N+|E|) indexed-graph operations even with variable W.
+
+A rejection certificate is one odd block interval isolated by illegal pair macros at its boundaries, with every odd-position singleton illegal. Each illegal macro supplies one actual true-edge witness. Its internal pair flags need not be checked. This certifies T*>=k+1 without a full schedule/state enumeration. N=0 has the empty tiling; W1 is sequential. Do not extend by appending dummy instructions: R20 records a counterexample.
+
+Full proofs and implementation: [PERFECT_SATURATION.md](subagents/theory/PERFECT_SATURATION.md). Independent CSP/operational and flag-pattern checks are in `subagents/verification/PACKED_TILING_REVIEW.md`; an independent rejection-certificate parser and tamper tests are in `subagents/formal-dp/`. This solves the exact-work-bound decision problem, not the optimum on rejected inputs; R21 handles arbitrary makespans in polynomial time.
+
+## R20. A sharp horizon corridor and an FPT feasibility algorithm
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED. Actual-model strip and work-count interval LEAN_VERIFIED; candidate count and algorithm are not. NOVELTY_UNCONFIRMED.**
+
+For 1<=W<=B, horizon H with WH>=N, put c=B-W and S=WH-N. Every actual execution completing by H, padded with terminal idle cycles, obeys at every boundary 0<=t<=H:
+
+    [0,max(0,tW-c-S)) subset D_t subset [0,min(N,tW+c)),
+    tW-S <= |D_t| <= tW.
+
+For the lower frontier, let r be the retired prefix at t<H. All jobs complete by t+1 below r+B, and the remaining H-t-1 cycles have at most (H-t-1)W slots. Hence N<=r+B+(H-t-1)W, which gives r>=tW-c-S. At t=H, r=N directly. For the upper bound, an index completed in cycle s<=t was admitted below r_(s-1)+B<=(s-1)W+B=sW+c. This proof is for actual ROB traces, not an assumed state-count interface.
+
+There are at most M(c,S)=sum_{j=c}^{c+S} choose(2c+S,j) candidates per layer. Embed the variable strip into its untruncated interval, fixing negative indices complete and indices>=N incomplete; its selected size is c+S-(tW-|D_t|). The bound is sharp: for W>=max(1,c+S), N=2W-S independent jobs and H2, every one of these M middle states is reached and can finish in cycle two. This is a combinatorial count, not a complexity lower bound.
+
+Generate those candidates and test each adjacent-layer pair for the actual ROB transition, permitting empty actions. Every retained edge is legal; the corridor contains every H-feasible trace. Thus reachability and schedule reconstruction are exact in 2^{O(c+S)}poly(N+|E|) time. For H>=N use a sequential witness, so binary-encoded H does not invalidate the bound. This is FPT in c+S, not in c alone. It does not enumerate 2^B ready subsets.
+
+Full proof, sharpness, implementation and evidence: [CORRIDOR.md](CORRIDOR.md). Lean endpoints are `ROBCorridor.legal_corridor` and `ROBCorridor.trace_corridor`, with work counts derived from actual cycle/lane injections. At B4,W3, N5 with edge0->1 finishes in two cycles, while appending one independent job makes two cycles impossible. Dummy padding is therefore not a reduction to R19.
+
+## R21. Polynomial exact optimization at B=W+1; XP in B-W
+
+**Status: WRITTEN_PROOF + INDEPENDENTLY_REVIEWED; implementation independently checked; no Lean proof of this algorithm; NOVELTY_UNCONFIRMED.**
+
+For every finite forward DAG and every W>=1, the offline optimum at B=W+1 is computable in O(N min(B,N)(N+|E|)) indexed-graph operations and O(N+|E|) working space, with an optimal schedule returned. W is an input, not a fixed constant; N need not be divisible by W.
+
+Completed-set inclusion is a dominance relation: replay a continuation from D at a reachable D' superset D, deleting already-completed jobs from every batch. Remaining jobs stay admitted because retirement only increases and an uncompleted job cannot be before the new frontier; true predecessors stay complete. This proves that an optimum can always be chosen non-delay by filling any unused issue capacity with ready jobs and applying induction to the larger next state.
+
+Write h=|D|-r for completed but unretired jobs. There are at most B-h unfinished window entries. At B=W+1, h>=1 implies ready count<=W, so the non-delay action is unique. Thus every choice occurs at one of the N+1 clear-prefix states D=[0,i). For every non-delay first action from i, simulate the unique actions until the next clear prefix j>i, recording its length ell. Then F_N=0 and F_i=min(ell+F_j). Both inequalities follow from non-delay optimality and actual legal macro execution; backward induction returns T*=F_0.
+
+There are at most N min(B,N) macros. Predecessor counters and monotone admission/retirement pointers process each job and edge at most once within a macro after O(N+|E|) initialization. Store only the winning omission, endpoint and cost at each prefix; replay winners for the witness. This proves the time/space bound. A forced segment may have length proportional to N even at fixed W3, so no O(B) segment-length assumption is used.
+
+More generally, for normalized c=B-W>=1, branching requires h<c. There are at most N sum_{h=0}^{c-1} choose(B-1,h) such states, and at most
+
+    N sum_{h=0}^{c-1} choose(B-1,h) choose(B-h,W)
+    <= N (2^c-1) choose(B,c)
+
+outgoing macros in total. Compress unique-action segments and order the graph by completed-set size. This gives an XP algorithm in c (polynomial for each fixed c), not an FPT-in-c claim. At c0 all actions are unique and all-ready simulation is optimal. The theory implementation covers c1; the verification implementation separately exercises the general compressed-state construction.
+
+Full proof and source: [FORCED_SEGMENT_DP.md](subagents/theory/FORCED_SEGMENT_DP.md). Independent CSP checks compare4,472 c1 instances and26,746 suffix values; the general excess construction is separately checked on13,380 cases. These finite counts support implementation review and do not replace the arbitrary-size proof. General poset-width algorithms and discrepancy-precedence algorithms must still be checked for equivalent or stronger prior results.

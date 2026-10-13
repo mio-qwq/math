@@ -1,77 +1,75 @@
 # ILP1 recovery checkpoint
 
-## Branch and baseline
+## Actual repository state
 
 Primary checkout: `/workspace/scratch/6a1539b44ef3/math-ilp1`.
-Exclusive branch: `partner/dist-ILP1-20261014`.
-Exclusive files: this workstream and `coordination/agents/ILP1-20261014.md`.
-Actually fetched baseline: `bf732c32f1b8cef32ebf69cac6fb232a8a5323a3`.
-Last remote SHA verified before this integration: `070b17ec765389dfa6507735ba0cb03edba8f89b`.
-Live current SHA and file-containing commit must be read with git; never invent a future publication hash.
+Branch: `partner/dist-ILP1-20261014`.
+Allowed files: `workstreams/ILP1-20261014/` and `coordination/agents/ILP1-20261014.md` only.
+Fetched main baseline: `bf732c32f1b8cef32ebf69cac6fb232a8a5323a3`.
+Last verified remote: `310fabfae3cf7d12f64068c13b8a4111fe5aa41b`, tree `210be32f74b76ec032dfb9e51e918b084c66166c`.
+Its local source6807eac9a7c5a2acdd17c3893fe0697a1e1656f6 is preserved on `partner/ilp1-local-randomized-20261014`.
+The current subsequent integration includes R19–R21 and actual corridor proofs; read live git and publication receipts to determine whether it has been published. Never invent a self-referential future hash.
 
 ```sh
 git fetch origin
-git status --short
-git log -6 --oneline
-git rev-parse HEAD
+git status --short --branch
+git rev-parse HEAD origin/partner/dist-ILP1-20261014
 git ls-remote origin refs/heads/partner/dist-ILP1-20261014
+git log -8 --oneline
 git log -1 --format=%H -- workstreams/ILP1-20261014/HANDOFF.md
 ```
 
-Do not switch away from dirty work or reset it. Other researcher checkout `/workspace/scratch/b1d6bae025af/math-crypto3` had uncommitted changes at startup and was not touched. Never modify main/shared roadmaps/publication006/other agent states.
+Do not switch away from dirty work or reset it. The other researcher checkout `/workspace/scratch/b1d6bae025af/math-crypto3` was dirty at startup and remains untouched. Never edit main, shared coordination/roadmaps, paper006 or another agent's files.
 
-Independent worktrees are sibling `ilp1-theory`, `ilp1-lean`, `ilp1-verification`, `ilp1-literature`, `ilp1-formal-dp`. Their branches are `partner/ilp1-<role>-20261014` (formal role uses formal-dp). Check actual subagent status before repeating work. They own disjoint role paths; Lean owns formal/. Cherry-pick reviewed commits only.
+## Verified conclusions to preserve
 
-## Strongest verified state
+* R1 is exactly unit-time scheduling with ALL edges i->j for i+B<=j, plus true forward data edges. Actual operational bridge, optimum existence and a concrete executable exact Lean enumerator are proved. Offset-only edges are false.
+* Fixed-schedule minimum window and resource caps are Lean verified. General finite Bellman interfaces are kept distinct from the concrete enumeration and Python code.
+* R19 B=W+1,N=kW perfect saturation iff legal singleton/boundary-swap pair tiling. It has an O(N+E) test and short true-edge rejection certificate. Written proof plus independent reviews, not Lean verified.
+* R20: for c=B-W,S=WH-N every H-completing trace has [0,max(0,tW-c-S)) subset D_t subset [0,min(N,tW+c)), and tW-S<=|D_t|<=tW. This actual-model strip/count is Lean verified. The sharp binomial candidate count and FPT(c+S) exact algorithm are separately reviewed written proofs; Python is not verified by Lean.
+* R21 arbitrary-N optimum at B=W+1 has O(N min(B,N)(N+E)) time and O(N+E) space. Non-delay optimum exists by completion dominance; nonclear states have unique non-delay actions. Compress those runs between N+1 clear prefixes. General c has XP bound via at most N(2^c-1)choose(B,c) outgoing macros. Full written/independent proof and implementation audit, not yet Lean algorithm correctness.
+* R15 sharp random5/4 and deterministic3/2 at B3,W2 remain proved; R18 repeated two-input family establishes the same factors with an additive constant. Actual repeated graph/separation/optimum2q is Lean verified; observation/probability argument is not. Conditional randomized scalar kernels do not close that gap.
+* Resource families R11–R13 remain proved/reviewed, including the linear window needed at fixed epsilon<1/W and its exact formula. One earlier exact-saturation collapse costs only one cycle; do not imply huge IPC gain.
 
-* R1 eager ROB is exactly precedence scheduling with ALL prefix edges i->j for i+B<=j. General operational equivalence and optimum existence are Lean verified. Offset-only edges are false.
-* A separate executable Lean time/lane enumeration returns an actual globally optimal legal schedule for arbitrary forward Boolean DAGs and positive resources, including empty programs. Python is not formally verified.
-* Fixed-schedule footprint beta=max({1} union {j-i+1:i<j,t_i>=t_j}) is Lean verified, including maximum attainment and minimum-window interpretation.
-* Positive resource cap min(B,W), full-window identities, general Bellman lower certificates and attaining-potential principles are formally checked. Generic finite-search interfaces are explicitly distinguished from the concrete enumerator.
-* Written and independently reviewed online classification: universal optimum iff W1 or W>=B. General randomized/advice formulas are not fully Lean verified. Global strict deterministic ratio at B3,W2 is3/2. The randomized global ratio is now proved exactly5/4 (R15), using K=3F+n-4E and a nonempty adjacent-equality invariant; both independent review reports are saved.
-* Layered two-input family has B_sat(width2)=N, B_sat(width3)=3; small-window width2 penalty is only one cycle. Do not imply huge IPC benefit.
-* Chain-prefix plus independent suffix: T=K+ceil(max(0,K-B+1)/min(B,W)) for W>=2; B_epsilon=max(ceil((K+1)/(q+1)),K+1-qW),q=floor(epsilonK). Fixed epsilon<1/W can require Omega(N) window. True indegree/outdegree<=1. New family results are reviewed written proofs, not Lean proofs or novelty claims.
+## Evidence and reproduction
 
-## Evidence and exact commands
-
-Lean installed at `/workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean`, version4.34.1 (Std only). Runners compile fresh objects and audit actual declarations; the included C shim only resolves this host's current-process executable-path restriction. Root logs cover136 distinct endpoints with standard axioms only.
-
-From repository root:
+Lean binary `/workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean`, version4.34.1, Std only. Root receipts cover161 distinct endpoints with standard axioms only. New actual-corridor review: `subagents/formal-dp/CORRIDOR_LEAN_REVIEW.md`.
 
 ```sh
-python workstreams/ILP1-20261014/formal/verify.py --lean /workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean --proc-self-compat --output /tmp/ilp1-lean-check
-python workstreams/ILP1-20261014/formal/verify_footprint.py --lean /workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean --proc-self-compat --output /tmp/ilp1-footprint-check
-python workstreams/ILP1-20261014/subagents/formal-dp/verify.py --lean /workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean --proc-self-compat --output /tmp/ilp1-bellman-check
-python workstreams/ILP1-20261014/formal/verify_uniform_potential.py --lean /workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean --proc-self-compat --output /tmp/ilp1-uniform-check
-python workstreams/ILP1-20261014/formal/verify_repeated_gadgets.py --lean /workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean --proc-self-compat --output /tmp/ilp1-repeated-check
+python workstreams/ILP1-20261014/formal/verify_corridor.py --lean /workspace/scratch/6a1539b44ef3/ilp1-tools/lean-4.34.1-linux/bin/lean --proc-self-compat --output /tmp/ilp1-corridor-check
 ```
 
-From workstream:
+Other pinned runners in formal/ are verify.py, verify_footprint.py, verify_uniform_potential.py and verify_repeated_gadgets.py; supplementary Bellman runner is subagents/formal-dp/verify.py. Existing evidence directories are lean-root, lean-footprint-root, lean-bellman-root, lean-uniform-root, lean-repeated-root and lean-corridor-root. Check source hashes before rerunning; do not repeat unchanged exhaustive work after recovery. `admit` is a legitimate field name in ROBOperational, not an admitted proof.
+
+From the workstream:
 
 ```sh
 python -m unittest discover -s tests -v
 python paper/build.py
 ```
 
-Do not rerun unchanged exhaustive audits after session recovery. Source hashes/timings/seeds are in evidence and each verification JSON. Root12 unit groups, independent17378 solver cases, layered216, depth-two5720, chain-prefix2020+1185 checks already passed.
+Root16 test groups pass. New independent report files: `subagents/verification/corridor_results.json`, `forced_macro_results.json`, `PACKED_TILING_REVIEW.md`; source algorithm/proofs in `subagents/theory/forced_segment_dp.py`, `FORCED_SEGMENT_DP.md`, `PERFECT_SATURATION.md`; root corridor in `src/corridor.py` and CORRIDOR.md. Whole tested ranges, seeds, timing and hashes are saved. Do not add overlapping counts.
 
-## Failed routes and caveats
+The current paper is14 pages; inspect evidence/paper-build.json and paper-qa.md hashes. PDF rendering may transiently leave a truncated PNG; load every page with PIL and rerender any failed page, never enable truncated-image acceptance. Temporary images are outside git under `/workspace/scratch/6a1539b44ef3/ilp1-paper-qa/`.
 
-Oldest-ready and both original/augmented critical-path priorities are not universally optimal; minimal witnesses are saved. Height and work lower bounds need not be jointly attainable. Both resource saturation thresholds can decrease with unchanged target duration. Arbitrary true edges do not preserve a window-only interval-order graph class. An ASAP true-dependency schedule need not minimize its optimal window. Finite online gadgets do not imply lower bounds allowing an additive constant. Resource statements depend on the fixed topological program order, not only an unlabeled DAG.
+## Active roles and smallest next steps
 
-## Publication and recovery mechanics
+Separate worktrees are sibling `ilp1-theory`, `ilp1-lean`, `ilp1-verification`, `ilp1-literature`, `ilp1-formal-dp`, with `partner/ilp1-<role>-20261014` branches (formal role uses formal-dp). Read actual live agent messages before duplicating work. Their commits are cherry-picked only after review.
 
-Git HTTPS transport fetch succeeds but push reports missing username. The authorized GitHub connector successfully created/published the first checkpoint. Subsequent publication uses create_tree/create_commit/update_ref with expected current SHA and force=false, followed by actual git fetch/ls-remote and tree equality. Local integration commits may have different hashes from connector commits; preserve them on a unique local branch before recreating the clean tracking branch. Never force push or discard dirty changes. The first local-only baseline is preserved under partner/ilp1-local-baseline-20261014.
+* Theory: save arbitrary-length forced-macro family and investigate two-chain hidden-final-dependency obstruction. A candidate already works for B4,W3 with all but the last instruction's incoming dependencies known; independent review is pending. Do not claim it as a published theorem yet.
+* Verification: independent prefix-potential optimality checker for R21, regenerating all macros rather than trusting a submitted subset, with tamper controls. It is polynomial graph checking, not a constant-time structural rule.
+* Lean: new actual ROBReady local invariants/cardinality/forced-action/progress lemmas. At this checkpoint these are not in the161 root total; require commit, fresh root build and review. General non-delay-optimum and compressed-DP formal bridges remain open.
+* Formal_dp: independent hidden-tail proof review; actual corridor Lean review79a7818 already integrated.
+* Literature: last integrateda964cec, close parameter comparisons. Discrepancy precedences and frontier representations are established prior art. Recent degeneracy/time-window results do not directly imply these finer parameters, but no historical-first claim is justified.
 
-The enabled2h automation belongs to this conversation; do not alter other automations. It must perform recovery/research, not claim uninterrupted background execution.
+Then pursue FPT versus XP in c=B-W, the complete Lean optimizer bridge, or larger-resource online minimax. Do not restart resolved B3 random/additive-constant questions.
 
-Oldest-inclusion normalization for B=W+1 is now proved and independently reviewed (THEOREMS R14); the B3,W2 scalar recurrence is in NARROW_WINDOW_POLICY.md. The global randomized B3,W2 gap has now been closed by a general written and independently reviewed proof, after the finite experiment; see RANDOMIZED_FIVE_QUARTERS.md. Next substantive target: larger-width B=W+1 lower bounds and full Lean connection, with the conditional arithmetic kernel now freshly Lean verified and independently reviewed. Actual-model separation, the two-input property, hidden-job admission, forced two-cycle first jobs and exact offline2q are now Lean verified for arbitrary q/bit strings. Do not redo that completed formalization; the remaining gap is full observation/probability semantics. In parallel, formalize robust saturation families and deepen prior-art equivalence searches. Read live subagent messages/commits and STATUS before deciding which smallest unfinished step remains. Manuscript authorship, new licensing, submissions and DOI are not authorized.
+## Failed routes and scope traps
 
+Critical-path and oldest-ready priorities are not generally optimal. Height and work bounds need not be simultaneously tight. Saturation thresholds need not vary monotonically even though optimum duration does. Arbitrary true dependencies do not preserve the base interval-order class. Appending dummy instructions to reach N=kW fails (N5,B4,W3,edge0->1 vs N6). A forced macro may last Omega(N) at fixed W3. The sharp state-count example is not a complexity lower bound. XP(c) is not FPT(c). Uniform omission at B4,W3 fails4/3 (ratio37/27), and fixed biases cannot repair it; this does not refute every adaptive policy.
 
-Latest publication receipt: evidence/publication-070b17e.json records actual fetch/ls-remote/tree equality. The local pre-publication history is preserved on partner/ilp1-local-integration-20261014; the active research branch was cleanly recreated tracking070b17e before this follow-up. Current subsequent local commits must still be published and verified.
+## Publication mechanics
 
-Failed/limited routes from this loop: D=5F-4E alone led to stronger pair inequalities without an immediate induction; K=3F+n-4E closed it. An initially suggested N=2W one-extra-entry lower-bound family with W hidden missing roots fails admission: the last job forces the firstW-1 roots in cycle1. Do not reuse it. The corrected family uses m forced initial roots and a pool of sizeW+1-m; the unified hidden-subset generalization is complete and reviewed (R16). The wider uniform-omission conjecture is REFUTED at B4,W3,N9, with E/T*=37/27; fixed rank biases cannot restore4/3, but fully adaptive policy minimax remains unresolved.
+Git HTTPS fetch works, but direct push lacks a username. Use the authorized GitHub connector's create_blob/create_tree/create_commit/update_ref, with the exact expected remote head and force=false. Build the tree from a pinned clean local commit and compare API tree SHA with the local tree before update_ref. Then actually fetch, query ls-remote and compare source/remote trees. Preserve local integration history on a unique branch before recreating a clean tracking branch; never force push or reset dirty files. Public receipts contain real SHAs, not automation/conversation IDs. The latest saved receipt before this integration is evidence/publication-310fabf.json.
 
-New strongest online conclusion: the q-block, two-input construction in REPEATED_GADGETS.md has exact offline2q, no overlap between blocks, and an oblivious-product lower bound5q/2 against every randomized policy. The deterministic missed-bit construction gives3q. Thus the factors5/4 and3/2 also hold with a fixed additive constant (R18). This is a separately proved composition, not an unsupported repetition assumption. Root supplied the construction; theory and verification independently reviewed it. New conditional Lean potential endpoints have only standard axioms; actual randomized ROB semantics remains unformalized.
-
-Active next-stage investigation at this checkpoint: theory and verification are independently analyzing B=W+1,N=kW exact workload saturation. A candidate necessary/sufficient characterization uses one-block contiguous batches or two-block boundary swaps, reducing to monomer/dimer tiling of consecutive W-job blocks. Proof/implementation/review are being saved on separate branches; inspect live agents/commits before claiming or repeating it. It is not part of the paper theorem list at this checkpoint.
+Keep the authorized continuation enabled; no claim of continuous computation between runs. No author list, new license, submission, DOI or protected-file changes are authorized for this research.

@@ -5,14 +5,14 @@
 \usepackage{lmodern}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
 \usepackage{microtype}
-\hypersetup{pdftitle={Exact Resource Thresholds and Information Limits in a Unit-Latency Reorder-Buffer Model},pdfsubject={ILP1-20261014 research draft; originality unconfirmed}}
+\hypersetup{pdftitle={Structure, Exact Algorithms and Information Limits in a Unit-Latency Reorder-Buffer Model},pdfsubject={ILP1-20261014 research draft; originality unconfirmed}}
 \newtheorem{theorem}{Theorem}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
 \newcommand{\T}{T^*}
 \newcommand{\bs}{B_{\mathrm{sat}}}
 \newcommand{\ws}{W_{\mathrm{sat}}}
-\title{Exact Resource Thresholds and Information Limits\\in a Unit-Latency Reorder-Buffer Model}
+\title{Structure, Exact Algorithms and Information Limits\\in a Unit-Latency Reorder-Buffer Model}
 \author{}
 \date{Research draft, 14 October 2026 (Asia/Singapore)}
 \begin{document}
@@ -28,6 +28,11 @@ execution-time reduction to precedence scheduling by adding every edge from
 index $i$ to index $j$ with $i+B\le j$. This is a specialized formal bridge
 to established resource-event graph methods, not a claim to have invented them.
 We give exact algorithms and independently checked certificates, and exhibit
+an exact polynomial optimizer for arbitrary issue width $W$ when the window
+has capacity $B=W+1$. Perfect saturation then has a linear structural test.
+More generally, a horizon with $S=HW-N$ unused issue slots confines every
+feasible trace to a strip of width $2(B-W)+S$, yielding fixed-parameter
+feasibility in $(B-W)+S$. We also exhibit
 two-input programs whose minimum sufficient window falls from $N$ to $3$ when
 issue width increases from $2$ to $3$. This unbounded threshold change costs
 only one extra cycle at window two, highlighting the distinction between
@@ -39,7 +44,7 @@ ratio $5/4$, proved by a joint potential invariant. A two-input repeated
 construction preserves this lower bound with an additive constant.
 Lean 4.34.1 verifies the operational reduction, existence of an
 optimum, an executable exact enumeration algorithm, resource caps, Bellman
-certificates, and a four-job arbitrary-policy online obstruction. General
+certificates, the actual-trace strip bound, and a four-job arbitrary-policy online obstruction. General
 resource families and online classifications have independent written review
 but are not yet fully formalized. Historical originality remains unconfirmed.
 \end{abstract}
@@ -52,7 +57,9 @@ existence of an offline optimum imply that a finite-information scheduler can
 always select it. We separate these questions in a deliberately narrow model.
 
 The main structural examples concern exact resource thresholds, rather than
-real hardware speedups. A second result classifies the resource regimes in
+real hardware speedups. A separate algorithmic result exploits how completed
+but unretired jobs remove scheduling choices, yielding polynomial exact
+optimization for a window one entry wider than issue width. Another result classifies the resource regimes in
 which hidden future dependencies obstruct universal online optimality. The
 foundational reduction and algorithms are included to make these claims
 precise, reproducible, and amenable to formal checking. The result catalogue
@@ -97,6 +104,17 @@ Fields, Rubin, and Bod\'ik use execution-event DAGs with resource edges
 \cite{fields}; later work explicitly records FIFO/ROB commit-to-dispatch
 constraints \cite{navada}. Our all-prefix execution-only reduction must be
 read as a specialization of this prior modeling tradition.
+
+The all-prefix constraints also occur as discrepancy precedences in
+Cire--van Hoeve's sequencing MDD formulation, whose section9 gives an
+exponential-in-discrepancy width bound \cite{cire}. Thus neither these
+constraints nor a general finite-frontier state representation is new.
+Our current algorithm questions instead concern variable $W$, the difference
+$B-W$, and a total idle-slot budget. Recent work parameterizes scheduling by
+time-window overlap or incomparable-graph degeneracy; the workstream audit
+records these sources and access limits. Those parameters can grow with $W$
+even when the parameters here are fixed, so their inspected bounds do not
+directly imply the results below. This distinction is not novelty clearance.
 
 Bellman recursion, finite exhaustive search, precedence longest paths and
 Graham's list-scheduling guarantee are classical. At width two the reduced
@@ -185,6 +203,192 @@ The reduction gives legality exactly when $B\ge\beta(t)$ and
 $W\ge\omega(t)$. Minimizing these footprints over the appropriate optimal
 schedules characterizes saturation, but is not itself an efficient general
 algorithm.
+
+\section{Polynomial optimization with one extra window entry}
+Call an action non-delay if it issues $\min(W,|R(D)|)$ jobs, where $R(D)$
+is the ready set. This specifies a batch size, not a priority order.
+
+\begin{proposition}[Completion dominance and non-delay optimality]
+If two reachable states have completed sets $D\subseteq D'$, every
+continuation from $D$ can be simulated from $D'$ in no more cycles.
+Consequently every reachable state has a non-delay optimal continuation.
+\end{proposition}
+\begin{proof}
+Replay the original actions, deleting jobs already complete in the simulating
+state. True predecessors stay complete. Retirement advances from $r$ to
+$r'\ge r$; a retained job satisfies $j\ge r'$ because it is incomplete, and
+$j<r+B\le r'+B$ because it was originally admitted. Thus it remains admitted
+and ready. Deletion cannot exceed issue width. This preserves completed-set
+inclusion at each boundary and finishes no later. Enlarge an optimal first
+action to the non-delay size and apply this simulation. Induction on the
+number of unfinished jobs gives a non-delay optimum at every later state.
+\end{proof}
+
+Write $h(D)=|D|-r(D)$ for completed but unretired jobs. They still occupy
+window entries, so $|R(D)|\le B-h(D)$. If $B=W+1$ and $h\ge1$, the
+non-delay action is therefore uniquely determined: issue every ready job.
+Choices occur only at clear-prefix states $D=[0,i)$, and only when all
+$W+1$ window entries are ready.
+
+\begin{theorem}[Exact prefix dynamic program]
+For arbitrary finite forward dependencies and arbitrary input $W\ge1$,
+the optimum at $B=W+1$ and an attaining schedule can be computed in
+\[
+ O\bigl(N\min(B,N)(N+|E|)\bigr)\text{ time},\qquad O(N+|E|)\text{ space}
+\]
+using indexed-graph operations. No divisibility assumption on $N$ is needed.
+\end{theorem}
+\begin{proof}
+At prefix $i$, enumerate its non-delay first actions: one if at most $W$
+jobs are ready, otherwise the $B$ choices of an omitted ready job.
+After each action, simulate the unique non-delay actions until the first
+new clear prefix $j$. Every nonterminal cycle issues at least the oldest
+job when its action is unique; the first action is also nonempty. Hence
+this macro ends in at most $N-i$ cycles, has length $\ell$, and $j>i$.
+The non-delay optimum must follow one such macro. Conversely every macro
+is a legal continuation. Thus
+\[
+ F_N=0,\qquad F_i=\min_{\text{first actions }A}
+       \bigl(\ell(i,A)+F_{j(i,A)}\bigr).
+\]
+Backward induction gives the exact remaining optimum at every prefix.
+
+There are at most $N\min(B,N)$ macros. For each, initialize predecessor
+counters from its starting prefix in $O(N+|E|)$ time. Monotone admission
+and retirement pointers admit and complete each job once during that macro;
+each outgoing edge decrements a counter once. Newly ready jobs wait until
+the next cycle. Thus a macro costs $O(N+|E|)$. Store only its winning first
+omission, cost and endpoint at each prefix, then replay winning macros for
+the schedule. This gives the bounds. Empty programs return zero, and
+arbitrarily large $W$ does not cause iteration over absent jobs.
+\end{proof}
+
+This is an offline algorithm: evaluating choices uses dependencies that may
+be outside the current execution window. A forced macro can have length
+linear in $N$ even at fixed $B=4,W=3$, so a constant macro-length assumption
+would be invalid.
+
+For general normalized excess $c=B-W\ge1$, branching requires $h<c$.
+There are at most $N\sum_{h=0}^{c-1}\binom{B-1}{h}$ branching states.
+The total number of outgoing macros is at most
+\[
+ N\sum_{h=0}^{c-1}\binom{B-1}{h}\binom{B-h}{W}
+ \le N(2^c-1)\binom{B}{c},
+\]
+by replacing $\binom{B-1}{h}$ with $\binom{B}{h}$ and applying the identity
+$\binom{B}{h}\binom{B-h}{c-h}=\binom{B}{c}\binom{c}{h}$.
+Compress each unique-action segment, including an initial forced segment
+if necessary. Completed-set size strictly increases along every macro,
+giving an exact acyclic state graph. This is an XP algorithm in $c$,
+not a fixed-parameter algorithm in $c$ alone. At $c=0$ every action is unique.
+
+\subsection{A linear perfect-saturation criterion}
+Suppose $W\ge2$, $B=W+1$ and $N=kW$. Partition the jobs into $k$
+consecutive blocks of $W$ entries. A singleton macro executes one block
+in one cycle. A pair macro swaps the last job of its left block with the
+first job of its right block, then executes the resulting sets in two
+successive cycles. A macro is legal when every internal true edge points
+strictly from an earlier to a later macro cycle.
+
+\begin{theorem}[Exact-work-bound tiling]
+$\T=k$ if and only if these blocks can be tiled by legal singleton and
+pair macros. Every $k$-cycle schedule has this decomposition. The decision
+and a positive or negative certificate take $O(N+|E|)$ graph operations.
+\end{theorem}
+\begin{proof}
+Every cycle must issue $W$ jobs. At a clear-prefix state with at least two
+blocks remaining, a full action omits exactly one of $W+1$ entries, at
+one-based position $r$. Only the first $r-1$ entries retire, leaving at
+most $r$ unfinished window entries next cycle. Full width forces $r\ge W$.
+For $r=W+1$ this is a singleton macro. For $r=W$ the next full action is
+forced and gives exactly the pair macro. Both end at a clear prefix.
+The final single block, if present, is a singleton. Conversely legal macros
+satisfy admission and return to clear prefixes, so a tiling gives $k$ cycles.
+
+Make a path on blocks, keeping an edge iff its pair macro is legal and
+marking a vertex iff its singleton is legal. An even component can be paired.
+An odd component can be covered iff it has a marked odd local position:
+use that singleton and pair both sides; conversely the leftmost singleton
+of any tiling must have odd position. Each true edge invalidates at most
+one singleton and two adjacent-pair macros. One graph scan and one path
+scan therefore suffice. For rejection, supply an odd interval isolated by
+illegal boundary pair macros and with all odd-position singletons illegal.
+One actual true edge witnesses each illegality; internal pair flags need
+not be checked. No full-state certificate is needed.
+\end{proof}
+
+\section{A sharp completion corridor near the work bound}
+Let $1\le W\le B$, choose a horizon $H$ with $WH\ge N$, and put
+$c=B-W$, $S=WH-N$. A trace finishing earlier is padded with terminal idle
+cycles, so its total unused issue capacity is exactly $S$.
+
+\begin{theorem}[Actual-trace corridor]
+At every boundary $0\le t\le H$, every such execution satisfies
+\[
+ [0,\max(0,tW-c-S))\subseteq D_t\subseteq[0,\min(N,tW+c)),
+ \qquad tW-S\le |D_t|\le tW.
+\]
+\end{theorem}
+\begin{proof}
+For $t<H$, let $r$ be the first incomplete index at $t$. All jobs completed
+by $t+1$ lie below $r+B$: earlier admissions had no larger frontier, and
+the next action uses the current window. At most $(H-t-1)W$ jobs fit in
+the remaining cycles, hence $N\le r+B+(H-t-1)W$ and $r\ge tW-c-S$.
+At $t=H$, use $r=N$ directly. All indices below $r$ are complete.
+
+A job completed in cycle $s\le t$ was admitted below
+$r_{s-1}+B\le(s-1)W+B=sW+c\le tW+c$.
+Finally $|D_t|\le tW$ and $N-|D_t|\le(H-t)W$ give the count interval.
+The argument allows idle cycles, truncated windows and empty programs.
+\end{proof}
+
+This theorem, including counts derived from actual cycle/lane injections,
+is verified in Lean for actual ROB traces. The following combinatorial
+count and algorithm currently have reviewed written proofs.
+
+\begin{theorem}[Sharp candidate count and parameterized feasibility]
+Each layer has at most
+\[
+ M(c,S)=\sum_{j=c}^{c+S}\binom{2c+S}{j}\le2^{2c+S}
+\]
+candidate completed sets. This bound is sharp. Exact horizon feasibility
+and an attaining schedule can be computed in
+$2^{O(c+S)}\operatorname{poly}(N+|E|)$ time.
+\end{theorem}
+\begin{proof}
+Embed the variable strip into the untruncated interval
+$[tW-c-S,tW+c)$. Treat negative indices as fixed complete, and indices
+at least $N$ as fixed incomplete. If $d=tW-|D_t|$, its selected subset
+has size $c+S-d$, where $0\le d\le S$. This is an injection into the
+families counted by $M$; boundary truncation only removes candidates.
+
+For sharpness choose $W\ge\max(1,c+S)$, $H=2$, $N=2W-S$ and independent
+jobs. Let $L=W-c-S$, $U=W+c$. For every subset $A\subseteq[L,U)$ of
+size between $c$ and $c+S$, issue $D=[0,L)\cup A$ in cycle one.
+It is initially admitted and has size between $W-S$ and $W$.
+Its retired prefix is at least $L$, so its next frontier is at least
+$L+B=N$. At most $W$ jobs remain, all independent, and finish in cycle two.
+All $M$ distinct middle states therefore occur on one input. This is not
+a computational lower bound; the input itself is easy.
+
+Generate the layer candidates and test every consecutive-layer pair for
+the actual ROB transition: containment of completed sets, at most $W$ new
+jobs, admission using the actual first missing index, and all true parents
+already complete. Empty additions are allowed. Every edge is sound; the
+corridor puts every feasible trace inside the graph. Reachability and
+predecessors decide feasibility and recover a schedule. There are at most
+$M^2$ pairs per layer; graph/mask arithmetic is polynomial. If $H\ge N$,
+use the sequential witness instead, so a binary-encoded horizon is harmless.
+No step enumerates all $2^B$ ready subsets.
+\end{proof}
+
+At $c=1,S=0$ there are only two candidate forms: a clear prefix or its
+boundary swap. A swapped state cannot be followed by another swapped state
+at full width because the next required final index is outside admission.
+This recovers the preceding tiling result. For $S>0$, appending independent
+dummy jobs is not a reduction to $S=0$: at $B=4,W=3$, five jobs with sole
+true edge $0\to1$ finish in two cycles, but adding a sixth independent job
+makes two cycles impossible.
 
 \section{Unbounded changes in exact resource thresholds}
 For nonempty programs define
@@ -644,7 +848,8 @@ Lean 4.34.1 (compiler commit
 dependency. The main modules expose 68 audited declarations; the resource-footprint
 module adds 18, three supplementary Bellman/search modules add 20,
 the conditional randomized-potential module adds 10, and the actual
-repeated-gadget module adds 20 distinct declarations (136 in total). Root
+repeated-gadget module adds 20, and work-count/corridor modules add 25
+distinct declarations (161 in total). Root
 recompilation uses fresh temporary compiled objects. Audits permit only
 Lean's standard \texttt{propext}, \texttt{Classical.choice} and
 \texttt{Quot.sound}; no new unproved axiom, \texttt{sorry}, or \texttt{admit}
@@ -658,9 +863,19 @@ algorithm with soundness/completeness/optimality, operational Bellman lower
 certificates, a general attaining-potential theorem, and the arbitrary-local-
 policy four-job obstruction. Generic finite-search lemmas and the actual
 concrete enumerator are distinguished. These proofs do not verify the
-Python program, the optimized frontier DP implementation, the full general
+Python program, the polynomial forced-segment DP, the corridor candidate
+count or parameterized algorithm, the full general
 online theorem, or the unbounded saturation families. Finite tests are not
 universal proofs. Independent agent review is not academic peer review.
+
+For the new polynomial optimizer, independent time-variable constraints
+and ROB replay agree on 4,472 instances; 26,746 clear-prefix values also
+agree. A separately implemented general-excess compressed algorithm was
+checked on 13,380 cases. The corridor implementation has 4,797 independent
+constraint comparisons, 1,921 feasible witness replays, and 9,384 boundary
+checks on 2,050 complete legal time maps. The linear saturation theorem
+has separate graph, abstract macro-pattern and negative-certificate audits.
+Each saved report gives its actual ranges and seeds; these counts overlap.
 
 \section{Limitations and future work}
 The model omits variable operation latency, functional-unit classes, finite
@@ -670,7 +885,8 @@ Its online information model is deliberately explicit and may differ from
 what a concrete processor can infer. No implementation-level speed or energy
 claim follows from these theorems.
 
-The next questions are robust approximate saturation, tight online ratios
+The next questions are fixed-parameter tractability in $B-W$ alone,
+efficient optimality certificates for the compressed graph, tight online ratios
 at other fixed resources, composition of larger hidden-subset families, efficient
 certificates at finite issue width, and formalization of the general
 resource and observation theorems. A deep originality audit remains needed,
@@ -679,7 +895,7 @@ states and reproducible commands are saved in \texttt{STATUS.md} and
 \texttt{HANDOFF.md}; the authorized research branch is
 \texttt{partner/dist-ILP1-20261014}.
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \small
 \bibitem{wall} D. W. Wall. \emph{Limits of Instruction-Level Parallelism}.
 WRL Research Report 93/6, 1993.
@@ -701,6 +917,10 @@ Institutional record inspected; full-text access incomplete.
 \bibitem{cg} E. G. Coffman Jr., R. L. Graham.
 \emph{Optimal Scheduling for Two-Processor Systems}. Acta Informatica 1,
 200--213, 1972. \url{https://doi.org/10.1007/BF00288685}.
+\bibitem{cire} A. A. Cire, W.-J. van Hoeve.
+\emph{Multivalued Decision Diagrams for Sequencing Problems}.
+Author manuscript revised May2013, section9, Lemma8 and Theorem3.
+\url{https://www.andrew.cmu.edu/user/vanhoeve/papers/mdd_sequencing.pdf}.
 \bibitem{graham} R. L. Graham. \emph{Bounds for Certain Multiprocessing
 Anomalies}. Bell System Technical Journal 45, 1563--1581, 1966.
 \url{https://doi.org/10.1002/j.1538-7305.1966.tb01709.x}.

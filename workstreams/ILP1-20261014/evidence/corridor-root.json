@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-10-13T19:58:41.333489+00:00",
+  "status": "PASS",
+  "root_test_groups": 4,
+  "complete_forward_graphs": 76,
+  "max_N": 4,
+  "resource_ranges": "B,W independently1..N+1",
+  "horizons": "0..N+1",
+  "graph_resource_horizon_cases": 10326,
+  "replay": "Every feasible result independently replayed with src/checker.py",
+  "focused_cases": [
+    "N300,W50,B51,H6: independent, forced boundary swap, early internal edge obstruction; at most2 states/layer",
+    "N5/W3/B4 dummy-padding counterexample",
+    "Huge horizon direct witnesses and invalid forward inputs"
+  ],
+  "observed_unit_test_seconds": 0.089,
+  "implementation_sha256": "98b28cbae3cff040a5f3ce3cc76fe4e8cf226de07c0c2977a6bc0e9308f0302a",
+  "test_sha256": "90b6ba1a2f2c0fc04f5aa2de768a4a851fc9ad6b3d1dd31090d09e0faf5e918c",
+  "scope": "Primary integration checks against existing optimizer; separate independent time-variable CSP evidence is in subagents/verification. Finite counts do not replace the general proof."
+}

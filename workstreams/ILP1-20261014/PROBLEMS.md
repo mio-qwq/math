@@ -6,6 +6,8 @@
 * Independent operational and time-assignment exact algorithms, certificate checking and reproducible counterexamples.
 * Universal online optimality resource dichotomy, with strict model-specific information boundary.
 * Saturated-width optimum and unrestricted-width minimal window in polynomial time with short certificates.
+* B=W+1 arbitrary-N offline optimum in polynomial time (R21), and the linear perfect-width tiling criterion (R19).
+* Actual ROB horizon corridor, sharp candidate count and FPT in c+S (R20), with c=B-W and S=WH-N. Actual strip/count is Lean verified; algorithm/counting sharpness are not.
 
 These do not imply a general efficient optimal finite-width online processor.
 
@@ -19,7 +21,7 @@ These do not imply a general efficient optimal finite-width online processor.
 
 2. **Resource-parametric composition.** R18 now repeats the B3,W2 four-job gadget with two-input roots and no separator cycles, proving matching factors even with additive constants. Determine when analogous composition preserves the stronger hidden-subset bounds at larger fixed B,W; the already-resolved B3 case must not be relisted as open.
 
-3. **Structured finite-width saturation.** Characterize graph/program classes on which a small optimality certificate avoids full-state enumeration. W2 is already covered by classical Coffman–Graham after reduction. Seek a genuinely stronger bounded-window structure or improved local algorithm, rather than rediscovering that theorem.
+3. **Excess-window complexity and certificates.** R21 supplies polynomial optimum at B=W+1 for arbitrary W, and XP in c=B-W. Determine whether FPT in c alone is possible; no hardness result is currently proved. R19 gives short structural certificates at perfect saturation. Complete the polynomial prefix-potential checker for arbitrary makespans without requiring a full completed-state table.
 
 4. **Formalize structural resource results and the optimized DP.** Concrete executable time/lane enumeration is now proved sound, complete and optimal for the actual ROB model. Fixed-schedule window footprint is also formalized. Connect an efficient finite-frontier representation to the model; formalize R11–R13. Keep the generic Bellman/search interface, concrete enumeration, optimized DP, and Python correctness distinct.
 
@@ -38,5 +40,7 @@ These do not imply a general efficient optimal finite-width online processor.
 * Arbitrary original dependencies preserve the base window's interval-order class: false.
 * At B=W+1, an optimum can always issue the oldest W-1 ready jobs: false at B4,W3,N5.
 * Uniform younger omission has ratio4/3 at B4,W3: false at N9, where E/T*=37/27. The larger-width guess (3-1/W)/2 for this policy is therefore also false. Identify a better information-aware distribution or a stronger all-policy lower bound.
+* Append independent dummy jobs to reduce arbitrary N to divisible perfect saturation: false at N5,B4,W3,edge0->1; a sixth job increases the optimum from2 to3.
+* Forced segments have length bounded solely by B: false even at B4,W3; an interleaved chain can keep one completed unretired entry for arbitrarily many cycles.
 
 No finite search result is promoted to a general theorem without proof, and no completed proof is promoted to a novelty claim without an adequate literature audit.

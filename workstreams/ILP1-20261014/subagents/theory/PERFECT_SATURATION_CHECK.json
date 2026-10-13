@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "seed": 20261014,
+  "complete_effective_graph_ranges": [
+    {
+      "N": 2,
+      "W": 2,
+      "effective_graphs": 2
+    },
+    {
+      "N": 3,
+      "W": 3,
+      "effective_graphs": 8
+    },
+    {
+      "N": 4,
+      "W": 2,
+      "effective_graphs": 32
+    },
+    {
+      "N": 4,
+      "W": 4,
+      "effective_graphs": 64
+    },
+    {
+      "N": 5,
+      "W": 5,
+      "effective_graphs": 1024
+    },
+    {
+      "N": 6,
+      "W": 2,
+      "effective_graphs": 512
+    },
+    {
+      "N": 6,
+      "W": 3,
+      "effective_graphs": 4096
+    },
+    {
+      "N": 6,
+      "W": 6,
+      "effective_graphs": 32768
+    }
+  ],
+  "complete_graph_cases": 38506,
+  "complete_graph_positive_certificates": 221,
+  "boundary_cases": 31,
+  "seeded_random_cases": 90,
+  "forced_swap_cases": 19,
+  "invalid_input_rejections": 3,
+  "oracle": "full completed-set optimization, independently encoded in sanity_check.solve_rob",
+  "positive_check": "operational ROB replay of every returned schedule",
+  "implementation_sha256": "2718784659ddb8aba84b8d0b5db200bacf518c4559f6a8cc80ee58aeafce125a",
+  "checker_sha256": "c51b8a417a7cb05da100557ddd52d8d9ee6aa4889d213b8b7957820b78c98940",
+  "elapsed_seconds": 1.757167,
+  "scope": "Finite implementation checks; arbitrary-size correctness is the written tiling/component proof."
+}

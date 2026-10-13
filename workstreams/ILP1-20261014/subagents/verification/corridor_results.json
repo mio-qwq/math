@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-13T19:54:00.952278+00:00",
+  "elapsed_seconds": 0.4095278849999886,
+  "all_small_CSP_comparisons": 4332,
+  "small_N_range": [
+    0,
+    4
+  ],
+  "small_W_range": [
+    1,
+    4
+  ],
+  "small_c_range": [
+    0,
+    2
+  ],
+  "direct_ROB_legal_time_assignments": 2050,
+  "boundary_inequality_checks": 9384,
+  "assignment_N_range": [
+    1,
+    3
+  ],
+  "assignment_H_range": [
+    1,
+    4
+  ],
+  "seed": 2026101409,
+  "random_CSP_comparisons": 298,
+  "random_W_range": [
+    1,
+    8
+  ],
+  "random_c_range": [
+    0,
+    3
+  ],
+  "random_S_range": [
+    0,
+    3
+  ],
+  "random_H_range": [
+    1,
+    6
+  ],
+  "independent_positive_cases": 99,
+  "additional_resource_boundary_cases": 68,
+  "primary_comparisons": 4797,
+  "primary_schedule_replays": 1921,
+  "primary_source_sha256": "98b28cbae3cff040a5f3ce3cc76fe4e8cf226de07c0c2977a6bc0e9308f0302a",
+  "scope": "The independent solver enumerates pairs of narrow-strip candidates, never all ready subsets. It deliberately has no H>=N shortcut so the full small range is checked.",
+  "source_sha256": {
+    "constraint_solver.py": "e4c6f7c4e30e28015345fa3ddce11174efd567019375ee6b193dd6f46302723e",
+    "corridor_audit.py": "06855b9b693c6061919d1aee50da00dfb405045101fb3f7d988a0796826f37ae"
+  }
+}

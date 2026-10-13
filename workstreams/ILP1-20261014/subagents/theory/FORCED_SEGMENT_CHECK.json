@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "seed": 20261014,
+  "complete_graph_ranges": [
+    {
+      "N": 0,
+      "graphs": 1,
+      "W_min": 1,
+      "W_max": 2
+    },
+    {
+      "N": 1,
+      "graphs": 1,
+      "W_min": 1,
+      "W_max": 3
+    },
+    {
+      "N": 2,
+      "graphs": 2,
+      "W_min": 1,
+      "W_max": 4
+    },
+    {
+      "N": 3,
+      "graphs": 8,
+      "W_min": 1,
+      "W_max": 5
+    },
+    {
+      "N": 4,
+      "graphs": 64,
+      "W_min": 1,
+      "W_max": 6
+    },
+    {
+      "N": 5,
+      "graphs": 1024,
+      "W_min": 1,
+      "W_max": 7
+    }
+  ],
+  "complete_graphs": 1100,
+  "complete_resource_cases": 7605,
+  "random_binary_input_cases_with_all_suffix_values": 60,
+  "long_forced_segment": {
+    "deps": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      16,
+      0
+    ],
+    "W": 3,
+    "cycles": 3,
+    "longest_macro": 4
+  },
+  "large_boundary_cases": [
+    {
+      "N": 200,
+      "W": 1,
+      "independent_cycles": 200,
+      "serial_cycles": 200
+    },
+    {
+      "N": 200,
+      "W": 2,
+      "independent_cycles": 100,
+      "serial_cycles": 200
+    },
+    {
+      "N": 200,
+      "W": 3,
+      "independent_cycles": 67,
+      "serial_cycles": 200
+    },
+    {
+      "N": 200,
+      "W": 17,
+      "independent_cycles": 12,
+      "serial_cycles": 200
+    },
+    {
+      "N": 200,
+      "W": 1000000000000,
+      "independent_cycles": 1,
+      "serial_cycles": 200
+    }
+  ],
+  "duplicate_edge_check": "PASS",
+  "invalid_input_rejections": 5,
+  "oracle": "independent full completed-state recursion over every nonempty ready subset",
+  "certificates": "every returned schedule operationally replayed",
+  "implementation_sha256": "6798ccdf97277f16731bafb86afcd68fe5623620b8541304c750057b0093a21d",
+  "checker_sha256": "1f8ceaed1f9529089a966ed02fc1ef169373d4efb4bbe1e3afaa85be33ebea7c",
+  "elapsed_seconds": 0.895748,
+  "scope": "finite implementation checks, separate from the arbitrary-size written proof"
+}
