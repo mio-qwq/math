@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "client_date": "2026-10-15",
+  "completed_utc": "2026-10-14T16:59:14.884601+00:00",
+  "version": "0.2",
+  "pages": 13,
+  "author": "River Zhang",
+  "tex_sha256": "ecba1dddd746b6d26aebdf8041b1ef5948c5ad8e3ae32e7e8cd4ec8490f90479",
+  "pdf_sha256": "db0bda3dc3bdf2a024eb93e5e4a601223ba8e80b32996596eee0b38a62f503f2",
+  "archive": {
+    "file": "lower-gp-cartesian-v0.2-reproducibility.zip",
+    "sha256": "ecd0c03a8c4ad979811600c6f0bf4f2668739a572496a3f362dfd646ef597682",
+    "bytes": 651754
+  },
+  "payload_files": 118,
+  "crc_pass": true,
+  "all_hashes_match": true,
+  "extracted_manifest_stdout": "PASS: 116 exact payload files.",
+  "damaged_tex_rejected": true,
+  "visual_review": "PASS: ROOT inspected every current rendered page, including author/contact lines, figures, formulas and references.",
+  "fonts_embedded": 24,
+  "mathematical_replay": "Historical reviewed mathematical sources and execution receipts unchanged; no new large replay or Lean compilation."
+}

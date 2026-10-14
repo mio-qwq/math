@@ -1,0 +1,6 @@
+{
+  "original_checked_source_sha256": "0222dcbb40ebfb0a4086815707c56f8ae42065d08189341548aa1f2f72237494",
+  "published_source_sha256": "59cc4228984281780eac2c2afe1cd88839dd2aa725934abe5556b9a89548a4ba",
+  "change": "Trailing whitespace removed from blank lines; Python AST unchanged. Original execution receipt remains bound to the original source.",
+  "new_execution_claimed": false
+}

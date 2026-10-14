@@ -1,0 +1,86 @@
+{
+  "version": "0.2",
+  "prepared_client_date": "2026-10-15",
+  "recorded_utc": "2026-10-14T16:06:26.070624+00:00",
+  "parent_publication_commit": "54f406f064d9347eec3f74a943982b8d804c1140",
+  "parent_tex_sha256": "dc1b75ef1aa6d01dd4a766b65e33e4a13b96418ad8dbae44d8a4f14e8e82aed9",
+  "author": {
+    "name": "River Zhang",
+    "orcid": "0009-0004-2437-8566",
+    "email": "mioqwq@hotmail.com"
+  },
+  "affiliation_added": false,
+  "new_tex_sha256": "829f1ad6e9ccfea54a9bf0b48ac0952c628625c7376311e86daf484e2285e6b7",
+  "mathematical_fragments_identical": true,
+  "supplement_files_unchanged": [
+    {
+      "file": "supplement/check_structural.py",
+      "sha256": "cd092e18e582c7dd790c2ec55edc9d1a5a425b5eb8f1228ad99cc0ef07158ef5"
+    },
+    {
+      "file": "supplement/frozen/ClawFree11334.lean",
+      "sha256": "afad6d3313c93fd5681be0ba0e25d302c73d019448681cb4c6552f8a0e0765b2"
+    },
+    {
+      "file": "supplement/frozen/counterexample.json",
+      "sha256": "7d1cdd61f032185728ffac6a6b0b6a79c611e0a36341a78eb35610df55b95ccd"
+    },
+    {
+      "file": "supplement/frozen/HISTORY.md",
+      "sha256": "933174d6a36d9424fff4331024f62515e3234fd3485fbfd03decd4541f5a40c6"
+    },
+    {
+      "file": "supplement/frozen/INDEPENDENT_REVIEW.md",
+      "sha256": "cc46b05778bfbbf8a8c2408d5840354d0dc6a6eb2d2c7092aabb1f7c8301e6c4"
+    },
+    {
+      "file": "supplement/frozen/lean-audit.json",
+      "sha256": "c017e9c568d6c75ca0ceff19b898680a31debdb9ab282c552f9b046e0b01b03a"
+    },
+    {
+      "file": "supplement/frozen/lean-audit.log",
+      "sha256": "10cd16641c8589227025549a502674b0f044e2061266c7076e007e20c956e370"
+    },
+    {
+      "file": "supplement/frozen/PROOF.md",
+      "sha256": "9ff9ef34895a71fc0d2c3c66960fde9d30de4405c09815af21936d9e91f2ea04"
+    },
+    {
+      "file": "supplement/frozen/README.md",
+      "sha256": "1aa89165fc13c8efdf01c7e543ba1162a17e4219d881041e6cbb45dc8b264876"
+    },
+    {
+      "file": "supplement/frozen/verifier-author-run.json",
+      "sha256": "0c89517f49bb38ab44ee948aab8b85b0ff89174075ab33a9d01468d9d5eaed2c"
+    },
+    {
+      "file": "supplement/frozen/verify_counterexample.py",
+      "sha256": "e9e7cb20a1b6989905563193bd92c388231e6e3a049caa27f6db1b33fdb7f573"
+    },
+    {
+      "file": "supplement/lake-manifest.json",
+      "sha256": "1b85cf58f31f8666cdef2e82532e02a17a00ef58722db185d572c93b3981c7a7"
+    },
+    {
+      "file": "supplement/lakefile.lean",
+      "sha256": "74cb4107742058e0042a04fd1fd7230c745b6519ef3e358f73ca91dea93a3368"
+    },
+    {
+      "file": "supplement/lean-toolchain",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    }
+  ],
+  "new_lean_execution": false,
+  "new_large_enumeration": false,
+  "changes": [
+    "Named author, ORCID and correspondence",
+    "Version/date and PDF author",
+    "Accurate AI/responsibility disclosure",
+    "Historical replay provenance phrasing",
+    "Confirmed manuscript CC BY 4.0 notice and preprint label",
+    "Explicit PDF author/title metadata, with unchanged visible pages"
+  ],
+  "external_submission_or_registered_doi": false,
+  "manual_zenodo_upload": true,
+  "manuscript_license": "CC BY 4.0"
+}

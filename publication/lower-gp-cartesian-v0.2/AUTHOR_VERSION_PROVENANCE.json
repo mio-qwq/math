@@ -1,0 +1,109 @@
+{
+  "version": "0.2",
+  "prepared_client_date": "2026-10-15",
+  "recorded_utc": "2026-10-14T16:06:25.949051+00:00",
+  "parent_publication_commit": "54f406f064d9347eec3f74a943982b8d804c1140",
+  "parent_tex_sha256": "81104eac829996435ed5076a56745c4b5ef2494db33fd9321b76bebfdd97b815",
+  "author": {
+    "name": "River Zhang",
+    "orcid": "0009-0004-2437-8566",
+    "email": "mioqwq@hotmail.com"
+  },
+  "affiliation_added": false,
+  "new_tex_sha256": "ecba1dddd746b6d26aebdf8041b1ef5948c5ad8e3ae32e7e8cd4ec8490f90479",
+  "mathematical_fragments_identical": true,
+  "supplement_files_unchanged": [
+    {
+      "file": "supplement/fixed319/FAMILY_PROOF.md",
+      "sha256": "7a1128ec4186fffa041ac013fe1bdfef4e58e079700f834841b39ab47defb7ad"
+    },
+    {
+      "file": "supplement/fixed319/HISTORY.md",
+      "sha256": "f67ec6e94656daf2c5b9b5bcd7f172289bbdc0246fe39cc6bd6d5d90e463ddab"
+    },
+    {
+      "file": "supplement/fixed319/INDEPENDENT_REVIEW.md",
+      "sha256": "c32aa41569b294a111ec20f201e10b25bf03ac74cd34e6a6f2072a3163849239"
+    },
+    {
+      "file": "supplement/fixed319/lean-audit.json",
+      "sha256": "67217678b5058d53f6de36d21364ad19fd784a1205f698a59967ece448f9f5f3"
+    },
+    {
+      "file": "supplement/fixed319/lean-audit.log",
+      "sha256": "68d4c28da37b5fcf044e9f829504e9cedbec1cc1036d58b844203d1118a6dc35"
+    },
+    {
+      "file": "supplement/fixed319/LowerGPProduct319.lean",
+      "sha256": "d1608a26b68eface444fc2c2feb53ebe8b24e364021213f589bd51e3aa52ab3e"
+    },
+    {
+      "file": "supplement/fixed319/PROOF.md",
+      "sha256": "bfc815e52a7a918705b256fce12bf61a98a853fd49dcff5b2c4b9a47e865f658"
+    },
+    {
+      "file": "supplement/fixed319/verify.py",
+      "sha256": "d5231a56040db3ef4dcd86066cc36f480ea4d9de46f21743259d333e4275f285"
+    },
+    {
+      "file": "supplement/lake-manifest.json",
+      "sha256": "004f928a9bb2e301325841d5cf4cc1d1aabf066ba1a898632650952579a7eb5a"
+    },
+    {
+      "file": "supplement/lakefile.lean",
+      "sha256": "ede59f77373bf5e2c4f39b1f263936a25ba436fb214d96c277829964b819e0b8"
+    },
+    {
+      "file": "supplement/lean-toolchain",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "file": "supplement/universal/metric_faces.json",
+      "sha256": "01001dc53737560f49749784eaef85fe4d8c9297afde51093923a34ef185a382"
+    },
+    {
+      "file": "supplement/universal/metric_rays_verified.json",
+      "sha256": "0153b1d6ca7449b5c6f7a4af256b3bcf8c6513e48ac8b226554a1b384339a8ef"
+    },
+    {
+      "file": "supplement/universal/provenance.json",
+      "sha256": "3fd8504537a58e5df7eb2c6100f0068493b3b73bbe46837ce16c0cf368f8aaed"
+    },
+    {
+      "file": "supplement/universal/UNBOUNDED_GAP_PROOF.md",
+      "sha256": "0970e52c71f759c24c1281bce5b7a1c9f4095398d511f556cd709b5a19d3496e"
+    },
+    {
+      "file": "supplement/universal/UNIVERSAL_FIVE_PROOF.md",
+      "sha256": "9ecfeb62c4f52a2ef86ae161a0b1fb8c5f4ca16e96eb62a2b14a3af83122aac5"
+    },
+    {
+      "file": "supplement/universal/verify_arbitrary_four.py",
+      "sha256": "9ff179bc74f046a639247b4df16040258c9a62dfcbf7ce05fa404904dcd38997"
+    },
+    {
+      "file": "supplement/universal/verify_metric_rays.py",
+      "sha256": "59299a4e518d539dc9a527832eddfe8842f62c171cce1df0b46bf1634db9321c"
+    },
+    {
+      "file": "supplement/universal/verify_unbounded_gap.py",
+      "sha256": "c2ee7cb2872d2f7e03e3590661e3ab4afdcc6f35ad0068a5659a4162653b9736"
+    },
+    {
+      "file": "supplement/universal/verify_universal_five.py",
+      "sha256": "a3fbbc53d73ed2144c489c6ec89048c0dac2d76693577a52fb7a7ea8484b63a3"
+    }
+  ],
+  "new_lean_execution": false,
+  "new_large_enumeration": false,
+  "changes": [
+    "Named author, ORCID and correspondence",
+    "Version/date and PDF author",
+    "Accurate AI/responsibility disclosure",
+    "Historical replay provenance phrasing",
+    "Confirmed manuscript CC BY 4.0 notice and preprint label"
+  ],
+  "external_submission_or_registered_doi": false,
+  "manual_zenodo_upload": true,
+  "manuscript_license": "CC BY 4.0"
+}

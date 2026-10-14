@@ -1,38 +1,25 @@
-# 论文与复现材料
+# Papers and reproducibility materials
 
-本页区分已公开预印本、通过技术验收的 GitHub 冻结稿，以及尚未集成的分支初稿。
-数学证明、Lean 覆盖、独立 AI 复核、作者责任审阅和期刊同行评审分别说明，互不替代。
-下表按 2026-10-13 实际文件与精确分支版本核对；不认证历史首创。
+This index distinguishes published DOI records, prepared preprint files, and branch manuscripts that still need publication preparation. Mathematical correctness, Lean coverage, independent AI review and journal peer review are separate attributes.
 
-## 主分支论文
+## Manuscripts
 
-| 论文 | 核心数学结果 | 稿件与复现材料 | 状态及范围 |
+| Paper | Mathematical contribution | Current files | Status |
 | --- | --- | --- | --- |
-| **006：A counterexample to packing-domination inheritance in strong products** | 反驳强积打包支配继承猜想；显式辅助图与完整反例证明 | [15 页 PDF](../006-strong-product-packing-counterexample/paper/paper.pdf) · [LaTeX](../006-strong-product-packing-counterexample/paper/main.tex) · [v1.3 复现包](006-v1.3/README.md) · [版本 DOI](https://doi.org/10.5281/zenodo.23293088) | **已公开 Zenodo 预印本**。River Zhang、Yongxian Zhang；原作者记录及 DOI 保持原样。尚未经过期刊同行评审。 |
-| **A sharp lower general-position bound for Cartesian products** | 319 点反例、任意大差距族与尖锐修正界 `gp⁻(G □ H) ≥ min{5,gp⁻(G),gp⁻(H)}` | [13 页 PDF](lower-gp-cartesian-v0.1/snapshot/paper/main.pdf) · [LaTeX](lower-gp-cartesian-v0.1/snapshot/paper/main.tex) · [完整包、查重与验收](lower-gp-cartesian-v0.1/README.md) | **技术验收完成，GitHub 冻结稿 v0.1**。固定反例有完整 Lean、15 项公理审计；全称界及无限族为书面／计算机辅助证明。作者与单独预印本许可元数据待确认；没有新 DOI 或投稿。 |
-| **A structural obstruction to (1,1,3,3,4)-packing colorings** | 36 点无爪三正则反例与全部奇数 `k≥3` 的 `12k` 点反例族；结构证明无需穷举 | [7 页 PDF](clawfree-packing-v0.1/snapshot/paper/main.pdf) · [LaTeX](clawfree-packing-v0.1/snapshot/paper/main.tex) · [完整包、查重与验收](clawfree-packing-v0.1/README.md) | **技术验收完成，GitHub 冻结稿 v0.1**。固定 36 点实例有完整 Lean、18 项公理审计；无限族及无菱形引理为书面证明。作者与单独预印本许可元数据待确认；没有新 DOI 或投稿。 |
+| **A counterexample to packing-domination inheritance in strong products** | Complete counterexample to the original strong-product conjecture | [Version 1.3](006-v1.3/README.md) · [Published DOI](https://doi.org/10.5281/zenodo.23293088) | Existing published preprint by River Zhang and Yongxian Zhang; authors, DOI and old archives unchanged. |
+| **A sharp lower general-position bound for Cartesian products** | Fixed counterexample, arbitrary-gap family and sharp universal corrected bound | [Version 0.2: 13-page manuscript, source and supplement](lower-gp-cartesian-v0.2/README.md) · [Preserved version 0.1](lower-gp-cartesian-v0.1/README.md) | River Zhang; manuscript/LaTeX CC BY 4.0. Files ready for manual Zenodo upload; no new DOI yet. Fixed counterexample has Lean; universal bound and family are written/computer-assisted. |
+| **A structural obstruction to (1,1,3,3,4)-packing colorings** | A 36-vertex counterexample and all-odd-parameter structural family | [Version 0.2: 8-page manuscript, source and supplement](clawfree-packing-v0.2/README.md) · [Preserved version 0.1](clawfree-packing-v0.1/README.md) | River Zhang; manuscript/LaTeX CC BY 4.0. Files ready for manual Zenodo upload; no new DOI yet. Lean covers the fixed instance, not the full family. |
 
-两份新冻结稿的 TeX、PDF、历史审查与复现包保留准备阶段原字节。
-PDF 中的 private-draft 标签及 2026-10-12 日期描述原稿形成时的状态，
-当前 GitHub 公开分发的状态由包外入口与同步验证记录说明。
-准备日期没有回填为首次公开日期，原 SHA256 及真实编译时间没有改写。
-本次同步重验全部复制字节、ZIP CRC 和内部 manifest；没有把未变源码的旧编译冒充新编译。
+The version-0.2 author is **River Zhang**, [ORCID 0009-0004-2437-8566](https://orcid.org/0009-0004-2437-8566), correspondence [mioqwq@hotmail.com](mailto:mioqwq@hotmail.com). Proof software retains its original licenses. Optional affiliation, funding and competing-interest declarations have not been invented.
 
-## 尚未集成的分支初稿
+The author/license revisions preserve the accepted mathematics and supplemental source bytes. Current PDFs were exported twice, all 21 pages inspected, references and embedded fonts checked, and complete packages extracted and hash-verified. Old version-0.1 reports and hashes are preserved as historical evidence; they are not relabeled as new Lean runs or new independent reviews.
 
-STRUCT2 分支已提供七页英文[theta 与 bicyclic 图论文初稿](https://github.com/mio-qwq/math/tree/c3fe80a57bbbfa2adaabb14e90871ee1e90559a7/workstreams/STRUCT2-20261012/theta/paper)。
-该材料报告 theta 图精确极值及 bicyclic 图上界，附实际 LaTeX/PDF 构建证据；
-其冻结证明有分别记录的 AI 复核，但这份整合稿尚未得到 ROOT 最终验收及本轮新的独立全文复核。
-它不是主分支已验收论文，也不与以上三篇重复计数。
+## Scientific review and subsequent manuscripts
 
-## 其他成果与在研边界
+The [complete publication assessment and all-branch snapshot](PUBLICATION_STATUS_20261015.md) explains the decisions for the 14 remote branches. The [manual Zenodo guide](ZENODO_UPLOAD_GUIDE.md) provides the separate-record DOI workflow and the exact manuscript metadata.
 
-已验收但尚未形成完整论文的置换有向图反例、15 阶 monophonic 反例、
-7 点打包着色反例及其他证明，见[数学成果与证据目录](../RESEARCH_RESULTS.md)。
-Kautz 长度四、TF 结构／随机计数及密码结构的后续分支研究仍有未解决问题和未验收增量；
-已完成的核心证明不意味着相应整个研究方向已经结束。
+The frozen [theta/bicyclic seven-page manuscript](https://github.com/mio-qwq/math/tree/fcd8dbf1084bcca44d67fc0e6ba6d46d301bb9e5/workstreams/STRUCT2-20261012/theta/paper) has now received a fresh independent complete mathematical/manuscript review. It is the next publication candidate, not a completed author-identified upload package in this batch. Its simple-graph domain and written proof scope remain explicit; no full Lean polytope theorem or historical-firstness certification is claimed.
 
-AI 系统实质参与研究、证明、代码与 Lean、文献检查和写作，论文正文如实披露。
-AI 不列为作者，独立 AI 复核不称为外部人类同行评审。
-新稿署名、贡献／责任声明及独立预印本许可元数据须逐篇确认，不能自动沿用 006。
-GitHub 同步不表示 Zenodo、arXiv 或期刊投稿授权，也不表示已取得新 DOI、期刊录用或历史首次证明。
+Permutation-digraph counterexamples, nontrivially unstable graph enumeration and order-15 monophonic exclusion are subsequent paper candidates. Kautz-4, actual-message SHA feasibility, TF sparse/projection questions and ILP1 retain separate research and acceptance boundaries. See the [scientific catalog](../RESEARCH_RESULTS.md) for the existing formal and written results.
+
+AI systems contributed substantially to research, proof derivation, code, Lean, literature checks, independent AI review and writing; the manuscripts disclose this and do not list AI as an author. Independent AI review is not external human peer review. No new journal submission, journal acceptance or registered DOI is asserted by this GitHub update.

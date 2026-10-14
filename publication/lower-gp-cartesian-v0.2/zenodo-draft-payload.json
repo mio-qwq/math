@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "title": "A sharp lower general-position bound for Cartesian products",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "creators": [
+      {
+        "name": "Zhang, River",
+        "orcid": "0009-0004-2437-8566"
+      }
+    ],
+    "description": "The lower general-position number of a finite graph is the smallest cardinality of an inclusion-maximal vertex set containing no three vertices on a geodesic. We refute the conjecture that the lower general-position number of a Cartesian product is at least the smaller of the two factor parameters. For every integer r ≥ 6, we construct connected diameter-two factors of orders 2r-1 and 4r+5 whose smaller factor parameter is r, while their product has lower general-position number exactly five. Thus the conjectured bound can fail by an arbitrarily large additive amount and an arbitrarily small ratio. We prove the sharp replacement gp⁻(G □ H) ≥ min{5,gp⁻(G),gp⁻(H)} for all nonempty finite simple graphs. The lower bound has a computer-assisted proof reducing arbitrary distances to equality patterns in the five-point pseudometric cone, followed by an exact finite obstruction check. The construction and unbounded-gap argument are elementary. An accompanying Lean proof verifies the fixed 11-by-29 counterexample at the level of actual shortest paths; it does not formalize the universal bound.",
+    "keywords": [
+      "lower general position",
+      "Cartesian product",
+      "graph distance",
+      "counterexample",
+      "metric cone",
+      "computer-assisted proof",
+      "Lean formalization"
+    ],
+    "version": "0.2",
+    "access_right": "closed",
+    "prereserve_doi": true,
+    "notes": "Draft-only DOI reservation metadata. Correspondence: mioqwq@hotmail.com. Fixed 319-vertex original-conjecture counterexample only; universal theorem is written/computer-assisted. Independent AI mathematical and manuscript review; no external human peer review."
+  }
+}

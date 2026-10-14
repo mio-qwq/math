@@ -1,0 +1,394 @@
+{
+  "utc": "2026-10-14T16:02:37.221286+00:00",
+  "scope": "finite checks only; universal proof independently reviewed in writing",
+  "definition_checks": [
+    {
+      "triple": [
+        1,
+        2,
+        2
+      ],
+      "vertices": 4,
+      "facets": 12,
+      "admissible": 17,
+      "tree_increment_candidates": 27
+    },
+    {
+      "triple": [
+        1,
+        2,
+        3
+      ],
+      "vertices": 5,
+      "facets": 24,
+      "admissible": 45,
+      "tree_increment_candidates": 81
+    },
+    {
+      "triple": [
+        1,
+        3,
+        3
+      ],
+      "vertices": 6,
+      "facets": 18,
+      "admissible": 121,
+      "tree_increment_candidates": 243
+    },
+    {
+      "triple": [
+        1,
+        2,
+        5
+      ],
+      "vertices": 7,
+      "facets": 100,
+      "admissible": 333,
+      "tree_increment_candidates": 729
+    },
+    {
+      "triple": [
+        1,
+        3,
+        4
+      ],
+      "vertices": 7,
+      "facets": 108,
+      "admissible": 325,
+      "tree_increment_candidates": 729
+    },
+    {
+      "triple": [
+        1,
+        3,
+        5
+      ],
+      "vertices": 8,
+      "facets": 60,
+      "admissible": 897,
+      "tree_increment_candidates": 2187
+    },
+    {
+      "triple": [
+        1,
+        2,
+        6
+      ],
+      "vertices": 8,
+      "facets": 280,
+      "admissible": 927,
+      "tree_increment_candidates": 2187
+    },
+    {
+      "triple": [
+        2,
+        2,
+        2
+      ],
+      "vertices": 5,
+      "facets": 10,
+      "admissible": 45,
+      "tree_increment_candidates": 81
+    },
+    {
+      "triple": [
+        2,
+        2,
+        3
+      ],
+      "vertices": 6,
+      "facets": 54,
+      "admissible": 117,
+      "tree_increment_candidates": 243
+    },
+    {
+      "triple": [
+        2,
+        2,
+        4
+      ],
+      "vertices": 7,
+      "facets": 32,
+      "admissible": 319,
+      "tree_increment_candidates": 729
+    },
+    {
+      "triple": [
+        2,
+        2,
+        5
+      ],
+      "vertices": 8,
+      "facets": 240,
+      "admissible": 879,
+      "tree_increment_candidates": 2187
+    },
+    {
+      "triple": [
+        2,
+        3,
+        3
+      ],
+      "vertices": 7,
+      "facets": 126,
+      "admissible": 309,
+      "tree_increment_candidates": 729
+    },
+    {
+      "triple": [
+        2,
+        3,
+        4
+      ],
+      "vertices": 8,
+      "facets": 240,
+      "admissible": 843,
+      "tree_increment_candidates": 2187
+    },
+    {
+      "triple": [
+        3,
+        3,
+        3
+      ],
+      "vertices": 8,
+      "facets": 56,
+      "admissible": 831,
+      "tree_increment_candidates": 2187
+    }
+  ],
+  "counters": {
+    "legal_triples": 132,
+    "compression_orientations": 165,
+    "strict_compressions": 109,
+    "short_formulas": 127,
+    "same_parity_exclusions": 39,
+    "balancing_transfers": 42,
+    "bicyclic_block_data": 203,
+    "zero_row_vandermonde": 145,
+    "ratio_identities": 12
+  },
+  "unique_maxima": [
+    {
+      "n": 4,
+      "triple": [
+        1,
+        2,
+        2
+      ],
+      "N": 12
+    },
+    {
+      "n": 5,
+      "triple": [
+        1,
+        2,
+        3
+      ],
+      "N": 24
+    },
+    {
+      "n": 6,
+      "triple": [
+        1,
+        2,
+        4
+      ],
+      "N": 60
+    },
+    {
+      "n": 7,
+      "triple": [
+        2,
+        3,
+        3
+      ],
+      "N": 126
+    },
+    {
+      "n": 8,
+      "triple": [
+        1,
+        4,
+        4
+      ],
+      "N": 324
+    },
+    {
+      "n": 9,
+      "triple": [
+        2,
+        3,
+        5
+      ],
+      "N": 600
+    },
+    {
+      "n": 10,
+      "triple": [
+        1,
+        4,
+        6
+      ],
+      "N": 1560
+    },
+    {
+      "n": 11,
+      "triple": [
+        2,
+        5,
+        5
+      ],
+      "N": 3000
+    },
+    {
+      "n": 12,
+      "triple": [
+        1,
+        6,
+        6
+      ],
+      "N": 7600
+    },
+    {
+      "n": 13,
+      "triple": [
+        2,
+        5,
+        7
+      ],
+      "N": 14000
+    },
+    {
+      "n": 14,
+      "triple": [
+        1,
+        6,
+        8
+      ],
+      "N": 35000
+    },
+    {
+      "n": 15,
+      "triple": [
+        2,
+        7,
+        7
+      ],
+      "N": 66150
+    },
+    {
+      "n": 16,
+      "triple": [
+        1,
+        8,
+        8
+      ],
+      "N": 161700
+    }
+  ],
+  "maximizing_block_data": [
+    {
+      "n": 5,
+      "cycle_bridge_data": [
+        3,
+        3,
+        0
+      ]
+    },
+    {
+      "n": 6,
+      "cycle_bridge_data": [
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "n": 7,
+      "cycle_bridge_data": [
+        3,
+        5,
+        0
+      ]
+    },
+    {
+      "n": 8,
+      "cycle_bridge_data": [
+        3,
+        5,
+        1
+      ]
+    },
+    {
+      "n": 9,
+      "cycle_bridge_data": [
+        5,
+        5,
+        0
+      ]
+    },
+    {
+      "n": 10,
+      "cycle_bridge_data": [
+        5,
+        5,
+        1
+      ]
+    },
+    {
+      "n": 11,
+      "cycle_bridge_data": [
+        5,
+        7,
+        0
+      ]
+    },
+    {
+      "n": 12,
+      "cycle_bridge_data": [
+        5,
+        7,
+        1
+      ]
+    },
+    {
+      "n": 13,
+      "cycle_bridge_data": [
+        7,
+        7,
+        0
+      ]
+    },
+    {
+      "n": 14,
+      "cycle_bridge_data": [
+        7,
+        7,
+        1
+      ]
+    },
+    {
+      "n": 15,
+      "cycle_bridge_data": [
+        7,
+        9,
+        0
+      ]
+    },
+    {
+      "n": 16,
+      "cycle_bridge_data": [
+        7,
+        9,
+        1
+      ]
+    }
+  ],
+  "damage_controls": {
+    "duplicate_unit_path_rejected": true,
+    "disconnected_admissible_labels_rejected": true
+  },
+  "script_sha256": "0222dcbb40ebfb0a4086815707c56f8ae42065d08189341548aa1f2f72237494",
+  "status": "PASS"
+}
