@@ -1,0 +1,66 @@
+{
+  "version": "0.3",
+  "scope": "Public wrapper files, excluding manifest and SHA256SUMS.",
+  "files": [
+    {
+      "path": "AUTHOR_VERSION_PROVENANCE.json",
+      "bytes": 3158,
+      "sha256": "38bf83c49781f791274ad199e0c5e67141c5496deb8cb734f79dd0c537c39853"
+    },
+    {
+      "path": "clawfree-packing-v0.3-latex-source.zip",
+      "bytes": 11373,
+      "sha256": "7ce8abd657f1afe3c0acd0b726506bc7fba0c9fb175f5ec49e3591793b0d7eba"
+    },
+    {
+      "path": "clawfree-packing-v0.3-reproducibility.zip",
+      "bytes": 945883,
+      "sha256": "6f19f4da846c5e870588febf23d216152a3e7694a4ba6ad72ec7999a35fd38b0"
+    },
+    {
+      "path": "clawfree-packing-v0.3.pdf",
+      "bytes": 100181,
+      "sha256": "c16a7d327776ca57ddfcd10b7eaf9e9f7b2e8aad22c340ef58691bf331b1c55f"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 676,
+      "sha256": "f2e6048f9cff9e940636ca88b2db90a371ff8923bd6e643937533e7a995da26a"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 676,
+      "sha256": "f2e6048f9cff9e940636ca88b2db90a371ff8923bd6e643937533e7a995da26a"
+    },
+    {
+      "path": "metadata-draft.json",
+      "bytes": 3919,
+      "sha256": "ddd03f1fad89606478fc7daef807407545b25e1891d3d932bb7f9c79a0d2b759"
+    },
+    {
+      "path": "PACKAGE_VERIFICATION.json",
+      "bytes": 1130,
+      "sha256": "bca5847dfe7bf3a7bb9a842195f69df1c027fe89be51bd5cc41aea6e412f66fd"
+    },
+    {
+      "path": "PUBLICATION_READINESS.md",
+      "bytes": 1878,
+      "sha256": "556aa34687d487a5146e86e1a4b3c67a463f588cac8ad374306180df06f0ca87"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1542,
+      "sha256": "d7f1aa3124c474b484f98d103b59e12a79e61e36341990057e614b47637dcbe5"
+    },
+    {
+      "path": "zenodo-draft-payload.json",
+      "bytes": 1735,
+      "sha256": "199a641a111b9cf9c5d663f0a742d2b9f2611f7a4a37453fdbf943b1b1316470"
+    },
+    {
+      "path": "zenodo-upload-metadata.json",
+      "bytes": 1857,
+      "sha256": "0777cc5d77e8e6448077c78eebfe3dd462119f600058a6bd4496a04999fcf6b5"
+    }
+  ]
+}

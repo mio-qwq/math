@@ -1,0 +1,82 @@
+{
+  "status": "AUTHOR-IDENTIFIED, LICENSE-CONFIRMED PREPRINT FILES; user will upload to Zenodo",
+  "title": "A sharp lower general-position bound for Cartesian products",
+  "abstract": "The lower general-position number of a finite graph is the smallest cardinality of an inclusion-maximal vertex set containing no three vertices on a geodesic. We refute the conjecture that the lower general-position number of a Cartesian product is at least the smaller of the two factor parameters. For every integer r ≥ 6, we construct connected diameter-two factors of orders 2r-1 and 4r+5 whose smaller factor parameter is r, while their product has lower general-position number exactly five. Thus the conjectured bound can fail by an arbitrarily large additive amount and an arbitrarily small ratio. We prove the sharp replacement gp⁻(G □ H) ≥ min{5,gp⁻(G),gp⁻(H)} for all nonempty finite simple graphs. The lower bound has a computer-assisted proof reducing arbitrary distances to equality patterns in the five-point pseudometric cone, followed by an exact finite obstruction check. The construction and unbounded-gap argument are elementary. An accompanying Lean proof verifies the fixed 11-by-29 counterexample at the level of actual shortest paths; it does not formalize the universal bound.",
+  "version": "0.3",
+  "resource_type": "publication / preprint",
+  "language": "eng",
+  "keywords": [
+    "lower general position",
+    "Cartesian product",
+    "graph distance",
+    "counterexample",
+    "metric cone",
+    "computer-assisted proof",
+    "Lean formalization"
+  ],
+  "subject_classification": {
+    "scheme": "MSC 2020",
+    "codes": [
+      "05C12",
+      "05C69",
+      "05C76"
+    ]
+  },
+  "creators": [
+    {
+      "name": "River Zhang",
+      "orcid": "0009-0004-2437-8566"
+    }
+  ],
+  "author_order": [
+    "River Zhang"
+  ],
+  "affiliations": null,
+  "correspondence": "mioqwq@hotmail.com",
+  "contributions": null,
+  "funding": null,
+  "competing_interests": null,
+  "license": "CC BY 4.0 for manuscript and LaTeX; existing software licenses unchanged",
+  "publication_date": null,
+  "doi": null,
+  "deposit_id": null,
+  "source_repository": "https://github.com/mio-qwq/math",
+  "source_commit": "61488e05c9fe41984f483853f99e79f5715dc893",
+  "related_source_archive": "https://github.com/mio-qwq/math/releases/tag/accepted-written-results-2026-10-12",
+  "references": [
+    {
+      "title": "Lower general position in Cartesian products",
+      "doi": "10.22049/cco.2024.29171.1879",
+      "arxiv": "2404.19451v1",
+      "problem": "Published Conjecture 3, page 117; preprint Conjecture 2.10"
+    },
+    {
+      "title": "Lower general position sets in graphs",
+      "arxiv": "2306.09965"
+    },
+    {
+      "title": "Lower (total) mutual-visibility number in graphs",
+      "doi": "10.1016/j.amc.2023.128411",
+      "arxiv": "2307.02951v2"
+    },
+    {
+      "title": "Excursions in Polyhedral Computation using lrs",
+      "url": "https://cgm.cs.mcgill.ca/~avis/epc/epc.html"
+    }
+  ],
+  "formalization_scope": "Fixed 319-vertex original-conjecture counterexample only; universal theorem is written/computer-assisted.",
+  "review_scope": "Independent AI mathematical and manuscript review; no external human peer review.",
+  "ai_disclosure": "AI tools, including OpenAI Codex, were used extensively in developing the mathematical constructions and proofs, implementing verification code and Lean formalizations, searching the literature, and drafting the manuscript.",
+  "manuscript_sha256": "e5c05094803f1e0063dc07b311a7fe2ba7da92aa23253f7012af110c7ad9a3ae",
+  "pdf_sha256": "2cd521ab77e6a7eba944a0802ca569be435830561244a781f8e05d1093a8049e",
+  "orcid": "0009-0004-2437-8566",
+  "preparation_date": "2026-10-15",
+  "author_identity_source": {
+    "commit": "bf732c32f1b8cef32ebf69cac6fb232a8a5323a3",
+    "file": "006-strong-product-packing-counterexample/paper/main.tex"
+  },
+  "pending": "Human final reading and manual Zenodo upload; optional funding/competing-interest/affiliation declarations not supplied.",
+  "license_identifier": "cc-by-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "publication_workflow": "Manual Zenodo upload by author; no remote deposit or DOI reservation performed by ROOT"
+}

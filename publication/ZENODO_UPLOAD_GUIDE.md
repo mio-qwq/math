@@ -6,10 +6,10 @@ Prepared 15 October 2026. The two manuscripts are separate publications, not new
 
 | Paper | Manuscript | Source | Metadata |
 | --- | --- | --- | --- |
-| A sharp lower general-position bound for Cartesian products | [13-page PDF](lower-gp-cartesian-v0.2/lower-gp-cartesian-v0.2.pdf) | [LaTeX ZIP](lower-gp-cartesian-v0.2/lower-gp-cartesian-v0.2-latex-source.zip) | [Title, abstract and keywords](lower-gp-cartesian-v0.2/zenodo-upload-metadata.json) |
-| A structural obstruction to (1,1,3,3,4)-packing colorings | [8-page PDF](clawfree-packing-v0.2/clawfree-packing-v0.2.pdf) | [LaTeX ZIP](clawfree-packing-v0.2/clawfree-packing-v0.2-latex-source.zip) | [Title, abstract and keywords](clawfree-packing-v0.2/zenodo-upload-metadata.json) |
+| A sharp lower general-position bound for Cartesian products | [13-page PDF](lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3.pdf) | [LaTeX ZIP](lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3-latex-source.zip) | [Title, abstract and keywords](lower-gp-cartesian-v0.3/zenodo-upload-metadata.json) |
+| A structural obstruction to (1,1,3,3,4)-packing colorings | [8-page PDF](clawfree-packing-v0.3/clawfree-packing-v0.3.pdf) | [LaTeX ZIP](clawfree-packing-v0.3/clawfree-packing-v0.3-latex-source.zip) | [Title, abstract and keywords](clawfree-packing-v0.3/zenodo-upload-metadata.json) |
 
-For each record use **River Zhang** (family name Zhang, given name River), ORCID **0009-0004-2437-8566**. Correspondence is **mioqwq@hotmail.com**. No additional author or affiliation has been assumed. Resource type: **Publication / Preprint**. Version: **0.2**. Language: **English**. Manuscript license: **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+For each record use **River Zhang** (family name Zhang, given name River), ORCID **0009-0004-2437-8566**. Correspondence is **mioqwq@hotmail.com**. No additional author or affiliation has been assumed. Resource type: **Publication / Preprint**. Version: **0.3**. Language: **English**. Manuscript license: **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 ## Separate DOI workflow
 

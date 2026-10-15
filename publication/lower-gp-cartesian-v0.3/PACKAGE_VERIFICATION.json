@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "client_date": "2026-10-15",
+  "checked_utc": "2026-10-15T01:46:40.205775+00:00",
+  "version": "0.3",
+  "pages": 13,
+  "author": "River Zhang",
+  "tex_sha256": "e5c05094803f1e0063dc07b311a7fe2ba7da92aa23253f7012af110c7ad9a3ae",
+  "pdf_sha256": "2cd521ab77e6a7eba944a0802ca569be435830561244a781f8e05d1093a8049e",
+  "archive": {
+    "file": "lower-gp-cartesian-v0.3-reproducibility.zip",
+    "sha256": "092497d2285f6efb13ae943bc3a3203f61aa13d464e757775b98c5f43d1b2f42",
+    "bytes": 811197
+  },
+  "latex_source_archive": {
+    "file": "lower-gp-cartesian-v0.3-latex-source.zip",
+    "sha256": "f1a8a934ac38caf4ca40c71e42cd93a9be25b8a06c699e288b28d9586c6e8fa4"
+  },
+  "payload_files": 127,
+  "crc_pass": true,
+  "all_hashes_match": true,
+  "extracted_manifest_stdout": "PASS: 125 exact payload files.",
+  "damaged_tex_rejected": true,
+  "visual_review": "PASS: all current rendered pages visually inspected; no clipping, overlap or missing symbols observed.",
+  "fonts_embedded": 24,
+  "mathematical_sources_identical_to_parent": true,
+  "new_lean_or_large_enumeration": false,
+  "new_independent_review": false
+}

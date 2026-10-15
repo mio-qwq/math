@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "A structural obstruction to (1,1,3,3,4)-packing colorings",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "creators": [
+      {
+        "name": "Zhang, River",
+        "orcid": "0009-0004-2437-8566"
+      }
+    ],
+    "description": "Mortada, El Zein and Al Hajjar asked whether every connected claw-free subcubic graph, apart from their specified exception, admits a (1,1,3,3,4)-packing coloring. We give a negative answer. For every odd integer k >= 3, the triangle expansion of a ring of k diamonds is a connected cubic graph on 12k vertices that admits no such coloring. The proof selects an arbitrary existing high-colored vertex in each triangle. The selected labels give a proper three-coloring of the core, and the radius-four class forces an external private neighbor at each of its core vertices. This requirement excludes that class from every diamond tip, leaving an impossible two-coloring of an odd cycle. The proof is structural and requires no exhaustive search. A 36-vertex member is also certified in Lean using actual graph distances; that formalization does not cover the entire infinite family.",
+    "keywords": [
+      "packing coloring",
+      "claw-free graph",
+      "cubic graph",
+      "triangle expansion",
+      "counterexample",
+      "formal verification"
+    ],
+    "version": "0.3",
+    "access_right": "closed",
+    "prereserve_doi": true,
+    "notes": "Draft-only DOI reservation metadata. Correspondence: mioqwq@hotmail.com. Fixed k=3, 36-vertex original-problem counterexample; all-odd-k family and diamond-freeness have written proofs only. Independent AI mathematical and whole-manuscript review; no external human peer review."
+  }
+}

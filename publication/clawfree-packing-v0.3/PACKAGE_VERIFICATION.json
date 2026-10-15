@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "client_date": "2026-10-15",
+  "checked_utc": "2026-10-15T01:46:41.478471+00:00",
+  "version": "0.3",
+  "pages": 8,
+  "author": "River Zhang",
+  "tex_sha256": "78b102e0951b43cc3415b66bb421f92973d5aeddbffdfdd2b04a3b6cc251719a",
+  "pdf_sha256": "c16a7d327776ca57ddfcd10b7eaf9e9f7b2e8aad22c340ef58691bf331b1c55f",
+  "archive": {
+    "file": "clawfree-packing-v0.3-reproducibility.zip",
+    "sha256": "6f19f4da846c5e870588febf23d216152a3e7694a4ba6ad72ec7999a35fd38b0",
+    "bytes": 945883
+  },
+  "latex_source_archive": {
+    "file": "clawfree-packing-v0.3-latex-source.zip",
+    "sha256": "7ce8abd657f1afe3c0acd0b726506bc7fba0c9fb175f5ec49e3591793b0d7eba"
+  },
+  "payload_files": 103,
+  "crc_pass": true,
+  "all_hashes_match": true,
+  "extracted_manifest_stdout": "PASS: 101 exact payload files.",
+  "damaged_tex_rejected": true,
+  "visual_review": "PASS: all current rendered pages visually inspected; no clipping, overlap or missing symbols observed.",
+  "fonts_embedded": 24,
+  "mathematical_sources_identical_to_parent": true,
+  "new_lean_or_large_enumeration": false,
+  "new_independent_review": false
+}
