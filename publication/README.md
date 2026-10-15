@@ -16,6 +16,8 @@ Version 0.3 provides a concise AI use disclosure. All other manuscript text, exc
 
 ## Scientific review and subsequent manuscripts
 
+The [15 October literature and originality recheck](literature-recheck-20261015/REVIEW.md) compares both frozen version-0.3 manuscripts with original statements and related primary sources. It found no verified same-scope earlier answer in the documented search; historical priority remains unconfirmed. The report includes exact file hashes and access limitations.
+
 The [complete publication assessment and all-branch snapshot](PUBLICATION_STATUS_20261015.md) explains the decisions for the 14 remote branches. The [manual Zenodo guide](ZENODO_UPLOAD_GUIDE.md) provides the separate-record DOI workflow and the exact manuscript metadata.
 
 The frozen [theta/bicyclic seven-page manuscript](https://github.com/mio-qwq/math/tree/fcd8dbf1084bcca44d67fc0e6ba6d46d301bb9e5/workstreams/STRUCT2-20261012/theta/paper) has now received a fresh independent complete mathematical/manuscript review. It is the next publication candidate, not a completed author-identified upload package in this batch. Its simple-graph domain and written proof scope remain explicit; no full Lean polytope theorem or historical-firstness certification is claimed.

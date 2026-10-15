@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-10-15",
+  "reviewed_manuscript_commit": "35dacdc7cdc767c0591c60b79c5bae51e8b42b01",
+  "assessment": "No same-scope earlier public answer identified and verified in the documented search; historical priority remains unconfirmed.",
+  "residual_originality_risk": "moderate, qualitative and unresolved",
+  "review_kind": "Bounded AI-assisted literature and exact-scope comparison; not external human peer review or commercial text-similarity testing.",
+  "manuscripts": [
+    {
+      "title": "A sharp lower general-position bound for Cartesian products",
+      "version": "0.3",
+      "tex_sha256": "e5c05094803f1e0063dc07b311a7fe2ba7da92aa23253f7012af110c7ad9a3ae",
+      "files": [
+        {
+          "path": "publication/lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3.pdf",
+          "bytes": 127699,
+          "sha256": "2cd521ab77e6a7eba944a0802ca569be435830561244a781f8e05d1093a8049e",
+          "url": "https://github.com/mio-qwq/math/blob/35dacdc7cdc767c0591c60b79c5bae51e8b42b01/publication/lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3.pdf"
+        },
+        {
+          "path": "publication/lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3-latex-source.zip",
+          "bytes": 16879,
+          "sha256": "f1a8a934ac38caf4ca40c71e42cd93a9be25b8a06c699e288b28d9586c6e8fa4",
+          "url": "https://github.com/mio-qwq/math/blob/35dacdc7cdc767c0591c60b79c5bae51e8b42b01/publication/lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3-latex-source.zip"
+        },
+        {
+          "path": "publication/lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3-reproducibility.zip",
+          "bytes": 811197,
+          "sha256": "092497d2285f6efb13ae943bc3a3203f61aa13d464e757775b98c5f43d1b2f42",
+          "url": "https://github.com/mio-qwq/math/blob/35dacdc7cdc767c0591c60b79c5bae51e8b42b01/publication/lower-gp-cartesian-v0.3/lower-gp-cartesian-v0.3-reproducibility.zip"
+        }
+      ],
+      "formalization_scope": "Fixed 319-vertex original-conjecture counterexample only; universal theorem is written/computer-assisted."
+    },
+    {
+      "title": "A structural obstruction to (1,1,3,3,4)-packing colorings",
+      "version": "0.3",
+      "tex_sha256": "78b102e0951b43cc3415b66bb421f92973d5aeddbffdfdd2b04a3b6cc251719a",
+      "files": [
+        {
+          "path": "publication/clawfree-packing-v0.3/clawfree-packing-v0.3.pdf",
+          "bytes": 100181,
+          "sha256": "c16a7d327776ca57ddfcd10b7eaf9e9f7b2e8aad22c340ef58691bf331b1c55f",
+          "url": "https://github.com/mio-qwq/math/blob/35dacdc7cdc767c0591c60b79c5bae51e8b42b01/publication/clawfree-packing-v0.3/clawfree-packing-v0.3.pdf"
+        },
+        {
+          "path": "publication/clawfree-packing-v0.3/clawfree-packing-v0.3-latex-source.zip",
+          "bytes": 11373,
+          "sha256": "7ce8abd657f1afe3c0acd0b726506bc7fba0c9fb175f5ec49e3591793b0d7eba",
+          "url": "https://github.com/mio-qwq/math/blob/35dacdc7cdc767c0591c60b79c5bae51e8b42b01/publication/clawfree-packing-v0.3/clawfree-packing-v0.3-latex-source.zip"
+        },
+        {
+          "path": "publication/clawfree-packing-v0.3/clawfree-packing-v0.3-reproducibility.zip",
+          "bytes": 945883,
+          "sha256": "6f19f4da846c5e870588febf23d216152a3e7694a4ba6ad72ec7999a35fd38b0",
+          "url": "https://github.com/mio-qwq/math/blob/35dacdc7cdc767c0591c60b79c5bae51e8b42b01/publication/clawfree-packing-v0.3/clawfree-packing-v0.3-reproducibility.zip"
+        }
+      ],
+      "formalization_scope": "Fixed k=3, 36-vertex original-problem counterexample; all-odd-k family and diamond-freeness have written proofs only."
+    }
+  ],
+  "report": {
+    "path": "REVIEW.md",
+    "sha256": "8331fb5d76ca30a601fe8a8999c51120662a6ca09ddaf4ee9ef0183c599b1b85"
+  }
+}
