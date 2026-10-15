@@ -20,7 +20,7 @@ Snapshot: 15 October 2026. All 14 remote branches were inventoried. A branch inv
 | Finite-window instruction scheduling, ILP1 | A 17-page branch draft, formal semantics and algorithmic/online claims; latest formal scope differs from the older PDF | Potential algorithmic paper, not ready for this batch. Reconcile the manuscript with current theorems and audit overlap with classical scheduling/event-DAG theory. The idealized model is not a complete processor. |
 | Circulant RD, Ascon, RSA and other legacy material | Precisely qualified evidence in the [scientific catalog](../RESEARCH_RESULTS.md) | Originality and actual cryptanalytic relevance remain separate gates. Do not present classical RSA recovery, fixed-path probabilities or limited formal lemmas as new complete attacks. |
 
-The two new version-0.3 manuscripts name River Zhang, ORCID 0009-0004-2437-8566, correspondence mioqwq@hotmail.com. Manuscript PDF and LaTeX are CC BY 4.0; proof software retains original licenses. Their preprint files have been prepared, but neither has a new registered DOI or journal submission. The [manual Zenodo guide](ZENODO_UPLOAD_GUIDE.md) specifies separate new records.
+The two new version-0.3 manuscripts name River Zhang, ORCID 0009-0004-2437-8566, correspondence mioqwq@hotmail.com. Manuscript PDF and LaTeX are CC BY 4.0; proof software retains original licenses. Their preprint files have been prepared, but neither has a new registered DOI or journal submission.
 
 ## Complete remote-branch snapshot
 

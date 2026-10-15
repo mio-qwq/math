@@ -74,10 +74,9 @@ Direct retrieval of the original journal DOI landing page and [Togni's publicati
 
 The review did not exhaust subscription databases, nonindexed preprints, private manuscripts, all code repositories or all equivalent formulations. No commercial text-similarity service was run. The report therefore supports continued, qualified manuscript preparation rather than a global priority claim. Newly located same-scope work would require renewed comparison and, where appropriate, revised attribution.
 
-## Reproducibility and upload materials
+## Manuscripts and reproducibility materials
 
 - [Lower-GP version 0.3](../lower-gp-cartesian-v0.3/README.md)
 - [Packing-coloring version 0.3](../clawfree-packing-v0.3/README.md)
-- [Manual Zenodo upload files and metadata](../ZENODO_UPLOAD_GUIDE.md)
 
 This report supplements the preserved originality reports in the reproducibility archives. It does not replace their dated evidence or alter the frozen manuscript files.
